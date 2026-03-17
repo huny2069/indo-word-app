@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getWords, getFolders, addWord, addFolder } from '../db/database';
 import { fetchGeminiModels } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
+import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
 
 // 구글 드라이브 백업/복원용 설정 객체
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
@@ -40,7 +41,7 @@ const Settings = () => {
     }
     const client = window.google.accounts.oauth2.initTokenClient({
       client_id: CLIENT_ID,
-      scope: GCP_SCOPES,
+      scope: SCOPES, // GCP_SCOPES 대신 모든 권한이 포함된 SCOPES 사용
       callback: (tokenResponse) => {
         if (tokenResponse && tokenResponse.access_token) {
           localStorage.setItem('gcp_access_token', tokenResponse.access_token);
@@ -147,6 +148,100 @@ const Settings = () => {
       }
     };
     reader.readAsText(file);
+  };
+
+  // --- Google Drive Cloud Backup 로직 ---
+  const [isDriveOperating, setIsDriveOperating] = useState(false);
+
+  const handleBackupToDrive = async () => {
+    if (!gcpAccessToken) {
+      alert("먼저 구글 로그인을 완료해주세요.");
+      handleGoogleLogin();
+      return;
+    }
+
+    if (!window.confirm("현재 단어장 데이터를 구글 드라이브에 백업하시겠습니까? (기존 백업은 덮어씌워집니다)")) return;
+
+    setIsDriveOperating(true);
+    try {
+      const words = await getWords();
+      const folders = await getFolders();
+      const backupData = {
+        words,
+        folders,
+        timestamp: new Date().toISOString(),
+        version: '1.0'
+      };
+
+      await uploadBackupToDrive(gcpAccessToken, backupData);
+      alert("구글 드라이브 백업 완료! 🍌☁️");
+    } catch (err) {
+      console.error("Drive Backup Error:", err);
+      if (err.message.includes('401') || err.message.includes('403')) {
+          localStorage.removeItem('gcp_access_token');
+          setGcpAccessToken('');
+          alert("로그인 세션이 만료되었습니다. 다시 로그인 해주세요.");
+      } else {
+          alert("백업 중 오류가 발생했습니다: " + err.message);
+      }
+    } finally {
+      setIsDriveOperating(false);
+    }
+  };
+
+  const handleRestoreFromDrive = async () => {
+    if (!gcpAccessToken) {
+      alert("먼저 구글 로그인을 완료해주세요.");
+      handleGoogleLogin();
+      return;
+    }
+
+    setIsDriveOperating(true);
+    try {
+      const backupFile = await searchBackupFile(gcpAccessToken);
+      if (!backupFile) {
+        alert("구글 드라이브에서 백업 파일을 찾을 수 없습니다.");
+        return;
+      }
+
+      if (!window.confirm(`${new Date(backupFile.modifiedTime).toLocaleString()}에 생성된 백업 데이터가 있습니다. 지금 복원하시겠습니까? (기본 데이터와 합쳐집니다)`)) return;
+
+      const backupData = await downloadBackupFromDrive(gcpAccessToken, backupFile.id);
+      
+      // 복원 로직
+      let addCount = 0;
+      let skipCount = 0;
+
+      // 1. 단어 복원
+      if (backupData.words && Array.isArray(backupData.words)) {
+        for (const w of backupData.words) {
+          try {
+            const { id, ...data } = w;
+            await addWord(data);
+            addCount++;
+          } catch (e) {
+            skipCount++;
+          }
+        }
+      }
+
+      // 2. 폴더 복원 (폴더는 중복 방지 로직이 약하므로 이름 기반 체크 권장되지만, 
+      // 현재 DB 구조상 간단히 추가 처리하거나 필요시 고도화)
+      if (backupData.folders && Array.isArray(backupData.folders)) {
+        for (const f of backupData.folders) {
+          try {
+            await addFolder(f.name);
+          } catch (e) {}
+        }
+      }
+
+      alert(`복원 완료! 🍌🚀\n- 새로 추가됨: ${addCount}개\n- 중복 스킵됨: ${skipCount}개`);
+    } catch (err) {
+      console.error("Drive Restore Error:", err);
+      alert("복원 중 오류가 발생했습니다: " + err.message);
+    } finally {
+      setIsDriveOperating(false);
+    }
   };
 
   const handleJsonImport = async () => {
@@ -469,6 +564,40 @@ const Settings = () => {
             </button>
         </div>
         <p style={{ fontSize: '0.8rem', color: '#aaa', marginTop: '1rem', textAlign: 'center' }}>팁: 내보낸 CSV 파일은 엑셀이나 구글 시트에서 열어 직접 수정할 수도 있습니다.</p>
+      </div>
+
+      <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', marginBottom: '5rem', border: '2px solid #4285f4' }}>
+        <h3 style={{color: '#4285f4', display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" alt="Gdrive" style={{width: '24px'}} />
+            구글 드라이브 클라우드 백업
+        </h3>
+        <p style={{ color: '#666', fontSize: '0.9rem', margin: '0.5rem 0 1.5rem' }}>로그인 한 번으로 기기가 바뀌어도 내 단어장을 즉시 불러올 수 있습니다.</p>
+        
+        {!gcpAccessToken ? (
+            <button 
+                onClick={handleGoogleLogin}
+                style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem' }}>
+                Google 계정으로 클라우드 연동하기
+            </button>
+        ) : (
+            <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
+                <button 
+                    onClick={handleBackupToDrive}
+                    disabled={isDriveOperating}
+                    style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
+                    {isDriveOperating ? '백업 중...' : '📤 현재 데이터 클라우드에 백업'}
+                </button>
+                <button 
+                    onClick={handleRestoreFromDrive}
+                    disabled={isDriveOperating}
+                    style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#fbbc05', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
+                    {isDriveOperating ? '복원 중...' : '📥 클라우드에서 데이터 가져오기'}
+                </button>
+            </div>
+        )}
+        <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '1rem', background: '#f8f9fa', padding: '0.5rem', borderRadius: '4px' }}>
+            * 백업 데이터는 사용자 본인의 구글 드라이브에 <b>'indo-word-app-backup.json'</b> 파일로 저장됩니다.
+        </p>
       </div>
 
       {isJsonModalOpen && (
