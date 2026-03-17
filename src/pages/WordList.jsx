@@ -508,12 +508,12 @@ const WordList = () => {
                          <div onClick={(e) => { e.stopPropagation(); handleToggleCart(w); }} style={{ background: isCarted ? '#fff9db' : 'none', padding: '0.2rem', borderRadius: '4px', cursor: 'pointer', color: isCarted ? '#f39c12' : '#eee' }}>
                              <ShoppingCart size={18} />
                          </div>
-                        <div style={{ display: 'flex', flex: 1, alignItems: 'center', gap: '0.5rem' }}>
-                            <span onClick={(e) => hideWords && handleToggleReveal(e, w.id, 'word')} style={{ fontWeight: 'bold', fontSize: '1.1rem', color: 'var(--primary-color)', minWidth: '110px', filter: isWordHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s' }}>
+                        <div style={{ display: 'flex', flex: 1, alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', minWidth: 0 }}>
+                            <span onClick={(e) => hideWords && handleToggleReveal(e, w.id, 'word')} style={{ fontWeight: 'bold', fontSize: '1.1rem', color: 'var(--primary-color)', minWidth: '80px', flexShrink: 0, filter: isWordHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s' }}>
                                 {w.word}
                             </span>
-                            <span style={{ fontSize: '0.9rem', color: '#888' }}>|</span>
-                            <span onClick={(e) => hideMeanings && handleToggleReveal(e, w.id, 'meaning')} style={{ fontWeight: '500', flex: 1, filter: isMeaningHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s' }}>
+                            <span style={{ fontSize: '0.9rem', color: '#888', display: 'inline-block' }}>|</span>
+                            <span onClick={(e) => hideMeanings && handleToggleReveal(e, w.id, 'meaning')} style={{ fontWeight: '500', flex: 1, minWidth: '120px', filter: isMeaningHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', wordBreak: 'keep-all' }}>
                                 {w.meaning}
                             </span>
                         </div>
@@ -530,11 +530,11 @@ const WordList = () => {
                           <style>{`@keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }`}</style>
                           <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '1rem', animation: 'fadeIn 0.2s ease-out' }}>
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
-                                {w.context && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start' }}><b style={{ color: '#2e7d32', display: 'inline-block', width: '110px', flexShrink: 0, whiteSpace: 'nowrap' }}>📌 사용 상황:</b> <span style={{ flex: 1 }}>{w.context}</span></div>}
-                                {w.caution && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start' }}><b style={{ color: '#c62828', display: 'inline-block', width: '110px', flexShrink: 0, whiteSpace: 'nowrap' }}>⚠️ 유의할 점:</b> <span style={{ flex: 1 }}>{w.caution}</span></div>}
-                                {w.related && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start' }}><b style={{ color: '#1565c0', display: 'inline-block', width: '110px', flexShrink: 0, whiteSpace: 'nowrap' }}>💡 유사어/팁:</b> <span style={{ flex: 1 }}>{w.related}</span></div>}
-                                {w.root && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start' }}><b style={{ color: '#666', display: 'inline-block', width: '110px', flexShrink: 0, whiteSpace: 'nowrap' }}>🌱 어　근:</b> <span style={{ flex: 1 }}>{w.root}</span></div>}
-                                {w.grammar_rule && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start' }}><b style={{ color: '#8e44ad', display: 'inline-block', width: '110px', flexShrink: 0, whiteSpace: 'nowrap' }}>📘 문법/변형:</b> <span style={{ flex: 1 }}>{w.grammar_rule}</span></div>}
+                                {w.context && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#2e7d32', display: 'inline-block', width: '90px', flexShrink: 0 }}>📌 사용 상황:</b> <span style={{ flex: 1 }}>{w.context}</span></div>}
+                                {w.caution && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#c62828', display: 'inline-block', width: '90px', flexShrink: 0 }}>⚠️ 유의할 점:</b> <span style={{ flex: 1 }}>{w.caution}</span></div>}
+                                {w.related && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#1565c0', display: 'inline-block', width: '90px', flexShrink: 0 }}>💡 유사어/팁:</b> <span style={{ flex: 1 }}>{w.related}</span></div>}
+                                {w.root && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#666', display: 'inline-block', width: '90px', flexShrink: 0 }}>🌱 어　근:</b> <span style={{ flex: 1 }}>{w.root}</span></div>}
+                                {w.grammar_rule && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#8e44ad', display: 'inline-block', width: '90px', flexShrink: 0 }}>📘 문법/변형:</b> <span style={{ flex: 1 }}>{w.grammar_rule}</span></div>}
                              </div>
 
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
