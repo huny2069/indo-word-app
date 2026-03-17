@@ -508,12 +508,11 @@ const WordList = () => {
                          <div onClick={(e) => { e.stopPropagation(); handleToggleCart(w); }} style={{ background: isCarted ? '#fff9db' : 'none', padding: '0.2rem', borderRadius: '4px', cursor: 'pointer', color: isCarted ? '#f39c12' : '#eee' }}>
                              <ShoppingCart size={18} />
                          </div>
-                        <div style={{ display: 'flex', flex: 1, alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', minWidth: 0 }}>
-                            <span onClick={(e) => hideWords && handleToggleReveal(e, w.id, 'word')} style={{ fontWeight: 'bold', fontSize: '1.1rem', color: 'var(--primary-color)', minWidth: '80px', flexShrink: 0, filter: isWordHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s' }}>
+                        <div style={{ display: 'flex', flex: 1, flexDirection: 'column', gap: '0.2rem', minWidth: 0, justifyContent: 'center' }}>
+                            <span onClick={(e) => hideWords && handleToggleReveal(e, w.id, 'word')} style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--primary-color)', filter: isWordHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', lineHeight: '1.2' }}>
                                 {w.word}
                             </span>
-                            <span style={{ fontSize: '0.9rem', color: '#888', display: 'inline-block' }}>|</span>
-                            <span onClick={(e) => hideMeanings && handleToggleReveal(e, w.id, 'meaning')} style={{ fontWeight: '500', flex: 1, minWidth: '120px', filter: isMeaningHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', wordBreak: 'keep-all' }}>
+                            <span onClick={(e) => hideMeanings && handleToggleReveal(e, w.id, 'meaning')} style={{ fontWeight: '500', fontSize: '1rem', color: '#555', filter: isMeaningHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', wordBreak: 'keep-all', lineHeight: '1.4' }}>
                                 {w.meaning}
                             </span>
                         </div>
