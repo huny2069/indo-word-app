@@ -1,3 +1,5 @@
+import { logUsage } from './supabase';
+
 export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash-latest', excludeWords = [], isIndoMode = false) => {
   if (!apiKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
   if (count <= 0 || count > 30) throw new Error('단어 개수는 1에서 30 사이여야 합니다.');
@@ -78,6 +80,18 @@ ${excludeWords.length > 0 ? `반드시 다음 단어들은 이미 학습했으�
         const costNow = (promptTokenCount * inputRate) + (candidatesTokenCount * outputRate);
         const prevCost = parseFloat(localStorage.getItem('total_gemini_cost_usd') || '0');
         localStorage.setItem('total_gemini_cost_usd', (prevCost + costNow).toFixed(6));
+
+        // [추가] Supabase 중앙 통계 서버로 로그 전송
+        try {
+            logUsage({
+                user_id: localStorage.getItem('user_device_id') || 'anonymous',
+                tokens_used: totalTokenCount,
+                cost_usd: costNow,
+                topic: topic
+            });
+        } catch (err) {
+            console.warn("Logging to Supabase failed:", err);
+        }
     }
 
     const textContent = data.candidates[0].content.parts[0].text;

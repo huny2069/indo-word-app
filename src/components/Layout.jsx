@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { Home, BookOpen, GraduationCap, Settings as SettingsIcon, Sparkles, AlertCircle, Info, Languages, ChevronDown } from 'lucide-react';
+import { Home, BookOpen, GraduationCap, Settings as SettingsIcon, Sparkles, AlertCircle, Info, Languages, ChevronDown, BarChart3 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Layout = () => {
@@ -28,6 +28,7 @@ const Layout = () => {
     { path: '/incorrect', label: t('nav_incorrect'), icon: <AlertCircle size={24} /> },
     { path: '/guide', label: t('nav_guide'), icon: <Info size={24} /> },
     { path: '/settings', label: t('nav_settings'), icon: <SettingsIcon size={24} /> },
+    { path: '/statistics', label: t('nav_stats'), icon: <BarChart3 size={24} /> },
   ];
 
   const languages = [

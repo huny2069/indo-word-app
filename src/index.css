@@ -96,13 +96,39 @@ body {
   padding-bottom: 2rem;
 }
 
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  background: white;
+  display: flex;
+  justify-content: flex-start; /* 스크롤을 위해 변경 */
+  overflow-x: auto; /* 항목이 많을 경우 스크롤 가능하게 */
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+  border-top: 1px solid #eee;
+  z-index: 1000;
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.05);
+  -webkit-overflow-scrolling: touch;
+}
+
+.bottom-nav::-webkit-scrollbar {
+  display: none; /* 스크롤바 숨기기 */
+}
+
 .bottom-nav a {
+  flex: 0 0 auto; /* 너비 고정 */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 50px;
+  color: #888;
   text-decoration: none;
-  color: #7f8c8d;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
+  font-weight: bold;
   gap: 0.25rem;
   transition: color 0.2s;
 }
@@ -193,6 +219,17 @@ body {
 .srs-btn.master:hover { background: #f0fff4; border-color: #9ae6b4; }
 
 .srs-btn:active { transform: translateY(2px); }
+
+@keyframes popIn {
+  from { transform: scale(0.85); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* 통계 카드 호버 효과 */
+.stats-card-hover:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
 
 /* 객관식 퀴즈 버튼 스타일 */
 .quiz-option-btn {

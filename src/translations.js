@@ -8,6 +8,7 @@ export const translations = {
     nav_incorrect: '오답노트',
     nav_settings: '설정',
     nav_guide: '가이드',
+    nav_stats: '중앙 통계',
     
     // Common
     btn_save: '저장',
@@ -239,6 +240,7 @@ export const translations = {
     nav_incorrect: 'Catatan Kesalahan',
     nav_settings: 'Pengaturan',
     nav_guide: 'Panduan',
+    nav_stats: 'Statistik',
     
     // Common
     btn_save: 'Simpan',
