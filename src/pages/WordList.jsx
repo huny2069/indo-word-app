@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { getWords, getCartWords, toggleCartItem, addWordsToCart, removeWordsFromCart, updateWord, deleteWords, getFolders, moveWordsToFolder, clearCart } from '../db/database';
 import { playAudio } from '../api/ttsApi';
-import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, Volume2, CheckSquare, Square, ShoppingCart, ChevronDown, ChevronUp, Sparkles, HelpCircle } from 'lucide-react';
+import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, Volume2, CheckSquare, Square, ShoppingCart, ChevronDown, ChevronUp, Sparkles, HelpCircle, List, X, ChevronLeft, CornerUpRight, ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import InteractiveSentence from '../components/InteractiveSentence';
@@ -52,10 +52,10 @@ const WordList = () => {
   };
 
   const handleClearCart = async () => {
-    if (window.confirm('나나의 바구니를 모두 비울까요?')) {
+    if (window.confirm(t('msg_clear_cart_confirm'))) {
       await clearCart();
       setCartIds(new Set());
-      alert('바구니가 비워졌습니다. 🍌');
+      alert(t('msg_clear_cart_done'));
     }
   };
 
@@ -100,7 +100,7 @@ const WordList = () => {
   const groupedByDate = useMemo(() => {
     const groups = {};
     words.forEach(w => {
-      const date = w.created_at ? w.created_at.substring(0, 10) : '이전 단어';
+      const date = w.created_at ? w.created_at.substring(0, 10) : t('list_no_date');
       if (!groups[date]) groups[date] = [];
       groups[date].push(w);
     });
@@ -112,7 +112,7 @@ const WordList = () => {
     const groups = {};
     words.forEach(w => {
       // 기존 단어나 topic이 없는 단어는 '기본 단어'로 분류
-      const tp = (w.topic && w.topic.trim()) ? w.topic.trim() : '기본 단어';
+      const tp = (w.topic && w.topic.trim()) ? w.topic.trim() : t('list_no_topic');
       if (!groups[tp]) groups[tp] = [];
       groups[tp].push(w);
     });
@@ -123,7 +123,7 @@ const WordList = () => {
   const groupedByPos = useMemo(() => {
     const groups = {};
     words.forEach(w => {
-      const p = (w.pos && w.pos.trim()) ? w.pos.trim() : '기타/미분류';
+      const p = (w.pos && w.pos.trim()) ? w.pos.trim() : t('list_no_pos');
       if (!groups[p]) groups[p] = [];
       groups[p].push(w);
     });
@@ -198,9 +198,9 @@ const WordList = () => {
         await removeWordsFromCart(Array.from(selectedIds)); // Also remove from cart if selected
         setSelectedIds(new Set());
         loadData(); // Use loadData to refresh
-        alert('삭제되었습니다.');
+        alert(t('msg_delete_done'));
       } catch (err) {
-        alert('삭제 중 오류가 발생했습니다.');
+        alert(t('msg_delete_error'));
       }
     }
   };
@@ -214,7 +214,7 @@ const WordList = () => {
       return next;
     });
     setSelectedIds(new Set()); // Clear selection after adding to cart
-    alert(`${selectedIds.size}개의 단어가 나나의 바구니에 담겼습니다!`);
+    alert(t('msg_cart_added', { count: selectedIds.size }));
   };
 
 
@@ -252,7 +252,7 @@ const WordList = () => {
 
   const handleMoveSelected = async () => {
     if (!moveFolderId) {
-      alert('이동할 폴더를 선택해주세요.');
+      alert(t('msg_move_no_folder'));
       return;
     }
     try {
@@ -260,9 +260,9 @@ const WordList = () => {
       setSelectedIds(new Set());
       setIsMoveModalOpen(false);
       loadData();
-      alert('이동이 완료되었습니다.');
+      alert(t('msg_move_done'));
     } catch (err) {
-      alert('이동 중 오류가 발생했습니다.');
+      alert(t('msg_move_error'));
     }
   };
 
@@ -276,22 +276,22 @@ const WordList = () => {
              <button 
                 onClick={() => { setViewMode('folder'); setSelectedDate(null); setSelectedTopic(null); setSelectedPos(null); setExpandedId(null); }}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', padding: '0.5rem 0.8rem', background: viewMode === 'folder' ? 'var(--primary-color)' : '#eee', color: viewMode === 'folder' ? '#fff' : '#555', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}>
-               <Folder size={18} /> 생성일별
+               <Folder size={18} /> {t('list_sort_date')}
              </button>
              <button 
                 onClick={() => { setViewMode('topic'); setSelectedDate(null); setSelectedTopic(null); setSelectedPos(null); setExpandedId(null); }}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', padding: '0.5rem 0.8rem', background: viewMode === 'topic' ? 'var(--primary-color)' : '#eee', color: viewMode === 'topic' ? '#fff' : '#555', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}>
-               <Folder size={18} /> 주제별
+               <Folder size={18} /> {t('list_sort_topic')}
              </button>
              <button 
                 onClick={() => { setViewMode('pos'); setSelectedDate(null); setSelectedTopic(null); setSelectedPos(null); setExpandedId(null); }}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', padding: '0.5rem 0.8rem', background: viewMode === 'pos' ? 'var(--primary-color)' : '#eee', color: viewMode === 'pos' ? '#fff' : '#555', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}>
-               <Folder size={18} /> 문법별
+               <Folder size={18} /> {t('list_sort_pos')}
              </button>
              <button 
                 onClick={() => { setViewMode('list'); setExpandedId(null); }}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', padding: '0.5rem 0.8rem', background: viewMode === 'list' ? 'var(--primary-color)' : '#eee', color: viewMode === 'list' ? '#fff' : '#555', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}>
-               <List size={18} /> 전체보기
+               <List size={18} /> {t('list_all_view')}
              </button>
            </div>
         </div>
@@ -299,17 +299,17 @@ const WordList = () => {
         {cartIds.size > 0 && (
             <div style={{ background: '#fff9db', padding: '1.2rem', borderRadius: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', border: '3px solid #feca57', boxShadow: '0 4px 0 #feca57', marginBottom: '1.5rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    <p style={{ margin: 0, color: '#856404', fontWeight: 'bold' }}>🛒 나나의 바구니에 {cartIds.size}개 담김</p>
+                    <p style={{ margin: 0, color: '#856404', fontWeight: 'bold' }}>{t('list_cart_summary', { count: cartIds.size })}</p>
                     <button 
                         onClick={handleClearCart}
                         style={{ background: '#fff', border: '1px solid #feca57', padding: '0.3rem 0.6rem', borderRadius: '15px', fontSize: '0.75rem', cursor: 'pointer', color: '#856404', fontWeight: 'bold' }}>
-                        바구니 비우기
+                        {t('learn_cart_clear_btn')}
                     </button>
                 </div>
                 <button 
                     onClick={() => navigate('/learn')}
                     style={{ background: 'linear-gradient(135deg, #feca57, #ff9f43)', color: '#fff', border: 'none', padding: '0.7rem 1.4rem', borderRadius: '30px', fontWeight: '900', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem', boxShadow: '0 4px 0 #e67e22' }}>
-                    나나와 학습하기 <ArrowRight size={18} />
+                    {t('dash_review_btn')} <ArrowRight size={18} />
                 </button>
             </div>
         )}
@@ -323,7 +323,7 @@ const WordList = () => {
                 <Search size={20} color="#9aa0a6" style={{ marginRight: '1rem' }} />
                 <input 
                     type="text" 
-                    placeholder="단어 또는 뜻으로 검색..." 
+                    placeholder={t('search_placeholder')} 
                     value={searchTerm}
                     onChange={handleSearchChange}
                     onFocus={() => setIsSearchFocused(true)}
@@ -361,13 +361,13 @@ const WordList = () => {
                 onClick={() => setHideWords(!hideWords)}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.6rem 1.2rem', borderRadius: '30px', border: '2px solid #3498db', cursor: 'pointer', fontWeight: 'bold', background: hideWords ? '#3498db' : '#fff', color: hideWords ? '#fff' : '#3498db', boxShadow: hideWords ? '0 4px 0 #2980b9' : '0 4px 0 #eee' }}
             >
-                {hideWords ? '👀 단어 보이기' : '🙈 단어 가리기'}
+                {t(hideWords ? 'list_show_word' : 'list_hide_word')}
             </button>
             <button 
                 onClick={() => setHideMeanings(!hideMeanings)}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.6rem 1.2rem', borderRadius: '30px', border: '2px solid #e67e22', cursor: 'pointer', fontWeight: 'bold', background: hideMeanings ? '#e67e22' : '#fff', color: hideMeanings ? '#fff' : '#e67e22', boxShadow: hideMeanings ? '0 4px 0 #d35400' : '0 4px 0 #eee' }}
             >
-                {hideMeanings ? '👀 뜻 보이기' : '🙈 뜻 가리기'}
+                {t(hideMeanings ? 'list_show_meaning' : 'list_hide_meaning')}
             </button>
         </div>
 
@@ -376,27 +376,27 @@ const WordList = () => {
               disabled={selectedIds.size === 0}
               onClick={handleDeleteSelected}
               style={{ background: selectedIds.size > 0 ? '#ff4d4f' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '30px', fontWeight: 'bold', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <Trash2 size={16} /> 선택 삭제 ({selectedIds.size})
+              <Trash2 size={16} /> {t('btn_delete_selected')} ({selectedIds.size})
            </button>
            <button 
               disabled={selectedIds.size === 0}
               onClick={() => setIsMoveModalOpen(true)}
               style={{ background: selectedIds.size > 0 ? '#1890ff' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '30px', fontWeight: 'bold', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <CornerUpRight size={16} /> 폴더 이동
+              <CornerUpRight size={16} /> {t('btn_move_folder')}
            </button>
            <button 
               disabled={selectedIds.size === 0}
               onClick={handleAddToCart}
               style={{ background: selectedIds.size > 0 ? '#52c41a' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '30px', fontWeight: 'bold', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <ShoppingCart size={16} /> 장바구니 담기
+              <ShoppingCart size={16} /> {t('btn_add_to_cart')}
            </button>
        </div>
       </header>
       
       {words.length === 0 ? (
         <div style={{ background: '#fff', padding: '3rem 2rem', textAlign: 'center', borderRadius: '8px', color: '#888', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
-          저장된 인도네시아어 단어가 없습니다.<br/>
-          <strong>✨ 단어생성</strong> 탭으로 이동하여 새로운 단어를 만들어보세요!
+          {isIndoMode ? "Belum ada kosakata yang disimpan." : "저장된 인도네시아어 단어가 없습니다."}<br/>
+          <strong>✨ {t('nav_generate')}</strong> {isIndoMode ? "Pindah ke tab Buat Kata untuk membuat kata baru!" : "탭으로 이동하여 새로운 단어를 만들어보세요!"}
         </div>
       ) : (
         <>
@@ -410,7 +410,7 @@ const WordList = () => {
                  >
                     <Folder size={48} color="#feca57" style={{ marginBottom: '0.5rem' }} />
                     <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--nana-dark)', fontWeight: '900' }}>{dateStr}</h3>
-                    <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: '#f39c12', fontWeight: 'bold' }}>{groupedByDate[dateStr].length} 단어</p>
+                    <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: '#f39c12', fontWeight: 'bold' }}>{t('list_word_count', { count: groupedByDate[dateStr].length })}</p>
                  </div>
               ))}
             </div>
@@ -426,7 +426,7 @@ const WordList = () => {
                  >
                     <Folder size={48} color="#00b894" style={{ marginBottom: '0.5rem' }} />
                     <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--nana-dark)', fontWeight: '900', wordBreak: 'keep-all' }}>{topicStr}</h3>
-                    <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: '#00b894', fontWeight: 'bold' }}>{groupedByTopic[topicStr].length} 단어</p>
+                    <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: '#00b894', fontWeight: 'bold' }}>{t('list_word_count', { count: groupedByTopic[topicStr].length })}</p>
                  </div>
               ))}
             </div>
@@ -442,7 +442,7 @@ const WordList = () => {
                  >
                     <Folder size={48} color="#0984e3" style={{ marginBottom: '0.5rem' }} />
                     <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--nana-dark)', fontWeight: '900', wordBreak: 'keep-all' }}>{posStr}</h3>
-                    <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: '#0984e3', fontWeight: 'bold' }}>{groupedByPos[posStr].length} 단어</p>
+                    <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: '#0984e3', fontWeight: 'bold' }}>{t('list_word_count', { count: groupedByPos[posStr].length })}</p>
                  </div>
               ))}
             </div>
@@ -463,17 +463,17 @@ const WordList = () => {
                  )}
                  {viewMode === 'pos' && selectedPos && (
                      <button onClick={() => setSelectedPos(null)} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', background: 'none', border: 'none', cursor: 'pointer', color: '#555', fontWeight: 'bold' }}>
-                         <ChevronLeft size={20} /> 뒤로가기 ({selectedPos})
+                         <ChevronLeft size={20} /> {t('btn_back')} ({selectedPos})
                      </button>
                  )}
                  {viewMode === 'list' && (
                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <label style={{ fontSize: '0.9rem', color: '#666', fontWeight: 'bold' }}>정렬:</label>
+                        <label style={{ fontSize: '0.9rem', color: '#666', fontWeight: 'bold' }}>{t('list_sort_label')}</label>
                         <select value={sortOption} onChange={e => {setSortOption(e.target.value); setExpandedId(null);}} style={{ padding: '0.4rem', borderRadius: '4px', border: '1px solid #ccc' }}>
-                           <option value="latest">최근 추가순</option>
-                           <option value="oldest">오래된 순</option>
-                           <option value="alphabetical">알파벳순 (A-Z)</option>
-                           <option value="pos">품사별 그룹핑</option>
+                           <option value="latest">{t('list_sort_latest')}</option>
+                           <option value="oldest">{t('list_sort_oldest')}</option>
+                           <option value="alphabetical">{t('list_sort_abc')}</option>
+                           <option value="pos">{t('list_sort_pos_group')}</option>
                         </select>
                      </div>
                  )}
@@ -482,7 +482,7 @@ const WordList = () => {
                     onClick={handleToggleSelectAll}
                     style={{ background: '#fff', border: '1px solid #ccc', padding: '0.5rem 1rem', borderRadius: '30px', cursor: 'pointer', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#333' }}>
                     {isAllSelected ? <CheckSquare size={18} color="var(--primary-color)" /> : <Square size={18} />} 
-                    {isAllSelected ? '모두 선택 해제' : '현재 화면 모두 선택'}
+                    {isAllSelected ? t('list_all_deselect') : t('list_all_select')}
                  </button>
               </div>
 
@@ -512,17 +512,17 @@ const WordList = () => {
                          </div>
                         <div style={{ display: 'flex', flex: 1, flexDirection: 'column', gap: '0.2rem', minWidth: 0, justifyContent: 'center' }}>
                             <span onClick={(e) => hideWords && handleToggleReveal(e, w.id, 'word')} style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--primary-color)', filter: isWordHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', lineHeight: '1.2' }}>
-                                {isIndoMode ? w.meaning : w.word}
+                                {w.word}
                             </span>
                             <span onClick={(e) => hideMeanings && handleToggleReveal(e, w.id, 'meaning')} style={{ fontWeight: '500', fontSize: '1rem', color: '#555', filter: isMeaningHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', wordBreak: 'keep-all', lineHeight: '1.4' }}>
-                                {isIndoMode ? w.word : w.meaning}
+                                {w.meaning}
                             </span>
                         </div>
                         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                            <button onClick={(e) => { e.stopPropagation(); playAudio(w.word); }} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2' }}>
                               <Volume2 size={20} />
                            </button>
-                           <span style={{ fontSize: '0.75rem', background: '#f0f0f0', padding: '0.2rem 0.4rem', borderRadius: '4px', color: '#777', minWidth: '40px', textAlign: 'center' }}>{w.pos}</span>
+                           <span style={{ fontSize: '0.75rem', background: '#f0f0f0', padding: '0.2rem 0.4rem', borderRadius: '4px', color: '#777', minWidth: '40px', textAlign: 'center' }}>{t('pos_' + (w.pos === '명사'?'noun':w.pos === '동사'?'verb':w.pos === '형용사'?'adj':w.pos === '부사'?'adv':w.pos === '대명사'?'pronoun':w.pos === '수사'?'numeral':w.pos === '전치사'?'preposition':w.pos === '접속사'?'conjunction':w.pos === '감탄사'?'interjection':w.pos === '한정사'?'determiner':'noun'))}</span>
                         </div>
                       </div>
 
@@ -531,32 +531,32 @@ const WordList = () => {
                           <style>{`@keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }`}</style>
                           <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '1rem', animation: 'fadeIn 0.2s ease-out' }}>
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
-                                {w.context && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#2e7d32', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_context')}:</b> <span style={{ flex: 1 }}>{w.context}</span></div>}
-                                {w.caution && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#c62828', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_caution')}:</b> <span style={{ flex: 1 }}>{w.caution}</span></div>}
-                                {w.related && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#1565c0', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_related')}:</b> <span style={{ flex: 1 }}>{w.related}</span></div>}
-                                {w.root && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#666', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_root')}:</b> <span style={{ flex: 1 }}>{w.root}</span></div>}
-                                {w.grammar_rule && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#8e44ad', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_grammar')}:</b> <span style={{ flex: 1 }}>{w.grammar_rule}</span></div>}
+                                {w.context && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#2e7d32', display: 'inline-block', width: '110px', flexShrink: 0 }}>{t('label_context')}:</b> <span style={{ flex: 1 }}>{w.context}</span></div>}
+                                {w.caution && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#c62828', display: 'inline-block', width: '110px', flexShrink: 0 }}>{t('label_caution')}:</b> <span style={{ flex: 1 }}>{w.caution}</span></div>}
+                                {w.related && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#1565c0', display: 'inline-block', width: '110px', flexShrink: 0 }}>{t('label_related')}:</b> <span style={{ flex: 1 }}>{w.related}</span></div>}
+                                {w.root && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#666', display: 'inline-block', width: '110px', flexShrink: 0 }}>{t('label_root')}:</b> <span style={{ flex: 1 }}>{w.root}</span></div>}
+                                {w.grammar_rule && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#8e44ad', display: 'inline-block', width: '110px', flexShrink: 0 }}>{t('label_grammar')}:</b> <span style={{ flex: 1 }}>{w.grammar_rule}</span></div>}
                              </div>
 
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
                                 {w.example_formal && (
                                     <div style={{ background: '#f5f7f9', padding: '1rem', borderRadius: '10px' }}>
                                         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
-                                            <span style={{ color: '#2c3e50', fontWeight: 'bold', width: '90px' }}>{isIndoMode ? '🌟 Formal:' : '🌟 격식체:'}</span>
-                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={isIndoMode ? w.example_formal_kr : w.example_formal} wordBreakdown={w.word_breakdown} /></div>
-                                            <button onClick={() => playAudio(isIndoMode ? w.example_formal_kr : w.example_formal)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2' }}><Volume2 size={18} /></button>
+                                            <span style={{ color: '#2c3e50', fontWeight: 'bold', width: '110px', flexShrink: 0 }}>🌟 {t('label_formal')}:</span>
+                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={w.example_formal} wordBreakdown={w.word_breakdown} /></div>
+                                            <button onClick={() => playAudio(w.example_formal)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2' }}><Volume2 size={18} /></button>
                                         </div>
-                                        <p style={{ margin: '0 0 0 6.2rem', fontSize: '0.9rem', color: '#666' }}>{isIndoMode ? w.example_formal : w.example_formal_kr}</p>
+                                        <p style={{ margin: '0 0 0 calc(110px + 0.5rem)', fontSize: '0.9rem', color: '#666' }}>{w.example_formal_kr}</p>
                                     </div>
                                 )}
                                 {w.example_casual && (
                                     <div style={{ background: '#fff3e0', padding: '1rem', borderRadius: '10px' }}>
                                         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
-                                            <span style={{ color: '#d35400', fontWeight: 'bold', width: '90px' }}>{isIndoMode ? '🗣️ Casual:' : '🗣️ 구어체:'}</span>
-                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={isIndoMode ? w.example_casual_kr : w.example_casual} wordBreakdown={w.word_breakdown} /></div>
-                                            <button onClick={() => playAudio(isIndoMode ? w.example_casual_kr : w.example_casual)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#d35400' }}><Volume2 size={18} /></button>
+                                            <span style={{ color: '#d35400', fontWeight: 'bold', width: '110px', flexShrink: 0 }}>🗣️ {t('label_casual')}:</span>
+                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={w.example_casual} wordBreakdown={w.word_breakdown} /></div>
+                                            <button onClick={() => playAudio(w.example_casual)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#d35400' }}><Volume2 size={18} /></button>
                                         </div>
-                                        <p style={{ margin: '0 0 0 6.2rem', fontSize: '0.9rem', color: '#666' }}>{isIndoMode ? w.example_casual : w.example_casual_kr}</p>
+                                        <p style={{ margin: '0 0 0 calc(110px + 0.5rem)', fontSize: '0.9rem', color: '#666' }}>{w.example_casual_kr}</p>
                                     </div>
                                 )}
                              </div>
@@ -601,8 +601,8 @@ const WordList = () => {
                <h3 style={{ marginTop: 0, textAlign: 'center' }}>✏️ 단어 상세 편집</h3>
                <form onSubmit={handleSaveEdit} style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                    <div><label>인도네시아어</label><input type="text" value={editingWord.word} onChange={e => setEditingWord({...editingWord, word: e.target.value})} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '6px' }} required /></div>
-                    <div><label>한국어 뜻</label><input type="text" value={editingWord.meaning} onChange={e => setEditingWord({...editingWord, meaning: e.target.value})} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '6px' }} required /></div>
+                    <div><label>{t('label_indonesian')}</label><input type="text" value={editingWord.word} onChange={e => setEditingWord({...editingWord, word: e.target.value})} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '6px' }} required /></div>
+                    <div><label>{t('label_korean_meaning')}</label><input type="text" value={editingWord.meaning} onChange={e => setEditingWord({...editingWord, meaning: e.target.value})} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '6px' }} required /></div>
                   </div>
                   <div style={{ display: 'flex', gap: '0.8rem' }}>
                      <button type="submit" style={{ flex: 1, padding: '0.9rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '8px', fontWeight: 'bold' }}>저장</button>

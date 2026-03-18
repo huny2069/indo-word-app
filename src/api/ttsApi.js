@@ -77,7 +77,7 @@ async function playGoogleCloudTTS(text, isIndoMode) {
   if (!accessToken) throw new Error("Google Cloud 액세스 토큰이 없습니다.");
 
   const langCode = isIndoMode ? 'ko-KR' : 'id-ID';
-  const defaultModel = isIndoMode ? 'ko-KR-Standard-A' : 'id-ID-Standard-C';
+  const defaultModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
   const modelName = localStorage.getItem('google_tts_model') || defaultModel;
 
   // V1beta1 API를 사용하여 최신 음성 로드 시도

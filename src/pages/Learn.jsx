@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getWords, getCartWords, updateWord, clearCart } from '../db/database';
 import { playAudio } from '../api/ttsApi';
+import { Volume2 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -227,14 +228,9 @@ const Learn = () => {
     setIsFlipped(false);
     setQuizScore({ correct: 0, total: 0 });
     if (m === 'quiz') generateOptions(0);
-    if (m === 'flashcard' || m === 'spelling') {
-        const targetAudio = isIndoMode ? words[0].meaning : words[0].word;
-        playAudio(targetAudio);
-    }
   };
 
   const handleCardClick = () => {
-    if (!isFlipped && mode === 'flashcard') playAudio(currentWord.word);
     setIsFlipped(!isFlipped);
   };
 
@@ -247,7 +243,6 @@ const Learn = () => {
     const isCorrect = selected.id === currentWord.id;
     if (isCorrect) {
       setQuizScore(prev => ({ ...prev, correct: prev.correct + 1 }));
-      playAudio(currentWord.word);
       await handleSRSUpdate(currentWord, 'good');
     } else {
       // alert은 이제 커스텀 피드백으로 대체하여 생략
@@ -259,17 +254,17 @@ const Learn = () => {
 
   const handleSpellingSubmit = async () => {
     if (!spellInput.trim()) return;
-    const targetWord = isIndoMode ? currentWord.meaning : currentWord.word;
+    const targetWord = isIndoMode ? currentWord.word : currentWord.meaning;
     if (spellInput.trim().toLowerCase() === targetWord.toLowerCase()) {
       await handleSRSUpdate(currentWord, 'good');
     } else {
-      alert(`${isIndoMode ? 'Jawaban Benar (B. Korea)' : '나나의 정답 확인'}: ${targetWord}`);
+      alert(`${t('msg_spelling_answer')}: ${targetWord}`);
       await handleSRSUpdate(currentWord, 'hard');
     }
     nextCard();
   };
 
-  if (loading) return <div className="page" style={{textAlign: 'center', marginTop: '5rem'}}>{isIndoMode ? 'Nana sedang menyiapkan kosakata... 🍌' : '나나가 단어장을 챙겨오고 있어요... 🍌'}</div>;
+  if (loading) return <div className="page" style={{textAlign: 'center', marginTop: '5rem'}}>{t('learn_loading_msg')}</div>;
 
   if (!mode) {
     return (
@@ -342,16 +337,26 @@ const Learn = () => {
         <div onClick={handleCardClick} className={`flashcard-container ${isFlipped ? 'flipped' : ''}`} style={{ height: '380px', perspective: '1000px', cursor: 'pointer', marginBottom: '2rem' }}>
           <div className="flashcard-inner" style={{ position: 'relative', width: '100%', height: '100%', textAlign: 'center', transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)', transformStyle: 'preserve-3d', transform: isFlipped ? 'rotateY(180deg)' : 'none' }}>
             <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #feca57', boxShadow: '0 10px 0 #feca57', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
-                <span style={{background: '#fff9db', color: '#f39c12', padding: '0.5rem 1.2rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: '900', marginBottom: '1.5rem', border: '2px solid #feca57'}}>{currentWord.pos}</span>
-                <h1 style={{ fontSize: '3.8rem', margin: 0, color: 'var(--nana-dark)', wordBreak: 'break-all' }}>
-                  {isIndoMode ? currentWord.meaning : currentWord.word}
-                </h1>
+                <span style={{background: '#fff9db', color: '#f39c12', padding: '0.5rem 1.2rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: '900', marginBottom: '1.5rem', border: '2px solid #feca57'}}>{t('pos_' + (currentWord.pos === '명사'?'noun':currentWord.pos === '동사'?'verb':currentWord.pos === '형용사'?'adj':currentWord.pos === '부사'?'adv':currentWord.pos === '대명사'?'pronoun':currentWord.pos === '수사'?'numeral':currentWord.pos === '전치사'?'preposition':currentWord.pos === '접속사'?'conjunction':currentWord.pos === '감탄사'?'interjection':currentWord.pos === '한정사'?'determiner':'noun'))}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                    <h1 style={{ fontSize: '3.8rem', margin: 0, color: 'var(--nana-dark)', wordBreak: 'break-all' }}>
+                    {isIndoMode ? currentWord.meaning : currentWord.word}
+                    </h1>
+                    <button onClick={(e) => { e.stopPropagation(); playAudio(isIndoMode ? currentWord.meaning : currentWord.word); }} style={{ background: '#feca57', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Volume2 size={24} />
+                    </button>
+                </div>
                 <p style={{ color: '#ccc', marginTop: '2.5rem', fontSize: '0.95rem', fontWeight: 'bold' }}>{t('learn_touch_card')}</p>
             </div>
             <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #ff9f43', boxShadow: '0 10px 0 #ff9f43', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1.5rem', overflow: 'hidden' }}>
-                <h2 style={{ fontSize: '2.5rem', margin: '0 0 1rem 0', color: '#e67e22', fontWeight: '900' }}>
-                  {isIndoMode ? currentWord.word : currentWord.meaning}
-                </h2>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem' }}>
+                    <h2 style={{ fontSize: '2.5rem', margin: 0, color: '#e67e22', fontWeight: '900' }}>
+                    {isIndoMode ? currentWord.word : currentWord.meaning}
+                    </h2>
+                    <button onClick={(e) => { e.stopPropagation(); playAudio(isIndoMode ? currentWord.word : currentWord.meaning); }} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.6rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Volume2 size={20} />
+                    </button>
+                </div>
                 <div style={{ width: '100%', overflowY: 'auto', marginBottom: '1rem' }}>
                     <div style={{ textAlign: 'left', background: '#fffaf0', padding: '1.2rem', borderRadius: '20px', border: '2px dashed #ff9f43' }}>
                         <div style={{ marginBottom: '1rem' }}>
@@ -393,17 +398,19 @@ const Learn = () => {
         <div style={{ background: '#fff', padding: '2.5rem 1.5rem', borderRadius: '35px', border: '4px solid #ff9f43', boxShadow: '0 12px 0 #ff9f43' }}>
           <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
             <span style={{ background: '#fff7ed', color: '#ea580c', padding: '0.6rem 1.2rem', borderRadius: '25px', fontSize: '0.9rem', fontWeight: '900', border: '2px solid #fed7aa' }}>
-                {isIndoMode 
-                  ? (quizType === 'wordToMeaning' ? 'B. Korea ➔ B. Indo' : 'B. Indo ➔ B. Korea')
-                  : (quizType === 'wordToMeaning' ? '인도네시아어 ➔ 한국어' : '한국어 ➔ 인도네시아어')
-                }
+                {quizType === 'wordToMeaning' ? t('quiz_direction_ko_id') : t('quiz_direction_id_ko')}
             </span>
-            <h2 style={{ marginTop: '2rem', fontSize: '2.8rem', color: 'var(--nana-dark)', fontWeight: '900' }}>
-                {quizType === 'wordToMeaning' 
-                   ? (isIndoMode ? currentWord.meaning : currentWord.word) 
-                   : (isIndoMode ? currentWord.word : currentWord.meaning)
-                }
-            </h2>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
+                <h2 style={{ margin: 0, fontSize: '2.8rem', color: 'var(--nana-dark)', fontWeight: '900' }}>
+                    {quizType === 'wordToMeaning' 
+                    ? (isIndoMode ? currentWord.meaning : currentWord.word) 
+                    : (isIndoMode ? currentWord.word : currentWord.meaning)
+                    }
+                </h2>
+                <button onClick={() => playAudio(quizType === 'wordToMeaning' ? (isIndoMode ? currentWord.meaning : currentWord.word) : (isIndoMode ? currentWord.word : currentWord.meaning))} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <Volume2 size={24} />
+                </button>
+            </div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '5px', marginTop: '1rem' }}>
                 <img src="/assets/img/nana.png" style={{ width: '50px' }} alt="nana-quiz" />
             </div>
@@ -452,7 +459,7 @@ const Learn = () => {
         <div style={{ background: '#fff', padding: '3rem 2rem', borderRadius: '35px', border: '4px solid #1dd1a1', boxShadow: '0 12px 0 #1dd1a1', textAlign: 'center' }}>
           <img src="/assets/img/nana.png" className="nana-character" style={{ width: '90px', marginBottom: '1.5rem' }} alt="nana-spelling" />
           <h2 style={{ marginBottom: '1rem', fontSize: '2.2rem', fontWeight: '900' }}>
-            "{isIndoMode ? currentWord.word : currentWord.meaning}"
+            "{isIndoMode ? currentWord.meaning : currentWord.word}"
           </h2>
           <p style={{color: '#888', fontWeight: 'bold', marginBottom: '2rem'}}>
             {t('learn_spelling_hint')}
@@ -462,7 +469,7 @@ const Learn = () => {
             value={spellInput} 
             onChange={e => setSpellInput(e.target.value)} 
             onKeyDown={e => e.key === 'Enter' && handleSpellingSubmit()} 
-            placeholder={isIndoMode ? 'Ketik jawaban...' : '인어 입력...'} 
+            placeholder={t('learn_spelling_ph')} 
             className="spelling-input" 
             style={{ border: '4px solid #eef2f7', borderRadius: '20px', fontSize: '2rem' }} 
             autoFocus 

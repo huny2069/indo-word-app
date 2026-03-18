@@ -21,10 +21,15 @@ export const LanguageProvider = ({ children }) => {
     return translations[lang]?.[key] || key;
   };
 
+  const setLanguage = (newLang) => {
+    if (newLang === 'id') setIsIndoMode(true);
+    else if (newLang === 'ko') setIsIndoMode(false);
+  };
+
   const toggleMode = () => setIsIndoMode(prev => !prev);
 
   return (
-    <LanguageContext.Provider value={{ lang, isIndoMode, toggleMode, t }}>
+    <LanguageContext.Provider value={{ lang, isIndoMode, toggleMode, setLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );

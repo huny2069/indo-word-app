@@ -25,8 +25,8 @@ const Settings = () => {
   const [totalCostUsd, setTotalCostUsd] = useState(0); // [추가] 누적 비용(USD)
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); // [추가] 음성 토글 상태
   const [ttsEngine, setTtsEngine] = useState('gemini'); // [추가] 음성 엔진 선택 상태 (gemini, google, browser)
-  const defaultGoogleModel = isIndoMode ? 'ko-KR-Standard-A' : 'id-ID-Standard-C';
-  const [googleTtsModel, setGoogleTtsModel] = useState(localStorage.getItem('google_tts_model') || defaultGoogleModel); // 고급/표준 선택
+  const defaultGoogleModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
+  const [googleTtsModel, setGoogleTtsModel] = useState(localStorage.getItem('google_tts_model') || defaultGoogleModel);
 
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
   const [jsonInput, setJsonInput] = useState('');
@@ -39,7 +39,7 @@ const Settings = () => {
 
   const handleGoogleLogin = () => {
     if (!window.google) {
-      alert("구글 로그인 스크립트가 완전히 로드되지 않았습니다. 잠시 후 다시 시도해 주세요.");
+      alert(isIndoMode ? "Skrip Login Google belum dimuat. Silakan coba lagi nanti." : "구글 로그인 스크립트가 완전히 로드되지 않았습니다. 잠시 후 다시 시도해 주세요.");
       return;
     }
     const client = window.google.accounts.oauth2.initTokenClient({
@@ -51,7 +51,7 @@ const Settings = () => {
           setGcpAccessToken(tokenResponse.access_token);
           setTtsEngine('google');
           localStorage.setItem('tts_engine', 'google');
-          alert("구글 연동 완료! 🍌 압도적인 음질의 구글 클라우드 TTS가 활성화되었습니다.");
+          alert(isIndoMode ? "Koneksi Google Berhasil! 🍌" : "구글 연동 완료! 🍌 압도적인 음질의 구글 클라우드 TTS가 활성화되었습니다.");
         }
       },
       error_callback: (err) => {
@@ -421,7 +421,7 @@ const Settings = () => {
                         boxShadow: ttsEngine === 'google' ? '0 4px 8px rgba(0,0,0,0.1)' : 'none'
                     }}
                 >
-                    Google Cloud<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>{gcpAccessToken ? (isIndoMode ? "(Premium)" : "(프리미엄)") : (isIndoMode ? "(Login API)" : "(로그인 연동)")}</span>
+                    Google Cloud<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>{gcpAccessToken ? t('set_google_premium') : t('set_google_login')}</span>
                 </button>
                 <button 
                     onClick={() => { setTtsEngine('gemini'); localStorage.setItem('tts_engine', 'gemini'); }}
@@ -495,10 +495,10 @@ const Settings = () => {
             <h3 style={{color: 'var(--primary-color)', margin: 0}}>{t('set_api_title')}</h3>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.2rem' }}>
                 <span style={{ background: '#f0fdf4', color: '#2e7d32', padding: '0.3rem 0.6rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 'bold' }}>
-                    💡 {isIndoMode ? 'Akumulasi Token' : '누적 토큰'}: {totalTokens.toLocaleString()} Token
+                    💡 {t('set_api_tokens')}: {totalTokens.toLocaleString()} Token
                 </span>
                 <span style={{ background: '#fff7ed', color: '#c2410c', padding: '0.3rem 0.6rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 'bold', border: '1px solid #fed7aa' }}>
-                    💰 {isIndoMode ? 'Estimasi Biaya' : '예상 요금'}: 약 {isIndoMode ? `$ ${totalCostUsd.toFixed(4)}` : `${Math.round(totalCostUsd * 1500).toLocaleString()}원`}
+                    💰 {t('set_api_cost')}: {isIndoMode ? `${t('set_api_cost_unit')} ${totalCostUsd.toFixed(4)}` : `${Math.round(totalCostUsd * 1500).toLocaleString()}${t('set_api_cost_unit')}`}
                 </span>
             </div>
         </div>
@@ -509,7 +509,7 @@ const Settings = () => {
           type="password" 
           value={geminiKey}
           onChange={e => setGeminiKey(e.target.value)}
-          placeholder="Gemini API 키 입력" 
+          placeholder={t('set_ai_placeholder')} 
           style={{ width: '100%', padding: '0.9rem', border: '1px solid #ddd', borderRadius: '6px', marginBottom: '1.5rem' }} 
         />
 
@@ -572,7 +572,7 @@ const Settings = () => {
                 {t('set_json_paste')}
             </button>
         </div>
-        <p style={{ fontSize: '0.8rem', color: '#aaa', marginTop: '1rem', textAlign: 'center' }}>팁: 내보낸 CSV 파일은 엑셀이나 구글 시트에서 열어 직접 수정할 수도 있습니다.</p>
+        <p style={{ fontSize: '0.8rem', color: '#aaa', marginTop: '1rem', textAlign: 'center' }}>{t('set_backup_tip')}</p>
       </div>
 
       <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', marginBottom: '5rem', border: '2px solid #4285f4' }}>
@@ -612,8 +612,8 @@ const Settings = () => {
       {isJsonModalOpen && (
         <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 2000, padding: '1rem' }}>
           <div style={{ background: '#fff', padding: '2rem', borderRadius: '25px', width: '100%', maxWidth: '600px', boxShadow: '0 15px 35px rgba(0,0,0,0.2)', animation: 'popIn 0.3s ease-out', position: 'relative' }}>
-            <h3 style={{ marginTop: 0, color: '#856404', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>🍌 데이터 보따리 풀기 (JSON)</h3>
-            <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.2rem' }}>제미나이가 만들어준 단어 리스트(JSON)를 아래에 붙여넣어 주세요!</p>
+            <h3 style={{ marginTop: 0, color: '#856404', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>{isIndoMode ? '🍌 Impor Data (JSON)' : '🍌 데이터 보따리 풀기 (JSON)'}</h3>
+            <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.2rem' }}>{isIndoMode ? 'Tempelkan list kata (JSON) dari Gemini di bawah ini!' : '제미나이가 만들어준 단어 리스트(JSON)를 아래에 붙여넣어 주세요!'}</p>
             <textarea 
               value={jsonInput}
               onChange={e => setJsonInput(e.target.value)}

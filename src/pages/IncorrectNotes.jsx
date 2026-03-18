@@ -62,12 +62,12 @@ const IncorrectNotes = () => {
   };
 
   const clearAllIncorrect = async () => {
-    if (!window.confirm('정말 모든 오답노트 기록을 삭제하시겠습니까? (틀린 횟수만 초기화되며 단어는 삭제되지 않습니다)')) {
+    if (!window.confirm(t('inc_clear_all_confirm'))) {
         return;
     }
     
     // 이 기능은 추후 확장성을 위해 남겨둠.
-    alert('이 기능은 준비 중입니다.');
+    alert(t('msg_coming_soon'));
   };
 
   if (loading) {
@@ -128,7 +128,7 @@ const IncorrectNotes = () => {
                                         {word.pos}
                                     </span>
                                     <h3 style={{ margin: 0, fontSize: '1.4rem', color: 'var(--nana-dark)' }}>
-                                        {isIndoMode ? word.meaning : word.word}
+                                        {word.word}
                                     </h3>
                                     {/* 횟수 뱃지를 단어 제목 우측으로 자연스럽게 이동 */}
                                     <span style={{ background: '#ff7675', color: 'white', padding: '0.3rem 0.6rem', borderRadius: '15px', fontWeight: '900', fontSize: '0.8rem', boxShadow: '0 2px 4px rgba(255,118,117,0.3)' }}>
@@ -136,7 +136,7 @@ const IncorrectNotes = () => {
                                     </span>
                                 </div>
                                 <p style={{ margin: 0, fontSize: '1.1rem', color: '#555', fontWeight: 'bold' }}>
-                                    {isIndoMode ? word.word : word.meaning}
+                                    {word.meaning}
                                 </p>
                             </div>
                             
@@ -150,8 +150,8 @@ const IncorrectNotes = () => {
                                 </button>
                                 <button 
                                     className="icon-btn" 
-                                    onClick={(e) => { e.stopPropagation(); playAudio(isIndoMode ? word.meaning : word.word); }}
-                                    title={isIndoMode ? "Dengarkan" : "발음 듣기"}
+                                    onClick={(e) => { e.stopPropagation(); playAudio(word.word); }}
+                                    title={t('btn_pronunciation')}
                                 >
                                     <Volume2 size={20} />
                                 </button>
@@ -164,16 +164,16 @@ const IncorrectNotes = () => {
                                 {word.example_formal && (
                                     <div className="detail-section">
                                         <h4 style={{ color: '#e17055', marginBottom: '0.5rem', fontSize: '0.9rem' }}>
-                                            🌟 {isIndoMode ? 'Contoh Kalimat' : '예문 (격식)'}
+                                            🌟 {t('label_formal')}
                                         </h4>
                                         <div style={{ background: '#fff', padding: '1rem', borderRadius: '12px', border: '1px solid #ffeaa7' }}>
                                             <InteractiveSentence 
-                                              sentence={isIndoMode ? word.example_formal_kr : word.example_formal} 
+                                              sentence={word.example_formal} 
                                               breakdown={word.word_breakdown} 
                                               fontSize="1.05rem" 
                                             />
                                             <p style={{ margin: '0.4rem 0 0 0', color: '#636e72', fontSize: '0.95rem' }}>
-                                                {isIndoMode ? word.example_formal : word.example_formal_kr}
+                                                {word.example_formal_kr}
                                             </p>
                                         </div>
                                     </div>
@@ -188,7 +188,7 @@ const IncorrectNotes = () => {
                                     )}
                                     {word.antonym && (
                                     <div style={{ background: '#f8f9fa', padding: '0.8rem', borderRadius: '10px' }}>
-                                        <span style={{ fontSize: '0.8rem', color: '#a4b0be', display: 'block', marginBottom: '0.3rem' }}>{isIndoMode ? 'Lawan Kata' : '반의어'}</span>
+                                        <span style={{ fontSize: '0.8rem', color: '#a4b0be', display: 'block', marginBottom: '0.3rem' }}>{t('label_antonym')}</span>
                                         <strong>{word.antonym}</strong>
                                     </div>
                                     )}

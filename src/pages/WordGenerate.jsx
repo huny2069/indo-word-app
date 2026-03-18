@@ -48,11 +48,11 @@ const WordGenerate = () => {
   const handleGenerate = async () => {
     const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
-      alert("설정 탭에서 Gemini API 키를 먼저 등록해주세요.");
+      alert(t('msg_ai_key_missing'));
       return;
     }
     if (!topic.trim()) {
-      alert("주제를 입력해주세요.");
+      alert(t('msg_ai_topic_required'));
       return;
     }
 
@@ -99,7 +99,7 @@ const WordGenerate = () => {
         } catch (apiError) {
             console.error(`Generation attempt ${currentTry} failed:`, apiError);
             if (currentTry >= maxTries) {
-                throw new Error(`연속 생성 실패로 중단되었습니다: ${apiError.message}`);
+                throw new Error(`${t('msg_ai_gen_fail')}: ${apiError.message}`);
             }
             // 에러 발생 시 잠시 대기 후 재시도
             await new Promise(res => setTimeout(res, 1000));
@@ -110,12 +110,12 @@ const WordGenerate = () => {
       setGeneratedWords(finalAddedWords);
       
       if (finalAddedWords.length === 0) {
-        alert(isIndoMode ? "Gagal membuat kosakata baru (mungkin topik sudah penuh)." : `중복을 제외하고 새로운 단어를 생성하지 못했습니다. (비슷한 주제를 이미 많이 학습하셨을 수 있습니다.)`);
+        alert(t('msg_ai_gen_fail'));
       } else {
-        alert(isIndoMode ? `${finalAddedWords.length} kosakata baru telah disimpan!` : `${finalAddedWords.length}개의 새로운 인도네시아어 단어가 생성되어 저장되었습니다!`);
+        alert(t('msg_cart_added', { count: finalAddedWords.length }));
       }
     } catch (error) {
-      alert("생성 중 오류 발생: " + error.message);
+      alert(t('msg_ai_gen_error') + error.message);
     } finally {
       setLoading(false);
     }
@@ -124,7 +124,7 @@ const WordGenerate = () => {
   const handleManualSave = async (e) => {
     e.preventDefault();
     if (!manualWord.word.trim() || !manualWord.meaning.trim()) {
-        alert("단어와 뜻은 필수 입력 항목입니다.");
+        alert(t('msg_manual_required'));
         return;
     }
 
@@ -143,9 +143,9 @@ const WordGenerate = () => {
             word_breakdown: []
         }));
         
-        alert("단어가 성공적으로 저장되었습니다! 🍌");
+        alert(t('msg_save_done'));
     } catch (err) {
-        alert("저장 중 오류가 발생했습니다: " + err.message);
+        alert(t('msg_save_error') + ": " + err.message);
     }
   };
 
@@ -214,11 +214,11 @@ const WordGenerate = () => {
                 <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '1rem' }}>
                     <div>
                         <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block', color: 'var(--nana-dark)' }}>{t('gen_manual_word')}*</label>
-                        <input type="text" value={manualWord.word} onChange={e => setManualWord({...manualWord, word: e.target.value})} placeholder={isIndoMode ? "contoh: Makan" : "예: Makan"} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '10px', outline: 'none' }} required />
+                        <input type="text" value={manualWord.word} onChange={e => setManualWord({...manualWord, word: e.target.value})} placeholder={t('gen_manual_ph_word')} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '10px', outline: 'none' }} required />
                     </div>
                     <div>
                         <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block', color: 'var(--nana-dark)' }}>{t('gen_manual_meaning')}*</label>
-                        <input type="text" value={manualWord.meaning} onChange={e => setManualWord({...manualWord, meaning: e.target.value})} placeholder={isIndoMode ? "contoh: 먹다" : "예: 먹다"} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '10px', outline: 'none' }} required />
+                        <input type="text" value={manualWord.meaning} onChange={e => setManualWord({...manualWord, meaning: e.target.value})} placeholder={t('gen_manual_ph_meaning')} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '10px', outline: 'none' }} required />
                     </div>
                 </div>
 
@@ -226,55 +226,55 @@ const WordGenerate = () => {
                     <div>
                         <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block', color: 'var(--nana-dark)' }}>{t('gen_manual_pos')}</label>
                         <select value={manualWord.pos} onChange={e => setManualWord({...manualWord, pos: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '10px', outline: 'none' }}>
-                            <option value="명사">명사</option>
-                            <option value="동사">동사</option>
-                            <option value="형용사">형용사</option>
-                            <option value="부사">부사</option>
-                            <option value="대명사">대명사</option>
-                            <option value="수사">수사</option>
-                            <option value="전치사">전치사</option>
-                            <option value="접속사">접속사</option>
-                            <option value="감탄사">감탄사</option>
-                            <option value="한정사">한정사</option>
+                            <option value="명사">{t('pos_noun')}</option>
+                            <option value="동사">{t('pos_verb')}</option>
+                            <option value="형용사">{t('pos_adj')}</option>
+                            <option value="부사">{t('pos_adv')}</option>
+                            <option value="대명사">{t('pos_pronoun')}</option>
+                            <option value="수사">{t('pos_numeral')}</option>
+                            <option value="전치사">{t('pos_preposition')}</option>
+                            <option value="접속사">{t('pos_conjunction')}</option>
+                            <option value="감탄사">{t('pos_interjection')}</option>
+                            <option value="한정사">{t('pos_determiner')}</option>
                         </select>
                     </div>
                     <div>
                         <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block', color: 'var(--nana-dark)' }}>{t('gen_manual_topic')}</label>
-                        <input type="text" value={manualWord.topic} onChange={e => setManualWord({...manualWord, topic: e.target.value})} placeholder={isIndoMode ? "Contoh: SMTOWN, Liburan" : "예: 식사, 일상생활"} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '10px', outline: 'none' }} />
+                        <input type="text" value={manualWord.topic} onChange={e => setManualWord({...manualWord, topic: e.target.value})} placeholder={t('gen_manual_ph_topic')} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '10px', outline: 'none' }} />
                     </div>
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '1rem', background: '#f5f7f9', padding: '1rem', borderRadius: '12px' }}>
                     <div style={{ gridColumn: '1 / -1' }}><strong style={{ color: '#2c3e50', fontSize: '0.9rem' }}>{t('gen_manual_formal')}</strong></div>
-                    <textarea value={manualWord.example_formal} onChange={e => setManualWord({...manualWord, example_formal: e.target.value})} placeholder={isIndoMode ? "Target (B. Korea)" : "인도네시아어 예문"} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
-                    <textarea value={manualWord.example_formal_kr} onChange={e => setManualWord({...manualWord, example_formal_kr: e.target.value})} placeholder={isIndoMode ? "Terjemahan (B. Indo)" : "한국어 해석"} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
+                    <textarea value={manualWord.example_formal} onChange={e => setManualWord({...manualWord, example_formal: e.target.value})} placeholder={t('gen_manual_ph_ex_target')} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
+                    <textarea value={manualWord.example_formal_kr} onChange={e => setManualWord({...manualWord, example_formal_kr: e.target.value})} placeholder={t('gen_manual_ph_ex_kr')} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
                     
                     <div style={{ gridColumn: '1 / -1', marginTop: '0.5rem' }}><strong style={{ color: '#d35400', fontSize: '0.9rem' }}>{t('gen_manual_casual')}</strong></div>
-                    <textarea value={manualWord.example_casual} onChange={e => setManualWord({...manualWord, example_casual: e.target.value})} placeholder={isIndoMode ? "Target (B. Korea)" : "인도네시아어 예문"} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
-                    <textarea value={manualWord.example_casual_kr} onChange={e => setManualWord({...manualWord, example_casual_kr: e.target.value})} placeholder={isIndoMode ? "Terjemahan (B. Indo)" : "한국어 해석"} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
+                    <textarea value={manualWord.example_casual} onChange={e => setManualWord({...manualWord, example_casual: e.target.value})} placeholder={t('gen_manual_ph_ex_target')} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
+                    <textarea value={manualWord.example_casual_kr} onChange={e => setManualWord({...manualWord, example_casual_kr: e.target.value})} placeholder={t('gen_manual_ph_ex_kr')} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '8px', minHeight: '60px', outline: 'none' }} />
                 </div>
 
                 <div style={{ background: '#eef2f7', padding: '1rem', borderRadius: '12px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
                         <strong style={{ color: '#2980b9', fontSize: '0.9rem' }}>{t('gen_manual_breakdown')}</strong>
-                        <button type="button" onClick={addBreakdown} style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem', background: '#3498db', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}>+ {isIndoMode? 'Tambah' : '뜻 추가'}</button>
+                        <button type="button" onClick={addBreakdown} style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem', background: '#3498db', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}>+ {t('gen_manual_breakdown_add')}</button>
                     </div>
                     {manualWord.word_breakdown.length === 0 && (
-                        <p style={{ fontSize: '0.8rem', color: '#888', textAlign: 'center', margin: '0.5rem 0' }}>예문의 개별 단어 뜻을 입력하면 클릭 시 툴팁이 나타납니다.</p>
+                        <p style={{ fontSize: '0.8rem', color: '#888', textAlign: 'center', margin: '0.5rem 0' }}>{t('gen_manual_breakdown_tip')}</p>
                     )}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                         {manualWord.word_breakdown.map((item, idx) => (
                             <div key={idx} style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                                 <input 
                                     type="text" 
-                                    placeholder="단어(예문 속 단어)" 
+                                    placeholder={t('gen_manual_ph_br_word')} 
                                     value={item.word} 
                                     onChange={e => updateBreakdown(idx, 'word', e.target.value)}
                                     style={{ flex: 1, padding: '0.5rem', border: '1px solid #eee', borderRadius: '6px', fontSize: '0.85rem', outline: 'none' }} 
                                 />
                                 <input 
                                     type="text" 
-                                    placeholder="뜻(사전적 의미)" 
+                                    placeholder={t('gen_manual_ph_br_meaning')} 
                                     value={item.meaning} 
                                     onChange={e => updateBreakdown(idx, 'meaning', e.target.value)}
                                     style={{ flex: 1.5, padding: '0.5rem', border: '1px solid #eee', borderRadius: '6px', fontSize: '0.85rem', outline: 'none' }} 
@@ -301,12 +301,12 @@ const WordGenerate = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
                     <h3 style={{ margin: 0, color: 'var(--primary-color)', fontSize: '1.2rem' }}>
-                      {isIndoMode ? w.meaning : w.word}
+                      {w.word}
                     </h3>
-                    <button onClick={() => playAudio(isIndoMode ? w.meaning : w.word)} className="icon-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2', padding: '0.2rem' }}>
+                    <button onClick={() => playAudio(w.word)} className="icon-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2', padding: '0.2rem' }}>
                         <Volume2 size={20} />
                     </button>
-                    <span style={{ fontSize: '1rem', fontWeight: 'bold' }}>: {isIndoMode ? w.word : w.meaning}</span>
+                    <span style={{ fontSize: '1rem', fontWeight: 'bold' }}>: {w.meaning}</span>
                   </div>
                   <span style={{ fontSize: '0.8rem', background: '#eee', padding: '0.2rem 0.5rem', borderRadius: '4px', color: '#555' }}>{w.pos}</span>
                 </div>
@@ -319,16 +319,16 @@ const WordGenerate = () => {
                                     <span style={{ color: '#2c3e50', fontWeight: 'bold' }}>🌟 {t('label_formal')}:</span>
                                     <div style={{ flex: 1, fontSize: '0.95rem', color: '#333' }}>
                                         <InteractiveSentence 
-                                            sentence={isIndoMode ? w.example_formal_kr : w.example_formal} 
+                                            sentence={w.example_formal} 
                                             wordBreakdown={w.word_breakdown} 
                                         />
                                     </div>
-                                    <button onClick={() => playAudio(isIndoMode ? w.example_formal_kr : w.example_formal)} className="icon-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2', padding: '0' }}>
+                                    <button onClick={() => playAudio(w.example_formal)} className="icon-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2', padding: '0' }}>
                                         <Volume2 size={18} />
                                     </button>
                                 </div>
                                 <p style={{ margin: '0 0 0 4.5rem', fontSize: '0.85rem', color: '#888' }}>
-                                  {isIndoMode ? w.example_formal : w.example_formal_kr}
+                                  {w.example_formal_kr}
                                 </p>
                             </div>
                         )}
@@ -338,16 +338,16 @@ const WordGenerate = () => {
                                     <span style={{ color: '#d35400', fontWeight: 'bold' }}>🗣️ {t('label_casual')}:</span>
                                     <div style={{ flex: 1, fontSize: '0.95rem', color: '#333' }}>
                                         <InteractiveSentence 
-                                            sentence={isIndoMode ? w.example_casual_kr : w.example_casual} 
+                                            sentence={w.example_casual} 
                                             wordBreakdown={w.word_breakdown} 
                                         />
                                     </div>
-                                    <button onClick={() => playAudio(isIndoMode ? w.example_casual_kr : w.example_casual)} className="icon-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#d35400', padding: '0' }}>
+                                    <button onClick={() => playAudio(w.example_casual)} className="icon-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#d35400', padding: '0' }}>
                                         <Volume2 size={18} />
                                     </button>
                                 </div>
                                 <p style={{ margin: '0 0 0 4.5rem', fontSize: '0.85rem', color: '#888' }}>
-                                  {isIndoMode ? w.example_casual : w.example_casual_kr}
+                                  {w.example_casual_kr}
                                 </p>
                             </div>
                         )}
@@ -368,11 +368,11 @@ const WordGenerate = () => {
                     </div>
 
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.9rem' }}>
-                        {w.root && <div><b style={{ display: 'inline-block', width: '75px', whiteSpace: 'nowrap', color: '#666' }}>{t('label_root')}:</b> {w.root}</div>}
-                        {w.grammar_rule && <div><b style={{ display: 'inline-block', width: '75px', whiteSpace: 'nowrap', color: '#8e44ad' }}>{t('label_grammar')}:</b> {w.grammar_rule}</div>}
-                        {w.context && <div><b style={{ display: 'inline-block', width: '75px', whiteSpace: 'nowrap', color: '#2e7d32' }}>{t('label_context')}:</b> {w.context}</div>}
-                        {w.caution && <div><b style={{ display: 'inline-block', width: '75px', whiteSpace: 'nowrap', color: '#c62828' }}>{t('label_caution')}:</b> {w.caution}</div>}
-                        {w.related && <div><b style={{ display: 'inline-block', width: '75px', whiteSpace: 'nowrap', color: '#1565c0' }}>{t('label_tip')}:</b> {w.related}</div>}
+                        {w.root && <div><b style={{ display: 'inline-block', width: '100px', whiteSpace: 'nowrap', color: '#666' }}>{t('label_root')}:</b> {w.root}</div>}
+                        {w.grammar_rule && <div><b style={{ display: 'inline-block', width: '100px', whiteSpace: 'nowrap', color: '#8e44ad' }}>{t('label_grammar')}:</b> {w.grammar_rule}</div>}
+                        {w.context && <div><b style={{ display: 'inline-block', width: '100px', whiteSpace: 'nowrap', color: '#2e7d32' }}>{t('label_context')}:</b> {w.context}</div>}
+                        {w.caution && <div><b style={{ display: 'inline-block', width: '100px', whiteSpace: 'nowrap', color: '#c62828' }}>{t('label_caution')}:</b> {w.caution}</div>}
+                        {w.related && <div><b style={{ display: 'inline-block', width: '100px', whiteSpace: 'nowrap', color: '#1565c0' }}>{t('label_tip')}:</b> {w.related}</div>}
                     </div>
                 </div>
               </div>

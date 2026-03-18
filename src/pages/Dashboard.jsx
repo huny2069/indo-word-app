@@ -43,7 +43,6 @@ const Dashboard = () => {
           learning++;
         }
       });
-
       setStats({
         total: words.length,
         memorized,
@@ -91,7 +90,7 @@ const Dashboard = () => {
                 💡 {t('dash_tokens')}: {totalTokens.toLocaleString()}
             </div>
             <div style={{ background: '#fff7ed', border: '1px solid #fed7aa', padding: '0.4rem 1rem', borderRadius: '30px', color: '#c2410c', fontWeight: 'bold', fontSize: '0.85rem', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
-                💰 {t('dash_cost')}: 約 {Math.round(totalCostUsd * 1503.31).toLocaleString()}원
+                💰 {t('dash_cost')}: {useLanguage().isIndoMode ? `$ ${totalCostUsd.toFixed(4)}` : `${Math.round(totalCostUsd * 1500).toLocaleString()}원`}
             </div>
          </div>
       </div>
