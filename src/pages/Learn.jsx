@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { getWords, getCartWords, updateWord, clearCart } from '../db/database';
 import { playAudio } from '../api/ttsApi';
 import InteractiveSentence from '../components/InteractiveSentence';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Learn = () => {
+  const { isIndoMode, t } = useLanguage();
   const [words, setWords] = useState([]);
   const [mode, setMode] = useState(null); // 'flashcard', 'quiz', 'spelling'
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -180,7 +182,7 @@ const Learn = () => {
       setCurrentIndex(nextIdx);
       if (mode === 'quiz') generateOptions(nextIdx);
     } else {
-      alert("🎉 나나와 함께 오늘의 세션을 모두 마쳤습니다! 참 잘했어요!");
+      alert(t('quiz_finish'));
       setMode(null);
       setCurrentIndex(0);
       loadLearningWords(); 
@@ -211,12 +213,12 @@ const Learn = () => {
 
   const startMode = (m) => {
     if (words.length === 0) {
-      alert("공부할 단어가 없습니다! 먼저 단어를 생성하거나 장바구니에 담아주세요. 🍌");
+      alert(t('learn_no_words'));
       return;
     }
 
     if (m === 'quiz' && words.length < 4 && allWordsCache.length < 4) {
-      alert("나나 팁: 퀴즈를 하려면 최소 4개 이상의 단어가 필요해요! 단어를 더 추가해볼까요?");
+      alert(t('learn_quiz_min_words'));
       return;
     }
 
@@ -225,7 +227,10 @@ const Learn = () => {
     setIsFlipped(false);
     setQuizScore({ correct: 0, total: 0 });
     if (m === 'quiz') generateOptions(0);
-    if (m === 'flashcard' || m === 'spelling') playAudio(words[0].word);
+    if (m === 'flashcard' || m === 'spelling') {
+        const targetAudio = isIndoMode ? words[0].meaning : words[0].word;
+        playAudio(targetAudio);
+    }
   };
 
   const handleCardClick = () => {
@@ -254,31 +259,32 @@ const Learn = () => {
 
   const handleSpellingSubmit = async () => {
     if (!spellInput.trim()) return;
-    if (spellInput.trim().toLowerCase() === currentWord.word.toLowerCase()) {
+    const targetWord = isIndoMode ? currentWord.meaning : currentWord.word;
+    if (spellInput.trim().toLowerCase() === targetWord.toLowerCase()) {
       await handleSRSUpdate(currentWord, 'good');
     } else {
-      alert(`나나의 정답 확인: ${currentWord.word}`);
+      alert(`${isIndoMode ? 'Jawaban Benar (B. Korea)' : '나나의 정답 확인'}: ${targetWord}`);
       await handleSRSUpdate(currentWord, 'hard');
     }
     nextCard();
   };
 
-  if (loading) return <div className="page" style={{textAlign: 'center', marginTop: '5rem'}}>나나가 단어장을 챙겨오고 있어요... 🍌</div>;
+  if (loading) return <div className="page" style={{textAlign: 'center', marginTop: '5rem'}}>{isIndoMode ? 'Nana sedang menyiapkan kosakata... 🍌' : '나나가 단어장을 챙겨오고 있어요... 🍌'}</div>;
 
   if (!mode) {
     return (
       <div className="page">
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
             <img src="/assets/img/nana.png" className="nana-character" style={{ width: '130px', marginBottom: '1rem' }} alt="Nana" />
-            <h2 style={{ margin: 0, color: 'var(--secondary-color)' }}>나나와 함께하는 스마트 복습</h2>
+            <h2 style={{ margin: 0, color: 'var(--secondary-color)' }}>{t('learn_title_main')}</h2>
         </div>
         
         <div style={{ background: '#fff9db', padding: '1.2rem', borderRadius: '20px', border: '3px solid #feca57', marginBottom: '1.5rem', boxShadow: '0 4px 0 #feca57' }}>
             <p style={{ margin: 0, fontSize: '0.95rem', color: '#856404', fontWeight: 'bold' }}>
                 {isCartMode ? (
-                    <>🛒 <b>장바구니 세션:</b> 담아둔 <b>{words.length}</b>개 단어를 집중 공략해요!</>
+                    t('learn_cart_session').replace('{count}', words.length)
                 ) : (
-                    <>📅 <b>추천 복습 세션:</b> 오늘 꼭 봐야 할 <b>{words.length}</b>개 단어를 골랐어요.</>
+                    t('learn_recommend_session').replace('{count}', words.length)
                 )}
             </p>
         </div>
@@ -286,33 +292,33 @@ const Learn = () => {
         <div style={{ display: 'grid', gap: '1.2rem' }}>
           <button onClick={() => startMode('flashcard')} className="learning-card-select" style={{ border: '3px solid #feca57', background: '#fff' }}>
             <div style={{textAlign: 'left'}}>
-                <div style={{fontSize: '1.25rem', fontWeight: '900', color: '#f39c12', marginBottom: '4px'}}>나나 플래시카드</div>
-                <div style={{fontSize: '0.85rem', color: '#888'}}>눈으로 보고 귀로 들으며 암기해요</div>
+                <div style={{fontSize: '1.25rem', fontWeight: '900', color: '#f39c12', marginBottom: '4px'}}>{t('learn_flashcard_title')}</div>
+                <div style={{fontSize: '0.85rem', color: '#888'}}>{t('learn_flashcard_desc')}</div>
             </div>
             <span style={{fontSize: '2.5rem'}}>🎴</span>
           </button>
 
           <button onClick={() => startMode('quiz')} className="learning-card-select" style={{ border: '3px solid #ff9f43', background: '#fff' }}>
              <div style={{textAlign: 'left'}}>
-                <div style={{fontSize: '1.25rem', fontWeight: '900', color: '#e67e22', marginBottom: '4px'}}>나나 지능형 퀴즈</div>
-                <div style={{fontSize: '0.85rem', color: '#888'}}>나나가 낸 퀴즈를 맞혀보세요!</div>
+                <div style={{fontSize: '1.25rem', fontWeight: '900', color: '#e67e22', marginBottom: '4px'}}>{t('learn_quiz_title')}</div>
+                <div style={{fontSize: '0.85rem', color: '#888'}}>{t('learn_quiz_desc')}</div>
             </div>
             <span style={{fontSize: '2.5rem'}}>📝</span>
           </button>
 
           <button onClick={() => startMode('spelling')} className="learning-card-select" style={{ border: '3px solid #1dd1a1', background: '#fff' }}>
             <div style={{textAlign: 'left'}}>
-                <div style={{fontSize: '1.25rem', fontWeight: '900', color: '#10ac84', marginBottom: '4px'}}>나나 철자 박사</div>
-                <div style={{fontSize: '0.85rem', color: '#888'}}>정확한 스펠링까지 완벽 복습</div>
+                <div style={{fontSize: '1.25rem', fontWeight: '900', color: '#10ac84', marginBottom: '4px'}}>{t('learn_spelling_title')}</div>
+                <div style={{fontSize: '0.85rem', color: '#888'}}>{t('learn_spelling_desc')}</div>
             </div>
             <span style={{fontSize: '2.5rem'}}>⌨️</span>
           </button>
         </div>
 
         {isCartMode && (
-          <button onClick={async () => { if(window.confirm('장바구니를 비워드릴까요?')) { await clearCart(); loadLearningWords(); } }}
+          <button onClick={async () => { if(window.confirm(t('learn_cart_clear_confirm'))) { await clearCart(); loadLearningWords(); } }}
             style={{ width: '100%', marginTop: '2.5rem', padding: '1rem', background: '#f1f3f5', border: 'none', color: '#adb5bd', borderRadius: '15px', cursor: 'pointer', fontWeight: 'bold' }}>
-            장바구니 비우고 추천 세션으로 변경
+            {t('learn_cart_clear_btn')}
           </button>
         )}
       </div>
@@ -324,7 +330,7 @@ const Learn = () => {
         {feedback === 'correct' && <div className="correct-celebration">🍌✨</div>}
         
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-            <button onClick={() => setMode(null)} style={{ padding: '0.5rem 1rem', background: '#f8f9fa', color: '#adb5bd', border: '2px solid #e9ecef', borderRadius: '12px', cursor: 'pointer', fontWeight: '800' }}>종료</button>
+            <button onClick={() => setMode(null)} style={{ padding: '0.5rem 1rem', background: '#f8f9fa', color: '#adb5bd', border: '2px solid #e9ecef', borderRadius: '12px', cursor: 'pointer', fontWeight: '800' }}>{t('learn_end_btn')}</button>
             <div style={{ flex: 1, margin: '0 1rem', background: '#e9ecef', height: '12px', borderRadius: '6px', overflow: 'hidden', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>
                 <div style={{ width: `${((currentIndex + 1) / words.length) * 100}%`, height: '100%', background: 'linear-gradient(90deg, #feca57, #ff9f43)', transition: 'width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)' }}></div>
             </div>
@@ -337,22 +343,38 @@ const Learn = () => {
           <div className="flashcard-inner" style={{ position: 'relative', width: '100%', height: '100%', textAlign: 'center', transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)', transformStyle: 'preserve-3d', transform: isFlipped ? 'rotateY(180deg)' : 'none' }}>
             <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #feca57', boxShadow: '0 10px 0 #feca57', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
                 <span style={{background: '#fff9db', color: '#f39c12', padding: '0.5rem 1.2rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: '900', marginBottom: '1.5rem', border: '2px solid #feca57'}}>{currentWord.pos}</span>
-                <h1 style={{ fontSize: '3.8rem', margin: 0, color: 'var(--nana-dark)', wordBreak: 'break-all' }}>{currentWord.word}</h1>
-                <p style={{ color: '#ccc', marginTop: '2.5rem', fontSize: '0.95rem', fontWeight: 'bold' }}>카드 터치 🍌</p>
+                <h1 style={{ fontSize: '3.8rem', margin: 0, color: 'var(--nana-dark)', wordBreak: 'break-all' }}>
+                  {isIndoMode ? currentWord.meaning : currentWord.word}
+                </h1>
+                <p style={{ color: '#ccc', marginTop: '2.5rem', fontSize: '0.95rem', fontWeight: 'bold' }}>{t('learn_touch_card')}</p>
             </div>
             <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #ff9f43', boxShadow: '0 10px 0 #ff9f43', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1.5rem', overflow: 'hidden' }}>
-                <h2 style={{ fontSize: '2.5rem', margin: '0 0 1rem 0', color: '#e67e22', fontWeight: '900' }}>{currentWord.meaning}</h2>
+                <h2 style={{ fontSize: '2.5rem', margin: '0 0 1rem 0', color: '#e67e22', fontWeight: '900' }}>
+                  {isIndoMode ? currentWord.word : currentWord.meaning}
+                </h2>
                 <div style={{ width: '100%', overflowY: 'auto', marginBottom: '1rem' }}>
                     <div style={{ textAlign: 'left', background: '#fffaf0', padding: '1.2rem', borderRadius: '20px', border: '2px dashed #ff9f43' }}>
                         <div style={{ marginBottom: '1rem' }}>
-                            <div style={{fontSize: '0.75rem', color: '#ff9f43', fontWeight: 'bold', marginBottom: '0.3rem'}}>🌟 격식체 예문</div>
-                            <InteractiveSentence sentence={currentWord.example_formal} breakdown={currentWord.word_breakdown} fontSize="1rem" />
-                            <div style={{fontSize: '0.85rem', color: '#888', marginTop: '0.3rem'}}>{currentWord.example_formal_kr}</div>
+                            <div style={{fontSize: '0.75rem', color: '#ff9f43', fontWeight: 'bold', marginBottom: '0.3rem'}}>🌟 {isIndoMode ? 'Contoh (Formal)' : '격식체 예문'}</div>
+                            <InteractiveSentence 
+                              sentence={isIndoMode ? currentWord.example_formal_kr : currentWord.example_formal} 
+                              breakdown={currentWord.word_breakdown} 
+                              fontSize="1rem" 
+                            />
+                            <div style={{fontSize: '0.85rem', color: '#888', marginTop: '0.3rem'}}>
+                              {isIndoMode ? currentWord.example_formal : currentWord.example_formal_kr}
+                            </div>
                         </div>
                         <div>
-                            <div style={{fontSize: '0.75rem', color: '#ff9f43', fontWeight: 'bold', marginBottom: '0.3rem'}}>🗣️ 구어체 예문</div>
-                            <InteractiveSentence sentence={currentWord.example_casual} breakdown={currentWord.word_breakdown} fontSize="1rem" />
-                            <div style={{fontSize: '0.85rem', color: '#888', marginTop: '0.3rem'}}>{currentWord.example_casual_kr}</div>
+                            <div style={{fontSize: '0.75rem', color: '#ff9f43', fontWeight: 'bold', marginBottom: '0.3rem'}}>🗣️ {isIndoMode ? 'Contoh (Santai)' : '구어체 예문'}</div>
+                            <InteractiveSentence 
+                              sentence={isIndoMode ? currentWord.example_casual_kr : currentWord.example_casual} 
+                              breakdown={currentWord.word_breakdown} 
+                              fontSize="1rem" 
+                            />
+                            <div style={{fontSize: '0.85rem', color: '#888', marginTop: '0.3rem'}}>
+                              {isIndoMode ? currentWord.example_casual : currentWord.example_casual_kr}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -360,9 +382,9 @@ const Learn = () => {
           </div>
         </div>
         <div style={{ visibility: isFlipped ? 'visible' : 'hidden', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1rem' }}>
-            <button onClick={(e) => { e.stopPropagation(); handleSRSUpdate(currentWord, 'hard'); nextCard(); }} className="srs-btn hard" style={{border: '3px solid #ff7675', boxShadow: '0 5px 0 #ff7675'}}>🔴 모름</button>
-            <button onClick={(e) => { e.stopPropagation(); handleSRSUpdate(currentWord, 'good'); nextCard(); }} className="srs-btn good" style={{border: '3px solid #feca57', boxShadow: '0 5px 0 #feca57'}}>🟡 기억남</button>
-            <button onClick={(e) => { e.stopPropagation(); handleSRSUpdate(currentWord, 'mastered'); nextCard(); }} className="srs-btn master" style={{border: '3px solid #1dd1a1', boxShadow: '0 5px 0 #1dd1a1'}}>🟢 완벽함</button>
+            <button onClick={(e) => { e.stopPropagation(); handleSRSUpdate(currentWord, 'hard'); nextCard(); }} className="srs-btn hard" style={{border: '3px solid #ff7675', boxShadow: '0 5px 0 #ff7675'}}>{t('learn_srs_wrong')}</button>
+            <button onClick={(e) => { e.stopPropagation(); handleSRSUpdate(currentWord, 'good'); nextCard(); }} className="srs-btn good" style={{border: '3px solid #feca57', boxShadow: '0 5px 0 #feca57'}}>{t('learn_srs_memorized')}</button>
+            <button onClick={(e) => { e.stopPropagation(); handleSRSUpdate(currentWord, 'mastered'); nextCard(); }} className="srs-btn master" style={{border: '3px solid #1dd1a1', boxShadow: '0 5px 0 #1dd1a1'}}>{t('learn_srs_master')}</button>
         </div>
         </>
       )}
@@ -371,10 +393,16 @@ const Learn = () => {
         <div style={{ background: '#fff', padding: '2.5rem 1.5rem', borderRadius: '35px', border: '4px solid #ff9f43', boxShadow: '0 12px 0 #ff9f43' }}>
           <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
             <span style={{ background: '#fff7ed', color: '#ea580c', padding: '0.6rem 1.2rem', borderRadius: '25px', fontSize: '0.9rem', fontWeight: '900', border: '2px solid #fed7aa' }}>
-                {quizType === 'wordToMeaning' ? '인도네시아어 ➔ 한국어' : '한국어 ➔ 인도네시아어'}
+                {isIndoMode 
+                  ? (quizType === 'wordToMeaning' ? 'B. Korea ➔ B. Indo' : 'B. Indo ➔ B. Korea')
+                  : (quizType === 'wordToMeaning' ? '인도네시아어 ➔ 한국어' : '한국어 ➔ 인도네시아어')
+                }
             </span>
             <h2 style={{ marginTop: '2rem', fontSize: '2.8rem', color: 'var(--nana-dark)', fontWeight: '900' }}>
-                {quizType === 'wordToMeaning' ? currentWord.word : currentWord.meaning}
+                {quizType === 'wordToMeaning' 
+                   ? (isIndoMode ? currentWord.meaning : currentWord.word) 
+                   : (isIndoMode ? currentWord.word : currentWord.meaning)
+                }
             </h2>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '5px', marginTop: '1rem' }}>
                 <img src="/assets/img/nana.png" style={{ width: '50px' }} alt="nana-quiz" />
@@ -410,7 +438,9 @@ const Learn = () => {
                       className="quiz-option-btn" 
                       style={btnStyle}
                   >
-                      {icon} {quizType === 'wordToMeaning' ? opt.meaning : opt.word}
+                      {icon} {quizType === 'wordToMeaning' 
+                               ? (isIndoMode ? opt.word : opt.meaning) 
+                               : (isIndoMode ? opt.meaning : opt.word)}
                   </button>
               );
             })}
@@ -421,12 +451,31 @@ const Learn = () => {
       {mode === 'spelling' && currentWord && (
         <div style={{ background: '#fff', padding: '3rem 2rem', borderRadius: '35px', border: '4px solid #1dd1a1', boxShadow: '0 12px 0 #1dd1a1', textAlign: 'center' }}>
           <img src="/assets/img/nana.png" className="nana-character" style={{ width: '90px', marginBottom: '1.5rem' }} alt="nana-spelling" />
-          <h2 style={{ marginBottom: '1rem', fontSize: '2.2rem', fontWeight: '900' }}>"{currentWord.meaning}"</h2>
-          <p style={{color: '#888', fontWeight: 'bold', marginBottom: '2rem'}}>나나의 발음을 잘 듣고 써보세요!</p>
-          <input type="text" value={spellInput} onChange={e => setSpellInput(e.target.value)} onKeyDown={e => e.key === 'Enter' && handleSpellingSubmit()} placeholder="인어 입력..." className="spelling-input" style={{ border: '4px solid #eef2f7', borderRadius: '20px', fontSize: '2rem' }} autoFocus autoComplete="off" spellCheck="false" />
+          <h2 style={{ marginBottom: '1rem', fontSize: '2.2rem', fontWeight: '900' }}>
+            "{isIndoMode ? currentWord.word : currentWord.meaning}"
+          </h2>
+          <p style={{color: '#888', fontWeight: 'bold', marginBottom: '2rem'}}>
+            {t('learn_spelling_hint')}
+          </p>
+          <input 
+            type="text" 
+            value={spellInput} 
+            onChange={e => setSpellInput(e.target.value)} 
+            onKeyDown={e => e.key === 'Enter' && handleSpellingSubmit()} 
+            placeholder={isIndoMode ? 'Ketik jawaban...' : '인어 입력...'} 
+            className="spelling-input" 
+            style={{ border: '4px solid #eef2f7', borderRadius: '20px', fontSize: '2rem' }} 
+            autoFocus 
+            autoComplete="off" 
+            spellCheck="false" 
+          />
           <div style={{display: 'flex', gap: '1rem'}}>
-            <button onClick={() => playAudio(currentWord.word)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>🔊 듣기</button>
-            <button onClick={handleSpellingSubmit} style={{ flex: 2, padding: '1.2rem', background: '#1dd1a1', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.2rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84' }}>정답 제출!</button>
+            <button onClick={() => playAudio(isIndoMode ? currentWord.meaning : currentWord.word)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>
+              🔊 {t('learn_spelling_listen')}
+            </button>
+            <button onClick={handleSpellingSubmit} style={{ flex: 2, padding: '1.2rem', background: '#1dd1a1', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.2rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84' }}>
+              {t('learn_spelling_submit')}
+            </button>
           </div>
         </div>
       )}

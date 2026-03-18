@@ -7,6 +7,7 @@ import WordList from './pages/WordList';
 import Learn from './pages/Learn';
 import Settings from './pages/Settings';
 import IncorrectNotes from './pages/IncorrectNotes';
+import Guide from './pages/Guide';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="learn" element={<Learn />} />
           <Route path="incorrect" element={<IncorrectNotes />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="guide" element={<Guide />} />
         </Route>
       </Routes>
     </BrowserRouter>

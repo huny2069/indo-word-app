@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { getWords, getCartWords, toggleCartItem, addWordsToCart, removeWordsFromCart, updateWord, deleteWords, getFolders, moveWordsToFolder, clearCart } from '../db/database';
 import { playAudio } from '../api/ttsApi';
-import { Volume2, CheckSquare, Square, Folder, List, Trash2, Edit, ChevronLeft, ArrowRight, CornerUpRight, ShoppingCart, Search, X } from 'lucide-react';
+import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, Volume2, CheckSquare, Square, ShoppingCart, ChevronDown, ChevronUp, Sparkles, HelpCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { useLanguage } from '../contexts/LanguageContext';
 import InteractiveSentence from '../components/InteractiveSentence';
 const WordList = () => {
+  const { isIndoMode, t } = useLanguage();
   const [words, setWords] = useState([]);
   const [cartIds, setCartIds] = useState(new Set());
   const [viewMode, setViewMode] = useState('folder'); 
@@ -269,7 +271,7 @@ const WordList = () => {
       <header style={{ marginBottom: '1.5rem', textAlign: 'center' }}>
         <img src="/assets/img/nana.png" className="nana-character" style={{ width: '80px', marginBottom: '0.5rem' }} alt="Nana" />
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-           <h2 style={{ margin: 0, color: 'var(--nana-dark)', fontWeight: '900' }}>나나의 비밀 단어장</h2>
+              <h2 style={{ fontSize: '2rem', color: 'var(--nana-dark)', margin: 0, fontWeight: '900' }}>{t('list_title')}</h2>
            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
              <button 
                 onClick={() => { setViewMode('folder'); setSelectedDate(null); setSelectedTopic(null); setSelectedPos(null); setExpandedId(null); }}
@@ -510,10 +512,10 @@ const WordList = () => {
                          </div>
                         <div style={{ display: 'flex', flex: 1, flexDirection: 'column', gap: '0.2rem', minWidth: 0, justifyContent: 'center' }}>
                             <span onClick={(e) => hideWords && handleToggleReveal(e, w.id, 'word')} style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--primary-color)', filter: isWordHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', lineHeight: '1.2' }}>
-                                {w.word}
+                                {isIndoMode ? w.meaning : w.word}
                             </span>
                             <span onClick={(e) => hideMeanings && handleToggleReveal(e, w.id, 'meaning')} style={{ fontWeight: '500', fontSize: '1rem', color: '#555', filter: isMeaningHidden ? 'blur(8px)' : 'none', transition: 'filter 0.3s', wordBreak: 'keep-all', lineHeight: '1.4' }}>
-                                {w.meaning}
+                                {isIndoMode ? w.word : w.meaning}
                             </span>
                         </div>
                         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
@@ -529,38 +531,37 @@ const WordList = () => {
                           <style>{`@keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }`}</style>
                           <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '1rem', animation: 'fadeIn 0.2s ease-out' }}>
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
-                                {w.context && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#2e7d32', display: 'inline-block', width: '90px', flexShrink: 0 }}>📌 사용 상황:</b> <span style={{ flex: 1 }}>{w.context}</span></div>}
-                                {w.caution && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#c62828', display: 'inline-block', width: '90px', flexShrink: 0 }}>⚠️ 유의할 점:</b> <span style={{ flex: 1 }}>{w.caution}</span></div>}
-                                {w.related && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#1565c0', display: 'inline-block', width: '90px', flexShrink: 0 }}>💡 유사어/팁:</b> <span style={{ flex: 1 }}>{w.related}</span></div>}
-                                {w.root && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#666', display: 'inline-block', width: '90px', flexShrink: 0 }}>🌱 어　근:</b> <span style={{ flex: 1 }}>{w.root}</span></div>}
-                                {w.grammar_rule && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#8e44ad', display: 'inline-block', width: '90px', flexShrink: 0 }}>📘 문법/변형:</b> <span style={{ flex: 1 }}>{w.grammar_rule}</span></div>}
+                                {w.context && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#2e7d32', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_context')}:</b> <span style={{ flex: 1 }}>{w.context}</span></div>}
+                                {w.caution && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#c62828', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_caution')}:</b> <span style={{ flex: 1 }}>{w.caution}</span></div>}
+                                {w.related && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#1565c0', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_related')}:</b> <span style={{ flex: 1 }}>{w.related}</span></div>}
+                                {w.root && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#666', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_root')}:</b> <span style={{ flex: 1 }}>{w.root}</span></div>}
+                                {w.grammar_rule && <div style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'flex-start', marginBottom: '4px' }}><b style={{ color: '#8e44ad', display: 'inline-block', width: '90px', flexShrink: 0 }}>{t('label_grammar')}:</b> <span style={{ flex: 1 }}>{w.grammar_rule}</span></div>}
                              </div>
 
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
                                 {w.example_formal && (
                                     <div style={{ background: '#f5f7f9', padding: '1rem', borderRadius: '10px' }}>
                                         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
-                                            <span style={{ color: '#2c3e50', fontWeight: 'bold', width: '90px' }}>🌟 격식체:</span>
-                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={w.example_formal} wordBreakdown={w.word_breakdown} /></div>
-                                            <button onClick={() => playAudio(w.example_formal)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2' }}><Volume2 size={18} /></button>
+                                            <span style={{ color: '#2c3e50', fontWeight: 'bold', width: '90px' }}>{isIndoMode ? '🌟 Formal:' : '🌟 격식체:'}</span>
+                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={isIndoMode ? w.example_formal_kr : w.example_formal} wordBreakdown={w.word_breakdown} /></div>
+                                            <button onClick={() => playAudio(isIndoMode ? w.example_formal_kr : w.example_formal)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1976d2' }}><Volume2 size={18} /></button>
                                         </div>
-                                        <p style={{ margin: '0 0 0 6.2rem', fontSize: '0.9rem', color: '#666' }}>{w.example_formal_kr}</p>
+                                        <p style={{ margin: '0 0 0 6.2rem', fontSize: '0.9rem', color: '#666' }}>{isIndoMode ? w.example_formal : w.example_formal_kr}</p>
                                     </div>
                                 )}
                                 {w.example_casual && (
                                     <div style={{ background: '#fff3e0', padding: '1rem', borderRadius: '10px' }}>
                                         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
-                                            <span style={{ color: '#d35400', fontWeight: 'bold', width: '90px' }}>🗣️ 구어체:</span>
-                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={w.example_casual} wordBreakdown={w.word_breakdown} /></div>
-                                            <button onClick={() => playAudio(w.example_casual)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#d35400' }}><Volume2 size={18} /></button>
+                                            <span style={{ color: '#d35400', fontWeight: 'bold', width: '90px' }}>{isIndoMode ? '🗣️ Casual:' : '🗣️ 구어체:'}</span>
+                                            <div style={{ flex: 1 }}><InteractiveSentence sentence={isIndoMode ? w.example_casual_kr : w.example_casual} wordBreakdown={w.word_breakdown} /></div>
+                                            <button onClick={() => playAudio(isIndoMode ? w.example_casual_kr : w.example_casual)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#d35400' }}><Volume2 size={18} /></button>
                                         </div>
-                                        <p style={{ margin: '0 0 0 6.2rem', fontSize: '0.9rem', color: '#666' }}>{w.example_casual_kr}</p>
+                                        <p style={{ margin: '0 0 0 6.2rem', fontSize: '0.9rem', color: '#666' }}>{isIndoMode ? w.example_casual : w.example_casual_kr}</p>
                                     </div>
                                 )}
                              </div>
                           </div>
                           <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1.2rem', marginTop: '1.2rem', paddingTop: '0.8rem', borderTop: '1px solid #eee' }}>
-                             <button onClick={() => setEditingWord(w)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#666', display: 'flex', alignItems: 'center', gap: '0.3rem' }}><Edit size={16} /> 수정</button>
                              <button onClick={(e) => handleDelete(w.id, e)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#e74c3c', display: 'flex', alignItems: 'center', gap: '0.3rem' }}><Trash2 size={16} /> 삭제</button>
                           </div>
                         </div>

@@ -3,8 +3,10 @@ import { getWords, deleteWords, addWordsToCart, getCartItemIds, clearCart, toggl
 import { playAudio } from '../api/ttsApi';
 import { AlertCircle, Trash2, ArrowUpDown, Volume2, ShoppingCart, CheckCircle2 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const IncorrectNotes = () => {
+  const { isIndoMode, t } = useLanguage();
   const [incorrectWords, setIncorrectWords] = useState([]);
   const [sortBy, setSortBy] = useState('countDesc'); // countDesc, countAsc, dateDesc
   const [loading, setLoading] = useState(true);
@@ -71,7 +73,7 @@ const IncorrectNotes = () => {
   if (loading) {
       return (
           <div className="page" style={{textAlign: 'center', marginTop: '5rem'}}>
-              나나가 오답 노트를 뒤적이고 있어요... 🍌
+              {isIndoMode ? 'Nana sedang membuka catatan kesalahan... 🍌' : '나나가 오답 노트를 뒤적이고 있어요... 🍌'}
           </div>
       );
   }
@@ -81,13 +83,13 @@ const IncorrectNotes = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
             <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', color: '#d63031', margin: 0 }}>
                 <AlertCircle size={32} />
-                나나의 오답 노트
+                {t('inc_title')}
             </h1>
         </div>
 
         <div style={{ background: '#fff0f0', padding: '1.2rem', borderRadius: '20px', border: '3px solid #ff7675', marginBottom: '1.5rem', boxShadow: '0 4px 0 #ff7675' }}>
             <p style={{ margin: 0, fontSize: '0.95rem', color: '#c0392b', fontWeight: 'bold' }}>
-                🍌 총 <b>{incorrectWords.length}</b>개의 취약 단어가 있어요. 많이 틀린 단어일수록 윗부분에 나타납니다!
+                🍌 {t('inc_desc').replace('{count}', incorrectWords.length)}
             </p>
         </div>
 
@@ -98,17 +100,17 @@ const IncorrectNotes = () => {
                 className="select-input"
                 style={{ background: '#fff' }}
             >
-                <option value="countDesc">🔻 많이 틀린 순</option>
-                <option value="countAsc">🔺 적게 틀린 순</option>
-                <option value="dateDesc">📅 최근 추가된 순</option>
+                <option value="countDesc">{t('inc_sort_more')}</option>
+                <option value="countAsc">{t('inc_sort_less')}</option>
+                <option value="dateDesc">{t('inc_sort_recent')}</option>
             </select>
         </div>
 
         {incorrectWords.length === 0 ? (
             <div className="empty-state" style={{ padding: '4rem 2rem', background: '#f1f8e9', borderRadius: '20px', border: '3px dashed #7bed9f' }}>
                 <CheckCircle2 size={64} color="#1dd1a1" style={{ marginBottom: '1rem' }} />
-                <h3 style={{ color: '#10ac84' }}>훌륭해요! 오답이 하나도 없네요!</h3>
-                <p style={{ color: '#2ed573' }}>학습 탭에 가서 나나와 함께 퀴즈를 풀어보세요.</p>
+                <h3 style={{ color: '#10ac84' }}>{t('inc_empty_title')}</h3>
+                <p style={{ color: '#2ed573' }}>{t('inc_empty_desc')}</p>
             </div>
         ) : (
             <div className="word-list" style={{ marginTop: '1.5rem', display: 'grid', gap: '1rem' }}>
@@ -125,27 +127,31 @@ const IncorrectNotes = () => {
                                     <span className={`pos-tag ${word.pos === '명사' ? 'noun' : word.pos === '동사' ? 'verb' : word.pos === '형용사' ? 'adj' : 'other'}`}>
                                         {word.pos}
                                     </span>
-                                    <h3 style={{ margin: 0, fontSize: '1.4rem', color: 'var(--nana-dark)' }}>{word.word}</h3>
+                                    <h3 style={{ margin: 0, fontSize: '1.4rem', color: 'var(--nana-dark)' }}>
+                                        {isIndoMode ? word.meaning : word.word}
+                                    </h3>
                                     {/* 횟수 뱃지를 단어 제목 우측으로 자연스럽게 이동 */}
                                     <span style={{ background: '#ff7675', color: 'white', padding: '0.3rem 0.6rem', borderRadius: '15px', fontWeight: '900', fontSize: '0.8rem', boxShadow: '0 2px 4px rgba(255,118,117,0.3)' }}>
-                                        {word.incorrectCount}회 오답 💦
+                                        {word.incorrectCount}{t('inc_suffix')}
                                     </span>
                                 </div>
-                                <p style={{ margin: 0, fontSize: '1.1rem', color: '#555', fontWeight: 'bold' }}>{word.meaning}</p>
+                                <p style={{ margin: 0, fontSize: '1.1rem', color: '#555', fontWeight: 'bold' }}>
+                                    {isIndoMode ? word.word : word.meaning}
+                                </p>
                             </div>
                             
                             <div className="word-actions" style={{ display: 'flex', gap: '0.5rem' }}>
                                 <button 
                                     className={`icon-btn ${cartIds.has(word.id) ? 'active' : ''}`}
                                     onClick={(e) => handleToggleCart(e, word.id)}
-                                    title="장바구니 담기"
+                                    title={t('btn_cart_add')}
                                 >
                                     <ShoppingCart size={20} fill={cartIds.has(word.id) ? "currentColor" : "none"} />
                                 </button>
                                 <button 
                                     className="icon-btn" 
-                                    onClick={(e) => { e.stopPropagation(); playAudio(word.word); }}
-                                    title="발음 듣기"
+                                    onClick={(e) => { e.stopPropagation(); playAudio(isIndoMode ? word.meaning : word.word); }}
+                                    title={isIndoMode ? "Dengarkan" : "발음 듣기"}
                                 >
                                     <Volume2 size={20} />
                                 </button>
@@ -157,10 +163,18 @@ const IncorrectNotes = () => {
                                 {/* 기존 WordList의 디테일 렌더링 방식 차용 */}
                                 {word.example_formal && (
                                     <div className="detail-section">
-                                        <h4 style={{ color: '#e17055', marginBottom: '0.5rem', fontSize: '0.9rem' }}>🌟 예문 (격식)</h4>
+                                        <h4 style={{ color: '#e17055', marginBottom: '0.5rem', fontSize: '0.9rem' }}>
+                                            🌟 {isIndoMode ? 'Contoh Kalimat' : '예문 (격식)'}
+                                        </h4>
                                         <div style={{ background: '#fff', padding: '1rem', borderRadius: '12px', border: '1px solid #ffeaa7' }}>
-                                            <InteractiveSentence sentence={word.example_formal} breakdown={word.word_breakdown} fontSize="1.05rem" />
-                                            <p style={{ margin: '0.4rem 0 0 0', color: '#636e72', fontSize: '0.95rem' }}>{word.example_formal_kr}</p>
+                                            <InteractiveSentence 
+                                              sentence={isIndoMode ? word.example_formal_kr : word.example_formal} 
+                                              breakdown={word.word_breakdown} 
+                                              fontSize="1.05rem" 
+                                            />
+                                            <p style={{ margin: '0.4rem 0 0 0', color: '#636e72', fontSize: '0.95rem' }}>
+                                                {isIndoMode ? word.example_formal : word.example_formal_kr}
+                                            </p>
                                         </div>
                                     </div>
                                 )}
@@ -168,13 +182,13 @@ const IncorrectNotes = () => {
                                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
                                     {word.synonym && (
                                     <div style={{ background: '#f8f9fa', padding: '0.8rem', borderRadius: '10px' }}>
-                                        <span style={{ fontSize: '0.8rem', color: '#a4b0be', display: 'block', marginBottom: '0.3rem' }}>유의어</span>
+                                        <span style={{ fontSize: '0.8rem', color: '#a4b0be', display: 'block', marginBottom: '0.3rem' }}>{t('label_related')}</span>
                                         <strong>{word.synonym}</strong>
                                     </div>
                                     )}
                                     {word.antonym && (
                                     <div style={{ background: '#f8f9fa', padding: '0.8rem', borderRadius: '10px' }}>
-                                        <span style={{ fontSize: '0.8rem', color: '#a4b0be', display: 'block', marginBottom: '0.3rem' }}>반의어</span>
+                                        <span style={{ fontSize: '0.8rem', color: '#a4b0be', display: 'block', marginBottom: '0.3rem' }}>{isIndoMode ? 'Lawan Kata' : '반의어'}</span>
                                         <strong>{word.antonym}</strong>
                                     </div>
                                     )}

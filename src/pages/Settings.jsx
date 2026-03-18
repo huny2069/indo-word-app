@@ -3,6 +3,7 @@ import { getWords, getFolders, addWord, addFolder } from '../db/database';
 import { fetchGeminiModels } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
+import { useLanguage } from '../contexts/LanguageContext';
 
 // 구글 드라이브 백업/복원용 설정 객체
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
@@ -10,6 +11,7 @@ const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/r
 const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform';
 
 const Settings = () => {
+  const { isIndoMode, t } = useLanguage();
   const [googleClientId, setGoogleClientId] = useState('');
   const [geminiKey, setGeminiKey] = useState('');
   const [ttsKey, setTtsKey] = useState('');
@@ -23,7 +25,8 @@ const Settings = () => {
   const [totalCostUsd, setTotalCostUsd] = useState(0); // [추가] 누적 비용(USD)
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); // [추가] 음성 토글 상태
   const [ttsEngine, setTtsEngine] = useState('gemini'); // [추가] 음성 엔진 선택 상태 (gemini, google, browser)
-  const [googleTtsModel, setGoogleTtsModel] = useState(localStorage.getItem('google_tts_model') || 'id-ID-Standard-C'); // 고급/표준 선택
+  const defaultGoogleModel = isIndoMode ? 'ko-KR-Standard-A' : 'id-ID-Standard-C';
+  const [googleTtsModel, setGoogleTtsModel] = useState(localStorage.getItem('google_tts_model') || defaultGoogleModel); // 고급/표준 선택
 
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
   const [jsonInput, setJsonInput] = useState('');
@@ -238,7 +241,13 @@ const Settings = () => {
       alert(`복원 완료! 🍌🚀\n- 새로 추가됨: ${addCount}개\n- 중복 스킵됨: ${skipCount}개`);
     } catch (err) {
       console.error("Drive Restore Error:", err);
-      alert("복원 중 오류가 발생했습니다: " + err.message);
+      if (err.message.includes('401') || err.message.includes('403')) {
+          localStorage.removeItem('gcp_access_token');
+          setGcpAccessToken('');
+          alert("로그인 세션이 만료되었습니다. 다시 로그인 해주세요.");
+      } else {
+          alert("복원 중 오류가 발생했습니다: " + err.message);
+      }
     } finally {
       setIsDriveOperating(false);
     }
@@ -353,19 +362,19 @@ const Settings = () => {
   const saveApiKeys = () => {
     localStorage.setItem('geminiApiKey', geminiKey);
     if (selectedGeminiModel) localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
-    alert('키 및 설정이 기기 내(Local Storage)에 저장되었습니다!');
+    alert(t('set_save_success'));
   };
 
   return (
     <div className="page">
-      <h2>설정 & 환경설정</h2>
+      <h2>{t('set_title')}</h2>
       
       <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
-        <h3 style={{color: 'var(--primary-color)', marginBottom: '1rem'}}>앱 전체 음성 설정</h3>
+        <h3 style={{color: 'var(--primary-color)', marginBottom: '1rem'}}>{t('set_audio_title')}</h3>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: '#f8f9fa', borderRadius: '8px' }}>
             <div>
-                <span style={{ fontWeight: 'bold' }}>인도네시아어 발음 듣기</span>
-                <p style={{ margin: 0, fontSize: '0.8rem', color: '#888' }}>단어장, 퀴즈, 생성방의 모든 음성 기능을 켜거나 끕니다.</p>
+                <span style={{ fontWeight: 'bold' }}>{t('set_audio_label')}</span>
+                <p style={{ margin: 0, fontSize: '0.8rem', color: '#888' }}>{t('set_audio_desc')}</p>
             </div>
             <label className="switch" style={{ position: 'relative', display: 'inline-block', width: '50px', height: '26px' }}>
                 <input 
@@ -394,7 +403,7 @@ const Settings = () => {
 
         {/* 음성 엔진 선택 영역 추가 */}
         <div style={{ marginTop: '1.5rem', padding: '1rem', background: '#f0f4f8', borderRadius: '8px', border: '1px solid #d1d9e0' }}>
-            <span style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.8rem' }}>🎙️ 음성 엔진 엔진 선택</span>
+            <span style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.8rem' }}>{t('set_engine_title')}</span>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', gap: '0.5rem' }}>
                 <button 
                     onClick={() => {
@@ -412,7 +421,7 @@ const Settings = () => {
                         boxShadow: ttsEngine === 'google' ? '0 4px 8px rgba(0,0,0,0.1)' : 'none'
                     }}
                 >
-                    Google Cloud<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>{gcpAccessToken ? "(프리미엄)" : "(로그인 연동)"}</span>
+                    Google Cloud<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>{gcpAccessToken ? (isIndoMode ? "(Premium)" : "(프리미엄)") : (isIndoMode ? "(Login API)" : "(로그인 연동)")}</span>
                 </button>
                 <button 
                     onClick={() => { setTtsEngine('gemini'); localStorage.setItem('tts_engine', 'gemini'); }}
@@ -423,7 +432,7 @@ const Settings = () => {
                         boxShadow: ttsEngine === 'gemini' ? '0 4px 8px rgba(0,0,0,0.1)' : 'none'
                     }}
                 >
-                    Gemini AI<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>(기본)</span>
+                    Gemini AI<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>(Default)</span>
                 </button>
                 <button 
                     onClick={() => { setTtsEngine('browser'); localStorage.setItem('tts_engine', 'browser'); }}
@@ -434,68 +443,68 @@ const Settings = () => {
                         boxShadow: ttsEngine === 'browser' ? '0 4px 8px rgba(0,0,0,0.1)' : 'none'
                     }}
                 >
-                    브라우저 기본<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>(오프라인)</span>
+                    {isIndoMode ? 'Browser' : '브라우저 기본'}<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>(Offline)</span>
                 </button>
             </div>
             
             {/* Google Cloud 엔진이 선택되었을 때만 모델 선택 메뉴 노출 */}
             {ttsEngine === 'google' && (
                 <div style={{ marginTop: '1rem', padding: '1rem', background: '#ffeaa7', borderRadius: '8px', border: '2px dashed #fdcb6e' }}>
-                    <span style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.6rem', color: '#d35400' }}>⭐ 구글 클라우드 음성 모델 선택</span>
-                    <div style={{ display: 'flex', gap: '1rem' }}>
+                    <span style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.6rem', color: '#d35400' }}>{t('set_google_model_title')}</span>
+                    <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                         <label style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', cursor: 'pointer', fontSize: '0.9rem' }}>
                             <input 
                                 type="radio" 
                                 name="googleModel" 
-                                value="id-ID-Chirp3-HD-Schedar"
-                                checked={googleTtsModel === 'id-ID-Chirp3-HD-Schedar'}
+                                value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Chirp3-HD-Schedar"}
+                                checked={googleTtsModel.includes('Neural2') || googleTtsModel.includes('Chirp')}
                                 onChange={(e) => {
                                     setGoogleTtsModel(e.target.value);
                                     localStorage.setItem('google_tts_model', e.target.value);
                                 }}
                             />
-                            <b>고급모델</b> (Chirp3-HD)
+                            <b>{t('set_google_model_high')}</b> ({isIndoMode ? 'Neural2' : 'Chirp3-HD'})
                         </label>
                         <label style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', cursor: 'pointer', fontSize: '0.9rem' }}>
                             <input 
                                 type="radio" 
                                 name="googleModel" 
-                                value="id-ID-Standard-C"
-                                checked={googleTtsModel === 'id-ID-Standard-C'}
+                                value={isIndoMode ? "ko-KR-Standard-A" : "id-ID-Standard-C"}
+                                checked={googleTtsModel.includes('Standard')}
                                 onChange={(e) => {
                                     setGoogleTtsModel(e.target.value);
                                     localStorage.setItem('google_tts_model', e.target.value);
                                 }}
                             />
-                            <b>표준모델</b> (Standard-C)
+                            <b>{t('set_google_model_std')}</b> (Standard)
                         </label>
                     </div>
                 </div>
             )}
 
             <p style={{ margin: '0.8rem 0 0', fontSize: '0.75rem', color: '#666', lineHeight: '1.4' }}>
-                * <b>Google Cloud:</b> 최고의 음질을 제공합니다 (앱 사용 시 로그인 연동 최초 1회 필요).<br/>
-                * <b>Gemini AI:</b> 별도의 절차 없이 작동하지만 속도가 불규칙할 수 있습니다.<br/>
-                * <b>브라우저 기본:</b> 언제 어디서나 오프라인에서도 보장된 소리를 냅니다.
+                * <b>Google Cloud:</b> {isIndoMode ? 'Kualitas suara terbaik (memerlukan login satu kali).' : '최고의 음질을 제공합니다 (앱 사용 시 로그인 연동 최초 1회 필요).'}<br/>
+                * <b>Gemini AI:</b> {isIndoMode ? 'Berjalan otomatis tanpa prosedur tambahan, namun kecepatan mungkin bervariasi.' : '별도의 절차 없이 작동하지만 속도가 불규칙할 수 있습니다.'}<br/>
+                * <b>{isIndoMode ? 'Browser Default' : '브라우저 기본'}:</b> {isIndoMode ? 'Bekerja secara offline di mana saja.' : '언제 어디서나 오프라인에서도 보장된 소리를 냅니다.'}
             </p>
         </div>
       </div>
 
       <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
-            <h3 style={{color: 'var(--primary-color)', margin: 0}}>API 연동 키 설정</h3>
+            <h3 style={{color: 'var(--primary-color)', margin: 0}}>{t('set_api_title')}</h3>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.2rem' }}>
                 <span style={{ background: '#f0fdf4', color: '#2e7d32', padding: '0.3rem 0.6rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 'bold' }}>
-                    💡 누적 토큰: {totalTokens.toLocaleString()} Token
+                    💡 {isIndoMode ? 'Akumulasi Token' : '누적 토큰'}: {totalTokens.toLocaleString()} Token
                 </span>
                 <span style={{ background: '#fff7ed', color: '#c2410c', padding: '0.3rem 0.6rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 'bold', border: '1px solid #fed7aa' }}>
-                    💰 예상 요금: 약 {Math.round(totalCostUsd * 1503.31).toLocaleString()}원
+                    💰 {isIndoMode ? 'Estimasi Biaya' : '예상 요금'}: 약 {isIndoMode ? `$ ${totalCostUsd.toFixed(4)}` : `${Math.round(totalCostUsd * 1500).toLocaleString()}원`}
                 </span>
             </div>
         </div>
-        <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem', marginTop: '0.5rem' }}>인도네시아어 학습을 위해 준비하신 Gemini API 키를 입력하세요. (브라우저에만 안전하게 저장됩니다.)</p>
+        <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem', marginTop: '0.5rem' }}>{t('set_api_desc')}</p>
         
-        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Gemini AI API Key</label>
+        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>{t('set_gemini_key_label')}</label>
         <input 
           type="password" 
           value={geminiKey}
@@ -505,7 +514,7 @@ const Settings = () => {
         />
 
         <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', border: '1px solid #eee' }}>
-            <h4 style={{ margin: '0 0 0.5rem 0' }}>💡 탑재할 AI 모델 직접 선택</h4>
+            <h4 style={{ margin: '0 0 0.5rem 0' }}>💡 {t('set_gemini_model_select')}</h4>
             <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                <select 
                   value={selectedGeminiModel} 
@@ -515,31 +524,31 @@ const Settings = () => {
                   }}
                   style={{ flex: 1, padding: '0.8rem', borderRadius: '6px', border: '1px solid #ccc' }}
                >
-                 {modelList.length === 0 && <option value="">모델 리스트가 비어있습니다.</option>}
+                 {modelList.length === 0 && <option value="">{isIndoMode ? "Daftar model kosong" : "모델 리스트가 비어있습니다."}</option>}
                  {modelList.map(m => <option key={m} value={m}>{m}</option>)}
                </select>
                <button 
                   onClick={handleFetchModels} disabled={loadingModels}
                   style={{ padding: '0.8rem 1rem', background: '#fff', color: 'var(--primary-color)', border: '1px solid var(--primary-color)', borderRadius: '6px', cursor: 'pointer', whiteSpace: 'nowrap' }}>
-                  {loadingModels ? '조회중...' : '모델 조회 갱신'}
+                  {loadingModels ? (isIndoMode ? 'Memuat...' : '조회중...') : (isIndoMode ? 'Update' : '모델 조회 갱신')}
                </button>
             </div>
         </div>
         
         <button onClick={saveApiKeys} style={{ padding: '0.8rem 1.5rem', background: '#333', color: '#fff', border: 'none', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold', width: '100%' }}>
-          설정 저장
+          {t('set_btn_save')}
         </button>
       </div>
 
       <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', marginBottom: '5rem' }}>
-        <h3 style={{color: '#2e7d32'}}>엑셀(CSV) 단어장 백업 & 불러오기</h3>
-        <p style={{ color: '#666', fontSize: '0.9rem', margin: '0.5rem 0 1.5rem' }}>구글 로그인 없이도 파일을 통해 기기 간에 단어장을 자유롭게 옮길 수 있습니다.</p>
+        <h3 style={{color: '#2e7d32'}}>{t('set_backup_title')}</h3>
+        <p style={{ color: '#666', fontSize: '0.9rem', margin: '0.5rem 0 1.5rem' }}>{isIndoMode ? 'Cadangkan kosakata ke file atau pindahkan antar perangkat.' : '구글 로그인 없이도 파일을 통해 기기 간에 단어장을 자유롭게 옮길 수 있습니다.'}</p>
         
         <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
             <button 
                 onClick={handleExportCSV}
                 style={{ flex: 1, minWidth: '150px', padding: '0.9rem', background: '#f0fdf4', color: '#2e7d32', border: '1px solid #b7e4c7', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold' }}>
-                📁 단어장 CSV로 내보내기
+                {t('set_backup_export')}
             </button>
             
             <div style={{ flex: 1, minWidth: '150px' }}>
@@ -553,14 +562,14 @@ const Settings = () => {
                 <button 
                     onClick={() => document.getElementById('csvImport').click()}
                     style={{ width: '100%', padding: '0.9rem', background: '#e8f5e9', color: '#1b5e20', border: '1px solid #c8e6c9', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold' }}>
-                    📅 CSV 파일 불러오기
+                    {t('set_backup_import')}
                 </button>
             </div>
             
             <button 
                 onClick={() => setIsJsonModalOpen(true)}
                 style={{ width: '100%', marginTop: '0.8rem', padding: '1rem', background: '#fff9db', color: '#856404', border: '3px solid #feca57', borderRadius: '15px', cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem', boxShadow: '0 4px 0 #feca57' }}>
-                ✨ 제미나이 JSON 텍스트 직접 붙여넣기
+                {t('set_json_paste')}
             </button>
         </div>
         <p style={{ fontSize: '0.8rem', color: '#aaa', marginTop: '1rem', textAlign: 'center' }}>팁: 내보낸 CSV 파일은 엑셀이나 구글 시트에서 열어 직접 수정할 수도 있습니다.</p>
@@ -569,15 +578,15 @@ const Settings = () => {
       <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', marginBottom: '5rem', border: '2px solid #4285f4' }}>
         <h3 style={{color: '#4285f4', display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" alt="Gdrive" style={{width: '24px'}} />
-            구글 드라이브 클라우드 백업
+            {t('set_cloud_title')}
         </h3>
-        <p style={{ color: '#666', fontSize: '0.9rem', margin: '0.5rem 0 1.5rem' }}>로그인 한 번으로 기기가 바뀌어도 내 단어장을 즉시 불러올 수 있습니다.</p>
+        <p style={{ color: '#666', fontSize: '0.9rem', margin: '0.5rem 0 1.5rem' }}>{t('set_cloud_desc')}</p>
         
         {!gcpAccessToken ? (
             <button 
                 onClick={handleGoogleLogin}
                 style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem' }}>
-                Google 계정으로 클라우드 연동하기
+                {t('set_cloud_login')}
             </button>
         ) : (
             <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
@@ -585,18 +594,18 @@ const Settings = () => {
                     onClick={handleBackupToDrive}
                     disabled={isDriveOperating}
                     style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
-                    {isDriveOperating ? '백업 중...' : '📤 현재 데이터 클라우드에 백업'}
+                    {isDriveOperating ? (isIndoMode ? 'Backing up...' : '백업 중...') : t('set_cloud_backup_btn')}
                 </button>
                 <button 
                     onClick={handleRestoreFromDrive}
                     disabled={isDriveOperating}
                     style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#fbbc05', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
-                    {isDriveOperating ? '복원 중...' : '📥 클라우드에서 데이터 가져오기'}
+                    {isDriveOperating ? (isIndoMode ? 'Restoring...' : '복원 중...') : t('set_cloud_restore_btn')}
                 </button>
             </div>
         )}
         <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '1rem', background: '#f8f9fa', padding: '0.5rem', borderRadius: '4px' }}>
-            * 백업 데이터는 사용자 본인의 구글 드라이브에 <b>'indo-word-app-backup.json'</b> 파일로 저장됩니다.
+            * {isIndoMode ? 'Data cadangan disimpan sebagai' : '백업 데이터는 사용자 본인의 구글 드라이브에'} <b>'indo-word-app-backup.json'</b> {isIndoMode ? 'di Google Drive Anda.' : '파일로 저장됩니다.'}
         </p>
       </div>
 
@@ -616,12 +625,12 @@ const Settings = () => {
                 onClick={handleJsonImport}
                 disabled={isJsonImporting}
                 style={{ flex: 1, padding: '1.2rem', background: 'linear-gradient(135deg, #feca57, #ff9f43)', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: 'bold', fontSize: '1.1rem', cursor: isJsonImporting ? 'not-allowed' : 'pointer', boxShadow: '0 6px 0 #e67e22' }}>
-                {isJsonImporting ? '나나가 읽고 있어요...' : '단어장에 쏙 넣기!'}
+                {t('btn_confirm')}
               </button>
               <button 
                 onClick={() => setIsJsonModalOpen(false)}
                 style={{ padding: '0 1.5rem', background: '#eee', color: '#666', border: 'none', borderRadius: '20px', fontWeight: 'bold', cursor: 'pointer' }}>
-                닫기
+                {t('btn_cancel')}
               </button>
             </div>
           </div>

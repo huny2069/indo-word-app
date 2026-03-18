@@ -20,7 +20,8 @@ export const searchBackupFile = async (accessToken) => {
   });
 
   if (!response.ok) {
-    throw new Error('드라이브 파일 검색 실패');
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(`드라이브 파일 검색 실패 (${response.status}): ${errorData.error?.message || '알 수 없는 오류'}`);
   }
 
   const data = await response.json();
@@ -66,7 +67,8 @@ export const uploadBackupToDrive = async (accessToken, backupData) => {
   });
 
   if (!response.ok) {
-    throw new Error('드라이브 업로드 실패');
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(`드라이브 업로드 실패 (${response.status}): ${errorData.error?.message || '알 수 없는 오류'}`);
   }
 
   return await response.json();
@@ -86,7 +88,8 @@ export const downloadBackupFromDrive = async (accessToken, fileId) => {
   });
 
   if (!response.ok) {
-    throw new Error('드라이브 파일 다운로드 실패');
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(`드라이브 파일 다운로드 실패 (${response.status}): ${errorData.error?.message || '알 수 없는 오류'}`);
   }
 
   return await response.json();
