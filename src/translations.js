@@ -191,6 +191,23 @@ export const translations = {
     guide_step4: '4단계: 클라우드 백업하기',
     guide_questions_title: '궁금한 점이 있으신가요?',
     guide_questions_desc: '나나는 언제나 당신의 학습을 응원합니다. 왼쪽 메뉴를 눌러 지금 바로 시작해보세요!',
+    
+    // Detailed Guide
+    guide_section_api: '🔑 Gemini API 발급 가이드',
+    guide_api_step1: '1. [Google AI Studio](https://aistudio.google.com/app/apikey)에 접속하세요.',
+    guide_api_step2: '2. "Create API key" 버튼을 눌러 새 키를 생성합니다.',
+    guide_api_step3: '3. 생성된 키를 복사하여 인코의 [설정] 탭에 붙여넣고 저장하세요.',
+    
+    guide_section_drive: '☁️ 구글 드라이브 연동 (백업)',
+    guide_drive_step1: '1. [설정] 탭에서 "구글 계정 연결" 버튼을 누르세요.',
+    guide_drive_step2: '2. "백업(Backup)" 버튼을 누르면 현재 단어장이 구글 드라이브에 안전하게 저장됩니다.',
+    guide_drive_step3: '3. 기기를 바꾸었을 때는 "복원(Restore)" 버튼으로 그대로 가져올 수 있습니다.',
+    
+    guide_section_billing: '💰 토큰과 이용 요금 안내',
+    guide_billing_token_title: '토큰(Token)이란?',
+    guide_billing_token_desc: 'AI가 글자를 이해하는 단위입니다. 보통 단어 1개는 1~2토큰 정도이며, 인코는 효율적인 설계를 통해 토큰 소모를 최소화합니다.',
+    guide_billing_cost_title: '요금은 얼마나 나오나요?',
+    guide_billing_cost_desc: 'Gemini 1.5 Flash 모델은 매우 저렴합니다. 단어 1,000개를 생성해도 약 100원 내외의 비용만 발생하며, 구글에서 제공하는 무료 티어 범위 내에서는 비용 없이도 충분히 사용 가능합니다.',
     learn_loading_msg: '나나가 단어장을 챙겨오고 있어요... 🍌',
     quiz_direction_ko_id: '인도네시아어 ➔ 한국어',
     quiz_direction_id_ko: '한국어 ➔ 인도네시아어',
@@ -433,6 +450,23 @@ export const translations = {
     guide_step4: '4. Cadangan: Simpan data berharga Anda di Cloud dengan aman.',
     guide_questions_title: 'Ada pertanyaan?',
     guide_questions_desc: 'Nana selalu siap membantu Anda. Jangan ragu untuk mencoba semua fitur di menu samping!',
+    
+    // Detailed Guide (ID)
+    guide_section_api: '🔑 Panduan Kunci API Gemini',
+    guide_api_step1: '1. Kunjungi [Google AI Studio](https://aistudio.google.com/app/apikey).',
+    guide_api_step2: '2. Klik tombol "Create API key" untuk membuat kunci baru.',
+    guide_api_step3: '3. Salin kunci tersebut, tempelkan di tab [Pengaturan] Inko, lalu simpan.',
+    
+    guide_section_drive: '☁️ Hubungkan Google Drive (Cadangan)',
+    guide_drive_step1: '1. Klik tombol "Hubungkan Akun Google" di tab [Pengaturan].',
+    guide_drive_step2: '2. Klik "Cadangkan (Backup)" để menyimpan kosakata Anda dengan aman di Google Drive.',
+    guide_drive_step3: '3. Saat ganti perangkat, gunakan tombol "Pulihkan (Restore)" untuk mengambil kembali data Anda.',
+    
+    guide_section_billing: '💰 Info Token & Biaya',
+    guide_billing_token_title: 'Apa itu Token?',
+    guide_billing_token_desc: 'Token adalah unit AI dalam memahami teks. Biasanya, 1 kata setara dengan 1-2 token. Inko dirancang efisien untuk meminimalkan konsumsi token.',
+    guide_billing_cost_title: 'Berapa biayanya?',
+    guide_billing_cost_desc: 'Model Gemini 1.5 Flash sangat murah. Membuat 1.000 kata hanya memakan biaya sekitar $0.07. Jika menggunakan batas gratis (Free Tier) dari Google, Anda bahkan bisa menggunakannya tanpa biaya sama sekali.',
     learn_loading_msg: 'Nana sedang menyiapkan kosakata... 🍌',
     quiz_direction_ko_id: 'B. Korea ➔ B. Indo',
     quiz_direction_id_ko: 'B. Indo ➔ B. Korea',
