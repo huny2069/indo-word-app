@@ -89,7 +89,7 @@ const IncorrectNotes = () => {
 
         <div style={{ background: '#fff0f0', padding: '1.2rem', borderRadius: '20px', border: '3px solid #ff7675', marginBottom: '1.5rem', boxShadow: '0 4px 0 #ff7675' }}>
             <p style={{ margin: 0, fontSize: '0.95rem', color: '#c0392b', fontWeight: 'bold' }}>
-                🍌 {t('inc_desc').replace('{count}', incorrectWords.length)}
+                🍌 {t('inc_desc', { count: incorrectWords.length })}
             </p>
         </div>
 

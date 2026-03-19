@@ -277,9 +277,9 @@ const Learn = () => {
         <div style={{ background: '#fff9db', padding: '1.2rem', borderRadius: '20px', border: '3px solid #feca57', marginBottom: '1.5rem', boxShadow: '0 4px 0 #feca57' }}>
             <p style={{ margin: 0, fontSize: '0.95rem', color: '#856404', fontWeight: 'bold' }}>
                 {isCartMode ? (
-                    t('learn_cart_session').replace('{count}', words.length)
+                    t('learn_cart_session', { count: words.length })
                 ) : (
-                    t('learn_recommend_session').replace('{count}', words.length)
+                    t('learn_recommend_session', { count: words.length })
                 )}
             </p>
         </div>

@@ -17,8 +17,15 @@ export const LanguageProvider = ({ children }) => {
   }, [isIndoMode]);
 
   // UI 번역 함수 (translations.js 사용)
-  const t = (key) => {
-    return translations[lang]?.[key] || key;
+  const t = (key, params = {}) => {
+    let str = translations[lang]?.[key] || key;
+    
+    // {count} 등의 플레이스홀더 치환
+    Object.keys(params).forEach(p => {
+      str = str.replace(`{${p}}`, params[p]);
+    });
+    
+    return str;
   };
 
   const setLanguage = (newLang) => {
