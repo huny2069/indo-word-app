@@ -192,7 +192,8 @@ const Learn = () => {
 
   const generateOptions = (index) => {
     const correct = words[index];
-    const type = Math.random() > 0.5 ? 'wordToMeaning' : 'meaningToWord';
+    // 모든 언어 모드에서 '단어 -> 뜻' 방향으로 고정 (사용자 요청 반영)
+    const type = 'wordToMeaning';
     setQuizType(type);
 
     const pool = allWordsCache.length >= 4 ? allWordsCache : words;
@@ -398,16 +399,13 @@ const Learn = () => {
         <div style={{ background: '#fff', padding: '2.5rem 1.5rem', borderRadius: '35px', border: '4px solid #ff9f43', boxShadow: '0 12px 0 #ff9f43' }}>
           <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
             <span style={{ background: '#fff7ed', color: '#ea580c', padding: '0.6rem 1.2rem', borderRadius: '25px', fontSize: '0.9rem', fontWeight: '900', border: '2px solid #fed7aa' }}>
-                {quizType === 'wordToMeaning' ? t('quiz_direction_ko_id') : t('quiz_direction_id_ko')}
+                {isIndoMode ? 'B. Korea ➔ B. Indo' : '인도네시아어 ➔ 한국어'}
             </span>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
                 <h2 style={{ margin: 0, fontSize: '2.8rem', color: 'var(--nana-dark)', fontWeight: '900' }}>
-                    {quizType === 'wordToMeaning' 
-                    ? (isIndoMode ? currentWord.meaning : currentWord.word) 
-                    : (isIndoMode ? currentWord.word : currentWord.meaning)
-                    }
+                    {currentWord.word}
                 </h2>
-                <button onClick={() => playAudio(quizType === 'wordToMeaning' ? (isIndoMode ? currentWord.meaning : currentWord.word) : (isIndoMode ? currentWord.word : currentWord.meaning))} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <button onClick={() => playAudio(currentWord.word)} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Volume2 size={24} />
                 </button>
             </div>
@@ -445,9 +443,7 @@ const Learn = () => {
                       className="quiz-option-btn" 
                       style={btnStyle}
                   >
-                      {icon} {quizType === 'wordToMeaning' 
-                               ? (isIndoMode ? opt.word : opt.meaning) 
-                               : (isIndoMode ? opt.meaning : opt.word)}
+                      {icon} {opt.meaning}
                   </button>
               );
             })}
