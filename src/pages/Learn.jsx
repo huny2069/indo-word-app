@@ -255,7 +255,8 @@ const Learn = () => {
 
   const handleSpellingSubmit = async () => {
     if (!spellInput.trim()) return;
-    const targetWord = isIndoMode ? currentWord.word : currentWord.meaning;
+    // 스펠링 정답은 항상 대상어(word)와 비교
+    const targetWord = currentWord.word;
     if (spellInput.trim().toLowerCase() === targetWord.toLowerCase()) {
       await handleSRSUpdate(currentWord, 'good');
     } else {
@@ -341,9 +342,9 @@ const Learn = () => {
                 <span style={{background: '#fff9db', color: '#f39c12', padding: '0.5rem 1.2rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: '900', marginBottom: '1.5rem', border: '2px solid #feca57'}}>{t('pos_' + (currentWord.pos === '명사'?'noun':currentWord.pos === '동사'?'verb':currentWord.pos === '형용사'?'adj':currentWord.pos === '부사'?'adv':currentWord.pos === '대명사'?'pronoun':currentWord.pos === '수사'?'numeral':currentWord.pos === '전치사'?'preposition':currentWord.pos === '접속사'?'conjunction':currentWord.pos === '감탄사'?'interjection':currentWord.pos === '한정사'?'determiner':'noun'))}</span>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                     <h1 style={{ fontSize: '3.8rem', margin: 0, color: 'var(--nana-dark)', wordBreak: 'break-all' }}>
-                    {isIndoMode ? currentWord.meaning : currentWord.word}
+                    {currentWord.word}
                     </h1>
-                    <button onClick={(e) => { e.stopPropagation(); playAudio(isIndoMode ? currentWord.meaning : currentWord.word); }} style={{ background: '#feca57', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.word); }} style={{ background: '#feca57', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Volume2 size={24} />
                     </button>
                 </div>
@@ -352,9 +353,9 @@ const Learn = () => {
             <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #ff9f43', boxShadow: '0 10px 0 #ff9f43', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1.5rem', overflow: 'hidden' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem' }}>
                     <h2 style={{ fontSize: '2.5rem', margin: 0, color: '#e67e22', fontWeight: '900' }}>
-                    {isIndoMode ? currentWord.word : currentWord.meaning}
+                    {currentWord.meaning}
                     </h2>
-                    <button onClick={(e) => { e.stopPropagation(); playAudio(isIndoMode ? currentWord.word : currentWord.meaning); }} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.6rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.meaning); }} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.6rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Volume2 size={20} />
                     </button>
                 </div>
@@ -363,23 +364,23 @@ const Learn = () => {
                         <div style={{ marginBottom: '1rem' }}>
                             <div style={{fontSize: '0.75rem', color: '#ff9f43', fontWeight: 'bold', marginBottom: '0.3rem'}}>🌟 {isIndoMode ? 'Contoh (Formal)' : '격식체 예문'}</div>
                             <InteractiveSentence 
-                              sentence={isIndoMode ? currentWord.example_formal_kr : currentWord.example_formal} 
+                              sentence={currentWord.example_formal} 
                               breakdown={currentWord.word_breakdown} 
                               fontSize="1rem" 
                             />
                             <div style={{fontSize: '0.85rem', color: '#888', marginTop: '0.3rem'}}>
-                              {isIndoMode ? currentWord.example_formal : currentWord.example_formal_kr}
+                              {currentWord.example_formal_kr}
                             </div>
                         </div>
                         <div>
                             <div style={{fontSize: '0.75rem', color: '#ff9f43', fontWeight: 'bold', marginBottom: '0.3rem'}}>🗣️ {isIndoMode ? 'Contoh (Santai)' : '구어체 예문'}</div>
                             <InteractiveSentence 
-                              sentence={isIndoMode ? currentWord.example_casual_kr : currentWord.example_casual} 
+                              sentence={currentWord.example_casual} 
                               breakdown={currentWord.word_breakdown} 
                               fontSize="1rem" 
                             />
                             <div style={{fontSize: '0.85rem', color: '#888', marginTop: '0.3rem'}}>
-                              {isIndoMode ? currentWord.example_casual : currentWord.example_casual_kr}
+                              {currentWord.example_casual_kr}
                             </div>
                         </div>
                     </div>
@@ -455,7 +456,7 @@ const Learn = () => {
         <div style={{ background: '#fff', padding: '3rem 2rem', borderRadius: '35px', border: '4px solid #1dd1a1', boxShadow: '0 12px 0 #1dd1a1', textAlign: 'center' }}>
           <img src="/assets/img/nana.png" className="nana-character" style={{ width: '90px', marginBottom: '1.5rem' }} alt="nana-spelling" />
           <h2 style={{ marginBottom: '1rem', fontSize: '2.2rem', fontWeight: '900' }}>
-            "{isIndoMode ? currentWord.meaning : currentWord.word}"
+            "{currentWord.meaning}"
           </h2>
           <p style={{color: '#888', fontWeight: 'bold', marginBottom: '2rem'}}>
             {t('learn_spelling_hint')}
@@ -473,7 +474,7 @@ const Learn = () => {
             spellCheck="false" 
           />
           <div style={{display: 'flex', gap: '1rem'}}>
-            <button onClick={() => playAudio(isIndoMode ? currentWord.meaning : currentWord.word)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>
+            <button onClick={() => playAudio(currentWord.word)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>
               🔊 {t('learn_spelling_listen')}
             </button>
             <button onClick={handleSpellingSubmit} style={{ flex: 2, padding: '1.2rem', background: '#1dd1a1', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.2rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84' }}>
