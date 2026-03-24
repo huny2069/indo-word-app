@@ -1,46 +1,49 @@
 /**
- * 인도네시아어 TTS(음성 합성) 통합 모듈
- * 1순위: Gemini AI (멀티모달 오디오 생성)
- * 2순위: Google Cloud Cloud TTS (전용 API)
- * 3순위: Web Speech API (브라우저 내장 Fallback)
+ * 인도네시아어/한국어 TTS(음성 합성) 통합 모듈 (v3.3)
+ * 언어 자동 감지(Hangul Detection) 기술을 적용하여 정확한 발음을 제공합니다.
  */
 
+// 한글 포함 여부 체크 함수
+const containsHangul = (text) => /[\u3131-\uD79D]/.test(text);
+
 export const playAudio = async (text) => {
+  if (!text) return;
+  
   // 0. 글로벌 음성 설정 확인
   const isAudioEnabled = localStorage.getItem('is_audio_enabled') !== 'false';
   if (!isAudioEnabled) return;
 
-  const isIndoMode = localStorage.getItem('isIndoMode') === 'true';
+  // 1. 실제 텍스트 언어 판별 (isIndoMode에 의존하지 않음)
+  const isKorean = containsHangul(text);
   const preferredEngine = localStorage.getItem('tts_engine') || 'gemini';
 
   try {
     if (preferredEngine === 'google') {
-      await playGoogleCloudTTS(text, isIndoMode);
+      await playGoogleCloudTTS(text, isKorean);
     } else if (preferredEngine === 'gemini') {
-      await playGeminiTTS(text, isIndoMode);
+      await playGeminiTTS(text, isKorean);
     } else {
-      playWebSpeechTTS(text, isIndoMode);
+      playWebSpeechTTS(text, isKorean);
     }
   } catch (error) {
-    console.error(`${preferredEngine} 엔진 재생 실패, 폴백 시도:`, error);
-    // 자동 폴백: Web Speech API는 항상 동작하므로 최후의 수단으로 사용
-    playWebSpeechTTS(text, isIndoMode);
+    console.error(`${preferredEngine} 엔진 재생 실패, 브라우저 폴백 시도:`, error);
+    // 최후의 수단: Web Speech API (오프라인 지원)
+    playWebSpeechTTS(text, isKorean);
   }
 };
 
 /**
  * 엔진 1: Gemini AI 멀티모달 오디오 재생
- * 별도의 TTS 키 없이도 Gemini API Key만 있으면 동작합니다.
  */
-async function playGeminiTTS(text, isIndoMode) {
-  const apiKey = localStorage.getItem('geminiApiKey');
-  const model = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash';
+async function playGeminiTTS(text, isKorean) {
+  const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
+  const model = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
 
   if (!apiKey) throw new Error("Gemini API Key가 없습니다.");
 
-  const targetLangPrompt = isIndoMode ? "한국어(Korean)" : "인도네시아어(Indonesian)";
+  const langLabel = isKorean ? "한국어(Korean)" : "인도네시아어(Indonesian)";
 
-  // Gemini 1.5/2.0 멀티모달 오디오 생성 API 호출
+  // Gemini 오디오 생성 API 호출
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
   
   const response = await fetch(endpoint, {
@@ -49,7 +52,7 @@ async function playGeminiTTS(text, isIndoMode) {
     body: JSON.stringify({
       contents: [{
         parts: [{
-          text: `다음 ${targetLangPrompt} 문장을 원어민 발음으로 읽어주세요. 오디오만 반환하세요: "${text}"`
+          text: `Read the following ${langLabel} text accurately with a natural native accent. Output ONLY audio: "${text}"`
         }]
       }],
       generationConfig: {
@@ -59,7 +62,8 @@ async function playGeminiTTS(text, isIndoMode) {
   });
 
   if (!response.ok) {
-    throw new Error("Gemini 오디오 생성 실패 (모델이 오디오를 지원하지 않을 수 있습니다)");
+    const errData = await response.json().catch(() => ({}));
+    throw new Error(`Gemini 오디오 생성 실패: ${errData.error?.message || response.statusText}`);
   }
 
   const data = await response.json();
@@ -72,15 +76,21 @@ async function playGeminiTTS(text, isIndoMode) {
   }
 }
 
-async function playGoogleCloudTTS(text, isIndoMode) {
+/**
+ * 엔진 2: Google Cloud TTS (Premium)
+ */
+async function playGoogleCloudTTS(text, isKorean) {
   const accessToken = localStorage.getItem('gcp_access_token');
   if (!accessToken) throw new Error("Google Cloud 액세스 토큰이 없습니다.");
 
-  const langCode = isIndoMode ? 'ko-KR' : 'id-ID';
-  const defaultModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
-  const modelName = localStorage.getItem('google_tts_model') || defaultModel;
+  const langCode = isKorean ? 'ko-KR' : 'id-ID';
+  // 사용자가 설정한 모델이 있으면 사용, 없으면 기본값 적용
+  const savedModel = localStorage.getItem('google_tts_model');
+  const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
+  
+  // 현재 언어 방향에 맞는 베스트 모델 선택
+  const effectiveModel = (savedModel && savedModel.startsWith(langCode.substring(0,2))) ? savedModel : defaultModel;
 
-  // V1beta1 API를 사용하여 최신 음성 로드 시도
   const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
   
   const response = await fetch(endpoint, {
@@ -91,7 +101,7 @@ async function playGoogleCloudTTS(text, isIndoMode) {
     },
     body: JSON.stringify({
       input: { text },
-      voice: { languageCode: langCode, name: modelName },
+      voice: { languageCode: langCode, name: effectiveModel },
       audioConfig: { audioEncoding: 'MP3' }
     })
   });
@@ -100,44 +110,53 @@ async function playGoogleCloudTTS(text, isIndoMode) {
      if (response.status === 401 || response.status === 403) {
          localStorage.removeItem('gcp_access_token');
      }
-     throw new Error(`Google Cloud TTS 요청 실패 (HTTP ${response.status})`);
+     throw new Error(`GCP TTS 실패: ${response.status}`);
   }
 
   const data = await response.json();
   if (data.audioContent) {
     return playBase64Audio(data.audioContent);
   } else {
-    throw new Error("오디오 데이터가 반환되지 않았습니다.");
+    throw new Error("GCP 오디오 데이터 없음");
   }
 }
 
 /**
- * 엔진 3: Web Speech API (브라우저 내장)
- * 인터넷이 없어도, 키가 없어도 동작하는 최후의 보루
+ * 엔진 3: Web Speech API (브라우저 내장 폴백)
  */
-function playWebSpeechTTS(text, isIndoMode) {
-  if (!('speechSynthesis' in window)) {
-    console.error("이 브라우저는 음성 합성을 지원하지 않습니다.");
-    return;
-  }
+function playWebSpeechTTS(text, isKorean) {
+  if (!('speechSynthesis' in window)) return;
 
-  // 기존 재생 중인 음성 중단
   window.speechSynthesis.cancel();
 
-  const langCode = isIndoMode ? 'ko-KR' : 'id-ID';
+  const langCode = isKorean ? 'ko-KR' : 'id-ID';
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = langCode;
-  utterance.rate = 0.9;     // 학습을 위해 약간 천천히
+  utterance.rate = 0.95;
   
-  // 사용 가능한 목소리 중 해당 언어 찾기
-  const voices = window.speechSynthesis.getVoices();
-  const targetVoice = voices.find(v => v.lang.startsWith(isIndoMode ? 'ko' : 'id'));
-  if (targetVoice) utterance.voice = targetVoice;
+  // 브라우저가 지원하는 목소리 목록에서 최적의 매칭 찾기
+  let voices = window.speechSynthesis.getVoices();
+  
+  const findVoice = () => {
+    const targetVoices = voices.filter(v => v.lang.startsWith(isKorean ? 'ko' : 'id'));
+    // Google 목소리(대체로 품질 좋음)를 우선순위로 선택
+    const premiumVoice = targetVoices.find(v => v.name.includes('Google')) || targetVoices[0];
+    if (premiumVoice) utterance.voice = premiumVoice;
+    window.speechSynthesis.speak(utterance);
+  };
 
-  window.speechSynthesis.speak(utterance);
+  if (voices.length === 0) {
+    // 목소리가 아직 로드되지 않은 경우 이벤트 대기
+    window.speechSynthesis.onvoiceschanged = () => {
+      voices = window.speechSynthesis.getVoices();
+      findVoice();
+      window.speechSynthesis.onvoiceschanged = null;
+    };
+  } else {
+    findVoice();
+  }
 }
 
-// 오디오 재생 헬퍼
 function playBase64Audio(base64Data) {
   const audioSrc = "data:audio/mp3;base64," + base64Data;
   const audio = new Audio(audioSrc);
