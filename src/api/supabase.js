@@ -10,12 +10,26 @@ export const supabase = (supabaseUrl && supabaseAnonKey)
   : null;
 
 /**
+ * [IP 주소 가져오기]
+ */
+const getClientIp = async () => {
+  try {
+    const res = await fetch('https://api64.ipify.org?format=json');
+    const data = await res.json();
+    return data.ip;
+  } catch (err) {
+    return 'unknown';
+  }
+};
+
+/**
  * [사용량 로그 전송]
  * @param {Object} data { user_id, tokens_used, cost_usd, topic }
  */
 export const logUsage = async (data) => {
   if (!supabase) return;
   try {
+    const ip = await getClientIp();
     const { error } = await supabase
       .from('usage_logs')
       .insert([
@@ -23,7 +37,8 @@ export const logUsage = async (data) => {
           user_id: data.user_id || 'anonymous',
           tokens_used: data.tokens_used || 0,
           cost_usd: data.cost_usd || 0,
-          topic: data.topic || 'unknown'
+          topic: data.topic || 'unknown',
+          ip: ip
         }
       ]);
     if (error) console.error('Supabase Usage Log Error:', error);
@@ -39,12 +54,14 @@ export const logUsage = async (data) => {
 export const logAccess = async (userId) => {
   if (!supabase) return;
   try {
+    const ip = await getClientIp();
     const { error } = await supabase
       .from('access_logs')
       .insert([
         { 
           user_id: userId || 'anonymous',
-          user_agent: navigator.userAgent
+          user_agent: navigator.userAgent,
+          ip: ip
         }
       ]);
     if (error) console.error('Supabase Access Log Error:', error);

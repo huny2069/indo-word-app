@@ -5,6 +5,10 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 const AdminStats = () => {
     const { isIndoMode } = useLanguage();
+    const adminEmail = import.meta.env.VITE_ADMIN_EMAIL || '';
+    const userEmail = localStorage.getItem('user_email') || '';
+    const isAdmin = adminEmail && userEmail === adminEmail;
+
     const [usageData, setUsageData] = useState([]);
     const [accessData, setAccessData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
@@ -71,6 +75,27 @@ const AdminStats = () => {
         );
     }
 
+    if (!isAdmin) {
+        return (
+            <div style={{ padding: '5rem 2rem', textAlign: 'center' }}>
+                <h2 style={{ color: '#e74c3c', fontSize: '2rem', fontWeight: '900' }}>🔒 {isIndoMode ? 'Akses Terbatas' : '접근 권한 없음'}</h2>
+                <p style={{ color: '#666', marginTop: '1rem', fontSize: '1.2rem' }}>
+                    {isIndoMode 
+                        ? 'Halaman ini hanya dapat diakses oleh Administrator yang terhubung dengan Google.' 
+                        : '이 페이지는 구글로 로그인한 관리자만 접근할 수 있습니다.'}
+                </p>
+                <div style={{ marginTop: '2rem' }}>
+                    <button 
+                        onClick={() => window.location.href = '/settings'}
+                        style={{ padding: '1rem 2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '15px', fontWeight: 'bold', cursor: 'pointer' }}
+                    >
+                        {isIndoMode ? 'Pergi ke Pengaturan untuk Login' : '설정 탭으로 가서 구글 로그인하기'}
+                    </button>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <div style={{ padding: '1.5rem', maxWidth: '1200px', margin: '0 auto', paddingBottom: '5rem' }}>
             <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -132,6 +157,7 @@ const AdminStats = () => {
                                 <tr style={{ borderBottom: '2px solid #f8f9fa', color: '#888' }}>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'Waktu' : '시간'}</th>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'ID Pengguna' : '사용자'}</th>
+                                    <th style={{ padding: '1rem 0.5rem' }}>IP</th>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'Topik' : '주제'}</th>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'Token' : '토큰'}</th>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'Biaya' : '비용'}</th>
@@ -142,6 +168,7 @@ const AdminStats = () => {
                                     <tr key={log.id} style={{ borderBottom: '1px solid #f8f9fa', background: i % 2 === 0 ? '#fff' : '#fafafa' }}>
                                         <td style={{ padding: '0.8rem 0.5rem', whiteSpace: 'nowrap' }}>{new Date(log.created_at).toLocaleString()}</td>
                                         <td style={{ padding: '0.8rem 0.5rem' }}><code style={{fontSize: '0.75rem', background: '#eee', padding: '2px 4px', borderRadius: '4px'}}>{log.user_id.substring(0, 10)}...</code></td>
+                                        <td style={{ padding: '0.8rem 0.5rem' }}><code style={{fontSize: '0.8rem', color: '#3498db'}}>{log.ip || '0.0.0.0'}</code></td>
                                         <td style={{ padding: '0.8rem 0.5rem', fontWeight: 'bold' }}>{log.topic}</td>
                                         <td style={{ padding: '0.8rem 0.5rem' }}>{log.tokens_used.toLocaleString()}</td>
                                         <td style={{ padding: '0.8rem 0.5rem', color: '#e67e22' }}>$ {Number(log.cost_usd).toFixed(5)}</td>
@@ -164,6 +191,7 @@ const AdminStats = () => {
                                 <tr style={{ borderBottom: '2px solid #f8f9fa', color: '#888' }}>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'Waktu' : '접속 시간'}</th>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'ID Pengguna' : 'ID'}</th>
+                                    <th style={{ padding: '1rem 0.5rem' }}>IP</th>
                                     <th style={{ padding: '1rem 0.5rem' }}>{isIndoMode ? 'Info Perangkat' : '기기 정보'}</th>
                                 </tr>
                             </thead>
@@ -172,6 +200,7 @@ const AdminStats = () => {
                                     <tr key={log.id} style={{ borderBottom: '1px solid #f8f9fa' }}>
                                         <td style={{ padding: '0.8rem 0.5rem', whiteSpace: 'nowrap' }}>{new Date(log.created_at).toLocaleString()}</td>
                                         <td style={{ padding: '0.8rem 0.5rem' }}><code>{log.user_id.substring(0, 15)}...</code></td>
+                                        <td style={{ padding: '0.8rem 0.5rem' }}><code style={{ color: '#3498db' }}>{log.ip || '0.0.0.0'}</code></td>
                                         <td style={{ padding: '0.8rem 0.5rem', color: '#666', maxWidth: '300px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{log.user_agent}</td>
                                     </tr>
                                 ))}

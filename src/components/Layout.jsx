@@ -20,6 +20,10 @@ const Layout = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const adminEmail = import.meta.env.VITE_ADMIN_EMAIL || '';
+  const userEmail = localStorage.getItem('user_email') || '';
+  const isAdmin = adminEmail && userEmail === adminEmail;
+
   const navItems = [
     { path: '/', label: t('nav_dashboard'), icon: <Home size={24} /> },
     { path: '/generate', label: t('nav_generate'), icon: <Sparkles size={24} /> },
@@ -28,7 +32,7 @@ const Layout = () => {
     { path: '/incorrect', label: t('nav_incorrect'), icon: <AlertCircle size={24} /> },
     { path: '/guide', label: t('nav_guide'), icon: <Info size={24} /> },
     { path: '/settings', label: t('nav_settings'), icon: <SettingsIcon size={24} /> },
-    { path: '/statistics', label: t('nav_stats'), icon: <BarChart3 size={24} /> },
+    ...(isAdmin ? [{ path: '/statistics', label: t('nav_stats'), icon: <BarChart3 size={24} /> }] : []),
   ];
 
   const languages = [

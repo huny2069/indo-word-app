@@ -7,8 +7,8 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 // 구글 드라이브 백업/복원용 설정 객체
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
-// 드라이브 파일 권한과 더불어 Google Cloud 서비스 연동(TTS) 권한을 추가합니다.
-const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform';
+// 드라이브 파일 권한과 더불어 Google Cloud 서비스 연동(TTS) 및 이메일 정보를 요청합니다.
+const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email';
 
 const Settings = () => {
   const { isIndoMode, t } = useLanguage();
@@ -45,10 +45,25 @@ const Settings = () => {
     const client = window.google.accounts.oauth2.initTokenClient({
       client_id: CLIENT_ID,
       scope: SCOPES, // GCP_SCOPES 대신 모든 권한이 포함된 SCOPES 사용
-      callback: (tokenResponse) => {
+      callback: async (tokenResponse) => {
         if (tokenResponse && tokenResponse.access_token) {
           localStorage.setItem('gcp_access_token', tokenResponse.access_token);
           setGcpAccessToken(tokenResponse.access_token);
+          
+          // [추가] 액세스 토큰을 사용하여 사용자 이메일 정보 가져오기
+          try {
+            const userInfoRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+              headers: { Authorization: `Bearer ${tokenResponse.access_token}` }
+            });
+            const userInfo = await userInfoRes.json();
+            if (userInfo.email) {
+              localStorage.setItem('user_email', userInfo.email);
+              console.log("Logged in as:", userInfo.email);
+            }
+          } catch (userInfoErr) {
+            console.error("Failed to fetch user info:", userInfoErr);
+          }
+
           setTtsEngine('google');
           localStorage.setItem('tts_engine', 'google');
           alert(isIndoMode ? "Koneksi Google Berhasil! 🍌" : "구글 연동 완료! 🍌 압도적인 음질의 구글 클라우드 TTS가 활성화되었습니다.");
