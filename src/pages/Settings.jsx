@@ -119,14 +119,16 @@ const Settings = () => {
       const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
       const effectiveModel = (savedModel && savedModel.startsWith(langCode.substring(0,2))) ? savedModel : defaultModel;
 
-      let endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+      let endpoint = `https://texttospeech.googleapis.com/v1/text:synthesize`;
       const headers = { 'Content-Type': 'application/json' };
       
-      // API Key가 있으면 쿼리 파라미터로, 없으면 Bearer 토큰으로 인증
+      // API Key가 우선순위 (하지만 사용자가 OAuth를 선호하므로 조건부 적용)
       if (googleTtsApiKey) {
           endpoint += `?key=${googleTtsApiKey}`;
-      } else {
+      } else if (gcpAccessToken) {
           headers['Authorization'] = `Bearer ${gcpAccessToken}`;
+      } else {
+          throw new Error("인증 수단이 없습니다. 구글 로그인을 먼저 해주세요.");
       }
 
       const response = await fetch(endpoint, {

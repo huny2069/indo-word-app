@@ -96,13 +96,16 @@ async function playGoogleCloudTTS(text, isKorean) {
       effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Neural2-A';
   }
 
-  let endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+  // v1 엔드포인트 사용 (안정성 강화)
+  let endpoint = `https://texttospeech.googleapis.com/v1/text:synthesize`;
   const headers = { 'Content-Type': 'application/json' };
 
   if (apiKey) {
       endpoint += `?key=${apiKey}`;
-  } else {
+  } else if (accessToken) {
       headers['Authorization'] = `Bearer ${accessToken}`;
+  } else {
+      throw new Error("Google Cloud 인증 수단(API Key 또는 Login)이 없습니다.");
   }
   
   try {
