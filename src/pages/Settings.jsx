@@ -57,7 +57,7 @@ const Settings = () => {
             });
             const userInfo = await userInfoRes.json();
             if (userInfo.email) {
-              localStorage.setItem('user_email', userInfo.email);
+              localStorage.setItem('user_email', userInfo.email.toLowerCase().trim());
               console.log("Logged in as:", userInfo.email);
             }
           } catch (userInfoErr) {
@@ -66,7 +66,10 @@ const Settings = () => {
 
           setTtsEngine('google');
           localStorage.setItem('tts_engine', 'google');
-          alert(isIndoMode ? "Koneksi Google Berhasil! 🍌" : "구글 연동 완료! 🍌 압도적인 음질의 구글 클라우드 TTS가 활성화되었습니다.");
+          alert(isIndoMode ? "Koneksi Google Berhasil! 🍌" : "구글 연동 완료! 🍌 관리자 권한이 확인되면 통계 메뉴가 활성화됩니다.");
+          
+          // 레이아웃 갱신을 위해 페이지 새로고침
+          window.location.reload();
         }
       },
       error_callback: (err) => {
@@ -94,6 +97,54 @@ const Settings = () => {
     const savedList = localStorage.getItem('geminiModelList');
     if (savedList) setModelList(JSON.parse(savedList));
   }, []);
+
+  // [추가] 프리미엄 음성 테스트 함수
+  const handleTestTts = async () => {
+    if (!gcpAccessToken) {
+      alert("먼저 구글 로그인을 완료해주세요.");
+      return;
+    }
+    try {
+      // ttsApi.js의 playAudio를 직접 호출하기 위해 import가 필요할 수 있으나, 
+      // 현재 모듈 구조상 playAudio가 전역으로 사용 가능한지 확인 필요.
+      // 여기서는 직접 playGoogleCloudTTS 로직을 살짝 빌려와서 테스트합니다.
+      const testText = isIndoMode ? "안녕하세요, 나나입니다. 반갑습니다." : "Halo, saya Nana. Senang bertemu dengan Anda.";
+      const isKorean = !isIndoMode; // 인도네시아인이면 한국어 테스트, 한국인이면 인도어 테스트
+      
+      const langCode = isKorean ? 'ko-KR' : 'id-ID';
+      const savedModel = localStorage.getItem('google_tts_model');
+      const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
+      const effectiveModel = (savedModel && savedModel.startsWith(langCode.substring(0,2))) ? savedModel : defaultModel;
+
+      const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${gcpAccessToken}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          input: { text: testText },
+          voice: { languageCode: langCode, name: effectiveModel },
+          audioConfig: { audioEncoding: 'MP3' }
+        })
+      });
+
+      if (!response.ok) {
+        const errJson = await response.json().catch(() => ({}));
+        throw new Error(`GCP API 오류 (HTTP ${response.status}): ${errJson.error?.message || '알 수 없는 오류'}\n\n*팁: Google Cloud Console에서 'Text-to-Speech API'가 활성화되어 있는지, 결제 수단이 등록되어 있는지 확인하세요.`);
+      }
+      
+      const data = await response.json();
+      if (data.audioContent) {
+        const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
+        await audio.play();
+        alert("프리미엄 음성 재생 성공! 🍌🔊 만약 소리가 나지 않는다면 기기의 미디어 음량을 확인하세요.");
+      }
+    } catch (err) {
+      alert(`❌ 고급 음성 테스트 실패:\n${err.message}`);
+    }
+  };
 
   // --- CSV Export/Import 로직 ---
   const handleExportCSV = async () => {
@@ -600,28 +651,83 @@ const Settings = () => {
         {!gcpAccessToken ? (
             <button 
                 onClick={handleGoogleLogin}
-                style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem' }}>
+                style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.8rem' }}>
+                <img src="https://www.google.com/favicon.ico" alt="google" style={{ width: '18px', height: '18px', filter: 'brightness(1.5)' }} />
                 {t('set_cloud_login')}
             </button>
         ) : (
-            <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
-                <button 
-                    onClick={handleBackupToDrive}
-                    disabled={isDriveOperating}
-                    style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
-                    {isDriveOperating ? (isIndoMode ? 'Backing up...' : '백업 중...') : t('set_cloud_backup_btn')}
-                </button>
-                <button 
-                    onClick={handleRestoreFromDrive}
-                    disabled={isDriveOperating}
-                    style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#fbbc05', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
-                    {isDriveOperating ? (isIndoMode ? 'Restoring...' : '복원 중...') : t('set_cloud_restore_btn')}
-                </button>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                {localStorage.getItem('user_email') && (
+                  <div style={{ padding: '0.8rem 1rem', background: '#f0f7ff', borderRadius: '8px', border: '1px solid #cce3ff', fontSize: '0.9rem', color: '#0056b3', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ fontWeight: 'bold' }}>📧 {isIndoMode ? "Akun Terhubung:" : "연동된 계정:"}</span>
+                    {localStorage.getItem('user_email')}
+                  </div>
+                )}
+                <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
+                    <button 
+                        onClick={handleBackupToDrive}
+                        disabled={isDriveOperating}
+                        style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
+                        {isDriveOperating ? (isIndoMode ? 'Backing up...' : '백업 중...') : t('set_cloud_backup_btn')}
+                    </button>
+                    <button 
+                        onClick={handleRestoreFromDrive}
+                        disabled={isDriveOperating}
+                        style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#fbbc05', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
+                        {isDriveOperating ? (isIndoMode ? 'Restoring...' : '복원 중...') : t('set_cloud_restore_btn')}
+                    </button>
+                </div>
             </div>
         )}
         <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '1rem', background: '#f8f9fa', padding: '0.5rem', borderRadius: '4px' }}>
             * {isIndoMode ? 'Data cadangan disimpan sebagai' : '백업 데이터는 사용자 본인의 구글 드라이브에'} <b>'indo-word-app-backup.json'</b> {isIndoMode ? 'di Google Drive Anda.' : '파일로 저장됩니다.'}
         </p>
+
+        {/* [추가] 진단 및 디버그 도구 섹션 */}
+        <div style={{ marginTop: '2rem', padding: '1.5rem', background: '#fff5f5', borderRadius: '15px', border: '1px solid #feb2b2' }}>
+            <h4 style={{ margin: '0 0 1rem 0', color: '#c53030', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                🛠️ {isIndoMode ? 'Diagnosis & Debug' : '관리자 진단 및 오동작 해결 도구'}
+            </h4>
+            
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.5rem' }}>
+                <div style={{ background: '#fff', padding: '1rem', borderRadius: '10px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>
+                    <div style={{ fontSize: '0.8rem', color: '#718096', marginBottom: '0.3rem' }}>{isIndoMode ? 'Email Ter로그인' : '현재 로그인된 이메일'}</div>
+                    <div style={{ fontWeight: 'bold', wordBreak: 'break-all' }}>{localStorage.getItem('user_email') || '(없음)'}</div>
+                </div>
+                <div style={{ background: '#fff', padding: '1rem', borderRadius: '10px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>
+                    <div style={{ fontSize: '0.8rem', color: '#718096', marginBottom: '0.3rem' }}>{isIndoMode ? 'Status Admin' : '관리자 권한 상태'}</div>
+                    <div style={{ fontWeight: 'bold', color: (import.meta.env.VITE_ADMIN_EMAIL || '').toLowerCase().trim() === (localStorage.getItem('user_email') || '').toLowerCase().trim() ? '#2f855a' : '#c53030' }}>
+                        {(import.meta.env.VITE_ADMIN_EMAIL || '').toLowerCase().trim() === (localStorage.getItem('user_email') || '').toLowerCase().trim() 
+                          ? (isIndoMode ? '✅ Administrator' : '✅ 관리자 인증됨') 
+                          : (isIndoMode ? '❌ User Biasa' : '❌ 일반 사용자')}
+                    </div>
+                </div>
+            </div>
+
+            <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
+                <button 
+                    onClick={handleTestTts}
+                    style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '2px solid #feb2b2', borderRadius: '10px', fontWeight: 'bold', cursor: 'pointer', color: '#c53030' }}
+                >
+                    🔉 {isIndoMode ? 'Tes Suara Premium' : '프리미엄 음성 테스트'}
+                </button>
+                <button 
+                    onClick={() => {
+                        localStorage.removeItem('user_email');
+                        localStorage.removeItem('gcp_access_token');
+                        window.location.reload();
+                    }}
+                    style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px', fontWeight: 'bold', cursor: 'pointer', color: '#718096' }}
+                >
+                    🔄 {isIndoMode ? 'Reset Login & Keluar' : '로그인 세션 초기화'}
+                </button>
+            </div>
+            
+            <p style={{ margin: '1rem 0 0 0', fontSize: '0.75rem', color: '#718096', lineHeight: '1.4' }}>
+                * {isIndoMode ? 'Jika menu admin tidak muncul, pastikan email di atas sama dengan VITE_ADMIN_EMAIL.' : '관리자 메일이 일치하는데도 메뉴가 안 보인다면 Vercel에서 Redeploy를 실행해 환경 변수를 갱신하세요.'}<br/>
+                * {isIndoMode ? 'Jika suara premium gagal, periksa apakah Google Cloud Billing aktif.' : '프리미엄 음성 실패 시 Google Cloud Console에서 TTS API 활성화 및 결제 수단 등록 여부를 확인하세요.'}
+            </p>
+        </div>
       </div>
 
       {isJsonModalOpen && (

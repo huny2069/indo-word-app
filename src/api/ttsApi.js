@@ -86,38 +86,52 @@ async function playGoogleCloudTTS(text, isKorean) {
   const langCode = isKorean ? 'ko-KR' : 'id-ID';
   // 사용자가 설정한 모델이 있으면 사용, 없으면 기본값 적용
   const savedModel = localStorage.getItem('google_tts_model');
-  const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
   
   // 현재 언어 방향에 맞는 베스트 모델 선택
-  const effectiveModel = (savedModel && savedModel.startsWith(langCode.substring(0,2))) ? savedModel : defaultModel;
+  let effectiveModel = '';
+  if (savedModel && savedModel.startsWith(langCode.substring(0,2))) {
+      effectiveModel = savedModel;
+  } else {
+      // 기본값 설정 (고급 모델 우선)
+      effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Schedar';
+  }
 
   const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
   
-  const response = await fetch(endpoint, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${accessToken}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      input: { text },
-      voice: { languageCode: langCode, name: effectiveModel },
-      audioConfig: { audioEncoding: 'MP3' }
-    })
-  });
+  try {
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${accessToken}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        input: { text },
+        voice: { languageCode: langCode, name: effectiveModel },
+        audioConfig: { audioEncoding: 'MP3' }
+      })
+    });
 
-  if (!response.ok) {
-     if (response.status === 401 || response.status === 403) {
-         localStorage.removeItem('gcp_access_token');
-     }
-     throw new Error(`GCP TTS 실패: ${response.status}`);
-  }
+    if (!response.ok) {
+        const errJson = await response.json().catch(() => ({}));
+        const errMsg = errJson.error?.message || response.statusText;
+        
+        if (response.status === 401 || response.status === 403) {
+            localStorage.removeItem('gcp_access_token');
+            throw new Error(`인증 만료: 다시 로그인해주세요.`);
+        }
+        throw new Error(`GCP TTS API 오류: ${errMsg}`);
+    }
 
-  const data = await response.json();
-  if (data.audioContent) {
-    return playBase64Audio(data.audioContent);
-  } else {
-    throw new Error("GCP 오디오 데이터 없음");
+    const data = await response.json();
+    if (data.audioContent) {
+      return playBase64Audio(data.audioContent);
+    } else {
+      throw new Error("오디오 데이터가 반환되지 않았습니다.");
+    }
+  } catch (err) {
+      console.error("Google Cloud TTS Error Detail:", err);
+      throw err; // 상위 playAudio에서 catch하여 Web Speech로 폴백함
   }
 }
 
