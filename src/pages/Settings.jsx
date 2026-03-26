@@ -25,7 +25,7 @@ const Settings = () => {
   const [totalCostUsd, setTotalCostUsd] = useState(0); // [추가] 누적 비용(USD)
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); // [추가] 음성 토글 상태
   const [ttsEngine, setTtsEngine] = useState('gemini'); // [추가] 음성 엔진 선택 상태 (gemini, google, browser)
-  const defaultGoogleModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Neural2-A';
+  const defaultGoogleModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Achernar'; // 여성 고음질 기본
   const [googleTtsModel, setGoogleTtsModel] = useState(localStorage.getItem('google_tts_model') || defaultGoogleModel);
   const [googleVoiceList, setGoogleVoiceList] = useState(JSON.parse(localStorage.getItem('google_voice_list') || '[]'));
   const [loadingVoices, setLoadingVoices] = useState(false);
@@ -575,9 +575,10 @@ const Settings = () => {
                     >
                         {googleVoiceList.length > 0 ? (
                             <>
-                                <optgroup label="--- Recommendation ---">
-                                    <option value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Neural2-A"}>[Neural2] {isIndoMode ? 'Korean A' : 'Indonesian A'} (Best)</option>
-                                    <option value={isIndoMode ? "ko-KR-Wavenet-A" : "id-ID-Wavenet-A"}>[Wavenet] {isIndoMode ? 'Korean A' : 'Indonesian A'} (Stable)</option>
+                                <optgroup label="--- [Recommended] ---">
+                                    <option value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Chirp3-HD-Achernar"}>⭐ {isIndoMode ? 'Korean (Neural2-A)' : '인도네시아어 (Chirp3-Achernar)'}</option>
+                                    <option value={isIndoMode ? "ko-KR-Chirp3-HD-Alnilam" : "id-ID-Chirp3-HD-Alnilam"}>⭐ {isIndoMode ? 'Korean (Chirp3-Alnilam)' : '인도네시아어 (Chirp3-Alnilam)'}</option>
+                                    <option value={isIndoMode ? "ko-KR-Wavenet-A" : "id-ID-Wavenet-A"}>✅ {isIndoMode ? 'Korean (Wavenet-A)' : '인도네시아어 (Wavenet-A)'}</option>
                                 </optgroup>
                                 <optgroup label="--- All Available ---">
                                     {googleVoiceList

@@ -93,7 +93,7 @@ async function playGoogleCloudTTS(text, isKorean) {
   if (savedModel && savedModel.startsWith(langCode.substring(0,2))) {
       effectiveModel = savedModel;
   } else {
-      effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Neural2-A';
+      effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Achernar';
   }
 
   // v1 엔드포인트 사용 (안정성 강화)
