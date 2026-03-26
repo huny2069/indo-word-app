@@ -80,11 +80,9 @@ async function playGeminiTTS(text, isKorean) {
  * 엔진 2: Google Cloud TTS (Premium)
  */
 async function playGoogleCloudTTS(text, isKorean) {
-  const apiKey = localStorage.getItem('google_tts_api_key');
   const accessToken = localStorage.getItem('gcp_access_token');
   
-  // 인증 수단 확인 (API Key 또는 OAuth Token)
-  if (!apiKey && !accessToken) throw new Error("Google Cloud 인증 수단(API Key 또는 Login)이 없습니다.");
+  if (!accessToken) throw new Error("Google Cloud 액세스 토큰이 없습니다. 구글 로그인을 먼저 진행해주세요.");
 
   const langCode = isKorean ? 'ko-KR' : 'id-ID';
   const savedModel = localStorage.getItem('google_tts_model');
@@ -93,25 +91,20 @@ async function playGoogleCloudTTS(text, isKorean) {
   if (savedModel && savedModel.startsWith(langCode.substring(0,2))) {
       effectiveModel = savedModel;
   } else {
+      // 보이스 리스트 기반 최적 모델 자동 선택
       effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Achernar';
   }
 
-  // v1 엔드포인트 사용 (안정성 강화)
-  let endpoint = `https://texttospeech.googleapis.com/v1/text:synthesize`;
-  const headers = { 'Content-Type': 'application/json' };
-
-  if (apiKey) {
-      endpoint += `?key=${apiKey}`;
-  } else if (accessToken) {
-      headers['Authorization'] = `Bearer ${accessToken}`;
-  } else {
-      throw new Error("Google Cloud 인증 수단(API Key 또는 Login)이 없습니다.");
-  }
+  // v1beta1 엔드포인트 사용 (버전1 방식 복구)
+  const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
   
   try {
     const response = await fetch(endpoint, {
       method: 'POST',
-      headers: headers,
+      headers: {
+        'Authorization': `Bearer ${accessToken}`,
+        'Content-Type': 'application/json'
+      },
       body: JSON.stringify({
         input: { text },
         voice: { languageCode: langCode, name: effectiveModel },
@@ -120,14 +113,11 @@ async function playGoogleCloudTTS(text, isKorean) {
     });
 
     if (!response.ok) {
-        const errJson = await response.json().catch(() => ({}));
-        const errMsg = errJson.error?.message || response.statusText;
-        
-        if (response.status === 401 || response.status === 403) {
-            localStorage.removeItem('gcp_access_token');
-            throw new Error(`인증 만료: 다시 로그인해주세요.`);
-        }
-        throw new Error(`GCP TTS API 오류: ${errMsg}`);
+       if (response.status === 401 || response.status === 403) {
+           localStorage.removeItem('gcp_access_token');
+       }
+       const errJson = await response.json().catch(() => ({}));
+       throw new Error(`Google Cloud TTS 요청 실패 (HTTP ${response.status}): ${errJson.error?.message || '알 수 없는 오류'}`);
     }
 
     const data = await response.json();
@@ -136,16 +126,30 @@ async function playGoogleCloudTTS(text, isKorean) {
     } else {
       throw new Error("오디오 데이터가 반환되지 않았습니다.");
     }
-  } catch (err) {
-      console.error("Google Cloud TTS Error Detail:", err);
-      throw err; // 상위 playAudio에서 catch하여 Web Speech로 폴백함
+  } catch (error) {
+    throw error;
+  }
+}
+
+async function fetchGoogleVoices(accessToken) {
+  if (!accessToken) return [];
+  try {
+    const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/voices`, {
+      headers: { 'Authorization': `Bearer ${accessToken}` }
+    });
+    if (!response.ok) return [];
+    const data = await response.json();
+    return data.voices || [];
+  } catch (e) {
+    console.error("Fetch Voices Error:", e);
+    return [];
   }
 }
 
 /**
  * 엔진 3: Web Speech API (브라우저 내장 폴백)
  */
-function playWebSpeechTTS(text, isKorean) {
+export function playWebSpeechTTS(text, isKorean) {
   if (!('speechSynthesis' in window)) return;
 
   window.speechSynthesis.cancel();

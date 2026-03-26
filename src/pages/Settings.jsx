@@ -14,7 +14,6 @@ const Settings = () => {
   const { isIndoMode, t } = useLanguage();
   const [googleClientId, setGoogleClientId] = useState('');
   const [geminiKey, setGeminiKey] = useState('');
-  const [googleTtsApiKey, setGoogleTtsApiKey] = useState(localStorage.getItem('google_tts_api_key') || '');
 
   // 모델 동적 선택용
   const [modelList, setModelList] = useState([]);
@@ -108,32 +107,26 @@ const Settings = () => {
       return;
     }
     try {
-      // ttsApi.js의 playAudio를 직접 호출하기 위해 import가 필요할 수 있으나, 
-      // 현재 모듈 구조상 playAudio가 전역으로 사용 가능한지 확인 필요.
-      // 여기서는 직접 playGoogleCloudTTS 로직을 살짝 빌려와서 테스트합니다.
+      if (!gcpAccessToken) {
+        alert("먼저 구글 로그인을 완료해주세요.");
+        handleGoogleLogin();
+        return;
+      }
       const testText = isIndoMode ? "안녕하세요, 나나입니다. 반갑습니다." : "Halo, saya Nana. Senang bertemu dengan Anda.";
-      const isKorean = !isIndoMode; // 인도네시아인이면 한국어 테스트, 한국인이면 인도어 테스트
+      const isKorean = !isIndoMode; 
       
       const langCode = isKorean ? 'ko-KR' : 'id-ID';
       const savedModel = localStorage.getItem('google_tts_model');
-      const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
+      const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Achernar';
       const effectiveModel = (savedModel && savedModel.startsWith(langCode.substring(0,2))) ? savedModel : defaultModel;
 
-      let endpoint = `https://texttospeech.googleapis.com/v1/text:synthesize`;
-      const headers = { 'Content-Type': 'application/json' };
-      
-      // API Key가 우선순위 (하지만 사용자가 OAuth를 선호하므로 조건부 적용)
-      if (googleTtsApiKey) {
-          endpoint += `?key=${googleTtsApiKey}`;
-      } else if (gcpAccessToken) {
-          headers['Authorization'] = `Bearer ${gcpAccessToken}`;
-      } else {
-          throw new Error("인증 수단이 없습니다. 구글 로그인을 먼저 해주세요.");
-      }
-
+      const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
       const response = await fetch(endpoint, {
         method: 'POST',
-        headers: headers,
+        headers: {
+          'Authorization': `Bearer ${gcpAccessToken}`,
+          'Content-Type': 'application/json'
+        },
         body: JSON.stringify({
           input: { text: testText },
           voice: { languageCode: langCode, name: effectiveModel },
@@ -161,14 +154,22 @@ const Settings = () => {
   const handleFetchGoogleVoices = async () => {
     if (!gcpAccessToken) {
       alert("먼저 구글 로그인을 완료해주세요.");
+      handleGoogleLogin();
       return;
     }
     setLoadingVoices(true);
     try {
-      const response = await fetch('https://texttospeech.googleapis.com/v1/voices', {
+      // v1beta1 엔드포인트 사용 (성능 및 호환성 강화)
+      const response = await fetch('https://texttospeech.googleapis.com/v1beta1/voices', {
         headers: { 'Authorization': `Bearer ${gcpAccessToken}` }
       });
-      if (!response.ok) throw new Error("음성 목록을 가져오지 못했습니다.");
+      if (!response.ok) {
+        if (response.status === 401 || response.status === 403) {
+            localStorage.removeItem('gcp_access_token');
+            setGcpAccessToken('');
+        }
+        throw new Error("음성 목록을 가져오지 못했습니다. 다시 로그인해 주세요.");
+      }
       const data = await response.json();
       
       // 한국어와 인도네시아어 음성만 필터링
@@ -464,7 +465,6 @@ const Settings = () => {
 
   const saveApiKeys = () => {
     localStorage.setItem('geminiApiKey', geminiKey);
-    localStorage.setItem('google_tts_api_key', googleTtsApiKey);
     if (selectedGeminiModel) localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
     alert(t('set_save_success'));
   };
@@ -629,16 +629,6 @@ const Settings = () => {
           type="password" 
           value={geminiKey}
           onChange={e => setGeminiKey(e.target.value)}
-          placeholder="AIza..." 
-          style={{ width: '100%', padding: '0.9rem', border: '1px solid #ddd', borderRadius: '6px', marginBottom: '1rem' }} 
-        />
-
-        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Google Cloud TTS API Key (Optional)</label>
-        <p style={{ fontSize: '0.75rem', color: '#666', marginBottom: '0.5rem' }}>* 로그인 없이 고정된 API Key를 사용하고 싶을 때 입력하세요.</p>
-        <input 
-          type="password" 
-          value={googleTtsApiKey}
-          onChange={e => setGoogleTtsApiKey(e.target.value)}
           placeholder="AIza..." 
           style={{ width: '100%', padding: '0.9rem', border: '1px solid #ddd', borderRadius: '6px', marginBottom: '1.5rem' }} 
         />
