@@ -93,7 +93,7 @@ async function playGoogleCloudTTS(text, isKorean) {
       effectiveModel = savedModel;
   } else {
       // 기본값 설정 (고급 모델 우선)
-      effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Schedar';
+      effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Neural2-A';
   }
 
   const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;

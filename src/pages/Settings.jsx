@@ -25,8 +25,10 @@ const Settings = () => {
   const [totalCostUsd, setTotalCostUsd] = useState(0); // [추가] 누적 비용(USD)
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); // [추가] 음성 토글 상태
   const [ttsEngine, setTtsEngine] = useState('gemini'); // [추가] 음성 엔진 선택 상태 (gemini, google, browser)
-  const defaultGoogleModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
+  const defaultGoogleModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Neural2-A';
   const [googleTtsModel, setGoogleTtsModel] = useState(localStorage.getItem('google_tts_model') || defaultGoogleModel);
+  const [googleVoiceList, setGoogleVoiceList] = useState(JSON.parse(localStorage.getItem('google_voice_list') || '[]'));
+  const [loadingVoices, setLoadingVoices] = useState(false);
 
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
   const [jsonInput, setJsonInput] = useState('');
@@ -143,6 +145,32 @@ const Settings = () => {
       }
     } catch (err) {
       alert(`❌ 고급 음성 테스트 실패:\n${err.message}`);
+    }
+  };
+
+  // [추가] Google Cloud TTS 가용 음성 목록 가져오기
+  const handleFetchGoogleVoices = async () => {
+    if (!gcpAccessToken) {
+      alert("먼저 구글 로그인을 완료해주세요.");
+      return;
+    }
+    setLoadingVoices(true);
+    try {
+      const response = await fetch('https://texttospeech.googleapis.com/v1/voices', {
+        headers: { 'Authorization': `Bearer ${gcpAccessToken}` }
+      });
+      if (!response.ok) throw new Error("음성 목록을 가져오지 못했습니다.");
+      const data = await response.json();
+      
+      // 한국어와 인도네시아어 음성만 필터링
+      const filtered = data.voices.filter(v => v.languageCodes.some(lc => lc.startsWith('ko') || lc.startsWith('id')));
+      setGoogleVoiceList(filtered);
+      localStorage.setItem('google_voice_list', JSON.stringify(filtered));
+      alert(`총 ${filtered.length}개의 한국어/인도네시아어 프리미엄 음성을 찾았습니다! 🍌🔊`);
+    } catch (err) {
+      alert("음성 목록 가져오기 실패: " + err.message);
+    } finally {
+      setLoadingVoices(false);
     }
   };
 
@@ -515,36 +543,51 @@ const Settings = () => {
             
             {/* Google Cloud 엔진이 선택되었을 때만 모델 선택 메뉴 노출 */}
             {ttsEngine === 'google' && (
-                <div style={{ marginTop: '1rem', padding: '1rem', background: '#ffeaa7', borderRadius: '8px', border: '2px dashed #fdcb6e' }}>
-                    <span style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.6rem', color: '#d35400' }}>{t('set_google_model_title')}</span>
-                    <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                        <label style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', cursor: 'pointer', fontSize: '0.9rem' }}>
-                            <input 
-                                type="radio" 
-                                name="googleModel" 
-                                value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Chirp3-HD-Schedar"}
-                                checked={googleTtsModel.includes('Neural2') || googleTtsModel.includes('Chirp')}
-                                onChange={(e) => {
-                                    setGoogleTtsModel(e.target.value);
-                                    localStorage.setItem('google_tts_model', e.target.value);
-                                }}
-                            />
-                            <b>{t('set_google_model_high')}</b> ({isIndoMode ? 'Neural2' : 'Chirp3-HD'})
-                        </label>
-                        <label style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', cursor: 'pointer', fontSize: '0.9rem' }}>
-                            <input 
-                                type="radio" 
-                                name="googleModel" 
-                                value={isIndoMode ? "ko-KR-Standard-A" : "id-ID-Standard-C"}
-                                checked={googleTtsModel.includes('Standard')}
-                                onChange={(e) => {
-                                    setGoogleTtsModel(e.target.value);
-                                    localStorage.setItem('google_tts_model', e.target.value);
-                                }}
-                            />
-                            <b>{t('set_google_model_std')}</b> (Standard)
-                        </label>
+                <div style={{ marginTop: '1rem', padding: '1.2rem', background: '#ffeaa7', borderRadius: '12px', border: '2px dashed #fdcb6e' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
+                        <span style={{ fontWeight: 'bold', color: '#d35400' }}>⭐ {t('set_google_model_title')} {isIndoMode ? "(Target: B. Korea)" : "(Target: B. Indo)"}</span>
+                        <button 
+                            onClick={handleFetchGoogleVoices} 
+                            disabled={loadingVoices}
+                            style={{ padding: '0.3rem 0.6rem', fontSize: '0.75rem', background: '#fff', border: '1px solid #d35400', borderRadius: '6px', cursor: 'pointer', color: '#d35400', fontWeight: 'bold' }}
+                        >
+                            {loadingVoices ? '...' : (isIndoMode ? 'Segarkan List' : '음성 목록 갱신')}
+                        </button>
                     </div>
+
+                    <select 
+                        value={googleTtsModel}
+                        onChange={(e) => {
+                            setGoogleTtsModel(e.target.value);
+                            localStorage.setItem('google_tts_model', e.target.value);
+                        }}
+                        style={{ width: '100%', padding: '0.8rem', borderRadius: '8px', border: '1px solid #fab1a0', background: '#fff' }}
+                    >
+                        {googleVoiceList.length > 0 ? (
+                            <>
+                                <optgroup label="--- Recommendation ---">
+                                    <option value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Neural2-A"}>[Neural2] {isIndoMode ? 'Korean A' : 'Indonesian A'} (Best)</option>
+                                    <option value={isIndoMode ? "ko-KR-Wavenet-A" : "id-ID-Wavenet-A"}>[Wavenet] {isIndoMode ? 'Korean A' : 'Indonesian A'} (Stable)</option>
+                                </optgroup>
+                                <optgroup label="--- All Available ---">
+                                    {googleVoiceList
+                                        .filter(v => v.languageCodes.some(lc => lc.startsWith(isIndoMode ? 'ko' : 'id')))
+                                        .map(v => <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>)
+                                    }
+                                </optgroup>
+                            </>
+                        ) : (
+                            <>
+                                <option value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Neural2-A"}>Neural2 High (Default)</option>
+                                <option value={isIndoMode ? "ko-KR-Wavenet-A" : "id-ID-Wavenet-A"}>Wavenet Stable</option>
+                                <option value={isIndoMode ? "ko-KR-Standard-A" : "id-ID-Standard-A"}>Standard</option>
+                            </>
+                        )}
+                    </select>
+
+                    <p style={{ marginTop: '0.5rem', fontSize: '0.7rem', color: '#856404' }}>
+                        * {isIndoMode ? 'Jika suara tidak muncul, klik "Segarkan List"와 pilih 모델 표준(Standard).' : '소리가 나지 않는다면 "음성 목록 갱신" 후 표준(Standard) 모델을 선택해보세요.'}
+                    </p>
                 </div>
             )}
 
