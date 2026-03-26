@@ -14,7 +14,7 @@ const Settings = () => {
   const { isIndoMode, t } = useLanguage();
   const [googleClientId, setGoogleClientId] = useState('');
   const [geminiKey, setGeminiKey] = useState('');
-  const [ttsKey, setTtsKey] = useState('');
+  const [googleTtsApiKey, setGoogleTtsApiKey] = useState(localStorage.getItem('google_tts_api_key') || '');
 
   // 모델 동적 선택용
   const [modelList, setModelList] = useState([]);
@@ -102,8 +102,9 @@ const Settings = () => {
 
   // [추가] 프리미엄 음성 테스트 함수
   const handleTestTts = async () => {
-    if (!gcpAccessToken) {
-      alert("먼저 구글 로그인을 완료해주세요.");
+    // API 키가 있거나 로그인이 되어있어야 함
+    if (!googleTtsApiKey && !gcpAccessToken) {
+      alert("Google TTS API Key를 입력하거나 구글 로그인을 완료해주세요.");
       return;
     }
     try {
@@ -118,13 +119,19 @@ const Settings = () => {
       const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Standard-C';
       const effectiveModel = (savedModel && savedModel.startsWith(langCode.substring(0,2))) ? savedModel : defaultModel;
 
-      const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+      let endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+      const headers = { 'Content-Type': 'application/json' };
+      
+      // API Key가 있으면 쿼리 파라미터로, 없으면 Bearer 토큰으로 인증
+      if (googleTtsApiKey) {
+          endpoint += `?key=${googleTtsApiKey}`;
+      } else {
+          headers['Authorization'] = `Bearer ${gcpAccessToken}`;
+      }
+
       const response = await fetch(endpoint, {
         method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${gcpAccessToken}`,
-          'Content-Type': 'application/json'
-        },
+        headers: headers,
         body: JSON.stringify({
           input: { text: testText },
           voice: { languageCode: langCode, name: effectiveModel },
@@ -455,6 +462,7 @@ const Settings = () => {
 
   const saveApiKeys = () => {
     localStorage.setItem('geminiApiKey', geminiKey);
+    localStorage.setItem('google_tts_api_key', googleTtsApiKey);
     if (selectedGeminiModel) localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
     alert(t('set_save_success'));
   };
@@ -618,7 +626,17 @@ const Settings = () => {
           type="password" 
           value={geminiKey}
           onChange={e => setGeminiKey(e.target.value)}
-          placeholder={t('set_ai_placeholder')} 
+          placeholder="AIza..." 
+          style={{ width: '100%', padding: '0.9rem', border: '1px solid #ddd', borderRadius: '6px', marginBottom: '1rem' }} 
+        />
+
+        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Google Cloud TTS API Key (Optional)</label>
+        <p style={{ fontSize: '0.75rem', color: '#666', marginBottom: '0.5rem' }}>* 로그인 없이 고정된 API Key를 사용하고 싶을 때 입력하세요.</p>
+        <input 
+          type="password" 
+          value={googleTtsApiKey}
+          onChange={e => setGoogleTtsApiKey(e.target.value)}
+          placeholder="AIza..." 
           style={{ width: '100%', padding: '0.9rem', border: '1px solid #ddd', borderRadius: '6px', marginBottom: '1.5rem' }} 
         />
 

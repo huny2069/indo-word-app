@@ -80,31 +80,35 @@ async function playGeminiTTS(text, isKorean) {
  * 엔진 2: Google Cloud TTS (Premium)
  */
 async function playGoogleCloudTTS(text, isKorean) {
+  const apiKey = localStorage.getItem('google_tts_api_key');
   const accessToken = localStorage.getItem('gcp_access_token');
-  if (!accessToken) throw new Error("Google Cloud 액세스 토큰이 없습니다.");
+  
+  // 인증 수단 확인 (API Key 또는 OAuth Token)
+  if (!apiKey && !accessToken) throw new Error("Google Cloud 인증 수단(API Key 또는 Login)이 없습니다.");
 
   const langCode = isKorean ? 'ko-KR' : 'id-ID';
-  // 사용자가 설정한 모델이 있으면 사용, 없으면 기본값 적용
   const savedModel = localStorage.getItem('google_tts_model');
   
-  // 현재 언어 방향에 맞는 베스트 모델 선택
   let effectiveModel = '';
   if (savedModel && savedModel.startsWith(langCode.substring(0,2))) {
       effectiveModel = savedModel;
   } else {
-      // 기본값 설정 (고급 모델 우선)
       effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Neural2-A';
   }
 
-  const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+  let endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+  const headers = { 'Content-Type': 'application/json' };
+
+  if (apiKey) {
+      endpoint += `?key=${apiKey}`;
+  } else {
+      headers['Authorization'] = `Bearer ${accessToken}`;
+  }
   
   try {
     const response = await fetch(endpoint, {
       method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${accessToken}`,
-        'Content-Type': 'application/json'
-      },
+      headers: headers,
       body: JSON.stringify({
         input: { text },
         voice: { languageCode: langCode, name: effectiveModel },
