@@ -91,8 +91,8 @@ async function playGoogleCloudTTS(text, isKorean) {
   if (savedModel && savedModel.startsWith(langCode.substring(0,2))) {
       effectiveModel = savedModel;
   } else {
-      // 보이스 리스트 기반 최적 모델 자동 선택
-      effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Achernar';
+      // 보이스 리스트 기반 최적 모델 자동 선택 (Wavenet이 Chirp보다 호환성이 높음)
+      effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Wavenet-A';
   }
 
   // v1beta1 엔드포인트 사용 (버전1 방식 복구)
@@ -131,17 +131,28 @@ async function playGoogleCloudTTS(text, isKorean) {
   }
 }
 
-async function fetchGoogleVoices(accessToken) {
+export async function fetchGoogleVoices(accessToken) {
   if (!accessToken) return [];
   try {
+    // v1beta1 엔드포인트 사용 (고급 모델 조회용)
     const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/voices`, {
-      headers: { 'Authorization': `Bearer ${accessToken}` }
+      method: 'GET',
+      headers: { 
+        'Authorization': `Bearer ${accessToken}`,
+        'Content-Type': 'application/json'
+      }
     });
-    if (!response.ok) return [];
+    
+    if (!response.ok) {
+      const err = await response.json();
+      console.error("Fetch Voices Error Response:", err);
+      return [];
+    }
+    
     const data = await response.json();
     return data.voices || [];
   } catch (e) {
-    console.error("Fetch Voices Error:", e);
+    console.error("Fetch Voices Exception:", e);
     return [];
   }
 }

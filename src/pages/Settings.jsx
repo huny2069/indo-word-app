@@ -4,11 +4,12 @@ import { fetchGeminiModels } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
+import { fetchGoogleVoices } from '../api/ttsApi';
 
 // 구글 드라이브 백업/복원용 설정 객체
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
-// 드라이브 파일 권한과 더불어 Google Cloud 서비스 연동(TTS) 및 이메일 정보를 요청합니다.
-const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email';
+// 버전1과 동일한 스코프 설정
+const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform';
 
 const Settings = () => {
   const { isIndoMode, t } = useLanguage();
@@ -27,13 +28,13 @@ const Settings = () => {
   const defaultGoogleModel = isIndoMode ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Achernar'; // 여성 고음질 기본
   const [googleTtsModel, setGoogleTtsModel] = useState(localStorage.getItem('google_tts_model') || defaultGoogleModel);
   const [googleVoiceList, setGoogleVoiceList] = useState(JSON.parse(localStorage.getItem('google_voice_list') || '[]'));
-  const [loadingVoices, setLoadingVoices] = useState(false);
+  const [gcpAccessToken, setGcpAccessToken] = useState(localStorage.getItem('gcp_access_token') || '');
+  const [userEmail, setUserEmail] = useState(localStorage.getItem('user_email') || '');
+  const [isVoiceModalOpen, setIsVoiceModalOpen] = useState(false);
 
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
   const [jsonInput, setJsonInput] = useState('');
   const [isJsonImporting, setIsJsonImporting] = useState(false);
-
-  const [gcpAccessToken, setGcpAccessToken] = useState(localStorage.getItem('gcp_access_token') || '');
 
   const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || '';
   const GCP_SCOPES = 'https://www.googleapis.com/auth/cloud-platform';
@@ -58,11 +59,13 @@ const Settings = () => {
             });
             const userInfo = await userInfoRes.json();
             if (userInfo.email) {
-              localStorage.setItem('user_email', userInfo.email.toLowerCase().trim());
-              console.log("Logged in as:", userInfo.email);
+              const email = userInfo.email.toLowerCase().trim();
+              localStorage.setItem('user_email', email);
+              if (setUserEmail) setUserEmail(email); // context 함수가 있다면 호출
+              console.log("Logged in as:", email);
             }
           } catch (userInfoErr) {
-            console.error("Failed to fetch user info:", userInfoErr);
+            console.warn("Failed to fetch user info:", userInfoErr);
           }
 
           setTtsEngine('google');
@@ -99,27 +102,18 @@ const Settings = () => {
     if (savedList) setModelList(JSON.parse(savedList));
   }, []);
 
-  // [추가] 프리미엄 음성 테스트 함수
+  // [수정] 프리미엄 음성 테스트 함수
   const handleTestTts = async () => {
-    // API 키가 있거나 로그인이 되어있어야 함
-    if (!googleTtsApiKey && !gcpAccessToken) {
-      alert("Google TTS API Key를 입력하거나 구글 로그인을 완료해주세요.");
+    if (!gcpAccessToken) {
+      alert("먼저 구글 로그인을 완료해주세요.");
+      handleGoogleLogin();
       return;
     }
     try {
-      if (!gcpAccessToken) {
-        alert("먼저 구글 로그인을 완료해주세요.");
-        handleGoogleLogin();
-        return;
-      }
       const testText = isIndoMode ? "안녕하세요, 나나입니다. 반갑습니다." : "Halo, saya Nana. Senang bertemu dengan Anda.";
       const isKorean = !isIndoMode; 
-      
       const langCode = isKorean ? 'ko-KR' : 'id-ID';
-      const savedModel = localStorage.getItem('google_tts_model');
-      const defaultModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Chirp3-HD-Achernar';
-      const effectiveModel = (savedModel && savedModel.startsWith(langCode.substring(0,2))) ? savedModel : defaultModel;
-
+      
       const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
       const response = await fetch(endpoint, {
         method: 'POST',
@@ -129,24 +123,44 @@ const Settings = () => {
         },
         body: JSON.stringify({
           input: { text: testText },
-          voice: { languageCode: langCode, name: effectiveModel },
+          voice: { languageCode: langCode, name: googleTtsModel },
           audioConfig: { audioEncoding: 'MP3' }
         })
       });
 
       if (!response.ok) {
         const errJson = await response.json().catch(() => ({}));
-        throw new Error(`GCP API 오류 (HTTP ${response.status}): ${errJson.error?.message || '알 수 없는 오류'}\n\n*팁: Google Cloud Console에서 'Text-to-Speech API'가 활성화되어 있는지, 결제 수단이 등록되어 있는지 확인하세요.`);
+        throw new Error(errJson.error?.message || response.statusText);
       }
       
       const data = await response.json();
       if (data.audioContent) {
         const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
         await audio.play();
-        alert("프리미엄 음성 재생 성공! 🍌🔊 만약 소리가 나지 않는다면 기기의 미디어 음량을 확인하세요.");
       }
     } catch (err) {
-      alert(`❌ 고급 음성 테스트 실패:\n${err.message}`);
+      alert(`❌ 테스트 실패: ${err.message}`);
+    }
+  };
+
+  const handleFetchGoogleVoicesList = async () => {
+    if (!gcpAccessToken) {
+        handleGoogleLogin();
+        return;
+    }
+    setLoadingVoices(true);
+    try {
+        const voices = await fetchGoogleVoices(gcpAccessToken);
+        const filtered = voices.filter(v => 
+            v.languageCodes.some(lc => lc.startsWith('ko') || lc.startsWith('id'))
+        );
+        setGoogleVoiceList(filtered);
+        localStorage.setItem('google_voice_list', JSON.stringify(filtered));
+        setIsVoiceModalOpen(true);
+    } catch (err) {
+        alert("음성 목록을 가져오지 못했습니다.");
+    } finally {
+        setLoadingVoices(false);
     }
   };
 
@@ -470,319 +484,182 @@ const Settings = () => {
   };
 
   return (
-    <div className="page">
-      <h2>{t('set_title')}</h2>
+    <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem' }}>
+      <h2 style={{ fontSize: '1.8rem', fontWeight: '800', marginBottom: '2rem', textAlign: 'center' }}>{t('set_title')}</h2>
       
-      <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
-        <h3 style={{color: 'var(--primary-color)', marginBottom: '1rem'}}>{t('set_audio_title')}</h3>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: '#f8f9fa', borderRadius: '8px' }}>
+      {/* --- 섹션 1: AI 음성 및 학습 엔진 --- */}
+      <div className="settings-card" style={{ background: 'rgba(255,255,255,0.8)', backdropFilter: 'blur(10px)', padding: '2rem', borderRadius: '24px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid #fff', marginBottom: '2rem' }}>
+        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', color: '#1a1a1a' }}>
+            <span style={{ fontSize: '1.5rem' }}>🔊</span> {t('set_audio_title')}
+        </h3>
+        
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.2rem', background: '#fff', borderRadius: '16px', border: '1px solid #eee', marginBottom: '1.5rem' }}>
             <div>
-                <span style={{ fontWeight: 'bold' }}>{t('set_audio_label')}</span>
-                <p style={{ margin: 0, fontSize: '0.8rem', color: '#888' }}>{t('set_audio_desc')}</p>
+                <span style={{ fontWeight: '700', fontSize: '1.1rem' }}>{t('set_audio_label')}</span>
+                <p style={{ margin: '0.3rem 0 0', fontSize: '0.85rem', color: '#666' }}>{t('set_audio_desc')}</p>
             </div>
-            <label className="switch" style={{ position: 'relative', display: 'inline-block', width: '50px', height: '26px' }}>
-                <input 
-                    type="checkbox" 
-                    checked={isAudioEnabled} 
-                    onChange={e => {
-                        const val = e.target.checked;
-                        setIsAudioEnabled(val);
-                        localStorage.setItem('is_audio_enabled', val.toString());
-                    }}
-                    style={{ opacity: 0, width: 0, height: 0 }}
-                />
-                <span style={{
-                    position: 'absolute', cursor: 'pointer', top: 0, left: 0, right: 0, bottom: 0,
-                    backgroundColor: isAudioEnabled ? 'var(--primary-color)' : '#ccc',
-                    transition: '.4s', borderRadius: '34px'
-                }}>
-                    <span style={{
-                        position: 'absolute', content: '""', height: '20px', width: '20px', left: '3px', bottom: '3px',
-                        backgroundColor: 'white', transition: '.4s', borderRadius: '50%',
-                        transform: isAudioEnabled ? 'translateX(24px)' : 'none'
-                    }}></span>
-                </span>
+            <label className="switch">
+                <input type="checkbox" checked={isAudioEnabled} onChange={e => {
+                    localStorage.setItem('is_audio_enabled', e.target.checked);
+                    setIsAudioEnabled(e.target.checked);
+                }}/>
+                <span className="slider round"></span>
             </label>
         </div>
 
-        {/* 음성 엔진 선택 영역 추가 */}
-        <div style={{ marginTop: '1.5rem', padding: '1rem', background: '#f0f4f8', borderRadius: '8px', border: '1px solid #d1d9e0' }}>
-            <span style={{ fontWeight: 'bold', display: 'block', marginBottom: '0.8rem' }}>{t('set_engine_title')}</span>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', gap: '0.5rem' }}>
-                <button 
-                    onClick={() => {
-                        if(!gcpAccessToken) {
-                            handleGoogleLogin();
-                        } else {
-                            setTtsEngine('google'); 
-                            localStorage.setItem('tts_engine', 'google');
-                        }
-                    }}
-                    style={{ 
-                        padding: '0.8rem', borderRadius: '8px', border: 'none', cursor: 'pointer', fontWeight: 'bold', fontSize: '0.85rem',
-                        background: ttsEngine === 'google' ? '#ea4335' : '#fff',
-                        color: ttsEngine === 'google' ? '#fff' : '#666',
-                        boxShadow: ttsEngine === 'google' ? '0 4px 8px rgba(0,0,0,0.1)' : 'none'
-                    }}
-                >
-                    Google Cloud<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>{gcpAccessToken ? t('set_google_premium') : t('set_google_login')}</span>
+        <div style={{ background: '#f8f9fa', padding: '1.5rem', borderRadius: '20px', border: '1px solid #eee' }}>
+            <span style={{ fontWeight: '700', fontSize: '1rem', display: 'block', marginBottom: '1rem' }}>{t('set_engine_title')}</span>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+                <button onClick={() => { if(!gcpAccessToken) handleGoogleLogin(); setTtsEngine('google'); localStorage.setItem('tts_engine', 'google'); }}
+                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'google' ? '2px solid #4285f4' : '1px solid #eee', background: ttsEngine === 'google' ? '#e8f0fe' : '#fff', color: ttsEngine === 'google' ? '#1967d2' : '#666', fontWeight: 'bold', transition: 'all 0.3s' }}>
+                    Google Cloud<br/><small style={{fontWeight: 'normal'}}>Premium</small>
                 </button>
-                <button 
-                    onClick={() => { setTtsEngine('gemini'); localStorage.setItem('tts_engine', 'gemini'); }}
-                    style={{ 
-                        padding: '0.8rem', borderRadius: '8px', border: 'none', cursor: 'pointer', fontWeight: 'bold', fontSize: '0.85rem',
-                        background: ttsEngine === 'gemini' ? 'var(--primary-color)' : '#fff',
-                        color: ttsEngine === 'gemini' ? '#fff' : '#666',
-                        boxShadow: ttsEngine === 'gemini' ? '0 4px 8px rgba(0,0,0,0.1)' : 'none'
-                    }}
-                >
-                    Gemini AI<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>(Default)</span>
+                <button onClick={() => { setTtsEngine('gemini'); localStorage.setItem('tts_engine', 'gemini'); }}
+                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'gemini' ? '2px solid #8e44ad' : '1px solid #eee', background: ttsEngine === 'gemini' ? '#f3e5f5' : '#fff', color: ttsEngine === 'gemini' ? '#6a1b9a' : '#666', fontWeight: 'bold', transition: 'all 0.3s' }}>
+                    Gemini AI<br/><small style={{fontWeight: 'normal'}}>Deep Learning</small>
                 </button>
-                <button 
-                    onClick={() => { setTtsEngine('browser'); localStorage.setItem('tts_engine', 'browser'); }}
-                    style={{ 
-                        padding: '0.8rem', borderRadius: '8px', border: 'none', cursor: 'pointer', fontWeight: 'bold', fontSize: '0.85rem',
-                        background: ttsEngine === 'browser' ? '#333' : '#fff',
-                        color: ttsEngine === 'browser' ? '#fff' : '#666',
-                        boxShadow: ttsEngine === 'browser' ? '0 4px 8px rgba(0,0,0,0.1)' : 'none'
-                    }}
-                >
-                    {isIndoMode ? 'Browser' : '브라우저 기본'}<br/><span style={{fontSize: '0.65rem', fontWeight: 'normal'}}>(Offline)</span>
+                <button onClick={() => { setTtsEngine('browser'); localStorage.setItem('tts_engine', 'browser'); }}
+                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'browser' ? '2px solid #2d3436' : '1px solid #eee', background: ttsEngine === 'browser' ? '#f5f5f5' : '#fff', color: ttsEngine === 'browser' ? '#2d3436' : '#666', fontWeight: 'bold', transition: 'all 0.3s' }}>
+                    Browser Default<br/><small style={{fontWeight: 'normal'}}>Offline</small>
                 </button>
             </div>
-            
-            {/* Google Cloud 엔진이 선택되었을 때만 모델 선택 메뉴 노출 */}
+
             {ttsEngine === 'google' && (
-                <div style={{ marginTop: '1rem', padding: '1.2rem', background: '#ffeaa7', borderRadius: '12px', border: '2px dashed #fdcb6e' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
-                        <span style={{ fontWeight: 'bold', color: '#d35400' }}>⭐ {t('set_google_model_title')} {isIndoMode ? "(Target: B. Korea)" : "(Target: B. Indo)"}</span>
-                        <button 
-                            onClick={handleFetchGoogleVoices} 
-                            disabled={loadingVoices}
-                            style={{ padding: '0.3rem 0.6rem', fontSize: '0.75rem', background: '#fff', border: '1px solid #d35400', borderRadius: '6px', cursor: 'pointer', color: '#d35400', fontWeight: 'bold' }}
-                        >
-                            {loadingVoices ? '...' : (isIndoMode ? 'Segarkan List' : '음성 목록 갱신')}
+                <div style={{ background: '#fff', padding: '1.2rem', borderRadius: '16px', border: '1px solid #eee', animation: 'fadeIn 0.5s ease' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                        <span style={{ fontWeight: 'bold', color: '#1a1a1a' }}>선택된 음성 모델</span>
+                        <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices}
+                            style={{ background: '#4285f4', color: '#fff', border: 'none', padding: '0.5rem 1rem', borderRadius: '8px', fontSize: '0.85rem', fontWeight: '700', cursor: 'pointer' }}>
+                            {loadingVoices ? '로딩 중...' : '음성 리스트 갱신'}
                         </button>
                     </div>
-
-                    <select 
-                        value={googleTtsModel}
-                        onChange={(e) => {
-                            setGoogleTtsModel(e.target.value);
-                            localStorage.setItem('google_tts_model', e.target.value);
-                        }}
-                        style={{ width: '100%', padding: '0.8rem', borderRadius: '8px', border: '1px solid #fab1a0', background: '#fff' }}
-                    >
-                        {googleVoiceList.length > 0 ? (
-                            <>
-                                <optgroup label="--- [Recommended] ---">
-                                    <option value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Chirp3-HD-Achernar"}>⭐ {isIndoMode ? 'Korean (Neural2-A)' : '인도네시아어 (Chirp3-Achernar)'}</option>
-                                    <option value={isIndoMode ? "ko-KR-Chirp3-HD-Alnilam" : "id-ID-Chirp3-HD-Alnilam"}>⭐ {isIndoMode ? 'Korean (Chirp3-Alnilam)' : '인도네시아어 (Chirp3-Alnilam)'}</option>
-                                    <option value={isIndoMode ? "ko-KR-Wavenet-A" : "id-ID-Wavenet-A"}>✅ {isIndoMode ? 'Korean (Wavenet-A)' : '인도네시아어 (Wavenet-A)'}</option>
-                                </optgroup>
-                                <optgroup label="--- All Available ---">
-                                    {googleVoiceList
-                                        .filter(v => v.languageCodes.some(lc => lc.startsWith(isIndoMode ? 'ko' : 'id')))
-                                        .map(v => <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>)
-                                    }
-                                </optgroup>
-                            </>
-                        ) : (
-                            <>
-                                <option value={isIndoMode ? "ko-KR-Neural2-A" : "id-ID-Neural2-A"}>Neural2 High (Default)</option>
-                                <option value={isIndoMode ? "ko-KR-Wavenet-A" : "id-ID-Wavenet-A"}>Wavenet Stable</option>
-                                <option value={isIndoMode ? "ko-KR-Standard-A" : "id-ID-Standard-A"}>Standard</option>
-                            </>
-                        )}
-                    </select>
-
-                    <p style={{ marginTop: '0.5rem', fontSize: '0.7rem', color: '#856404' }}>
-                        * {isIndoMode ? 'Jika suara tidak muncul, klik "Segarkan List"와 pilih 모델 표준(Standard).' : '소리가 나지 않는다면 "음성 목록 갱신" 후 표준(Standard) 모델을 선택해보세요.'}
-                    </p>
+                    <div style={{ background: '#f0f4f8', padding: '1rem', borderRadius: '12px', marginBottom: '1rem', fontSize: '0.95rem', fontWeight: '600', color: '#2d3748', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <span>{googleTtsModel || '선택된 모델 없음'}</span>
+                        <button onClick={handleTestTts} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 2px 5px rgba(0,0,0,0.05)' }}>🔉</button>
+                    </div>
                 </div>
             )}
-
-            <p style={{ margin: '0.8rem 0 0', fontSize: '0.75rem', color: '#666', lineHeight: '1.4' }}>
-                * <b>Google Cloud:</b> {isIndoMode ? 'Kualitas suara terbaik (memerlukan login satu kali).' : '최고의 음질을 제공합니다 (앱 사용 시 로그인 연동 최초 1회 필요).'}<br/>
-                * <b>Gemini AI:</b> {isIndoMode ? 'Berjalan otomatis tanpa prosedur tambahan, namun kecepatan mungkin bervariasi.' : '별도의 절차 없이 작동하지만 속도가 불규칙할 수 있습니다.'}<br/>
-                * <b>{isIndoMode ? 'Browser Default' : '브라우저 기본'}:</b> {isIndoMode ? 'Bekerja secara offline di mana saja.' : '언제 어디서나 오프라인에서도 보장된 소리를 냅니다.'}
-            </p>
         </div>
       </div>
 
-      <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
-            <h3 style={{color: 'var(--primary-color)', margin: 0}}>{t('set_api_title')}</h3>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.2rem' }}>
-                <span style={{ background: '#f0fdf4', color: '#2e7d32', padding: '0.3rem 0.6rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 'bold' }}>
-                    💡 {t('set_api_tokens')}: {totalTokens.toLocaleString()} Token
-                </span>
-                <span style={{ background: '#fff7ed', color: '#c2410c', padding: '0.3rem 0.6rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: 'bold', border: '1px solid #fed7aa' }}>
-                    💰 {t('set_api_cost')}: {isIndoMode ? `${t('set_api_cost_unit')} ${totalCostUsd.toFixed(4)}` : `${Math.round(totalCostUsd * 1500).toLocaleString()}${t('set_api_cost_unit')}`}
-                </span>
-            </div>
+      {/* --- 섹션 2: Gemini API 및 AI 모델 설정 --- */}
+      <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)', marginBottom: '2rem' }}>
+        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
+            <span style={{ fontSize: '1.5rem' }}>🤖</span> {t('set_api_title')}
+        </h3>
+        <div style={{ marginBottom: '1.5rem' }}>
+            <label style={{ display: 'block', marginBottom: '0.6rem', fontWeight: '600' }}>{t('set_gemini_key_label')}</label>
+            <input type="password" value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder="AIza..." 
+                style={{ width: '100%', padding: '1rem', border: '1px solid #eee', borderRadius: '12px', background: '#fafafa', fontSize: '1rem' }} />
         </div>
-        <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem', marginTop: '0.5rem' }}>{t('set_api_desc')}</p>
-        
-        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>{t('set_gemini_key_label')}</label>
-        <input 
-          type="password" 
-          value={geminiKey}
-          onChange={e => setGeminiKey(e.target.value)}
-          placeholder="AIza..." 
-          style={{ width: '100%', padding: '0.9rem', border: '1px solid #ddd', borderRadius: '6px', marginBottom: '1.5rem' }} 
-        />
-
-        <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', border: '1px solid #eee' }}>
-            <h4 style={{ margin: '0 0 0.5rem 0' }}>💡 {t('set_gemini_model_select')}</h4>
-            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-               <select 
-                  value={selectedGeminiModel} 
-                  onChange={e => {
-                      setSelectedGeminiModel(e.target.value);
-                      localStorage.setItem('selectedGeminiModel', e.target.value);
-                  }}
-                  style={{ flex: 1, padding: '0.8rem', borderRadius: '6px', border: '1px solid #ccc' }}
-               >
-                 {modelList.length === 0 && <option value="">{isIndoMode ? "Daftar model kosong" : "모델 리스트가 비어있습니다."}</option>}
-                 {modelList.map(m => <option key={m} value={m}>{m}</option>)}
-               </select>
-               <button 
-                  onClick={handleFetchModels} disabled={loadingModels}
-                  style={{ padding: '0.8rem 1rem', background: '#fff', color: 'var(--primary-color)', border: '1px solid var(--primary-color)', borderRadius: '6px', cursor: 'pointer', whiteSpace: 'nowrap' }}>
-                  {loadingModels ? (isIndoMode ? 'Memuat...' : '조회중...') : (isIndoMode ? 'Update' : '모델 조회 갱신')}
-               </button>
+        <div style={{ background: '#fcfcfc', padding: '1.2rem', borderRadius: '16px', border: '1px solid #eee' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                <span style={{ fontWeight: '600' }}>Gemini 모델 선택</span>
+                <button onClick={handleFetchModels} disabled={loadingModels}
+                    style={{ background: '#fff', border: '1px solid #8e44ad', color: '#8e44ad', padding: '0.4rem 0.8rem', borderRadius: '8px', fontSize: '0.8rem', fontWeight: '700' }}>
+                    {loadingModels ? '조회 중...' : '목록 갱신'}
+                </button>
             </div>
+            <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
+                style={{ width: '100%', padding: '1rem', border: '1px solid #eee', borderRadius: '12px', background: '#fff' }}>
+                {modelList.map(m => <option key={m} value={m}>{m}</option>)}
+            </select>
         </div>
-        
-        <button onClick={saveApiKeys} style={{ padding: '0.8rem 1.5rem', background: '#333', color: '#fff', border: 'none', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold', width: '100%' }}>
-          {t('set_btn_save')}
+        <button onClick={saveApiKeys} style={{ marginTop: '1.5rem', width: '100%', padding: '1.1rem', background: '#1a1a1a', color: '#fff', border: 'none', borderRadius: '14px', fontWeight: '800', cursor: 'pointer' }}>
+            설정 저장하기
         </button>
       </div>
 
-      <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', marginBottom: '5rem' }}>
-        <h3 style={{color: '#2e7d32'}}>{t('set_backup_title')}</h3>
-        <p style={{ color: '#666', fontSize: '0.9rem', margin: '0.5rem 0 1.5rem' }}>{isIndoMode ? 'Cadangkan kosakata ke file atau pindahkan antar perangkat.' : '구글 로그인 없이도 파일을 통해 기기 간에 단어장을 자유롭게 옮길 수 있습니다.'}</p>
-        
-        <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
-            <button 
-                onClick={handleExportCSV}
-                style={{ flex: 1, minWidth: '150px', padding: '0.9rem', background: '#f0fdf4', color: '#2e7d32', border: '1px solid #b7e4c7', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold' }}>
-                {t('set_backup_export')}
+      {/* --- 섹션 3: 데이터 관리 및 클라우드 백업 --- */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
+        <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
+            <h3 style={{ fontSize: '1.2rem', marginBottom: '1.2rem' }}>📁 파일 백업/복원</h3>
+            <button onClick={handleExportCSV} style={{ width: '100%', padding: '1rem', background: '#f0fdf4', color: '#166534', border: '1px solid #dcfce7', borderRadius: '12px', marginBottom: '1rem', fontWeight: '700' }}>
+                CSV로 내보내기
             </button>
-            
-            <div style={{ flex: 1, minWidth: '150px' }}>
-                <input 
-                    type="file" 
-                    id="csvImport" 
-                    accept=".csv" 
-                    onChange={handleImportCSV} 
-                    style={{ display: 'none' }} 
-                />
-                <button 
-                    onClick={() => document.getElementById('csvImport').click()}
-                    style={{ width: '100%', padding: '0.9rem', background: '#e8f5e9', color: '#1b5e20', border: '1px solid #c8e6c9', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold' }}>
-                    {t('set_backup_import')}
-                </button>
-            </div>
-            
-            <button 
-                onClick={() => setIsJsonModalOpen(true)}
-                style={{ width: '100%', marginTop: '0.8rem', padding: '1rem', background: '#fff9db', color: '#856404', border: '3px solid #feca57', borderRadius: '15px', cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem', boxShadow: '0 4px 0 #feca57' }}>
-                {t('set_json_paste')}
+            <button onClick={() => document.getElementById('csvImport').click()} style={{ width: '100%', padding: '1rem', background: '#f8fafc', color: '#1e293b', border: '1px solid #e2e8f0', borderRadius: '12px', marginBottom: '1rem', fontWeight: '700' }}>
+                CSV 불러오기
+            </button>
+            <input type="file" id="csvImport" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
+            <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1rem', background: '#fffbeb', color: '#92400e', border: '1px solid #fef3c7', borderRadius: '12px', fontWeight: '700' }}>
+                AI 생성 데이터(JSON) 붙여넣기
             </button>
         </div>
-        <p style={{ fontSize: '0.8rem', color: '#aaa', marginTop: '1rem', textAlign: 'center' }}>{t('set_backup_tip')}</p>
-      </div>
 
-      <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', marginBottom: '5rem', border: '2px solid #4285f4' }}>
-        <h3 style={{color: '#4285f4', display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" alt="Gdrive" style={{width: '24px'}} />
-            {t('set_cloud_title')}
-        </h3>
-        <p style={{ color: '#666', fontSize: '0.9rem', margin: '0.5rem 0 1.5rem' }}>{t('set_cloud_desc')}</p>
-        
-        {!gcpAccessToken ? (
-            <button 
-                onClick={handleGoogleLogin}
-                style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', fontSize: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.8rem' }}>
-                <img src="https://www.google.com/favicon.ico" alt="google" style={{ width: '18px', height: '18px', filter: 'brightness(1.5)' }} />
-                {t('set_cloud_login')}
-            </button>
-        ) : (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                {localStorage.getItem('user_email') && (
-                  <div style={{ padding: '0.8rem 1rem', background: '#f0f7ff', borderRadius: '8px', border: '1px solid #cce3ff', fontSize: '0.9rem', color: '#0056b3', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <span style={{ fontWeight: 'bold' }}>📧 {isIndoMode ? "Akun Terhubung:" : "연동된 계정:"}</span>
-                    {localStorage.getItem('user_email')}
-                  </div>
-                )}
-                <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
-                    <button 
-                        onClick={handleBackupToDrive}
-                        disabled={isDriveOperating}
-                        style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
-                        {isDriveOperating ? (isIndoMode ? 'Backing up...' : '백업 중...') : t('set_cloud_backup_btn')}
-                    </button>
-                    <button 
-                        onClick={handleRestoreFromDrive}
-                        disabled={isDriveOperating}
-                        style={{ flex: 1, minWidth: '150px', padding: '1rem', background: '#fbbc05', color: '#fff', border: 'none', borderRadius: '8px', cursor: isDriveOperating ? 'not-allowed' : 'pointer', fontWeight: 'bold' }}>
-                        {isDriveOperating ? (isIndoMode ? 'Restoring...' : '복원 중...') : t('set_cloud_restore_btn')}
-                    </button>
-                </div>
-            </div>
-        )}
-        <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '1rem', background: '#f8f9fa', padding: '0.5rem', borderRadius: '4px' }}>
-            * {isIndoMode ? 'Data cadangan disimpan sebagai' : '백업 데이터는 사용자 본인의 구글 드라이브에'} <b>'indo-word-app-backup.json'</b> {isIndoMode ? 'di Google Drive Anda.' : '파일로 저장됩니다.'}
-        </p>
-
-        {/* [추가] 진단 및 디버그 도구 섹션 */}
-        <div style={{ marginTop: '2rem', padding: '1.5rem', background: '#fff5f5', borderRadius: '15px', border: '1px solid #feb2b2' }}>
-            <h4 style={{ margin: '0 0 1rem 0', color: '#c53030', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                🛠️ {isIndoMode ? 'Diagnosis & Debug' : '관리자 진단 및 오동작 해결 도구'}
-            </h4>
-            
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.5rem' }}>
-                <div style={{ background: '#fff', padding: '1rem', borderRadius: '10px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>
-                    <div style={{ fontSize: '0.8rem', color: '#718096', marginBottom: '0.3rem' }}>{isIndoMode ? 'Email Ter로그인' : '현재 로그인된 이메일'}</div>
-                    <div style={{ fontWeight: 'bold', wordBreak: 'break-all' }}>{localStorage.getItem('user_email') || '(없음)'}</div>
-                </div>
-                <div style={{ background: '#fff', padding: '1rem', borderRadius: '10px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>
-                    <div style={{ fontSize: '0.8rem', color: '#718096', marginBottom: '0.3rem' }}>{isIndoMode ? 'Status Admin' : '관리자 권한 상태'}</div>
-                    <div style={{ fontWeight: 'bold', color: (import.meta.env.VITE_ADMIN_EMAIL || '').toLowerCase().trim() === (localStorage.getItem('user_email') || '').toLowerCase().trim() ? '#2f855a' : '#c53030' }}>
-                        {(import.meta.env.VITE_ADMIN_EMAIL || '').toLowerCase().trim() === (localStorage.getItem('user_email') || '').toLowerCase().trim() 
-                          ? (isIndoMode ? '✅ Administrator' : '✅ 관리자 인증됨') 
-                          : (isIndoMode ? '❌ User Biasa' : '❌ 일반 사용자')}
+        <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)', border: '2px solid #e8f0fe' }}>
+            <h3 style={{ fontSize: '1.2rem', marginBottom: '1.2rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" style={{width: '20px'}} alt="Gdrive"/> 구글 드라이브 클라우드
+            </h3>
+            {gcpAccessToken ? (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                    <div style={{ fontSize: '0.85rem', color: '#4285f4', background: '#e8f0fe', padding: '0.8rem', borderRadius: '10px', wordBreak: 'break-all' }}>
+                        연동됨: <strong>{userEmail}</strong>
                     </div>
+                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '700', opacity: isDriveOperating ? 0.7 : 1 }}>
+                        {isDriveOperating ? '백업 중...' : '클라우드에 지금 백업'}
+                    </button>
+                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '700', opacity: isDriveOperating ? 0.7 : 1 }}>
+                        {isDriveOperating ? '복원 중...' : '클라우드에서 데이터 복원'}
+                    </button>
                 </div>
-            </div>
-
-            <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
-                <button 
-                    onClick={handleTestTts}
-                    style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '2px solid #feb2b2', borderRadius: '10px', fontWeight: 'bold', cursor: 'pointer', color: '#c53030' }}
-                >
-                    🔉 {isIndoMode ? 'Tes Suara Premium' : '프리미엄 음성 테스트'}
+            ) : (
+                <button onClick={handleGoogleLogin} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '14px', fontWeight: '800', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.8rem' }}>
+                    <img src="https://www.google.com/favicon.ico" style={{width: '18px', filter: 'brightness(2)'}} alt="G"/> 구글 계정으로 시작하기
                 </button>
-                <button 
-                    onClick={() => {
-                        localStorage.removeItem('user_email');
-                        localStorage.removeItem('gcp_access_token');
-                        window.location.reload();
-                    }}
-                    style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px', fontWeight: 'bold', cursor: 'pointer', color: '#718096' }}
-                >
-                    🔄 {isIndoMode ? 'Reset Login & Keluar' : '로그인 세션 초기화'}
-                </button>
-            </div>
-            
-            <p style={{ margin: '1rem 0 0 0', fontSize: '0.75rem', color: '#718096', lineHeight: '1.4' }}>
-                * {isIndoMode ? 'Jika menu admin tidak muncul, pastikan email di atas sama dengan VITE_ADMIN_EMAIL.' : '관리자 메일이 일치하는데도 메뉴가 안 보인다면 Vercel에서 Redeploy를 실행해 환경 변수를 갱신하세요.'}<br/>
-                * {isIndoMode ? 'Jika suara premium gagal, periksa apakah Google Cloud Billing aktif.' : '프리미엄 음성 실패 시 Google Cloud Console에서 TTS API 활성화 및 결제 수단 등록 여부를 확인하세요.'}
-            </p>
+            )}
         </div>
       </div>
+
+      {/* --- 섹션 4: 관리자 진단 도구 --- */}
+      <div className="settings-card" style={{ background: '#fff5f5', padding: '1.5rem', borderRadius: '20px', border: '1px solid #feb2b2' }}>
+        <h4 style={{ margin: '0 0 1rem 0', color: '#c53030' }}>🛠️ 관리자 진단 및 오동작 해결 도구</h4>
+        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+            <button onClick={handleTestTts} style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '2px solid #feb2b2', borderRadius: '10px', fontWeight: 'bold', color: '#c53030' }}>
+                프리미엄 음성 테스트
+            </button>
+            <button onClick={() => { localStorage.removeItem('user_email'); localStorage.removeItem('gcp_access_token'); window.location.reload(); }}
+                style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px', fontWeight: 'bold', color: '#718096' }}>
+                로그인 세션 초기화
+            </button>
+        </div>
+      </div>
+
+      {/* --- 모달들 --- */}
+      {isVoiceModalOpen && (
+        <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 1000 }}>
+            <div style={{ background: '#fff', width: '90%', maxWidth: '500px', height: '80vh', borderRadius: '24px', display: 'flex', flexDirection: 'column', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.2)' }}>
+                <div style={{ padding: '1.5rem', borderBottom: '1px solid #eee', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <h3 style={{ margin: 0 }}>프리미엄 음성 선택</h3>
+                    <button onClick={() => setIsVoiceModalOpen(false)} style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer' }}>&times;</button>
+                </div>
+                <div style={{ flex: 1, overflowY: 'auto', padding: '1rem' }}>
+                    {googleVoiceList.map(v => (
+                        <div key={v.name} 
+                            onClick={() => {
+                                setGoogleTtsModel(v.name);
+                                localStorage.setItem('google_tts_model', v.name);
+                                setIsVoiceModalOpen(false);
+                            }}
+                            style={{ 
+                                padding: '1.2rem', borderRadius: '16px', border: '1px solid #eee', marginBottom: '0.8rem', cursor: 'pointer', transition: 'all 0.2s',
+                                background: googleTtsModel === v.name ? '#f0f7ff' : '#fff',
+                                borderColor: googleTtsModel === v.name ? '#4285f4' : '#eee'
+                            }}>
+                            <div style={{ fontWeight: '700', marginBottom: '0.3rem', display: 'flex', justifyContent: 'space-between' }}>
+                                <span>{v.name.includes('Chirp') ? '✨ ' : ''}{v.name}</span>
+                                <span style={{ fontSize: '0.75rem', color: '#4285f4', background: '#e8f0fe', padding: '0.2rem 0.5rem', borderRadius: '6px' }}>
+                                    {v.ssmlGender === 'FEMALE' ? '여성' : '남성'}
+                                </span>
+                            </div>
+                            <div style={{ fontSize: '0.8rem', color: '#718096' }}>
+                                {v.languageCodes.join(', ')} | {v.name.split('-')[2]}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+      )}
 
       {isJsonModalOpen && (
         <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 2000, padding: '1rem' }}>
