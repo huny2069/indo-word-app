@@ -81,8 +81,15 @@ async function playGeminiTTS(text, isKorean) {
  */
 async function playGoogleCloudTTS(text, isKorean) {
   const accessToken = localStorage.getItem('gcp_access_token');
+  const expiry = localStorage.getItem('gcp_token_expiry');
   
-  if (!accessToken) throw new Error("Google Cloud 액세스 토큰이 없습니다. 구글 로그인을 먼저 진행해주세요.");
+  // 토큰 유무 및 만료 체크 (10초 여유)
+  const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 10000);
+
+  if (!accessToken || isExpired) {
+    if (accessToken) localStorage.removeItem('gcp_access_token');
+    throw new Error("Google Cloud 세션이 만료되었습니다. 설정에서 다시 로그인해주세요.");
+  }
 
   const langCode = isKorean ? 'ko-KR' : 'id-ID';
   
@@ -115,10 +122,11 @@ async function playGoogleCloudTTS(text, isKorean) {
       })
     });
 
-    if (!response.ok) {
-       if (response.status === 401 || response.status === 403) {
-           localStorage.removeItem('gcp_access_token');
-       }
+     if (!response.ok) {
+        if (response.status === 401 || response.status === 403) {
+            localStorage.removeItem('gcp_access_token');
+            localStorage.removeItem('gcp_token_expiry');
+        }
        const errJson = await response.json().catch(() => ({}));
        throw new Error(`Google Cloud TTS 요청 실패 (HTTP ${response.status}): ${errJson.error?.message || '알 수 없는 오류'}`);
     }

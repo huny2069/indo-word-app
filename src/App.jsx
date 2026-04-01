@@ -14,15 +14,48 @@ import AdminStats from './pages/AdminStats';
 
 function App() {
   useEffect(() => {
-    // 1. 기기 식별을 위한 익명 ID 생성 및 저장
+    // 1. 기기 식별 및 로그 전송
     let deviceId = localStorage.getItem('user_device_id');
     if (!deviceId) {
       deviceId = 'user_' + Math.random().toString(36).substring(2, 15) + Date.now().toString(36);
       localStorage.setItem('user_device_id', deviceId);
     }
-
-    // 2. 접속 로그 전송 (Supabase 연동 시)
     logAccess(deviceId);
+
+    // 2. [v7.8] 전역 구글 세션 관리 (Silent Refresh)
+    const handleSilentRefresh = () => {
+      if (!window.google) return;
+      const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+      const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform';
+      
+      const client = window.google.accounts.oauth2.initTokenClient({
+        client_id: CLIENT_ID,
+        scope: SCOPES,
+        callback: (res) => {
+          if (res.access_token) {
+            localStorage.setItem('gcp_access_token', res.access_token);
+            const expiry = Date.now() + (res.expires_in || 3600) * 1000;
+            localStorage.setItem('gcp_token_expiry', expiry.toString());
+            console.log("Global session refreshed successfully.");
+          }
+        },
+        error_callback: () => {} // Silent mode이므로 에러 무시
+      });
+      client.requestAccessToken({ prompt: '' });
+    };
+
+    const checkInterval = setInterval(() => {
+      const expiry = localStorage.getItem('gcp_token_expiry');
+      if (expiry) {
+        const remaining = parseInt(expiry, 10) - Date.now();
+        // 만료 10분 전이면 백그라운드 갱신
+        if (remaining > 0 && remaining < 600000) {
+          handleSilentRefresh();
+        }
+      }
+    }, 60000); // 1분마다 체크
+
+    return () => clearInterval(checkInterval);
   }, []);
 
   return (

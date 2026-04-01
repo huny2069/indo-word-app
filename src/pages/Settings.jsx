@@ -43,58 +43,69 @@ const Settings = () => {
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
   const [jsonInput, setJsonInput] = useState('');
   const [isJsonImporting, setIsJsonImporting] = useState(false);
+  const [tokenClient, setTokenClient] = useState(null); // GIS 클라이언트 상태 저장
 
   const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || '';
   const GCP_SCOPES = 'https://www.googleapis.com/auth/cloud-platform';
 
-  const handleGoogleLogin = () => {
+  // [수정] 구글 토큰 갱신 및 로그인 통합 함수 (v7.7)
+  const handleGoogleLogin = (isSilent = false) => {
     if (!window.google) {
-      alert(isIndoMode ? "Skrip Login Google belum dimuat. Silakan coba lagi nanti." : "구글 로그인 스크립트가 완전히 로드되지 않았습니다. 잠시 후 다시 시도해 주세요.");
+      if (!isSilent) alert(isIndoMode ? "Skrip Google belum 준비되지 않았습니다." : "구글 로그인 스크립트가 준비되지 않았습니다.");
       return;
     }
+    
     const client = window.google.accounts.oauth2.initTokenClient({
       client_id: CLIENT_ID,
-      scope: SCOPES, // GCP_SCOPES 대신 모든 권한이 포함된 SCOPES 사용
+      scope: SCOPES,
       callback: async (tokenResponse) => {
         if (tokenResponse && tokenResponse.access_token) {
+          const now = Date.now();
+          const expiresIn = (tokenResponse.expires_in || 3600) * 1000;
+          const expiryTime = now + expiresIn;
+          
           localStorage.setItem('gcp_access_token', tokenResponse.access_token);
+          localStorage.setItem('gcp_token_expiry', expiryTime.toString());
           setGcpAccessToken(tokenResponse.access_token);
           
-          // [추가] 액세스 토큰을 사용하여 사용자 이메일 정보 가져오기
           try {
             const userInfoRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
               headers: { Authorization: `Bearer ${tokenResponse.access_token}` }
             });
             const userInfo = await userInfoRes.json();
             if (userInfo.email) {
-              const email = userInfo.email.toLowerCase().trim();
-              localStorage.setItem('user_email', email);
-              if (setUserEmail) setUserEmail(email); // context 함수가 있다면 호출
-              console.log("Logged in as:", email);
+              localStorage.setItem('user_email', userInfo.email.toLowerCase().trim());
+              setUserEmail(userInfo.email.toLowerCase().trim());
             }
-          } catch (userInfoErr) {
-            console.warn("Failed to fetch user info:", userInfoErr);
-          }
+          } catch(e) {}
 
           setTtsEngine('google');
           localStorage.setItem('tts_engine', 'google');
-          alert(isIndoMode ? "Koneksi Google Berhasil! 🍌" : "구글 연동 완료! 🍌 관리자 권한이 확인되면 통계 메뉴가 활성화됩니다.");
           
-          // 레이아웃 갱신을 위해 페이지 새로고침
-          window.location.reload();
+          if (!isSilent) {
+            alert(isIndoMode ? "Koneksi Google Berhasil! 🍌" : "구글 연동 완료! 🍌 세션이 1시간 동안 유지됩니다.");
+            window.location.reload();
+          }
         }
       },
       error_callback: (err) => {
+        // [v7.8] 취소나 백그라운드 갱신 실패는 조용히 처리
+        if (err.error === 'popup_closed' || isSilent) return;
         console.error("Google Login Error:", err);
-        alert(isIndoMode ? "Login Google dibatalkan atau terjadi kesalahan." : "구글 로그인 중 취소되거나 오류가 발생했습니다.");
+        alert(isIndoMode ? "Terjadi kesalahan login Google." : "구글 로그인 중 오류가 발생했습니다.");
       }
     });
 
-    client.requestAccessToken();
+    if (isSilent) {
+      client.requestAccessToken({ prompt: '' });
+    } else {
+      client.requestAccessToken();
+    }
+    setTokenClient(client);
   };
 
   useEffect(() => {
-    // 저장된 키들 (없으면 환경변수에서 불러옴)
+    // 저장된 키들
     setGeminiKey(localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY || '');
 
     // 누적 데이터 불러오기
@@ -108,9 +119,20 @@ const Settings = () => {
     if (savedModel) setSelectedGeminiModel(savedModel);
     const savedList = localStorage.getItem('geminiModelList');
     if (savedList) setModelList(JSON.parse(savedList));
+
+    // [v7.8] 스토리지 변경 이벤트 리스너 (다른 탭이나 App.jsx에서 갱신 시 동기화)
+    const handleStorageChange = (e) => {
+      if (e.key === 'gcp_access_token') setGcpAccessToken(e.newValue);
+    };
+    window.addEventListener('storage', handleStorageChange);
+
+    return () => {
+        clearInterval(timer);
+        window.removeEventListener('storage', handleStorageChange);
+    };
   }, []);
 
-  // [수정] 프리미엄 음성 테스트 함수 (모델 지정 가능)
+  // 프리미엄 음성 테스트 함수
   const handleTestTts = async (customModel = null) => {
     if (!gcpAccessToken) {
       alert(isIndoMode ? "Silakan login Google terlebih dahulu." : "먼저 구글 로그인을 완료해주세요.");
@@ -124,7 +146,7 @@ const Settings = () => {
       
       const testText = isKorean 
         ? "안녕하세요, 나나입니다. 고품질 AI 음성 테스트 중입니다." 
-        : "Halo, saya Nana. Sedang 시운전 suara AI premium.";
+        : "Halo, saya Nana. Sedang uji coba suara AI premium.";
       
       const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
       const response = await fetch(endpoint, {
@@ -152,8 +174,8 @@ const Settings = () => {
       }
     } catch (err) {
       if (err.message.includes('billing')) {
-          const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`; // 메시지에서 추출된 프로젝트 ID 사용
-          alert(`❌ [GCP 결제 계정 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정(카드 등록)이 연동되어 있어야 합니다.\n\n해결 방법:\n1. 아래 링크로 이동하여 결제를 활성화하세요.\n2. 활성화 후 3~5분 뒤에 다시 시도해 주세요.\n\n링크: ${billingUrl}`);
+          const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`;
+          alert(`❌ [GCP 결제 계정 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정이 연동되어 있어야 합니다.\n\n링크: ${billingUrl}`);
           window.open(billingUrl, '_blank');
       } else {
           alert(`❌ 테스트 실패: ${err.message}`);
@@ -162,7 +184,10 @@ const Settings = () => {
   };
 
   const handleFetchGoogleVoicesList = async () => {
-    if (!gcpAccessToken) {
+    const expiry = localStorage.getItem('gcp_token_expiry');
+    const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 5000);
+
+    if (!gcpAccessToken || isExpired) {
         handleGoogleLogin();
         return;
     }
@@ -174,45 +199,11 @@ const Settings = () => {
         );
         setGoogleVoiceList(filtered);
         localStorage.setItem('google_voice_list', JSON.stringify(filtered));
-        alert(isIndoMode ? `Berhasil memuat ${filtered.length} suara premium!` : `총 ${filtered.length}개의 프리미엄 소리를 가져왔습니다!`);
+        alert(isIndoMode ? `Berhasil memuat ${filtered.length} suara premium!` : `총 ${filtered.length}개의 프리미엄 음성을 가져왔습니다!`);
     } catch (err) {
         alert(isIndoMode ? "Gagal memuat daftar suara." : "음성 목록을 가져오지 못했습니다.");
     } finally {
         setLoadingVoices(false);
-    }
-  };
-
-  // [추가] Google Cloud TTS 가용 음성 목록 가져오기
-  const handleFetchGoogleVoices = async () => {
-    if (!gcpAccessToken) {
-      alert("먼저 구글 로그인을 완료해주세요.");
-      handleGoogleLogin();
-      return;
-    }
-    setLoadingVoices(true);
-    try {
-      // v1beta1 엔드포인트 사용 (성능 및 호환성 강화)
-      const response = await fetch('https://texttospeech.googleapis.com/v1beta1/voices', {
-        headers: { 'Authorization': `Bearer ${gcpAccessToken}` }
-      });
-      if (!response.ok) {
-        if (response.status === 401 || response.status === 403) {
-            localStorage.removeItem('gcp_access_token');
-            setGcpAccessToken('');
-        }
-        throw new Error("음성 목록을 가져오지 못했습니다. 다시 로그인해 주세요.");
-      }
-      const data = await response.json();
-      
-      // 한국어와 인도네시아어 음성만 필터링
-      const filtered = data.voices.filter(v => v.languageCodes.some(lc => lc.startsWith('ko') || lc.startsWith('id')));
-      setGoogleVoiceList(filtered);
-      localStorage.setItem('google_voice_list', JSON.stringify(filtered));
-      alert(isIndoMode ? `Ditemukan ${filtered.length} suara ID/KO premium!` : `총 ${filtered.length}개의 한국어/인도네시아어 프리미엄 음성을 찾았습니다! 🍌🔊`);
-    } catch (err) {
-      alert("음성 목록 가져오기 실패: " + err.message);
-    } finally {
-      setLoadingVoices(false);
     }
   };
 
@@ -230,20 +221,15 @@ const Settings = () => {
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.setAttribute('href', url);
-      const now = new Date();
-      const month = String(now.getMonth() + 1).padStart(2, '0');
-      const day = String(now.getDate()).padStart(2, '0');
-      const hours = String(now.getHours()).padStart(2, '0');
-      const fileName = `IndoLearn_${month}${day}${hours}.csv`;
+      const fileName = `IndoLearn_${new Date().toISOString().slice(0,10)}.csv`;
 
       link.setAttribute('download', fileName);
       link.style.visibility = 'hidden';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      alert(isIndoMode ? "Berhasil ekspor CSV! Silakan cek file Anda." : "CSV 단어장 내보내기 성공! 저장된 파일을 확인해주세요.");
+      alert(isIndoMode ? "Berhasil ekspor CSV!" : "CSV 단어장 내보내기 성공!");
     } catch (err) {
-      console.error("CSV 내보내기 에러:", err);
       alert(isIndoMode ? "Terjadi kesalahan saat ekspor CSV." : "CSV 내보내기 중 오류가 발생했습니다.");
     }
   };
@@ -255,39 +241,27 @@ const Settings = () => {
     const reader = new FileReader();
     reader.onload = async (event) => {
       try {
-        const csvText = event.target.result;
-        const parsedWords = parseCSV(csvText);
-        
+        const parsedWords = parseCSV(event.target.result);
         if (parsedWords.length === 0) {
-          alert(isIndoMode ? "Tidak ada data kata yang bisa dimuat." : "불러올 수 있는 단어 데이터가 없습니다.");
+          alert(isIndoMode ? "Tidak ada data kata." : "불러올 단어가 없습니다.");
           return;
         }
 
-        if (!window.confirm(isIndoMode 
-          ? `Impor ${parsedWords.length} kata? (Kata duplikat akan dilewati)` 
-          : `총 ${parsedWords.length}개의 단어를 불러오시겠습니까? (중복 단어는 제외됩니다)`)) return;
+        if (!window.confirm(isIndoMode ? `Impor ${parsedWords.length} kata?` : `총 ${parsedWords.length}개의 단어를 불러오시겠습니까?`)) return;
 
         let addCount = 0;
         let skipCount = 0;
-        
         for (const w of parsedWords) {
           try {
-            // id 속성이 있으면 제거하여 신규 추가로 인식하게 함
             const { id, ...data } = w;
             await addWord(data);
             addCount++;
-          } catch (error) {
-            skipCount++;
-          }
+          } catch (e) { skipCount++; }
         }
-        
-        alert(isIndoMode 
-          ? `Impor Selesai!\n- Baru: ${addCount}\n- Dilewati: ${skipCount}` 
-          : `가져오기 완료!\n- 새로 추가됨: ${addCount}개\n- 중복 스킵됨: ${skipCount}개`);
-        e.target.value = ''; // input 초기화
+        alert(isIndoMode ? `Selesai! (+${addCount})` : `가져오기 완료! (+${addCount})`);
+        e.target.value = '';
       } catch (err) {
-        console.error("CSV 가져오기 에러:", err);
-        alert(isIndoMode ? "Terjadi kesalahan saat membaca file CSV. Periksa formatnya." : "CSV 파일을 읽는 중 오류가 발생했습니다. 형식을 확인해주세요.");
+        alert(isIndoMode ? "Gagal membaca CSV." : "CSV 파일을 읽는 중 오류가 발생했습니다.");
       }
     };
     reader.readAsText(file);
@@ -297,221 +271,115 @@ const Settings = () => {
   const [isDriveOperating, setIsDriveOperating] = useState(false);
 
   const handleBackupToDrive = async () => {
-    if (!gcpAccessToken) {
-      alert(isIndoMode ? "Silakan login Google terlebih dahulu." : "먼저 구글 로그인을 완료해주세요.");
+    const expiry = localStorage.getItem('gcp_token_expiry');
+    const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 5000);
+
+    if (!gcpAccessToken || isExpired) {
+      alert(isIndoMode ? "Silakan login Google." : "먼저 구글 로그인을 해주세요.");
       handleGoogleLogin();
       return;
     }
-
-    if (!window.confirm(isIndoMode 
-      ? "Cadangkan data ke Google Drive? (Data lama akan ditimpa)" 
-      : "현재 단어장 데이터를 구글 드라이브에 백업하시겠습니까? (기존 백업은 덮어씌워집니다)")) return;
+    if (!window.confirm(isIndoMode ? "Cadangkan ke Cloud?" : "데이터를 구글 드라이브에 백업하시겠습니까?")) return;
 
     setIsDriveOperating(true);
     try {
       const words = await getWords();
       const folders = await getFolders();
-      const backupData = {
-        words,
-        folders,
-        timestamp: new Date().toISOString(),
-        version: '1.0'
-      };
-
-      await uploadBackupToDrive(gcpAccessToken, backupData);
-      alert(isIndoMode ? "Pencadangan Google Drive Selesai! 🍌☁️" : "구글 드라이브 백업 완료! 🍌☁️");
+      await uploadBackupToDrive(gcpAccessToken, { words, folders, timestamp: new Date().toISOString() });
+      alert(isIndoMode ? "Pencadangan Berhasil!" : "구글 드라이브 백업 완료!");
     } catch (err) {
-      console.error("Drive Backup Error:", err);
-      if (err.message.includes('401') || err.message.includes('403')) {
-          localStorage.removeItem('gcp_access_token');
-          setGcpAccessToken('');
-          alert(isIndoMode ? "Sesi login berakhir. Silakan login kembali." : "로그인 세션이 만료되었습니다. 다시 로그인 해주세요.");
-      } else {
-          alert(isIndoMode ? "Terjadi kesalahan saat mencadangkan: " : "백업 중 오류가 발생했습니다: " + err.message);
-      }
-    } finally {
-      setIsDriveOperating(false);
-    }
+      alert(isIndoMode ? "Gagal mencadangkan." : "백업 중 오류 발생: " + err.message);
+    } finally { setIsDriveOperating(false); }
   };
 
   const handleRestoreFromDrive = async () => {
-    if (!gcpAccessToken) {
-      alert(isIndoMode ? "Silakan login Google terlebih dahulu." : "먼저 구글 로그인을 완료해주세요.");
+    const expiry = localStorage.getItem('gcp_token_expiry');
+    const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 5000);
+
+    if (!gcpAccessToken || isExpired) {
       handleGoogleLogin();
       return;
     }
-
     setIsDriveOperating(true);
     try {
       const backupFile = await searchBackupFile(gcpAccessToken);
       if (!backupFile) {
-        alert(isIndoMode ? "File cadangan tidak ditemukan di Google Drive." : "구글 드라이브에서 백업 파일을 찾을 수 없습니다.");
+        alert(isIndoMode ? "Cadangan tidak ditemukan." : "백업 파일을 찾을 수 없습니다.");
         return;
       }
-
-      if (!window.confirm(isIndoMode 
-        ? `Ada data cadangan dari ${new Date(backupFile.modifiedTime).toLocaleString()}. Pulihkan sekarang? (Data akan digabung)` 
-        : `${new Date(backupFile.modifiedTime).toLocaleString()}에 생성된 백업 데이터가 있습니다. 지금 복원하시겠습니까? (기본 데이터와 합쳐집니다)`)) return;
-
+      if (!window.confirm(isIndoMode ? "Pulihkan data?" : "데이터를 복원하시겠습니까?")) return;
       const backupData = await downloadBackupFromDrive(gcpAccessToken, backupFile.id);
-      
-      // 복원 로직
       let addCount = 0;
-      let skipCount = 0;
-
-      // 1. 단어 복원
-      if (backupData.words && Array.isArray(backupData.words)) {
+      if (backupData.words) {
         for (const w of backupData.words) {
           try {
             const { id, ...data } = w;
             await addWord(data);
             addCount++;
-          } catch (e) {
-            skipCount++;
-          }
-        }
-      }
-
-      // 2. 폴더 복원 (폴더는 중복 방지 로직이 약하므로 이름 기반 체크 권장되지만, 
-      // 현재 DB 구조상 간단히 추가 처리하거나 필요시 고도화)
-      if (backupData.folders && Array.isArray(backupData.folders)) {
-        for (const f of backupData.folders) {
-          try {
-            await addFolder(f.name);
           } catch (e) {}
         }
       }
-
-      alert(isIndoMode 
-        ? `Pemulihan Selesai! 🍌🚀\n- Baru: ${addCount}\n- Dilewati: ${skipCount}` 
-        : `복원 완료! 🍌🚀\n- 새로 추가됨: ${addCount}개\n- 중복 스킵됨: ${skipCount}개`);
-    } catch (err) {
-      console.error("Drive Restore Error:", err);
-      if (err.message.includes('401') || err.message.includes('403')) {
-          localStorage.removeItem('gcp_access_token');
-          setGcpAccessToken('');
-          alert(isIndoMode ? "Sesi login berakhir. Silakan login kembali." : "로그인 세션이 만료되었습니다. 다시 로그인 해주세요.");
-      } else {
-          alert(isIndoMode ? "Terjadi kesalahan saat memulihkan: " : "복원 중 오류가 발생했습니다: " + err.message);
-      }
-    } finally {
-      setIsDriveOperating(false);
-    }
+      alert(isIndoMode ? `Pemulihan Selesai! (+${addCount})` : `복원 완료! (+${addCount})`);
+    } catch (e) {
+      alert(isIndoMode ? "Gagal memulihkan." : "복원 중 오류 발생.");
+    } finally { setIsDriveOperating(false); }
   };
 
   const handleJsonImport = async () => {
     let input = jsonInput.trim();
-    if (!input) {
-      alert(isIndoMode ? "Silakan tempel isi JSON." : "가져올 JSON 내용을 입력해주세요.");
-      return;
-    }
-    
+    if (!input) return;
     setIsJsonImporting(true);
     try {
-      // --- [스마트 클리닝 로직] ---
-      // 1. 마크다운 백틱 제거 (```json 또는 ```)
-      input = input.replace(/```(?:json)?/g, '').replace(/```/g, '').trim();
-      
-      // 2. 만약 앞뒤에 불필요한 텍스트가 있다면 첫 '['와 마지막 ']' 사이만 추출
+      input = input.replace(/```(?:json)?/g, '').trim();
       const firstBracket = input.indexOf('[');
       const lastBracket = input.lastIndexOf(']');
-      
-      if (firstBracket !== -1 && lastBracket !== -1 && lastBracket > firstBracket) {
-          input = input.substring(firstBracket, lastBracket + 1);
-      }
+      if (firstBracket !== -1 && lastBracket !== -1) input = input.substring(firstBracket, lastBracket + 1);
       
       let data = JSON.parse(input);
       if (!Array.isArray(data)) data = [data];
       
       let successCount = 0;
-      let skipCount = 0;
-      let errorCount = 0;
-      
       for (const item of data) {
         try {
-          // 필드 매핑 보강
-          const wordData = {
+          await addWord({
             word: item.word?.toLowerCase().trim() || '',
             meaning: item.meaning || '',
             pos: item.pos || '명사',
             root: item.root || '',
-            // 예전 필드명과 새 필드명 모두 지원
             example_id: item.example_formal || item.example_id || '',
             example_kr: item.example_formal_kr || item.example_kr || '',
-            example_formal: item.example_formal || '',
-            example_formal_kr: item.example_formal_kr || '',
-            example_casual: item.example_casual || '',
-            example_casual_kr: item.example_casual_kr || '',
-            antonym: item.antonym || '',
-            synonym: item.synonym || '',
-            grammar_rule: item.grammar_rule || '',
-            context: item.context || '',
-            caution: item.caution || '',
-            related: item.related || '',
-            word_breakdown: item.word_breakdown || [],
             folderId: null
-          };
-
-          if (!wordData.word) {
-              errorCount++;
-              continue;
-          }
-
-          await addWord(wordData);
+          });
           successCount++;
-        } catch (err) {
-          if (err.message && err.message.includes('이미 존재하는')) {
-            skipCount++;
-          } else {
-            console.error('JSON Import Item Error:', err);
-            errorCount++;
-          }
-        }
+        } catch (e) {}
       }
-      
-      alert(isIndoMode 
-        ? `Impor Selesai!\n✅ Berhasil: ${successCount}\n⏭️ Dilewati: ${skipCount}\n❌ Gagal: ${errorCount}` 
-        : `가져오기 완료!\n✅ 성공: ${successCount}개\n⏭️ 중복 건너뜀: ${skipCount}개\n❌ 실패: ${errorCount}개`);
-      setJsonInput('');
-      setIsJsonModalOpen(false);
-    } catch (err) {
-      console.error('JSON Parse Error:', err);
-      alert(isIndoMode 
-        ? 'Format JSON tidak valid. Pastikan Anda menyalinnya dengan benar.\n\nError: ' + err.message
-        : 'JSON 형식이 올바르지 않습니다. 제미나이가 준 내용을 그대로 복사했는지 확인해 주세요.\n\n오류 내용: ' + err.message);
-    } finally {
-      setIsJsonImporting(false);
-    }
+      alert(isIndoMode ? `Selesai! (+${successCount})` : `가져오기 완료! (+${successCount})`);
+      setJsonInput(''); setIsJsonModalOpen(false);
+    } catch (e) {
+      alert(isIndoMode ? "Format JSON salah." : "JSON 형식이 올바르지 않습니다.");
+    } finally { setIsJsonImporting(false); }
   };
-
 
   const handleFetchModels = async () => {
     const keyToUse = geminiKey || import.meta.env.VITE_GEMINI_API_KEY;
-    if (!keyToUse) {
-      alert("먼저 Gemini API Key를 위 입력란에 작성해주세요.");
-      return;
-    }
+    if (!keyToUse) return;
     setLoadingModels(true);
     try {
       const models = await fetchGeminiModels(keyToUse);
       setModelList(models);
       localStorage.setItem('geminiModelList', JSON.stringify(models));
-      
-        if (models.length > 0 && !models.includes(selectedGeminiModel)) {
-          setSelectedGeminiModel(models[0]);
-          localStorage.setItem('selectedGeminiModel', models[0]);
-        }
-        alert(isIndoMode ? `Berhasil memuat ${models.length} model Gemini!` : `총 ${models.length}개의 사용 가능한 모델을 불러왔습니다.`);
-      } catch (e) {
-        alert(isIndoMode ? "Gagal memuat model: " : "모델 조회 실패: " + e.message);
-      } finally {
-      setLoadingModels(false);
-    }
+      if (models.length > 0 && !models.includes(selectedGeminiModel)) {
+        setSelectedGeminiModel(models[0]);
+        localStorage.setItem('selectedGeminiModel', models[0]);
+      }
+      alert(isIndoMode ? "Berhasil memuat model." : "모델 조회를 성공했습니다.");
+    } catch (e) { alert("Gagal memuat model."); }
+    finally { setLoadingModels(false); }
   };
 
   const saveApiKeys = () => {
     localStorage.setItem('geminiApiKey', geminiKey);
-    if (selectedGeminiModel) localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
+    localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
     alert(t('set_save_success'));
   };
 
@@ -519,7 +387,6 @@ const Settings = () => {
     <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem' }}>
       <h2 style={{ fontSize: '1.8rem', fontWeight: '800', marginBottom: '2rem', textAlign: 'center' }}>{t('set_title')}</h2>
       
-      {/* --- 섹션 1: AI 음성 및 학습 엔진 --- */}
       <div className="settings-card" style={{ background: 'rgba(255,255,255,0.8)', backdropFilter: 'blur(10px)', padding: '2rem', borderRadius: '24px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid #fff', marginBottom: '2rem' }}>
         <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', color: '#1a1a1a' }}>
             <span style={{ fontSize: '1.5rem' }}>🔊</span> {t('set_audio_title')}
@@ -543,58 +410,52 @@ const Settings = () => {
             <span style={{ fontWeight: '700', fontSize: '1rem', display: 'block', marginBottom: '1rem' }}>{t('set_engine_title')}</span>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
                 <button onClick={() => { if(!gcpAccessToken) handleGoogleLogin(); setTtsEngine('google'); localStorage.setItem('tts_engine', 'google'); }}
-                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'google' ? '2px solid #4285f4' : '1px solid #eee', background: ttsEngine === 'google' ? '#e8f0fe' : '#fff', color: ttsEngine === 'google' ? '#1967d2' : '#666', fontWeight: 'bold', transition: 'all 0.3s' }}>
+                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'google' ? '2px solid #4285f4' : '1px solid #eee', background: ttsEngine === 'google' ? '#e8f0fe' : '#fff', color: ttsEngine === 'google' ? '#1967d2' : '#666', fontWeight: 'bold' }}>
                     Google Cloud<br/><small style={{fontWeight: 'normal'}}>Premium</small>
                 </button>
                 <button onClick={() => { setTtsEngine('gemini'); localStorage.setItem('tts_engine', 'gemini'); }}
-                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'gemini' ? '2px solid #8e44ad' : '1px solid #eee', background: ttsEngine === 'gemini' ? '#f3e5f5' : '#fff', color: ttsEngine === 'gemini' ? '#6a1b9a' : '#666', fontWeight: 'bold', transition: 'all 0.3s' }}>
+                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'gemini' ? '2px solid #8e44ad' : '1px solid #eee', background: ttsEngine === 'gemini' ? '#f3e5f5' : '#fff', color: ttsEngine === 'gemini' ? '#6a1b9a' : '#666', fontWeight: 'bold' }}>
                     Gemini AI<br/><small style={{fontWeight: 'normal'}}>Deep Learning</small>
                 </button>
                 <button onClick={() => { setTtsEngine('browser'); localStorage.setItem('tts_engine', 'browser'); }}
-                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'browser' ? '2px solid #2d3436' : '1px solid #eee', background: ttsEngine === 'browser' ? '#f5f5f5' : '#fff', color: ttsEngine === 'browser' ? '#2d3436' : '#666', fontWeight: 'bold', transition: 'all 0.3s' }}>
+                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'browser' ? '2px solid #2d3436' : '1px solid #eee', background: ttsEngine === 'browser' ? '#f5f5f5' : '#fff', color: ttsEngine === 'browser' ? '#2d3436' : '#666', fontWeight: 'bold' }}>
                     Browser Default<br/><small style={{fontWeight: 'normal'}}>Offline</small>
                 </button>
             </div>
 
             {ttsEngine === 'google' && (
-                <div style={{ background: '#fff', padding: '1.2rem', borderRadius: '16px', border: '1px solid #eee', animation: 'fadeIn 0.5s ease' }}>
+                <div style={{ background: '#fff', padding: '1.2rem', borderRadius: '16px', border: '1px solid #eee' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                        <span style={{ fontWeight: 'bold', color: '#1a1a1a' }}>{isIndoMode ? "Pilih Model Suara" : "음성 모델 선택"}</span>
+                        <span style={{ fontWeight: 'bold' }}>{isIndoMode ? "Pilih Model Suara" : "음성 모델 선택"}</span>
                         <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices}
-                            style={{ background: '#4285f4', color: '#fff', border: 'none', padding: '0.5rem 1rem', borderRadius: '8px', fontSize: '0.85rem', fontWeight: '700', cursor: 'pointer' }}>
-                            {loadingVoices ? (isIndoMode ? "Memuat..." : "로딩 중...") : (isIndoMode ? "Perbarui Daftar" : "음성 리스트 갱신")}
+                            style={{ background: '#4285f4', color: '#fff', border: 'none', padding: '0.5rem 1rem', borderRadius: '8px', fontSize: '0.85rem' }}>
+                            {loadingVoices ? "..." : (isIndoMode ? "Update" : "리스트 갱신")}
                         </button>
                     </div>
 
-                    {/* 인도네시아어 보이스 설정 */}
                     <div style={{ marginBottom: '1rem' }}>
-                        <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block', marginBottom: '0.4rem' }}>🇮🇩 {isIndoMode ? "Suara Indonesia (Premium)" : "인도네시아어 음성 (프리미엄)"}</label>
+                        <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block' }}>🇮🇩 Indonesia</label>
                         <div style={{ display: 'flex', gap: '0.5rem' }}>
-                            <select 
-                                value={googleTtsModelId} 
-                                onChange={e => { setGoogleTtsModelId(e.target.value); localStorage.setItem('google_tts_model_id', e.target.value); }}
-                                style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd', background: '#f8f9fa', fontSize: '0.9rem' }}>
+                            <select value={googleTtsModelId} onChange={e => { setGoogleTtsModelId(e.target.value); localStorage.setItem('google_tts_model_id', e.target.value); }}
+                                style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd' }}>
                                 {idVoices.length > 0 ? idVoices.map(v => (
-                                    <option key={v.name} value={v.name}>{v.name.includes('Chirp') ? '✨ ' : ''}{v.name} ({v.ssmlGender === 'FEMALE' ? (isIndoMode ? "Wanita" : "여성") : (isIndoMode ? "Pria" : "남성")})</option>
-                                )) : <option value="">{isIndoMode ? "Klik Perbarui Daftar" : "리스트 갱신을 눌러주세요"}</option>}
+                                    <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>
+                                )) : <option value="">{isIndoMode ? "Klik Update" : "리스트 갱신 필요"}</option>}
                             </select>
-                            <button onClick={() => handleTestTts(googleTtsModelId)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px', height: '45px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 2px 5px rgba(0,0,0,0.05)' }}>🔉</button>
+                            <button onClick={() => handleTestTts(googleTtsModelId)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px' }}>🔉</button>
                         </div>
                     </div>
 
-                    {/* 한국어 보이스 설정 */}
                     <div>
-                        <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block', marginBottom: '0.4rem' }}>🇰🇷 {isIndoMode ? "Suara Korea (Premium)" : "한국어 음성 (프리미엄)"}</label>
+                        <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block' }}>🇰🇷 Korea</label>
                         <div style={{ display: 'flex', gap: '0.5rem' }}>
-                            <select 
-                                value={googleTtsModelKo} 
-                                onChange={e => { setGoogleTtsModelKo(e.target.value); localStorage.setItem('google_tts_model_ko', e.target.value); }}
-                                style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd', background: '#f8f9fa', fontSize: '0.9rem' }}>
+                            <select value={googleTtsModelKo} onChange={e => { setGoogleTtsModelKo(e.target.value); localStorage.setItem('google_tts_model_ko', e.target.value); }}
+                                style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd' }}>
                                 {krVoices.length > 0 ? krVoices.map(v => (
-                                    <option key={v.name} value={v.name}>{v.name.includes('Neural2') ? '✨ ' : ''}{v.name} ({v.ssmlGender === 'FEMALE' ? (isIndoMode ? "Wanita" : "여성") : (isIndoMode ? "Pria" : "남성")})</option>
-                                )) : <option value="">{isIndoMode ? "Klik Perbarui Daftar" : "리스트 갱신을 눌러주세요"}</option>}
+                                    <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>
+                                )) : <option value="">{isIndoMode ? "Klik Update" : "리스트 갱신 필요"}</option>}
                             </select>
-                            <button onClick={() => handleTestTts(googleTtsModelKo)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px', height: '45px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 2px 5px rgba(0,0,0,0.05)' }}>🔉</button>
+                            <button onClick={() => handleTestTts(googleTtsModelKo)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px' }}>🔉</button>
                         </div>
                     </div>
                 </div>
@@ -602,116 +463,65 @@ const Settings = () => {
         </div>
       </div>
 
-      {/* --- 섹션 2: Gemini API 및 AI 모델 설정 --- */}
       <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)', marginBottom: '2rem' }}>
         <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
             <span style={{ fontSize: '1.5rem' }}>🤖</span> {t('set_api_title')}
         </h3>
-        <div style={{ marginBottom: '1.5rem' }}>
-            <label style={{ display: 'block', marginBottom: '0.6rem', fontWeight: '600' }}>{t('set_gemini_key_label')}</label>
-            <input type="password" value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder="AIza..." 
-                style={{ width: '100%', padding: '1rem', border: '1px solid #eee', borderRadius: '12px', background: '#fafafa', fontSize: '1rem' }} />
-        </div>
-        <div style={{ background: '#fcfcfc', padding: '1.2rem', borderRadius: '16px', border: '1px solid #eee' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                <span style={{ fontWeight: '600' }}>{isIndoMode ? "Pilih Model Gemini" : "Gemini 모델 선택"}</span>
-                <button onClick={handleFetchModels} disabled={loadingModels}
-                    style={{ background: '#fff', border: '1px solid #8e44ad', color: '#8e44ad', padding: '0.4rem 0.8rem', borderRadius: '8px', fontSize: '0.8rem', fontWeight: '700' }}>
-                    {loadingModels ? (isIndoMode ? "Memuat..." : "조회 중...") : (isIndoMode ? "Perbarui" : "목록 갱신")}
-                </button>
-            </div>
+        <input type="password" value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder="Gemini API Key" 
+            style={{ width: '100%', padding: '1rem', border: '1px solid #eee', borderRadius: '12px', marginBottom: '1rem' }} />
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
             <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
-                style={{ width: '100%', padding: '1rem', border: '1px solid #eee', borderRadius: '12px', background: '#fff' }}>
+                style={{ flex: 1, padding: '1rem', border: '1px solid #eee', borderRadius: '12px' }}>
                 {modelList.map(m => <option key={m} value={m}>{m}</option>)}
             </select>
+            <button onClick={handleFetchModels} disabled={loadingModels} style={{ marginLeft: '1rem', padding: '1rem' }}>🔄</button>
         </div>
-        <button onClick={saveApiKeys} style={{ marginTop: '1.5rem', width: '100%', padding: '1.1rem', background: '#1a1a1a', color: '#fff', border: 'none', borderRadius: '14px', fontWeight: '800', cursor: 'pointer' }}>
-            {isIndoMode ? "Simpan Pengaturan" : "설정 저장하기"}
+        <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.1rem', background: '#1a1a1a', color: '#fff', border: 'none', borderRadius: '14px', fontWeight: '800' }}>
+            {t('set_save_btn') || "저장"}
         </button>
       </div>
 
-      {/* --- 섹션 3: 데이터 관리 및 클라우드 백업 --- */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
         <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
-            <h3 style={{ fontSize: '1.2rem', marginBottom: '1.2rem' }}>📁 {isIndoMode ? "Cadangkan/Pulihkan File" : "파일 백업/복원"}</h3>
-            <button onClick={handleExportCSV} style={{ width: '100%', padding: '1rem', background: '#f0fdf4', color: '#166534', border: '1px solid #dcfce7', borderRadius: '12px', marginBottom: '1rem', fontWeight: '700' }}>
-                {isIndoMode ? "Ekspor ke CSV" : "CSV로 내보내기"}
-            </button>
-            <button onClick={() => document.getElementById('csvImport').click()} style={{ width: '100%', padding: '1rem', background: '#f8fafc', color: '#1e293b', border: '1px solid #e2e8f0', borderRadius: '12px', marginBottom: '1rem', fontWeight: '700' }}>
-                {isIndoMode ? "Impor CSV" : "CSV 불러오기"}
-            </button>
+            <h3>📁 Backup/Import</h3>
+            <button onClick={handleExportCSV} style={{ width: '100%', padding: '1rem', background: '#f0fdf4', borderRadius: '12px', marginBottom: '1rem' }}>CSV Export</button>
+            <button onClick={() => document.getElementById('csvImport').click()} style={{ width: '100%', padding: '1rem', background: '#f8fafc', borderRadius: '12px', marginBottom: '1rem' }}>CSV Import</button>
             <input type="file" id="csvImport" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
-            <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1rem', background: '#fffbeb', color: '#92400e', border: '1px solid #fef3c7', borderRadius: '12px', fontWeight: '700' }}>
-                {isIndoMode ? "Tempel Data JSON AI" : "AI 생성 데이터(JSON) 붙여넣기"}
-            </button>
+            <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1rem', background: '#fffbeb', borderRadius: '12px' }}>JSON Paste</button>
         </div>
 
         <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)', border: '2px solid #e8f0fe' }}>
-            <h3 style={{ fontSize: '1.2rem', marginBottom: '1.2rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" style={{width: '20px'}} alt="Gdrive"/> {isIndoMode ? "Cloud Google Drive" : "구글 드라이브 클라우드"}
-            </h3>
+            <h3>☁️ Google Drive</h3>
             {gcpAccessToken ? (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-                    <div style={{ fontSize: '0.85rem', color: '#4285f4', background: '#e8f0fe', padding: '0.8rem', borderRadius: '10px', wordBreak: 'break-all' }}>
-                        {isIndoMode ? "Terhubung" : "연동됨"}: <strong>{userEmail}</strong>
-                    </div>
-                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '700', opacity: isDriveOperating ? 0.7 : 1 }}>
-                        {isDriveOperating ? (isIndoMode ? "Mencadangkan..." : "백업 중...") : (isIndoMode ? "Cadangkan Sekarang" : "클라우드에 지금 백업")}
-                    </button>
-                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '700', opacity: isDriveOperating ? 0.7 : 1 }}>
-                        {isDriveOperating ? (isIndoMode ? "Memulihkan..." : "복원 중...") : (isIndoMode ? "Pulihkan Data" : "클라우드에서 데이터 복원")}
-                    </button>
+                    <div style={{ fontSize: '0.85rem', color: '#4285f4' }}>{userEmail}</div>
+                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', borderRadius: '12px' }}>Backup</button>
+                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#34a853', color: '#fff', borderRadius: '12px' }}>Restore</button>
                 </div>
             ) : (
-                <button onClick={handleGoogleLogin} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '14px', fontWeight: '800', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.8rem' }}>
-                    <img src="https://www.google.com/favicon.ico" style={{width: '18px', filter: 'brightness(2)'}} alt="G"/> {isIndoMode ? "Mulai dengan Google" : "구글 계정으로 시작하기"}
-                </button>
+                <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', borderRadius: '14px' }}>Login Google</button>
             )}
         </div>
       </div>
 
-      {/* --- 섹션 4: 관리자 진단 도구 --- */}
       <div className="settings-card" style={{ background: '#fff5f5', padding: '1.5rem', borderRadius: '20px', border: '1px solid #feb2b2' }}>
-        <h4 style={{ margin: '0 0 1rem 0', color: '#c53030' }}>🛠️ {isIndoMode ? "Alat Diagnosa Admin" : "관리자 진단 도구"}</h4>
-        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-            <button onClick={() => handleTestTts()} style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '2px solid #feb2b2', borderRadius: '10px', fontWeight: 'bold', color: '#c53030' }}>
-                {isIndoMode ? "Tes Suara Premium" : "프리미엄 음성 테스트"}
-            </button>
-            <button onClick={() => { localStorage.removeItem('user_email'); localStorage.removeItem('gcp_access_token'); window.location.reload(); }}
-                style={{ flex: 1, padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px', fontWeight: 'bold', color: '#718096' }}>
-                {isIndoMode ? "Reset Sesi" : "로그인 세션 초기화"}
-            </button>
-        </div>
+        <h4 style={{ color: '#c53030' }}>🛠️ Diagnosa</h4>
+        <button onClick={() => { localStorage.removeItem('gcp_access_token'); window.location.reload(); }}
+            style={{ width: '100%', padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px' }}>초기화</button>
       </div>
 
       {isJsonModalOpen && (
-        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 2000, padding: '1rem' }}>
-          <div style={{ background: '#fff', padding: '2rem', borderRadius: '25px', width: '100%', maxWidth: '600px', boxShadow: '0 15px 35px rgba(0,0,0,0.2)', animation: 'popIn 0.3s ease-out', position: 'relative' }}>
-            <h3 style={{ marginTop: 0, color: '#856404', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>{isIndoMode ? '🍌 Impor Data (JSON)' : '🍌 데이터 보따리 풀기 (JSON)'}</h3>
-            <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.2rem' }}>{isIndoMode ? 'Tempelkan list kata (JSON) dari Gemini di bawah ini!' : '제미나이가 만들어준 단어 리스트(JSON)를 아래에 붙여넣어 주세요!'}</p>
-            <textarea 
-              value={jsonInput}
-              onChange={e => setJsonInput(e.target.value)}
-              placeholder='[{ "word": "menginjak", "meaning": "밟다", ... }, ...]'
-              style={{ width: '100%', height: '350px', padding: '1.2rem', border: '3px solid #fdf2f2', borderRadius: '20px', outline: 'none', background: '#fffcfc', fontFamily: 'monospace', fontSize: '0.85rem', color: '#444' }}
-            />
-            <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
-              <button 
-                onClick={handleJsonImport}
-                disabled={isJsonImporting}
-                style={{ flex: 1, padding: '1.2rem', background: 'linear-gradient(135deg, #feca57, #ff9f43)', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: 'bold', fontSize: '1.1rem', cursor: isJsonImporting ? 'not-allowed' : 'pointer', boxShadow: '0 6px 0 #e67e22' }}>
-                {t('btn_confirm')}
-              </button>
-              <button 
-                onClick={() => setIsJsonModalOpen(false)}
-                style={{ padding: '0 1.5rem', background: '#eee', color: '#666', border: 'none', borderRadius: '20px', fontWeight: 'bold', cursor: 'pointer' }}>
-                {t('btn_cancel')}
-              </button>
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 2000 }}>
+          <div style={{ background: '#fff', padding: '2rem', borderRadius: '25px', width: '90%', maxWidth: '600px' }}>
+            <h3>🍌 JSON Import</h3>
+            <textarea value={jsonInput} onChange={e => setJsonInput(e.target.value)} style={{ width: '100%', height: '300px', borderRadius: '12px' }} />
+            <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
+              <button onClick={handleJsonImport} disabled={isJsonImporting} style={{ flex: 1, padding: '1rem', background: '#ff9f43', color: '#fff', borderRadius: '12px' }}>Confirm</button>
+              <button onClick={() => setIsJsonModalOpen(false)} style={{ padding: '0 1rem', borderRadius: '12px' }}>Cancel</button>
             </div>
           </div>
         </div>
       )}
-
     </div>
   );
 };
