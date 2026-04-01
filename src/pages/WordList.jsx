@@ -1,10 +1,13 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { getWords, getCartWords, toggleCartItem, addWordsToCart, removeWordsFromCart, updateWord, deleteWords, getFolders, moveWordsToFolder, clearCart } from '../db/database';
 import { playAudio } from '../api/ttsApi';
-import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, Volume2, CheckSquare, Square, ShoppingCart, ChevronDown, ChevronUp, Sparkles, HelpCircle, List, X, ChevronLeft, CornerUpRight, ArrowRight } from 'lucide-react';
+import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, Volume2, CheckSquare, Square, ShoppingCart, ChevronDown, ChevronUp, Sparkles, HelpCircle, List, X, ChevronLeft, CornerUpRight, ArrowRight, FileText } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import InteractiveSentence from '../components/InteractiveSentence';
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
+
 const WordList = () => {
   const { isIndoMode, t } = useLanguage();
   const [words, setWords] = useState([]);
@@ -266,6 +269,103 @@ const WordList = () => {
     }
   };
 
+  // --- [v9.0] PDF 내보내기 로직 ---
+  const handleExportPDF = async () => {
+    if (selectedIds.size === 0) return;
+    
+    // 로딩 표시용 알림 (선택 사항)
+    const selectedWordsList = words.filter(w => selectedIds.has(w.id));
+    
+    // 임시 컨테이너 생성 및 스타일 적용
+    const element = document.createElement('div');
+    element.style.padding = '40px';
+    element.style.background = '#fff';
+    element.style.width = '700px'; 
+    element.style.position = 'fixed';
+    element.style.top = '0';
+    element.style.left = '-2000px';
+    element.style.zIndex = '-999';
+    // 시스템 폰트 사용 (한국어 지원 보장)
+    element.style.fontFamily = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
+
+    // 헤더 디자인
+    const header = `
+      <div style="text-align: center; margin-bottom: 30px; border-bottom: 3px solid #feca57; padding-bottom: 20px;">
+        <h1 style="color: #ff9f43; margin: 0 0 10px 0; font-size: 28px;">${t('list_pdf_title')}</h1>
+        <p style="color: #888; margin: 0; font-weight: bold; font-size: 14px;">
+           ${new Date().toLocaleDateString()} | 총 ${selectedWordsList.length}개의 단어
+        </p>
+      </div>
+    `;
+
+    const cardsHtml = selectedWordsList.map(w => `
+      <div style="border: 1px solid #eee; border-radius: 16px; padding: 20px; margin-bottom: 20px; page-break-inside: avoid; background: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.02); border-left: 6px solid var(--primary-color);">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+          <div>
+            <div style="font-size: 1.4rem; font-weight: 900; color: #1976d2; margin-bottom: 4px;">${w.word}</div>
+            <div style="font-size: 1.1rem; color: #333; font-weight: 600;">${w.meaning}</div>
+          </div>
+          <div style="background: #f0f0f0; padding: 4px 10px; border-radius: 8px; font-size: 0.8rem; color: #666; font-weight: bold; border: 1px solid #ddd;">
+            ${w.pos || '명사'}
+          </div>
+        </div>
+        
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 0.9rem;">
+          ${w.root ? `<div style="color: #444; font-size: 0.85rem;">• <b>어근:</b> <span style="color: #666;">${w.root}</span></div>` : ''}
+          ${w.example_formal ? `
+            <div style="background: #f1f3f5; padding: 12px; border-radius: 10px;">
+              <div style="font-weight: bold; color: #2e7d32; margin-bottom: 4px; font-size: 0.85rem;">🌟 격식체:</div>
+              <div style="color: #111; margin-bottom: 2px;">${w.example_formal}</div>
+              <div style="color: #666; font-size: 0.8rem;">${w.example_formal_kr}</div>
+            </div>` : ''}
+          ${w.example_casual ? `
+            <div style="background: #fff9db; padding: 12px; border-radius: 10px;">
+              <div style="font-weight: bold; color: #e67e22; margin-bottom: 4px; font-size: 0.85rem;">🗣️ 구어체:</div>
+              <div style="color: #111; margin-bottom: 2px;">${w.example_casual}</div>
+              <div style="color: #666; font-size: 0.8rem;">${w.example_casual_kr}</div>
+            </div>` : ''}
+          ${w.related ? `<div style="color: #1565c0; margin-top: 5px; font-size: 0.85rem;">💡 <b>참고:</b> ${w.related}</div>` : ''}
+        </div>
+      </div>
+    `).join('');
+
+    element.innerHTML = header + `<div style="display: flex; flex-direction: column;">${cardsHtml}</div>`;
+    document.body.appendChild(element);
+
+    try {
+      const canvas = await html2canvas(element, { 
+        scale: 2, 
+        useCORS: true,
+        backgroundColor: '#ffffff'
+      });
+      const imgData = canvas.toDataURL('image/png');
+      const pdf = new jsPDF('p', 'mm', 'a4');
+      const imgWidth = 210; 
+      const pageHeight = 295; 
+      const imgHeight = (canvas.height * imgWidth) / canvas.width;
+      
+      let heightLeft = imgHeight;
+      let position = 0;
+
+      pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+      heightLeft -= pageHeight;
+
+      while (heightLeft >= 0) {
+        position = heightLeft - imgHeight;
+        pdf.addPage();
+        pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+        heightLeft -= pageHeight;
+      }
+      
+      pdf.save(`Inko_Vocab_${new Date().toISOString().slice(0,10)}.pdf`);
+    } catch (err) {
+      console.error(err);
+      alert(t('msg_save_error'));
+    } finally {
+      document.body.removeChild(element);
+    }
+  };
+
   return (
     <div className="page" style={{ position: 'relative', paddingBottom: '3rem' }}>
       <header style={{ marginBottom: '1.5rem', textAlign: 'center' }}>
@@ -386,11 +486,17 @@ const WordList = () => {
            </button>
            <button 
               disabled={selectedIds.size === 0}
+              onClick={handleExportPDF}
+              style={{ background: selectedIds.size > 0 ? '#722ed1' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '30px', fontWeight: 'bold', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+              <FileText size={16} /> {t('btn_export_pdf')}
+           </button>
+           <button 
+              disabled={selectedIds.size === 0}
               onClick={handleAddToCart}
               style={{ background: selectedIds.size > 0 ? '#52c41a' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '30px', fontWeight: 'bold', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
               <ShoppingCart size={16} /> {t('btn_add_to_cart')}
            </button>
-       </div>
+        </div>
       </header>
       
       {words.length === 0 ? (

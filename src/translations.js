@@ -262,6 +262,11 @@ export const translations = {
     set_json_import_title: '🍌 JSON 데이터 가져오기',
     set_json_confirm: '확인',
     set_json_cancel: '취소',
+    
+    // PDF Export (v9.0)
+    btn_export_pdf: '📄 PDF로 저장하기',
+    msg_export_loading: 'PDF를 생성 중입니다. 잠시만 기다려주세요...',
+    list_pdf_title: '나나와 함께 공부하는 인코 단어장 🍌',
   },
   id: {
     // Navigation
@@ -532,5 +537,10 @@ export const translations = {
     set_json_import_title: '🍌 Impor JSON',
     set_json_confirm: 'Konfirmasi',
     set_json_cancel: 'Batal',
+    
+    // PDF Export (v9.0)
+    btn_export_pdf: '📄 Simpan sebagai PDF',
+    msg_export_loading: 'Sedang membuat PDF. Silakan tunggu...',
+    list_pdf_title: 'Kosakata Inko bersama Nana 🍌',
   }
 };
