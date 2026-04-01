@@ -212,6 +212,13 @@ export const translations = {
     quiz_direction_ko_id: '인도네시아어 ➔ 한국어',
     quiz_direction_id_ko: '한국어 ➔ 인도네시아어',
     
+    guide_section_google_tts: '🔊 프리미엄 음성(Google Cloud) 설정 가이드',
+    guide_tts_step1: '1. [Google Cloud 콘솔](https://console.cloud.google.com/)에 접속하여 로그온하세요.',
+    guide_tts_step2: "2. 상단 프로젝트 선택 바에서 '새 프로젝트'를 만들어주세요.",
+    guide_tts_step3: "3. 검색창에 'Cloud Text-to-Speech API'를 입력하고 '사용' 버튼을 클릭하세요.",
+    guide_tts_step4: '4. 왼쪽 [결제] 메뉴에서 신용카드 정보를 등록하세요. (Neural2 모델 등 프리미엄 음성은 유료 계정 연동 시에만 작동합니다. 매월 일정량은 무료입니다.)',
+    guide_tts_step5: '5. 인코 앱의 [설정] 탭에서 구글 계정으로 다시 로그인하면 고품질 프리미엄 음성을 즐길 수 있습니다! 🍌',
+    
     // POS (Part of Speech)
     pos_noun: '명사',
     pos_verb: '동사',
@@ -478,6 +485,13 @@ export const translations = {
     learn_loading_msg: 'Nana sedang menyiapkan kosakata... 🍌',
     quiz_direction_ko_id: 'B. Korea ➔ B. Indo',
     quiz_direction_id_ko: 'B. Indo ➔ B. Korea',
+
+    guide_section_google_tts: '🔊 Panduan Pengaturan Suara Premium (Google Cloud)',
+    guide_tts_step1: '1. Buka [Konsol Google Cloud](https://console.cloud.google.com/) dan masuk.',
+    guide_tts_step2: "2. Buat 'Proyek Baru' di bilah pilihan proyek di bagian atas.",
+    guide_tts_step3: "3. Cari 'Cloud Text-to-Speech API' di bilah pencarian dan klik 'Aktifkan'.",
+    guide_tts_step4: '4. Daftarkan informasi kartu kredit Anda di menu [Penagihan] di sebelah kiri. (Neural2 dan model lainnya hanya berfungsi jika akun pembayaran terhubung. Ada kuota gratis bulanan.)',
+    guide_tts_step5: '5. Masuk kembali dengan akun Google di tab [Pengaturan] Inko untuk menikmati suara premium berkualitas tinggi! 🍌',
 
     // POS (Part of Speech)
     pos_noun: 'Nomina (Kata Benda)',

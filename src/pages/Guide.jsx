@@ -123,6 +123,24 @@ const Guide = () => {
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_drive_step3')}</div>
           </div>
         </section>
+
+        {/* Google Cloud TTS Section (Added in v8.4) */}
+        <section style={{ background: '#fff', padding: '2rem', borderRadius: '30px', border: '1px solid #eee', boxShadow: '0 10px 30px rgba(0,0,0,0.03)', gridColumn: '1 / -1' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
+            <div style={{ background: '#fff3e0', padding: '0.6rem', borderRadius: '12px' }}><CloudLightning size={24} color="#e67e22" /></div>
+            <h3 style={{ margin: 0, fontSize: '1.3rem', fontWeight: '800' }}>{t('guide_section_google_tts')}</h3>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1rem', fontSize: '0.92rem', color: '#444' }}>
+            <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{renderLink(t('guide_tts_step1'))}</div>
+            <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_tts_step2')}</div>
+            <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_tts_step3')}</div>
+            <div style={{ background: '#fff9db', padding: '1rem', borderRadius: '15px', border: '1px solid #feca57', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <CreditCard size={18} color="#e67e22" style={{minWidth: '18px'}} />
+                <span>{t('guide_tts_step4')}</span>
+            </div>
+            <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_tts_step5')}</div>
+          </div>
+        </section>
       </div>
 
       {/* 💰 비용 및 토큰 안내 */}
