@@ -20,8 +20,9 @@ const Settings = () => {
   const [modelList, setModelList] = useState([]);
   const [selectedGeminiModel, setSelectedGeminiModel] = useState('');
   const [loadingModels, setLoadingModels] = useState(false);
+  const [loadingVoices, setLoadingVoices] = useState(false); // [추가] 음성 로딩 상태
 
-  const [totalTokens, setTotalTokens] = useState(0); // [추가] 토큰 사용량 상태
+  const [totalTokens, setTotalTokens] = useState(0); 
   const [totalCostUsd, setTotalCostUsd] = useState(0); // [추가] 누적 비용(USD)
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); // [추가] 음성 토글 상태
   const [ttsEngine, setTtsEngine] = useState('gemini'); // [추가] 음성 엔진 선택 상태 (gemini, google, browser)
