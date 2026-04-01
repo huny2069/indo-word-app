@@ -14,9 +14,31 @@ export const supabase = (supabaseUrl && supabaseAnonKey)
  */
 const getClientIp = async () => {
   try {
-    const res = await fetch('https://api64.ipify.org?format=json');
-    const data = await res.json();
-    return data.ip;
+    // 1. 메인 엔진: ipify (IPv4) - 타임아웃 3초 설정
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 3000);
+    
+    try {
+      const res = await fetch('https://api.ipify.org?format=json', { signal: controller.signal });
+      clearTimeout(timeoutId);
+      const data = await res.json();
+      // 비정상적인 IP (0.0.0.0 등) 필터링
+      if (data.ip && !data.ip.startsWith('0.0.0.0') && data.ip !== '127.0.0.1') {
+        return data.ip;
+      }
+    } catch (e) {
+      // 메인 실패 시 조용히 백업으로 넘어감
+    }
+
+    // 2. 백업 엔진: Cloudflare trace (더 안정적임)
+    const cfRes = await fetch('https://1.1.1.1/cdn-cgi/trace');
+    if (cfRes.ok) {
+      const text = await cfRes.text();
+      const ipLine = text.split('\n').find(line => line.startsWith('ip='));
+      if (ipLine) return ipLine.split('=')[1];
+    }
+
+    return 'unknown';
   } catch (err) {
     return 'unknown';
   }
