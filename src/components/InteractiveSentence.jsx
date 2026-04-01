@@ -5,28 +5,52 @@ const InteractiveSentence = ({ sentence, wordBreakdown }) => {
 
   if (!sentence) return null;
 
+  const clean = (str) => {
+    if (!str) return '';
+    // 하이픈(-) 및 기타 특수문자 제거 필터 강화
+    return str.replace(/[.,!?()[\]{}"'/-]/g, '').toLowerCase().trim();
+  };
+
   // 단어장 맵 생성 (소문자로 변환하여 매핑)
   const breakdownMap = {};
   if (wordBreakdown && Array.isArray(wordBreakdown)) {
     wordBreakdown.forEach(item => {
-      // API가 가끔 앞뒤 공백이나 특수문자를 포함할 수 있으므로 정리
-      const cleanKey = item.word.replace(/[.,!?()[\]{}"']/g, '').toLowerCase().trim();
-      breakdownMap[cleanKey] = item.meaning;
+      const cleanKey = clean(item.word);
+      if (cleanKey) breakdownMap[cleanKey] = item.meaning;
     });
   }
 
-  const words = sentence.split(' ');
+  const getMeaning = (word) => {
+    const cw = clean(word);
+    if (!cw) return null;
 
-  const handleWordClick = (index) => {
+    // 1. Exact Match (정밀 일치)
+    if (breakdownMap[cw]) return breakdownMap[cw];
+
+    // 2. Fuzzy Match (부분 일치 - 인도네시아어 접사 및 어근 고려)
+    const keys = Object.keys(breakdownMap).sort((a, b) => b.length - a.length);
+    for (const key of keys) {
+      if (key.length < 3) continue; // 너무 짧은 단어(조사 등)는 부분 일치 제외
+      
+      // 문장의 단어가 어근(key)을 포함하거나, 어근이 단어를 포함하는지 확인
+      if (cw.includes(key) || key.includes(cw)) {
+        return breakdownMap[key];
+      }
+    }
+    return null;
+  };
+
+  const words = sentence.split(/\s+/); // 공백 여러 개 대응
+
+  const handleWordClick = (index, meaning) => {
+    if (!meaning) return;
     setActiveWordId(activeWordId === index ? null : index);
   };
 
   return (
     <div style={{ display: 'inline-flex', flexWrap: 'wrap', gap: '3px', alignItems: 'center' }}>
       {words.map((w, index) => {
-        // 현재 단어에서 구두점 제거 후 검색
-        const cleanWord = w.replace(/[.,!?()[\]{}"']/g, '').toLowerCase().trim();
-        const meaning = breakdownMap[cleanWord];
+        const meaning = getMeaning(w);
         
         return (
           <div key={index} style={{ position: 'relative', display: 'inline-block' }}>

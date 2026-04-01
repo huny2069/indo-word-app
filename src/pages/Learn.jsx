@@ -81,11 +81,8 @@ const Learn = () => {
     setIsCartMode(targetWords.length > 0);
     
     if (targetWords.length === 0) {
-      // 장바구니가 비어있을 경우 전체 단어 중 랜덤하게 10개 추출
-      const allList = await getWords();
-      if (allList.length > 0) {
-        targetWords = [...allList].sort(() => Math.random() - 0.5).slice(0, 10);
-      }
+      // [v8.2] 자동 추천 로직 제거: 사용자가 직접 담은 단어만 학습하도록 수정
+      targetWords = [];
     } else {
       // 장바구니가 있을 경우 과학적 출제 로직 적용
       const now = new Date();

@@ -593,7 +593,7 @@ const WordList = () => {
         </>
       )}
 
-      <button onClick={scrollToTop} style={{ position: 'fixed', bottom: '2rem', right: '2rem', width: '50px', height: '50px', borderRadius: '50%', background: 'var(--primary-color)', color: '#fff', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.2)', cursor: 'pointer', zIndex: 1000, fontWeight: '900' }}>TOP</button>
+      <button onClick={scrollToTop} style={{ position: 'fixed', bottom: '6rem', right: '2rem', width: '50px', height: '50px', borderRadius: '50%', background: 'var(--primary-color)', color: '#fff', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.2)', cursor: 'pointer', zIndex: 1000, fontWeight: '900' }}>TOP</button>
 
       {editingWord && (
          <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(3px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 9999 }}>

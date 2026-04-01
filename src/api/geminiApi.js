@@ -37,7 +37,7 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
   "caution": "사용 시 주의사항이나 문화적 배경 (${explanationLang}로 1문장)",
   "related": "학습 팁이나 관련 표현 (${explanationLang}로 1문장)",
   "grammar_rule": "문법적 특징이나 변형 규칙 설명 (${explanationLang}로 1문장)",
-  "word_breakdown": [{"word": "예문의 핵심 단어", "meaning": "해당 단어의 뜻"}] // 예문에 쓰인 모든 핵심 단어들의 뜻풀이를 ${explanationLang}로 제공
+  "word_breakdown": [{"word": "단어/토큰", "meaning": "뜻"}] // 두 예문(formal, casual)에 등장하는 **모든 개별 단어(조사, 접두사/접미사가 붙은 변형태, 관용구 포함)**의 뜻을 ${explanationLang}로 하나도 빠짐없이 제공하세요.
 }
 
 ${excludeWords.length > 0 ? `반드시 다음 단어들은 이미 학습했으므로 제외하고 새로운 단어로만 생성하세요: [${excludeWords.join(', ')}]` : ''}
