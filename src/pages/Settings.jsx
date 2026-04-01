@@ -111,9 +111,10 @@ const Settings = () => {
       return;
     }
     try {
-      const testText = isIndoMode ? "안녕하세요, 나나입니다. 반갑습니다." : "Halo, saya Nana. Senang bertemu dengan Anda.";
-      const isKorean = !isIndoMode; 
-      const langCode = isKorean ? 'ko-KR' : 'id-ID';
+      // 선택된 모델명에서 언어 코드 추출 (예: ko-KR-Neural2-A -> ko-KR)
+      const langCode = googleTtsModel.split('-').slice(0, 2).join('-');
+      const isKorean = langCode.startsWith('ko');
+      const testText = isKorean ? "안녕하세요, 나나입니다. 고품질 AI 음성 테스트 중입니다." : "Halo, saya Nana. Sedang 시운전 suara AI premium.";
       
       const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
       const response = await fetch(endpoint, {
