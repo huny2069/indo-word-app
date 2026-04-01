@@ -55,7 +55,7 @@ const InteractiveSentence = ({ sentence, wordBreakdown }) => {
         return (
           <div key={index} style={{ position: 'relative', display: 'inline-block' }}>
             <span 
-              onClick={() => meaning ? handleWordClick(index) : null}
+              onClick={() => meaning ? handleWordClick(index, meaning) : null}
               style={{ 
                 cursor: meaning ? 'pointer' : 'default',
                 textDecoration: meaning ? 'underline' : 'none',
