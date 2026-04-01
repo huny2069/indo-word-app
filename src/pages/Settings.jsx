@@ -127,7 +127,6 @@ const Settings = () => {
     window.addEventListener('storage', handleStorageChange);
 
     return () => {
-        clearInterval(timer);
         window.removeEventListener('storage', handleStorageChange);
     };
   }, []);
