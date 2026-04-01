@@ -85,17 +85,20 @@ async function playGoogleCloudTTS(text, isKorean) {
   if (!accessToken) throw new Error("Google Cloud 액세스 토큰이 없습니다. 구글 로그인을 먼저 진행해주세요.");
 
   const langCode = isKorean ? 'ko-KR' : 'id-ID';
-  const savedModel = localStorage.getItem('google_tts_model');
+  
+  // [수정] 언어별 전용 모델 우선 참조
+  const modelKey = isKorean ? 'google_tts_model_ko' : 'google_tts_model_id';
+  const savedModel = localStorage.getItem(modelKey) || localStorage.getItem('google_tts_model');
   
   let effectiveModel = '';
   if (savedModel && savedModel.startsWith(langCode.substring(0,2))) {
       effectiveModel = savedModel;
   } else {
-      // 보이스 리스트 기반 최적 모델 자동 선택 (Wavenet이 Chirp보다 호환성이 높음)
+      // 폴백: 보이스 리스트 기반 최적 모델 자동 선택
       effectiveModel = isKorean ? 'ko-KR-Neural2-A' : 'id-ID-Wavenet-A';
   }
 
-  // v1beta1 엔드포인트 사용 (버전1 방식 복구)
+  // v1beta1 엔드포인트 사용
   const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
   
   try {
