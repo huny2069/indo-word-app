@@ -240,13 +240,21 @@ export const translations = {
     // Settings Additional
     set_engine_title: '음성 엔진 선택',
     set_google_premium: '(프리미엄)',
-    set_google_login: '(로그인 연동)',
+    set_google_login: '구글 로그인',
     set_google_model_high: '고품질 프리미엄',
     set_google_model_std: '일반 표준형',
     set_api_tokens: '누적 토큰',
     set_api_cost: '예상 요금',
     set_api_cost_unit: '원',
     set_backup_tip: '팁: 내보낸 CSV 파일은 엑셀이나 구글 시트에서 열어 직접 수정할 수도 있습니다.',
+    set_btn_save: '설정 저장하기',
+    set_google_update: '리스트 갱신',
+    set_google_update_needed: '리스트 갱신 필요',
+    set_diagnosa: '🛠️ 자가 진단',
+    set_reset_btn: '로그인 정보 초기화',
+    set_json_import_title: '🍌 JSON 데이터 가져오기',
+    set_json_confirm: '확인',
+    set_json_cancel: '취소',
   },
   id: {
     // Navigation
@@ -498,13 +506,17 @@ export const translations = {
 
     // Settings Additional
     set_engine_title: 'Pilih Mesin Suara',
-    set_google_premium: '(Premium)',
-    set_google_login: '(Login API)',
-    set_google_model_high: 'Kualitas Tinggi (Premium)',
-    set_google_model_std: 'Standar',
-    set_api_tokens: 'Akumulasi Token',
-    set_api_cost: 'Estimasi Biaya',
-    set_api_cost_unit: '$',
+    set_backup_export: '📁 Ekspor ke CSV',
+    set_backup_import: '📅 Impor dari CSV',
     set_backup_tip: 'Tip: File CSV yang diekspor dapat dibuka dan diedit langsung di Excel atau Google Sheets.',
+    set_btn_save: 'Simpan Pengaturan',
+    set_google_login: 'Login Google',
+    set_google_update: 'Perbarui Daftar',
+    set_google_update_needed: 'Klik Perbarui Daftar',
+    set_diagnosa: '🛠️ Diagnosis',
+    set_reset_btn: 'Reset Info Login',
+    set_json_import_title: '🍌 Impor JSON',
+    set_json_confirm: 'Konfirmasi',
+    set_json_cancel: 'Batal',
   }
 };

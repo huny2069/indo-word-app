@@ -429,7 +429,7 @@ const Settings = () => {
                         <span style={{ fontWeight: 'bold' }}>{isIndoMode ? "Pilih Model Suara" : "음성 모델 선택"}</span>
                         <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices}
                             style={{ background: '#4285f4', color: '#fff', border: 'none', padding: '0.5rem 1rem', borderRadius: '8px', fontSize: '0.85rem' }}>
-                            {loadingVoices ? "..." : (isIndoMode ? "Update" : "리스트 갱신")}
+                            {loadingVoices ? "..." : t('set_google_update')}
                         </button>
                     </div>
 
@@ -440,7 +440,7 @@ const Settings = () => {
                                 style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd' }}>
                                 {idVoices.length > 0 ? idVoices.map(v => (
                                     <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>
-                                )) : <option value="">{isIndoMode ? "Klik Update" : "리스트 갱신 필요"}</option>}
+                                )) : <option value="">{t('set_google_update_needed')}</option>}
                             </select>
                             <button onClick={() => handleTestTts(googleTtsModelId)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px' }}>🔉</button>
                         </div>
@@ -453,7 +453,7 @@ const Settings = () => {
                                 style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd' }}>
                                 {krVoices.length > 0 ? krVoices.map(v => (
                                     <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>
-                                )) : <option value="">{isIndoMode ? "Klik Update" : "리스트 갱신 필요"}</option>}
+                                )) : <option value="">{t('set_google_update_needed')}</option>}
                             </select>
                             <button onClick={() => handleTestTts(googleTtsModelKo)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px' }}>🔉</button>
                         </div>
@@ -467,7 +467,7 @@ const Settings = () => {
         <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
             <span style={{ fontSize: '1.5rem' }}>🤖</span> {t('set_api_title')}
         </h3>
-        <input type="password" value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder="Gemini API Key" 
+        <input type="password" value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder={t('set_ai_placeholder')} 
             style={{ width: '100%', padding: '1rem', border: '1px solid #eee', borderRadius: '12px', marginBottom: '1rem' }} />
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
             <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
@@ -477,47 +477,47 @@ const Settings = () => {
             <button onClick={handleFetchModels} disabled={loadingModels} style={{ marginLeft: '1rem', padding: '1rem' }}>🔄</button>
         </div>
         <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.1rem', background: '#1a1a1a', color: '#fff', border: 'none', borderRadius: '14px', fontWeight: '800' }}>
-            {t('set_save_btn') || "저장"}
+            {t('set_btn_save')}
         </button>
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
         <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
-            <h3>📁 Backup/Import</h3>
-            <button onClick={handleExportCSV} style={{ width: '100%', padding: '1rem', background: '#f0fdf4', borderRadius: '12px', marginBottom: '1rem' }}>CSV Export</button>
-            <button onClick={() => document.getElementById('csvImport').click()} style={{ width: '100%', padding: '1rem', background: '#f8fafc', borderRadius: '12px', marginBottom: '1rem' }}>CSV Import</button>
+            <h3>📁 {t('set_backup_title')}</h3>
+            <button onClick={handleExportCSV} style={{ width: '100%', padding: '1rem', background: '#f0fdf4', borderRadius: '12px', marginBottom: '1rem' }}>{t('set_backup_export')}</button>
+            <button onClick={() => document.getElementById('csvImport').click()} style={{ width: '100%', padding: '1rem', background: '#f8fafc', borderRadius: '12px', marginBottom: '1rem' }}>{t('set_backup_import')}</button>
             <input type="file" id="csvImport" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
-            <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1rem', background: '#fffbeb', borderRadius: '12px' }}>JSON Paste</button>
+            <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1rem', background: '#fffbeb', borderRadius: '12px' }}>{t('set_json_paste')}</button>
         </div>
 
         <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)', border: '2px solid #e8f0fe' }}>
-            <h3>☁️ Google Drive</h3>
+            <h3>☁️ {t('set_cloud_title')}</h3>
             {gcpAccessToken ? (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
                     <div style={{ fontSize: '0.85rem', color: '#4285f4' }}>{userEmail}</div>
-                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', borderRadius: '12px' }}>Backup</button>
-                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#34a853', color: '#fff', borderRadius: '12px' }}>Restore</button>
+                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', borderRadius: '12px' }}>{t('set_cloud_backup_btn')}</button>
+                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#34a853', color: '#fff', borderRadius: '12px' }}>{t('set_cloud_restore_btn')}</button>
                 </div>
             ) : (
-                <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', borderRadius: '14px' }}>Login Google</button>
+                <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', borderRadius: '14px' }}>{t('set_cloud_login')}</button>
             )}
         </div>
       </div>
 
       <div className="settings-card" style={{ background: '#fff5f5', padding: '1.5rem', borderRadius: '20px', border: '1px solid #feb2b2' }}>
-        <h4 style={{ color: '#c53030' }}>🛠️ Diagnosa</h4>
+        <h4 style={{ color: '#c53030' }}>{t('set_diagnosa')}</h4>
         <button onClick={() => { localStorage.removeItem('gcp_access_token'); window.location.reload(); }}
-            style={{ width: '100%', padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px' }}>초기화</button>
+            style={{ width: '100%', padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px' }}>{t('set_reset_btn')}</button>
       </div>
 
       {isJsonModalOpen && (
         <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 2000 }}>
           <div style={{ background: '#fff', padding: '2rem', borderRadius: '25px', width: '90%', maxWidth: '600px' }}>
-            <h3>🍌 JSON Import</h3>
+            <h3>{t('set_json_import_title')}</h3>
             <textarea value={jsonInput} onChange={e => setJsonInput(e.target.value)} style={{ width: '100%', height: '300px', borderRadius: '12px' }} />
             <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-              <button onClick={handleJsonImport} disabled={isJsonImporting} style={{ flex: 1, padding: '1rem', background: '#ff9f43', color: '#fff', borderRadius: '12px' }}>Confirm</button>
-              <button onClick={() => setIsJsonModalOpen(false)} style={{ padding: '0 1rem', borderRadius: '12px' }}>Cancel</button>
+              <button onClick={handleJsonImport} disabled={isJsonImporting} style={{ flex: 1, padding: '1rem', background: '#ff9f43', color: '#fff', borderRadius: '12px' }}>{t('set_json_confirm')}</button>
+              <button onClick={() => setIsJsonModalOpen(false)} style={{ padding: '0 1rem', borderRadius: '12px' }}>{t('set_json_cancel')}</button>
             </div>
           </div>
         </div>
