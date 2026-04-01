@@ -10,3 +10,10 @@ package-lock.json
 client_secret_*.json
 *.bat
 *.csv
+
+# Security: Ignore all Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
