@@ -140,7 +140,13 @@ const Settings = () => {
         await audio.play();
       }
     } catch (err) {
-      alert(`❌ 테스트 실패: ${err.message}`);
+      if (err.message.includes('billing')) {
+          const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`; // 메시지에서 추출된 프로젝트 ID 사용
+          alert(`❌ [GCP 결제 계정 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정(카드 등록)이 연동되어 있어야 합니다.\n\n해결 방법:\n1. 아래 링크로 이동하여 결제를 활성화하세요.\n2. 활성화 후 3~5분 뒤에 다시 시도해 주세요.\n\n링크: ${billingUrl}`);
+          window.open(billingUrl, '_blank');
+      } else {
+          alert(`❌ 테스트 실패: ${err.message}`);
+      }
     }
   };
 
