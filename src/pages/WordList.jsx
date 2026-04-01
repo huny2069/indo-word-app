@@ -273,58 +273,64 @@ const WordList = () => {
   const handleExportPDF = async () => {
     if (selectedIds.size === 0) return;
     
-    // 로딩 표시용 알림 (선택 사항)
     const selectedWordsList = words.filter(w => selectedIds.has(w.id));
     
-    // 임시 컨테이너 생성 및 스타일 적용
     const element = document.createElement('div');
-    element.style.padding = '40px';
+    element.style.padding = '30px';
     element.style.background = '#fff';
-    element.style.width = '700px'; 
+    element.style.width = '760px'; // A4 최적화 너비
     element.style.position = 'fixed';
     element.style.top = '0';
     element.style.left = '-2000px';
     element.style.zIndex = '-999';
-    // 시스템 폰트 사용 (한국어 지원 보장)
     element.style.fontFamily = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
 
-    // 헤더 디자인
     const header = `
-      <div style="text-align: center; margin-bottom: 30px; border-bottom: 3px solid #feca57; padding-bottom: 20px;">
-        <h1 style="color: #ff9f43; margin: 0 0 10px 0; font-size: 28px;">${t('list_pdf_title')}</h1>
-        <p style="color: #888; margin: 0; font-weight: bold; font-size: 14px;">
+      <div style="text-align: center; margin-bottom: 20px; border-bottom: 2px solid #feca57; padding-bottom: 10px;">
+        <h1 style="color: #ff9f43; margin: 0 0 5px 0; font-size: 22px;">${t('list_pdf_title')}</h1>
+        <p style="color: #888; margin: 0; font-weight: bold; font-size: 13px;">
            ${new Date().toLocaleDateString()} | 총 ${selectedWordsList.length}개의 단어
         </p>
       </div>
     `;
 
     const cardsHtml = selectedWordsList.map(w => `
-      <div style="border: 1px solid #eee; border-radius: 16px; padding: 20px; margin-bottom: 20px; page-break-inside: avoid; background: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.02); border-left: 6px solid var(--primary-color);">
-        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-          <div>
-            <div style="font-size: 1.4rem; font-weight: 900; color: #1976d2; margin-bottom: 4px;">${w.word}</div>
-            <div style="font-size: 1.1rem; color: #333; font-weight: 600;">${w.meaning}</div>
+      <div style="border: 1px solid #eee; border-top: 3px solid var(--primary-color); border-radius: 10px; padding: 12px; margin-bottom: 12px; page-break-inside: avoid; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.02);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; border-bottom: 1px solid #f9f9f9; padding-bottom: 5px;">
+          <div style="display: flex; align-items: flex-end; gap: 8px;">
+            <div style="font-size: 1.2rem; font-weight: 900; color: #1976d2;">${w.word}</div>
+            <div style="font-size: 1rem; color: #333; font-weight: 600; margin-bottom: 1px;">: ${w.meaning}</div>
           </div>
-          <div style="background: #f0f0f0; padding: 4px 10px; border-radius: 8px; font-size: 0.8rem; color: #666; font-weight: bold; border: 1px solid #ddd;">
-            ${w.pos || '명사'}
+          <div style="background: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; color: #666; font-weight: bold; border: 1px solid #ddd;">
+            ${(w.pos || '명사')}
           </div>
         </div>
         
-        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 0.9rem;">
-          ${w.root ? `<div style="color: #444; font-size: 0.85rem;">• <b>어근:</b> <span style="color: #666;">${w.root}</span></div>` : ''}
-          ${w.example_formal ? `
-            <div style="background: #f1f3f5; padding: 12px; border-radius: 10px;">
-              <div style="font-weight: bold; color: #2e7d32; margin-bottom: 4px; font-size: 0.85rem;">🌟 격식체:</div>
-              <div style="color: #111; margin-bottom: 2px;">${w.example_formal}</div>
-              <div style="color: #666; font-size: 0.8rem;">${w.example_formal_kr}</div>
-            </div>` : ''}
-          ${w.example_casual ? `
-            <div style="background: #fff9db; padding: 12px; border-radius: 10px;">
-              <div style="font-weight: bold; color: #e67e22; margin-bottom: 4px; font-size: 0.85rem;">🗣️ 구어체:</div>
-              <div style="color: #111; margin-bottom: 2px;">${w.example_casual}</div>
-              <div style="color: #666; font-size: 0.8rem;">${w.example_casual_kr}</div>
-            </div>` : ''}
-          ${w.related ? `<div style="color: #1565c0; margin-top: 5px; font-size: 0.85rem;">💡 <b>참고:</b> ${w.related}</div>` : ''}
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; line-height: 1.4;">
+          <div style="display: flex; gap: 15px; color: #666; font-size: 0.8rem; margin-bottom: 2px;">
+            ${w.root ? `<span>🌱 <b>어근:</b> ${w.root}</span>` : ''}
+            ${w.grammar_rule ? `<span>📘 <b>문법:</b> ${w.grammar_rule}</span>` : ''}
+          </div>
+          
+          <div style="display: grid; grid-template-columns: 1fr; gap: 4px;">
+            ${w.context ? `<div style="background: #eefaee; padding: 4px 10px; border-radius: 6px; color: #2e7d32; font-size: 0.82rem;"><b>📌 상황:</b> ${w.context}</div>` : ''}
+            ${w.caution ? `<div style="background: #fff5f5; padding: 4px 10px; border-radius: 6px; color: #c62828; font-size: 0.82rem;"><b>⚠️ 주의:</b> ${w.caution}</div>` : ''}
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 2px;">
+            ${w.example_formal ? `
+              <div style="border-left: 3px solid #2e7d32; padding-left: 10px; background: #fafafa; padding: 6px 10px; border-radius: 0 6px 6px 0;">
+                <div style="font-weight: bold; color: #2e7d32; font-size: 0.85rem;">[격식] ${w.example_formal}</div>
+                <div style="color: #666; font-size: 0.82rem;">${w.example_formal_kr}</div>
+              </div>` : ''}
+            ${w.example_casual ? `
+              <div style="border-left: 3px solid #feca57; padding-left: 10px; background: #fffdf5; padding: 6px 10px; border-radius: 0 6px 6px 0;">
+                <div style="font-weight: bold; color: #e67e22; font-size: 0.85rem;">[구어] ${w.example_casual}</div>
+                <div style="color: #666; font-size: 0.82rem;">${w.example_casual_kr}</div>
+              </div>` : ''}
+          </div>
+          
+          ${w.related ? `<div style="color: #1565c0; font-size: 0.82rem; border-top: 1px dashed #eee; padding-top: 4px; margin-top: 2px;">💡 <b>참고:</b> ${w.related}</div>` : ''}
         </div>
       </div>
     `).join('');
@@ -341,8 +347,8 @@ const WordList = () => {
       const imgData = canvas.toDataURL('image/png');
       const pdf = new jsPDF('p', 'mm', 'a4');
       const imgWidth = 210; 
-      const pageHeight = 295; 
       const imgHeight = (canvas.height * imgWidth) / canvas.width;
+      const pageHeight = 295; 
       
       let heightLeft = imgHeight;
       let position = 0;
@@ -350,7 +356,7 @@ const WordList = () => {
       pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
       heightLeft -= pageHeight;
 
-      while (heightLeft >= 0) {
+      while (heightLeft >= -10) { // 여백 감안하여 약간의 여유 둠
         position = heightLeft - imgHeight;
         pdf.addPage();
         pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
