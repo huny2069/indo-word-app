@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { BookOpen, Sparkles, FolderHeart, CloudLightning, Info, Key, Cloud, CreditCard, ExternalLink, ShieldAlert } from 'lucide-react';
+import { BookOpen, Sparkles, FolderHeart, CloudLightning, Info, Key, Cloud, CreditCard, ExternalLink } from 'lucide-react';
 
 const Guide = () => {
   const { t, isIndoMode } = useLanguage();
@@ -139,22 +139,6 @@ const Guide = () => {
                 <span>{t('guide_tts_step4')}</span>
             </div>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_tts_step5')}</div>
-          </div>
-        </section>
-
-        {/* ⚠️ 보안 주의사항 (Added in v9.1) */}
-        <section style={{ background: '#fff1f0', padding: '2rem', borderRadius: '30px', border: '1px solid #ffa39e', boxShadow: '0 10px 30px rgba(255,163,158,0.1)', gridColumn: '1 / -1' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
-            <div style={{ background: '#fff', padding: '0.6rem', borderRadius: '12px' }}><ShieldAlert size={24} color="#f5222d" /></div>
-            <h3 style={{ margin: 0, fontSize: '1.3rem', fontWeight: '800', color: '#cf1322' }}>⚠️ API 키 보안 관리 주의사항</h3>
-          </div>
-          <div style={{ fontSize: '0.95rem', color: '#444', lineHeight: '1.6' }}>
-            <p style={{ margin: '0 0 1rem 0' }}>API 키는 당신의 <b>개인 자산</b>입니다. 외부로 유출될 경우 예기치 않은 비용이 발생하거나 서비스가 중단될 수 있습니다.</p>
-            <ul style={{ paddingLeft: '1.5rem', margin: 0 }}>
-              <li><b>.env 파일</b>: 절대 GitHub 등 공용 저장소에 올리지 마세요. (이미 .gitignore에 포함되어 있습니다)</li>
-              <li><b>압축 파일 전송 주의</b>: 프로젝트를 압축하여 공유할 때 .env 파일이 포함되지 않았는지 꼭 확인하세요.</li>
-              <li><b>노출 의심 시</b>: 즉시 Google AI Studio 또는 Cloud Console에서 키를 <b>삭제하고 재발급</b>받으세요.</li>
-            </ul>
           </div>
         </section>
       </div>
