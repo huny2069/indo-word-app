@@ -503,6 +503,74 @@ const Settings = () => {
         </div>
       </div>
 
+      {/* Pro Membership Section (Commercialization) */}
+      <div className="settings-card" style={{ 
+        background: 'linear-gradient(135deg, #fff 0%, #fff9e7 100%)', 
+        padding: '2.2rem', 
+        borderRadius: '24px', 
+        boxShadow: '0 15px 40px rgba(254, 202, 87, 0.15)', 
+        border: '2px solid #feca57', 
+        marginBottom: '2rem',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        <div style={{ position: 'absolute', top: '-10px', right: '-10px', fontSize: '6rem', opacity: 0.05 }}>💎</div>
+        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', color: '#ff9f43', fontWeight: '900' }}>
+            <span style={{ fontSize: '1.5rem' }}>👑</span> {t('set_membership_title') || '멤버십 및 플랜'}
+        </h3>
+        
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#fff', padding: '1.5rem', borderRadius: '18px', border: '1px solid #feca57', marginBottom: '1.5rem' }}>
+            <div>
+                <div style={{ fontSize: '0.8rem', color: '#999', fontWeight: 'bold', marginBottom: '4px' }}>CURRENT PLAN</div>
+                <div style={{ fontSize: '1.4rem', fontWeight: '900', color: '#333' }}>Inko <span style={{ color: '#999' }}>Free</span></div>
+            </div>
+            <div style={{ textAlign: 'right' }}>
+                <div style={{ fontSize: '1.2rem', fontWeight: '900', color: '#ff9f43' }}>0원 <small style={{ color: '#999', fontSize: '0.8rem' }}>/ monthly</small></div>
+            </div>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
+            <div style={{ background: 'rgba(255,255,255,0.6)', padding: '1.2rem', borderRadius: '15px', border: '1px solid #eee' }}>
+                <div style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.5rem', color: '#555' }}>Free Plan</div>
+                <ul style={{ margin: 0, padding: '0 0 0 1.2rem', fontSize: '0.8rem', color: '#888', lineHeight: '1.6' }}>
+                    <li>일일 AI 생성 20회 제한</li>
+                    <li>기본 TTS 엔진 제공</li>
+                    <li>광고 포함</li>
+                </ul>
+            </div>
+            <div style={{ background: '#fff', padding: '1.2rem', borderRadius: '15px', border: '2px solid #feca57', boxShadow: '0 8px 20px rgba(254, 202, 87, 0.2)' }}>
+                <div style={{ fontWeight: '900', fontSize: '1rem', marginBottom: '0.5rem', color: '#ff9f43', display: 'flex', justifyContent: 'space-between' }}>
+                    Pro Plan <span style={{ background: '#ff9f43', color: '#fff', fontSize: '0.6rem', padding: '2px 5px', borderRadius: '4px' }}>RECOM</span>
+                </div>
+                <ul style={{ margin: 0, padding: '0 0 0 1.2rem', fontSize: '0.8rem', color: '#333', lineHeight: '1.6', fontWeight: '600' }}>
+                    <li>무제한 AI 단어 생성</li>
+                    <li>Chirp3-HD 프리미엄 음성</li>
+                    <li>광고 제거 및 우선 지원</li>
+                </ul>
+            </div>
+        </div>
+
+        <button style={{ 
+            width: '100%', 
+            padding: '1.2rem', 
+            marginTop: '2rem', 
+            background: 'linear-gradient(90deg, #feca57, #ff9f43)', 
+            color: '#fff', 
+            border: 'none', 
+            borderRadius: '16px', 
+            fontSize: '1.1rem', 
+            fontWeight: '900', 
+            cursor: 'pointer',
+            boxShadow: '0 6px 20px rgba(254, 202, 87, 0.4)',
+            transition: 'transform 0.2s'
+        }}
+        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.02)'}
+        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+        >
+            Inko Pro로 업그레이드 하기
+        </button>
+      </div>
+
       <div className="settings-card" style={{ background: '#fff5f5', padding: '1.5rem', borderRadius: '20px', border: '1px solid #feb2b2' }}>
         <h4 style={{ color: '#c53030' }}>{t('set_diagnosa')}</h4>
         <button onClick={() => { localStorage.removeItem('gcp_access_token'); window.location.reload(); }}

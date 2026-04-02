@@ -1,13 +1,17 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { Home, BookOpen, GraduationCap, Settings as SettingsIcon, Sparkles, AlertCircle, Info, Languages, ChevronDown, BarChart3 } from 'lucide-react';
+import { Home, BookOpen, GraduationCap, Settings as SettingsIcon, Sparkles, AlertCircle, Info, Languages, ChevronDown, BarChart3, LogOut, User } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { useAuth } from '../contexts/AuthContext';
 
 const Layout = () => {
   const location = useLocation();
   const { lang, setLanguage, t } = useLanguage();
+  const { user, logout } = useAuth();
   const [isLangOpen, setIsLangOpen] = useState(false);
+  const [isUserOpen, setIsUserOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const userRef = useRef(null);
 
   // 외부 클릭 시 드롭다운 닫기
   useEffect(() => {
@@ -15,13 +19,16 @@ const Layout = () => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsLangOpen(false);
       }
+      if (userRef.current && !userRef.current.contains(event.target)) {
+        setIsUserOpen(false);
+      }
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const adminEmail = (import.meta.env.VITE_ADMIN_EMAIL || '').toLowerCase().trim();
-  const userEmail = (localStorage.getItem('user_email') || '').toLowerCase().trim();
+  const userEmail = (user?.email || '').toLowerCase().trim();
   const isAdmin = adminEmail && userEmail === adminEmail;
 
   const navItems = [
@@ -45,8 +52,20 @@ const Layout = () => {
   return (
     <div className="app-container">
       <header className="navbar">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem' }}>
-          <h1 className="desktop-only" style={{ fontWeight: '900', letterSpacing: '-1px' }}>Inko</h1>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <h1 className="desktop-only" style={{ fontWeight: '900', letterSpacing: '-1.5px', margin: 0, fontSize: '1.8rem', color: 'var(--primary-color)' }}>Inko</h1>
+            <div style={{ 
+              background: 'linear-gradient(45deg, #feca57, #ff9f43)', 
+              color: '#fff', 
+              fontSize: '0.65rem', 
+              fontWeight: '900', 
+              padding: '2px 6px', 
+              borderRadius: '6px',
+              boxShadow: '0 4px 10px rgba(254, 202, 87, 0.3)',
+              textTransform: 'uppercase'
+            }}>Pro</div>
+          </div>
           
           <div className="lang-selector-container" ref={dropdownRef}>
             <button 
@@ -56,7 +75,6 @@ const Layout = () => {
               aria-expanded={isLangOpen}
             >
               <span style={{ fontSize: '1.3rem' }}>{currentLang.flag}</span>
-              <span className="desktop-only" style={{ fontSize: '0.9rem' }}>{currentLang.name}</span>
               <ChevronDown size={14} style={{ opacity: 0.8, transform: isLangOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.3s' }} />
             </button>
 
@@ -79,17 +97,90 @@ const Layout = () => {
             )}
           </div>
         </div>
+
         <nav className="desktop-only">
           {navItems.map(item => (
             <Link 
               key={item.path} 
               to={item.path}
               className={location.pathname === item.path ? 'active' : ''}
+              style={{ fontWeight: '700', fontSize: '0.95rem' }}
             >
               {item.label}
             </Link>
           ))}
         </nav>
+
+        <div style={{ position: 'relative' }} ref={userRef}>
+          <button 
+            onClick={() => setIsUserOpen(!isUserOpen)}
+            style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '0.6rem', 
+              background: '#f8f9fa', 
+              border: '2px solid #eee', 
+              padding: '4px 10px 4px 6px', 
+              borderRadius: '50px',
+              cursor: 'pointer',
+              transition: 'all 0.2s'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.borderColor = '#feca57'}
+            onMouseOut={(e) => e.currentTarget.style.borderColor = '#eee'}
+          >
+            <img 
+              src={user?.picture || '/assets/img/nana.png'} 
+              alt="Profile" 
+              style={{ width: '32px', height: '32px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #fff' }} 
+            />
+            <span className="desktop-only" style={{ fontWeight: '700', fontSize: '0.85rem', color: '#555' }}>
+              {user?.name?.split(' ')[0]}
+            </span>
+          </button>
+
+          {isUserOpen && (
+            <div style={{
+              position: 'absolute',
+              top: '120%',
+              right: 0,
+              background: '#fff',
+              minWidth: '220px',
+              borderRadius: '20px',
+              boxShadow: '0 15px 40px rgba(0,0,0,0.12)',
+              padding: '12px',
+              zIndex: 1000,
+              border: '1px solid #f0f0f0'
+            }}>
+              <div style={{ padding: '10px', textAlign: 'left', marginBottom: '8px', borderBottom: '1px solid #f8f9fa' }}>
+                <div style={{ fontWeight: '900', color: '#333', fontSize: '0.95rem' }}>{user?.name}</div>
+                <div style={{ fontSize: '0.75rem', color: '#999' }}>{user?.email}</div>
+              </div>
+              <button 
+                onClick={logout}
+                style={{
+                  width: '100%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                  padding: '12px',
+                  border: 'none',
+                  background: '#fff5f5',
+                  color: '#ff4d4d',
+                  borderRadius: '12px',
+                  cursor: 'pointer',
+                  fontWeight: '800',
+                  fontSize: '0.9rem',
+                  transition: 'background 0.2s'
+                }}
+                onMouseOver={(e) => e.currentTarget.style.background = '#ffe5e5'}
+                onMouseOut={(e) => e.currentTarget.style.background = '#fff5f5'}
+              >
+                <LogOut size={18} />
+                {t('logout') || '로그아웃'}
+              </button>
+            </div>
+          )}
+        </div>
       </header>
 
       <main className="content">

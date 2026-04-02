@@ -175,6 +175,18 @@ const WordGenerate = () => {
 
       {genMode === 'ai' ? (
         <div style={{ background: '#fff', padding: '1.8rem', borderRadius: '20px', boxShadow: '0 8px 16px rgba(0,0,0,0.05)', border: '2px solid #feca57' }}>
+            {/* Usage Limit Mockup (Commercialization) */}
+            <div style={{ background: '#fff9e7', padding: '1rem', borderRadius: '15px', marginBottom: '1.5rem', border: '1px dashed #feca57' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem' }}>
+                    <span style={{ fontSize: '0.85rem', fontWeight: 'bold', color: '#c2410c' }}>🔥 일일 AI 생성 한도 (무료 플랜)</span>
+                    <span style={{ fontSize: '0.85rem', fontWeight: '900', color: '#c2410c' }}>12 / 20</span>
+                </div>
+                <div style={{ width: '100%', height: '8px', background: '#fff', borderRadius: '4px', overflow: 'hidden' }}>
+                    <div style={{ width: '60%', height: '100%', background: '#feca57' }}></div>
+                </div>
+                <p style={{ margin: '0.6rem 0 0 0', fontSize: '0.75rem', color: '#999' }}>Tip: Pro 플랜으로 업그레이드하고 무제한으로 생성하세요! 🚀</p>
+            </div>
+
             <p style={{ color: '#666', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ fontSize: '1.5rem' }}>🤖</span> {t('gen_ai_desc')}
             </p>

@@ -108,17 +108,34 @@ const Dashboard = () => {
           <div style={{ position: 'absolute', right: '-15px', bottom: '-15px', fontSize: '7rem', opacity: 0.2 }}>🍌</div>
         </div>
 
-        {/* Total Words Card */}
-        <div style={{ padding: '2rem', background: '#fff', borderRadius: '30px', border: '3px solid #f1f3f5', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', textAlign: 'left', boxShadow: '0 8px 0 #f1f3f5' }}>
-          <h3 style={{margin: 0, color: '#666', fontWeight: 'bold'}}>{t('dash_wordbook_size')}</h3>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', marginTop: '0.8rem' }}>
-            <span style={{ fontSize: '3.5rem', fontWeight: '900', color: 'var(--nana-dark)' }}>{stats.total}</span>
-            <span style={{ fontSize: '1.2rem', color: '#888', fontWeight: 'bold' }}>{t('dash_word_unit')}</span>
+        {/* Pro Membership Card (Commecialization) */}
+        <div style={{ 
+          padding: '2rem', 
+          background: '#fff', 
+          borderRadius: '30px', 
+          border: '3px solid #ff9f43', 
+          display: 'flex', 
+          flexDirection: 'column', 
+          justifyContent: 'center', 
+          textAlign: 'left', 
+          boxShadow: '0 8px 0 #fff7ed',
+          position: 'relative',
+          cursor: 'pointer'
+        }}
+        onClick={() => navigate('/settings')}
+        onMouseOver={e => e.currentTarget.style.transform = 'translateY(-4px)'}
+        onMouseOut={e => e.currentTarget.style.transform = 'none'}
+        >
+          <div style={{ position: 'absolute', top: '15px', right: '15px', background: '#ff9f43', color: '#fff', fontSize: '0.7rem', fontWeight: '900', padding: '3px 8px', borderRadius: '50px' }}>SPECIAL OFFER</div>
+          <h3 style={{margin: '0 0 0.5rem 0', color: '#ff9f43', fontWeight: '900', fontSize: '1.2rem'}}>Inko Pro ✨</h3>
+          <p style={{ margin: 0, fontSize: '0.85rem', color: '#666', lineHeight: '1.4' }}>
+            • 광고 제거 및 무제한 단어 생성<br/>
+            • Chirp3-HD 프리미엄 음성 지원<br/>
+            • 모든 기기 실시간 동기화
+          </p>
+          <div style={{ marginTop: '1rem', color: '#ff9f43', fontWeight: 'bold', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '5px' }}>
+            자세히 알아보기 <span style={{ fontSize: '1.2rem' }}>→</span>
           </div>
-          <div style={{ width: '100%', height: '12px', background: '#f1f3f5', borderRadius: '6px', overflow: 'hidden', marginTop: '1.2rem' }}>
-             <div style={{ width: `${stats.total > 0 ? (stats.memorized / stats.total) * 100 : 0}%`, background: 'linear-gradient(90deg, #feca57, #1dd1a1)', height: '100%', transition: 'width 1s cubic-bezier(0.34, 1.56, 0.64, 1)' }}></div>
-          </div>
-          <p style={{ margin: '0.6rem 0 0 0', fontSize: '0.85rem', color: '#f39c12', textAlign: 'right', fontWeight: 'bold' }}>{t('dash_master_prob')}: {stats.total > 0 ? Math.round((stats.memorized / stats.total) * 100) : 0}%</p>
         </div>
 
       </div>

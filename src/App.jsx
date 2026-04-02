@@ -2,6 +2,9 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import { logAccess } from './api/supabase';
+import { useAuth } from './contexts/AuthContext';
+import Login from './pages/Login';
+import Onboarding from './pages/Onboarding';
 
 import Dashboard from './pages/Dashboard';
 import WordGenerate from './pages/WordGenerate';
@@ -13,6 +16,8 @@ import Guide from './pages/Guide';
 import AdminStats from './pages/AdminStats';
 
 function App() {
+  const { user, isOnboarded, loading } = useAuth();
+
   useEffect(() => {
     // 1. 기기 식별 및 로그 전송
     let deviceId = localStorage.getItem('user_device_id');
@@ -57,6 +62,11 @@ function App() {
 
     return () => clearInterval(checkInterval);
   }, []);
+
+  if (loading) return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#fffcf0' }}>Loading...</div>;
+
+  if (!user) return <Login />;
+  if (!isOnboarded) return <Onboarding />;
 
   return (
     <BrowserRouter>
