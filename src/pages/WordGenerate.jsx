@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { addWord, getWords } from '../db/database';
 import { generateWords } from '../api/geminiApi';
 import { playAudio } from '../api/ttsApi';
+import { fetchSharedWords, saveSharedWords } from '../api/supabase';
 import { Volume2, Sparkles } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -57,53 +58,72 @@ const WordGenerate = () => {
     }
 
     setLoading(true);
-    setGeneratedWords([]); // 리셋
+    setGeneratedWords([]);
     
     try {
       const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
       
-      let allWords = await getWords();
-      let existingWordStrings = allWords.map(w => w.word.toLowerCase());
+      // 1. 로컬 단어장 불러오기 (중복 방지용)
+      let localWords = await getWords();
+      let existingWordStrings = localWords.map(w => w.word.toLowerCase());
       
       let finalAddedWords = [];
-      let currentTry = 0;
-      const maxTries = 3; // 무한 루프 방지용 (최대 3회 시도)
 
-      while (finalAddedWords.length < count && currentTry < maxTries) {
-        currentTry++;
-        const remaining = count - finalAddedWords.length;
+      // 2. [V12.0] 공유 캐시(Supabase) 조회 시도
+      try {
+        const sharedWords = await fetchSharedWords(topic.trim(), isIndoMode);
+        // 이미 내 단어장에 있는 것은 제외
+        const uniqueShared = sharedWords.filter(sw => !existingWordStrings.includes(sw.word.toLowerCase()));
         
-        // 현재 DB에 있는 단어 + 이번 실행에서 추가된 단어들까지 제외 목록으로 전달
-        const excludeList = [...existingWordStrings, ...finalAddedWords.map(w => w.word.toLowerCase())];
+        // 필요한 개수만큼만 캐시에서 채움
+        const fromCache = uniqueShared.slice(0, count);
+        for (const w of fromCache) {
+          const { id, created_at, ...cleanWord } = w; // ID 등 Supabase 필드 제거
+          const newId = await addWord(cleanWord);
+          finalAddedWords.push({ ...cleanWord, id: newId });
+        }
         
-        try {
-            // API 요청 (남은 개수만큼 요청) - isIndoMode 전달
-            const result = await generateWords(topic, remaining, apiKey, savedModel, excludeList, isIndoMode);
-            
-            // 중복 필터링 (DB 기준 및 현재 생성된 리스트 기준)
-            const newResults = result.filter(w => {
-                const isDuplicateInDB = existingWordStrings.includes(w.word.toLowerCase());
-                const isDuplicateInCurrentBatch = finalAddedWords.some(fw => fw.word.toLowerCase() === w.word.toLowerCase());
-                return !isDuplicateInDB && !isDuplicateInCurrentBatch;
-            });
+        console.log(`Shared Cache found: ${fromCache.length} words from Supabase`);
+      } catch (cacheErr) {
+        console.warn("Shared Cache Fetch failed, proceeding with full AI generation.", cacheErr);
+      }
 
-            // 새로운 단어 DB 저장 및 결과 리스트 추가
-            for (const w of newResults) {
-                w.topic = topic; // 생성 시 입력한 주제를 객체에 저장
-                const id = await addWord(w);
-                finalAddedWords.push({ ...w, id });
-                if (finalAddedWords.length >= count) break; // 목표 개수 달성 시 중단
-            }
+      // 3. 모자란 개수만큼 AI(Gemini) 생성
+      const remainingCount = count - finalAddedWords.length;
+      
+      if (remainingCount > 0) {
+        let currentTry = 0;
+        const maxTries = 3;
 
-            if (newResults.length === 0) break; // 더 이상 새로운 단어가 생성되지 않으면 중단
-        } catch (apiError) {
-            console.error(`Generation attempt ${currentTry} failed:`, apiError);
-            if (currentTry >= maxTries) {
-                throw new Error(`${t('msg_ai_gen_fail')}: ${apiError.message}`);
-            }
-            // 에러 발생 시 잠시 대기 후 재시도
-            await new Promise(res => setTimeout(res, 1000));
-            continue;
+        while (finalAddedWords.length < count && currentTry < maxTries) {
+          currentTry++;
+          const currentRemaining = count - finalAddedWords.length;
+          const excludeList = [...existingWordStrings, ...finalAddedWords.map(w => w.word.toLowerCase())];
+          
+          try {
+              const result = await generateWords(topic, currentRemaining, apiKey, savedModel, excludeList, isIndoMode);
+              const newAiResults = result.filter(w => {
+                  const isDuplicateInLocal = existingWordStrings.includes(w.word.toLowerCase());
+                  const isDuplicateInBatch = finalAddedWords.some(fw => fw.word.toLowerCase() === w.word.toLowerCase());
+                  return !isDuplicateInLocal && !isDuplicateInBatch;
+              });
+
+              for (const w of newAiResults) {
+                  w.topic = topic;
+                  const id = await addWord(w);
+                  const wordWithId = { ...w, id };
+                  finalAddedWords.push(wordWithId);
+                  
+                  // [V12.0] 새로 생성된 건강한 단어는 Supabase에도 공유
+                  saveSharedWords([{ ...w, is_indo_mode: isIndoMode }]);
+                  
+                  if (finalAddedWords.length >= count) break;
+              }
+              if (newAiResults.length === 0) break;
+          } catch (apiError) {
+              if (currentTry >= maxTries) throw apiError;
+              await new Promise(res => setTimeout(res, 1000));
+          }
         }
       }
       

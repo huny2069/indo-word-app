@@ -14,30 +14,43 @@ export const supabase = (supabaseUrl && supabaseAnonKey)
  */
 const getClientIp = async () => {
   try {
-    // 1. 메인 엔진: ipify (IPv4) - 타임아웃 3초 설정
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 3000);
     
+    // 1. 메인 엔진: ipify (IPv4/IPv6 공용)
     try {
-      const res = await fetch('https://api.ipify.org?format=json', { signal: controller.signal });
-      clearTimeout(timeoutId);
+      const res = await fetch('https://api64.ipify.org?format=json', { signal: controller.signal });
       const data = await res.json();
-      // 비정상적인 IP (0.0.0.0 등) 필터링
-      if (data.ip && !data.ip.startsWith('0.0.0.0') && data.ip !== '127.0.0.1') {
+      if (data.ip && !data.ip.startsWith('0.0.0.0')) {
+        clearTimeout(timeoutId);
         return data.ip;
       }
-    } catch (e) {
-      // 메인 실패 시 조용히 백업으로 넘어감
-    }
+    } catch (e) { /* ignore */ }
 
-    // 2. 백업 엔진: Cloudflare trace (더 안정적임)
-    const cfRes = await fetch('https://1.1.1.1/cdn-cgi/trace');
-    if (cfRes.ok) {
-      const text = await cfRes.text();
-      const ipLine = text.split('\n').find(line => line.startsWith('ip='));
-      if (ipLine) return ipLine.split('=')[1];
-    }
+    // 2. 백업 엔진 1: Cloudflare trace (도메인 기반이 더 안정적임)
+    try {
+      const cfRes = await fetch('https://www.cloudflare.com/cdn-cgi/trace', { signal: controller.signal });
+      if (cfRes.ok) {
+        const text = await cfRes.text();
+        const ipLine = text.split('\n').find(line => line.startsWith('ip='));
+        if (ipLine) {
+          clearTimeout(timeoutId);
+          return ipLine.split('=')[1];
+        }
+      }
+    } catch (e) { /* ignore */ }
 
+    // 3. 백업 엔진 2: jsonip.com
+    try {
+      const res = await fetch('https://jsonip.com', { signal: controller.signal });
+      const data = await res.json();
+      if (data.ip) {
+        clearTimeout(timeoutId);
+        return data.ip;
+      }
+    } catch (e) { /* ignore */ }
+
+    clearTimeout(timeoutId);
     return 'unknown';
   } catch (err) {
     return 'unknown';
@@ -89,5 +102,47 @@ export const logAccess = async (userId) => {
     if (error) console.error('Supabase Access Log Error:', error);
   } catch (err) {
     console.error('Supabase Access Log Exception:', err);
+  }
+};
+
+/**
+ * [공유 단어 데이터베이스 조회]
+ * @param {string} topic 검색 주제
+ * @param {boolean} isIndoMode 한국인 모드(false) / 인니인 모드(true)
+ */
+export const fetchSharedWords = async (topic, isIndoMode) => {
+  if (!supabase) return [];
+  try {
+    const { data, error } = await supabase
+      .from('shared_words')
+      .select('*')
+      .eq('topic', topic)
+      .eq('is_indo_mode', isIndoMode);
+    
+    if (error) {
+      console.error('Supabase Shared Words Fetch Error:', error);
+      return [];
+    }
+    return data || [];
+  } catch (err) {
+    console.error('Supabase Shared Words Fetch Exception:', err);
+    return [];
+  }
+};
+
+/**
+ * [공유 단어 데이터베이스에 저장]
+ * @param {Array} words 저장할 단어 배열
+ */
+export const saveSharedWords = async (words) => {
+  if (!supabase || !words || words.length === 0) return;
+  try {
+    const { error } = await supabase
+      .from('shared_words')
+      .upsert(words, { onConflict: 'word, is_indo_mode' });
+    
+    if (error) console.error('Supabase Shared Words Save Error:', error);
+  } catch (err) {
+    console.error('Supabase Shared Words Save Exception:', err);
   }
 };
