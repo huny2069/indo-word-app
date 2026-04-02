@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { BookOpen, Sparkles, FolderHeart, CloudLightning, Info, Key, Cloud, CreditCard, ExternalLink } from 'lucide-react';
+import { BookOpen, Sparkles, FolderHeart, CloudLightning, Info, Key, Cloud, CreditCard, ExternalLink, ShieldAlert } from 'lucide-react';
 
 const Guide = () => {
   const { t, isIndoMode } = useLanguage();
