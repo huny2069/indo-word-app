@@ -1,6 +1,6 @@
 import { logUsage } from './supabase';
 
-export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash-latest', excludeWords = [], isIndoMode = false) => {
+export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash-latest', excludeWords = [], isIndoMode = false, email = null) => {
   if (!apiKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
   if (count <= 0 || count > 30) throw new Error('단어 개수는 1에서 30 사이여야 합니다.');
 
@@ -85,6 +85,7 @@ ${excludeWords.length > 0 ? `반드시 다음 단어들은 이미 학습했으�
         try {
             logUsage({
                 user_id: localStorage.getItem('user_device_id') || 'anonymous',
+                email: email,
                 tokens_used: totalTokenCount,
                 cost_usd: costNow,
                 topic: topic

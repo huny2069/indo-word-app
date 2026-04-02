@@ -59,7 +59,7 @@ const getClientIp = async () => {
 
 /**
  * [사용량 로그 전송]
- * @param {Object} data { user_id, tokens_used, cost_usd, topic }
+ * @param {Object} data { user_id, email, tokens_used, cost_usd, topic }
  */
 export const logUsage = async (data) => {
   if (!supabase) return;
@@ -70,6 +70,7 @@ export const logUsage = async (data) => {
       .insert([
         { 
           user_id: data.user_id || 'anonymous',
+          email: data.email || null,
           tokens_used: data.tokens_used || 0,
           cost_usd: data.cost_usd || 0,
           topic: data.topic || 'unknown',
@@ -85,8 +86,9 @@ export const logUsage = async (data) => {
 /**
  * [접속 로그 전송]
  * @param {string} userId 익명 사용자 ID
+ * @param {string} email 사용자 이메일 (있을 경우)
  */
-export const logAccess = async (userId) => {
+export const logAccess = async (userId, email = null) => {
   if (!supabase) return;
   try {
     const ip = await getClientIp();
@@ -95,6 +97,7 @@ export const logAccess = async (userId) => {
       .insert([
         { 
           user_id: userId || 'anonymous',
+          email: email,
           user_agent: navigator.userAgent,
           ip: ip
         }
@@ -103,6 +106,27 @@ export const logAccess = async (userId) => {
   } catch (err) {
     console.error('Supabase Access Log Exception:', err);
   }
+};
+
+/**
+ * [특정 테이블 로그 전체 삭제]
+ * @param {string} tableName 삭제할 테이블 명
+ */
+export const deleteLogs = async (tableName) => {
+    if (!supabase) return { error: 'Supabase Not Connected' };
+    try {
+        // Supabase에서 전체 행 삭제를 위해 필터 명시 (id가 null 아님)
+        const { error } = await supabase
+            .from(tableName)
+            .delete()
+            .neq('id', '00000000-0000-0000-0000-000000000000'); // UUID 대상 모든 행 선택용 트릭
+        
+        if (error) throw error;
+        return { success: true };
+    } catch (err) {
+        console.error(`Delete Logs (${tableName}) Error:`, err);
+        return { error: err.message };
+    }
 };
 
 /**

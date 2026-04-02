@@ -25,7 +25,7 @@ function App() {
       deviceId = 'user_' + Math.random().toString(36).substring(2, 15) + Date.now().toString(36);
       localStorage.setItem('user_device_id', deviceId);
     }
-    logAccess(deviceId);
+    logAccess(deviceId, user?.email);
 
     // 2. [v7.8] 전역 구글 세션 관리 (Silent Refresh)
     const handleSilentRefresh = () => {

@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { addWord, getWords } from '../db/database';
 import { generateWords } from '../api/geminiApi';
 import { playAudio } from '../api/ttsApi';
-import { fetchSharedWords, saveSharedWords } from '../api/supabase';
+import { fetchSharedWords, saveSharedWords, logUsage } from '../api/supabase';
 import { Volume2, Sparkles } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
+import { useAuth } from '../contexts/AuthContext';
 
 const WordGenerate = () => {
   const { isIndoMode, t } = useLanguage();
+  const { user } = useAuth();
   const [topic, setTopic] = useState('');
   const [count, setCount] = useState(10);
   const [loading, setLoading] = useState(false);
@@ -84,6 +86,17 @@ const WordGenerate = () => {
         }
         
         console.log(`Shared Cache found: ${fromCache.length} words from Supabase`);
+
+        // [v13.6] 캐시 데이터 활용 시에도 로그 기록 (토큰/비용은 0)
+        if (fromCache.length > 0) {
+            logUsage({
+                user_id: localStorage.getItem('user_device_id') || 'anonymous',
+                email: user?.email,
+                tokens_used: 0,
+                cost_usd: 0,
+                topic: `[CACHE] ${topic.trim()}`
+            });
+        }
       } catch (cacheErr) {
         console.warn("Shared Cache Fetch failed, proceeding with full AI generation.", cacheErr);
       }
@@ -101,7 +114,7 @@ const WordGenerate = () => {
           const excludeList = [...existingWordStrings, ...finalAddedWords.map(w => w.word.toLowerCase())];
           
           try {
-              const result = await generateWords(topic, currentRemaining, apiKey, savedModel, excludeList, isIndoMode);
+              const result = await generateWords(topic, currentRemaining, apiKey, savedModel, excludeList, isIndoMode, user?.email);
               const newAiResults = result.filter(w => {
                   const isDuplicateInLocal = existingWordStrings.includes(w.word.toLowerCase());
                   const isDuplicateInBatch = finalAddedWords.some(fw => fw.word.toLowerCase() === w.word.toLowerCase());
