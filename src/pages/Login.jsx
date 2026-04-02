@@ -9,17 +9,33 @@ const Login = () => {
 
   useEffect(() => {
     /* global google */
-    if (window.google) {
-      google.accounts.id.initialize({
-        client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
-        callback: handleCallbackResponse
-      });
+    const initGoogle = () => {
+      if (window.google) {
+        google.accounts.id.initialize({
+          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+          callback: handleCallbackResponse
+        });
 
-      google.accounts.id.renderButton(
-        document.getElementById("signInDiv"),
-        { theme: "outline", size: "large", width: "100%", shape: "pill" }
-      );
-    }
+        google.accounts.id.renderButton(
+          document.getElementById("signInDiv"),
+          { theme: "outline", size: "large", width: "100%", shape: "pill" }
+        );
+      }
+    };
+
+    // 스크립트가 이미 로드되었는지 확인, 아니면 500ms마다 체크 (최대 10회)
+    let retryCount = 0;
+    const checkInterval = setInterval(() => {
+      if (window.google) {
+        initGoogle();
+        clearInterval(checkInterval);
+      } else if (retryCount > 10) {
+        clearInterval(checkInterval);
+      }
+      retryCount++;
+    }, 500);
+
+    return () => clearInterval(checkInterval);
   }, []);
 
   const handleCallbackResponse = (response) => {

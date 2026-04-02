@@ -65,23 +65,26 @@ function App() {
 
   if (loading) return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#fffcf0' }}>Loading...</div>;
 
-  if (!user) return <Login />;
-  if (!isOnboarded) return <Onboarding />;
-
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Dashboard />} />
-          <Route path="generate" element={<WordGenerate />} />
-          <Route path="words" element={<WordList />} />
-          <Route path="learn" element={<Learn />} />
-          <Route path="incorrect" element={<IncorrectNotes />} />
-          <Route path="settings" element={<Settings />} />
-          <Route path="guide" element={<Guide />} />
-          <Route path="statistics" element={<AdminStats />} />
-        </Route>
-      </Routes>
+      {!user ? (
+        <Login />
+      ) : !isOnboarded ? (
+        <Onboarding />
+      ) : (
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Dashboard />} />
+            <Route path="generate" element={<WordGenerate />} />
+            <Route path="words" element={<WordList />} />
+            <Route path="learn" element={<Learn />} />
+            <Route path="incorrect" element={<IncorrectNotes />} />
+            <Route path="settings" element={<Settings />} />
+            <Route path="guide" element={<Guide />} />
+            <Route path="statistics" element={<AdminStats />} />
+          </Route>
+        </Routes>
+      )}
     </BrowserRouter>
   )
 }
