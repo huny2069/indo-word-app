@@ -269,109 +269,107 @@ const WordList = () => {
     }
   };
 
-  // --- [v9.5] PDF 고정 배치 및 헤더 최적화 로직 ---
+  // --- [v9.6] PDF 동적 배치 및 잘림 방지 로직 ---
   const handleExportPDF = async () => {
     if (selectedIds.size === 0) return;
     
     const selectedWordsList = words.filter(w => selectedIds.has(w.id));
-    
-    // [v9.5] 페이지당 단어 개수 고정 (Chunking)
-    const chunkSize = 5; 
-    const chunks = [];
-    for (let i = 0; i < selectedWordsList.length; i += chunkSize) {
-      chunks.push(selectedWordsList.slice(i, i + chunkSize));
-    }
-
     const pdf = new jsPDF('p', 'mm', 'a4');
-    const imgWidth = 210; 
+    const pageWidth = 210;
+    const pageHeight = 297;
+    const margin = 10;
+    const imgWidth = pageWidth - (margin * 2);
+    let currentY = margin;
 
-    for (let i = 0; i < chunks.length; i++) {
-        const chunk = chunks[i];
-        if (i > 0) pdf.addPage();
+    console.log("PDF 초정밀 동적 배치 시스템 가동 시작...");
 
-        // 페이지별 임시 래퍼 생성
+    // 1. 첫 페이지 헤더 추가 (매우 슬림하게)
+    const headerElement = document.createElement('div');
+    headerElement.style.padding = '5px 15px';
+    headerElement.style.width = '700px'; 
+    headerElement.style.position = 'fixed';
+    headerElement.style.top = '0';
+    headerElement.style.left = '-2000px';
+    headerElement.style.zIndex = '-999';
+    headerElement.style.background = '#fff';
+    headerElement.style.borderBottom = '1px solid #feca57';
+    headerElement.style.display = 'flex';
+    headerElement.style.justifyContent = 'space-between';
+    headerElement.style.alignItems = 'baseline';
+    headerElement.style.fontFamily = 'Arial, sans-serif';
+
+    headerElement.innerHTML = `
+      <h1 style="color: #ff9f43; margin: 0; font-size: 14px;">${t('list_pdf_title')}</h1>
+      <span style="color: #888; font-weight: bold; font-size: 10px;">
+        ${new Date().toLocaleDateString()} | 총 ${selectedWordsList.length}개
+      </span>
+    `;
+    document.body.appendChild(headerElement);
+
+    const headerCanvas = await html2canvas(headerElement, { scale: 2, useCORS: true });
+    const headerHeightMm = (headerCanvas.height * imgWidth) / headerCanvas.width;
+    pdf.addImage(headerCanvas.toDataURL('image/png'), 'PNG', margin, currentY, imgWidth, headerHeightMm);
+    currentY += headerHeightMm + 5;
+    document.body.removeChild(headerElement);
+
+    // 2. 단어별 순차 캡처 및 배치
+    for (let i = 0; i < selectedWordsList.length; i++) {
+        const w = selectedWordsList[i];
+        
         const element = document.createElement('div');
-        element.style.padding = '10px 25px';
-        element.style.background = '#fff';
-        element.style.width = '750px'; 
+        element.style.padding = '8px 12px';
+        element.style.width = '700px'; 
         element.style.position = 'fixed';
         element.style.top = '0';
         element.style.left = '-2000px';
         element.style.zIndex = '-999';
-        element.style.fontFamily = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
+        element.style.background = '#fff';
+        element.style.border = '1px solid #eee';
+        element.style.borderTop = '3px solid var(--primary-color)';
+        element.style.borderRadius = '5px';
+        element.style.fontFamily = 'Arial, sans-serif';
 
-        // [v9.5] 초박형 헤더 (첫 페이지 상단만 아주 작게)
-        let pageHeader = '';
-        if (i === 0) {
-            pageHeader = `
-              <div style="text-align: center; border-bottom: 2px solid #feca57; margin-bottom: 12px; padding: 4px 0; display: flex; justify-content: space-between; align-items: baseline;">
-                <h1 style="color: #ff9f43; margin: 0; font-size: 16px;">${t('list_pdf_title')}</h1>
-                <span style="color: #888; font-weight: bold; font-size: 11px;">
-                   ${new Date().toLocaleDateString()} | 총 ${selectedWordsList.length}개
-                </span>
-              </div>
-            `;
-        } else {
-            pageHeader = `<div style="height: 10px; border-bottom: 1px dashed #eee; margin-bottom: 10px;"></div>`;
-        }
-
-        const cardsHtml = chunk.map(w => `
-          <div style="border: 1px solid #eee; border-top: 3px solid var(--primary-color); border-radius: 8px; padding: 10px; margin-bottom: 10px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.01);">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; border-bottom: 1px solid #f9f9f9; padding-bottom: 4px;">
-              <div style="display: flex; align-items: baseline; gap: 8px;">
-                <div style="font-size: 1.15rem; font-weight: 900; color: #1976d2;">${w.word}</div>
-                <div style="font-size: 0.95rem; color: #333; font-weight: 600;">: ${w.meaning}</div>
-              </div>
-              <div style="background: #f8f9fa; padding: 1px 6px; border-radius: 4px; font-size: 0.72rem; color: #666; font-weight: bold; border: 1px solid #ddd;">
-                ${(w.pos || '명사')}
-              </div>
+        element.innerHTML = `
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; border-bottom: 1px solid #f9f9f9; padding-bottom: 3px;">
+            <div style="display: flex; align-items: baseline; gap: 6px;">
+              <div style="font-size: 1.05rem; font-weight: 900; color: #1976d2;">${w.word}</div>
+              <div style="font-size: 0.85rem; color: #333; font-weight: 600;">: ${w.meaning}</div>
             </div>
-            
-            <div style="display: flex; flex-direction: column; gap: 4px; font-size: 0.82rem; line-height: 1.3;">
-              <div style="display: flex; gap: 12px; color: #777; font-size: 0.75rem; margin-bottom: 1px;">
-                ${w.root ? `<span>🌱 <b>어근:</b> ${w.root}</span>` : ''}
-                ${w.grammar_rule ? `<span>📘 <b>문법:</b> ${w.grammar_rule}</span>` : ''}
-              </div>
-              
-              <div style="display: grid; grid-template-columns: 1fr; gap: 3px;">
-                ${w.context ? `<div style="background: #eefaee; padding: 3px 8px; border-radius: 5px; color: #2e7d32; font-size: 0.8rem;"><b>📌 상황:</b> ${w.context}</div>` : ''}
-                ${w.caution ? `<div style="background: #fff5f5; padding: 3px 8px; border-radius: 5px; color: #c62828; font-size: 0.8rem;"><b>⚠️ 주의:</b> ${w.caution}</div>` : ''}
-              </div>
-
-              <div style="display: grid; grid-template-columns: 1fr; gap: 4px; margin-top: 2px;">
-                ${w.example_formal ? `
-                  <div style="border-left: 3px solid #2e7d32; padding: 4px 10px; background: #fafafa; border-radius: 0 5px 5px 0;">
-                    <div style="font-weight: bold; color: #2e7d32; font-size: 0.82rem;">[격식] ${w.example_formal}</div>
-                    <div style="color: #666; font-size: 0.78rem;">${w.example_formal_kr}</div>
-                  </div>` : ''}
-                ${w.example_casual ? `
-                  <div style="border-left: 3px solid #feca57; padding: 4px 10px; background: #fffdf5; border-radius: 0 5px 5px 0;">
-                    <div style="font-weight: bold; color: #e67e22; font-size: 0.82rem;">[구어] ${w.example_casual}</div>
-                    <div style="color: #666; font-size: 0.78rem;">${w.example_casual_kr}</div>
-                  </div>` : ''}
-              </div>
-              
-              ${w.related ? `<div style="color: #1565c0; font-size: 0.78rem; border-top: 1px dashed #eee; padding-top: 2px; margin-top: 2px;">💡 <b>참고:</b> ${w.related}</div>` : ''}
+            <div style="background: #f8f9fa; padding: 1px 4px; border-radius: 3px; font-size: 0.65rem; color: #666; font-weight: bold; border: 1px solid #eee;">
+              ${(w.pos || '명사')}
             </div>
           </div>
-        `).join('');
-
-        element.innerHTML = pageHeader + `<div style="display: flex; flex-direction: column;">${cardsHtml}</div>`;
+          <div style="display: flex; flex-direction: column; gap: 3px; font-size: 0.78rem; line-height: 1.25;">
+            <div style="display: flex; gap: 10px; color: #777; font-size: 0.7rem; margin-bottom: 1px;">
+              ${w.root ? `<span>🌱 <b>어근:</b> ${w.root}</span>` : ''}
+              ${w.grammar_rule ? `<span>📘 <b>문법:</b> ${w.grammar_rule}</span>` : ''}
+            </div>
+            ${w.context ? `<div style="background: #eefaee; padding: 2px 6px; border-radius: 4px; color: #2e7d32; font-size: 0.75rem;"><b>📌 상황:</b> ${w.context}</div>` : ''}
+            ${w.caution ? `<div style="background: #fff5f5; padding: 2px 6px; border-radius: 4px; color: #c62828; font-size: 0.75rem;"><b>⚠️ 주의:</b> ${w.caution}</div>` : ''}
+            <div style="display: grid; grid-template-columns: 1fr; gap: 3px; margin-top: 1px;">
+              ${w.example_formal ? `<div style="border-left: 2px solid #2e7d32; padding: 2px 8px; background: #fafafa; border-radius: 0 4px 4px 0;"><div style="font-weight: bold; color: #2e7d32; font-size: 0.78rem;">[격식] ${w.example_formal}</div><div style="color: #666; font-size: 0.75rem;">${w.example_formal_kr}</div></div>` : ''}
+              ${w.example_casual ? `<div style="border-left: 2px solid #feca57; padding: 2px 8px; background: #fffdf5; border-radius: 0 4px 4px 0;"><div style="font-weight: bold; color: #e67e22; font-size: 0.78rem;">[구어] ${w.example_casual}</div><div style="color: #666; font-size: 0.75rem;">${w.example_casual_kr}</div></div>` : ''}
+            </div>
+            ${w.related ? `<div style="color: #1565c0; font-size: 0.75rem; border-top: 1px dashed #eee; padding-top: 2px; margin-top: 1px;">💡 <b>참고:</b> ${w.related}</div>` : ''}
+          </div>
+        `;
         document.body.appendChild(element);
 
-        try {
-            const canvas = await html2canvas(element, { scale: 2, useCORS: true, backgroundColor: '#ffffff' });
-            const imgData = canvas.toDataURL('image/png');
-            const imgHeight = (canvas.height * imgWidth) / canvas.width;
-            pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
-        } catch (err) {
-            console.error("페이지 생성 오류:", i, err);
-        } finally {
-            document.body.removeChild(element);
-        }
-    }
+        const canvas = await html2canvas(element, { scale: 2, useCORS: true, backgroundColor: '#ffffff' });
+        const cardHeightMm = (canvas.height * imgWidth) / canvas.width;
 
-    pdf.save(`Inko_Vocab_${new Date().toISOString().slice(0,10)}.pdf`);
+        // [v9.6] 페이지 공간 체크 (하단 여백 10mm 고려)
+        if (currentY + cardHeightMm > (pageHeight - margin)) {
+            pdf.addPage();
+            currentY = margin;
+        }
+
+        pdf.addImage(canvas.toDataURL('image/png'), 'PNG', margin, currentY, imgWidth, cardHeightMm);
+        currentY += cardHeightMm + 4; // 카드 간 간격 4mm
+        document.body.removeChild(element);
+    }
+    
+    pdf.save(`Inko_Vocab_Final_${new Date().toISOString().slice(0,10)}.pdf`);
   };
 
   return (
