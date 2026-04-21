@@ -46,7 +46,8 @@ const WordGenerate = () => {
     setGeneratedWords([]);
     
     try {
-      const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
+      // 로컬 스토리지에 저장된 모델이 있으면 사용, 없으면 gemini-1.5-flash 사용
+    const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash';
       
       // 1. 로컬 단어장 불러오기 (중복 방지용)
       let localWords = await getWords();
@@ -198,7 +199,7 @@ const WordGenerate = () => {
             onClick={handleGenerate} 
             disabled={loading}
             style={{ width: '100%', padding: '1.2rem', marginTop: '2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '35px', fontSize: '1.2rem', cursor: loading ? 'not-allowed' : 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #e67e22' }}>
-            {loading ? t('gen_btn_loading') : t('gen_btn_start')}
+            {loading ? `${t('gen_btn_loading')} (${localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'})` : t('gen_btn_start')}
             </button>
         </div>
       ) : (

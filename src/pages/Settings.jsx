@@ -198,10 +198,17 @@ const Settings = () => {
         setModelList(models);
         localStorage.setItem('geminiModelList', JSON.stringify(models));
         
-        // 검증 성공 시 즉시 자동 저장 (만료 오류 방지)
+        // 검증 성공 시 즉시 자동 저장 및 모델 자동 선택
         localStorage.setItem('geminiApiKey', keyToUse.trim());
         setGeminiKey(keyToUse.trim());
         setApiStatus('valid');
+
+        // 현재 선택된 모델이 목록에 없으면 첫 번째 모델 자동 선택
+        if (models.length > 0 && (!selectedGeminiModel || !models.includes(selectedGeminiModel))) {
+          const firstModel = models[0];
+          setSelectedGeminiModel(firstModel);
+          localStorage.setItem('selectedGeminiModel', firstModel);
+        }
         
         alert(t('msg_api_key_valid')); 
       } catch (e) { 

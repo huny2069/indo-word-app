@@ -1,4 +1,4 @@
-export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash-latest', excludeWords = [], userLang = 'ko', studyLang = 'id', email = null) => {
+export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash', excludeWords = [], userLang = 'ko', studyLang = 'id', email = null) => {
   const cleanKey = apiKey ? apiKey.trim() : '';
   if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
   if (count <= 0 || count > 30) throw new Error('단어 개수는 1에서 30 사이여야 합니다.');
