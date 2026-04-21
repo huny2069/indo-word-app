@@ -22,6 +22,7 @@ const Settings = () => {
   const [loadingModels, setLoadingModels] = useState(false);
   const [loadingVoices, setLoadingVoices] = useState(false); 
   const [showApiKey, setShowApiKey] = useState(false);
+  const [apiStatus, setApiStatus] = useState('idle'); // 'idle', 'verifying', 'valid', 'invalid', 'changed'
 
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); 
   const [ttsEngine, setTtsEngine] = useState('gemini');
@@ -101,6 +102,9 @@ const Settings = () => {
     const savedList = localStorage.getItem('geminiModelList');
     if (savedList) setModelList(JSON.parse(savedList));
 
+    // 기존 키가 있으면 초기 상태를 valid로 가정 (혹은 idle)
+    if (localStorage.getItem('geminiApiKey')) setApiStatus('valid');
+
     const handleStorageChange = (e) => {
       if (e.key === 'gcp_access_token') setGcpAccessToken(e.newValue);
     };
@@ -173,20 +177,30 @@ const Settings = () => {
     finally { setIsDriveOperating(false); }
   };
 
-  const handleFetchModels = async () => {
-    const keyToUse = geminiKey || import.meta.env.VITE_GEMINI_API_KEY;
-    if (!keyToUse) return;
-    setLoadingModels(true);
-    try {
-      const models = await fetchGeminiModels(keyToUse);
-      setModelList(models);
-      localStorage.setItem('geminiModelList', JSON.stringify(models));
-      alert(t('msg_model_fetch_done'));
-    } catch (e) { 
-      alert(t('msg_model_fetch_fail') + "\n\n사유: " + e.message); 
-    }
-    finally { setLoadingModels(false); }
-  };
+    const handleFetchModels = async () => {
+      const keyToUse = geminiKey || import.meta.env.VITE_GEMINI_API_KEY;
+      if (!keyToUse) { setApiStatus('idle'); return; }
+      
+      setLoadingModels(true);
+      setApiStatus('verifying');
+      
+      try {
+        const models = await fetchGeminiModels(keyToUse);
+        setModelList(models);
+        localStorage.setItem('geminiModelList', JSON.stringify(models));
+        
+        // 검증 성공 시 즉시 자동 저장 (만료 오류 방지)
+        localStorage.setItem('geminiApiKey', keyToUse.trim());
+        setGeminiKey(keyToUse.trim());
+        setApiStatus('valid');
+        
+        alert(t('msg_api_key_valid')); 
+      } catch (e) { 
+        setApiStatus('invalid');
+        alert(t('msg_model_fetch_fail') + "\n\n사유: " + e.message); 
+      }
+      finally { setLoadingModels(false); }
+    };
 
     const saveApiKeys = () => {
       localStorage.setItem('geminiApiKey', geminiKey);
@@ -348,9 +362,16 @@ const Settings = () => {
                                 <div style={{ display: 'flex', gap: '8px' }}>
                                     <select value={m.val} onChange={e => { m.set(e.target.value); localStorage.setItem(m.key, e.target.value); }}
                                         style={{ flex: 1, padding: '0.9rem', borderRadius: '12px', border: '2px solid #eee', outline: 'none', fontWeight: '700', color: '#444' }}>
-                                        {m.list.length > 0 ? m.list.map(v => (
-                                            <option key={v.name} value={v.name}>{v.name.split('-').slice(-2).join('-')} ({v.ssmlGender[0]})</option>
-                                        )) : <option value="">{t('set_google_update_needed')}</option>}
+                                        {m.list.length > 0 ? m.list.map(v => {
+                                            const parts = v.name.split('-');
+                                            const region = parts[1] || '??';
+                                            const engine = parts.slice(2).join('-');
+                                            return (
+                                                <option key={v.name} value={v.name}>
+                                                    {region.toUpperCase()}: {engine} ({v.ssmlGender[0]})
+                                                </option>
+                                            );
+                                        }) : <option value="">{t('set_google_update_needed')}</option>}
                                     </select>
                                     <button onClick={() => handleTestVoice(m.id, m.val)} disabled={!m.val} title={t('set_test_voice')}
                                         style={{ background: '#fff', border: '2px solid #eee', borderRadius: '12px', padding: '0 12px', cursor: 'pointer', transition: '0.2s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -373,10 +394,19 @@ const Settings = () => {
             <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontWeight: '900', color: '#1a1a1a', margin: 0 }}>
                 <span style={{ fontSize: '1.8rem' }}>🤖</span> {t('set_api_title')}
             </h3>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', background: geminiKey ? '#f0fdf4' : '#fff1f2', padding: '6px 12px', borderRadius: '12px', border: `1px solid ${geminiKey ? '#bcf0da' : '#fecaca'}` }}>
-                {geminiKey ? <CheckCircle size={16} color="#059669" /> : <XCircle size={16} color="#dc2626" />}
-                <span style={{ fontSize: '0.85rem', fontWeight: '900', color: geminiKey ? '#059669' : '#dc2626' }}>
-                    {geminiKey ? t('set_api_status_ok') : t('set_api_status_none')}
+            <div style={{ 
+                display: 'flex', alignItems: 'center', gap: '8px', 
+                background: apiStatus === 'valid' ? '#f0fdf4' : (apiStatus === 'invalid' ? '#fff1f2' : '#fefce8'), 
+                padding: '6px 12px', borderRadius: '12px', 
+                border: `1px solid ${apiStatus === 'valid' ? '#bcf0da' : (apiStatus === 'invalid' ? '#fecaca' : '#fef08a')}` 
+            }}>
+                {apiStatus === 'valid' ? <CheckCircle size={16} color="#059669" /> : 
+                 (apiStatus === 'invalid' ? <XCircle size={16} color="#dc2626" /> : <Sparkles size={16} color="#ca8a04" />)}
+                <span style={{ fontSize: '0.85rem', fontWeight: '900', color: apiStatus === 'valid' ? '#059669' : (apiStatus === 'invalid' ? '#dc2626' : '#ca8a04') }}>
+                    {apiStatus === 'valid' ? t('set_api_status_ok') : 
+                     (apiStatus === 'verifying' ? t('set_api_status_verifying') : 
+                      (apiStatus === 'invalid' ? t('set_api_status_invalid') : 
+                       (geminiKey ? t('set_api_status_changed') : t('set_api_status_none'))))}
                 </span>
             </div>
         </div>
@@ -384,7 +414,9 @@ const Settings = () => {
         <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>{t('set_api_desc')}</p>
         
         <div style={{ position: 'relative', marginBottom: '1.2rem' }}>
-            <input type={showApiKey ? "text" : "password"} value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder={t('set_ai_placeholder')} 
+            <input type={showApiKey ? "text" : "password"} value={geminiKey} 
+                onChange={e => { setGeminiKey(e.target.value); setApiStatus('changed'); }} 
+                placeholder={t('set_ai_placeholder')} 
                 style={{ width: '100%', padding: '1.3rem', paddingRight: '3.5rem', border: '2.5px solid #f0f0f0', borderRadius: '20px', outline: 'none', fontSize: '1.1rem', fontWeight: '600', transition: '0.3s' }} 
                 onFocus={e => e.target.style.borderColor = '#feca57'}
                 onBlur={e => e.target.style.borderColor = '#f0f0f0'}

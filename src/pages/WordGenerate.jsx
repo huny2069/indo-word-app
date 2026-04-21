@@ -30,7 +30,9 @@ const WordGenerate = () => {
   });
 
   const handleGenerate = async () => {
-    const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
+    let apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
+    if (apiKey) apiKey = apiKey.trim();
+
     if (!apiKey) {
       alert(t('msg_ai_key_missing'));
       return;
