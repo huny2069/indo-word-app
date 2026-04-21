@@ -42,6 +42,7 @@ export const LanguageProvider = ({ children }) => {
       lang: userLang, 
       userLang, 
       studyLang, 
+      isIndoMode: studyLang === 'id',
       changeUserLang, 
       changeStudyLang,
       setLanguage: changeUserLang, // Layout.jsx 호환용 별칭

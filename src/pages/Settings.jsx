@@ -6,6 +6,7 @@ import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
+import { Sparkles } from 'lucide-react';
 
 // 구글 드라이브 백업/복원용 설정 객체
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];

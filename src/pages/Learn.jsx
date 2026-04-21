@@ -4,9 +4,10 @@ import { playAudio } from '../api/ttsApi';
 import { Volume2 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../translations';
 
 const Learn = () => {
-  const { isIndoMode, t } = useLanguage();
+  const { userLang, studyLang, t } = useLanguage();
   const [words, setWords] = useState([]);
   const [mode, setMode] = useState(null); // 'flashcard', 'quiz', 'spelling'
   const [currentIndex, setCurrentIndex] = useState(0);
