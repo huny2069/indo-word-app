@@ -4,21 +4,27 @@ import { translations } from '../translations';
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  // 인니인을 위한 한국어 학습 모드 여부 (기본값: false, 한국인 모드)
-  const [isIndoMode, setIsIndoMode] = useState(() => {
-    return localStorage.getItem('isIndoMode') === 'true';
+  // 사용자의 모국어 (UI 언어) - 기본값: ko
+  const [userLang, setUserLang] = useState(() => {
+    return localStorage.getItem('userLang') || 'ko';
   });
 
-  const [lang, setLang] = useState(isIndoMode ? 'id' : 'ko');
+  // 사용자가 배우려는 타겟 언어 - 기본값: id
+  const [studyLang, setStudyLang] = useState(() => {
+    return localStorage.getItem('studyLang') || 'id';
+  });
 
   useEffect(() => {
-    localStorage.setItem('isIndoMode', isIndoMode);
-    setLang(isIndoMode ? 'id' : 'ko');
-  }, [isIndoMode]);
+    localStorage.setItem('userLang', userLang);
+  }, [userLang]);
+
+  useEffect(() => {
+    localStorage.setItem('studyLang', studyLang);
+  }, [studyLang]);
 
   // UI 번역 함수 (translations.js 사용)
   const t = (key, params = {}) => {
-    let str = translations[lang]?.[key] || key;
+    let str = translations[userLang]?.[key] || translations['ko']?.[key] || key;
     
     // {count} 등의 플레이스홀더 치환
     Object.keys(params).forEach(p => {
@@ -28,15 +34,18 @@ export const LanguageProvider = ({ children }) => {
     return str;
   };
 
-  const setLanguage = (newLang) => {
-    if (newLang === 'id') setIsIndoMode(true);
-    else if (newLang === 'ko') setIsIndoMode(false);
-  };
-
-  const toggleMode = () => setIsIndoMode(prev => !prev);
+  const changeUserLang = (langCode) => setUserLang(langCode);
+  const changeStudyLang = (langCode) => setStudyLang(langCode);
 
   return (
-    <LanguageContext.Provider value={{ lang, isIndoMode, toggleMode, setLanguage, t }}>
+    <LanguageContext.Provider value={{ 
+      lang: userLang, // 하위 호환성을 위해 lang 노출
+      userLang, 
+      studyLang, 
+      changeUserLang, 
+      changeStudyLang, 
+      t 
+    }}>
       {children}
     </LanguageContext.Provider>
   );

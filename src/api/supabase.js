@@ -141,7 +141,8 @@ export const fetchSharedWords = async (topic, isIndoMode) => {
       .from('shared_words')
       .select('*')
       .eq('topic', topic)
-      .eq('is_indo_mode', isIndoMode);
+      .eq('study_lang', studyLang)
+      .eq('user_lang', userLang);
     
     if (error) {
       console.error('Supabase Shared Words Fetch Error:', error);
@@ -163,7 +164,7 @@ export const saveSharedWords = async (words) => {
   try {
     const { error } = await supabase
       .from('shared_words')
-      .upsert(words, { onConflict: 'word, is_indo_mode' });
+      .upsert(words, { onConflict: 'word, user_lang, study_lang' });
     
     if (error) console.error('Supabase Shared Words Save Error:', error);
   } catch (err) {

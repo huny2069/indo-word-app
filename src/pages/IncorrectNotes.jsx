@@ -72,9 +72,9 @@ const IncorrectNotes = () => {
 
   if (loading) {
       return (
-          <div className="page" style={{textAlign: 'center', marginTop: '5rem'}}>
-              {isIndoMode ? 'Nana sedang membuka catatan kesalahan... 🍌' : '나나가 오답 노트를 뒤적이고 있어요... 🍌'}
-          </div>
+           <div className="page" style={{textAlign: 'center', marginTop: '5rem'}}>
+               {t('inc_loading_msg')}
+           </div>
       );
   }
 

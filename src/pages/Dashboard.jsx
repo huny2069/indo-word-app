@@ -80,22 +80,14 @@ const Dashboard = () => {
   return (
     <div className="page" style={{ paddingBottom: '3rem', textAlign: 'center' }}>
       <img src="/assets/img/nana.png" className="nana-character" style={{ width: '100px', marginBottom: '1rem' }} alt="Nana" />
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem', textAlign: 'left' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '2rem', textAlign: 'center' }}>
          <div>
             <h2 style={{fontSize: '2rem', color: 'var(--nana-dark)', marginBottom: '0.4rem', marginTop: 0, fontWeight: '900'}}>{t('dash_title')}</h2>
             <p style={{color: '#666', margin: 0, fontWeight: '500'}}>{t('dash_desc')}</p>
          </div>
-         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.3rem' }}>
-            <div style={{ background: '#f0fdf4', border: '1px solid #c8e6c9', padding: '0.4rem 1rem', borderRadius: '30px', color: '#2e7d32', fontWeight: 'bold', fontSize: '0.85rem', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
-                💡 {t('dash_tokens')}: {totalTokens.toLocaleString()}
-            </div>
-            <div style={{ background: '#fff7ed', border: '1px solid #fed7aa', padding: '0.4rem 1rem', borderRadius: '30px', color: '#c2410c', fontWeight: 'bold', fontSize: '0.85rem', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
-                💰 {t('dash_cost')}: {useLanguage().isIndoMode ? `$ ${totalCostUsd.toFixed(4)}` : `${Math.round(totalCostUsd * 1500).toLocaleString()}원`}
-            </div>
-         </div>
       </div>
       
-      {/* 주요 통계 카드 (스트릭, 총 단어수, 복습 필요) */}
+      {/* 주요 통계 카드 (스트릭, 총 단어수) */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
         
         {/* Streak Card */}
@@ -108,36 +100,14 @@ const Dashboard = () => {
           <div style={{ position: 'absolute', right: '-15px', bottom: '-15px', fontSize: '7rem', opacity: 0.2 }}>🍌</div>
         </div>
 
-        {/* Pro Membership Card (Commecialization) */}
-        <div style={{ 
-          padding: '2rem', 
-          background: '#fff', 
-          borderRadius: '30px', 
-          border: '3px solid #ff9f43', 
-          display: 'flex', 
-          flexDirection: 'column', 
-          justifyContent: 'center', 
-          textAlign: 'left', 
-          boxShadow: '0 8px 0 #fff7ed',
-          position: 'relative',
-          cursor: 'pointer'
-        }}
-        onClick={() => navigate('/settings')}
-        onMouseOver={e => e.currentTarget.style.transform = 'translateY(-4px)'}
-        onMouseOut={e => e.currentTarget.style.transform = 'none'}
-        >
-          <div style={{ position: 'absolute', top: '15px', right: '15px', background: '#ff9f43', color: '#fff', fontSize: '0.7rem', fontWeight: '900', padding: '3px 8px', borderRadius: '50px' }}>SPECIAL OFFER</div>
-          <h3 style={{margin: '0 0 0.5rem 0', color: '#ff9f43', fontWeight: '900', fontSize: '1.2rem'}}>Inko Pro ✨</h3>
-          <p style={{ margin: 0, fontSize: '0.85rem', color: '#666', lineHeight: '1.4' }}>
-            • 광고 제거 및 무제한 단어 생성<br/>
-            • Chirp3-HD 프리미엄 음성 지원<br/>
-            • 모든 기기 실시간 동기화
-          </p>
-          <div style={{ marginTop: '1rem', color: '#ff9f43', fontWeight: 'bold', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '5px' }}>
-            자세히 알아보기 <span style={{ fontSize: '1.2rem' }}>→</span>
+        {/* Word Count Card */}
+        <div style={{ padding: '2.5rem', background: '#fff', border: '3px solid #feca57', borderRadius: '30px', boxShadow: '0 10px 0 #fff7ed', textAlign: 'left', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <h3 style={{margin: 0, fontWeight: '900', color: '#feca57', fontSize: '1.1rem'}}>{t('dash_wordbook_size')}</h3>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', marginTop: '0.8rem' }}>
+            <span style={{ fontSize: '4rem', fontWeight: '900', color: 'var(--nana-dark)' }}>{stats.total}</span>
+            <span style={{ fontSize: '1.4rem', fontWeight: 'bold', color: '#666' }}>{t('dash_word_unit')}</span>
           </div>
         </div>
-
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: '3.5rem', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>

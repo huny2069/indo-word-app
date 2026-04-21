@@ -44,7 +44,8 @@ const Layout = () => {
 
   const languages = [
     { code: 'ko', name: '한국어', flag: '🇰🇷' },
-    { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' }
+    { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
+    { code: 'en', name: 'English', flag: '🇺🇸' }
   ];
 
   const currentLang = languages.find(l => l.code === lang) || languages[0];
@@ -55,16 +56,6 @@ const Layout = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <h1 className="desktop-only" style={{ fontWeight: '900', letterSpacing: '-1.5px', margin: 0, fontSize: '1.8rem', color: 'var(--primary-color)' }}>Inko</h1>
-            <div style={{ 
-              background: 'linear-gradient(45deg, #feca57, #ff9f43)', 
-              color: '#fff', 
-              fontSize: '0.65rem', 
-              fontWeight: '900', 
-              padding: '2px 6px', 
-              borderRadius: '6px',
-              boxShadow: '0 4px 10px rgba(254, 202, 87, 0.3)',
-              textTransform: 'uppercase'
-            }}>Pro</div>
           </div>
           
           <div className="lang-selector-container" ref={dropdownRef}>
@@ -176,7 +167,7 @@ const Layout = () => {
                 onMouseOut={(e) => e.currentTarget.style.background = '#fff5f5'}
               >
                 <LogOut size={18} />
-                {t('logout') || '로그아웃'}
+                {t('logout') || 'Log out'}
               </button>
             </div>
           )}

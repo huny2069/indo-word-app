@@ -1,47 +1,75 @@
-import { logUsage } from './supabase';
-
-export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash-latest', excludeWords = [], isIndoMode = false, email = null) => {
+export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash-latest', excludeWords = [], userLang = 'ko', studyLang = 'id', email = null) => {
   if (!apiKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
   if (count <= 0 || count > 30) throw new Error('단어 개수는 1에서 30 사이여야 합니다.');
 
-  // 동적 모델 이름 적용 (예: gemini-2.0-pro)
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
 
-  const role = isIndoMode ? "최고의 한국어 교육 전문가" : "최고의 인도네시아어 교육 전문가";
-  const targetLang = isIndoMode ? "한국어(Korean)" : "인도네시아어(Indonesian)";
-  const explanationLang = isIndoMode ? "인도네시아어(Indonesian)" : "한국어(Korean)";
+  // 언어 이름 매핑
+  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
+  const targetLangName = langNames[studyLang];
+  const nativeLangName = langNames[userLang];
+
+  // 언어별 특화 스키마 및 가이드 정의
+  let specificRules = '';
+  let specificFields = '';
+
+  if (studyLang === 'en') {
+    specificRules = `
+    - 영어 단어의 경우, 단순히 '어근' 대신 '어원(Etymology)'과 '뉘앙스(Nuance)' 정보를 풍부하게 제공하세요.
+    - 해당 단어와 관련된 주요 '구동사(Phrasal Verbs)'나 '관용구(Idioms)'가 있다면 related 항목에 포함하세요.
+    - 불규칙 동사나 명사의 복수형 등 '변칙적인 형태(Irregular Forms)'가 있다면 grammar_rule에 명시하세요.
+    - 발음 기호(IPA)를 반드시 포함하세요.`;
+    specificFields = `
+    "etymology": "단어의 어원이나 역사적 배경 (1문장)",
+    "nuance": "비슷한 단어와의 미세한 의미 차이나 어감 설명 (1문장)",
+    "pronunciation": "국제 발음 기호(IPA) 표기",`;
+  } else if (studyLang === 'id') {
+    specificRules = `
+    - 인도네시아어의 경우, '어근(Kata Dasar)' 정보를 반드시 정확하게 제공하세요.
+    - 접사(Affix)가 붙은 상태라면 그 결합 원리를 grammar_rule에 설명하세요.`;
+    specificFields = `
+    "root": "인도네시아어 어근(Kata Dasar)",
+    "affix_logic": "접사 결합 논리 및 변형 규칙 설명",`;
+  } else if (studyLang === 'ko') {
+    specificRules = `
+    - 한국어의 경우, '높임말(Honorifics)' 수준과 '한자어(Hanja)' 정보를 풍부하게 제공하세요.
+    - 상황별 종결어미의 차이를 context와 caution에 상세히 적어주세요.`;
+    specificFields = `
+    "honorifics": "해당 단어의 존댓말/반말 구분 및 높임말 형태",
+    "hanja_info": "한자어인 경우 한자 및 각 글자의 의미 정보",`;
+  }
 
   const promptText = `
-당신은 ${role}입니다.
-사용자가 요청한 주제 "${topic}"에 관련된 ${targetLang} 단어 ${count}개를 생성해주세요.
+  당신은 ${nativeLangName} 사용자를 위한 ${targetLangName} 학습 콘텐츠를 제작하는 최고의 교육 전문가입니다.
+  사용자가 요청한 주제 "${topic}"에 관련된 ${targetLangName} 단어 ${count}개를 생성해주세요.
+  모든 설명과 번역은 반드시 **${nativeLangName}**로 작성하세요.
 
-[중요 지침]
-1. 반드시 아래의 정해진 JSON 배열 형식에 맞춰 순수한 JSON 문자열로만 응답하세요.
-2. JSON 표준을 엄격히 준수하세요.
-3. 모든 설명(context, caution, related, grammar_rule, breakdown 등)은 반드시 **${explanationLang}**로 작성하세요.
-4. 마크다운 백틱(\`\`\`)을 포함하지 마세요. 오직 JSON 데이터만 반환하세요.
+  [중요 지침]
+  1. JSON 배열 형식으로만 응답하며, 마크다운 백틱(\`\`\`)을 포함하지 마세요.
+  2. JSON 표준을 엄격히 준수하고, 모든 키와 값은 큰따옴표(")를 사용하세요.
+  ${specificRules}
 
-배열 각 요소의 JSON 구조:
-{
-  "word": "${targetLang} 단어",
-  "meaning": "${explanationLang} 뜻",
-  "pos": "품사 (명사, 동사, 형용사, 부사, 대명사, 수사, 전치사, 접속사, 감탄사, 한정사 중 택1 - ${explanationLang}로 표기)",
-  "root": "어근 (Kata Dasar 또는 한국어 표제어)",
-  "example_formal": "${targetLang} 격식체(존댓말) 예문",
-  "example_formal_kr": "위 격식체 예문의 ${explanationLang} 번역",
-  "example_casual": "${targetLang} 일상 구어체(반말) 예문",
-  "example_casual_kr": "위 구어체 예문의 ${explanationLang} 번역",
-  "antonym": "반대어 (${targetLang} 단어)",
-  "synonym": "유사어 (${targetLang} 단어)",
-  "context": "이 단어를 실제로 '언제, 어떤 상황에서' 사용하는 것이 가장 자연스러운지 구체적인 사용 맥락 설명 (${explanationLang}로 1문장)",
-  "caution": "사용 시 주의사항이나 문화적 배경 (${explanationLang}로 1문장)",
-  "related": "학습 팁이나 관련 표현 (${explanationLang}로 1문장)",
-  "grammar_rule": "문법적 특징이나 변형 규칙 설명 (${explanationLang}로 1문장)",
-  "word_breakdown": [{"word": "단어/토큰", "meaning": "뜻"}] // 두 예문(formal, casual)에 등장하는 **모든 개별 단어(조사, 접두사/접미사가 붙은 변형태, 관용구 포함)**의 뜻을 ${explanationLang}로 하나도 빠짐없이 제공하세요.
-}
+  [각 요소의 JSON 구조]
+  {
+    "word": "${targetLangName} 단어",
+    "meaning": "${nativeLangName} 뜻",
+    "pos": "품사 (명사, 동사, 형용사 등 - ${nativeLangName}로 표기)",
+    ${specificFields}
+    "example_formal": "${targetLangName} 격식체 예문",
+    "example_formal_kr": "위 예문의 ${nativeLangName} 번역",
+    "example_casual": "${targetLangName} 비격식체/구어체 예문",
+    "example_casual_kr": "위 예문의 ${nativeLangName} 번역",
+    "antonym": "반대어",
+    "synonym": "유사어",
+    "context": "구체적인 사용 상황 설명 (${nativeLangName})",
+    "caution": "문화적 배경이나 사용 시 주의점 (${nativeLangName})",
+    "related": "학습 팁이나 관련 표현 (${nativeLangName})",
+    "grammar_rule": "문법적 특징 설명 (${nativeLangName})",
+    "word_breakdown": [{"word": "단어/요소", "meaning": "뜻"}] // 예문에 사용된 모든 단어의 개별 분석
+  }
 
-${excludeWords.length > 0 ? `반드시 다음 단어들은 이미 학습했으므로 제외하고 새로운 단어로만 생성하세요: [${excludeWords.join(', ')}]` : ''}
-`;
+  ${excludeWords.length > 0 ? `제외할 단어 목록: [${excludeWords.join(', ')}]` : ''}
+  `;
 
   try {
     const response = await fetch(endpoint, {
@@ -49,9 +77,7 @@ ${excludeWords.length > 0 ? `반드시 다음 단어들은 이미 학습했으�
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: promptText }] }],
-        generationConfig: {
-          response_mime_type: "application/json"
-        }
+        generationConfig: { response_mime_type: "application/json" }
       })
     });
 
@@ -62,26 +88,19 @@ ${excludeWords.length > 0 ? `반드시 다음 단어들은 이미 학습했으�
 
     const data = await response.json();
     
-    // [추가] 토큰 사용량 및 예상 비용 트래킹 로직
+    // 사용량 트래킹 (내부 로직 유지)
     if (data.usageMetadata) {
         const { promptTokenCount = 0, candidatesTokenCount = 0, totalTokenCount = 0 } = data.usageMetadata;
-        
-        // 누적 토큰 저장
         const prevTokens = parseInt(localStorage.getItem('total_gemini_tokens') || '0', 10);
         localStorage.setItem('total_gemini_tokens', (prevTokens + totalTokenCount).toString());
 
-        // 예상 비용 계산 (USD 기준, 2024-2025 Pay-as-you-go 가격 반영)
-        // Flash: Input $0.075/1M, Output $0.3/1M
-        // Pro: Input $1.25/1M, Output $5.0/1M
         const isPro = modelName.includes('pro');
         const inputRate = isPro ? 1.25 / 1000000 : 0.075 / 1000000;
         const outputRate = isPro ? 5.0 / 1000000 : 0.3 / 1000000;
-        
         const costNow = (promptTokenCount * inputRate) + (candidatesTokenCount * outputRate);
         const prevCost = parseFloat(localStorage.getItem('total_gemini_cost_usd') || '0');
         localStorage.setItem('total_gemini_cost_usd', (prevCost + costNow).toFixed(6));
 
-        // [추가] Supabase 중앙 통계 서버로 로그 전송
         try {
             logUsage({
                 user_id: localStorage.getItem('user_device_id') || 'anonymous',
@@ -90,35 +109,11 @@ ${excludeWords.length > 0 ? `반드시 다음 단어들은 이미 학습했으�
                 cost_usd: costNow,
                 topic: topic
             });
-        } catch (err) {
-            console.warn("Logging to Supabase failed:", err);
-        }
+        } catch (err) { console.warn("Log failed:", err); }
     }
 
     const textContent = data.candidates[0].content.parts[0].text;
-    
-    let parsedData = [];
-    try {
-        // 1. 기본 파싱 시도
-        parsedData = JSON.parse(textContent.trim());
-    } catch (e) {
-        console.warn("JSON parsing failed, attempting cleanup...", e);
-        try {
-            // 2. 마크다운 및 불필요한 공백 제거
-            let cleaned = textContent.replace(/```(?:json)?/g, '').replace(/```/g, '').trim();
-            
-            // 3. 문제의 싱글 쿼트(') 보정 시도 (값이 싱글 쿼트로 감싸진 경우)
-            // 주의: 모든 '를 "로 바꾸면 문자열 내부의 작은따옴표가 깨질 수 있으므로, 
-            // JSON 키:값 구조에서 값으로 쓰이는 '만 제한적으로 교체하는 정규식 사용
-            cleaned = cleaned.replace(/:\s*'([^']*)'/g, ': "$1"');
-            
-            parsedData = JSON.parse(cleaned);
-        } catch (e2) {
-            console.error("JSON cleanup failed:", e2);
-            throw new Error(`AI가 생성한 데이터의 형식이 올바르지 않습니다. (JSON Error): ${e2.message}`);
-        }
-    }
-    
+    let parsedData = JSON.parse(textContent.trim().replace(/```(?:json)?/g, '').replace(/```/g, '').trim());
     return parsedData;
 
   } catch (error) {

@@ -1,11 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Flag, Sparkles } from 'lucide-react';
+import { Flag, Sparkles, ChevronRight, Languages } from 'lucide-react';
 
 const Onboarding = () => {
   const { completeOnboarding, user } = useAuth();
-  const { t } = useLanguage();
+  const { t, changeUserLang, changeStudyLang, userLang } = useLanguage();
+  
+  // 1: 모국어 선택, 2: 학습 언어 선택
+  const [step, setStep] = useState(1);
+
+  const languages = [
+    { code: 'ko', name: '한국어', flag: '🇰🇷', label: 'Korean' },
+    { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩', label: 'Indonesian' },
+    { code: 'en', name: 'English', flag: '🇺🇸', label: 'English' }
+  ];
+
+  const handleSelectNative = (code) => {
+    changeUserLang(code);
+    setStep(2);
+  };
+
+  const handleSelectStudy = (code) => {
+    changeStudyLang(code);
+    completeOnboarding(code); 
+  };
 
   return (
     <div style={{
@@ -17,105 +36,101 @@ const Onboarding = () => {
       padding: '20px'
     }}>
       <div style={{
-        maxWidth: '500px',
+        maxWidth: '550px',
         width: '100%',
         background: '#fff',
-        borderRadius: '30px',
-        padding: '2.5rem',
-        boxShadow: '0 20px 50px rgba(254, 202, 87, 0.2)',
-        textAlign: 'center'
+        borderRadius: '40px',
+        padding: '3rem',
+        boxShadow: '0 25px 60px rgba(254, 202, 87, 0.25)',
+        textAlign: 'center',
+        position: 'relative',
+        overflow: 'hidden'
       }}>
+        <div style={{ position: 'absolute', top: '-10px', right: '-10px', fontSize: '4rem', opacity: 0.1, transform: 'rotate(15deg)' }}>🍌</div>
+
         <div style={{
           background: '#fef9e7',
-          width: '60px',
-          height: '60px',
-          borderRadius: '50%',
+          width: '70px',
+          height: '70px',
+          borderRadius: '24px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          margin: '0 auto 1.5rem',
-          boxShadow: '0 8px 15px rgba(254, 202, 87, 0.3)'
+          margin: '0 auto 2rem',
+          boxShadow: '0 10px 20px rgba(254, 202, 87, 0.2)',
+          transform: 'rotate(-5deg)'
         }}>
-          <Sparkles size={30} color="#feca57" />
+          <Languages size={36} color="#feca57" />
         </div>
 
-        <h2 style={{ fontSize: '1.75rem', fontWeight: '900', color: 'var(--nana-dark)', margin: '0 0 0.5rem 0' }}>
-          환영합니다, <span style={{ color: '#feca57' }}>{user?.name}!</span>
+        <h2 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)', margin: '0 0 0.5rem 0' }}>
+          {t('onboarding_title')}
         </h2>
         
-        <p style={{ color: '#666', fontSize: '1.1rem', fontWeight: '600', margin: '0 0 2rem 0' }}>
-          국적을 선택해 주세요.<br/>
-          Pilih kewarganegaraan Anda.
-        </p>
-
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginTop: '2rem' }}>
-          {/* 한국인 모드 */}
-          <button 
-            onClick={() => completeOnboarding('KR')}
-            style={{
-              padding: '2.5rem 1.5rem',
-              background: '#fff',
-              border: '4px solid #f0f0f0',
-              borderRadius: '25px',
-              cursor: 'pointer',
-              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              gap: '1rem',
-              boxShadow: '0 4px 6px rgba(0,0,0,0.02)'
-            }}
-            onMouseOver={(e) => {
-              e.currentTarget.style.borderColor = '#feca57';
-              e.currentTarget.style.transform = 'translateY(-8px) scale(1.02)';
-              e.currentTarget.style.boxShadow = '0 15px 30px rgba(254, 202, 87, 0.2)';
-            }}
-            onMouseOut={(e) => {
-              e.currentTarget.style.borderColor = '#f0f0f0';
-              e.currentTarget.style.transform = 'translateY(0) scale(1)';
-              e.currentTarget.style.boxShadow = '0 4px 6px rgba(0,0,0,0.02)';
-            }}
-          >
-            <span style={{ fontSize: '4.5rem', lineHeight: '1' }}>🇰🇷</span>
-            <span style={{ fontSize: '1.1rem', fontWeight: '800', color: 'var(--nana-dark)' }}>한국인</span>
-            <span style={{ fontSize: '0.8rem', color: '#999', fontWeight: 'bold' }}>Korean</span>
-          </button>
-
-          {/* 인도네시아인 모드 */}
-          <button 
-            onClick={() => completeOnboarding('ID')}
-            style={{
-              padding: '2.5rem 1.5rem',
-              background: '#fff',
-              border: '4px solid #f0f0f0',
-              borderRadius: '25px',
-              cursor: 'pointer',
-              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              gap: '1rem',
-              boxShadow: '0 4px 6px rgba(0,0,0,0.02)'
-            }}
-            onMouseOver={(e) => {
-              e.currentTarget.style.borderColor = '#ff7675';
-              e.currentTarget.style.transform = 'translateY(-8px) scale(1.02)';
-              e.currentTarget.style.boxShadow = '0 15px 30px rgba(255, 118, 117, 0.2)';
-            }}
-            onMouseOut={(e) => {
-              e.currentTarget.style.borderColor = '#f0f0f0';
-              e.currentTarget.style.transform = 'translateY(0) scale(1)';
-              e.currentTarget.style.boxShadow = '0 4px 6px rgba(0,0,0,0.02)';
-            }}
-          >
-            <span style={{ fontSize: '4.5rem', lineHeight: '1' }}>🇮🇩</span>
-            <span style={{ fontSize: '1.1rem', fontWeight: '800', color: 'var(--nana-dark)' }}>Indonesian</span>
-            <span style={{ fontSize: '0.8rem', color: '#999', fontWeight: 'bold' }}>인도네시아인</span>
-          </button>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginBottom: '2.5rem' }}>
+            <div style={{ width: '40px', height: '6px', borderRadius: '10px', background: step === 1 ? '#feca57' : '#eee', transition: 'all 0.3s' }}></div>
+            <div style={{ width: '40px', height: '6px', borderRadius: '10px', background: step === 2 ? '#feca57' : '#eee', transition: 'all 0.3s' }}></div>
         </div>
 
-        <div style={{ marginTop: '3rem', fontSize: '0.85rem', color: '#999', fontStyle: 'italic' }}>
-          * 이 설정은 나중에 설정 탭에서 변경할 수 있습니다. 🍌
+        <p style={{ color: '#666', fontSize: '1.2rem', fontWeight: '700', margin: '0 0 2.5rem 0', lineHeight: '1.5' }}>
+          {step === 1 ? t('onboarding_native') : t('onboarding_study')}
+        </p>
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem' }}>
+          {languages.map((lang) => {
+            if (step === 2 && lang.code === userLang) return null;
+
+            return (
+              <button 
+                key={lang.code}
+                onClick={() => step === 1 ? handleSelectNative(lang.code) : handleSelectStudy(lang.code)}
+                style={{
+                  padding: '1.2rem 2rem',
+                  background: '#fff',
+                  border: '3px solid #f0f0f0',
+                  borderRadius: '20px',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1.5rem',
+                  boxShadow: '0 4px 6px rgba(0,0,0,0.01)',
+                  textAlign: 'left',
+                  width: '100%'
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.borderColor = '#feca57';
+                  e.currentTarget.style.transform = 'translateX(10px)';
+                  e.currentTarget.style.background = '#fffdf5';
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.borderColor = '#f0f0f0';
+                  e.currentTarget.style.transform = 'translateX(0)';
+                  e.currentTarget.style.background = '#fff';
+                }}
+              >
+                <span style={{ fontSize: '2.5rem', lineHeight: '1' }}>{lang.flag}</span>
+                <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: '1.1rem', fontWeight: '800', color: 'var(--nana-dark)' }}>{lang.name}</div>
+                    <div style={{ fontSize: '0.85rem', color: '#999', fontWeight: '600' }}>{lang.label}</div>
+                </div>
+                <ChevronRight size={20} color="#ccc" />
+              </button>
+            );
+          })}
+        </div>
+
+        {step === 2 && (
+            <button 
+                onClick={() => setStep(1)}
+                style={{ marginTop: '2rem', background: 'none', border: 'none', color: '#999', fontWeight: 'bold', cursor: 'pointer', textDecoration: 'underline', fontSize: '0.9rem' }}
+            >
+                {t('btn_back')}
+            </button>
+        )}
+
+        <div style={{ marginTop: '3rem', fontSize: '0.85rem', color: '#bbb', fontWeight: '600' }}>
+          * {t('guide_drive_step1').split(':')[0]} 🍌
         </div>
       </div>
     </div>

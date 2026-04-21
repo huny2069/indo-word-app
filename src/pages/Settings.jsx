@@ -5,32 +5,32 @@ import { convertToCSV, parseCSV } from '../api/csvApi';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices } from '../api/ttsApi';
+import { useAuth } from '../contexts/AuthContext';
 
 // 구글 드라이브 백업/복원용 설정 객체
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
-// 버전1과 동일한 스코프 설정
 const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform';
 
 const Settings = () => {
-  const { isIndoMode, t } = useLanguage();
-  const [googleClientId, setGoogleClientId] = useState('');
+  const { userLang, studyLang, changeUserLang, changeStudyLang, t } = useLanguage();
+  const { user } = useAuth();
+  
   const [geminiKey, setGeminiKey] = useState('');
-
-  // 모델 동적 선택용
   const [modelList, setModelList] = useState([]);
   const [selectedGeminiModel, setSelectedGeminiModel] = useState('');
   const [loadingModels, setLoadingModels] = useState(false);
-  const [loadingVoices, setLoadingVoices] = useState(false); // [추가] 음성 로딩 상태
+  const [loadingVoices, setLoadingVoices] = useState(false); 
 
-  const [totalTokens, setTotalTokens] = useState(0); 
-  const [totalCostUsd, setTotalCostUsd] = useState(0); // [추가] 누적 비용(USD)
-  const [isAudioEnabled, setIsAudioEnabled] = useState(true); // [추가] 음성 토글 상태
+  const [isAudioEnabled, setIsAudioEnabled] = useState(true); 
   const [ttsEngine, setTtsEngine] = useState('gemini');
+  
   const defaultKrModel = 'ko-KR-Neural2-A';
   const defaultIdModel = 'id-ID-Chirp3-HD-Achernar';
+  const defaultEnModel = 'en-US-Neural2-F';
   
   const [googleTtsModelId, setGoogleTtsModelId] = useState(localStorage.getItem('google_tts_model_id') || defaultIdModel);
   const [googleTtsModelKo, setGoogleTtsModelKo] = useState(localStorage.getItem('google_tts_model_ko') || defaultKrModel);
+  const [googleTtsModelEn, setGoogleTtsModelEn] = useState(localStorage.getItem('google_tts_model_en') || defaultEnModel);
   
   const [googleVoiceList, setGoogleVoiceList] = useState(JSON.parse(localStorage.getItem('google_voice_list') || '[]'));
   const [gcpAccessToken, setGcpAccessToken] = useState(localStorage.getItem('gcp_access_token') || '');
@@ -39,19 +39,18 @@ const Settings = () => {
   // 보이스 목록 분리 필터링
   const idVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('id'))), [googleVoiceList]);
   const krVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('ko'))), [googleVoiceList]);
+  const enVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('en'))), [googleVoiceList]);
 
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
   const [jsonInput, setJsonInput] = useState('');
   const [isJsonImporting, setIsJsonImporting] = useState(false);
-  const [tokenClient, setTokenClient] = useState(null); // GIS 클라이언트 상태 저장
+  const [isDriveOperating, setIsDriveOperating] = useState(false);
 
   const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || '';
-  const GCP_SCOPES = 'https://www.googleapis.com/auth/cloud-platform';
 
-  // [수정] 구글 토큰 갱신 및 로그인 통합 함수 (v7.7)
   const handleGoogleLogin = (isSilent = false) => {
     if (!window.google) {
-      if (!isSilent) alert(isIndoMode ? "Skrip Google belum 준비되지 않았습니다." : "구글 로그인 스크립트가 준비되지 않았습니다.");
+      if (!isSilent) alert(t('msg_google_script_error') || "Google script not ready.");
       return;
     }
     
@@ -81,232 +80,81 @@ const Settings = () => {
 
           setTtsEngine('google');
           localStorage.setItem('tts_engine', 'google');
-          
-          if (!isSilent) {
-            alert(isIndoMode ? "Koneksi Google Berhasil! 🍌" : "구글 연동 완료! 🍌 세션이 1시간 동안 유지됩니다.");
-            window.location.reload();
-          }
+          alert(t('msg_google_login_done'));
+          window.location.reload();
         }
-      },
-      error_callback: (err) => {
-        // [v7.8] 취소나 백그라운드 갱신 실패는 조용히 처리
-        if (err.error === 'popup_closed' || isSilent) return;
-        console.error("Google Login Error:", err);
-        alert(isIndoMode ? "Terjadi kesalahan login Google." : "구글 로그인 중 오류가 발생했습니다.");
       }
     });
 
-    if (isSilent) {
-      client.requestAccessToken({ prompt: '' });
-    } else {
-      client.requestAccessToken();
-    }
-    setTokenClient(client);
+    client.requestAccessToken(isSilent ? { prompt: '' } : {});
   };
 
   useEffect(() => {
-    // 저장된 키들
     setGeminiKey(localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY || '');
-
-    // 누적 데이터 불러오기
-    setTotalTokens(parseInt(localStorage.getItem('total_gemini_tokens') || '0', 10));
-    setTotalCostUsd(parseFloat(localStorage.getItem('total_gemini_cost_usd') || '0'));
     setIsAudioEnabled(localStorage.getItem('is_audio_enabled') !== 'false');
     setTtsEngine(localStorage.getItem('tts_engine') || 'gemini');
 
-    // 모델 리스트 캐시 및 선택된 모델 로드
     const savedModel = localStorage.getItem('selectedGeminiModel');
     if (savedModel) setSelectedGeminiModel(savedModel);
     const savedList = localStorage.getItem('geminiModelList');
     if (savedList) setModelList(JSON.parse(savedList));
 
-    // [v7.8] 스토리지 변경 이벤트 리스너 (다른 탭이나 App.jsx에서 갱신 시 동기화)
     const handleStorageChange = (e) => {
       if (e.key === 'gcp_access_token') setGcpAccessToken(e.newValue);
     };
     window.addEventListener('storage', handleStorageChange);
-
-    return () => {
-        window.removeEventListener('storage', handleStorageChange);
-    };
+    return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
 
-  // 프리미엄 음성 테스트 함수
-  const handleTestTts = async (customModel = null) => {
-    if (!gcpAccessToken) {
-      alert(isIndoMode ? "Silakan login Google terlebih dahulu." : "먼저 구글 로그인을 완료해주세요.");
-      handleGoogleLogin();
-      return;
-    }
-    try {
-      const modelToUse = customModel || (isIndoMode ? googleTtsModelKo : googleTtsModelId); 
-      const langCode = modelToUse.split('-').slice(0, 2).join('-');
-      const isKorean = langCode.startsWith('ko');
-      
-      const testText = isKorean 
-        ? "안녕하세요, 나나입니다. 고품질 AI 음성 테스트 중입니다." 
-        : "Halo, saya Nana. Sedang uji coba suara AI premium.";
-      
-      const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
-      const response = await fetch(endpoint, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${gcpAccessToken}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          input: { text: testText },
-          voice: { languageCode: langCode, name: modelToUse },
-          audioConfig: { audioEncoding: 'MP3' }
-        })
-      });
-
-      if (!response.ok) {
-        const errJson = await response.json().catch(() => ({}));
-        throw new Error(errJson.error?.message || response.statusText);
-      }
-      
-      const data = await response.json();
-      if (data.audioContent) {
-        const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
-        await audio.play();
-      }
-    } catch (err) {
-      if (err.message.includes('billing')) {
-          const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`;
-          alert(`❌ [GCP 결제 계정 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정이 연동되어 있어야 합니다.\n\n링크: ${billingUrl}`);
-          window.open(billingUrl, '_blank');
-      } else {
-          alert(`❌ 테스트 실패: ${err.message}`);
-      }
-    }
-  };
-
   const handleFetchGoogleVoicesList = async () => {
-    const expiry = localStorage.getItem('gcp_token_expiry');
-    const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 5000);
-
-    if (!gcpAccessToken || isExpired) {
-        handleGoogleLogin();
-        return;
-    }
+    if (!gcpAccessToken) { handleGoogleLogin(); return; }
     setLoadingVoices(true);
     try {
         const voices = await fetchGoogleVoices(gcpAccessToken);
         const filtered = voices.filter(v => 
-            v.languageCodes.some(lc => lc.startsWith('ko') || lc.startsWith('id'))
+            v.languageCodes.some(lc => lc.startsWith('ko') || lc.startsWith('id') || lc.startsWith('en'))
         );
         setGoogleVoiceList(filtered);
         localStorage.setItem('google_voice_list', JSON.stringify(filtered));
-        alert(isIndoMode ? `Berhasil memuat ${filtered.length} suara premium!` : `총 ${filtered.length}개의 프리미엄 음성을 가져왔습니다!`);
-    } catch (err) {
-        alert(isIndoMode ? "Gagal memuat daftar suara." : "음성 목록을 가져오지 못했습니다.");
-    } finally {
-        setLoadingVoices(false);
-    }
+        alert(t('msg_fetch_voices_done', { count: filtered.length }));
+    } catch (err) { alert(t('msg_fetch_voices_fail')); }
+    finally { setLoadingVoices(false); }
   };
 
-  // --- CSV Export/Import 로직 ---
   const handleExportCSV = async () => {
     try {
       const words = await getWords();
-      if (words.length === 0) {
-          alert(isIndoMode ? "Tidak ada kata untuk diekspor." : "내보낼 단어가 없습니다.");
-          return;
-        }
-
+      if (words.length === 0) { alert("내보낼 단어가 없습니다."); return; }
       const csvContent = convertToCSV(words);
       const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.setAttribute('href', url);
-      const fileName = `IndoLearn_${new Date().toISOString().slice(0,10)}.csv`;
-
-      link.setAttribute('download', fileName);
-      link.style.visibility = 'hidden';
-      document.body.appendChild(link);
+      link.setAttribute('download', `Inko_Backup_${new Date().toISOString().slice(0,10)}.csv`);
       link.click();
-      document.body.removeChild(link);
-      alert(isIndoMode ? "Berhasil ekspor CSV!" : "CSV 단어장 내보내기 성공!");
-    } catch (err) {
-      alert(isIndoMode ? "Terjadi kesalahan saat ekspor CSV." : "CSV 내보내기 중 오류가 발생했습니다.");
-    }
+    } catch (err) { alert("CSV 내보내기 중 오류 발생"); }
   };
-
-  const handleImportCSV = async (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-
-    const reader = new FileReader();
-    reader.onload = async (event) => {
-      try {
-        const parsedWords = parseCSV(event.target.result);
-        if (parsedWords.length === 0) {
-          alert(isIndoMode ? "Tidak ada data kata." : "불러올 단어가 없습니다.");
-          return;
-        }
-
-        if (!window.confirm(isIndoMode ? `Impor ${parsedWords.length} kata?` : `총 ${parsedWords.length}개의 단어를 불러오시겠습니까?`)) return;
-
-        let addCount = 0;
-        let skipCount = 0;
-        for (const w of parsedWords) {
-          try {
-            const { id, ...data } = w;
-            await addWord(data);
-            addCount++;
-          } catch (e) { skipCount++; }
-        }
-        alert(isIndoMode ? `Selesai! (+${addCount})` : `가져오기 완료! (+${addCount})`);
-        e.target.value = '';
-      } catch (err) {
-        alert(isIndoMode ? "Gagal membaca CSV." : "CSV 파일을 읽는 중 오류가 발생했습니다.");
-      }
-    };
-    reader.readAsText(file);
-  };
-
-  // --- Google Drive Cloud Backup 로직 ---
-  const [isDriveOperating, setIsDriveOperating] = useState(false);
 
   const handleBackupToDrive = async () => {
-    const expiry = localStorage.getItem('gcp_token_expiry');
-    const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 5000);
-
-    if (!gcpAccessToken || isExpired) {
-      alert(isIndoMode ? "Silakan login Google." : "먼저 구글 로그인을 해주세요.");
-      handleGoogleLogin();
-      return;
-    }
-    if (!window.confirm(isIndoMode ? "Cadangkan ke Cloud?" : "데이터를 구글 드라이브에 백업하시겠습니까?")) return;
-
+    if (!gcpAccessToken) { handleGoogleLogin(); return; }
+    if (!window.confirm(t('msg_backup_confirm'))) return;
     setIsDriveOperating(true);
     try {
       const words = await getWords();
       const folders = await getFolders();
       await uploadBackupToDrive(gcpAccessToken, { words, folders, timestamp: new Date().toISOString() });
-      alert(isIndoMode ? "Pencadangan Berhasil!" : "구글 드라이브 백업 완료!");
-    } catch (err) {
-      alert(isIndoMode ? "Gagal mencadangkan." : "백업 중 오류 발생: " + err.message);
-    } finally { setIsDriveOperating(false); }
+      alert(t('msg_backup_done'));
+    } catch (err) { alert(t('msg_backup_fail') + ": " + err.message); }
+    finally { setIsDriveOperating(false); }
   };
 
   const handleRestoreFromDrive = async () => {
-    const expiry = localStorage.getItem('gcp_token_expiry');
-    const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 5000);
-
-    if (!gcpAccessToken || isExpired) {
-      handleGoogleLogin();
-      return;
-    }
+    if (!gcpAccessToken) { handleGoogleLogin(); return; }
     setIsDriveOperating(true);
     try {
       const backupFile = await searchBackupFile(gcpAccessToken);
-      if (!backupFile) {
-        alert(isIndoMode ? "Cadangan tidak ditemukan." : "백업 파일을 찾을 수 없습니다.");
-        return;
-      }
-      if (!window.confirm(isIndoMode ? "Pulihkan data?" : "데이터를 복원하시겠습니까?")) return;
+      if (!backupFile) { alert("백업 파일을 찾을 수 없습니다."); return; }
+      if (!window.confirm(t('msg_restore_confirm'))) return;
       const backupData = await downloadBackupFromDrive(gcpAccessToken, backupFile.id);
       let addCount = 0;
       if (backupData.words) {
@@ -318,45 +166,9 @@ const Settings = () => {
           } catch (e) {}
         }
       }
-      alert(isIndoMode ? `Pemulihan Selesai! (+${addCount})` : `복원 완료! (+${addCount})`);
-    } catch (e) {
-      alert(isIndoMode ? "Gagal memulihkan." : "복원 중 오류 발생.");
-    } finally { setIsDriveOperating(false); }
-  };
-
-  const handleJsonImport = async () => {
-    let input = jsonInput.trim();
-    if (!input) return;
-    setIsJsonImporting(true);
-    try {
-      input = input.replace(/```(?:json)?/g, '').trim();
-      const firstBracket = input.indexOf('[');
-      const lastBracket = input.lastIndexOf(']');
-      if (firstBracket !== -1 && lastBracket !== -1) input = input.substring(firstBracket, lastBracket + 1);
-      
-      let data = JSON.parse(input);
-      if (!Array.isArray(data)) data = [data];
-      
-      let successCount = 0;
-      for (const item of data) {
-        try {
-          await addWord({
-            word: item.word?.toLowerCase().trim() || '',
-            meaning: item.meaning || '',
-            pos: item.pos || '명사',
-            root: item.root || '',
-            example_id: item.example_formal || item.example_id || '',
-            example_kr: item.example_formal_kr || item.example_kr || '',
-            folderId: null
-          });
-          successCount++;
-        } catch (e) {}
-      }
-      alert(isIndoMode ? `Selesai! (+${successCount})` : `가져오기 완료! (+${successCount})`);
-      setJsonInput(''); setIsJsonModalOpen(false);
-    } catch (e) {
-      alert(isIndoMode ? "Format JSON salah." : "JSON 형식이 올바르지 않습니다.");
-    } finally { setIsJsonImporting(false); }
+      alert(t('msg_restore_done', { count: addCount }));
+    } catch (e) { alert(t('msg_restore_fail')); }
+    finally { setIsDriveOperating(false); }
   };
 
   const handleFetchModels = async () => {
@@ -367,12 +179,8 @@ const Settings = () => {
       const models = await fetchGeminiModels(keyToUse);
       setModelList(models);
       localStorage.setItem('geminiModelList', JSON.stringify(models));
-      if (models.length > 0 && !models.includes(selectedGeminiModel)) {
-        setSelectedGeminiModel(models[0]);
-        localStorage.setItem('selectedGeminiModel', models[0]);
-      }
-      alert(isIndoMode ? "Berhasil memuat model." : "모델 조회를 성공했습니다.");
-    } catch (e) { alert("Gagal memuat model."); }
+      alert(t('msg_model_fetch_done'));
+    } catch (e) { alert(t('msg_model_fetch_fail')); }
     finally { setLoadingModels(false); }
   };
 
@@ -384,17 +192,74 @@ const Settings = () => {
 
   return (
     <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem' }}>
-      <h2 style={{ fontSize: '1.8rem', fontWeight: '800', marginBottom: '2rem', textAlign: 'center' }}>{t('set_title')}</h2>
+      <h2 style={{ fontSize: '2.4rem', fontWeight: '900', marginBottom: '2.5rem', textAlign: 'center', color: 'var(--nana-dark)' }}>{t('set_title')}</h2>
       
-      <div className="settings-card" style={{ background: 'rgba(255,255,255,0.8)', backdropFilter: 'blur(10px)', padding: '2rem', borderRadius: '24px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid #fff', marginBottom: '2rem' }}>
-        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', color: '#1a1a1a' }}>
-            <span style={{ fontSize: '1.5rem' }}>🔊</span> {t('set_audio_title')}
+      {/* (1) 언어 설정 섹션 - 3개국어 상호 학습 대응 */}
+      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', border: '2px solid #feca57', marginBottom: '2rem' }}>
+        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.8rem', color: '#1a1a1a', fontWeight: '900' }}>
+            <span style={{ fontSize: '1.8rem' }}>🌍</span> {t('set_lang_title')}
         </h3>
         
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.2rem', background: '#fff', borderRadius: '16px', border: '1px solid #eee', marginBottom: '1.5rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+            {/* 모국어 선택 */}
+            <div style={{ padding: '1.8rem', background: '#fafafa', borderRadius: '25px', border: '1px solid #eee' }}>
+                <label style={{ display: 'block', fontWeight: '900', marginBottom: '1.2rem', color: '#666', fontSize: '1rem' }}>{t('onboarding_native')}</label>
+                <div style={{ display: 'flex', gap: '0.8rem' }}>
+                    {[
+                        {code: 'ko', flag: '🇰🇷'}, 
+                        {code: 'id', flag: '🇮🇩'}, 
+                        {code: 'en', flag: '🇺🇸'}
+                    ].map(lang => (
+                        <button key={lang.code} onClick={() => changeUserLang(lang.code)} 
+                            style={{ 
+                                flex: 1, padding: '1.2rem 0.5rem', borderRadius: '18px', 
+                                border: userLang === lang.code ? '4px solid #feca57' : '2px solid #eee', 
+                                background: userLang === lang.code ? '#fff9e7' : '#fff', cursor: 'pointer', 
+                                transition: '0.2s', fontSize: '2rem'
+                            }}>
+                            {lang.flag}
+                        </button>
+                    ))}
+                </div>
+            </div>
+
+            {/* 학습 언어 선택 */}
+            <div style={{ padding: '1.8rem', background: '#fafafa', borderRadius: '25px', border: '1px solid #eee' }}>
+                <label style={{ display: 'block', fontWeight: '900', marginBottom: '1.2rem', color: '#666', fontSize: '1rem' }}>{t('onboarding_study')}</label>
+                <div style={{ display: 'flex', gap: '0.8rem' }}>
+                    {[
+                        {code: 'ko', flag: '🇰🇷'}, 
+                        {code: 'id', flag: '🇮🇩'}, 
+                        {code: 'en', flag: '🇺🇸'}
+                    ].map(lang => (
+                        <button key={lang.code} 
+                            onClick={() => changeStudyLang(lang.code)} 
+                            disabled={userLang === lang.code} 
+                            style={{ 
+                                flex: 1, padding: '1.2rem 0.5rem', borderRadius: '18px', 
+                                border: studyLang === lang.code ? '4px solid #feca57' : '2px solid #eee', 
+                                background: studyLang === lang.code ? '#fff9e7' : '#fff', 
+                                cursor: userLang === lang.code ? 'not-allowed' : 'pointer', 
+                                opacity: userLang === lang.code ? 0.2 : 1, transition: '0.2s', fontSize: '2rem'
+                            }}>
+                            {lang.flag}
+                        </button>
+                    ))}
+                </div>
+            </div>
+        </div>
+      </div>
+
+      {/* (2) 음성 엔진 설정 */}
+      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', marginBottom: '2rem' }}>
+        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.8rem', color: '#1a1a1a', fontWeight: '900' }}>
+            <span style={{ fontSize: '1.8rem' }}>🔊</span> {t('set_audio_title')}
+        </h3>
+        
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.5rem', background: '#f5f7f9', borderRadius: '25px', border: '1px solid #eee', marginBottom: '1.5rem' }}>
             <div>
-                <span style={{ fontWeight: '700', fontSize: '1.1rem' }}>{t('set_audio_label')}</span>
-                <p style={{ margin: '0.3rem 0 0', fontSize: '0.85rem', color: '#666' }}>{t('set_audio_desc')}</p>
+                <span style={{ fontWeight: '900', fontSize: '1.1rem', color: 'var(--nana-dark)' }}>{t('set_audio_label')}</span>
+                <p style={{ margin: '0.3rem 0 0', fontSize: '0.85rem', color: '#777', fontWeight: '600' }}>{t('set_audio_desc')}</p>
             </div>
             <label className="switch">
                 <input type="checkbox" checked={isAudioEnabled} onChange={e => {
@@ -405,186 +270,120 @@ const Settings = () => {
             </label>
         </div>
 
-        <div style={{ background: '#f8f9fa', padding: '1.5rem', borderRadius: '20px', border: '1px solid #eee' }}>
-            <span style={{ fontWeight: '700', fontSize: '1rem', display: 'block', marginBottom: '1rem' }}>{t('set_engine_title')}</span>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
-                <button onClick={() => { if(!gcpAccessToken) handleGoogleLogin(); setTtsEngine('google'); localStorage.setItem('tts_engine', 'google'); }}
-                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'google' ? '2px solid #4285f4' : '1px solid #eee', background: ttsEngine === 'google' ? '#e8f0fe' : '#fff', color: ttsEngine === 'google' ? '#1967d2' : '#666', fontWeight: 'bold' }}>
-                    Google Cloud<br/><small style={{fontWeight: 'normal'}}>Premium</small>
-                </button>
-                <button onClick={() => { setTtsEngine('gemini'); localStorage.setItem('tts_engine', 'gemini'); }}
-                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'gemini' ? '2px solid #8e44ad' : '1px solid #eee', background: ttsEngine === 'gemini' ? '#f3e5f5' : '#fff', color: ttsEngine === 'gemini' ? '#6a1b9a' : '#666', fontWeight: 'bold' }}>
-                    Gemini AI<br/><small style={{fontWeight: 'normal'}}>Deep Learning</small>
-                </button>
-                <button onClick={() => { setTtsEngine('browser'); localStorage.setItem('tts_engine', 'browser'); }}
-                    style={{ padding: '1rem', borderRadius: '14px', border: ttsEngine === 'browser' ? '2px solid #2d3436' : '1px solid #eee', background: ttsEngine === 'browser' ? '#f5f5f5' : '#fff', color: ttsEngine === 'browser' ? '#2d3436' : '#666', fontWeight: 'bold' }}>
-                    Browser Default<br/><small style={{fontWeight: 'normal'}}>Offline</small>
-                </button>
+        <div style={{ background: '#fafafa', padding: '2rem', borderRadius: '30px', border: '1px solid #eee' }}>
+            <span style={{ fontWeight: '900', fontSize: '1.1rem', display: 'block', marginBottom: '1.5rem', color: '#555' }}>{t('set_engine_all')}</span>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1.2rem', marginBottom: '1.8rem' }}>
+                {[
+                    {id: 'google', label: 'Google Premium'},
+                    {id: 'gemini', label: 'Gemini AI'},
+                    {id: 'browser', label: 'Offline Default'}
+                ].map(engine => (
+                    <button key={engine.id} onClick={() => { if(engine.id === 'google' && !gcpAccessToken) handleGoogleLogin(); setTtsEngine(engine.id); localStorage.setItem('tts_engine', engine.id); }}
+                        style={{ padding: '1.2rem', borderRadius: '20px', border: ttsEngine === engine.id ? '4px solid #feca57' : '2px solid #eee', background: ttsEngine === engine.id ? '#fff' : '#fff', color: ttsEngine === engine.id ? 'var(--nana-dark)' : '#999', fontWeight: '900', transition: '0.3s', fontSize: '1rem' }}>
+                        {engine.label}
+                    </button>
+                ))}
             </div>
 
             {ttsEngine === 'google' && (
-                <div style={{ background: '#fff', padding: '1.2rem', borderRadius: '16px', border: '1px solid #eee' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                        <span style={{ fontWeight: 'bold' }}>{isIndoMode ? "Pilih Model Suara" : "음성 모델 선택"}</span>
-                        <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices}
-                            style={{ background: '#4285f4', color: '#fff', border: 'none', padding: '0.5rem 1rem', borderRadius: '8px', fontSize: '0.85rem' }}>
-                            {loadingVoices ? "..." : t('set_google_update')}
+                <div style={{ background: '#fff', padding: '1.8rem', borderRadius: '25px', border: '1px solid #eee', boxShadow: '0 5px 15px rgba(0,0,0,0.02)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.8rem' }}>
+                        <span style={{ fontWeight: '900', color: '#333' }}>{t('set_lang_model')}</span>
+                        <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices} style={{ background: '#feca57', color: '#fff', border: 'none', padding: '0.7rem 1.4rem', borderRadius: '15px', fontSize: '0.85rem', fontWeight: '900', boxShadow: '0 4px 0 #e67e22', cursor: 'pointer' }}>
+                            {loadingVoices ? "갱신 중..." : t('set_google_update')}
                         </button>
                     </div>
 
-                    <div style={{ marginBottom: '1rem' }}>
-                        <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block' }}>🇮🇩 Indonesia</label>
-                        <div style={{ display: 'flex', gap: '0.5rem' }}>
-                            <select value={googleTtsModelId} onChange={e => { setGoogleTtsModelId(e.target.value); localStorage.setItem('google_tts_model_id', e.target.value); }}
-                                style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd' }}>
-                                {idVoices.length > 0 ? idVoices.map(v => (
-                                    <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>
-                                )) : <option value="">{t('set_google_update_needed')}</option>}
-                            </select>
-                            <button onClick={() => handleTestTts(googleTtsModelId)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px' }}>🔉</button>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block' }}>🇰🇷 Korea</label>
-                        <div style={{ display: 'flex', gap: '0.5rem' }}>
-                            <select value={googleTtsModelKo} onChange={e => { setGoogleTtsModelKo(e.target.value); localStorage.setItem('google_tts_model_ko', e.target.value); }}
-                                style={{ flex: 1, padding: '0.8rem', borderRadius: '10px', border: '1px solid #ddd' }}>
-                                {krVoices.length > 0 ? krVoices.map(v => (
-                                    <option key={v.name} value={v.name}>{v.name} ({v.ssmlGender})</option>
-                                )) : <option value="">{t('set_google_update_needed')}</option>}
-                            </select>
-                            <button onClick={() => handleTestTts(googleTtsModelKo)} style={{ background: '#fff', border: '1px solid #eee', borderRadius: '10px', width: '45px' }}>🔉</button>
-                        </div>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
+                        {[ {id: 'id', label: '🇮🇩 Indonesia', val: googleTtsModelId, set: setGoogleTtsModelId, list: idVoices, key: 'google_tts_model_id'},
+                           {id: 'ko', label: '🇰🇷 Korean', val: googleTtsModelKo, set: setGoogleTtsModelKo, list: krVoices, key: 'google_tts_model_ko'},
+                           {id: 'en', label: '🇺🇸 English', val: googleTtsModelEn, set: setGoogleTtsModelEn, list: enVoices, key: 'google_tts_model_en'}
+                        ].map(m => (
+                            <div key={m.id} style={{ background: '#f9f9f9', padding: '1rem', borderRadius: '15px' }}>
+                                <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block', marginBottom: '8px', fontWeight: '900' }}>{m.label}</label>
+                                <select value={m.val} onChange={e => { m.set(e.target.value); localStorage.setItem(m.key, e.target.value); }}
+                                    style={{ width: '100%', padding: '0.9rem', borderRadius: '12px', border: '2px solid #eee', outline: 'none', fontWeight: '700', color: '#444' }}>
+                                    {m.list.length > 0 ? m.list.map(v => (
+                                        <option key={v.name} value={v.name}>{v.name.split('-').slice(-2).join('-')} ({v.ssmlGender[0]})</option>
+                                    )) : <option value="">업데이트 필요</option>}
+                                </select>
+                            </div>
+                        ))}
                     </div>
                 </div>
             )}
         </div>
       </div>
 
-      <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)', marginBottom: '2rem' }}>
-        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
-            <span style={{ fontSize: '1.5rem' }}>🤖</span> {t('set_api_title')}
+      {/* (3) API 설정 */}
+      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', marginBottom: '2rem' }}>
+        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', fontWeight: '900', color: '#1a1a1a' }}>
+            <span style={{ fontSize: '1.8rem' }}>🤖</span> {t('set_api_title')}
         </h3>
+        <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.2rem', fontWeight: '600' }}>AI 단어 생성을 위한 Gemini API 키와 모델을 관리합니다.</p>
+        
         <input type="password" value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder={t('set_ai_placeholder')} 
-            style={{ width: '100%', padding: '1rem', border: '1px solid #eee', borderRadius: '12px', marginBottom: '1rem' }} />
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+            style={{ width: '100%', padding: '1.2rem', border: '2.5px solid #f0f0f0', borderRadius: '18px', marginBottom: '1.2rem', outline: 'none', fontSize: '1rem' }} />
+        
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.8rem', gap: '1.2rem' }}>
             <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
-                style={{ flex: 1, padding: '1rem', border: '1px solid #eee', borderRadius: '12px' }}>
+                style={{ flex: 1, padding: '1rem', border: '2.5px solid #f0f0f0', borderRadius: '18px', outline: 'none', fontWeight: '700', color: '#555' }}>
                 {modelList.map(m => <option key={m} value={m}>{m}</option>)}
             </select>
-            <button onClick={handleFetchModels} disabled={loadingModels} style={{ marginLeft: '1rem', padding: '1rem' }}>🔄</button>
+            <button onClick={handleFetchModels} disabled={loadingModels} style={{ padding: '1rem 1.4rem', background: '#feca57', color: '#fff', border: 'none', borderRadius: '18px', cursor: 'pointer', boxShadow: '0 4px 0 #e67e22' }}>
+                <Sparkles size={20} />
+            </button>
         </div>
-        <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.1rem', background: '#1a1a1a', color: '#fff', border: 'none', borderRadius: '14px', fontWeight: '800' }}>
+        
+        <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.3rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.2rem', boxShadow: '0 6px 0 #000' }}>
             {t('set_btn_save')}
         </button>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
-        <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
-            <h3>📁 {t('set_backup_title')}</h3>
-            <button onClick={handleExportCSV} style={{ width: '100%', padding: '1rem', background: '#f0fdf4', borderRadius: '12px', marginBottom: '1rem' }}>{t('set_backup_export')}</button>
-            <button onClick={() => document.getElementById('csvImport').click()} style={{ width: '100%', padding: '1rem', background: '#f8fafc', borderRadius: '12px', marginBottom: '1rem' }}>{t('set_backup_import')}</button>
-            <input type="file" id="csvImport" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
-            <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1rem', background: '#fffbeb', borderRadius: '12px' }}>{t('set_json_paste')}</button>
+      {/* (4) 데이터 관리 및 클라우드 */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '1.5rem', marginBottom: '2.5rem' }}>
+        <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)' }}>
+            <h3 style={{ fontWeight: '900', color: '#1a1a1a', marginBottom: '1.5rem' }}>📁 {t('set_backup_title')}</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                <button onClick={handleExportCSV} style={{ width: '100%', padding: '1.2rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem' }}>{t('set_backup_export')}</button>
+                <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1.2rem', background: '#fffbeb', color: '#92400e', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem' }}>{t('set_json_paste')}</button>
+            </div>
         </div>
 
-        <div className="settings-card" style={{ background: '#fff', padding: '2rem', borderRadius: '24px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)', border: '2px solid #e8f0fe' }}>
-            <h3>☁️ {t('set_cloud_title')}</h3>
+        <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', border: '3px solid #e8f0fe' }}>
+            <h3 style={{ fontWeight: '900', color: '#1a1a1a', marginBottom: '1.5rem' }}>☁️ {t('set_cloud_title')}</h3>
             {gcpAccessToken ? (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-                    <div style={{ fontSize: '0.85rem', color: '#4285f4' }}>{userEmail}</div>
-                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', borderRadius: '12px' }}>{t('set_cloud_backup_btn')}</button>
-                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#34a853', color: '#fff', borderRadius: '12px' }}>{t('set_cloud_restore_btn')}</button>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                    <div style={{ padding: '0.8rem', background: '#eef2ff', borderRadius: '15px', fontSize: '0.95rem', color: '#4285f4', fontWeight: '800', textAlign: 'center' }}>{userEmail}</div>
+                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 5px 0 #1c66d1' }}>{t('set_cloud_backup_btn')}</button>
+                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1.2rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 5px 0 #288141' }}>{t('set_cloud_restore_btn')}</button>
                 </div>
             ) : (
-                <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', borderRadius: '14px' }}>{t('set_cloud_login')}</button>
+                <div style={{ textAlign: 'center' }}>
+                    <p style={{ fontSize: '0.85rem', color: '#999', marginBottom: '1.5rem', fontWeight: '600' }}>구글 계정을 연결하여 안전하게 클라우드 백업을 시작하세요.</p>
+                    <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.3rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.1rem', boxShadow: '0 6px 0 #1c66d1' }}>{t('set_cloud_login')}</button>
+                </div>
             )}
         </div>
       </div>
 
-      {/* Pro Membership Section (Commercialization) */}
-      <div className="settings-card" style={{ 
-        background: 'linear-gradient(135deg, #fff 0%, #fff9e7 100%)', 
-        padding: '2.2rem', 
-        borderRadius: '24px', 
-        boxShadow: '0 15px 40px rgba(254, 202, 87, 0.15)', 
-        border: '2px solid #feca57', 
-        marginBottom: '2rem',
-        position: 'relative',
-        overflow: 'hidden'
-      }}>
-        <div style={{ position: 'absolute', top: '-10px', right: '-10px', fontSize: '6rem', opacity: 0.05 }}>💎</div>
-        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', color: '#ff9f43', fontWeight: '900' }}>
-            <span style={{ fontSize: '1.5rem' }}>👑</span> {t('set_membership_title') || '멤버십 및 플랜'}
-        </h3>
-        
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#fff', padding: '1.5rem', borderRadius: '18px', border: '1px solid #feca57', marginBottom: '1.5rem' }}>
-            <div>
-                <div style={{ fontSize: '0.8rem', color: '#999', fontWeight: 'bold', marginBottom: '4px' }}>CURRENT PLAN</div>
-                <div style={{ fontSize: '1.4rem', fontWeight: '900', color: '#333' }}>Inko <span style={{ color: '#999' }}>Free</span></div>
-            </div>
-            <div style={{ textAlign: 'right' }}>
-                <div style={{ fontSize: '1.2rem', fontWeight: '900', color: '#ff9f43' }}>0원 <small style={{ color: '#999', fontSize: '0.8rem' }}>/ monthly</small></div>
-            </div>
-        </div>
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
-            <div style={{ background: 'rgba(255,255,255,0.6)', padding: '1.2rem', borderRadius: '15px', border: '1px solid #eee' }}>
-                <div style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.5rem', color: '#555' }}>Free Plan</div>
-                <ul style={{ margin: 0, padding: '0 0 0 1.2rem', fontSize: '0.8rem', color: '#888', lineHeight: '1.6' }}>
-                    <li>일일 AI 생성 20회 제한</li>
-                    <li>기본 TTS 엔진 제공</li>
-                    <li>광고 포함</li>
-                </ul>
-            </div>
-            <div style={{ background: '#fff', padding: '1.2rem', borderRadius: '15px', border: '2px solid #feca57', boxShadow: '0 8px 20px rgba(254, 202, 87, 0.2)' }}>
-                <div style={{ fontWeight: '900', fontSize: '1rem', marginBottom: '0.5rem', color: '#ff9f43', display: 'flex', justifyContent: 'space-between' }}>
-                    Pro Plan <span style={{ background: '#ff9f43', color: '#fff', fontSize: '0.6rem', padding: '2px 5px', borderRadius: '4px' }}>RECOM</span>
-                </div>
-                <ul style={{ margin: 0, padding: '0 0 0 1.2rem', fontSize: '0.8rem', color: '#333', lineHeight: '1.6', fontWeight: '600' }}>
-                    <li>무제한 AI 단어 생성</li>
-                    <li>Chirp3-HD 프리미엄 음성</li>
-                    <li>광고 제거 및 우선 지원</li>
-                </ul>
-            </div>
-        </div>
-
-        <button style={{ 
-            width: '100%', 
-            padding: '1.2rem', 
-            marginTop: '2rem', 
-            background: 'linear-gradient(90deg, #feca57, #ff9f43)', 
-            color: '#fff', 
-            border: 'none', 
-            borderRadius: '16px', 
-            fontSize: '1.1rem', 
-            fontWeight: '900', 
-            cursor: 'pointer',
-            boxShadow: '0 6px 20px rgba(254, 202, 87, 0.4)',
-            transition: 'transform 0.2s'
-        }}
-        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.02)'}
-        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-        >
-            Inko Pro로 업그레이드 하기
-        </button>
-      </div>
-
-      <div className="settings-card" style={{ background: '#fff5f5', padding: '1.5rem', borderRadius: '20px', border: '1px solid #feb2b2' }}>
-        <h4 style={{ color: '#c53030' }}>{t('set_diagnosa')}</h4>
+      {/* 진단 섹션 */}
+      <div className="settings-card" style={{ background: '#fff5f5', padding: '1.8rem', borderRadius: '30px', border: '2px dashed #feb2b2', textAlign: 'center' }}>
+        <h4 style={{ color: '#c53030', margin: '0 0 0.8rem 0', fontWeight: '900' }}>⚠️ {t('set_diagnosa')}</h4>
+        <p style={{ fontSize: '0.8rem', color: '#999', marginBottom: '1.2rem', fontWeight: '600' }}>앱이 정상적으로 작동하지 않을 때만 사용하세요. (음성 엔진 초기화)</p>
         <button onClick={() => { localStorage.removeItem('gcp_access_token'); window.location.reload(); }}
-            style={{ width: '100%', padding: '0.8rem', background: '#fff', border: '1px solid #718096', borderRadius: '10px' }}>{t('set_reset_btn')}</button>
+            style={{ padding: '0.8rem 2rem', background: '#fff', border: '2px solid #718096', borderRadius: '15px', color: '#4a5568', fontWeight: '900', cursor: 'pointer' }}>{t('set_reset_btn')}</button>
       </div>
 
       {isJsonModalOpen && (
-        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 2000 }}>
-          <div style={{ background: '#fff', padding: '2rem', borderRadius: '25px', width: '90%', maxWidth: '600px' }}>
-            <h3>{t('set_json_import_title')}</h3>
-            <textarea value={jsonInput} onChange={e => setJsonInput(e.target.value)} style={{ width: '100%', height: '300px', borderRadius: '12px' }} />
-            <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-              <button onClick={handleJsonImport} disabled={isJsonImporting} style={{ flex: 1, padding: '1rem', background: '#ff9f43', color: '#fff', borderRadius: '12px' }}>{t('set_json_confirm')}</button>
-              <button onClick={() => setIsJsonModalOpen(false)} style={{ padding: '0 1rem', borderRadius: '12px' }}>{t('set_json_cancel')}</button>
+        <div className="modal-overlay" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(5px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 3000 }}>
+          <div className="modal-content" style={{ background: '#fff', padding: '2.5rem', borderRadius: '40px', width: '90%', maxWidth: '650px', boxShadow: '0 30px 60px rgba(0,0,0,0.2)' }}>
+            <h3 style={{ fontWeight: '900', marginBottom: '1rem' }}>{t('set_json_import_title')}</h3>
+            <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>복사한 JSON 단어 리스트를 아래에 붙여넣으세요.</p>
+            <textarea value={jsonInput} onChange={e => setJsonInput(e.target.value)} placeholder="[ { 'word': '...', 'meaning': '...' } ]" style={{ width: '100%', height: '300px', borderRadius: '20px', border: '2.5px solid #f0f0f0', padding: '1.2rem', outline: 'none', fontSize: '0.9rem', fontFamily: 'monospace' }} />
+            <div style={{ display: 'flex', gap: '1rem', marginTop: '2rem' }}>
+              <button onClick={handleJsonImport} disabled={isJsonImporting} style={{ flex: 2, padding: '1.2rem', background: '#ff9f43', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 5px 0 #e67e22' }}>{t('set_json_confirm')}</button>
+              <button onClick={() => setIsJsonModalOpen(false)} style={{ flex: 1, padding: '1.2rem', background: '#f5f5f5', color: '#666', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer' }}>{t('set_json_cancel')}</button>
             </div>
           </div>
         </div>
