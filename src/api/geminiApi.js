@@ -1,8 +1,9 @@
 export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.5-flash-latest', excludeWords = [], userLang = 'ko', studyLang = 'id', email = null) => {
-  if (!apiKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
+  const cleanKey = apiKey ? apiKey.trim() : '';
+  if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
   if (count <= 0 || count > 30) throw new Error('단어 개수는 1에서 30 사이여야 합니다.');
 
-  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
+  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${cleanKey}`;
 
   // 언어 이름 매핑
   const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
@@ -126,14 +127,15 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
  * Gemini API의 지원 가능한 모델 목록을 비동기로 불러오는 함수
  */
 export const fetchGeminiModels = async (apiKey) => {
-  if (!apiKey) throw new Error('API 키가 없습니다.');
+  const cleanKey = apiKey ? apiKey.trim() : '';
+  if (!cleanKey) throw new Error('API 키가 없습니다.');
 
-  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`;
+  // 더 안정적인 v1 엔드포인트 시도
+  const endpoint = `https://generativelanguage.googleapis.com/v1/models?key=${cleanKey}`;
   
   try {
     const response = await fetch(endpoint, {
-      method: 'GET',
-      headers: { 'Content-Type': 'application/json' },
+      method: 'GET'
     });
 
     if (!response.ok) {

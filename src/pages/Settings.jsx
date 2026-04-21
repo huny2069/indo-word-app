@@ -182,7 +182,9 @@ const Settings = () => {
       setModelList(models);
       localStorage.setItem('geminiModelList', JSON.stringify(models));
       alert(t('msg_model_fetch_done'));
-    } catch (e) { alert(t('msg_model_fetch_fail')); }
+    } catch (e) { 
+      alert(t('msg_model_fetch_fail') + "\n\n사유: " + e.message); 
+    }
     finally { setLoadingModels(false); }
   };
 
