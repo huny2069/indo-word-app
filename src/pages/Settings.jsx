@@ -118,7 +118,7 @@ const Settings = () => {
         );
         setGoogleVoiceList(filtered);
         localStorage.setItem('google_voice_list', JSON.stringify(filtered));
-        alert(t('msg_fetch_voices_done', { count: filtered.length }));
+        alert(t('msg_fetch_voices_all_done'));
     } catch (err) { alert(t('msg_fetch_voices_fail')); }
     finally { setLoadingVoices(false); }
   };
@@ -399,16 +399,21 @@ const Settings = () => {
         </button>
         
         <div style={{ background: '#f8fafc', padding: '1.5rem', borderRadius: '20px', marginBottom: '1.8rem', border: '1px solid #e2e8f0' }}>
-            <label style={{ display: 'block', fontSize: '0.85rem', color: '#64748b', fontWeight: '900', marginBottom: '10px' }}>{t('set_gemini_model_select')}</label>
-            <div style={{ display: 'flex', gap: '12px' }}>
-                <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
-                    style={{ flex: 1, padding: '1rem', border: '2px solid #e2e8f0', borderRadius: '15px', outline: 'none', fontWeight: '700', color: '#334155', background: '#fff' }}>
-                    {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>모델 로딩 필요</option>}
-                </select>
-                <button onClick={handleFetchModels} disabled={loadingModels} style={{ padding: '0 1.2rem', background: '#feca57', color: '#fff', border: 'none', borderRadius: '15px', cursor: 'pointer', boxShadow: '0 4px 0 #e67e22', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <Sparkles size={20} />
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                <label style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: '900' }}>{t('set_gemini_model_select')}</label>
+                <button onClick={handleFetchModels} disabled={loadingModels} 
+                    style={{ 
+                        padding: '0.5rem 1rem', background: '#feca57', color: '#fff', border: 'none', 
+                        borderRadius: '12px', cursor: 'pointer', boxShadow: '0 3px 0 #e67e22', 
+                        fontSize: '0.8rem', fontWeight: '900', display: 'flex', alignItems: 'center', gap: '6px' 
+                    }}>
+                    <Sparkles size={14} /> {t('set_api_verify_btn')}
                 </button>
             </div>
+            <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
+                style={{ width: '100%', padding: '1rem', border: '2px solid #e2e8f0', borderRadius: '15px', outline: 'none', fontWeight: '700', color: '#334155', background: '#fff' }}>
+                {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>모델 갱신 필요</option>}
+            </select>
         </div>
         
         <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.3rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.2rem', boxShadow: '0 6px 0 #000', cursor: 'pointer', transition: '0.2s' }}

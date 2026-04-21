@@ -104,25 +104,35 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
       'en': { code: 'en-US', defaultModel: 'en-US-Neural2-F', storageKey: 'google_tts_model_en' }
   };
 
-  const config = langMap[lang] || langMap['id'];
-  const savedModel = localStorage.getItem(config.storageKey);
-  const effectiveModel = overrideModel || savedModel || config.defaultModel;
+    const config = langMap[lang] || langMap['id'];
+    const savedModel = localStorage.getItem(config.storageKey);
+    const effectiveModel = overrideModel || savedModel || config.defaultModel;
 
-  const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
-  
-  try {
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${accessToken}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        input: { text },
-        voice: { languageCode: config.code, name: effectiveModel },
-        audioConfig: { audioEncoding: 'MP3' }
-      })
-    });
+    // 모델명에서 언어 코드 동적 추출 (예: en-GB-Neural2-A -> en-GB)
+    // 미국(en-US) 외에도 영국, 호주 등을 정확한 언어 코드로 요청하기 위함
+    let effectiveLangCode = config.code;
+    if (effectiveModel && effectiveModel.includes('-')) {
+        const parts = effectiveModel.split('-');
+        if (parts.length >= 2) {
+            effectiveLangCode = `${parts[0]}-${parts[1]}`;
+        }
+    }
+
+    const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+    
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${accessToken}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          input: { text },
+          voice: { languageCode: effectiveLangCode, name: effectiveModel },
+          audioConfig: { audioEncoding: 'MP3' }
+        })
+      });
 
      if (!response.ok) {
         if (response.status === 401 || response.status === 403) {
