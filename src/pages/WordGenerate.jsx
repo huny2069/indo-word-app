@@ -11,6 +11,10 @@ import { useAuth } from '../contexts/AuthContext';
 const WordGenerate = () => {
   const { userLang, studyLang, t } = useLanguage();
   const { user } = useAuth();
+
+  const langNames = { ko: '한국어', id: '인도네시아어', en: '영어' };
+  const targetLangName = langNames[studyLang] || '대상 언어';
+
   const [topic, setTopic] = useState('');
   const [count, setCount] = useState(10);
   const [loading, setLoading] = useState(false);
@@ -18,6 +22,10 @@ const WordGenerate = () => {
   
   // 생성 모드 ('ai' 또는 'manual')
   const [genMode, setGenMode] = useState('ai');
+
+  // 진행률 및 상태 메시지 ( v17.9 추가)
+  const [progress, setProgress] = useState(0);
+  const [progressMsg, setProgressMsg] = useState('');
   
   // 수동 입력용 단어 데이터
   const [manualWord, setManualWord] = useState({
@@ -44,12 +52,16 @@ const WordGenerate = () => {
 
     setLoading(true);
     setGeneratedWords([]);
+    setProgress(10);
+    setProgressMsg("AI 엔진 부팅 중... 🚀");
     
     try {
       // 로컬 스토리지에 저장된 모델이 있으면 사용, 없으면 gemini-1.5-flash 사용
     const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash';
       
       // 1. 로컬 단어장 불러오기 (중복 방지용)
+      setProgress(25);
+      setProgressMsg("주제 분석 및 중복 단어 체크 중... 🔍");
       let localWords = await getWords();
       let existingWordStrings = localWords.map(w => w.word.toLowerCase());
       
@@ -79,8 +91,11 @@ const WordGenerate = () => {
 
       // 3. 모자란 개수만큼 AI(Gemini) 생성
       const remainingCount = count - finalAddedWords.length;
-      
       if (remainingCount > 0) {
+        setProgress(45);
+        setProgressMsg(`${targetLangName} 단어 생성 및 어원 파악 중... 🧠`);
+        setProgress(85);
+        setProgressMsg("뉘앙스 및 예문 최적화 중... ✍️");
         let currentTry = 0;
         const maxTries = 3;
 
@@ -117,6 +132,8 @@ const WordGenerate = () => {
         }
       }
       
+      setProgress(100);
+      setProgressMsg("학습 데이터를 모두 준비했습니다! 🍌");
       setGeneratedWords(finalAddedWords);
       
       if (finalAddedWords.length === 0) {
@@ -199,7 +216,7 @@ const WordGenerate = () => {
             onClick={handleGenerate} 
             disabled={loading}
             style={{ width: '100%', padding: '1.2rem', marginTop: '2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '35px', fontSize: '1.2rem', cursor: loading ? 'not-allowed' : 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #e67e22' }}>
-            {loading ? `${t('gen_btn_loading')} (${localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'})` : t('gen_btn_start')}
+            {loading ? t('gen_btn_loading') : t('gen_btn_start')}
             </button>
         </div>
       ) : (
@@ -219,6 +236,56 @@ const WordGenerate = () => {
                     {t('gen_manual_add_btn')}
                 </button>
             </form>
+        </div>
+      )}
+
+      {/* 로딩 프로그레스 오버레이 (v17.9 추가) */}
+      {loading && (
+        <div style={{ 
+            position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, 
+            background: 'rgba(255,255,255,0.9)', backdropFilter: 'blur(10px)', 
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', 
+            zIndex: 9999, padding: '2rem', textAlign: 'center'
+        }}>
+            <div style={{ position: 'relative', width: '120px', height: '120px', marginBottom: '2rem' }}>
+                <div style={{ 
+                    position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, 
+                    border: '8px solid #f0f0f0', borderRadius: '50%' 
+                }}></div>
+                <div style={{ 
+                    position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, 
+                    border: '8px solid #feca57', borderRadius: '50%',
+                    borderTopColor: 'transparent', animation: 'spin 1.5s linear infinite'
+                }}></div>
+                <div style={{ 
+                    position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, 
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', 
+                    fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)'
+                }}>
+                    {progress}%
+                </div>
+            </div>
+
+            <h3 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)', marginBottom: '1rem' }}>
+                {progressMsg}
+            </h3>
+            
+            <p style={{ fontSize: '0.9rem', color: '#888', marginBottom: '2rem', fontWeight: '600' }}>
+                사용 중인 모델: <span style={{ color: '#feca57' }}>{localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}</span>
+            </p>
+
+            <div style={{ width: '100%', maxWidth: '400px', height: '18px', background: '#f5f5f5', borderRadius: '10px', overflow: 'hidden', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>
+                <div style={{ 
+                    width: `${progress}%`, height: '100%', 
+                    background: 'linear-gradient(90deg, #feca57, #ff9f43)',
+                    transition: 'width 0.5s ease-out',
+                    boxShadow: '0 0 10px rgba(254, 202, 87, 0.5)'
+                }}></div>
+            </div>
+
+            <style>{`
+                @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+            `}</style>
         </div>
       )}
 

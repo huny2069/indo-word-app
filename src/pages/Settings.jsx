@@ -460,10 +460,19 @@ const Settings = () => {
                     <Sparkles size={14} /> {t('set_api_verify_btn')}
                 </button>
             </div>
-            <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
+            <select value={selectedGeminiModel} onChange={e => { 
+                const val = e.target.value;
+                setSelectedGeminiModel(val);
+                localStorage.setItem('selectedGeminiModel', val);
+            }}
                 style={{ width: '100%', padding: '1rem', border: '2px solid #e2e8f0', borderRadius: '15px', outline: 'none', fontWeight: '700', color: '#334155', background: '#fff' }}>
                 {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>모델 갱신 필요</option>}
             </select>
+            {selectedGeminiModel && (
+                <p style={{ marginTop: '8px', fontSize: '0.8rem', color: '#059669', fontWeight: '800' }}>
+                    ✓ 현재 {selectedGeminiModel} 모델이 즉시 적용되었습니다.
+                </p>
+            )}
         </div>
         
         <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.3rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.2rem', boxShadow: '0 6px 0 #000', cursor: 'pointer', transition: '0.2s' }}
