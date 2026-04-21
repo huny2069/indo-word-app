@@ -16,7 +16,7 @@ const detectLanguage = (text) => {
     return 'id';
 };
 
-export const playAudio = async (text, lang = null) => {
+export const playAudio = async (text, lang = null, voiceName = null) => {
   if (!text) return;
   
   // 0. 글로벌 음성 설정 확인
@@ -29,7 +29,7 @@ export const playAudio = async (text, lang = null) => {
 
   try {
     if (preferredEngine === 'google') {
-      await playGoogleCloudTTS(text, targetLang);
+      await playGoogleCloudTTS(text, targetLang, voiceName);
     } else if (preferredEngine === 'gemini') {
       await playGeminiTTS(text, targetLang);
     } else {
@@ -88,7 +88,7 @@ async function playGeminiTTS(text, lang) {
 /**
  * 엔진 2: Google Cloud TTS (Premium) (3개국어 지원)
  */
-async function playGoogleCloudTTS(text, lang) {
+async function playGoogleCloudTTS(text, lang, overrideModel = null) {
   const accessToken = localStorage.getItem('gcp_access_token');
   const expiry = localStorage.getItem('gcp_token_expiry');
   const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 10000);
@@ -106,7 +106,7 @@ async function playGoogleCloudTTS(text, lang) {
 
   const config = langMap[lang] || langMap['id'];
   const savedModel = localStorage.getItem(config.storageKey);
-  const effectiveModel = savedModel || config.defaultModel;
+  const effectiveModel = overrideModel || savedModel || config.defaultModel;
 
   const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
   

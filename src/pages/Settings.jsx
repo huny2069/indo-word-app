@@ -4,9 +4,9 @@ import { fetchGeminiModels } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
-import { fetchGoogleVoices } from '../api/ttsApi';
+import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
-import { Sparkles } from 'lucide-react';
+import { Sparkles, Eye, EyeOff, Volume2, BookOpen, CheckCircle, XCircle } from 'lucide-react';
 
 // 구글 드라이브 백업/복원용 설정 객체
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
@@ -21,6 +21,7 @@ const Settings = () => {
   const [selectedGeminiModel, setSelectedGeminiModel] = useState('');
   const [loadingModels, setLoadingModels] = useState(false);
   const [loadingVoices, setLoadingVoices] = useState(false); 
+  const [showApiKey, setShowApiKey] = useState(false);
 
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); 
   const [ttsEngine, setTtsEngine] = useState('gemini');
@@ -191,6 +192,19 @@ const Settings = () => {
       alert(t('set_save_success'));
     };
   
+    const handleTestVoice = async (lang, modelName) => {
+      const testTexts = {
+        id: "Halo, apa kabar? Saya senang membantu Anda belajar bahasa.",
+        ko: "안녕하세요! 여러분의 언어 학습을 돕게 되어 기쁩니다.",
+        en: "Hello! It is a pleasure to help you learn a new language."
+      };
+      try {
+        await playAudio(testTexts[lang] || testTexts.en, lang, modelName);
+      } catch (e) {
+        alert("음성 테스트 실패: " + e.message);
+      }
+    };
+
     const handleJsonImport = async () => {
       if (!jsonInput.trim()) return;
       setIsJsonImporting(true);
@@ -329,12 +343,20 @@ const Settings = () => {
                         ].map(m => (
                             <div key={m.id} style={{ background: '#f9f9f9', padding: '1rem', borderRadius: '15px' }}>
                                 <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block', marginBottom: '8px', fontWeight: '900' }}>{m.label}</label>
-                                <select value={m.val} onChange={e => { m.set(e.target.value); localStorage.setItem(m.key, e.target.value); }}
-                                    style={{ width: '100%', padding: '0.9rem', borderRadius: '12px', border: '2px solid #eee', outline: 'none', fontWeight: '700', color: '#444' }}>
-                                    {m.list.length > 0 ? m.list.map(v => (
-                                        <option key={v.name} value={v.name}>{v.name.split('-').slice(-2).join('-')} ({v.ssmlGender[0]})</option>
-                                    )) : <option value="">업데이트 필요</option>}
-                                </select>
+                                <div style={{ display: 'flex', gap: '8px' }}>
+                                    <select value={m.val} onChange={e => { m.set(e.target.value); localStorage.setItem(m.key, e.target.value); }}
+                                        style={{ flex: 1, padding: '0.9rem', borderRadius: '12px', border: '2px solid #eee', outline: 'none', fontWeight: '700', color: '#444' }}>
+                                        {m.list.length > 0 ? m.list.map(v => (
+                                            <option key={v.name} value={v.name}>{v.name.split('-').slice(-2).join('-')} ({v.ssmlGender[0]})</option>
+                                        )) : <option value="">{t('set_google_update_needed')}</option>}
+                                    </select>
+                                    <button onClick={() => handleTestVoice(m.id, m.val)} disabled={!m.val} title={t('set_test_voice')}
+                                        style={{ background: '#fff', border: '2px solid #eee', borderRadius: '12px', padding: '0 12px', cursor: 'pointer', transition: '0.2s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                                        onMouseOver={e => e.currentTarget.style.borderColor = '#feca57'}
+                                        onMouseOut={e => e.currentTarget.style.borderColor = '#eee'}>
+                                        <Volume2 size={20} color="#feca57" />
+                                    </button>
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -343,27 +365,55 @@ const Settings = () => {
         </div>
       </div>
 
-      {/* (3) API 설정 */}
-      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', marginBottom: '2rem' }}>
-        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', fontWeight: '900', color: '#1a1a1a' }}>
-            <span style={{ fontSize: '1.8rem' }}>🤖</span> {t('set_api_title')}
-        </h3>
-        <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.2rem', fontWeight: '600' }}>AI 단어 생성을 위한 Gemini API 키와 모델을 관리합니다.</p>
-        
-        <input type="password" value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder={t('set_ai_placeholder')} 
-            style={{ width: '100%', padding: '1.2rem', border: '2.5px solid #f0f0f0', borderRadius: '18px', marginBottom: '1.2rem', outline: 'none', fontSize: '1rem' }} />
-        
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.8rem', gap: '1.2rem' }}>
-            <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
-                style={{ flex: 1, padding: '1rem', border: '2.5px solid #f0f0f0', borderRadius: '18px', outline: 'none', fontWeight: '700', color: '#555' }}>
-                {modelList.map(m => <option key={m} value={m}>{m}</option>)}
-            </select>
-            <button onClick={handleFetchModels} disabled={loadingModels} style={{ padding: '1rem 1.4rem', background: '#feca57', color: '#fff', border: 'none', borderRadius: '18px', cursor: 'pointer', boxShadow: '0 4px 0 #e67e22' }}>
-                <Sparkles size={20} />
-            </button>
+      {/* (3) API 설정 - 직관적 개선 */}
+      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', marginBottom: '2rem', border: '3px solid #f0f0f0' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontWeight: '900', color: '#1a1a1a', margin: 0 }}>
+                <span style={{ fontSize: '1.8rem' }}>🤖</span> {t('set_api_title')}
+            </h3>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', background: geminiKey ? '#f0fdf4' : '#fff1f2', padding: '6px 12px', borderRadius: '12px', border: `1px solid ${geminiKey ? '#bcf0da' : '#fecaca'}` }}>
+                {geminiKey ? <CheckCircle size={16} color="#059669" /> : <XCircle size={16} color="#dc2626" />}
+                <span style={{ fontSize: '0.85rem', fontWeight: '900', color: geminiKey ? '#059669' : '#dc2626' }}>
+                    {geminiKey ? t('set_api_status_ok') : t('set_api_status_none')}
+                </span>
+            </div>
         </div>
         
-        <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.3rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.2rem', boxShadow: '0 6px 0 #000' }}>
+        <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>{t('set_api_desc')}</p>
+        
+        <div style={{ position: 'relative', marginBottom: '1.2rem' }}>
+            <input type={showApiKey ? "text" : "password"} value={geminiKey} onChange={e => setGeminiKey(e.target.value)} placeholder={t('set_ai_placeholder')} 
+                style={{ width: '100%', padding: '1.3rem', paddingRight: '3.5rem', border: '2.5px solid #f0f0f0', borderRadius: '20px', outline: 'none', fontSize: '1.1rem', fontWeight: '600', transition: '0.3s' }} 
+                onFocus={e => e.target.style.borderColor = '#feca57'}
+                onBlur={e => e.target.style.borderColor = '#f0f0f0'}
+            />
+            <button onClick={() => setShowApiKey(!showApiKey)} 
+                style={{ position: 'absolute', right: '1.2rem', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', cursor: 'pointer', color: '#999' }}>
+                {showApiKey ? <EyeOff size={22} /> : <Eye size={22} />}
+            </button>
+        </div>
+
+        <button onClick={() => window.location.hash = "#guide"} 
+            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', width: '100%', padding: '0.8rem', background: '#fafafa', color: '#666', border: '2px solid #eee', borderRadius: '15px', marginBottom: '1.8rem', fontWeight: '800', fontSize: '0.9rem', cursor: 'pointer' }}>
+            <BookOpen size={18} /> {t('set_guide_btn')}
+        </button>
+        
+        <div style={{ background: '#f8fafc', padding: '1.5rem', borderRadius: '20px', marginBottom: '1.8rem', border: '1px solid #e2e8f0' }}>
+            <label style={{ display: 'block', fontSize: '0.85rem', color: '#64748b', fontWeight: '900', marginBottom: '10px' }}>{t('set_gemini_model_select')}</label>
+            <div style={{ display: 'flex', gap: '12px' }}>
+                <select value={selectedGeminiModel} onChange={e => setSelectedGeminiModel(e.target.value)}
+                    style={{ flex: 1, padding: '1rem', border: '2px solid #e2e8f0', borderRadius: '15px', outline: 'none', fontWeight: '700', color: '#334155', background: '#fff' }}>
+                    {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>모델 로딩 필요</option>}
+                </select>
+                <button onClick={handleFetchModels} disabled={loadingModels} style={{ padding: '0 1.2rem', background: '#feca57', color: '#fff', border: 'none', borderRadius: '15px', cursor: 'pointer', boxShadow: '0 4px 0 #e67e22', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <Sparkles size={20} />
+                </button>
+            </div>
+        </div>
+        
+        <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.3rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.2rem', boxShadow: '0 6px 0 #000', cursor: 'pointer', transition: '0.2s' }}
+            onMouseOver={e => e.currentTarget.style.transform = 'translateY(-2px)'}
+            onMouseOut={e => e.currentTarget.style.transform = 'translateY(0)'}>
             {t('set_btn_save')}
         </button>
       </div>
