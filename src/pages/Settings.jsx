@@ -121,11 +121,11 @@ const Settings = () => {
     finally { setLoadingVoices(false); }
   };
 
-  const handleExportCSV = async () => {
-    try {
-      const words = await getWords();
-      if (words.length === 0) { alert("내보낼 단어가 없습니다."); return; }
-      const csvContent = convertToCSV(words);
+    const handleExportCSV = async () => {
+      try {
+        const words = await getWords();
+        if (words.length === 0) { alert(t('msg_export_no_words')); return; }
+        const csvContent = convertToCSV(words);
       const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
@@ -184,11 +184,38 @@ const Settings = () => {
     finally { setLoadingModels(false); }
   };
 
-  const saveApiKeys = () => {
-    localStorage.setItem('geminiApiKey', geminiKey);
-    localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
-    alert(t('set_save_success'));
-  };
+    const saveApiKeys = () => {
+      localStorage.setItem('geminiApiKey', geminiKey);
+      localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
+      alert(t('set_save_success'));
+    };
+  
+    const handleJsonImport = async () => {
+      if (!jsonInput.trim()) return;
+      setIsJsonImporting(true);
+      try {
+          const words = JSON.parse(jsonInput);
+          if (!Array.isArray(words)) throw new Error("JSON must be an array of word objects.");
+          
+          let added = 0;
+          for (const w of words) {
+              const { id, created_at, ...cleanWord } = w;
+              // 누락된 기본 필드 보충
+              if (!cleanWord.user_lang) cleanWord.user_lang = userLang;
+              if (!cleanWord.study_lang) cleanWord.study_lang = studyLang;
+              
+              await addWord(cleanWord);
+              added++;
+          }
+          alert(t('msg_restore_done', { count: added }));
+          setIsJsonModalOpen(false);
+          setJsonInput('');
+      } catch (err) {
+          alert("Import fail: " + err.message);
+      } finally {
+          setIsJsonImporting(false);
+      }
+    };
 
   return (
     <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem' }}>

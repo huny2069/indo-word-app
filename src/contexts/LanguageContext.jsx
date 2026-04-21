@@ -39,11 +39,12 @@ export const LanguageProvider = ({ children }) => {
 
   return (
     <LanguageContext.Provider value={{ 
-      lang: userLang, // 하위 호환성을 위해 lang 노출
+      lang: userLang, 
       userLang, 
       studyLang, 
       changeUserLang, 
-      changeStudyLang, 
+      changeStudyLang,
+      setLanguage: changeUserLang, // Layout.jsx 호환용 별칭
       t 
     }}>
       {children}
