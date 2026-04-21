@@ -157,7 +157,7 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
 export async function fetchGoogleVoices(accessToken) {
   if (!accessToken) return [];
   try {
-    const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/voices`, {
+    const response = await fetch(`https://texttospeech.googleapis.com/v1/voices`, {
       method: 'GET',
       headers: { 
         'Authorization': `Bearer ${accessToken}`,

@@ -130,8 +130,8 @@ export const fetchGeminiModels = async (apiKey) => {
   const cleanKey = apiKey ? apiKey.trim() : '';
   if (!cleanKey) throw new Error('API 키가 없습니다.');
 
-  // 더 안정적인 v1 엔드포인트 시도
-  const endpoint = `https://generativelanguage.googleapis.com/v1/models?key=${cleanKey}`;
+  // 최신 및 실험적 모델까지 모두 가져오기 위해 v1beta 엔드포인트 사용
+  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`;
   
   try {
     const response = await fetch(endpoint, {

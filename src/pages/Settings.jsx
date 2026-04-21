@@ -117,13 +117,22 @@ const Settings = () => {
     setLoadingVoices(true);
     try {
         const voices = await fetchGoogleVoices(gcpAccessToken);
+        if (!voices || voices.length === 0) {
+          alert("음성 목록을 가져오지 못했습니다. Google 계정 연결이 만료되었을 수 있으니 다시 로그인해 주세요.");
+          return;
+        }
         const filtered = voices.filter(v => 
-            v.languageCodes.some(lc => lc.startsWith('ko') || lc.startsWith('id') || lc.startsWith('en'))
+            v.languageCodes.some(lc => {
+              const lowerLc = lc.toLowerCase();
+              return lowerLc.startsWith('ko') || lowerLc.startsWith('id') || lowerLc.startsWith('en');
+            })
         );
         setGoogleVoiceList(filtered);
         localStorage.setItem('google_voice_list', JSON.stringify(filtered));
         alert(t('msg_fetch_voices_all_done'));
-    } catch (err) { alert(t('msg_fetch_voices_fail')); }
+    } catch (err) { 
+      alert(t('msg_fetch_voices_fail') + ": " + err.message); 
+    }
     finally { setLoadingVoices(false); }
   };
 
