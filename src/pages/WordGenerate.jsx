@@ -230,7 +230,7 @@ const WordGenerate = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
                     <h3 style={{ margin: 0, color: 'var(--primary-color)', fontSize: '1.4rem', fontWeight: '900' }}>{w.word}</h3>
-                    <button onClick={() => playAudio(w.word)} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '10px', cursor: 'pointer' }}>
+                    <button onClick={() => playAudio(w.word, w.study_lang)} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '10px', cursor: 'pointer' }}>
                         <Volume2 size={22} />
                     </button>
                     {w.pronunciation && <span style={{ color: '#999', fontSize: '1rem', fontWeight: '500' }}>[{w.pronunciation}]</span>}
@@ -249,11 +249,11 @@ const WordGenerate = () => {
                                     <div style={{ flex: 1, fontSize: '0.95rem', color: '#333', lineHeight: '1.5' }}>
                                         <InteractiveSentence sentence={w.example_formal} wordBreakdown={w.word_breakdown} />
                                     </div>
-                                    <button onClick={() => playAudio(w.example_formal)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
+                                    <button onClick={() => playAudio(w.example_formal, w.study_lang)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
                                         <Volume2 size={16} />
                                     </button>
                                 </div>
-                                <p style={{ margin: '0 0 0 4.5rem', fontSize: '0.85rem', color: '#888', fontWeight: '600' }}>{w.example_formal_kr}</p>
+                                <p style={{ margin: '0 0 0 4.5rem', fontSize: '0.85rem', color: '#888', fontWeight: '600' }} onClick={() => playAudio(w.example_formal_kr, w.user_lang)}>{w.example_formal_kr}</p>
                             </div>
                         )}
                         {w.example_casual && (
@@ -263,11 +263,11 @@ const WordGenerate = () => {
                                     <div style={{ flex: 1, fontSize: '0.95rem', color: '#333', lineHeight: '1.5' }}>
                                         <InteractiveSentence sentence={w.example_casual} wordBreakdown={w.word_breakdown} />
                                     </div>
-                                    <button onClick={() => playAudio(w.example_casual)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
+                                    <button onClick={() => playAudio(w.example_casual, w.study_lang)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
                                         <Volume2 size={16} />
                                     </button>
                                 </div>
-                                <p style={{ margin: '0 0 0 4.5rem', fontSize: '0.85rem', color: '#888', fontWeight: '600' }}>{w.example_casual_kr}</p>
+                                <p style={{ margin: '0 0 0 4.5rem', fontSize: '0.85rem', color: '#888', fontWeight: '600' }} onClick={() => playAudio(w.example_casual_kr, w.user_lang)}>{w.example_casual_kr}</p>
                             </div>
                         )}
                     </div>

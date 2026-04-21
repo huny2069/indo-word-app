@@ -528,7 +528,7 @@ const WordList = () => {
                             <span style={{ fontWeight: '700', fontSize: '1.1rem', color: '#444', lineHeight: '1.4' }}>{w.meaning}</span>
                         </div>
                         <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
-                           <button onClick={(e) => { e.stopPropagation(); playAudio(w.word); }} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#1976d2', padding: '12px' }}>
+                           <button onClick={(e) => { e.stopPropagation(); playAudio(w.word, w.study_lang); }} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#1976d2', padding: '12px' }}>
                               <Volume2 size={22} />
                            </button>
                            <span style={{ fontSize: '0.8rem', background: '#f5f5f5', padding: '5px 12px', borderRadius: '50px', color: '#666', minWidth: '45px', textAlign: 'center', fontWeight: '800' }}>{w.pos}</span>
@@ -558,9 +558,9 @@ const WordList = () => {
                                             <div style={{ flex: 1, fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.5' }}>
                                                 <InteractiveSentence sentence={w.example_formal} wordBreakdown={w.word_breakdown} />
                                             </div>
-                                            <button onClick={() => playAudio(w.example_formal)} style={{ color: '#777', border: 'none', background: 'none' }}><Volume2 size={18} /></button>
+                                            <button onClick={() => playAudio(w.example_formal, w.study_lang)} style={{ color: '#777', border: 'none', background: 'none' }}><Volume2 size={18} /></button>
                                         </div>
-                                        <p style={{ margin: '0 0 0 4.8rem', fontSize: '0.9rem', color: '#888', fontWeight: '700' }}>{w.example_formal_kr}</p>
+                                        <p style={{ margin: '0 0 0 4.8rem', fontSize: '0.9rem', color: '#888', fontWeight: '700' }} onClick={() => playAudio(w.example_formal_kr, w.user_lang)}>{w.example_formal_kr}</p>
                                     </div>
                                 )}
                                 {w.example_casual && (
@@ -570,9 +570,9 @@ const WordList = () => {
                                             <div style={{ flex: 1, fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.5' }}>
                                                 <InteractiveSentence sentence={w.example_casual} wordBreakdown={w.word_breakdown} />
                                             </div>
-                                            <button onClick={() => playAudio(w.example_casual)} style={{ color: '#777', border: 'none', background: 'none' }}><Volume2 size={18} /></button>
+                                            <button onClick={() => playAudio(w.example_casual, w.study_lang)} style={{ color: '#777', border: 'none', background: 'none' }}><Volume2 size={18} /></button>
                                         </div>
-                                        <p style={{ margin: '0 0 0 4.8rem', fontSize: '0.9rem', color: '#888', fontWeight: '700' }}>{w.example_casual_kr}</p>
+                                        <p style={{ margin: '0 0 0 4.8rem', fontSize: '0.9rem', color: '#888', fontWeight: '700' }} onClick={() => playAudio(w.example_casual_kr, w.user_lang)}>{w.example_casual_kr}</p>
                                     </div>
                                 )}
                              </div>

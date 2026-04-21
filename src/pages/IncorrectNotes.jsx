@@ -150,7 +150,7 @@ const IncorrectNotes = () => {
                                 </button>
                                 <button 
                                     className="icon-btn" 
-                                    onClick={(e) => { e.stopPropagation(); playAudio(word.word); }}
+                                    onClick={(e) => { e.stopPropagation(); playAudio(word.word, word.study_lang); }}
                                     title={t('btn_pronunciation')}
                                 >
                                     <Volume2 size={20} />

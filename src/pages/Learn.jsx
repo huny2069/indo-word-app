@@ -341,7 +341,7 @@ const Learn = () => {
                     <h1 style={{ fontSize: '3.8rem', margin: 0, color: 'var(--nana-dark)', wordBreak: 'break-all' }}>
                     {currentWord.word}
                     </h1>
-                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.word); }} style={{ background: '#feca57', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.word, currentWord.study_lang); }} style={{ background: '#feca57', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Volume2 size={24} />
                     </button>
                 </div>
@@ -352,7 +352,7 @@ const Learn = () => {
                     <h2 style={{ fontSize: '2.5rem', margin: 0, color: '#e67e22', fontWeight: '900' }}>
                     {currentWord.meaning}
                     </h2>
-                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.meaning); }} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.6rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.meaning, currentWord.user_lang); }} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.6rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Volume2 size={20} />
                     </button>
                 </div>
@@ -397,13 +397,13 @@ const Learn = () => {
         <div style={{ background: '#fff', padding: '2.5rem 1.5rem', borderRadius: '35px', border: '4px solid #ff9f43', boxShadow: '0 12px 0 #ff9f43' }}>
           <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
             <span style={{ background: '#fff7ed', color: '#ea580c', padding: '0.6rem 1.2rem', borderRadius: '25px', fontSize: '0.9rem', fontWeight: '900', border: '2px solid #fed7aa' }}>
-                {isIndoMode ? 'B. Korea ➔ B. Indo' : '인도네시아어 ➔ 한국어'}
+                {t('label_meaning')} ({translations[userLang]?.name || userLang}) ➔ ({translations[studyLang]?.name || studyLang})
             </span>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
                 <h2 style={{ margin: 0, fontSize: '2.8rem', color: 'var(--nana-dark)', fontWeight: '900' }}>
                     {currentWord.word}
                 </h2>
-                <button onClick={() => playAudio(currentWord.word)} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <button onClick={() => playAudio(currentWord.word, currentWord.study_lang)} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Volume2 size={24} />
                 </button>
             </div>
@@ -471,7 +471,7 @@ const Learn = () => {
             spellCheck="false" 
           />
           <div style={{display: 'flex', gap: '1rem'}}>
-            <button onClick={() => playAudio(currentWord.word)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>
+            <button onClick={() => playAudio(currentWord.word, currentWord.study_lang)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>
               🔊 {t('learn_spelling_listen')}
             </button>
             <button onClick={handleSpellingSubmit} style={{ flex: 2, padding: '1.2rem', background: '#1dd1a1', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.2rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84' }}>
