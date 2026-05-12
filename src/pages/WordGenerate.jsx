@@ -233,11 +233,11 @@ const WordGenerate = () => {
             <form onSubmit={handleManualSave} style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '1rem' }}>
                     <div>
-                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>{t('gen_manual_word')}*</label>
+                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>{t('gen_manual_word')}</label>
                         <input type="text" value={manualWord.word} onChange={e => setManualWord({...manualWord, word: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px' }} required />
                     </div>
                     <div>
-                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>{t('gen_manual_meaning')}*</label>
+                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>{t('gen_manual_meaning')}</label>
                         <input type="text" value={manualWord.meaning} onChange={e => setManualWord({...manualWord, meaning: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px' }} required />
                     </div>
                 </div>
