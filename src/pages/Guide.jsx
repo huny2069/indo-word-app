@@ -40,7 +40,6 @@ const Guide = () => {
 
   const renderLink = (text) => {
     if (!text) return '';
-    // [Text](Link) 형식을 찾아서 a 태그로 변환
     const parts = text.split(/\[(.*?)\]\((.*?)\)/);
     if (parts.length > 1) {
         return (
@@ -57,7 +56,56 @@ const Guide = () => {
   };
 
   return (
-    <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem' }}>
+    <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem', width: '100%', boxSizing: 'border-box' }}>
+      <style>{`
+        .guide-step-card {
+          background: #fff;
+          padding: 1.5rem;
+          border-radius: 24px;
+          box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+          border: 1px solid #f0f0f0;
+          display: flex;
+          gap: 1.2rem;
+          alignItems: center;
+        }
+        .guide-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+          gap: 1.5rem;
+          margin-bottom: 4rem;
+        }
+        .detail-guide-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+          gap: 2rem;
+        }
+        @media (max-width: 600px) {
+          .guide-grid {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+          }
+          .detail-guide-grid {
+            grid-template-columns: 1fr;
+            gap: 1.2rem;
+          }
+          .guide-step-card {
+            padding: 1.2rem;
+            border-radius: 20px;
+          }
+          .page {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+          }
+          h1 { font-size: 1.8rem !important; }
+          h2 { font-size: 1.4rem !important; }
+          .billing-section {
+            padding: 1.5rem !important;
+            border-radius: 25px !important;
+          }
+        }
+      `}</style>
+
       <div style={{ textAlign: 'center', marginBottom: '3.5rem', marginTop: '1rem' }}>
         <h1 style={{ fontSize: '2.2rem', fontWeight: '900', color: 'var(--primary-color)', marginBottom: '1rem', letterSpacing: '-1px' }}>
           {t('nav_guide')}
@@ -68,22 +116,13 @@ const Guide = () => {
       </div>
 
       {/* 🚀 빠른 시작 가이드 */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '1.5rem', marginBottom: '4rem' }}>
+      <div className="guide-grid">
         {steps.map(step => (
-          <div key={step.id} style={{ 
-            background: '#fff', 
-            padding: '1.5rem', 
-            borderRadius: '24px', 
-            boxShadow: '0 8px 25px rgba(0,0,0,0.04)',
-            border: '1px solid #f0f0f0',
-            display: 'flex',
-            gap: '1.2rem',
-            alignItems: 'center'
-          }}>
-            <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '18px' }}>{step.icon}</div>
+          <div key={step.id} className="guide-step-card">
+            <div style={{ background: '#f8f9fa', padding: '0.8rem', borderRadius: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{step.icon}</div>
             <div style={{ flex: 1 }}>
-              <h4 style={{ margin: '0 0 0.3rem 0', color: '#333', fontSize: '1.1rem', fontWeight: '800' }}>{step.title}</h4>
-              <p style={{ margin: 0, color: '#777', fontSize: '0.9rem', lineHeight: '1.5' }}>{step.desc}</p>
+              <h4 style={{ margin: '0 0 0.3rem 0', color: '#333', fontSize: '1.05rem', fontWeight: '800' }}>{step.title}</h4>
+              <p style={{ margin: 0, color: '#777', fontSize: '0.85rem', lineHeight: '1.5' }}>{step.desc}</p>
             </div>
           </div>
         ))}
@@ -94,14 +133,14 @@ const Guide = () => {
         <Info color="var(--primary-color)" /> {t('guide_detail_title')}
       </h2>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '2rem' }}>
+      <div className="detail-guide-grid">
         {/* Gemini API Section */}
         <section style={{ background: '#fff', padding: '2rem', borderRadius: '30px', border: '1px solid #eee', boxShadow: '0 10px 30px rgba(0,0,0,0.03)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
             <div style={{ background: '#e3f2fd', padding: '0.6rem', borderRadius: '12px' }}><Key size={24} color="#1976d2" /></div>
-            <h3 style={{ margin: 0, fontSize: '1.3rem', fontWeight: '800' }}>{t('guide_section_api')}</h3>
+            <h3 style={{ margin: 0, fontSize: '1.2rem', fontWeight: '800' }}>{t('guide_section_api')}</h3>
           </div>
-          <div style={{ display: 'grid', gap: '1rem', fontSize: '0.95rem', color: '#444' }}>
+          <div style={{ display: 'grid', gap: '1rem', fontSize: '0.9rem', color: '#444' }}>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{renderLink(t('guide_api_step1'))}</div>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_api_step2')}</div>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_api_step3')}</div>
@@ -112,9 +151,9 @@ const Guide = () => {
         <section style={{ background: '#fff', padding: '2rem', borderRadius: '30px', border: '1px solid #eee', boxShadow: '0 10px 30px rgba(0,0,0,0.03)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
             <div style={{ background: '#e8f5e9', padding: '0.6rem', borderRadius: '12px' }}><Cloud size={24} color="#2e7d32" /></div>
-            <h3 style={{ margin: 0, fontSize: '1.3rem', fontWeight: '800' }}>{t('guide_section_drive')}</h3>
+            <h3 style={{ margin: 0, fontSize: '1.2rem', fontWeight: '800' }}>{t('guide_section_drive')}</h3>
           </div>
-          <div style={{ display: 'grid', gap: '1rem', fontSize: '0.95rem', color: '#444' }}>
+          <div style={{ display: 'grid', gap: '1rem', fontSize: '0.9rem', color: '#444' }}>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_drive_step1')}</div>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_drive_step2')}</div>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_drive_step3')}</div>
@@ -125,9 +164,9 @@ const Guide = () => {
         <section style={{ background: '#fff', padding: '2rem', borderRadius: '30px', border: '1px solid #eee', boxShadow: '0 10px 30px rgba(0,0,0,0.03)', gridColumn: '1 / -1' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
             <div style={{ background: '#fff3e0', padding: '0.6rem', borderRadius: '12px' }}><CloudLightning size={24} color="#e67e22" /></div>
-            <h3 style={{ margin: 0, fontSize: '1.3rem', fontWeight: '800' }}>{t('guide_section_google_tts')}</h3>
+            <h3 style={{ margin: 0, fontSize: '1.2rem', fontWeight: '800' }}>{t('guide_section_google_tts')}</h3>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1rem', fontSize: '0.92rem', color: '#444' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1rem', fontSize: '0.9rem', color: '#444' }}>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{renderLink(t('guide_tts_step1'))}</div>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_tts_step2')}</div>
             <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '15px' }}>{t('guide_tts_step3')}</div>
@@ -141,20 +180,20 @@ const Guide = () => {
       </div>
 
       {/* 💰 비용 및 토큰 안내 */}
-      <section style={{ marginTop: '3rem', background: '#fffdf0', padding: '2.5rem', borderRadius: '35px', border: '2px dashed #feca57' }}>
+      <section className="billing-section" style={{ marginTop: '3rem', background: '#fffdf0', padding: '2.5rem', borderRadius: '35px', border: '2px dashed #feca57' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
           <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '50%', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}><CreditCard size={28} color="#e67e22" /></div>
-          <h3 style={{ margin: 0, fontSize: '1.5rem', fontWeight: '900', color: '#856404' }}>{t('guide_section_billing')}</h3>
+          <h3 style={{ margin: 0, fontSize: '1.4rem', fontWeight: '900', color: '#856404' }}>{t('guide_section_billing')}</h3>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
           <div>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: '#2d3436' }}>✨ {t('guide_billing_token_title')}</h5>
-            <p style={{ margin: 0, fontSize: '0.95rem', color: '#636e72', lineHeight: '1.6' }}>{t('guide_billing_token_desc')}</p>
+            <h5 style={{ fontSize: '1.05rem', marginBottom: '0.5rem', color: '#2d3436' }}>✨ {t('guide_billing_token_title')}</h5>
+            <p style={{ margin: 0, fontSize: '0.9rem', color: '#636e72', lineHeight: '1.6' }}>{t('guide_billing_token_desc')}</p>
           </div>
           <div>
-            <h5 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: '#2d3436' }}>💸 {t('guide_billing_cost_title')}</h5>
-            <p style={{ margin: 0, fontSize: '0.95rem', color: '#636e72', lineHeight: '1.6' }}>{t('guide_billing_cost_desc')}</p>
+            <h5 style={{ fontSize: '1.05rem', marginBottom: '0.5rem', color: '#2d3436' }}>💸 {t('guide_billing_cost_title')}</h5>
+            <p style={{ margin: 0, fontSize: '0.9rem', color: '#636e72', lineHeight: '1.6' }}>{t('guide_billing_cost_desc')}</p>
           </div>
         </div>
       </section>
@@ -168,7 +207,7 @@ const Guide = () => {
         textAlign: 'center',
         boxShadow: '0 20px 40px rgba(254, 202, 87, 0.3)'
       }}>
-        <h3 style={{ margin: '0 0 0.8rem 0', fontSize: '1.5rem', fontWeight: '900' }}>
+        <h3 style={{ margin: '0 0 0.8rem 0', fontSize: '1.4rem', fontWeight: '900' }}>
             {t('guide_questions_title')} 🍌
         </h3>
         <p style={{ margin: 0, opacity: 0.95, fontWeight: 'bold' }}>

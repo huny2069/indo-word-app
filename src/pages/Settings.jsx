@@ -101,7 +101,6 @@ const Settings = () => {
     const savedList = localStorage.getItem('geminiModelList');
     if (savedList) setModelList(JSON.parse(savedList));
 
-    // 기존 키가 있으면 초기 상태를 valid로 가정 (혹은 idle)
     if (localStorage.getItem('geminiApiKey')) setApiStatus('valid');
 
     const handleStorageChange = (e) => {
@@ -197,12 +196,10 @@ const Settings = () => {
         setModelList(models);
         localStorage.setItem('geminiModelList', JSON.stringify(models));
         
-        // 검증 성공 시 즉시 자동 저장 및 모델 자동 선택
         localStorage.setItem('geminiApiKey', keyToUse.trim());
         setGeminiKey(keyToUse.trim());
         setApiStatus('valid');
 
-        // 현재 선택된 모델이 목록에 없으면 첫 번째 모델 자동 선택
         if (models.length > 0 && (!selectedGeminiModel || !models.includes(selectedGeminiModel))) {
           const firstModel = models[0];
           setSelectedGeminiModel(firstModel);
@@ -254,7 +251,6 @@ const Settings = () => {
           for (const w of words) {
             try {
               const { id, created_at, ...cleanWord } = w;
-              // 누락된 기본 필드 보충
               if (!cleanWord.study_lang) cleanWord.study_lang = studyLang;
               if (!cleanWord.user_lang) cleanWord.user_lang = userLang;
               
@@ -265,7 +261,7 @@ const Settings = () => {
             }
           }
           alert(t('msg_restore_done', { count: addCount }));
-          e.target.value = ''; // 초기화
+          e.target.value = '';
         } catch (err) {
           alert(t('msg_restore_fail') + ": " + err.message);
         }
@@ -274,20 +270,78 @@ const Settings = () => {
     };
 
   return (
-    <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem' }}>
+    <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem', width: '100%', boxSizing: 'border-box' }}>
+      <style>{`
+        .settings-card {
+          background: #fff;
+          padding: 2.5rem;
+          border-radius: 35px;
+          box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+          margin-bottom: 2rem;
+          width: 100%;
+          box-sizing: border-box;
+          transition: 0.3s;
+        }
+        .voice-select-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 1.5rem;
+        }
+        .lang-select-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 2rem;
+        }
+        @media (max-width: 600px) {
+          .settings-card {
+            padding: 1.5rem;
+            border-radius: 24px;
+            margin-bottom: 1.2rem;
+          }
+          .page {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+          }
+          h2 {
+            font-size: 1.8rem !important;
+            margin-bottom: 1.5rem !important;
+          }
+          h3 {
+            font-size: 1.2rem !important;
+            margin-bottom: 1.2rem !important;
+          }
+          .voice-select-grid {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+          }
+          .lang-select-grid {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+          }
+          .engine-btn-grid {
+            grid-template-columns: 1fr !important;
+            gap: 0.8rem !important;
+          }
+          .badge-status {
+            font-size: 0.75rem !important;
+            padding: 4px 8px !important;
+          }
+        }
+      `}</style>
+      
       <h2 style={{ fontSize: '2.4rem', fontWeight: '900', marginBottom: '2.5rem', textAlign: 'center', color: 'var(--nana-dark)' }}>{t('set_title')}</h2>
       
-      {/* (1) 언어 설정 섹션 - 3개국어 상호 학습 대응 */}
-      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', border: '2px solid #feca57', marginBottom: '2rem' }}>
+      {/* (1) 언어 설정 섹션 */}
+      <div className="settings-card" style={{ border: '2px solid #feca57' }}>
         <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.8rem', color: '#1a1a1a', fontWeight: '900' }}>
-            <span style={{ fontSize: '1.8rem' }}>🌍</span> {t('set_lang_title')}
+            <span style={{ fontSize: '1.5rem' }}>🌍</span> {t('set_lang_title')}
         </h3>
         
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+        <div className="lang-select-grid">
             {/* 모국어 선택 */}
-            <div style={{ padding: '1.8rem', background: '#fafafa', borderRadius: '25px', border: '1px solid #eee' }}>
-                <label style={{ display: 'block', fontWeight: '900', marginBottom: '1.2rem', color: '#666', fontSize: '1rem' }}>{t('onboarding_native')}</label>
-                <div style={{ display: 'flex', gap: '0.8rem' }}>
+            <div style={{ padding: '1.5rem', background: '#fafafa', borderRadius: '25px', border: '1px solid #eee' }}>
+                <label style={{ display: 'block', fontWeight: '900', marginBottom: '1rem', color: '#666', fontSize: '0.95rem' }}>{t('onboarding_native')}</label>
+                <div style={{ display: 'flex', gap: '0.6rem' }}>
                     {[
                         {code: 'ko', flag: '🇰🇷'}, 
                         {code: 'id', flag: '🇮🇩'}, 
@@ -295,10 +349,10 @@ const Settings = () => {
                     ].map(lang => (
                         <button key={lang.code} onClick={() => changeUserLang(lang.code)} 
                             style={{ 
-                                flex: 1, padding: '1.2rem 0.5rem', borderRadius: '18px', 
+                                flex: 1, padding: '1rem 0.5rem', borderRadius: '18px', 
                                 border: userLang === lang.code ? '4px solid #feca57' : '2px solid #eee', 
                                 background: userLang === lang.code ? '#fff9e7' : '#fff', cursor: 'pointer', 
-                                transition: '0.2s', fontSize: '2rem'
+                                transition: '0.2s', fontSize: '1.6rem'
                             }}>
                             {lang.flag}
                         </button>
@@ -307,9 +361,9 @@ const Settings = () => {
             </div>
 
             {/* 학습 언어 선택 */}
-            <div style={{ padding: '1.8rem', background: '#fafafa', borderRadius: '25px', border: '1px solid #eee' }}>
-                <label style={{ display: 'block', fontWeight: '900', marginBottom: '1.2rem', color: '#666', fontSize: '1rem' }}>{t('onboarding_study')}</label>
-                <div style={{ display: 'flex', gap: '0.8rem' }}>
+            <div style={{ padding: '1.5rem', background: '#fafafa', borderRadius: '25px', border: '1px solid #eee' }}>
+                <label style={{ display: 'block', fontWeight: '900', marginBottom: '1rem', color: '#666', fontSize: '0.95rem' }}>{t('onboarding_study')}</label>
+                <div style={{ display: 'flex', gap: '0.6rem' }}>
                     {[
                         {code: 'ko', flag: '🇰🇷'}, 
                         {code: 'id', flag: '🇮🇩'}, 
@@ -319,11 +373,11 @@ const Settings = () => {
                             onClick={() => changeStudyLang(lang.code)} 
                             disabled={userLang === lang.code} 
                             style={{ 
-                                flex: 1, padding: '1.2rem 0.5rem', borderRadius: '18px', 
+                                flex: 1, padding: '1rem 0.5rem', borderRadius: '18px', 
                                 border: studyLang === lang.code ? '4px solid #feca57' : '2px solid #eee', 
                                 background: studyLang === lang.code ? '#fff9e7' : '#fff', 
                                 cursor: userLang === lang.code ? 'not-allowed' : 'pointer', 
-                                opacity: userLang === lang.code ? 0.2 : 1, transition: '0.2s', fontSize: '2rem'
+                                opacity: userLang === lang.code ? 0.2 : 1, transition: '0.2s', fontSize: '1.6rem'
                             }}>
                             {lang.flag}
                         </button>
@@ -334,15 +388,15 @@ const Settings = () => {
       </div>
 
       {/* (2) 음성 엔진 설정 */}
-      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', marginBottom: '2rem' }}>
+      <div className="settings-card">
         <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.8rem', color: '#1a1a1a', fontWeight: '900' }}>
-            <span style={{ fontSize: '1.8rem' }}>🔊</span> {t('set_audio_title')}
+            <span style={{ fontSize: '1.5rem' }}>🔊</span> {t('set_audio_title')}
         </h3>
         
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.5rem', background: '#f5f7f9', borderRadius: '25px', border: '1px solid #eee', marginBottom: '1.5rem' }}>
-            <div>
-                <span style={{ fontWeight: '900', fontSize: '1.1rem', color: 'var(--nana-dark)' }}>{t('set_audio_label')}</span>
-                <p style={{ margin: '0.3rem 0 0', fontSize: '0.85rem', color: '#777', fontWeight: '600' }}>{t('set_audio_desc')}</p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.2rem', background: '#f5f7f9', borderRadius: '25px', border: '1px solid #eee', marginBottom: '1.5rem' }}>
+            <div style={{ flex: 1, paddingRight: '1rem' }}>
+                <span style={{ fontWeight: '900', fontSize: '1rem', color: 'var(--nana-dark)' }}>{t('set_audio_label')}</span>
+                <p style={{ margin: '0.2rem 0 0', fontSize: '0.8rem', color: '#777', fontWeight: '600' }}>{t('set_audio_desc')}</p>
             </div>
             <label className="switch">
                 <input type="checkbox" checked={isAudioEnabled} onChange={e => {
@@ -353,40 +407,40 @@ const Settings = () => {
             </label>
         </div>
 
-        <div style={{ background: '#fafafa', padding: '2rem', borderRadius: '30px', border: '1px solid #eee' }}>
-            <span style={{ fontWeight: '900', fontSize: '1.1rem', display: 'block', marginBottom: '1.5rem', color: '#555' }}>{t('set_engine_all')}</span>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1.2rem', marginBottom: '1.8rem' }}>
+        <div style={{ background: '#fafafa', padding: '1.5rem', borderRadius: '30px', border: '1px solid #eee' }}>
+            <span style={{ fontWeight: '900', fontSize: '1rem', display: 'block', marginBottom: '1.2rem', color: '#555' }}>{t('set_engine_all')}</span>
+            <div className="engine-btn-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
                 {[
                     {id: 'google', label: 'Google Premium'},
                     {id: 'gemini', label: 'Gemini AI'},
                     {id: 'browser', label: 'Offline Default'}
                 ].map(engine => (
                     <button key={engine.id} onClick={() => { if(engine.id === 'google' && !gcpAccessToken) handleGoogleLogin(); setTtsEngine(engine.id); localStorage.setItem('tts_engine', engine.id); }}
-                        style={{ padding: '1.2rem', borderRadius: '20px', border: ttsEngine === engine.id ? '4px solid #feca57' : '2px solid #eee', background: ttsEngine === engine.id ? '#fff' : '#fff', color: ttsEngine === engine.id ? 'var(--nana-dark)' : '#999', fontWeight: '900', transition: '0.3s', fontSize: '1rem' }}>
+                        style={{ padding: '1rem', borderRadius: '18px', border: ttsEngine === engine.id ? '3px solid #feca57' : '2px solid #eee', background: ttsEngine === engine.id ? '#fff' : '#fff', color: ttsEngine === engine.id ? 'var(--nana-dark)' : '#999', fontWeight: '900', transition: '0.3s', fontSize: '0.9rem' }}>
                         {engine.label}
                     </button>
                 ))}
             </div>
 
             {ttsEngine === 'google' && (
-                <div style={{ background: '#fff', padding: '1.8rem', borderRadius: '25px', border: '1px solid #eee', boxShadow: '0 5px 15px rgba(0,0,0,0.02)' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.8rem' }}>
-                        <span style={{ fontWeight: '900', color: '#333' }}>{t('set_lang_model')}</span>
-                        <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices} style={{ background: '#feca57', color: '#fff', border: 'none', padding: '0.7rem 1.4rem', borderRadius: '15px', fontSize: '0.85rem', fontWeight: '900', boxShadow: '0 4px 0 #e67e22', cursor: 'pointer' }}>
+                <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '25px', border: '1px solid #eee', boxShadow: '0 5px 15px rgba(0,0,0,0.02)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '0.8rem' }}>
+                        <span style={{ fontWeight: '900', color: '#333', fontSize: '0.95rem' }}>{t('set_lang_model')}</span>
+                        <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices} style={{ background: '#feca57', color: '#fff', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '15px', fontSize: '0.8rem', fontWeight: '900', boxShadow: '0 4px 0 #e67e22', cursor: 'pointer' }}>
                             {loadingVoices ? t('set_google_updating') : t('set_google_update')}
                         </button>
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
+                    <div className="voice-select-grid">
                         {[ {id: 'id', label: '🇮🇩 Indonesia', val: googleTtsModelId, set: setGoogleTtsModelId, list: idVoices, key: 'google_tts_model_id'},
                            {id: 'ko', label: '🇰🇷 Korean', val: googleTtsModelKo, set: setGoogleTtsModelKo, list: krVoices, key: 'google_tts_model_ko'},
                            {id: 'en', label: '🇺🇸 English', val: googleTtsModelEn, set: setGoogleTtsModelEn, list: enVoices, key: 'google_tts_model_en'}
                         ].map(m => (
-                            <div key={m.id} style={{ background: '#f9f9f9', padding: '1rem', borderRadius: '15px' }}>
-                                <label style={{ fontSize: '0.85rem', color: '#718096', display: 'block', marginBottom: '8px', fontWeight: '900' }}>{m.label}</label>
-                                <div style={{ display: 'flex', gap: '8px' }}>
+                            <div key={m.id} style={{ background: '#f9f9f9', padding: '0.8rem', borderRadius: '15px' }}>
+                                <label style={{ fontSize: '0.8rem', color: '#718096', display: 'block', marginBottom: '6px', fontWeight: '900' }}>{m.label}</label>
+                                <div style={{ display: 'flex', gap: '6px' }}>
                                     <select value={m.val} onChange={e => { m.set(e.target.value); localStorage.setItem(m.key, e.target.value); }}
-                                        style={{ flex: 1, padding: '0.9rem', borderRadius: '12px', border: '2px solid #eee', outline: 'none', fontWeight: '700', color: '#444' }}>
+                                        style={{ flex: 1, padding: '0.8rem', borderRadius: '12px', border: '2px solid #eee', outline: 'none', fontWeight: '700', color: '#444', fontSize: '0.85rem', width: '0' /* 중요: overflow 방지 */ }}>
                                         {m.list.length > 0 ? m.list.map(v => {
                                             const parts = v.name.split('-');
                                             const region = parts[1] || '??';
@@ -399,10 +453,8 @@ const Settings = () => {
                                         }) : <option value="">{t('set_google_update_needed')}</option>}
                                     </select>
                                     <button onClick={() => handleTestVoice(m.id, m.val)} disabled={!m.val} title={t('set_test_voice')}
-                                        style={{ background: '#fff', border: '2px solid #eee', borderRadius: '12px', padding: '0 12px', cursor: 'pointer', transition: '0.2s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                                        onMouseOver={e => e.currentTarget.style.borderColor = '#feca57'}
-                                        onMouseOut={e => e.currentTarget.style.borderColor = '#eee'}>
-                                        <Volume2 size={20} color="#feca57" />
+                                        style={{ background: '#fff', border: '2px solid #eee', borderRadius: '12px', padding: '0 10px', cursor: 'pointer', transition: '0.2s', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <Volume2 size={18} color="#feca57" />
                                     </button>
                                 </div>
                             </div>
@@ -413,21 +465,21 @@ const Settings = () => {
         </div>
       </div>
 
-      {/* (3) API 설정 - 직관적 개선 */}
-      <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', marginBottom: '2rem', border: '3px solid #f0f0f0' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontWeight: '900', color: '#1a1a1a', margin: 0 }}>
-                <span style={{ fontSize: '1.8rem' }}>🤖</span> {t('set_api_title')}
+      {/* (3) API 설정 */}
+      <div className="settings-card" style={{ border: '3px solid #f0f0f0' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.2rem', flexWrap: 'wrap', gap: '0.8rem' }}>
+            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontWeight: '900', color: '#1a1a1a', margin: 0 }}>
+                <span style={{ fontSize: '1.5rem' }}>🤖</span> {t('set_api_title')}
             </h3>
-            <div style={{ 
-                display: 'flex', alignItems: 'center', gap: '8px', 
+            <div className="badge-status" style={{ 
+                display: 'flex', alignItems: 'center', gap: '6px', 
                 background: apiStatus === 'valid' ? '#f0fdf4' : (apiStatus === 'invalid' ? '#fff1f2' : '#fefce8'), 
-                padding: '6px 12px', borderRadius: '12px', 
+                padding: '6px 10px', borderRadius: '12px', 
                 border: `1px solid ${apiStatus === 'valid' ? '#bcf0da' : (apiStatus === 'invalid' ? '#fecaca' : '#fef08a')}` 
             }}>
-                {apiStatus === 'valid' ? <CheckCircle size={16} color="#059669" /> : 
-                 (apiStatus === 'invalid' ? <XCircle size={16} color="#dc2626" /> : <Sparkles size={16} color="#ca8a04" />)}
-                <span style={{ fontSize: '0.85rem', fontWeight: '900', color: apiStatus === 'valid' ? '#059669' : (apiStatus === 'invalid' ? '#dc2626' : '#ca8a04') }}>
+                {apiStatus === 'valid' ? <CheckCircle size={14} color="#059669" /> : 
+                 (apiStatus === 'invalid' ? <XCircle size={14} color="#dc2626" /> : <Sparkles size={14} color="#ca8a04" />)}
+                <span style={{ fontSize: '0.8rem', fontWeight: '900', color: apiStatus === 'valid' ? '#059669' : (apiStatus === 'invalid' ? '#dc2626' : '#ca8a04') }}>
                     {apiStatus === 'valid' ? t('set_api_status_ok') : 
                      (apiStatus === 'verifying' ? t('set_api_status_verifying') : 
                       (apiStatus === 'invalid' ? t('set_api_status_invalid') : 
@@ -436,37 +488,35 @@ const Settings = () => {
             </div>
         </div>
         
-        <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>{t('set_api_desc')}</p>
+        <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1.2rem', fontWeight: '600' }}>{t('set_api_desc')}</p>
         
-        <div style={{ position: 'relative', marginBottom: '1.2rem' }}>
+        <div style={{ position: 'relative', marginBottom: '1rem' }}>
             <input type={showApiKey ? "text" : "password"} value={geminiKey} 
                 onChange={e => { setGeminiKey(e.target.value); setApiStatus('changed'); }} 
                 placeholder={t('set_ai_placeholder')} 
-                style={{ width: '100%', padding: '1.3rem', paddingRight: '3.5rem', border: '2.5px solid #f0f0f0', borderRadius: '20px', outline: 'none', fontSize: '1.1rem', fontWeight: '600', transition: '0.3s' }} 
-                onFocus={e => e.target.style.borderColor = '#feca57'}
-                onBlur={e => e.target.style.borderColor = '#f0f0f0'}
+                style={{ width: '100%', padding: '1.1rem', paddingRight: '3.5rem', border: '2.5px solid #f0f0f0', borderRadius: '18px', outline: 'none', fontSize: '1rem', fontWeight: '600', boxSizing: 'border-box' }} 
             />
             <button onClick={() => setShowApiKey(!showApiKey)} 
-                style={{ position: 'absolute', right: '1.2rem', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', cursor: 'pointer', color: '#999' }}>
-                {showApiKey ? <EyeOff size={22} /> : <Eye size={22} />}
+                style={{ position: 'absolute', right: '1rem', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', cursor: 'pointer', color: '#999' }}>
+                {showApiKey ? <EyeOff size={20} /> : <Eye size={20} />}
             </button>
         </div>
 
         <button onClick={() => navigate('/api-guide')} 
-            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', width: '100%', padding: '0.8rem', background: '#fafafa', color: '#666', border: '2px solid #eee', borderRadius: '15px', marginBottom: '1.8rem', fontWeight: '800', fontSize: '0.9rem', cursor: 'pointer' }}>
-            <BookOpen size={18} /> {t('set_guide_btn')}
+            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', width: '100%', padding: '0.8rem', background: '#fafafa', color: '#666', border: '2px solid #eee', borderRadius: '15px', marginBottom: '1.5rem', fontWeight: '800', fontSize: '0.85rem', cursor: 'pointer' }}>
+            <BookOpen size={16} /> {t('set_guide_btn')}
         </button>
         
-        <div style={{ background: '#f8fafc', padding: '1.5rem', borderRadius: '20px', marginBottom: '1.8rem', border: '1px solid #e2e8f0' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                <label style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: '900' }}>{t('set_gemini_model_select')}</label>
+        <div style={{ background: '#f8fafc', padding: '1.2rem', borderRadius: '20px', marginBottom: '1.5rem', border: '1px solid #e2e8f0' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', flexWrap: 'wrap', gap: '0.5rem' }}>
+                <label style={{ fontSize: '0.8rem', color: '#64748b', fontWeight: '900' }}>{t('set_gemini_model_select')}</label>
                 <button onClick={handleFetchModels} disabled={loadingModels} 
                     style={{ 
-                        padding: '0.5rem 1rem', background: '#feca57', color: '#fff', border: 'none', 
-                        borderRadius: '12px', cursor: 'pointer', boxShadow: '0 3px 0 #e67e22', 
-                        fontSize: '0.8rem', fontWeight: '900', display: 'flex', alignItems: 'center', gap: '6px' 
+                        padding: '0.5rem 0.8rem', background: '#feca57', color: '#fff', border: 'none', 
+                        borderRadius: '10px', cursor: 'pointer', boxShadow: '0 3px 0 #e67e22', 
+                        fontSize: '0.75rem', fontWeight: '900', display: 'flex', alignItems: 'center', gap: '4px' 
                     }}>
-                    <Sparkles size={14} /> {t('set_api_verify_btn')}
+                    <Sparkles size={12} /> {t('set_api_verify_btn')}
                 </button>
             </div>
             <select value={selectedGeminiModel} onChange={e => { 
@@ -474,62 +524,53 @@ const Settings = () => {
                 setSelectedGeminiModel(val);
                 localStorage.setItem('selectedGeminiModel', val);
             }}
-                style={{ width: '100%', padding: '1rem', border: '2px solid #e2e8f0', borderRadius: '15px', outline: 'none', fontWeight: '700', color: '#334155', background: '#fff' }}>
+                style={{ width: '100%', padding: '0.9rem', border: '2px solid #e2e8f0', borderRadius: '15px', outline: 'none', fontWeight: '700', color: '#334155', background: '#fff', fontSize: '0.9rem' }}>
                 {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>{t('set_model_update_needed')}</option>}
             </select>
-            {selectedGeminiModel && (
-                <p style={{ marginTop: '8px', fontSize: '0.8rem', color: '#059669', fontWeight: '800' }}>
-                    {t('set_model_applied').replace('{model}', selectedGeminiModel)}
-                </p>
-            )}
         </div>
         
-        <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.3rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.2rem', boxShadow: '0 6px 0 #000', cursor: 'pointer', transition: '0.2s' }}
-            onMouseOver={e => e.currentTarget.style.transform = 'translateY(-2px)'}
-            onMouseOut={e => e.currentTarget.style.transform = 'translateY(0)'}>
+        <button onClick={saveApiKeys} style={{ width: '100%', padding: '1.1rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', boxShadow: '0 5px 0 #000', cursor: 'pointer' }}>
             {t('set_btn_save')}
         </button>
       </div>
 
       {/* (4) 데이터 관리 및 클라우드 */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '1.5rem', marginBottom: '2.5rem' }}>
-        <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)' }}>
-            <h3 style={{ fontWeight: '900', color: '#1a1a1a', marginBottom: '1.5rem' }}>📁 {t('set_backup_title')}</h3>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <button onClick={handleExportCSV} style={{ width: '100%', padding: '1.2rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', cursor: 'pointer' }}>{t('set_backup_export')}</button>
-                <label style={{ width: '100%', padding: '1.2rem', background: '#fffbeb', color: '#92400e', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', textAlign: 'center', cursor: 'pointer', display: 'block' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.2rem', marginBottom: '2.5rem' }}>
+        <div className="settings-card">
+            <h3 style={{ fontWeight: '900', color: '#1a1a1a', marginBottom: '1.2rem', fontSize: '1.1rem' }}>📁 {t('set_backup_title')}</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                <button onClick={handleExportCSV} style={{ width: '100%', padding: '1rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '18px', fontWeight: '900', fontSize: '0.95rem', cursor: 'pointer' }}>{t('set_backup_export')}</button>
+                <label style={{ width: '100%', padding: '1rem', background: '#fffbeb', color: '#92400e', border: 'none', borderRadius: '18px', fontWeight: '900', fontSize: '0.95rem', textAlign: 'center', cursor: 'pointer', display: 'block' }}>
                     {t('set_backup_import')}
                     <input type="file" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
                 </label>
             </div>
         </div>
 
-        <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)', border: '3px solid #e8f0fe' }}>
-            <h3 style={{ fontWeight: '900', color: '#1a1a1a', marginBottom: '1.5rem' }}>☁️ {t('set_cloud_title')}</h3>
+        <div className="settings-card" style={{ border: '3px solid #e8f0fe' }}>
+            <h3 style={{ fontWeight: '900', color: '#1a1a1a', marginBottom: '1.2rem', fontSize: '1.1rem' }}>☁️ {t('set_cloud_title')}</h3>
             {gcpAccessToken ? (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                    <div style={{ padding: '0.8rem', background: '#eef2ff', borderRadius: '15px', fontSize: '0.95rem', color: '#4285f4', fontWeight: '800', textAlign: 'center' }}>{userEmail}</div>
-                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1.2rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 5px 0 #1c66d1' }}>{t('set_cloud_backup_btn')}</button>
-                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1.2rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 5px 0 #288141' }}>{t('set_cloud_restore_btn')}</button>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                    <div style={{ padding: '0.7rem', background: '#eef2ff', borderRadius: '15px', fontSize: '0.85rem', color: '#4285f4', fontWeight: '800', textAlign: 'center', wordBreak: 'break-all' }}>{userEmail}</div>
+                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '18px', fontWeight: '900', fontSize: '0.95rem', boxShadow: '0 4px 0 #1c66d1' }}>{t('set_cloud_backup_btn')}</button>
+                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ width: '100%', padding: '1rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '18px', fontWeight: '900', fontSize: '0.95rem', boxShadow: '0 4px 0 #288141' }}>{t('set_cloud_restore_btn')}</button>
                 </div>
             ) : (
                 <div style={{ textAlign: 'center' }}>
-                    <p style={{ fontSize: '0.85rem', color: '#999', marginBottom: '1.5rem', fontWeight: '600' }}>{t('set_cloud_connect_desc')}</p>
-                    <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.3rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.1rem', boxShadow: '0 6px 0 #1c66d1' }}>{t('set_cloud_login')}</button>
+                    <p style={{ fontSize: '0.8rem', color: '#999', marginBottom: '1.2rem', fontWeight: '600' }}>{t('set_cloud_connect_desc')}</p>
+                    <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.1rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 5px 0 #1c66d1' }}>{t('set_cloud_login')}</button>
                 </div>
             )}
         </div>
       </div>
 
       {/* 진단 섹션 */}
-      <div className="settings-card" style={{ background: '#fff5f5', padding: '1.8rem', borderRadius: '30px', border: '2px dashed #feb2b2', textAlign: 'center' }}>
-        <h4 style={{ color: '#c53030', margin: '0 0 0.8rem 0', fontWeight: '900' }}>⚠️ {t('set_diagnosa')}</h4>
-        <p style={{ fontSize: '0.8rem', color: '#999', marginBottom: '1.2rem', fontWeight: '600' }}>{t('set_diagnosa_desc')}</p>
+      <div className="settings-card" style={{ background: '#fff5f5', padding: '1.5rem', borderRadius: '30px', border: '2px dashed #feb2b2', textAlign: 'center' }}>
+        <h4 style={{ color: '#c53030', margin: '0 0 0.6rem 0', fontWeight: '900', fontSize: '1rem' }}>⚠️ {t('set_diagnosa')}</h4>
+        <p style={{ fontSize: '0.8rem', color: '#999', marginBottom: '1rem', fontWeight: '600' }}>{t('set_diagnosa_desc')}</p>
         <button onClick={() => { localStorage.removeItem('gcp_access_token'); window.location.reload(); }}
-            style={{ padding: '0.8rem 2rem', background: '#fff', border: '2px solid #718096', borderRadius: '15px', color: '#4a5568', fontWeight: '900', cursor: 'pointer' }}>{t('set_reset_btn')}</button>
+            style={{ padding: '0.7rem 1.5rem', background: '#fff', border: '2px solid #718096', borderRadius: '12px', color: '#4a5568', fontWeight: '900', cursor: 'pointer', fontSize: '0.85rem' }}>{t('set_reset_btn')}</button>
       </div>
-
-
     </div>
   );
 };
