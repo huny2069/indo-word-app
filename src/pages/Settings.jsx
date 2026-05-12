@@ -44,9 +44,6 @@ const Settings = () => {
   const krVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('ko'))), [googleVoiceList]);
   const enVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('en'))), [googleVoiceList]);
 
-  const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
-  const [jsonInput, setJsonInput] = useState('');
-  const [isJsonImporting, setIsJsonImporting] = useState(false);
   const [isDriveOperating, setIsDriveOperating] = useState(false);
 
   const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || '';
@@ -237,31 +234,41 @@ const Settings = () => {
       }
     };
 
-    const handleJsonImport = async () => {
-      if (!jsonInput.trim()) return;
-      setIsJsonImporting(true);
-      try {
-          const words = JSON.parse(jsonInput);
-          if (!Array.isArray(words)) throw new Error("JSON must be an array of word objects.");
-          
-          let added = 0;
+    const handleImportCSV = async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = async (event) => {
+        try {
+          const csvText = event.target.result;
+          const words = parseCSV(csvText);
+          if (words.length === 0) {
+            alert(t('msg_restore_no_file'));
+            return;
+          }
+
+          let addCount = 0;
           for (const w of words) {
+            try {
               const { id, created_at, ...cleanWord } = w;
               // 누락된 기본 필드 보충
-              if (!cleanWord.user_lang) cleanWord.user_lang = userLang;
               if (!cleanWord.study_lang) cleanWord.study_lang = studyLang;
+              if (!cleanWord.user_lang) cleanWord.user_lang = userLang;
               
               await addWord(cleanWord);
-              added++;
+              addCount++;
+            } catch (err) {
+              console.error("Single word import error:", err);
+            }
           }
-          alert(t('msg_restore_done', { count: added }));
-          setIsJsonModalOpen(false);
-          setJsonInput('');
-      } catch (err) {
-          alert("Import fail: " + err.message);
-      } finally {
-          setIsJsonImporting(false);
-      }
+          alert(t('msg_restore_done', { count: addCount }));
+          e.target.value = ''; // 초기화
+        } catch (err) {
+          alert(t('msg_restore_fail') + ": " + err.message);
+        }
+      };
+      reader.readAsText(file);
     };
 
   return (
@@ -487,8 +494,11 @@ const Settings = () => {
         <div className="settings-card" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', boxShadow: '0 12px 40px rgba(0,0,0,0.06)' }}>
             <h3 style={{ fontWeight: '900', color: '#1a1a1a', marginBottom: '1.5rem' }}>📁 {t('set_backup_title')}</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <button onClick={handleExportCSV} style={{ width: '100%', padding: '1.2rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem' }}>{t('set_backup_export')}</button>
-                <button onClick={() => setIsJsonModalOpen(true)} style={{ width: '100%', padding: '1.2rem', background: '#fffbeb', color: '#92400e', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem' }}>{t('set_json_paste')}</button>
+                <button onClick={handleExportCSV} style={{ width: '100%', padding: '1.2rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', cursor: 'pointer' }}>{t('set_backup_export')}</button>
+                <label style={{ width: '100%', padding: '1.2rem', background: '#fffbeb', color: '#92400e', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1rem', textAlign: 'center', cursor: 'pointer', display: 'block' }}>
+                    {t('set_backup_import')}
+                    <input type="file" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
+                </label>
             </div>
         </div>
 
@@ -517,19 +527,7 @@ const Settings = () => {
             style={{ padding: '0.8rem 2rem', background: '#fff', border: '2px solid #718096', borderRadius: '15px', color: '#4a5568', fontWeight: '900', cursor: 'pointer' }}>{t('set_reset_btn')}</button>
       </div>
 
-      {isJsonModalOpen && (
-        <div className="modal-overlay" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(5px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 3000 }}>
-          <div className="modal-content" style={{ background: '#fff', padding: '2.5rem', borderRadius: '40px', width: '90%', maxWidth: '650px', boxShadow: '0 30px 60px rgba(0,0,0,0.2)' }}>
-            <h3 style={{ fontWeight: '900', marginBottom: '1rem' }}>{t('set_json_import_title')}</h3>
-            <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>{t('set_json_import_desc')}</p>
-            <textarea value={jsonInput} onChange={e => setJsonInput(e.target.value)} placeholder="[ { 'word': '...', 'meaning': '...' } ]" style={{ width: '100%', height: '300px', borderRadius: '20px', border: '2.5px solid #f0f0f0', padding: '1.2rem', outline: 'none', fontSize: '0.9rem', fontFamily: 'monospace' }} />
-            <div style={{ display: 'flex', gap: '1rem', marginTop: '2rem' }}>
-              <button onClick={handleJsonImport} disabled={isJsonImporting} style={{ flex: 2, padding: '1.2rem', background: '#ff9f43', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 5px 0 #e67e22' }}>{t('set_json_confirm')}</button>
-              <button onClick={() => setIsJsonModalOpen(false)} style={{ flex: 1, padding: '1.2rem', background: '#f5f5f5', color: '#666', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer' }}>{t('set_json_cancel')}</button>
-            </div>
-          </div>
-        </div>
-      )}
+
     </div>
   );
 };

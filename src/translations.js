@@ -213,7 +213,6 @@ export const translations = {
     set_cloud_login: 'Google 계정 연동하기',
     set_cloud_backup_btn: '📤 클라우드 백업',
     set_cloud_restore_btn: '📥 클라우드 복원',
-    set_json_paste: '✨ 제미나이 JSON 텍스트 직접 붙여넣기',
 
     // IncorrectNotes
     inc_title: '오답 노트',
@@ -305,9 +304,6 @@ export const translations = {
     set_api_verify_btn: '연결 확인 및 모델 갱신',
     set_diagnosa: '🛠️ 자가 진단',
     set_reset_btn: '로그인 정보 초기화',
-    set_json_import_title: '🍌 JSON 데이터 가져오기',
-    set_json_confirm: '확인',
-    set_json_cancel: '취소',
     
     // PDF Export (v9.0)
     btn_export_pdf: '📄 PDF로 저장하기',
@@ -590,7 +586,6 @@ export const translations = {
     set_cloud_login: 'Hubungkan Akun Google',
     set_cloud_backup_btn: '📤 Cadangkan ke Cloud',
     set_cloud_restore_btn: '📥 Pulihkan dari Cloud',
-    set_json_paste: '✨ Tempel Teks JSON Gemini Langsung',
 
     // IncorrectNotes
     inc_title: 'Catatan Kesalahan',
@@ -679,9 +674,6 @@ export const translations = {
     set_google_update_needed: 'Klik Perbarui Daftar',
     set_diagnosa: '🛠️ Diagnosis',
     set_reset_btn: 'Reset Info Login',
-    set_json_import_title: '🍌 Impor JSON',
-    set_json_confirm: 'Konfirmasi',
-    set_json_cancel: 'Batal',
     
     // PDF Export (v9.0)
     btn_export_pdf: '📄 Simpan sebagai PDF',
@@ -937,7 +929,6 @@ export const translations = {
     set_cloud_login: 'Login with Google',
     set_cloud_backup_btn: '📤 Cloud Backup',
     set_cloud_restore_btn: '📥 Cloud Restore',
-    set_json_paste: '✨ Paste Gemini JSON directly',
     set_diagnosa: '🛠️ Diagnosis',
 
     // IncorrectNotes
