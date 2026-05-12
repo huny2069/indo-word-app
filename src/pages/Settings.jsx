@@ -216,48 +216,6 @@ const Settings = () => {
         <h2 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)' }}>{t('set_title')}</h2>
       </header>
 
-      {/* 1. 언어 설정 */}
-      <div className="settings-card">
-        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1.2rem', fontSize: '1.2rem', fontWeight: '900' }}>
-            <Monitor size={20} color="#feca57" /> {t('set_lang_title')}
-        </h3>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
-            <div style={{ flex: 1 }}>
-                <label style={{ fontSize: '0.85rem', fontWeight: '800', color: '#666', display: 'block', marginBottom: '0.6rem' }}>{t('onboarding_native')}</label>
-                <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
-                    {['ko', 'id', 'en'].map(code => (
-                        <button key={code} onClick={() => changeUserLang(code)} 
-                            style={{ 
-                                width: '60px', height: '55px', borderRadius: '15px', 
-                                border: userLang === code ? '3px solid #feca57' : '1px solid #eee', 
-                                background: userLang === code ? '#fff9e7' : '#fff', fontSize: '1.6rem', cursor: 'pointer',
-                                display: 'flex', alignItems: 'center', justifyContent: 'center'
-                            }}>
-                            {code === 'ko' ? '🇰🇷' : code === 'id' ? '🇮🇩' : '🇺🇸'}
-                        </button>
-                    ))}
-                </div>
-            </div>
-            <div style={{ flex: 1 }}>
-                <label style={{ fontSize: '0.85rem', fontWeight: '800', color: '#666', display: 'block', marginBottom: '0.6rem' }}>{t('onboarding_study')}</label>
-                <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
-                    {['ko', 'id', 'en'].map(code => (
-                        <button key={code} onClick={() => changeStudyLang(code)} disabled={userLang === code}
-                            style={{ 
-                                width: '60px', height: '55px', borderRadius: '15px', 
-                                border: studyLang === code ? '3px solid #feca57' : '1px solid #eee', 
-                                background: studyLang === code ? '#fff9e7' : '#fff', fontSize: '1.6rem', 
-                                cursor: userLang === code ? 'not-allowed' : 'pointer', opacity: userLang === code ? 0.3 : 1,
-                                display: 'flex', alignItems: 'center', justifyContent: 'center'
-                            }}>
-                            {code === 'ko' ? '🇰🇷' : code === 'id' ? '🇮🇩' : '🇺🇸'}
-                        </button>
-                    ))}
-                </div>
-            </div>
-        </div>
-      </div>
-
       {/* 2. 음성 설정 */}
       <div className="settings-card">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.2rem' }}>
