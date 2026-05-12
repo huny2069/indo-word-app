@@ -156,10 +156,10 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
         {/* Content Area (Whiteboard) */}
         <div 
           style={{
-          flex: 1, padding: '2rem', display: 'flex', flexDirection: 'column',
-          justifyContent: 'center', alignItems: 'center', textAlign: 'center',
+          flex: 1, padding: '1.5rem', display: 'flex', flexDirection: 'column',
+          justifyContent: 'flex-start', alignItems: 'center', textAlign: 'center',
           background: 'linear-gradient(to bottom, #ffffff, #fdfdfd)',
-          overflowY: 'auto', position: 'relative'
+          overflowY: 'auto', position: 'relative', paddingTop: '3rem'
         }}>
           {isLoading ? (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem', color: '#1890ff' }}>

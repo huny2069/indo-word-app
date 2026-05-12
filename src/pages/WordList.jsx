@@ -509,14 +509,12 @@ const WordList = () => {
       ) : (
         <>
           {viewMode === 'folder' && !selectedDate && (
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '1.5rem' }}>
+            <div className="folder-grid">
               {Object.keys(groupedByDate).map(dateStr => (
-                 <div key={dateStr} onClick={() => setSelectedDate(dateStr)}
-                   style={{ background: '#fff', border: '3px solid #feca57', padding: '2rem 1rem', borderRadius: '35px', textAlign: 'center', cursor: 'pointer', transition: '0.2s', boxShadow: '0 8px 0 #feca57' }}
-                   onMouseOver={e => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={e => e.currentTarget.style.transform = 'translateY(0)'}>
-                    <Folder size={56} color="#feca57" style={{ marginBottom: '0.8rem' }} />
-                    <h3 style={{ margin: 0, fontSize: '1.2rem', color: 'var(--nana-dark)', fontWeight: '900' }}>{dateStr}</h3>
-                    <p style={{ margin: '0.4rem 0 0 0', fontSize: '0.9rem', color: '#f39c12', fontWeight: '800' }}>{t('list_word_count', { count: groupedByDate[dateStr].length })}</p>
+                 <div key={dateStr} onClick={() => setSelectedDate(dateStr)} className="folder-card">
+                    <Folder size={32} color="#feca57" style={{ marginBottom: '0.4rem' }} />
+                    <h3 className="folder-name">{dateStr}</h3>
+                    <p className="folder-count">{t('list_word_count', { count: groupedByDate[dateStr].length })}</p>
                  </div>
               ))}
             </div>
@@ -524,13 +522,12 @@ const WordList = () => {
 
           {/* ... (Topic/Pos folders omitted for brevity, assuming same pattern) ... */}
           {(viewMode === 'topic' && !selectedTopic) && (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '1.5rem' }}>
+              <div className="folder-grid">
               {Object.keys(groupedByTopic).map(topicStr => (
-                 <div key={topicStr} onClick={() => setSelectedTopic(topicStr)}
-                   style={{ background: '#fff', border: '3px solid #55efc4', padding: '2rem 1rem', borderRadius: '35px', textAlign: 'center', cursor: 'pointer', transition: '0.2s', boxShadow: '0 8px 0 #55efc4' }}>
-                    <Folder size={56} color="#00b894" style={{ marginBottom: '0.8rem' }} />
-                    <h3 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--nana-dark)', fontWeight: '900' }}>{topicStr}</h3>
-                    <p style={{ margin: '0.4rem 0 0 0', fontSize: '0.9rem', color: '#00b894', fontWeight: '800' }}>{t('list_word_count', { count: groupedByTopic[topicStr].length })}</p>
+                 <div key={topicStr} onClick={() => setSelectedTopic(topicStr)} className="folder-card topic">
+                    <Folder size={32} color="#00b894" style={{ marginBottom: '0.4rem' }} />
+                    <h3 className="folder-name">{topicStr}</h3>
+                    <p className="folder-count topic">{t('list_word_count', { count: groupedByTopic[topicStr].length })}</p>
                  </div>
               ))}
             </div>
@@ -568,12 +565,12 @@ const WordList = () => {
                          <div onClick={(e) => { e.stopPropagation(); handleToggleCart(w); }} style={{ background: isCarted ? '#fff9db' : 'none', padding: '0.4rem', borderRadius: '10px', color: isCarted ? '#f39c12' : '#eee' }}>
                              <ShoppingCart size={20} />
                          </div>
-                        <div style={{ display: 'flex', flex: 1, flexDirection: 'column', minWidth: 0, justifyContent: 'center' }}>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                                <span style={{ fontWeight: '900', fontSize: '1.3rem', color: 'var(--primary-color)', lineHeight: '1.2' }}>{w.word}</span>
-                                {w.pronunciation && <span style={{ color: '#aaa', fontSize: '0.95rem', fontWeight: '600' }}>[{w.pronunciation}]</span>}
+                        <div style={{ display: 'flex', flex: 1, flexDirection: 'column', minWidth: '120px', justifyContent: 'center' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+                                <span style={{ fontWeight: '900', fontSize: '1.2rem', color: 'var(--primary-color)', lineHeight: '1.2' }}>{w.word}</span>
+                                {w.pronunciation && <span style={{ color: '#aaa', fontSize: '0.85rem', fontWeight: '600' }}>[{w.pronunciation}]</span>}
                             </div>
-                            <span style={{ fontWeight: '700', fontSize: '1.1rem', color: '#444', lineHeight: '1.4' }}>{w.meaning}</span>
+                            <span style={{ fontWeight: '700', fontSize: '1rem', color: '#444', lineHeight: '1.4', wordBreak: 'keep-all' }}>{w.meaning}</span>
                         </div>
                         <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
                            <button onClick={(e) => { e.stopPropagation(); setSelectedTeacherWord(w); }} style={{ background: '#fff1f0', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#ff4d4f', padding: '12px' }} title="AI 선생님 강의 듣기">

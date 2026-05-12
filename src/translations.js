@@ -303,7 +303,10 @@ export const translations = {
     list_word_count: '{count} 단어',
     
     // Settings Additional
-    set_engine_title: '음성 엔진 선택',
+    set_engine_title: '🎙️ 음성 엔진',
+    set_google_update: '음성 목록 갱신',
+    set_google_update_needed: '갱신 필요',
+    set_google_updating: '업데이트 중...',
     set_google_premium: '(프리미엄)',
     set_google_login: '구글 로그인',
     set_google_model_high: '고품질 프리미엄',

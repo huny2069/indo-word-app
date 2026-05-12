@@ -137,6 +137,71 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.folder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.folder-card {
+  background: #fff;
+  border: 2px solid #feca57;
+  padding: 1.2rem 0.5rem;
+  border-radius: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 0 #feca57;
+}
+
+.folder-card:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #feca57;
+}
+
+.folder-card.topic {
+  border-color: #55efc4;
+  box-shadow: 0 4px 0 #55efc4;
+}
+
+.folder-name {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--nana-dark);
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.folder-count {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.8rem;
+  color: #f39c12;
+  font-weight: 800;
+}
+
+.folder-count.topic {
+  color: #00b894;
+}
+
+@media (max-width: 480px) {
+  .folder-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.6rem;
+  }
+  .folder-card {
+    padding: 1rem 0.4rem;
+    border-radius: 18px;
+  }
+  .folder-name {
+    font-size: 0.85rem;
+  }
+  .folder-count {
+    font-size: 0.7rem;
+  }
+}
+
 /* 아주 작은 화면에서는 좌측 정렬로 전환하여 스크롤 가능하게 함 */
 @media (max-width: 480px) {
   .bottom-nav {

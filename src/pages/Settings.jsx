@@ -7,7 +7,7 @@ import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
-import { Sparkles, Eye, EyeOff, Volume2, BookOpen, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn } from 'lucide-react';
+import { Sparkles, Eye, EyeOff, Volume2, BookOpen, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info } from 'lucide-react';
 
 const Settings = () => {
   const { userLang, studyLang, changeUserLang, changeStudyLang, t } = useLanguage();
@@ -96,9 +96,18 @@ const Settings = () => {
         const filtered = voices.filter(v => v.languageCodes.some(lc => lc.toLowerCase().startsWith('ko') || lc.toLowerCase().startsWith('id') || lc.toLowerCase().startsWith('en')));
         setGoogleVoiceList(filtered);
         localStorage.setItem('google_voice_list', JSON.stringify(filtered));
-        alert(t('msg_fetch_voices_all_done'));
+        alert(t('msg_fetch_voices_done', { count: filtered.length }));
     } catch (err) { alert(t('msg_fetch_voices_fail') + ": " + err.message); }
     finally { setLoadingVoices(false); }
+  };
+
+  const handleTestVoice = async (lang, voiceName) => {
+    const testText = lang === 'ko' ? '안녕하세요, 인코 선생님입니다.' : lang === 'id' ? 'Halo, saya guru Inko.' : 'Hello, I am Inko teacher.';
+    try {
+        await playAudio(testText, lang);
+    } catch (e) {
+        alert(t('msg_test_voice_fail') + " " + e.message);
+    }
   };
 
   const handleExportCSV = async () => {
@@ -285,7 +294,7 @@ const Settings = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                     <span style={{ fontSize: '0.85rem', fontWeight: '900' }}>{t('set_lang_model')}</span>
                     <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices} style={{ background: '#feca57', color: '#fff', border: 'none', padding: '0.4rem 0.8rem', borderRadius: '10px', fontSize: '0.75rem', fontWeight: '900', cursor: 'pointer' }}>
-                        {loadingVoices ? <RefreshCw size={14} className="spin" /> : t('set_google_update')}
+                        {loadingVoices ? <RefreshCw size={14} className="spin" /> : t('set_google_update') || 'Update'}
                     </button>
                 </div>
                 <div style={{ display: 'grid', gap: '0.6rem' }}>
@@ -297,7 +306,7 @@ const Settings = () => {
                             <span style={{ fontSize: '0.75rem', fontWeight: '800', minWidth: '40px' }}>{m.label}</span>
                             <select value={m.val} onChange={e => { m.set(e.target.value); localStorage.setItem(m.key, e.target.value); }}
                                 style={{ flex: 1, padding: '0.5rem', borderRadius: '8px', border: '1px solid #ddd', fontSize: '0.8rem', fontWeight: '600' }}>
-                                {m.list.length > 0 ? m.list.map(v => <option key={v.name} value={v.name}>{v.name.split('-').slice(1).join('-')}</option>) : <option value="">{t('set_google_update_needed')}</option>}
+                                {m.list.length > 0 ? m.list.map(v => <option key={v.name} value={v.name}>{v.name.split('-').slice(1).join('-')}</option>) : <option value="">{t('set_google_update_needed') || 'Update Needed'}</option>}
                             </select>
                             <button onClick={() => handleTestVoice(m.id, m.val)} style={{ padding: '0.5rem', borderRadius: '8px', border: '1px solid #ddd', background: '#fff', cursor: 'pointer' }}>
                                 <Volume2 size={16} color="#feca57" />
