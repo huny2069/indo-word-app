@@ -18,6 +18,8 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
+  word-break: keep-all; /* 한국어 및 기타 언어의 자연스러운 줄바꿈 */
+  -webkit-font-smoothing: antialiased;
 }
 
 .app-container {

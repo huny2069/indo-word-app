@@ -345,17 +345,26 @@ const Learn = () => {
         <>
         <div onClick={handleCardClick} className={`flashcard-container ${isFlipped ? 'flipped' : ''}`} style={{ height: '380px', perspective: '1000px', cursor: 'pointer', marginBottom: '2rem' }}>
           <div className="flashcard-inner" style={{ position: 'relative', width: '100%', height: '100%', textAlign: 'center', transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)', transformStyle: 'preserve-3d', transform: isFlipped ? 'rotateY(180deg)' : 'none' }}>
-            <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #feca57', boxShadow: '0 10px 0 #feca57', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
-                <span style={{background: '#fff9db', color: '#f39c12', padding: '0.5rem 1.2rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: '900', marginBottom: '1.5rem', border: '2px solid #feca57'}}>{t('pos_' + (currentWord.pos === '명사'?'noun':currentWord.pos === '동사'?'verb':currentWord.pos === '형용사'?'adj':currentWord.pos === '부사'?'adv':currentWord.pos === '대명사'?'pronoun':currentWord.pos === '수사'?'numeral':currentWord.pos === '전치사'?'preposition':currentWord.pos === '접속사'?'conjunction':currentWord.pos === '감탄사'?'interjection':currentWord.pos === '한정사'?'determiner':'noun'))}</span>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    <h1 style={{ fontSize: '3.8rem', margin: 0, color: 'var(--nana-dark)', wordBreak: 'break-all' }}>
-                    {currentWord.word}
-                    </h1>
-                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.word, currentWord.study_lang); }} style={{ background: '#feca57', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #feca57', boxShadow: '0 10px 0 #feca57', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1.5rem' }}>
+                <div style={{ position: 'absolute', top: '1.5rem', right: '1.5rem' }}>
+                    <button onClick={(e) => { e.stopPropagation(); playAudio(currentWord.word, currentWord.study_lang); }} style={{ background: '#feca57', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(254, 202, 87, 0.3)' }}>
                         <Volume2 size={24} />
                     </button>
                 </div>
-                <p style={{ color: '#ccc', marginTop: '2.5rem', fontSize: '0.95rem', fontWeight: 'bold' }}>{t('learn_touch_card')}</p>
+                <span style={{background: '#fff9db', color: '#f39c12', padding: '0.5rem 1.2rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: '900', marginBottom: '1.5rem', border: '2px solid #feca57'}}>{t('pos_' + (currentWord.pos === '명사'?'noun':currentWord.pos === '동사'?'verb':currentWord.pos === '형용사'?'adj':currentWord.pos === '부사'?'adv':currentWord.pos === '대명사'?'pronoun':currentWord.pos === '수사'?'numeral':currentWord.pos === '전치사'?'preposition':currentWord.pos === '접속사'?'conjunction':currentWord.pos === '감탄사'?'interjection':currentWord.pos === '한정사'?'determiner':'noun'))}</span>
+                <div style={{ width: '100%', textAlign: 'center' }}>
+                    <h1 style={{ 
+                        fontSize: getDynamicFontSize(currentWord.word), 
+                        margin: 0, 
+                        color: 'var(--nana-dark)', 
+                        whiteSpace: 'nowrap',
+                        fontWeight: '900',
+                        lineHeight: '1.2'
+                    }}>
+                    {currentWord.word}
+                    </h1>
+                </div>
+                <p style={{ color: '#ccc', marginTop: '2.5rem', fontSize: '0.85rem', fontWeight: 'bold' }}>{t('learn_touch_card')}</p>
             </div>
             <div style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', background: '#fff', borderRadius: '30px', border: '4px solid #ff9f43', boxShadow: '0 10px 0 #ff9f43', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1.5rem', overflow: 'hidden' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1rem' }}>
