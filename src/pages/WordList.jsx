@@ -695,6 +695,10 @@ const WordList = () => {
           modelName={localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}
           userLang={localStorage.getItem('inko_native_lang') || 'ko'}
           studyLang={selectedTeacherWord.study_lang}
+          onUpdateWord={(updatedWord) => {
+            setWords(prev => prev.map(w => w.id === updatedWord.id ? updatedWord : w));
+            setSelectedTeacherWord(updatedWord);
+          }}
         />
       )}
     </div>

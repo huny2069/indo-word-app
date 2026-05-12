@@ -1,39 +1,60 @@
 import React, { useState, useEffect } from 'react';
-import { X, ChevronRight, GraduationCap, Volume2, Loader2, Sparkles } from 'lucide-react';
+import { X, ChevronRight, GraduationCap, Volume2, Loader2, Sparkles, RefreshCw } from 'lucide-react';
 import { generateWordLecture } from '../api/geminiApi';
 import { playMixedAudio, stopTTS } from '../api/ttsApi';
+import { updateWord } from '../db/database';
 import { useLanguage } from '../contexts/LanguageContext';
 
-const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyLang }) => {
+const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyLang, onUpdateWord }) => {
   const { t } = useLanguage();
   const [slides, setSlides] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchLecture = async () => {
-      try {
-        setIsLoading(true);
-        setError(null);
-        const data = await generateWordLecture(wordData, apiKey, modelName, userLang, studyLang);
-        if (data && Array.isArray(data)) {
-          setSlides(data);
-        } else {
-          throw new Error('Invalid data format received from AI.');
-        }
-      } catch (err) {
-        setError(err.message || '강의를 불러오는 데 실패했습니다.');
-      } finally {
+  const fetchLecture = async (forceRegenerate = false) => {
+    try {
+      setIsLoading(true);
+      setError(null);
+      setCurrentIndex(0);
+
+      // 캐싱된 대본이 있으면 사용 (재생성 요청이 아닐 경우)
+      if (!forceRegenerate && wordData.ai_lecture && Array.isArray(wordData.ai_lecture)) {
+        setSlides(wordData.ai_lecture);
         setIsLoading(false);
+        return;
       }
-    };
-    fetchLecture();
+
+      const data = await generateWordLecture(wordData, apiKey, modelName, userLang, studyLang);
+      if (data && Array.isArray(data)) {
+        setSlides(data);
+        
+        // DB에 새 대본 캐싱
+        const updatedWord = { ...wordData, ai_lecture: data };
+        await updateWord(updatedWord);
+        if (onUpdateWord) onUpdateWord(updatedWord);
+      } else {
+        throw new Error('Invalid data format received from AI.');
+      }
+    } catch (err) {
+      setError(err.message || '강의를 불러오는 데 실패했습니다.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchLecture(false);
 
     return () => {
       stopTTS();
     };
   }, [wordData, apiKey, modelName, userLang, studyLang]);
+
+  const handleRegenerate = () => {
+    stopTTS();
+    fetchLecture(true);
+  };
 
   const handleNext = () => {
     if (currentIndex < slides.length - 1) {
@@ -111,12 +132,20 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
               </p>
             </div>
           </div>
-          <button onClick={onClose} style={{
-            background: '#fee', border: 'none', borderRadius: '50%', padding: '10px',
-            cursor: 'pointer', color: '#ff4d4f', transition: '0.2s'
-          }}>
-            <X size={24} />
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+            <button onClick={handleRegenerate} title="다른 내용으로 다시 만들기" style={{
+              background: '#f0f0f0', border: 'none', borderRadius: '50%', padding: '10px',
+              cursor: 'pointer', color: '#555', transition: '0.2s', display: 'flex', alignItems: 'center'
+            }} onMouseOver={e => e.currentTarget.style.background = '#e0e0e0'} onMouseOut={e => e.currentTarget.style.background = '#f0f0f0'}>
+              <RefreshCw size={20} />
+            </button>
+            <button onClick={onClose} style={{
+              background: '#fee', border: 'none', borderRadius: '50%', padding: '10px',
+              cursor: 'pointer', color: '#ff4d4f', transition: '0.2s'
+            }}>
+              <X size={24} />
+            </button>
+          </div>
         </div>
 
         {/* Content Area (Whiteboard) */}
