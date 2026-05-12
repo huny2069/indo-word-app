@@ -8,57 +8,17 @@ const ApiKeyGuide = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="page" style={{ maxWidth: '800px', margin: '0 auto', paddingBottom: '5rem', width: '100%', boxSizing: 'border-box' }}>
-      <style>{`
-        .guide-section {
-          background: #fff;
-          padding: 2rem;
-          border-radius: 30px;
-          border: 1px solid #eee;
-          box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-          position: relative;
-          overflow: hidden;
-          margin-bottom: 2rem;
-        }
-        .guide-accent-bar {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 6px;
-          height: 100%;
-        }
-        @media (max-width: 600px) {
-          .guide-section {
-            padding: 1.5rem;
-            border-radius: 20px;
-            margin-bottom: 1.2rem;
-          }
-          .page {
-            padding-left: 1rem !important;
-            padding-right: 1rem !important;
-          }
-          h1 {
-            font-size: 1.6rem !important;
-          }
-          h3 {
-            font-size: 1.1rem !important;
-          }
-          p {
-            font-size: 0.9rem !important;
-          }
-        }
-      `}</style>
-
+    <div className="page" style={{ maxWidth: '700px', margin: '0 auto' }}>
       <button 
         onClick={() => navigate(-1)} 
         style={{ 
-          display: 'flex', alignItems: 'center', gap: '8px', 
-          background: 'none', border: 'none', color: '#666', 
+          display: 'flex', alignItems: 'center', gap: '6px', 
+          background: 'none', border: 'none', color: '#888', 
           fontWeight: '800', cursor: 'pointer', marginBottom: '1.5rem',
-          padding: '0.5rem 0'
+          padding: '0.5rem 0', fontSize: '0.9rem'
         }}
       >
-        <ArrowLeft size={20} /> {t('btn_back')}
+        <ArrowLeft size={18} /> {t('btn_back')}
       </button>
 
       <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
@@ -68,69 +28,67 @@ const ApiKeyGuide = () => {
         }}>
           <Key size={32} color="#e67e22" />
         </div>
-        <h1 style={{ fontSize: '2.2rem', fontWeight: '900', color: 'var(--primary-color)', marginBottom: '0.8rem' }}>
+        <h1 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)', marginBottom: '0.5rem' }}>
           {t('api_guide_title')}
         </h1>
-        <p style={{ color: '#666', fontSize: '1.1rem', fontWeight: '500' }}>
+        <p style={{ color: '#777', fontSize: '0.95rem', fontWeight: '600' }}>
           {t('api_guide_subtitle')}
         </p>
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'grid', gap: '1rem' }}>
         {/* Step 1 */}
-        <section className="guide-section">
-          <div className="guide-accent-bar" style={{ background: '#4285f4' }} />
-          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.3rem', fontWeight: '800', marginBottom: '1rem' }}>
-            <MousePointer2 size={24} color="#4285f4" /> {t('api_guide_step1_title')}
+        <section className="settings-card" style={{ position: 'relative', overflow: 'hidden', padding: '1.5rem' }}>
+          <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: '#4285f4' }} />
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontSize: '1.1rem', fontWeight: '800', marginBottom: '0.8rem' }}>
+            <MousePointer2 size={20} color="#4285f4" /> {t('api_guide_step1_title')}
           </h3>
-          <p style={{ color: '#555', lineHeight: '1.6', marginBottom: '1.5rem' }}>{t('api_guide_step1_desc')}</p>
+          <p style={{ color: '#555', fontSize: '0.9rem', lineHeight: '1.5', marginBottom: '1.2rem' }}>{t('api_guide_step1_desc')}</p>
           <a 
             href="https://aistudio.google.com/app/apikey" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{ 
               display: 'inline-flex', alignItems: 'center', gap: '8px', 
-              background: '#4285f4', color: '#fff', padding: '0.9rem 1.5rem', 
-              borderRadius: '15px', fontWeight: '900', textDecoration: 'none',
-              boxShadow: '0 4px 14px rgba(66, 133, 244, 0.3)', fontSize: '0.95rem'
+              background: '#4285f4', color: '#fff', padding: '0.8rem 1.2rem', 
+              borderRadius: '12px', fontWeight: '900', textDecoration: 'none',
+              fontSize: '0.9rem', boxShadow: '0 4px 12px rgba(66, 133, 244, 0.2)'
             }}
           >
-            {t('btn_go_ai_studio')} <ExternalLink size={18} />
+            {t('btn_go_ai_studio')} <ExternalLink size={16} />
           </a>
         </section>
 
         {/* Step 2 */}
-        <section className="guide-section">
-          <div className="guide-accent-bar" style={{ background: '#34a853' }} />
-          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.3rem', fontWeight: '800', marginBottom: '1rem' }}>
-            <Sparkles size={24} color="#34a853" /> {t('api_guide_step2_title')}
+        <section className="settings-card" style={{ position: 'relative', overflow: 'hidden', padding: '1.5rem' }}>
+          <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: '#34a853' }} />
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontSize: '1.1rem', fontWeight: '800', marginBottom: '0.8rem' }}>
+            <Sparkles size={20} color="#34a853" /> {t('api_guide_step2_title')}
           </h3>
-          <p style={{ color: '#555', lineHeight: '1.6' }}>{t('api_guide_step2_desc')}</p>
-          <div style={{ marginTop: '1.2rem', background: '#f8f9fa', padding: '1.2rem', borderRadius: '15px', border: '1px solid #f0f0f0' }}>
-            <div style={{ padding: '2rem 1rem', textAlign: 'center', color: '#999', fontSize: '0.85rem', border: '2px dashed #ddd', borderRadius: '10px', background: '#fff' }}>
-                {t('api_guide_title')} Step 2 Illustration
-            </div>
+          <p style={{ color: '#555', fontSize: '0.9rem', lineHeight: '1.5' }}>{t('api_guide_step2_desc')}</p>
+          <div style={{ marginTop: '0.8rem', background: '#f8f9fa', padding: '1rem', borderRadius: '15px', border: '1px solid #f0f0f0', textAlign: 'center', color: '#999', fontSize: '0.8rem', fontWeight: 'bold' }}>
+             [ Google AI Studio - Create API Key ]
           </div>
         </section>
 
         {/* Step 3 */}
-        <section className="guide-section">
-          <div className="guide-accent-bar" style={{ background: '#feca57' }} />
-          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.3rem', fontWeight: '800', marginBottom: '1rem' }}>
-            <Copy size={24} color="#feca57" /> {t('api_guide_step3_title')}
+        <section className="settings-card" style={{ position: 'relative', overflow: 'hidden', padding: '1.5rem' }}>
+          <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', background: '#feca57' }} />
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontSize: '1.1rem', fontWeight: '800', marginBottom: '0.8rem' }}>
+            <Copy size={20} color="#feca57" /> {t('api_guide_step3_title')}
           </h3>
-          <p style={{ color: '#555', lineHeight: '1.6' }}>{t('api_guide_step3_desc')}</p>
+          <p style={{ color: '#555', fontSize: '0.9rem', lineHeight: '1.5' }}>{t('api_guide_step3_desc')}</p>
         </section>
 
         {/* Caution */}
         <section style={{ 
-          marginTop: '0.5rem', background: '#fff1f2', padding: '1.5rem', 
-          borderRadius: '25px', border: '1px solid #fecaca' 
+          background: '#fff1f2', padding: '1.2rem', 
+          borderRadius: '20px', border: '1px solid #fecaca' 
         }}>
-          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.1rem', fontWeight: '900', color: '#e11d48', marginBottom: '0.8rem' }}>
-            <ShieldAlert size={22} /> {t('api_guide_caution_title')}
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1rem', fontWeight: '900', color: '#e11d48', marginBottom: '0.5rem' }}>
+            <ShieldAlert size={18} /> {t('api_guide_caution_title')}
           </h3>
-          <p style={{ color: '#9f1239', fontSize: '0.9rem', lineHeight: '1.6', margin: 0, fontWeight: '600' }}>
+          <p style={{ color: '#9f1239', fontSize: '0.85rem', lineHeight: '1.5', margin: 0, fontWeight: '700' }}>
             {t('api_guide_caution_desc')}
           </p>
         </section>
@@ -141,9 +99,9 @@ const ApiKeyGuide = () => {
           onClick={() => navigate('/settings')}
           style={{ 
             background: 'var(--nana-dark)', color: '#fff', 
-            padding: '1.1rem 2.5rem', borderRadius: '20px', 
-            border: 'none', fontWeight: '900', fontSize: '1.1rem',
-            cursor: 'pointer', boxShadow: '0 5px 0 #000', width: '100%', maxWidth: '300px'
+            padding: '1rem 2.5rem', borderRadius: '15px', 
+            border: 'none', fontWeight: '900', fontSize: '1rem',
+            cursor: 'pointer', boxShadow: '0 4px 0 #000'
           }}
         >
           {t('btn_confirm')}

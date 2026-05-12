@@ -385,6 +385,8 @@ export const translations = {
     
     // Common
     btn_save: 'Simpan',
+    btn_back: 'Kembali',
+    btn_confirm: 'Konfirmasi',
     dash_title: 'Laporan Belajar',
     learn_cart_clear_btn: '🗑️ Kosongkan Koleksi (Selesai)',
     set_api_status_ok: 'Verifikasi Selesai',
@@ -764,28 +766,6 @@ export const translations = {
     gen_ai_optimizing: 'Mengoptimalkan nuansa & kalimat contoh... ✍️',
     gen_ai_ready: 'Data belajar sudah siap! 🍌',
     gen_ai_current_model: 'Model saat ini:',
-    btn_confirm: 'Konfirmasi',
-    btn_back: 'Kembali',
-    
-    guide_section_google_tts: '🎙️ Pengaturan Suara Premium Google Cloud',
-    guide_tts_step1: '1. Akses [Konsol Google Cloud](https://console.cloud.google.com/) dan masuk.',
-    guide_tts_step2: "2. Buat 'Proyek Baru' di bilah pilihan proyek di bagian atas.",
-    guide_tts_step3: "3. Cari 'Cloud Text-to-Speech API' di bilah pencarian dan klik 'Aktifkan'.",
-    guide_tts_step4: '4. Daftarkan metode pembayaran (kartu) di menu [Penagihan]. (※ Pendaftaran diperlukan untuk verifikasi identitas Google, namun Anda mendapatkan kuota GRATIS yang besar setiap bulan, sehingga dapat digunakan tanpa beban untuk tujuan pembelajaran pribadi.)',
-    guide_tts_step5: '5. Masuk kembali dengan akun Google di tab [Pengaturan] Inko untuk menikmati suara premium berkualitas tinggi! 🍌',
-
-    // API Guide Page (ID)
-    api_guide_title: 'Panduan Penerbitan Kunci API Gemini',
-    api_guide_subtitle: 'Instruksi langkah demi langkah untuk mendapatkan kunci mesin AI Anda sendiri secara gratis.',
-    api_guide_step1_title: '1. Akses Google AI Studio',
-    api_guide_step1_desc: 'Masuk ke akun Google dan buka situs Google AI Studio.',
-    api_guide_step2_title: '2. Buat Kunci API',
-    api_guide_step2_desc: 'Klik tombol "Create API key" dan pilih "Create API key in new project".',
-    api_guide_step3_title: '3. Salin & Daftarkan Kunci',
-    api_guide_step3_desc: 'Salin kode yang muncul (misal: AIza...) lalu tempelkan di pengaturan Inko.',
-    api_guide_caution_title: 'Peringatan Keamanan',
-    api_guide_caution_desc: 'Jangan pernah membagikan kunci API Anda kepada orang lain. Kunci hanya disimpan di browser Anda.',
-    btn_go_ai_studio: 'Buka Google AI Studio',
   },
   en: {
     // Navigation
@@ -800,6 +780,8 @@ export const translations = {
     
     // Common
     btn_save: 'Save',
+    btn_back: 'Back',
+    btn_confirm: 'Confirm',
     dash_title: 'Learning Report',
     learn_cart_clear_btn: '🗑️ Empty Cart (Done)',
     set_api_status_ok: 'Verification Complete',
@@ -1039,6 +1021,13 @@ export const translations = {
     guide_drive_step1: '1. Login with Google in [Settings].',
     guide_drive_step2: '2. Click "Cloud Backup" to save your data.',
     guide_drive_step3: '3. Use "Cloud Restore" when switching devices.',
+
+    guide_section_google_tts: '🎙️ Google Cloud TTS Guide',
+    guide_tts_step1: '1. Access [Google Cloud Console](https://console.cloud.google.com/) and log in.',
+    guide_tts_step2: '2. Create a "New Project" in the top project selection bar.',
+    guide_tts_step3: '3. Search for "Cloud Text-to-Speech API" and click "Enable".',
+    guide_tts_step4: '4. Register your payment method (card) in the [Billing] menu. (※ Registration is required for Google identity verification, but with generous free monthly quotas, it can be used without any burden for personal study purposes.)',
+    guide_tts_step5: '5. Log in again with your Google account in the Inko [Settings] tab to enjoy high-quality premium voices! 🍌',
     
     guide_section_billing: '💰 Usage Guide',
     guide_billing_token_title: 'Is Inko free?',
@@ -1107,16 +1096,13 @@ export const translations = {
     set_google_updating: 'Updating...',
 
     // WordGenerate (Added v18.0)
-    btn_confirm: 'Confirm',
-    btn_back: 'Back',
+    gen_ai_booting: 'AI engine booting... 🚀',
+    gen_ai_analyzing: 'Analyzing topic & checking duplicates... 🔍',
+    gen_ai_generating: 'Generating {targetLangName} words & analyzing etymology... 🧠',
+    gen_ai_optimizing: 'Optimizing nuances & examples... ✍️',
+    gen_ai_ready: 'Learning data is ready! 🍌',
+    gen_ai_current_model: 'Current model:',
     
-    guide_section_google_tts: '🎙️ Google Cloud Premium Voice Setup',
-    guide_tts_step1: '1. Access [Google Cloud Console](https://console.cloud.google.com/) and log in.',
-    guide_tts_step2: '2. Create a "New Project" from the project selection bar at the top.',
-    guide_tts_step3: '3. Type "Cloud Text-to-Speech API" in the search bar and click the "Enable" button.',
-    guide_tts_step4: '4. Register your payment method (card) in the [Billing] menu. (※ Registration is required for Google identity verification, but with generous free monthly quotas, it can be used without any burden for personal study purposes.)',
-    guide_tts_step5: '5. Log in again with your Google account in the Inko app\'s [Settings] tab to enjoy high-quality premium voices! 🍌',
-
     // API Guide Page
     api_guide_title: 'Gemini API Key Issuance Guide',
     api_guide_subtitle: 'Step-by-step instructions to get your own AI engine key for free.',
