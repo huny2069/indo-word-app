@@ -116,35 +116,40 @@ const WordList = () => {
     return map[p] ? t(map[p]) : p;
   };
 
+  const filteredWords = useMemo(() => {
+    if (filterLang === 'all') return words;
+    return words.filter(w => w.study_lang === filterLang);
+  }, [words, filterLang]);
+
   const groupedByDate = useMemo(() => {
     const groups = {};
-    words.forEach(w => {
+    filteredWords.forEach(w => {
       const date = w.created_at ? w.created_at.substring(0, 10) : t('list_no_date');
       if (!groups[date]) groups[date] = [];
       groups[date].push(w);
     });
     return Object.fromEntries(Object.entries(groups).sort((a,b) => b[0].localeCompare(a[0])));
-  }, [words, t]);
+  }, [filteredWords, t]);
 
   const groupedByTopic = useMemo(() => {
     const groups = {};
-    words.forEach(w => {
+    filteredWords.forEach(w => {
       const tp = (w.topic && w.topic.trim()) ? w.topic.trim() : t('list_no_topic');
       if (!groups[tp]) groups[tp] = [];
       groups[tp].push(w);
     });
     return Object.fromEntries(Object.entries(groups).sort((a,b) => a[0].localeCompare(b[0])));
-  }, [words, t]);
+  }, [filteredWords, t]);
 
   const groupedByPos = useMemo(() => {
     const groups = {};
-    words.forEach(w => {
+    filteredWords.forEach(w => {
       const p = getPosTranslation(w.pos);
       if (!groups[p]) groups[p] = [];
       groups[p].push(w);
     });
     return Object.fromEntries(Object.entries(groups).sort((a,b) => a[0].localeCompare(b[0])));
-  }, [words, t]);
+  }, [filteredWords, t]);
 
   const displayedWords = useMemo(() => {
     let list = [];
@@ -155,12 +160,7 @@ const WordList = () => {
     } else if (viewMode === 'pos' && selectedPos) {
       list = groupedByPos[selectedPos] || [];
     } else if (viewMode === 'list') {
-      list = [...words];
-    }
-
-    // 언어별 필터링 적용 (v18.0 추가)
-    if (filterLang !== 'all') {
-      list = list.filter(w => w.study_lang === filterLang);
+      list = [...filteredWords];
     }
 
     if (sortOption === 'latest') {
@@ -173,7 +173,7 @@ const WordList = () => {
       list.sort((a, b) => (getPosTranslation(a.pos) || '').localeCompare(getPosTranslation(b.pos) || ''));
     }
     return list;
-  }, [words, viewMode, selectedDate, selectedTopic, selectedPos, sortOption, groupedByDate, groupedByTopic, groupedByPos]);
+  }, [filteredWords, viewMode, selectedDate, selectedTopic, selectedPos, sortOption, groupedByDate, groupedByTopic, groupedByPos]);
 
   const paginatedWords = useMemo(() => {
     const start = (currentPage - 1) * itemsPerPage;

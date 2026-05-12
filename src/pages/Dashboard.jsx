@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getWords, clearCart, addWordsToCart } from '../db/database';
+import { getWords, clearCart, addWordsToCart, getCartItemIds } from '../db/database';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -71,6 +71,12 @@ const Dashboard = () => {
     });
 
     if (reviewWords.length > 0) {
+      const cartItems = await getCartItemIds();
+      if (cartItems.size > 0) {
+        if (!window.confirm(t('msg_clear_cart_confirm'))) {
+          return;
+        }
+      }
       await clearCart();
       await addWordsToCart(reviewWords.map(w => w.id));
       navigate('/learn');
