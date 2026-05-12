@@ -324,7 +324,7 @@ const WordGenerate = () => {
                         {w.example_formal && (
                             <div style={{ background: '#fdfcfe', padding: '1.2rem', borderRadius: '18px', border: '1px solid #eee' }}>
                                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                                    <span style={{ color: '#2c3e50', fontWeight: '900', minWidth: '65px' }}>🌟 {t('label_formal')}</span>
+                                    <span style={{ color: '#2c3e50', fontWeight: '900', minWidth: '65px' }}>{t('label_formal')}</span>
                                     <div style={{ flex: 1, fontSize: '0.95rem', color: '#333', lineHeight: '1.5' }}>
                                         <InteractiveSentence sentence={w.example_formal} wordBreakdown={w.word_breakdown} />
                                     </div>
@@ -338,7 +338,7 @@ const WordGenerate = () => {
                         {w.example_casual && (
                             <div style={{ background: '#fff9f0', padding: '1.2rem', borderRadius: '18px', border: '1px solid #fff3e0' }}>
                                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                                    <span style={{ color: '#d35400', fontWeight: '900', minWidth: '65px' }}>🗣️ {t('label_casual')}</span>
+                                    <span style={{ color: '#d35400', fontWeight: '900', minWidth: '65px' }}>{t('label_casual')}</span>
                                     <div style={{ flex: 1, fontSize: '0.95rem', color: '#333', lineHeight: '1.5' }}>
                                         <InteractiveSentence sentence={w.example_casual} wordBreakdown={w.word_breakdown} />
                                     </div>
@@ -352,16 +352,16 @@ const WordGenerate = () => {
                     </div>
 
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.9rem', background: '#f8f9fa', padding: '1.5rem', borderRadius: '18px' }}>
-                        {w.etymology && <div><b style={{ color: '#666' }}>📜 {t('label_etymology')}:</b> {w.etymology}</div>}
-                        {w.nuance && <div><b style={{ color: '#8e44ad' }}>🎭 {t('label_nuance') || 'Nuance'}:</b> {w.nuance}</div>}
-                        {w.honorifics && <div><b style={{ color: '#2980b9' }}>🙇‍♂️ {t('label_honorifics') || 'Honorifics'}:</b> {w.honorifics}</div>}
-                        {w.hanja_info && <div><b style={{ color: '#c2410c' }}>🈯 {t('label_hanja') || 'Hanja/Root'}:</b> {w.hanja_info}</div>}
-                        {w.root && <div><b style={{ color: '#27ae60' }}>🌱 {t('label_root')}:</b> {w.root}</div>}
-                        {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>📘 {t('label_grammar')}:</b> {w.grammar_rule}</div>}
-                        {w.synonym && <div><b style={{ color: '#00b894' }}>🔗 {t('label_synonym')}:</b> {w.synonym}</div>}
-                        {w.antonym && <div><b style={{ color: '#d63031' }}>🔄 {t('label_antonym')}:</b> {w.antonym}</div>}
-                        {w.caution && <div><b style={{ color: '#d35400' }}>⚠️ {t('label_caution')}:</b> {w.caution}</div>}
-                        {w.related && <div><b style={{ color: '#16a085' }}>💡 {t('label_tip')}:</b> {w.related}</div>}
+                        {w.etymology && <div><b style={{ color: '#666' }}>{t('label_etymology')}:</b> {w.etymology}</div>}
+                        {w.nuance && <div><b style={{ color: '#8e44ad' }}>{t('label_nuance') || 'Nuance'}:</b> {w.nuance}</div>}
+                        {w.honorifics && <div><b style={{ color: '#2980b9' }}>{t('label_honorifics') || 'Honorifics'}:</b> {w.honorifics}</div>}
+                        {w.hanja_info && <div><b style={{ color: '#c2410c' }}>{t('label_hanja') || 'Hanja/Root'}:</b> {w.hanja_info}</div>}
+                        {w.root && <div><b style={{ color: '#27ae60' }}>{t('label_root')}:</b> {w.root}</div>}
+                        {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>{t('label_grammar')}:</b> {w.grammar_rule}</div>}
+                        {w.synonym && <div><b style={{ color: '#00b894' }}>{t('label_synonym')}:</b> {w.synonym}</div>}
+                        {w.antonym && <div><b style={{ color: '#d63031' }}>{t('label_antonym')}:</b> {w.antonym}</div>}
+                        {w.caution && <div><b style={{ color: '#d35400' }}>{t('label_caution')}:</b> {w.caution}</div>}
+                        {w.related && <div><b style={{ color: '#16a085' }}>{t('label_tip')}:</b> {w.related}</div>}
                     </div>
                 </div>
               </div>

@@ -597,35 +597,35 @@ const WordList = () => {
                                 <div style={{ position: 'absolute', top: '-12px', left: '20px', background: '#feca57', color: '#fff', padding: '4px 12px', borderRadius: '10px', fontSize: '0.8rem', fontWeight: '900' }}>
                                     {t('list_teacher_secret_note')}
                                 </div>
-                                {w.etymology && <div><b style={{ color: '#e67e22' }}>📜 {t('label_etymology')}:</b> {w.etymology}</div>}
-                                {w.nuance && <div><b style={{ color: '#8e44ad' }}>🎭 {t('label_nuance')}:</b> {w.nuance}</div>}
-                                {w.honorifics && <div><b style={{ color: '#2980b9' }}>🙇‍♂️ {t('label_honorifics')}:</b> {w.honorifics}</div>}
-                                {w.hanja_info && <div><b style={{ color: '#c2410c' }}>🈯 {t('label_hanja')}:</b> {w.hanja_info}</div>}
-                                {w.root && <div><b style={{ color: '#27ae60' }}>🌱 {t('label_root')}:</b> {w.root}</div>}
-                                {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>📘 {t('label_grammar')}:</b> {w.grammar_rule}</div>}
-                                {w.synonym && <div><b style={{ color: '#00b894' }}>🔗 {t('label_synonym')}:</b> {w.synonym}</div>}
-                                {w.antonym && <div><b style={{ color: '#d63031' }}>🔄 {t('label_antonym')}:</b> {w.antonym}</div>}
-                                {w.context && <div><b style={{ color: '#1565c0' }}>📌 {t('label_context')}:</b> {w.context}</div>}
+                                {w.etymology && <div><b style={{ color: '#e67e22' }}>{t('label_etymology')}:</b> {w.etymology}</div>}
+                                {w.nuance && <div><b style={{ color: '#8e44ad' }}>{t('label_nuance')}:</b> {w.nuance}</div>}
+                                {w.honorifics && <div><b style={{ color: '#2980b9' }}>{t('label_honorifics')}:</b> {w.honorifics}</div>}
+                                {w.hanja_info && <div><b style={{ color: '#c2410c' }}>{t('label_hanja')}:</b> {w.hanja_info}</div>}
+                                {w.root && <div><b style={{ color: '#27ae60' }}>{t('label_root')}:</b> {w.root}</div>}
+                                {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>{t('label_grammar')}:</b> {w.grammar_rule}</div>}
+                                {w.synonym && <div><b style={{ color: '#00b894' }}>{t('label_synonym')}:</b> {w.synonym}</div>}
+                                {w.antonym && <div><b style={{ color: '#d63031' }}>{t('label_antonym')}:</b> {w.antonym}</div>}
+                                {w.context && <div><b style={{ color: '#1565c0' }}>{t('label_context')}:</b> {w.context}</div>}
                                 {w.caution && (
                                     <div style={{ background: '#fff0f0', padding: '10px', borderRadius: '12px', borderLeft: '4px solid #ff4d4f', marginTop: '5px' }}>
-                                        <b style={{ color: '#ff4d4f' }}>⚠️ {t('label_caution')} (학습 주의):</b> {w.caution}
+                                        <b style={{ color: '#ff4d4f' }}>{t('label_caution')} ({t('label_note_attention')}):</b> {w.caution}
                                     </div>
                                 )}
-                                <span>
-                                    {getPosTranslation(w.pos)} | {new Date(w.created_at).toLocaleDateString()}
-                                </span>
                                 {w.related && (
                                     <div style={{ background: '#f0f9ff', padding: '10px', borderRadius: '12px', borderLeft: '4px solid #1890ff', marginTop: '5px' }}>
                                         <b style={{ color: '#1890ff' }}>{t('list_teacher_tip')}</b> {w.related}
                                     </div>
                                 )}
+                                <div style={{ alignSelf: 'flex-end', fontSize: '0.75rem', color: '#bbb', marginTop: 'auto', fontWeight: '700' }}>
+                                    {getPosTranslation(w.pos)} | {new Date(w.created_at).toLocaleDateString()}
+                                </div>
                              </div>
 
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
                                 {w.example_formal && (
                                     <div style={{ background: '#fdfcfe', padding: '1.5rem', borderRadius: '20px', border: '1px solid #eee' }}>
                                         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.8rem', marginBottom: '0.6rem' }}>
-                                            <span style={{ color: '#2c3e50', fontWeight: '900', minWidth: '70px' }}>🌟 {t('label_formal')}</span>
+                                            <span style={{ color: '#2c3e50', fontWeight: '900', minWidth: '70px' }}>{t('label_formal')}</span>
                                             <div style={{ flex: 1, fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.5' }}>
                                                 <InteractiveSentence sentence={w.example_formal} wordBreakdown={w.word_breakdown} />
                                             </div>
@@ -637,7 +637,7 @@ const WordList = () => {
                                 {w.example_casual && (
                                     <div style={{ background: '#fff9f0', padding: '1.5rem', borderRadius: '20px', border: '1px solid #fff3e0' }}>
                                         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.8rem', marginBottom: '0.6rem' }}>
-                                            <span style={{ color: '#d35400', fontWeight: '900', minWidth: '70px' }}>🗣️ {t('label_casual')}</span>
+                                            <span style={{ color: '#d35400', fontWeight: '900', minWidth: '70px' }}>{t('label_casual')}</span>
                                             <div style={{ flex: 1, fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.5' }}>
                                                 <InteractiveSentence sentence={w.example_casual} wordBreakdown={w.word_breakdown} />
                                             </div>
