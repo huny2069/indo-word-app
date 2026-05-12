@@ -155,12 +155,11 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
 
         {/* Content Area (Whiteboard) */}
         <div 
-          onClick={handleNext}
           style={{
           flex: 1, padding: '2rem', display: 'flex', flexDirection: 'column',
           justifyContent: 'center', alignItems: 'center', textAlign: 'center',
-          background: 'linear-gradient(to bottom, #ffffff, #fdfdfd)', cursor: currentIndex < slides.length - 1 ? 'pointer' : 'default',
-          overflowY: 'auto'
+          background: 'linear-gradient(to bottom, #ffffff, #fdfdfd)',
+          overflowY: 'auto', position: 'relative'
         }}>
           {isLoading ? (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem', color: '#1890ff' }}>
@@ -183,104 +182,72 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
               </div>
               <div style={{ 
                 fontSize: '1.8rem', lineHeight: '1.6', fontWeight: '800', color: '#222', wordBreak: 'keep-all',
-                textShadow: '1px 1px 0px rgba(0,0,0,0.05)'
+                textShadow: '1px 1px 0px rgba(0,0,0,0.05)', marginBottom: '3rem'
               }}>
                 {currentSlide.content.split('\n').map((line, i) => (
                   <p key={i} style={{ margin: '0.5rem 0' }}>{renderTextWithTarget(stripEmojis(line))}</p>
                 ))}
               </div>
               
-              <div style={{ display: 'flex', gap: '1rem', marginTop: '2rem', alignItems: 'center', justifyContent: 'center' }}>
+              {/* 메인 네비게이션 바 (하단 바와 합침) */}
+              <div style={{ display: 'flex', gap: '1rem', marginTop: 'auto', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
                 <button 
-                  onClick={handlePrev} 
+                  onClick={(e) => { e.stopPropagation(); handlePrev(); }} 
                   disabled={currentIndex === 0}
                   style={{
-                    flex: 1, padding: '1rem', background: '#f5f5f5', border: 'none', borderRadius: '15px',
+                    flex: 1, padding: '1.2rem', background: '#f5f5f5', border: 'none', borderRadius: '20px',
                     fontWeight: 'bold', cursor: currentIndex === 0 ? 'not-allowed' : 'pointer', opacity: currentIndex === 0 ? 0.5 : 1,
-                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem'
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', fontSize: '1.1rem',
+                    transition: '0.2s', boxShadow: '0 4px 0 #ddd'
                   }}
                 >
                   {t('ai_teacher_prev')}
                 </button>
                 
                 <button 
-                  onClick={handlePlayAudio}
+                  onClick={(e) => { e.stopPropagation(); handlePlayAudio(); }}
                   style={{
-                    width: '60px', height: '60px', borderRadius: '50%', background: '#1890ff',
+                    width: '70px', height: '70px', borderRadius: '50%', background: '#1890ff',
                     border: 'none', color: '#fff', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    boxShadow: '0 4px 10px rgba(24, 144, 255, 0.3)', transition: '0.2s'
+                    boxShadow: '0 6px 15px rgba(24, 144, 255, 0.4)', transition: '0.2s', zIndex: 10
                   }}
                   title={t('ai_teacher_play')}
                   onMouseOver={e => e.currentTarget.style.transform = 'scale(1.1)'}
                   onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                 >
-                  <Volume2 size={28} />
+                  <Volume2 size={32} />
                 </button>
 
                 <button 
-                  onClick={handleNext} 
+                  onClick={(e) => { e.stopPropagation(); handleNext(); }} 
                   disabled={currentIndex === slides.length - 1}
                   style={{
-                    flex: 1, padding: '1rem', background: '#1890ff', border: 'none', borderRadius: '15px',
-                    color: '#fff', fontWeight: 'bold', cursor: currentIndex === slides.length - 1 ? 'not-allowed' : 'pointer', 
+                    flex: 1, padding: '1.2rem', background: '#1890ff', border: 'none', borderRadius: '20px',
+                    color: '#fff', fontWeight: '900', cursor: currentIndex === slides.length - 1 ? 'not-allowed' : 'pointer', 
                     opacity: currentIndex === slides.length - 1 ? 0.5 : 1,
-                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem'
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', fontSize: '1.1rem',
+                    transition: '0.2s', boxShadow: '0 4px 0 #0050b3'
                   }}
                 >
-                  {t('ai_teacher_next')} <ChevronRight size={20} />
+                  {t('ai_teacher_next')} <ChevronRight size={22} />
                 </button>
+              </div>
+
+              {/* 페이지 도트 (하단에 배치) */}
+              <div style={{ display: 'flex', gap: '0.6rem', marginTop: '1.5rem', justifyContent: 'center' }}>
+                {slides.map((_, idx) => (
+                  <div key={idx} style={{
+                    width: '10px', height: '10px', borderRadius: '50%',
+                    background: idx === currentIndex ? '#1890ff' : '#ddd',
+                    transition: '0.3s'
+                  }} />
+                ))}
               </div>
             </div>
           ) : null}
         </div>
 
-        {/* Footer / Navigation */}
-        {!isLoading && !error && slides.length > 0 && (
-          <div style={{
-            padding: '1.5rem', background: '#fafafa', borderTop: '2px solid #eee',
-            display: 'flex', justifyContent: 'space-between', alignItems: 'center'
-          }}>
-            <div style={{ display: 'flex', gap: '0.5rem' }}>
-              {slides.map((_, idx) => (
-                <div key={idx} style={{
-                  width: '12px', height: '12px', borderRadius: '50%',
-                  background: idx === currentIndex ? '#1890ff' : '#ddd',
-                  transition: '0.3s', transform: idx === currentIndex ? 'scale(1.3)' : 'scale(1)'
-                }} />
-              ))}
-            </div>
-            
-            <div style={{ display: 'flex', gap: '1rem' }}>
-              {currentIndex > 0 && (
-                <button onClick={handlePrev} style={{
-                  padding: '12px 24px', borderRadius: '15px', border: '2px solid #ddd',
-                  background: '#fff', color: '#666', fontWeight: 'bold', cursor: 'pointer', fontSize: '1rem'
-                }}>
-                  이전
-                </button>
-              )}
-              {currentIndex < slides.length - 1 ? (
-                <button onClick={handleNext} style={{
-                  padding: '12px 30px', borderRadius: '15px', border: 'none',
-                  background: '#1890ff', color: '#fff', fontWeight: '900', cursor: 'pointer', 
-                  display: 'flex', alignItems: 'center', gap: '8px', fontSize: '1.1rem',
-                  boxShadow: '0 4px 15px rgba(24, 144, 255, 0.3)'
-                }}>
-                  다음 설명 듣기 <ChevronRight size={20} />
-                </button>
-              ) : (
-                <button onClick={onClose} style={{
-                  padding: '12px 30px', borderRadius: '15px', border: 'none',
-                  background: '#52c41a', color: '#fff', fontWeight: '900', cursor: 'pointer', 
-                  display: 'flex', alignItems: 'center', gap: '8px', fontSize: '1.1rem',
-                  boxShadow: '0 4px 15px rgba(82, 196, 26, 0.3)'
-                }}>
-                  <Sparkles size={20} /> 강의 완료!
-                </button>
-              )}
-            </div>
-          </div>
-        )}
+        {/* Footer removed to avoid redundancy */}
       </div>
       <style>{`
         @keyframes fadeInUp {
