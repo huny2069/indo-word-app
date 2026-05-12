@@ -163,3 +163,89 @@ export const fetchGeminiModels = async (apiKey) => {
     throw error;
   }
 };
+
+/**
+ * 1타 강사 화이트보드 강의 대본을 JSON 배열(PPT 슬라이드) 형식으로 생성하는 함수
+ */
+export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-1.5-flash', userLang = 'ko', studyLang = 'id') => {
+  const cleanKey = apiKey ? apiKey.trim() : '';
+  if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다.');
+
+  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${cleanKey}`;
+
+  // 언어 이름 매핑
+  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
+  const targetLangName = langNames[studyLang];
+  const nativeLangName = langNames[userLang];
+
+  const promptText = `
+  당신은 ${nativeLangName} 사용자를 대상으로 하는 ${targetLangName} 교육계의 **'1타 스타 강사 선생님'**입니다. 
+  학생이 "${wordData.word}" (뜻: ${wordData.meaning}) 이라는 단어에 대해 자세하고 친절한 강의를 요청했습니다.
+  
+  친근하고 열정적인 강사 말투(해요체/하십시오체 혼용, 이모지 적극 사용, 학생에게 말 거는 듯한 말투)로 화이트보드에서 강의하듯 설명해주세요.
+  시각적인 PPT처럼 한 단계씩 보여줄 수 있도록 배열(Array) 형태로 강의 슬라이드를 구성해주세요.
+  모든 설명은 반드시 **${nativeLangName}**로 작성해야 하며, 예문은 ${targetLangName}와 해석을 함께 제공하세요.
+  
+  반드시 다음 형식의 JSON 배열로 반환해야 합니다. 배열 안에는 객체들이 들어가야 하며 마크다운 백틱(\`\`\`)을 쓰지 마세요:
+  [
+    {
+      "type": "intro",
+      "content": "선생님의 활기찬 인사말! 이 단어('${wordData.word}')의 핵심 펀치라인이나 흥미로운 사실 1문장"
+    },
+    {
+      "type": "grammar",
+      "content": "이 단어의 문법적인 형태(품사, 어근 등)에 대한 쉽고 재밌는 설명"
+    },
+    {
+      "type": "usage",
+      "content": "이 단어가 실제 어떻게 쓰이는지 보여주는 꿀팁! 격식체(존댓말)와 비격식체(반말) 예문을 각각 하나씩 들고 해석해주세요."
+    },
+    {
+      "type": "nuance",
+      "content": "이 단어만의 아주 미세한 뉘앙스, 주의할 점, 또는 원어민들이 자주 쓰는 비슷한 단어와의 차이점"
+    },
+    {
+      "type": "question",
+      "content": "자, 학생 집중! 이 단어를 활용한 객관식 또는 주관식 돌발 퀴즈 1개를 내주세요. (정답은 여기에 쓰면 안 됩니다)"
+    },
+    {
+      "type": "answer",
+      "content": "위 퀴즈의 정답 공개 및 폭풍 칭찬 한마디!"
+    }
+  ]
+  `;
+
+  try {
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: promptText }] }],
+        generationConfig: { response_mime_type: "application/json" }
+      })
+    });
+
+    if (!response.ok) {
+        const errData = await response.json();
+        throw new Error(`강의 생성 실패: ${errData.error?.message || response.statusText}`);
+    }
+
+    const data = await response.json();
+    const textContent = data.candidates[0].content.parts[0].text;
+    
+    // 마크다운 블록 제거
+    let parsedData;
+    try {
+      parsedData = JSON.parse(textContent.trim().replace(/```(?:json)?/g, '').replace(/```/g, '').trim());
+    } catch (e) {
+      console.error("JSON 파싱 에러:", textContent);
+      throw new Error("AI가 올바른 JSON 형식을 반환하지 않았습니다.");
+    }
+    
+    return parsedData;
+
+  } catch (error) {
+    console.error("generateWordLecture Error:", error);
+    throw error;
+  }
+};

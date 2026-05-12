@@ -5,6 +5,7 @@ import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, V
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import InteractiveSentence from '../components/InteractiveSentence';
+import AiTeacherModal from '../components/AiTeacherModal';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 
@@ -32,6 +33,7 @@ const WordList = () => {
   const [hideMeanings, setHideMeanings] = useState(false);
   const [revealedIds, setRevealedIds] = useState(new Set()); 
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedTeacherWord, setSelectedTeacherWord] = useState(null);
   const itemsPerPage = 20;
 
   const navigate = useNavigate();
@@ -574,6 +576,9 @@ const WordList = () => {
                             <span style={{ fontWeight: '700', fontSize: '1.1rem', color: '#444', lineHeight: '1.4' }}>{w.meaning}</span>
                         </div>
                         <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
+                           <button onClick={(e) => { e.stopPropagation(); setSelectedTeacherWord(w); }} style={{ background: '#fff1f0', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#ff4d4f', padding: '12px' }} title="AI 선생님 강의 듣기">
+                              <GraduationCap size={22} />
+                           </button>
                            <button onClick={(e) => { e.stopPropagation(); playAudio(w.word, w.study_lang); }} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#1976d2', padding: '12px' }}>
                               <Volume2 size={22} />
                            </button>
@@ -680,6 +685,17 @@ const WordList = () => {
             </div>
           </div>
         </div>
+      )}
+
+      {selectedTeacherWord && (
+        <AiTeacherModal
+          wordData={selectedTeacherWord}
+          onClose={() => setSelectedTeacherWord(null)}
+          apiKey={localStorage.getItem('gemini_api_key')}
+          modelName={localStorage.getItem('gemini_model') || 'gemini-1.5-flash'}
+          userLang={localStorage.getItem('inko_native_lang') || 'ko'}
+          studyLang={selectedTeacherWord.study_lang}
+        />
       )}
     </div>
   );
