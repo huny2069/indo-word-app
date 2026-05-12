@@ -54,6 +54,7 @@ const WordGenerate = () => {
     setGeneratedWords([]);
     setProgress(10);
     setProgressMsg(t('gen_ai_booting'));
+    let progressInterval;
     
     try {
       // 로컬 스토리지에 저장된 모델이 있으면 사용, 없으면 gemini-1.5-flash 사용
@@ -92,10 +93,16 @@ const WordGenerate = () => {
       // 3. 모자란 개수만큼 AI(Gemini) 생성
       const remainingCount = count - finalAddedWords.length;
       if (remainingCount > 0) {
-        setProgress(45);
         setProgressMsg(t('gen_ai_generating').replace('{targetLangName}', targetLangName));
-        setProgress(85);
-        setProgressMsg(t('gen_ai_optimizing'));
+        
+        // 실시간 로딩 애니메이션
+        progressInterval = setInterval(() => {
+          setProgress(prev => {
+            if (prev >= 95) return 95;
+            return prev + Math.max(1, Math.floor((95 - prev) * 0.1));
+          });
+        }, 500);
+
         let currentTry = 0;
         const maxTries = 3;
 
@@ -144,6 +151,7 @@ const WordGenerate = () => {
     } catch (error) {
       alert(t('msg_ai_gen_error') + error.message);
     } finally {
+      if (progressInterval) clearInterval(progressInterval);
       setLoading(false);
     }
   };
