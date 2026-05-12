@@ -16,8 +16,24 @@ const detectLanguage = (text) => {
     return 'id';
 };
 
+let currentAudioElement = null;
+let isTtsCancelled = false;
+
+export const stopTTS = () => {
+  isTtsCancelled = true;
+  if (currentAudioElement) {
+    currentAudioElement.pause();
+    currentAudioElement.currentTime = 0;
+    currentAudioElement = null;
+  }
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+  }
+};
+
 export const playAudio = async (text, lang = null, voiceName = null) => {
   if (!text) return;
+  isTtsCancelled = false;
   
   // 0. 글로벌 음성 설정 확인
   const isAudioEnabled = localStorage.getItem('is_audio_enabled') !== 'false';
@@ -33,11 +49,13 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
     } else if (preferredEngine === 'gemini') {
       await playGeminiTTS(text, targetLang);
     } else {
-      playWebSpeechTTS(text, targetLang);
+      await playWebSpeechTTS(text, targetLang);
     }
   } catch (error) {
     console.error(`${preferredEngine} 엔진 재생 실패, 브라우저 폴백 시도:`, error);
-    playWebSpeechTTS(text, targetLang);
+    if (!isTtsCancelled) {
+      await playWebSpeechTTS(text, targetLang);
+    }
   }
 };
 
@@ -176,39 +194,90 @@ export async function fetchGoogleVoices(accessToken) {
  * 엔진 3: Web Speech API (브라우저 내장 폴백) (3개국어 지원)
  */
 export function playWebSpeechTTS(text, lang) {
-  if (!('speechSynthesis' in window)) return;
+  return new Promise((resolve) => {
+    if (!('speechSynthesis' in window)) return resolve();
+    if (isTtsCancelled) return resolve();
 
-  window.speechSynthesis.cancel();
+    window.speechSynthesis.cancel();
 
-  const langMap = { 'ko': 'ko-KR', 'id': 'id-ID', 'en': 'en-US' };
-  const langCode = langMap[lang] || 'id-ID';
-  
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = langCode;
-  utterance.rate = 0.95;
-  
-  let voices = window.speechSynthesis.getVoices();
-  
-  const findVoice = () => {
-    const targetVoices = voices.filter(v => v.lang.startsWith(lang));
-    const premiumVoice = targetVoices.find(v => v.name.includes('Google') || v.name.includes('Natural')) || targetVoices[0];
-    if (premiumVoice) utterance.voice = premiumVoice;
-    window.speechSynthesis.speak(utterance);
-  };
-
-  if (voices.length === 0) {
-    window.speechSynthesis.onvoiceschanged = () => {
-      voices = window.speechSynthesis.getVoices();
-      findVoice();
-      window.speechSynthesis.onvoiceschanged = null;
+    const langMap = { 'ko': 'ko-KR', 'id': 'id-ID', 'en': 'en-US' };
+    const langCode = langMap[lang] || 'id-ID';
+    
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = langCode;
+    utterance.rate = 0.95;
+    
+    utterance.onend = () => resolve();
+    utterance.onerror = () => resolve(); // 오류 시에도 다음 진행을 위해 resolve
+    
+    let voices = window.speechSynthesis.getVoices();
+    
+    const findVoice = () => {
+      const targetVoices = voices.filter(v => v.lang.startsWith(lang));
+      const premiumVoice = targetVoices.find(v => v.name.includes('Google') || v.name.includes('Natural')) || targetVoices[0];
+      if (premiumVoice) utterance.voice = premiumVoice;
+      if (!isTtsCancelled) window.speechSynthesis.speak(utterance);
+      else resolve();
     };
-  } else {
-    findVoice();
-  }
+
+    if (voices.length === 0) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        voices = window.speechSynthesis.getVoices();
+        findVoice();
+        window.speechSynthesis.onvoiceschanged = null;
+      };
+    } else {
+      findVoice();
+    }
+  });
 }
 
 function playBase64Audio(base64Data) {
-  const audioSrc = "data:audio/mp3;base64," + base64Data;
-  const audio = new Audio(audioSrc);
-  return audio.play();
+  return new Promise((resolve, reject) => {
+    if (isTtsCancelled) return resolve();
+    
+    const audioSrc = "data:audio/mp3;base64," + base64Data;
+    const audio = new Audio(audioSrc);
+    currentAudioElement = audio;
+    
+    audio.onended = () => {
+      currentAudioElement = null;
+      resolve();
+    };
+    audio.onerror = () => {
+      currentAudioElement = null;
+      resolve(); // 오류 시에도 다음 재생을 위해 resolve
+    };
+    
+    audio.play().catch(e => {
+      currentAudioElement = null;
+      resolve();
+    });
+  });
 }
+
+/**
+ * 텍스트 내 <target> 태그를 감지하여 혼합 언어로 순차 재생합니다.
+ */
+export const playMixedAudio = async (text, nativeLang, targetLang) => {
+  if (!text) return;
+  isTtsCancelled = false;
+
+  // <target> ... </target> 태그를 기준으로 분리
+  const regex = /<target>(.*?)<\/target>|([^<]+)/g;
+  let match;
+  const chunks = [];
+  
+  while ((match = regex.exec(text)) !== null) {
+    if (match[1] && match[1].trim()) {
+      chunks.push({ text: match[1], lang: targetLang });
+    } else if (match[2] && match[2].trim()) {
+      chunks.push({ text: match[2], lang: nativeLang });
+    }
+  }
+
+  for (const chunk of chunks) {
+    if (isTtsCancelled) break;
+    await playAudio(chunk.text, chunk.lang);
+  }
+};

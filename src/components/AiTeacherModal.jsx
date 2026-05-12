@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { X, ChevronRight, GraduationCap, Volume2, Loader2, Sparkles } from 'lucide-react';
 import { generateWordLecture } from '../api/geminiApi';
-import { playAudio } from '../api/ttsApi';
+import { playMixedAudio, stopTTS } from '../api/ttsApi';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyLang }) => {
@@ -29,16 +29,22 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
       }
     };
     fetchLecture();
+
+    return () => {
+      stopTTS();
+    };
   }, [wordData, apiKey, modelName, userLang, studyLang]);
 
   const handleNext = () => {
     if (currentIndex < slides.length - 1) {
+      stopTTS();
       setCurrentIndex(prev => prev + 1);
     }
   };
 
   const handlePrev = () => {
     if (currentIndex > 0) {
+      stopTTS();
       setCurrentIndex(prev => prev - 1);
     }
   };
@@ -59,10 +65,20 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
 
   const handlePlayAudio = () => {
     if (currentSlide && currentSlide.content) {
-       // 강사의 말 전체를 읽어주거나, 특정 예문만 읽어줄 수 있음. 여기서는 전체 텍스트를 대상 언어(설명 언어인 nativeLang)로 읽도록 할 수 있으나, 
-       // 혼합 언어이므로 한국어 TTS 엔진을 사용하는 것이 좋음.
-       playAudio(currentSlide.content, userLang);
+       stopTTS();
+       playMixedAudio(currentSlide.content, userLang, studyLang);
     }
+  };
+
+  const renderTextWithTarget = (text) => {
+    const parts = text.split(/(<target>.*?<\/target>)/g);
+    return parts.map((part, idx) => {
+      if (part.startsWith('<target>') && part.endsWith('</target>')) {
+        const innerText = part.replace(/<\/?target>/g, '');
+        return <span key={idx} style={{ color: '#1890ff', fontWeight: '900', background: '#e6f7ff', padding: '0 4px', borderRadius: '4px' }}>{innerText}</span>;
+      }
+      return <span key={idx}>{part}</span>;
+    });
   };
 
   return (
@@ -136,7 +152,7 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
                 textShadow: '1px 1px 0px rgba(0,0,0,0.05)'
               }}>
                 {currentSlide.content.split('\n').map((line, i) => (
-                  <p key={i} style={{ margin: '0.5rem 0' }}>{line}</p>
+                  <p key={i} style={{ margin: '0.5rem 0' }}>{renderTextWithTarget(line)}</p>
                 ))}
               </div>
               

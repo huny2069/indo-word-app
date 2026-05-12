@@ -186,6 +186,10 @@ export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-
   시각적인 PPT처럼 한 단계씩 보여줄 수 있도록 배열(Array) 형태로 강의 슬라이드를 구성해주세요.
   모든 설명은 반드시 **${nativeLangName}**로 작성해야 하며, 예문은 ${targetLangName}와 해석을 함께 제공하세요.
   
+  [중요 지침]
+  설명이나 예문 중에 나타나는 ${targetLangName} 단어나 문장은 발음 구분을 위해 반드시 <target>단어</target> 태그로 감싸서 응답하세요. 
+  예시: "<target>hampir</target>만 써도 '거의 ~할 뻔했다'는 뜻이 되지만, 뒤에 <target>saja</target>를 붙이면..."
+  
   반드시 다음 형식의 JSON 배열로 반환해야 합니다. 배열 안에는 객체들이 들어가야 하며 마크다운 백틱(\`\`\`)을 쓰지 마세요:
   [
     {
