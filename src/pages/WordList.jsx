@@ -603,6 +603,8 @@ const WordList = () => {
                                 {w.hanja_info && <div><b style={{ color: '#c2410c' }}>🈯 {t('label_hanja')}:</b> {w.hanja_info}</div>}
                                 {w.root && <div><b style={{ color: '#27ae60' }}>🌱 {t('label_root')}:</b> {w.root}</div>}
                                 {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>📘 {t('label_grammar')}:</b> {w.grammar_rule}</div>}
+                                {w.synonym && <div><b style={{ color: '#00b894' }}>🔗 {t('label_synonym')}:</b> {w.synonym}</div>}
+                                {w.antonym && <div><b style={{ color: '#d63031' }}>🔄 {t('label_antonym')}:</b> {w.antonym}</div>}
                                 {w.context && <div><b style={{ color: '#1565c0' }}>📌 {t('label_context')}:</b> {w.context}</div>}
                                 {w.caution && (
                                     <div style={{ background: '#fff0f0', padding: '10px', borderRadius: '12px', borderLeft: '4px solid #ff4d4f', marginTop: '5px' }}>

@@ -358,6 +358,8 @@ const WordGenerate = () => {
                         {w.hanja_info && <div><b style={{ color: '#c2410c' }}>🈯 {t('label_hanja') || 'Hanja/Root'}:</b> {w.hanja_info}</div>}
                         {w.root && <div><b style={{ color: '#27ae60' }}>🌱 {t('label_root')}:</b> {w.root}</div>}
                         {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>📘 {t('label_grammar')}:</b> {w.grammar_rule}</div>}
+                        {w.synonym && <div><b style={{ color: '#00b894' }}>🔗 {t('label_synonym')}:</b> {w.synonym}</div>}
+                        {w.antonym && <div><b style={{ color: '#d63031' }}>🔄 {t('label_antonym')}:</b> {w.antonym}</div>}
                         {w.caution && <div><b style={{ color: '#d35400' }}>⚠️ {t('label_caution')}:</b> {w.caution}</div>}
                         {w.related && <div><b style={{ color: '#16a085' }}>💡 {t('label_tip')}:</b> {w.related}</div>}
                     </div>
