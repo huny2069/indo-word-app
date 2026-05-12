@@ -97,6 +97,25 @@ const WordList = () => {
     });
   };
 
+  const getPosTranslation = (posValue) => {
+    if (!posValue) return t('list_no_pos');
+    const p = posValue.trim();
+    const map = {
+      '명사': 'pos_noun',
+      '동사': 'pos_verb',
+      '형용사': 'pos_adj',
+      '부사': 'pos_adv',
+      '대명사': 'pos_pronoun',
+      '수사': 'pos_numeral',
+      '전치사': 'pos_preposition',
+      '접속사': 'pos_conjunction',
+      '감탄사': 'pos_interjection',
+      '관형사': 'pos_determiner',
+      '한정사': 'pos_determiner'
+    };
+    return map[p] ? t(map[p]) : p;
+  };
+
   const groupedByDate = useMemo(() => {
     const groups = {};
     words.forEach(w => {
@@ -120,7 +139,7 @@ const WordList = () => {
   const groupedByPos = useMemo(() => {
     const groups = {};
     words.forEach(w => {
-      const p = (w.pos && w.pos.trim()) ? w.pos.trim() : t('list_no_pos');
+      const p = getPosTranslation(w.pos);
       if (!groups[p]) groups[p] = [];
       groups[p].push(w);
     });
@@ -151,7 +170,7 @@ const WordList = () => {
     } else if (sortOption === 'alphabetical') {
       list.sort((a, b) => a.word.localeCompare(b.word));
     } else if (sortOption === 'pos') {
-      list.sort((a, b) => (a.pos || '').localeCompare(b.pos || ''));
+      list.sort((a, b) => (getPosTranslation(a.pos) || '').localeCompare(getPosTranslation(b.pos) || ''));
     }
     return list;
   }, [words, viewMode, selectedDate, selectedTopic, selectedPos, sortOption, groupedByDate, groupedByTopic, groupedByPos]);
@@ -323,7 +342,7 @@ const WordList = () => {
               <div style="font-size: 1rem; color: #555; font-weight: 700;">: ${w.meaning}</div>
             </div>
             <div style="background: #f8f9fa; padding: 2px 8px; border-radius: 5px; font-size: 0.75rem; color: #666; font-weight: bold; border: 1px solid #eee;">
-              ${w.pos}
+              ${getPosTranslation(w.pos)}
             </div>
           </div>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 0.8rem; margin-top: 5px;">
@@ -558,7 +577,7 @@ const WordList = () => {
                            <button onClick={(e) => { e.stopPropagation(); playAudio(w.word, w.study_lang); }} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#1976d2', padding: '12px' }}>
                               <Volume2 size={22} />
                            </button>
-                           <span style={{ fontSize: '0.8rem', background: '#f5f5f5', padding: '5px 12px', borderRadius: '50px', color: '#666', minWidth: '45px', textAlign: 'center', fontWeight: '800' }}>{w.pos}</span>
+                              <span style={{ fontSize: '0.8rem', background: '#f5f5f5', padding: '5px 12px', borderRadius: '50px', color: '#666', minWidth: '45px', textAlign: 'center', fontWeight: '800' }}>{getPosTranslation(w.pos)}</span>
                         </div>
                       </div>
 
@@ -585,6 +604,9 @@ const WordList = () => {
                                         <b style={{ color: '#ff4d4f' }}>⚠️ {t('label_caution')} (학습 주의):</b> {w.caution}
                                     </div>
                                 )}
+                                <span>
+                                    {getPosTranslation(w.pos)} | {new Date(w.created_at).toLocaleDateString()}
+                                </span>
                                 {w.related && (
                                     <div style={{ background: '#f0f9ff', padding: '10px', borderRadius: '12px', borderLeft: '4px solid #1890ff', marginTop: '5px' }}>
                                         <b style={{ color: '#1890ff' }}>{t('list_teacher_tip')}</b> {w.related}
