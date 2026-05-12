@@ -74,20 +74,25 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
 
   const getTypeLabel = (type) => {
     switch(type) {
-      case 'intro': return '오프닝';
-      case 'grammar': return '핵심 문법';
-      case 'usage': return '실전 예문';
-      case 'nuance': return '미세한 뉘앙스';
-      case 'question': return '돌발 퀴즈!';
-      case 'answer': return '정답 공개';
-      default: return '설명';
+      case 'intro': return '👋 오프닝';
+      case 'grammar': return '📘 핵심 문법';
+      case 'usage': return '💡 실전 예문';
+      case 'nuance': return '🎭 미세한 뉘앙스';
+      case 'question': return '🚨 돌발 퀴즈!';
+      case 'answer': return '🎉 정답 공개';
+      default: return '📝 설명';
     }
+  };
+
+  const stripEmojis = (str) => {
+    if (!str) return '';
+    return str.replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '');
   };
 
   const handlePlayAudio = () => {
     if (currentSlide && currentSlide.content) {
        stopTTS();
-       playMixedAudio(currentSlide.content, userLang, studyLang);
+       playMixedAudio(stripEmojis(currentSlide.content), userLang, studyLang);
     }
   };
 
@@ -160,8 +165,8 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
           {isLoading ? (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem', color: '#1890ff' }}>
               <Loader2 size={64} className="spin" />
-              <h3 style={{ margin: 0, fontWeight: '800', fontSize: '1.5rem' }}>선생님이 판서를 준비 중입니다...</h3>
-              <p style={{ color: '#666', fontWeight: 'bold' }}>잠시만 기다려주세요.</p>
+              <h3 style={{ margin: 0, fontWeight: '800', fontSize: '1.5rem' }}>선생님이 칠판을 닦고 판서를 준비 중입니다... 🧑‍🏫</h3>
+              <p style={{ color: '#666', fontWeight: 'bold' }}>잠시만 기다려주세요!</p>
             </div>
           ) : error ? (
             <div style={{ color: '#ff4d4f', fontWeight: 'bold', fontSize: '1.2rem' }}>
@@ -181,7 +186,7 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
                 textShadow: '1px 1px 0px rgba(0,0,0,0.05)'
               }}>
                 {currentSlide.content.split('\n').map((line, i) => (
-                  <p key={i} style={{ margin: '0.5rem 0' }}>{renderTextWithTarget(line)}</p>
+                  <p key={i} style={{ margin: '0.5rem 0' }}>{renderTextWithTarget(stripEmojis(line))}</p>
                 ))}
               </div>
               
