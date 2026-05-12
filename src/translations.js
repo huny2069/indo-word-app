@@ -883,6 +883,13 @@ export const translations = {
     dash_learning_detail: 'Words not yet passed in quiz',
     dash_review_detail: 'Spaced repetition time',
     dash_master_detail: 'Fully memorized (Level 4+)',
+    dash_report_detail_btn: '📊 View Detailed Report',
+    dash_detail_level_stat: 'Level Distribution',
+    dash_detail_hard_words: 'Top 5 Difficult Words',
+    dash_detail_efficiency: 'Learning Efficiency',
+    dash_detail_recent_activity: 'Recent Activity',
+    dash_detail_incorrect_count: 'Mistakes',
+    set_cloud_title_label: 'Google Cloud',
 
     // WordList
     list_title: 'My Wordbook',

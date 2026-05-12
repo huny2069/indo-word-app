@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getWords, clearCart, addWordsToCart, getCartItemIds } from '../db/database';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
-import { BarChart3, TrendingUp, AlertTriangle, Clock, X, ChevronRight, Award } from 'lucide-react';
+import { BarChart, AlertTriangle, Clock, X, ChevronRight, Award, Activity } from 'lucide-react';
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -16,74 +16,107 @@ const Dashboard = () => {
 
   const [streak, setStreak] = useState(0);
   const [showDetail, setShowDetail] = useState(false);
-  const [levelMap, setLevelMap] = useState({});
+  const [levelMap, setLevelMap] = useState({ 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 });
   const [hardWords, setHardWords] = useState([]);
   const [recentWords, setRecentWords] = useState([]);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchStats = async () => {
-      const words = await getWords();
-      const now = new Date();
+      try {
+        console.log("Dashboard: Fetching data...");
+        const words = await getWords();
+        if (!Array.isArray(words)) {
+            console.error("Dashboard: getWords did not return an array", words);
+            return;
+        }
+        
+        const now = new Date();
+        let memorized = 0;
+        let reviewNeeded = 0;
+        let learning = 0;
+        const levels = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
 
-      let memorized = 0;
-      let reviewNeeded = 0;
-      let learning = 0;
-      const levels = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+        words.forEach(w => {
+          if (!w) return;
+          const levelValue = typeof w.level === 'number' ? w.level : 0;
+          const nextReviewDate = w.next_review_date ? new Date(w.next_review_date) : new Date(0);
+          
+          const isMastered = w.memory_status === 'long_term' || levelValue >= 5;
+          const isReviewNeeded = nextReviewDate <= now && levelValue > 0 && !isMastered;
 
-      words.forEach(w => {
-        const nextReview = new Date(w.next_review_date);
-        const isMastered = w.memory_status === 'long_term' || w.level >= 5;
-        const isReviewNeeded = nextReview <= now && w.level > 0 && !isMastered;
+          if (isMastered) memorized++;
+          else if (isReviewNeeded) reviewNeeded++;
+          else learning++;
 
-        if (isMastered) memorized++;
-        else if (isReviewNeeded) reviewNeeded++;
-        else learning++;
+          const lv = Math.min(levelValue, 5);
+          levels[lv] = (levels[lv] || 0) + 1;
+        });
 
-        const lv = Math.min(w.level || 0, 5);
-        levels[lv] = (levels[lv] || 0) + 1;
-      });
+        setStats({ total: words.length, memorized, learning, reviewNeeded });
+        setLevelMap(levels);
+        
+        const s = localStorage.getItem('study_streak');
+        setStreak(s ? parseInt(s, 10) : 0);
 
-      setStats({ total: words.length, memorized, learning, reviewNeeded });
-      setLevelMap(levels);
-      setStreak(parseInt(localStorage.getItem('study_streak') || '0', 10));
+        // Top 5 Hard Words
+        const hard = [...words]
+          .filter(w => w && typeof w.incorrectCount === 'number' && w.incorrectCount > 0)
+          .sort((a, b) => (b.incorrectCount || 0) - (a.incorrectCount || 0))
+          .slice(0, 5);
+        setHardWords(hard);
 
-      // Top 5 Hard Words
-      const hard = [...words]
-        .filter(w => w.incorrectCount > 0)
-        .sort((a, b) => (b.incorrectCount || 0) - (a.incorrectCount || 0))
-        .slice(0, 5);
-      setHardWords(hard);
-
-      // Recent Words (based on updated_at or similar, using last 5 words in list as proxy if no timestamp)
-      const recent = [...words].slice(-5).reverse();
-      setRecentWords(recent);
+        // Recent Words
+        const recent = [...words].slice(-5).reverse();
+        setRecentWords(recent);
+        console.log("Dashboard: Stats updated.");
+      } catch (err) {
+        console.error("Dashboard Error:", err);
+        setError(err.message);
+      }
     };
 
     fetchStats();
   }, []);
 
   const handleReviewNow = async () => {
-    const words = await getWords();
-    const now = new Date();
-    const reviewWords = words.filter(w => {
-      const nextReview = new Date(w.next_review_date);
-      return nextReview <= now && w.level > 0 && w.level < 4;
-    });
+    try {
+      const words = await getWords();
+      const now = new Date();
+      const reviewWords = words.filter(w => {
+        const nextReview = w.next_review_date ? new Date(w.next_review_date) : new Date(0);
+        return nextReview <= now && w.level > 0 && w.level < 4;
+      });
 
-    if (reviewWords.length > 0) {
-      const cartItems = await getCartItemIds();
-      if (cartItems.size > 0) {
-        if (!window.confirm(t('msg_clear_cart_confirm'))) return;
+      if (reviewWords.length > 0) {
+        const cartItems = await getCartItemIds();
+        if (Array.isArray(cartItems) && cartItems.length > 0) {
+          if (!window.confirm(t('msg_clear_cart_confirm'))) return;
+        }
+        await clearCart();
+        await addWordsToCart(reviewWords.map(w => w.id));
+        navigate('/learn');
       }
-      await clearCart();
-      await addWordsToCart(reviewWords.map(w => w.id));
-      navigate('/learn');
+    } catch (err) {
+      console.error("Dashboard Review Error:", err);
     }
   };
+
+  if (error) {
+      return (
+          <div className="page" style={{ padding: '2rem', textAlign: 'center' }}>
+              <AlertTriangle size={48} color="#ff4d4f" />
+              <h3 style={{ marginTop: '1rem' }}>에러가 발생했습니다.</h3>
+              <p style={{ color: '#666' }}>{error}</p>
+              <button onClick={() => window.location.reload()} style={{ padding: '0.8rem 1.5rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '15px', cursor: 'pointer' }}>새로고침</button>
+          </div>
+      );
+  }
 
   return (
     <div className="page" style={{ paddingBottom: '3rem', textAlign: 'center' }}>
       <img src="/assets/img/nana.png" className="nana-character" style={{ width: '100px', marginBottom: '1rem' }} alt="Nana" />
+      
       <div style={{ marginBottom: '2rem' }}>
         <h2 style={{fontSize: '2rem', color: 'var(--nana-dark)', marginBottom: '0.4rem', marginTop: 0, fontWeight: '900'}}>{t('dash_title')}</h2>
         <p style={{color: '#666', margin: 0, fontWeight: '500'}}>{t('dash_desc')}</p>
@@ -129,7 +162,7 @@ const Dashboard = () => {
           <div style={{color: '#555', marginTop: '0.4rem', fontWeight: '800', fontSize: '0.9rem'}}>{t('dash_status_review')}</div>
           {stats.reviewNeeded > 0 && (
             <button onClick={handleReviewNow} style={{ marginTop: '0.8rem', background: '#c2185b', color: '#fff', border: 'none', padding: '0.4rem 0.8rem', borderRadius: '12px', fontSize: '0.75rem', fontWeight: '900', cursor: 'pointer' }}>
-                {t('dash_review_btn').split(' ')[0]}
+                {(t('dash_review_btn') || 'Review').split(' ')[0]}
             </button>
           )}
         </div>
@@ -140,13 +173,12 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Detailed Report Modal */}
       {showDetail && (
         <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 3000, padding: '1rem' }}>
           <div style={{ background: '#fff', width: '100%', maxWidth: '500px', borderRadius: '30px', maxHeight: '90vh', overflowY: 'auto', position: 'relative', animation: 'modalIn 0.3s ease-out' }}>
             <div style={{ position: 'sticky', top: 0, background: '#fff', padding: '1.5rem', borderBottom: '1px solid #eee', display: 'flex', justifyContent: 'space-between', alignItems: 'center', zIndex: 10 }}>
                 <h3 style={{ margin: 0, fontSize: '1.2rem', fontWeight: '900', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <BarChart3 size={20} color="var(--primary-color)" /> {t('dash_report_detail_btn')}
+                    <BarChart size={20} color="#1976d2" /> {t('dash_report_detail_btn')}
                 </h3>
                 <button onClick={() => setShowDetail(false)} style={{ background: '#f8f9fa', border: 'none', padding: '8px', borderRadius: '50%', cursor: 'pointer' }}>
                     <X size={20} color="#999" />
@@ -154,10 +186,9 @@ const Dashboard = () => {
             </div>
 
             <div style={{ padding: '1.5rem' }}>
-                {/* 1. Level Distribution */}
                 <div style={{ marginBottom: '2rem' }}>
                     <h4 style={{ textAlign: 'left', marginBottom: '1rem', fontSize: '1rem', fontWeight: '900', color: '#444', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                        <TrendingUp size={18} color="#4facfe" /> {t('dash_detail_level_stat')}
+                        <Activity size={18} color="#4facfe" /> {t('dash_detail_level_stat')}
                     </h4>
                     <div style={{ display: 'flex', alignItems: 'flex-end', height: '120px', gap: '8px', padding: '0 10px' }}>
                         {[0, 1, 2, 3, 4, 5].map(lv => {
@@ -180,13 +211,12 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                {/* 2. Top Hard Words */}
                 <div style={{ marginBottom: '2rem' }}>
                     <h4 style={{ textAlign: 'left', marginBottom: '1rem', fontSize: '1rem', fontWeight: '900', color: '#444', display: 'flex', alignItems: 'center', gap: '6px' }}>
                         <AlertTriangle size={18} color="#ff7675" /> {t('dash_detail_hard_words')}
                     </h4>
                     <div style={{ display: 'grid', gap: '0.8rem' }}>
-                        {hardWords.length > 0 ? hardWords.map((w, i) => (
+                        {hardWords.length > 0 ? hardWords.map((w) => (
                             <div key={w.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: '#fff5f5', borderRadius: '15px', border: '1px solid #ffebeb' }}>
                                 <div style={{ textAlign: 'left' }}>
                                     <div style={{ fontWeight: '900', color: '#d63031' }}>{w.word}</div>
@@ -202,7 +232,6 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                {/* 3. Recent Activity */}
                 <div>
                     <h4 style={{ textAlign: 'left', marginBottom: '1rem', fontSize: '1rem', fontWeight: '900', color: '#444', display: 'flex', alignItems: 'center', gap: '6px' }}>
                         <Clock size={18} color="#a29bfe" /> {t('dash_detail_recent_activity')}
