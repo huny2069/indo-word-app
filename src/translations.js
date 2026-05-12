@@ -290,6 +290,45 @@ export const translations = {
     btn_export_pdf: '📄 PDF로 저장하기',
     msg_export_loading: 'PDF를 생성 중입니다. 잠시만 기다려주세요...',
     list_pdf_title: '나나와 함께 공부하는 인코 단어장 🍌',
+    
+    // WordList (Added v18.0)
+    list_no_words_msg: '저장된 단어가 하나도 없어요. 🍌',
+    list_no_words_desc: '✨ 단어생성 탭에서 공부하고 싶은 주제로 단어를 만들어보세요!',
+    list_back: '뒤로가기',
+    list_move_select_folder: '이동할 폴더 선택...',
+    list_move_modal_title: '📦 폴더 이동',
+    list_move_modal_desc: '선택한 단어들을 어디로 옮길까요?',
+    list_prev_page: '이전',
+    list_next_page: '다음',
+    lang_all: '전체',
+    lang_id: '인도네시아어 🇮🇩',
+    lang_en: '영어 🇺🇸',
+    lang_ko: '한국어 🇰🇷',
+    list_teacher_secret_note: '🔥 스타 강사의 시크릿 노트',
+    list_teacher_tip: '💡 강사 비법 (공부 팁):',
+    msg_delete_confirm_single: '이 단어를 정말 삭제하시겠습니까?',
+    msg_delete_confirm_multi: '선택한 {count}개의 단어를 단어장에서 완전히 삭제하시겠습니까?',
+
+    // Settings (Added v18.0)
+    msg_fetch_voices_expired: '음성 목록을 가져오지 못했습니다. Google 계정 연결이 만료되었을 수 있으니 다시 로그인해 주세요.',
+    msg_export_csv_error: 'CSV 내보내기 중 오류 발생',
+    msg_restore_no_file: '백업 파일을 찾을 수 없습니다.',
+    msg_test_voice_fail: '음성 테스트 실패:',
+    set_cloud_connect_desc: '구글 계정을 연결하여 안전하게 클라우드 백업을 시작하세요.',
+    set_diagnosa_desc: '앱이 정상적으로 작동하지 않을 때만 사용하세요. (음성 엔진 초기화)',
+    set_json_import_desc: '복사한 JSON 단어 리스트를 아래에 붙여넣으세요.',
+    set_model_update_needed: '모델 갱신 필요',
+    set_model_applied: '✓ 현재 {model} 모델이 즉시 적용되었습니다.',
+    set_reason: '사유:',
+    set_google_updating: '갱신 중...',
+
+    // WordGenerate (Added v18.0)
+    gen_ai_booting: 'AI 엔진 부팅 중... 🚀',
+    gen_ai_analyzing: '주제 분석 및 중복 단어 체크 중... 🔍',
+    gen_ai_generating: '{targetLangName} 단어 생성 및 어원 파악 중... 🧠',
+    gen_ai_optimizing: '뉘앙스 및 예문 최적화 중... ✍️',
+    gen_ai_ready: '학습 데이터를 모두 준비했습니다! 🍌',
+    gen_ai_current_model: '사용 중인 모델:',
   },
   id: {
     // Navigation
@@ -579,6 +618,45 @@ export const translations = {
     btn_export_pdf: '📄 Simpan sebagai PDF',
     msg_export_loading: 'Sedang membuat PDF. Silakan tunggu...',
     list_pdf_title: 'Kosakata Inko bersama Nana 🍌',
+    
+    // WordList (Added v18.0)
+    list_no_words_msg: 'Tidak ada kata yang tersimpan. 🍌',
+    list_no_words_desc: '✨ Buat kata berdasarkan topik di tab Buat Kata!',
+    list_back: 'Kembali',
+    list_move_select_folder: 'Pilih folder tujuan...',
+    list_move_modal_title: '📦 Pindahkan Folder',
+    list_move_modal_desc: 'Kemana Anda ingin memindahkan kata yang dipilih?',
+    list_prev_page: 'Sebelumnya',
+    list_next_page: 'Selanjutnya',
+    lang_all: 'Semua',
+    lang_id: 'B. Indonesia 🇮🇩',
+    lang_en: 'B. Inggris 🇺🇸',
+    lang_ko: 'B. Korea 🇰🇷',
+    list_teacher_secret_note: '🔥 Catatan Rahasia Instruktur',
+    list_teacher_tip: '💡 Tip Instruktur (Cara Belajar):',
+    msg_delete_confirm_single: 'Yakin ingin menghapus kata ini?',
+    msg_delete_confirm_multi: 'Yakin ingin menghapus {count} kata yang dipilih secara permanen?',
+
+    // Settings (Added v18.0)
+    msg_fetch_voices_expired: 'Gagal mengambil daftar suara. Sesi Google Anda mungkin telah kedaluwarsa. Silakan masuk kembali.',
+    msg_export_csv_error: 'Terjadi kesalahan saat mengekspor CSV',
+    msg_restore_no_file: 'File cadangan tidak ditemukan.',
+    msg_test_voice_fail: 'Uji suara gagal:',
+    set_cloud_connect_desc: 'Hubungkan akun Google untuk memulai pencadangan cloud yang aman.',
+    set_diagnosa_desc: 'Gunakan ini hanya jika aplikasi tidak berfungsi normal. (Reset mesin suara)',
+    set_json_import_desc: 'Tempelkan daftar kata JSON yang disalin di bawah ini.',
+    set_model_update_needed: 'Perlu Pembaruan Model',
+    set_model_applied: '✓ Model {model} saat ini langsung diterapkan.',
+    set_reason: 'Alasan:',
+    set_google_updating: 'Memperbarui...',
+
+    // WordGenerate (Added v18.0)
+    gen_ai_booting: 'Memulai mesin AI... 🚀',
+    gen_ai_analyzing: 'Menganalisis topik & memeriksa kata duplikat... 🔍',
+    gen_ai_generating: 'Membuat kata {targetLangName} & menganalisis etimologi... 🧠',
+    gen_ai_optimizing: 'Mengoptimalkan nuansa & kalimat contoh... ✍️',
+    gen_ai_ready: 'Data belajar sudah siap! 🍌',
+    gen_ai_current_model: 'Model saat ini:',
   },
   en: {
     // Navigation
@@ -807,5 +885,44 @@ export const translations = {
     btn_export_pdf: '📄 Save as PDF',
     msg_export_loading: 'Generating PDF...',
     list_pdf_title: 'Inko Wordbook with Nana 🍌',
+    
+    // WordList (Added v18.0)
+    list_no_words_msg: 'No words saved yet. 🍌',
+    list_no_words_desc: '✨ Generate words by topic in the Generate tab!',
+    list_back: 'Back',
+    list_move_select_folder: 'Select folder to move...',
+    list_move_modal_title: '📦 Move Folder',
+    list_move_modal_desc: 'Where do you want to move the selected words?',
+    list_prev_page: 'Prev',
+    list_next_page: 'Next',
+    lang_all: 'All',
+    lang_id: 'Indonesian 🇮🇩',
+    lang_en: 'English 🇺🇸',
+    lang_ko: 'Korean 🇰🇷',
+    list_teacher_secret_note: '🔥 Teacher\'s Secret Note',
+    list_teacher_tip: '💡 Teacher\'s Tip (Study Method):',
+    msg_delete_confirm_single: 'Are you sure you want to delete this word?',
+    msg_delete_confirm_multi: 'Are you sure you want to completely delete the {count} selected words?',
+
+    // Settings (Added v18.0)
+    msg_fetch_voices_expired: 'Failed to fetch the voice list. Your Google session might have expired. Please log in again.',
+    msg_export_csv_error: 'Error occurred during CSV export',
+    msg_restore_no_file: 'Backup file not found.',
+    msg_test_voice_fail: 'Voice test failed:',
+    set_cloud_connect_desc: 'Connect your Google account to safely start cloud backup.',
+    set_diagnosa_desc: 'Use this only when the app doesn\'t work normally. (Reset voice engine)',
+    set_json_import_desc: 'Paste the copied JSON word list below.',
+    set_model_update_needed: 'Model update needed',
+    set_model_applied: '✓ Current {model} model applied immediately.',
+    set_reason: 'Reason:',
+    set_google_updating: 'Updating...',
+
+    // WordGenerate (Added v18.0)
+    gen_ai_booting: 'AI engine booting... 🚀',
+    gen_ai_analyzing: 'Analyzing topic & checking duplicates... 🔍',
+    gen_ai_generating: 'Generating {targetLangName} words & analyzing etymology... 🧠',
+    gen_ai_optimizing: 'Optimizing nuances & examples... ✍️',
+    gen_ai_ready: 'Learning data is ready! 🍌',
+    gen_ai_current_model: 'Current model:',
   }
 };

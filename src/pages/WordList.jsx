@@ -23,6 +23,7 @@ const WordList = () => {
   const [folders, setFolders] = useState([]);
   const [editingWord, setEditingWord] = useState(null);
   const [expandedId, setExpandedId] = useState(null);
+  const [filterLang, setFilterLang] = useState('all'); // 'all', 'id', 'en', 'ko'
 
   const [searchTerm, setSearchTerm] = useState('');
   const [suggestions, setSuggestions] = useState([]);
@@ -138,6 +139,11 @@ const WordList = () => {
       list = [...words];
     }
 
+    // 언어별 필터링 적용 (v18.0 추가)
+    if (filterLang !== 'all') {
+      list = list.filter(w => w.study_lang === filterLang);
+    }
+
     if (sortOption === 'latest') {
       list.sort((a, b) => new Date(b.created_at || 0) - new Date(a.created_at || 0));
     } else if (sortOption === 'oldest') {
@@ -170,7 +176,7 @@ const WordList = () => {
 
   const handleDelete = async (id, e) => {
     e.stopPropagation();
-    if (window.confirm('이 단어를 정말 삭제하시겠습니까?')) {
+    if (window.confirm(t('msg_delete_confirm_single'))) {
       await deleteWords([id]);
       await removeWordsFromCart([id]);
       loadData();
@@ -187,7 +193,7 @@ const WordList = () => {
 
   const handleDeleteSelected = async () => {
     if (selectedIds.size === 0) return;
-    if (window.confirm(`선택한 ${selectedIds.size}개의 단어를 단어장에서 완전히 삭제하시겠습니까?`)) {
+    if (window.confirm(t('msg_delete_confirm_multi', { count: selectedIds.size }))) {
       try {
         await deleteWords(Array.from(selectedIds));
         await removeWordsFromCart(Array.from(selectedIds));
@@ -370,6 +376,27 @@ const WordList = () => {
            </div>
         </div>
 
+        {/* 언어별 필터 탭 (v18.0 추가) */}
+        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', justifyContent: 'center', background: '#f8f9fa', padding: '0.4rem', borderRadius: '20px', width: 'fit-content', margin: '0 auto 1.5rem auto' }}>
+            {[
+                { id: 'all', label: t('lang_all') },
+                { id: 'id', label: t('lang_id') },
+                { id: 'en', label: t('lang_en') },
+                { id: 'ko', label: t('lang_ko') }
+            ].map(lang => (
+                <button 
+                    key={lang.id}
+                    onClick={() => setFilterLang(lang.id)}
+                    style={{ 
+                        padding: '0.6rem 1.2rem', border: 'none', borderRadius: '15px', cursor: 'pointer', fontWeight: '800', transition: '0.3s',
+                        background: filterLang === lang.id ? 'var(--nana-dark)' : 'transparent',
+                        color: filterLang === lang.id ? '#fff' : '#888'
+                    }}>
+                    {lang.label}
+                </button>
+            ))}
+        </div>
+
         {cartIds.size > 0 && (
             <div style={{ background: '#fff9db', padding: '1.2rem', borderRadius: '25px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', border: '3px solid #feca57', boxShadow: '0 4px 0 #feca57', marginBottom: '1.5rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -442,7 +469,7 @@ const WordList = () => {
               disabled={selectedIds.size === 0}
               onClick={handleExportPDF}
               style={{ background: selectedIds.size > 0 ? '#722ed1' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s' }}>
-              <FileText size={18} /> PDF 백업
+              <FileText size={18} /> {t('btn_export_pdf')}
            </button>
            <button 
               disabled={selectedIds.size === 0}
@@ -455,8 +482,8 @@ const WordList = () => {
       
       {words.length === 0 ? (
         <div style={{ background: '#fff', padding: '4rem 2rem', textAlign: 'center', borderRadius: '35px', color: '#999', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', fontWeight: '700' }}>
-          저장된 단어가 하나도 없어요. 🍌<br/>
-          <strong>✨ {t('nav_generate')}</strong> 탭에서 공부하고 싶은 주제로 단어를 만들어보세요!
+          {t('list_no_words_msg')}<br/>
+          {t('list_no_words_desc')}
         </div>
       ) : (
         <>
@@ -492,7 +519,7 @@ const WordList = () => {
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1.2rem' }}>
                  <button onClick={() => { setSelectedDate(null); setSelectedTopic(null); setSelectedPos(null); }} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: '#eee', border: 'none', cursor: 'pointer', color: '#555', fontWeight: '900', padding: '0.6rem 1.2rem', borderRadius: '20px' }}>
-                     <ChevronLeft size={20} /> 뒤로가기
+                     <ChevronLeft size={20} /> {t('list_back')}
                  </button>
                  
                  <button onClick={handleToggleSelectAll}
@@ -538,16 +565,31 @@ const WordList = () => {
                       {isExpanded && (
                         <div style={{ padding: '2rem', background: '#fff', borderTop: '2px solid #f0f0f0' }}>
                           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.8rem' }}>
-                             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem', fontSize: '1rem', background: '#f8f9fa', padding: '1.5rem', borderRadius: '20px' }}>
-                                {w.etymology && <div><b style={{ color: '#666' }}>📜 {t('label_etymology')}:</b> {w.etymology}</div>}
-                                {w.nuance && <div><b style={{ color: '#8e44ad' }}>🎭 {t('label_nuance') || 'Nuance'}:</b> {w.nuance}</div>}
-                                {w.honorifics && <div><b style={{ color: '#2980b9' }}>🙇‍♂️ {t('label_honorifics') || 'Honorifics'}:</b> {w.honorifics}</div>}
-                                {w.hanja_info && <div><b style={{ color: '#c2410c' }}>🈯 {t('label_hanja') || 'Hanja/Root'}:</b> {w.hanja_info}</div>}
+                             <div style={{ 
+                                  display: 'flex', flexDirection: 'column', gap: '0.8rem', fontSize: '1rem', 
+                                  background: '#fff', padding: '1.8rem', borderRadius: '25px', 
+                                  border: '2px solid #feca57', position: 'relative', boxShadow: 'inset 0 0 20px rgba(254, 202, 87, 0.05)'
+                              }}>
+                                <div style={{ position: 'absolute', top: '-12px', left: '20px', background: '#feca57', color: '#fff', padding: '4px 12px', borderRadius: '10px', fontSize: '0.8rem', fontWeight: '900' }}>
+                                    {t('list_teacher_secret_note')}
+                                </div>
+                                {w.etymology && <div><b style={{ color: '#e67e22' }}>📜 {t('label_etymology')}:</b> {w.etymology}</div>}
+                                {w.nuance && <div><b style={{ color: '#8e44ad' }}>🎭 {t('label_nuance')}:</b> {w.nuance}</div>}
+                                {w.honorifics && <div><b style={{ color: '#2980b9' }}>🙇‍♂️ {t('label_honorifics')}:</b> {w.honorifics}</div>}
+                                {w.hanja_info && <div><b style={{ color: '#c2410c' }}>🈯 {t('label_hanja')}:</b> {w.hanja_info}</div>}
                                 {w.root && <div><b style={{ color: '#27ae60' }}>🌱 {t('label_root')}:</b> {w.root}</div>}
                                 {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>📘 {t('label_grammar')}:</b> {w.grammar_rule}</div>}
                                 {w.context && <div><b style={{ color: '#1565c0' }}>📌 {t('label_context')}:</b> {w.context}</div>}
-                                {w.caution && <div><b style={{ color: '#d35400' }}>⚠️ {t('label_caution')}:</b> {w.caution}</div>}
-                                {w.related && <div><b style={{ color: '#2e7d32' }}>💡 {t('label_tip')}:</b> {w.related}</div>}
+                                {w.caution && (
+                                    <div style={{ background: '#fff0f0', padding: '10px', borderRadius: '12px', borderLeft: '4px solid #ff4d4f', marginTop: '5px' }}>
+                                        <b style={{ color: '#ff4d4f' }}>⚠️ {t('label_caution')} (학습 주의):</b> {w.caution}
+                                    </div>
+                                )}
+                                {w.related && (
+                                    <div style={{ background: '#f0f9ff', padding: '10px', borderRadius: '12px', borderLeft: '4px solid #1890ff', marginTop: '5px' }}>
+                                        <b style={{ color: '#1890ff' }}>{t('list_teacher_tip')}</b> {w.related}
+                                    </div>
+                                )}
                              </div>
 
                              <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
@@ -578,7 +620,7 @@ const WordList = () => {
                              </div>
                           </div>
                           <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1.5rem', marginTop: '2rem', paddingTop: '1.2rem', borderTop: '2px solid #f0f0f0' }}>
-                             <button onClick={(e) => handleDelete(w.id, e)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#ff4d4f', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1rem' }}><Trash2 size={18} /> 삭제</button>
+                             <button onClick={(e) => handleDelete(w.id, e)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#ff4d4f', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1rem' }}><Trash2 size={18} /> {t('btn_delete')}</button>
                           </div>
                         </div>
                       )}
@@ -589,9 +631,9 @@ const WordList = () => {
 
               {totalPages > 1 && (
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.6rem', marginTop: '2.5rem' }}>
-                    <button onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))} disabled={currentPage === 1} style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid #eee', background: '#fff', cursor: 'pointer', fontWeight: '800' }}>이전</button>
+                    <button onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))} disabled={currentPage === 1} style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid #eee', background: '#fff', cursor: 'pointer', fontWeight: '800' }}>{t('list_prev_page')}</button>
                     <span style={{ fontWeight: '900', color: '#666' }}>{currentPage} / {totalPages}</span>
-                    <button onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))} disabled={currentPage === totalPages} style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid #eee', background: '#fff', cursor: 'pointer', fontWeight: '800' }}>다음</button>
+                    <button onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))} disabled={currentPage === totalPages} style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid #eee', background: '#fff', cursor: 'pointer', fontWeight: '800' }}>{t('list_next_page')}</button>
                 </div>
               )}
             </div>
@@ -604,15 +646,15 @@ const WordList = () => {
       {isMoveModalOpen && (
         <div className="modal-overlay" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(5px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 3000 }}>
           <div className="modal-content" style={{ background: '#fff', padding: '2.5rem', borderRadius: '35px', width: '90%', maxWidth: '450px', boxShadow: '0 20px 40px rgba(0,0,0,0.2)' }}>
-            <h3 style={{ marginTop: 0, textAlign: 'center', fontWeight: '900', fontSize: '1.4rem' }}>📦 폴더 이동</h3>
-            <p style={{ textAlign: 'center', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>선택한 단어들을 어디로 옮길까요?</p>
+            <h3 style={{ marginTop: 0, textAlign: 'center', fontWeight: '900', fontSize: '1.4rem' }}>{t('list_move_modal_title')}</h3>
+            <p style={{ textAlign: 'center', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>{t('list_move_modal_desc')}</p>
             <select value={moveFolderId} onChange={e => setMoveFolderId(e.target.value)} style={{ width: '100%', padding: '1rem', borderRadius: '18px', border: '2.5px solid #eee', marginBottom: '2rem', outline: 'none', fontWeight: '700', fontSize: '1rem' }}>
-              <option value="">이동할 폴더 선택...</option>
+              <option value="">{t('list_move_select_folder')}</option>
               {folders.map(f => (<option key={f.id} value={f.id}>{f.name}</option>))}
             </select>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <button onClick={handleMoveSelected} style={{ flex: 2, padding: '1.2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 5px 0 #e67e22' }}>이동하기</button>
-              <button onClick={() => setIsMoveModalOpen(false)} style={{ flex: 1, padding: '1.2rem', background: '#f5f5f5', color: '#666', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer' }}>취소</button>
+              <button onClick={handleMoveSelected} style={{ flex: 2, padding: '1.2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 5px 0 #e67e22' }}>{t('btn_move_folder')}</button>
+              <button onClick={() => setIsMoveModalOpen(false)} style={{ flex: 1, padding: '1.2rem', background: '#f5f5f5', color: '#666', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer' }}>{t('btn_cancel')}</button>
             </div>
           </div>
         </div>

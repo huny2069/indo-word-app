@@ -56,9 +56,9 @@ export const addWord = async (wordData) => {
 
   const wordEntry = {
     ...wordData,
-    created_at: new Date().toISOString(),
-    level: 0, // 라이트너 초기 레벨 (0: 미암기)
-    next_review_date: new Date().toISOString(),
+    created_at: wordData.created_at || new Date().toISOString(),
+    level: wordData.level !== undefined ? wordData.level : 0, // 라이트너 초기 레벨 (0: 미암기)
+    next_review_date: wordData.next_review_date || new Date().toISOString(),
   };
 
   return db.add('words', wordEntry);

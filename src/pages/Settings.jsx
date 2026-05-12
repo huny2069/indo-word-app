@@ -118,7 +118,7 @@ const Settings = () => {
     try {
         const voices = await fetchGoogleVoices(gcpAccessToken);
         if (!voices || voices.length === 0) {
-          alert("음성 목록을 가져오지 못했습니다. Google 계정 연결이 만료되었을 수 있으니 다시 로그인해 주세요.");
+          alert(t('msg_fetch_voices_expired'));
           return;
         }
         const filtered = voices.filter(v => 
@@ -147,7 +147,7 @@ const Settings = () => {
       link.setAttribute('href', url);
       link.setAttribute('download', `Inko_Backup_${new Date().toISOString().slice(0,10)}.csv`);
       link.click();
-    } catch (err) { alert("CSV 내보내기 중 오류 발생"); }
+    } catch (err) { alert(t('msg_export_csv_error')); }
   };
 
   const handleBackupToDrive = async () => {
@@ -168,7 +168,7 @@ const Settings = () => {
     setIsDriveOperating(true);
     try {
       const backupFile = await searchBackupFile(gcpAccessToken);
-      if (!backupFile) { alert("백업 파일을 찾을 수 없습니다."); return; }
+      if (!backupFile) { alert(t('msg_restore_no_file')); return; }
       if (!window.confirm(t('msg_restore_confirm'))) return;
       const backupData = await downloadBackupFromDrive(gcpAccessToken, backupFile.id);
       let addCount = 0;
@@ -213,7 +213,7 @@ const Settings = () => {
         alert(t('msg_api_key_valid')); 
       } catch (e) { 
         setApiStatus('invalid');
-        alert(t('msg_model_fetch_fail') + "\n\n사유: " + e.message); 
+        alert(t('msg_model_fetch_fail') + "\n\n" + t('set_reason') + " " + e.message); 
       }
       finally { setLoadingModels(false); }
     };
@@ -233,7 +233,7 @@ const Settings = () => {
       try {
         await playAudio(testTexts[lang] || testTexts.en, lang, modelName);
       } catch (e) {
-        alert("음성 테스트 실패: " + e.message);
+        alert(t('msg_test_voice_fail') + " " + e.message);
       }
     };
 
@@ -364,7 +364,7 @@ const Settings = () => {
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.8rem' }}>
                         <span style={{ fontWeight: '900', color: '#333' }}>{t('set_lang_model')}</span>
                         <button onClick={handleFetchGoogleVoicesList} disabled={loadingVoices} style={{ background: '#feca57', color: '#fff', border: 'none', padding: '0.7rem 1.4rem', borderRadius: '15px', fontSize: '0.85rem', fontWeight: '900', boxShadow: '0 4px 0 #e67e22', cursor: 'pointer' }}>
-                            {loadingVoices ? "갱신 중..." : t('set_google_update')}
+                            {loadingVoices ? t('set_google_updating') : t('set_google_update')}
                         </button>
                     </div>
 
@@ -466,11 +466,11 @@ const Settings = () => {
                 localStorage.setItem('selectedGeminiModel', val);
             }}
                 style={{ width: '100%', padding: '1rem', border: '2px solid #e2e8f0', borderRadius: '15px', outline: 'none', fontWeight: '700', color: '#334155', background: '#fff' }}>
-                {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>모델 갱신 필요</option>}
+                {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>{t('set_model_update_needed')}</option>}
             </select>
             {selectedGeminiModel && (
                 <p style={{ marginTop: '8px', fontSize: '0.8rem', color: '#059669', fontWeight: '800' }}>
-                    ✓ 현재 {selectedGeminiModel} 모델이 즉시 적용되었습니다.
+                    {t('set_model_applied').replace('{model}', selectedGeminiModel)}
                 </p>
             )}
         </div>
@@ -502,7 +502,7 @@ const Settings = () => {
                 </div>
             ) : (
                 <div style={{ textAlign: 'center' }}>
-                    <p style={{ fontSize: '0.85rem', color: '#999', marginBottom: '1.5rem', fontWeight: '600' }}>구글 계정을 연결하여 안전하게 클라우드 백업을 시작하세요.</p>
+                    <p style={{ fontSize: '0.85rem', color: '#999', marginBottom: '1.5rem', fontWeight: '600' }}>{t('set_cloud_connect_desc')}</p>
                     <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '1.3rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '25px', fontWeight: '900', fontSize: '1.1rem', boxShadow: '0 6px 0 #1c66d1' }}>{t('set_cloud_login')}</button>
                 </div>
             )}
@@ -512,7 +512,7 @@ const Settings = () => {
       {/* 진단 섹션 */}
       <div className="settings-card" style={{ background: '#fff5f5', padding: '1.8rem', borderRadius: '30px', border: '2px dashed #feb2b2', textAlign: 'center' }}>
         <h4 style={{ color: '#c53030', margin: '0 0 0.8rem 0', fontWeight: '900' }}>⚠️ {t('set_diagnosa')}</h4>
-        <p style={{ fontSize: '0.8rem', color: '#999', marginBottom: '1.2rem', fontWeight: '600' }}>앱이 정상적으로 작동하지 않을 때만 사용하세요. (음성 엔진 초기화)</p>
+        <p style={{ fontSize: '0.8rem', color: '#999', marginBottom: '1.2rem', fontWeight: '600' }}>{t('set_diagnosa_desc')}</p>
         <button onClick={() => { localStorage.removeItem('gcp_access_token'); window.location.reload(); }}
             style={{ padding: '0.8rem 2rem', background: '#fff', border: '2px solid #718096', borderRadius: '15px', color: '#4a5568', fontWeight: '900', cursor: 'pointer' }}>{t('set_reset_btn')}</button>
       </div>
@@ -521,7 +521,7 @@ const Settings = () => {
         <div className="modal-overlay" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(5px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 3000 }}>
           <div className="modal-content" style={{ background: '#fff', padding: '2.5rem', borderRadius: '40px', width: '90%', maxWidth: '650px', boxShadow: '0 30px 60px rgba(0,0,0,0.2)' }}>
             <h3 style={{ fontWeight: '900', marginBottom: '1rem' }}>{t('set_json_import_title')}</h3>
-            <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>복사한 JSON 단어 리스트를 아래에 붙여넣으세요.</p>
+            <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1.5rem', fontWeight: '600' }}>{t('set_json_import_desc')}</p>
             <textarea value={jsonInput} onChange={e => setJsonInput(e.target.value)} placeholder="[ { 'word': '...', 'meaning': '...' } ]" style={{ width: '100%', height: '300px', borderRadius: '20px', border: '2.5px solid #f0f0f0', padding: '1.2rem', outline: 'none', fontSize: '0.9rem', fontFamily: 'monospace' }} />
             <div style={{ display: 'flex', gap: '1rem', marginTop: '2rem' }}>
               <button onClick={handleJsonImport} disabled={isJsonImporting} style={{ flex: 2, padding: '1.2rem', background: '#ff9f43', color: '#fff', border: 'none', borderRadius: '20px', fontWeight: '900', fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 5px 0 #e67e22' }}>{t('set_json_confirm')}</button>

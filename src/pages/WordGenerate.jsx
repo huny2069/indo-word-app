@@ -53,7 +53,7 @@ const WordGenerate = () => {
     setLoading(true);
     setGeneratedWords([]);
     setProgress(10);
-    setProgressMsg("AI 엔진 부팅 중... 🚀");
+    setProgressMsg(t('gen_ai_booting'));
     
     try {
       // 로컬 스토리지에 저장된 모델이 있으면 사용, 없으면 gemini-1.5-flash 사용
@@ -61,7 +61,7 @@ const WordGenerate = () => {
       
       // 1. 로컬 단어장 불러오기 (중복 방지용)
       setProgress(25);
-      setProgressMsg("주제 분석 및 중복 단어 체크 중... 🔍");
+      setProgressMsg(t('gen_ai_analyzing'));
       let localWords = await getWords();
       let existingWordStrings = localWords.map(w => w.word.toLowerCase());
       
@@ -93,9 +93,9 @@ const WordGenerate = () => {
       const remainingCount = count - finalAddedWords.length;
       if (remainingCount > 0) {
         setProgress(45);
-        setProgressMsg(`${targetLangName} 단어 생성 및 어원 파악 중... 🧠`);
+        setProgressMsg(t('gen_ai_generating').replace('{targetLangName}', targetLangName));
         setProgress(85);
-        setProgressMsg("뉘앙스 및 예문 최적화 중... ✍️");
+        setProgressMsg(t('gen_ai_optimizing'));
         let currentTry = 0;
         const maxTries = 3;
 
@@ -133,7 +133,7 @@ const WordGenerate = () => {
       }
       
       setProgress(100);
-      setProgressMsg("학습 데이터를 모두 준비했습니다! 🍌");
+      setProgressMsg(t('gen_ai_ready'));
       setGeneratedWords(finalAddedWords);
       
       if (finalAddedWords.length === 0) {
@@ -271,7 +271,7 @@ const WordGenerate = () => {
             </h3>
             
             <p style={{ fontSize: '0.9rem', color: '#888', marginBottom: '2rem', fontWeight: '600' }}>
-                사용 중인 모델: <span style={{ color: '#feca57' }}>{localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}</span>
+                {t('gen_ai_current_model')} <span style={{ color: '#feca57' }}>{localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}</span>
             </p>
 
             <div style={{ width: '100%', maxWidth: '400px', height: '18px', background: '#f5f5f5', borderRadius: '10px', overflow: 'hidden', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>

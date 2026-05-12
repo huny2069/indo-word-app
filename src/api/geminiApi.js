@@ -41,14 +41,20 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
   }
 
   const promptText = `
-  당신은 ${nativeLangName} 사용자를 위한 ${targetLangName} 학습 콘텐츠를 제작하는 최고의 교육 전문가입니다.
-  사용자가 요청한 주제 "${topic}"에 관련된 ${targetLangName} 단어 ${count}개를 생성해주세요.
+  당신은 ${nativeLangName} 사용자를 대상으로 하는 ${targetLangName} 교육계의 **'1타 스타 강사'**입니다. 
+  단순한 단어 나열이 아니라, 학생들이 열광하는 당신만의 독특하고 머리에 쏙쏙 들어오는 강의 기법을 JSON 데이터에 녹여내세요.
+  사용자가 요청한 주제 "${topic}"에 관련된 전문적인 ${targetLangName} 단어 ${count}개를 생성해주세요.
   모든 설명과 번역은 반드시 **${nativeLangName}**로 작성하세요.
 
   [중요 지침]
   1. JSON 배열 형식으로만 응답하며, 마크다운 백틱(\`\`\`)을 포함하지 마세요.
   2. JSON 표준을 엄격히 준수하고, 모든 키와 값은 큰따옴표(")를 사용하세요.
   ${specificRules}
+
+  [강사의 비밀 지침]
+  - **caution (학습 주의점)**: "마늘은 맵다" 같은 일반 상식은 절대 금지! 대신 "이 단어는 s 발음이 묵음이라 주의해야 해!", "A 단어랑 모양이 비슷해서 시험에 자주 나와!" 같은 **학습 밀착형 주의점**을 적으세요.
+  - **related (강사의 비법)**: 이 단어를 한 번에 외울 수 있는 **연상 암기법, 공부 전략, 혹은 해당 단어가 쓰이는 실전 꿀팁**을 적으세요.
+  - **Interactivity (전수 분석)**: 예문(example_formal, example_casual)에 사용된 **모든 단어와 중요한 숙어**를 하나도 빠짐없이 word_breakdown에 포함시키세요. 클릭했을 때 뜻이 안 나오면 학생들이 화를 냅니다!
 
   [각 요소의 JSON 구조]
   {
@@ -62,11 +68,11 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
     "example_casual_kr": "위 예문의 ${nativeLangName} 번역",
     "antonym": "반대어",
     "synonym": "유사어",
-    "context": "구체적인 사용 상황 설명 (${nativeLangName})",
-    "caution": "문화적 배경이나 사용 시 주의점 (${nativeLangName})",
-    "related": "학습 팁이나 관련 표현 (${nativeLangName})",
-    "grammar_rule": "문법적 특징 설명 (${nativeLangName})",
-    "word_breakdown": [{"word": "단어/요소", "meaning": "뜻"}] // 예문에 사용된 모든 단어의 개별 분석
+    "context": "이 단어가 쓰이는 구체적인 상황과 뉘앙스 설명 (강사 말투로 - ${nativeLangName})",
+    "caution": "시험/학습 시 반드시 주의해야 할 점 (유사어 혼동, 발음, 예외 규칙 등 - ${nativeLangName})",
+    "related": "유명 강사의 단어 암기 비법 및 실전 공부 팁 (${nativeLangName})",
+    "grammar_rule": "이 단어와 관련된 핵심 문법 포인트 (${nativeLangName})",
+    "word_breakdown": [{"word": "단어/숙어", "meaning": "뜻"}] // 예문에 사용된 모든 요소의 개별 분석 (중요!)
   }
 
   ${excludeWords.length > 0 ? `제외할 단어 목록: [${excludeWords.join(', ')}]` : ''}

@@ -7,11 +7,10 @@ const InteractiveSentence = ({ sentence, wordBreakdown }) => {
 
   const clean = (str) => {
     if (!str) return '';
-    // 하이픈(-) 및 기타 특수문자 제거 필터 강화
     return str.replace(/[.,!?()[\]{}"'/-]/g, '').toLowerCase().trim();
   };
 
-  // 단어장 맵 생성 (소문자로 변환하여 매핑)
+  // 단어장 맵 생성
   const breakdownMap = {};
   if (wordBreakdown && Array.isArray(wordBreakdown)) {
     wordBreakdown.forEach(item => {
@@ -20,90 +19,94 @@ const InteractiveSentence = ({ sentence, wordBreakdown }) => {
     });
   }
 
-  const getMeaning = (word) => {
-    const cw = clean(word);
-    if (!cw) return null;
+  // 숙어 및 단어를 포함한 모든 매칭 가능한 키들 (길이 내림차순 정렬)
+  const sortedKeys = Object.keys(breakdownMap).sort((a, b) => b.length - a.length);
 
-    // 1. Exact Match (정밀 일치)
-    if (breakdownMap[cw]) return breakdownMap[cw];
+  // 문장을 매칭된 부분과 매칭되지 않은 부분으로 나눔
+  const renderInteractiveText = () => {
+    let result = [];
+    let remainingText = sentence;
+    let keyIndex = 0;
 
-    // 2. Fuzzy Match (부분 일치 - 인도네시아어 접사 및 어근 고려)
-    const keys = Object.keys(breakdownMap).sort((a, b) => b.length - a.length);
-    for (const key of keys) {
-      if (key.length < 3) continue; // 너무 짧은 단어(조사 등)는 부분 일치 제외
-      
-      // 문장의 단어가 어근(key)을 포함하거나, 어근이 단어를 포함하는지 확인
-      if (cw.includes(key) || key.includes(cw)) {
-        return breakdownMap[key];
+    // 단순화를 위해 공백 기준으로 토큰화하되, 숙어 매칭 시도
+    const tokens = sentence.split(/(\s+)/); // 공백 보존하며 분할
+
+    let i = 0;
+    while (i < tokens.length) {
+      const currentToken = tokens[i];
+      if (/\s+/.test(currentToken)) {
+        result.push(currentToken);
+        i++;
+        continue;
       }
-    }
-    return null;
-  };
 
-  const words = sentence.split(/\s+/); // 공백 여러 개 대응
+      // 숙어 매칭 시도 (최대 5단어까지 확인)
+      let foundMatch = null;
+      for (let j = 5; j >= 1; j--) {
+        const potentialPhraseTokens = tokens.slice(i, i + (j * 2) - 1);
+        const potentialPhrase = potentialPhraseTokens.join('').trim();
+        const cleanPhrase = clean(potentialPhrase);
 
-  const handleWordClick = (index, meaning) => {
-    if (!meaning) return;
-    setActiveWordId(activeWordId === index ? null : index);
-  };
+        if (breakdownMap[cleanPhrase]) {
+          foundMatch = {
+            text: potentialPhrase,
+            meaning: breakdownMap[cleanPhrase],
+            originalIndex: i
+          };
+          i += (j * 2) - 1;
+          break;
+        }
+      }
 
-  return (
-    <div style={{ display: 'inline-flex', flexWrap: 'wrap', gap: '3px', alignItems: 'center' }}>
-      {words.map((w, index) => {
-        const meaning = getMeaning(w);
-        
-        return (
-          <div key={index} style={{ position: 'relative', display: 'inline-block' }}>
+      if (foundMatch) {
+        const idx = foundMatch.originalIndex;
+        result.push(
+          <div key={idx} style={{ position: 'relative', display: 'inline-block' }}>
             <span 
-              onClick={() => meaning ? handleWordClick(index, meaning) : null}
+              onClick={() => setActiveWordId(activeWordId === idx ? null : idx)}
               style={{ 
-                cursor: meaning ? 'pointer' : 'default',
-                textDecoration: meaning ? 'underline' : 'none',
-                textDecorationStyle: meaning ? 'dotted' : 'none',
-                textDecorationColor: meaning ? '#90caf9' : 'transparent',
-                color: meaning ? '#0a58ca' : 'inherit',
+                cursor: 'pointer',
+                textDecoration: 'underline',
+                textDecorationStyle: 'dotted',
+                textDecorationColor: '#90caf9',
+                color: '#0a58ca',
                 padding: '1px 2px',
                 borderRadius: '4px',
-                background: activeWordId === index ? '#e3f2fd' : 'transparent',
+                background: activeWordId === idx ? '#e3f2fd' : 'transparent',
                 transition: 'background 0.2s',
-                fontWeight: meaning ? '500' : 'normal'
+                fontWeight: '600'
               }}
             >
-              {w}
+              {foundMatch.text}
             </span>
-            
-            {activeWordId === index && meaning && (
+            {activeWordId === idx && (
               <div style={{
-                position: 'absolute',
-                bottom: '100%',
-                left: '50%',
-                transform: 'translateX(-50%)',
-                marginBottom: '6px',
-                background: '#333',
-                color: '#fff',
-                padding: '6px 10px',
-                borderRadius: '6px',
-                fontSize: '0.85rem',
-                whiteSpace: 'nowrap',
-                zIndex: 10,
-                boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+                position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
+                marginBottom: '6px', background: '#333', color: '#fff', padding: '6px 12px',
+                borderRadius: '8px', fontSize: '0.85rem', whiteSpace: 'nowrap', zIndex: 100,
+                boxShadow: '0 4px 12px rgba(0,0,0,0.15)', fontWeight: 'bold'
               }}>
-                {meaning}
-                {/* 툴팁 꼬리 */}
+                {foundMatch.meaning}
                 <div style={{
-                  position: 'absolute',
-                  top: '100%',
-                  left: '50%',
-                  transform: 'translateX(-50%)',
-                  borderWidth: '5px',
-                  borderStyle: 'solid',
-                  borderColor: '#333 transparent transparent transparent'
+                  position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
+                  borderWidth: '5px', borderStyle: 'solid', borderColor: '#333 transparent transparent transparent'
                 }} />
               </div>
             )}
           </div>
         );
-      })}
+      } else {
+        // 매칭되지 않은 단어
+        result.push(currentToken);
+        i++;
+      }
+    }
+    return result;
+  };
+
+  return (
+    <div style={{ display: 'inline-flex', flexWrap: 'wrap', gap: '2px', alignItems: 'center' }}>
+      {renderInteractiveText()}
     </div>
   );
 };
