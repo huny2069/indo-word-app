@@ -333,15 +333,15 @@ const Settings = () => {
             </div>
         </div>
         <div className="settings-card" style={{ marginBottom: 0, background: '#e8f0fe' }}>
-            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>☁️ Cloud</h4>
+            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>☁️ {t('set_cloud_title_label') || '구글 클라우드'}</h4>
             {gcpAccessToken ? (
                 <div style={{ display: 'grid', gap: '0.6rem' }}>
                     <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ padding: '0.7rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem' }}><FileUp size={14} /> Backup</button>
                     <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ padding: '0.7rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem' }}><FileDown size={14} /> Restore</button>
                 </div>
             ) : (
-                <button onClick={() => handleGoogleLogin()} style={{ width: '100%', height: '100%', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '900', fontSize: '0.85rem', cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '5px' }}>
-                    <LogIn size={20} /> Login
+                <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '0.8rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '900', fontSize: '0.85rem', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+                    <LogIn size={18} /> {t('set_google_login') || 'Login'}
                 </button>
             )}
         </div>

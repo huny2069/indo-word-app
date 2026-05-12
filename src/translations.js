@@ -76,6 +76,13 @@ export const translations = {
     dash_learning_detail: '아직 퀴즈를 통과하지 못한 단어들',
     dash_review_detail: '에빙하우스 복습 주기가 도래한 단어들',
     dash_master_detail: '4단계 이상 도달한 완벽 암기 단어들',
+    dash_report_detail_btn: '📊 리포트 상세보기',
+    dash_detail_level_stat: '레벨별 분포',
+    dash_detail_hard_words: '정복이 필요한 단어 TOP 5',
+    dash_detail_efficiency: '학습 효율성',
+    dash_detail_recent_activity: '최근 학습 활동',
+    dash_detail_incorrect_count: '틀린 횟수',
+    set_cloud_title_label: '구글 클라우드',
 
     // WordList
     list_title: '나의 단어장',
@@ -489,6 +496,13 @@ export const translations = {
     dash_learning_detail: 'Kata-kata yang belum lulus kuis',
     dash_review_detail: 'Waktunya mengulang (Spaced Repetition)',
     dash_master_detail: 'Sudah hafal sempurna (Level 4+)',
+    dash_report_detail_btn: '📊 Lihat Laporan Detail',
+    dash_detail_level_stat: 'Distribusi Level',
+    dash_detail_hard_words: 'TOP 5 Kata Sulit',
+    dash_detail_efficiency: 'Efisiensi Belajar',
+    dash_detail_recent_activity: 'Aktivitas Terbaru',
+    dash_detail_incorrect_count: 'Jumlah Salah',
+    set_cloud_title_label: 'Google Cloud',
 
     // WordList
     list_title: 'Kosakata Saya',
