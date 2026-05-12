@@ -51,7 +51,7 @@ const Layout = () => {
 
   const languages = [
     { code: 'ko', name: '한국어', flag: '🇰🇷' },
-    { code: 'id', name: 'Indo', flag: '🇮🇩' },
+    { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
     { code: 'en', name: 'English', flag: '🇺🇸' }
   ];
 
@@ -60,78 +60,82 @@ const Layout = () => {
 
   return (
     <div className="app-container">
-      <header className="navbar" style={{ padding: '0.6rem 1rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <h1 className="desktop-only" style={{ fontWeight: '900', letterSpacing: '-1px', margin: 0, fontSize: '1.5rem', color: 'var(--primary-color)', marginRight: '0.5rem' }}>Inko</h1>
-          
-          {/* 사용자 언어 드롭다운 */}
-          <div className="lang-selector-container" ref={userLangRef}>
-            <button 
-              className="lang-selector-btn" 
-              onClick={() => { setIsUserLangOpen(!isUserLangOpen); setIsStudyLangOpen(false); }}
-              style={{ padding: '4px 8px', borderRadius: '15px', background: '#fff', border: '2px solid #eee', display: 'flex', alignItems: 'center', gap: '4px' }}
-            >
-              <span style={{ fontSize: '1.1rem' }}>{currentUserLang.flag}</span>
-              <ChevronDown size={12} style={{ opacity: 0.6, transform: isUserLangOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.3s' }} />
-            </button>
-
-            {isUserLangOpen && (
-              <div className="lang-dropdown" style={{ minWidth: '150px', top: '110%' }}>
-                <div style={{ padding: '8px 12px', fontSize: '0.75rem', fontWeight: '800', color: '#999', borderBottom: '1px solid #f5f5f5' }}>{t('onboarding_native')}</div>
-                {languages.map(l => (
-                  <button 
-                    key={l.code} 
-                    className={`lang-option ${userLang === l.code ? 'active' : ''}`}
-                    onClick={() => { changeUserLang(l.code); setIsUserLangOpen(false); }}
-                  >
-                    <span className="flag-icon">{l.flag}</span>
-                    <span style={{ fontSize: '0.85rem' }}>{l.name}</span>
-                  </button>
-                ))}
-              </div>
-            )}
+      <header className="navbar">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <h1 className="desktop-only" style={{ fontWeight: '900', letterSpacing: '-1.5px', margin: 0, fontSize: '1.8rem', color: 'var(--primary-color)' }}>Inko</h1>
           </div>
+          
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+            {/* 사용자 언어 드롭다운 */}
+            <div className="lang-selector-container" ref={userLangRef}>
+                <button 
+                className="lang-selector-btn" 
+                onClick={() => { setIsUserLangOpen(!isUserLangOpen); setIsStudyLangOpen(false); }}
+                style={{ padding: '4px 8px', borderRadius: '12px', background: '#fff', border: '1px solid #eee' }}
+                >
+                <span style={{ fontSize: '1.2rem' }}>{currentUserLang.flag}</span>
+                <ChevronDown size={12} style={{ opacity: 0.6, transform: isUserLangOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.3s' }} />
+                </button>
 
-          <ArrowRight size={14} color="#ccc" />
+                {isUserLangOpen && (
+                <div className="lang-dropdown" style={{ left: '0', transform: 'none' }}>
+                    <div style={{ padding: '8px 12px', fontSize: '0.7rem', fontWeight: '800', color: '#999', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>{t('onboarding_native')}</div>
+                    {languages.map(l => (
+                    <button 
+                        key={l.code} 
+                        className={`lang-option ${userLang === l.code ? 'active' : ''}`}
+                        onClick={() => { changeUserLang(l.code); setIsUserLangOpen(false); }}
+                    >
+                        <span className="flag-icon">{l.flag}</span>
+                        <span>{l.name}</span>
+                    </button>
+                    ))}
+                </div>
+                )}
+            </div>
 
-          {/* 학습 언어 드롭다운 */}
-          <div className="lang-selector-container" ref={studyLangRef}>
-            <button 
-              className="lang-selector-btn" 
-              onClick={() => { setIsStudyLangOpen(!isStudyLangOpen); setIsUserLangOpen(false); }}
-              style={{ padding: '4px 8px', borderRadius: '15px', background: '#fff', border: '2px solid #feca57', display: 'flex', alignItems: 'center', gap: '4px' }}
-            >
-              <span style={{ fontSize: '1.1rem' }}>{currentStudyLang.flag}</span>
-              <ChevronDown size={12} style={{ opacity: 0.6, transform: isStudyLangOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.3s' }} />
-            </button>
+            <ArrowRight size={14} color="rgba(255,255,255,0.5)" />
 
-            {isStudyLangOpen && (
-              <div className="lang-dropdown" style={{ minWidth: '150px', top: '110%' }}>
-                <div style={{ padding: '8px 12px', fontSize: '0.75rem', fontWeight: '800', color: '#999', borderBottom: '1px solid #f5f5f5' }}>{t('onboarding_study')}</div>
-                {languages.map(l => (
-                  <button 
-                    key={l.code} 
-                    className={`lang-option ${studyLang === l.code ? 'active' : ''}`}
-                    disabled={userLang === l.code}
-                    onClick={() => { changeStudyLang(l.code); setIsStudyLangOpen(false); }}
-                    style={{ opacity: userLang === l.code ? 0.3 : 1, cursor: userLang === l.code ? 'not-allowed' : 'pointer' }}
-                  >
-                    <span className="flag-icon">{l.flag}</span>
-                    <span style={{ fontSize: '0.85rem' }}>{l.name}</span>
-                  </button>
-                ))}
-              </div>
-            )}
+            {/* 학습 언어 드롭다운 */}
+            <div className="lang-selector-container" ref={studyLangRef}>
+                <button 
+                className="lang-selector-btn" 
+                onClick={() => { setIsStudyLangOpen(!isStudyLangOpen); setIsUserLangOpen(false); }}
+                style={{ padding: '4px 8px', borderRadius: '12px', background: '#fff', border: '2px solid #feca57' }}
+                >
+                <span style={{ fontSize: '1.2rem' }}>{currentStudyLang.flag}</span>
+                <ChevronDown size={12} style={{ opacity: 0.6, transform: isStudyLangOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.3s' }} />
+                </button>
+
+                {isStudyLangOpen && (
+                <div className="lang-dropdown" style={{ left: '0', transform: 'none' }}>
+                    <div style={{ padding: '8px 12px', fontSize: '0.7rem', fontWeight: '800', color: '#999', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>{t('onboarding_study')}</div>
+                    {languages.map(l => (
+                    <button 
+                        key={l.code} 
+                        className={`lang-option ${studyLang === l.code ? 'active' : ''}`}
+                        disabled={userLang === l.code}
+                        onClick={() => { changeStudyLang(l.code); setIsStudyLangOpen(false); }}
+                        style={{ opacity: userLang === l.code ? 0.3 : 1 }}
+                    >
+                        <span className="flag-icon">{l.flag}</span>
+                        <span>{l.name}</span>
+                    </button>
+                    ))}
+                </div>
+                )}
+            </div>
           </div>
         </div>
 
-        <nav className="desktop-only" style={{ flex: 1, display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
+        <nav className="desktop-only">
           {navItems.map(item => (
             <Link 
               key={item.path} 
               to={item.path}
               className={location.pathname === item.path ? 'active' : ''}
-              style={{ fontWeight: '800', fontSize: '0.9rem', color: location.pathname === item.path ? 'var(--primary-color)' : '#666', textDecoration: 'none' }}
+              style={{ fontWeight: '700', fontSize: '0.95rem' }}
             >
               {item.label}
             </Link>
@@ -144,10 +148,10 @@ const Layout = () => {
             style={{ 
               display: 'flex', 
               alignItems: 'center', 
-              gap: '0.5rem', 
+              gap: '0.6rem', 
               background: '#f8f9fa', 
               border: '2px solid #eee', 
-              padding: '3px 8px 3px 4px', 
+              padding: '4px 10px 4px 6px', 
               borderRadius: '50px',
               cursor: 'pointer',
               transition: 'all 0.2s'
@@ -156,9 +160,9 @@ const Layout = () => {
             <img 
               src={user?.picture || '/assets/img/nana.png'} 
               alt="Profile" 
-              style={{ width: '28px', height: '28px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #fff' }} 
+              style={{ width: '32px', height: '32px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #fff' }} 
             />
-            <span className="desktop-only" style={{ fontWeight: '800', fontSize: '0.8rem', color: '#555' }}>
+            <span className="desktop-only" style={{ fontWeight: '700', fontSize: '0.85rem', color: '#555' }}>
               {user?.name?.split(' ')[0]}
             </span>
           </button>
@@ -169,16 +173,16 @@ const Layout = () => {
               top: '120%',
               right: 0,
               background: '#fff',
-              minWidth: '200px',
+              minWidth: '220px',
               borderRadius: '20px',
               boxShadow: '0 15px 40px rgba(0,0,0,0.12)',
-              padding: '10px',
+              padding: '12px',
               zIndex: 1000,
               border: '1px solid #f0f0f0'
             }}>
-              <div style={{ padding: '8px', textAlign: 'left', marginBottom: '6px', borderBottom: '1px solid #f8f9fa' }}>
-                <div style={{ fontWeight: '900', color: '#333', fontSize: '0.9rem' }}>{user?.name}</div>
-                <div style={{ fontSize: '0.7rem', color: '#999' }}>{user?.email}</div>
+              <div style={{ padding: '10px', textAlign: 'left', marginBottom: '8px', borderBottom: '1px solid #f8f9fa' }}>
+                <div style={{ fontWeight: '900', color: '#333', fontSize: '0.95rem' }}>{user?.name}</div>
+                <div style={{ fontSize: '0.75rem', color: '#999' }}>{user?.email}</div>
               </div>
               <button 
                 onClick={logout}
@@ -186,18 +190,19 @@ const Layout = () => {
                   width: '100%',
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '8px',
-                  padding: '10px',
+                  gap: '10px',
+                  padding: '12px',
                   border: 'none',
                   background: '#fff5f5',
                   color: '#ff4d4d',
                   borderRadius: '12px',
                   cursor: 'pointer',
                   fontWeight: '800',
-                  fontSize: '0.85rem'
+                  fontSize: '0.9rem',
+                  transition: 'background 0.2s'
                 }}
               >
-                <LogOut size={16} />
+                <LogOut size={18} />
                 {t('logout') || 'Log out'}
               </button>
             </div>
