@@ -263,20 +263,50 @@ export const playMixedAudio = async (text, nativeLang, targetLang) => {
   if (!text) return;
   isTtsCancelled = false;
 
-  // <target> ... </target> 태그를 기준으로 분리
+  // 1. 초기 분할 (태그 구간 vs 일반 구간)
   const regex = /<target>(.*?)<\/target>|([^<]+)/g;
   let match;
-  const chunks = [];
+  let rawChunks = [];
   
   while ((match = regex.exec(text)) !== null) {
-    if (match[1] && match[1].trim()) {
-      chunks.push({ text: match[1], lang: targetLang });
-    } else if (match[2] && match[2].trim()) {
-      chunks.push({ text: match[2], lang: nativeLang });
+    if (match[1] !== undefined) {
+      rawChunks.push({ text: match[1], lang: targetLang });
+    } else if (match[2] !== undefined) {
+      rawChunks.push({ text: match[2], lang: nativeLang });
     }
   }
 
-  for (const chunk of chunks) {
+  // 2. 특수 처리: 타겟 태그 사이의 공백/문장부호는 타겟 언어로 편입 (연속성 확보)
+  for (let i = 1; i < rawChunks.length - 1; i++) {
+    const prev = rawChunks[i-1];
+    const curr = rawChunks[i];
+    const next = rawChunks[i+1];
+    
+    if (prev.lang === targetLang && next.lang === targetLang && curr.lang === nativeLang) {
+      // 공백이나 문장부호만 있는 경우 타겟 언어로 전환
+      if (!/[^\s\p{P}]/u.test(curr.text)) {
+        curr.lang = targetLang;
+      }
+    }
+  }
+
+  // 3. 동일 언어 청크 병합 (병합해야 한 문장으로 매끄럽게 읽음)
+  const mergedChunks = [];
+  if (rawChunks.length > 0) {
+    let current = { ...rawChunks[0] };
+    for (let i = 1; i < rawChunks.length; i++) {
+      if (rawChunks[i].lang === current.lang) {
+        current.text += rawChunks[i].text;
+      } else {
+        if (current.text.trim()) mergedChunks.push(current);
+        current = { ...rawChunks[i] };
+      }
+    }
+    if (current.text.trim()) mergedChunks.push(current);
+  }
+
+  // 4. 순차 재생
+  for (const chunk of mergedChunks) {
     if (isTtsCancelled) break;
     await playAudio(chunk.text, chunk.lang);
   }
