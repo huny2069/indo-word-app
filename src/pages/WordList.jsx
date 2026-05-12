@@ -691,8 +691,8 @@ const WordList = () => {
         <AiTeacherModal
           wordData={selectedTeacherWord}
           onClose={() => setSelectedTeacherWord(null)}
-          apiKey={localStorage.getItem('gemini_api_key')}
-          modelName={localStorage.getItem('gemini_model') || 'gemini-1.5-flash'}
+          apiKey={localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY}
+          modelName={localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}
           userLang={localStorage.getItem('inko_native_lang') || 'ko'}
           studyLang={selectedTeacherWord.study_lang}
         />
