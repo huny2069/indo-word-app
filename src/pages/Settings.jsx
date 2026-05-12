@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { getWords, getFolders, addWord, addFolder } from '../db/database';
 import { fetchGeminiModels } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
@@ -15,6 +16,7 @@ const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapi
 const Settings = () => {
   const { userLang, studyLang, changeUserLang, changeStudyLang, t } = useLanguage();
   const { user } = useAuth();
+  const navigate = useNavigate();
   
   const [geminiKey, setGeminiKey] = useState('');
   const [modelList, setModelList] = useState([]);
@@ -450,7 +452,7 @@ const Settings = () => {
             </button>
         </div>
 
-        <button onClick={() => window.location.hash = "#guide"} 
+        <button onClick={() => navigate('/api-guide')} 
             style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', width: '100%', padding: '0.8rem', background: '#fafafa', color: '#666', border: '2px solid #eee', borderRadius: '15px', marginBottom: '1.8rem', fontWeight: '800', fontSize: '0.9rem', cursor: 'pointer' }}>
             <BookOpen size={18} /> {t('set_guide_btn')}
         </button>

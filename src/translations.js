@@ -274,7 +274,7 @@ export const translations = {
     guide_tts_step1: '1. [Google Cloud 콘솔](https://console.cloud.google.com/)에 접속하여 로그온하세요.',
     guide_tts_step2: "2. 상단 프로젝트 선택 바에서 '새 프로젝트'를 만들어주세요.",
     guide_tts_step3: "3. 검색창에 'Cloud Text-to-Speech API'를 입력하고 '사용' 버튼을 클릭하세요.",
-    guide_tts_step4: '4. [결제] 메뉴에서 결제 수단(카드)을 등록하세요. (※ 구글 본인 인증 및 남용 방지 목적으로 등록이 필요하지만, 표준 음성은 매월 400만 자, 프리미엄 음성은 매월 100만 자까지 완전히 무료로 사용 가능하므로 개인 학습 용도로는 사실상 평생 무료입니다.)',
+    guide_tts_step4: '4. [결제] 메뉴에서 결제 수단(카드)을 등록하세요. (※ 구글 본인 인증 및 남용 방지 목적으로 등록이 필요하지만, 표준 음성은 매월 400만 자, 프리미엄 음성은 매월 100만 자까지 무료로 제공되어 개인 학습 용도로 부담 없이 이용할 수 있습니다.)',
     guide_tts_step5: '5. 인코 앱의 [설정] 탭에서 구글 계정으로 다시 로그인하면 고품질 프리미엄 음성을 즐길 수 있습니다! 🍌',
     
     // POS (Part of Speech)
@@ -359,7 +359,18 @@ export const translations = {
     gen_ai_generating: '{targetLangName} 단어 생성 및 어원 파악 중... 🧠',
     gen_ai_optimizing: '뉘앙스 및 예문 최적화 중... ✍️',
     gen_ai_ready: '학습 데이터를 모두 준비했습니다! 🍌',
-    gen_ai_current_model: '사용 중인 모델:',
+    // API 가이드 페이지
+    api_guide_title: 'Gemini API 키 발급 가이드',
+    api_guide_subtitle: '나만의 AI 엔진을 무료로 장착하기 위한 단계별 안내입니다.',
+    api_guide_step1_title: '1. Google AI Studio 접속',
+    api_guide_step1_desc: '구글 계정으로 로그인한 뒤 Google AI Studio 사이트로 이동합니다.',
+    api_guide_step2_title: '2. API 키 생성',
+    api_guide_step2_desc: '"Create API key" 버튼을 누르고 "Create API key in new project"를 선택합니다.',
+    api_guide_step3_title: '3. 키 복사 및 등록',
+    api_guide_step3_desc: '생성된 문자열(예: AIza...)을 복사하여 인코 설정창의 키 입력란에 붙여넣습니다.',
+    api_guide_caution_title: '보안 주의사항',
+    api_guide_caution_desc: '발급받은 키는 타인에게 공유하지 마세요. 인코는 여러분의 키를 서버에 저장하지 않고 브라우저에만 안전하게 보관합니다.',
+    btn_go_ai_studio: 'Google AI Studio 바로가기',
   },
   id: {
     // Navigation
@@ -401,7 +412,19 @@ export const translations = {
     gen_ai_generating: 'Membuat Kata {targetLangName} & Menganalisis Akar... 🧠',
     gen_ai_optimizing: 'Mengoptimalkan Nuansa & Contoh Kalimat... ✍️',
     gen_ai_ready: 'Semua data belajar siap! 🍌',
-    gen_ai_current_model: 'Model yang digunakan:',
+    gen_ai_current_model: 'Model saat ini:',
+    // API Guide Page (ID)
+    api_guide_title: 'Panduan Penerbitan Kunci API Gemini',
+    api_guide_subtitle: 'Instruksi langkah demi langkah untuk mendapatkan kunci mesin AI Anda sendiri secara gratis.',
+    api_guide_step1_title: '1. Akses Google AI Studio',
+    api_guide_step1_desc: 'Masuk ke akun Google dan buka situs Google AI Studio.',
+    api_guide_step2_title: '2. Buat Kunci API',
+    api_guide_step2_desc: 'Klik tombol "Create API key" dan pilih "Create API key in new project".',
+    api_guide_step3_title: '3. Salin & Daftarkan Kunci',
+    api_guide_step3_desc: 'Salin kode yang muncul (misal: AIza...) lalu tempelkan di pengaturan Inko.',
+    api_guide_caution_title: 'Peringatan Keamanan',
+    api_guide_caution_desc: 'Jangan pernah membagikan kunci API Anda kepada orang lain. Kunci hanya disimpan di browser Anda.',
+    btn_go_ai_studio: 'Buka Google AI Studio',
     btn_cancel: 'Batal',
     btn_delete: 'Hapus',
     btn_edit: 'Edit',
@@ -658,7 +681,7 @@ export const translations = {
     guide_tts_step1: '1. Buka [Konsol Google Cloud](https://console.cloud.google.com/) dan masuk.',
     guide_tts_step2: "2. Buat 'Proyek Baru' di bilah pilihan proyek di bagian atas.",
     guide_tts_step3: "3. Cari 'Cloud Text-to-Speech API' di bilah pencarian dan klik 'Aktifkan'.",
-    guide_tts_step4: '4. Daftarkan metode pembayaran (kartu) di menu [Penagihan]. (※ Pendaftaran diperlukan untuk verifikasi identitas Google, namun Anda mendapatkan kuota GRATIS hingga 4 juta karakter per bulan untuk suara Standar dan 1 juta karakter per bulan untuk suara Premium, yang sangat cukup untuk penggunaan pribadi.)',
+    guide_tts_step4: '4. Daftarkan metode pembayaran (kartu) di menu [Penagihan]. (※ Pendaftaran diperlukan untuk verifikasi identitas Google, namun Anda mendapatkan kuota GRATIS yang besar setiap bulan, sehingga dapat digunakan tanpa beban untuk tujuan pembelajaran pribadi.)',
     guide_tts_step5: '5. Masuk kembali dengan akun Google di tab [Pengaturan] Inko untuk menikmati suara premium berkualitas tinggi! 🍌',
 
     // POS (Part of Speech)
