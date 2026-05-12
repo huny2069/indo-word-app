@@ -693,7 +693,7 @@ const WordList = () => {
           onClose={() => setSelectedTeacherWord(null)}
           apiKey={localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY}
           modelName={localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}
-          userLang={localStorage.getItem('inko_native_lang') || 'ko'}
+          userLang={userLang}
           studyLang={selectedTeacherWord.study_lang}
           onUpdateWord={(updatedWord) => {
             setWords(prev => prev.map(w => w.id === updatedWord.id ? updatedWord : w));

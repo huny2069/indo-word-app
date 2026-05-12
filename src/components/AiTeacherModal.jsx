@@ -37,7 +37,7 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
         throw new Error('Invalid data format received from AI.');
       }
     } catch (err) {
-      setError(err.message || '강의를 불러오는 데 실패했습니다.');
+      setError(err.message || t('ai_teacher_error'));
     } finally {
       setIsLoading(false);
     }
@@ -74,13 +74,13 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
 
   const getTypeLabel = (type) => {
     switch(type) {
-      case 'intro': return '👋 오프닝';
-      case 'grammar': return '📘 핵심 문법';
-      case 'usage': return '💡 실전 예문';
-      case 'nuance': return '🎭 미세한 뉘앙스';
-      case 'question': return '🚨 돌발 퀴즈!';
-      case 'answer': return '🎉 정답 공개';
-      default: return '📝 설명';
+      case 'intro': return `👋 ${t('ai_teacher_type_intro')}`;
+      case 'grammar': return `📘 ${t('ai_teacher_type_grammar')}`;
+      case 'usage': return `💡 ${t('ai_teacher_type_usage')}`;
+      case 'nuance': return `🎭 ${t('ai_teacher_type_nuance')}`;
+      case 'question': return `🚨 ${t('ai_teacher_type_question')}`;
+      case 'answer': return `🎉 ${t('ai_teacher_type_answer')}`;
+      default: return `📝 ${t('ai_teacher_type_default')}`;
     }
   };
 
@@ -120,9 +120,9 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
         border: '8px solid #f0f0f0'
       }}>
         {/* Header */}
-        <div style={{
-          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-          padding: '1.5rem', borderBottom: '2px dashed #eee', background: '#fafafa'
+        <div style={{ 
+          padding: '1.2rem 1.8rem', borderBottom: '2px solid #f0f0f0', display: 'flex', 
+          justifyContent: 'space-between', alignItems: 'center', background: '#fff' 
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
             <div style={{ background: '#1890ff', padding: '10px', borderRadius: '50%' }}>
@@ -130,7 +130,7 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
             </div>
             <div>
               <h2 style={{ margin: 0, fontSize: '1.4rem', color: '#333', fontWeight: '900' }}>
-                1타 강사의 특강: <span style={{ color: '#1890ff' }}>{wordData.word}</span>
+                {t('ai_teacher_title')}: <span style={{ color: '#1890ff' }}>{wordData.word}</span>
               </h2>
               <p style={{ margin: '0.2rem 0 0 0', color: '#666', fontSize: '0.95rem', fontWeight: 'bold' }}>
                 {wordData.meaning}
@@ -138,7 +138,7 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
             </div>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
-            <button onClick={handleRegenerate} title="다른 내용으로 다시 만들기" style={{
+            <button onClick={handleRegenerate} title={t('ai_teacher_regenerate')} style={{
               background: '#f0f0f0', border: 'none', borderRadius: '50%', padding: '10px',
               cursor: 'pointer', color: '#555', transition: '0.2s', display: 'flex', alignItems: 'center'
             }} onMouseOver={e => e.currentTarget.style.background = '#e0e0e0'} onMouseOut={e => e.currentTarget.style.background = '#f0f0f0'}>
@@ -165,8 +165,8 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
           {isLoading ? (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem', color: '#1890ff' }}>
               <Loader2 size={64} className="spin" />
-              <h3 style={{ margin: 0, fontWeight: '800', fontSize: '1.5rem' }}>선생님이 칠판을 닦고 판서를 준비 중입니다... 🧑‍🏫</h3>
-              <p style={{ color: '#666', fontWeight: 'bold' }}>잠시만 기다려주세요!</p>
+              <h3 style={{ margin: 0, fontWeight: '800', fontSize: '1.5rem' }}>{t('ai_teacher_preparing')}</h3>
+              <p style={{ color: '#666', fontWeight: 'bold' }}>{t('ai_teacher_wait')}</p>
             </div>
           ) : error ? (
             <div style={{ color: '#ff4d4f', fontWeight: 'bold', fontSize: '1.2rem' }}>
@@ -190,16 +190,46 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
                 ))}
               </div>
               
-              <button 
-                onClick={(e) => { e.stopPropagation(); handlePlayAudio(); }}
-                style={{
-                marginTop: '2rem', background: '#f5f5f5', border: 'none', borderRadius: '50px', 
-                padding: '12px 24px', display: 'inline-flex', alignItems: 'center', gap: '8px',
-                cursor: 'pointer', color: '#555', fontWeight: 'bold', fontSize: '1.1rem',
-                boxShadow: '0 4px 10px rgba(0,0,0,0.05)', transition: '0.2s'
-              }} onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'} onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}>
-                <Volume2 size={20} /> 선생님 목소리 듣기
-              </button>
+              <div style={{ display: 'flex', gap: '1rem', marginTop: '2rem', alignItems: 'center', justifyContent: 'center' }}>
+                <button 
+                  onClick={handlePrev} 
+                  disabled={currentIndex === 0}
+                  style={{
+                    flex: 1, padding: '1rem', background: '#f5f5f5', border: 'none', borderRadius: '15px',
+                    fontWeight: 'bold', cursor: currentIndex === 0 ? 'not-allowed' : 'pointer', opacity: currentIndex === 0 ? 0.5 : 1,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem'
+                  }}
+                >
+                  {t('ai_teacher_prev')}
+                </button>
+                
+                <button 
+                  onClick={handlePlayAudio}
+                  style={{
+                    width: '60px', height: '60px', borderRadius: '50%', background: '#1890ff',
+                    border: 'none', color: '#fff', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    boxShadow: '0 4px 10px rgba(24, 144, 255, 0.3)', transition: '0.2s'
+                  }}
+                  title={t('ai_teacher_play')}
+                  onMouseOver={e => e.currentTarget.style.transform = 'scale(1.1)'}
+                  onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                >
+                  <Volume2 size={28} />
+                </button>
+
+                <button 
+                  onClick={handleNext} 
+                  disabled={currentIndex === slides.length - 1}
+                  style={{
+                    flex: 1, padding: '1rem', background: '#1890ff', border: 'none', borderRadius: '15px',
+                    color: '#fff', fontWeight: 'bold', cursor: currentIndex === slides.length - 1 ? 'not-allowed' : 'pointer', 
+                    opacity: currentIndex === slides.length - 1 ? 0.5 : 1,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem'
+                  }}
+                >
+                  {t('ai_teacher_next')} <ChevronRight size={20} />
+                </button>
+              </div>
             </div>
           ) : null}
         </div>
