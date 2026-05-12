@@ -110,6 +110,15 @@ const Learn = () => {
   };
 
   const currentWord = words[currentIndex];
+  const isIndoMode = studyLang === 'id';
+
+  const getDynamicFontSize = (text) => {
+    if (!text) return '2.8rem';
+    const len = text.length;
+    if (len > 15) return '1.5rem';
+    if (len > 10) return '2.1rem';
+    return '2.8rem';
+  };
 
   const handleSRSUpdate = async (word, quality) => {
     updateStreak();
@@ -401,10 +410,17 @@ const Learn = () => {
                 {t('label_meaning')} ({translations[userLang]?.name || userLang}) ➔ ({translations[studyLang]?.name || studyLang})
             </span>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
-                <h2 style={{ margin: 0, fontSize: '2.8rem', color: 'var(--nana-dark)', fontWeight: '900' }}>
+                <h2 style={{ 
+                    margin: 0, 
+                    fontSize: getDynamicFontSize(currentWord.word), 
+                    color: 'var(--nana-dark)', 
+                    fontWeight: '900',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.2'
+                }}>
                     {currentWord.word}
                 </h2>
-                <button onClick={() => playAudio(currentWord.word, currentWord.study_lang)} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <button onClick={() => playAudio(currentWord.word, currentWord.study_lang)} style={{ background: '#ff9f43', border: 'none', color: '#fff', padding: '0.8rem', borderRadius: '50%', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <Volume2 size={24} />
                 </button>
             </div>

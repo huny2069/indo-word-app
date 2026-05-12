@@ -572,14 +572,14 @@ const WordList = () => {
                             </div>
                             <span style={{ fontWeight: '700', fontSize: '1rem', color: '#444', lineHeight: '1.4', wordBreak: 'keep-all' }}>{w.meaning}</span>
                         </div>
-                        <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
-                           <button onClick={(e) => { e.stopPropagation(); setSelectedTeacherWord(w); }} style={{ background: '#fff1f0', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#ff4d4f', padding: '12px' }} title="AI 선생님 강의 듣기">
-                              <GraduationCap size={22} />
+                        <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', paddingRight: '0.8rem' }}>
+                           <button onClick={(e) => { e.stopPropagation(); setSelectedTeacherWord(w); }} style={{ background: '#fff1f0', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#ff4d4f', padding: '10px' }} title="AI 선생님 강의 듣기">
+                              <GraduationCap size={20} />
                            </button>
-                           <button onClick={(e) => { e.stopPropagation(); playAudio(w.word, w.study_lang); }} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#1976d2', padding: '12px' }}>
-                              <Volume2 size={22} />
+                           <button onClick={(e) => { e.stopPropagation(); playAudio(w.word, w.study_lang); }} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#1976d2', padding: '10px' }}>
+                              <Volume2 size={20} />
                            </button>
-                              <span style={{ fontSize: '0.8rem', background: '#f5f5f5', padding: '5px 12px', borderRadius: '50px', color: '#666', minWidth: '45px', textAlign: 'center', fontWeight: '800' }}>{getPosTranslation(w.pos)}</span>
+                              <span style={{ fontSize: '0.75rem', background: '#f5f5f5', padding: '4px 10px', borderRadius: '50px', color: '#666', minWidth: '40px', textAlign: 'center', fontWeight: '800' }}>{getPosTranslation(w.pos)}</span>
                         </div>
                       </div>
 
