@@ -52,23 +52,32 @@ const WordGenerate = () => {
 
     setLoading(true);
     setGeneratedWords([]);
-    setProgress(10);
-    setProgressMsg(t('gen_ai_booting'));
-    let progressInterval;
+    setProgress(0);
+    
+    // 로딩바 시뮬레이션 시작 (실제 로딩 느낌 제공)
+    const progressInterval = setInterval(() => {
+      setProgress(prev => {
+        if (prev < 98) {
+          const increment = (99 - prev) / 15;
+          return prev + (increment < 0.1 ? 0.1 : increment);
+        }
+        return prev;
+      });
+    }, 200);
     
     try {
       // 로컬 스토리지에 저장된 모델이 있으면 사용, 없으면 gemini-1.5-flash 사용
-    const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash';
+      const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash';
       
       // 1. 로컬 단어장 불러오기 (중복 방지용)
-      setProgress(25);
-      setProgressMsg(t('gen_ai_analyzing'));
+      setProgressMsg(t('gen_ai_booting'));
       let localWords = await getWords();
       let existingWordStrings = localWords.map(w => w.word.toLowerCase());
       
       let finalAddedWords = [];
 
       // 2. 공유 캐시(Supabase) 조회 시도 (3개국어 대응)
+      setProgressMsg(t('gen_ai_analyzing'));
       try {
         const sharedWords = await fetchSharedWords(topic.trim(), userLang, studyLang);
         const uniqueShared = sharedWords.filter(sw => !existingWordStrings.includes(sw.word.toLowerCase()));
@@ -94,15 +103,6 @@ const WordGenerate = () => {
       const remainingCount = count - finalAddedWords.length;
       if (remainingCount > 0) {
         setProgressMsg(t('gen_ai_generating').replace('{targetLangName}', targetLangName));
-        
-        // 실시간 로딩 애니메이션
-        progressInterval = setInterval(() => {
-          setProgress(prev => {
-            if (prev >= 95) return 95;
-            return prev + Math.max(1, Math.floor((95 - prev) * 0.1));
-          });
-        }, 500);
-
         let currentTry = 0;
         const maxTries = 3;
 
@@ -139,6 +139,7 @@ const WordGenerate = () => {
         }
       }
       
+      clearInterval(progressInterval);
       setProgress(100);
       setProgressMsg(t('gen_ai_ready'));
       setGeneratedWords(finalAddedWords);
@@ -149,9 +150,9 @@ const WordGenerate = () => {
         alert(t('msg_cart_added', { count: finalAddedWords.length }));
       }
     } catch (error) {
+      clearInterval(progressInterval);
       alert(t('msg_ai_gen_error') + error.message);
     } finally {
-      if (progressInterval) clearInterval(progressInterval);
       setLoading(false);
     }
   };
@@ -270,7 +271,7 @@ const WordGenerate = () => {
                     display: 'flex', alignItems: 'center', justifyContent: 'center', 
                     fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)'
                 }}>
-                    {progress}%
+                    {Math.floor(progress)}%
                 </div>
             </div>
 
