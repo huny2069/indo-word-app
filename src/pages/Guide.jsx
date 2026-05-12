@@ -1,46 +1,45 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { BookOpen, Sparkles, FolderHeart, CloudLightning, Info, Key, Cloud, CreditCard, ExternalLink } from 'lucide-react';
+import { BookOpen, Sparkles, FolderHeart, CloudLightning, Info, Key, Cloud, CreditCard, ExternalLink, GraduationCap } from 'lucide-react';
 
 const Guide = () => {
-  const { t, isIndoMode } = useLanguage();
+  const { t } = useLanguage();
 
   const steps = [
     {
       id: 1,
       icon: <Sparkles size={28} color="#feca57" />,
-      title: t('guide_step1'),
-      desc: isIndoMode 
-        ? "Ketik topik apa saja (misal: 'Di Restoran'), dan AI Nana akan membuat daftar kata bahasa Korea yang sesuai situasi tersebut lengkap dengan contoh kalimat!"
-        : "원하는 주제(예: '공항에서', '비즈니스 미팅')를 입력하면 AI 나나가 상황에 딱 맞는 한국어/인도네시아어 단어와 예문을 즉시 생성해줍니다.",
+      title: t('guide_step1_title'),
+      desc: t('guide_step1_desc'),
     },
     {
       id: 2,
       icon: <FolderHeart size={28} color="#ff7675" />,
-      title: t('guide_step2'),
-      desc: isIndoMode
-        ? "Simpan kata-kata favorit Anda dalam folder khusus. Anda bisa memindahkan, mengedit, atau menghapus kata kapan saja untuk menjaga kerapian kosakata."
-        : "생성된 단어들을 폴더별로 자유롭게 분류하고 관리하세요. 나만의 단어장을 만들고 중요도에 따라 정리할 수 있습니다.",
+      title: t('guide_step2_title'),
+      desc: t('guide_step2_desc'),
     },
     {
       id: 3,
       icon: <BookOpen size={28} color="#48dbfb" />,
-      title: t('guide_step3'),
-      desc: isIndoMode
-        ? "Gunakan flashcard, kuis pilihan ganda, dan latihan mengeja. Algoritma ilmiah kami akan memprioritaskan kata yang sulit Anda hafal agar belajar lebih efisien."
-        : "플래시카드, 객관식 퀴즈, 주관식 스펠링 연습을 통해 입체적으로 학습하세요. 망각 곡선 알고리즘이 당신이 틀린 단어를 기억할 때까지 반복해줍니다.",
+      title: t('guide_step3_title'),
+      desc: t('guide_step3_desc'),
     },
     {
       id: 4,
+      icon: <GraduationCap size={28} color="#9b59b6" />,
+      title: t('guide_step4_title'),
+      desc: t('guide_step4_desc'),
+    },
+    {
+      id: 5,
       icon: <CloudLightning size={28} color="#4285f4" />,
-      title: t('guide_step4'),
-      desc: isIndoMode
-        ? "Hubungkan dengan Google Drive untuk mencadangkan data Anda. Jangan khawatir kehilangan data saat mengganti perangkat atau menghapus browser!"
-        : "구글 드라이브와 연동하여 소중한 학습 데이터를 안전하게 백업하세요. 기기를 변경해도 로그인 한 번으로 모든 데이터를 복구할 수 있습니다.",
+      title: t('guide_step5_title'),
+      desc: t('guide_step5_desc'),
     }
   ];
 
   const renderLink = (text) => {
+    if (!text) return '';
     // [Text](Link) 형식을 찾아서 a 태그로 변환
     const parts = text.split(/\[(.*?)\]\((.*?)\)/);
     if (parts.length > 1) {
@@ -61,12 +60,10 @@ const Guide = () => {
     <div className="page" style={{ maxWidth: '900px', margin: '0 auto', paddingBottom: '5rem' }}>
       <div style={{ textAlign: 'center', marginBottom: '3.5rem', marginTop: '1rem' }}>
         <h1 style={{ fontSize: '2.2rem', fontWeight: '900', color: 'var(--primary-color)', marginBottom: '1rem', letterSpacing: '-1px' }}>
-          {t('guide_title')}
+          {t('nav_guide')}
         </h1>
         <p style={{ color: '#666', fontSize: '1.1rem', fontWeight: '500' }}>
-          {isIndoMode 
-            ? "Selamat datang! Mari belajar bahasa Korea dengan cara이 매우 cerdas bersama AI Nana. 🍌"
-            : "나나와 함께하는 스마트한 언어 학습 여행에 오신 것을 환영합니다! 서비스를 100% 활용하는 방법을 알아보세요."}
+          {t('guide_welcome_desc')}
         </p>
       </div>
 
@@ -94,7 +91,7 @@ const Guide = () => {
 
       {/* 🔑 상세 가이드 섹션 */}
       <h2 style={{ fontSize: '1.6rem', fontWeight: '900', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
-        <Info color="var(--primary-color)" /> {isIndoMode ? 'Panduan Pengaturan Detail' : '상세 설정 가이드'}
+        <Info color="var(--primary-color)" /> {t('guide_detail_title')}
       </h2>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '2rem' }}>
@@ -124,7 +121,7 @@ const Guide = () => {
           </div>
         </section>
 
-        {/* Google Cloud TTS Section (Added in v8.4) */}
+        {/* Google Cloud TTS Section */}
         <section style={{ background: '#fff', padding: '2rem', borderRadius: '30px', border: '1px solid #eee', boxShadow: '0 10px 30px rgba(0,0,0,0.03)', gridColumn: '1 / -1' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
             <div style={{ background: '#fff3e0', padding: '0.6rem', borderRadius: '12px' }}><CloudLightning size={24} color="#e67e22" /></div>

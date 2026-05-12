@@ -233,13 +233,22 @@ export const translations = {
     label_antonym: '반의어',
 
     // Guide
-    guide_title: '나나와 함께 공부하기: 가이드 🍌',
-    guide_step1: '1. 단어 생성하기: AI를 통해 주제별로 단어를 생성하세요.',
-    guide_step2: '2단계: 폴더로 분류하기',
-    guide_step3: '3단계: 지능형 퀴즈로 학습하기',
-    guide_step4: '4단계: 클라우드 백업하기',
     guide_questions_title: '궁금한 점이 있으신가요?',
     guide_questions_desc: '나나는 언제나 당신의 학습을 응원합니다. 왼쪽 메뉴를 눌러 지금 바로 시작해보세요!',
+    guide_welcome_title: '나나와 함께하는 스마트한 학습 🍌',
+    guide_welcome_desc: '인코(Inko)를 100% 활용하여 가장 빠르고 재미있게 언어를 마스터하는 방법을 알아보세요.',
+    
+    guide_step1_title: '1. AI 단어 생성',
+    guide_step1_desc: "원하는 주제(예: '공항에서', '비즈니스 미팅')를 입력하면 AI 나나가 상황에 딱 맞는 단어와 예문을 즉시 생성해줍니다.",
+    guide_step2_title: '2. 폴더 관리',
+    guide_step2_desc: '생성된 단어들을 주제별 폴더로 분류하고 관리하세요. 나만의 맞춤형 단어장을 만들 수 있습니다.',
+    guide_step3_title: '3. 스마트 학습',
+    guide_step3_desc: '플래시카드와 퀴즈를 통해 입체적으로 학습하세요. 망각 곡선 알고리즘이 틀린 단어를 집중적으로 관리해줍니다.',
+    guide_step4_title: '4. AI 선생님 특강',
+    guide_step4_desc: '단어장에서 선생님 아이콘을 눌러보세요! AI 선생님이 문법, 뉘앙스, 실전 팁을 1:1 과외처럼 친절하게 설명해줍니다.',
+    guide_step5_title: '5. 클라우드 백업',
+    guide_step5_desc: '구글 드라이브와 연동하여 학습 데이터를 안전하게 보호하세요. 기기를 바꿔도 로그인 한 번으로 즉시 복구됩니다.',
+    guide_detail_title: '상세 설정 가이드',
     
     // Detailed Guide
     guide_section_api: '🔑 Gemini API 발급 가이드',
@@ -265,7 +274,7 @@ export const translations = {
     guide_tts_step1: '1. [Google Cloud 콘솔](https://console.cloud.google.com/)에 접속하여 로그온하세요.',
     guide_tts_step2: "2. 상단 프로젝트 선택 바에서 '새 프로젝트'를 만들어주세요.",
     guide_tts_step3: "3. 검색창에 'Cloud Text-to-Speech API'를 입력하고 '사용' 버튼을 클릭하세요.",
-    guide_tts_step4: '4. 왼쪽 [결제] 메뉴에서 신용카드 정보를 등록하세요. (Neural2 모델 등 프리미엄 음성은 유료 계정 연동 시에만 작동합니다. 매월 일정량은 무료입니다.)',
+    guide_tts_step4: '4. [결제] 메뉴에서 결제 수단(카드)을 등록하세요. (※ 구글 본인 인증 및 남용 방지 목적으로 등록이 필요하지만, 표준 음성은 매월 400만 자, 프리미엄 음성은 매월 100만 자까지 완전히 무료로 사용 가능하므로 개인 학습 용도로는 사실상 평생 무료입니다.)',
     guide_tts_step5: '5. 인코 앱의 [설정] 탭에서 구글 계정으로 다시 로그인하면 고품질 프리미엄 음성을 즐길 수 있습니다! 🍌',
     
     // POS (Part of Speech)
@@ -608,13 +617,22 @@ export const translations = {
     label_antonym: 'Lawan Kata',
 
     // Guide
-    guide_title: 'Belajar Bersama Nana: Panduan 🍌',
-    guide_step1: '1. Buat Kata: Buat kosakata berdasarkan topik dengan AI.',
-    guide_step2: '2. Kelola Kosakata: Atur kata-kata dalam folder.',
-    guide_step3: '3. Belajar Pintar: Reviu dengan kuis dan flashcard Nana.',
-    guide_step4: '4. Cadangan: Simpan data berharga Anda di Cloud dengan aman.',
     guide_questions_title: 'Ada pertanyaan?',
     guide_questions_desc: 'Nana selalu siap membantu Anda. Jangan ragu untuk mencoba semua fitur di menu samping!',
+    guide_welcome_title: 'Belajar Cerdas bersama Nana 🍌',
+    guide_welcome_desc: 'Pelajari cara memaksimalkan Inko untuk menguasai bahasa dengan cara yang paling cepat dan menyenangkan.',
+
+    guide_step1_title: '1. Buat Kata AI',
+    guide_step1_desc: "Ketik topik apa saja (misal: 'Di Restoran', 'Rapat Bisnis'), AI Nana akan membuatkan kata dan contoh kalimat yang pas untuk Anda!",
+    guide_step2_title: '2. Kelola Folder',
+    guide_step2_desc: 'Klasifikasikan kata ke dalam folder berdasarkan tema. Anda bisa membuat buku kosakata yang dipersonalisasi.',
+    guide_step3_title: '3. Belajar Pintar',
+    guide_step3_desc: 'Belajar secara mendalam melalui flashcard dan kuis. Algoritma Forgetfulness Curve akan fokus pada kata yang sering salah.',
+    guide_step4_title: '4. Kuliah Guru AI',
+    guide_step4_desc: 'Klik ikon guru di buku kosakata! Guru AI akan menjelaskan tata bahasa, nuansa, dan tips praktis seperti les privat 1:1.',
+    guide_step5_title: '5. Cadangan Cloud',
+    guide_step5_desc: 'Hubungkan ke Google Drive untuk mengamankan data belajar Anda. Pulihkan data instan hanya dengan login di perangkat baru.',
+    guide_detail_title: 'Panduan Pengaturan Detail',
     
     // Detailed Guide (ID)
     guide_section_api: '🔑 Panduan Kunci API Gemini',
@@ -640,7 +658,7 @@ export const translations = {
     guide_tts_step1: '1. Buka [Konsol Google Cloud](https://console.cloud.google.com/) dan masuk.',
     guide_tts_step2: "2. Buat 'Proyek Baru' di bilah pilihan proyek di bagian atas.",
     guide_tts_step3: "3. Cari 'Cloud Text-to-Speech API' di bilah pencarian dan klik 'Aktifkan'.",
-    guide_tts_step4: '4. Daftarkan informasi kartu kredit Anda di menu [Penagihan] di sebelah kiri. (Neural2 dan model lainnya hanya berfungsi jika akun pembayaran terhubung. Ada kuota gratis bulanan.)',
+    guide_tts_step4: '4. Daftarkan metode pembayaran (kartu) di menu [Penagihan]. (※ Pendaftaran diperlukan untuk verifikasi identitas Google, namun Anda mendapatkan kuota GRATIS hingga 4 juta karakter per bulan untuk suara Standar dan 1 juta karakter per bulan untuk suara Premium, yang sangat cukup untuk penggunaan pribadi.)',
     guide_tts_step5: '5. Masuk kembali dengan akun Google di tab [Pengaturan] Inko untuk menikmati suara premium berkualitas tinggi! 🍌',
 
     // POS (Part of Speech)
@@ -950,12 +968,22 @@ export const translations = {
     inc_clear_all_confirm: 'Are you sure you want to clear mistake counts?',
 
     // Guide
-    guide_title: 'Studying with Nana: Guide 🍌',
-    guide_step1: '1. Generate: Create words by topic using AI.',
-    guide_step2: '2. Organize: Categorize words into folders.',
-    guide_step3: '3. Study: Learn with flashcards and quizzes.',
     guide_questions_title: 'Have questions?',
     guide_questions_desc: 'Nana is always rooting for you. Try all features in the sidebar!',
+    guide_welcome_title: 'Smart Learning with Nana 🍌',
+    guide_welcome_desc: 'Discover how to maximize Inko to master languages in the fastest and most fun way possible.',
+
+    guide_step1_title: '1. AI Word Generation',
+    guide_step1_desc: "Enter any topic (e.g., 'At the Airport', 'Business Meeting'), and AI Nana will generate relevant words and examples instantly.",
+    guide_step2_title: '2. Folder Management',
+    guide_step2_desc: 'Categorize words into folders based on themes. You can create your own personalized wordbooks.',
+    guide_step3_title: '3. Smart Study',
+    guide_step3_desc: 'Learn through flashcards and quizzes. The Spaced Repetition algorithm focuses on words you find difficult.',
+    guide_step4_title: '4. AI Teacher Lecture',
+    guide_step4_desc: "Click the teacher icon in your wordbook! AI Teacher will explain grammar, nuance, and tips like a 1:1 private tutor.",
+    guide_step5_title: '5. Cloud Backup',
+    guide_step5_desc: 'Connect with Google Drive to protect your study data. Restore instantly on any device with just one login.',
+    guide_detail_title: 'Detailed Setup Guide',
     
     guide_section_api: '🔑 Gemini API Guide',
     guide_api_step1: '1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey).',
