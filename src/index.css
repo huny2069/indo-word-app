@@ -68,13 +68,13 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .desktop-only {
     display: none;
   }
   .mobile-only {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: fixed;
     bottom: 0;
@@ -88,7 +88,7 @@ body {
   }
   .content {
     padding: 1rem;
-    padding-bottom: calc(6rem + env(safe-area-inset-bottom, 20px));
+    padding-bottom: calc(7rem + env(safe-area-inset-bottom, 20px));
   }
 }
 
@@ -101,17 +101,25 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 75px;
+  height: 80px;
   background: white;
   display: flex;
-  justify-content: flex-start; /* 스크롤을 위해 변경 */
+  justify-content: center; /* 중앙 정렬로 기본값 변경 */
   overflow-x: auto; /* 항목이 많을 경우 스크롤 가능하게 */
-  gap: 1.5rem;
-  padding: 0 1.5rem;
+  gap: 2rem; /* 태블릿에서는 조금 더 넓게 */
+  padding: 0 1rem;
   border-top: 1px solid #eee;
   z-index: 1000;
   box-shadow: 0 -4px 15px rgba(0,0,0,0.05);
   -webkit-overflow-scrolling: touch;
+}
+
+/* 아주 작은 화면에서는 좌측 정렬로 전환하여 스크롤 가능하게 함 */
+@media (max-width: 480px) {
+  .bottom-nav {
+    justify-content: flex-start;
+    gap: 1.2rem;
+  }
 }
 
 .bottom-nav::-webkit-scrollbar {
