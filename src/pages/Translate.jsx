@@ -58,7 +58,7 @@ const Translate = () => {
             setTargetText(result);
         } catch (error) {
             console.error("Translation failed:", error);
-            alert('번역 중 오류가 발생했습니다: ' + error.message);
+            alert((t('msg_trans_fail') || '번역 중 오류가 발생했습니다: ') + error.message);
         } finally {
             setIsTranslating(false);
         }
@@ -70,7 +70,7 @@ const Translate = () => {
         
         // 너무 긴 문장은 단어장 추가 부적합
         if (sourceText.length > 50) {
-            alert('단어장에 추가하기에는 너무 깁니다. 짧은 단어나 구절만 가능합니다.');
+            alert(t('msg_word_too_long') || '단어장에 추가하기에는 너무 깁니다. 짧은 단어나 구절만 가능합니다.');
             return;
         }
 
@@ -99,7 +99,7 @@ const Translate = () => {
             alert(t('trans_msg_added') || '단어장에 추가되었습니다! 🍌');
         } catch (error) {
             console.error("Enrichment failed:", error);
-            alert('정보 생성 중 오류가 발생했습니다.');
+            alert(t('msg_enrich_fail') || '정보 생성 중 오류가 발생했습니다.');
         } finally {
             setIsSaving(false);
         }
@@ -107,7 +107,7 @@ const Translate = () => {
 
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text);
-        alert('복사되었습니다.');
+        alert(t('trans_msg_copied') || '복사되었습니다.');
     };
 
     const languages = [
@@ -164,7 +164,7 @@ const Translate = () => {
                             boxShadow: transStyle === 'formal' ? '0 4px 12px rgba(0,0,0,0.05)' : 'none'
                         }}
                     >
-                        👔 격식체 (존댓말)
+                        {t('trans_style_formal') || '👔 격식체 (존댓말)'}
                     </button>
                     <button 
                         onClick={() => setTransStyle('casual')}
@@ -175,7 +175,7 @@ const Translate = () => {
                             boxShadow: transStyle === 'casual' ? '0 4px 12px rgba(0,0,0,0.05)' : 'none'
                         }}
                     >
-                        💬 구어체 (반말)
+                        {t('trans_style_casual') || '💬 구어체 (반말)'}
                     </button>
                 </div>
             </div>
@@ -209,7 +209,7 @@ const Translate = () => {
                         {isTranslating ? (
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', color: '#ccc', padding: '0.5rem' }}>
                                 <Loader2 size={24} className="spin" />
-                                <span style={{ fontWeight: '800' }}>번역 중...</span>
+                                <span style={{ fontWeight: '800' }}>{t('trans_msg_translating') || '번역 중...'}</span>
                             </div>
                         ) : (
                             targetText || <span style={{ color: '#eee' }}>{t('trans_target_ph')}</span>
@@ -263,15 +263,15 @@ const Translate = () => {
                 <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '25px', display: 'flex', alignItems: 'flex-start', gap: '1rem', border: '1px solid #f0f0f0', boxShadow: '0 5px 15px rgba(0,0,0,0.02)' }}>
                     <div style={{ background: '#f0f4ff', padding: '12px', borderRadius: '15px' }}><Sparkles size={24} color="#4facfe" /></div>
                     <div>
-                        <h4 style={{ margin: '0 0 5px 0', fontSize: '1rem', fontWeight: '900' }}>AI 고도화 저장</h4>
-                        <p style={{ margin: 0, fontSize: '0.85rem', color: '#888', lineHeight: '1.5' }}>단순 번역을 넘어 품사, 예문, 어근 등 모든 학습 정보를 AI가 자동으로 생성해 단어장에 넣어줍니다.</p>
+                        <h4 style={{ margin: '0 0 5px 0', fontSize: '1rem', fontWeight: '900' }}>{t('trans_info_ai_title') || 'AI 고도화 저장'}</h4>
+                        <p style={{ margin: 0, fontSize: '0.85rem', color: '#888', lineHeight: '1.5' }}>{t('trans_info_ai_desc') || '단순 번역을 넘어 품사, 예문, 어근 등 모든 학습 정보를 AI가 자동으로 생성해 단어장에 넣어줍니다.'}</p>
                     </div>
                 </div>
                 <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '25px', display: 'flex', alignItems: 'flex-start', gap: '1rem', border: '1px solid #f0f0f0', boxShadow: '0 5px 15px rgba(0,0,0,0.02)' }}>
                     <div style={{ background: '#fff9db', padding: '12px', borderRadius: '15px' }}><Volume2 size={24} color="#feca57" /></div>
                     <div>
-                        <h4 style={{ margin: '0 0 5px 0', fontSize: '1rem', fontWeight: '900' }}>정확한 발음 가이드</h4>
-                        <p style={{ margin: 0, fontSize: '0.85rem', color: '#888', lineHeight: '1.5' }}>인코의 고품질 TTS 엔진을 통해 번역 결과의 정확한 발음을 듣고 따라하며 학습할 수 있습니다.</p>
+                        <h4 style={{ margin: '0 0 5px 0', fontSize: '1rem', fontWeight: '900' }}>{t('trans_info_tts_title') || '정확한 발음 가이드'}</h4>
+                        <p style={{ margin: 0, fontSize: '0.85rem', color: '#888', lineHeight: '1.5' }}>{t('trans_info_tts_desc') || '인코의 고품질 TTS 엔진을 통해 번역 결과의 정확한 발음을 듣고 따라하며 학습할 수 있습니다.'}</p>
                     </div>
                 </div>
             </div>
