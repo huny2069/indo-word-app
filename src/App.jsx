@@ -21,6 +21,16 @@ function App() {
   const { user, isOnboarded, loading } = useAuth();
 
   useEffect(() => {
+    // 0. [v19.10] localStorage 오염 데이터 자동 정리
+    // 이전 버전에서 잘못 저장된 'gemini-...' 모델명을 TTS 음성으로 사용하던 문제 해결
+    ['google_tts_model_ko', 'google_tts_model_id', 'google_tts_model_en'].forEach(key => {
+      const val = localStorage.getItem(key);
+      if (val && (val.includes('gemini') || !/^[a-z]{2}-[A-Z]{2}-/.test(val))) {
+        console.warn(`[앱 시작] 잘못된 TTS 모델 "${val}" 삭제 (키: ${key})`);
+        localStorage.removeItem(key);
+      }
+    });
+
     // 1. 기기 식별 및 로그 전송
     let deviceId = localStorage.getItem('user_device_id');
     if (!deviceId) {
