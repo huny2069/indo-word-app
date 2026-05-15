@@ -89,11 +89,23 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
     return str.replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '');
   };
 
+  // TTS 전용 텍스트 정제 함수
+  // 한글 이모지, <target> 태그, 줄바꿈 등 TTS API가 처리하지 못하는 요소를 모두 제거합니다.
+  const stripForTTS = (str) => {
+    if (!str) return '';
+    return str
+      .replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '')  // 이모지 제거
+      .replace(/<target>(.*?)<\/target>/gi, '$1')  // <target>태그는 내용만 남기고 태그 제거
+      .replace(/<[^>]+>/g, '')  // 혜당 태그 오염 방지 (나머지 HTML 태그)
+      .replace(/\s+/g, ' ')  // 연속 공백/줄바꿈 정리
+      .trim();
+  };
+
   const handlePlayAudio = () => {
     if (currentSlide && currentSlide.content) {
        stopTTS();
-       // 설정된 사용자 엔진/모델을 사용하여 문장 단위 순차 재생
-       playMixedAudio(stripEmojis(currentSlide.content));
+       // <target>태그를 제거한 순수 텍스트를 엄선된 엔진으로 순차 재생
+       playMixedAudio(stripForTTS(currentSlide.content));
     }
   };
 
