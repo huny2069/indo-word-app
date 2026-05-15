@@ -86,7 +86,12 @@ const Settings = () => {
     const savedList = localStorage.getItem('geminiModelList');
     if (savedList) setModelList(JSON.parse(savedList));
     if (localStorage.getItem('geminiApiKey')) setApiStatus('valid');
-  }, []);
+
+    // [v19.5] 음성 리스트 자동 동기화 (토큰이 있고 리스트가 비었을 때)
+    if (gcpAccessToken && (!googleVoiceList || googleVoiceList.length === 0)) {
+        handleFetchGoogleVoicesList();
+    }
+  }, [gcpAccessToken]);
 
   const handleFetchGoogleVoicesList = async () => {
     if (!gcpAccessToken) { handleGoogleLogin(); return; }
