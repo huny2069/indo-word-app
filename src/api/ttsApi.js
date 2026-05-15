@@ -57,12 +57,14 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
     console.error(`[TTS Error] ${preferredEngine} engine failed:`, error);
     
     // 권한 문제인 경우 명확한 알림 제공
-    if (error.message.includes("401") || error.message.includes("403") || error.message.includes("세션")) {
+    const errorMsg = error.message || "";
+    if (errorMsg.includes("401") || errorMsg.includes("403") || errorMsg.includes("세션")) {
         alert("Premium 음성 인증이 만료되었습니다. 설정에서 구글 로그인을 다시 진행해주세요.");
+    } else {
+        console.warn(`Fallback to Web Speech due to: ${errorMsg}`);
     }
 
     if (!isTtsCancelled) {
-      console.log("Falling back to Web Speech TTS...");
       await playWebSpeechTTS(text, targetLang);
     }
   }

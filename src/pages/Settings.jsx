@@ -268,7 +268,11 @@ const Settings = () => {
                             <span style={{ fontSize: '0.75rem', fontWeight: '800', minWidth: '40px' }}>{m.label}</span>
                             <select value={m.val} onChange={e => { m.set(e.target.value); localStorage.setItem(m.key, e.target.value); }}
                                 style={{ flex: 1, padding: '0.5rem', borderRadius: '8px', border: '1px solid #ddd', fontSize: '0.8rem', fontWeight: '600' }}>
-                                {m.list.length > 0 ? m.list.map(v => <option key={v.name} value={v.name}>{v.name.split('-').slice(1).join('-')}</option>) : <option value="">{t('set_google_update_needed') || 'Update Needed'}</option>}
+                                {m.list.length > 0 ? m.list.map(v => (
+                                    <option key={v.name} value={v.name}>
+                                        {v.name.split('-').slice(2).join('-')} ({v.ssmlGender === 'FEMALE' ? '여' : '남'})
+                                    </option>
+                                )) : <option value="">{t('set_google_update_needed') || 'Update Needed'}</option>}
                             </select>
                             <button onClick={() => handleTestVoice(m.id, m.val)} style={{ padding: '0.5rem', borderRadius: '8px', border: '1px solid #ddd', background: '#fff', cursor: 'pointer' }}>
                                 <Volume2 size={16} color="#feca57" />
@@ -381,6 +385,9 @@ const Settings = () => {
         <button onClick={() => { localStorage.clear(); window.location.reload(); }} style={{ background: 'none', border: 'none', color: '#ff4d4d', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}>
             {t('set_diagnosa')} (Full Reset)
         </button>
+        <div style={{ marginTop: '1rem', fontSize: '0.7rem', color: '#ccc', fontWeight: 'bold' }}>
+            Version v19.2 (Stable Patch)
+        </div>
       </div>
     </div>
   );
