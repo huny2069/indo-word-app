@@ -13,8 +13,8 @@ const Translate = () => {
     const [toLang, setToLang] = useState(userLang);
     const [isTranslating, setIsTranslating] = useState(false);
     const [isSaving, setIsSaving] = useState(false);
-    const [apiKey, setApiKey] = useState(localStorage.getItem('gemini_api_key') || '');
-    const [model, setModel] = useState(localStorage.getItem('gemini_model') || 'gemini-1.5-flash');
+    const [apiKey, setApiKey] = useState(localStorage.getItem('geminiApiKey') || '');
+    const [model, setModel] = useState(localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash');
 
     const timeoutRef = useRef(null);
 
@@ -46,13 +46,18 @@ const Translate = () => {
     }, [sourceText, fromLang, toLang]);
 
     const performTranslate = async () => {
-        if (!sourceText.trim() || !apiKey) return;
+        if (!sourceText.trim()) return;
+        if (!apiKey) {
+            alert(t('msg_api_key_empty') || 'API 키가 설정되지 않았습니다. 설정 탭에서 API 키를 입력해주세요.');
+            return;
+        }
         setIsTranslating(true);
         try {
             const result = await translateText(sourceText, fromLang, toLang, apiKey, model);
             setTargetText(result);
         } catch (error) {
             console.error("Translation failed:", error);
+            alert('번역 중 오류가 발생했습니다: ' + error.message);
         } finally {
             setIsTranslating(false);
         }
