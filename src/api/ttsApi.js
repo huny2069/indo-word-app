@@ -1,19 +1,20 @@
 /**
- * 인도네시아어/한국어 TTS(음성 합성) 통합 모듈 (v3.3)
- * 언어 자동 감지(Hangul Detection) 기술을 적용하여 정확한 발음을 제공합니다.
+ * 인도네시아어/한국어/영어 TTS(음성 합성) 통합 모듈 (v19.6 - Legacy Structure Restored)
+ * 백업본 v9.6의 안정적인 구조를 기반으로 3개국어 기능을 완벽하게 이식했습니다.
  */
 
 // 한글 포함 여부 체크 함수
 const containsHangul = (text) => /[\u3131-\uD79D]/.test(text);
 
 /**
- * 텍스트의 언어를 자동으로 판별합니다. (폴백용)
+ * 텍스트 언어 판별 (백업본의 이분법 구조 유지 + 영어 확장)
  */
-const detectLanguage = (text) => {
-    if (containsHangul(text)) return 'ko';
-    // 알파벳 기반 언어 중 영어와 인도네시아어 구분은 어렵지만, 
-    // 기본적으로 학습 언어를 따르도록 유도하는 것이 좋습니다.
-    return 'id';
+const getLangType = (text, langOverride = null) => {
+  if (langOverride) return langOverride;
+  if (containsHangul(text)) return 'ko';
+  // 기본적으로 영어와 인도네시아어는 알파벳을 공유하므로, 
+  // 여기서는 백업본처럼 기본을 'id'로 하되 나중에 명시적 선택을 존중함
+  return 'id';
 };
 
 let currentAudioElement = null;
@@ -35,50 +36,41 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
   if (!text) return;
   isTtsCancelled = false;
   
-  // 0. 글로벌 음성 설정 확인
   const isAudioEnabled = localStorage.getItem('is_audio_enabled') !== 'false';
   if (!isAudioEnabled) return;
 
-  // 1. 언어 결정 (명시적 lang > 자동 감지)
-  const targetLang = lang || detectLanguage(text);
+  const targetLang = getLangType(text, lang);
   const preferredEngine = localStorage.getItem('tts_engine') || 'google';
 
   try {
     if (preferredEngine === 'google') {
       await playGoogleCloudTTS(text, targetLang, voiceName);
     } else if (preferredEngine === 'gemini') {
-      // AI 선생님 전용 모델 혹은 기본 선택 모델 사용
-      const geminiModel = voiceName || localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
-      await playGeminiTTS(text, targetLang, geminiModel);
+      await playGeminiTTS(text, targetLang, voiceName);
     } else {
-      await playWebSpeechTTS(text, targetLang);
+      playWebSpeechTTS(text, targetLang);
     }
   } catch (error) {
-    console.error(`[TTS Error] ${preferredEngine} engine failed:`, error);
-    const errorMsg = error.message || "알 수 없는 오류";
-    
-    // 사용자에게 에러 알림 제공 (디버깅 지원)
+    console.error(`[TTS] ${preferredEngine} engine failed:`, error);
+    // 최후의 수단: Web Speech API 폴백
     if (!isTtsCancelled) {
-        alert(`[TTS 안내] ${preferredEngine} 엔진 재생 중 문제가 발생했습니다.\n사유: ${errorMsg}\n\n시스템이 기본 음성(Browser)으로 전환하여 재생을 계속합니다.`);
-        await playWebSpeechTTS(text, targetLang);
+      playWebSpeechTTS(text, targetLang);
     }
   }
 };
 
 /**
- * 엔진 1: Gemini AI 멀티모달 오디오 재생 (3개국어 지원)
+ * 엔진 1: Gemini AI 멀티모달 오디오 재생 (백업본 v9.6 기반)
  */
 async function playGeminiTTS(text, lang, modelOverride = null) {
   const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
-  // AI 선생님 요청 시 gemini-2.5-pro-preview-tts 우선 사용
-  const model = modelOverride || localStorage.getItem('selectedGeminiModel') || 'gemini-2.5-flash';
+  const model = modelOverride || localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
 
   if (!apiKey) throw new Error("Gemini API Key가 없습니다.");
 
-  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
-  const langLabel = langNames[lang] || '인도네시아어(Indonesian)';
+  const langNames = { 'ko': '한국어(Korean)', 'id': '인도네시아어(Indonesian)', 'en': '영어(English)' };
+  const langLabel = langNames[lang] || "인도네시아어(Indonesian)";
 
-  // 최신 v1beta 엔드포인트 사용 (TTS 특화 모델 지원 가능성 높음)
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
   
   const response = await fetch(endpoint, {
@@ -87,12 +79,10 @@ async function playGeminiTTS(text, lang, modelOverride = null) {
     body: JSON.stringify({
       contents: [{
         parts: [{
-          text: `Read the following ${langLabel} text accurately with a natural native accent. Output ONLY audio: "${text}"`
+          text: `Read the following ${langLabel} text accurately with a native accent. Output ONLY audio: "${text}"`
         }]
       }],
-      generationConfig: {
-        response_modalities: ["AUDIO"]
-      }
+      generationConfig: { response_modalities: ["AUDIO"] }
     })
   });
 
@@ -112,11 +102,12 @@ async function playGeminiTTS(text, lang, modelOverride = null) {
 }
 
 /**
- * 엔진 2: Google Cloud TTS (Premium) (3개국어 지원)
+ * 엔진 2: Google Cloud TTS (Premium) (백업본 v9.6 구조 완벽 복원)
  */
 async function playGoogleCloudTTS(text, lang, overrideModel = null) {
   const accessToken = localStorage.getItem('gcp_access_token');
   const expiry = localStorage.getItem('gcp_token_expiry');
+  
   const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 10000);
 
   if (!accessToken || isExpired) {
@@ -124,77 +115,72 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
     throw new Error("Google Cloud 세션이 만료되었습니다. 설정에서 다시 로그인해주세요.");
   }
 
-  const langMap = {
-      'ko': { code: 'ko-KR', defaultModel: 'ko-KR-Neural2-A', storageKey: 'google_tts_model_ko' },
-      'id': { code: 'id-ID', defaultModel: 'id-ID-Chirp3-HD-Alnilam', storageKey: 'google_tts_model_id' },
-      'en': { code: 'en-US', defaultModel: 'en-US-Neural2-F', storageKey: 'google_tts_model_en' }
-  };
-
-  const config = langMap[lang] || langMap['id'];
-  const savedModel = localStorage.getItem(config.storageKey);
+  // 백업본의 언어 코드 매핑 방식 복원
+  const langCodes = { 'ko': 'ko-KR', 'id': 'id-ID', 'en': 'en-US' };
+  const langCode = langCodes[lang] || 'id-ID';
   
-  // [v9.6 백업본 로직 적용] 선택된 모델이 현재 언어와 일치하는지 검증
+  const modelKey = `google_tts_model_${lang}`;
+  const savedModel = localStorage.getItem(modelKey);
+  
   let effectiveModel = overrideModel || savedModel;
-  if (!effectiveModel || !effectiveModel.startsWith(config.code.substring(0, 2))) {
-      console.log(`[TTS] Model validation failed or missing. Using default: ${config.defaultModel}`);
-      effectiveModel = config.defaultModel;
+  
+  // 백업본의 엄격한 모델 검증 로직 복원
+  if (!effectiveModel || !effectiveModel.startsWith(langCode.substring(0,2))) {
+      const defaultModels = {
+        'ko': 'ko-KR-Neural2-A',
+        'id': 'id-ID-Chirp3-HD-Alnilam',
+        'en': 'en-US-Neural2-F'
+      };
+      effectiveModel = defaultModels[lang] || defaultModels['id'];
   }
 
-  let effectiveLangCode = config.code;
-  if (effectiveModel && effectiveModel.includes('-')) {
-      const parts = effectiveModel.split('-');
-      if (parts.length >= 2) {
-          effectiveLangCode = `${parts[0]}-${parts[1]}`;
-      }
-  }
-
-    const langCode = effectiveModel.split('-').slice(0, 2).join('-');
-    const requestBody = {
-      input: { text },
-      voice: { languageCode: langCode, name: effectiveModel },
-      audioConfig: { audioEncoding: 'MP3' }
-    };
-    console.log("[TTS Request]", requestBody);
-
-    const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/text:synthesize`, {
+  const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+  
+  try {
+    const response = await fetch(endpoint, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${accessToken}`,
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(requestBody)
+      body: JSON.stringify({
+        input: { text },
+        voice: { languageCode: langCode, name: effectiveModel },
+        audioConfig: { audioEncoding: 'MP3' }
+      })
     });
 
     if (!response.ok) {
-        const err = await response.json();
-        if (response.status === 401) {
-            alert("Premium 음성 인증이 만료되었습니다. 설정에서 구글 로그인을 다시 진행해주세요.");
+        if (response.status === 401 || response.status === 403) {
+            localStorage.removeItem('gcp_access_token');
+            localStorage.removeItem('gcp_token_expiry');
         }
-        throw new Error(err.error?.message || "TTS 요청 실패");
+        const errJson = await response.json().catch(() => ({}));
+        throw new Error(`Google Cloud TTS 실패 (HTTP ${response.status}): ${errJson.error?.message || 'Unknown'}`);
     }
 
     const data = await response.json();
     if (data.audioContent) {
-        return playBase64Audio(data.audioContent);
+      return playBase64Audio(data.audioContent);
     } else {
-        throw new Error("오디오 데이터가 반환되지 않았습니다.");
+      throw new Error("오디오 데이터가 반환되지 않았습니다.");
     }
-  } catch (e) {
-    if (e.message.includes('billing')) {
-      const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`;
-      alert(`❌ [GCP 결제 계정 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정이 연동되어 있어야 합니다.\n\n링크: ${billingUrl}`);
-      window.open(billingUrl, '_blank');
-    } else {
-      alert(`❌ 테스트 실패: ${e.message}`);
+  } catch (error) {
+    if (error.message.includes('billing')) {
+        const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`;
+        alert(`❌ [GCP 결제 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정이 연동되어 있어야 합니다.\n\n링크: ${billingUrl}`);
+        window.open(billingUrl, '_blank');
     }
-    throw e;
+    throw error;
   }
 }
 
+/**
+ * 백업본 v9.6의 fetchGoogleVoices 완벽 복원
+ */
 export async function fetchGoogleVoices(accessToken) {
   if (!accessToken) return [];
   try {
-    // [v9.6 백업본 로직 적용] v1beta1 엔드포인트 사용 (고급 모델 조회용)
     const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/voices`, {
       method: 'GET',
       headers: { 
@@ -202,123 +188,63 @@ export async function fetchGoogleVoices(accessToken) {
         'Content-Type': 'application/json'
       }
     });
+    
     if (!response.ok) {
-        const errJson = await response.json().catch(() => ({}));
-        const msg = errJson.error?.message || response.statusText;
-        alert(`[TTS 설정] 음성 리스트를 가져오지 못했습니다 (HTTP ${response.status})\n사유: ${msg}`);
-        return [];
+      const err = await response.json().catch(() => ({}));
+      console.error("Fetch Voices Error Response:", err);
+      // 사용자 알림 추가 (디버깅용)
+      if (response.status === 403 || response.status === 401) {
+          alert("구글 서비스 권한이 없습니다. 다시 로그인하거나 결제 계정을 확인해주세요.");
+      }
+      return [];
     }
+    
     const data = await response.json();
     return data.voices || [];
   } catch (e) {
-    alert(`[TTS 설정] 네트워크 오류로 음성 리스트를 가져오지 못했습니다.\n내용: ${e.message}`);
+    console.error("Fetch Voices Exception:", e);
     return [];
   }
 }
 
 /**
- * 엔진 3: Web Speech API (브라우저 내장 폴백) (3개국어 지원)
+ * 엔진 3: Web Speech API (백업본 v9.6 복원)
  */
 export function playWebSpeechTTS(text, lang) {
-  return new Promise((resolve) => {
-    if (!('speechSynthesis' in window)) return resolve();
-    if (isTtsCancelled) return resolve();
+  if (!('speechSynthesis' in window)) return;
+  if (isTtsCancelled) return;
 
-    window.speechSynthesis.cancel();
+  window.speechSynthesis.cancel();
 
-    const langMap = { 'ko': 'ko-KR', 'id': 'id-ID', 'en': 'en-US' };
-    const langCode = langMap[lang] || 'id-ID';
-    
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = langCode;
-    utterance.rate = 0.95;
-    
-    utterance.onend = () => resolve();
-    utterance.onerror = () => resolve(); // 오류 시에도 다음 진행을 위해 resolve
-    
-    let voices = window.speechSynthesis.getVoices();
-    
-    const findVoice = () => {
-      const targetVoices = voices.filter(v => v.lang.startsWith(lang));
-      const premiumVoice = targetVoices.find(v => v.name.includes('Google') || v.name.includes('Natural')) || targetVoices[0];
-      if (premiumVoice) utterance.voice = premiumVoice;
-      if (!isTtsCancelled) window.speechSynthesis.speak(utterance);
-      else resolve();
-    };
+  const langCodes = { 'ko': 'ko-KR', 'id': 'id-ID', 'en': 'en-US' };
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = langCodes[lang] || 'id-ID';
+  utterance.rate = 0.95;
+  
+  let voices = window.speechSynthesis.getVoices();
+  const findVoice = () => {
+    const targetVoices = voices.filter(v => v.lang.startsWith(lang));
+    const premiumVoice = targetVoices.find(v => v.name.includes('Google')) || targetVoices[0];
+    if (premiumVoice) utterance.voice = premiumVoice;
+    if (!isTtsCancelled) window.speechSynthesis.speak(utterance);
+  };
 
-    if (voices.length === 0) {
-      window.speechSynthesis.onvoiceschanged = () => {
-        voices = window.speechSynthesis.getVoices();
-        findVoice();
-        window.speechSynthesis.onvoiceschanged = null;
-      };
-    } else {
+  if (voices.length === 0) {
+    window.speechSynthesis.onvoiceschanged = () => {
+      voices = window.speechSynthesis.getVoices();
       findVoice();
-    }
-  });
+      window.speechSynthesis.onvoiceschanged = null;
+    };
+  } else {
+    findVoice();
+  }
 }
 
 function playBase64Audio(base64Data) {
   if (isTtsCancelled) return Promise.resolve();
+  // 데이터 정제
   const cleanData = base64Data.replace(/\s/g, '');
   const audio = new Audio("data:audio/mp3;base64," + cleanData);
   currentAudioElement = audio;
   return audio.play();
 }
-
-/**
- * 텍스트 내 <target> 태그를 감지하여 혼합 언어로 순차 재생합니다.
- */
-export const playMixedAudio = async (text, nativeLang, targetLang, forceModel = null) => {
-  if (!text) return;
-  isTtsCancelled = false;
-
-  // 1. 초기 분할 (태그 구간 vs 일반 구간)
-  const regex = /<target>(.*?)<\/target>|([^<]+)/g;
-  let match;
-  let rawChunks = [];
-  
-  while ((match = regex.exec(text)) !== null) {
-    if (match[1] !== undefined) {
-      rawChunks.push({ text: match[1], lang: targetLang });
-    } else if (match[2] !== undefined) {
-      rawChunks.push({ text: match[2], lang: nativeLang });
-    }
-  }
-
-  // 2. 특수 처리: 타겟 태그 사이의 공백/문장부호는 타겟 언어로 편입 (연속성 확보)
-  for (let i = 1; i < rawChunks.length - 1; i++) {
-    const prev = rawChunks[i-1];
-    const curr = rawChunks[i];
-    const next = rawChunks[i+1];
-    
-    if (prev.lang === targetLang && next.lang === targetLang && curr.lang === nativeLang) {
-      // 공백이나 문장부호만 있는 경우 타겟 언어로 전환
-      if (!/[^\s\p{P}]/u.test(curr.text)) {
-        curr.lang = targetLang;
-      }
-    }
-  }
-
-  // 3. 동일 언어 청크 병합 (병합해야 한 문장으로 매끄럽게 읽음)
-  const mergedChunks = [];
-  if (rawChunks.length > 0) {
-    let current = { ...rawChunks[0] };
-    for (let i = 1; i < rawChunks.length; i++) {
-      if (rawChunks[i].lang === current.lang) {
-        current.text += rawChunks[i].text;
-      } else {
-        if (current.text.trim()) mergedChunks.push(current);
-        current = { ...rawChunks[i] };
-      }
-    }
-    if (current.text.trim()) mergedChunks.push(current);
-  }
-
-  // 4. 순차 재생
-  for (const chunk of mergedChunks) {
-    if (isTtsCancelled) break;
-    // forceModel이 있으면 해당 모델로 재생 (AI 선생님 등)
-    await playAudio(chunk.text, chunk.lang, forceModel);
-  }
-};

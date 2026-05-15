@@ -94,16 +94,27 @@ const Settings = () => {
   }, [gcpAccessToken]);
 
   const handleFetchGoogleVoicesList = async () => {
-    if (!gcpAccessToken) { handleGoogleLogin(); return; }
+    const expiry = localStorage.getItem('gcp_token_expiry');
+    const isExpired = expiry && (parseInt(expiry, 10) - Date.now() < 5000);
+
+    if (!gcpAccessToken || isExpired) {
+        handleGoogleLogin();
+        return;
+    }
     setLoadingVoices(true);
     try {
         const voices = await fetchGoogleVoices(gcpAccessToken);
-        const filtered = voices.filter(v => v.languageCodes.some(lc => lc.toLowerCase().startsWith('ko') || lc.toLowerCase().startsWith('id') || lc.toLowerCase().startsWith('en')));
+        const filtered = voices.filter(v => 
+            v.languageCodes.some(lc => lc.startsWith('ko') || lc.startsWith('id') || lc.startsWith('en'))
+        );
         setGoogleVoiceList(filtered);
         localStorage.setItem('google_voice_list', JSON.stringify(filtered));
         alert(t('msg_fetch_voices_done', { count: filtered.length }));
-    } catch (err) { alert(t('msg_fetch_voices_fail') + ": " + err.message); }
-    finally { setLoadingVoices(false); }
+    } catch (err) { 
+        alert(t('msg_fetch_voices_fail') + ": " + err.message); 
+    } finally { 
+        setLoadingVoices(false); 
+    }
   };
 
   const handleTestVoice = async (lang, voiceName) => {
