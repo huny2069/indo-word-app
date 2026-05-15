@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { getWords, getCartWords, updateWord, clearCart } from '../db/database';
 import { playAudio } from '../api/ttsApi';
 import { Volume2 } from 'lucide-react';
@@ -24,17 +24,44 @@ const Learn = () => {
 
   // For spelling
   const [spellInput, setSpellInput] = useState('');
+  const inputRef = useRef(null);
 
-  // 힌트 생성 함수: 단어의 첫 글자와 마지막 글자만 보여주고 나머지는 밑줄 처리
-  const generateSpellingHint = (word) => {
-    if (!word) return '';
-    return word.split(' ').map(part => {
-      if (part.length <= 2) return part.replace(/[a-zA-Z0-9]/g, '_').split('').join(' ');
-      const first = part[0];
-      const last = part[part.length - 1];
-      const mid = part.slice(1, -1).replace(/[a-zA-Z0-9]/g, '_').split('').join(' ');
-      return `${first} ${mid} ${last}`;
-    }).join('   ');
+  // 단어 구조 분석 함수: 힌트 문자와 빈칸 문자를 구분하여 배열로 반환
+  const parseSpellingStructure = (word) => {
+    if (!word) return [];
+    let structure = [];
+    let blankIndex = 0;
+    const parts = word.split(' ');
+
+    parts.forEach((part, partIdx) => {
+      if (part.length <= 2) {
+        // 2글자 이하는 모두 빈칸 처리
+        for (let i = 0; i < part.length; i++) {
+          if (part[i].match(/[a-zA-Z0-9]/)) {
+            structure.push({ type: 'blank', char: part[i], bIdx: blankIndex++ });
+          } else {
+            structure.push({ type: 'hint', char: part[i] });
+          }
+        }
+      } else {
+        // 첫 글자 힌트
+        structure.push({ type: 'hint', char: part[0] });
+        // 중간 글자들 빈칸
+        for (let i = 1; i < part.length - 1; i++) {
+          if (part[i].match(/[a-zA-Z0-9]/)) {
+            structure.push({ type: 'blank', char: part[i], bIdx: blankIndex++ });
+          } else {
+            structure.push({ type: 'hint', char: part[i] });
+          }
+        }
+        // 마지막 글자 힌트
+        structure.push({ type: 'hint', char: part[part.length - 1] });
+      }
+      if (partIdx < parts.length - 1) {
+        structure.push({ type: 'space', char: ' ' });
+      }
+    });
+    return structure;
   };
 
   // Cart Info
@@ -273,15 +300,27 @@ const Learn = () => {
   };
 
   const handleSpellingSubmit = async () => {
-    if (!spellInput.trim()) return;
-    // 스펠링 정답은 항상 대상어(word)와 비교
+    const structure = parseSpellingStructure(currentWord.word);
+    const blanks = structure.filter(s => s.type === 'blank');
+    
+    // 사용자가 입력한 문자와 힌트 문자를 조합하여 최종 단어 생성
+    let resultWord = "";
+    structure.forEach(item => {
+      if (item.type === 'space') resultWord += " ";
+      else if (item.type === 'hint') resultWord += item.char;
+      else if (item.type === 'blank') {
+        resultWord += spellInput[item.bIdx] || "";
+      }
+    });
+
     const targetWord = currentWord.word;
-    if (spellInput.trim().toLowerCase() === targetWord.toLowerCase()) {
+    if (resultWord.trim().toLowerCase() === targetWord.toLowerCase()) {
       await handleSRSUpdate(currentWord, 'good');
     } else {
       alert(`${t('msg_spelling_answer')}: ${targetWord}`);
       await handleSRSUpdate(currentWord, 'hard');
     }
+    setSpellInput('');
     nextCard();
   };
 
@@ -487,42 +526,67 @@ const Learn = () => {
         </div>
       )}
 
-      {mode === 'spelling' && currentWord && (
-        <div style={{ background: '#fff', padding: '3rem 2rem', borderRadius: '35px', border: '4px solid #1dd1a1', boxShadow: '0 12px 0 #1dd1a1', textAlign: 'center' }}>
-          <img src="/assets/img/nana.png" className="nana-character" style={{ width: '90px', marginBottom: '1.5rem' }} alt="nana-spelling" />
-          <h2 style={{ marginBottom: '1rem', fontSize: '2.2rem', fontWeight: '900' }}>
-            "{currentWord.meaning}"
-          </h2>
-          <div style={{ marginBottom: '2rem' }}>
-              <p style={{color: '#888', fontWeight: 'bold', margin: '0 0 10px 0'}}>
-                {t('learn_spelling_hint')}
-              </p>
-              <div style={{ fontSize: '2rem', letterSpacing: '4px', fontWeight: '900', color: 'var(--primary-color)', background: '#fff9db', display: 'inline-block', padding: '10px 20px', borderRadius: '15px', border: '2px dashed #feca57' }}>
-                  {generateSpellingHint(currentWord.word)}
-              </div>
+      {mode === 'spelling' && currentWord && (() => {
+        const structure = parseSpellingStructure(currentWord.word);
+        const maxLen = structure.filter(s => s.type === 'blank').length;
+        
+        return (
+          <div style={{ background: '#fff', padding: '3rem 2rem', borderRadius: '35px', border: '4px solid #1dd1a1', boxShadow: '0 12px 0 #1dd1a1', textAlign: 'center', position: 'relative' }}>
+            <img src="/assets/img/nana.png" className="nana-character" style={{ width: '90px', marginBottom: '1.5rem' }} alt="nana-spelling" />
+            <h2 style={{ marginBottom: '1.5rem', fontSize: '2.2rem', fontWeight: '900' }}>
+              "{currentWord.meaning}"
+            </h2>
+            
+            <div 
+              onClick={() => inputRef.current?.focus()}
+              style={{ 
+                marginBottom: '2.5rem', padding: '20px', background: '#f8f9fa', borderRadius: '25px', border: '3px dashed #1dd1a1',
+                display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '10px', cursor: 'text'
+              }}
+            >
+              {structure.map((item, idx) => {
+                if (item.type === 'space') return <div key={idx} style={{ width: '20px' }}></div>;
+                if (item.type === 'hint') return (
+                  <span key={idx} style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ccc' }}>{item.char}</span>
+                );
+                const char = spellInput[item.bIdx];
+                return (
+                  <span key={idx} style={{ 
+                    fontSize: '2.5rem', fontWeight: '900', minWidth: '35px', borderBottom: char ? '4px solid #1dd1a1' : '4px solid #e0e0e0',
+                    color: char ? '#1dd1a1' : '#e0e0e0'
+                  }}>
+                    {char || '_'}
+                  </span>
+                );
+              })}
+            </div>
+
+            <input 
+              ref={inputRef}
+              type="text" 
+              value={spellInput} 
+              onChange={e => {
+                const val = e.target.value.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+                if (val.length <= maxLen) setSpellInput(val);
+              }} 
+              onKeyDown={e => e.key === 'Enter' && handleSpellingSubmit()} 
+              style={{ position: 'absolute', opacity: 0, pointerEvents: 'none' }}
+              autoFocus 
+              autoComplete="off" 
+              spellCheck="false" 
+            />
+
+            <div style={{display: 'flex', gap: '1rem'}}>
+              <button onClick={() => playAudio(currentWord.word, currentWord.study_lang)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>
+                🔊 {t('learn_spelling_listen')}
+              </button>
+              <button onClick={handleSpellingSubmit} style={{ flex: 2, padding: '1.2rem', background: '#1dd1a1', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.2rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84' }}>
+                {t('learn_spelling_submit')}
+              </button>
+            </div>
           </div>
-          <input 
-            type="text" 
-            value={spellInput} 
-            onChange={e => setSpellInput(e.target.value)} 
-            onKeyDown={e => e.key === 'Enter' && handleSpellingSubmit()} 
-            placeholder={t('learn_spelling_ph')} 
-            className="spelling-input" 
-            style={{ border: '4px solid #eef2f7', borderRadius: '20px', fontSize: '2rem' }} 
-            autoFocus 
-            autoComplete="off" 
-            spellCheck="false" 
-          />
-          <div style={{display: 'flex', gap: '1rem'}}>
-            <button onClick={() => playAudio(currentWord.word, currentWord.study_lang)} style={{ flex: 1, padding: '1.2rem', background: '#f0f4ff', color: '#4facfe', border: 'none', borderRadius: '20px', cursor: 'pointer', fontWeight: '900' }}>
-              🔊 {t('learn_spelling_listen')}
-            </button>
-            <button onClick={handleSpellingSubmit} style={{ flex: 2, padding: '1.2rem', background: '#1dd1a1', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.2rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84' }}>
-              {t('learn_spelling_submit')}
-            </button>
-          </div>
-        </div>
-      )}
+        );
+      })()}
     </div>
   );
 };
