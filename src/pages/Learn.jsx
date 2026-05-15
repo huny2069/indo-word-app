@@ -25,6 +25,18 @@ const Learn = () => {
   // For spelling
   const [spellInput, setSpellInput] = useState('');
 
+  // 힌트 생성 함수: 단어의 첫 글자와 마지막 글자만 보여주고 나머지는 밑줄 처리
+  const generateSpellingHint = (word) => {
+    if (!word) return '';
+    return word.split(' ').map(part => {
+      if (part.length <= 2) return part.replace(/[a-zA-Z0-9]/g, '_').split('').join(' ');
+      const first = part[0];
+      const last = part[part.length - 1];
+      const mid = part.slice(1, -1).replace(/[a-zA-Z0-9]/g, '_').split('').join(' ');
+      return `${first} ${mid} ${last}`;
+    }).join('   ');
+  };
+
   // Cart Info
   const [isCartMode, setIsCartMode] = useState(false);
 
@@ -481,9 +493,14 @@ const Learn = () => {
           <h2 style={{ marginBottom: '1rem', fontSize: '2.2rem', fontWeight: '900' }}>
             "{currentWord.meaning}"
           </h2>
-          <p style={{color: '#888', fontWeight: 'bold', marginBottom: '2rem'}}>
-            {t('learn_spelling_hint')}
-          </p>
+          <div style={{ marginBottom: '2rem' }}>
+              <p style={{color: '#888', fontWeight: 'bold', margin: '0 0 10px 0'}}>
+                {t('learn_spelling_hint')}
+              </p>
+              <div style={{ fontSize: '2rem', letterSpacing: '4px', fontWeight: '900', color: 'var(--primary-color)', background: '#fff9db', display: 'inline-block', padding: '10px 20px', borderRadius: '15px', border: '2px dashed #feca57' }}>
+                  {generateSpellingHint(currentWord.word)}
+              </div>
+          </div>
           <input 
             type="text" 
             value={spellInput} 
