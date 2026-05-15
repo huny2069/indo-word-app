@@ -136,6 +136,7 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
 export const CURATED_MODELS = [
     { 
       id: 'gemini-3.1-pro-preview', 
+      t_key: '3_1_pro',
       name: 'Gemini 3.1 Pro (최첨단)', 
       speed: '🐢 느림', speed_key: 'slow',
       tokens: '💎 매우 높음', tokens_key: 'very_high',
@@ -144,6 +145,7 @@ export const CURATED_MODELS = [
     },
     { 
       id: 'gemini-3.0-flash-preview', 
+      t_key: '3_0_flash',
       name: 'Gemini 3.0 Flash (차세대 속도)', 
       speed: '⚡ 매우 빠름', speed_key: 'very_fast',
       tokens: '⚖️ 보통', tokens_key: 'normal',
@@ -152,6 +154,7 @@ export const CURATED_MODELS = [
     },
     { 
       id: 'gemini-3.1-flash-lite', 
+      t_key: '3_1_flash_lite',
       name: 'Gemini 3.1 Flash-Lite (가성비)', 
       speed: '🚀 압도적 빠름', speed_key: 'very_fast',
       tokens: '📉 매우 낮음', tokens_key: 'very_low',
@@ -160,6 +163,7 @@ export const CURATED_MODELS = [
     },
     { 
       id: 'gemini-2.5-pro', 
+      t_key: '2_5_pro',
       name: 'Gemini 2.5 Pro (안정적 고성능)', 
       speed: '🏃 보통', speed_key: 'normal',
       tokens: '📈 높음', tokens_key: 'high',
@@ -168,6 +172,7 @@ export const CURATED_MODELS = [
     },
     { 
       id: 'gemini-2.5-flash', 
+      t_key: '2_5_flash',
       name: 'Gemini 2.5 Flash (표준 추천)', 
       speed: '⚡ 빠름', speed_key: 'fast',
       tokens: '📉 낮음', tokens_key: 'low',
@@ -176,6 +181,7 @@ export const CURATED_MODELS = [
     },
     { 
       id: 'gemini-2.5-flash-lite', 
+      t_key: '2_5_flash_lite',
       name: 'Gemini 2.5 Flash-Lite', 
       speed: '🚀 매우 빠름', speed_key: 'very_fast',
       tokens: '📉 매우 낮음', tokens_key: 'very_low',
