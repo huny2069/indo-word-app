@@ -158,8 +158,22 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
   const savedModel = localStorage.getItem(modelKey);
   let effectiveModel = overrideModel || savedModel;
 
-  // 모델 검증
-  if (!effectiveModel || !effectiveModel.startsWith(langCode.substring(0, 2))) {
+  // 모델 검증 강화: localStorage에 잘못 저장된 Gemini 모델명 등을 차단
+  // 유효한 Google Cloud TTS 모델은 반드시 'ko-KR-', 'id-ID-', 'en-US-' 등으로 시작함
+  const isValidGcpVoice = (name) => {
+    if (!name) return false;
+    // 'gemini'가 포함된 이름은 Gemini AI 모델이지 TTS 음성이 아님
+    if (name.toLowerCase().includes('gemini')) return false;
+    // 언어코드-국가코드- 형식이어야 함 (예: ko-KR-Neural2-A)
+    return /^[a-z]{2}-[A-Z]{2}-/.test(name);
+  };
+
+  if (!isValidGcpVoice(effectiveModel)) {
+    // 잘못된 값이 localStorage에 있으면 정리
+    if (savedModel && !isValidGcpVoice(savedModel)) {
+      console.warn(`[GCP-TTS] ⚠️ localStorage에 잘못된 모델명 발견: "${savedModel}" → 삭제 후 기본값 사용`);
+      localStorage.removeItem(modelKey);
+    }
     const defaultModels = { 'ko': 'ko-KR-Neural2-A', 'id': 'id-ID-Chirp3-HD-Alnilam', 'en': 'en-US-Neural2-F' };
     effectiveModel = defaultModels[lang] || defaultModels['id'];
   }
