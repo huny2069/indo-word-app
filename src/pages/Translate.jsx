@@ -40,7 +40,7 @@ const Translate = () => {
 
         timeoutRef.current = setTimeout(() => {
             performTranslate();
-        }, 800);
+        }, 400); // 속도를 위해 대기 시간을 400ms로 단축
 
         return () => clearTimeout(timeoutRef.current);
     }, [sourceText, fromLang, toLang]);
@@ -121,60 +121,60 @@ const Translate = () => {
             </div>
 
             {/* Language Selection Header */}
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem', flexWrap: 'nowrap' }}>
                 <select 
                     value={fromLang} 
                     onChange={(e) => setFromLang(e.target.value)}
-                    style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid #eee', fontWeight: '800', background: '#fff', cursor: 'pointer', outline: 'none' }}
+                    style={{ flex: 1, maxWidth: '180px', padding: '0.8rem', borderRadius: '15px', border: '2px solid #eee', fontWeight: '800', background: '#fff', cursor: 'pointer', outline: 'none', fontSize: '0.9rem' }}
                 >
-                    {languages.map(l => <option key={l.code} value={l.code}>{l.flag} {l.name}</option>)}
+                    {languages.map(l => <option key={l.code} value={l.code}>{l.flag} {l.name.split(' ')[0]}</option>)}
                 </select>
 
                 <button 
                     onClick={handleSwap}
-                    style={{ background: '#f8f9fa', border: 'none', width: '45px', height: '45px', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}
+                    style={{ background: '#f8f9fa', border: '1px solid #eee', width: '40px', height: '40px', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', flexShrink: 0 }}
                 >
-                    <ArrowRightLeft size={18} color="var(--primary-color)" />
+                    <ArrowRightLeft size={16} color="var(--primary-color)" />
                 </button>
 
                 <select 
                     value={toLang} 
                     onChange={(e) => setToLang(e.target.value)}
-                    style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid var(--primary-color)', fontWeight: '800', background: '#fff', cursor: 'pointer', outline: 'none' }}
+                    style={{ flex: 1, maxWidth: '180px', padding: '0.8rem', borderRadius: '15px', border: '2px solid var(--primary-color)', fontWeight: '800', background: '#fff', cursor: 'pointer', outline: 'none', fontSize: '0.9rem' }}
                 >
-                    {languages.map(l => <option key={l.code} value={l.code}>{l.flag} {l.name}</option>)}
+                    {languages.map(l => <option key={l.code} value={l.code}>{l.flag} {l.name.split(' ')[0]}</option>)}
                 </select>
             </div>
 
             <div className="translate-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '1.5rem', marginBottom: '1.5rem' }}>
                 
                 {/* Source Panel */}
-                <div style={{ background: '#fff', borderRadius: '30px', padding: '1.5rem', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid #f0f0f0', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ background: '#fff', borderRadius: '25px', padding: '1.5rem', boxShadow: '0 10px 40px rgba(0,0,0,0.04)', border: '1px solid #f0f0f0', display: 'flex', flexDirection: 'column', height: '100%' }}>
                     <textarea 
                         value={sourceText}
                         onChange={(e) => setSourceText(e.target.value)}
                         placeholder={t('trans_source_ph')}
-                        style={{ width: '100%', height: '180px', border: 'none', resize: 'none', fontSize: '1.2rem', fontWeight: '700', color: '#333', outline: 'none', lineHeight: '1.6', background: 'transparent' }}
+                        style={{ width: '100%', height: '160px', border: 'none', resize: 'none', fontSize: '1.15rem', fontWeight: '700', color: '#333', outline: 'none', lineHeight: '1.6', background: 'transparent' }}
                     />
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '1rem', borderTop: '1px solid #f9f9f9' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '1rem', borderTop: '1px solid #f5f5f5', marginTop: 'auto' }}>
                         <div style={{ display: 'flex', gap: '0.5rem' }}>
                             <button onClick={() => playAudio(sourceText, fromLang)} className="icon-btn-circle" style={{ background: '#f8f9fa' }}>
-                                <Volume2 size={20} color="#666" />
+                                <Volume2 size={18} color="#666" />
                             </button>
                             <button onClick={() => setSourceText('')} className="icon-btn-circle" style={{ background: '#f8f9fa' }}>
-                                <Trash2 size={20} color="#666" />
+                                <Trash2 size={18} color="#666" />
                             </button>
                         </div>
-                        <span style={{ fontSize: '0.8rem', color: '#ccc', fontWeight: '700' }}>{sourceText.length} / 500</span>
+                        <span style={{ fontSize: '0.75rem', color: '#ccc', fontWeight: '700' }}>{sourceText.length} / 500</span>
                     </div>
                 </div>
 
                 {/* Target Panel */}
-                <div style={{ background: 'linear-gradient(135deg, #fff, #f9fffb)', borderRadius: '30px', padding: '1.5rem', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '2.5px solid var(--primary-color)', display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ width: '100%', height: '180px', fontSize: '1.2rem', fontWeight: '700', color: 'var(--primary-color)', overflowY: 'auto', lineHeight: '1.6', position: 'relative' }}>
+                <div style={{ background: '#fff', borderRadius: '25px', padding: '1.5rem', boxShadow: '0 10px 40px rgba(0,0,0,0.06)', border: '2px solid rgba(29, 209, 161, 0.3)', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    <div style={{ width: '100%', height: '160px', fontSize: '1.15rem', fontWeight: '700', color: 'var(--primary-color)', overflowY: 'auto', lineHeight: '1.6', position: 'relative' }}>
                         {isTranslating ? (
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#ccc', padding: '1rem' }}>
-                                <Loader2 size={28} className="spin" />
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', color: '#ccc', padding: '0.5rem' }}>
+                                <Loader2 size={24} className="spin" />
                                 <span style={{ fontWeight: '800' }}>번역 중...</span>
                             </div>
                         ) : (
@@ -182,13 +182,13 @@ const Translate = () => {
                         )}
                     </div>
 
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '1rem', borderTop: '1px solid rgba(29, 209, 161, 0.1)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '1rem', borderTop: '1px solid rgba(29, 209, 161, 0.1)', marginTop: 'auto' }}>
                         <div style={{ display: 'flex', gap: '0.5rem' }}>
                             <button onClick={() => playAudio(targetText, toLang)} className="icon-btn-circle" style={{ background: 'rgba(29, 209, 161, 0.05)' }}>
-                                <Volume2 size={20} color="var(--primary-color)" />
+                                <Volume2 size={18} color="var(--primary-color)" />
                             </button>
                             <button onClick={() => copyToClipboard(targetText)} className="icon-btn-circle" style={{ background: 'rgba(29, 209, 161, 0.05)' }}>
-                                <Copy size={20} color="var(--primary-color)" />
+                                <Copy size={18} color="var(--primary-color)" />
                             </button>
                         </div>
                     </div>
@@ -201,8 +201,10 @@ const Translate = () => {
                     onClick={performTranslate}
                     disabled={isTranslating || !sourceText}
                     style={{ 
-                        flex: 1, padding: '1.2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem', transition: '0.2s', minWidth: '200px'
+                        flex: 2, padding: '1.1rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '18px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 4px 15px rgba(29, 209, 161, 0.3)', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem', transition: 'all 0.2s', minWidth: '200px'
                     }}
+                    onMouseDown={(e) => e.currentTarget.style.transform = 'scale(0.98)'}
+                    onMouseUp={(e) => e.currentTarget.style.transform = 'scale(1)'}
                 >
                     {isTranslating ? <Loader2 size={20} className="spin" /> : <Languages size={20} />}
                     {t('trans_btn_translate') || '번역하기'}
@@ -213,7 +215,7 @@ const Translate = () => {
                         onClick={handleAddWord}
                         disabled={isSaving}
                         style={{ 
-                            flex: 1, padding: '1.2rem', background: '#feca57', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #ee9d0c', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem', transition: '0.2s', minWidth: '200px'
+                            flex: 1, padding: '1.1rem', background: '#fff', color: '#feca57', border: '2px solid #feca57', borderRadius: '18px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '900', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem', transition: '0.2s', minWidth: '200px'
                         }}
                     >
                         {isSaving ? <Loader2 size={20} className="spin" /> : <Plus size={20} />}
