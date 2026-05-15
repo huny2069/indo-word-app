@@ -312,26 +312,35 @@ const Settings = () => {
             </div>
             
             <div style={{ display: 'grid', gap: '0.8rem' }}>
-                {CURATED_MODELS.map(m => (
-                    <div key={m.id} 
-                        onClick={() => { setSelectedGeminiModel(m.id); localStorage.setItem('selectedGeminiModel', m.id); }}
-                        style={{ 
-                            padding: '1rem', borderRadius: '15px', border: selectedGeminiModel === m.id ? '2.5px solid var(--primary-color)' : '1px solid #e2e8f0',
-                            background: selectedGeminiModel === m.id ? '#fff' : '#fff', cursor: 'pointer', transition: '0.2s', position: 'relative', overflow: 'hidden'
-                        }}
-                    >
-                        {selectedGeminiModel === m.id && <div style={{ position: 'absolute', top: 0, right: 0, background: 'var(--primary-color)', color: '#fff', padding: '2px 10px', fontSize: '0.7rem', fontWeight: '900', borderRadius: '0 0 0 10px' }}>SELECTED</div>}
-                        <div style={{ fontWeight: '900', fontSize: '1rem', marginBottom: '4px', color: selectedGeminiModel === m.id ? 'var(--primary-color)' : '#334155' }}>{m.name}</div>
-                        <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
-                            <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>{m.speed}</span>
-                            <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>{m.tokens}</span>
+                {CURATED_MODELS.map(m => {
+                    const modelKey = m.id.replace(/\./g, '_').replace(/-/g, '_');
+                    return (
+                        <div key={m.id} 
+                            onClick={() => { setSelectedGeminiModel(m.id); localStorage.setItem('selectedGeminiModel', m.id); }}
+                            style={{ 
+                                padding: '1rem', borderRadius: '15px', border: selectedGeminiModel === m.id ? '2.5px solid var(--primary-color)' : '1px solid #e2e8f0',
+                                background: selectedGeminiModel === m.id ? '#fff' : '#fff', cursor: 'pointer', transition: '0.2s', position: 'relative', overflow: 'hidden'
+                            }}
+                        >
+                            {selectedGeminiModel === m.id && <div style={{ position: 'absolute', top: 0, right: 0, background: 'var(--primary-color)', color: '#fff', padding: '2px 10px', fontSize: '0.7rem', fontWeight: '900', borderRadius: '0 0 0 10px' }}>{t('model_label_selected') || 'SELECTED'}</div>}
+                            <div style={{ fontWeight: '900', fontSize: '1rem', marginBottom: '4px', color: selectedGeminiModel === m.id ? 'var(--primary-color)' : '#334155' }}>
+                                {t(`model_${modelKey}_name`) || m.name}
+                            </div>
+                            <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
+                                <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>
+                                    {t(`model_speed_${m.speed_key}`) || m.speed}
+                                </span>
+                                <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>
+                                    {t(`model_tokens_${m.tokens_key}`) || m.tokens}
+                                </span>
+                            </div>
+                            <div style={{ fontSize: '0.8rem', color: '#666', lineHeight: '1.5' }}>
+                                <div style={{ marginBottom: '2px' }}><strong style={{ color: '#059669' }}>{t('model_label_pros') || 'Pros'}:</strong> {t(`model_${modelKey}_pros`) || m.pros}</div>
+                                <div><strong style={{ color: '#e11d48' }}>{t('model_label_cons') || 'Cons'}:</strong> {t(`model_${modelKey}_cons`) || m.cons}</div>
+                            </div>
                         </div>
-                        <div style={{ fontSize: '0.8rem', color: '#666', lineHeight: '1.5' }}>
-                            <div style={{ marginBottom: '2px' }}><strong style={{ color: '#059669' }}>👍 장점:</strong> {m.pros}</div>
-                            <div><strong style={{ color: '#e11d48' }}>⚠️ 단점:</strong> {m.cons}</div>
-                        </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
 
