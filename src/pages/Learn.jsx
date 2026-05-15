@@ -338,7 +338,7 @@ const Learn = () => {
             <div style={{ flex: 1, margin: '0 1rem', background: '#e9ecef', height: '12px', borderRadius: '6px', overflow: 'hidden', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>
                 <div style={{ width: `${((currentIndex + 1) / words.length) * 100}%`, height: '100%', background: 'linear-gradient(90deg, #feca57, #ff9f43)', transition: 'width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)' }}></div>
             </div>
-            <img src="/assets/img/nana.png" style={{ width: '40px', height: '40px', borderRadius: '50%', border: '3px solid #feca57', background: '#fff', objectFit: 'contain' }} alt="Nana" />
+            <img src="/assets/img/nana.png" className="nana-character" style={{ width: '40px', height: '40px', borderRadius: '50%', border: '3px solid #feca57', background: '#fff', objectFit: 'contain' }} alt="Nana" />
         </header>
 
       {mode === 'flashcard' && currentWord && (
@@ -434,7 +434,7 @@ const Learn = () => {
                 </button>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '5px', marginTop: '1rem' }}>
-                <img src="/assets/img/nana.png" style={{ width: '50px' }} alt="nana-quiz" />
+                <img src="/assets/img/nana.png" className="nana-character" style={{ width: '50px' }} alt="nana-quiz" />
             </div>
           </div>
           <div style={{ display: 'grid', gap: '1rem' }}>

@@ -75,6 +75,7 @@ const Login = () => {
         <img 
           src="/assets/img/nana.png" 
           alt="Nana Mascot" 
+          className="nana-character"
           style={{ width: '120px', marginBottom: '1.5rem', filter: 'drop-shadow(0 10px 15px rgba(254, 202, 87, 0.4))' }} 
         />
 

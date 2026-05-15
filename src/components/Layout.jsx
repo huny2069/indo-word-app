@@ -160,6 +160,7 @@ const Layout = () => {
             <img 
               src={user?.picture || '/assets/img/nana.png'} 
               alt="Profile" 
+              className={!user?.picture ? 'nana-character' : ''}
               style={{ width: '32px', height: '32px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #fff' }} 
             />
             <span className="desktop-only" style={{ fontWeight: '700', fontSize: '0.85rem', color: '#555' }}>

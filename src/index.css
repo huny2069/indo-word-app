@@ -461,3 +461,8 @@ body {
   font-size: 1.2rem;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
 }
+
+/* 마스코트 이미지 배경 투명화 처리 */
+.nana-character {
+  mix-blend-mode: multiply;
+}
