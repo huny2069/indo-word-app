@@ -104,26 +104,52 @@ const Translate = () => {
         alert('복사되었습니다.');
     };
 
+    const languages = [
+        { code: 'ko', name: '한국어', flag: '🇰🇷' },
+        { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
+        { code: 'en', name: 'English', flag: '🇺🇸' }
+    ];
+
     return (
-        <div className="page" style={{ maxWidth: '1000px', margin: '0 auto', padding: '1rem' }}>
-            <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+        <div className="page" style={{ maxWidth: '1000px', margin: '0 auto', padding: '1rem', paddingBottom: '5rem' }}>
+            <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.8rem', background: 'rgba(29, 209, 161, 0.1)', padding: '0.8rem 1.5rem', borderRadius: '50px', marginBottom: '1rem' }}>
                     <Languages size={24} color="var(--primary-color)" />
                     <h2 style={{ margin: 0, fontSize: '1.5rem', fontWeight: '900', color: 'var(--primary-color)' }}>{t('nav_translate')}</h2>
                 </div>
-                <p style={{ color: '#888', fontWeight: '700' }}>Gemini AI가 제공하는 고품질 실시간 번역 서비스</p>
+                <p style={{ color: '#888', fontWeight: '700' }}>{t('trans_title') || 'AI 실시간 번역'}</p>
             </div>
 
-            <div className="translate-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginBottom: '2rem', position: 'relative' }}>
+            {/* Language Selection Header */}
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+                <select 
+                    value={fromLang} 
+                    onChange={(e) => setFromLang(e.target.value)}
+                    style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid #eee', fontWeight: '800', background: '#fff', cursor: 'pointer', outline: 'none' }}
+                >
+                    {languages.map(l => <option key={l.code} value={l.code}>{l.flag} {l.name}</option>)}
+                </select>
+
+                <button 
+                    onClick={handleSwap}
+                    style={{ background: '#f8f9fa', border: 'none', width: '45px', height: '45px', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}
+                >
+                    <ArrowRightLeft size={18} color="var(--primary-color)" />
+                </button>
+
+                <select 
+                    value={toLang} 
+                    onChange={(e) => setToLang(e.target.value)}
+                    style={{ padding: '0.8rem 1.2rem', borderRadius: '15px', border: '2px solid var(--primary-color)', fontWeight: '800', background: '#fff', cursor: 'pointer', outline: 'none' }}
+                >
+                    {languages.map(l => <option key={l.code} value={l.code}>{l.flag} {l.name}</option>)}
+                </select>
+            </div>
+
+            <div className="translate-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '1.5rem', marginBottom: '1.5rem' }}>
                 
                 {/* Source Panel */}
                 <div style={{ background: '#fff', borderRadius: '30px', padding: '1.5rem', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid #f0f0f0', display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                        <span style={{ fontWeight: '900', fontSize: '0.8rem', color: '#999', textTransform: 'uppercase', letterSpacing: '1px' }}>{t('trans_source_lang')}</span>
-                        <div style={{ background: 'var(--primary-color)', color: '#fff', padding: '4px 12px', borderRadius: '10px', fontSize: '0.85rem', fontWeight: '800' }}>
-                            {fromLang === 'id' ? 'Bahasa Indonesia' : fromLang === 'ko' ? '한국어' : 'English'}
-                        </div>
-                    </div>
                     <textarea 
                         value={sourceText}
                         onChange={(e) => setSourceText(e.target.value)}
@@ -135,36 +161,21 @@ const Translate = () => {
                             <button onClick={() => playAudio(sourceText, fromLang)} className="icon-btn-circle" style={{ background: '#f8f9fa' }}>
                                 <Volume2 size={20} color="#666" />
                             </button>
+                            <button onClick={() => setSourceText('')} className="icon-btn-circle" style={{ background: '#f8f9fa' }}>
+                                <Trash2 size={20} color="#666" />
+                            </button>
                         </div>
                         <span style={{ fontSize: '0.8rem', color: '#ccc', fontWeight: '700' }}>{sourceText.length} / 500</span>
                     </div>
                 </div>
 
-                {/* Swap Button Area */}
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 10 }}>
-                    <button 
-                        onClick={handleSwap}
-                        style={{ background: '#fff', border: '2px solid #eee', width: '50px', height: '50px', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.05)', transition: '0.3s' }}
-                        className="swap-btn-hover"
-                    >
-                        <ArrowRightLeft size={20} color="var(--primary-color)" />
-                    </button>
-                </div>
-
                 {/* Target Panel */}
                 <div style={{ background: 'linear-gradient(135deg, #fff, #f9fffb)', borderRadius: '30px', padding: '1.5rem', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '2.5px solid var(--primary-color)', display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                        <span style={{ fontWeight: '900', fontSize: '0.8rem', color: '#999', textTransform: 'uppercase', letterSpacing: '1px' }}>{t('trans_target_lang')}</span>
-                        <div style={{ background: 'var(--nana-dark)', color: '#fff', padding: '4px 12px', borderRadius: '10px', fontSize: '0.85rem', fontWeight: '800' }}>
-                            {toLang === 'id' ? 'Bahasa Indonesia' : toLang === 'ko' ? '한국어' : 'English'}
-                        </div>
-                    </div>
-                    
                     <div style={{ width: '100%', height: '180px', fontSize: '1.2rem', fontWeight: '700', color: 'var(--primary-color)', overflowY: 'auto', lineHeight: '1.6', position: 'relative' }}>
                         {isTranslating ? (
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#ccc' }}>
-                                <Loader2 size={24} className="spin" />
-                                <span>번역 중...</span>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#ccc', padding: '1rem' }}>
+                                <Loader2 size={28} className="spin" />
+                                <span style={{ fontWeight: '800' }}>번역 중...</span>
                             </div>
                         ) : (
                             targetText || <span style={{ color: '#eee' }}>{t('trans_target_ph')}</span>
@@ -180,21 +191,35 @@ const Translate = () => {
                                 <Copy size={20} color="var(--primary-color)" />
                             </button>
                         </div>
-                        
-                        {targetText && (
-                            <button 
-                                onClick={handleAddWord}
-                                disabled={isSaving}
-                                style={{ 
-                                    background: 'var(--primary-color)', color: '#fff', border: 'none', padding: '0.6rem 1.2rem', borderRadius: '15px', fontWeight: '900', fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', boxShadow: '0 4px 0 #10ac84', transition: '0.2s'
-                                }}
-                            >
-                                {isSaving ? <Loader2 size={16} className="spin" /> : <Plus size={16} />}
-                                {isSaving ? t('trans_msg_enriching') : t('trans_btn_add_word')}
-                            </button>
-                        )}
                     </div>
                 </div>
+            </div>
+
+            {/* Manual Action Buttons */}
+            <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', flexWrap: 'wrap' }}>
+                <button 
+                    onClick={performTranslate}
+                    disabled={isTranslating || !sourceText}
+                    style={{ 
+                        flex: 1, padding: '1.2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #10ac84', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem', transition: '0.2s', minWidth: '200px'
+                    }}
+                >
+                    {isTranslating ? <Loader2 size={20} className="spin" /> : <Languages size={20} />}
+                    {t('trans_btn_translate') || '번역하기'}
+                </button>
+
+                {targetText && (
+                    <button 
+                        onClick={handleAddWord}
+                        disabled={isSaving}
+                        style={{ 
+                            flex: 1, padding: '1.2rem', background: '#feca57', color: '#fff', border: 'none', borderRadius: '20px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #ee9d0c', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem', transition: '0.2s', minWidth: '200px'
+                        }}
+                    >
+                        {isSaving ? <Loader2 size={20} className="spin" /> : <Plus size={20} />}
+                        {isSaving ? t('trans_msg_enriching') : t('trans_btn_add_word')}
+                    </button>
+                )}
             </div>
 
             {/* Features Info */}
