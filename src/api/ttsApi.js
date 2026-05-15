@@ -47,7 +47,9 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
     if (preferredEngine === 'google') {
       await playGoogleCloudTTS(text, targetLang, voiceName);
     } else if (preferredEngine === 'gemini') {
-      await playGeminiTTS(text, targetLang);
+      // AI 선생님 전용 모델 혹은 기본 선택 모델 사용
+      const geminiModel = voiceName || localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
+      await playGeminiTTS(text, targetLang, geminiModel);
     } else {
       await playWebSpeechTTS(text, targetLang);
     }
@@ -62,15 +64,17 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
 /**
  * 엔진 1: Gemini AI 멀티모달 오디오 재생 (3개국어 지원)
  */
-async function playGeminiTTS(text, lang) {
+async function playGeminiTTS(text, lang, modelOverride = null) {
   const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
-  const model = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
+  // AI 선생님 요청 시 gemini-2.5-pro-preview-tts 우선 사용
+  const model = modelOverride || localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
 
   if (!apiKey) throw new Error("Gemini API Key가 없습니다.");
 
   const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
   const langLabel = langNames[lang] || '인도네시아어(Indonesian)';
 
+  // 최신 v1beta 엔드포인트 사용 (TTS 특화 모델 지원 가능성 높음)
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
   
   const response = await fetch(endpoint, {
@@ -136,7 +140,7 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
         }
     }
 
-    const endpoint = `https://texttospeech.googleapis.com/v1beta1/text:synthesize`;
+    const endpoint = `https://texttospeech.googleapis.com/v1/text:synthesize`;
     
     try {
       const response = await fetch(endpoint, {
@@ -259,7 +263,7 @@ function playBase64Audio(base64Data) {
 /**
  * 텍스트 내 <target> 태그를 감지하여 혼합 언어로 순차 재생합니다.
  */
-export const playMixedAudio = async (text, nativeLang, targetLang) => {
+export const playMixedAudio = async (text, nativeLang, targetLang, forceModel = null) => {
   if (!text) return;
   isTtsCancelled = false;
 
@@ -308,6 +312,7 @@ export const playMixedAudio = async (text, nativeLang, targetLang) => {
   // 4. 순차 재생
   for (const chunk of mergedChunks) {
     if (isTtsCancelled) break;
-    await playAudio(chunk.text, chunk.lang);
+    // forceModel이 있으면 해당 모델로 재생 (AI 선생님 등)
+    await playAudio(chunk.text, chunk.lang, forceModel);
   }
 };
