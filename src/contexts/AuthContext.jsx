@@ -6,8 +6,13 @@ const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const { setLanguage } = useLanguage();
   const [user, setUser] = useState(() => {
-    const saved = localStorage.getItem('auth_user');
-    return saved ? JSON.parse(saved) : null;
+    try {
+      const saved = localStorage.getItem('auth_user');
+      return saved ? JSON.parse(saved) : null;
+    } catch (e) {
+      localStorage.removeItem('auth_user');
+      return null;
+    }
   });
 
   const [isOnboarded, setIsOnboarded] = useState(() => {

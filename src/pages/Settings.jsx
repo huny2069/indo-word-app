@@ -26,7 +26,7 @@ const Settings = () => {
   const [ttsEngine, setTtsEngine] = useState('gemini');
   
   const defaultKrModel = 'ko-KR-Neural2-A';
-  const defaultIdModel = 'id-ID-Chirp3-HD-Achernar';
+  const defaultIdModel = 'id-ID-Chirp3-HD-Alnilam';
   const defaultEnModel = 'en-US-Neural2-F';
   
   const [googleTtsModelId, setGoogleTtsModelId] = useState(localStorage.getItem('google_tts_model_id') || defaultIdModel);
@@ -104,7 +104,9 @@ const Settings = () => {
   const handleTestVoice = async (lang, voiceName) => {
     const testText = lang === 'ko' ? '안녕하세요, 인코 선생님입니다.' : lang === 'id' ? 'Halo, saya guru Inko.' : 'Hello, I am Inko teacher.';
     try {
-        await playAudio(testText, lang);
+        // 프리미엄 테스트 버튼이므로 명시적으로 엔진을 google로 설정하여 재생
+        localStorage.setItem('tts_engine', 'google');
+        await playAudio(testText, lang, voiceName);
     } catch (e) {
         alert(t('msg_test_voice_fail') + " " + e.message);
     }

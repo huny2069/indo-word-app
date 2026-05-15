@@ -41,7 +41,7 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
 
   // 1. 언어 결정 (명시적 lang > 자동 감지)
   const targetLang = lang || detectLanguage(text);
-  const preferredEngine = localStorage.getItem('tts_engine') || 'gemini';
+  const preferredEngine = localStorage.getItem('tts_engine') || 'google';
 
   try {
     if (preferredEngine === 'google') {
@@ -54,8 +54,15 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
       await playWebSpeechTTS(text, targetLang);
     }
   } catch (error) {
-    console.error(`${preferredEngine} 엔진 재생 실패, 브라우저 폴백 시도:`, error);
+    console.error(`[TTS Error] ${preferredEngine} engine failed:`, error);
+    
+    // 권한 문제인 경우 명확한 알림 제공
+    if (error.message.includes("401") || error.message.includes("403") || error.message.includes("세션")) {
+        alert("Premium 음성 인증이 만료되었습니다. 설정에서 구글 로그인을 다시 진행해주세요.");
+    }
+
     if (!isTtsCancelled) {
+      console.log("Falling back to Web Speech TTS...");
       await playWebSpeechTTS(text, targetLang);
     }
   }
@@ -67,7 +74,7 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
 async function playGeminiTTS(text, lang, modelOverride = null) {
   const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
   // AI 선생님 요청 시 gemini-2.5-pro-preview-tts 우선 사용
-  const model = modelOverride || localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
+  const model = modelOverride || localStorage.getItem('selectedGeminiModel') || 'gemini-2.5-flash';
 
   if (!apiKey) throw new Error("Gemini API Key가 없습니다.");
 
@@ -122,64 +129,74 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
 
   const langMap = {
       'ko': { code: 'ko-KR', defaultModel: 'ko-KR-Neural2-A', storageKey: 'google_tts_model_ko' },
-      'id': { code: 'id-ID', defaultModel: 'id-ID-Chirp3-HD-Achernar', storageKey: 'google_tts_model_id' },
+      'id': { code: 'id-ID', defaultModel: 'id-ID-Chirp3-HD-Alnilam', storageKey: 'google_tts_model_id' },
       'en': { code: 'en-US', defaultModel: 'en-US-Neural2-F', storageKey: 'google_tts_model_en' }
   };
 
-    const config = langMap[lang] || langMap['id'];
-    const savedModel = localStorage.getItem(config.storageKey);
-    const effectiveModel = overrideModel || savedModel || config.defaultModel;
+  const config = langMap[lang] || langMap['id'];
+  const savedModel = localStorage.getItem(config.storageKey);
+  
+  // [v9.6 백업본 로직 적용] 선택된 모델이 현재 언어와 일치하는지 검증
+  let effectiveModel = overrideModel || savedModel;
+  if (!effectiveModel || !effectiveModel.startsWith(config.code.substring(0, 2))) {
+      console.log(`[TTS] Model validation failed or missing. Using default: ${config.defaultModel}`);
+      effectiveModel = config.defaultModel;
+  }
 
-    // 모델명에서 언어 코드 동적 추출 (예: en-GB-Neural2-A -> en-GB)
-    // 미국(en-US) 외에도 영국, 호주 등을 정확한 언어 코드로 요청하기 위함
-    let effectiveLangCode = config.code;
-    if (effectiveModel && effectiveModel.includes('-')) {
-        const parts = effectiveModel.split('-');
-        if (parts.length >= 2) {
-            effectiveLangCode = `${parts[0]}-${parts[1]}`;
-        }
-    }
+  let effectiveLangCode = config.code;
+  if (effectiveModel && effectiveModel.includes('-')) {
+      const parts = effectiveModel.split('-');
+      if (parts.length >= 2) {
+          effectiveLangCode = `${parts[0]}-${parts[1]}`;
+      }
+  }
 
-    const endpoint = `https://texttospeech.googleapis.com/v1/text:synthesize`;
-    
-    try {
-      const response = await fetch(endpoint, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${accessToken}`,
-          'Content-Type': 'application/json'
+  try {
+    const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/text:synthesize`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${accessToken}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        input: { text },
+        voice: { 
+          languageCode: effectiveLangCode, 
+          name: effectiveModel
         },
-        body: JSON.stringify({
-          input: { text },
-          voice: { languageCode: effectiveLangCode, name: effectiveModel },
-          audioConfig: { audioEncoding: 'MP3' }
-        })
-      });
+        audioConfig: { audioEncoding: 'MP3', speakingRate: 1.0 }
+      })
+    });
 
-     if (!response.ok) {
-        if (response.status === 401 || response.status === 403) {
-            localStorage.removeItem('gcp_access_token');
-            localStorage.removeItem('gcp_token_expiry');
+    if (!response.ok) {
+        const err = await response.json();
+        if (response.status === 401) {
+            alert("Premium 음성 인증이 만료되었습니다. 설정에서 구글 로그인을 다시 진행해주세요.");
         }
-       const errJson = await response.json().catch(() => ({}));
-       throw new Error(`Google Cloud TTS 요청 실패 (HTTP ${response.status}): ${errJson.error?.message || '알 수 없는 오류'}`);
+        throw new Error(err.error?.message || "TTS 요청 실패");
     }
 
     const data = await response.json();
     if (data.audioContent) {
-      return playBase64Audio(data.audioContent);
+        await playBase64Audio(data.audioContent);
     } else {
-      throw new Error("오디오 데이터가 반환되지 않았습니다.");
+        throw new Error("오디오 데이터가 반환되지 않았습니다.");
     }
-  } catch (error) {
-    throw error;
+  } catch (e) {
+    console.error("Premium TTS Error:", e);
+    // 무음으로 넘어가는 것보다 사용자에게 에러를 알리는 것이 원인 파악에 도움이 됨
+    if (!e.message.includes('만료')) {
+        alert("Premium 음성 재생 중 오류가 발생했습니다. (" + e.message + ")");
+    }
+    throw e;
   }
 }
 
 export async function fetchGoogleVoices(accessToken) {
   if (!accessToken) return [];
   try {
-    const response = await fetch(`https://texttospeech.googleapis.com/v1/voices`, {
+    // [v9.6 백업본 로직 적용] v1beta1 엔드포인트 사용 (고급 모델 조회용)
+    const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/voices`, {
       method: 'GET',
       headers: { 
         'Authorization': `Bearer ${accessToken}`,
@@ -240,7 +257,9 @@ function playBase64Audio(base64Data) {
   return new Promise((resolve, reject) => {
     if (isTtsCancelled) return resolve();
     
-    const audioSrc = "data:audio/mp3;base64," + base64Data;
+    // 데이터 정제 (공백 및 줄바꿈 제거)
+    const cleanData = base64Data.replace(/\s/g, '');
+    const audioSrc = "data:audio/mp3;base64," + cleanData;
     const audio = new Audio(audioSrc);
     currentAudioElement = audio;
     

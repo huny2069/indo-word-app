@@ -1,0 +1,19 @@
+node_modules
+dist
+.env
+.env.local
+.vscode
+.idea
+*.log
+package-lock.json
+.DS_Store
+client_secret_*.json
+*.bat
+*.csv
+
+# Security: Ignore all Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz

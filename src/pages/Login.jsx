@@ -10,34 +10,40 @@ const Login = () => {
   useEffect(() => {
     /* global google */
     const initGoogle = () => {
-      if (window.google) {
-        google.accounts.id.initialize({
-          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
-          callback: handleCallbackResponse,
-          auto_select: true, // 재방문 시 자동 로그인 시도
-          cancel_on_tap_outside: false // 실수로 바탕화면 클릭해도 취소되지 않음
-        });
-
-        google.accounts.id.renderButton(
-          document.getElementById("signInDiv"),
-          { theme: "outline", size: "large", width: "100%", shape: "pill" }
-        );
+      try {
+        if (window.google?.accounts?.id) {
+          console.log("Initializing Google Identity...");
+          google.accounts.id.initialize({
+            client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+            callback: handleCallbackResponse,
+            auto_select: false,
+            cancel_on_tap_outside: false
+          });
+          google.accounts.id.renderButton(
+            document.getElementById("signInDiv"),
+            { theme: "outline", size: "large", width: "100%", shape: "pill" }
+          );
+        } else {
+          console.warn("Google Accounts ID not found yet.");
+        }
+      } catch (err) {
+        console.error("Google Init Error:", err);
       }
     };
 
-    // 스크립트가 이미 로드되었는지 확인, 아니면 500ms마다 체크 (최대 10회)
-    let retryCount = 0;
-    const checkInterval = setInterval(() => {
-      if (window.google) {
+    let attempts = 0;
+    const interval = setInterval(() => {
+      attempts++;
+      if (window.google?.accounts?.id) {
         initGoogle();
-        clearInterval(checkInterval);
-      } else if (retryCount > 10) {
-        clearInterval(checkInterval);
+        clearInterval(interval);
+      } else if (attempts > 20) {
+        console.error("Google Identity script failed to load after 10s.");
+        clearInterval(interval);
       }
-      retryCount++;
     }, 500);
 
-    return () => clearInterval(checkInterval);
+    return () => clearInterval(interval);
   }, []);
 
   const handleCallbackResponse = (response) => {
