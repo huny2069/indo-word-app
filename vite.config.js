@@ -9,6 +9,22 @@ export default defineConfig({
     basicSsl(),
     VitePWA({
       registerType: 'autoUpdate',
+      // 서비스 워커가 즉시 새 버전으로 교체되도록 강제
+      workbox: {
+        skipWaiting: true,
+        clientsClaim: true,
+        // JS/CSS 파일은 항상 네트워크 우선으로 가져옴 (캐시 지연 방지)
+        runtimeCaching: [
+          {
+            urlPattern: /\.(?:js|css)$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'app-assets',
+              expiration: { maxEntries: 50, maxAgeSeconds: 86400 }
+            }
+          }
+        ]
+      },
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
         name: '인도네시아어 맞춤형 학습장',
