@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getWords, getFolders, addWord, addFolder } from '../db/database';
-import { fetchGeminiModels } from '../api/geminiApi';
+import { fetchGeminiModels, CURATED_MODELS } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -304,16 +304,35 @@ const Settings = () => {
         </button>
 
         <div style={{ background: '#f8fafc', padding: '1rem', borderRadius: '15px', marginBottom: '1.2rem' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem' }}>
-                <span style={{ fontSize: '0.8rem', fontWeight: '800', color: '#64748b' }}>{t('set_gemini_model_select')}</span>
-                <button onClick={handleFetchModels} disabled={loadingModels} style={{ background: '#feca57', color: '#fff', border: 'none', borderRadius: '8px', padding: '0.3rem 0.6rem', fontSize: '0.75rem', fontWeight: '900', cursor: 'pointer' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                <span style={{ fontSize: '0.85rem', fontWeight: '900', color: '#64748b' }}>{t('set_gemini_model_select') || 'AI 모델 선택'}</span>
+                <button onClick={handleFetchModels} disabled={loadingModels} style={{ background: '#feca57', color: '#fff', border: 'none', borderRadius: '8px', padding: '0.4rem 0.8rem', fontSize: '0.75rem', fontWeight: '900', cursor: 'pointer' }}>
                     {loadingModels ? <RefreshCw size={14} className="spin" /> : t('set_api_verify_btn')}
                 </button>
             </div>
-            <select value={selectedGeminiModel} onChange={e => { setSelectedGeminiModel(e.target.value); localStorage.setItem('selectedGeminiModel', e.target.value); }}
-                style={{ width: '100%', padding: '0.6rem', borderRadius: '10px', border: '1px solid #e2e8f0', fontSize: '0.85rem', fontWeight: '700' }}>
-                {modelList.length > 0 ? modelList.map(m => <option key={m} value={m}>{m}</option>) : <option>{t('set_model_update_needed')}</option>}
-            </select>
+            
+            <div style={{ display: 'grid', gap: '0.8rem' }}>
+                {CURATED_MODELS.map(m => (
+                    <div key={m.id} 
+                        onClick={() => { setSelectedGeminiModel(m.id); localStorage.setItem('selectedGeminiModel', m.id); }}
+                        style={{ 
+                            padding: '1rem', borderRadius: '15px', border: selectedGeminiModel === m.id ? '2.5px solid var(--primary-color)' : '1px solid #e2e8f0',
+                            background: selectedGeminiModel === m.id ? '#fff' : '#fff', cursor: 'pointer', transition: '0.2s', position: 'relative', overflow: 'hidden'
+                        }}
+                    >
+                        {selectedGeminiModel === m.id && <div style={{ position: 'absolute', top: 0, right: 0, background: 'var(--primary-color)', color: '#fff', padding: '2px 10px', fontSize: '0.7rem', fontWeight: '900', borderRadius: '0 0 0 10px' }}>SELECTED</div>}
+                        <div style={{ fontWeight: '900', fontSize: '1rem', marginBottom: '4px', color: selectedGeminiModel === m.id ? 'var(--primary-color)' : '#334155' }}>{m.name}</div>
+                        <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
+                            <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>{m.speed}</span>
+                            <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>{m.tokens}</span>
+                        </div>
+                        <div style={{ fontSize: '0.8rem', color: '#666', lineHeight: '1.5' }}>
+                            <div style={{ marginBottom: '2px' }}><strong style={{ color: '#059669' }}>👍 장점:</strong> {m.pros}</div>
+                            <div><strong style={{ color: '#e11d48' }}>⚠️ 단점:</strong> {m.cons}</div>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
 
         <button onClick={saveApiKeys} style={{ width: '100%', padding: '1rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '15px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 4px 0 #000', cursor: 'pointer' }}>

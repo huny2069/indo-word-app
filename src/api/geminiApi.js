@@ -130,37 +130,57 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
 };
 
 /**
+ * 인코 서비스에 최적화된 엄선된 Gemini 모델 리스트
+ */
+export const CURATED_MODELS = [
+    { 
+      id: 'gemini-1.5-flash', 
+      name: 'Gemini 1.5 Flash (추천)', 
+      speed: '🚀 매우 빠름', 
+      tokens: '📉 경제적 (토큰 효율적)', 
+      pros: '응답 속도가 압도적으로 빠르며 일상적인 단어 생성과 번역에 완벽합니다.',
+      cons: '매우 복잡한 언어학적 추론은 Pro 모델에 비해 다소 단순할 수 있습니다.'
+    },
+    { 
+      id: 'gemini-1.5-pro', 
+      name: 'Gemini 1.5 Pro (고성능)', 
+      speed: '🐢 보통', 
+      tokens: '📈 높음 (고성능 추론)', 
+      pros: '고도의 문법 분석과 깊이 있는 예문 생성이 가능합니다. 고급 학습에 적합합니다.',
+      cons: 'Flash 모델보다 느리며 무료 할당량이 빨리 소진될 수 있습니다.'
+    },
+    { 
+      id: 'gemini-1.0-pro', 
+      name: 'Gemini 1.0 Pro', 
+      speed: '🏃 빠름', 
+      tokens: '⚖️ 보통', 
+      pros: '오랫동안 검증된 안정적인 성능을 제공합니다.',
+      cons: '1.5 버전에 비해 긴 문맥 파악 능력이 상대적으로 낮습니다.'
+    }
+];
+
+/**
  * Gemini API의 지원 가능한 모델 목록을 비동기로 불러오는 함수
  */
 export const fetchGeminiModels = async (apiKey) => {
-  const cleanKey = apiKey ? apiKey.trim() : '';
-  if (!cleanKey) throw new Error('API 키가 없습니다.');
-
-  // 최신 및 실험적 모델까지 모두 가져오기 위해 v1beta 엔드포인트 사용
-  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`;
-  
+  if (!apiKey) return [];
   try {
-    const response = await fetch(endpoint, {
-      method: 'GET'
-    });
-
-    if (!response.ok) {
-        const errData = await response.json();
-        throw new Error(`모델 조회 실패: ${errData.error?.message || response.statusText}`);
-    }
-
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
+    if (!response.ok) return [];
     const data = await response.json();
-    // generateContent 메서드를 지원하는 텍스트/멀티모달 모델만 필터링
-    const supportedModels = data.models.filter(m => 
-        m.supportedGenerationMethods && m.supportedGenerationMethods.includes('generateContent')
-    );
     
-    // 모델명 문자열 배열로 반환 ("models/" 접두사 제거)
-    return supportedModels.map(m => m.name.replace('models/', ''));
+    // 지원되지 않는 구형 모델이나 서비스에 부적합한 모델 필터링
+    const filtered = data.models.filter(m => 
+      m.supportedGenerationMethods.includes('generateContent') && 
+      !m.name.includes('vision') && 
+      !m.name.includes('embedding') &&
+      (m.name.includes('gemini-1.5') || m.name.includes('gemini-1.0'))
+    );
+    return filtered.map(m => m.name.replace('models/', ''));
 
   } catch (error) {
     console.error("fetchGeminiModels Error:", error);
-    throw error;
+    return [];
   }
 };
 

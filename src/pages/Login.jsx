@@ -13,7 +13,9 @@ const Login = () => {
       if (window.google) {
         google.accounts.id.initialize({
           client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
-          callback: handleCallbackResponse
+          callback: handleCallbackResponse,
+          auto_select: true, // 재방문 시 자동 로그인 시도
+          cancel_on_tap_outside: false // 실수로 바탕화면 클릭해도 취소되지 않음
         });
 
         google.accounts.id.renderButton(

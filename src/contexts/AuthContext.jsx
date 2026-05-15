@@ -17,12 +17,18 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // 세션 유지 확인
-    const savedUser = localStorage.getItem('auth_user');
-    if (savedUser) {
-      setUser(JSON.parse(savedUser));
-    }
-    setLoading(false);
+    const initAuth = () => {
+      const savedUser = localStorage.getItem('auth_user');
+      if (savedUser) {
+        try {
+          setUser(JSON.parse(savedUser));
+        } catch (e) {
+          localStorage.removeItem('auth_user');
+        }
+      }
+      setLoading(false);
+    };
+    initAuth();
   }, []);
 
   const login = (userData) => {
