@@ -55,17 +55,12 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
     }
   } catch (error) {
     console.error(`[TTS Error] ${preferredEngine} engine failed:`, error);
+    const errorMsg = error.message || "알 수 없는 오류";
     
-    // 권한 문제인 경우 명확한 알림 제공
-    const errorMsg = error.message || "";
-    if (errorMsg.includes("401") || errorMsg.includes("403") || errorMsg.includes("세션")) {
-        alert("Premium 음성 인증이 만료되었습니다. 설정에서 구글 로그인을 다시 진행해주세요.");
-    } else {
-        console.warn(`Fallback to Web Speech due to: ${errorMsg}`);
-    }
-
+    // 사용자에게 에러 알림 제공 (디버깅 지원)
     if (!isTtsCancelled) {
-      await playWebSpeechTTS(text, targetLang);
+        alert(`[TTS 안내] ${preferredEngine} 엔진 재생 중 문제가 발생했습니다.\n사유: ${errorMsg}\n\n시스템이 기본 음성(Browser)으로 전환하여 재생을 계속합니다.`);
+        await playWebSpeechTTS(text, targetLang);
     }
   }
 };
@@ -154,20 +149,23 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
   }
 
   try {
+    const requestBody = {
+      input: { text },
+      voice: { 
+        languageCode: effectiveLangCode, 
+        name: effectiveModel
+      },
+      audioConfig: { audioEncoding: 'MP3', speakingRate: 1.0 }
+    };
+    console.log("[TTS Request]", requestBody);
+
     const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/text:synthesize`, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${accessToken}`,
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({
-        input: { text },
-        voice: { 
-          languageCode: effectiveLangCode, 
-          name: effectiveModel
-        },
-        audioConfig: { audioEncoding: 'MP3', speakingRate: 1.0 }
-      })
+      body: JSON.stringify(requestBody)
     });
 
     if (!response.ok) {
@@ -205,10 +203,16 @@ export async function fetchGoogleVoices(accessToken) {
         'Content-Type': 'application/json'
       }
     });
-    if (!response.ok) return [];
+    if (!response.ok) {
+        const errJson = await response.json().catch(() => ({}));
+        const msg = errJson.error?.message || response.statusText;
+        alert(`[TTS 설정] 음성 리스트를 가져오지 못했습니다 (HTTP ${response.status})\n사유: ${msg}`);
+        return [];
+    }
     const data = await response.json();
     return data.voices || [];
   } catch (e) {
+    alert(`[TTS 설정] 네트워크 오류로 음성 리스트를 가져오지 못했습니다.\n내용: ${e.message}`);
     return [];
   }
 }
