@@ -92,8 +92,8 @@ const AiTeacherModal = ({ wordData, onClose, apiKey, modelName, userLang, studyL
   const handlePlayAudio = () => {
     if (currentSlide && currentSlide.content) {
        stopTTS();
-       // AI 선생님 전용 초고음질 모델 적용
-       playMixedAudio(stripEmojis(currentSlide.content), userLang, studyLang, 'gemini-2.5-pro-preview-tts');
+       // 설정된 사용자 엔진/모델을 사용하여 문장 단위 순차 재생
+       playMixedAudio(stripEmojis(currentSlide.content));
     }
   };
 
