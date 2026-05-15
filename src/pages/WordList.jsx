@@ -397,6 +397,30 @@ const WordList = () => {
            </div>
         </div>
 
+        {/* 단어 가리기 / 뜻 가리기 토글 (기능 복원) */}
+        <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', justifyContent: 'center' }}>
+            <button 
+                onClick={() => setHideWords(!hideWords)}
+                style={{ 
+                    padding: '0.6rem 1.2rem', border: hideWords ? 'none' : '1px solid #ddd', borderRadius: '15px', cursor: 'pointer', fontWeight: '800', transition: '0.3s',
+                    background: hideWords ? 'var(--accent-color)' : '#fff',
+                    color: hideWords ? '#fff' : '#666',
+                    boxShadow: hideWords ? '0 4px 10px rgba(235, 47, 6, 0.2)' : 'none'
+                }}>
+                {t('list_hide_word') || '단어 가리기'}
+            </button>
+            <button 
+                onClick={() => setHideMeanings(!hideMeanings)}
+                style={{ 
+                    padding: '0.6rem 1.2rem', border: hideMeanings ? 'none' : '1px solid #ddd', borderRadius: '15px', cursor: 'pointer', fontWeight: '800', transition: '0.3s',
+                    background: hideMeanings ? 'var(--accent-color)' : '#fff',
+                    color: hideMeanings ? '#fff' : '#666',
+                    boxShadow: hideMeanings ? '0 4px 10px rgba(235, 47, 6, 0.2)' : 'none'
+                }}>
+                {t('list_hide_meaning') || '뜻 가리기'}
+            </button>
+        </div>
+
         {/* 언어별 필터 탭 (v18.0 추가) */}
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', justifyContent: 'center', background: '#f8f9fa', padding: '0.4rem', borderRadius: '20px', width: 'fit-content', margin: '0 auto 1.5rem auto' }}>
             {[
@@ -567,10 +591,43 @@ const WordList = () => {
                          </div>
                         <div style={{ display: 'flex', flex: 1, flexDirection: 'column', minWidth: '120px', justifyContent: 'center' }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
-                                <span style={{ fontWeight: '900', fontSize: '1.2rem', color: 'var(--primary-color)', lineHeight: '1.2' }}>{w.word}</span>
+                                {hideWords && !revealedIds.has(`${w.id}-word`) ? (
+                                    <div 
+                                        onClick={(e) => handleToggleReveal(e, w.id, 'word')}
+                                        style={{ 
+                                            background: '#e0e0e0', color: 'transparent', borderRadius: '8px', 
+                                            padding: '2px 8px', cursor: 'pointer', fontWeight: '900', fontSize: '1.2rem',
+                                            userSelect: 'none'
+                                        }}>
+                                        {w.word}
+                                    </div>
+                                ) : (
+                                    <span 
+                                        onClick={(e) => { if (hideWords) handleToggleReveal(e, w.id, 'word'); }}
+                                        style={{ fontWeight: '900', fontSize: '1.2rem', color: 'var(--primary-color)', lineHeight: '1.2', cursor: hideWords ? 'pointer' : 'default' }}>
+                                        {w.word}
+                                    </span>
+                                )}
                                 {w.pronunciation && <span style={{ color: '#aaa', fontSize: '0.85rem', fontWeight: '600' }}>[{w.pronunciation}]</span>}
                             </div>
-                            <span style={{ fontWeight: '700', fontSize: '1rem', color: '#444', lineHeight: '1.4', wordBreak: 'keep-all' }}>{w.meaning}</span>
+
+                            {hideMeanings && !revealedIds.has(`${w.id}-meaning`) ? (
+                                <div 
+                                    onClick={(e) => handleToggleReveal(e, w.id, 'meaning')}
+                                    style={{ 
+                                        background: '#e0e0e0', color: 'transparent', borderRadius: '8px', 
+                                        padding: '2px 8px', cursor: 'pointer', fontWeight: '700', fontSize: '1rem',
+                                        marginTop: '4px', width: 'fit-content', userSelect: 'none'
+                                    }}>
+                                    {w.meaning}
+                                </div>
+                            ) : (
+                                <span 
+                                    onClick={(e) => { if (hideMeanings) handleToggleReveal(e, w.id, 'meaning'); }}
+                                    style={{ fontWeight: '700', fontSize: '1rem', color: '#444', lineHeight: '1.4', wordBreak: 'keep-all', cursor: hideMeanings ? 'pointer' : 'default', marginTop: '4px' }}>
+                                    {w.meaning}
+                                </span>
+                            )}
                         </div>
                         <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', paddingRight: '0.8rem' }}>
                            <button onClick={(e) => { e.stopPropagation(); setSelectedTeacherWord(w); }} style={{ background: '#fff1f0', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#ff4d4f', padding: '10px' }} title="AI 선생님 강의 듣기">
