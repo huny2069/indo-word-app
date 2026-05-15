@@ -259,17 +259,25 @@ export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-
 /**
  * 단순 텍스트 번역 기능
  */
-export const translateText = async (text, fromLang, toLang, apiKey, modelName = 'gemini-1.5-flash') => {
+export const translateText = async (text, fromLang, toLang, apiKey, modelName = 'gemini-1.5-flash', style = 'formal') => {
   const cleanKey = apiKey ? apiKey.trim() : '';
   if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다.');
 
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${cleanKey}`;
   const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
 
+  const styleInstruction = style === 'casual' 
+    ? "친근하고 자연스러운 구어체(반말/친구 사이)로 번역해주세요." 
+    : "예의 바르고 공손한 격식체(존댓말/비즈니스)로 번역해주세요.";
+
   const promptText = `
   당신은 전문 번역가입니다. 
   다음 텍스트를 ${langNames[fromLang]}에서 ${langNames[toLang]}로 번역해주세요.
-  문맥을 고려하여 가장 자연스러운 번역을 제공하되, 마크다운 형식 없이 번역된 텍스트만 응답하세요.
+  
+  [지침]
+  1. ${styleInstruction}
+  2. 문맥을 고려하여 가장 자연스러운 번역을 제공하세요.
+  3. 마크다운 형식 없이 번역된 텍스트만 응답하세요.
   
   텍스트: "${text}"
   `;

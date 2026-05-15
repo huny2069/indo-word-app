@@ -15,6 +15,7 @@ const Translate = () => {
     const [isSaving, setIsSaving] = useState(false);
     const [apiKey, setApiKey] = useState(localStorage.getItem('geminiApiKey') || '');
     const [model, setModel] = useState(localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash');
+    const [transStyle, setTransStyle] = useState('formal'); // 'formal' or 'casual'
 
     const timeoutRef = useRef(null);
 
@@ -43,7 +44,7 @@ const Translate = () => {
         }, 400); // 속도를 위해 대기 시간을 400ms로 단축
 
         return () => clearTimeout(timeoutRef.current);
-    }, [sourceText, fromLang, toLang]);
+    }, [sourceText, fromLang, toLang, transStyle]);
 
     const performTranslate = async () => {
         if (!sourceText.trim()) return;
@@ -53,7 +54,7 @@ const Translate = () => {
         }
         setIsTranslating(true);
         try {
-            const result = await translateText(sourceText, fromLang, toLang, apiKey, model);
+            const result = await translateText(sourceText, fromLang, toLang, apiKey, model, transStyle);
             setTargetText(result);
         } catch (error) {
             console.error("Translation failed:", error);
@@ -149,6 +150,34 @@ const Translate = () => {
                 >
                     {languages.map(l => <option key={l.code} value={l.code}>{l.flag} {l.name.split(' ')[0]}</option>)}
                 </select>
+            </div>
+
+            {/* Translation Style Toggle */}
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
+                <div style={{ display: 'flex', background: '#f1f3f5', padding: '5px', borderRadius: '15px', gap: '5px' }}>
+                    <button 
+                        onClick={() => setTransStyle('formal')}
+                        style={{ 
+                            padding: '8px 20px', border: 'none', borderRadius: '10px', fontSize: '0.85rem', fontWeight: '800', cursor: 'pointer', transition: '0.2s',
+                            background: transStyle === 'formal' ? '#fff' : 'transparent',
+                            color: transStyle === 'formal' ? 'var(--primary-color)' : '#999',
+                            boxShadow: transStyle === 'formal' ? '0 4px 12px rgba(0,0,0,0.05)' : 'none'
+                        }}
+                    >
+                        👔 격식체 (존댓말)
+                    </button>
+                    <button 
+                        onClick={() => setTransStyle('casual')}
+                        style={{ 
+                            padding: '8px 20px', border: 'none', borderRadius: '10px', fontSize: '0.85rem', fontWeight: '800', cursor: 'pointer', transition: '0.2s',
+                            background: transStyle === 'casual' ? '#fff' : 'transparent',
+                            color: transStyle === 'casual' ? 'var(--primary-color)' : '#999',
+                            boxShadow: transStyle === 'casual' ? '0 4px 12px rgba(0,0,0,0.05)' : 'none'
+                        }}
+                    >
+                        💬 구어체 (반말)
+                    </button>
+                </div>
             </div>
 
             <div className="translate-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '1.5rem', marginBottom: '1.5rem' }}>
