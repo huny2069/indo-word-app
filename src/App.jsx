@@ -12,6 +12,7 @@ import WordList from './pages/WordList';
 import Learn from './pages/Learn';
 import Settings from './pages/Settings';
 import IncorrectNotes from './pages/IncorrectNotes';
+import Translate from './pages/Translate';
 import Guide from './pages/Guide';
 import ApiKeyGuide from './pages/ApiKeyGuide';
 import AdminStats from './pages/AdminStats';
@@ -79,6 +80,7 @@ function App() {
             <Route path="generate" element={<WordGenerate />} />
             <Route path="words" element={<WordList />} />
             <Route path="learn" element={<Learn />} />
+            <Route path="translate" element={<Translate />} />
             <Route path="incorrect" element={<IncorrectNotes />} />
             <Route path="settings" element={<Settings />} />
             <Route path="api-guide" element={<ApiKeyGuide />} />

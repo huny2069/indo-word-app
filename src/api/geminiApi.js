@@ -256,3 +256,95 @@ export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-
     throw error;
   }
 };
+/**
+ * 단순 텍스트 번역 기능
+ */
+export const translateText = async (text, fromLang, toLang, apiKey, modelName = 'gemini-1.5-flash') => {
+  const cleanKey = apiKey ? apiKey.trim() : '';
+  if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다.');
+
+  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${cleanKey}`;
+  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
+
+  const promptText = `
+  당신은 전문 번역가입니다. 
+  다음 텍스트를 ${langNames[fromLang]}에서 ${langNames[toLang]}로 번역해주세요.
+  문맥을 고려하여 가장 자연스러운 번역을 제공하되, 마크다운 형식 없이 번역된 텍스트만 응답하세요.
+  
+  텍스트: "${text}"
+  `;
+
+  try {
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: promptText }] }]
+      })
+    });
+
+    if (!response.ok) throw new Error('번역 요청 실패');
+    const data = await response.json();
+    return data.candidates[0].content.parts[0].text.trim();
+  } catch (error) {
+    console.error("translateText Error:", error);
+    throw error;
+  }
+};
+
+/**
+ * 번역된 단어를 바탕으로 AI 단어장 데이터를 생성하는 기능
+ */
+export const enrichWordFromTranslation = async (word, meaning, userLang, studyLang, apiKey, modelName = 'gemini-1.5-flash') => {
+  const cleanKey = apiKey ? apiKey.trim() : '';
+  if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다.');
+
+  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${cleanKey}`;
+  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
+  
+  // 기존 generateWords의 프롬프트 로직을 재활용하여 단일 단어용으로 최적화
+  const promptText = `
+  당신은 ${langNames[userLang]} 사용자를 대상으로 하는 ${langNames[studyLang]} 1타 강사입니다.
+  단어 "${word}" (뜻: ${meaning})에 대해 상세한 학습 정보를 생성해주세요.
+  반드시 JSON 객체 형식으로만 응답하세요.
+  
+  [구조]
+  {
+    "word": "${word}",
+    "meaning": "${meaning}",
+    "pos": "품사 (한국어로)",
+    "root": "인도네시아어인 경우 어근",
+    "pronunciation": "발음 기호",
+    "example_formal": "격식체 예문",
+    "example_formal_kr": "격식체 예문 번역",
+    "example_casual": "비격식체 예문",
+    "example_casual_kr": "비격식체 예문 번역",
+    "antonym": "반대어 (단어 (뜻) 형식)",
+    "synonym": "유사어 (단어 (뜻) 형식)",
+    "context": "단어의 상황/뉘앙스 설명",
+    "caution": "학습 시 주의점",
+    "related": "강사의 암기 비법",
+    "grammar_rule": "핵심 문법",
+    "word_breakdown": [{"word": "단어", "meaning": "뜻"}]
+  }
+  `;
+
+  try {
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: promptText }] }],
+        generationConfig: { response_mime_type: "application/json" }
+      })
+    });
+
+    if (!response.ok) throw new Error('데이터 고도화 실패');
+    const data = await response.json();
+    const textContent = data.candidates[0].content.parts[0].text;
+    return JSON.parse(textContent.trim());
+  } catch (error) {
+    console.error("enrichWordFromTranslation Error:", error);
+    throw error;
+  }
+};

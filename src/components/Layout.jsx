@@ -41,6 +41,7 @@ const Layout = () => {
   const navItems = [
     { path: '/', label: t('nav_dashboard'), icon: <Home size={24} /> },
     { path: '/generate', label: t('nav_generate'), icon: <Sparkles size={24} /> },
+    { path: '/translate', label: t('nav_translate'), icon: <Languages size={24} /> },
     { path: '/words', label: t('nav_words'), icon: <BookOpen size={24} /> },
     { path: '/learn', label: t('nav_learn'), icon: <GraduationCap size={24} /> },
     { path: '/incorrect', label: t('nav_incorrect'), icon: <AlertCircle size={24} /> },
