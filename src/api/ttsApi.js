@@ -148,14 +148,11 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
       }
   }
 
-  try {
+    const langCode = effectiveModel.split('-').slice(0, 2).join('-');
     const requestBody = {
       input: { text },
-      voice: { 
-        languageCode: effectiveLangCode, 
-        name: effectiveModel
-      },
-      audioConfig: { audioEncoding: 'MP3', speakingRate: 1.0 }
+      voice: { languageCode: langCode, name: effectiveModel },
+      audioConfig: { audioEncoding: 'MP3' }
     };
     console.log("[TTS Request]", requestBody);
 
@@ -178,15 +175,17 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
 
     const data = await response.json();
     if (data.audioContent) {
-        await playBase64Audio(data.audioContent);
+        return playBase64Audio(data.audioContent);
     } else {
         throw new Error("오디오 데이터가 반환되지 않았습니다.");
     }
   } catch (e) {
-    console.error("Premium TTS Error:", e);
-    // 무음으로 넘어가는 것보다 사용자에게 에러를 알리는 것이 원인 파악에 도움이 됨
-    if (!e.message.includes('만료')) {
-        alert("Premium 음성 재생 중 오류가 발생했습니다. (" + e.message + ")");
+    if (e.message.includes('billing')) {
+      const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`;
+      alert(`❌ [GCP 결제 계정 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정이 연동되어 있어야 합니다.\n\n링크: ${billingUrl}`);
+      window.open(billingUrl, '_blank');
+    } else {
+      alert(`❌ 테스트 실패: ${e.message}`);
     }
     throw e;
   }
@@ -260,29 +259,11 @@ export function playWebSpeechTTS(text, lang) {
 }
 
 function playBase64Audio(base64Data) {
-  return new Promise((resolve, reject) => {
-    if (isTtsCancelled) return resolve();
-    
-    // 데이터 정제 (공백 및 줄바꿈 제거)
-    const cleanData = base64Data.replace(/\s/g, '');
-    const audioSrc = "data:audio/mp3;base64," + cleanData;
-    const audio = new Audio(audioSrc);
-    currentAudioElement = audio;
-    
-    audio.onended = () => {
-      currentAudioElement = null;
-      resolve();
-    };
-    audio.onerror = () => {
-      currentAudioElement = null;
-      resolve(); // 오류 시에도 다음 재생을 위해 resolve
-    };
-    
-    audio.play().catch(e => {
-      currentAudioElement = null;
-      resolve();
-    });
-  });
+  if (isTtsCancelled) return Promise.resolve();
+  const cleanData = base64Data.replace(/\s/g, '');
+  const audio = new Audio("data:audio/mp3;base64," + cleanData);
+  currentAudioElement = audio;
+  return audio.play();
 }
 
 /**

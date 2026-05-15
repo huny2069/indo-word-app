@@ -108,7 +108,13 @@ const Settings = () => {
         localStorage.setItem('tts_engine', 'google');
         await playAudio(testText, lang, voiceName);
     } catch (e) {
-        alert(t('msg_test_voice_fail') + " " + e.message);
+      if (e.message.includes('billing')) {
+          const billingUrl = `https://console.cloud.google.com/billing/enable?project=1002533566733`;
+          alert(`❌ [GCP 결제 계정 연동 필요]\n\n이 기능을 사용하려면 구글 클라우드 콘솔에서 결제 계정이 연동되어 있어야 합니다.\n\n링크: ${billingUrl}`);
+          window.open(billingUrl, '_blank');
+      } else {
+          alert(`❌ 테스트 실패: ${e.message}`);
+      }
     }
   };
 
