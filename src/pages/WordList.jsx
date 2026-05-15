@@ -592,19 +592,18 @@ const WordList = () => {
                         <div style={{ display: 'flex', flex: 1, flexDirection: 'column', minWidth: '120px', justifyContent: 'center' }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
                                 {hideWords && !revealedIds.has(`${w.id}-word`) ? (
-                                    <div 
+                                    <span 
                                         onClick={(e) => handleToggleReveal(e, w.id, 'word')}
                                         style={{ 
-                                            background: '#e0e0e0', color: 'transparent', borderRadius: '8px', 
-                                            padding: '2px 8px', cursor: 'pointer', fontWeight: '900', fontSize: '1.2rem',
-                                            userSelect: 'none'
+                                            fontWeight: '900', fontSize: '1.2rem', color: 'var(--primary-color)', lineHeight: '1.2',
+                                            filter: 'blur(6px)', opacity: 0.6, cursor: 'pointer', userSelect: 'none', transition: 'all 0.3s'
                                         }}>
                                         {w.word}
-                                    </div>
+                                    </span>
                                 ) : (
                                     <span 
                                         onClick={(e) => { if (hideWords) handleToggleReveal(e, w.id, 'word'); }}
-                                        style={{ fontWeight: '900', fontSize: '1.2rem', color: 'var(--primary-color)', lineHeight: '1.2', cursor: hideWords ? 'pointer' : 'default' }}>
+                                        style={{ fontWeight: '900', fontSize: '1.2rem', color: 'var(--primary-color)', lineHeight: '1.2', cursor: hideWords ? 'pointer' : 'default', transition: 'all 0.3s' }}>
                                         {w.word}
                                     </span>
                                 )}
@@ -612,19 +611,18 @@ const WordList = () => {
                             </div>
 
                             {hideMeanings && !revealedIds.has(`${w.id}-meaning`) ? (
-                                <div 
+                                <span 
                                     onClick={(e) => handleToggleReveal(e, w.id, 'meaning')}
                                     style={{ 
-                                        background: '#e0e0e0', color: 'transparent', borderRadius: '8px', 
-                                        padding: '2px 8px', cursor: 'pointer', fontWeight: '700', fontSize: '1rem',
-                                        marginTop: '4px', width: 'fit-content', userSelect: 'none'
+                                        fontWeight: '700', fontSize: '1rem', color: '#444', lineHeight: '1.4', wordBreak: 'keep-all',
+                                        filter: 'blur(5px)', opacity: 0.6, cursor: 'pointer', userSelect: 'none', transition: 'all 0.3s', marginTop: '4px'
                                     }}>
                                     {w.meaning}
-                                </div>
+                                </span>
                             ) : (
                                 <span 
                                     onClick={(e) => { if (hideMeanings) handleToggleReveal(e, w.id, 'meaning'); }}
-                                    style={{ fontWeight: '700', fontSize: '1rem', color: '#444', lineHeight: '1.4', wordBreak: 'keep-all', cursor: hideMeanings ? 'pointer' : 'default', marginTop: '4px' }}>
+                                    style={{ fontWeight: '700', fontSize: '1rem', color: '#444', lineHeight: '1.4', wordBreak: 'keep-all', cursor: hideMeanings ? 'pointer' : 'default', marginTop: '4px', transition: 'all 0.3s' }}>
                                     {w.meaning}
                                 </span>
                             )}
