@@ -8,6 +8,26 @@
     <script src="https://accounts.google.com/gsi/client" async defer></script>
   </head>
   <body>
+    <!-- [v19.13] 서비스 워커 캐시 강제 초기화 + localStorage 오염 데이터 정리 -->
+    <script>
+      // 1. 모든 서비스 워커 강제 해제
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          for (var r of regs) { r.unregister(); }
+        });
+      }
+      // 2. 모든 캐시 스토리지 삭제
+      if ('caches' in window) {
+        caches.keys().then(function(names) {
+          for (var n of names) { caches.delete(n); }
+        });
+      }
+      // 3. localStorage의 잘못된 TTS 모델명 정리
+      ['google_tts_model_ko','google_tts_model_id','google_tts_model_en'].forEach(function(k) {
+        var v = localStorage.getItem(k);
+        if (v && v.indexOf('gemini') !== -1) { localStorage.removeItem(k); }
+      });
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
