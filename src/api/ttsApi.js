@@ -72,12 +72,21 @@ export const playMixedAudio = async (text) => {
   isTtsCancelled = false;
 
   const preferredEngine = localStorage.getItem('tts_engine') || 'google';
-  console.log(`[TTS-MIX] === AI 선생님 재생 시작 === 엔진: ${preferredEngine}`);
+  const accessToken = localStorage.getItem('gcp_access_token');
+  
+  console.log(`[TTS-MIX] === AI 선생님 재생 시작 === 엔진: ${preferredEngine} | 토큰존재: ${!!accessToken}`);
 
-  // 문장 단위 분리 (마침표, 물음표, 느낌표 기준)
+  // 엔진이 google인데 토큰이 없으면 미리 경고
+  if (preferredEngine === 'google' && !accessToken) {
+    alert('⚠️ Google Cloud TTS 토큰이 없습니다.\n설정 → 구글 로그인을 해주세요.');
+    return;
+  }
+
+  // 문장 단위 분리
   const sentences = text.split(/(?<=[.?!。])\s*/g).filter(s => s.trim().length > 1);
-
   console.log(`[TTS-MIX] 총 ${sentences.length}개 문장으로 분리됨`);
+
+  let hasShownError = false; // 첫 번째 에러만 알림 표시
 
   for (let i = 0; i < sentences.length; i++) {
     if (isTtsCancelled) break;
@@ -95,7 +104,11 @@ export const playMixedAudio = async (text) => {
       }
     } catch (error) {
       console.error(`[TTS-MIX] ❌ 문장 ${i+1} 실패:`, error.message);
-      // 실패 시에도 기본 TTS로 해당 문장은 읽어줌
+      // 첫 번째 실패 시에만 사용자에게 원인 알림
+      if (!hasShownError) {
+        hasShownError = true;
+        alert(`❌ AI 선생님 프리미엄 음성 실패\n\n원인: ${error.message}\n\n기본 음성으로 대체합니다.`);
+      }
       if (!isTtsCancelled) {
         await playWebSpeechTTS(sentence, lang);
       }
