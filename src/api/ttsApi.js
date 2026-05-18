@@ -95,13 +95,9 @@ export const playMixedAudio = async (text) => {
     console.log(`[TTS-MIX] [${i+1}/${sentences.length}] 언어: ${lang} | "${sentence.substring(0, 40)}..."`);
 
     try {
-      if (preferredEngine === 'google') {
-        await playGoogleCloudTTS(sentence, lang, null);
-      } else if (preferredEngine === 'gemini') {
-        await playGeminiTTS(sentence, lang, null);
-      } else {
-        await playWebSpeechTTS(sentence, lang);
-      }
+      // [리팩토링] 단어 재생의 프리미엄 음성 작동 원리와 100% 동일하게 일원화하여 연동!
+      // playAudio 함수 내부에 최적의 음성 모델 매핑 및 모든 유효성 안전장치가 구현되어 있으므로 완벽히 동일하게 동작합니다.
+      await playAudio(sentence, lang);
     } catch (error) {
       console.error(`[TTS-MIX] ❌ 문장 ${i+1} 실패:`, error.message);
       // 첫 번째 실패 시에만 사용자에게 원인 알림
