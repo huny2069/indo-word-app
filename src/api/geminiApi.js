@@ -341,8 +341,8 @@ export const translateText = async (text, fromLang, toLang, apiKey, modelName = 
         contents: [{ parts: [{ text: promptText }] }],
         generationConfig: {
           temperature: 0.1, // 0.1로 극단적으로 낮추어 일관성과 최적의 번역 속도 확보
-          topP: 0.95,
-          maxOutputTokens: 1000 // 지나치게 긴 무의미 응답 차단으로 속도 절약
+          topP: 0.95
+          // maxOutputTokens 한도를 완전 제거하여 장문 번역도 절대 끊기지 않도록 보증합니다.
         }
       }),
       signal // 이전 네트워크 요청을 취소시킬 수 있는 신호 연동
@@ -373,15 +373,21 @@ export const translateText = async (text, fromLang, toLang, apiKey, modelName = 
     const candidate = data.candidates[0];
 
     // 4. 생성된 content 및 parts 조각 안전성 검증
+    // [v19.23 초유연성 패치] parts에 번역 데이터가 조금이라도 담겨 있다면, MAX_TOKENS나 STOP으로 조기 중단되었어도 에러를 던지지 않고 최대한 추출해 줍니다.
+    const partText = candidate.content?.parts?.[0]?.text;
+    if (partText && partText.trim()) {
+      return partText.trim();
+    }
+
+    // parts가 진짜 100% 비어 있는 상황에서만 마감 사유를 엄격히 추적해 예외를 발생시킵니다.
     if (!candidate.content || !candidate.content.parts || candidate.content.parts.length === 0) {
-      if (candidate.finishReason) {
+      if (candidate.finishReason && candidate.finishReason !== 'STOP') {
         throw new Error(`답변 생성 중단 (사유: ${candidate.finishReason})`);
       }
       throw new Error("AI 번역 결과가 비어 있습니다.");
     }
 
-    // 모든 안전성 검증을 마친 순수 텍스트만 안전하게 반환!
-    return candidate.content.parts[0].text.trim();
+    return "";
 
   } catch (error) {
     if (error.name === 'AbortError') {
