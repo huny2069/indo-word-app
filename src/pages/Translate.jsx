@@ -31,25 +31,16 @@ const Translate = () => {
         setTargetText(tempText);
     };
 
-    // 실시간 번역 로직 (디바운싱 300ms 최적화 및 이전 요청 자동 취소 적용)
+    // [v19.30 성능 개선] 타이핑할 때마다 번역을 난사하여 딜레이와 렉을 발생시키던 자동 디바운싱 useEffect를 과감히 제거했습니다.
+    // 입력창이 완전히 비어 있을 때만 결과 화면을 동기화하여 지워주는 정밀 안전망 역할만 수행하도록 변경했습니다.
     useEffect(() => {
-        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        
         if (!sourceText.trim()) {
             setTargetText('');
-            // 입력창이 비어있으면 진행 중인 번역 요청도 중단
             if (abortControllerRef.current) {
                 abortControllerRef.current.abort();
             }
-            return;
         }
-
-        timeoutRef.current = setTimeout(() => {
-            performTranslate();
-        }, 300); // 디바운스 대기시간을 300ms로 단축하여 실시간성 극대화!
-
-        return () => clearTimeout(timeoutRef.current);
-    }, [sourceText, fromLang, toLang, transStyle]);
+    }, [sourceText]);
 
     const performTranslate = async () => {
         if (!sourceText.trim()) return;
@@ -58,7 +49,7 @@ const Translate = () => {
             return;
         }
 
-        // ⚡ [v19.21] 이전 요청이 아직 처리 중이라면 즉시 중단(Abort)시켜 네트워크 부하 및 화면 버벅임을 원천 제거!
+        // 이전 네트워크 비동기 요청이 완료되지 않았다면 즉각 취소(Abort) 시키는 안전망 기동
         if (abortControllerRef.current) {
             abortControllerRef.current.abort();
         }
@@ -76,18 +67,15 @@ const Translate = () => {
                 abortControllerRef.current.signal
             );
             
-            // 중단(Abort)된 비동기 요청이 아닐 때만 결과값을 화면에 렌더링
             if (result !== null) {
                 setTargetText(result);
             }
         } catch (error) {
-            // AbortController에 의한 인위적 취소(AbortError)나 런타임 Abort 시그널은 사용자 얼럿을 띄우지 않고 묵인
             if (error.name !== 'AbortError' && error.message !== 'The user aborted a request.') {
                 console.error("Translation failed:", error);
                 alert((t('msg_trans_fail') || '번역 중 오류가 발생했습니다: ') + error.message);
             }
         } finally {
-            // UI의 부드러운 상태 전환을 위해, 에러나 정상 완료 상관없이 무조건 로딩 바를 해제!
             setIsTranslating(false);
         }
     };
@@ -215,6 +203,13 @@ const Translate = () => {
                     <textarea 
                         value={sourceText}
                         onChange={(e) => setSourceText(e.target.value)}
+                        onKeyDown={(e) => {
+                            // Ctrl + Enter 키를 누르면 번역하기 버튼을 누른 것과 동일하게 즉시 고속 번역 수행!
+                            if (e.key === 'Enter' && e.ctrlKey) {
+                                e.preventDefault();
+                                performTranslate();
+                            }
+                        }}
                         placeholder={t('trans_source_ph')}
                         style={{ width: '100%', height: '160px', border: 'none', resize: 'none', fontSize: '1.15rem', fontWeight: '700', color: '#333', outline: 'none', lineHeight: '1.6', background: 'transparent' }}
                     />
@@ -227,7 +222,9 @@ const Translate = () => {
                                 <Trash2 size={18} color="#666" />
                             </button>
                         </div>
-                        <span style={{ fontSize: '0.75rem', color: '#ccc', fontWeight: '700' }}>{sourceText.length} / 500</span>
+                        <span style={{ fontSize: '0.75rem', color: '#ccc', fontWeight: '700', letterSpacing: '0.5px' }}>
+                            Ctrl + Enter로 고속 번역 | {sourceText.length} / 500
+                        </span>
                     </div>
                 </div>
 
