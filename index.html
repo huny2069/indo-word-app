@@ -8,24 +8,35 @@
     <script src="https://accounts.google.com/gsi/client" async defer></script>
   </head>
   <body>
-    <!-- [v19.13] 서비스 워커 캐시 강제 초기화 + localStorage 오염 데이터 정리 -->
+    <!-- [v19.15] 초강력 캐시 버스터 및 오염 스토리지 원천 클렌징 스크립트 -->
     <script>
-      // 1. 모든 서비스 워커 강제 해제
+      // 1. 모든 활성화된 서비스 워커 해제
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(function(regs) {
-          for (var r of regs) { r.unregister(); }
+          for (var r of regs) {
+            r.unregister().then(function(success) {
+              if (success) console.log('[캐시버스터] 서비스 워커 성공적으로 강제 해제 완료');
+            });
+          }
         });
       }
-      // 2. 모든 캐시 스토리지 삭제
+      // 2. 모든 브라우저 캐시 스토리지(CacheStorage) 완벽히 소거
       if ('caches' in window) {
-        caches.keys().then(function(names) {
-          for (var n of names) { caches.delete(n); }
+        caches.keys().then(function(keys) {
+          keys.forEach(function(key) {
+            caches.delete(key).then(function() {
+              console.log('[캐시버스터] 캐시 스토리지 삭제 완료:', key);
+            });
+          });
         });
       }
-      // 3. localStorage의 잘못된 TTS 모델명 정리
-      ['google_tts_model_ko','google_tts_model_id','google_tts_model_en'].forEach(function(k) {
-        var v = localStorage.getItem(k);
-        if (v && v.indexOf('gemini') !== -1) { localStorage.removeItem(k); }
+      // 3. localStorage 내 잘못 설정된 프리미엄 TTS 모델명 원천 폐기 및 초기화
+      ['google_tts_model_ko','google_tts_model_id','google_tts_model_en'].forEach(function(key) {
+        var val = localStorage.getItem(key);
+        if (val && (val.indexOf('gemini') !== -1 || val.indexOf('-') === -1)) {
+          console.warn('[캐시버스터] 오염된 TTS 설정값 강제 삭제:', key, '->', val);
+          localStorage.removeItem(key);
+        }
       });
     </script>
     <div id="root"></div>

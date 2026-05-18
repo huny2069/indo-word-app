@@ -21,13 +21,20 @@ function App() {
   const { user, isOnboarded, loading } = useAuth();
 
   useEffect(() => {
-    // 0. [v19.10] localStorage 오염 데이터 자동 정리
-    // 이전 버전에서 잘못 저장된 'gemini-...' 모델명을 TTS 음성으로 사용하던 문제 해결
+    // 0. [v19.15] localStorage 오염 데이터 빈틈없는 자동 정리
+    // 이전 버전에서 잘못 저장된 'gemini-...' 모델명을 TTS 음성으로 사용하던 문제를 완전히 소거합니다.
     ['google_tts_model_ko', 'google_tts_model_id', 'google_tts_model_en'].forEach(key => {
       const val = localStorage.getItem(key);
-      if (val && (val.includes('gemini') || !/^[a-z]{2}-[A-Z]{2}-/.test(val))) {
-        console.warn(`[앱 시작] 잘못된 TTS 모델 "${val}" 삭제 (키: ${key})`);
-        localStorage.removeItem(key);
+      if (val) {
+        const isGemini = val.toLowerCase().includes('gemini');
+        const hasHyphen = val.includes('-');
+        // 언어코드 형식으로 시작하는지 체크 (ko-KR-, id-ID- 등)
+        const isCorrectPrefix = /^[a-z]{2}-[A-Z]{2}-/.test(val);
+        
+        if (isGemini || !hasHyphen || !isCorrectPrefix) {
+          console.warn(`[앱 시작] ⚠️ 오염된 TTS 모델 감지되어 자동 제거함: "${val}" (키: ${key})`);
+          localStorage.removeItem(key);
+        }
       }
     });
 
