@@ -237,7 +237,22 @@ const Settings = () => {
   return (
     <div className="page" style={{ maxWidth: '800px', margin: '0 auto' }}>
       <header style={{ textAlign: 'center', marginBottom: '2rem' }}>
-        <h2 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)' }}>{t('set_title')}</h2>
+        <h2 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)', marginBottom: '0.6rem' }}>{t('set_title')}</h2>
+        <div style={{ 
+          display: 'inline-flex', 
+          alignItems: 'center', 
+          gap: '6px', 
+          padding: '6px 14px', 
+          borderRadius: '20px', 
+          background: 'linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%)', 
+          border: '1px solid #cbd5e1',
+          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.8), 0 2px 4px rgba(0,0,0,0.03)'
+        }}>
+            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
+            <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
+                버전 정보: v19.18 (최신 릴리즈)
+            </span>
+        </div>
       </header>
 
       {/* 2. 음성 설정 */}
@@ -407,22 +422,6 @@ const Settings = () => {
         <button onClick={() => { localStorage.clear(); window.location.reload(); }} style={{ background: 'none', border: 'none', color: '#ff4d4d', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}>
             {t('set_diagnosa')} (Full Reset)
         </button>
-        <div style={{ 
-          marginTop: '1.5rem', 
-          display: 'inline-flex', 
-          alignItems: 'center', 
-          gap: '6px', 
-          padding: '6px 14px', 
-          borderRadius: '20px', 
-          background: 'linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%)', 
-          border: '1px solid #cbd5e1',
-          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.8), 0 2px 4px rgba(0,0,0,0.03)'
-        }}>
-            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
-            <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v19.17 (최신 릴리즈)
-            </span>
-        </div>
       </div>
     </div>
   );
