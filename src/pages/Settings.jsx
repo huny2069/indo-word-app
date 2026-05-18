@@ -42,6 +42,12 @@ const Settings = () => {
   const enVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('en'))), [googleVoiceList]);
 
   const [isDriveOperating, setIsDriveOperating] = useState(false);
+  const [ttsSpeed, setTtsSpeed] = useState(localStorage.getItem('tts_speed') || '1.0');
+
+  const handleTtsSpeedChange = (value) => {
+    setTtsSpeed(value);
+    localStorage.setItem('tts_speed', value);
+  };
   const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || '';
   const SCOPES = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/cloud-platform';
 
@@ -250,10 +256,42 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v19.30 (최신 릴리즈)
+                버전 정보: v19.40 (최신 릴리즈)
             </span>
         </div>
       </header>
+
+      {/* 1. UI 언어 설정 */}
+      <div className="settings-card" style={{ marginBottom: '1.5rem' }}>
+        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontSize: '1.2rem', fontWeight: '900', marginBottom: '1.2rem' }}>
+            <Monitor size={20} color="#feca57" /> {t('set_lang_title')}
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.8rem' }}>
+            {[
+                { code: 'ko', label: '한국어 🇰🇷' },
+                { code: 'id', label: 'Indonesian 🇮🇩' },
+                { code: 'en', label: 'English 🇺🇸' }
+            ].map(langOption => (
+                <button 
+                    key={langOption.code} 
+                    onClick={() => changeUserLang(langOption.code)}
+                    style={{ 
+                        padding: '0.8rem 0.4rem', 
+                        borderRadius: '12px', 
+                        fontSize: '0.85rem', 
+                        fontWeight: '800',
+                        border: userLang === langOption.code ? '2.5px solid var(--primary-color)' : '1px solid #eee', 
+                        background: userLang === langOption.code ? '#fff9e7' : '#fff', 
+                        color: userLang === langOption.code ? '#856404' : '#666',
+                        cursor: 'pointer',
+                        transition: '0.2s'
+                    }}
+                >
+                    {langOption.label}
+                </button>
+            ))}
+        </div>
+      </div>
 
       {/* 2. 음성 설정 */}
       <div className="settings-card">
@@ -268,6 +306,20 @@ const Settings = () => {
                 }}/>
                 <span className="slider round"></span>
             </label>
+        </div>
+
+        {/* [v19.40] 말하기 속도 조절 */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.2rem', padding: '0.8rem 1rem', background: '#f8fafc', borderRadius: '12px', border: '1px solid #f1f5f9' }}>
+            <span style={{ fontSize: '0.9rem', fontWeight: '800', color: '#475569' }}>
+                {t('set_audio_speed') || '말하기 속도 조절'}
+            </span>
+            <select value={ttsSpeed} onChange={e => handleTtsSpeedChange(e.target.value)}
+                style={{ padding: '0.4rem 0.8rem', borderRadius: '8px', border: '1px solid #cbd5e1', fontSize: '0.85rem', fontWeight: '800', color: '#1e293b', outline: 'none', background: '#fff', cursor: 'pointer' }}>
+                <option value="1.0">{t('set_audio_speed_normal')}</option>
+                <option value="0.7">{t('set_audio_speed_slow')}</option>
+                <option value="0.5">{t('set_audio_speed_slower')}</option>
+                <option value="0.3">{t('set_audio_speed_slowest')}</option>
+            </select>
         </div>
         
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.8rem', marginBottom: '1.2rem' }}>

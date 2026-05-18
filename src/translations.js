@@ -384,6 +384,11 @@ export const translations = {
     set_api_verify_btn: '연결 확인 및 모델 갱신',
     set_diagnosa: '🛠️ 자가 진단',
     set_reset_btn: '로그인 정보 초기화',
+    set_audio_speed: '🎙️ 말하기 속도 조절',
+    set_audio_speed_normal: '1.0배속 (기본 속도)',
+    set_audio_speed_slow: '0.7배속 (조금 느리게)',
+    set_audio_speed_slower: '0.5배속 (느리게)',
+    set_audio_speed_slowest: '0.3배속 (매우 느리게)',
     
     // PDF Export (v9.0)
     btn_export_pdf: '📄 PDF로 저장하기',
@@ -854,6 +859,11 @@ export const translations = {
     set_google_update_needed: 'Klik Perbarui Daftar',
     set_diagnosa: '🛠️ Diagnosis',
     set_reset_btn: 'Reset Info Login',
+    set_audio_speed: '🎙️ Kecepatan Bicara',
+    set_audio_speed_normal: '1.0x (Kecepatan Normal)',
+    set_audio_speed_slow: '0.7x (Sedikit Lambat)',
+    set_audio_speed_slower: '0.5x (Lambat)',
+    set_audio_speed_slowest: '0.3x (Sangat Lambat)',
     
     // PDF Export (v9.0)
     btn_export_pdf: '📄 Simpan sebagai PDF',
@@ -1180,6 +1190,11 @@ export const translations = {
     set_cloud_backup_btn: '📤 Cloud Backup',
     set_cloud_restore_btn: '📥 Cloud Restore',
     set_diagnosa: '🛠️ Diagnosis',
+    set_audio_speed: '🎙️ Speaking Speed',
+    set_audio_speed_normal: '1.0x (Default Speed)',
+    set_audio_speed_slow: '0.7x (Slightly Slow)',
+    set_audio_speed_slower: '0.5x (Slow)',
+    set_audio_speed_slowest: '0.3x (Very Slow)',
 
     // IncorrectNotes
     inc_title: 'Mistakes',

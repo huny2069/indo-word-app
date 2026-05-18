@@ -51,6 +51,9 @@ export async function prefetchGoogleAudio(text, lang) {
       effectiveModel = defaultModels[lang] || defaultModels['id'];
     }
 
+    const savedRate = localStorage.getItem('tts_speed') || '1.0';
+    const speakingRate = parseFloat(savedRate);
+
     const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/text:synthesize`, {
       method: 'POST',
       headers: {
@@ -60,7 +63,10 @@ export async function prefetchGoogleAudio(text, lang) {
       body: JSON.stringify({
         input: { text },
         voice: { languageCode: langCode, name: effectiveModel },
-        audioConfig: { audioEncoding: 'MP3' }
+        audioConfig: { 
+          audioEncoding: 'MP3',
+          speakingRate: speakingRate
+        }
       })
     });
 
@@ -280,10 +286,16 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
 
   console.log(`[GCP-TTS] 요청 | 모델: ${effectiveModel} | 언어: ${langCode} | 텍스트길이: ${text.length}`);
 
+  const savedRate = localStorage.getItem('tts_speed') || '1.0';
+  const speakingRate = parseFloat(savedRate);
+
   const requestBody = {
     input: { text },
     voice: { languageCode: langCode, name: effectiveModel },
-    audioConfig: { audioEncoding: 'MP3' }
+    audioConfig: { 
+      audioEncoding: 'MP3',
+      speakingRate: speakingRate
+    }
   };
 
   const response = await fetch(`https://texttospeech.googleapis.com/v1beta1/text:synthesize`, {
@@ -349,7 +361,8 @@ export function playWebSpeechTTS(text, lang) {
     const utterance = new SpeechSynthesisUtterance(text);
     const langCodes = { 'ko': 'ko-KR', 'id': 'id-ID', 'en': 'en-US' };
     utterance.lang = langCodes[lang] || 'id-ID';
-    utterance.rate = 0.95;
+    const savedRate = localStorage.getItem('tts_speed') || '1.0';
+    utterance.rate = parseFloat(savedRate);
 
     let voices = window.speechSynthesis.getVoices();
     const findVoice = () => {
@@ -376,6 +389,8 @@ function playBase64Audio(base64Data) {
     const cleanData = base64Data.replace(/\s/g, '');
     const audio = new Audio("data:audio/mp3;base64," + cleanData);
     currentAudioElement = audio;
+    const savedRate = localStorage.getItem('tts_speed') || '1.0';
+    audio.playbackRate = parseFloat(savedRate);
     audio.onended = () => { currentAudioElement = null; resolve(); };
     audio.onerror = () => { currentAudioElement = null; resolve(); };
     audio.play().catch(() => { currentAudioElement = null; resolve(); });
