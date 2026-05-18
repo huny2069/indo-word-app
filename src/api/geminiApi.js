@@ -348,9 +348,41 @@ export const translateText = async (text, fromLang, toLang, apiKey, modelName = 
       signal // 이전 네트워크 요청을 취소시킬 수 있는 신호 연동
     });
 
-    if (!response.ok) throw new Error('번역 요청 실패');
+    // 1. HTTP 네트워크 응답에 실패한 경우 정교한 오류 분석
+    if (!response.ok) {
+      const errJson = await response.json().catch(() => ({}));
+      const errMsg = errJson.error?.message || `번역 서버 요청 실패 (HTTP ${response.status})`;
+      throw new Error(errMsg);
+    }
+
     const data = await response.json();
-    return data.candidates[0].content.parts[0].text.trim();
+
+    // 2. API가 명시적 에러를 담고 있는 경우 처리
+    if (data.error) {
+      throw new Error(data.error.message);
+    }
+
+    // 3. candidates 배열 존재 및 안전 필터 블록 검사
+    if (!data.candidates || data.candidates.length === 0) {
+      if (data.promptFeedback?.blockReason) {
+        throw new Error(`AI 안전 필터에 의해 번역이 차단되었습니다. (사유: ${data.promptFeedback.blockReason})`);
+      }
+      throw new Error("AI가 해당 입력에 대한 번역 데이터를 생성하지 못했습니다. 입력값을 확인해주세요.");
+    }
+
+    const candidate = data.candidates[0];
+
+    // 4. 생성된 content 및 parts 조각 안전성 검증
+    if (!candidate.content || !candidate.content.parts || candidate.content.parts.length === 0) {
+      if (candidate.finishReason) {
+        throw new Error(`답변 생성 중단 (사유: ${candidate.finishReason})`);
+      }
+      throw new Error("AI 번역 결과가 비어 있습니다.");
+    }
+
+    // 모든 안전성 검증을 마친 순수 텍스트만 안전하게 반환!
+    return candidate.content.parts[0].text.trim();
+
   } catch (error) {
     if (error.name === 'AbortError') {
       console.log(`[Translate-API] ⚡ 이전 중복 요청 취소 완료: "${text.substring(0, 10)}..."`);

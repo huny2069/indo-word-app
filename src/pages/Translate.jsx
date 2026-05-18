@@ -81,15 +81,14 @@ const Translate = () => {
                 setTargetText(result);
             }
         } catch (error) {
-            if (error.name !== 'AbortError') {
+            // AbortController에 의한 인위적 취소(AbortError)나 런타임 Abort 시그널은 사용자 얼럿을 띄우지 않고 묵인
+            if (error.name !== 'AbortError' && error.message !== 'The user aborted a request.') {
                 console.error("Translation failed:", error);
                 alert((t('msg_trans_fail') || '번역 중 오류가 발생했습니다: ') + error.message);
             }
         } finally {
-            // 중단(Abort)되지 않고 정상적으로 로드가 완료되었을 때만 로딩바 해제
-            if (abortControllerRef.current && !abortControllerRef.current.signal.aborted) {
-                setIsTranslating(false);
-            }
+            // UI의 부드러운 상태 전환을 위해, 에러나 정상 완료 상관없이 무조건 로딩 바를 해제!
+            setIsTranslating(false);
         }
     };
 
