@@ -82,31 +82,35 @@ export const playMixedAudio = async (text) => {
     return;
   }
 
-  // 문장 단위 분리
-  const sentences = text.split(/(?<=[.?!。])\s*/g).filter(s => s.trim().length > 1);
-  console.log(`[TTS-MIX] 총 ${sentences.length}개 문장으로 분리됨`);
+  // [v19.19] 알파벳(영어/인도네시아어) 단어 조각과 한글 조각을 정교하게 분리하는 정규식
+  // 이로써 "오늘 배울 단어는 pisang 입니다" 에서 한글은 한국어 강사 보이스로, pisang은 원어민 보이스로 완벽 교차 재생됩니다!
+  const tokens = text.split(/([a-zA-Z]+[a-zA-Z\s]*[a-zA-Z]+|[a-zA-Z]+)/g).filter(t => t.trim().length > 0);
+  console.log(`[TTS-MIX] 총 ${tokens.length}개 조각으로 세부 언어별 분리됨`);
 
   let hasShownError = false; // 첫 번째 에러만 알림 표시
 
-  for (let i = 0; i < sentences.length; i++) {
+  for (let i = 0; i < tokens.length; i++) {
     if (isTtsCancelled) break;
-    const sentence = sentences[i].trim();
-    const lang = getLangType(sentence);
-    console.log(`[TTS-MIX] [${i+1}/${sentences.length}] 언어: ${lang} | "${sentence.substring(0, 40)}..."`);
+    const token = tokens[i].trim();
+    
+    // 무의미한 특수문자나 숫자 단독 조각은 건너뜁니다
+    if (/^[0-9\s.,?!~:;*()'"-\/]+$/.test(token)) continue;
+
+    // 한글이 단 한 글자라도 섞여 있다면 한국어로 재생, 알파벳으로만 구성되어 있다면 인도네시아어로 재생
+    const lang = containsHangul(token) ? 'ko' : 'id';
+    console.log(`[TTS-MIX] [${i+1}/${tokens.length}] 판별언어: ${lang} | "${token}"`);
 
     try {
-      // [리팩토링] 단어 재생의 프리미엄 음성 작동 원리와 100% 동일하게 일원화하여 연동!
-      // playAudio 함수 내부에 최적의 음성 모델 매핑 및 모든 유효성 안전장치가 구현되어 있으므로 완벽히 동일하게 동작합니다.
-      await playAudio(sentence, lang);
+      // playAudio 함수를 그대로 연결하여 각 조각에 대한 완벽한 프리미엄 보이스 안전장치를 경유합니다.
+      await playAudio(token, lang);
     } catch (error) {
-      console.error(`[TTS-MIX] ❌ 문장 ${i+1} 실패:`, error.message);
-      // 첫 번째 실패 시에만 사용자에게 원인 알림
+      console.error(`[TTS-MIX] ❌ 조각 ${i+1} 실패:`, error.message);
       if (!hasShownError) {
         hasShownError = true;
         alert(`❌ AI 선생님 프리미엄 음성 실패\n\n원인: ${error.message}\n\n기본 음성으로 대체합니다.`);
       }
       if (!isTtsCancelled) {
-        await playWebSpeechTTS(sentence, lang);
+        await playWebSpeechTTS(token, lang);
       }
     }
   }
