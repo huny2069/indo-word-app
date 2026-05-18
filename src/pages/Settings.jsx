@@ -250,7 +250,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v19.19 (최신 릴리즈)
+                버전 정보: v19.20 (최신 릴리즈)
             </span>
         </div>
       </header>
