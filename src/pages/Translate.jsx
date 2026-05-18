@@ -18,6 +18,7 @@ const Translate = () => {
     const [transStyle, setTransStyle] = useState('formal'); // 'formal' or 'casual'
 
     const timeoutRef = useRef(null);
+    const abortControllerRef = useRef(null); // [v19.21] 이전 번역 네트워크 요청을 하드웨어적으로 취소할 수 있는 AbortController 레퍼런스
 
     // 언어 전환 기능
     const handleSwap = () => {
@@ -30,18 +31,22 @@ const Translate = () => {
         setTargetText(tempText);
     };
 
-    // 실시간 번역 로직 (디바운싱 적용)
+    // 실시간 번역 로직 (디바운싱 300ms 최적화 및 이전 요청 자동 취소 적용)
     useEffect(() => {
         if (timeoutRef.current) clearTimeout(timeoutRef.current);
         
         if (!sourceText.trim()) {
             setTargetText('');
+            // 입력창이 비어있으면 진행 중인 번역 요청도 중단
+            if (abortControllerRef.current) {
+                abortControllerRef.current.abort();
+            }
             return;
         }
 
         timeoutRef.current = setTimeout(() => {
             performTranslate();
-        }, 400); // 속도를 위해 대기 시간을 400ms로 단축
+        }, 300); // 디바운스 대기시간을 300ms로 단축하여 실시간성 극대화!
 
         return () => clearTimeout(timeoutRef.current);
     }, [sourceText, fromLang, toLang, transStyle]);
@@ -52,15 +57,39 @@ const Translate = () => {
             alert(t('msg_api_key_empty') || 'API 키가 설정되지 않았습니다. 설정 탭에서 API 키를 입력해주세요.');
             return;
         }
+
+        // ⚡ [v19.21] 이전 요청이 아직 처리 중이라면 즉시 중단(Abort)시켜 네트워크 부하 및 화면 버벅임을 원천 제거!
+        if (abortControllerRef.current) {
+            abortControllerRef.current.abort();
+        }
+        abortControllerRef.current = new AbortController();
+
         setIsTranslating(true);
         try {
-            const result = await translateText(sourceText, fromLang, toLang, apiKey, model, transStyle);
-            setTargetText(result);
+            const result = await translateText(
+                sourceText, 
+                fromLang, 
+                toLang, 
+                apiKey, 
+                model, 
+                transStyle,
+                abortControllerRef.current.signal
+            );
+            
+            // 중단(Abort)된 비동기 요청이 아닐 때만 결과값을 화면에 렌더링
+            if (result !== null) {
+                setTargetText(result);
+            }
         } catch (error) {
-            console.error("Translation failed:", error);
-            alert((t('msg_trans_fail') || '번역 중 오류가 발생했습니다: ') + error.message);
+            if (error.name !== 'AbortError') {
+                console.error("Translation failed:", error);
+                alert((t('msg_trans_fail') || '번역 중 오류가 발생했습니다: ') + error.message);
+            }
         } finally {
-            setIsTranslating(false);
+            // 중단(Abort)되지 않고 정상적으로 로드가 완료되었을 때만 로딩바 해제
+            if (abortControllerRef.current && !abortControllerRef.current.signal.aborted) {
+                setIsTranslating(false);
+            }
         }
     };
 

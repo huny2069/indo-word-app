@@ -308,9 +308,9 @@ export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-
   }
 };
 /**
- * 단순 텍스트 번역 기능
+ * 단순 텍스트 번역 기능 (v19.21 - AbortController 및 초고성능 번역 특화 튜닝 적용)
  */
-export const translateText = async (text, fromLang, toLang, apiKey, modelName = 'gemini-1.5-flash', style = 'formal') => {
+export const translateText = async (text, fromLang, toLang, apiKey, modelName = 'gemini-1.5-flash', style = 'formal', signal = null) => {
   const cleanKey = apiKey ? apiKey.trim() : '';
   if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다.');
 
@@ -318,17 +318,17 @@ export const translateText = async (text, fromLang, toLang, apiKey, modelName = 
   const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
 
   const styleInstruction = style === 'casual' 
-    ? "친근하고 자연스러운 구어체(반말/친구 사이)로 번역해주세요." 
-    : "예의 바르고 공손한 격식체(존댓말/비즈니스)로 번역해주세요.";
+    ? "인위적인 번역투를 완전히 배제하고, 원어민들이 일상 대화나 SNS에서 쓰는 매우 친근하고 자연스러운 구어체(반말/친구 사이 어투)로 번역하세요." 
+    : "비즈니스나 공식 석상에 어울리는 극도로 예의 바르고 공손한 격식체(존댓말/높임말 어투)로 번역하세요.";
 
   const promptText = `
-  당신은 전문 번역가입니다. 
-  다음 텍스트를 ${langNames[fromLang]}에서 ${langNames[toLang]}로 번역해주세요.
+  당신은 전 세계 최고의 전문 인공지능 번역 엔진입니다.
+  다음 텍스트를 ${langNames[fromLang]}에서 ${langNames[toLang]}로 한 글자 한 글자의 단순 치환이 아닌, 언어 고유의 문화적 맥락과 뉘앙스를 100% 살려 완벽하게 번역하세요.
   
-  [지침]
+  [핵심 지침]
   1. ${styleInstruction}
-  2. 문맥을 고려하여 가장 자연스러운 번역을 제공하세요.
-  3. 마크다운 형식 없이 번역된 텍스트만 응답하세요.
+  2. 인도네시아어와 한국어 번역 시 조사, 어근(Kata Dasar), 접사(Affix)의 결합 논리를 원어민 수준으로 매끄럽게 녹여내세요.
+  3. 다른 부연 설명, 해석, 서론, 결론, 혹은 마크다운 백틱(\`\`\`) 등은 절대로 출력하지 마십시오. 오직 '번역된 최종 문장' 그 자체만 단 한 단어도 덧붙이지 말고 반환하십시오.
   
   텍스트: "${text}"
   `;
@@ -338,14 +338,24 @@ export const translateText = async (text, fromLang, toLang, apiKey, modelName = 
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        contents: [{ parts: [{ text: promptText }] }]
-      })
+        contents: [{ parts: [{ text: promptText }] }],
+        generationConfig: {
+          temperature: 0.1, // 0.1로 극단적으로 낮추어 일관성과 최적의 번역 속도 확보
+          topP: 0.95,
+          maxOutputTokens: 1000 // 지나치게 긴 무의미 응답 차단으로 속도 절약
+        }
+      }),
+      signal // 이전 네트워크 요청을 취소시킬 수 있는 신호 연동
     });
 
     if (!response.ok) throw new Error('번역 요청 실패');
     const data = await response.json();
     return data.candidates[0].content.parts[0].text.trim();
   } catch (error) {
+    if (error.name === 'AbortError') {
+      console.log(`[Translate-API] ⚡ 이전 중복 요청 취소 완료: "${text.substring(0, 10)}..."`);
+      return null;
+    }
     console.error("translateText Error:", error);
     throw error;
   }
