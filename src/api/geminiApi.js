@@ -140,8 +140,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 3.5 Pro (최첨단 추론)', 
       speed: '🐢 느림', speed_key: 'slow',
       tokens: '💎 매우 높음', tokens_key: 'very_high',
-      pros: '복잡한 언어 구조 분석, 어원 추론 및 문법 결합 논리 도출에서 가장 뛰어난 성능을 보입니다.',
-      cons: '응답 시간이 다소 느리고 API 단가가 가장 높습니다.'
+      pros: '최상위 지능을 갖추어 복잡한 인도네시아어 문법 논리, 어근 분석 및 1타 강사 시크릿 노트 생성에 극강의 정확성을 발휘합니다.',
+      cons: 'Pro 모델 특성상 생성 지연 대기 시간이 다소 발생하며, 토큰당 API 소모 비용이 가장 높습니다.'
     },
     { 
       id: 'gemini-3.5-flash', 
@@ -149,8 +149,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 3.5 Flash (최신 고효율)', 
       speed: '🚀 압도적 빠름', speed_key: 'very_fast',
       tokens: '📉 매우 낮음', tokens_key: 'very_low',
-      pros: '최신 멀티모달 능력과 독보적인 처리 성능을 자랑하는 차세대 초고속 플래시 모델입니다.',
-      cons: 'Pro급 최상위 고난도 추론 논리식 처리에서는 다소 성능 차이가 있을 수 있습니다.'
+      pros: '100만 컨텍스트 및 사고 보존(Thinking Preservation)을 갖추어 멀티턴 대화의 추론을 자동 유지하며, 에이전트형 루프와 코딩 작업에서 최첨단 가성비를 제공합니다.',
+      cons: 'Pro 기종에 비해 고난도 논리 추론 연산 능력이 미세하게 제한적입니다.'
     },
     { 
       id: 'gemini-3.1-pro-preview', 
@@ -158,8 +158,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 3.1 Pro (최고 사양)', 
       speed: '🐢 느림', speed_key: 'slow',
       tokens: '💎 매우 높음', tokens_key: 'very_high',
-      pros: '강력한 추론 능력을 가진 최고 등급 모델입니다. 복잡한 다국어 뉘앙스 정밀 매칭에 유리합니다.',
-      cons: '토큰당 API 비용이 높으며 응답 대기 시간이 Pro급 특성상 존재합니다.'
+      pros: '대규모 추론 지능을 탑재하여 다국어 번역 시 원어민의 감정과 종결어미 상황별 차이를 정밀 조율하는 강점이 있습니다.',
+      cons: '3.5 Pro에 비해서는 최신 멀티턴 에이전트 처리 효율이 약간 낮습니다.'
     },
     { 
       id: 'gemini-3.0-flash-preview', 
@@ -167,8 +167,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 3.0 Flash (차세대 속도)', 
       speed: '⚡ 매우 빠름', speed_key: 'very_fast',
       tokens: '⚖️ 보통', tokens_key: 'normal',
-      pros: '속도와 지능의 완벽한 조화를 이룬 최신 표준 모델입니다.',
-      cons: '프리뷰 버전으로 가끔 응답 일관성이 약해질 수 있습니다.'
+      pros: '빠른 응답성과 보편적인 다국어 번역 영역에서 높은 신뢰도를 갖춘 세대적 표준형 모델입니다.',
+      cons: '프리뷰 등급 버전으로 가끔 대답 일관성이 투박해질 수 있습니다.'
     },
     { 
       id: 'gemini-3.1-flash-lite', 
@@ -176,8 +176,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 3.1 Flash-Lite (가성비)', 
       speed: '🚀 압도적 빠름', speed_key: 'very_fast',
       tokens: '📉 매우 낮음', tokens_key: 'very_low',
-      pros: '단순 번역과 대량 단어 생성에 가장 효율적이며 토큰 비용이 거의 들지 않습니다.',
-      cons: '깊이 있는 예문 분석 및 단어 분해 시 3.5 모델에 비해 문맥이 다소 밋밋할 수 있습니다.'
+      pros: '단순 언어 변환 및 대규모 단어 퀴즈 생성 시 최적의 반응 속도와 사실상 비용 제로에 가까운 효율성을 제공합니다.',
+      cons: '깊이 있는 핵심 어근 분해 및 유사어 뉘앙스 도출 시 설명 디테일이 생략되곤 합니다.'
     },
     { 
       id: 'gemini-2.5-pro', 
@@ -185,8 +185,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 2.5 Pro (안정적 고성능)', 
       speed: '🏃 보통', speed_key: 'normal',
       tokens: '📈 높음', tokens_key: 'high',
-      pros: '현재 가장 오랜 기간 검증된 고성능 모델로, 정확한 학습 데이터 생성이 가능합니다.',
-      cons: '3.x 시리즈에 비해 최신 정보 학습 반영도가 미세하게 지연됩니다.'
+      pros: '구조적으로 정형화된 JSON 배열을 출력하는 안전성이 장기 검증된 프로 사양 기종입니다.',
+      cons: '3.x 계열에 새롭게 수립된 추론 사고 수준(Thinking Level) 제어의 혜택을 받을 수 없습니다.'
     },
     { 
       id: 'gemini-2.5-flash', 
@@ -194,8 +194,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 2.5 Flash (표준 추천)', 
       speed: '⚡ 빠름', speed_key: 'fast',
       tokens: '📉 낮음', tokens_key: 'low',
-      pros: '인코 서비스에서 가장 추천하는 안정적인 표준형 모델입니다. 빠르고 오류가 없습니다.',
-      cons: '장문 문맥 처리 한도가 3.x Flash 기종보다 적습니다.'
+      pros: '인코 런타임에서 가장 널리 권장되는 속도와 지능의 표준 교과서적 텍스트 모델입니다.',
+      cons: '3.5 Flash에 탑재된 대규모 다단계 사고 보존 및 컨텍스트 한도가 적습니다.'
     },
     { 
       id: 'gemini-2.5-flash-lite', 
@@ -203,8 +203,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 2.5 Flash-Lite', 
       speed: '🚀 매우 빠름', speed_key: 'very_fast',
       tokens: '📉 매우 낮음', tokens_key: 'very_low',
-      pros: '모바일 환경에서 가볍게 쓰기 가장 좋은 안정적인 경량 모델입니다.',
-      cons: '추론 논리 및 어근 도출 깊이가 상위 Pro 제품군에 비해 단순합니다.'
+      pros: '가장 쾌적하고 반응 속도가 발라 모바일 PWA 환경에서 가벼운 단어 퀴즈 풀이에 탁월합니다.',
+      cons: '장문의 한국어 격식/비격식체 예문 비교 요구 시 문법 파악이 단순해집니다.'
     },
     { 
       id: 'gemini-1.5-pro', 
@@ -212,8 +212,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 1.5 Pro (검증된 LTS)', 
       speed: '🐢 느림', speed_key: 'slow',
       tokens: '📈 높음', tokens_key: 'high',
-      pros: '오랜 시간 서비스 런타임에서 작동이 보증된 안정적인 고성능 장기 지원 모델입니다.',
-      cons: '최신 3.x 세대에 비해 로딩 생성 처리 속도가 한 박자 느립니다.'
+      pros: '구글이 제공하는 엔터프라이즈 장기 서비스(LTS) 등급으로 작동 신뢰성이 완전히 보증된 기종입니다.',
+      cons: '최신 3.x Flash에 비해 토큰 생성 비용이 비싸며 속도가 한 박자 더딥니다.'
     },
     { 
       id: 'gemini-1.5-flash', 
@@ -221,8 +221,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 1.5 Flash (속도형 LTS)', 
       speed: '⚡ 빠름', speed_key: 'fast',
       tokens: '📉 낮음', tokens_key: 'low',
-      pros: '비용 효율성이 매우 높으며 단순 단어 번역 및 뉘앙스 없는 대화형 처리에 탁월합니다.',
-      cons: '접사 결합 논리나 문법 설명 시 스타강사급 특유의 자세한 설명이 생략되곤 합니다.'
+      pros: '일차원적인 기본 단어 생성과 뉘앙스가 필요 없는 단순 번역에 있어서 속도 효율이 준수합니다.',
+      cons: '도출하기 어려운 예문 속 단어/숙어 분해(Word Breakdown) 분석의 디테일이 생략되곤 합니다.'
     }
 ];
 
