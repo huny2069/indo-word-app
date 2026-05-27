@@ -66,6 +66,7 @@ const Settings = () => {
       });
     }
     // API 갱신 전이거나 목록이 없는 경우 최신 추천 목록(CURATED_MODELS)을 디폴트로 표시
+    return CURATED_MODELS;
   }, [modelList, userLang]);
 
   // 번역 키가 없을 때 원래 문자열이 그대로 노출되지 않도록 가드해 주는 헬퍼 함수
@@ -78,6 +79,7 @@ const Settings = () => {
 
   // 선택된 모델의 상세 정보를 콤팩트 카드에 바인딩하기 위해 색출하는 훅
   const selectedModelInfo = React.useMemo(() => {
+    if (!displayModels || displayModels.length === 0) return null;
     return displayModels.find(m => m.id === selectedGeminiModel) || displayModels[0];
   }, [displayModels, selectedGeminiModel]);
 
