@@ -66,8 +66,20 @@ const Settings = () => {
       });
     }
     // API 갱신 전이거나 목록이 없는 경우 최신 추천 목록(CURATED_MODELS)을 디폴트로 표시
-    return CURATED_MODELS;
   }, [modelList, userLang]);
+
+  // 번역 키가 없을 때 원래 문자열이 그대로 노출되지 않도록 가드해 주는 헬퍼 함수
+  const getTranslation = (key, fallback) => {
+    const val = t(key);
+    // 다국어 사전에 리소스가 없어 번역 키 문자열이 그대로 리턴된 경우 fallback 텍스트 반환
+    if (val === key) return fallback;
+    return val;
+  };
+
+  // 선택된 모델의 상세 정보를 콤팩트 카드에 바인딩하기 위해 색출하는 훅
+  const selectedModelInfo = React.useMemo(() => {
+    return displayModels.find(m => m.id === selectedGeminiModel) || displayModels[0];
+  }, [displayModels, selectedGeminiModel]);
 
   const [isDriveOperating, setIsDriveOperating] = useState(false);
   const [ttsSpeed, setTtsSpeed] = useState(localStorage.getItem('tts_speed') || '1.0');
@@ -426,44 +438,86 @@ const Settings = () => {
             <Info size={14} /> {t('set_guide_btn')}
         </button>
 
-        <div style={{ background: '#f8fafc', padding: '1rem', borderRadius: '15px', marginBottom: '1.2rem' }}>
+        <div style={{ background: '#f8fafc', padding: '1.2rem', borderRadius: '18px', marginBottom: '1.2rem', border: '1px solid #e2e8f0' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                <span style={{ fontSize: '0.85rem', fontWeight: '900', color: '#64748b' }}>{t('set_gemini_model_select') || 'AI 모델 선택'}</span>
-                <button onClick={handleFetchModels} disabled={loadingModels} style={{ background: '#feca57', color: '#fff', border: 'none', borderRadius: '8px', padding: '0.4rem 0.8rem', fontSize: '0.75rem', fontWeight: '900', cursor: 'pointer' }}>
-                    {loadingModels ? <RefreshCw size={14} className="spin" /> : t('set_api_verify_btn')}
+                <span style={{ fontSize: '0.9rem', fontWeight: '900', color: '#334155' }}>{t('set_gemini_model_select') || 'AI 모델 선택'}</span>
+                <button onClick={handleFetchModels} disabled={loadingModels} style={{ background: '#feca57', color: '#fff', border: 'none', borderRadius: '8px', padding: '0.4rem 0.8rem', fontSize: '0.75rem', fontWeight: '900', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                    {loadingModels ? <RefreshCw size={12} className="spin" /> : t('set_api_verify_btn')}
                 </button>
             </div>
             
-            <div style={{ display: 'grid', gap: '0.8rem' }}>
-                {displayModels.map(m => {
-                    return (
-                        <div key={m.id} 
-                            onClick={() => { setSelectedGeminiModel(m.id); localStorage.setItem('selectedGeminiModel', m.id); }}
-                            style={{ 
-                                padding: '1rem', borderRadius: '15px', border: selectedGeminiModel === m.id ? '2.5px solid var(--primary-color)' : '1px solid #e2e8f0',
-                                background: selectedGeminiModel === m.id ? '#fff' : '#fff', cursor: 'pointer', transition: '0.2s', position: 'relative', overflow: 'hidden'
-                            }}
-                        >
-                            {selectedGeminiModel === m.id && <div style={{ position: 'absolute', top: 0, right: 0, background: 'var(--primary-color)', color: '#fff', padding: '2px 10px', fontSize: '0.7rem', fontWeight: '900', borderRadius: '0 0 0 10px' }}>{t('model_label_selected') || 'SELECTED'}</div>}
-                            <div style={{ fontWeight: '900', fontSize: '1rem', marginBottom: '4px', color: selectedGeminiModel === m.id ? 'var(--primary-color)' : '#334155' }}>
-                                {t(`model_${m.t_key}_name`) || m.name}
-                            </div>
-                            <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
-                                <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>
-                                    {t(`model_speed_${m.speed_key}`) || m.speed}
-                                </span>
-                                <span style={{ fontSize: '0.7rem', background: '#f1f5f9', padding: '2px 8px', borderRadius: '5px', fontWeight: '800', color: '#64748b' }}>
-                                    {t(`model_tokens_${m.tokens_key}`) || m.tokens}
-                                </span>
-                            </div>
-                            <div style={{ fontSize: '0.8rem', color: '#666', lineHeight: '1.5' }}>
-                                <div style={{ marginBottom: '2px' }}><strong style={{ color: '#059669' }}>{t('model_label_pros') || 'Pros'}:</strong> {t(`model_${m.t_key}_pros`) || m.pros}</div>
-                                <div><strong style={{ color: '#e11d48' }}>{t('model_label_cons') || 'Cons'}:</strong> {t(`model_${m.t_key}_cons`) || m.cons}</div>
-                            </div>
-                        </div>
-                    );
-                })}
+            {/* 1. 모델 드롭다운 셀렉터 */}
+            <div style={{ marginBottom: '1rem' }}>
+                <select 
+                    value={selectedGeminiModel} 
+                    onChange={e => { setSelectedGeminiModel(e.target.value); localStorage.setItem('selectedGeminiModel', e.target.value); }}
+                    style={{ 
+                        width: '100%', 
+                        padding: '0.8rem 1rem', 
+                        borderRadius: '12px', 
+                        border: '2px solid #cbd5e1', 
+                        fontSize: '0.95rem', 
+                        fontWeight: '800', 
+                        color: '#1e293b', 
+                        outline: 'none', 
+                        background: '#fff', 
+                        cursor: 'pointer',
+                        boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.02)',
+                        transition: 'border-color 0.2s'
+                    }}
+                >
+                    {displayModels.map(m => (
+                        <option key={m.id} value={m.id}>
+                            {getTranslation(`model_${m.t_key}_name`, m.name)}
+                        </option>
+                    ))}
+                </select>
             </div>
+
+            {/* 2. 선택된 단일 모델의 콤팩트 스펙/장단점 카드 */}
+            {selectedModelInfo && (
+                <div style={{ 
+                    padding: '1.2rem', 
+                    borderRadius: '15px', 
+                    border: '2px solid var(--primary-color)',
+                    background: '#fffcf4', 
+                    boxShadow: '0 4px 12px rgba(254, 202, 87, 0.06)',
+                    position: 'relative', 
+                    overflow: 'hidden'
+                }}>
+                    <div style={{ position: 'absolute', top: 0, right: 0, background: 'var(--primary-color)', color: '#fff', padding: '3px 10px', fontSize: '0.7rem', fontWeight: '900', borderRadius: '0 0 0 10px' }}>
+                        {t('model_label_selected') || 'SELECTED'}
+                    </div>
+                    
+                    <div style={{ fontWeight: '900', fontSize: '1.05rem', marginBottom: '6px', color: 'var(--nana-dark)' }}>
+                        {getTranslation(`model_${selectedModelInfo.t_key}_name`, selectedModelInfo.name)}
+                    </div>
+                    
+                    <div style={{ display: 'flex', gap: '6px', marginBottom: '10px' }}>
+                        <span style={{ fontSize: '0.75rem', background: '#fff', border: '1px solid #e2e8f0', padding: '3px 8px', borderRadius: '6px', fontWeight: '800', color: '#475569' }}>
+                            {t(`model_speed_${selectedModelInfo.speed_key}`) || selectedModelInfo.speed}
+                        </span>
+                        <span style={{ fontSize: '0.75rem', background: '#fff', border: '1px solid #e2e8f0', padding: '3px 8px', borderRadius: '6px', fontWeight: '800', color: '#475569' }}>
+                            {t(`model_tokens_${selectedModelInfo.tokens_key}`) || selectedModelInfo.tokens}
+                        </span>
+                    </div>
+                    
+                    <div style={{ fontSize: '0.85rem', color: '#334155', lineHeight: '1.6', background: '#fff', padding: '0.9rem', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
+                        <div style={{ marginBottom: '6px' }}>
+                            <strong style={{ color: '#059669', marginRight: '4px' }}>
+                                {t('model_label_pros') || '장점'}:
+                            </strong> 
+                            {getTranslation(`model_${selectedModelInfo.t_key}_pros`, selectedModelInfo.pros)}
+                        </div>
+                        <div>
+                            <strong style={{ color: '#e11d48', marginRight: '4px' }}>
+                                {t('model_label_cons') || '단점'}:
+                            </strong> 
+                            {getTranslation(`model_${selectedModelInfo.t_key}_cons`, selectedModelInfo.cons)}
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
 
         <button onClick={saveApiKeys} style={{ width: '100%', padding: '1rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '15px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 4px 0 #000', cursor: 'pointer' }}>
