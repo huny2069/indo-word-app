@@ -135,6 +135,15 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
  */
 export const CURATED_MODELS = [
     { 
+      id: 'gemini-3.5-flash', 
+      t_key: '3_5_flash',
+      name: 'Gemini 3.5 Flash (최신 고효율)', 
+      speed: '🚀 압도적 빠름', speed_key: 'very_fast',
+      tokens: '📉 매우 낮음', tokens_key: 'very_low',
+      pros: '최신 멀티모달 능력과 독보적인 처리 성능을 자랑하는 차세대 초고속 플래시 모델입니다.',
+      cons: 'Pro급 최상위 고난도 추론 논리식 처리에서는 다소 성능 차이가 있을 수 있습니다.'
+    },
+    { 
       id: 'gemini-3.1-pro-preview', 
       t_key: '3_1_pro',
       name: 'Gemini 3.1 Pro (최첨단)', 
@@ -200,12 +209,12 @@ export const fetchGeminiModels = async (apiKey) => {
     if (!response.ok) return [];
     const data = await response.json();
     
-    // 2.5 버전 이상의 모델만 필터링
+    // 2.5 버전 이상의 모델만 필터링 (gemini-3.5 포함)
     const filtered = data.models.filter(m => 
       m.supportedGenerationMethods.includes('generateContent') && 
       !m.name.includes('vision') && 
       !m.name.includes('embedding') &&
-      (m.name.includes('gemini-3') || m.name.includes('gemini-2.5'))
+      (m.name.includes('gemini-3') || m.name.includes('gemini-2.5') || m.name.includes('gemini-4'))
     );
     return filtered.map(m => m.name.replace('models/', ''));
 

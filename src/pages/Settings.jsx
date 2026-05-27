@@ -41,6 +41,34 @@ const Settings = () => {
   const krVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('ko'))), [googleVoiceList]);
   const enVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('en'))), [googleVoiceList]);
 
+  // API를 통해 동적으로 가져온 modelList가 있는 경우 이를 우선 렌더링 대상으로 지정 (하이브리드 방식)
+  const displayModels = React.useMemo(() => {
+    if (modelList && modelList.length > 0) {
+      return modelList.map(modelId => {
+        // 이미 큐레이션된 고정 모델 정보가 매칭되는지 확인
+        const curated = CURATED_MODELS.find(m => m.id === modelId);
+        if (curated) return curated;
+
+        // 매칭되지 않는 새로운 미래형 모델이 들어왔을 때 동적으로 안전하게 리스트 요소를 제조
+        const cleanName = modelId.split('-').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+        const t_key = modelId.replace(/[^a-zA-Z0-9]/g, '_');
+        return {
+          id: modelId,
+          t_key: t_key,
+          name: cleanName,
+          speed: modelId.includes('pro') ? '🏃 보통' : '⚡ 빠름',
+          speed_key: modelId.includes('pro') ? 'normal' : 'fast',
+          tokens: modelId.includes('pro') ? '📈 높음' : '📉 낮음',
+          tokens_key: modelId.includes('pro') ? 'high' : 'low',
+          pros: t('model_dynamic_pros') || 'API를 통해 실시간 활성화되어 즉시 사용 가능한 구글 제미나이 모델입니다.',
+          cons: t('model_dynamic_cons') || '인코의 공식 프리미엄 설명 큐레이션은 준비 중입니다.'
+        };
+      });
+    }
+    // API 갱신 전이거나 목록이 없는 경우 최신 추천 목록(CURATED_MODELS)을 디폴트로 표시
+    return CURATED_MODELS;
+  }, [modelList, userLang]);
+
   const [isDriveOperating, setIsDriveOperating] = useState(false);
   const [ttsSpeed, setTtsSpeed] = useState(localStorage.getItem('tts_speed') || '1.0');
 
@@ -407,7 +435,7 @@ const Settings = () => {
             </div>
             
             <div style={{ display: 'grid', gap: '0.8rem' }}>
-                {CURATED_MODELS.map(m => {
+                {displayModels.map(m => {
                     return (
                         <div key={m.id} 
                             onClick={() => { setSelectedGeminiModel(m.id); localStorage.setItem('selectedGeminiModel', m.id); }}

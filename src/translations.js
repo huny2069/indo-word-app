@@ -107,6 +107,9 @@ export const translations = {
     set_cloud_title_label: '구글 클라우드',
     
     // AI Model Descriptions
+    model_3_5_flash_name: 'Gemini 3.5 Flash (최신 고효율)',
+    model_3_5_flash_pros: '최신 멀티모달 능력과 독보적인 처리 성능을 자랑하는 차세대 초고속 플래시 모델입니다.',
+    model_3_5_flash_cons: 'Pro급 최상위 고난도 추론 논리식 처리에서는 다소 성능 차이가 있을 수 있습니다.',
     model_3_1_pro_name: 'Gemini 3.1 Pro (최첨단)',
     model_3_1_pro_pros: '가장 강력한 추론 능력을 가진 차세대 모델입니다. 아주 복잡한 언어 구조 분석에 탁월합니다.',
     model_3_1_pro_cons: '응답 속도가 느리고 토큰 소모량이 가장 많습니다.',
@@ -589,6 +592,9 @@ export const translations = {
     set_cloud_title_label: 'Google Cloud',
     
     // AI Model Descriptions
+    model_3_5_flash_name: 'Gemini 3.5 Flash (Terbaru Efisien)',
+    model_3_5_flash_pros: 'Model flash ultra-cepat generasi berikutnya yang menawarkan kemampuan multimodal terbaru dan kinerja pemrosesan yang luar biasa.',
+    model_3_5_flash_cons: 'Mungkin ada sedikit perbedaan kinerja dalam memproses rumus penalaran tingkat tinggi kelas Pro.',
     model_3_1_pro_name: 'Gemini 3.1 Pro (Mutakhir)',
     model_3_1_pro_pros: 'Model generasi berikutnya dengan kemampuan penalaran terkuat. Unggul dalam analisis struktur bahasa yang kompleks.',
     model_3_1_pro_cons: 'Kecepatan respon lambat dan konsumsi token paling tinggi.',
@@ -1040,6 +1046,9 @@ export const translations = {
     set_cloud_title_label: 'Google Cloud',
 
     // AI Model Descriptions
+    model_3_5_flash_name: 'Gemini 3.5 Flash (Latest High-Efficiency)',
+    model_3_5_flash_pros: 'Next-gen ultra-fast flash model boasting the latest multimodal capabilities and outstanding processing performance.',
+    model_3_5_flash_cons: 'There may be a slight performance difference in processing Pro-class top-tier high-difficulty reasoning logic.',
     model_3_1_pro_name: 'Gemini 3.1 Pro (State-of-the-Art)',
     model_3_1_pro_pros: 'Next-gen model with the strongest reasoning capabilities. Excellent for analyzing very complex language structures.',
     model_3_1_pro_cons: 'Slow response speed and highest token consumption.',
