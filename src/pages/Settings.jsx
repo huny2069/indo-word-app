@@ -45,8 +45,8 @@ const Settings = () => {
   const displayModels = React.useMemo(() => {
     if (modelList && modelList.length > 0) {
       return modelList.map(modelId => {
-        // 이미 큐레이션된 고정 모델 정보가 매칭되는지 확인
-        const curated = CURATED_MODELS.find(m => m.id === modelId);
+        // 이미 큐레이션된 고정 모델 정보가 매칭되는지 확인 (느슨한 포함 대조를 통하여 gemini-3.5-flash 및 프리뷰 모델 완벽 상호 호환)
+        const curated = CURATED_MODELS.find(m => m.id === modelId || modelId.includes(m.id) || m.id.includes(modelId));
         if (curated) return curated;
 
         // 매칭되지 않는 새로운 미래형 모델이 들어왔을 때 동적으로 안전하게 리스트 요소를 제조
@@ -60,8 +60,8 @@ const Settings = () => {
           speed_key: modelId.includes('pro') ? 'normal' : 'fast',
           tokens: modelId.includes('pro') ? '📈 높음' : '📉 낮음',
           tokens_key: modelId.includes('pro') ? 'high' : 'low',
-          pros: t('model_dynamic_pros') || 'API를 통해 실시간 활성화되어 즉시 사용 가능한 구글 제미나이 모델입니다.',
-          cons: t('model_dynamic_cons') || '인코의 공식 프리미엄 설명 큐레이션은 준비 중입니다.'
+          pros: 'API를 통해 실시간 활성화되어 즉시 사용 가능한 구글 제미나이 신규 모델입니다.',
+          cons: '이 모델의 공식 스타강사 장/단점 설명 큐레이션은 현재 준비 중입니다.'
         };
       });
     }
