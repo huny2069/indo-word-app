@@ -130,10 +130,19 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
 };
 
 /**
- * 인코 서비스에 최적화된 최신 Gemini 모델 리스트 (2026년 기준)
- * Gemini 2.5 미만 구형 모델은 지원 중단에 따라 제외되었습니다.
+ * 인코 서비스에 최적화된 구글 공식 핵심 텍스트 언어 모델 리스트 (1.5 ~ 3.5 제품군 총망라)
+ * 이미지 생성 모델(Imagen) 및 비전/임베딩 모델은 철저히 배제되었습니다.
  */
 export const CURATED_MODELS = [
+    { 
+      id: 'gemini-3.5-pro', 
+      t_key: '3_5_pro',
+      name: 'Gemini 3.5 Pro (최첨단 추론)', 
+      speed: '🐢 느림', speed_key: 'slow',
+      tokens: '💎 매우 높음', tokens_key: 'very_high',
+      pros: '복잡한 언어 구조 분석, 어원 추론 및 문법 결합 논리 도출에서 가장 뛰어난 성능을 보입니다.',
+      cons: '응답 시간이 다소 느리고 API 단가가 가장 높습니다.'
+    },
     { 
       id: 'gemini-3.5-flash', 
       t_key: '3_5_flash',
@@ -146,11 +155,11 @@ export const CURATED_MODELS = [
     { 
       id: 'gemini-3.1-pro-preview', 
       t_key: '3_1_pro',
-      name: 'Gemini 3.1 Pro (최첨단)', 
+      name: 'Gemini 3.1 Pro (최고 사양)', 
       speed: '🐢 느림', speed_key: 'slow',
       tokens: '💎 매우 높음', tokens_key: 'very_high',
-      pros: '가장 강력한 추론 능력을 가진 차세대 모델입니다. 아주 복잡한 언어 구조 분석에 탁월합니다.',
-      cons: '응답 속도가 느리고 토큰 소모량이 가장 많습니다.'
+      pros: '강력한 추론 능력을 가진 최고 등급 모델입니다. 복잡한 다국어 뉘앙스 정밀 매칭에 유리합니다.',
+      cons: '토큰당 API 비용이 높으며 응답 대기 시간이 Pro급 특성상 존재합니다.'
     },
     { 
       id: 'gemini-3.0-flash-preview', 
@@ -158,8 +167,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 3.0 Flash (차세대 속도)', 
       speed: '⚡ 매우 빠름', speed_key: 'very_fast',
       tokens: '⚖️ 보통', tokens_key: 'normal',
-      pros: '속도와 지능의 완벽한 조화를 이룬 최신 모델입니다.',
-      cons: '프리뷰 버전으로 가끔 응답이 불안정할 수 있습니다.'
+      pros: '속도와 지능의 완벽한 조화를 이룬 최신 표준 모델입니다.',
+      cons: '프리뷰 버전으로 가끔 응답 일관성이 약해질 수 있습니다.'
     },
     { 
       id: 'gemini-3.1-flash-lite', 
@@ -167,8 +176,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 3.1 Flash-Lite (가성비)', 
       speed: '🚀 압도적 빠름', speed_key: 'very_fast',
       tokens: '📉 매우 낮음', tokens_key: 'very_low',
-      pros: '단순 번역과 단어 생성에 가장 효율적이며 토큰 비용이 거의 들지 않습니다.',
-      cons: '깊이 있는 문법 설명은 Pro 모델에 비해 다소 부족할 수 있습니다.'
+      pros: '단순 번역과 대량 단어 생성에 가장 효율적이며 토큰 비용이 거의 들지 않습니다.',
+      cons: '깊이 있는 예문 분석 및 단어 분해 시 3.5 모델에 비해 문맥이 다소 밋밋할 수 있습니다.'
     },
     { 
       id: 'gemini-2.5-pro', 
@@ -176,8 +185,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 2.5 Pro (안정적 고성능)', 
       speed: '🏃 보통', speed_key: 'normal',
       tokens: '📈 높음', tokens_key: 'high',
-      pros: '현재 가장 검증된 고성능 모델로, 정확한 학습 데이터 생성이 가능합니다.',
-      cons: '3.x 시리즈에 비해 최신 데이터 반영이 조금 느릴 수 있습니다.'
+      pros: '현재 가장 오랜 기간 검증된 고성능 모델로, 정확한 학습 데이터 생성이 가능합니다.',
+      cons: '3.x 시리즈에 비해 최신 정보 학습 반영도가 미세하게 지연됩니다.'
     },
     { 
       id: 'gemini-2.5-flash', 
@@ -185,8 +194,8 @@ export const CURATED_MODELS = [
       name: 'Gemini 2.5 Flash (표준 추천)', 
       speed: '⚡ 빠름', speed_key: 'fast',
       tokens: '📉 낮음', tokens_key: 'low',
-      pros: '인코 서비스에서 가장 추천하는 표준 모델입니다. 빠르고 정확합니다.',
-      cons: '매우 긴 문맥 처리 시 3.1 Pro보다 성능이 낮습니다.'
+      pros: '인코 서비스에서 가장 추천하는 안정적인 표준형 모델입니다. 빠르고 오류가 없습니다.',
+      cons: '장문 문맥 처리 한도가 3.x Flash 기종보다 적습니다.'
     },
     { 
       id: 'gemini-2.5-flash-lite', 
@@ -195,7 +204,25 @@ export const CURATED_MODELS = [
       speed: '🚀 매우 빠름', speed_key: 'very_fast',
       tokens: '📉 매우 낮음', tokens_key: 'very_low',
       pros: '모바일 환경에서 가볍게 쓰기 가장 좋은 안정적인 경량 모델입니다.',
-      cons: '추론 능력이 상위 모델들에 비해 제한적입니다.'
+      cons: '추론 논리 및 어근 도출 깊이가 상위 Pro 제품군에 비해 단순합니다.'
+    },
+    { 
+      id: 'gemini-1.5-pro', 
+      t_key: '1_5_pro',
+      name: 'Gemini 1.5 Pro (검증된 LTS)', 
+      speed: '🐢 느림', speed_key: 'slow',
+      tokens: '📈 높음', tokens_key: 'high',
+      pros: '오랜 시간 서비스 런타임에서 작동이 보증된 안정적인 고성능 장기 지원 모델입니다.',
+      cons: '최신 3.x 세대에 비해 로딩 생성 처리 속도가 한 박자 느립니다.'
+    },
+    { 
+      id: 'gemini-1.5-flash', 
+      t_key: '1_5_flash',
+      name: 'Gemini 1.5 Flash (속도형 LTS)', 
+      speed: '⚡ 빠름', speed_key: 'fast',
+      tokens: '📉 낮음', tokens_key: 'low',
+      pros: '비용 효율성이 매우 높으며 단순 단어 번역 및 뉘앙스 없는 대화형 처리에 탁월합니다.',
+      cons: '접사 결합 논리나 문법 설명 시 스타강사급 특유의 자세한 설명이 생략되곤 합니다.'
     }
 ];
 
@@ -209,12 +236,19 @@ export const fetchGeminiModels = async (apiKey) => {
     if (!response.ok) return [];
     const data = await response.json();
     
-    // 2.5 버전 이상의 모델만 필터링 (gemini-3.5 포함)
+    // 이미지 생성(imagen), 비전(vision), 임베딩(embedding)은 완벽히 제외한 순수 텍스트 생성용 모델 1.5 ~ 3.5 및 4.0 이상 기종만 필터링
     const filtered = data.models.filter(m => 
       m.supportedGenerationMethods.includes('generateContent') && 
       !m.name.includes('vision') && 
       !m.name.includes('embedding') &&
-      (m.name.includes('gemini-3') || m.name.includes('gemini-2.5') || m.name.includes('gemini-4'))
+      !m.name.includes('imagen') &&
+      (m.name.includes('gemini-3.5') || 
+       m.name.includes('gemini-3.1') || 
+       m.name.includes('gemini-3.0') || 
+       m.name.includes('gemini-2.5') ||
+       m.name.includes('gemini-1.5') ||
+       m.name.includes('gemini-4') ||
+       m.name.includes('gemini-2.0'))
     );
     return filtered.map(m => m.name.replace('models/', ''));
 
