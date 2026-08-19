@@ -1290,36 +1290,6 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "word_1787138489139_evusd",
-    "category_id": "emotions_nuances",
-    "subcategory_id": "personality_attitude",
-    "word": "percaya diri [[쁘르짜야 디리]]",
-    "meaning": "자신감이 넘치는 사람, 자신감이 넘치는 도구",
-    "pos": "형용사구",
-    "root": "percaya",
-    "affix_logic": "어근 'percaya'에 기반한 형용사구 파생 표현",
-    "grammar_rule": "어근 'percaya'에 인도네시아어 접사가 결합하여 '자신감이 넘치는 사람, 자신감이 넘치는 도구'의 의미 및 문법적 역할을 수행하는 파생 어휘입니다.",
-    "synonym": "pede",
-    "antonym": "rendah diri, minder",
-    "context": "'percaya diri'은(는) '자신감이 넘치는 사람, 자신감이 넘치는 도구'을(를) 뜻하며 실생활 및 비즈니스 표준 문맥에서 활발히 쓰입니다.",
-    "caution": "어근 'percaya'의 용법에 주의하세요. 'percaya diri' 사용 시 어조와 문맥에 맞게 격식/구어체를 구분하세요.",
-    "related": "'percaya' (어근)의 연관 파생어를 함께 묶어서 암기하면 학습 효과가 극대화됩니다!",
-    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait percaya diri untuk kesejahteraan masyarakat.",
-    "example_formal_kr": "정부는 국민들의 복지를 위해 자신감이 넘치는 사람, 자신감이 넘치는 도구 관련 새로운 정책을 수립했습니다.",
-    "example_casual": "Kamu sudah tahu tentang percaya diri yang lagi ramai dibicarakan ini?",
-    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 자신감이 넘치는 사람, 자신감이 넘치는 도구에 대해 알고 있어?",
-    "word_breakdown": [
-      {
-        "word": "percaya",
-        "meaning": "(어근) 자신감이 넘치는 사람"
-      },
-      {
-        "word": "percaya diri",
-        "meaning": "자신감이 넘치는 사람, 자신감이 넘치는 도구"
-      }
-    ]
-  },
-  {
     "id": "word_1787138537285_4p1dn",
     "category_id": "emotions_nuances",
     "subcategory_id": "deep_emotions",
@@ -1376,36 +1346,6 @@ export const emotionsNuances = [
       {
         "word": "tengsi gengsi",
         "meaning": "체면 차리다"
-      }
-    ]
-  },
-  {
-    "id": "word_1787138537285_ajn6f",
-    "category_id": "emotions_nuances",
-    "subcategory_id": "deep_emotions",
-    "word": "kemakan omongan [[끄마깐 오몽안]]",
-    "meaning": "제 꾀에 넘어가는 상태, 제 꾀에 넘어가의 성질",
-    "pos": "동사구",
-    "root": "omong",
-    "affix_logic": "어근 'omong'에 기반한 동사구 파생 표현",
-    "grammar_rule": "어근 'omong'에 인도네시아어 접사가 결합하여 '제 꾀에 넘어가는 상태, 제 꾀에 넘어가의 성질'의 의미 및 문법적 역할을 수행하는 파생 어휘입니다.",
-    "synonym": "terjerat kata sendiri",
-    "antonym": "konsisten",
-    "context": "'kemakan omongan'은(는) '제 꾀에 넘어가는 상태, 제 꾀에 넘어가의 성질'을(를) 뜻하며 실생활 및 비즈니스 표준 문맥에서 활발히 쓰입니다.",
-    "caution": "어근 'omong'의 용법에 주의하세요. 'kemakan omongan' 사용 시 어조와 문맥에 맞게 격식/구어체를 구분하세요.",
-    "related": "'omong' (어근)의 연관 파생어를 함께 묶어서 암기하면 학습 효과가 극대화됩니다!",
-    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait kemakan omongan untuk kesejahteraan masyarakat.",
-    "example_formal_kr": "정부는 국민들의 복지를 위해 제 꾀에 넘어가는 상태, 제 꾀에 넘어가의 성질 관련 새로운 정책을 수립했습니다.",
-    "example_casual": "Kamu sudah tahu tentang kemakan omongan yang lagi ramai dibicarakan ini?",
-    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 제 꾀에 넘어가는 상태, 제 꾀에 넘어가의 성질에 대해 알고 있어?",
-    "word_breakdown": [
-      {
-        "word": "omong",
-        "meaning": "(어근) 제 꾀에 넘어가는 상태"
-      },
-      {
-        "word": "kemakan omongan",
-        "meaning": "제 꾀에 넘어가는 상태, 제 꾀에 넘어가의 성질"
       }
     ]
   },

@@ -960,36 +960,6 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0033",
-    "category_id": "discourse",
-    "subcategory_id": "time_trigger_adverbs",
-    "word": "kebetulan [[끄브뚤란]]",
-    "meaning": "우연히는 상태, 우연히의 성질",
-    "pos": "부사",
-    "root": "betul",
-    "affix_logic": "어근 'betul'에 기반한 부사 파생 표현",
-    "grammar_rule": "어근 'betul'에 인도네시아어 접사가 결합하여 '우연히는 상태, 우연히의 성질'의 의미 및 문법적 역할을 수행하는 파생 어휘입니다.",
-    "synonym": "tanpa sengaja",
-    "antonym": "sengaja",
-    "context": "'kebetulan'은(는) '우연히는 상태, 우연히의 성질'을(를) 뜻하며 실생활 및 비즈니스 표준 문맥에서 활발히 쓰입니다.",
-    "caution": "어근 'betul'의 용법에 주의하세요. 'kebetulan' 사용 시 어조와 문맥에 맞게 격식/구어체를 구분하세요.",
-    "related": "'betul' (어근)의 연관 파생어를 함께 묶어서 암기하면 학습 효과가 극대화됩니다!",
-    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait kebetulan untuk kesejahteraan masyarakat.",
-    "example_formal_kr": "정부는 국민들의 복지를 위해 우연히는 상태, 우연히의 성질 관련 새로운 정책을 수립했습니다.",
-    "example_casual": "Kamu sudah tahu tentang kebetulan yang lagi ramai dibicarakan ini?",
-    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 우연히는 상태, 우연히의 성질에 대해 알고 있어?",
-    "word_breakdown": [
-      {
-        "word": "betul",
-        "meaning": "(어근) 우연히는 상태"
-      },
-      {
-        "word": "kebetulan",
-        "meaning": "우연히는 상태, 우연히의 성질"
-      }
-    ]
-  },
-  {
     "id": "disc_0034",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",

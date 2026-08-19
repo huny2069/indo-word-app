@@ -360,36 +360,6 @@ export const slangDailySpoken = [
     ]
   },
   {
-    "id": "slang_0013",
-    "category_id": "slang_daily_spoken",
-    "subcategory_id": "slang_abbreviations",
-    "word": "kepoan [[께뽀안]]",
-    "meaning": "오지랖 넓은 사람는 상태, 오지랖 넓은 사람의 성질",
-    "pos": "명사",
-    "root": "kepo",
-    "affix_logic": "어근 'kepo'에 기반한 명사 파생 표현",
-    "grammar_rule": "어근 'kepo'에 인도네시아어 접사가 결합하여 '오지랖 넓은 사람는 상태, 오지랖 넓은 사람의 성질'의 의미 및 문법적 역할을 수행하는 파생 어휘입니다.",
-    "synonym": "suka ingin tahu",
-    "antonym": "acuh tak acuh",
-    "context": "'kepoan'은(는) '오지랖 넓은 사람는 상태, 오지랖 넓은 사람의 성질'을(를) 뜻하며 실생활 및 비즈니스 표준 문맥에서 활발히 쓰입니다.",
-    "caution": "어근 'kepo'의 용법에 주의하세요. 'kepoan' 사용 시 어조와 문맥에 맞게 격식/구어체를 구분하세요.",
-    "related": "'kepo' (어근)의 연관 파생어를 함께 묶어서 암기하면 학습 효과가 극대화됩니다!",
-    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait kepoan untuk kesejahteraan masyarakat.",
-    "example_formal_kr": "정부는 국민들의 복지를 위해 오지랖 넓은 사람는 상태, 오지랖 넓은 사람의 성질 관련 새로운 정책을 수립했습니다.",
-    "example_casual": "Kamu sudah tahu tentang kepoan yang lagi ramai dibicarakan ini?",
-    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 오지랖 넓은 사람는 상태, 오지랖 넓은 사람의 성질에 대해 알고 있어?",
-    "word_breakdown": [
-      {
-        "word": "kepo",
-        "meaning": "(어근) 오지랖 넓은 사람는 상태"
-      },
-      {
-        "word": "kepoan",
-        "meaning": "오지랖 넓은 사람는 상태, 오지랖 넓은 사람의 성질"
-      }
-    ]
-  },
-  {
     "id": "slang_0014",
     "category_id": "slang_daily_spoken",
     "subcategory_id": "slang_abbreviations",
@@ -536,36 +506,6 @@ export const slangDailySpoken = [
       {
         "word": "baperan banget",
         "meaning": "엄청 유리멘탈인"
-      }
-    ]
-  },
-  {
-    "id": "word_1787138489139_6am1w",
-    "category_id": "slang_daily_spoken",
-    "subcategory_id": "slang_abbreviations",
-    "word": "pede habisan [[쁘데 하비산]]",
-    "meaning": "근수저 자신감 폭발는 과정, 근수저 자신감 폭발는 장소",
-    "pos": "형용사구",
-    "root": "percaya",
-    "affix_logic": "어근 'percaya'에 기반한 형용사구 파생 표현",
-    "grammar_rule": "어근 'percaya'에 인도네시아어 접사가 결합하여 '근수저 자신감 폭발는 과정, 근수저 자신감 폭발는 장소'의 의미 및 문법적 역할을 수행하는 파생 어휘입니다.",
-    "synonym": "percaya diri tinggi",
-    "antonym": "minder",
-    "context": "'pede habisan'은(는) '근수저 자신감 폭발는 과정, 근수저 자신감 폭발는 장소'을(를) 뜻하며 실생활 및 비즈니스 표준 문맥에서 활발히 쓰입니다.",
-    "caution": "어근 'percaya'의 용법에 주의하세요. 'pede habisan' 사용 시 어조와 문맥에 맞게 격식/구어체를 구분하세요.",
-    "related": "'percaya' (어근)의 연관 파생어를 함께 묶어서 암기하면 학습 효과가 극대화됩니다!",
-    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pede habisan untuk kesejahteraan masyarakat.",
-    "example_formal_kr": "정부는 국민들의 복지를 위해 근수저 자신감 폭발는 과정, 근수저 자신감 폭발는 장소 관련 새로운 정책을 수립했습니다.",
-    "example_casual": "Kamu sudah tahu tentang pede habisan yang lagi ramai dibicarakan ini?",
-    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 근수저 자신감 폭발는 과정, 근수저 자신감 폭발는 장소에 대해 알고 있어?",
-    "word_breakdown": [
-      {
-        "word": "percaya",
-        "meaning": "(어근) 근수저 자신감 폭발는 과정"
-      },
-      {
-        "word": "pede habisan",
-        "meaning": "근수저 자신감 폭발는 과정, 근수저 자신감 폭발는 장소"
       }
     ]
   },
