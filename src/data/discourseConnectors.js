@@ -1298,5 +1298,135 @@ export const discourseConnectors = [
         "meaning": "서서히"
       }
     ]
+  },
+  {
+    "id": "disc_0051",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "lagian [[라기안]]",
+    "meaning": "어차피 또, 게다가",
+    "pos": "접속사",
+    "root": "lagi",
+    "affix_logic": "어근 'lagi'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "lagipula",
+    "antonym": "hanya saja",
+    "context": "실생활 및 회화 상황에서 '어차피 또, 게다가'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'lagi'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'lagian' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'어차피 또, 게다가'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'lagian' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '어차피 또, 게다가'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "lagian",
+        "meaning": "어차피 또"
+      }
+    ]
+  },
+  {
+    "id": "disc_0052",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "makanya [[마까냐]]",
+    "meaning": "그러니까, 그래서",
+    "pos": "접속사",
+    "root": "maka",
+    "affix_logic": "어근 'maka'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "oleh karena itu",
+    "antonym": "padahal",
+    "context": "실생활 및 회화 상황에서 '그러니까, 그래서'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'maka'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'makanya' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'그러니까, 그래서'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'makanya' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '그러니까, 그래서'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "makanya",
+        "meaning": "그러니까"
+      }
+    ]
+  },
+  {
+    "id": "disc_0053",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "seiring dengan [[스이링 등안]]",
+    "meaning": "~와 발맞추어",
+    "pos": "전치사구",
+    "root": "iring",
+    "affix_logic": "어근 'iring'에 기반한 전치사구 어휘",
+    "grammar_rule": "문장 내에서 전치사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "bersamaan dengan",
+    "antonym": "terlepas dari",
+    "context": "실생활 및 회화 상황에서 '~와 발맞추어'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'iring'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'seiring dengan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'~와 발맞추어'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'seiring dengan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '~와 발맞추어'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "seiring",
+        "meaning": "~와 발맞추어"
+      }
+    ]
+  },
+  {
+    "id": "disc_0054",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "sepanjang [[스빤장]]",
+    "meaning": "~하는 한, 내내",
+    "pos": "전치사",
+    "root": "panjang",
+    "affix_logic": "어근 'panjang'에 기반한 전치사 어휘",
+    "grammar_rule": "문장 내에서 전치사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "selama",
+    "antonym": "sebentar",
+    "context": "실생활 및 회화 상황에서 '~하는 한, 내내'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'panjang'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'sepanjang' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'~하는 한, 내내'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'sepanjang' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '~하는 한, 내내'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "sepanjang",
+        "meaning": "~하는 한"
+      }
+    ]
+  },
+  {
+    "id": "disc_0055",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "selama ini [[스라마 이니]]",
+    "meaning": "그동안 줄곧",
+    "pos": "부사구",
+    "root": "lama",
+    "affix_logic": "어근 'lama'에 기반한 부사구 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "sejauh ini",
+    "antonym": "ke depannya",
+    "context": "실생활 및 회화 상황에서 '그동안 줄곧'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'lama'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'selama ini' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'그동안 줄곧'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'selama ini' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '그동안 줄곧'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "selama",
+        "meaning": "그동안 줄곧"
+      }
+    ]
   }
 ];

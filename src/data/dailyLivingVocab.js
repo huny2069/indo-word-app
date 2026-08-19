@@ -128,5 +128,83 @@ export const dailyLivingVocab = [
         "meaning": "머리 아프다"
       }
     ]
+  },
+  {
+    "id": "life_0006",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "jahe [[자헤]]",
+    "meaning": "생강",
+    "pos": "명사",
+    "root": "jahe",
+    "affix_logic": "어근 'jahe'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "rempah jahe",
+    "antonym": "gula",
+    "context": "실생활 및 회화 상황에서 '생강'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'jahe'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'jahe' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'생강'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'jahe' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '생강'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "jahe",
+        "meaning": "생강"
+      }
+    ]
+  },
+  {
+    "id": "life_0007",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "kunyit [[꾸늣]]",
+    "meaning": "강황",
+    "pos": "명사",
+    "root": "kunyit",
+    "affix_logic": "어근 'kunyit'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "kunir",
+    "antonym": "garam",
+    "context": "실생활 및 회화 상황에서 '강황'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kunyit'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kunyit' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'강황'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kunyit' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '강황'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kunyit",
+        "meaning": "강황"
+      }
+    ]
+  },
+  {
+    "id": "life_0008",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "serai [[스라이]]",
+    "meaning": "레몬그라스",
+    "pos": "명사",
+    "root": "serai",
+    "affix_logic": "어근 'serai'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "serai dapur",
+    "antonym": "daun",
+    "context": "실생활 및 회화 상황에서 '레몬그라스'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'serai'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'serai' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'레몬그라스'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'serai' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '레몬그라스'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "serai",
+        "meaning": "레몬그라스"
+      }
+    ]
   }
 ];

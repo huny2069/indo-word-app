@@ -106,7 +106,12 @@ const discourseRaw = [
   { word: 'semenjak', pron: '스먼작', meaning: '~이래로', pos: '전치사', root: 'sejak', subcat: 'time_trigger_adverbs', syn: 'sejak', ant: 'hingga' },
   { word: 'seusai', pron: '스우사이', meaning: '~가 끝난 뒤', pos: '전치사', root: 'usai', subcat: 'time_trigger_adverbs', syn: 'setelah', ant: 'sebelum' },
   { word: 'lama-kelamaan', pron: '라마끄라마안', meaning: '점차, 시간이 지남에 따라', pos: '부사', root: 'lama', subcat: 'time_trigger_adverbs', syn: 'berangsur-angsur', ant: 'seketika' },
-  { word: 'lambat laun', pron: '람밧 라운', meaning: '서서히, 차츰차츰', pos: '부사', root: 'lambat', subcat: 'time_trigger_adverbs', syn: 'perlahan-lahan', ant: 'mendadak' }
+  { word: 'lambat laun', pron: '람밧 라운', meaning: '서서히, 차츰차츰', pos: '부사', root: 'lambat', subcat: 'time_trigger_adverbs', syn: 'perlahan-lahan', ant: 'mendadak' },
+  { word: 'lagian', pron: '라기안', meaning: '어차피 또, 게다가', pos: '접속사', root: 'lagi', subcat: 'logic_connectors', syn: 'lagipula', ant: 'hanya saja' },
+  { word: 'makanya', pron: '마까냐', meaning: '그러니까, 그래서', pos: '접속사', root: 'maka', subcat: 'logic_connectors', syn: 'oleh karena itu', ant: 'padahal' },
+  { word: 'seiring dengan', pron: '스이링 등안', meaning: '~와 발맞추어', pos: '전치사구', root: 'iring', subcat: 'logic_connectors', syn: 'bersamaan dengan', ant: 'terlepas dari' },
+  { word: 'sepanjang', pron: '스빤장', meaning: '~하는 한, 내내', pos: '전치사', root: 'panjang', subcat: 'logic_connectors', syn: 'selama', ant: 'sebentar' },
+  { word: 'selama ini', pron: '스라마 이니', meaning: '그동안 줄곧', pos: '부사구', root: 'lama', subcat: 'time_trigger_adverbs', syn: 'sejauh ini', ant: 'ke depannya' }
 ];
 
 const discourseCompiled = [];
@@ -159,7 +164,10 @@ const emotionsRaw = [
   { word: 'terenyuh', pron: '뜨르뉴', meaning: '마음이 찡하다', pos: '형용사', root: 'renyuh', subcat: 'deep_emotions', syn: 'tersentuh', ant: 'dingin' },
   { word: 'merana', pron: '머라나', meaning: '수척해지다, 속앓이하다', pos: '동사', root: 'rana', subcat: 'deep_emotions', syn: 'menderita', ant: 'bahagia' },
   { word: 'panas hati', pron: '빠나스 하티', meaning: '분통이 터지다', pos: '형용사구', root: 'panas', subcat: 'deep_emotions', syn: 'murka', ant: 'dingin hati' },
-  { word: 'berat hati', pron: '브랏 하티', meaning: '마음이 무겁다', pos: '형용사구', root: 'berat', subcat: 'deep_emotions', syn: 'enggan', ant: 'senang hati' }
+  { word: 'berat hati', pron: '브랏 하티', meaning: '마음이 무겁다', pos: '형용사구', root: 'berat', subcat: 'deep_emotions', syn: 'enggan', ant: 'senang hati' },
+  { word: 'ringan tangan', pron: '링안 땅안', meaning: '남을 돕기 좋아하다', pos: '형용사구', root: 'tangan', subcat: 'personality_attitude', syn: 'suka menolong', ant: 'pelit' },
+  { word: 'telinga tipis', pron: '뜰링아 띠삐스', meaning: '귀가 얇다', pos: '형용사구', root: 'telinga', subcat: 'personality_attitude', syn: 'gampang percaya', ant: 'teguh pendirian' },
+  { word: 'panas terik', pron: '빠나스 뜨릭', meaning: '햇볕이 쨍쨍 내리쬐다', pos: '형용사구', root: 'terik', subcat: 'senses_and_states', syn: 'menyengat', ant: 'teduh' }
 ];
 
 const emotionsCompiled = [];
@@ -200,7 +208,12 @@ const affixRaw = [
   { word: 'mempercepat', pron: '멈뻐르쯔빳', meaning: '가속화하다', pos: '동사', root: 'cepat', subcat: 'per_memper_verbs', syn: 'mendorong', ant: 'memperlambat' },
   { word: 'memperluas', pron: '멈뻐르루아스', meaning: '확장하다', pos: '동사', root: 'luas', subcat: 'per_memper_verbs', syn: 'melebarkan', ant: 'menyempitkan' },
   { word: 'mempelajari', pron: '멈쁠라자리', meaning: '배우다, 연구하다', pos: '동사', root: 'ajar', subcat: 'causative_locative_verbs', syn: 'mengkaji', ant: 'mengabaikan' },
-  { word: 'memperkuat', pron: '멈뻐르꾸앗', meaning: '강화하다', pos: '동사', root: 'kuat', subcat: 'per_memper_verbs', syn: 'menegaskan', ant: 'memperlemah' }
+  { word: 'memperkuat', pron: '멈뻐르꾸앗', meaning: '강화하다', pos: '동사', root: 'kuat', subcat: 'per_memper_verbs', syn: 'menegaskan', ant: 'memperlemah' },
+  { word: 'membawa', pron: '멈바와', meaning: '가져오다, 지참하다', pos: '동사', root: 'bawa', subcat: 'me_active_verbs', syn: 'mengangkut', ant: 'meninggalkan' },
+  { word: 'mengirim', pron: '멍이림', meaning: '보내다, 발송하다', pos: '동사', root: 'kirim', subcat: 'me_active_verbs', syn: 'transmisi', ant: 'menerima' },
+  { word: 'menerima', pron: '머느리마', meaning: '받다, 수락하다', pos: '동사', root: 'terima', subcat: 'me_active_verbs', syn: 'menampung', ant: 'menolak' },
+  { word: 'membayar', pron: '멈바야르', meaning: '지불하다', pos: '동사', root: 'bayar', subcat: 'me_active_verbs', syn: 'melunasi', ant: 'menunggak' },
+  { word: 'menemukan', pron: '머느무깐', meaning: '발견하다', pos: '동사', root: 'temu', subcat: 'causative_locative_verbs', syn: 'mendapati', ant: 'menghilangkan' }
 ];
 
 const affixCompiled = [];
@@ -235,7 +248,9 @@ const slangRaw = [
   { word: 'curhat', pron: '쭈르핫', meaning: '속마음을 털어놓다', pos: '동사', root: 'curah', subcat: 'slang_abbreviations', syn: 'curah hati', ant: 'memendam' },
   { word: 'bungkus', pron: '붕꾸스', meaning: '포장하다', pos: '동사', root: 'bungkus', subcat: 'daily_life_survival', syn: 'take away', ant: 'makan di tempat' },
   { word: 'woles', pron: '월레스', meaning: '슬로우하게, 침착하게', pos: '형용사', root: 'selow', subcat: 'slang_abbreviations', syn: 'santai', ant: 'panik' },
-  { word: 'mantul', pron: '만뚤', meaning: '대박이다, 끝내준다', pos: '형용사', root: 'mantap', subcat: 'slang_abbreviations', syn: 'keren', ant: 'buruk' }
+  { word: 'mantul', pron: '만뚤', meaning: '대박이다, 끝내준다', pos: '형용사', root: 'mantap', subcat: 'slang_abbreviations', syn: 'keren', ant: 'buruk' },
+  { word: 'bestie', pron: '베스띠', meaning: '단짝 친구, 찐친', pos: '명사', root: 'best', subcat: 'slang_abbreviations', syn: 'sahabat karib', ant: 'musuh' },
+  { word: 'gokil abis', pron: '고낄 아비스', meaning: '상상초월로 웃기다', pos: '형용사구', root: 'gila', subcat: 'slang_abbreviations', syn: 'kocak banget', ant: 'garing' }
 ];
 
 const slangCompiled = [];
@@ -267,7 +282,9 @@ const bipaRaw = [
   { word: 'membutuhkan', pron: '멈부뚜깐', meaning: '필요로 하다', pos: '동사', root: 'butuh', subcat: 'bipa_beginner', syn: 'memerlukan', ant: 'menolak' },
   { word: 'mengembangkan', pron: '멍엠방깐', meaning: '발전시키다', pos: '동사', root: 'kembang', subcat: 'bipa_intermediate', syn: 'memajukan', ant: 'menurunkan' },
   { word: 'berdasarkan', pron: '버르다사르깐', meaning: '~에 근거하여', pos: '전치사', root: 'dasar', subcat: 'bipa_intermediate', syn: 'berlandaskan', ant: 'sembarangan' },
-  { word: 'mempengaruhi', pron: '멈빵아루히', meaning: '영향을 미치다', pos: '동사', root: 'pengaruh', subcat: 'bipa_intermediate', syn: 'berdampak pada', ant: 'diabaikan' }
+  { word: 'mempengaruhi', pron: '멈빵아루히', meaning: '영향을 미치다', pos: '동사', root: 'pengaruh', subcat: 'bipa_intermediate', syn: 'berdampak pada', ant: 'diabaikan' },
+  { word: 'investasi', pron: '인베스따시', meaning: '투자', pos: '명사', root: 'investasi', subcat: 'bipa_advanced', syn: 'penanaman modal', ant: 'penarikan dana' },
+  { word: 'perdagangan', pron: '쁘르다가앙안', meaning: '상업, 무역', pos: '명사', root: 'dagang', subcat: 'bipa_intermediate', syn: 'niaga', ant: 'konsumsi mandiri' }
 ];
 
 const bipaCompiled = [];
@@ -299,7 +316,10 @@ const dailyLivingRaw = [
   { word: 'sambal', pron: '삼발', meaning: '전통 고추 소스', pos: '명사', root: 'sambal', subcat: 'food_cooking_dining', syn: 'saus cabai', ant: 'kecap manis' },
   { word: 'macet', pron: '마쳇', meaning: '교통 체증, 막히다', pos: '형용사', root: 'macet', subcat: 'transport_travel_map', syn: 'padat merayap', ant: 'lancar' },
   { word: 'lancar', pron: '란짜르', meaning: '원활하다, 막힘없다', pos: '형용사', root: 'lancar', subcat: 'transport_travel_map', syn: 'mulus', ant: 'macet' },
-  { word: 'pusing', pron: '뿌싱', meaning: '머리 아프다, 어지럽다', pos: '형용사', root: 'pusing', subcat: 'body_health_hospital', syn: 'sakit kepala', ant: 'segar' }
+  { word: 'pusing', pron: '뿌싱', meaning: '머리 아프다, 어지럽다', pos: '형용사', root: 'pusing', subcat: 'body_health_hospital', syn: 'sakit kepala', ant: 'segar' },
+  { word: 'jahe', pron: '자헤', meaning: '생강', pos: '명사', root: 'jahe', subcat: 'food_cooking_dining', syn: 'rempah jahe', ant: 'gula' },
+  { word: 'kunyit', pron: '꾸늣', meaning: '강황', pos: '명사', root: 'kunyit', subcat: 'food_cooking_dining', syn: 'kunir', ant: 'garam' },
+  { word: 'serai', pron: '스라이', meaning: '레몬그라스', pos: '명사', root: 'serai', subcat: 'food_cooking_dining', syn: 'serai dapur', ant: 'daun' }
 ];
 
 const dailyLivingCompiled = [];

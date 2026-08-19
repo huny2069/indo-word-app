@@ -674,5 +674,83 @@ export const emotionsNuances = [
         "meaning": "마음이 무겁다"
       }
     ]
+  },
+  {
+    "id": "emo_0027",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "ringan tangan [[링안 땅안]]",
+    "meaning": "남을 돕기 좋아하다",
+    "pos": "형용사구",
+    "root": "tangan",
+    "affix_logic": "어근 'tangan'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "suka menolong",
+    "antonym": "pelit",
+    "context": "실생활 및 회화 상황에서 '남을 돕기 좋아하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'tangan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'ringan tangan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'남을 돕기 좋아하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ringan tangan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '남을 돕기 좋아하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "ringan",
+        "meaning": "남을 돕기 좋아하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0028",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "telinga tipis [[뜰링아 띠삐스]]",
+    "meaning": "귀가 얇다",
+    "pos": "형용사구",
+    "root": "telinga",
+    "affix_logic": "어근 'telinga'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "gampang percaya",
+    "antonym": "teguh pendirian",
+    "context": "실생활 및 회화 상황에서 '귀가 얇다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'telinga'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'telinga tipis' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'귀가 얇다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'telinga tipis' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '귀가 얇다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "telinga",
+        "meaning": "귀가 얇다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0029",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "panas terik [[빠나스 뜨릭]]",
+    "meaning": "햇볕이 쨍쨍 내리쬐다",
+    "pos": "형용사구",
+    "root": "terik",
+    "affix_logic": "어근 'terik'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "menyengat",
+    "antonym": "teduh",
+    "context": "실생활 및 회화 상황에서 '햇볕이 쨍쨍 내리쬐다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'terik'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'panas terik' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'햇볕이 쨍쨍 내리쬐다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'panas terik' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '햇볕이 쨍쨍 내리쬐다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "panas",
+        "meaning": "햇볕이 쨍쨍 내리쬐다"
+      }
+    ]
   }
 ];
