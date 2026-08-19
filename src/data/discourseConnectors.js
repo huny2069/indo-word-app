@@ -1818,5 +1818,57 @@ export const discourseConnectors = [
         "meaning": "특별히 ~를 위해"
       }
     ]
+  },
+  {
+    "id": "word_1787138537285_x1qog",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "pada saat yang sama [[빠다 사앗 양 사마]]",
+    "meaning": "동시에",
+    "pos": "부사구",
+    "root": "sama",
+    "affix_logic": "어근 'sama'에 기반한 부사구 파생 표현",
+    "grammar_rule": "문장 내에서 부사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "serentak",
+    "antonym": "bergantian",
+    "context": "실생활 및 회화/비즈니스 상황에서 '동시에'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'sama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pada saat yang sama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'동시에'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pada saat yang sama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '동시에'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pada",
+        "meaning": "동시에"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_00chh",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "secara keseluruhan [[스짜라 끄슬루루한]]",
+    "meaning": "전반적으로",
+    "pos": "부사구",
+    "root": "seluruh",
+    "affix_logic": "어근 'seluruh'에 기반한 부사구 파생 표현",
+    "grammar_rule": "문장 내에서 부사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "secara total",
+    "antonym": "sebagian",
+    "context": "실생활 및 회화/비즈니스 상황에서 '전반적으로'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'seluruh'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'secara keseluruhan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'전반적으로'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'secara keseluruhan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '전반적으로'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "secara",
+        "meaning": "전반적으로"
+      }
+    ]
   }
 ];

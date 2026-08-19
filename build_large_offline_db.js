@@ -94,57 +94,42 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 한번에 수백 개 대규모 어휘 주입 데이터셋
+// 🚀 한번에 수백 개 대규모 어휘 추가 데이터셋
 const massiveBatch = [
-  // Discourse
-  { word: 'dengan kata lain', pron: '등안 까따 라인', meaning: '다시 말해서', pos: '부사구', root: 'kata', cat: 'discourse', subcat: 'logic_connectors', syn: 'yaitu, yakni', ant: 'sebaliknya' },
-  { word: 'singkat kata', pron: '싱깟 까따', meaning: '요약하자면', pos: '부사구', root: 'singkat', cat: 'discourse', subcat: 'logic_connectors', syn: 'ringkasnya', ant: 'panjang lebar' },
-  { word: 'ringkasnya', pron: '링까스냐', meaning: '간단히 말해', pos: '부사', root: 'ringkas', cat: 'discourse', subcat: 'logic_connectors', syn: 'singkatnya', ant: 'secara mendetail' },
-  { word: 'pada umumnya', pron: '빠다 우뭄냐', meaning: '일반적으로는', pos: '부사구', root: 'umum', cat: 'discourse', subcat: 'logic_connectors', syn: 'secara umum', ant: 'khususnya' },
-  { word: 'khusus untuk', pron: '쿠수스 운뚝', meaning: '특별히 ~를 위해', pos: '전치사구', root: 'khusus', cat: 'discourse', subcat: 'logic_connectors', syn: 'terutama untuk', ant: 'secara acak' },
-  { word: 'oleh sebab itu', pron: '올레 스밥 이뚜', meaning: '그러한 까닭으로', pos: '접속사', root: 'sebab', cat: 'discourse', subcat: 'logic_connectors', syn: 'oleh karena itu', ant: 'kendati demikian' },
-  { word: 'sehubungan dengan', pron: '스후붕안 등안', meaning: '~와 관련하여', pos: '전치사구', root: 'hubung', cat: 'discourse', subcat: 'logic_connectors', syn: 'berkenaan dengan', ant: 'terlepas dari' },
+  // 1. Discourse Connectors
+  { word: 'sementara itu', pron: '스먼따라 이뚜', meaning: '그러는 와중에', pos: '접속사', root: 'antara', cat: 'discourse', subcat: 'time_trigger_adverbs', syn: 'selagi itu', ant: 'setelahnya' },
+  { word: 'pada saat yang sama', pron: '빠다 사앗 양 사마', meaning: '동시에', pos: '부사구', root: 'sama', cat: 'discourse', subcat: 'time_trigger_adverbs', syn: 'serentak', ant: 'bergantian' },
+  { word: 'dengan kata lain', pron: '등안 까따 라인', meaning: '다시 말해', pos: '부사구', root: 'kata', cat: 'discourse', subcat: 'logic_connectors', syn: 'yakni', ant: 'sebaliknya' },
+  { word: 'secara keseluruhan', pron: '스짜라 끄슬루루한', meaning: '전반적으로', pos: '부사구', root: 'seluruh', cat: 'discourse', subcat: 'logic_connectors', syn: 'secara total', ant: 'sebagian' },
 
-  // Emotions
-  { word: 'cemburu buta', pron: '쩜부루 부따', meaning: '눈먼 질투를 하다', pos: '형용사구', root: 'cemburu', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'iri sekali', ant: 'percaya penuh' },
-  { word: 'berjiwa besar', pron: '버르지와 브사르', meaning: '도량이 넓다', pos: '형용사구', root: 'jiwa', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'lapang dada', ant: 'sempit hati' },
-  { word: 'sempit hati', pron: '슴빳 하티', meaning: '속이 좁다', pos: '형용사구', root: 'sempit', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'kikir, picik', ant: 'berjiwa besar' },
-  { word: 'besar kepala', pron: '브사르 끄빨라', meaning: '우쭐대다', pos: '형용사구', root: 'besar', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'sombong', ant: 'rendah hati' },
-  { word: 'rendah diri', pron: '른다 디리', meaning: '자격지심을 느끼다', pos: '형용사구', root: 'rendah', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'minder', ant: 'percaya diri' },
-  { word: 'percaya diri', pron: '쁘르짜야 디리', meaning: '자신감이 넘치다', pos: '형용사구', root: 'percaya', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'pede', ant: 'rendah diri, minder' },
+  // 2. Emotions & Nuances
+  { word: 'naik darah', pron: '나익 다라', meaning: '욱하다, 뚜껑 열리다', pos: '동사구', root: 'darah', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'marah besar', ant: 'tenang' },
+  { word: 'tengsi gengsi', pron: '떵시 겡시', meaning: '체면 차리다', pos: '형용사구', root: 'gengsi', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'jaim', ant: 'apa adanya' },
+  { word: 'kemakan omongan', pron: '끄마깐 오몽안', meaning: '제 꾀에 넘어가다', pos: '동사구', root: 'omong', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'terjerat kata sendiri', ant: 'konsisten' },
+  { word: 'rendah hati', pron: '른다 하티', meaning: '겸손하다', pos: '형용사구', root: 'hati', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'tawaduk', ant: 'sombong' },
 
-  // Affix Verbs
-  { word: 'memimpin', pron: '머ميم삔', meaning: '이끌다, 리도하다', pos: '동사', root: 'pimpin', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'mengarahkan', ant: 'mengikuti' },
-  { word: 'mengikuti', pron: '멍이꾸띠', meaning: '따르다', pos: '동사', root: 'ikut', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'mengekor', ant: 'memimpin' },
-  { word: 'mengakhiri', pron: '멍아키리', meaning: '종결하다', pos: '동사', root: 'akhir', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'menuntaskan', ant: 'memulai' },
-  { word: 'memulai', pron: '멈무라이', meaning: '착수하다', pos: '동사', root: 'mula', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'mengawali', ant: 'mengakhiri' },
-  { word: 'mendorong', pron: '믄도롱', meaning: '밀다, 진작시키다', pos: '동사', root: 'dorong', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'memotivasi', ant: 'menarik' },
-  { word: 'menarik', pron: '머나릭', meaning: '당기다, 끌다', pos: '동사', root: 'tarik', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'memikat', ant: 'mendorong' },
+  // 3. Affix Verbs
+  { word: 'mendorong', pron: '믄도롱', meaning: '추진하다', pos: '동사', root: 'dorong', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'memotivasi', ant: 'menahan' },
+  { word: 'menghambat', pron: '멍함밧', meaning: '방해하다, 지체시키다', pos: '동사', root: 'hambat', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'merintangi', ant: 'mempercepat' },
+  { word: 'mempercepat', pron: '멈뻐르쯔빳', meaning: '재촉하다, 단축하다', pos: '동사', root: 'cepat', cat: 'affix_verbs', subcat: 'per_memper_verbs', syn: 'mendorong', ant: 'menghambat' },
+  { word: 'memperkuat', pron: '멈뻐르꾸앗', meaning: '공고히 하다', pos: '동사', root: 'kuat', cat: 'affix_verbs', subcat: 'per_memper_verbs', syn: 'mengukuhkan', ant: 'memperlemah' },
 
-  // Slang
-  { word: 'mageran parah', pron: '마게란 빠라', meaning: '극강의 귀차니스트', pos: '형용사구', root: 'gerak', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'pemalas sekali', ant: 'rajin banget' },
-  { word: 'baperan banget', pron: '바뻬란 방앗', meaning: '유리멘탈인', pos: '형용사구', root: 'rasa', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'sensitif sekali', ant: 'cuek habisan' },
-  { word: 'pede habisan', pron: '쁘데 하비산', meaning: '근수저 자신감 폭발', pos: '형용사구', root: 'percaya', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'percaya diri tinggi', ant: 'minder' },
+  // 4. Slang & Daily Spoken
+  { word: 'ngabers', pron: '응아베르스', meaning: '오토바이 폭주족 슬랭', pos: '명사', root: 'ngab', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'pemotor jalanan', ant: 'pengendara tertib' },
+  { word: 'anak nongkrong', pron: '아낙 농끄롱', meaning: '수다족', pos: '명사구', root: 'nongkrong', cat: 'slang_daily_spoken', subcat: 'daily_life_survival', syn: 'penggemar kumpul', ant: 'rumahan' },
+  { word: 'bocil kematian', pron: '보찔 끄마띠안', meaning: '트롤짓 하는 꼬맹이', pos: '명사구', root: 'bocah', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'anak pembuat rusuh', ant: 'anak penurut' },
 
-  // BIPA
-  { word: 'kebijakan publik', pron: '끄비자깐 뿌블릭', meaning: '공공 정책', pos: '명사구', root: 'bijak', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'peraturan pemerintah', ant: 'kebijakan pribadi' },
-  { word: 'hubungan bilateral', pron: '후붕안 비라뜨랄', meaning: '양국 외교 관계', pos: '명사구', root: 'hubung', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'kerjasama antarnegara', ant: 'konflik' },
-  { word: 'hak asasi manusia', pron: '학 아사시 마누시아', meaning: '세계 인권', pos: '명사구', root: 'hak', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'ham', ant: 'pelanggaran hak' },
+  // 5. BIPA Topics
+  { word: 'kesejahteraan masyarakat', pron: '끄스자흐뜨라안 마샤라깟', meaning: '대중 복지', pos: '명사구', root: 'sejahtera', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'kemakmuran rakyat', ant: 'kemiskinan' },
+  { word: 'kemiskinan ekstrem', pron: '끄미스끼난 엑스뜨렘', meaning: '극심한 빈곤', pos: '명사구', root: 'miskin', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'kemiskinan parah', ant: 'kecukupan' },
 
-  // Daily Living
-  { word: 'kopi tubruk', pron: '꼬삐 뚜브룩', meaning: '전통 가루 커피', pos: '명사구', root: 'kopi', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'kopi hitam', ant: 'kopi instan' },
-  { word: 'kopi susu gula aren', pron: '꼬삐 수수 굴라 아렌', meaning: '야자당 연유 커피', pos: '명사구', root: 'kopi', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'kopi aren', ant: 'air putih' },
-  { word: 'kerupuk', pron: '끄루뿍', meaning: '전통 칩', pos: '명사', root: 'kerupuk', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'krupuk renyah', ant: 'nasi' },
-  { word: 'papan tulis', pron: '빠판 뚜리스', meaning: '칠판', pos: '명사구', root: 'papan', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'board', ant: 'buku' },
-  { word: 'kartu nama', pron: '까르뚜 나마', meaning: '명함', pos: '명사구', root: 'kartu', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'namecard', ant: 'surat' },
-  { word: 'ayam bakar', pron: '아얌 바까르', meaning: '숯불 닭구이', pos: '명사', root: 'bakar', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'ayam panggang', ant: 'ayam rebus' },
-  { word: 'ikan goreng', pron: '이깐 고렝', meaning: '생선 튀김', pos: '명사', root: 'ikan', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'ikan krispi', ant: 'ikan kukus' },
-  { word: 'jus alpukat', pron: '주스 알뿌깟', meaning: '아보카도 주스', pos: '명사', root: 'jus', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'olahan alpukat', ant: 'air putih' },
-  { word: 'bandara', pron: '반다라', meaning: '공항', pos: '명사', root: 'udara', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'bandar udara', ant: 'stasiun' },
-  { word: 'halte bus', pron: '할뜨 버스', meaning: '버스 정류장', pos: '명사', root: 'halte', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'stasiun bus', ant: 'terminal' },
-  { word: 'kamar tidur', pron: '까마르 띠두르', meaning: '침실', pos: '명사구', root: 'kamar', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'ruang tidur', ant: 'kamar mandi' },
-  { word: 'mesin cuci', pron: '머신 쭈찌', meaning: '세탁기', pos: '명사구', root: 'mesin', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'alat pencuci', ant: 'ember' },
-  { word: 'kulkas dua pintu', pron: '쿨까스 두아 뺜뚜', meaning: '양문형 냉장고', pos: '명사구', root: 'kulkas', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'lemari es', ant: 'kompor' }
+  // 6. Daily Living Vocab
+  { word: 'kopi tubruk manis', pron: '꼬삐 뚜브룩 마니스', meaning: '단맛 전통 커피', pos: '명사구', root: 'kopi', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'kopi manis', ant: 'kopi pahit' },
+  { word: 'es jeruk nipis', pron: '에스 저룩 니삐스', meaning: '아이스 라임 주스', pos: '명사구', root: 'jeruk', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'es limau', ant: 'teh hangat' },
+  { word: 'sate kambing', pron: '사떼 까మ్빙', meaning: '염소고기 꼬치 구이', pos: '명사구', root: 'sate', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'olahan kambing', ant: 'sate ayam' },
+  { word: 'sop buntut sapi', pron: '솝 분뚯 사삐', meaning: '소꼬리 곰탕', pos: '명사구', root: 'sop', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'sup ekor', ant: 'nasi' },
+  { word: 'stasiun kota', pron: '스따시운 꼬따', meaning: '도심 중앙 기차역', pos: '명사구', root: 'stasiun', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'stasiun pusat', ant: 'bandara' },
+  { word: 'helm sni', pron: '헬름 에스엔아이', meaning: '공인 규격 헬멧', pos: '명사구', root: 'helm', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'pelindung kepala', ant: 'topi' }
 ];
 
 massiveBatch.forEach(item => {
@@ -171,7 +156,7 @@ const totalAccumulatedCount = globalWordSet.size;
 const remainingCount = TARGET_GOAL - totalAccumulatedCount;
 
 console.log(`\n======================================================`);
-console.log(`🎉 [초대규모 누적 데이터베이스 생성 성공]`);
+console.log(`🎉 [대규모 연속 누적 데이터베이스 확장 성공]`);
 console.log(`- 전체 파일에 영구 누적된 총 고유 단어 수: ${totalAccumulatedCount}개`);
 console.log(`- 1만 단어 목표까지 남은 단어 수: ${remainingCount}개`);
 console.log(`- 진행률: ${((totalAccumulatedCount / TARGET_GOAL) * 100).toFixed(2)}%`);

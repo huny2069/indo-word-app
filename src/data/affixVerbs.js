@@ -804,5 +804,31 @@ export const affixVerbs = [
         "meaning": "따르다"
       }
     ]
+  },
+  {
+    "id": "word_1787138537285_k989c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghambat [[멍함밧]]",
+    "meaning": "방해하다, 지체시키다",
+    "pos": "동사",
+    "root": "hambat",
+    "affix_logic": "어근 'hambat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "merintangi",
+    "antonym": "mempercepat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '방해하다, 지체시키다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'hambat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghambat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'방해하다, 지체시키다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghambat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '방해하다, 지체시키다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghambat",
+        "meaning": "방해하다"
+      }
+    ]
   }
 ];

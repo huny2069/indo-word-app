@@ -778,5 +778,161 @@ export const dailyLivingVocab = [
         "meaning": "양문형 냉장고"
       }
     ]
+  },
+  {
+    "id": "word_1787138537285_b5yfh",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "kopi tubruk manis [[꼬삐 뚜브룩 마니스]]",
+    "meaning": "단맛 전통 커피",
+    "pos": "명사구",
+    "root": "kopi",
+    "affix_logic": "어근 'kopi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "kopi manis",
+    "antonym": "kopi pahit",
+    "context": "실생활 및 회화/비즈니스 상황에서 '단맛 전통 커피'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'kopi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'kopi tubruk manis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'단맛 전통 커피'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kopi tubruk manis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '단맛 전통 커피'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kopi",
+        "meaning": "단맛 전통 커피"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_ds9bp",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "es jeruk nipis [[에스 저룩 니삐스]]",
+    "meaning": "아이스 라임 주스",
+    "pos": "명사구",
+    "root": "jeruk",
+    "affix_logic": "어근 'jeruk'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "es limau",
+    "antonym": "teh hangat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '아이스 라임 주스'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'jeruk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'es jeruk nipis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'아이스 라임 주스'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'es jeruk nipis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '아이스 라임 주스'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "es",
+        "meaning": "아이스 라임 주스"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_p0vv6",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "sate kambing [[사떼 까మ్빙]]",
+    "meaning": "염소고기 꼬치 구이",
+    "pos": "명사구",
+    "root": "sate",
+    "affix_logic": "어근 'sate'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "olahan kambing",
+    "antonym": "sate ayam",
+    "context": "실생활 및 회화/비즈니스 상황에서 '염소고기 꼬치 구이'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'sate'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'sate kambing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'염소고기 꼬치 구이'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'sate kambing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '염소고기 꼬치 구이'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "sate",
+        "meaning": "염소고기 꼬치 구이"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_45heg",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "sop buntut sapi [[솝 분뚯 사삐]]",
+    "meaning": "소꼬리 곰탕",
+    "pos": "명사구",
+    "root": "sop",
+    "affix_logic": "어근 'sop'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "sup ekor",
+    "antonym": "nasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '소꼬리 곰탕'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'sop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'sop buntut sapi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'소꼬리 곰탕'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'sop buntut sapi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '소꼬리 곰탕'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "sop",
+        "meaning": "소꼬리 곰탕"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_vhojf",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "stasiun kota [[스따시운 꼬따]]",
+    "meaning": "도심 중앙 기차역",
+    "pos": "명사구",
+    "root": "stasiun",
+    "affix_logic": "어근 'stasiun'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "stasiun pusat",
+    "antonym": "bandara",
+    "context": "실생활 및 회화/비즈니스 상황에서 '도심 중앙 기차역'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'stasiun'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'stasiun kota' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'도심 중앙 기차역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'stasiun kota' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '도심 중앙 기차역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "stasiun",
+        "meaning": "도심 중앙 기차역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_kl0gf",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "helm sni [[헬름 에스엔아이]]",
+    "meaning": "공인 규격 헬멧",
+    "pos": "명사구",
+    "root": "helm",
+    "affix_logic": "어근 'helm'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "pelindung kepala",
+    "antonym": "topi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '공인 규격 헬멧'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'helm'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'helm sni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'공인 규격 헬멧'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'helm sni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '공인 규격 헬멧'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "helm",
+        "meaning": "공인 규격 헬멧"
+      }
+    ]
   }
 ];

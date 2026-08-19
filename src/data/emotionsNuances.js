@@ -1142,5 +1142,109 @@ export const emotionsNuances = [
         "meaning": "자신감이 넘치다"
       }
     ]
+  },
+  {
+    "id": "word_1787138537285_4p1dn",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "naik darah [[나익 다라]]",
+    "meaning": "욱하다, 뚜껑 열리다",
+    "pos": "동사구",
+    "root": "darah",
+    "affix_logic": "어근 'darah'에 기반한 동사구 파생 표현",
+    "grammar_rule": "문장 내에서 동사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "marah besar",
+    "antonym": "tenang",
+    "context": "실생활 및 회화/비즈니스 상황에서 '욱하다, 뚜껑 열리다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'darah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'naik darah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'욱하다, 뚜껑 열리다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'naik darah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '욱하다, 뚜껑 열리다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "naik",
+        "meaning": "욱하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_0k0jv",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "tengsi gengsi [[떵시 겡시]]",
+    "meaning": "체면 차리다",
+    "pos": "형용사구",
+    "root": "gengsi",
+    "affix_logic": "어근 'gengsi'에 기반한 형용사구 파생 표현",
+    "grammar_rule": "문장 내에서 형용사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "jaim",
+    "antonym": "apa adanya",
+    "context": "실생활 및 회화/비즈니스 상황에서 '체면 차리다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'gengsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tengsi gengsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'체면 차리다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tengsi gengsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '체면 차리다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tengsi",
+        "meaning": "체면 차리다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_ajn6f",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "kemakan omongan [[끄마깐 오몽안]]",
+    "meaning": "제 꾀에 넘어가다",
+    "pos": "동사구",
+    "root": "omong",
+    "affix_logic": "어근 'omong'에 기반한 동사구 파생 표현",
+    "grammar_rule": "문장 내에서 동사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "terjerat kata sendiri",
+    "antonym": "konsisten",
+    "context": "실생활 및 회화/비즈니스 상황에서 '제 꾀에 넘어가다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'omong'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'kemakan omongan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'제 꾀에 넘어가다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kemakan omongan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '제 꾀에 넘어가다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kemakan",
+        "meaning": "제 꾀에 넘어가다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_v2hnn",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "rendah hati [[른다 하티]]",
+    "meaning": "겸손하다",
+    "pos": "형용사구",
+    "root": "hati",
+    "affix_logic": "어근 'hati'에 기반한 형용사구 파생 표현",
+    "grammar_rule": "문장 내에서 형용사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "tawaduk",
+    "antonym": "sombong",
+    "context": "실생활 및 회화/비즈니스 상황에서 '겸손하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'hati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'rendah hati' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'겸손하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'rendah hati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '겸손하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "rendah",
+        "meaning": "겸손하다"
+      }
+    ]
   }
 ];

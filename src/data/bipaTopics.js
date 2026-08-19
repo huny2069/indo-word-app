@@ -388,5 +388,57 @@ export const bipaTopics = [
         "meaning": "세계 인권"
       }
     ]
+  },
+  {
+    "id": "word_1787138537285_94qnz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "kesejahteraan masyarakat [[끄스자흐뜨라안 마샤라깟]]",
+    "meaning": "대중 복지",
+    "pos": "명사구",
+    "root": "sejahtera",
+    "affix_logic": "어근 'sejahtera'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "kemakmuran rakyat",
+    "antonym": "kemiskinan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '대중 복지'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'sejahtera'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'kesejahteraan masyarakat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'대중 복지'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kesejahteraan masyarakat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '대중 복지'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kesejahteraan",
+        "meaning": "대중 복지"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138537285_n65st",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "kemiskinan ekstrem [[끄미스끼난 엑스뜨렘]]",
+    "meaning": "극심한 빈곤",
+    "pos": "명사구",
+    "root": "miskin",
+    "affix_logic": "어근 'miskin'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "kemiskinan parah",
+    "antonym": "kecukupan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '극심한 빈곤'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'miskin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'kemiskinan ekstrem' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'극심한 빈곤'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kemiskinan ekstrem' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '극심한 빈곤'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kemiskinan",
+        "meaning": "극심한 빈곤"
+      }
+    ]
   }
 ];

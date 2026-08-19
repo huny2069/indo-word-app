@@ -492,5 +492,31 @@ export const slangDailySpoken = [
         "meaning": "근수저 자신감 폭발"
       }
     ]
+  },
+  {
+    "id": "word_1787138537285_lupoq",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "bocil kematian [[보찔 끄마띠안]]",
+    "meaning": "트롤짓 하는 꼬맹이",
+    "pos": "명사구",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "anak pembuat rusuh",
+    "antonym": "anak penurut",
+    "context": "실생활 및 회화/비즈니스 상황에서 '트롤짓 하는 꼬맹이'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'bocah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bocil kematian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'트롤짓 하는 꼬맹이'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bocil kematian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '트롤짓 하는 꼬맹이'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bocil",
+        "meaning": "트롤짓 하는 꼬맹이"
+      }
+    ]
   }
 ];
