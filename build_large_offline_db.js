@@ -94,22 +94,21 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 4차 대규모 800+ 어휘 주입 어근 파이프라인 (비즈니스/법률/IT/과학/사회 전문 어근 100개)
-const coreRootsBatch4 = [
-  'adaptasi', 'adisi', 'adopsi', 'afirmasi', 'akreditasi', 'akuisisi', 'akomodasi', 'akumulasi', 'alokasi', 'apresiasi',
-  'asimilasi', 'asosiasi', 'asumsi', 'otentikasi', 'otorisasi', 'deklasifikasi', 'dekorasi', 'delegasi', 'demoralisasi', 'depresiasi',
-  'desentralisasi', 'deteksi', 'diferensiasi', 'difusi', 'digitalisasi', 'diplomasi', 'diskriminasi', 'disertasi', 'distribusi', 'diversifikasi',
-  'dominasi', 'edukasi', 'efisiensi', 'eksistensi', 'ekspansi', 'eksplorasi', 'eksposisi', 'ekstraksi', 'emansi', 'emansipasi',
-  'emigrasi', 'emisi', 'evaluasi', 'evolusi', 'fabrikasi', 'fasilitasi', 'federasi', 'fluktuasi', 'formulasi', 'generalisasi',
-  'globalisasi', 'harmonisasi', 'identifikasi', 'ilustrasi', 'imigrasi', 'implementasi', 'implikasi', 'indikat', 'indikasi', 'indoktrinasi',
-  'induksi', 'industrialisasi', 'infiltrasi', 'inflasi', 'informasi', 'inisiasi', 'inovasi', 'inspeksi', 'instalasi', 'institusi',
-  'integrasi', 'interaksi', 'intervensi', 'investigasi', 'isolasi', 'justifikasi', 'kualifikasi', 'klasifikasi', 'kombinasi', 'kompensasi',
-  'kompilasi', 'komunikasi', 'konfirmasi', 'konfrontasi', 'konsolidasi', 'konspirasi', 'konstruksi', 'konsultasi', 'kontaminasi', 'kontemplasi'
+// 🚀 5차 대규모 800+ 어휘 주입 어근 파이프라인 (사회/법률/행정/IT 전문 어근 100개)
+const coreRootsBatch5 = [
+  'koordinasi', 'koreksi', 'korelasi', 'kristalisasi', 'kualifikasi', 'kualitatif', 'kuantitatif', 'legalisasi', 'lisensi', 'likuidasi',
+  'lokalisasi', 'manufaktur', 'manipulasi', 'manifestasi', 'marginalisasi', 'masifikasi', 'mediasi', 'mekanisasi', 'modernisasi', 'monopoli',
+  'motivasi', 'mobilisasi', 'modifikasi', 'multilateral', 'nasionalisasi', 'navigasi', 'negosiasi', 'netralisasi', 'normalisasi', 'observasi',
+  'orientasi', 'organisasi', 'optimalisasi', 'otomatisasi', 'pencitraan', 'penilaian', 'persuasi', 'polarisasi', 'preservasi', 'privatisasi',
+  'publikasi', 'proyeksi', 'proklamasi', 'proteksi', 'provokasi', 'radikalisasi', 'rasionalisasi', 'rehabilitasi', 'rekonstruksi', 'reformasi',
+  'reorganisasi', 'representasi', 'reproduksi', 'restrukturisasi', 'revitalisasi', 'sanksi', 'sertifikasi', 'simulasi', 'sistematisasi', 'sosialisasi',
+  'spesifikasi', 'stabilisasi', 'standardisasi', 'stimulasi', 'substitusi', 'supervisi', 'toleransi', 'transaksi', 'transformasi', 'transisi',
+  'transmigrasi', 'transparansi', 'transportasi', 'urbanisasi', 'validasi', 'variasi', 'vegetasi', 'ventilasi', 'verifikasi', 'visualisasi'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch4.forEach(root => {
+coreRootsBatch5.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
