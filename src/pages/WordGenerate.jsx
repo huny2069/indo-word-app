@@ -48,11 +48,14 @@ const WordGenerate = () => {
   // 다중 선택 체크박스 State
   const [selectedOfflineIds, setSelectedOfflineIds] = useState(new Set());
 
+  // 단어 정규화 헬퍼 (발음기호 [[...]], 대소문자, 공백 제거)
+  const normalizeWord = (str) => (str || '').split('[[')[0].trim().toLowerCase();
+
   // 로컬 단어장 목록 로드 (중복 체크용)
   const refreshLocalWords = async () => {
     try {
       const localWords = await getWords();
-      const wordSet = new Set(localWords.map(w => w.word.split(' ')[0].toLowerCase()));
+      const wordSet = new Set(localWords.map(w => normalizeWord(w.word)));
       setExistingWordMap(wordSet);
     } catch (e) {
       console.error(e);

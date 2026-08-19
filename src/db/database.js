@@ -46,9 +46,12 @@ export const deleteFolder = async (id) => {
 // --- Words API ---
 export const addWord = async (wordData) => {
   const db = await initDB();
-  // 중복 단어 검증: 대소문자 무시하고 찾음
-  const existingWords = await db.getAllFromIndex('words', 'word');
-  const isDuplicate = existingWords.some(w => w.word.toLowerCase() === wordData.word.toLowerCase());
+  // 중복 단어 정밀 검증: 발음 기호([[...]]) 및 대소문자, 공백을 정규화하여 중복 차단
+  const normalizeWord = (str) => (str || '').split('[[')[0].trim().toLowerCase();
+  const targetKey = normalizeWord(wordData.word);
+  
+  const existingWords = await db.getAll('words');
+  const isDuplicate = existingWords.some(w => normalizeWord(w.word) === targetKey);
   
   if (isDuplicate) {
     throw new Error(`이미 존재하는 단어입니다: ${wordData.word}`);
