@@ -54,6 +54,39 @@ function cleanWordKey(w) {
 
 console.log(`📌 기존 파일에 누적된 단어 수: ${globalWordSet.size}개`);
 
+function generateGrammarDetail(w, root, pos) {
+  const cleanW = w.split('[[')[0].trim().toLowerCase();
+  
+  if (cleanW.startsWith('ber')) {
+    const base = cleanW.substring(3);
+    return `어근 '${root || base}'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.`;
+  }
+  if (cleanW.startsWith('meng') || cleanW.startsWith('mem') || cleanW.startsWith('men') || cleanW.startsWith('me')) {
+    let prefix = 'me-';
+    if (cleanW.startsWith('meng')) prefix = 'meng-';
+    else if (cleanW.startsWith('mem')) prefix = 'mem-';
+    else if (cleanW.startsWith('men')) prefix = 'men-';
+    return `어근 '${root}'에 능동 접두사 '${prefix}'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)`;
+  }
+  if (cleanW.startsWith('di')) {
+    return `어근 '${root}'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)`;
+  }
+  if (cleanW.startsWith('ter')) {
+    return `어근 '${root}'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.`;
+  }
+  if (cleanW.startsWith('pe') || cleanW.startsWith('peng') || cleanW.startsWith('pem') || cleanW.startsWith('pen')) {
+    if (cleanW.endsWith('an')) {
+      return `어근 '${root}'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.`;
+    }
+    return `어근 '${root}'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.`;
+  }
+  if (cleanW.startsWith('ke') && cleanW.endsWith('an')) {
+    return `어근 '${root}'에 'ke-' 접두사와 '-an' 접미사가 결합하여 '상태', '성질', 또는 '추상적 개념'을 나타내는 명사를 형성합니다.`;
+  }
+  
+  return `어근 '${root}'(이)가 문장 내에서 ${pos || '어휘'} 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.`;
+}
+
 function createWordItem(item) {
   const key = cleanWordKey(item.word);
   if (!key) return null;
@@ -65,9 +98,42 @@ function createWordItem(item) {
 
   const displayWord = item.pron ? `${item.word} [[${item.pron}]]` : item.word;
   const rootWord = item.root || item.word.split(' ')[0];
+  const cleanW = item.word.split('[[')[0].trim();
 
   const synonymVal = item.syn && item.syn !== '-' ? item.syn : `${item.word}와 유사한 의미의 인도네시아어 어휘`;
   const antonymVal = item.ant && item.ant !== '-' ? item.ant : `${item.word}와 반대되는 뉘앙스의 표현`;
+
+  const grammarRule = item.grammar_rule && !item.grammar_rule.includes('문맥에 맞춰 유연하게') 
+    ? item.grammar_rule 
+    : generateGrammarDetail(item.word, rootWord, item.pos);
+
+  const contextVal = item.context && !item.context.includes('의미로 사용됩니다') 
+    ? item.context 
+    : `'${cleanW}'은(는) principalmente '${item.meaning}'을(를) 뜻하며, ${item.pos || '어휘'}로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.`;
+
+  const cautionVal = item.caution && !item.caution.includes('정중함의 정도에 맞춰')
+    ? item.caution
+    : `어근 '${rootWord}'의 용법에 유의하세요. '${cleanW}' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.`;
+
+  const relatedVal = item.related && !item.related.includes('익히면 외우기 수월합니다')
+    ? item.related
+    : `'${rootWord}' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!`;
+
+  const exFormal = (item.example_formal && !item.example_formal.includes('lazim dalam ragam resmi')) 
+    ? item.example_formal 
+    : `Pemerintah telah menetapkan kebijakan baru terkait ${cleanW} untuk kesejahteraan masyarakat.`;
+
+  const exFormalKr = (item.example_formal_kr && !item.example_formal_kr.includes('뜻하는 표준적인 표현')) 
+    ? item.example_formal_kr 
+    : `정부는 국민들의 복지를 위해 ${item.meaning} 관련 새로운 정책을 수립했습니다.`;
+
+  const exCasual = (item.example_casual && !item.example_casual.includes('sering dipakai dalam percakapan')) 
+    ? item.example_casual 
+    : `Kamu sudah tahu tentang ${cleanW} yang lagi ramai dibicarakan ini?`;
+
+  const exCasualKr = (item.example_casual_kr && !item.example_casual_kr.includes('의미로 자주 쓰여요')) 
+    ? item.example_casual_kr 
+    : `너 요즘 요란하게 이야기되고 있는 ${item.meaning}에 대해 알고 있어?`;
 
   return {
     id: item.id || `word_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
@@ -78,18 +144,19 @@ function createWordItem(item) {
     pos: item.pos,
     root: rootWord,
     affix_logic: item.affix_logic || `어근 '${rootWord}'에 기반한 ${item.pos} 파생 표현`,
-    grammar_rule: item.grammar_rule || `문장 내에서 ${item.pos} 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.`,
+    grammar_rule: grammarRule,
     synonym: synonymVal,
     antonym: antonymVal,
-    context: item.context || `실생활 및 회화/비즈니스 상황에서 '${item.meaning}'의 의미로 사용됩니다.`,
-    caution: item.caution || `상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.`,
-    related: item.related || `어근 '${rootWord}'의 파생 규칙을 함께 익히면 외우기 수월합니다!`,
-    example_formal: item.example_formal || `Penggunaan kata '${item.word}' sangat lazim dalam ragam resmi bahasa Indonesia.`,
-    example_formal_kr: item.example_formal_kr || `'${item.meaning}'을(를) 뜻하는 표준적인 표현입니다.`,
-    example_casual: item.example_casual || `Kata '${item.word}' sering dipakai dalam percakapan sehari-hari.`,
-    example_casual_kr: item.example_casual_kr || `일상 회화에서 '${item.meaning}'의 의미로 자주 쓰여요.`,
+    context: contextVal,
+    caution: cautionVal,
+    related: relatedVal,
+    example_formal: exFormal,
+    example_formal_kr: exFormalKr,
+    example_casual: exCasual,
+    example_casual_kr: exCasualKr,
     word_breakdown: item.word_breakdown || [
-      { word: item.word.split(' ')[0], meaning: item.meaning.split(',')[0].trim() }
+      { word: rootWord, meaning: `(어근) ${item.meaning.split(',')[0]}` },
+      { word: cleanW, meaning: item.meaning }
     ]
   };
 }
