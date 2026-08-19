@@ -700,5 +700,83 @@ export const dailyLivingVocab = [
         "meaning": "비즈니스 명함"
       }
     ]
+  },
+  {
+    "id": "word_1787138489139_ub5w5",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "kamar tidur [[까마르 띠두르]]",
+    "meaning": "침실",
+    "pos": "명사구",
+    "root": "kamar",
+    "affix_logic": "어근 'kamar'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "ruang tidur",
+    "antonym": "kamar mandi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '침실'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'kamar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'kamar tidur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'침실'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kamar tidur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '침실'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kamar",
+        "meaning": "침실"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138489139_lyg3i",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "mesin cuci [[머신 쭈찌]]",
+    "meaning": "세탁기",
+    "pos": "명사구",
+    "root": "mesin",
+    "affix_logic": "어근 'mesin'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "alat pencuci",
+    "antonym": "ember",
+    "context": "실생활 및 회화/비즈니스 상황에서 '세탁기'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'mesin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mesin cuci' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'세탁기'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mesin cuci' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '세탁기'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mesin",
+        "meaning": "세탁기"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138489139_kvm5m",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "kulkas dua pintu [[쿨까스 두아 뺜뚜]]",
+    "meaning": "양문형 냉장고",
+    "pos": "명사구",
+    "root": "kulkas",
+    "affix_logic": "어근 'kulkas'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 표준적 및 실전 구어체로 사용됩니다.",
+    "synonym": "lemari es",
+    "antonym": "kompor",
+    "context": "실생활 및 회화/비즈니스 상황에서 '양문형 냉장고'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 따라 어조를 조절하세요.",
+    "related": "어근 'kulkas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'kulkas dua pintu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'양문형 냉장고'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kulkas dua pintu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '양문형 냉장고'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kulkas",
+        "meaning": "양문형 냉장고"
+      }
+    ]
   }
 ];
