@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TARGET_GOAL = 10000;
-console.log(`⚡ [1만 단어 달성을 위한 초대규모 800+ 대량 자동 생성 파이프라인 가동 - 목표: ${TARGET_GOAL}개]`);
+console.log(`⚡ [1만 단어 최종 달성을 위한 초대규모 800+ 대량 자동 생성 파이프라인 가동 - 목표: ${TARGET_GOAL}개]`);
 
 function loadExistingData(filePath) {
   try {
@@ -161,21 +161,23 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 16차 대규모 800+ 어휘 주입 어근 파이프라인 (철학/종교/언어/교육/사회 전문 어근 100개 추가)
-const coreRootsBatch16 = [
-  'etimologis', 'fenomenologis', 'filosofis', 'formalitas', 'fungsionalis', 'fundamentalik', 'hermeneutik', 'humanis', 'ideologis', 'immanen',
-  'imperialistik', 'implisit', 'individualistik', 'intelektualitas', 'interpretatif', 'introspektif', 'intuisionis', 'jurisprudensi', 'kategorial', 'klasikal',
-  'kolektifis', 'kolonialistik', 'komparatif', 'komprehensif', 'konseptual', 'konseptualitas', 'kontekstual', 'kontemplasi', 'kontradiktif', 'kosmologis',
-  'kualitatif', 'kuantitatif', 'legitimatif', 'liberalis', 'materialis', 'metafisik', 'metodologis', 'mistisisme', 'monoteisme', 'moralitas',
-  'nasionalis', 'naturalis', 'nihilisme', 'normatif', 'objektivitas', 'ontologis', 'optimalitas', 'ortodoks', 'paradoksikal', 'patriotik',
-  'pedagogis', 'perseptif', 'pluralis', 'pragmatis', 'preskriptif', 'probabilistis', 'progresif', 'prospektif', 'rasionalis', 'realisme',
-  'relativisme', 'religiusitas', 'rekonstruktif', 'skeptisisme', 'skolastik', 'sosialis', 'spiritualitas', 'strukturalis', 'subjektivitas', 'substansial',
-  'sustainabilitas', 'teologis', 'teoritis', 'transendental', 'universalitas', 'utilitarian', 'validitas', 'verifikatif', 'vitalitas', 'yuridis'
+// 🚀 17차 대규모 800+ 어휘 주입 어근 파이프라인 (건축/도시/토목/지리학 전문 어근 100개)
+const coreRootsBatch17 = [
+  'amfiteater', 'apartemen', 'aqueduct', 'arsitektur lanskap', 'asfalt', 'batu fondasi', 'batu bata', 'balok beton', 'beting', 'bulevar',
+  'bypass', 'canal', 'candi', 'dekorasi interior', 'demolisi', 'dinding penahan', 'dok kapal', 'drainase kota', 'duktilitas', 'elevasi',
+  'eskalator', 'estetika bangunan', 'fasad', 'fondasi cakar ayam', 'fondasi tiang', 'gapura', 'gardu listrik', 'geodesi', 'geografi kota', 'girder jembatan',,
+  'gudang pabrik', 'hak guna bangunan', 'halaman utama', 'infrastruktur jalan', 'irigasi sekunder', 'jalan tol', 'jembatan layang', 'jembatan gantung', 'kawasan industri', 'kawasan komersial',
+  'kondominium', 'konstruksi baja', 'kontraktor', 'koridor publik', 'kubah', 'landas pacu', 'lanskap perkotaan', 'lift barang', 'lokasi strategis', 'lorong bawah tanah',
+  'maket', 'marmer', 'material bangunan', 'megastruktur', 'menara', 'monumen bersejarah', 'mosaik', 'orientasi bangunan', 'oramen', 'panel beton',
+  'parapet', 'pasir pasang', 'paving block', 'pemukiman', 'pencakar langit', 'pengaspalan', 'pencahayaan alami', 'perancah', 'perencana kota', 'perumahan rakyat',
+  'pilar jembatan', 'pipa bawah laut', 'plat beton', 'plaza publik', 'pondasi lereng', 'properti', 'rehabilitasi bangunan', 'rel kereta', 'renovasi', 'restorasi',
+  'ruang terbuka hijau', 'saluran utama', 'semen cor', 'sistem sanitasi', 'sketsa arsitek', 'struktur utama', 'taman kota', 'tata kota', 'terowongan', 'tiang pancang'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch16.forEach(root => {
+coreRootsBatch17.forEach(root => {
+  if (!root) return;
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -241,7 +243,7 @@ coreRootsBatch16.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 학자`,
+    meaning: `${root} 수행 주체, 건축가`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -256,7 +258,7 @@ coreRootsBatch16.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 인문 학술 영역`,
+    meaning: `${root} 과정 및 건축 도시 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',

@@ -105904,5 +105904,8105 @@ export const bipaTopics = [
         "meaning": "yuridis 과정 및 인문 학술 영역"
       }
     ]
+  },
+  {
+    "id": "word_1787139694107_d3ls4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beramfiteater [[버르amfiteater]]",
+    "meaning": "amfiteater하는 상태이다, amfiteater를 행하다",
+    "pos": "동사",
+    "root": "amfiteater",
+    "affix_logic": "어근 'amfiteater'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amfiteater'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan amfiteater",
+    "antonym": "tidak amfiteater",
+    "context": "'beramfiteater'은(는) principalmente 'amfiteater하는 상태이다, amfiteater를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amfiteater'의 용법에 유의하세요. 'beramfiteater' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amfiteater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beramfiteater untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amfiteater하는 상태이다, amfiteater를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beramfiteater yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amfiteater하는 상태이다, amfiteater를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amfiteater",
+        "meaning": "(어근) amfiteater하는 상태이다"
+      },
+      {
+        "word": "beramfiteater",
+        "meaning": "amfiteater하는 상태이다, amfiteater를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_mj9io",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamfiteater [[뼝amfiteater]]",
+    "meaning": "amfiteater 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "amfiteater",
+    "affix_logic": "어근 'amfiteater'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amfiteater'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak amfiteater",
+    "antonym": "bukan amfiteater",
+    "context": "'pengamfiteater'은(는) principalmente 'amfiteater 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amfiteater'의 용법에 유의하세요. 'pengamfiteater' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amfiteater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamfiteater untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amfiteater 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamfiteater yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amfiteater 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amfiteater",
+        "meaning": "(어근) amfiteater 수행 주체"
+      },
+      {
+        "word": "pengamfiteater",
+        "meaning": "amfiteater 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_50mxq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamfiteateran [[뼝amfiteater안]]",
+    "meaning": "amfiteater 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "amfiteater",
+    "affix_logic": "어근 'amfiteater'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amfiteater'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses amfiteater",
+    "antonym": "bukan amfiteater",
+    "context": "'pengamfiteateran'은(는) principalmente 'amfiteater 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amfiteater'의 용법에 유의하세요. 'pengamfiteateran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amfiteater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamfiteateran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amfiteater 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamfiteateran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amfiteater 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amfiteater",
+        "meaning": "(어근) amfiteater 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengamfiteateran",
+        "meaning": "amfiteater 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_htykd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berapartemen [[버르apartemen]]",
+    "meaning": "apartemen하는 상태이다, apartemen를 행하다",
+    "pos": "동사",
+    "root": "apartemen",
+    "affix_logic": "어근 'apartemen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'apartemen'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan apartemen",
+    "antonym": "tidak apartemen",
+    "context": "'berapartemen'은(는) principalmente 'apartemen하는 상태이다, apartemen를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apartemen'의 용법에 유의하세요. 'berapartemen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apartemen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berapartemen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apartemen하는 상태이다, apartemen를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berapartemen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apartemen하는 상태이다, apartemen를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apartemen",
+        "meaning": "(어근) apartemen하는 상태이다"
+      },
+      {
+        "word": "berapartemen",
+        "meaning": "apartemen하는 상태이다, apartemen를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_jqjq9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapartemen [[뼝apartemen]]",
+    "meaning": "apartemen 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "apartemen",
+    "affix_logic": "어근 'apartemen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'apartemen'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak apartemen",
+    "antonym": "bukan apartemen",
+    "context": "'pengapartemen'은(는) principalmente 'apartemen 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apartemen'의 용법에 유의하세요. 'pengapartemen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apartemen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengapartemen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apartemen 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengapartemen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apartemen 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apartemen",
+        "meaning": "(어근) apartemen 수행 주체"
+      },
+      {
+        "word": "pengapartemen",
+        "meaning": "apartemen 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_l5v59",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapartemenan [[뼝apartemen안]]",
+    "meaning": "apartemen 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "apartemen",
+    "affix_logic": "어근 'apartemen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'apartemen'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses apartemen",
+    "antonym": "bukan apartemen",
+    "context": "'pengapartemenan'은(는) principalmente 'apartemen 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apartemen'의 용법에 유의하세요. 'pengapartemenan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apartemen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengapartemenan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apartemen 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengapartemenan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apartemen 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apartemen",
+        "meaning": "(어근) apartemen 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengapartemenan",
+        "meaning": "apartemen 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_fqka9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraqueduct [[버르aqueduct]]",
+    "meaning": "aqueduct하는 상태이다, aqueduct를 행하다",
+    "pos": "동사",
+    "root": "aqueduct",
+    "affix_logic": "어근 'aqueduct'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aqueduct'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aqueduct",
+    "antonym": "tidak aqueduct",
+    "context": "'beraqueduct'은(는) principalmente 'aqueduct하는 상태이다, aqueduct를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aqueduct'의 용법에 유의하세요. 'beraqueduct' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aqueduct' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraqueduct untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aqueduct하는 상태이다, aqueduct를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraqueduct yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aqueduct하는 상태이다, aqueduct를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aqueduct",
+        "meaning": "(어근) aqueduct하는 상태이다"
+      },
+      {
+        "word": "beraqueduct",
+        "meaning": "aqueduct하는 상태이다, aqueduct를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_z3so7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaqueduct [[뼝aqueduct]]",
+    "meaning": "aqueduct 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "aqueduct",
+    "affix_logic": "어근 'aqueduct'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aqueduct'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aqueduct",
+    "antonym": "bukan aqueduct",
+    "context": "'pengaqueduct'은(는) principalmente 'aqueduct 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aqueduct'의 용법에 유의하세요. 'pengaqueduct' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aqueduct' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaqueduct untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aqueduct 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaqueduct yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aqueduct 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aqueduct",
+        "meaning": "(어근) aqueduct 수행 주체"
+      },
+      {
+        "word": "pengaqueduct",
+        "meaning": "aqueduct 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_dv7qu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaqueductan [[뼝aqueduct안]]",
+    "meaning": "aqueduct 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "aqueduct",
+    "affix_logic": "어근 'aqueduct'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aqueduct'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aqueduct",
+    "antonym": "bukan aqueduct",
+    "context": "'pengaqueductan'은(는) principalmente 'aqueduct 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aqueduct'의 용법에 유의하세요. 'pengaqueductan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aqueduct' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaqueductan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aqueduct 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaqueductan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aqueduct 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aqueduct",
+        "meaning": "(어근) aqueduct 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengaqueductan",
+        "meaning": "aqueduct 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_rz2mx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarsitektur lanskap [[버르arsitektur lanskap]]",
+    "meaning": "arsitektur lanskap하는 상태이다, arsitektur lanskap를 행하다",
+    "pos": "동사",
+    "root": "arsitektur lanskap",
+    "affix_logic": "어근 'arsitektur lanskap'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arsitektur lanskap'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan arsitektur lanskap",
+    "antonym": "tidak arsitektur lanskap",
+    "context": "'berarsitektur lanskap'은(는) principalmente 'arsitektur lanskap하는 상태이다, arsitektur lanskap를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsitektur lanskap'의 용법에 유의하세요. 'berarsitektur lanskap' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsitektur lanskap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berarsitektur lanskap untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsitektur lanskap하는 상태이다, arsitektur lanskap를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berarsitektur lanskap yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsitektur lanskap하는 상태이다, arsitektur lanskap를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsitektur lanskap",
+        "meaning": "(어근) arsitektur lanskap하는 상태이다"
+      },
+      {
+        "word": "berarsitektur lanskap",
+        "meaning": "arsitektur lanskap하는 상태이다, arsitektur lanskap를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_4mwh7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsitektur lanskap [[뼝arsitektur lanskap]]",
+    "meaning": "arsitektur lanskap 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "arsitektur lanskap",
+    "affix_logic": "어근 'arsitektur lanskap'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arsitektur lanskap'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak arsitektur lanskap",
+    "antonym": "bukan arsitektur lanskap",
+    "context": "'pengarsitektur lanskap'은(는) principalmente 'arsitektur lanskap 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsitektur lanskap'의 용법에 유의하세요. 'pengarsitektur lanskap' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsitektur lanskap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarsitektur lanskap untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsitektur lanskap 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarsitektur lanskap yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsitektur lanskap 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsitektur lanskap",
+        "meaning": "(어근) arsitektur lanskap 수행 주체"
+      },
+      {
+        "word": "pengarsitektur lanskap",
+        "meaning": "arsitektur lanskap 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_31y8e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsitektur lanskapan [[뼝arsitektur lanskap안]]",
+    "meaning": "arsitektur lanskap 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "arsitektur lanskap",
+    "affix_logic": "어근 'arsitektur lanskap'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arsitektur lanskap'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses arsitektur lanskap",
+    "antonym": "bukan arsitektur lanskap",
+    "context": "'pengarsitektur lanskapan'은(는) principalmente 'arsitektur lanskap 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsitektur lanskap'의 용법에 유의하세요. 'pengarsitektur lanskapan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsitektur lanskap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarsitektur lanskapan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsitektur lanskap 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarsitektur lanskapan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsitektur lanskap 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsitektur lanskap",
+        "meaning": "(어근) arsitektur lanskap 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengarsitektur lanskapan",
+        "meaning": "arsitektur lanskap 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_36tyo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasfalt [[버르asfalt]]",
+    "meaning": "asfalt하는 상태이다, asfalt를 행하다",
+    "pos": "동사",
+    "root": "asfalt",
+    "affix_logic": "어근 'asfalt'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asfalt'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan asfalt",
+    "antonym": "tidak asfalt",
+    "context": "'berasfalt'은(는) principalmente 'asfalt하는 상태이다, asfalt를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asfalt'의 용법에 유의하세요. 'berasfalt' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asfalt' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berasfalt untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asfalt하는 상태이다, asfalt를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berasfalt yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asfalt하는 상태이다, asfalt를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asfalt",
+        "meaning": "(어근) asfalt하는 상태이다"
+      },
+      {
+        "word": "berasfalt",
+        "meaning": "asfalt하는 상태이다, asfalt를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_l7xf2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasfalt [[뼝asfalt]]",
+    "meaning": "asfalt 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "asfalt",
+    "affix_logic": "어근 'asfalt'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asfalt'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak asfalt",
+    "antonym": "bukan asfalt",
+    "context": "'pengasfalt'은(는) principalmente 'asfalt 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asfalt'의 용법에 유의하세요. 'pengasfalt' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asfalt' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasfalt untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asfalt 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasfalt yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asfalt 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asfalt",
+        "meaning": "(어근) asfalt 수행 주체"
+      },
+      {
+        "word": "pengasfalt",
+        "meaning": "asfalt 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ku8dp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasfaltan [[뼝asfalt안]]",
+    "meaning": "asfalt 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "asfalt",
+    "affix_logic": "어근 'asfalt'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asfalt'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses asfalt",
+    "antonym": "bukan asfalt",
+    "context": "'pengasfaltan'은(는) principalmente 'asfalt 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asfalt'의 용법에 유의하세요. 'pengasfaltan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asfalt' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasfaltan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asfalt 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasfaltan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asfalt 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asfalt",
+        "meaning": "(어근) asfalt 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengasfaltan",
+        "meaning": "asfalt 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ub1pz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbatu fondasi [[버르batu fondasi]]",
+    "meaning": "batu fondasi하는 상태이다, batu fondasi를 행하다",
+    "pos": "동사",
+    "root": "batu fondasi",
+    "affix_logic": "어근 'batu fondasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batu fondasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan batu fondasi",
+    "antonym": "tidak batu fondasi",
+    "context": "'berbatu fondasi'은(는) principalmente 'batu fondasi하는 상태이다, batu fondasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batu fondasi'의 용법에 유의하세요. 'berbatu fondasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batu fondasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbatu fondasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batu fondasi하는 상태이다, batu fondasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbatu fondasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batu fondasi하는 상태이다, batu fondasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batu fondasi",
+        "meaning": "(어근) batu fondasi하는 상태이다"
+      },
+      {
+        "word": "berbatu fondasi",
+        "meaning": "batu fondasi하는 상태이다, batu fondasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_23e99",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatu fondasi [[뼝batu fondasi]]",
+    "meaning": "batu fondasi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "batu fondasi",
+    "affix_logic": "어근 'batu fondasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batu fondasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak batu fondasi",
+    "antonym": "bukan batu fondasi",
+    "context": "'pengbatu fondasi'은(는) principalmente 'batu fondasi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batu fondasi'의 용법에 유의하세요. 'pengbatu fondasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batu fondasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatu fondasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batu fondasi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatu fondasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batu fondasi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batu fondasi",
+        "meaning": "(어근) batu fondasi 수행 주체"
+      },
+      {
+        "word": "pengbatu fondasi",
+        "meaning": "batu fondasi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_brxdg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatu fondasian [[뼝batu fondasi안]]",
+    "meaning": "batu fondasi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "batu fondasi",
+    "affix_logic": "어근 'batu fondasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batu fondasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses batu fondasi",
+    "antonym": "bukan batu fondasi",
+    "context": "'pengbatu fondasian'은(는) principalmente 'batu fondasi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batu fondasi'의 용법에 유의하세요. 'pengbatu fondasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batu fondasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatu fondasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batu fondasi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatu fondasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batu fondasi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batu fondasi",
+        "meaning": "(어근) batu fondasi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengbatu fondasian",
+        "meaning": "batu fondasi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_qo5xh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbatu bata [[버르batu bata]]",
+    "meaning": "batu bata하는 상태이다, batu bata를 행하다",
+    "pos": "동사",
+    "root": "batu bata",
+    "affix_logic": "어근 'batu bata'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batu bata'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan batu bata",
+    "antonym": "tidak batu bata",
+    "context": "'berbatu bata'은(는) principalmente 'batu bata하는 상태이다, batu bata를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batu bata'의 용법에 유의하세요. 'berbatu bata' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batu bata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbatu bata untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batu bata하는 상태이다, batu bata를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbatu bata yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batu bata하는 상태이다, batu bata를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batu bata",
+        "meaning": "(어근) batu bata하는 상태이다"
+      },
+      {
+        "word": "berbatu bata",
+        "meaning": "batu bata하는 상태이다, batu bata를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_y8avn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatu bata [[뼝batu bata]]",
+    "meaning": "batu bata 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "batu bata",
+    "affix_logic": "어근 'batu bata'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batu bata'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak batu bata",
+    "antonym": "bukan batu bata",
+    "context": "'pengbatu bata'은(는) principalmente 'batu bata 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batu bata'의 용법에 유의하세요. 'pengbatu bata' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batu bata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatu bata untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batu bata 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatu bata yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batu bata 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batu bata",
+        "meaning": "(어근) batu bata 수행 주체"
+      },
+      {
+        "word": "pengbatu bata",
+        "meaning": "batu bata 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_thzvz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatu bataan [[뼝batu bata안]]",
+    "meaning": "batu bata 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "batu bata",
+    "affix_logic": "어근 'batu bata'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batu bata'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses batu bata",
+    "antonym": "bukan batu bata",
+    "context": "'pengbatu bataan'은(는) principalmente 'batu bata 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batu bata'의 용법에 유의하세요. 'pengbatu bataan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batu bata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatu bataan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batu bata 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatu bataan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batu bata 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batu bata",
+        "meaning": "(어근) batu bata 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengbatu bataan",
+        "meaning": "batu bata 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_jdgc7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbalok beton [[버르balok beton]]",
+    "meaning": "balok beton하는 상태이다, balok beton를 행하다",
+    "pos": "동사",
+    "root": "balok beton",
+    "affix_logic": "어근 'balok beton'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balok beton'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan balok beton",
+    "antonym": "tidak balok beton",
+    "context": "'berbalok beton'은(는) principalmente 'balok beton하는 상태이다, balok beton를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balok beton'의 용법에 유의하세요. 'berbalok beton' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balok beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbalok beton untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balok beton하는 상태이다, balok beton를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbalok beton yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balok beton하는 상태이다, balok beton를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balok beton",
+        "meaning": "(어근) balok beton하는 상태이다"
+      },
+      {
+        "word": "berbalok beton",
+        "meaning": "balok beton하는 상태이다, balok beton를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_24mgq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalok beton [[뼝balok beton]]",
+    "meaning": "balok beton 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "balok beton",
+    "affix_logic": "어근 'balok beton'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'balok beton'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak balok beton",
+    "antonym": "bukan balok beton",
+    "context": "'pengbalok beton'은(는) principalmente 'balok beton 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balok beton'의 용법에 유의하세요. 'pengbalok beton' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balok beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbalok beton untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balok beton 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbalok beton yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balok beton 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balok beton",
+        "meaning": "(어근) balok beton 수행 주체"
+      },
+      {
+        "word": "pengbalok beton",
+        "meaning": "balok beton 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_c8nog",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalok betonan [[뼝balok beton안]]",
+    "meaning": "balok beton 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "balok beton",
+    "affix_logic": "어근 'balok beton'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'balok beton'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses balok beton",
+    "antonym": "bukan balok beton",
+    "context": "'pengbalok betonan'은(는) principalmente 'balok beton 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balok beton'의 용법에 유의하세요. 'pengbalok betonan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balok beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbalok betonan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balok beton 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbalok betonan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balok beton 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balok beton",
+        "meaning": "(어근) balok beton 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengbalok betonan",
+        "meaning": "balok beton 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_jdkw8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbeting [[버르beting]]",
+    "meaning": "beting하는 상태이다, beting를 행하다",
+    "pos": "동사",
+    "root": "beting",
+    "affix_logic": "어근 'beting'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'beting'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan beting",
+    "antonym": "tidak beting",
+    "context": "'berbeting'은(는) principalmente 'beting하는 상태이다, beting를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beting'의 용법에 유의하세요. 'berbeting' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbeting untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beting하는 상태이다, beting를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbeting yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beting하는 상태이다, beting를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beting",
+        "meaning": "(어근) beting하는 상태이다"
+      },
+      {
+        "word": "berbeting",
+        "meaning": "beting하는 상태이다, beting를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_hhvzw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbeting [[뼝beting]]",
+    "meaning": "beting 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "beting",
+    "affix_logic": "어근 'beting'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'beting'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak beting",
+    "antonym": "bukan beting",
+    "context": "'pengbeting'은(는) principalmente 'beting 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beting'의 용법에 유의하세요. 'pengbeting' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbeting untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beting 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbeting yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beting 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beting",
+        "meaning": "(어근) beting 수행 주체"
+      },
+      {
+        "word": "pengbeting",
+        "meaning": "beting 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_twsgj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbetingan [[뼝beting안]]",
+    "meaning": "beting 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "beting",
+    "affix_logic": "어근 'beting'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'beting'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses beting",
+    "antonym": "bukan beting",
+    "context": "'pengbetingan'은(는) principalmente 'beting 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beting'의 용법에 유의하세요. 'pengbetingan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbetingan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beting 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbetingan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beting 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beting",
+        "meaning": "(어근) beting 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengbetingan",
+        "meaning": "beting 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_1z0gx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbulevar [[버르bulevar]]",
+    "meaning": "bulevar하는 상태이다, bulevar를 행하다",
+    "pos": "동사",
+    "root": "bulevar",
+    "affix_logic": "어근 'bulevar'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bulevar'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bulevar",
+    "antonym": "tidak bulevar",
+    "context": "'berbulevar'은(는) principalmente 'bulevar하는 상태이다, bulevar를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bulevar'의 용법에 유의하세요. 'berbulevar' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bulevar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbulevar untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bulevar하는 상태이다, bulevar를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbulevar yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bulevar하는 상태이다, bulevar를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bulevar",
+        "meaning": "(어근) bulevar하는 상태이다"
+      },
+      {
+        "word": "berbulevar",
+        "meaning": "bulevar하는 상태이다, bulevar를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_vrv16",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbulevar [[뼝bulevar]]",
+    "meaning": "bulevar 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "bulevar",
+    "affix_logic": "어근 'bulevar'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bulevar'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bulevar",
+    "antonym": "bukan bulevar",
+    "context": "'pengbulevar'은(는) principalmente 'bulevar 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bulevar'의 용법에 유의하세요. 'pengbulevar' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bulevar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbulevar untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bulevar 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbulevar yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bulevar 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bulevar",
+        "meaning": "(어근) bulevar 수행 주체"
+      },
+      {
+        "word": "pengbulevar",
+        "meaning": "bulevar 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_f8k6x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbulevaran [[뼝bulevar안]]",
+    "meaning": "bulevar 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "bulevar",
+    "affix_logic": "어근 'bulevar'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bulevar'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bulevar",
+    "antonym": "bukan bulevar",
+    "context": "'pengbulevaran'은(는) principalmente 'bulevar 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bulevar'의 용법에 유의하세요. 'pengbulevaran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bulevar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbulevaran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bulevar 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbulevaran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bulevar 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bulevar",
+        "meaning": "(어근) bulevar 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengbulevaran",
+        "meaning": "bulevar 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_osddg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbypass [[버르bypass]]",
+    "meaning": "bypass하는 상태이다, bypass를 행하다",
+    "pos": "동사",
+    "root": "bypass",
+    "affix_logic": "어근 'bypass'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bypass'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bypass",
+    "antonym": "tidak bypass",
+    "context": "'berbypass'은(는) principalmente 'bypass하는 상태이다, bypass를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bypass'의 용법에 유의하세요. 'berbypass' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bypass' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbypass untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bypass하는 상태이다, bypass를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbypass yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bypass하는 상태이다, bypass를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bypass",
+        "meaning": "(어근) bypass하는 상태이다"
+      },
+      {
+        "word": "berbypass",
+        "meaning": "bypass하는 상태이다, bypass를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_cghra",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbypass [[뼝bypass]]",
+    "meaning": "bypass 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "bypass",
+    "affix_logic": "어근 'bypass'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bypass'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bypass",
+    "antonym": "bukan bypass",
+    "context": "'pengbypass'은(는) principalmente 'bypass 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bypass'의 용법에 유의하세요. 'pengbypass' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bypass' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbypass untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bypass 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbypass yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bypass 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bypass",
+        "meaning": "(어근) bypass 수행 주체"
+      },
+      {
+        "word": "pengbypass",
+        "meaning": "bypass 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_hsgnr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbypassan [[뼝bypass안]]",
+    "meaning": "bypass 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "bypass",
+    "affix_logic": "어근 'bypass'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bypass'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bypass",
+    "antonym": "bukan bypass",
+    "context": "'pengbypassan'은(는) principalmente 'bypass 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bypass'의 용법에 유의하세요. 'pengbypassan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bypass' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbypassan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bypass 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbypassan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bypass 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bypass",
+        "meaning": "(어근) bypass 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengbypassan",
+        "meaning": "bypass 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_jjew4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bercanal [[버르canal]]",
+    "meaning": "canal하는 상태이다, canal를 행하다",
+    "pos": "동사",
+    "root": "canal",
+    "affix_logic": "어근 'canal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'canal'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan canal",
+    "antonym": "tidak canal",
+    "context": "'bercanal'은(는) principalmente 'canal하는 상태이다, canal를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'canal'의 용법에 유의하세요. 'bercanal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'canal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bercanal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 canal하는 상태이다, canal를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bercanal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 canal하는 상태이다, canal를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "canal",
+        "meaning": "(어근) canal하는 상태이다"
+      },
+      {
+        "word": "bercanal",
+        "meaning": "canal하는 상태이다, canal를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_laiqk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcanal [[뼝canal]]",
+    "meaning": "canal 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "canal",
+    "affix_logic": "어근 'canal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'canal'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak canal",
+    "antonym": "bukan canal",
+    "context": "'pengcanal'은(는) principalmente 'canal 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'canal'의 용법에 유의하세요. 'pengcanal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'canal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengcanal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 canal 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengcanal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 canal 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "canal",
+        "meaning": "(어근) canal 수행 주체"
+      },
+      {
+        "word": "pengcanal",
+        "meaning": "canal 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_edb7p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcanalan [[뼝canal안]]",
+    "meaning": "canal 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "canal",
+    "affix_logic": "어근 'canal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'canal'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses canal",
+    "antonym": "bukan canal",
+    "context": "'pengcanalan'은(는) principalmente 'canal 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'canal'의 용법에 유의하세요. 'pengcanalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'canal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengcanalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 canal 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengcanalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 canal 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "canal",
+        "meaning": "(어근) canal 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengcanalan",
+        "meaning": "canal 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_gq9nu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bercandi [[버르candi]]",
+    "meaning": "candi하는 상태이다, candi를 행하다",
+    "pos": "동사",
+    "root": "candi",
+    "affix_logic": "어근 'candi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'candi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan candi",
+    "antonym": "tidak candi",
+    "context": "'bercandi'은(는) principalmente 'candi하는 상태이다, candi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'candi'의 용법에 유의하세요. 'bercandi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'candi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bercandi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 candi하는 상태이다, candi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bercandi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 candi하는 상태이다, candi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "candi",
+        "meaning": "(어근) candi하는 상태이다"
+      },
+      {
+        "word": "bercandi",
+        "meaning": "candi하는 상태이다, candi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_udxbv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcandi [[뼝candi]]",
+    "meaning": "candi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "candi",
+    "affix_logic": "어근 'candi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'candi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak candi",
+    "antonym": "bukan candi",
+    "context": "'pengcandi'은(는) principalmente 'candi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'candi'의 용법에 유의하세요. 'pengcandi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'candi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengcandi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 candi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengcandi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 candi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "candi",
+        "meaning": "(어근) candi 수행 주체"
+      },
+      {
+        "word": "pengcandi",
+        "meaning": "candi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_9nclt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcandian [[뼝candi안]]",
+    "meaning": "candi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "candi",
+    "affix_logic": "어근 'candi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'candi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses candi",
+    "antonym": "bukan candi",
+    "context": "'pengcandian'은(는) principalmente 'candi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'candi'의 용법에 유의하세요. 'pengcandian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'candi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengcandian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 candi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengcandian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 candi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "candi",
+        "meaning": "(어근) candi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengcandian",
+        "meaning": "candi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ibc26",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdekorasi interior [[버르dekorasi interior]]",
+    "meaning": "dekorasi interior하는 상태이다, dekorasi interior를 행하다",
+    "pos": "동사",
+    "root": "dekorasi interior",
+    "affix_logic": "어근 'dekorasi interior'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'dekorasi interior'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan dekorasi interior",
+    "antonym": "tidak dekorasi interior",
+    "context": "'berdekorasi interior'은(는) principalmente 'dekorasi interior하는 상태이다, dekorasi interior를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dekorasi interior'의 용법에 유의하세요. 'berdekorasi interior' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dekorasi interior' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdekorasi interior untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dekorasi interior하는 상태이다, dekorasi interior를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdekorasi interior yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dekorasi interior하는 상태이다, dekorasi interior를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dekorasi interior",
+        "meaning": "(어근) dekorasi interior하는 상태이다"
+      },
+      {
+        "word": "berdekorasi interior",
+        "meaning": "dekorasi interior하는 상태이다, dekorasi interior를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ocmyy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekorasi interior [[뼝dekorasi interior]]",
+    "meaning": "dekorasi interior 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "dekorasi interior",
+    "affix_logic": "어근 'dekorasi interior'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dekorasi interior'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak dekorasi interior",
+    "antonym": "bukan dekorasi interior",
+    "context": "'pengdekorasi interior'은(는) principalmente 'dekorasi interior 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dekorasi interior'의 용법에 유의하세요. 'pengdekorasi interior' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dekorasi interior' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdekorasi interior untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dekorasi interior 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdekorasi interior yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dekorasi interior 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dekorasi interior",
+        "meaning": "(어근) dekorasi interior 수행 주체"
+      },
+      {
+        "word": "pengdekorasi interior",
+        "meaning": "dekorasi interior 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ugin3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekorasi interioran [[뼝dekorasi interior안]]",
+    "meaning": "dekorasi interior 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "dekorasi interior",
+    "affix_logic": "어근 'dekorasi interior'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dekorasi interior'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses dekorasi interior",
+    "antonym": "bukan dekorasi interior",
+    "context": "'pengdekorasi interioran'은(는) principalmente 'dekorasi interior 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dekorasi interior'의 용법에 유의하세요. 'pengdekorasi interioran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dekorasi interior' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdekorasi interioran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dekorasi interior 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdekorasi interioran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dekorasi interior 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dekorasi interior",
+        "meaning": "(어근) dekorasi interior 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengdekorasi interioran",
+        "meaning": "dekorasi interior 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_pdcjf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdemolisi [[버르demolisi]]",
+    "meaning": "demolisi하는 상태이다, demolisi를 행하다",
+    "pos": "동사",
+    "root": "demolisi",
+    "affix_logic": "어근 'demolisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'demolisi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan demolisi",
+    "antonym": "tidak demolisi",
+    "context": "'berdemolisi'은(는) principalmente 'demolisi하는 상태이다, demolisi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demolisi'의 용법에 유의하세요. 'berdemolisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demolisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdemolisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demolisi하는 상태이다, demolisi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdemolisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demolisi하는 상태이다, demolisi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demolisi",
+        "meaning": "(어근) demolisi하는 상태이다"
+      },
+      {
+        "word": "berdemolisi",
+        "meaning": "demolisi하는 상태이다, demolisi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_j57pu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdemolisi [[뼝demolisi]]",
+    "meaning": "demolisi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "demolisi",
+    "affix_logic": "어근 'demolisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'demolisi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak demolisi",
+    "antonym": "bukan demolisi",
+    "context": "'pengdemolisi'은(는) principalmente 'demolisi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demolisi'의 용법에 유의하세요. 'pengdemolisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demolisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdemolisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demolisi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdemolisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demolisi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demolisi",
+        "meaning": "(어근) demolisi 수행 주체"
+      },
+      {
+        "word": "pengdemolisi",
+        "meaning": "demolisi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_chlte",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdemolisian [[뼝demolisi안]]",
+    "meaning": "demolisi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "demolisi",
+    "affix_logic": "어근 'demolisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'demolisi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses demolisi",
+    "antonym": "bukan demolisi",
+    "context": "'pengdemolisian'은(는) principalmente 'demolisi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demolisi'의 용법에 유의하세요. 'pengdemolisian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demolisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdemolisian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demolisi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdemolisian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demolisi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demolisi",
+        "meaning": "(어근) demolisi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengdemolisian",
+        "meaning": "demolisi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_uw8ye",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdinding penahan [[버르dinding penahan]]",
+    "meaning": "dinding penahan하는 상태이다, dinding penahan를 행하다",
+    "pos": "동사",
+    "root": "dinding penahan",
+    "affix_logic": "어근 'dinding penahan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'dinding penahan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan dinding penahan",
+    "antonym": "tidak dinding penahan",
+    "context": "'berdinding penahan'은(는) principalmente 'dinding penahan하는 상태이다, dinding penahan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dinding penahan'의 용법에 유의하세요. 'berdinding penahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dinding penahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdinding penahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dinding penahan하는 상태이다, dinding penahan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdinding penahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dinding penahan하는 상태이다, dinding penahan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dinding penahan",
+        "meaning": "(어근) dinding penahan하는 상태이다"
+      },
+      {
+        "word": "berdinding penahan",
+        "meaning": "dinding penahan하는 상태이다, dinding penahan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_39b4a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdinding penahan [[뼝dinding penahan]]",
+    "meaning": "dinding penahan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "dinding penahan",
+    "affix_logic": "어근 'dinding penahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dinding penahan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak dinding penahan",
+    "antonym": "bukan dinding penahan",
+    "context": "'pengdinding penahan'은(는) principalmente 'dinding penahan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dinding penahan'의 용법에 유의하세요. 'pengdinding penahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dinding penahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdinding penahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dinding penahan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdinding penahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dinding penahan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dinding penahan",
+        "meaning": "(어근) dinding penahan 수행 주체"
+      },
+      {
+        "word": "pengdinding penahan",
+        "meaning": "dinding penahan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_n0349",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdinding penahanan [[뼝dinding penahan안]]",
+    "meaning": "dinding penahan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "dinding penahan",
+    "affix_logic": "어근 'dinding penahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dinding penahan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses dinding penahan",
+    "antonym": "bukan dinding penahan",
+    "context": "'pengdinding penahanan'은(는) principalmente 'dinding penahan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dinding penahan'의 용법에 유의하세요. 'pengdinding penahanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dinding penahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdinding penahanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dinding penahan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdinding penahanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dinding penahan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dinding penahan",
+        "meaning": "(어근) dinding penahan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengdinding penahanan",
+        "meaning": "dinding penahan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_2sdyg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdok kapal [[버르dok kapal]]",
+    "meaning": "dok kapal하는 상태이다, dok kapal를 행하다",
+    "pos": "동사",
+    "root": "dok kapal",
+    "affix_logic": "어근 'dok kapal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'dok kapal'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan dok kapal",
+    "antonym": "tidak dok kapal",
+    "context": "'berdok kapal'은(는) principalmente 'dok kapal하는 상태이다, dok kapal를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dok kapal'의 용법에 유의하세요. 'berdok kapal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dok kapal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdok kapal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dok kapal하는 상태이다, dok kapal를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdok kapal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dok kapal하는 상태이다, dok kapal를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dok kapal",
+        "meaning": "(어근) dok kapal하는 상태이다"
+      },
+      {
+        "word": "berdok kapal",
+        "meaning": "dok kapal하는 상태이다, dok kapal를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_zz3ob",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdok kapal [[뼝dok kapal]]",
+    "meaning": "dok kapal 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "dok kapal",
+    "affix_logic": "어근 'dok kapal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dok kapal'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak dok kapal",
+    "antonym": "bukan dok kapal",
+    "context": "'pengdok kapal'은(는) principalmente 'dok kapal 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dok kapal'의 용법에 유의하세요. 'pengdok kapal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dok kapal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdok kapal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dok kapal 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdok kapal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dok kapal 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dok kapal",
+        "meaning": "(어근) dok kapal 수행 주체"
+      },
+      {
+        "word": "pengdok kapal",
+        "meaning": "dok kapal 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_78zjw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdok kapalan [[뼝dok kapal안]]",
+    "meaning": "dok kapal 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "dok kapal",
+    "affix_logic": "어근 'dok kapal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dok kapal'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses dok kapal",
+    "antonym": "bukan dok kapal",
+    "context": "'pengdok kapalan'은(는) principalmente 'dok kapal 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dok kapal'의 용법에 유의하세요. 'pengdok kapalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dok kapal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdok kapalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dok kapal 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdok kapalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dok kapal 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dok kapal",
+        "meaning": "(어근) dok kapal 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengdok kapalan",
+        "meaning": "dok kapal 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_k1ilb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdrainase kota [[버르drainase kota]]",
+    "meaning": "drainase kota하는 상태이다, drainase kota를 행하다",
+    "pos": "동사",
+    "root": "drainase kota",
+    "affix_logic": "어근 'drainase kota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'drainase kota'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan drainase kota",
+    "antonym": "tidak drainase kota",
+    "context": "'berdrainase kota'은(는) principalmente 'drainase kota하는 상태이다, drainase kota를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'drainase kota'의 용법에 유의하세요. 'berdrainase kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'drainase kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdrainase kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 drainase kota하는 상태이다, drainase kota를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdrainase kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 drainase kota하는 상태이다, drainase kota를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "drainase kota",
+        "meaning": "(어근) drainase kota하는 상태이다"
+      },
+      {
+        "word": "berdrainase kota",
+        "meaning": "drainase kota하는 상태이다, drainase kota를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_8vtpg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdrainase kota [[뼝drainase kota]]",
+    "meaning": "drainase kota 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "drainase kota",
+    "affix_logic": "어근 'drainase kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'drainase kota'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak drainase kota",
+    "antonym": "bukan drainase kota",
+    "context": "'pengdrainase kota'은(는) principalmente 'drainase kota 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'drainase kota'의 용법에 유의하세요. 'pengdrainase kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'drainase kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdrainase kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 drainase kota 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdrainase kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 drainase kota 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "drainase kota",
+        "meaning": "(어근) drainase kota 수행 주체"
+      },
+      {
+        "word": "pengdrainase kota",
+        "meaning": "drainase kota 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_tuqwe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdrainase kotaan [[뼝drainase kota안]]",
+    "meaning": "drainase kota 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "drainase kota",
+    "affix_logic": "어근 'drainase kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'drainase kota'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses drainase kota",
+    "antonym": "bukan drainase kota",
+    "context": "'pengdrainase kotaan'은(는) principalmente 'drainase kota 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'drainase kota'의 용법에 유의하세요. 'pengdrainase kotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'drainase kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdrainase kotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 drainase kota 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdrainase kotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 drainase kota 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "drainase kota",
+        "meaning": "(어근) drainase kota 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengdrainase kotaan",
+        "meaning": "drainase kota 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_sy3zb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berduktilitas [[버르duktilitas]]",
+    "meaning": "duktilitas하는 상태이다, duktilitas를 행하다",
+    "pos": "동사",
+    "root": "duktilitas",
+    "affix_logic": "어근 'duktilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'duktilitas'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan duktilitas",
+    "antonym": "tidak duktilitas",
+    "context": "'berduktilitas'은(는) principalmente 'duktilitas하는 상태이다, duktilitas를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'duktilitas'의 용법에 유의하세요. 'berduktilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'duktilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berduktilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 duktilitas하는 상태이다, duktilitas를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berduktilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 duktilitas하는 상태이다, duktilitas를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "duktilitas",
+        "meaning": "(어근) duktilitas하는 상태이다"
+      },
+      {
+        "word": "berduktilitas",
+        "meaning": "duktilitas하는 상태이다, duktilitas를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_s7x04",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengduktilitas [[뼝duktilitas]]",
+    "meaning": "duktilitas 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "duktilitas",
+    "affix_logic": "어근 'duktilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'duktilitas'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak duktilitas",
+    "antonym": "bukan duktilitas",
+    "context": "'pengduktilitas'은(는) principalmente 'duktilitas 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'duktilitas'의 용법에 유의하세요. 'pengduktilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'duktilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengduktilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 duktilitas 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengduktilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 duktilitas 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "duktilitas",
+        "meaning": "(어근) duktilitas 수행 주체"
+      },
+      {
+        "word": "pengduktilitas",
+        "meaning": "duktilitas 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_44wgq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengduktilitasan [[뼝duktilitas안]]",
+    "meaning": "duktilitas 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "duktilitas",
+    "affix_logic": "어근 'duktilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'duktilitas'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses duktilitas",
+    "antonym": "bukan duktilitas",
+    "context": "'pengduktilitasan'은(는) principalmente 'duktilitas 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'duktilitas'의 용법에 유의하세요. 'pengduktilitasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'duktilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengduktilitasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 duktilitas 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengduktilitasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 duktilitas 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "duktilitas",
+        "meaning": "(어근) duktilitas 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengduktilitasan",
+        "meaning": "duktilitas 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_afyd2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelevasi [[버르elevasi]]",
+    "meaning": "elevasi하는 상태이다, elevasi를 행하다",
+    "pos": "동사",
+    "root": "elevasi",
+    "affix_logic": "어근 'elevasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'elevasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan elevasi",
+    "antonym": "tidak elevasi",
+    "context": "'berelevasi'은(는) principalmente 'elevasi하는 상태이다, elevasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elevasi'의 용법에 유의하세요. 'berelevasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elevasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berelevasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elevasi하는 상태이다, elevasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berelevasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elevasi하는 상태이다, elevasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elevasi",
+        "meaning": "(어근) elevasi하는 상태이다"
+      },
+      {
+        "word": "berelevasi",
+        "meaning": "elevasi하는 상태이다, elevasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_a3mnx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelevasi [[뼝elevasi]]",
+    "meaning": "elevasi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "elevasi",
+    "affix_logic": "어근 'elevasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elevasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak elevasi",
+    "antonym": "bukan elevasi",
+    "context": "'pengelevasi'은(는) principalmente 'elevasi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elevasi'의 용법에 유의하세요. 'pengelevasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elevasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelevasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elevasi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelevasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elevasi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elevasi",
+        "meaning": "(어근) elevasi 수행 주체"
+      },
+      {
+        "word": "pengelevasi",
+        "meaning": "elevasi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_guunu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelevasian [[뼝elevasi안]]",
+    "meaning": "elevasi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "elevasi",
+    "affix_logic": "어근 'elevasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elevasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses elevasi",
+    "antonym": "bukan elevasi",
+    "context": "'pengelevasian'은(는) principalmente 'elevasi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elevasi'의 용법에 유의하세요. 'pengelevasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elevasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelevasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elevasi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelevasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elevasi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elevasi",
+        "meaning": "(어근) elevasi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengelevasian",
+        "meaning": "elevasi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_0ojz4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereskalator [[버르eskalator]]",
+    "meaning": "eskalator하는 상태이다, eskalator를 행하다",
+    "pos": "동사",
+    "root": "eskalator",
+    "affix_logic": "어근 'eskalator'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'eskalator'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan eskalator",
+    "antonym": "tidak eskalator",
+    "context": "'bereskalator'은(는) principalmente 'eskalator하는 상태이다, eskalator를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eskalator'의 용법에 유의하세요. 'bereskalator' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eskalator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bereskalator untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eskalator하는 상태이다, eskalator를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bereskalator yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eskalator하는 상태이다, eskalator를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eskalator",
+        "meaning": "(어근) eskalator하는 상태이다"
+      },
+      {
+        "word": "bereskalator",
+        "meaning": "eskalator하는 상태이다, eskalator를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_voeib",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeskalator [[뼝eskalator]]",
+    "meaning": "eskalator 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "eskalator",
+    "affix_logic": "어근 'eskalator'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eskalator'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak eskalator",
+    "antonym": "bukan eskalator",
+    "context": "'pengeskalator'은(는) principalmente 'eskalator 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eskalator'의 용법에 유의하세요. 'pengeskalator' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eskalator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeskalator untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eskalator 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeskalator yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eskalator 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eskalator",
+        "meaning": "(어근) eskalator 수행 주체"
+      },
+      {
+        "word": "pengeskalator",
+        "meaning": "eskalator 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_kdqnx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeskalatoran [[뼝eskalator안]]",
+    "meaning": "eskalator 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "eskalator",
+    "affix_logic": "어근 'eskalator'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eskalator'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses eskalator",
+    "antonym": "bukan eskalator",
+    "context": "'pengeskalatoran'은(는) principalmente 'eskalator 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eskalator'의 용법에 유의하세요. 'pengeskalatoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eskalator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeskalatoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eskalator 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeskalatoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eskalator 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eskalator",
+        "meaning": "(어근) eskalator 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengeskalatoran",
+        "meaning": "eskalator 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_kkknp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berestetika bangunan [[버르estetika bangunan]]",
+    "meaning": "estetika bangunan하는 상태이다, estetika bangunan를 행하다",
+    "pos": "동사",
+    "root": "estetika bangunan",
+    "affix_logic": "어근 'estetika bangunan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'estetika bangunan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan estetika bangunan",
+    "antonym": "tidak estetika bangunan",
+    "context": "'berestetika bangunan'은(는) principalmente 'estetika bangunan하는 상태이다, estetika bangunan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'estetika bangunan'의 용법에 유의하세요. 'berestetika bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'estetika bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berestetika bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 estetika bangunan하는 상태이다, estetika bangunan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berestetika bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 estetika bangunan하는 상태이다, estetika bangunan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "estetika bangunan",
+        "meaning": "(어근) estetika bangunan하는 상태이다"
+      },
+      {
+        "word": "berestetika bangunan",
+        "meaning": "estetika bangunan하는 상태이다, estetika bangunan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_j8hav",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengestetika bangunan [[뼝estetika bangunan]]",
+    "meaning": "estetika bangunan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "estetika bangunan",
+    "affix_logic": "어근 'estetika bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'estetika bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak estetika bangunan",
+    "antonym": "bukan estetika bangunan",
+    "context": "'pengestetika bangunan'은(는) principalmente 'estetika bangunan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'estetika bangunan'의 용법에 유의하세요. 'pengestetika bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'estetika bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengestetika bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 estetika bangunan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengestetika bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 estetika bangunan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "estetika bangunan",
+        "meaning": "(어근) estetika bangunan 수행 주체"
+      },
+      {
+        "word": "pengestetika bangunan",
+        "meaning": "estetika bangunan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_skp0a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengestetika bangunanan [[뼝estetika bangunan안]]",
+    "meaning": "estetika bangunan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "estetika bangunan",
+    "affix_logic": "어근 'estetika bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'estetika bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses estetika bangunan",
+    "antonym": "bukan estetika bangunan",
+    "context": "'pengestetika bangunanan'은(는) principalmente 'estetika bangunan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'estetika bangunan'의 용법에 유의하세요. 'pengestetika bangunanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'estetika bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengestetika bangunanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 estetika bangunan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengestetika bangunanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 estetika bangunan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "estetika bangunan",
+        "meaning": "(어근) estetika bangunan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengestetika bangunanan",
+        "meaning": "estetika bangunan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_6b0q4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfasad [[버르fasad]]",
+    "meaning": "fasad하는 상태이다, fasad를 행하다",
+    "pos": "동사",
+    "root": "fasad",
+    "affix_logic": "어근 'fasad'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fasad'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan fasad",
+    "antonym": "tidak fasad",
+    "context": "'berfasad'은(는) principalmente 'fasad하는 상태이다, fasad를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fasad'의 용법에 유의하세요. 'berfasad' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fasad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berfasad untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fasad하는 상태이다, fasad를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berfasad yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fasad하는 상태이다, fasad를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fasad",
+        "meaning": "(어근) fasad하는 상태이다"
+      },
+      {
+        "word": "berfasad",
+        "meaning": "fasad하는 상태이다, fasad를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_jb2mu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfasad [[뼝fasad]]",
+    "meaning": "fasad 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "fasad",
+    "affix_logic": "어근 'fasad'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'fasad'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak fasad",
+    "antonym": "bukan fasad",
+    "context": "'pengfasad'은(는) principalmente 'fasad 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fasad'의 용법에 유의하세요. 'pengfasad' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fasad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengfasad untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fasad 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengfasad yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fasad 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fasad",
+        "meaning": "(어근) fasad 수행 주체"
+      },
+      {
+        "word": "pengfasad",
+        "meaning": "fasad 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_3vk3n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfasadan [[뼝fasad안]]",
+    "meaning": "fasad 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "fasad",
+    "affix_logic": "어근 'fasad'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'fasad'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses fasad",
+    "antonym": "bukan fasad",
+    "context": "'pengfasadan'은(는) principalmente 'fasad 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fasad'의 용법에 유의하세요. 'pengfasadan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fasad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengfasadan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fasad 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengfasadan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fasad 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fasad",
+        "meaning": "(어근) fasad 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengfasadan",
+        "meaning": "fasad 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_01shb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfondasi cakar ayam [[버르fondasi cakar ayam]]",
+    "meaning": "fondasi cakar ayam하는 상태이다, fondasi cakar ayam를 행하다",
+    "pos": "동사",
+    "root": "fondasi cakar ayam",
+    "affix_logic": "어근 'fondasi cakar ayam'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fondasi cakar ayam'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan fondasi cakar ayam",
+    "antonym": "tidak fondasi cakar ayam",
+    "context": "'berfondasi cakar ayam'은(는) principalmente 'fondasi cakar ayam하는 상태이다, fondasi cakar ayam를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fondasi cakar ayam'의 용법에 유의하세요. 'berfondasi cakar ayam' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fondasi cakar ayam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berfondasi cakar ayam untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fondasi cakar ayam하는 상태이다, fondasi cakar ayam를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berfondasi cakar ayam yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fondasi cakar ayam하는 상태이다, fondasi cakar ayam를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fondasi cakar ayam",
+        "meaning": "(어근) fondasi cakar ayam하는 상태이다"
+      },
+      {
+        "word": "berfondasi cakar ayam",
+        "meaning": "fondasi cakar ayam하는 상태이다, fondasi cakar ayam를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ldv21",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfondasi cakar ayam [[뼝fondasi cakar ayam]]",
+    "meaning": "fondasi cakar ayam 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "fondasi cakar ayam",
+    "affix_logic": "어근 'fondasi cakar ayam'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'fondasi cakar ayam'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak fondasi cakar ayam",
+    "antonym": "bukan fondasi cakar ayam",
+    "context": "'pengfondasi cakar ayam'은(는) principalmente 'fondasi cakar ayam 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fondasi cakar ayam'의 용법에 유의하세요. 'pengfondasi cakar ayam' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fondasi cakar ayam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengfondasi cakar ayam untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fondasi cakar ayam 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengfondasi cakar ayam yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fondasi cakar ayam 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fondasi cakar ayam",
+        "meaning": "(어근) fondasi cakar ayam 수행 주체"
+      },
+      {
+        "word": "pengfondasi cakar ayam",
+        "meaning": "fondasi cakar ayam 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_07r2s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfondasi cakar ayaman [[뼝fondasi cakar ayam안]]",
+    "meaning": "fondasi cakar ayam 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "fondasi cakar ayam",
+    "affix_logic": "어근 'fondasi cakar ayam'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'fondasi cakar ayam'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses fondasi cakar ayam",
+    "antonym": "bukan fondasi cakar ayam",
+    "context": "'pengfondasi cakar ayaman'은(는) principalmente 'fondasi cakar ayam 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fondasi cakar ayam'의 용법에 유의하세요. 'pengfondasi cakar ayaman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fondasi cakar ayam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengfondasi cakar ayaman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fondasi cakar ayam 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengfondasi cakar ayaman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fondasi cakar ayam 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fondasi cakar ayam",
+        "meaning": "(어근) fondasi cakar ayam 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengfondasi cakar ayaman",
+        "meaning": "fondasi cakar ayam 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_1cdr1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfondasi tiang [[버르fondasi tiang]]",
+    "meaning": "fondasi tiang하는 상태이다, fondasi tiang를 행하다",
+    "pos": "동사",
+    "root": "fondasi tiang",
+    "affix_logic": "어근 'fondasi tiang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fondasi tiang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan fondasi tiang",
+    "antonym": "tidak fondasi tiang",
+    "context": "'berfondasi tiang'은(는) principalmente 'fondasi tiang하는 상태이다, fondasi tiang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fondasi tiang'의 용법에 유의하세요. 'berfondasi tiang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fondasi tiang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berfondasi tiang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fondasi tiang하는 상태이다, fondasi tiang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berfondasi tiang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fondasi tiang하는 상태이다, fondasi tiang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fondasi tiang",
+        "meaning": "(어근) fondasi tiang하는 상태이다"
+      },
+      {
+        "word": "berfondasi tiang",
+        "meaning": "fondasi tiang하는 상태이다, fondasi tiang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_z4t0m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfondasi tiang [[뼝fondasi tiang]]",
+    "meaning": "fondasi tiang 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "fondasi tiang",
+    "affix_logic": "어근 'fondasi tiang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'fondasi tiang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak fondasi tiang",
+    "antonym": "bukan fondasi tiang",
+    "context": "'pengfondasi tiang'은(는) principalmente 'fondasi tiang 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fondasi tiang'의 용법에 유의하세요. 'pengfondasi tiang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fondasi tiang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengfondasi tiang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fondasi tiang 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengfondasi tiang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fondasi tiang 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fondasi tiang",
+        "meaning": "(어근) fondasi tiang 수행 주체"
+      },
+      {
+        "word": "pengfondasi tiang",
+        "meaning": "fondasi tiang 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ai9wn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfondasi tiangan [[뼝fondasi tiang안]]",
+    "meaning": "fondasi tiang 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "fondasi tiang",
+    "affix_logic": "어근 'fondasi tiang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'fondasi tiang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses fondasi tiang",
+    "antonym": "bukan fondasi tiang",
+    "context": "'pengfondasi tiangan'은(는) principalmente 'fondasi tiang 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fondasi tiang'의 용법에 유의하세요. 'pengfondasi tiangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fondasi tiang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengfondasi tiangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fondasi tiang 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengfondasi tiangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fondasi tiang 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fondasi tiang",
+        "meaning": "(어근) fondasi tiang 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengfondasi tiangan",
+        "meaning": "fondasi tiang 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_mc897",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergapura [[버르gapura]]",
+    "meaning": "gapura하는 상태이다, gapura를 행하다",
+    "pos": "동사",
+    "root": "gapura",
+    "affix_logic": "어근 'gapura'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'gapura'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan gapura",
+    "antonym": "tidak gapura",
+    "context": "'bergapura'은(는) principalmente 'gapura하는 상태이다, gapura를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gapura'의 용법에 유의하세요. 'bergapura' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gapura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bergapura untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gapura하는 상태이다, gapura를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bergapura yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gapura하는 상태이다, gapura를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gapura",
+        "meaning": "(어근) gapura하는 상태이다"
+      },
+      {
+        "word": "bergapura",
+        "meaning": "gapura하는 상태이다, gapura를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_9yhba",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggapura [[뼝gapura]]",
+    "meaning": "gapura 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "gapura",
+    "affix_logic": "어근 'gapura'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'gapura'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak gapura",
+    "antonym": "bukan gapura",
+    "context": "'penggapura'은(는) principalmente 'gapura 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gapura'의 용법에 유의하세요. 'penggapura' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gapura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggapura untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gapura 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggapura yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gapura 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gapura",
+        "meaning": "(어근) gapura 수행 주체"
+      },
+      {
+        "word": "penggapura",
+        "meaning": "gapura 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_q0unm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggapuraan [[뼝gapura안]]",
+    "meaning": "gapura 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "gapura",
+    "affix_logic": "어근 'gapura'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'gapura'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses gapura",
+    "antonym": "bukan gapura",
+    "context": "'penggapuraan'은(는) principalmente 'gapura 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gapura'의 용법에 유의하세요. 'penggapuraan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gapura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggapuraan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gapura 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggapuraan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gapura 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gapura",
+        "meaning": "(어근) gapura 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penggapuraan",
+        "meaning": "gapura 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_39t2d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergardu listrik [[버르gardu listrik]]",
+    "meaning": "gardu listrik하는 상태이다, gardu listrik를 행하다",
+    "pos": "동사",
+    "root": "gardu listrik",
+    "affix_logic": "어근 'gardu listrik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'gardu listrik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan gardu listrik",
+    "antonym": "tidak gardu listrik",
+    "context": "'bergardu listrik'은(는) principalmente 'gardu listrik하는 상태이다, gardu listrik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gardu listrik'의 용법에 유의하세요. 'bergardu listrik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gardu listrik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bergardu listrik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gardu listrik하는 상태이다, gardu listrik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bergardu listrik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gardu listrik하는 상태이다, gardu listrik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gardu listrik",
+        "meaning": "(어근) gardu listrik하는 상태이다"
+      },
+      {
+        "word": "bergardu listrik",
+        "meaning": "gardu listrik하는 상태이다, gardu listrik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_rp992",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggardu listrik [[뼝gardu listrik]]",
+    "meaning": "gardu listrik 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "gardu listrik",
+    "affix_logic": "어근 'gardu listrik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'gardu listrik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak gardu listrik",
+    "antonym": "bukan gardu listrik",
+    "context": "'penggardu listrik'은(는) principalmente 'gardu listrik 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gardu listrik'의 용법에 유의하세요. 'penggardu listrik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gardu listrik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggardu listrik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gardu listrik 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggardu listrik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gardu listrik 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gardu listrik",
+        "meaning": "(어근) gardu listrik 수행 주체"
+      },
+      {
+        "word": "penggardu listrik",
+        "meaning": "gardu listrik 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_6z9kz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggardu listrikan [[뼝gardu listrik안]]",
+    "meaning": "gardu listrik 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "gardu listrik",
+    "affix_logic": "어근 'gardu listrik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'gardu listrik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses gardu listrik",
+    "antonym": "bukan gardu listrik",
+    "context": "'penggardu listrikan'은(는) principalmente 'gardu listrik 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gardu listrik'의 용법에 유의하세요. 'penggardu listrikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gardu listrik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggardu listrikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gardu listrik 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggardu listrikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gardu listrik 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gardu listrik",
+        "meaning": "(어근) gardu listrik 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penggardu listrikan",
+        "meaning": "gardu listrik 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_80xtb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergeodesi [[버르geodesi]]",
+    "meaning": "geodesi하는 상태이다, geodesi를 행하다",
+    "pos": "동사",
+    "root": "geodesi",
+    "affix_logic": "어근 'geodesi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'geodesi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan geodesi",
+    "antonym": "tidak geodesi",
+    "context": "'bergeodesi'은(는) principalmente 'geodesi하는 상태이다, geodesi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'geodesi'의 용법에 유의하세요. 'bergeodesi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'geodesi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bergeodesi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 geodesi하는 상태이다, geodesi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bergeodesi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 geodesi하는 상태이다, geodesi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "geodesi",
+        "meaning": "(어근) geodesi하는 상태이다"
+      },
+      {
+        "word": "bergeodesi",
+        "meaning": "geodesi하는 상태이다, geodesi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_30ri7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeodesi [[뼝geodesi]]",
+    "meaning": "geodesi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "geodesi",
+    "affix_logic": "어근 'geodesi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'geodesi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak geodesi",
+    "antonym": "bukan geodesi",
+    "context": "'penggeodesi'은(는) principalmente 'geodesi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'geodesi'의 용법에 유의하세요. 'penggeodesi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'geodesi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggeodesi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 geodesi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggeodesi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 geodesi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "geodesi",
+        "meaning": "(어근) geodesi 수행 주체"
+      },
+      {
+        "word": "penggeodesi",
+        "meaning": "geodesi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_cnv18",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeodesian [[뼝geodesi안]]",
+    "meaning": "geodesi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "geodesi",
+    "affix_logic": "어근 'geodesi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'geodesi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses geodesi",
+    "antonym": "bukan geodesi",
+    "context": "'penggeodesian'은(는) principalmente 'geodesi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'geodesi'의 용법에 유의하세요. 'penggeodesian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'geodesi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggeodesian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 geodesi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggeodesian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 geodesi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "geodesi",
+        "meaning": "(어근) geodesi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penggeodesian",
+        "meaning": "geodesi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_sz9b9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergeografi kota [[버르geografi kota]]",
+    "meaning": "geografi kota하는 상태이다, geografi kota를 행하다",
+    "pos": "동사",
+    "root": "geografi kota",
+    "affix_logic": "어근 'geografi kota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'geografi kota'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan geografi kota",
+    "antonym": "tidak geografi kota",
+    "context": "'bergeografi kota'은(는) principalmente 'geografi kota하는 상태이다, geografi kota를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'geografi kota'의 용법에 유의하세요. 'bergeografi kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'geografi kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bergeografi kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 geografi kota하는 상태이다, geografi kota를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bergeografi kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 geografi kota하는 상태이다, geografi kota를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "geografi kota",
+        "meaning": "(어근) geografi kota하는 상태이다"
+      },
+      {
+        "word": "bergeografi kota",
+        "meaning": "geografi kota하는 상태이다, geografi kota를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_bsmsk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeografi kota [[뼝geografi kota]]",
+    "meaning": "geografi kota 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "geografi kota",
+    "affix_logic": "어근 'geografi kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'geografi kota'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak geografi kota",
+    "antonym": "bukan geografi kota",
+    "context": "'penggeografi kota'은(는) principalmente 'geografi kota 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'geografi kota'의 용법에 유의하세요. 'penggeografi kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'geografi kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggeografi kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 geografi kota 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggeografi kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 geografi kota 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "geografi kota",
+        "meaning": "(어근) geografi kota 수행 주체"
+      },
+      {
+        "word": "penggeografi kota",
+        "meaning": "geografi kota 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_igxt5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeografi kotaan [[뼝geografi kota안]]",
+    "meaning": "geografi kota 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "geografi kota",
+    "affix_logic": "어근 'geografi kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'geografi kota'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses geografi kota",
+    "antonym": "bukan geografi kota",
+    "context": "'penggeografi kotaan'은(는) principalmente 'geografi kota 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'geografi kota'의 용법에 유의하세요. 'penggeografi kotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'geografi kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggeografi kotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 geografi kota 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggeografi kotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 geografi kota 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "geografi kota",
+        "meaning": "(어근) geografi kota 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penggeografi kotaan",
+        "meaning": "geografi kota 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_k522w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergirder jembatan [[버르girder jembatan]]",
+    "meaning": "girder jembatan하는 상태이다, girder jembatan를 행하다",
+    "pos": "동사",
+    "root": "girder jembatan",
+    "affix_logic": "어근 'girder jembatan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'girder jembatan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan girder jembatan",
+    "antonym": "tidak girder jembatan",
+    "context": "'bergirder jembatan'은(는) principalmente 'girder jembatan하는 상태이다, girder jembatan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'girder jembatan'의 용법에 유의하세요. 'bergirder jembatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'girder jembatan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bergirder jembatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 girder jembatan하는 상태이다, girder jembatan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bergirder jembatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 girder jembatan하는 상태이다, girder jembatan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "girder jembatan",
+        "meaning": "(어근) girder jembatan하는 상태이다"
+      },
+      {
+        "word": "bergirder jembatan",
+        "meaning": "girder jembatan하는 상태이다, girder jembatan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_sakd1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggirder jembatan [[뼝girder jembatan]]",
+    "meaning": "girder jembatan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "girder jembatan",
+    "affix_logic": "어근 'girder jembatan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'girder jembatan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak girder jembatan",
+    "antonym": "bukan girder jembatan",
+    "context": "'penggirder jembatan'은(는) principalmente 'girder jembatan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'girder jembatan'의 용법에 유의하세요. 'penggirder jembatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'girder jembatan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggirder jembatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 girder jembatan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggirder jembatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 girder jembatan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "girder jembatan",
+        "meaning": "(어근) girder jembatan 수행 주체"
+      },
+      {
+        "word": "penggirder jembatan",
+        "meaning": "girder jembatan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_d1prf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggirder jembatanan [[뼝girder jembatan안]]",
+    "meaning": "girder jembatan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "girder jembatan",
+    "affix_logic": "어근 'girder jembatan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'girder jembatan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses girder jembatan",
+    "antonym": "bukan girder jembatan",
+    "context": "'penggirder jembatanan'은(는) principalmente 'girder jembatan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'girder jembatan'의 용법에 유의하세요. 'penggirder jembatanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'girder jembatan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggirder jembatanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 girder jembatan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggirder jembatanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 girder jembatan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "girder jembatan",
+        "meaning": "(어근) girder jembatan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penggirder jembatanan",
+        "meaning": "girder jembatan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_hm0xj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergudang pabrik [[버르gudang pabrik]]",
+    "meaning": "gudang pabrik하는 상태이다, gudang pabrik를 행하다",
+    "pos": "동사",
+    "root": "gudang pabrik",
+    "affix_logic": "어근 'gudang pabrik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'gudang pabrik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan gudang pabrik",
+    "antonym": "tidak gudang pabrik",
+    "context": "'bergudang pabrik'은(는) principalmente 'gudang pabrik하는 상태이다, gudang pabrik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gudang pabrik'의 용법에 유의하세요. 'bergudang pabrik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gudang pabrik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bergudang pabrik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gudang pabrik하는 상태이다, gudang pabrik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bergudang pabrik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gudang pabrik하는 상태이다, gudang pabrik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gudang pabrik",
+        "meaning": "(어근) gudang pabrik하는 상태이다"
+      },
+      {
+        "word": "bergudang pabrik",
+        "meaning": "gudang pabrik하는 상태이다, gudang pabrik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_tz39u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggudang pabrik [[뼝gudang pabrik]]",
+    "meaning": "gudang pabrik 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "gudang pabrik",
+    "affix_logic": "어근 'gudang pabrik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'gudang pabrik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak gudang pabrik",
+    "antonym": "bukan gudang pabrik",
+    "context": "'penggudang pabrik'은(는) principalmente 'gudang pabrik 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gudang pabrik'의 용법에 유의하세요. 'penggudang pabrik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gudang pabrik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggudang pabrik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gudang pabrik 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggudang pabrik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gudang pabrik 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gudang pabrik",
+        "meaning": "(어근) gudang pabrik 수행 주체"
+      },
+      {
+        "word": "penggudang pabrik",
+        "meaning": "gudang pabrik 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_zj9k0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggudang pabrikan [[뼝gudang pabrik안]]",
+    "meaning": "gudang pabrik 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "gudang pabrik",
+    "affix_logic": "어근 'gudang pabrik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'gudang pabrik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses gudang pabrik",
+    "antonym": "bukan gudang pabrik",
+    "context": "'penggudang pabrikan'은(는) principalmente 'gudang pabrik 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'gudang pabrik'의 용법에 유의하세요. 'penggudang pabrikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'gudang pabrik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penggudang pabrikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 gudang pabrik 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penggudang pabrikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 gudang pabrik 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "gudang pabrik",
+        "meaning": "(어근) gudang pabrik 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penggudang pabrikan",
+        "meaning": "gudang pabrik 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_umiqz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhak guna bangunan [[버르hak guna bangunan]]",
+    "meaning": "hak guna bangunan하는 상태이다, hak guna bangunan를 행하다",
+    "pos": "동사",
+    "root": "hak guna bangunan",
+    "affix_logic": "어근 'hak guna bangunan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'hak guna bangunan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan hak guna bangunan",
+    "antonym": "tidak hak guna bangunan",
+    "context": "'berhak guna bangunan'은(는) principalmente 'hak guna bangunan하는 상태이다, hak guna bangunan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'hak guna bangunan'의 용법에 유의하세요. 'berhak guna bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'hak guna bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berhak guna bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 hak guna bangunan하는 상태이다, hak guna bangunan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berhak guna bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 hak guna bangunan하는 상태이다, hak guna bangunan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "hak guna bangunan",
+        "meaning": "(어근) hak guna bangunan하는 상태이다"
+      },
+      {
+        "word": "berhak guna bangunan",
+        "meaning": "hak guna bangunan하는 상태이다, hak guna bangunan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_8g5c6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghak guna bangunan [[뼝hak guna bangunan]]",
+    "meaning": "hak guna bangunan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "hak guna bangunan",
+    "affix_logic": "어근 'hak guna bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'hak guna bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak hak guna bangunan",
+    "antonym": "bukan hak guna bangunan",
+    "context": "'penghak guna bangunan'은(는) principalmente 'hak guna bangunan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'hak guna bangunan'의 용법에 유의하세요. 'penghak guna bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'hak guna bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penghak guna bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 hak guna bangunan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penghak guna bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 hak guna bangunan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "hak guna bangunan",
+        "meaning": "(어근) hak guna bangunan 수행 주체"
+      },
+      {
+        "word": "penghak guna bangunan",
+        "meaning": "hak guna bangunan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_rvvpo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghak guna bangunanan [[뼝hak guna bangunan안]]",
+    "meaning": "hak guna bangunan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "hak guna bangunan",
+    "affix_logic": "어근 'hak guna bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'hak guna bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses hak guna bangunan",
+    "antonym": "bukan hak guna bangunan",
+    "context": "'penghak guna bangunanan'은(는) principalmente 'hak guna bangunan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'hak guna bangunan'의 용법에 유의하세요. 'penghak guna bangunanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'hak guna bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penghak guna bangunanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 hak guna bangunan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penghak guna bangunanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 hak guna bangunan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "hak guna bangunan",
+        "meaning": "(어근) hak guna bangunan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penghak guna bangunanan",
+        "meaning": "hak guna bangunan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_1u5yx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhalaman utama [[버르halaman utama]]",
+    "meaning": "halaman utama하는 상태이다, halaman utama를 행하다",
+    "pos": "동사",
+    "root": "halaman utama",
+    "affix_logic": "어근 'halaman utama'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'halaman utama'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan halaman utama",
+    "antonym": "tidak halaman utama",
+    "context": "'berhalaman utama'은(는) principalmente 'halaman utama하는 상태이다, halaman utama를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'halaman utama'의 용법에 유의하세요. 'berhalaman utama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'halaman utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berhalaman utama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 halaman utama하는 상태이다, halaman utama를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berhalaman utama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 halaman utama하는 상태이다, halaman utama를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "halaman utama",
+        "meaning": "(어근) halaman utama하는 상태이다"
+      },
+      {
+        "word": "berhalaman utama",
+        "meaning": "halaman utama하는 상태이다, halaman utama를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_m1o03",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghalaman utama [[뼝halaman utama]]",
+    "meaning": "halaman utama 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "halaman utama",
+    "affix_logic": "어근 'halaman utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'halaman utama'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak halaman utama",
+    "antonym": "bukan halaman utama",
+    "context": "'penghalaman utama'은(는) principalmente 'halaman utama 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'halaman utama'의 용법에 유의하세요. 'penghalaman utama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'halaman utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penghalaman utama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 halaman utama 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penghalaman utama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 halaman utama 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "halaman utama",
+        "meaning": "(어근) halaman utama 수행 주체"
+      },
+      {
+        "word": "penghalaman utama",
+        "meaning": "halaman utama 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_fkw70",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghalaman utamaan [[뼝halaman utama안]]",
+    "meaning": "halaman utama 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "halaman utama",
+    "affix_logic": "어근 'halaman utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'halaman utama'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses halaman utama",
+    "antonym": "bukan halaman utama",
+    "context": "'penghalaman utamaan'은(는) principalmente 'halaman utama 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'halaman utama'의 용법에 유의하세요. 'penghalaman utamaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'halaman utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penghalaman utamaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 halaman utama 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penghalaman utamaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 halaman utama 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "halaman utama",
+        "meaning": "(어근) halaman utama 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penghalaman utamaan",
+        "meaning": "halaman utama 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ix5fq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinfrastruktur jalan [[버르infrastruktur jalan]]",
+    "meaning": "infrastruktur jalan하는 상태이다, infrastruktur jalan를 행하다",
+    "pos": "동사",
+    "root": "infrastruktur jalan",
+    "affix_logic": "어근 'infrastruktur jalan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'infrastruktur jalan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan infrastruktur jalan",
+    "antonym": "tidak infrastruktur jalan",
+    "context": "'berinfrastruktur jalan'은(는) principalmente 'infrastruktur jalan하는 상태이다, infrastruktur jalan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'infrastruktur jalan'의 용법에 유의하세요. 'berinfrastruktur jalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'infrastruktur jalan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berinfrastruktur jalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 infrastruktur jalan하는 상태이다, infrastruktur jalan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berinfrastruktur jalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 infrastruktur jalan하는 상태이다, infrastruktur jalan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "infrastruktur jalan",
+        "meaning": "(어근) infrastruktur jalan하는 상태이다"
+      },
+      {
+        "word": "berinfrastruktur jalan",
+        "meaning": "infrastruktur jalan하는 상태이다, infrastruktur jalan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_0zz7j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfrastruktur jalan [[뼝infrastruktur jalan]]",
+    "meaning": "infrastruktur jalan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "infrastruktur jalan",
+    "affix_logic": "어근 'infrastruktur jalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'infrastruktur jalan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak infrastruktur jalan",
+    "antonym": "bukan infrastruktur jalan",
+    "context": "'penginfrastruktur jalan'은(는) principalmente 'infrastruktur jalan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'infrastruktur jalan'의 용법에 유의하세요. 'penginfrastruktur jalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'infrastruktur jalan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penginfrastruktur jalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 infrastruktur jalan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penginfrastruktur jalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 infrastruktur jalan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "infrastruktur jalan",
+        "meaning": "(어근) infrastruktur jalan 수행 주체"
+      },
+      {
+        "word": "penginfrastruktur jalan",
+        "meaning": "infrastruktur jalan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_qhq03",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfrastruktur jalanan [[뼝infrastruktur jalan안]]",
+    "meaning": "infrastruktur jalan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "infrastruktur jalan",
+    "affix_logic": "어근 'infrastruktur jalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'infrastruktur jalan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses infrastruktur jalan",
+    "antonym": "bukan infrastruktur jalan",
+    "context": "'penginfrastruktur jalanan'은(는) principalmente 'infrastruktur jalan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'infrastruktur jalan'의 용법에 유의하세요. 'penginfrastruktur jalanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'infrastruktur jalan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penginfrastruktur jalanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 infrastruktur jalan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penginfrastruktur jalanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 infrastruktur jalan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "infrastruktur jalan",
+        "meaning": "(어근) infrastruktur jalan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penginfrastruktur jalanan",
+        "meaning": "infrastruktur jalan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ld2gs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beririgasi sekunder [[버르irigasi sekunder]]",
+    "meaning": "irigasi sekunder하는 상태이다, irigasi sekunder를 행하다",
+    "pos": "동사",
+    "root": "irigasi sekunder",
+    "affix_logic": "어근 'irigasi sekunder'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'irigasi sekunder'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan irigasi sekunder",
+    "antonym": "tidak irigasi sekunder",
+    "context": "'beririgasi sekunder'은(는) principalmente 'irigasi sekunder하는 상태이다, irigasi sekunder를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'irigasi sekunder'의 용법에 유의하세요. 'beririgasi sekunder' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'irigasi sekunder' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beririgasi sekunder untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 irigasi sekunder하는 상태이다, irigasi sekunder를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beririgasi sekunder yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 irigasi sekunder하는 상태이다, irigasi sekunder를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "irigasi sekunder",
+        "meaning": "(어근) irigasi sekunder하는 상태이다"
+      },
+      {
+        "word": "beririgasi sekunder",
+        "meaning": "irigasi sekunder하는 상태이다, irigasi sekunder를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_fimqf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengirigasi sekunder [[뼝irigasi sekunder]]",
+    "meaning": "irigasi sekunder 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "irigasi sekunder",
+    "affix_logic": "어근 'irigasi sekunder'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'irigasi sekunder'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak irigasi sekunder",
+    "antonym": "bukan irigasi sekunder",
+    "context": "'pengirigasi sekunder'은(는) principalmente 'irigasi sekunder 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'irigasi sekunder'의 용법에 유의하세요. 'pengirigasi sekunder' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'irigasi sekunder' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengirigasi sekunder untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 irigasi sekunder 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengirigasi sekunder yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 irigasi sekunder 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "irigasi sekunder",
+        "meaning": "(어근) irigasi sekunder 수행 주체"
+      },
+      {
+        "word": "pengirigasi sekunder",
+        "meaning": "irigasi sekunder 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_dtshc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengirigasi sekunderan [[뼝irigasi sekunder안]]",
+    "meaning": "irigasi sekunder 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "irigasi sekunder",
+    "affix_logic": "어근 'irigasi sekunder'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'irigasi sekunder'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses irigasi sekunder",
+    "antonym": "bukan irigasi sekunder",
+    "context": "'pengirigasi sekunderan'은(는) principalmente 'irigasi sekunder 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'irigasi sekunder'의 용법에 유의하세요. 'pengirigasi sekunderan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'irigasi sekunder' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengirigasi sekunderan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 irigasi sekunder 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengirigasi sekunderan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 irigasi sekunder 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "irigasi sekunder",
+        "meaning": "(어근) irigasi sekunder 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengirigasi sekunderan",
+        "meaning": "irigasi sekunder 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_at5g3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjalan tol [[버르jalan tol]]",
+    "meaning": "jalan tol하는 상태이다, jalan tol를 행하다",
+    "pos": "동사",
+    "root": "jalan tol",
+    "affix_logic": "어근 'jalan tol'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'jalan tol'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan jalan tol",
+    "antonym": "tidak jalan tol",
+    "context": "'berjalan tol'은(는) principalmente 'jalan tol하는 상태이다, jalan tol를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jalan tol'의 용법에 유의하세요. 'berjalan tol' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jalan tol' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berjalan tol untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jalan tol하는 상태이다, jalan tol를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berjalan tol yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jalan tol하는 상태이다, jalan tol를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jalan tol",
+        "meaning": "(어근) jalan tol하는 상태이다"
+      },
+      {
+        "word": "berjalan tol",
+        "meaning": "jalan tol하는 상태이다, jalan tol를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_vzuwx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjalan tol [[뼝jalan tol]]",
+    "meaning": "jalan tol 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "jalan tol",
+    "affix_logic": "어근 'jalan tol'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'jalan tol'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak jalan tol",
+    "antonym": "bukan jalan tol",
+    "context": "'pengjalan tol'은(는) principalmente 'jalan tol 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jalan tol'의 용법에 유의하세요. 'pengjalan tol' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jalan tol' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengjalan tol untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jalan tol 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengjalan tol yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jalan tol 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jalan tol",
+        "meaning": "(어근) jalan tol 수행 주체"
+      },
+      {
+        "word": "pengjalan tol",
+        "meaning": "jalan tol 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_etiif",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjalan tolan [[뼝jalan tol안]]",
+    "meaning": "jalan tol 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "jalan tol",
+    "affix_logic": "어근 'jalan tol'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'jalan tol'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses jalan tol",
+    "antonym": "bukan jalan tol",
+    "context": "'pengjalan tolan'은(는) principalmente 'jalan tol 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jalan tol'의 용법에 유의하세요. 'pengjalan tolan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jalan tol' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengjalan tolan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jalan tol 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengjalan tolan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jalan tol 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jalan tol",
+        "meaning": "(어근) jalan tol 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengjalan tolan",
+        "meaning": "jalan tol 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_zt4n1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjembatan layang [[버르jembatan layang]]",
+    "meaning": "jembatan layang하는 상태이다, jembatan layang를 행하다",
+    "pos": "동사",
+    "root": "jembatan layang",
+    "affix_logic": "어근 'jembatan layang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'jembatan layang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan jembatan layang",
+    "antonym": "tidak jembatan layang",
+    "context": "'berjembatan layang'은(는) principalmente 'jembatan layang하는 상태이다, jembatan layang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jembatan layang'의 용법에 유의하세요. 'berjembatan layang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jembatan layang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berjembatan layang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jembatan layang하는 상태이다, jembatan layang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berjembatan layang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jembatan layang하는 상태이다, jembatan layang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jembatan layang",
+        "meaning": "(어근) jembatan layang하는 상태이다"
+      },
+      {
+        "word": "berjembatan layang",
+        "meaning": "jembatan layang하는 상태이다, jembatan layang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_z93l4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjembatan layang [[뼝jembatan layang]]",
+    "meaning": "jembatan layang 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "jembatan layang",
+    "affix_logic": "어근 'jembatan layang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'jembatan layang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak jembatan layang",
+    "antonym": "bukan jembatan layang",
+    "context": "'pengjembatan layang'은(는) principalmente 'jembatan layang 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jembatan layang'의 용법에 유의하세요. 'pengjembatan layang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jembatan layang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengjembatan layang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jembatan layang 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengjembatan layang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jembatan layang 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jembatan layang",
+        "meaning": "(어근) jembatan layang 수행 주체"
+      },
+      {
+        "word": "pengjembatan layang",
+        "meaning": "jembatan layang 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_yvjku",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjembatan layangan [[뼝jembatan layang안]]",
+    "meaning": "jembatan layang 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "jembatan layang",
+    "affix_logic": "어근 'jembatan layang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'jembatan layang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses jembatan layang",
+    "antonym": "bukan jembatan layang",
+    "context": "'pengjembatan layangan'은(는) principalmente 'jembatan layang 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jembatan layang'의 용법에 유의하세요. 'pengjembatan layangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jembatan layang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengjembatan layangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jembatan layang 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengjembatan layangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jembatan layang 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jembatan layang",
+        "meaning": "(어근) jembatan layang 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengjembatan layangan",
+        "meaning": "jembatan layang 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_okub4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjembatan gantung [[버르jembatan gantung]]",
+    "meaning": "jembatan gantung하는 상태이다, jembatan gantung를 행하다",
+    "pos": "동사",
+    "root": "jembatan gantung",
+    "affix_logic": "어근 'jembatan gantung'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'jembatan gantung'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan jembatan gantung",
+    "antonym": "tidak jembatan gantung",
+    "context": "'berjembatan gantung'은(는) principalmente 'jembatan gantung하는 상태이다, jembatan gantung를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jembatan gantung'의 용법에 유의하세요. 'berjembatan gantung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jembatan gantung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berjembatan gantung untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jembatan gantung하는 상태이다, jembatan gantung를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berjembatan gantung yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jembatan gantung하는 상태이다, jembatan gantung를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jembatan gantung",
+        "meaning": "(어근) jembatan gantung하는 상태이다"
+      },
+      {
+        "word": "berjembatan gantung",
+        "meaning": "jembatan gantung하는 상태이다, jembatan gantung를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_5379t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjembatan gantung [[뼝jembatan gantung]]",
+    "meaning": "jembatan gantung 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "jembatan gantung",
+    "affix_logic": "어근 'jembatan gantung'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'jembatan gantung'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak jembatan gantung",
+    "antonym": "bukan jembatan gantung",
+    "context": "'pengjembatan gantung'은(는) principalmente 'jembatan gantung 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jembatan gantung'의 용법에 유의하세요. 'pengjembatan gantung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jembatan gantung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengjembatan gantung untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jembatan gantung 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengjembatan gantung yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jembatan gantung 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jembatan gantung",
+        "meaning": "(어근) jembatan gantung 수행 주체"
+      },
+      {
+        "word": "pengjembatan gantung",
+        "meaning": "jembatan gantung 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_4cpos",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjembatan gantungan [[뼝jembatan gantung안]]",
+    "meaning": "jembatan gantung 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "jembatan gantung",
+    "affix_logic": "어근 'jembatan gantung'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'jembatan gantung'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses jembatan gantung",
+    "antonym": "bukan jembatan gantung",
+    "context": "'pengjembatan gantungan'은(는) principalmente 'jembatan gantung 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jembatan gantung'의 용법에 유의하세요. 'pengjembatan gantungan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jembatan gantung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengjembatan gantungan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jembatan gantung 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengjembatan gantungan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jembatan gantung 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jembatan gantung",
+        "meaning": "(어근) jembatan gantung 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengjembatan gantungan",
+        "meaning": "jembatan gantung 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_f1kah",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkawasan industri [[버르kawasan industri]]",
+    "meaning": "kawasan industri하는 상태이다, kawasan industri를 행하다",
+    "pos": "동사",
+    "root": "kawasan industri",
+    "affix_logic": "어근 'kawasan industri'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kawasan industri'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan kawasan industri",
+    "antonym": "tidak kawasan industri",
+    "context": "'berkawasan industri'은(는) principalmente 'kawasan industri하는 상태이다, kawasan industri를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kawasan industri'의 용법에 유의하세요. 'berkawasan industri' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kawasan industri' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berkawasan industri untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kawasan industri하는 상태이다, kawasan industri를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berkawasan industri yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kawasan industri하는 상태이다, kawasan industri를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kawasan industri",
+        "meaning": "(어근) kawasan industri하는 상태이다"
+      },
+      {
+        "word": "berkawasan industri",
+        "meaning": "kawasan industri하는 상태이다, kawasan industri를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ibg5h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkawasan industri [[뼝kawasan industri]]",
+    "meaning": "kawasan industri 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "kawasan industri",
+    "affix_logic": "어근 'kawasan industri'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kawasan industri'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak kawasan industri",
+    "antonym": "bukan kawasan industri",
+    "context": "'pengkawasan industri'은(는) principalmente 'kawasan industri 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kawasan industri'의 용법에 유의하세요. 'pengkawasan industri' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kawasan industri' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkawasan industri untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kawasan industri 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkawasan industri yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kawasan industri 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kawasan industri",
+        "meaning": "(어근) kawasan industri 수행 주체"
+      },
+      {
+        "word": "pengkawasan industri",
+        "meaning": "kawasan industri 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_6mezt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkawasan industrian [[뼝kawasan industri안]]",
+    "meaning": "kawasan industri 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "kawasan industri",
+    "affix_logic": "어근 'kawasan industri'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kawasan industri'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses kawasan industri",
+    "antonym": "bukan kawasan industri",
+    "context": "'pengkawasan industrian'은(는) principalmente 'kawasan industri 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kawasan industri'의 용법에 유의하세요. 'pengkawasan industrian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kawasan industri' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkawasan industrian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kawasan industri 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkawasan industrian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kawasan industri 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kawasan industri",
+        "meaning": "(어근) kawasan industri 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengkawasan industrian",
+        "meaning": "kawasan industri 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_krlb0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkawasan komersial [[버르kawasan komersial]]",
+    "meaning": "kawasan komersial하는 상태이다, kawasan komersial를 행하다",
+    "pos": "동사",
+    "root": "kawasan komersial",
+    "affix_logic": "어근 'kawasan komersial'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kawasan komersial'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan kawasan komersial",
+    "antonym": "tidak kawasan komersial",
+    "context": "'berkawasan komersial'은(는) principalmente 'kawasan komersial하는 상태이다, kawasan komersial를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kawasan komersial'의 용법에 유의하세요. 'berkawasan komersial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kawasan komersial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berkawasan komersial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kawasan komersial하는 상태이다, kawasan komersial를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berkawasan komersial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kawasan komersial하는 상태이다, kawasan komersial를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kawasan komersial",
+        "meaning": "(어근) kawasan komersial하는 상태이다"
+      },
+      {
+        "word": "berkawasan komersial",
+        "meaning": "kawasan komersial하는 상태이다, kawasan komersial를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_dqxel",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkawasan komersial [[뼝kawasan komersial]]",
+    "meaning": "kawasan komersial 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "kawasan komersial",
+    "affix_logic": "어근 'kawasan komersial'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kawasan komersial'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak kawasan komersial",
+    "antonym": "bukan kawasan komersial",
+    "context": "'pengkawasan komersial'은(는) principalmente 'kawasan komersial 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kawasan komersial'의 용법에 유의하세요. 'pengkawasan komersial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kawasan komersial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkawasan komersial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kawasan komersial 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkawasan komersial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kawasan komersial 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kawasan komersial",
+        "meaning": "(어근) kawasan komersial 수행 주체"
+      },
+      {
+        "word": "pengkawasan komersial",
+        "meaning": "kawasan komersial 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_mdmoj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkawasan komersialan [[뼝kawasan komersial안]]",
+    "meaning": "kawasan komersial 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "kawasan komersial",
+    "affix_logic": "어근 'kawasan komersial'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kawasan komersial'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses kawasan komersial",
+    "antonym": "bukan kawasan komersial",
+    "context": "'pengkawasan komersialan'은(는) principalmente 'kawasan komersial 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kawasan komersial'의 용법에 유의하세요. 'pengkawasan komersialan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kawasan komersial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkawasan komersialan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kawasan komersial 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkawasan komersialan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kawasan komersial 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kawasan komersial",
+        "meaning": "(어근) kawasan komersial 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengkawasan komersialan",
+        "meaning": "kawasan komersial 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ly20i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkondominium [[버르kondominium]]",
+    "meaning": "kondominium하는 상태이다, kondominium를 행하다",
+    "pos": "동사",
+    "root": "kondominium",
+    "affix_logic": "어근 'kondominium'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kondominium'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan kondominium",
+    "antonym": "tidak kondominium",
+    "context": "'berkondominium'은(는) principalmente 'kondominium하는 상태이다, kondominium를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kondominium'의 용법에 유의하세요. 'berkondominium' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kondominium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berkondominium untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kondominium하는 상태이다, kondominium를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berkondominium yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kondominium하는 상태이다, kondominium를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kondominium",
+        "meaning": "(어근) kondominium하는 상태이다"
+      },
+      {
+        "word": "berkondominium",
+        "meaning": "kondominium하는 상태이다, kondominium를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_q33n6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkondominium [[뼝kondominium]]",
+    "meaning": "kondominium 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "kondominium",
+    "affix_logic": "어근 'kondominium'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kondominium'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak kondominium",
+    "antonym": "bukan kondominium",
+    "context": "'pengkondominium'은(는) principalmente 'kondominium 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kondominium'의 용법에 유의하세요. 'pengkondominium' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kondominium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkondominium untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kondominium 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkondominium yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kondominium 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kondominium",
+        "meaning": "(어근) kondominium 수행 주체"
+      },
+      {
+        "word": "pengkondominium",
+        "meaning": "kondominium 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_9f8l8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkondominiuman [[뼝kondominium안]]",
+    "meaning": "kondominium 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "kondominium",
+    "affix_logic": "어근 'kondominium'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kondominium'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses kondominium",
+    "antonym": "bukan kondominium",
+    "context": "'pengkondominiuman'은(는) principalmente 'kondominium 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kondominium'의 용법에 유의하세요. 'pengkondominiuman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kondominium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkondominiuman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kondominium 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkondominiuman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kondominium 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kondominium",
+        "meaning": "(어근) kondominium 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengkondominiuman",
+        "meaning": "kondominium 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_9zndn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonstruksi baja [[버르konstruksi baja]]",
+    "meaning": "konstruksi baja하는 상태이다, konstruksi baja를 행하다",
+    "pos": "동사",
+    "root": "konstruksi baja",
+    "affix_logic": "어근 'konstruksi baja'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'konstruksi baja'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan konstruksi baja",
+    "antonym": "tidak konstruksi baja",
+    "context": "'berkonstruksi baja'은(는) principalmente 'konstruksi baja하는 상태이다, konstruksi baja를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konstruksi baja'의 용법에 유의하세요. 'berkonstruksi baja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konstruksi baja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berkonstruksi baja untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 konstruksi baja하는 상태이다, konstruksi baja를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berkonstruksi baja yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 konstruksi baja하는 상태이다, konstruksi baja를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konstruksi baja",
+        "meaning": "(어근) konstruksi baja하는 상태이다"
+      },
+      {
+        "word": "berkonstruksi baja",
+        "meaning": "konstruksi baja하는 상태이다, konstruksi baja를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_gxv2t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonstruksi baja [[뼝konstruksi baja]]",
+    "meaning": "konstruksi baja 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "konstruksi baja",
+    "affix_logic": "어근 'konstruksi baja'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'konstruksi baja'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak konstruksi baja",
+    "antonym": "bukan konstruksi baja",
+    "context": "'pengkonstruksi baja'은(는) principalmente 'konstruksi baja 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konstruksi baja'의 용법에 유의하세요. 'pengkonstruksi baja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konstruksi baja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkonstruksi baja untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 konstruksi baja 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkonstruksi baja yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 konstruksi baja 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konstruksi baja",
+        "meaning": "(어근) konstruksi baja 수행 주체"
+      },
+      {
+        "word": "pengkonstruksi baja",
+        "meaning": "konstruksi baja 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_bhsns",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonstruksi bajaan [[뼝konstruksi baja안]]",
+    "meaning": "konstruksi baja 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "konstruksi baja",
+    "affix_logic": "어근 'konstruksi baja'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'konstruksi baja'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses konstruksi baja",
+    "antonym": "bukan konstruksi baja",
+    "context": "'pengkonstruksi bajaan'은(는) principalmente 'konstruksi baja 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konstruksi baja'의 용법에 유의하세요. 'pengkonstruksi bajaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konstruksi baja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkonstruksi bajaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 konstruksi baja 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkonstruksi bajaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 konstruksi baja 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konstruksi baja",
+        "meaning": "(어근) konstruksi baja 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengkonstruksi bajaan",
+        "meaning": "konstruksi baja 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_fzhzw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkontraktor [[버르kontraktor]]",
+    "meaning": "kontraktor하는 상태이다, kontraktor를 행하다",
+    "pos": "동사",
+    "root": "kontraktor",
+    "affix_logic": "어근 'kontraktor'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kontraktor'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan kontraktor",
+    "antonym": "tidak kontraktor",
+    "context": "'berkontraktor'은(는) principalmente 'kontraktor하는 상태이다, kontraktor를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontraktor'의 용법에 유의하세요. 'berkontraktor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontraktor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berkontraktor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kontraktor하는 상태이다, kontraktor를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berkontraktor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kontraktor하는 상태이다, kontraktor를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontraktor",
+        "meaning": "(어근) kontraktor하는 상태이다"
+      },
+      {
+        "word": "berkontraktor",
+        "meaning": "kontraktor하는 상태이다, kontraktor를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_cxgvd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontraktor [[뼝kontraktor]]",
+    "meaning": "kontraktor 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "kontraktor",
+    "affix_logic": "어근 'kontraktor'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kontraktor'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak kontraktor",
+    "antonym": "bukan kontraktor",
+    "context": "'pengkontraktor'은(는) principalmente 'kontraktor 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontraktor'의 용법에 유의하세요. 'pengkontraktor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontraktor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkontraktor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kontraktor 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkontraktor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kontraktor 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontraktor",
+        "meaning": "(어근) kontraktor 수행 주체"
+      },
+      {
+        "word": "pengkontraktor",
+        "meaning": "kontraktor 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ummr0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontraktoran [[뼝kontraktor안]]",
+    "meaning": "kontraktor 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "kontraktor",
+    "affix_logic": "어근 'kontraktor'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kontraktor'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses kontraktor",
+    "antonym": "bukan kontraktor",
+    "context": "'pengkontraktoran'은(는) principalmente 'kontraktor 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontraktor'의 용법에 유의하세요. 'pengkontraktoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontraktor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkontraktoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kontraktor 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkontraktoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kontraktor 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontraktor",
+        "meaning": "(어근) kontraktor 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengkontraktoran",
+        "meaning": "kontraktor 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_vtv8f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkoridor publik [[버르koridor publik]]",
+    "meaning": "koridor publik하는 상태이다, koridor publik를 행하다",
+    "pos": "동사",
+    "root": "koridor publik",
+    "affix_logic": "어근 'koridor publik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'koridor publik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan koridor publik",
+    "antonym": "tidak koridor publik",
+    "context": "'berkoridor publik'은(는) principalmente 'koridor publik하는 상태이다, koridor publik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'koridor publik'의 용법에 유의하세요. 'berkoridor publik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'koridor publik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berkoridor publik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 koridor publik하는 상태이다, koridor publik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berkoridor publik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 koridor publik하는 상태이다, koridor publik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "koridor publik",
+        "meaning": "(어근) koridor publik하는 상태이다"
+      },
+      {
+        "word": "berkoridor publik",
+        "meaning": "koridor publik하는 상태이다, koridor publik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_4vv50",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoridor publik [[뼝koridor publik]]",
+    "meaning": "koridor publik 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "koridor publik",
+    "affix_logic": "어근 'koridor publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'koridor publik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak koridor publik",
+    "antonym": "bukan koridor publik",
+    "context": "'pengkoridor publik'은(는) principalmente 'koridor publik 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'koridor publik'의 용법에 유의하세요. 'pengkoridor publik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'koridor publik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkoridor publik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 koridor publik 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkoridor publik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 koridor publik 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "koridor publik",
+        "meaning": "(어근) koridor publik 수행 주체"
+      },
+      {
+        "word": "pengkoridor publik",
+        "meaning": "koridor publik 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_rw6m2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoridor publikan [[뼝koridor publik안]]",
+    "meaning": "koridor publik 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "koridor publik",
+    "affix_logic": "어근 'koridor publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'koridor publik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses koridor publik",
+    "antonym": "bukan koridor publik",
+    "context": "'pengkoridor publikan'은(는) principalmente 'koridor publik 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'koridor publik'의 용법에 유의하세요. 'pengkoridor publikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'koridor publik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkoridor publikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 koridor publik 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkoridor publikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 koridor publik 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "koridor publik",
+        "meaning": "(어근) koridor publik 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengkoridor publikan",
+        "meaning": "koridor publik 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_6sa2f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkubah [[버르kubah]]",
+    "meaning": "kubah하는 상태이다, kubah를 행하다",
+    "pos": "동사",
+    "root": "kubah",
+    "affix_logic": "어근 'kubah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kubah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan kubah",
+    "antonym": "tidak kubah",
+    "context": "'berkubah'은(는) principalmente 'kubah하는 상태이다, kubah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kubah'의 용법에 유의하세요. 'berkubah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kubah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berkubah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kubah하는 상태이다, kubah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berkubah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kubah하는 상태이다, kubah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kubah",
+        "meaning": "(어근) kubah하는 상태이다"
+      },
+      {
+        "word": "berkubah",
+        "meaning": "kubah하는 상태이다, kubah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_uh430",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkubah [[뼝kubah]]",
+    "meaning": "kubah 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "kubah",
+    "affix_logic": "어근 'kubah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kubah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak kubah",
+    "antonym": "bukan kubah",
+    "context": "'pengkubah'은(는) principalmente 'kubah 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kubah'의 용법에 유의하세요. 'pengkubah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kubah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkubah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kubah 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkubah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kubah 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kubah",
+        "meaning": "(어근) kubah 수행 주체"
+      },
+      {
+        "word": "pengkubah",
+        "meaning": "kubah 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_22irm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkubahan [[뼝kubah안]]",
+    "meaning": "kubah 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "kubah",
+    "affix_logic": "어근 'kubah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'kubah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses kubah",
+    "antonym": "bukan kubah",
+    "context": "'pengkubahan'은(는) principalmente 'kubah 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kubah'의 용법에 유의하세요. 'pengkubahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kubah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengkubahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kubah 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengkubahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kubah 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kubah",
+        "meaning": "(어근) kubah 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengkubahan",
+        "meaning": "kubah 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_gnn4u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlandas pacu [[버르landas pacu]]",
+    "meaning": "landas pacu하는 상태이다, landas pacu를 행하다",
+    "pos": "동사",
+    "root": "landas pacu",
+    "affix_logic": "어근 'landas pacu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'landas pacu'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan landas pacu",
+    "antonym": "tidak landas pacu",
+    "context": "'berlandas pacu'은(는) principalmente 'landas pacu하는 상태이다, landas pacu를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'landas pacu'의 용법에 유의하세요. 'berlandas pacu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'landas pacu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berlandas pacu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 landas pacu하는 상태이다, landas pacu를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berlandas pacu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 landas pacu하는 상태이다, landas pacu를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "landas pacu",
+        "meaning": "(어근) landas pacu하는 상태이다"
+      },
+      {
+        "word": "berlandas pacu",
+        "meaning": "landas pacu하는 상태이다, landas pacu를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_77qx2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglandas pacu [[뼝landas pacu]]",
+    "meaning": "landas pacu 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "landas pacu",
+    "affix_logic": "어근 'landas pacu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'landas pacu'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak landas pacu",
+    "antonym": "bukan landas pacu",
+    "context": "'penglandas pacu'은(는) principalmente 'landas pacu 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'landas pacu'의 용법에 유의하세요. 'penglandas pacu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'landas pacu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglandas pacu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 landas pacu 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglandas pacu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 landas pacu 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "landas pacu",
+        "meaning": "(어근) landas pacu 수행 주체"
+      },
+      {
+        "word": "penglandas pacu",
+        "meaning": "landas pacu 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_c6gq9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglandas pacuan [[뼝landas pacu안]]",
+    "meaning": "landas pacu 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "landas pacu",
+    "affix_logic": "어근 'landas pacu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'landas pacu'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses landas pacu",
+    "antonym": "bukan landas pacu",
+    "context": "'penglandas pacuan'은(는) principalmente 'landas pacu 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'landas pacu'의 용법에 유의하세요. 'penglandas pacuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'landas pacu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglandas pacuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 landas pacu 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglandas pacuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 landas pacu 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "landas pacu",
+        "meaning": "(어근) landas pacu 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penglandas pacuan",
+        "meaning": "landas pacu 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_8p688",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlanskap perkotaan [[버르lanskap perkotaan]]",
+    "meaning": "lanskap perkotaan하는 상태이다, lanskap perkotaan를 행하다",
+    "pos": "동사",
+    "root": "lanskap perkotaan",
+    "affix_logic": "어근 'lanskap perkotaan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'lanskap perkotaan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan lanskap perkotaan",
+    "antonym": "tidak lanskap perkotaan",
+    "context": "'berlanskap perkotaan'은(는) principalmente 'lanskap perkotaan하는 상태이다, lanskap perkotaan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lanskap perkotaan'의 용법에 유의하세요. 'berlanskap perkotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lanskap perkotaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berlanskap perkotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lanskap perkotaan하는 상태이다, lanskap perkotaan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berlanskap perkotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lanskap perkotaan하는 상태이다, lanskap perkotaan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lanskap perkotaan",
+        "meaning": "(어근) lanskap perkotaan하는 상태이다"
+      },
+      {
+        "word": "berlanskap perkotaan",
+        "meaning": "lanskap perkotaan하는 상태이다, lanskap perkotaan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_66f2h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglanskap perkotaan [[뼝lanskap perkotaan]]",
+    "meaning": "lanskap perkotaan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "lanskap perkotaan",
+    "affix_logic": "어근 'lanskap perkotaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lanskap perkotaan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak lanskap perkotaan",
+    "antonym": "bukan lanskap perkotaan",
+    "context": "'penglanskap perkotaan'은(는) principalmente 'lanskap perkotaan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lanskap perkotaan'의 용법에 유의하세요. 'penglanskap perkotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lanskap perkotaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglanskap perkotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lanskap perkotaan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglanskap perkotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lanskap perkotaan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lanskap perkotaan",
+        "meaning": "(어근) lanskap perkotaan 수행 주체"
+      },
+      {
+        "word": "penglanskap perkotaan",
+        "meaning": "lanskap perkotaan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_834nl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglanskap perkotaanan [[뼝lanskap perkotaan안]]",
+    "meaning": "lanskap perkotaan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "lanskap perkotaan",
+    "affix_logic": "어근 'lanskap perkotaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lanskap perkotaan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses lanskap perkotaan",
+    "antonym": "bukan lanskap perkotaan",
+    "context": "'penglanskap perkotaanan'은(는) principalmente 'lanskap perkotaan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lanskap perkotaan'의 용법에 유의하세요. 'penglanskap perkotaanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lanskap perkotaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglanskap perkotaanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lanskap perkotaan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglanskap perkotaanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lanskap perkotaan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lanskap perkotaan",
+        "meaning": "(어근) lanskap perkotaan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penglanskap perkotaanan",
+        "meaning": "lanskap perkotaan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_pxrvu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlift barang [[버르lift barang]]",
+    "meaning": "lift barang하는 상태이다, lift barang를 행하다",
+    "pos": "동사",
+    "root": "lift barang",
+    "affix_logic": "어근 'lift barang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'lift barang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan lift barang",
+    "antonym": "tidak lift barang",
+    "context": "'berlift barang'은(는) principalmente 'lift barang하는 상태이다, lift barang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lift barang'의 용법에 유의하세요. 'berlift barang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lift barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berlift barang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lift barang하는 상태이다, lift barang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berlift barang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lift barang하는 상태이다, lift barang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lift barang",
+        "meaning": "(어근) lift barang하는 상태이다"
+      },
+      {
+        "word": "berlift barang",
+        "meaning": "lift barang하는 상태이다, lift barang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_87dj3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglift barang [[뼝lift barang]]",
+    "meaning": "lift barang 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "lift barang",
+    "affix_logic": "어근 'lift barang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lift barang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak lift barang",
+    "antonym": "bukan lift barang",
+    "context": "'penglift barang'은(는) principalmente 'lift barang 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lift barang'의 용법에 유의하세요. 'penglift barang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lift barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglift barang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lift barang 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglift barang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lift barang 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lift barang",
+        "meaning": "(어근) lift barang 수행 주체"
+      },
+      {
+        "word": "penglift barang",
+        "meaning": "lift barang 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_mp6mz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglift barangan [[뼝lift barang안]]",
+    "meaning": "lift barang 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "lift barang",
+    "affix_logic": "어근 'lift barang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lift barang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses lift barang",
+    "antonym": "bukan lift barang",
+    "context": "'penglift barangan'은(는) principalmente 'lift barang 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lift barang'의 용법에 유의하세요. 'penglift barangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lift barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglift barangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lift barang 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglift barangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lift barang 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lift barang",
+        "meaning": "(어근) lift barang 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penglift barangan",
+        "meaning": "lift barang 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_lju5n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlokasi strategis [[버르lokasi strategis]]",
+    "meaning": "lokasi strategis하는 상태이다, lokasi strategis를 행하다",
+    "pos": "동사",
+    "root": "lokasi strategis",
+    "affix_logic": "어근 'lokasi strategis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'lokasi strategis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan lokasi strategis",
+    "antonym": "tidak lokasi strategis",
+    "context": "'berlokasi strategis'은(는) principalmente 'lokasi strategis하는 상태이다, lokasi strategis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lokasi strategis'의 용법에 유의하세요. 'berlokasi strategis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lokasi strategis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berlokasi strategis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lokasi strategis하는 상태이다, lokasi strategis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berlokasi strategis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lokasi strategis하는 상태이다, lokasi strategis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lokasi strategis",
+        "meaning": "(어근) lokasi strategis하는 상태이다"
+      },
+      {
+        "word": "berlokasi strategis",
+        "meaning": "lokasi strategis하는 상태이다, lokasi strategis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_1r413",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglokasi strategis [[뼝lokasi strategis]]",
+    "meaning": "lokasi strategis 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "lokasi strategis",
+    "affix_logic": "어근 'lokasi strategis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lokasi strategis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak lokasi strategis",
+    "antonym": "bukan lokasi strategis",
+    "context": "'penglokasi strategis'은(는) principalmente 'lokasi strategis 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lokasi strategis'의 용법에 유의하세요. 'penglokasi strategis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lokasi strategis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglokasi strategis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lokasi strategis 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglokasi strategis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lokasi strategis 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lokasi strategis",
+        "meaning": "(어근) lokasi strategis 수행 주체"
+      },
+      {
+        "word": "penglokasi strategis",
+        "meaning": "lokasi strategis 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_f4bvr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglokasi strategisan [[뼝lokasi strategis안]]",
+    "meaning": "lokasi strategis 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "lokasi strategis",
+    "affix_logic": "어근 'lokasi strategis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lokasi strategis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses lokasi strategis",
+    "antonym": "bukan lokasi strategis",
+    "context": "'penglokasi strategisan'은(는) principalmente 'lokasi strategis 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lokasi strategis'의 용법에 유의하세요. 'penglokasi strategisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lokasi strategis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglokasi strategisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lokasi strategis 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglokasi strategisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lokasi strategis 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lokasi strategis",
+        "meaning": "(어근) lokasi strategis 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penglokasi strategisan",
+        "meaning": "lokasi strategis 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_mhvm0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlorong bawah tanah [[버르lorong bawah tanah]]",
+    "meaning": "lorong bawah tanah하는 상태이다, lorong bawah tanah를 행하다",
+    "pos": "동사",
+    "root": "lorong bawah tanah",
+    "affix_logic": "어근 'lorong bawah tanah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'lorong bawah tanah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan lorong bawah tanah",
+    "antonym": "tidak lorong bawah tanah",
+    "context": "'berlorong bawah tanah'은(는) principalmente 'lorong bawah tanah하는 상태이다, lorong bawah tanah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lorong bawah tanah'의 용법에 유의하세요. 'berlorong bawah tanah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lorong bawah tanah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berlorong bawah tanah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lorong bawah tanah하는 상태이다, lorong bawah tanah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berlorong bawah tanah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lorong bawah tanah하는 상태이다, lorong bawah tanah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lorong bawah tanah",
+        "meaning": "(어근) lorong bawah tanah하는 상태이다"
+      },
+      {
+        "word": "berlorong bawah tanah",
+        "meaning": "lorong bawah tanah하는 상태이다, lorong bawah tanah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_l84yu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglorong bawah tanah [[뼝lorong bawah tanah]]",
+    "meaning": "lorong bawah tanah 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "lorong bawah tanah",
+    "affix_logic": "어근 'lorong bawah tanah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lorong bawah tanah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak lorong bawah tanah",
+    "antonym": "bukan lorong bawah tanah",
+    "context": "'penglorong bawah tanah'은(는) principalmente 'lorong bawah tanah 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lorong bawah tanah'의 용법에 유의하세요. 'penglorong bawah tanah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lorong bawah tanah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglorong bawah tanah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lorong bawah tanah 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglorong bawah tanah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lorong bawah tanah 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lorong bawah tanah",
+        "meaning": "(어근) lorong bawah tanah 수행 주체"
+      },
+      {
+        "word": "penglorong bawah tanah",
+        "meaning": "lorong bawah tanah 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_e0xeb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglorong bawah tanahan [[뼝lorong bawah tanah안]]",
+    "meaning": "lorong bawah tanah 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "lorong bawah tanah",
+    "affix_logic": "어근 'lorong bawah tanah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'lorong bawah tanah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses lorong bawah tanah",
+    "antonym": "bukan lorong bawah tanah",
+    "context": "'penglorong bawah tanahan'은(는) principalmente 'lorong bawah tanah 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'lorong bawah tanah'의 용법에 유의하세요. 'penglorong bawah tanahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'lorong bawah tanah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penglorong bawah tanahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 lorong bawah tanah 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penglorong bawah tanahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 lorong bawah tanah 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "lorong bawah tanah",
+        "meaning": "(어근) lorong bawah tanah 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "penglorong bawah tanahan",
+        "meaning": "lorong bawah tanah 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_2h0ew",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermaket [[버르maket]]",
+    "meaning": "maket하는 상태이다, maket를 행하다",
+    "pos": "동사",
+    "root": "maket",
+    "affix_logic": "어근 'maket'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'maket'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan maket",
+    "antonym": "tidak maket",
+    "context": "'bermaket'은(는) principalmente 'maket하는 상태이다, maket를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'maket'의 용법에 유의하세요. 'bermaket' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'maket' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bermaket untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 maket하는 상태이다, maket를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bermaket yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 maket하는 상태이다, maket를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "maket",
+        "meaning": "(어근) maket하는 상태이다"
+      },
+      {
+        "word": "bermaket",
+        "meaning": "maket하는 상태이다, maket를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ctt67",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmaket [[뼝maket]]",
+    "meaning": "maket 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "maket",
+    "affix_logic": "어근 'maket'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'maket'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak maket",
+    "antonym": "bukan maket",
+    "context": "'pengmaket'은(는) principalmente 'maket 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'maket'의 용법에 유의하세요. 'pengmaket' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'maket' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmaket untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 maket 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmaket yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 maket 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "maket",
+        "meaning": "(어근) maket 수행 주체"
+      },
+      {
+        "word": "pengmaket",
+        "meaning": "maket 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_5l5ma",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmaketan [[뼝maket안]]",
+    "meaning": "maket 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "maket",
+    "affix_logic": "어근 'maket'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'maket'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses maket",
+    "antonym": "bukan maket",
+    "context": "'pengmaketan'은(는) principalmente 'maket 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'maket'의 용법에 유의하세요. 'pengmaketan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'maket' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmaketan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 maket 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmaketan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 maket 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "maket",
+        "meaning": "(어근) maket 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengmaketan",
+        "meaning": "maket 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_bus62",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermarmer [[버르marmer]]",
+    "meaning": "marmer하는 상태이다, marmer를 행하다",
+    "pos": "동사",
+    "root": "marmer",
+    "affix_logic": "어근 'marmer'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'marmer'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan marmer",
+    "antonym": "tidak marmer",
+    "context": "'bermarmer'은(는) principalmente 'marmer하는 상태이다, marmer를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'marmer'의 용법에 유의하세요. 'bermarmer' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'marmer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bermarmer untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 marmer하는 상태이다, marmer를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bermarmer yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 marmer하는 상태이다, marmer를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "marmer",
+        "meaning": "(어근) marmer하는 상태이다"
+      },
+      {
+        "word": "bermarmer",
+        "meaning": "marmer하는 상태이다, marmer를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_x6sbq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmarmer [[뼝marmer]]",
+    "meaning": "marmer 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "marmer",
+    "affix_logic": "어근 'marmer'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'marmer'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak marmer",
+    "antonym": "bukan marmer",
+    "context": "'pengmarmer'은(는) principalmente 'marmer 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'marmer'의 용법에 유의하세요. 'pengmarmer' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'marmer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmarmer untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 marmer 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmarmer yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 marmer 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "marmer",
+        "meaning": "(어근) marmer 수행 주체"
+      },
+      {
+        "word": "pengmarmer",
+        "meaning": "marmer 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_0rg7n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmarmeran [[뼝marmer안]]",
+    "meaning": "marmer 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "marmer",
+    "affix_logic": "어근 'marmer'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'marmer'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses marmer",
+    "antonym": "bukan marmer",
+    "context": "'pengmarmeran'은(는) principalmente 'marmer 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'marmer'의 용법에 유의하세요. 'pengmarmeran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'marmer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmarmeran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 marmer 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmarmeran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 marmer 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "marmer",
+        "meaning": "(어근) marmer 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengmarmeran",
+        "meaning": "marmer 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_1kkm2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermaterial bangunan [[버르material bangunan]]",
+    "meaning": "material bangunan하는 상태이다, material bangunan를 행하다",
+    "pos": "동사",
+    "root": "material bangunan",
+    "affix_logic": "어근 'material bangunan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'material bangunan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan material bangunan",
+    "antonym": "tidak material bangunan",
+    "context": "'bermaterial bangunan'은(는) principalmente 'material bangunan하는 상태이다, material bangunan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'material bangunan'의 용법에 유의하세요. 'bermaterial bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'material bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bermaterial bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 material bangunan하는 상태이다, material bangunan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bermaterial bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 material bangunan하는 상태이다, material bangunan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "material bangunan",
+        "meaning": "(어근) material bangunan하는 상태이다"
+      },
+      {
+        "word": "bermaterial bangunan",
+        "meaning": "material bangunan하는 상태이다, material bangunan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_m7pco",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmaterial bangunan [[뼝material bangunan]]",
+    "meaning": "material bangunan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "material bangunan",
+    "affix_logic": "어근 'material bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'material bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak material bangunan",
+    "antonym": "bukan material bangunan",
+    "context": "'pengmaterial bangunan'은(는) principalmente 'material bangunan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'material bangunan'의 용법에 유의하세요. 'pengmaterial bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'material bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmaterial bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 material bangunan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmaterial bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 material bangunan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "material bangunan",
+        "meaning": "(어근) material bangunan 수행 주체"
+      },
+      {
+        "word": "pengmaterial bangunan",
+        "meaning": "material bangunan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_qf5m9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmaterial bangunanan [[뼝material bangunan안]]",
+    "meaning": "material bangunan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "material bangunan",
+    "affix_logic": "어근 'material bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'material bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses material bangunan",
+    "antonym": "bukan material bangunan",
+    "context": "'pengmaterial bangunanan'은(는) principalmente 'material bangunan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'material bangunan'의 용법에 유의하세요. 'pengmaterial bangunanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'material bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmaterial bangunanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 material bangunan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmaterial bangunanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 material bangunan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "material bangunan",
+        "meaning": "(어근) material bangunan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengmaterial bangunanan",
+        "meaning": "material bangunan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_w5i4p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermegastruktur [[버르megastruktur]]",
+    "meaning": "megastruktur하는 상태이다, megastruktur를 행하다",
+    "pos": "동사",
+    "root": "megastruktur",
+    "affix_logic": "어근 'megastruktur'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'megastruktur'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan megastruktur",
+    "antonym": "tidak megastruktur",
+    "context": "'bermegastruktur'은(는) principalmente 'megastruktur하는 상태이다, megastruktur를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'megastruktur'의 용법에 유의하세요. 'bermegastruktur' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'megastruktur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bermegastruktur untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 megastruktur하는 상태이다, megastruktur를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bermegastruktur yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 megastruktur하는 상태이다, megastruktur를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "megastruktur",
+        "meaning": "(어근) megastruktur하는 상태이다"
+      },
+      {
+        "word": "bermegastruktur",
+        "meaning": "megastruktur하는 상태이다, megastruktur를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_5hlb7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmegastruktur [[뼝megastruktur]]",
+    "meaning": "megastruktur 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "megastruktur",
+    "affix_logic": "어근 'megastruktur'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'megastruktur'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak megastruktur",
+    "antonym": "bukan megastruktur",
+    "context": "'pengmegastruktur'은(는) principalmente 'megastruktur 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'megastruktur'의 용법에 유의하세요. 'pengmegastruktur' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'megastruktur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmegastruktur untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 megastruktur 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmegastruktur yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 megastruktur 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "megastruktur",
+        "meaning": "(어근) megastruktur 수행 주체"
+      },
+      {
+        "word": "pengmegastruktur",
+        "meaning": "megastruktur 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_6arww",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmegastrukturan [[뼝megastruktur안]]",
+    "meaning": "megastruktur 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "megastruktur",
+    "affix_logic": "어근 'megastruktur'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'megastruktur'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses megastruktur",
+    "antonym": "bukan megastruktur",
+    "context": "'pengmegastrukturan'은(는) principalmente 'megastruktur 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'megastruktur'의 용법에 유의하세요. 'pengmegastrukturan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'megastruktur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmegastrukturan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 megastruktur 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmegastrukturan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 megastruktur 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "megastruktur",
+        "meaning": "(어근) megastruktur 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengmegastrukturan",
+        "meaning": "megastruktur 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_sk6tv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermenara [[버르menara]]",
+    "meaning": "menara하는 상태이다, menara를 행하다",
+    "pos": "동사",
+    "root": "menara",
+    "affix_logic": "어근 'menara'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'menara'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan menara",
+    "antonym": "tidak menara",
+    "context": "'bermenara'은(는) principalmente 'menara하는 상태이다, menara를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'menara'의 용법에 유의하세요. 'bermenara' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'menara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bermenara untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 menara하는 상태이다, menara를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bermenara yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 menara하는 상태이다, menara를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "menara",
+        "meaning": "(어근) menara하는 상태이다"
+      },
+      {
+        "word": "bermenara",
+        "meaning": "menara하는 상태이다, menara를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_b2r7l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmenara [[뼝menara]]",
+    "meaning": "menara 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "menara",
+    "affix_logic": "어근 'menara'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'menara'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak menara",
+    "antonym": "bukan menara",
+    "context": "'pengmenara'은(는) principalmente 'menara 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'menara'의 용법에 유의하세요. 'pengmenara' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'menara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmenara untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 menara 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmenara yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 menara 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "menara",
+        "meaning": "(어근) menara 수행 주체"
+      },
+      {
+        "word": "pengmenara",
+        "meaning": "menara 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_3vbd9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmenaraan [[뼝menara안]]",
+    "meaning": "menara 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "menara",
+    "affix_logic": "어근 'menara'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'menara'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses menara",
+    "antonym": "bukan menara",
+    "context": "'pengmenaraan'은(는) principalmente 'menara 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'menara'의 용법에 유의하세요. 'pengmenaraan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'menara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmenaraan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 menara 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmenaraan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 menara 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "menara",
+        "meaning": "(어근) menara 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengmenaraan",
+        "meaning": "menara 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_0o3zp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermonumen bersejarah [[버르monumen bersejarah]]",
+    "meaning": "monumen bersejarah하는 상태이다, monumen bersejarah를 행하다",
+    "pos": "동사",
+    "root": "monumen bersejarah",
+    "affix_logic": "어근 'monumen bersejarah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'monumen bersejarah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan monumen bersejarah",
+    "antonym": "tidak monumen bersejarah",
+    "context": "'bermonumen bersejarah'은(는) principalmente 'monumen bersejarah하는 상태이다, monumen bersejarah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'monumen bersejarah'의 용법에 유의하세요. 'bermonumen bersejarah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'monumen bersejarah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bermonumen bersejarah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 monumen bersejarah하는 상태이다, monumen bersejarah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bermonumen bersejarah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 monumen bersejarah하는 상태이다, monumen bersejarah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "monumen bersejarah",
+        "meaning": "(어근) monumen bersejarah하는 상태이다"
+      },
+      {
+        "word": "bermonumen bersejarah",
+        "meaning": "monumen bersejarah하는 상태이다, monumen bersejarah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_z3cbd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmonumen bersejarah [[뼝monumen bersejarah]]",
+    "meaning": "monumen bersejarah 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "monumen bersejarah",
+    "affix_logic": "어근 'monumen bersejarah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'monumen bersejarah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak monumen bersejarah",
+    "antonym": "bukan monumen bersejarah",
+    "context": "'pengmonumen bersejarah'은(는) principalmente 'monumen bersejarah 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'monumen bersejarah'의 용법에 유의하세요. 'pengmonumen bersejarah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'monumen bersejarah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmonumen bersejarah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 monumen bersejarah 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmonumen bersejarah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 monumen bersejarah 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "monumen bersejarah",
+        "meaning": "(어근) monumen bersejarah 수행 주체"
+      },
+      {
+        "word": "pengmonumen bersejarah",
+        "meaning": "monumen bersejarah 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ugn1a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmonumen bersejarahan [[뼝monumen bersejarah안]]",
+    "meaning": "monumen bersejarah 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "monumen bersejarah",
+    "affix_logic": "어근 'monumen bersejarah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'monumen bersejarah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses monumen bersejarah",
+    "antonym": "bukan monumen bersejarah",
+    "context": "'pengmonumen bersejarahan'은(는) principalmente 'monumen bersejarah 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'monumen bersejarah'의 용법에 유의하세요. 'pengmonumen bersejarahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'monumen bersejarah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmonumen bersejarahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 monumen bersejarah 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmonumen bersejarahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 monumen bersejarah 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "monumen bersejarah",
+        "meaning": "(어근) monumen bersejarah 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengmonumen bersejarahan",
+        "meaning": "monumen bersejarah 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_aised",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermosaik [[버르mosaik]]",
+    "meaning": "mosaik하는 상태이다, mosaik를 행하다",
+    "pos": "동사",
+    "root": "mosaik",
+    "affix_logic": "어근 'mosaik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'mosaik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan mosaik",
+    "antonym": "tidak mosaik",
+    "context": "'bermosaik'은(는) principalmente 'mosaik하는 상태이다, mosaik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'mosaik'의 용법에 유의하세요. 'bermosaik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'mosaik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bermosaik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 mosaik하는 상태이다, mosaik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bermosaik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 mosaik하는 상태이다, mosaik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "mosaik",
+        "meaning": "(어근) mosaik하는 상태이다"
+      },
+      {
+        "word": "bermosaik",
+        "meaning": "mosaik하는 상태이다, mosaik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_nrakx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmosaik [[뼝mosaik]]",
+    "meaning": "mosaik 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "mosaik",
+    "affix_logic": "어근 'mosaik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'mosaik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak mosaik",
+    "antonym": "bukan mosaik",
+    "context": "'pengmosaik'은(는) principalmente 'mosaik 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'mosaik'의 용법에 유의하세요. 'pengmosaik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'mosaik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmosaik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 mosaik 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmosaik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 mosaik 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "mosaik",
+        "meaning": "(어근) mosaik 수행 주체"
+      },
+      {
+        "word": "pengmosaik",
+        "meaning": "mosaik 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_7h0yh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmosaikan [[뼝mosaik안]]",
+    "meaning": "mosaik 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "mosaik",
+    "affix_logic": "어근 'mosaik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'mosaik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses mosaik",
+    "antonym": "bukan mosaik",
+    "context": "'pengmosaikan'은(는) principalmente 'mosaik 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'mosaik'의 용법에 유의하세요. 'pengmosaikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'mosaik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengmosaikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 mosaik 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengmosaikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 mosaik 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "mosaik",
+        "meaning": "(어근) mosaik 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengmosaikan",
+        "meaning": "mosaik 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_2y2ac",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berorientasi bangunan [[버르orientasi bangunan]]",
+    "meaning": "orientasi bangunan하는 상태이다, orientasi bangunan를 행하다",
+    "pos": "동사",
+    "root": "orientasi bangunan",
+    "affix_logic": "어근 'orientasi bangunan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'orientasi bangunan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan orientasi bangunan",
+    "antonym": "tidak orientasi bangunan",
+    "context": "'berorientasi bangunan'은(는) principalmente 'orientasi bangunan하는 상태이다, orientasi bangunan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'orientasi bangunan'의 용법에 유의하세요. 'berorientasi bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'orientasi bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berorientasi bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 orientasi bangunan하는 상태이다, orientasi bangunan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berorientasi bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 orientasi bangunan하는 상태이다, orientasi bangunan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "orientasi bangunan",
+        "meaning": "(어근) orientasi bangunan하는 상태이다"
+      },
+      {
+        "word": "berorientasi bangunan",
+        "meaning": "orientasi bangunan하는 상태이다, orientasi bangunan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_po9if",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorientasi bangunan [[뼝orientasi bangunan]]",
+    "meaning": "orientasi bangunan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "orientasi bangunan",
+    "affix_logic": "어근 'orientasi bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'orientasi bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak orientasi bangunan",
+    "antonym": "bukan orientasi bangunan",
+    "context": "'pengorientasi bangunan'은(는) principalmente 'orientasi bangunan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'orientasi bangunan'의 용법에 유의하세요. 'pengorientasi bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'orientasi bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengorientasi bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 orientasi bangunan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengorientasi bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 orientasi bangunan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "orientasi bangunan",
+        "meaning": "(어근) orientasi bangunan 수행 주체"
+      },
+      {
+        "word": "pengorientasi bangunan",
+        "meaning": "orientasi bangunan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_wf0qv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorientasi bangunanan [[뼝orientasi bangunan안]]",
+    "meaning": "orientasi bangunan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "orientasi bangunan",
+    "affix_logic": "어근 'orientasi bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'orientasi bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses orientasi bangunan",
+    "antonym": "bukan orientasi bangunan",
+    "context": "'pengorientasi bangunanan'은(는) principalmente 'orientasi bangunan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'orientasi bangunan'의 용법에 유의하세요. 'pengorientasi bangunanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'orientasi bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengorientasi bangunanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 orientasi bangunan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengorientasi bangunanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 orientasi bangunan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "orientasi bangunan",
+        "meaning": "(어근) orientasi bangunan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengorientasi bangunanan",
+        "meaning": "orientasi bangunan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_wcj56",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beroramen [[버르oramen]]",
+    "meaning": "oramen하는 상태이다, oramen를 행하다",
+    "pos": "동사",
+    "root": "oramen",
+    "affix_logic": "어근 'oramen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'oramen'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan oramen",
+    "antonym": "tidak oramen",
+    "context": "'beroramen'은(는) principalmente 'oramen하는 상태이다, oramen를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'oramen'의 용법에 유의하세요. 'beroramen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'oramen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beroramen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 oramen하는 상태이다, oramen를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beroramen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 oramen하는 상태이다, oramen를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "oramen",
+        "meaning": "(어근) oramen하는 상태이다"
+      },
+      {
+        "word": "beroramen",
+        "meaning": "oramen하는 상태이다, oramen를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ukwg8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoramen [[뼝oramen]]",
+    "meaning": "oramen 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "oramen",
+    "affix_logic": "어근 'oramen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'oramen'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak oramen",
+    "antonym": "bukan oramen",
+    "context": "'pengoramen'은(는) principalmente 'oramen 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'oramen'의 용법에 유의하세요. 'pengoramen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'oramen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengoramen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 oramen 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengoramen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 oramen 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "oramen",
+        "meaning": "(어근) oramen 수행 주체"
+      },
+      {
+        "word": "pengoramen",
+        "meaning": "oramen 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_27px5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoramenan [[뼝oramen안]]",
+    "meaning": "oramen 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "oramen",
+    "affix_logic": "어근 'oramen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'oramen'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses oramen",
+    "antonym": "bukan oramen",
+    "context": "'pengoramenan'은(는) principalmente 'oramen 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'oramen'의 용법에 유의하세요. 'pengoramenan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'oramen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengoramenan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 oramen 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengoramenan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 oramen 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "oramen",
+        "meaning": "(어근) oramen 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengoramenan",
+        "meaning": "oramen 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_eahkk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpanel beton [[버르panel beton]]",
+    "meaning": "panel beton하는 상태이다, panel beton를 행하다",
+    "pos": "동사",
+    "root": "panel beton",
+    "affix_logic": "어근 'panel beton'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'panel beton'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan panel beton",
+    "antonym": "tidak panel beton",
+    "context": "'berpanel beton'은(는) principalmente 'panel beton하는 상태이다, panel beton를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'panel beton'의 용법에 유의하세요. 'berpanel beton' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'panel beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpanel beton untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 panel beton하는 상태이다, panel beton를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpanel beton yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 panel beton하는 상태이다, panel beton를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "panel beton",
+        "meaning": "(어근) panel beton하는 상태이다"
+      },
+      {
+        "word": "berpanel beton",
+        "meaning": "panel beton하는 상태이다, panel beton를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_ana3m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpanel beton [[뼝panel beton]]",
+    "meaning": "panel beton 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "panel beton",
+    "affix_logic": "어근 'panel beton'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'panel beton'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak panel beton",
+    "antonym": "bukan panel beton",
+    "context": "'pengpanel beton'은(는) principalmente 'panel beton 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'panel beton'의 용법에 유의하세요. 'pengpanel beton' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'panel beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpanel beton untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 panel beton 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpanel beton yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 panel beton 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "panel beton",
+        "meaning": "(어근) panel beton 수행 주체"
+      },
+      {
+        "word": "pengpanel beton",
+        "meaning": "panel beton 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_4v7mj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpanel betonan [[뼝panel beton안]]",
+    "meaning": "panel beton 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "panel beton",
+    "affix_logic": "어근 'panel beton'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'panel beton'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses panel beton",
+    "antonym": "bukan panel beton",
+    "context": "'pengpanel betonan'은(는) principalmente 'panel beton 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'panel beton'의 용법에 유의하세요. 'pengpanel betonan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'panel beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpanel betonan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 panel beton 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpanel betonan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 panel beton 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "panel beton",
+        "meaning": "(어근) panel beton 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpanel betonan",
+        "meaning": "panel beton 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_xczqf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berparapet [[버르parapet]]",
+    "meaning": "parapet하는 상태이다, parapet를 행하다",
+    "pos": "동사",
+    "root": "parapet",
+    "affix_logic": "어근 'parapet'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'parapet'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan parapet",
+    "antonym": "tidak parapet",
+    "context": "'berparapet'은(는) principalmente 'parapet하는 상태이다, parapet를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'parapet'의 용법에 유의하세요. 'berparapet' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'parapet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berparapet untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 parapet하는 상태이다, parapet를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berparapet yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 parapet하는 상태이다, parapet를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "parapet",
+        "meaning": "(어근) parapet하는 상태이다"
+      },
+      {
+        "word": "berparapet",
+        "meaning": "parapet하는 상태이다, parapet를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_tzgc3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengparapet [[뼝parapet]]",
+    "meaning": "parapet 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "parapet",
+    "affix_logic": "어근 'parapet'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'parapet'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak parapet",
+    "antonym": "bukan parapet",
+    "context": "'pengparapet'은(는) principalmente 'parapet 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'parapet'의 용법에 유의하세요. 'pengparapet' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'parapet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengparapet untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 parapet 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengparapet yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 parapet 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "parapet",
+        "meaning": "(어근) parapet 수행 주체"
+      },
+      {
+        "word": "pengparapet",
+        "meaning": "parapet 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_9y8zw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengparapetan [[뼝parapet안]]",
+    "meaning": "parapet 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "parapet",
+    "affix_logic": "어근 'parapet'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'parapet'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses parapet",
+    "antonym": "bukan parapet",
+    "context": "'pengparapetan'은(는) principalmente 'parapet 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'parapet'의 용법에 유의하세요. 'pengparapetan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'parapet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengparapetan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 parapet 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengparapetan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 parapet 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "parapet",
+        "meaning": "(어근) parapet 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengparapetan",
+        "meaning": "parapet 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_wgsk5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpasir pasang [[버르pasir pasang]]",
+    "meaning": "pasir pasang하는 상태이다, pasir pasang를 행하다",
+    "pos": "동사",
+    "root": "pasir pasang",
+    "affix_logic": "어근 'pasir pasang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pasir pasang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pasir pasang",
+    "antonym": "tidak pasir pasang",
+    "context": "'berpasir pasang'은(는) principalmente 'pasir pasang하는 상태이다, pasir pasang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pasir pasang'의 용법에 유의하세요. 'berpasir pasang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pasir pasang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpasir pasang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pasir pasang하는 상태이다, pasir pasang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpasir pasang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pasir pasang하는 상태이다, pasir pasang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pasir pasang",
+        "meaning": "(어근) pasir pasang하는 상태이다"
+      },
+      {
+        "word": "berpasir pasang",
+        "meaning": "pasir pasang하는 상태이다, pasir pasang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_gveox",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpasir pasang [[뼝pasir pasang]]",
+    "meaning": "pasir pasang 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pasir pasang",
+    "affix_logic": "어근 'pasir pasang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pasir pasang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak pasir pasang",
+    "antonym": "bukan pasir pasang",
+    "context": "'pengpasir pasang'은(는) principalmente 'pasir pasang 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pasir pasang'의 용법에 유의하세요. 'pengpasir pasang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pasir pasang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpasir pasang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pasir pasang 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpasir pasang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pasir pasang 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pasir pasang",
+        "meaning": "(어근) pasir pasang 수행 주체"
+      },
+      {
+        "word": "pengpasir pasang",
+        "meaning": "pasir pasang 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_tk4h7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpasir pasangan [[뼝pasir pasang안]]",
+    "meaning": "pasir pasang 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pasir pasang",
+    "affix_logic": "어근 'pasir pasang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pasir pasang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pasir pasang",
+    "antonym": "bukan pasir pasang",
+    "context": "'pengpasir pasangan'은(는) principalmente 'pasir pasang 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pasir pasang'의 용법에 유의하세요. 'pengpasir pasangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pasir pasang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpasir pasangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pasir pasang 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpasir pasangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pasir pasang 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pasir pasang",
+        "meaning": "(어근) pasir pasang 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpasir pasangan",
+        "meaning": "pasir pasang 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694107_wmg4z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpaving block [[버르paving block]]",
+    "meaning": "paving block하는 상태이다, paving block를 행하다",
+    "pos": "동사",
+    "root": "paving block",
+    "affix_logic": "어근 'paving block'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'paving block'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan paving block",
+    "antonym": "tidak paving block",
+    "context": "'berpaving block'은(는) principalmente 'paving block하는 상태이다, paving block를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'paving block'의 용법에 유의하세요. 'berpaving block' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'paving block' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpaving block untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 paving block하는 상태이다, paving block를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpaving block yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 paving block하는 상태이다, paving block를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "paving block",
+        "meaning": "(어근) paving block하는 상태이다"
+      },
+      {
+        "word": "berpaving block",
+        "meaning": "paving block하는 상태이다, paving block를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_vd8m0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpaving block [[뼝paving block]]",
+    "meaning": "paving block 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "paving block",
+    "affix_logic": "어근 'paving block'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'paving block'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak paving block",
+    "antonym": "bukan paving block",
+    "context": "'pengpaving block'은(는) principalmente 'paving block 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'paving block'의 용법에 유의하세요. 'pengpaving block' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'paving block' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpaving block untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 paving block 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpaving block yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 paving block 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "paving block",
+        "meaning": "(어근) paving block 수행 주체"
+      },
+      {
+        "word": "pengpaving block",
+        "meaning": "paving block 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_z9j80",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpaving blockan [[뼝paving block안]]",
+    "meaning": "paving block 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "paving block",
+    "affix_logic": "어근 'paving block'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'paving block'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses paving block",
+    "antonym": "bukan paving block",
+    "context": "'pengpaving blockan'은(는) principalmente 'paving block 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'paving block'의 용법에 유의하세요. 'pengpaving blockan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'paving block' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpaving blockan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 paving block 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpaving blockan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 paving block 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "paving block",
+        "meaning": "(어근) paving block 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpaving blockan",
+        "meaning": "paving block 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_irqrh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpemukiman [[버르pemukiman]]",
+    "meaning": "pemukiman하는 상태이다, pemukiman를 행하다",
+    "pos": "동사",
+    "root": "pemukiman",
+    "affix_logic": "어근 'pemukiman'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pemukiman'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pemukiman",
+    "antonym": "tidak pemukiman",
+    "context": "'berpemukiman'은(는) principalmente 'pemukiman하는 상태이다, pemukiman를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pemukiman'의 용법에 유의하세요. 'berpemukiman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pemukiman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpemukiman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pemukiman하는 상태이다, pemukiman를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpemukiman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pemukiman하는 상태이다, pemukiman를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pemukiman",
+        "meaning": "(어근) pemukiman하는 상태이다"
+      },
+      {
+        "word": "berpemukiman",
+        "meaning": "pemukiman하는 상태이다, pemukiman를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_h3dmq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpemukiman [[뼝pemukiman]]",
+    "meaning": "pemukiman 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pemukiman",
+    "affix_logic": "어근 'pemukiman'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pemukiman'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak pemukiman",
+    "antonym": "bukan pemukiman",
+    "context": "'pengpemukiman'은(는) principalmente 'pemukiman 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pemukiman'의 용법에 유의하세요. 'pengpemukiman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pemukiman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpemukiman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pemukiman 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpemukiman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pemukiman 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pemukiman",
+        "meaning": "(어근) pemukiman 수행 주체"
+      },
+      {
+        "word": "pengpemukiman",
+        "meaning": "pemukiman 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_untui",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpemukimanan [[뼝pemukiman안]]",
+    "meaning": "pemukiman 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pemukiman",
+    "affix_logic": "어근 'pemukiman'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pemukiman'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pemukiman",
+    "antonym": "bukan pemukiman",
+    "context": "'pengpemukimanan'은(는) principalmente 'pemukiman 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pemukiman'의 용법에 유의하세요. 'pengpemukimanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pemukiman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpemukimanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pemukiman 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpemukimanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pemukiman 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pemukiman",
+        "meaning": "(어근) pemukiman 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpemukimanan",
+        "meaning": "pemukiman 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_m1t80",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpencakar langit [[버르pencakar langit]]",
+    "meaning": "pencakar langit하는 상태이다, pencakar langit를 행하다",
+    "pos": "동사",
+    "root": "pencakar langit",
+    "affix_logic": "어근 'pencakar langit'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pencakar langit'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pencakar langit",
+    "antonym": "tidak pencakar langit",
+    "context": "'berpencakar langit'은(는) principalmente 'pencakar langit하는 상태이다, pencakar langit를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pencakar langit'의 용법에 유의하세요. 'berpencakar langit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pencakar langit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpencakar langit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pencakar langit하는 상태이다, pencakar langit를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpencakar langit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pencakar langit하는 상태이다, pencakar langit를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pencakar langit",
+        "meaning": "(어근) pencakar langit하는 상태이다"
+      },
+      {
+        "word": "berpencakar langit",
+        "meaning": "pencakar langit하는 상태이다, pencakar langit를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_fnn6s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpencakar langit [[뼝pencakar langit]]",
+    "meaning": "pencakar langit 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pencakar langit",
+    "affix_logic": "어근 'pencakar langit'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pencakar langit'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak pencakar langit",
+    "antonym": "bukan pencakar langit",
+    "context": "'pengpencakar langit'은(는) principalmente 'pencakar langit 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pencakar langit'의 용법에 유의하세요. 'pengpencakar langit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pencakar langit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpencakar langit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pencakar langit 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpencakar langit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pencakar langit 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pencakar langit",
+        "meaning": "(어근) pencakar langit 수행 주체"
+      },
+      {
+        "word": "pengpencakar langit",
+        "meaning": "pencakar langit 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_fduu4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpencakar langitan [[뼝pencakar langit안]]",
+    "meaning": "pencakar langit 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pencakar langit",
+    "affix_logic": "어근 'pencakar langit'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pencakar langit'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pencakar langit",
+    "antonym": "bukan pencakar langit",
+    "context": "'pengpencakar langitan'은(는) principalmente 'pencakar langit 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pencakar langit'의 용법에 유의하세요. 'pengpencakar langitan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pencakar langit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpencakar langitan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pencakar langit 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpencakar langitan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pencakar langit 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pencakar langit",
+        "meaning": "(어근) pencakar langit 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpencakar langitan",
+        "meaning": "pencakar langit 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_kniuq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpengaspalan [[버르pengaspalan]]",
+    "meaning": "pengaspalan하는 상태이다, pengaspalan를 행하다",
+    "pos": "동사",
+    "root": "pengaspalan",
+    "affix_logic": "어근 'pengaspalan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pengaspalan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pengaspalan",
+    "antonym": "tidak pengaspalan",
+    "context": "'berpengaspalan'은(는) principalmente 'pengaspalan하는 상태이다, pengaspalan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pengaspalan'의 용법에 유의하세요. 'berpengaspalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pengaspalan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpengaspalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pengaspalan하는 상태이다, pengaspalan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpengaspalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pengaspalan하는 상태이다, pengaspalan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pengaspalan",
+        "meaning": "(어근) pengaspalan하는 상태이다"
+      },
+      {
+        "word": "berpengaspalan",
+        "meaning": "pengaspalan하는 상태이다, pengaspalan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_psapb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpengaspalan [[뼝pengaspalan]]",
+    "meaning": "pengaspalan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pengaspalan",
+    "affix_logic": "어근 'pengaspalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pengaspalan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak pengaspalan",
+    "antonym": "bukan pengaspalan",
+    "context": "'pengpengaspalan'은(는) principalmente 'pengaspalan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pengaspalan'의 용법에 유의하세요. 'pengpengaspalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pengaspalan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpengaspalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pengaspalan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpengaspalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pengaspalan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pengaspalan",
+        "meaning": "(어근) pengaspalan 수행 주체"
+      },
+      {
+        "word": "pengpengaspalan",
+        "meaning": "pengaspalan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_ahk9n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpengaspalanan [[뼝pengaspalan안]]",
+    "meaning": "pengaspalan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pengaspalan",
+    "affix_logic": "어근 'pengaspalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pengaspalan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pengaspalan",
+    "antonym": "bukan pengaspalan",
+    "context": "'pengpengaspalanan'은(는) principalmente 'pengaspalan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pengaspalan'의 용법에 유의하세요. 'pengpengaspalanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pengaspalan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpengaspalanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pengaspalan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpengaspalanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pengaspalan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pengaspalan",
+        "meaning": "(어근) pengaspalan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpengaspalanan",
+        "meaning": "pengaspalan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_r6ttt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpencahayaan alami [[버르pencahayaan alami]]",
+    "meaning": "pencahayaan alami하는 상태이다, pencahayaan alami를 행하다",
+    "pos": "동사",
+    "root": "pencahayaan alami",
+    "affix_logic": "어근 'pencahayaan alami'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pencahayaan alami'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pencahayaan alami",
+    "antonym": "tidak pencahayaan alami",
+    "context": "'berpencahayaan alami'은(는) principalmente 'pencahayaan alami하는 상태이다, pencahayaan alami를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pencahayaan alami'의 용법에 유의하세요. 'berpencahayaan alami' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pencahayaan alami' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpencahayaan alami untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pencahayaan alami하는 상태이다, pencahayaan alami를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpencahayaan alami yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pencahayaan alami하는 상태이다, pencahayaan alami를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pencahayaan alami",
+        "meaning": "(어근) pencahayaan alami하는 상태이다"
+      },
+      {
+        "word": "berpencahayaan alami",
+        "meaning": "pencahayaan alami하는 상태이다, pencahayaan alami를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_6057x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpencahayaan alami [[뼝pencahayaan alami]]",
+    "meaning": "pencahayaan alami 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pencahayaan alami",
+    "affix_logic": "어근 'pencahayaan alami'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pencahayaan alami'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak pencahayaan alami",
+    "antonym": "bukan pencahayaan alami",
+    "context": "'pengpencahayaan alami'은(는) principalmente 'pencahayaan alami 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pencahayaan alami'의 용법에 유의하세요. 'pengpencahayaan alami' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pencahayaan alami' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpencahayaan alami untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pencahayaan alami 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpencahayaan alami yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pencahayaan alami 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pencahayaan alami",
+        "meaning": "(어근) pencahayaan alami 수행 주체"
+      },
+      {
+        "word": "pengpencahayaan alami",
+        "meaning": "pencahayaan alami 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_ubcag",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpencahayaan alamian [[뼝pencahayaan alami안]]",
+    "meaning": "pencahayaan alami 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pencahayaan alami",
+    "affix_logic": "어근 'pencahayaan alami'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pencahayaan alami'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pencahayaan alami",
+    "antonym": "bukan pencahayaan alami",
+    "context": "'pengpencahayaan alamian'은(는) principalmente 'pencahayaan alami 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pencahayaan alami'의 용법에 유의하세요. 'pengpencahayaan alamian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pencahayaan alami' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpencahayaan alamian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pencahayaan alami 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpencahayaan alamian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pencahayaan alami 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pencahayaan alami",
+        "meaning": "(어근) pencahayaan alami 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpencahayaan alamian",
+        "meaning": "pencahayaan alami 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_xz391",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berperancah [[버르perancah]]",
+    "meaning": "perancah하는 상태이다, perancah를 행하다",
+    "pos": "동사",
+    "root": "perancah",
+    "affix_logic": "어근 'perancah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'perancah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan perancah",
+    "antonym": "tidak perancah",
+    "context": "'berperancah'은(는) principalmente 'perancah하는 상태이다, perancah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perancah'의 용법에 유의하세요. 'berperancah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perancah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berperancah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perancah하는 상태이다, perancah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berperancah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perancah하는 상태이다, perancah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perancah",
+        "meaning": "(어근) perancah하는 상태이다"
+      },
+      {
+        "word": "berperancah",
+        "meaning": "perancah하는 상태이다, perancah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_7oxg0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperancah [[뼝perancah]]",
+    "meaning": "perancah 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "perancah",
+    "affix_logic": "어근 'perancah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'perancah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak perancah",
+    "antonym": "bukan perancah",
+    "context": "'pengperancah'은(는) principalmente 'perancah 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perancah'의 용법에 유의하세요. 'pengperancah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perancah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengperancah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perancah 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengperancah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perancah 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perancah",
+        "meaning": "(어근) perancah 수행 주체"
+      },
+      {
+        "word": "pengperancah",
+        "meaning": "perancah 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_kbt51",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperancahan [[뼝perancah안]]",
+    "meaning": "perancah 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "perancah",
+    "affix_logic": "어근 'perancah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'perancah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses perancah",
+    "antonym": "bukan perancah",
+    "context": "'pengperancahan'은(는) principalmente 'perancah 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perancah'의 용법에 유의하세요. 'pengperancahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perancah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengperancahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perancah 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengperancahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perancah 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perancah",
+        "meaning": "(어근) perancah 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengperancahan",
+        "meaning": "perancah 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_6lrvg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berperencana kota [[버르perencana kota]]",
+    "meaning": "perencana kota하는 상태이다, perencana kota를 행하다",
+    "pos": "동사",
+    "root": "perencana kota",
+    "affix_logic": "어근 'perencana kota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'perencana kota'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan perencana kota",
+    "antonym": "tidak perencana kota",
+    "context": "'berperencana kota'은(는) principalmente 'perencana kota하는 상태이다, perencana kota를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perencana kota'의 용법에 유의하세요. 'berperencana kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perencana kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berperencana kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perencana kota하는 상태이다, perencana kota를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berperencana kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perencana kota하는 상태이다, perencana kota를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perencana kota",
+        "meaning": "(어근) perencana kota하는 상태이다"
+      },
+      {
+        "word": "berperencana kota",
+        "meaning": "perencana kota하는 상태이다, perencana kota를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_6s943",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperencana kota [[뼝perencana kota]]",
+    "meaning": "perencana kota 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "perencana kota",
+    "affix_logic": "어근 'perencana kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'perencana kota'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak perencana kota",
+    "antonym": "bukan perencana kota",
+    "context": "'pengperencana kota'은(는) principalmente 'perencana kota 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perencana kota'의 용법에 유의하세요. 'pengperencana kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perencana kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengperencana kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perencana kota 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengperencana kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perencana kota 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perencana kota",
+        "meaning": "(어근) perencana kota 수행 주체"
+      },
+      {
+        "word": "pengperencana kota",
+        "meaning": "perencana kota 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_1bks4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperencana kotaan [[뼝perencana kota안]]",
+    "meaning": "perencana kota 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "perencana kota",
+    "affix_logic": "어근 'perencana kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'perencana kota'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses perencana kota",
+    "antonym": "bukan perencana kota",
+    "context": "'pengperencana kotaan'은(는) principalmente 'perencana kota 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perencana kota'의 용법에 유의하세요. 'pengperencana kotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perencana kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengperencana kotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perencana kota 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengperencana kotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perencana kota 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perencana kota",
+        "meaning": "(어근) perencana kota 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengperencana kotaan",
+        "meaning": "perencana kota 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_81vkp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berperumahan rakyat [[버르perumahan rakyat]]",
+    "meaning": "perumahan rakyat하는 상태이다, perumahan rakyat를 행하다",
+    "pos": "동사",
+    "root": "perumahan rakyat",
+    "affix_logic": "어근 'perumahan rakyat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'perumahan rakyat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan perumahan rakyat",
+    "antonym": "tidak perumahan rakyat",
+    "context": "'berperumahan rakyat'은(는) principalmente 'perumahan rakyat하는 상태이다, perumahan rakyat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perumahan rakyat'의 용법에 유의하세요. 'berperumahan rakyat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perumahan rakyat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berperumahan rakyat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perumahan rakyat하는 상태이다, perumahan rakyat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berperumahan rakyat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perumahan rakyat하는 상태이다, perumahan rakyat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perumahan rakyat",
+        "meaning": "(어근) perumahan rakyat하는 상태이다"
+      },
+      {
+        "word": "berperumahan rakyat",
+        "meaning": "perumahan rakyat하는 상태이다, perumahan rakyat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_q09cd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperumahan rakyat [[뼝perumahan rakyat]]",
+    "meaning": "perumahan rakyat 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "perumahan rakyat",
+    "affix_logic": "어근 'perumahan rakyat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'perumahan rakyat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak perumahan rakyat",
+    "antonym": "bukan perumahan rakyat",
+    "context": "'pengperumahan rakyat'은(는) principalmente 'perumahan rakyat 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perumahan rakyat'의 용법에 유의하세요. 'pengperumahan rakyat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perumahan rakyat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengperumahan rakyat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perumahan rakyat 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengperumahan rakyat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perumahan rakyat 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perumahan rakyat",
+        "meaning": "(어근) perumahan rakyat 수행 주체"
+      },
+      {
+        "word": "pengperumahan rakyat",
+        "meaning": "perumahan rakyat 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_2y26n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperumahan rakyatan [[뼝perumahan rakyat안]]",
+    "meaning": "perumahan rakyat 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "perumahan rakyat",
+    "affix_logic": "어근 'perumahan rakyat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'perumahan rakyat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses perumahan rakyat",
+    "antonym": "bukan perumahan rakyat",
+    "context": "'pengperumahan rakyatan'은(는) principalmente 'perumahan rakyat 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perumahan rakyat'의 용법에 유의하세요. 'pengperumahan rakyatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perumahan rakyat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengperumahan rakyatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perumahan rakyat 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengperumahan rakyatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perumahan rakyat 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perumahan rakyat",
+        "meaning": "(어근) perumahan rakyat 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengperumahan rakyatan",
+        "meaning": "perumahan rakyat 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_suwyo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpilar jembatan [[버르pilar jembatan]]",
+    "meaning": "pilar jembatan하는 상태이다, pilar jembatan를 행하다",
+    "pos": "동사",
+    "root": "pilar jembatan",
+    "affix_logic": "어근 'pilar jembatan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pilar jembatan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pilar jembatan",
+    "antonym": "tidak pilar jembatan",
+    "context": "'berpilar jembatan'은(는) principalmente 'pilar jembatan하는 상태이다, pilar jembatan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pilar jembatan'의 용법에 유의하세요. 'berpilar jembatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pilar jembatan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpilar jembatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pilar jembatan하는 상태이다, pilar jembatan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpilar jembatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pilar jembatan하는 상태이다, pilar jembatan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pilar jembatan",
+        "meaning": "(어근) pilar jembatan하는 상태이다"
+      },
+      {
+        "word": "berpilar jembatan",
+        "meaning": "pilar jembatan하는 상태이다, pilar jembatan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_fh107",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpilar jembatan [[뼝pilar jembatan]]",
+    "meaning": "pilar jembatan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pilar jembatan",
+    "affix_logic": "어근 'pilar jembatan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pilar jembatan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak pilar jembatan",
+    "antonym": "bukan pilar jembatan",
+    "context": "'pengpilar jembatan'은(는) principalmente 'pilar jembatan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pilar jembatan'의 용법에 유의하세요. 'pengpilar jembatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pilar jembatan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpilar jembatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pilar jembatan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpilar jembatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pilar jembatan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pilar jembatan",
+        "meaning": "(어근) pilar jembatan 수행 주체"
+      },
+      {
+        "word": "pengpilar jembatan",
+        "meaning": "pilar jembatan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_zbzs5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpilar jembatanan [[뼝pilar jembatan안]]",
+    "meaning": "pilar jembatan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pilar jembatan",
+    "affix_logic": "어근 'pilar jembatan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pilar jembatan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pilar jembatan",
+    "antonym": "bukan pilar jembatan",
+    "context": "'pengpilar jembatanan'은(는) principalmente 'pilar jembatan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pilar jembatan'의 용법에 유의하세요. 'pengpilar jembatanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pilar jembatan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpilar jembatanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pilar jembatan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpilar jembatanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pilar jembatan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pilar jembatan",
+        "meaning": "(어근) pilar jembatan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpilar jembatanan",
+        "meaning": "pilar jembatan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_cnybu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpipa bawah laut [[버르pipa bawah laut]]",
+    "meaning": "pipa bawah laut하는 상태이다, pipa bawah laut를 행하다",
+    "pos": "동사",
+    "root": "pipa bawah laut",
+    "affix_logic": "어근 'pipa bawah laut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pipa bawah laut'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pipa bawah laut",
+    "antonym": "tidak pipa bawah laut",
+    "context": "'berpipa bawah laut'은(는) principalmente 'pipa bawah laut하는 상태이다, pipa bawah laut를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pipa bawah laut'의 용법에 유의하세요. 'berpipa bawah laut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pipa bawah laut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpipa bawah laut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pipa bawah laut하는 상태이다, pipa bawah laut를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpipa bawah laut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pipa bawah laut하는 상태이다, pipa bawah laut를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pipa bawah laut",
+        "meaning": "(어근) pipa bawah laut하는 상태이다"
+      },
+      {
+        "word": "berpipa bawah laut",
+        "meaning": "pipa bawah laut하는 상태이다, pipa bawah laut를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_mbj1g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpipa bawah laut [[뼝pipa bawah laut]]",
+    "meaning": "pipa bawah laut 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pipa bawah laut",
+    "affix_logic": "어근 'pipa bawah laut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pipa bawah laut'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak pipa bawah laut",
+    "antonym": "bukan pipa bawah laut",
+    "context": "'pengpipa bawah laut'은(는) principalmente 'pipa bawah laut 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pipa bawah laut'의 용법에 유의하세요. 'pengpipa bawah laut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pipa bawah laut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpipa bawah laut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pipa bawah laut 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpipa bawah laut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pipa bawah laut 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pipa bawah laut",
+        "meaning": "(어근) pipa bawah laut 수행 주체"
+      },
+      {
+        "word": "pengpipa bawah laut",
+        "meaning": "pipa bawah laut 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_vs5x1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpipa bawah lautan [[뼝pipa bawah laut안]]",
+    "meaning": "pipa bawah laut 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pipa bawah laut",
+    "affix_logic": "어근 'pipa bawah laut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pipa bawah laut'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pipa bawah laut",
+    "antonym": "bukan pipa bawah laut",
+    "context": "'pengpipa bawah lautan'은(는) principalmente 'pipa bawah laut 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pipa bawah laut'의 용법에 유의하세요. 'pengpipa bawah lautan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pipa bawah laut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpipa bawah lautan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pipa bawah laut 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpipa bawah lautan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pipa bawah laut 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pipa bawah laut",
+        "meaning": "(어근) pipa bawah laut 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpipa bawah lautan",
+        "meaning": "pipa bawah laut 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_1b1qn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berplat beton [[버르plat beton]]",
+    "meaning": "plat beton하는 상태이다, plat beton를 행하다",
+    "pos": "동사",
+    "root": "plat beton",
+    "affix_logic": "어근 'plat beton'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'plat beton'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan plat beton",
+    "antonym": "tidak plat beton",
+    "context": "'berplat beton'은(는) principalmente 'plat beton하는 상태이다, plat beton를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'plat beton'의 용법에 유의하세요. 'berplat beton' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'plat beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berplat beton untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 plat beton하는 상태이다, plat beton를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berplat beton yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 plat beton하는 상태이다, plat beton를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "plat beton",
+        "meaning": "(어근) plat beton하는 상태이다"
+      },
+      {
+        "word": "berplat beton",
+        "meaning": "plat beton하는 상태이다, plat beton를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_dallk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplat beton [[뼝plat beton]]",
+    "meaning": "plat beton 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "plat beton",
+    "affix_logic": "어근 'plat beton'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'plat beton'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak plat beton",
+    "antonym": "bukan plat beton",
+    "context": "'pengplat beton'은(는) principalmente 'plat beton 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'plat beton'의 용법에 유의하세요. 'pengplat beton' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'plat beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengplat beton untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 plat beton 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengplat beton yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 plat beton 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "plat beton",
+        "meaning": "(어근) plat beton 수행 주체"
+      },
+      {
+        "word": "pengplat beton",
+        "meaning": "plat beton 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_1agne",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplat betonan [[뼝plat beton안]]",
+    "meaning": "plat beton 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "plat beton",
+    "affix_logic": "어근 'plat beton'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'plat beton'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses plat beton",
+    "antonym": "bukan plat beton",
+    "context": "'pengplat betonan'은(는) principalmente 'plat beton 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'plat beton'의 용법에 유의하세요. 'pengplat betonan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'plat beton' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengplat betonan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 plat beton 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengplat betonan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 plat beton 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "plat beton",
+        "meaning": "(어근) plat beton 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengplat betonan",
+        "meaning": "plat beton 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_opf9w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berplaza publik [[버르plaza publik]]",
+    "meaning": "plaza publik하는 상태이다, plaza publik를 행하다",
+    "pos": "동사",
+    "root": "plaza publik",
+    "affix_logic": "어근 'plaza publik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'plaza publik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan plaza publik",
+    "antonym": "tidak plaza publik",
+    "context": "'berplaza publik'은(는) principalmente 'plaza publik하는 상태이다, plaza publik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'plaza publik'의 용법에 유의하세요. 'berplaza publik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'plaza publik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berplaza publik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 plaza publik하는 상태이다, plaza publik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berplaza publik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 plaza publik하는 상태이다, plaza publik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "plaza publik",
+        "meaning": "(어근) plaza publik하는 상태이다"
+      },
+      {
+        "word": "berplaza publik",
+        "meaning": "plaza publik하는 상태이다, plaza publik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_3gnnn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplaza publik [[뼝plaza publik]]",
+    "meaning": "plaza publik 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "plaza publik",
+    "affix_logic": "어근 'plaza publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'plaza publik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak plaza publik",
+    "antonym": "bukan plaza publik",
+    "context": "'pengplaza publik'은(는) principalmente 'plaza publik 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'plaza publik'의 용법에 유의하세요. 'pengplaza publik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'plaza publik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengplaza publik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 plaza publik 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengplaza publik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 plaza publik 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "plaza publik",
+        "meaning": "(어근) plaza publik 수행 주체"
+      },
+      {
+        "word": "pengplaza publik",
+        "meaning": "plaza publik 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_01n1e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplaza publikan [[뼝plaza publik안]]",
+    "meaning": "plaza publik 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "plaza publik",
+    "affix_logic": "어근 'plaza publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'plaza publik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses plaza publik",
+    "antonym": "bukan plaza publik",
+    "context": "'pengplaza publikan'은(는) principalmente 'plaza publik 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'plaza publik'의 용법에 유의하세요. 'pengplaza publikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'plaza publik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengplaza publikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 plaza publik 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengplaza publikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 plaza publik 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "plaza publik",
+        "meaning": "(어근) plaza publik 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengplaza publikan",
+        "meaning": "plaza publik 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_88b9y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpondasi lereng [[버르pondasi lereng]]",
+    "meaning": "pondasi lereng하는 상태이다, pondasi lereng를 행하다",
+    "pos": "동사",
+    "root": "pondasi lereng",
+    "affix_logic": "어근 'pondasi lereng'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pondasi lereng'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan pondasi lereng",
+    "antonym": "tidak pondasi lereng",
+    "context": "'berpondasi lereng'은(는) principalmente 'pondasi lereng하는 상태이다, pondasi lereng를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pondasi lereng'의 용법에 유의하세요. 'berpondasi lereng' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pondasi lereng' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berpondasi lereng untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pondasi lereng하는 상태이다, pondasi lereng를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berpondasi lereng yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pondasi lereng하는 상태이다, pondasi lereng를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pondasi lereng",
+        "meaning": "(어근) pondasi lereng하는 상태이다"
+      },
+      {
+        "word": "berpondasi lereng",
+        "meaning": "pondasi lereng하는 상태이다, pondasi lereng를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_hn5oh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpondasi lereng [[뼝pondasi lereng]]",
+    "meaning": "pondasi lereng 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "pondasi lereng",
+    "affix_logic": "어근 'pondasi lereng'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pondasi lereng'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak pondasi lereng",
+    "antonym": "bukan pondasi lereng",
+    "context": "'pengpondasi lereng'은(는) principalmente 'pondasi lereng 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pondasi lereng'의 용법에 유의하세요. 'pengpondasi lereng' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pondasi lereng' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpondasi lereng untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pondasi lereng 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpondasi lereng yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pondasi lereng 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pondasi lereng",
+        "meaning": "(어근) pondasi lereng 수행 주체"
+      },
+      {
+        "word": "pengpondasi lereng",
+        "meaning": "pondasi lereng 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_2fhqv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpondasi lerengan [[뼝pondasi lereng안]]",
+    "meaning": "pondasi lereng 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "pondasi lereng",
+    "affix_logic": "어근 'pondasi lereng'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'pondasi lereng'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses pondasi lereng",
+    "antonym": "bukan pondasi lereng",
+    "context": "'pengpondasi lerengan'은(는) principalmente 'pondasi lereng 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pondasi lereng'의 용법에 유의하세요. 'pengpondasi lerengan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pondasi lereng' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpondasi lerengan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pondasi lereng 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpondasi lerengan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pondasi lereng 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pondasi lereng",
+        "meaning": "(어근) pondasi lereng 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpondasi lerengan",
+        "meaning": "pondasi lereng 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_btxxu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berproperti [[버르properti]]",
+    "meaning": "properti하는 상태이다, properti를 행하다",
+    "pos": "동사",
+    "root": "properti",
+    "affix_logic": "어근 'properti'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'properti'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan properti",
+    "antonym": "tidak properti",
+    "context": "'berproperti'은(는) principalmente 'properti하는 상태이다, properti를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'properti'의 용법에 유의하세요. 'berproperti' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'properti' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berproperti untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 properti하는 상태이다, properti를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berproperti yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 properti하는 상태이다, properti를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "properti",
+        "meaning": "(어근) properti하는 상태이다"
+      },
+      {
+        "word": "berproperti",
+        "meaning": "properti하는 상태이다, properti를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_iva69",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengproperti [[뼝properti]]",
+    "meaning": "properti 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "properti",
+    "affix_logic": "어근 'properti'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'properti'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak properti",
+    "antonym": "bukan properti",
+    "context": "'pengproperti'은(는) principalmente 'properti 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'properti'의 용법에 유의하세요. 'pengproperti' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'properti' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengproperti untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 properti 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengproperti yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 properti 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "properti",
+        "meaning": "(어근) properti 수행 주체"
+      },
+      {
+        "word": "pengproperti",
+        "meaning": "properti 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_2gtej",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpropertian [[뼝properti안]]",
+    "meaning": "properti 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "properti",
+    "affix_logic": "어근 'properti'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'properti'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses properti",
+    "antonym": "bukan properti",
+    "context": "'pengpropertian'은(는) principalmente 'properti 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'properti'의 용법에 유의하세요. 'pengpropertian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'properti' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengpropertian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 properti 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengpropertian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 properti 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "properti",
+        "meaning": "(어근) properti 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengpropertian",
+        "meaning": "properti 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_w9tmy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrehabilitasi bangunan [[버르rehabilitasi bangunan]]",
+    "meaning": "rehabilitasi bangunan하는 상태이다, rehabilitasi bangunan를 행하다",
+    "pos": "동사",
+    "root": "rehabilitasi bangunan",
+    "affix_logic": "어근 'rehabilitasi bangunan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'rehabilitasi bangunan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan rehabilitasi bangunan",
+    "antonym": "tidak rehabilitasi bangunan",
+    "context": "'berrehabilitasi bangunan'은(는) principalmente 'rehabilitasi bangunan하는 상태이다, rehabilitasi bangunan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rehabilitasi bangunan'의 용법에 유의하세요. 'berrehabilitasi bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rehabilitasi bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berrehabilitasi bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rehabilitasi bangunan하는 상태이다, rehabilitasi bangunan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berrehabilitasi bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rehabilitasi bangunan하는 상태이다, rehabilitasi bangunan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rehabilitasi bangunan",
+        "meaning": "(어근) rehabilitasi bangunan하는 상태이다"
+      },
+      {
+        "word": "berrehabilitasi bangunan",
+        "meaning": "rehabilitasi bangunan하는 상태이다, rehabilitasi bangunan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_n9gho",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrehabilitasi bangunan [[뼝rehabilitasi bangunan]]",
+    "meaning": "rehabilitasi bangunan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "rehabilitasi bangunan",
+    "affix_logic": "어근 'rehabilitasi bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'rehabilitasi bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak rehabilitasi bangunan",
+    "antonym": "bukan rehabilitasi bangunan",
+    "context": "'pengrehabilitasi bangunan'은(는) principalmente 'rehabilitasi bangunan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rehabilitasi bangunan'의 용법에 유의하세요. 'pengrehabilitasi bangunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rehabilitasi bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrehabilitasi bangunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rehabilitasi bangunan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrehabilitasi bangunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rehabilitasi bangunan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rehabilitasi bangunan",
+        "meaning": "(어근) rehabilitasi bangunan 수행 주체"
+      },
+      {
+        "word": "pengrehabilitasi bangunan",
+        "meaning": "rehabilitasi bangunan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_6hl3b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrehabilitasi bangunanan [[뼝rehabilitasi bangunan안]]",
+    "meaning": "rehabilitasi bangunan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "rehabilitasi bangunan",
+    "affix_logic": "어근 'rehabilitasi bangunan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'rehabilitasi bangunan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses rehabilitasi bangunan",
+    "antonym": "bukan rehabilitasi bangunan",
+    "context": "'pengrehabilitasi bangunanan'은(는) principalmente 'rehabilitasi bangunan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rehabilitasi bangunan'의 용법에 유의하세요. 'pengrehabilitasi bangunanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rehabilitasi bangunan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrehabilitasi bangunanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rehabilitasi bangunan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrehabilitasi bangunanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rehabilitasi bangunan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rehabilitasi bangunan",
+        "meaning": "(어근) rehabilitasi bangunan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengrehabilitasi bangunanan",
+        "meaning": "rehabilitasi bangunan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_x3vqh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrel kereta [[버르rel kereta]]",
+    "meaning": "rel kereta하는 상태이다, rel kereta를 행하다",
+    "pos": "동사",
+    "root": "rel kereta",
+    "affix_logic": "어근 'rel kereta'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'rel kereta'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan rel kereta",
+    "antonym": "tidak rel kereta",
+    "context": "'berrel kereta'은(는) principalmente 'rel kereta하는 상태이다, rel kereta를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rel kereta'의 용법에 유의하세요. 'berrel kereta' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rel kereta' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berrel kereta untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rel kereta하는 상태이다, rel kereta를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berrel kereta yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rel kereta하는 상태이다, rel kereta를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rel kereta",
+        "meaning": "(어근) rel kereta하는 상태이다"
+      },
+      {
+        "word": "berrel kereta",
+        "meaning": "rel kereta하는 상태이다, rel kereta를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_ib6bd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrel kereta [[뼝rel kereta]]",
+    "meaning": "rel kereta 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "rel kereta",
+    "affix_logic": "어근 'rel kereta'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'rel kereta'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak rel kereta",
+    "antonym": "bukan rel kereta",
+    "context": "'pengrel kereta'은(는) principalmente 'rel kereta 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rel kereta'의 용법에 유의하세요. 'pengrel kereta' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rel kereta' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrel kereta untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rel kereta 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrel kereta yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rel kereta 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rel kereta",
+        "meaning": "(어근) rel kereta 수행 주체"
+      },
+      {
+        "word": "pengrel kereta",
+        "meaning": "rel kereta 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_ju9w5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrel keretaan [[뼝rel kereta안]]",
+    "meaning": "rel kereta 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "rel kereta",
+    "affix_logic": "어근 'rel kereta'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'rel kereta'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses rel kereta",
+    "antonym": "bukan rel kereta",
+    "context": "'pengrel keretaan'은(는) principalmente 'rel kereta 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rel kereta'의 용법에 유의하세요. 'pengrel keretaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rel kereta' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrel keretaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rel kereta 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrel keretaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rel kereta 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rel kereta",
+        "meaning": "(어근) rel kereta 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengrel keretaan",
+        "meaning": "rel kereta 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_goomq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrenovasi [[버르renovasi]]",
+    "meaning": "renovasi하는 상태이다, renovasi를 행하다",
+    "pos": "동사",
+    "root": "renovasi",
+    "affix_logic": "어근 'renovasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'renovasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan renovasi",
+    "antonym": "tidak renovasi",
+    "context": "'berrenovasi'은(는) principalmente 'renovasi하는 상태이다, renovasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'renovasi'의 용법에 유의하세요. 'berrenovasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'renovasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berrenovasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 renovasi하는 상태이다, renovasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berrenovasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 renovasi하는 상태이다, renovasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "renovasi",
+        "meaning": "(어근) renovasi하는 상태이다"
+      },
+      {
+        "word": "berrenovasi",
+        "meaning": "renovasi하는 상태이다, renovasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_2y0m1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrenovasi [[뼝renovasi]]",
+    "meaning": "renovasi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "renovasi",
+    "affix_logic": "어근 'renovasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'renovasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak renovasi",
+    "antonym": "bukan renovasi",
+    "context": "'pengrenovasi'은(는) principalmente 'renovasi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'renovasi'의 용법에 유의하세요. 'pengrenovasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'renovasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrenovasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 renovasi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrenovasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 renovasi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "renovasi",
+        "meaning": "(어근) renovasi 수행 주체"
+      },
+      {
+        "word": "pengrenovasi",
+        "meaning": "renovasi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_smfv8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrenovasian [[뼝renovasi안]]",
+    "meaning": "renovasi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "renovasi",
+    "affix_logic": "어근 'renovasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'renovasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses renovasi",
+    "antonym": "bukan renovasi",
+    "context": "'pengrenovasian'은(는) principalmente 'renovasi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'renovasi'의 용법에 유의하세요. 'pengrenovasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'renovasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrenovasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 renovasi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrenovasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 renovasi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "renovasi",
+        "meaning": "(어근) renovasi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengrenovasian",
+        "meaning": "renovasi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_zeop2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrestorasi [[버르restorasi]]",
+    "meaning": "restorasi하는 상태이다, restorasi를 행하다",
+    "pos": "동사",
+    "root": "restorasi",
+    "affix_logic": "어근 'restorasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'restorasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan restorasi",
+    "antonym": "tidak restorasi",
+    "context": "'berrestorasi'은(는) principalmente 'restorasi하는 상태이다, restorasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'restorasi'의 용법에 유의하세요. 'berrestorasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'restorasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berrestorasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 restorasi하는 상태이다, restorasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berrestorasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 restorasi하는 상태이다, restorasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "restorasi",
+        "meaning": "(어근) restorasi하는 상태이다"
+      },
+      {
+        "word": "berrestorasi",
+        "meaning": "restorasi하는 상태이다, restorasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_8bd41",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrestorasi [[뼝restorasi]]",
+    "meaning": "restorasi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "restorasi",
+    "affix_logic": "어근 'restorasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'restorasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak restorasi",
+    "antonym": "bukan restorasi",
+    "context": "'pengrestorasi'은(는) principalmente 'restorasi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'restorasi'의 용법에 유의하세요. 'pengrestorasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'restorasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrestorasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 restorasi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrestorasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 restorasi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "restorasi",
+        "meaning": "(어근) restorasi 수행 주체"
+      },
+      {
+        "word": "pengrestorasi",
+        "meaning": "restorasi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_21d8y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrestorasian [[뼝restorasi안]]",
+    "meaning": "restorasi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "restorasi",
+    "affix_logic": "어근 'restorasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'restorasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses restorasi",
+    "antonym": "bukan restorasi",
+    "context": "'pengrestorasian'은(는) principalmente 'restorasi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'restorasi'의 용법에 유의하세요. 'pengrestorasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'restorasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengrestorasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 restorasi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengrestorasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 restorasi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "restorasi",
+        "meaning": "(어근) restorasi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengrestorasian",
+        "meaning": "restorasi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_nuljk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berruang terbuka hijau [[버르ruang terbuka hijau]]",
+    "meaning": "ruang terbuka hijau하는 상태이다, ruang terbuka hijau를 행하다",
+    "pos": "동사",
+    "root": "ruang terbuka hijau",
+    "affix_logic": "어근 'ruang terbuka hijau'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ruang terbuka hijau'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ruang terbuka hijau",
+    "antonym": "tidak ruang terbuka hijau",
+    "context": "'berruang terbuka hijau'은(는) principalmente 'ruang terbuka hijau하는 상태이다, ruang terbuka hijau를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ruang terbuka hijau'의 용법에 유의하세요. 'berruang terbuka hijau' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ruang terbuka hijau' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berruang terbuka hijau untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ruang terbuka hijau하는 상태이다, ruang terbuka hijau를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berruang terbuka hijau yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ruang terbuka hijau하는 상태이다, ruang terbuka hijau를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ruang terbuka hijau",
+        "meaning": "(어근) ruang terbuka hijau하는 상태이다"
+      },
+      {
+        "word": "berruang terbuka hijau",
+        "meaning": "ruang terbuka hijau하는 상태이다, ruang terbuka hijau를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_tit2y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengruang terbuka hijau [[뼝ruang terbuka hijau]]",
+    "meaning": "ruang terbuka hijau 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "ruang terbuka hijau",
+    "affix_logic": "어근 'ruang terbuka hijau'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ruang terbuka hijau'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ruang terbuka hijau",
+    "antonym": "bukan ruang terbuka hijau",
+    "context": "'pengruang terbuka hijau'은(는) principalmente 'ruang terbuka hijau 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ruang terbuka hijau'의 용법에 유의하세요. 'pengruang terbuka hijau' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ruang terbuka hijau' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengruang terbuka hijau untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ruang terbuka hijau 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengruang terbuka hijau yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ruang terbuka hijau 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ruang terbuka hijau",
+        "meaning": "(어근) ruang terbuka hijau 수행 주체"
+      },
+      {
+        "word": "pengruang terbuka hijau",
+        "meaning": "ruang terbuka hijau 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_64vro",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengruang terbuka hijauan [[뼝ruang terbuka hijau안]]",
+    "meaning": "ruang terbuka hijau 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "ruang terbuka hijau",
+    "affix_logic": "어근 'ruang terbuka hijau'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ruang terbuka hijau'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ruang terbuka hijau",
+    "antonym": "bukan ruang terbuka hijau",
+    "context": "'pengruang terbuka hijauan'은(는) principalmente 'ruang terbuka hijau 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ruang terbuka hijau'의 용법에 유의하세요. 'pengruang terbuka hijauan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ruang terbuka hijau' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengruang terbuka hijauan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ruang terbuka hijau 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengruang terbuka hijauan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ruang terbuka hijau 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ruang terbuka hijau",
+        "meaning": "(어근) ruang terbuka hijau 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengruang terbuka hijauan",
+        "meaning": "ruang terbuka hijau 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_urlwu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersaluran utama [[버르saluran utama]]",
+    "meaning": "saluran utama하는 상태이다, saluran utama를 행하다",
+    "pos": "동사",
+    "root": "saluran utama",
+    "affix_logic": "어근 'saluran utama'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'saluran utama'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan saluran utama",
+    "antonym": "tidak saluran utama",
+    "context": "'bersaluran utama'은(는) principalmente 'saluran utama하는 상태이다, saluran utama를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'saluran utama'의 용법에 유의하세요. 'bersaluran utama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'saluran utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bersaluran utama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 saluran utama하는 상태이다, saluran utama를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bersaluran utama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 saluran utama하는 상태이다, saluran utama를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "saluran utama",
+        "meaning": "(어근) saluran utama하는 상태이다"
+      },
+      {
+        "word": "bersaluran utama",
+        "meaning": "saluran utama하는 상태이다, saluran utama를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_fln4v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsaluran utama [[뼝saluran utama]]",
+    "meaning": "saluran utama 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "saluran utama",
+    "affix_logic": "어근 'saluran utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'saluran utama'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak saluran utama",
+    "antonym": "bukan saluran utama",
+    "context": "'pengsaluran utama'은(는) principalmente 'saluran utama 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'saluran utama'의 용법에 유의하세요. 'pengsaluran utama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'saluran utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsaluran utama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 saluran utama 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsaluran utama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 saluran utama 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "saluran utama",
+        "meaning": "(어근) saluran utama 수행 주체"
+      },
+      {
+        "word": "pengsaluran utama",
+        "meaning": "saluran utama 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_a61qr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsaluran utamaan [[뼝saluran utama안]]",
+    "meaning": "saluran utama 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "saluran utama",
+    "affix_logic": "어근 'saluran utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'saluran utama'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses saluran utama",
+    "antonym": "bukan saluran utama",
+    "context": "'pengsaluran utamaan'은(는) principalmente 'saluran utama 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'saluran utama'의 용법에 유의하세요. 'pengsaluran utamaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'saluran utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsaluran utamaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 saluran utama 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsaluran utamaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 saluran utama 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "saluran utama",
+        "meaning": "(어근) saluran utama 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengsaluran utamaan",
+        "meaning": "saluran utama 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_z256h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersemen cor [[버르semen cor]]",
+    "meaning": "semen cor하는 상태이다, semen cor를 행하다",
+    "pos": "동사",
+    "root": "semen cor",
+    "affix_logic": "어근 'semen cor'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'semen cor'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan semen cor",
+    "antonym": "tidak semen cor",
+    "context": "'bersemen cor'은(는) principalmente 'semen cor하는 상태이다, semen cor를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'semen cor'의 용법에 유의하세요. 'bersemen cor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'semen cor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bersemen cor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 semen cor하는 상태이다, semen cor를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bersemen cor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 semen cor하는 상태이다, semen cor를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "semen cor",
+        "meaning": "(어근) semen cor하는 상태이다"
+      },
+      {
+        "word": "bersemen cor",
+        "meaning": "semen cor하는 상태이다, semen cor를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_gekfb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsemen cor [[뼝semen cor]]",
+    "meaning": "semen cor 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "semen cor",
+    "affix_logic": "어근 'semen cor'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'semen cor'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak semen cor",
+    "antonym": "bukan semen cor",
+    "context": "'pengsemen cor'은(는) principalmente 'semen cor 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'semen cor'의 용법에 유의하세요. 'pengsemen cor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'semen cor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsemen cor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 semen cor 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsemen cor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 semen cor 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "semen cor",
+        "meaning": "(어근) semen cor 수행 주체"
+      },
+      {
+        "word": "pengsemen cor",
+        "meaning": "semen cor 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_4fe6d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsemen coran [[뼝semen cor안]]",
+    "meaning": "semen cor 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "semen cor",
+    "affix_logic": "어근 'semen cor'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'semen cor'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses semen cor",
+    "antonym": "bukan semen cor",
+    "context": "'pengsemen coran'은(는) principalmente 'semen cor 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'semen cor'의 용법에 유의하세요. 'pengsemen coran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'semen cor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsemen coran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 semen cor 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsemen coran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 semen cor 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "semen cor",
+        "meaning": "(어근) semen cor 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengsemen coran",
+        "meaning": "semen cor 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_qrnwd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersistem sanitasi [[버르sistem sanitasi]]",
+    "meaning": "sistem sanitasi하는 상태이다, sistem sanitasi를 행하다",
+    "pos": "동사",
+    "root": "sistem sanitasi",
+    "affix_logic": "어근 'sistem sanitasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'sistem sanitasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan sistem sanitasi",
+    "antonym": "tidak sistem sanitasi",
+    "context": "'bersistem sanitasi'은(는) principalmente 'sistem sanitasi하는 상태이다, sistem sanitasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sistem sanitasi'의 용법에 유의하세요. 'bersistem sanitasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sistem sanitasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bersistem sanitasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sistem sanitasi하는 상태이다, sistem sanitasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bersistem sanitasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sistem sanitasi하는 상태이다, sistem sanitasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sistem sanitasi",
+        "meaning": "(어근) sistem sanitasi하는 상태이다"
+      },
+      {
+        "word": "bersistem sanitasi",
+        "meaning": "sistem sanitasi하는 상태이다, sistem sanitasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_97fq3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsistem sanitasi [[뼝sistem sanitasi]]",
+    "meaning": "sistem sanitasi 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "sistem sanitasi",
+    "affix_logic": "어근 'sistem sanitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'sistem sanitasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak sistem sanitasi",
+    "antonym": "bukan sistem sanitasi",
+    "context": "'pengsistem sanitasi'은(는) principalmente 'sistem sanitasi 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sistem sanitasi'의 용법에 유의하세요. 'pengsistem sanitasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sistem sanitasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsistem sanitasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sistem sanitasi 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsistem sanitasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sistem sanitasi 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sistem sanitasi",
+        "meaning": "(어근) sistem sanitasi 수행 주체"
+      },
+      {
+        "word": "pengsistem sanitasi",
+        "meaning": "sistem sanitasi 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_7f5hk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsistem sanitasian [[뼝sistem sanitasi안]]",
+    "meaning": "sistem sanitasi 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "sistem sanitasi",
+    "affix_logic": "어근 'sistem sanitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'sistem sanitasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses sistem sanitasi",
+    "antonym": "bukan sistem sanitasi",
+    "context": "'pengsistem sanitasian'은(는) principalmente 'sistem sanitasi 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sistem sanitasi'의 용법에 유의하세요. 'pengsistem sanitasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sistem sanitasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsistem sanitasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sistem sanitasi 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsistem sanitasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sistem sanitasi 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sistem sanitasi",
+        "meaning": "(어근) sistem sanitasi 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengsistem sanitasian",
+        "meaning": "sistem sanitasi 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_vbhvt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersketsa arsitek [[버르sketsa arsitek]]",
+    "meaning": "sketsa arsitek하는 상태이다, sketsa arsitek를 행하다",
+    "pos": "동사",
+    "root": "sketsa arsitek",
+    "affix_logic": "어근 'sketsa arsitek'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'sketsa arsitek'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan sketsa arsitek",
+    "antonym": "tidak sketsa arsitek",
+    "context": "'bersketsa arsitek'은(는) principalmente 'sketsa arsitek하는 상태이다, sketsa arsitek를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sketsa arsitek'의 용법에 유의하세요. 'bersketsa arsitek' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sketsa arsitek' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bersketsa arsitek untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sketsa arsitek하는 상태이다, sketsa arsitek를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bersketsa arsitek yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sketsa arsitek하는 상태이다, sketsa arsitek를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sketsa arsitek",
+        "meaning": "(어근) sketsa arsitek하는 상태이다"
+      },
+      {
+        "word": "bersketsa arsitek",
+        "meaning": "sketsa arsitek하는 상태이다, sketsa arsitek를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_bh98u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsketsa arsitek [[뼝sketsa arsitek]]",
+    "meaning": "sketsa arsitek 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "sketsa arsitek",
+    "affix_logic": "어근 'sketsa arsitek'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'sketsa arsitek'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak sketsa arsitek",
+    "antonym": "bukan sketsa arsitek",
+    "context": "'pengsketsa arsitek'은(는) principalmente 'sketsa arsitek 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sketsa arsitek'의 용법에 유의하세요. 'pengsketsa arsitek' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sketsa arsitek' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsketsa arsitek untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sketsa arsitek 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsketsa arsitek yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sketsa arsitek 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sketsa arsitek",
+        "meaning": "(어근) sketsa arsitek 수행 주체"
+      },
+      {
+        "word": "pengsketsa arsitek",
+        "meaning": "sketsa arsitek 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_yyrxg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsketsa arsitekan [[뼝sketsa arsitek안]]",
+    "meaning": "sketsa arsitek 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "sketsa arsitek",
+    "affix_logic": "어근 'sketsa arsitek'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'sketsa arsitek'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses sketsa arsitek",
+    "antonym": "bukan sketsa arsitek",
+    "context": "'pengsketsa arsitekan'은(는) principalmente 'sketsa arsitek 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sketsa arsitek'의 용법에 유의하세요. 'pengsketsa arsitekan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sketsa arsitek' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengsketsa arsitekan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sketsa arsitek 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengsketsa arsitekan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sketsa arsitek 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sketsa arsitek",
+        "meaning": "(어근) sketsa arsitek 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengsketsa arsitekan",
+        "meaning": "sketsa arsitek 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_4yrmm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berstruktur utama [[버르struktur utama]]",
+    "meaning": "struktur utama하는 상태이다, struktur utama를 행하다",
+    "pos": "동사",
+    "root": "struktur utama",
+    "affix_logic": "어근 'struktur utama'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'struktur utama'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan struktur utama",
+    "antonym": "tidak struktur utama",
+    "context": "'berstruktur utama'은(는) principalmente 'struktur utama하는 상태이다, struktur utama를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'struktur utama'의 용법에 유의하세요. 'berstruktur utama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'struktur utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berstruktur utama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 struktur utama하는 상태이다, struktur utama를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berstruktur utama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 struktur utama하는 상태이다, struktur utama를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "struktur utama",
+        "meaning": "(어근) struktur utama하는 상태이다"
+      },
+      {
+        "word": "berstruktur utama",
+        "meaning": "struktur utama하는 상태이다, struktur utama를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_q0980",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstruktur utama [[뼝struktur utama]]",
+    "meaning": "struktur utama 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "struktur utama",
+    "affix_logic": "어근 'struktur utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'struktur utama'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak struktur utama",
+    "antonym": "bukan struktur utama",
+    "context": "'pengstruktur utama'은(는) principalmente 'struktur utama 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'struktur utama'의 용법에 유의하세요. 'pengstruktur utama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'struktur utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengstruktur utama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 struktur utama 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengstruktur utama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 struktur utama 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "struktur utama",
+        "meaning": "(어근) struktur utama 수행 주체"
+      },
+      {
+        "word": "pengstruktur utama",
+        "meaning": "struktur utama 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_qwzl9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstruktur utamaan [[뼝struktur utama안]]",
+    "meaning": "struktur utama 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "struktur utama",
+    "affix_logic": "어근 'struktur utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'struktur utama'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses struktur utama",
+    "antonym": "bukan struktur utama",
+    "context": "'pengstruktur utamaan'은(는) principalmente 'struktur utama 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'struktur utama'의 용법에 유의하세요. 'pengstruktur utamaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'struktur utama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengstruktur utamaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 struktur utama 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengstruktur utamaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 struktur utama 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "struktur utama",
+        "meaning": "(어근) struktur utama 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengstruktur utamaan",
+        "meaning": "struktur utama 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_k508o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertaman kota [[버르taman kota]]",
+    "meaning": "taman kota하는 상태이다, taman kota를 행하다",
+    "pos": "동사",
+    "root": "taman kota",
+    "affix_logic": "어근 'taman kota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'taman kota'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan taman kota",
+    "antonym": "tidak taman kota",
+    "context": "'bertaman kota'은(는) principalmente 'taman kota하는 상태이다, taman kota를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'taman kota'의 용법에 유의하세요. 'bertaman kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'taman kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bertaman kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 taman kota하는 상태이다, taman kota를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bertaman kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 taman kota하는 상태이다, taman kota를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "taman kota",
+        "meaning": "(어근) taman kota하는 상태이다"
+      },
+      {
+        "word": "bertaman kota",
+        "meaning": "taman kota하는 상태이다, taman kota를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_y6x2n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtaman kota [[뼝taman kota]]",
+    "meaning": "taman kota 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "taman kota",
+    "affix_logic": "어근 'taman kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'taman kota'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak taman kota",
+    "antonym": "bukan taman kota",
+    "context": "'pengtaman kota'은(는) principalmente 'taman kota 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'taman kota'의 용법에 유의하세요. 'pengtaman kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'taman kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengtaman kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 taman kota 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengtaman kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 taman kota 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "taman kota",
+        "meaning": "(어근) taman kota 수행 주체"
+      },
+      {
+        "word": "pengtaman kota",
+        "meaning": "taman kota 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_3icrj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtaman kotaan [[뼝taman kota안]]",
+    "meaning": "taman kota 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "taman kota",
+    "affix_logic": "어근 'taman kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'taman kota'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses taman kota",
+    "antonym": "bukan taman kota",
+    "context": "'pengtaman kotaan'은(는) principalmente 'taman kota 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'taman kota'의 용법에 유의하세요. 'pengtaman kotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'taman kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengtaman kotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 taman kota 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengtaman kotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 taman kota 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "taman kota",
+        "meaning": "(어근) taman kota 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengtaman kotaan",
+        "meaning": "taman kota 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_x9ibf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertata kota [[버르tata kota]]",
+    "meaning": "tata kota하는 상태이다, tata kota를 행하다",
+    "pos": "동사",
+    "root": "tata kota",
+    "affix_logic": "어근 'tata kota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'tata kota'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan tata kota",
+    "antonym": "tidak tata kota",
+    "context": "'bertata kota'은(는) principalmente 'tata kota하는 상태이다, tata kota를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'tata kota'의 용법에 유의하세요. 'bertata kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'tata kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bertata kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 tata kota하는 상태이다, tata kota를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bertata kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 tata kota하는 상태이다, tata kota를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "tata kota",
+        "meaning": "(어근) tata kota하는 상태이다"
+      },
+      {
+        "word": "bertata kota",
+        "meaning": "tata kota하는 상태이다, tata kota를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_xg3r7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtata kota [[뼝tata kota]]",
+    "meaning": "tata kota 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "tata kota",
+    "affix_logic": "어근 'tata kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'tata kota'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak tata kota",
+    "antonym": "bukan tata kota",
+    "context": "'pengtata kota'은(는) principalmente 'tata kota 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'tata kota'의 용법에 유의하세요. 'pengtata kota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'tata kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengtata kota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 tata kota 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengtata kota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 tata kota 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "tata kota",
+        "meaning": "(어근) tata kota 수행 주체"
+      },
+      {
+        "word": "pengtata kota",
+        "meaning": "tata kota 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_zbezn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtata kotaan [[뼝tata kota안]]",
+    "meaning": "tata kota 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "tata kota",
+    "affix_logic": "어근 'tata kota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'tata kota'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses tata kota",
+    "antonym": "bukan tata kota",
+    "context": "'pengtata kotaan'은(는) principalmente 'tata kota 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'tata kota'의 용법에 유의하세요. 'pengtata kotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'tata kota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengtata kotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 tata kota 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengtata kotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 tata kota 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "tata kota",
+        "meaning": "(어근) tata kota 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengtata kotaan",
+        "meaning": "tata kota 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_iaw3u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berterowongan [[버르terowongan]]",
+    "meaning": "terowongan하는 상태이다, terowongan를 행하다",
+    "pos": "동사",
+    "root": "terowongan",
+    "affix_logic": "어근 'terowongan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'terowongan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan terowongan",
+    "antonym": "tidak terowongan",
+    "context": "'berterowongan'은(는) principalmente 'terowongan하는 상태이다, terowongan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'terowongan'의 용법에 유의하세요. 'berterowongan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'terowongan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berterowongan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 terowongan하는 상태이다, terowongan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berterowongan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 terowongan하는 상태이다, terowongan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "terowongan",
+        "meaning": "(어근) terowongan하는 상태이다"
+      },
+      {
+        "word": "berterowongan",
+        "meaning": "terowongan하는 상태이다, terowongan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_y20qw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengterowongan [[뼝terowongan]]",
+    "meaning": "terowongan 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "terowongan",
+    "affix_logic": "어근 'terowongan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'terowongan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak terowongan",
+    "antonym": "bukan terowongan",
+    "context": "'pengterowongan'은(는) principalmente 'terowongan 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'terowongan'의 용법에 유의하세요. 'pengterowongan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'terowongan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengterowongan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 terowongan 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengterowongan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 terowongan 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "terowongan",
+        "meaning": "(어근) terowongan 수행 주체"
+      },
+      {
+        "word": "pengterowongan",
+        "meaning": "terowongan 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_sf9rg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengterowonganan [[뼝terowongan안]]",
+    "meaning": "terowongan 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "terowongan",
+    "affix_logic": "어근 'terowongan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'terowongan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses terowongan",
+    "antonym": "bukan terowongan",
+    "context": "'pengterowonganan'은(는) principalmente 'terowongan 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'terowongan'의 용법에 유의하세요. 'pengterowonganan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'terowongan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengterowonganan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 terowongan 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengterowonganan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 terowongan 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "terowongan",
+        "meaning": "(어근) terowongan 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengterowonganan",
+        "meaning": "terowongan 과정 및 건축 도시 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_vspdf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertiang pancang [[버르tiang pancang]]",
+    "meaning": "tiang pancang하는 상태이다, tiang pancang를 행하다",
+    "pos": "동사",
+    "root": "tiang pancang",
+    "affix_logic": "어근 'tiang pancang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'tiang pancang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan tiang pancang",
+    "antonym": "tidak tiang pancang",
+    "context": "'bertiang pancang'은(는) principalmente 'tiang pancang하는 상태이다, tiang pancang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'tiang pancang'의 용법에 유의하세요. 'bertiang pancang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'tiang pancang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bertiang pancang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 tiang pancang하는 상태이다, tiang pancang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bertiang pancang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 tiang pancang하는 상태이다, tiang pancang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "tiang pancang",
+        "meaning": "(어근) tiang pancang하는 상태이다"
+      },
+      {
+        "word": "bertiang pancang",
+        "meaning": "tiang pancang하는 상태이다, tiang pancang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_fegom",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtiang pancang [[뼝tiang pancang]]",
+    "meaning": "tiang pancang 수행 주체, 건축가",
+    "pos": "명사",
+    "root": "tiang pancang",
+    "affix_logic": "어근 'tiang pancang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'tiang pancang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak tiang pancang",
+    "antonym": "bukan tiang pancang",
+    "context": "'pengtiang pancang'은(는) principalmente 'tiang pancang 수행 주체, 건축가'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'tiang pancang'의 용법에 유의하세요. 'pengtiang pancang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'tiang pancang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengtiang pancang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 tiang pancang 수행 주체, 건축가 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengtiang pancang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 tiang pancang 수행 주체, 건축가에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "tiang pancang",
+        "meaning": "(어근) tiang pancang 수행 주체"
+      },
+      {
+        "word": "pengtiang pancang",
+        "meaning": "tiang pancang 수행 주체, 건축가"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139694108_hpgrx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtiang pancangan [[뼝tiang pancang안]]",
+    "meaning": "tiang pancang 과정 및 건축 도시 영역",
+    "pos": "명사",
+    "root": "tiang pancang",
+    "affix_logic": "어근 'tiang pancang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'tiang pancang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses tiang pancang",
+    "antonym": "bukan tiang pancang",
+    "context": "'pengtiang pancangan'은(는) principalmente 'tiang pancang 과정 및 건축 도시 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'tiang pancang'의 용법에 유의하세요. 'pengtiang pancangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'tiang pancang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengtiang pancangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 tiang pancang 과정 및 건축 도시 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengtiang pancangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 tiang pancang 과정 및 건축 도시 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "tiang pancang",
+        "meaning": "(어근) tiang pancang 과정 및 건축 도시 영역"
+      },
+      {
+        "word": "pengtiang pancangan",
+        "meaning": "tiang pancang 과정 및 건축 도시 영역"
+      }
+    ]
   }
 ];
