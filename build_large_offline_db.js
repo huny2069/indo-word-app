@@ -94,21 +94,21 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 10차 대규모 800+ 어휘 주입 어근 파이프라인 (행정/외교/통상/치안/군사 전문 어근 100개)
-const coreRootsBatch10 = [
-  'adjudikasi', 'administrasi', 'agresi', 'akreditas', 'amandemen', 'anarki', 'aneksasi', 'aparat', 'apresiasi publik', 'arbiter',
-  'armada', 'artileri', 'aspirasi', 'asylum', 'otonomi', 'badan hukum', 'barikade', 'batalyon', 'benteng', 'birokrasi',
-  'blokade', 'brigade', 'buron', 'demokrasi', 'demonstrasi', 'deportasi', 'desersi', 'detasemen', 'duta besar', 'diplomat',
-  'doktrin', 'dokumen negara', 'dominasi politik', 'draf undang-undang', 'ekstradisi', 'embargo', 'evakuasi', 'faksi', 'federasi', 'garis depan',
-  'gerilya', 'hak angket', 'hak veto', 'hegemoni', 'hukum pidana', 'hukum perdata', 'ideologi', 'imunitas', 'infanteri', 'inspektur',
-  'instruksi', 'intelejen', 'interogasi', 'invasi', 'jurisdiksi', 'kedaulatan', 'kebijakan eksternal', 'kementerian', 'koalisi', 'komando',
-  'komisi', 'konsulat', 'konstitusi', 'kontingen', 'kudeta', 'legitimasi', 'logistik militer', 'maklumat', 'misi perdamaian', 'mobilisasi massa',
-  'moratorium', 'negosiator', 'operasional', 'oposisi', 'organisasi dunia', 'ototoriter', 'pakta', 'pancasila', 'parlemen', 'partai politik'
+// 🚀 11차 대규모 800+ 어휘 주입 어근 파이프라인 (인문/사회과학/심리학/교육학 전문 어근 100개)
+const coreRootsBatch11 = [
+  'afeksi', 'altruisme', 'ambivalensi', 'amnesia', 'antisipasi', 'apatis', 'apresiasi psikologis', 'asosiatif', 'atensi', 'kognisi',
+  'dekonstruksi', 'delusi', 'depresi', 'desensitisasi', 'deviasi', 'diferensiasi sosial', 'dilema', 'disosiasi', 'distorsi', 'egoisme',
+  'empati', 'etnosesentrisme', 'euphoria', 'fobia', 'frustrasi', 'habitus', 'halusinasi', 'hedonisme', 'hiperbola', 'hipnosis',
+  'histeria', 'identitas sosial', 'ilusi', 'impulsif', 'individualisme', 'indoktrinasi mental', 'inhibisi', 'inisiatif', 'inkonstruktif', 'insting',
+  'introvert', 'ekstrovert', 'intuisi', 'kolektivisme', 'kompleksitas', 'kondisivitas', 'konformitas', 'konsensus', 'kontemplatif', 'kreativitas',
+  'krisis kepribadian', 'laboratorium psikologi', 'latent', 'logis', 'manipulasi psikologis', 'melankolis', 'memori jangka panjang', 'mentalis', 'metakognisi', 'narsisme',
+  'neurosis', 'nostalgia', 'obsesi', 'orientasi nilai', 'paranoia', 'persepsi', 'kepribadian', 'persuasi publik', 'proyeksi psikologis', 'psikopatologi',
+  'psikosomatik', 'rasionalisasi mental', 'reaksi emosional', 'refleksi diri', 'regresi', 'represi', 'resiliensi', 'sensasi', 'sentimen', 'sosialisasi psikologis'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch10.forEach(root => {
+coreRootsBatch11.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -174,7 +174,7 @@ coreRootsBatch10.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 기구`,
+    meaning: `${root} 수행 주체, 심리학자`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -189,7 +189,7 @@ coreRootsBatch10.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 행정 영역`,
+    meaning: `${root} 과정 및 심리 현상`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',

@@ -65960,5 +65960,6245 @@ export const bipaTopics = [
         "meaning": "partai politik 과정 및 행정 영역"
       }
     ]
+  },
+  {
+    "id": "word_1787139076206_9ysr4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berafeksi [[버르afeksi]]",
+    "meaning": "afeksi하는 상태이다, afeksi를 행하다",
+    "pos": "동사",
+    "root": "afeksi",
+    "affix_logic": "어근 'afeksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan afeksi",
+    "antonym": "tidak afeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'afeksi하는 상태이다, afeksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'afeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berafeksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'afeksi하는 상태이다, afeksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berafeksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'afeksi하는 상태이다, afeksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berafeksi",
+        "meaning": "afeksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_cg5fs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengafeksi [[뼝afeksi]]",
+    "meaning": "afeksi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "afeksi",
+    "affix_logic": "어근 'afeksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak afeksi",
+    "antonym": "bukan afeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'afeksi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'afeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengafeksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'afeksi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengafeksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'afeksi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengafeksi",
+        "meaning": "afeksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_vxbl9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengafeksian [[뼝afeksi안]]",
+    "meaning": "afeksi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "afeksi",
+    "affix_logic": "어근 'afeksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses afeksi",
+    "antonym": "bukan afeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'afeksi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'afeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengafeksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'afeksi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengafeksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'afeksi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengafeksian",
+        "meaning": "afeksi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_740c4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraltruisme [[버르altruisme]]",
+    "meaning": "altruisme하는 상태이다, altruisme를 행하다",
+    "pos": "동사",
+    "root": "altruisme",
+    "affix_logic": "어근 'altruisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan altruisme",
+    "antonym": "tidak altruisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'altruisme하는 상태이다, altruisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'altruisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraltruisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'altruisme하는 상태이다, altruisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraltruisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'altruisme하는 상태이다, altruisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraltruisme",
+        "meaning": "altruisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_77lmn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaltruisme [[뼝altruisme]]",
+    "meaning": "altruisme 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "altruisme",
+    "affix_logic": "어근 'altruisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak altruisme",
+    "antonym": "bukan altruisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'altruisme 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'altruisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaltruisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'altruisme 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaltruisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'altruisme 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaltruisme",
+        "meaning": "altruisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_22q7p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaltruismean [[뼝altruisme안]]",
+    "meaning": "altruisme 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "altruisme",
+    "affix_logic": "어근 'altruisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses altruisme",
+    "antonym": "bukan altruisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'altruisme 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'altruisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaltruismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'altruisme 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaltruismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'altruisme 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaltruismean",
+        "meaning": "altruisme 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_agech",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berambivalensi [[버르ambivalensi]]",
+    "meaning": "ambivalensi하는 상태이다, ambivalensi를 행하다",
+    "pos": "동사",
+    "root": "ambivalensi",
+    "affix_logic": "어근 'ambivalensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ambivalensi",
+    "antonym": "tidak ambivalensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ambivalensi하는 상태이다, ambivalensi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ambivalensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berambivalensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ambivalensi하는 상태이다, ambivalensi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berambivalensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ambivalensi하는 상태이다, ambivalensi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berambivalensi",
+        "meaning": "ambivalensi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_6veiq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambivalensi [[뼝ambivalensi]]",
+    "meaning": "ambivalensi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "ambivalensi",
+    "affix_logic": "어근 'ambivalensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ambivalensi",
+    "antonym": "bukan ambivalensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ambivalensi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ambivalensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengambivalensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ambivalensi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengambivalensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ambivalensi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengambivalensi",
+        "meaning": "ambivalensi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_4urgg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambivalensian [[뼝ambivalensi안]]",
+    "meaning": "ambivalensi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "ambivalensi",
+    "affix_logic": "어근 'ambivalensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ambivalensi",
+    "antonym": "bukan ambivalensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ambivalensi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ambivalensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengambivalensian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ambivalensi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengambivalensian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ambivalensi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengambivalensian",
+        "meaning": "ambivalensi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_i6tka",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beramnesia [[버르amnesia]]",
+    "meaning": "amnesia하는 상태이다, amnesia를 행하다",
+    "pos": "동사",
+    "root": "amnesia",
+    "affix_logic": "어근 'amnesia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan amnesia",
+    "antonym": "tidak amnesia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amnesia하는 상태이다, amnesia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amnesia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beramnesia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amnesia하는 상태이다, amnesia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beramnesia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amnesia하는 상태이다, amnesia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beramnesia",
+        "meaning": "amnesia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_zcim7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamnesia [[뼝amnesia]]",
+    "meaning": "amnesia 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "amnesia",
+    "affix_logic": "어근 'amnesia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak amnesia",
+    "antonym": "bukan amnesia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amnesia 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amnesia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengamnesia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amnesia 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengamnesia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amnesia 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengamnesia",
+        "meaning": "amnesia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_64kl7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamnesiaan [[뼝amnesia안]]",
+    "meaning": "amnesia 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "amnesia",
+    "affix_logic": "어근 'amnesia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses amnesia",
+    "antonym": "bukan amnesia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amnesia 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amnesia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengamnesiaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amnesia 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengamnesiaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amnesia 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengamnesiaan",
+        "meaning": "amnesia 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_19rwo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berantisipasi [[버르antisipasi]]",
+    "meaning": "antisipasi하는 상태이다, antisipasi를 행하다",
+    "pos": "동사",
+    "root": "antisipasi",
+    "affix_logic": "어근 'antisipasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan antisipasi",
+    "antonym": "tidak antisipasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antisipasi하는 상태이다, antisipasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antisipasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berantisipasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antisipasi하는 상태이다, antisipasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berantisipasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antisipasi하는 상태이다, antisipasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berantisipasi",
+        "meaning": "antisipasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_szwbv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantisipasi [[뼝antisipasi]]",
+    "meaning": "antisipasi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "antisipasi",
+    "affix_logic": "어근 'antisipasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak antisipasi",
+    "antonym": "bukan antisipasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antisipasi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antisipasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantisipasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antisipasi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantisipasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antisipasi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantisipasi",
+        "meaning": "antisipasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_9tp79",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantisipasian [[뼝antisipasi안]]",
+    "meaning": "antisipasi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "antisipasi",
+    "affix_logic": "어근 'antisipasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses antisipasi",
+    "antonym": "bukan antisipasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antisipasi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antisipasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantisipasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antisipasi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantisipasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antisipasi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantisipasian",
+        "meaning": "antisipasi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_egjeg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berapatis [[버르apatis]]",
+    "meaning": "apatis하는 상태이다, apatis를 행하다",
+    "pos": "동사",
+    "root": "apatis",
+    "affix_logic": "어근 'apatis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan apatis",
+    "antonym": "tidak apatis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apatis하는 상태이다, apatis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apatis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berapatis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apatis하는 상태이다, apatis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berapatis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apatis하는 상태이다, apatis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berapatis",
+        "meaning": "apatis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_ag036",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapatis [[뼝apatis]]",
+    "meaning": "apatis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "apatis",
+    "affix_logic": "어근 'apatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak apatis",
+    "antonym": "bukan apatis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apatis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apatis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapatis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apatis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapatis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apatis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapatis",
+        "meaning": "apatis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_2ic28",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapatisan [[뼝apatis안]]",
+    "meaning": "apatis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "apatis",
+    "affix_logic": "어근 'apatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses apatis",
+    "antonym": "bukan apatis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apatis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apatis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapatisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apatis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapatisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apatis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapatisan",
+        "meaning": "apatis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_yz26j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berapresiasi psikologis [[버르apresiasi psikologis]]",
+    "meaning": "apresiasi psikologis하는 상태이다, apresiasi psikologis를 행하다",
+    "pos": "동사",
+    "root": "apresiasi psikologis",
+    "affix_logic": "어근 'apresiasi psikologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan apresiasi psikologis",
+    "antonym": "tidak apresiasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi psikologis하는 상태이다, apresiasi psikologis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berapresiasi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi psikologis하는 상태이다, apresiasi psikologis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berapresiasi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi psikologis하는 상태이다, apresiasi psikologis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berapresiasi",
+        "meaning": "apresiasi psikologis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_0p6sa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapresiasi psikologis [[뼝apresiasi psikologis]]",
+    "meaning": "apresiasi psikologis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "apresiasi psikologis",
+    "affix_logic": "어근 'apresiasi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak apresiasi psikologis",
+    "antonym": "bukan apresiasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi psikologis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapresiasi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi psikologis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapresiasi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi psikologis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapresiasi",
+        "meaning": "apresiasi psikologis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_c17yg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapresiasi psikologisan [[뼝apresiasi psikologis안]]",
+    "meaning": "apresiasi psikologis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "apresiasi psikologis",
+    "affix_logic": "어근 'apresiasi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses apresiasi psikologis",
+    "antonym": "bukan apresiasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi psikologis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapresiasi psikologisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi psikologis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapresiasi psikologisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi psikologis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapresiasi",
+        "meaning": "apresiasi psikologis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_gua6u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasosiatif [[버르asosiatif]]",
+    "meaning": "asosiatif하는 상태이다, asosiatif를 행하다",
+    "pos": "동사",
+    "root": "asosiatif",
+    "affix_logic": "어근 'asosiatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan asosiatif",
+    "antonym": "tidak asosiatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asosiatif하는 상태이다, asosiatif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asosiatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berasosiatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asosiatif하는 상태이다, asosiatif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berasosiatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asosiatif하는 상태이다, asosiatif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berasosiatif",
+        "meaning": "asosiatif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_6m3lv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasosiatif [[뼝asosiatif]]",
+    "meaning": "asosiatif 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "asosiatif",
+    "affix_logic": "어근 'asosiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak asosiatif",
+    "antonym": "bukan asosiatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asosiatif 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asosiatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasosiatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asosiatif 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasosiatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asosiatif 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasosiatif",
+        "meaning": "asosiatif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_00pas",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasosiatifan [[뼝asosiatif안]]",
+    "meaning": "asosiatif 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "asosiatif",
+    "affix_logic": "어근 'asosiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses asosiatif",
+    "antonym": "bukan asosiatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asosiatif 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asosiatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasosiatifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asosiatif 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasosiatifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asosiatif 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasosiatifan",
+        "meaning": "asosiatif 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_zn6cm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beratensi [[버르atensi]]",
+    "meaning": "atensi하는 상태이다, atensi를 행하다",
+    "pos": "동사",
+    "root": "atensi",
+    "affix_logic": "어근 'atensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan atensi",
+    "antonym": "tidak atensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'atensi하는 상태이다, atensi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'atensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beratensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'atensi하는 상태이다, atensi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beratensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'atensi하는 상태이다, atensi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beratensi",
+        "meaning": "atensi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076206_aj3gh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatensi [[뼝atensi]]",
+    "meaning": "atensi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "atensi",
+    "affix_logic": "어근 'atensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak atensi",
+    "antonym": "bukan atensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'atensi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'atensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengatensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'atensi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengatensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'atensi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengatensi",
+        "meaning": "atensi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_y488j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatensian [[뼝atensi안]]",
+    "meaning": "atensi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "atensi",
+    "affix_logic": "어근 'atensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses atensi",
+    "antonym": "bukan atensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'atensi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'atensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengatensian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'atensi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengatensian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'atensi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengatensian",
+        "meaning": "atensi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_rmfeh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkognisi [[버르kognisi]]",
+    "meaning": "kognisi하는 상태이다, kognisi를 행하다",
+    "pos": "동사",
+    "root": "kognisi",
+    "affix_logic": "어근 'kognisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kognisi",
+    "antonym": "tidak kognisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kognisi하는 상태이다, kognisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kognisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkognisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kognisi하는 상태이다, kognisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkognisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kognisi하는 상태이다, kognisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkognisi",
+        "meaning": "kognisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vhp63",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkognisi [[뼝kognisi]]",
+    "meaning": "kognisi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "kognisi",
+    "affix_logic": "어근 'kognisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kognisi",
+    "antonym": "bukan kognisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kognisi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kognisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkognisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kognisi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkognisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kognisi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkognisi",
+        "meaning": "kognisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_hsqi5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkognisian [[뼝kognisi안]]",
+    "meaning": "kognisi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "kognisi",
+    "affix_logic": "어근 'kognisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kognisi",
+    "antonym": "bukan kognisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kognisi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kognisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkognisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kognisi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkognisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kognisi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkognisian",
+        "meaning": "kognisi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_601qi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdekonstruksi [[버르dekonstruksi]]",
+    "meaning": "dekonstruksi하는 상태이다, dekonstruksi를 행하다",
+    "pos": "동사",
+    "root": "dekonstruksi",
+    "affix_logic": "어근 'dekonstruksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dekonstruksi",
+    "antonym": "tidak dekonstruksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekonstruksi하는 상태이다, dekonstruksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekonstruksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdekonstruksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekonstruksi하는 상태이다, dekonstruksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdekonstruksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekonstruksi하는 상태이다, dekonstruksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdekonstruksi",
+        "meaning": "dekonstruksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_h1isp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekonstruksi [[뼝dekonstruksi]]",
+    "meaning": "dekonstruksi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "dekonstruksi",
+    "affix_logic": "어근 'dekonstruksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dekonstruksi",
+    "antonym": "bukan dekonstruksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekonstruksi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekonstruksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdekonstruksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekonstruksi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdekonstruksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekonstruksi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdekonstruksi",
+        "meaning": "dekonstruksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_cw29j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekonstruksian [[뼝dekonstruksi안]]",
+    "meaning": "dekonstruksi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "dekonstruksi",
+    "affix_logic": "어근 'dekonstruksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dekonstruksi",
+    "antonym": "bukan dekonstruksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekonstruksi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekonstruksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdekonstruksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekonstruksi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdekonstruksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekonstruksi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdekonstruksian",
+        "meaning": "dekonstruksi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_1aprx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdelusi [[버르delusi]]",
+    "meaning": "delusi하는 상태이다, delusi를 행하다",
+    "pos": "동사",
+    "root": "delusi",
+    "affix_logic": "어근 'delusi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan delusi",
+    "antonym": "tidak delusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'delusi하는 상태이다, delusi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'delusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdelusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'delusi하는 상태이다, delusi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdelusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'delusi하는 상태이다, delusi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdelusi",
+        "meaning": "delusi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_pvru4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdelusi [[뼝delusi]]",
+    "meaning": "delusi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "delusi",
+    "affix_logic": "어근 'delusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak delusi",
+    "antonym": "bukan delusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'delusi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'delusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdelusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'delusi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdelusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'delusi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdelusi",
+        "meaning": "delusi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_49ujy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdelusian [[뼝delusi안]]",
+    "meaning": "delusi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "delusi",
+    "affix_logic": "어근 'delusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses delusi",
+    "antonym": "bukan delusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'delusi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'delusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdelusian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'delusi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdelusian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'delusi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdelusian",
+        "meaning": "delusi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mmfz3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdepresi [[버르depresi]]",
+    "meaning": "depresi하는 상태이다, depresi를 행하다",
+    "pos": "동사",
+    "root": "depresi",
+    "affix_logic": "어근 'depresi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan depresi",
+    "antonym": "tidak depresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'depresi하는 상태이다, depresi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'depresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdepresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'depresi하는 상태이다, depresi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdepresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'depresi하는 상태이다, depresi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdepresi",
+        "meaning": "depresi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_or8qh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdepresi [[뼝depresi]]",
+    "meaning": "depresi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "depresi",
+    "affix_logic": "어근 'depresi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak depresi",
+    "antonym": "bukan depresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'depresi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'depresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdepresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'depresi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdepresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'depresi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdepresi",
+        "meaning": "depresi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_1dwda",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdepresian [[뼝depresi안]]",
+    "meaning": "depresi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "depresi",
+    "affix_logic": "어근 'depresi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses depresi",
+    "antonym": "bukan depresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'depresi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'depresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdepresian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'depresi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdepresian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'depresi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdepresian",
+        "meaning": "depresi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_9knsz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdesensitisasi [[버르desensitisasi]]",
+    "meaning": "desensitisasi하는 상태이다, desensitisasi를 행하다",
+    "pos": "동사",
+    "root": "desensitisasi",
+    "affix_logic": "어근 'desensitisasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan desensitisasi",
+    "antonym": "tidak desensitisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desensitisasi하는 상태이다, desensitisasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desensitisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdesensitisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desensitisasi하는 상태이다, desensitisasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdesensitisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desensitisasi하는 상태이다, desensitisasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdesensitisasi",
+        "meaning": "desensitisasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_9pff9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdesensitisasi [[뼝desensitisasi]]",
+    "meaning": "desensitisasi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "desensitisasi",
+    "affix_logic": "어근 'desensitisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak desensitisasi",
+    "antonym": "bukan desensitisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desensitisasi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desensitisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdesensitisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desensitisasi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdesensitisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desensitisasi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdesensitisasi",
+        "meaning": "desensitisasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_8wgog",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdesensitisasian [[뼝desensitisasi안]]",
+    "meaning": "desensitisasi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "desensitisasi",
+    "affix_logic": "어근 'desensitisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses desensitisasi",
+    "antonym": "bukan desensitisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desensitisasi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desensitisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdesensitisasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desensitisasi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdesensitisasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desensitisasi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdesensitisasian",
+        "meaning": "desensitisasi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_2yr34",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdeviasi [[버르deviasi]]",
+    "meaning": "deviasi하는 상태이다, deviasi를 행하다",
+    "pos": "동사",
+    "root": "deviasi",
+    "affix_logic": "어근 'deviasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan deviasi",
+    "antonym": "tidak deviasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deviasi하는 상태이다, deviasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deviasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdeviasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deviasi하는 상태이다, deviasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdeviasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deviasi하는 상태이다, deviasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdeviasi",
+        "meaning": "deviasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_yw6g8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeviasi [[뼝deviasi]]",
+    "meaning": "deviasi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "deviasi",
+    "affix_logic": "어근 'deviasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak deviasi",
+    "antonym": "bukan deviasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deviasi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deviasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdeviasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deviasi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdeviasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deviasi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdeviasi",
+        "meaning": "deviasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mflx8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeviasian [[뼝deviasi안]]",
+    "meaning": "deviasi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "deviasi",
+    "affix_logic": "어근 'deviasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses deviasi",
+    "antonym": "bukan deviasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deviasi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deviasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdeviasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deviasi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdeviasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deviasi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdeviasian",
+        "meaning": "deviasi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mq693",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiferensiasi sosial [[버르diferensiasi sosial]]",
+    "meaning": "diferensiasi sosial하는 상태이다, diferensiasi sosial를 행하다",
+    "pos": "동사",
+    "root": "diferensiasi sosial",
+    "affix_logic": "어근 'diferensiasi sosial'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan diferensiasi sosial",
+    "antonym": "tidak diferensiasi sosial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diferensiasi sosial하는 상태이다, diferensiasi sosial를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diferensiasi sosial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdiferensiasi sosial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diferensiasi sosial하는 상태이다, diferensiasi sosial를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdiferensiasi sosial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diferensiasi sosial하는 상태이다, diferensiasi sosial를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdiferensiasi",
+        "meaning": "diferensiasi sosial하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_01f7b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiferensiasi sosial [[뼝diferensiasi sosial]]",
+    "meaning": "diferensiasi sosial 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "diferensiasi sosial",
+    "affix_logic": "어근 'diferensiasi sosial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak diferensiasi sosial",
+    "antonym": "bukan diferensiasi sosial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diferensiasi sosial 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diferensiasi sosial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiferensiasi sosial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diferensiasi sosial 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiferensiasi sosial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diferensiasi sosial 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiferensiasi",
+        "meaning": "diferensiasi sosial 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_hvekg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiferensiasi sosialan [[뼝diferensiasi sosial안]]",
+    "meaning": "diferensiasi sosial 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "diferensiasi sosial",
+    "affix_logic": "어근 'diferensiasi sosial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses diferensiasi sosial",
+    "antonym": "bukan diferensiasi sosial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diferensiasi sosial 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diferensiasi sosial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiferensiasi sosialan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diferensiasi sosial 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiferensiasi sosialan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diferensiasi sosial 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiferensiasi",
+        "meaning": "diferensiasi sosial 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_w19no",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdilema [[버르dilema]]",
+    "meaning": "dilema하는 상태이다, dilema를 행하다",
+    "pos": "동사",
+    "root": "dilema",
+    "affix_logic": "어근 'dilema'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dilema",
+    "antonym": "tidak dilema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dilema하는 상태이다, dilema를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dilema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdilema' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dilema하는 상태이다, dilema를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdilema' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dilema하는 상태이다, dilema를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdilema",
+        "meaning": "dilema하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_84vgg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdilema [[뼝dilema]]",
+    "meaning": "dilema 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "dilema",
+    "affix_logic": "어근 'dilema'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dilema",
+    "antonym": "bukan dilema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dilema 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dilema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdilema' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dilema 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdilema' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dilema 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdilema",
+        "meaning": "dilema 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_3h3je",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdilemaan [[뼝dilema안]]",
+    "meaning": "dilema 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "dilema",
+    "affix_logic": "어근 'dilema'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dilema",
+    "antonym": "bukan dilema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dilema 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dilema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdilemaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dilema 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdilemaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dilema 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdilemaan",
+        "meaning": "dilema 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vbskq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdisosiasi [[버르disosiasi]]",
+    "meaning": "disosiasi하는 상태이다, disosiasi를 행하다",
+    "pos": "동사",
+    "root": "disosiasi",
+    "affix_logic": "어근 'disosiasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan disosiasi",
+    "antonym": "tidak disosiasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'disosiasi하는 상태이다, disosiasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'disosiasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdisosiasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'disosiasi하는 상태이다, disosiasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdisosiasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'disosiasi하는 상태이다, disosiasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdisosiasi",
+        "meaning": "disosiasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_gl6rs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdisosiasi [[뼝disosiasi]]",
+    "meaning": "disosiasi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "disosiasi",
+    "affix_logic": "어근 'disosiasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak disosiasi",
+    "antonym": "bukan disosiasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'disosiasi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'disosiasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdisosiasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'disosiasi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdisosiasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'disosiasi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdisosiasi",
+        "meaning": "disosiasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_65b5w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdisosiasian [[뼝disosiasi안]]",
+    "meaning": "disosiasi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "disosiasi",
+    "affix_logic": "어근 'disosiasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses disosiasi",
+    "antonym": "bukan disosiasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'disosiasi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'disosiasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdisosiasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'disosiasi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdisosiasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'disosiasi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdisosiasian",
+        "meaning": "disosiasi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_jiifn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdistorsi [[버르distorsi]]",
+    "meaning": "distorsi하는 상태이다, distorsi를 행하다",
+    "pos": "동사",
+    "root": "distorsi",
+    "affix_logic": "어근 'distorsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan distorsi",
+    "antonym": "tidak distorsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'distorsi하는 상태이다, distorsi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'distorsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdistorsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'distorsi하는 상태이다, distorsi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdistorsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'distorsi하는 상태이다, distorsi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdistorsi",
+        "meaning": "distorsi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_8kn36",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdistorsi [[뼝distorsi]]",
+    "meaning": "distorsi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "distorsi",
+    "affix_logic": "어근 'distorsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak distorsi",
+    "antonym": "bukan distorsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'distorsi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'distorsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdistorsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'distorsi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdistorsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'distorsi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdistorsi",
+        "meaning": "distorsi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_xsbya",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdistorsian [[뼝distorsi안]]",
+    "meaning": "distorsi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "distorsi",
+    "affix_logic": "어근 'distorsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses distorsi",
+    "antonym": "bukan distorsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'distorsi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'distorsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdistorsian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'distorsi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdistorsian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'distorsi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdistorsian",
+        "meaning": "distorsi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wdoqc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beregoisme [[버르egoisme]]",
+    "meaning": "egoisme하는 상태이다, egoisme를 행하다",
+    "pos": "동사",
+    "root": "egoisme",
+    "affix_logic": "어근 'egoisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan egoisme",
+    "antonym": "tidak egoisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'egoisme하는 상태이다, egoisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'egoisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beregoisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'egoisme하는 상태이다, egoisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beregoisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'egoisme하는 상태이다, egoisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beregoisme",
+        "meaning": "egoisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vj28i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengegoisme [[뼝egoisme]]",
+    "meaning": "egoisme 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "egoisme",
+    "affix_logic": "어근 'egoisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak egoisme",
+    "antonym": "bukan egoisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'egoisme 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'egoisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengegoisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'egoisme 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengegoisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'egoisme 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengegoisme",
+        "meaning": "egoisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_hggyn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengegoismean [[뼝egoisme안]]",
+    "meaning": "egoisme 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "egoisme",
+    "affix_logic": "어근 'egoisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses egoisme",
+    "antonym": "bukan egoisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'egoisme 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'egoisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengegoismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'egoisme 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengegoismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'egoisme 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengegoismean",
+        "meaning": "egoisme 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vebgg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berempati [[버르empati]]",
+    "meaning": "empati하는 상태이다, empati를 행하다",
+    "pos": "동사",
+    "root": "empati",
+    "affix_logic": "어근 'empati'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan empati",
+    "antonym": "tidak empati",
+    "context": "실생활 및 회화/비즈니스 상황에서 'empati하는 상태이다, empati를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'empati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berempati' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'empati하는 상태이다, empati를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berempati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'empati하는 상태이다, empati를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berempati",
+        "meaning": "empati하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_7y3ec",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengempati [[뼝empati]]",
+    "meaning": "empati 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "empati",
+    "affix_logic": "어근 'empati'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak empati",
+    "antonym": "bukan empati",
+    "context": "실생활 및 회화/비즈니스 상황에서 'empati 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'empati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengempati' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'empati 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengempati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'empati 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengempati",
+        "meaning": "empati 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wj1nl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengempatian [[뼝empati안]]",
+    "meaning": "empati 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "empati",
+    "affix_logic": "어근 'empati'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses empati",
+    "antonym": "bukan empati",
+    "context": "실생활 및 회화/비즈니스 상황에서 'empati 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'empati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengempatian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'empati 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengempatian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'empati 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengempatian",
+        "meaning": "empati 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_a3770",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beretnosesentrisme [[버르etnosesentrisme]]",
+    "meaning": "etnosesentrisme하는 상태이다, etnosesentrisme를 행하다",
+    "pos": "동사",
+    "root": "etnosesentrisme",
+    "affix_logic": "어근 'etnosesentrisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan etnosesentrisme",
+    "antonym": "tidak etnosesentrisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnosesentrisme하는 상태이다, etnosesentrisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnosesentrisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beretnosesentrisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnosesentrisme하는 상태이다, etnosesentrisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beretnosesentrisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnosesentrisme하는 상태이다, etnosesentrisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beretnosesentrisme",
+        "meaning": "etnosesentrisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_qtet3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnosesentrisme [[뼝etnosesentrisme]]",
+    "meaning": "etnosesentrisme 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "etnosesentrisme",
+    "affix_logic": "어근 'etnosesentrisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak etnosesentrisme",
+    "antonym": "bukan etnosesentrisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnosesentrisme 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnosesentrisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnosesentrisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnosesentrisme 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnosesentrisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnosesentrisme 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnosesentrisme",
+        "meaning": "etnosesentrisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wcmt4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnosesentrismean [[뼝etnosesentrisme안]]",
+    "meaning": "etnosesentrisme 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "etnosesentrisme",
+    "affix_logic": "어근 'etnosesentrisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses etnosesentrisme",
+    "antonym": "bukan etnosesentrisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnosesentrisme 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnosesentrisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnosesentrismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnosesentrisme 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnosesentrismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnosesentrisme 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnosesentrismean",
+        "meaning": "etnosesentrisme 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_axuki",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereuphoria [[버르euphoria]]",
+    "meaning": "euphoria하는 상태이다, euphoria를 행하다",
+    "pos": "동사",
+    "root": "euphoria",
+    "affix_logic": "어근 'euphoria'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan euphoria",
+    "antonym": "tidak euphoria",
+    "context": "실생활 및 회화/비즈니스 상황에서 'euphoria하는 상태이다, euphoria를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'euphoria'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bereuphoria' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'euphoria하는 상태이다, euphoria를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bereuphoria' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'euphoria하는 상태이다, euphoria를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bereuphoria",
+        "meaning": "euphoria하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_klicx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeuphoria [[뼝euphoria]]",
+    "meaning": "euphoria 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "euphoria",
+    "affix_logic": "어근 'euphoria'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak euphoria",
+    "antonym": "bukan euphoria",
+    "context": "실생활 및 회화/비즈니스 상황에서 'euphoria 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'euphoria'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeuphoria' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'euphoria 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeuphoria' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'euphoria 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeuphoria",
+        "meaning": "euphoria 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_fr5m6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeuphoriaan [[뼝euphoria안]]",
+    "meaning": "euphoria 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "euphoria",
+    "affix_logic": "어근 'euphoria'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses euphoria",
+    "antonym": "bukan euphoria",
+    "context": "실생활 및 회화/비즈니스 상황에서 'euphoria 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'euphoria'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeuphoriaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'euphoria 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeuphoriaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'euphoria 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeuphoriaan",
+        "meaning": "euphoria 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_tlpk0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfobia [[버르fobia]]",
+    "meaning": "fobia하는 상태이다, fobia를 행하다",
+    "pos": "동사",
+    "root": "fobia",
+    "affix_logic": "어근 'fobia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fobia",
+    "antonym": "tidak fobia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fobia하는 상태이다, fobia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fobia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfobia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fobia하는 상태이다, fobia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfobia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fobia하는 상태이다, fobia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfobia",
+        "meaning": "fobia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_03bzr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfobia [[뼝fobia]]",
+    "meaning": "fobia 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "fobia",
+    "affix_logic": "어근 'fobia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fobia",
+    "antonym": "bukan fobia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fobia 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fobia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfobia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fobia 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfobia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fobia 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfobia",
+        "meaning": "fobia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_x7p19",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfobiaan [[뼝fobia안]]",
+    "meaning": "fobia 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "fobia",
+    "affix_logic": "어근 'fobia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fobia",
+    "antonym": "bukan fobia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fobia 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fobia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfobiaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fobia 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfobiaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fobia 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfobiaan",
+        "meaning": "fobia 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ocv8z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfrustrasi [[버르frustrasi]]",
+    "meaning": "frustrasi하는 상태이다, frustrasi를 행하다",
+    "pos": "동사",
+    "root": "frustrasi",
+    "affix_logic": "어근 'frustrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan frustrasi",
+    "antonym": "tidak frustrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'frustrasi하는 상태이다, frustrasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'frustrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfrustrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'frustrasi하는 상태이다, frustrasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfrustrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'frustrasi하는 상태이다, frustrasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfrustrasi",
+        "meaning": "frustrasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_hsmei",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfrustrasi [[뼝frustrasi]]",
+    "meaning": "frustrasi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "frustrasi",
+    "affix_logic": "어근 'frustrasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak frustrasi",
+    "antonym": "bukan frustrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'frustrasi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'frustrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfrustrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'frustrasi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfrustrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'frustrasi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfrustrasi",
+        "meaning": "frustrasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_dyure",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfrustrasian [[뼝frustrasi안]]",
+    "meaning": "frustrasi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "frustrasi",
+    "affix_logic": "어근 'frustrasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses frustrasi",
+    "antonym": "bukan frustrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'frustrasi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'frustrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfrustrasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'frustrasi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfrustrasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'frustrasi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfrustrasian",
+        "meaning": "frustrasi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_4w3b1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhabitus [[버르habitus]]",
+    "meaning": "habitus하는 상태이다, habitus를 행하다",
+    "pos": "동사",
+    "root": "habitus",
+    "affix_logic": "어근 'habitus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan habitus",
+    "antonym": "tidak habitus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'habitus하는 상태이다, habitus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'habitus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhabitus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'habitus하는 상태이다, habitus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhabitus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'habitus하는 상태이다, habitus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhabitus",
+        "meaning": "habitus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_9hh53",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghabitus [[뼝habitus]]",
+    "meaning": "habitus 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "habitus",
+    "affix_logic": "어근 'habitus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak habitus",
+    "antonym": "bukan habitus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'habitus 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'habitus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghabitus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'habitus 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghabitus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'habitus 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghabitus",
+        "meaning": "habitus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0palj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghabitusan [[뼝habitus안]]",
+    "meaning": "habitus 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "habitus",
+    "affix_logic": "어근 'habitus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses habitus",
+    "antonym": "bukan habitus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'habitus 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'habitus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghabitusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'habitus 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghabitusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'habitus 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghabitusan",
+        "meaning": "habitus 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ptcmg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhalusinasi [[버르halusinasi]]",
+    "meaning": "halusinasi하는 상태이다, halusinasi를 행하다",
+    "pos": "동사",
+    "root": "halusinasi",
+    "affix_logic": "어근 'halusinasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan halusinasi",
+    "antonym": "tidak halusinasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'halusinasi하는 상태이다, halusinasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'halusinasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhalusinasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'halusinasi하는 상태이다, halusinasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhalusinasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'halusinasi하는 상태이다, halusinasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhalusinasi",
+        "meaning": "halusinasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_nu1ce",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghalusinasi [[뼝halusinasi]]",
+    "meaning": "halusinasi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "halusinasi",
+    "affix_logic": "어근 'halusinasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak halusinasi",
+    "antonym": "bukan halusinasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'halusinasi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'halusinasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghalusinasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'halusinasi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghalusinasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'halusinasi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghalusinasi",
+        "meaning": "halusinasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0ede2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghalusinasian [[뼝halusinasi안]]",
+    "meaning": "halusinasi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "halusinasi",
+    "affix_logic": "어근 'halusinasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses halusinasi",
+    "antonym": "bukan halusinasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'halusinasi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'halusinasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghalusinasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'halusinasi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghalusinasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'halusinasi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghalusinasian",
+        "meaning": "halusinasi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_1dy1q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhedonisme [[버르hedonisme]]",
+    "meaning": "hedonisme하는 상태이다, hedonisme를 행하다",
+    "pos": "동사",
+    "root": "hedonisme",
+    "affix_logic": "어근 'hedonisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hedonisme",
+    "antonym": "tidak hedonisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hedonisme하는 상태이다, hedonisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hedonisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhedonisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hedonisme하는 상태이다, hedonisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhedonisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hedonisme하는 상태이다, hedonisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhedonisme",
+        "meaning": "hedonisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_sugf6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghedonisme [[뼝hedonisme]]",
+    "meaning": "hedonisme 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "hedonisme",
+    "affix_logic": "어근 'hedonisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hedonisme",
+    "antonym": "bukan hedonisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hedonisme 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hedonisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghedonisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hedonisme 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghedonisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hedonisme 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghedonisme",
+        "meaning": "hedonisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_5sao8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghedonismean [[뼝hedonisme안]]",
+    "meaning": "hedonisme 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "hedonisme",
+    "affix_logic": "어근 'hedonisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hedonisme",
+    "antonym": "bukan hedonisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hedonisme 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hedonisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghedonismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hedonisme 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghedonismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hedonisme 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghedonismean",
+        "meaning": "hedonisme 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_j76xt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhiperbola [[버르hiperbola]]",
+    "meaning": "hiperbola하는 상태이다, hiperbola를 행하다",
+    "pos": "동사",
+    "root": "hiperbola",
+    "affix_logic": "어근 'hiperbola'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hiperbola",
+    "antonym": "tidak hiperbola",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hiperbola하는 상태이다, hiperbola를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hiperbola'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhiperbola' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hiperbola하는 상태이다, hiperbola를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhiperbola' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hiperbola하는 상태이다, hiperbola를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhiperbola",
+        "meaning": "hiperbola하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_t9ihn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghiperbola [[뼝hiperbola]]",
+    "meaning": "hiperbola 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "hiperbola",
+    "affix_logic": "어근 'hiperbola'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hiperbola",
+    "antonym": "bukan hiperbola",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hiperbola 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hiperbola'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghiperbola' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hiperbola 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghiperbola' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hiperbola 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghiperbola",
+        "meaning": "hiperbola 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_bgtgg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghiperbolaan [[뼝hiperbola안]]",
+    "meaning": "hiperbola 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "hiperbola",
+    "affix_logic": "어근 'hiperbola'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hiperbola",
+    "antonym": "bukan hiperbola",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hiperbola 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hiperbola'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghiperbolaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hiperbola 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghiperbolaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hiperbola 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghiperbolaan",
+        "meaning": "hiperbola 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_qxeen",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhipnosis [[버르hipnosis]]",
+    "meaning": "hipnosis하는 상태이다, hipnosis를 행하다",
+    "pos": "동사",
+    "root": "hipnosis",
+    "affix_logic": "어근 'hipnosis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hipnosis",
+    "antonym": "tidak hipnosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipnosis하는 상태이다, hipnosis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipnosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhipnosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipnosis하는 상태이다, hipnosis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhipnosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipnosis하는 상태이다, hipnosis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhipnosis",
+        "meaning": "hipnosis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0udil",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipnosis [[뼝hipnosis]]",
+    "meaning": "hipnosis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "hipnosis",
+    "affix_logic": "어근 'hipnosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hipnosis",
+    "antonym": "bukan hipnosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipnosis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipnosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipnosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipnosis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipnosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipnosis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipnosis",
+        "meaning": "hipnosis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_kjw30",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipnosisan [[뼝hipnosis안]]",
+    "meaning": "hipnosis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "hipnosis",
+    "affix_logic": "어근 'hipnosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hipnosis",
+    "antonym": "bukan hipnosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipnosis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipnosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipnosisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipnosis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipnosisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipnosis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipnosisan",
+        "meaning": "hipnosis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_dpvwx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhisteria [[버르histeria]]",
+    "meaning": "histeria하는 상태이다, histeria를 행하다",
+    "pos": "동사",
+    "root": "histeria",
+    "affix_logic": "어근 'histeria'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan histeria",
+    "antonym": "tidak histeria",
+    "context": "실생활 및 회화/비즈니스 상황에서 'histeria하는 상태이다, histeria를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'histeria'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhisteria' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'histeria하는 상태이다, histeria를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhisteria' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'histeria하는 상태이다, histeria를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhisteria",
+        "meaning": "histeria하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_7m6he",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghisteria [[뼝histeria]]",
+    "meaning": "histeria 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "histeria",
+    "affix_logic": "어근 'histeria'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak histeria",
+    "antonym": "bukan histeria",
+    "context": "실생활 및 회화/비즈니스 상황에서 'histeria 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'histeria'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghisteria' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'histeria 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghisteria' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'histeria 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghisteria",
+        "meaning": "histeria 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0euzu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghisteriaan [[뼝histeria안]]",
+    "meaning": "histeria 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "histeria",
+    "affix_logic": "어근 'histeria'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses histeria",
+    "antonym": "bukan histeria",
+    "context": "실생활 및 회화/비즈니스 상황에서 'histeria 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'histeria'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghisteriaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'histeria 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghisteriaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'histeria 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghisteriaan",
+        "meaning": "histeria 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_uasuf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beridentitas sosial [[버르identitas sosial]]",
+    "meaning": "identitas sosial하는 상태이다, identitas sosial를 행하다",
+    "pos": "동사",
+    "root": "identitas sosial",
+    "affix_logic": "어근 'identitas sosial'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan identitas sosial",
+    "antonym": "tidak identitas sosial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'identitas sosial하는 상태이다, identitas sosial를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'identitas sosial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beridentitas sosial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'identitas sosial하는 상태이다, identitas sosial를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beridentitas sosial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'identitas sosial하는 상태이다, identitas sosial를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beridentitas",
+        "meaning": "identitas sosial하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vcm8h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengidentitas sosial [[뼝identitas sosial]]",
+    "meaning": "identitas sosial 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "identitas sosial",
+    "affix_logic": "어근 'identitas sosial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak identitas sosial",
+    "antonym": "bukan identitas sosial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'identitas sosial 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'identitas sosial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengidentitas sosial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'identitas sosial 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengidentitas sosial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'identitas sosial 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengidentitas",
+        "meaning": "identitas sosial 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_6v2yc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengidentitas sosialan [[뼝identitas sosial안]]",
+    "meaning": "identitas sosial 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "identitas sosial",
+    "affix_logic": "어근 'identitas sosial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses identitas sosial",
+    "antonym": "bukan identitas sosial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'identitas sosial 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'identitas sosial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengidentitas sosialan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'identitas sosial 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengidentitas sosialan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'identitas sosial 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengidentitas",
+        "meaning": "identitas sosial 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0joq9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berilusi [[버르ilusi]]",
+    "meaning": "ilusi하는 상태이다, ilusi를 행하다",
+    "pos": "동사",
+    "root": "ilusi",
+    "affix_logic": "어근 'ilusi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ilusi",
+    "antonym": "tidak ilusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ilusi하는 상태이다, ilusi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ilusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berilusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ilusi하는 상태이다, ilusi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berilusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ilusi하는 상태이다, ilusi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berilusi",
+        "meaning": "ilusi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_49iyn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengilusi [[뼝ilusi]]",
+    "meaning": "ilusi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "ilusi",
+    "affix_logic": "어근 'ilusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ilusi",
+    "antonym": "bukan ilusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ilusi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ilusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengilusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ilusi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengilusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ilusi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengilusi",
+        "meaning": "ilusi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_n18p1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengilusian [[뼝ilusi안]]",
+    "meaning": "ilusi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "ilusi",
+    "affix_logic": "어근 'ilusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ilusi",
+    "antonym": "bukan ilusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ilusi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ilusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengilusian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ilusi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengilusian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ilusi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengilusian",
+        "meaning": "ilusi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mytzt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berimpulsif [[버르impulsif]]",
+    "meaning": "impulsif하는 상태이다, impulsif를 행하다",
+    "pos": "동사",
+    "root": "impulsif",
+    "affix_logic": "어근 'impulsif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan impulsif",
+    "antonym": "tidak impulsif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'impulsif하는 상태이다, impulsif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'impulsif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berimpulsif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'impulsif하는 상태이다, impulsif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berimpulsif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'impulsif하는 상태이다, impulsif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berimpulsif",
+        "meaning": "impulsif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wh33c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimpulsif [[뼝impulsif]]",
+    "meaning": "impulsif 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "impulsif",
+    "affix_logic": "어근 'impulsif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak impulsif",
+    "antonym": "bukan impulsif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'impulsif 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'impulsif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimpulsif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'impulsif 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimpulsif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'impulsif 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimpulsif",
+        "meaning": "impulsif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_28igd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimpulsifan [[뼝impulsif안]]",
+    "meaning": "impulsif 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "impulsif",
+    "affix_logic": "어근 'impulsif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses impulsif",
+    "antonym": "bukan impulsif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'impulsif 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'impulsif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimpulsifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'impulsif 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimpulsifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'impulsif 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimpulsifan",
+        "meaning": "impulsif 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_fl7vg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berindividualisme [[버르individualisme]]",
+    "meaning": "individualisme하는 상태이다, individualisme를 행하다",
+    "pos": "동사",
+    "root": "individualisme",
+    "affix_logic": "어근 'individualisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan individualisme",
+    "antonym": "tidak individualisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'individualisme하는 상태이다, individualisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'individualisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berindividualisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'individualisme하는 상태이다, individualisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berindividualisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'individualisme하는 상태이다, individualisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berindividualisme",
+        "meaning": "individualisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_l46ci",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengindividualisme [[뼝individualisme]]",
+    "meaning": "individualisme 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "individualisme",
+    "affix_logic": "어근 'individualisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak individualisme",
+    "antonym": "bukan individualisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'individualisme 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'individualisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengindividualisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'individualisme 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengindividualisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'individualisme 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengindividualisme",
+        "meaning": "individualisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wgwu3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengindividualismean [[뼝individualisme안]]",
+    "meaning": "individualisme 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "individualisme",
+    "affix_logic": "어근 'individualisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses individualisme",
+    "antonym": "bukan individualisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'individualisme 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'individualisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengindividualismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'individualisme 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengindividualismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'individualisme 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengindividualismean",
+        "meaning": "individualisme 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_to6ai",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berindoktrinasi mental [[버르indoktrinasi mental]]",
+    "meaning": "indoktrinasi mental하는 상태이다, indoktrinasi mental를 행하다",
+    "pos": "동사",
+    "root": "indoktrinasi mental",
+    "affix_logic": "어근 'indoktrinasi mental'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan indoktrinasi mental",
+    "antonym": "tidak indoktrinasi mental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'indoktrinasi mental하는 상태이다, indoktrinasi mental를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'indoktrinasi mental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berindoktrinasi mental' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'indoktrinasi mental하는 상태이다, indoktrinasi mental를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berindoktrinasi mental' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'indoktrinasi mental하는 상태이다, indoktrinasi mental를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berindoktrinasi",
+        "meaning": "indoktrinasi mental하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_maok5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengindoktrinasi mental [[뼝indoktrinasi mental]]",
+    "meaning": "indoktrinasi mental 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "indoktrinasi mental",
+    "affix_logic": "어근 'indoktrinasi mental'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak indoktrinasi mental",
+    "antonym": "bukan indoktrinasi mental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'indoktrinasi mental 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'indoktrinasi mental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengindoktrinasi mental' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'indoktrinasi mental 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengindoktrinasi mental' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'indoktrinasi mental 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengindoktrinasi",
+        "meaning": "indoktrinasi mental 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_w8kop",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengindoktrinasi mentalan [[뼝indoktrinasi mental안]]",
+    "meaning": "indoktrinasi mental 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "indoktrinasi mental",
+    "affix_logic": "어근 'indoktrinasi mental'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses indoktrinasi mental",
+    "antonym": "bukan indoktrinasi mental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'indoktrinasi mental 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'indoktrinasi mental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengindoktrinasi mentalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'indoktrinasi mental 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengindoktrinasi mentalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'indoktrinasi mental 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengindoktrinasi",
+        "meaning": "indoktrinasi mental 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_pgkvy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinhibisi [[버르inhibisi]]",
+    "meaning": "inhibisi하는 상태이다, inhibisi를 행하다",
+    "pos": "동사",
+    "root": "inhibisi",
+    "affix_logic": "어근 'inhibisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan inhibisi",
+    "antonym": "tidak inhibisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inhibisi하는 상태이다, inhibisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inhibisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinhibisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inhibisi하는 상태이다, inhibisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinhibisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inhibisi하는 상태이다, inhibisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinhibisi",
+        "meaning": "inhibisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ajnpn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginhibisi [[뼝inhibisi]]",
+    "meaning": "inhibisi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "inhibisi",
+    "affix_logic": "어근 'inhibisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak inhibisi",
+    "antonym": "bukan inhibisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inhibisi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inhibisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginhibisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inhibisi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginhibisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inhibisi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginhibisi",
+        "meaning": "inhibisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_sm8af",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginhibisian [[뼝inhibisi안]]",
+    "meaning": "inhibisi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "inhibisi",
+    "affix_logic": "어근 'inhibisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses inhibisi",
+    "antonym": "bukan inhibisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inhibisi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inhibisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginhibisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inhibisi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginhibisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inhibisi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginhibisian",
+        "meaning": "inhibisi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_k6bri",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinisiatif [[버르inisiatif]]",
+    "meaning": "inisiatif하는 상태이다, inisiatif를 행하다",
+    "pos": "동사",
+    "root": "inisiatif",
+    "affix_logic": "어근 'inisiatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan inisiatif",
+    "antonym": "tidak inisiatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inisiatif하는 상태이다, inisiatif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inisiatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinisiatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inisiatif하는 상태이다, inisiatif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinisiatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inisiatif하는 상태이다, inisiatif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinisiatif",
+        "meaning": "inisiatif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_u5hgc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginisiatif [[뼝inisiatif]]",
+    "meaning": "inisiatif 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "inisiatif",
+    "affix_logic": "어근 'inisiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak inisiatif",
+    "antonym": "bukan inisiatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inisiatif 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inisiatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginisiatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inisiatif 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginisiatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inisiatif 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginisiatif",
+        "meaning": "inisiatif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_6jyz2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginisiatifan [[뼝inisiatif안]]",
+    "meaning": "inisiatif 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "inisiatif",
+    "affix_logic": "어근 'inisiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses inisiatif",
+    "antonym": "bukan inisiatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inisiatif 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inisiatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginisiatifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inisiatif 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginisiatifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inisiatif 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginisiatifan",
+        "meaning": "inisiatif 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_l94zb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinkonstruktif [[버르inkonstruktif]]",
+    "meaning": "inkonstruktif하는 상태이다, inkonstruktif를 행하다",
+    "pos": "동사",
+    "root": "inkonstruktif",
+    "affix_logic": "어근 'inkonstruktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan inkonstruktif",
+    "antonym": "tidak inkonstruktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inkonstruktif하는 상태이다, inkonstruktif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inkonstruktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinkonstruktif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inkonstruktif하는 상태이다, inkonstruktif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinkonstruktif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inkonstruktif하는 상태이다, inkonstruktif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinkonstruktif",
+        "meaning": "inkonstruktif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_68wud",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginkonstruktif [[뼝inkonstruktif]]",
+    "meaning": "inkonstruktif 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "inkonstruktif",
+    "affix_logic": "어근 'inkonstruktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak inkonstruktif",
+    "antonym": "bukan inkonstruktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inkonstruktif 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inkonstruktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginkonstruktif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inkonstruktif 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginkonstruktif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inkonstruktif 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginkonstruktif",
+        "meaning": "inkonstruktif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_743ku",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginkonstruktifan [[뼝inkonstruktif안]]",
+    "meaning": "inkonstruktif 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "inkonstruktif",
+    "affix_logic": "어근 'inkonstruktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses inkonstruktif",
+    "antonym": "bukan inkonstruktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inkonstruktif 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inkonstruktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginkonstruktifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inkonstruktif 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginkonstruktifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inkonstruktif 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginkonstruktifan",
+        "meaning": "inkonstruktif 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_fr4hg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinsting [[버르insting]]",
+    "meaning": "insting하는 상태이다, insting를 행하다",
+    "pos": "동사",
+    "root": "insting",
+    "affix_logic": "어근 'insting'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan insting",
+    "antonym": "tidak insting",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insting하는 상태이다, insting를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insting'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinsting' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insting하는 상태이다, insting를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinsting' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insting하는 상태이다, insting를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinsting",
+        "meaning": "insting하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wrvgv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsting [[뼝insting]]",
+    "meaning": "insting 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "insting",
+    "affix_logic": "어근 'insting'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak insting",
+    "antonym": "bukan insting",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insting 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insting'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsting' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insting 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsting' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insting 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsting",
+        "meaning": "insting 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_xsv7h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginstingan [[뼝insting안]]",
+    "meaning": "insting 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "insting",
+    "affix_logic": "어근 'insting'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses insting",
+    "antonym": "bukan insting",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insting 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insting'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginstingan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insting 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginstingan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insting 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginstingan",
+        "meaning": "insting 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_jniaw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berintrovert [[버르introvert]]",
+    "meaning": "introvert하는 상태이다, introvert를 행하다",
+    "pos": "동사",
+    "root": "introvert",
+    "affix_logic": "어근 'introvert'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan introvert",
+    "antonym": "tidak introvert",
+    "context": "실생활 및 회화/비즈니스 상황에서 'introvert하는 상태이다, introvert를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'introvert'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berintrovert' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'introvert하는 상태이다, introvert를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berintrovert' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'introvert하는 상태이다, introvert를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berintrovert",
+        "meaning": "introvert하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_956o9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintrovert [[뼝introvert]]",
+    "meaning": "introvert 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "introvert",
+    "affix_logic": "어근 'introvert'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak introvert",
+    "antonym": "bukan introvert",
+    "context": "실생활 및 회화/비즈니스 상황에서 'introvert 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'introvert'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintrovert' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'introvert 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintrovert' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'introvert 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintrovert",
+        "meaning": "introvert 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_50a3w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintrovertan [[뼝introvert안]]",
+    "meaning": "introvert 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "introvert",
+    "affix_logic": "어근 'introvert'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses introvert",
+    "antonym": "bukan introvert",
+    "context": "실생활 및 회화/비즈니스 상황에서 'introvert 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'introvert'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintrovertan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'introvert 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintrovertan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'introvert 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintrovertan",
+        "meaning": "introvert 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ow7p6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekstrovert [[버르ekstrovert]]",
+    "meaning": "ekstrovert하는 상태이다, ekstrovert를 행하다",
+    "pos": "동사",
+    "root": "ekstrovert",
+    "affix_logic": "어근 'ekstrovert'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekstrovert",
+    "antonym": "tidak ekstrovert",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekstrovert하는 상태이다, ekstrovert를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekstrovert'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berekstrovert' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekstrovert하는 상태이다, ekstrovert를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berekstrovert' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekstrovert하는 상태이다, ekstrovert를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berekstrovert",
+        "meaning": "ekstrovert하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_opksd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekstrovert [[뼝ekstrovert]]",
+    "meaning": "ekstrovert 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "ekstrovert",
+    "affix_logic": "어근 'ekstrovert'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ekstrovert",
+    "antonym": "bukan ekstrovert",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekstrovert 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekstrovert'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekstrovert' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekstrovert 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekstrovert' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekstrovert 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekstrovert",
+        "meaning": "ekstrovert 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ae2le",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekstrovertan [[뼝ekstrovert안]]",
+    "meaning": "ekstrovert 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "ekstrovert",
+    "affix_logic": "어근 'ekstrovert'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ekstrovert",
+    "antonym": "bukan ekstrovert",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekstrovert 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekstrovert'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekstrovertan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekstrovert 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekstrovertan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekstrovert 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekstrovertan",
+        "meaning": "ekstrovert 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mw3z2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berintuisi [[버르intuisi]]",
+    "meaning": "intuisi하는 상태이다, intuisi를 행하다",
+    "pos": "동사",
+    "root": "intuisi",
+    "affix_logic": "어근 'intuisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan intuisi",
+    "antonym": "tidak intuisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intuisi하는 상태이다, intuisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intuisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berintuisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intuisi하는 상태이다, intuisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berintuisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intuisi하는 상태이다, intuisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berintuisi",
+        "meaning": "intuisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_c7n14",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintuisi [[뼝intuisi]]",
+    "meaning": "intuisi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "intuisi",
+    "affix_logic": "어근 'intuisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak intuisi",
+    "antonym": "bukan intuisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intuisi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intuisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintuisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intuisi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintuisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intuisi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintuisi",
+        "meaning": "intuisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_eoy9p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintuisian [[뼝intuisi안]]",
+    "meaning": "intuisi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "intuisi",
+    "affix_logic": "어근 'intuisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses intuisi",
+    "antonym": "bukan intuisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intuisi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intuisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintuisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intuisi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintuisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intuisi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintuisian",
+        "meaning": "intuisi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_9wff3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkolektivisme [[버르kolektivisme]]",
+    "meaning": "kolektivisme하는 상태이다, kolektivisme를 행하다",
+    "pos": "동사",
+    "root": "kolektivisme",
+    "affix_logic": "어근 'kolektivisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kolektivisme",
+    "antonym": "tidak kolektivisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolektivisme하는 상태이다, kolektivisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolektivisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkolektivisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolektivisme하는 상태이다, kolektivisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkolektivisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolektivisme하는 상태이다, kolektivisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkolektivisme",
+        "meaning": "kolektivisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_25tn4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolektivisme [[뼝kolektivisme]]",
+    "meaning": "kolektivisme 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "kolektivisme",
+    "affix_logic": "어근 'kolektivisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kolektivisme",
+    "antonym": "bukan kolektivisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolektivisme 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolektivisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolektivisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolektivisme 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolektivisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolektivisme 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolektivisme",
+        "meaning": "kolektivisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_99xl1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolektivismean [[뼝kolektivisme안]]",
+    "meaning": "kolektivisme 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "kolektivisme",
+    "affix_logic": "어근 'kolektivisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kolektivisme",
+    "antonym": "bukan kolektivisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolektivisme 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolektivisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolektivismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolektivisme 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolektivismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolektivisme 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolektivismean",
+        "meaning": "kolektivisme 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_8yfxm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkompleksitas [[버르kompleksitas]]",
+    "meaning": "kompleksitas하는 상태이다, kompleksitas를 행하다",
+    "pos": "동사",
+    "root": "kompleksitas",
+    "affix_logic": "어근 'kompleksitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kompleksitas",
+    "antonym": "tidak kompleksitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kompleksitas하는 상태이다, kompleksitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kompleksitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkompleksitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kompleksitas하는 상태이다, kompleksitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkompleksitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kompleksitas하는 상태이다, kompleksitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkompleksitas",
+        "meaning": "kompleksitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_9cfkt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkompleksitas [[뼝kompleksitas]]",
+    "meaning": "kompleksitas 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "kompleksitas",
+    "affix_logic": "어근 'kompleksitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kompleksitas",
+    "antonym": "bukan kompleksitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kompleksitas 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kompleksitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkompleksitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kompleksitas 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkompleksitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kompleksitas 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkompleksitas",
+        "meaning": "kompleksitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_6na90",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkompleksitasan [[뼝kompleksitas안]]",
+    "meaning": "kompleksitas 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "kompleksitas",
+    "affix_logic": "어근 'kompleksitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kompleksitas",
+    "antonym": "bukan kompleksitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kompleksitas 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kompleksitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkompleksitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kompleksitas 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkompleksitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kompleksitas 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkompleksitasan",
+        "meaning": "kompleksitas 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_oyju0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkondisivitas [[버르kondisivitas]]",
+    "meaning": "kondisivitas하는 상태이다, kondisivitas를 행하다",
+    "pos": "동사",
+    "root": "kondisivitas",
+    "affix_logic": "어근 'kondisivitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kondisivitas",
+    "antonym": "tidak kondisivitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kondisivitas하는 상태이다, kondisivitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kondisivitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkondisivitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kondisivitas하는 상태이다, kondisivitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkondisivitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kondisivitas하는 상태이다, kondisivitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkondisivitas",
+        "meaning": "kondisivitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_4sjha",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkondisivitas [[뼝kondisivitas]]",
+    "meaning": "kondisivitas 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "kondisivitas",
+    "affix_logic": "어근 'kondisivitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kondisivitas",
+    "antonym": "bukan kondisivitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kondisivitas 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kondisivitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkondisivitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kondisivitas 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkondisivitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kondisivitas 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkondisivitas",
+        "meaning": "kondisivitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_p7r31",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkondisivitasan [[뼝kondisivitas안]]",
+    "meaning": "kondisivitas 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "kondisivitas",
+    "affix_logic": "어근 'kondisivitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kondisivitas",
+    "antonym": "bukan kondisivitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kondisivitas 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kondisivitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkondisivitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kondisivitas 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkondisivitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kondisivitas 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkondisivitasan",
+        "meaning": "kondisivitas 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_do3uw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonformitas [[버르konformitas]]",
+    "meaning": "konformitas하는 상태이다, konformitas를 행하다",
+    "pos": "동사",
+    "root": "konformitas",
+    "affix_logic": "어근 'konformitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konformitas",
+    "antonym": "tidak konformitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konformitas하는 상태이다, konformitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konformitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkonformitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konformitas하는 상태이다, konformitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkonformitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konformitas하는 상태이다, konformitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkonformitas",
+        "meaning": "konformitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vulr4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonformitas [[뼝konformitas]]",
+    "meaning": "konformitas 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "konformitas",
+    "affix_logic": "어근 'konformitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak konformitas",
+    "antonym": "bukan konformitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konformitas 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konformitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonformitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konformitas 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonformitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konformitas 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonformitas",
+        "meaning": "konformitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_w0dsb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonformitasan [[뼝konformitas안]]",
+    "meaning": "konformitas 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "konformitas",
+    "affix_logic": "어근 'konformitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses konformitas",
+    "antonym": "bukan konformitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konformitas 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konformitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonformitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konformitas 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonformitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konformitas 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonformitasan",
+        "meaning": "konformitas 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mzzxu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonsensus [[버르konsensus]]",
+    "meaning": "konsensus하는 상태이다, konsensus를 행하다",
+    "pos": "동사",
+    "root": "konsensus",
+    "affix_logic": "어근 'konsensus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konsensus",
+    "antonym": "tidak konsensus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsensus하는 상태이다, konsensus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsensus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkonsensus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsensus하는 상태이다, konsensus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkonsensus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsensus하는 상태이다, konsensus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkonsensus",
+        "meaning": "konsensus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_33sux",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonsensus [[뼝konsensus]]",
+    "meaning": "konsensus 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "konsensus",
+    "affix_logic": "어근 'konsensus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak konsensus",
+    "antonym": "bukan konsensus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsensus 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsensus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonsensus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsensus 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonsensus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsensus 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonsensus",
+        "meaning": "konsensus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_3tt44",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonsensusan [[뼝konsensus안]]",
+    "meaning": "konsensus 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "konsensus",
+    "affix_logic": "어근 'konsensus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses konsensus",
+    "antonym": "bukan konsensus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsensus 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsensus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonsensusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsensus 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonsensusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsensus 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonsensusan",
+        "meaning": "konsensus 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mcxqb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkontemplatif [[버르kontemplatif]]",
+    "meaning": "kontemplatif하는 상태이다, kontemplatif를 행하다",
+    "pos": "동사",
+    "root": "kontemplatif",
+    "affix_logic": "어근 'kontemplatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kontemplatif",
+    "antonym": "tidak kontemplatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontemplatif하는 상태이다, kontemplatif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontemplatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkontemplatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontemplatif하는 상태이다, kontemplatif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkontemplatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontemplatif하는 상태이다, kontemplatif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkontemplatif",
+        "meaning": "kontemplatif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ps9wp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontemplatif [[뼝kontemplatif]]",
+    "meaning": "kontemplatif 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "kontemplatif",
+    "affix_logic": "어근 'kontemplatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kontemplatif",
+    "antonym": "bukan kontemplatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontemplatif 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontemplatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontemplatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontemplatif 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontemplatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontemplatif 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontemplatif",
+        "meaning": "kontemplatif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_rz0h8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontemplatifan [[뼝kontemplatif안]]",
+    "meaning": "kontemplatif 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "kontemplatif",
+    "affix_logic": "어근 'kontemplatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kontemplatif",
+    "antonym": "bukan kontemplatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontemplatif 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontemplatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontemplatifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontemplatif 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontemplatifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontemplatif 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontemplatifan",
+        "meaning": "kontemplatif 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_i103n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkreativitas [[버르kreativitas]]",
+    "meaning": "kreativitas하는 상태이다, kreativitas를 행하다",
+    "pos": "동사",
+    "root": "kreativitas",
+    "affix_logic": "어근 'kreativitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kreativitas",
+    "antonym": "tidak kreativitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kreativitas하는 상태이다, kreativitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kreativitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkreativitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kreativitas하는 상태이다, kreativitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkreativitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kreativitas하는 상태이다, kreativitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkreativitas",
+        "meaning": "kreativitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_f2o85",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkreativitas [[뼝kreativitas]]",
+    "meaning": "kreativitas 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "kreativitas",
+    "affix_logic": "어근 'kreativitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kreativitas",
+    "antonym": "bukan kreativitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kreativitas 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kreativitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkreativitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kreativitas 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkreativitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kreativitas 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkreativitas",
+        "meaning": "kreativitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0npmb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkreativitasan [[뼝kreativitas안]]",
+    "meaning": "kreativitas 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "kreativitas",
+    "affix_logic": "어근 'kreativitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kreativitas",
+    "antonym": "bukan kreativitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kreativitas 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kreativitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkreativitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kreativitas 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkreativitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kreativitas 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkreativitasan",
+        "meaning": "kreativitas 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_q1ipr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkrisis kepribadian [[버르krisis kepribadian]]",
+    "meaning": "krisis kepribadian하는 상태이다, krisis kepribadian를 행하다",
+    "pos": "동사",
+    "root": "krisis kepribadian",
+    "affix_logic": "어근 'krisis kepribadian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan krisis kepribadian",
+    "antonym": "tidak krisis kepribadian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'krisis kepribadian하는 상태이다, krisis kepribadian를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'krisis kepribadian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkrisis kepribadian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'krisis kepribadian하는 상태이다, krisis kepribadian를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkrisis kepribadian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'krisis kepribadian하는 상태이다, krisis kepribadian를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkrisis",
+        "meaning": "krisis kepribadian하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_kfu1a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkrisis kepribadian [[뼝krisis kepribadian]]",
+    "meaning": "krisis kepribadian 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "krisis kepribadian",
+    "affix_logic": "어근 'krisis kepribadian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak krisis kepribadian",
+    "antonym": "bukan krisis kepribadian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'krisis kepribadian 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'krisis kepribadian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkrisis kepribadian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'krisis kepribadian 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkrisis kepribadian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'krisis kepribadian 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkrisis",
+        "meaning": "krisis kepribadian 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_7785h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkrisis kepribadianan [[뼝krisis kepribadian안]]",
+    "meaning": "krisis kepribadian 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "krisis kepribadian",
+    "affix_logic": "어근 'krisis kepribadian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses krisis kepribadian",
+    "antonym": "bukan krisis kepribadian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'krisis kepribadian 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'krisis kepribadian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkrisis kepribadianan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'krisis kepribadian 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkrisis kepribadianan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'krisis kepribadian 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkrisis",
+        "meaning": "krisis kepribadian 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_mejke",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlaboratorium psikologi [[버르laboratorium psikologi]]",
+    "meaning": "laboratorium psikologi하는 상태이다, laboratorium psikologi를 행하다",
+    "pos": "동사",
+    "root": "laboratorium psikologi",
+    "affix_logic": "어근 'laboratorium psikologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan laboratorium psikologi",
+    "antonym": "tidak laboratorium psikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium psikologi하는 상태이다, laboratorium psikologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium psikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlaboratorium psikologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium psikologi하는 상태이다, laboratorium psikologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlaboratorium psikologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium psikologi하는 상태이다, laboratorium psikologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlaboratorium",
+        "meaning": "laboratorium psikologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wk37x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaboratorium psikologi [[뼝laboratorium psikologi]]",
+    "meaning": "laboratorium psikologi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "laboratorium psikologi",
+    "affix_logic": "어근 'laboratorium psikologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak laboratorium psikologi",
+    "antonym": "bukan laboratorium psikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium psikologi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium psikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaboratorium psikologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium psikologi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaboratorium psikologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium psikologi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaboratorium",
+        "meaning": "laboratorium psikologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_nauf0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaboratorium psikologian [[뼝laboratorium psikologi안]]",
+    "meaning": "laboratorium psikologi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "laboratorium psikologi",
+    "affix_logic": "어근 'laboratorium psikologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses laboratorium psikologi",
+    "antonym": "bukan laboratorium psikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium psikologi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium psikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaboratorium psikologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium psikologi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaboratorium psikologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium psikologi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaboratorium",
+        "meaning": "laboratorium psikologi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_tpg0r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlatent [[버르latent]]",
+    "meaning": "latent하는 상태이다, latent를 행하다",
+    "pos": "동사",
+    "root": "latent",
+    "affix_logic": "어근 'latent'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan latent",
+    "antonym": "tidak latent",
+    "context": "실생활 및 회화/비즈니스 상황에서 'latent하는 상태이다, latent를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'latent'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlatent' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'latent하는 상태이다, latent를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlatent' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'latent하는 상태이다, latent를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlatent",
+        "meaning": "latent하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_br2po",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglatent [[뼝latent]]",
+    "meaning": "latent 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "latent",
+    "affix_logic": "어근 'latent'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak latent",
+    "antonym": "bukan latent",
+    "context": "실생활 및 회화/비즈니스 상황에서 'latent 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'latent'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglatent' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'latent 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglatent' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'latent 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglatent",
+        "meaning": "latent 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_rfs9i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglatentan [[뼝latent안]]",
+    "meaning": "latent 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "latent",
+    "affix_logic": "어근 'latent'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses latent",
+    "antonym": "bukan latent",
+    "context": "실생활 및 회화/비즈니스 상황에서 'latent 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'latent'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglatentan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'latent 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglatentan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'latent 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglatentan",
+        "meaning": "latent 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_p9cg1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlogis [[버르logis]]",
+    "meaning": "logis하는 상태이다, logis를 행하다",
+    "pos": "동사",
+    "root": "logis",
+    "affix_logic": "어근 'logis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan logis",
+    "antonym": "tidak logis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logis하는 상태이다, logis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlogis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logis하는 상태이다, logis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlogis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logis하는 상태이다, logis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlogis",
+        "meaning": "logis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_qaiu5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglogis [[뼝logis]]",
+    "meaning": "logis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "logis",
+    "affix_logic": "어근 'logis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak logis",
+    "antonym": "bukan logis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglogis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglogis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglogis",
+        "meaning": "logis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_xd1z4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglogisan [[뼝logis안]]",
+    "meaning": "logis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "logis",
+    "affix_logic": "어근 'logis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses logis",
+    "antonym": "bukan logis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglogisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglogisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglogisan",
+        "meaning": "logis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_7tg92",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermanipulasi psikologis [[버르manipulasi psikologis]]",
+    "meaning": "manipulasi psikologis하는 상태이다, manipulasi psikologis를 행하다",
+    "pos": "동사",
+    "root": "manipulasi psikologis",
+    "affix_logic": "어근 'manipulasi psikologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan manipulasi psikologis",
+    "antonym": "tidak manipulasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manipulasi psikologis하는 상태이다, manipulasi psikologis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manipulasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermanipulasi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manipulasi psikologis하는 상태이다, manipulasi psikologis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermanipulasi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manipulasi psikologis하는 상태이다, manipulasi psikologis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermanipulasi",
+        "meaning": "manipulasi psikologis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_y63uh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanipulasi psikologis [[뼝manipulasi psikologis]]",
+    "meaning": "manipulasi psikologis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "manipulasi psikologis",
+    "affix_logic": "어근 'manipulasi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak manipulasi psikologis",
+    "antonym": "bukan manipulasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manipulasi psikologis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manipulasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanipulasi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manipulasi psikologis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanipulasi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manipulasi psikologis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanipulasi",
+        "meaning": "manipulasi psikologis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0yzqq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanipulasi psikologisan [[뼝manipulasi psikologis안]]",
+    "meaning": "manipulasi psikologis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "manipulasi psikologis",
+    "affix_logic": "어근 'manipulasi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses manipulasi psikologis",
+    "antonym": "bukan manipulasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manipulasi psikologis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manipulasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanipulasi psikologisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manipulasi psikologis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanipulasi psikologisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manipulasi psikologis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanipulasi",
+        "meaning": "manipulasi psikologis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_zj0v6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermelankolis [[버르melankolis]]",
+    "meaning": "melankolis하는 상태이다, melankolis를 행하다",
+    "pos": "동사",
+    "root": "melankolis",
+    "affix_logic": "어근 'melankolis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan melankolis",
+    "antonym": "tidak melankolis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'melankolis하는 상태이다, melankolis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'melankolis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermelankolis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'melankolis하는 상태이다, melankolis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermelankolis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'melankolis하는 상태이다, melankolis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermelankolis",
+        "meaning": "melankolis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_x3iyl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmelankolis [[뼝melankolis]]",
+    "meaning": "melankolis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "melankolis",
+    "affix_logic": "어근 'melankolis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak melankolis",
+    "antonym": "bukan melankolis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'melankolis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'melankolis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmelankolis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'melankolis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmelankolis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'melankolis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmelankolis",
+        "meaning": "melankolis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_so2oq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmelankolisan [[뼝melankolis안]]",
+    "meaning": "melankolis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "melankolis",
+    "affix_logic": "어근 'melankolis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses melankolis",
+    "antonym": "bukan melankolis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'melankolis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'melankolis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmelankolisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'melankolis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmelankolisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'melankolis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmelankolisan",
+        "meaning": "melankolis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_k0o8d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermemori jangka panjang [[버르memori jangka panjang]]",
+    "meaning": "memori jangka panjang하는 상태이다, memori jangka panjang를 행하다",
+    "pos": "동사",
+    "root": "memori jangka panjang",
+    "affix_logic": "어근 'memori jangka panjang'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan memori jangka panjang",
+    "antonym": "tidak memori jangka panjang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memori jangka panjang하는 상태이다, memori jangka panjang를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memori jangka panjang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermemori jangka panjang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memori jangka panjang하는 상태이다, memori jangka panjang를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermemori jangka panjang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memori jangka panjang하는 상태이다, memori jangka panjang를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermemori",
+        "meaning": "memori jangka panjang하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_r948l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmemori jangka panjang [[뼝memori jangka panjang]]",
+    "meaning": "memori jangka panjang 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "memori jangka panjang",
+    "affix_logic": "어근 'memori jangka panjang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak memori jangka panjang",
+    "antonym": "bukan memori jangka panjang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memori jangka panjang 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memori jangka panjang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmemori jangka panjang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memori jangka panjang 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmemori jangka panjang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memori jangka panjang 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmemori",
+        "meaning": "memori jangka panjang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_zs2bq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmemori jangka panjangan [[뼝memori jangka panjang안]]",
+    "meaning": "memori jangka panjang 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "memori jangka panjang",
+    "affix_logic": "어근 'memori jangka panjang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses memori jangka panjang",
+    "antonym": "bukan memori jangka panjang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memori jangka panjang 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memori jangka panjang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmemori jangka panjangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memori jangka panjang 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmemori jangka panjangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memori jangka panjang 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmemori",
+        "meaning": "memori jangka panjang 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0byrx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermentalis [[버르mentalis]]",
+    "meaning": "mentalis하는 상태이다, mentalis를 행하다",
+    "pos": "동사",
+    "root": "mentalis",
+    "affix_logic": "어근 'mentalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mentalis",
+    "antonym": "tidak mentalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mentalis하는 상태이다, mentalis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mentalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermentalis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mentalis하는 상태이다, mentalis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermentalis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mentalis하는 상태이다, mentalis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermentalis",
+        "meaning": "mentalis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_anyxk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmentalis [[뼝mentalis]]",
+    "meaning": "mentalis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "mentalis",
+    "affix_logic": "어근 'mentalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mentalis",
+    "antonym": "bukan mentalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mentalis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mentalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmentalis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mentalis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmentalis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mentalis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmentalis",
+        "meaning": "mentalis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_029ad",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmentalisan [[뼝mentalis안]]",
+    "meaning": "mentalis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "mentalis",
+    "affix_logic": "어근 'mentalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mentalis",
+    "antonym": "bukan mentalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mentalis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mentalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmentalisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mentalis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmentalisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mentalis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmentalisan",
+        "meaning": "mentalis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_nwgeq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermetakognisi [[버르metakognisi]]",
+    "meaning": "metakognisi하는 상태이다, metakognisi를 행하다",
+    "pos": "동사",
+    "root": "metakognisi",
+    "affix_logic": "어근 'metakognisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan metakognisi",
+    "antonym": "tidak metakognisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metakognisi하는 상태이다, metakognisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metakognisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermetakognisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metakognisi하는 상태이다, metakognisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermetakognisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metakognisi하는 상태이다, metakognisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermetakognisi",
+        "meaning": "metakognisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_b6un1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmetakognisi [[뼝metakognisi]]",
+    "meaning": "metakognisi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "metakognisi",
+    "affix_logic": "어근 'metakognisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak metakognisi",
+    "antonym": "bukan metakognisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metakognisi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metakognisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmetakognisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metakognisi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmetakognisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metakognisi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmetakognisi",
+        "meaning": "metakognisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_tdw7v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmetakognisian [[뼝metakognisi안]]",
+    "meaning": "metakognisi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "metakognisi",
+    "affix_logic": "어근 'metakognisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses metakognisi",
+    "antonym": "bukan metakognisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metakognisi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metakognisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmetakognisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metakognisi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmetakognisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metakognisi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmetakognisian",
+        "meaning": "metakognisi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_7g7dd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernarsisme [[버르narsisme]]",
+    "meaning": "narsisme하는 상태이다, narsisme를 행하다",
+    "pos": "동사",
+    "root": "narsisme",
+    "affix_logic": "어근 'narsisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan narsisme",
+    "antonym": "tidak narsisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narsisme하는 상태이다, narsisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narsisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernarsisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narsisme하는 상태이다, narsisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernarsisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narsisme하는 상태이다, narsisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernarsisme",
+        "meaning": "narsisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_7tp1s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnarsisme [[뼝narsisme]]",
+    "meaning": "narsisme 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "narsisme",
+    "affix_logic": "어근 'narsisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak narsisme",
+    "antonym": "bukan narsisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narsisme 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narsisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnarsisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narsisme 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnarsisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narsisme 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnarsisme",
+        "meaning": "narsisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_0fhgw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnarsismean [[뼝narsisme안]]",
+    "meaning": "narsisme 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "narsisme",
+    "affix_logic": "어근 'narsisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses narsisme",
+    "antonym": "bukan narsisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narsisme 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narsisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnarsismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narsisme 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnarsismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narsisme 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnarsismean",
+        "meaning": "narsisme 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_kyeuo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berneurosis [[버르neurosis]]",
+    "meaning": "neurosis하는 상태이다, neurosis를 행하다",
+    "pos": "동사",
+    "root": "neurosis",
+    "affix_logic": "어근 'neurosis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan neurosis",
+    "antonym": "tidak neurosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neurosis하는 상태이다, neurosis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neurosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berneurosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neurosis하는 상태이다, neurosis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berneurosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neurosis하는 상태이다, neurosis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berneurosis",
+        "meaning": "neurosis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_4k9o1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengneurosis [[뼝neurosis]]",
+    "meaning": "neurosis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "neurosis",
+    "affix_logic": "어근 'neurosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak neurosis",
+    "antonym": "bukan neurosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neurosis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neurosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengneurosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neurosis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengneurosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neurosis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengneurosis",
+        "meaning": "neurosis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_bvicv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengneurosisan [[뼝neurosis안]]",
+    "meaning": "neurosis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "neurosis",
+    "affix_logic": "어근 'neurosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses neurosis",
+    "antonym": "bukan neurosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neurosis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neurosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengneurosisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neurosis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengneurosisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neurosis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengneurosisan",
+        "meaning": "neurosis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_4uacf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernostalgia [[버르nostalgia]]",
+    "meaning": "nostalgia하는 상태이다, nostalgia를 행하다",
+    "pos": "동사",
+    "root": "nostalgia",
+    "affix_logic": "어근 'nostalgia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan nostalgia",
+    "antonym": "tidak nostalgia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nostalgia하는 상태이다, nostalgia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nostalgia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernostalgia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nostalgia하는 상태이다, nostalgia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernostalgia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nostalgia하는 상태이다, nostalgia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernostalgia",
+        "meaning": "nostalgia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_p2a9x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnostalgia [[뼝nostalgia]]",
+    "meaning": "nostalgia 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "nostalgia",
+    "affix_logic": "어근 'nostalgia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak nostalgia",
+    "antonym": "bukan nostalgia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nostalgia 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nostalgia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnostalgia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nostalgia 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnostalgia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nostalgia 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnostalgia",
+        "meaning": "nostalgia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ymgyj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnostalgiaan [[뼝nostalgia안]]",
+    "meaning": "nostalgia 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "nostalgia",
+    "affix_logic": "어근 'nostalgia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses nostalgia",
+    "antonym": "bukan nostalgia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nostalgia 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nostalgia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnostalgiaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nostalgia 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnostalgiaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nostalgia 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnostalgiaan",
+        "meaning": "nostalgia 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_blkrs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berobsesi [[버르obsesi]]",
+    "meaning": "obsesi하는 상태이다, obsesi를 행하다",
+    "pos": "동사",
+    "root": "obsesi",
+    "affix_logic": "어근 'obsesi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan obsesi",
+    "antonym": "tidak obsesi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obsesi하는 상태이다, obsesi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obsesi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berobsesi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obsesi하는 상태이다, obsesi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berobsesi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obsesi하는 상태이다, obsesi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berobsesi",
+        "meaning": "obsesi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_rtc30",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengobsesi [[뼝obsesi]]",
+    "meaning": "obsesi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "obsesi",
+    "affix_logic": "어근 'obsesi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak obsesi",
+    "antonym": "bukan obsesi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obsesi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obsesi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengobsesi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obsesi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengobsesi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obsesi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengobsesi",
+        "meaning": "obsesi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vnsvu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengobsesian [[뼝obsesi안]]",
+    "meaning": "obsesi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "obsesi",
+    "affix_logic": "어근 'obsesi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses obsesi",
+    "antonym": "bukan obsesi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obsesi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obsesi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengobsesian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obsesi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengobsesian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obsesi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengobsesian",
+        "meaning": "obsesi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_tzdqc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berorientasi nilai [[버르orientasi nilai]]",
+    "meaning": "orientasi nilai하는 상태이다, orientasi nilai를 행하다",
+    "pos": "동사",
+    "root": "orientasi nilai",
+    "affix_logic": "어근 'orientasi nilai'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan orientasi nilai",
+    "antonym": "tidak orientasi nilai",
+    "context": "실생활 및 회화/비즈니스 상황에서 'orientasi nilai하는 상태이다, orientasi nilai를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'orientasi nilai'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berorientasi nilai' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'orientasi nilai하는 상태이다, orientasi nilai를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berorientasi nilai' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'orientasi nilai하는 상태이다, orientasi nilai를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berorientasi",
+        "meaning": "orientasi nilai하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_juhi1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorientasi nilai [[뼝orientasi nilai]]",
+    "meaning": "orientasi nilai 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "orientasi nilai",
+    "affix_logic": "어근 'orientasi nilai'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak orientasi nilai",
+    "antonym": "bukan orientasi nilai",
+    "context": "실생활 및 회화/비즈니스 상황에서 'orientasi nilai 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'orientasi nilai'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengorientasi nilai' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'orientasi nilai 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengorientasi nilai' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'orientasi nilai 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengorientasi",
+        "meaning": "orientasi nilai 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ne9o5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorientasi nilaian [[뼝orientasi nilai안]]",
+    "meaning": "orientasi nilai 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "orientasi nilai",
+    "affix_logic": "어근 'orientasi nilai'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses orientasi nilai",
+    "antonym": "bukan orientasi nilai",
+    "context": "실생활 및 회화/비즈니스 상황에서 'orientasi nilai 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'orientasi nilai'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengorientasi nilaian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'orientasi nilai 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengorientasi nilaian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'orientasi nilai 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengorientasi",
+        "meaning": "orientasi nilai 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_qqgv0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berparanoia [[버르paranoia]]",
+    "meaning": "paranoia하는 상태이다, paranoia를 행하다",
+    "pos": "동사",
+    "root": "paranoia",
+    "affix_logic": "어근 'paranoia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan paranoia",
+    "antonym": "tidak paranoia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'paranoia하는 상태이다, paranoia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'paranoia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berparanoia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'paranoia하는 상태이다, paranoia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berparanoia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'paranoia하는 상태이다, paranoia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berparanoia",
+        "meaning": "paranoia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_rb0c0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengparanoia [[뼝paranoia]]",
+    "meaning": "paranoia 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "paranoia",
+    "affix_logic": "어근 'paranoia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak paranoia",
+    "antonym": "bukan paranoia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'paranoia 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'paranoia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengparanoia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'paranoia 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengparanoia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'paranoia 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengparanoia",
+        "meaning": "paranoia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_gb8mn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengparanoiaan [[뼝paranoia안]]",
+    "meaning": "paranoia 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "paranoia",
+    "affix_logic": "어근 'paranoia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses paranoia",
+    "antonym": "bukan paranoia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'paranoia 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'paranoia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengparanoiaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'paranoia 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengparanoiaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'paranoia 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengparanoiaan",
+        "meaning": "paranoia 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_x8lvs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpersepsi [[버르persepsi]]",
+    "meaning": "persepsi하는 상태이다, persepsi를 행하다",
+    "pos": "동사",
+    "root": "persepsi",
+    "affix_logic": "어근 'persepsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan persepsi",
+    "antonym": "tidak persepsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'persepsi하는 상태이다, persepsi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'persepsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpersepsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'persepsi하는 상태이다, persepsi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpersepsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'persepsi하는 상태이다, persepsi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpersepsi",
+        "meaning": "persepsi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_5lyf1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpersepsi [[뼝persepsi]]",
+    "meaning": "persepsi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "persepsi",
+    "affix_logic": "어근 'persepsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak persepsi",
+    "antonym": "bukan persepsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'persepsi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'persepsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpersepsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'persepsi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpersepsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'persepsi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpersepsi",
+        "meaning": "persepsi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_yqik2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpersepsian [[뼝persepsi안]]",
+    "meaning": "persepsi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "persepsi",
+    "affix_logic": "어근 'persepsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses persepsi",
+    "antonym": "bukan persepsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'persepsi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'persepsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpersepsian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'persepsi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpersepsian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'persepsi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpersepsian",
+        "meaning": "persepsi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_t6y6m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkepribadian [[버르kepribadian]]",
+    "meaning": "kepribadian하는 상태이다, kepribadian를 행하다",
+    "pos": "동사",
+    "root": "kepribadian",
+    "affix_logic": "어근 'kepribadian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kepribadian",
+    "antonym": "tidak kepribadian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kepribadian하는 상태이다, kepribadian를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kepribadian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkepribadian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kepribadian하는 상태이다, kepribadian를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkepribadian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kepribadian하는 상태이다, kepribadian를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkepribadian",
+        "meaning": "kepribadian하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_odsak",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkepribadian [[뼝kepribadian]]",
+    "meaning": "kepribadian 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "kepribadian",
+    "affix_logic": "어근 'kepribadian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kepribadian",
+    "antonym": "bukan kepribadian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kepribadian 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kepribadian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkepribadian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kepribadian 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkepribadian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kepribadian 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkepribadian",
+        "meaning": "kepribadian 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_y0mrw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkepribadianan [[뼝kepribadian안]]",
+    "meaning": "kepribadian 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "kepribadian",
+    "affix_logic": "어근 'kepribadian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kepribadian",
+    "antonym": "bukan kepribadian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kepribadian 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kepribadian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkepribadianan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kepribadian 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkepribadianan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kepribadian 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkepribadianan",
+        "meaning": "kepribadian 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_8kzrq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpersuasi publik [[버르persuasi publik]]",
+    "meaning": "persuasi publik하는 상태이다, persuasi publik를 행하다",
+    "pos": "동사",
+    "root": "persuasi publik",
+    "affix_logic": "어근 'persuasi publik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan persuasi publik",
+    "antonym": "tidak persuasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'persuasi publik하는 상태이다, persuasi publik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'persuasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpersuasi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'persuasi publik하는 상태이다, persuasi publik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpersuasi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'persuasi publik하는 상태이다, persuasi publik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpersuasi",
+        "meaning": "persuasi publik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_jk6n1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpersuasi publik [[뼝persuasi publik]]",
+    "meaning": "persuasi publik 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "persuasi publik",
+    "affix_logic": "어근 'persuasi publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak persuasi publik",
+    "antonym": "bukan persuasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'persuasi publik 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'persuasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpersuasi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'persuasi publik 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpersuasi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'persuasi publik 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpersuasi",
+        "meaning": "persuasi publik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_we8qf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpersuasi publikan [[뼝persuasi publik안]]",
+    "meaning": "persuasi publik 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "persuasi publik",
+    "affix_logic": "어근 'persuasi publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses persuasi publik",
+    "antonym": "bukan persuasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'persuasi publik 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'persuasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpersuasi publikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'persuasi publik 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpersuasi publikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'persuasi publik 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpersuasi",
+        "meaning": "persuasi publik 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_zgyjv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berproyeksi psikologis [[버르proyeksi psikologis]]",
+    "meaning": "proyeksi psikologis하는 상태이다, proyeksi psikologis를 행하다",
+    "pos": "동사",
+    "root": "proyeksi psikologis",
+    "affix_logic": "어근 'proyeksi psikologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan proyeksi psikologis",
+    "antonym": "tidak proyeksi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'proyeksi psikologis하는 상태이다, proyeksi psikologis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'proyeksi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berproyeksi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'proyeksi psikologis하는 상태이다, proyeksi psikologis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berproyeksi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'proyeksi psikologis하는 상태이다, proyeksi psikologis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berproyeksi",
+        "meaning": "proyeksi psikologis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_juvqy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengproyeksi psikologis [[뼝proyeksi psikologis]]",
+    "meaning": "proyeksi psikologis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "proyeksi psikologis",
+    "affix_logic": "어근 'proyeksi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak proyeksi psikologis",
+    "antonym": "bukan proyeksi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'proyeksi psikologis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'proyeksi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengproyeksi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'proyeksi psikologis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengproyeksi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'proyeksi psikologis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengproyeksi",
+        "meaning": "proyeksi psikologis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_zechr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengproyeksi psikologisan [[뼝proyeksi psikologis안]]",
+    "meaning": "proyeksi psikologis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "proyeksi psikologis",
+    "affix_logic": "어근 'proyeksi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses proyeksi psikologis",
+    "antonym": "bukan proyeksi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'proyeksi psikologis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'proyeksi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengproyeksi psikologisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'proyeksi psikologis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengproyeksi psikologisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'proyeksi psikologis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengproyeksi",
+        "meaning": "proyeksi psikologis 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_pcs56",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpsikopatologi [[버르psikopatologi]]",
+    "meaning": "psikopatologi하는 상태이다, psikopatologi를 행하다",
+    "pos": "동사",
+    "root": "psikopatologi",
+    "affix_logic": "어근 'psikopatologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan psikopatologi",
+    "antonym": "tidak psikopatologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikopatologi하는 상태이다, psikopatologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikopatologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpsikopatologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikopatologi하는 상태이다, psikopatologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpsikopatologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikopatologi하는 상태이다, psikopatologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpsikopatologi",
+        "meaning": "psikopatologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_spqj0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpsikopatologi [[뼝psikopatologi]]",
+    "meaning": "psikopatologi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "psikopatologi",
+    "affix_logic": "어근 'psikopatologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak psikopatologi",
+    "antonym": "bukan psikopatologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikopatologi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikopatologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpsikopatologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikopatologi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpsikopatologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikopatologi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpsikopatologi",
+        "meaning": "psikopatologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_xn3pm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpsikopatologian [[뼝psikopatologi안]]",
+    "meaning": "psikopatologi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "psikopatologi",
+    "affix_logic": "어근 'psikopatologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses psikopatologi",
+    "antonym": "bukan psikopatologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikopatologi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikopatologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpsikopatologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikopatologi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpsikopatologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikopatologi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpsikopatologian",
+        "meaning": "psikopatologi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_bc9zh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpsikosomatik [[버르psikosomatik]]",
+    "meaning": "psikosomatik하는 상태이다, psikosomatik를 행하다",
+    "pos": "동사",
+    "root": "psikosomatik",
+    "affix_logic": "어근 'psikosomatik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan psikosomatik",
+    "antonym": "tidak psikosomatik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikosomatik하는 상태이다, psikosomatik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikosomatik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpsikosomatik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikosomatik하는 상태이다, psikosomatik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpsikosomatik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikosomatik하는 상태이다, psikosomatik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpsikosomatik",
+        "meaning": "psikosomatik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_e7aiv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpsikosomatik [[뼝psikosomatik]]",
+    "meaning": "psikosomatik 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "psikosomatik",
+    "affix_logic": "어근 'psikosomatik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak psikosomatik",
+    "antonym": "bukan psikosomatik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikosomatik 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikosomatik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpsikosomatik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikosomatik 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpsikosomatik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikosomatik 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpsikosomatik",
+        "meaning": "psikosomatik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ja9ku",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpsikosomatikan [[뼝psikosomatik안]]",
+    "meaning": "psikosomatik 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "psikosomatik",
+    "affix_logic": "어근 'psikosomatik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses psikosomatik",
+    "antonym": "bukan psikosomatik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikosomatik 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikosomatik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpsikosomatikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikosomatik 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpsikosomatikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikosomatik 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpsikosomatikan",
+        "meaning": "psikosomatik 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_h43yi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrasionalisasi mental [[버르rasionalisasi mental]]",
+    "meaning": "rasionalisasi mental하는 상태이다, rasionalisasi mental를 행하다",
+    "pos": "동사",
+    "root": "rasionalisasi mental",
+    "affix_logic": "어근 'rasionalisasi mental'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan rasionalisasi mental",
+    "antonym": "tidak rasionalisasi mental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rasionalisasi mental하는 상태이다, rasionalisasi mental를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rasionalisasi mental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrasionalisasi mental' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rasionalisasi mental하는 상태이다, rasionalisasi mental를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrasionalisasi mental' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rasionalisasi mental하는 상태이다, rasionalisasi mental를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrasionalisasi",
+        "meaning": "rasionalisasi mental하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_kr67c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrasionalisasi mental [[뼝rasionalisasi mental]]",
+    "meaning": "rasionalisasi mental 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "rasionalisasi mental",
+    "affix_logic": "어근 'rasionalisasi mental'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak rasionalisasi mental",
+    "antonym": "bukan rasionalisasi mental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rasionalisasi mental 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rasionalisasi mental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrasionalisasi mental' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rasionalisasi mental 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrasionalisasi mental' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rasionalisasi mental 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrasionalisasi",
+        "meaning": "rasionalisasi mental 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_48au0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrasionalisasi mentalan [[뼝rasionalisasi mental안]]",
+    "meaning": "rasionalisasi mental 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "rasionalisasi mental",
+    "affix_logic": "어근 'rasionalisasi mental'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses rasionalisasi mental",
+    "antonym": "bukan rasionalisasi mental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rasionalisasi mental 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rasionalisasi mental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrasionalisasi mentalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rasionalisasi mental 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrasionalisasi mentalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rasionalisasi mental 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrasionalisasi",
+        "meaning": "rasionalisasi mental 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_74y0b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berreaksi emosional [[버르reaksi emosional]]",
+    "meaning": "reaksi emosional하는 상태이다, reaksi emosional를 행하다",
+    "pos": "동사",
+    "root": "reaksi emosional",
+    "affix_logic": "어근 'reaksi emosional'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan reaksi emosional",
+    "antonym": "tidak reaksi emosional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reaksi emosional하는 상태이다, reaksi emosional를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reaksi emosional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berreaksi emosional' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reaksi emosional하는 상태이다, reaksi emosional를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berreaksi emosional' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reaksi emosional하는 상태이다, reaksi emosional를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berreaksi",
+        "meaning": "reaksi emosional하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_woire",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengreaksi emosional [[뼝reaksi emosional]]",
+    "meaning": "reaksi emosional 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "reaksi emosional",
+    "affix_logic": "어근 'reaksi emosional'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak reaksi emosional",
+    "antonym": "bukan reaksi emosional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reaksi emosional 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reaksi emosional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengreaksi emosional' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reaksi emosional 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengreaksi emosional' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reaksi emosional 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengreaksi",
+        "meaning": "reaksi emosional 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_7c137",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengreaksi emosionalan [[뼝reaksi emosional안]]",
+    "meaning": "reaksi emosional 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "reaksi emosional",
+    "affix_logic": "어근 'reaksi emosional'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses reaksi emosional",
+    "antonym": "bukan reaksi emosional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reaksi emosional 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reaksi emosional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengreaksi emosionalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reaksi emosional 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengreaksi emosionalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reaksi emosional 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengreaksi",
+        "meaning": "reaksi emosional 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_58d7q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrefleksi diri [[버르refleksi diri]]",
+    "meaning": "refleksi diri하는 상태이다, refleksi diri를 행하다",
+    "pos": "동사",
+    "root": "refleksi diri",
+    "affix_logic": "어근 'refleksi diri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan refleksi diri",
+    "antonym": "tidak refleksi diri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'refleksi diri하는 상태이다, refleksi diri를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'refleksi diri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrefleksi diri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'refleksi diri하는 상태이다, refleksi diri를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrefleksi diri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'refleksi diri하는 상태이다, refleksi diri를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrefleksi",
+        "meaning": "refleksi diri하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_25a0d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrefleksi diri [[뼝refleksi diri]]",
+    "meaning": "refleksi diri 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "refleksi diri",
+    "affix_logic": "어근 'refleksi diri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak refleksi diri",
+    "antonym": "bukan refleksi diri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'refleksi diri 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'refleksi diri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrefleksi diri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'refleksi diri 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrefleksi diri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'refleksi diri 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrefleksi",
+        "meaning": "refleksi diri 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_v7jyo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrefleksi dirian [[뼝refleksi diri안]]",
+    "meaning": "refleksi diri 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "refleksi diri",
+    "affix_logic": "어근 'refleksi diri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses refleksi diri",
+    "antonym": "bukan refleksi diri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'refleksi diri 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'refleksi diri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrefleksi dirian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'refleksi diri 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrefleksi dirian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'refleksi diri 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrefleksi",
+        "meaning": "refleksi diri 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_wst69",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berregresi [[버르regresi]]",
+    "meaning": "regresi하는 상태이다, regresi를 행하다",
+    "pos": "동사",
+    "root": "regresi",
+    "affix_logic": "어근 'regresi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan regresi",
+    "antonym": "tidak regresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'regresi하는 상태이다, regresi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'regresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berregresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'regresi하는 상태이다, regresi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berregresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'regresi하는 상태이다, regresi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berregresi",
+        "meaning": "regresi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_aa88i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengregresi [[뼝regresi]]",
+    "meaning": "regresi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "regresi",
+    "affix_logic": "어근 'regresi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak regresi",
+    "antonym": "bukan regresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'regresi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'regresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengregresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'regresi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengregresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'regresi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengregresi",
+        "meaning": "regresi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_potn0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengregresian [[뼝regresi안]]",
+    "meaning": "regresi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "regresi",
+    "affix_logic": "어근 'regresi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses regresi",
+    "antonym": "bukan regresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'regresi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'regresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengregresian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'regresi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengregresian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'regresi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengregresian",
+        "meaning": "regresi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vqedp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrepresi [[버르represi]]",
+    "meaning": "represi하는 상태이다, represi를 행하다",
+    "pos": "동사",
+    "root": "represi",
+    "affix_logic": "어근 'represi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan represi",
+    "antonym": "tidak represi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'represi하는 상태이다, represi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'represi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrepresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'represi하는 상태이다, represi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrepresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'represi하는 상태이다, represi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrepresi",
+        "meaning": "represi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_xnrhy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrepresi [[뼝represi]]",
+    "meaning": "represi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "represi",
+    "affix_logic": "어근 'represi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak represi",
+    "antonym": "bukan represi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'represi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'represi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrepresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'represi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrepresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'represi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrepresi",
+        "meaning": "represi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_xybd9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrepresian [[뼝represi안]]",
+    "meaning": "represi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "represi",
+    "affix_logic": "어근 'represi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses represi",
+    "antonym": "bukan represi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'represi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'represi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrepresian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'represi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrepresian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'represi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrepresian",
+        "meaning": "represi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vd2ej",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berresiliensi [[버르resiliensi]]",
+    "meaning": "resiliensi하는 상태이다, resiliensi를 행하다",
+    "pos": "동사",
+    "root": "resiliensi",
+    "affix_logic": "어근 'resiliensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan resiliensi",
+    "antonym": "tidak resiliensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resiliensi하는 상태이다, resiliensi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resiliensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berresiliensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resiliensi하는 상태이다, resiliensi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berresiliensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resiliensi하는 상태이다, resiliensi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berresiliensi",
+        "meaning": "resiliensi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_c5lhp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresiliensi [[뼝resiliensi]]",
+    "meaning": "resiliensi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "resiliensi",
+    "affix_logic": "어근 'resiliensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak resiliensi",
+    "antonym": "bukan resiliensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resiliensi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resiliensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresiliensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resiliensi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresiliensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resiliensi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresiliensi",
+        "meaning": "resiliensi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_z5k3z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresiliensian [[뼝resiliensi안]]",
+    "meaning": "resiliensi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "resiliensi",
+    "affix_logic": "어근 'resiliensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses resiliensi",
+    "antonym": "bukan resiliensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resiliensi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resiliensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresiliensian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resiliensi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresiliensian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resiliensi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresiliensian",
+        "meaning": "resiliensi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_k797h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersensasi [[버르sensasi]]",
+    "meaning": "sensasi하는 상태이다, sensasi를 행하다",
+    "pos": "동사",
+    "root": "sensasi",
+    "affix_logic": "어근 'sensasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sensasi",
+    "antonym": "tidak sensasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sensasi하는 상태이다, sensasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sensasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersensasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sensasi하는 상태이다, sensasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersensasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sensasi하는 상태이다, sensasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersensasi",
+        "meaning": "sensasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_plg4q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsensasi [[뼝sensasi]]",
+    "meaning": "sensasi 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "sensasi",
+    "affix_logic": "어근 'sensasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak sensasi",
+    "antonym": "bukan sensasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sensasi 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sensasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsensasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sensasi 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsensasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sensasi 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsensasi",
+        "meaning": "sensasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_qy706",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsensasian [[뼝sensasi안]]",
+    "meaning": "sensasi 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "sensasi",
+    "affix_logic": "어근 'sensasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses sensasi",
+    "antonym": "bukan sensasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sensasi 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sensasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsensasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sensasi 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsensasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sensasi 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsensasian",
+        "meaning": "sensasi 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_vwnoe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersentimen [[버르sentimen]]",
+    "meaning": "sentimen하는 상태이다, sentimen를 행하다",
+    "pos": "동사",
+    "root": "sentimen",
+    "affix_logic": "어근 'sentimen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sentimen",
+    "antonym": "tidak sentimen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sentimen하는 상태이다, sentimen를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sentimen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersentimen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sentimen하는 상태이다, sentimen를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersentimen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sentimen하는 상태이다, sentimen를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersentimen",
+        "meaning": "sentimen하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_ymjmt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsentimen [[뼝sentimen]]",
+    "meaning": "sentimen 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "sentimen",
+    "affix_logic": "어근 'sentimen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak sentimen",
+    "antonym": "bukan sentimen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sentimen 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sentimen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsentimen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sentimen 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsentimen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sentimen 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsentimen",
+        "meaning": "sentimen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_axch7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsentimenan [[뼝sentimen안]]",
+    "meaning": "sentimen 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "sentimen",
+    "affix_logic": "어근 'sentimen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses sentimen",
+    "antonym": "bukan sentimen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sentimen 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sentimen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsentimenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sentimen 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsentimenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sentimen 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsentimenan",
+        "meaning": "sentimen 과정 및 심리 현상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_65euy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersosialisasi psikologis [[버르sosialisasi psikologis]]",
+    "meaning": "sosialisasi psikologis하는 상태이다, sosialisasi psikologis를 행하다",
+    "pos": "동사",
+    "root": "sosialisasi psikologis",
+    "affix_logic": "어근 'sosialisasi psikologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sosialisasi psikologis",
+    "antonym": "tidak sosialisasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sosialisasi psikologis하는 상태이다, sosialisasi psikologis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sosialisasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersosialisasi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sosialisasi psikologis하는 상태이다, sosialisasi psikologis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersosialisasi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sosialisasi psikologis하는 상태이다, sosialisasi psikologis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersosialisasi",
+        "meaning": "sosialisasi psikologis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_qenvn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsosialisasi psikologis [[뼝sosialisasi psikologis]]",
+    "meaning": "sosialisasi psikologis 수행 주체, 심리학자",
+    "pos": "명사",
+    "root": "sosialisasi psikologis",
+    "affix_logic": "어근 'sosialisasi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak sosialisasi psikologis",
+    "antonym": "bukan sosialisasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sosialisasi psikologis 수행 주체, 심리학자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sosialisasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsosialisasi psikologis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sosialisasi psikologis 수행 주체, 심리학자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsosialisasi psikologis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sosialisasi psikologis 수행 주체, 심리학자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsosialisasi",
+        "meaning": "sosialisasi psikologis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139076207_5ya7u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsosialisasi psikologisan [[뼝sosialisasi psikologis안]]",
+    "meaning": "sosialisasi psikologis 과정 및 심리 현상",
+    "pos": "명사",
+    "root": "sosialisasi psikologis",
+    "affix_logic": "어근 'sosialisasi psikologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses sosialisasi psikologis",
+    "antonym": "bukan sosialisasi psikologis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sosialisasi psikologis 과정 및 심리 현상'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sosialisasi psikologis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsosialisasi psikologisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sosialisasi psikologis 과정 및 심리 현상'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsosialisasi psikologisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sosialisasi psikologis 과정 및 심리 현상'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsosialisasi",
+        "meaning": "sosialisasi psikologis 과정 및 심리 현상"
+      }
+    ]
   }
 ];
