@@ -6888,5 +6888,455 @@ export const dailyLivingVocab = [
         "meaning": "perpustakaan 관련 실전 표현"
       }
     ]
+  },
+  {
+    "id": "word_1787139743152_5vy3m",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "kemenangan agung [[끄메낭안 아궁]]",
+    "meaning": "위대한 승리",
+    "pos": "명사구",
+    "root": "menang",
+    "affix_logic": "어근 'menang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'menang'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "kejayaan besar",
+    "antonym": "kekalahan",
+    "context": "'kemenangan agung'은(는) principalmente '위대한 승리'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'menang'의 용법에 유의하세요. 'kemenangan agung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'menang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan kemenangan agung demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 위대한 승리을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal kemenangan agung ini?",
+    "example_casual_kr": "너 이 위대한 승리에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "menang",
+        "meaning": "(어근) 위대한 승리"
+      },
+      {
+        "word": "kemenangan agung",
+        "meaning": "위대한 승리"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_ttoqt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "prestasi gemilang [[쁘레스따시 그밀랑]]",
+    "meaning": "찬란한 업적",
+    "pos": "명사구",
+    "root": "prestasi",
+    "affix_logic": "어근 'prestasi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'prestasi'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "pencapaian luar biasa",
+    "antonym": "kegagalan",
+    "context": "'prestasi gemilang'은(는) principalmente '찬란한 업적'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'prestasi'의 용법에 유의하세요. 'prestasi gemilang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'prestasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan prestasi gemilang demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 찬란한 업적을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal prestasi gemilang ini?",
+    "example_casual_kr": "너 이 찬란한 업적에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "prestasi",
+        "meaning": "(어근) 찬란한 업적"
+      },
+      {
+        "word": "prestasi gemilang",
+        "meaning": "찬란한 업적"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_s202l",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "semangat baja [[스망앗 바자]]",
+    "meaning": "강철 같은 불굴의 의지",
+    "pos": "명사구",
+    "root": "semangat",
+    "affix_logic": "어근 'semangat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'semangat'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "tekad kuat",
+    "antonym": "keputusasaan",
+    "context": "'semangat baja'은(는) principalmente '강철 같은 불굴의 의지'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'semangat'의 용법에 유의하세요. 'semangat baja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'semangat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan semangat baja demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 강철 같은 불굴의 의지을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal semangat baja ini?",
+    "example_casual_kr": "너 이 강철 같은 불굴의 의지에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "semangat",
+        "meaning": "(어근) 강철 같은 불굴의 의지"
+      },
+      {
+        "word": "semangat baja",
+        "meaning": "강철 같은 불굴의 의지"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_21cgf",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "harapan murni [[하라빤 무르니]]",
+    "meaning": "순수한 희망",
+    "pos": "명사구",
+    "root": "harap",
+    "affix_logic": "어근 'harap'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'harap'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "cita-cita suci",
+    "antonym": "keputusasaan",
+    "context": "'harapan murni'은(는) principalmente '순수한 희망'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'harap'의 용법에 유의하세요. 'harapan murni' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'harap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan harapan murni demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 순수한 희망을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal harapan murni ini?",
+    "example_casual_kr": "너 이 순수한 희망에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "harap",
+        "meaning": "(어근) 순수한 희망"
+      },
+      {
+        "word": "harapan murni",
+        "meaning": "순수한 희망"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_1i9a9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "keberhasilan mutlak [[끄버르하시란 무띡]]",
+    "meaning": "절대적 성공",
+    "pos": "명사구",
+    "root": "hasil",
+    "affix_logic": "어근 'hasil'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'hasil'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "sukses total",
+    "antonym": "kegagalan total",
+    "context": "'keberhasilan mutlak'은(는) principalmente '절대적 성공'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'hasil'의 용법에 유의하세요. 'keberhasilan mutlak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'hasil' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan keberhasilan mutlak demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 절대적 성공을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal keberhasilan mutlak ini?",
+    "example_casual_kr": "너 이 절대적 성공에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "hasil",
+        "meaning": "(어근) 절대적 성공"
+      },
+      {
+        "word": "keberhasilan mutlak",
+        "meaning": "절대적 성공"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_dlb34",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "cahaya keabadian [[짜하야 끄아바디안]]",
+    "meaning": "영원한 빛",
+    "pos": "명사구",
+    "root": "abadi",
+    "affix_logic": "어근 'abadi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'abadi'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "sinar abadi",
+    "antonym": "kegelapan",
+    "context": "'cahaya keabadian'은(는) principalmente '영원한 빛'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'abadi'의 용법에 유의하세요. 'cahaya keabadian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'abadi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan cahaya keabadian demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 영원한 빛을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal cahaya keabadian ini?",
+    "example_casual_kr": "너 이 영원한 빛에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "abadi",
+        "meaning": "(어근) 영원한 빛"
+      },
+      {
+        "word": "cahaya keabadian",
+        "meaning": "영원한 빛"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_z6xzu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "puncak kejayaan [[푼짝 끄자야안]]",
+    "meaning": "전성기의 영예",
+    "pos": "명사구",
+    "root": "jaya",
+    "affix_logic": "어근 'jaya'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'jaya'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "masa keemasan",
+    "antonym": "kejatuhan",
+    "context": "'puncak kejayaan'은(는) principalmente '전성기의 영예'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jaya'의 용법에 유의하세요. 'puncak kejayaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jaya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan puncak kejayaan demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 전성기의 영예을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal puncak kejayaan ini?",
+    "example_casual_kr": "너 이 전성기의 영예에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jaya",
+        "meaning": "(어근) 전성기의 영예"
+      },
+      {
+        "word": "puncak kejayaan",
+        "meaning": "전성기의 영예"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_1i2pc",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "jiwa pemenang [[지와 쁘메낭]]",
+    "meaning": "승자의 기상",
+    "pos": "명사구",
+    "root": "menang",
+    "affix_logic": "어근 'menang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'menang'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "semangat juara",
+    "antonym": "jiwa pecundang",
+    "context": "'jiwa pemenang'은(는) principalmente '승자의 기상'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'menang'의 용법에 유의하세요. 'jiwa pemenang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'menang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan jiwa pemenang demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 승자의 기상을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal jiwa pemenang ini?",
+    "example_casual_kr": "너 이 승자의 기상에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "menang",
+        "meaning": "(어근) 승자의 기상"
+      },
+      {
+        "word": "jiwa pemenang",
+        "meaning": "승자의 기상"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_d3f0f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "ilmu sejati [[일무 서자티]]",
+    "meaning": "진정한 학문",
+    "pos": "명사구",
+    "root": "ilmu",
+    "affix_logic": "어근 'ilmu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'ilmu'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "pengetahuan murni",
+    "antonym": "ilmu palsu",
+    "context": "'ilmu sejati'은(는) principalmente '진정한 학문'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ilmu'의 용법에 유의하세요. 'ilmu sejati' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ilmu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan ilmu sejati demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 진정한 학문을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal ilmu sejati ini?",
+    "example_casual_kr": "너 이 진정한 학문에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ilmu",
+        "meaning": "(어근) 진정한 학문"
+      },
+      {
+        "word": "ilmu sejati",
+        "meaning": "진정한 학문"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_a2yik",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "karya abadi [[까르야 아바디]]",
+    "meaning": "불후의 명작",
+    "pos": "명사구",
+    "root": "karya",
+    "affix_logic": "어근 'karya'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'karya'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "mahakarya",
+    "antonym": "sampah",
+    "context": "'karya abadi'은(는) principalmente '불후의 명작'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'karya'의 용법에 유의하세요. 'karya abadi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'karya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan karya abadi demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 불후의 명작을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal karya abadi ini?",
+    "example_casual_kr": "너 이 불후의 명작에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "karya",
+        "meaning": "(어근) 불후의 명작"
+      },
+      {
+        "word": "karya abadi",
+        "meaning": "불후의 명작"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_tkyof",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "kekuatan tak terhingga [[끄꾸아딴 딱 뜨르힝가]]",
+    "meaning": "무한한 힘",
+    "pos": "명사구",
+    "root": "kuat",
+    "affix_logic": "어근 'kuat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'kuat'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "tenaga tak terbatas",
+    "antonym": "kelemahan",
+    "context": "'kekuatan tak terhingga'은(는) principalmente '무한한 힘'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kuat'의 용법에 유의하세요. 'kekuatan tak terhingga' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kuat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan kekuatan tak terhingga demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 무한한 힘을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal kekuatan tak terhingga ini?",
+    "example_casual_kr": "너 이 무한한 힘에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kuat",
+        "meaning": "(어근) 무한한 힘"
+      },
+      {
+        "word": "kekuatan tak terhingga",
+        "meaning": "무한한 힘"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_6f33j",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "langkah pasti [[랑까 파스티]]",
+    "meaning": "확고한 발걸음",
+    "pos": "명사구",
+    "root": "langkah",
+    "affix_logic": "어근 'langkah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'langkah'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "tujuan jelas",
+    "antonym": "keraguan",
+    "context": "'langkah pasti'은(는) principalmente '확고한 발걸음'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'langkah'의 용법에 유의하세요. 'langkah pasti' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'langkah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan langkah pasti demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 확고한 발걸음을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal langkah pasti ini?",
+    "example_casual_kr": "너 이 확고한 발걸음에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "langkah",
+        "meaning": "(어근) 확고한 발걸음"
+      },
+      {
+        "word": "langkah pasti",
+        "meaning": "확고한 발걸음"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_wmdhf",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "tekad baja [[뜨까 바자]]",
+    "meaning": "단단한 결의",
+    "pos": "명사구",
+    "root": "tekad",
+    "affix_logic": "어근 'tekad'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'tekad'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "pendirian teguh",
+    "antonym": "keraguan",
+    "context": "'tekad baja'은(는) principalmente '단단한 결의'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'tekad'의 용법에 유의하세요. 'tekad baja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'tekad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan tekad baja demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 단단한 결의을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal tekad baja ini?",
+    "example_casual_kr": "너 이 단단한 결의에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "tekad",
+        "meaning": "(어근) 단단한 결의"
+      },
+      {
+        "word": "tekad baja",
+        "meaning": "단단한 결의"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_3l6ve",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "sahabat sejati [[사하밧 서자티]]",
+    "meaning": "진정한 참된 친구",
+    "pos": "명사구",
+    "root": "sahabat",
+    "affix_logic": "어근 'sahabat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'sahabat'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "teman sejiwa",
+    "antonym": "musuh",
+    "context": "'sahabat sejati'은(는) principalmente '진정한 참된 친구'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sahabat'의 용법에 유의하세요. 'sahabat sejati' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sahabat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan sahabat sejati demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 진정한 참된 친구을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal sahabat sejati ini?",
+    "example_casual_kr": "너 이 진정한 참된 친구에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sahabat",
+        "meaning": "(어근) 진정한 참된 친구"
+      },
+      {
+        "word": "sahabat sejati",
+        "meaning": "진정한 참된 친구"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139743152_oxya0",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "cinta abadi [[찐따 아바디]]",
+    "meaning": "영원한 사랑",
+    "pos": "명사구",
+    "root": "cinta",
+    "affix_logic": "어근 'cinta'에 기반한 명사구 파생 표현",
+    "grammar_rule": "어근 'cinta'(이)가 문장 내에서 명사구 역할을 수행하며, 문맥과 어조에 따라 다양하게 활용되는 표준 어휘 표현입니다.",
+    "synonym": "kasih abadi",
+    "antonym": "kebencian",
+    "context": "'cinta abadi'은(는) principalmente '영원한 사랑'을(를) 뜻하며, 명사구로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'cinta'의 용법에 유의하세요. 'cinta abadi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'cinta' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah memperhatikan cinta abadi demi kesejahteraan.",
+    "example_formal_kr": "정부는 복지를 위해 영원한 사랑을(를) 중시합니다.",
+    "example_casual": "Apakah kamu tahu soal cinta abadi ini?",
+    "example_casual_kr": "너 이 영원한 사랑에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "cinta",
+        "meaning": "(어근) 영원한 사랑"
+      },
+      {
+        "word": "cinta abadi",
+        "meaning": "영원한 사랑"
+      }
+    ]
   }
 ];

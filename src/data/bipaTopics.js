@@ -114004,5 +114004,11705 @@ export const bipaTopics = [
         "meaning": "tiang pancang 과정 및 건축 도시 영역"
       }
     ]
+  },
+  {
+    "id": "word_1787139734101_1xoep",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berabadi [[버르abadi]]",
+    "meaning": "abadi하는 상태이다, abadi를 행하다",
+    "pos": "동사",
+    "root": "abadi",
+    "affix_logic": "어근 'abadi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'abadi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan abadi",
+    "antonym": "tidak abadi",
+    "context": "'berabadi'은(는) principalmente 'abadi하는 상태이다, abadi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'abadi'의 용법에 유의하세요. 'berabadi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'abadi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berabadi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 abadi하는 상태이다, abadi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berabadi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 abadi하는 상태이다, abadi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "abadi",
+        "meaning": "(어근) abadi하는 상태이다"
+      },
+      {
+        "word": "berabadi",
+        "meaning": "abadi하는 상태이다, abadi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_nksl7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengabadi [[뼝abadi]]",
+    "meaning": "abadi 수행 주체",
+    "pos": "명사",
+    "root": "abadi",
+    "affix_logic": "어근 'abadi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'abadi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak abadi",
+    "antonym": "bukan abadi",
+    "context": "'pengabadi'은(는) principalmente 'abadi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'abadi'의 용법에 유의하세요. 'pengabadi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'abadi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengabadi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 abadi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengabadi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 abadi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "abadi",
+        "meaning": "(어근) abadi 수행 주체"
+      },
+      {
+        "word": "pengabadi",
+        "meaning": "abadi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ssq2i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengabadian [[뼝abadi안]]",
+    "meaning": "abadi 과정 및 영역",
+    "pos": "명사",
+    "root": "abadi",
+    "affix_logic": "어근 'abadi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'abadi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses abadi",
+    "antonym": "bukan abadi",
+    "context": "'pengabadian'은(는) principalmente 'abadi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'abadi'의 용법에 유의하세요. 'pengabadian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'abadi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengabadian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 abadi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengabadian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 abadi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "abadi",
+        "meaning": "(어근) abadi 과정 및 영역"
+      },
+      {
+        "word": "pengabadian",
+        "meaning": "abadi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_3idz8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beracara [[버르acara]]",
+    "meaning": "acara하는 상태이다, acara를 행하다",
+    "pos": "동사",
+    "root": "acara",
+    "affix_logic": "어근 'acara'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'acara'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan acara",
+    "antonym": "tidak acara",
+    "context": "'beracara'은(는) principalmente 'acara하는 상태이다, acara를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'acara'의 용법에 유의하세요. 'beracara' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'acara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beracara untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 acara하는 상태이다, acara를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beracara yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 acara하는 상태이다, acara를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "acara",
+        "meaning": "(어근) acara하는 상태이다"
+      },
+      {
+        "word": "beracara",
+        "meaning": "acara하는 상태이다, acara를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_vl9hk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengacara [[뼝acara]]",
+    "meaning": "acara 수행 주체",
+    "pos": "명사",
+    "root": "acara",
+    "affix_logic": "어근 'acara'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'acara'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak acara",
+    "antonym": "bukan acara",
+    "context": "'pengacara'은(는) principalmente 'acara 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'acara'의 용법에 유의하세요. 'pengacara' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'acara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengacara untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 acara 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengacara yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 acara 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "acara",
+        "meaning": "(어근) acara 수행 주체"
+      },
+      {
+        "word": "pengacara",
+        "meaning": "acara 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8tph4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengacaraan [[뼝acara안]]",
+    "meaning": "acara 과정 및 영역",
+    "pos": "명사",
+    "root": "acara",
+    "affix_logic": "어근 'acara'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'acara'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses acara",
+    "antonym": "bukan acara",
+    "context": "'pengacaraan'은(는) principalmente 'acara 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'acara'의 용법에 유의하세요. 'pengacaraan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'acara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengacaraan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 acara 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengacaraan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 acara 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "acara",
+        "meaning": "(어근) acara 과정 및 영역"
+      },
+      {
+        "word": "pengacaraan",
+        "meaning": "acara 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_n4idl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beradat [[버르adat]]",
+    "meaning": "adat하는 상태이다, adat를 행하다",
+    "pos": "동사",
+    "root": "adat",
+    "affix_logic": "어근 'adat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan adat",
+    "antonym": "tidak adat",
+    "context": "'beradat'은(는) principalmente 'adat하는 상태이다, adat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adat'의 용법에 유의하세요. 'beradat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beradat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adat하는 상태이다, adat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beradat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adat하는 상태이다, adat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adat",
+        "meaning": "(어근) adat하는 상태이다"
+      },
+      {
+        "word": "beradat",
+        "meaning": "adat하는 상태이다, adat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_347py",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengadat [[뼝adat]]",
+    "meaning": "adat 수행 주체",
+    "pos": "명사",
+    "root": "adat",
+    "affix_logic": "어근 'adat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'adat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak adat",
+    "antonym": "bukan adat",
+    "context": "'pengadat'은(는) principalmente 'adat 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adat'의 용법에 유의하세요. 'pengadat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengadat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adat 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengadat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adat 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adat",
+        "meaning": "(어근) adat 수행 주체"
+      },
+      {
+        "word": "pengadat",
+        "meaning": "adat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_69iuo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengadatan [[뼝adat안]]",
+    "meaning": "adat 과정 및 영역",
+    "pos": "명사",
+    "root": "adat",
+    "affix_logic": "어근 'adat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'adat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses adat",
+    "antonym": "bukan adat",
+    "context": "'pengadatan'은(는) principalmente 'adat 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adat'의 용법에 유의하세요. 'pengadatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengadatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adat 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengadatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adat 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adat",
+        "meaning": "(어근) adat 과정 및 영역"
+      },
+      {
+        "word": "pengadatan",
+        "meaning": "adat 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_tdbjp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beradil [[버르adil]]",
+    "meaning": "adil하는 상태이다, adil를 행하다",
+    "pos": "동사",
+    "root": "adil",
+    "affix_logic": "어근 'adil'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adil'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan adil",
+    "antonym": "tidak adil",
+    "context": "'beradil'은(는) principalmente 'adil하는 상태이다, adil를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adil'의 용법에 유의하세요. 'beradil' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adil' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beradil untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adil하는 상태이다, adil를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beradil yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adil하는 상태이다, adil를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adil",
+        "meaning": "(어근) adil하는 상태이다"
+      },
+      {
+        "word": "beradil",
+        "meaning": "adil하는 상태이다, adil를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5b3xr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengadil [[뼝adil]]",
+    "meaning": "adil 수행 주체",
+    "pos": "명사",
+    "root": "adil",
+    "affix_logic": "어근 'adil'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'adil'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak adil",
+    "antonym": "bukan adil",
+    "context": "'pengadil'은(는) principalmente 'adil 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adil'의 용법에 유의하세요. 'pengadil' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adil' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengadil untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adil 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengadil yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adil 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adil",
+        "meaning": "(어근) adil 수행 주체"
+      },
+      {
+        "word": "pengadil",
+        "meaning": "adil 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ujhu0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengadilan [[뼝adil안]]",
+    "meaning": "adil 과정 및 영역",
+    "pos": "명사",
+    "root": "adil",
+    "affix_logic": "어근 'adil'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'adil'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses adil",
+    "antonym": "bukan adil",
+    "context": "'pengadilan'은(는) principalmente 'adil 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adil'의 용법에 유의하세요. 'pengadilan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adil' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengadilan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adil 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengadilan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adil 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adil",
+        "meaning": "(어근) adil 과정 및 영역"
+      },
+      {
+        "word": "pengadilan",
+        "meaning": "adil 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_4dkka",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beradu [[버르adu]]",
+    "meaning": "adu하는 상태이다, adu를 행하다",
+    "pos": "동사",
+    "root": "adu",
+    "affix_logic": "어근 'adu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adu'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan adu",
+    "antonym": "tidak adu",
+    "context": "'beradu'은(는) principalmente 'adu하는 상태이다, adu를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adu'의 용법에 유의하세요. 'beradu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beradu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adu하는 상태이다, adu를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beradu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adu하는 상태이다, adu를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adu",
+        "meaning": "(어근) adu하는 상태이다"
+      },
+      {
+        "word": "beradu",
+        "meaning": "adu하는 상태이다, adu를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_4442m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengadu [[뼝adu]]",
+    "meaning": "adu 수행 주체",
+    "pos": "명사",
+    "root": "adu",
+    "affix_logic": "어근 'adu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'adu'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak adu",
+    "antonym": "bukan adu",
+    "context": "'pengadu'은(는) principalmente 'adu 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adu'의 용법에 유의하세요. 'pengadu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengadu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adu 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengadu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adu 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adu",
+        "meaning": "(어근) adu 수행 주체"
+      },
+      {
+        "word": "pengadu",
+        "meaning": "adu 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_i7kk3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaduan [[뼝adu안]]",
+    "meaning": "adu 과정 및 영역",
+    "pos": "명사",
+    "root": "adu",
+    "affix_logic": "어근 'adu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'adu'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses adu",
+    "antonym": "bukan adu",
+    "context": "'pengaduan'은(는) principalmente 'adu 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adu'의 용법에 유의하세요. 'pengaduan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaduan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adu 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaduan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adu 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adu",
+        "meaning": "(어근) adu 과정 및 영역"
+      },
+      {
+        "word": "pengaduan",
+        "meaning": "adu 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8lu3t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berafiliasi [[버르afiliasi]]",
+    "meaning": "afiliasi하는 상태이다, afiliasi를 행하다",
+    "pos": "동사",
+    "root": "afiliasi",
+    "affix_logic": "어근 'afiliasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'afiliasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan afiliasi",
+    "antonym": "tidak afiliasi",
+    "context": "'berafiliasi'은(는) principalmente 'afiliasi하는 상태이다, afiliasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'afiliasi'의 용법에 유의하세요. 'berafiliasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'afiliasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berafiliasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 afiliasi하는 상태이다, afiliasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berafiliasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 afiliasi하는 상태이다, afiliasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "afiliasi",
+        "meaning": "(어근) afiliasi하는 상태이다"
+      },
+      {
+        "word": "berafiliasi",
+        "meaning": "afiliasi하는 상태이다, afiliasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_spibn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengafiliasi [[뼝afiliasi]]",
+    "meaning": "afiliasi 수행 주체",
+    "pos": "명사",
+    "root": "afiliasi",
+    "affix_logic": "어근 'afiliasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'afiliasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak afiliasi",
+    "antonym": "bukan afiliasi",
+    "context": "'pengafiliasi'은(는) principalmente 'afiliasi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'afiliasi'의 용법에 유의하세요. 'pengafiliasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'afiliasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengafiliasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 afiliasi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengafiliasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 afiliasi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "afiliasi",
+        "meaning": "(어근) afiliasi 수행 주체"
+      },
+      {
+        "word": "pengafiliasi",
+        "meaning": "afiliasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_28fzb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengafiliasian [[뼝afiliasi안]]",
+    "meaning": "afiliasi 과정 및 영역",
+    "pos": "명사",
+    "root": "afiliasi",
+    "affix_logic": "어근 'afiliasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'afiliasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses afiliasi",
+    "antonym": "bukan afiliasi",
+    "context": "'pengafiliasian'은(는) principalmente 'afiliasi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'afiliasi'의 용법에 유의하세요. 'pengafiliasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'afiliasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengafiliasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 afiliasi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengafiliasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 afiliasi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "afiliasi",
+        "meaning": "(어근) afiliasi 과정 및 영역"
+      },
+      {
+        "word": "pengafiliasian",
+        "meaning": "afiliasi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_e951e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beragung [[버르agung]]",
+    "meaning": "agung하는 상태이다, agung를 행하다",
+    "pos": "동사",
+    "root": "agung",
+    "affix_logic": "어근 'agung'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'agung'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan agung",
+    "antonym": "tidak agung",
+    "context": "'beragung'은(는) principalmente 'agung하는 상태이다, agung를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'agung'의 용법에 유의하세요. 'beragung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'agung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beragung untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 agung하는 상태이다, agung를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beragung yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 agung하는 상태이다, agung를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "agung",
+        "meaning": "(어근) agung하는 상태이다"
+      },
+      {
+        "word": "beragung",
+        "meaning": "agung하는 상태이다, agung를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_s5ipb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengagung [[뼝agung]]",
+    "meaning": "agung 수행 주체",
+    "pos": "명사",
+    "root": "agung",
+    "affix_logic": "어근 'agung'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'agung'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak agung",
+    "antonym": "bukan agung",
+    "context": "'pengagung'은(는) principalmente 'agung 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'agung'의 용법에 유의하세요. 'pengagung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'agung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengagung untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 agung 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengagung yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 agung 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "agung",
+        "meaning": "(어근) agung 수행 주체"
+      },
+      {
+        "word": "pengagung",
+        "meaning": "agung 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_p5tn7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengagungan [[뼝agung안]]",
+    "meaning": "agung 과정 및 영역",
+    "pos": "명사",
+    "root": "agung",
+    "affix_logic": "어근 'agung'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'agung'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses agung",
+    "antonym": "bukan agung",
+    "context": "'pengagungan'은(는) principalmente 'agung 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'agung'의 용법에 유의하세요. 'pengagungan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'agung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengagungan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 agung 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengagungan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 agung 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "agung",
+        "meaning": "(어근) agung 과정 및 영역"
+      },
+      {
+        "word": "pengagungan",
+        "meaning": "agung 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wxcmk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakad [[버르akad]]",
+    "meaning": "akad하는 상태이다, akad를 행하다",
+    "pos": "동사",
+    "root": "akad",
+    "affix_logic": "어근 'akad'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akad'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akad",
+    "antonym": "tidak akad",
+    "context": "'berakad'은(는) principalmente 'akad하는 상태이다, akad를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akad'의 용법에 유의하세요. 'berakad' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakad untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akad하는 상태이다, akad를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakad yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akad하는 상태이다, akad를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akad",
+        "meaning": "(어근) akad하는 상태이다"
+      },
+      {
+        "word": "berakad",
+        "meaning": "akad하는 상태이다, akad를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_e8z5c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakad [[뼝akad]]",
+    "meaning": "akad 수행 주체",
+    "pos": "명사",
+    "root": "akad",
+    "affix_logic": "어근 'akad'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akad'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akad",
+    "antonym": "bukan akad",
+    "context": "'pengakad'은(는) principalmente 'akad 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akad'의 용법에 유의하세요. 'pengakad' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakad untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akad 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakad yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akad 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akad",
+        "meaning": "(어근) akad 수행 주체"
+      },
+      {
+        "word": "pengakad",
+        "meaning": "akad 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_b4ra9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakadan [[뼝akad안]]",
+    "meaning": "akad 과정 및 영역",
+    "pos": "명사",
+    "root": "akad",
+    "affix_logic": "어근 'akad'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akad'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akad",
+    "antonym": "bukan akad",
+    "context": "'pengakadan'은(는) principalmente 'akad 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akad'의 용법에 유의하세요. 'pengakadan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakadan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akad 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakadan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akad 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akad",
+        "meaning": "(어근) akad 과정 및 영역"
+      },
+      {
+        "word": "pengakadan",
+        "meaning": "akad 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_n5tnq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakal [[버르akal]]",
+    "meaning": "akal하는 상태이다, akal를 행하다",
+    "pos": "동사",
+    "root": "akal",
+    "affix_logic": "어근 'akal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akal'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akal",
+    "antonym": "tidak akal",
+    "context": "'berakal'은(는) principalmente 'akal하는 상태이다, akal를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akal'의 용법에 유의하세요. 'berakal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akal하는 상태이다, akal를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akal하는 상태이다, akal를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akal",
+        "meaning": "(어근) akal하는 상태이다"
+      },
+      {
+        "word": "berakal",
+        "meaning": "akal하는 상태이다, akal를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cjitc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakal [[뼝akal]]",
+    "meaning": "akal 수행 주체",
+    "pos": "명사",
+    "root": "akal",
+    "affix_logic": "어근 'akal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akal'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akal",
+    "antonym": "bukan akal",
+    "context": "'pengakal'은(는) principalmente 'akal 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akal'의 용법에 유의하세요. 'pengakal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akal 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akal 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akal",
+        "meaning": "(어근) akal 수행 주체"
+      },
+      {
+        "word": "pengakal",
+        "meaning": "akal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_l534m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakalan [[뼝akal안]]",
+    "meaning": "akal 과정 및 영역",
+    "pos": "명사",
+    "root": "akal",
+    "affix_logic": "어근 'akal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akal'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akal",
+    "antonym": "bukan akal",
+    "context": "'pengakalan'은(는) principalmente 'akal 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akal'의 용법에 유의하세요. 'pengakalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akal 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akal 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akal",
+        "meaning": "(어근) akal 과정 및 영역"
+      },
+      {
+        "word": "pengakalan",
+        "meaning": "akal 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_imuy2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakrab [[버르akrab]]",
+    "meaning": "akrab하는 상태이다, akrab를 행하다",
+    "pos": "동사",
+    "root": "akrab",
+    "affix_logic": "어근 'akrab'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akrab'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akrab",
+    "antonym": "tidak akrab",
+    "context": "'berakrab'은(는) principalmente 'akrab하는 상태이다, akrab를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akrab'의 용법에 유의하세요. 'berakrab' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akrab' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakrab untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akrab하는 상태이다, akrab를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakrab yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akrab하는 상태이다, akrab를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akrab",
+        "meaning": "(어근) akrab하는 상태이다"
+      },
+      {
+        "word": "berakrab",
+        "meaning": "akrab하는 상태이다, akrab를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_h28ff",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakrab [[뼝akrab]]",
+    "meaning": "akrab 수행 주체",
+    "pos": "명사",
+    "root": "akrab",
+    "affix_logic": "어근 'akrab'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akrab'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akrab",
+    "antonym": "bukan akrab",
+    "context": "'pengakrab'은(는) principalmente 'akrab 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akrab'의 용법에 유의하세요. 'pengakrab' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akrab' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakrab untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akrab 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakrab yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akrab 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akrab",
+        "meaning": "(어근) akrab 수행 주체"
+      },
+      {
+        "word": "pengakrab",
+        "meaning": "akrab 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_l2vis",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakraban [[뼝akrab안]]",
+    "meaning": "akrab 과정 및 영역",
+    "pos": "명사",
+    "root": "akrab",
+    "affix_logic": "어근 'akrab'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akrab'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akrab",
+    "antonym": "bukan akrab",
+    "context": "'pengakraban'은(는) principalmente 'akrab 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akrab'의 용법에 유의하세요. 'pengakraban' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akrab' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakraban untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akrab 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakraban yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akrab 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akrab",
+        "meaning": "(어근) akrab 과정 및 영역"
+      },
+      {
+        "word": "pengakraban",
+        "meaning": "akrab 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_entf8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraksesibilitas [[버르aksesibilitas]]",
+    "meaning": "aksesibilitas하는 상태이다, aksesibilitas를 행하다",
+    "pos": "동사",
+    "root": "aksesibilitas",
+    "affix_logic": "어근 'aksesibilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksesibilitas'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aksesibilitas",
+    "antonym": "tidak aksesibilitas",
+    "context": "'beraksesibilitas'은(는) principalmente 'aksesibilitas하는 상태이다, aksesibilitas를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesibilitas'의 용법에 유의하세요. 'beraksesibilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesibilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraksesibilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesibilitas하는 상태이다, aksesibilitas를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraksesibilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesibilitas하는 상태이다, aksesibilitas를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesibilitas",
+        "meaning": "(어근) aksesibilitas하는 상태이다"
+      },
+      {
+        "word": "beraksesibilitas",
+        "meaning": "aksesibilitas하는 상태이다, aksesibilitas를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_a3osc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksesibilitas [[뼝aksesibilitas]]",
+    "meaning": "aksesibilitas 수행 주체",
+    "pos": "명사",
+    "root": "aksesibilitas",
+    "affix_logic": "어근 'aksesibilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aksesibilitas'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aksesibilitas",
+    "antonym": "bukan aksesibilitas",
+    "context": "'pengaksesibilitas'은(는) principalmente 'aksesibilitas 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesibilitas'의 용법에 유의하세요. 'pengaksesibilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesibilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaksesibilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesibilitas 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaksesibilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesibilitas 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesibilitas",
+        "meaning": "(어근) aksesibilitas 수행 주체"
+      },
+      {
+        "word": "pengaksesibilitas",
+        "meaning": "aksesibilitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_p7j0z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksesibilitasan [[뼝aksesibilitas안]]",
+    "meaning": "aksesibilitas 과정 및 영역",
+    "pos": "명사",
+    "root": "aksesibilitas",
+    "affix_logic": "어근 'aksesibilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aksesibilitas'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aksesibilitas",
+    "antonym": "bukan aksesibilitas",
+    "context": "'pengaksesibilitasan'은(는) principalmente 'aksesibilitas 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesibilitas'의 용법에 유의하세요. 'pengaksesibilitasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesibilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaksesibilitasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesibilitas 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaksesibilitasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesibilitas 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesibilitas",
+        "meaning": "(어근) aksesibilitas 과정 및 영역"
+      },
+      {
+        "word": "pengaksesibilitasan",
+        "meaning": "aksesibilitas 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_h1j64",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraksesoris [[버르aksesoris]]",
+    "meaning": "aksesoris하는 상태이다, aksesoris를 행하다",
+    "pos": "동사",
+    "root": "aksesoris",
+    "affix_logic": "어근 'aksesoris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksesoris'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aksesoris",
+    "antonym": "tidak aksesoris",
+    "context": "'beraksesoris'은(는) principalmente 'aksesoris하는 상태이다, aksesoris를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesoris'의 용법에 유의하세요. 'beraksesoris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesoris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraksesoris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesoris하는 상태이다, aksesoris를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraksesoris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesoris하는 상태이다, aksesoris를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesoris",
+        "meaning": "(어근) aksesoris하는 상태이다"
+      },
+      {
+        "word": "beraksesoris",
+        "meaning": "aksesoris하는 상태이다, aksesoris를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_oshl5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksesoris [[뼝aksesoris]]",
+    "meaning": "aksesoris 수행 주체",
+    "pos": "명사",
+    "root": "aksesoris",
+    "affix_logic": "어근 'aksesoris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aksesoris'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aksesoris",
+    "antonym": "bukan aksesoris",
+    "context": "'pengaksesoris'은(는) principalmente 'aksesoris 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesoris'의 용법에 유의하세요. 'pengaksesoris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesoris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaksesoris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesoris 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaksesoris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesoris 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesoris",
+        "meaning": "(어근) aksesoris 수행 주체"
+      },
+      {
+        "word": "pengaksesoris",
+        "meaning": "aksesoris 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_iedf0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksesorisan [[뼝aksesoris안]]",
+    "meaning": "aksesoris 과정 및 영역",
+    "pos": "명사",
+    "root": "aksesoris",
+    "affix_logic": "어근 'aksesoris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aksesoris'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aksesoris",
+    "antonym": "bukan aksesoris",
+    "context": "'pengaksesorisan'은(는) principalmente 'aksesoris 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesoris'의 용법에 유의하세요. 'pengaksesorisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesoris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaksesorisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesoris 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaksesorisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesoris 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesoris",
+        "meaning": "(어근) aksesoris 과정 및 영역"
+      },
+      {
+        "word": "pengaksesorisan",
+        "meaning": "aksesoris 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_tzvgn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraksi [[버르aksi]]",
+    "meaning": "aksi하는 상태이다, aksi를 행하다",
+    "pos": "동사",
+    "root": "aksi",
+    "affix_logic": "어근 'aksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aksi",
+    "antonym": "tidak aksi",
+    "context": "'beraksi'은(는) principalmente 'aksi하는 상태이다, aksi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksi'의 용법에 유의하세요. 'beraksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksi하는 상태이다, aksi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksi하는 상태이다, aksi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksi",
+        "meaning": "(어근) aksi하는 상태이다"
+      },
+      {
+        "word": "beraksi",
+        "meaning": "aksi하는 상태이다, aksi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fzixd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksi [[뼝aksi]]",
+    "meaning": "aksi 수행 주체",
+    "pos": "명사",
+    "root": "aksi",
+    "affix_logic": "어근 'aksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aksi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aksi",
+    "antonym": "bukan aksi",
+    "context": "'pengaksi'은(는) principalmente 'aksi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksi'의 용법에 유의하세요. 'pengaksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksi",
+        "meaning": "(어근) aksi 수행 주체"
+      },
+      {
+        "word": "pengaksi",
+        "meaning": "aksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_56k7p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksian [[뼝aksi안]]",
+    "meaning": "aksi 과정 및 영역",
+    "pos": "명사",
+    "root": "aksi",
+    "affix_logic": "어근 'aksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aksi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aksi",
+    "antonym": "bukan aksi",
+    "context": "'pengaksian'은(는) principalmente 'aksi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksi'의 용법에 유의하세요. 'pengaksian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaksian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaksian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksi",
+        "meaning": "(어근) aksi 과정 및 영역"
+      },
+      {
+        "word": "pengaksian",
+        "meaning": "aksi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yr7fu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraktiva [[버르aktiva]]",
+    "meaning": "aktiva하는 상태이다, aktiva를 행하다",
+    "pos": "동사",
+    "root": "aktiva",
+    "affix_logic": "어근 'aktiva'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aktiva'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aktiva",
+    "antonym": "tidak aktiva",
+    "context": "'beraktiva'은(는) principalmente 'aktiva하는 상태이다, aktiva를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktiva'의 용법에 유의하세요. 'beraktiva' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktiva' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraktiva untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktiva하는 상태이다, aktiva를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraktiva yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktiva하는 상태이다, aktiva를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktiva",
+        "meaning": "(어근) aktiva하는 상태이다"
+      },
+      {
+        "word": "beraktiva",
+        "meaning": "aktiva하는 상태이다, aktiva를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_nknhp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaktiva [[뼝aktiva]]",
+    "meaning": "aktiva 수행 주체",
+    "pos": "명사",
+    "root": "aktiva",
+    "affix_logic": "어근 'aktiva'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aktiva'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aktiva",
+    "antonym": "bukan aktiva",
+    "context": "'pengaktiva'은(는) principalmente 'aktiva 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktiva'의 용법에 유의하세요. 'pengaktiva' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktiva' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaktiva untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktiva 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaktiva yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktiva 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktiva",
+        "meaning": "(어근) aktiva 수행 주체"
+      },
+      {
+        "word": "pengaktiva",
+        "meaning": "aktiva 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_gor8l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaktivaan [[뼝aktiva안]]",
+    "meaning": "aktiva 과정 및 영역",
+    "pos": "명사",
+    "root": "aktiva",
+    "affix_logic": "어근 'aktiva'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aktiva'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aktiva",
+    "antonym": "bukan aktiva",
+    "context": "'pengaktivaan'은(는) principalmente 'aktiva 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktiva'의 용법에 유의하세요. 'pengaktivaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktiva' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaktivaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktiva 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaktivaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktiva 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktiva",
+        "meaning": "(어근) aktiva 과정 및 영역"
+      },
+      {
+        "word": "pengaktivaan",
+        "meaning": "aktiva 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_h5gti",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakuarium [[버르akuarium]]",
+    "meaning": "akuarium하는 상태이다, akuarium를 행하다",
+    "pos": "동사",
+    "root": "akuarium",
+    "affix_logic": "어근 'akuarium'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akuarium'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akuarium",
+    "antonym": "tidak akuarium",
+    "context": "'berakuarium'은(는) principalmente 'akuarium하는 상태이다, akuarium를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuarium'의 용법에 유의하세요. 'berakuarium' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuarium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakuarium untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuarium하는 상태이다, akuarium를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakuarium yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuarium하는 상태이다, akuarium를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuarium",
+        "meaning": "(어근) akuarium하는 상태이다"
+      },
+      {
+        "word": "berakuarium",
+        "meaning": "akuarium하는 상태이다, akuarium를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ud2aw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakuarium [[뼝akuarium]]",
+    "meaning": "akuarium 수행 주체",
+    "pos": "명사",
+    "root": "akuarium",
+    "affix_logic": "어근 'akuarium'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akuarium'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akuarium",
+    "antonym": "bukan akuarium",
+    "context": "'pengakuarium'은(는) principalmente 'akuarium 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuarium'의 용법에 유의하세요. 'pengakuarium' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuarium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakuarium untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuarium 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakuarium yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuarium 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuarium",
+        "meaning": "(어근) akuarium 수행 주체"
+      },
+      {
+        "word": "pengakuarium",
+        "meaning": "akuarium 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ewfae",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakuariuman [[뼝akuarium안]]",
+    "meaning": "akuarium 과정 및 영역",
+    "pos": "명사",
+    "root": "akuarium",
+    "affix_logic": "어근 'akuarium'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akuarium'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akuarium",
+    "antonym": "bukan akuarium",
+    "context": "'pengakuariuman'은(는) principalmente 'akuarium 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuarium'의 용법에 유의하세요. 'pengakuariuman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuarium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakuariuman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuarium 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakuariuman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuarium 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuarium",
+        "meaning": "(어근) akuarium 과정 및 영역"
+      },
+      {
+        "word": "pengakuariuman",
+        "meaning": "akuarium 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_opr8l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralam [[버르alam]]",
+    "meaning": "alam하는 상태이다, alam를 행하다",
+    "pos": "동사",
+    "root": "alam",
+    "affix_logic": "어근 'alam'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alam'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan alam",
+    "antonym": "tidak alam",
+    "context": "'beralam'은(는) principalmente 'alam하는 상태이다, alam를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alam'의 용법에 유의하세요. 'beralam' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beralam untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alam하는 상태이다, alam를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beralam yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alam하는 상태이다, alam를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alam",
+        "meaning": "(어근) alam하는 상태이다"
+      },
+      {
+        "word": "beralam",
+        "meaning": "alam하는 상태이다, alam를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mq6mv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalam [[뼝alam]]",
+    "meaning": "alam 수행 주체",
+    "pos": "명사",
+    "root": "alam",
+    "affix_logic": "어근 'alam'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alam'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak alam",
+    "antonym": "bukan alam",
+    "context": "'pengalam'은(는) principalmente 'alam 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alam'의 용법에 유의하세요. 'pengalam' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalam untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alam 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalam yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alam 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alam",
+        "meaning": "(어근) alam 수행 주체"
+      },
+      {
+        "word": "pengalam",
+        "meaning": "alam 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_pz1en",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalaman [[뼝alam안]]",
+    "meaning": "alam 과정 및 영역",
+    "pos": "명사",
+    "root": "alam",
+    "affix_logic": "어근 'alam'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alam'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses alam",
+    "antonym": "bukan alam",
+    "context": "'pengalaman'은(는) principalmente 'alam 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alam'의 용법에 유의하세요. 'pengalaman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalaman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alam 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalaman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alam 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alam",
+        "meaning": "(어근) alam 과정 및 영역"
+      },
+      {
+        "word": "pengalaman",
+        "meaning": "alam 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_spsdh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralamat [[버르alamat]]",
+    "meaning": "alamat하는 상태이다, alamat를 행하다",
+    "pos": "동사",
+    "root": "alamat",
+    "affix_logic": "어근 'alamat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alamat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan alamat",
+    "antonym": "tidak alamat",
+    "context": "'beralamat'은(는) principalmente 'alamat하는 상태이다, alamat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alamat'의 용법에 유의하세요. 'beralamat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alamat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beralamat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alamat하는 상태이다, alamat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beralamat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alamat하는 상태이다, alamat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alamat",
+        "meaning": "(어근) alamat하는 상태이다"
+      },
+      {
+        "word": "beralamat",
+        "meaning": "alamat하는 상태이다, alamat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_czaon",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalamat [[뼝alamat]]",
+    "meaning": "alamat 수행 주체",
+    "pos": "명사",
+    "root": "alamat",
+    "affix_logic": "어근 'alamat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alamat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak alamat",
+    "antonym": "bukan alamat",
+    "context": "'pengalamat'은(는) principalmente 'alamat 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alamat'의 용법에 유의하세요. 'pengalamat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alamat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalamat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alamat 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalamat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alamat 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alamat",
+        "meaning": "(어근) alamat 수행 주체"
+      },
+      {
+        "word": "pengalamat",
+        "meaning": "alamat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_q8qi0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalamatan [[뼝alamat안]]",
+    "meaning": "alamat 과정 및 영역",
+    "pos": "명사",
+    "root": "alamat",
+    "affix_logic": "어근 'alamat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alamat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses alamat",
+    "antonym": "bukan alamat",
+    "context": "'pengalamatan'은(는) principalmente 'alamat 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alamat'의 용법에 유의하세요. 'pengalamatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alamat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalamatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alamat 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalamatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alamat 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alamat",
+        "meaning": "(어근) alamat 과정 및 영역"
+      },
+      {
+        "word": "pengalamatan",
+        "meaning": "alamat 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_85ubo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralat [[버르alat]]",
+    "meaning": "alat하는 상태이다, alat를 행하다",
+    "pos": "동사",
+    "root": "alat",
+    "affix_logic": "어근 'alat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan alat",
+    "antonym": "tidak alat",
+    "context": "'beralat'은(는) principalmente 'alat하는 상태이다, alat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alat'의 용법에 유의하세요. 'beralat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beralat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alat하는 상태이다, alat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beralat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alat하는 상태이다, alat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alat",
+        "meaning": "(어근) alat하는 상태이다"
+      },
+      {
+        "word": "beralat",
+        "meaning": "alat하는 상태이다, alat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wukgz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalat [[뼝alat]]",
+    "meaning": "alat 수행 주체",
+    "pos": "명사",
+    "root": "alat",
+    "affix_logic": "어근 'alat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak alat",
+    "antonym": "bukan alat",
+    "context": "'pengalat'은(는) principalmente 'alat 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alat'의 용법에 유의하세요. 'pengalat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alat 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alat 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alat",
+        "meaning": "(어근) alat 수행 주체"
+      },
+      {
+        "word": "pengalat",
+        "meaning": "alat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_qe6f6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalatan [[뼝alat안]]",
+    "meaning": "alat 과정 및 영역",
+    "pos": "명사",
+    "root": "alat",
+    "affix_logic": "어근 'alat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses alat",
+    "antonym": "bukan alat",
+    "context": "'pengalatan'은(는) principalmente 'alat 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alat'의 용법에 유의하세요. 'pengalatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alat 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alat 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alat",
+        "meaning": "(어근) alat 과정 및 영역"
+      },
+      {
+        "word": "pengalatan",
+        "meaning": "alat 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_oui2h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralbum [[버르album]]",
+    "meaning": "album하는 상태이다, album를 행하다",
+    "pos": "동사",
+    "root": "album",
+    "affix_logic": "어근 'album'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'album'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan album",
+    "antonym": "tidak album",
+    "context": "'beralbum'은(는) principalmente 'album하는 상태이다, album를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'album'의 용법에 유의하세요. 'beralbum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'album' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beralbum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 album하는 상태이다, album를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beralbum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 album하는 상태이다, album를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "album",
+        "meaning": "(어근) album하는 상태이다"
+      },
+      {
+        "word": "beralbum",
+        "meaning": "album하는 상태이다, album를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_giylc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalbum [[뼝album]]",
+    "meaning": "album 수행 주체",
+    "pos": "명사",
+    "root": "album",
+    "affix_logic": "어근 'album'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'album'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak album",
+    "antonym": "bukan album",
+    "context": "'pengalbum'은(는) principalmente 'album 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'album'의 용법에 유의하세요. 'pengalbum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'album' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalbum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 album 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalbum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 album 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "album",
+        "meaning": "(어근) album 수행 주체"
+      },
+      {
+        "word": "pengalbum",
+        "meaning": "album 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yaj0h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalbuman [[뼝album안]]",
+    "meaning": "album 과정 및 영역",
+    "pos": "명사",
+    "root": "album",
+    "affix_logic": "어근 'album'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'album'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses album",
+    "antonym": "bukan album",
+    "context": "'pengalbuman'은(는) principalmente 'album 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'album'의 용법에 유의하세요. 'pengalbuman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'album' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalbuman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 album 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalbuman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 album 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "album",
+        "meaning": "(어근) album 과정 및 영역"
+      },
+      {
+        "word": "pengalbuman",
+        "meaning": "album 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_gzjhi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralasan [[버르alasan]]",
+    "meaning": "alasan하는 상태이다, alasan를 행하다",
+    "pos": "동사",
+    "root": "alasan",
+    "affix_logic": "어근 'alasan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alasan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan alasan",
+    "antonym": "tidak alasan",
+    "context": "'beralasan'은(는) principalmente 'alasan하는 상태이다, alasan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alasan'의 용법에 유의하세요. 'beralasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beralasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alasan하는 상태이다, alasan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beralasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alasan하는 상태이다, alasan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alasan",
+        "meaning": "(어근) alasan하는 상태이다"
+      },
+      {
+        "word": "beralasan",
+        "meaning": "alasan하는 상태이다, alasan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_m10ms",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalasan [[뼝alasan]]",
+    "meaning": "alasan 수행 주체",
+    "pos": "명사",
+    "root": "alasan",
+    "affix_logic": "어근 'alasan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alasan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak alasan",
+    "antonym": "bukan alasan",
+    "context": "'pengalasan'은(는) principalmente 'alasan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alasan'의 용법에 유의하세요. 'pengalasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alasan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alasan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alasan",
+        "meaning": "(어근) alasan 수행 주체"
+      },
+      {
+        "word": "pengalasan",
+        "meaning": "alasan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_an8ut",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalasanan [[뼝alasan안]]",
+    "meaning": "alasan 과정 및 영역",
+    "pos": "명사",
+    "root": "alasan",
+    "affix_logic": "어근 'alasan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alasan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses alasan",
+    "antonym": "bukan alasan",
+    "context": "'pengalasanan'은(는) principalmente 'alasan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alasan'의 용법에 유의하세요. 'pengalasanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalasanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alasan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalasanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alasan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alasan",
+        "meaning": "(어근) alasan 과정 및 영역"
+      },
+      {
+        "word": "pengalasanan",
+        "meaning": "alasan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_bv910",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraliansi [[버르aliansi]]",
+    "meaning": "aliansi하는 상태이다, aliansi를 행하다",
+    "pos": "동사",
+    "root": "aliansi",
+    "affix_logic": "어근 'aliansi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aliansi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aliansi",
+    "antonym": "tidak aliansi",
+    "context": "'beraliansi'은(는) principalmente 'aliansi하는 상태이다, aliansi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliansi'의 용법에 유의하세요. 'beraliansi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliansi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraliansi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliansi하는 상태이다, aliansi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraliansi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliansi하는 상태이다, aliansi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliansi",
+        "meaning": "(어근) aliansi하는 상태이다"
+      },
+      {
+        "word": "beraliansi",
+        "meaning": "aliansi하는 상태이다, aliansi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_y8xjk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaliansi [[뼝aliansi]]",
+    "meaning": "aliansi 수행 주체",
+    "pos": "명사",
+    "root": "aliansi",
+    "affix_logic": "어근 'aliansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aliansi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aliansi",
+    "antonym": "bukan aliansi",
+    "context": "'pengaliansi'은(는) principalmente 'aliansi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliansi'의 용법에 유의하세요. 'pengaliansi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliansi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaliansi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliansi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaliansi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliansi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliansi",
+        "meaning": "(어근) aliansi 수행 주체"
+      },
+      {
+        "word": "pengaliansi",
+        "meaning": "aliansi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cy8ui",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaliansian [[뼝aliansi안]]",
+    "meaning": "aliansi 과정 및 영역",
+    "pos": "명사",
+    "root": "aliansi",
+    "affix_logic": "어근 'aliansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aliansi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aliansi",
+    "antonym": "bukan aliansi",
+    "context": "'pengaliansian'은(는) principalmente 'aliansi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliansi'의 용법에 유의하세요. 'pengaliansian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliansi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaliansian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliansi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaliansian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliansi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliansi",
+        "meaning": "(어근) aliansi 과정 및 영역"
+      },
+      {
+        "word": "pengaliansian",
+        "meaning": "aliansi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ooef0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralih [[버르alih]]",
+    "meaning": "alih하는 상태이다, alih를 행하다",
+    "pos": "동사",
+    "root": "alih",
+    "affix_logic": "어근 'alih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alih'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan alih",
+    "antonym": "tidak alih",
+    "context": "'beralih'은(는) principalmente 'alih하는 상태이다, alih를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alih'의 용법에 유의하세요. 'beralih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beralih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alih하는 상태이다, alih를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beralih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alih하는 상태이다, alih를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alih",
+        "meaning": "(어근) alih하는 상태이다"
+      },
+      {
+        "word": "beralih",
+        "meaning": "alih하는 상태이다, alih를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_irkjk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalih [[뼝alih]]",
+    "meaning": "alih 수행 주체",
+    "pos": "명사",
+    "root": "alih",
+    "affix_logic": "어근 'alih'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alih'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak alih",
+    "antonym": "bukan alih",
+    "context": "'pengalih'은(는) principalmente 'alih 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alih'의 용법에 유의하세요. 'pengalih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alih 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alih 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alih",
+        "meaning": "(어근) alih 수행 주체"
+      },
+      {
+        "word": "pengalih",
+        "meaning": "alih 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_biutl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalihan [[뼝alih안]]",
+    "meaning": "alih 과정 및 영역",
+    "pos": "명사",
+    "root": "alih",
+    "affix_logic": "어근 'alih'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alih'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses alih",
+    "antonym": "bukan alih",
+    "context": "'pengalihan'은(는) principalmente 'alih 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alih'의 용법에 유의하세요. 'pengalihan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalihan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alih 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalihan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alih 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alih",
+        "meaning": "(어근) alih 과정 및 영역"
+      },
+      {
+        "word": "pengalihan",
+        "meaning": "alih 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_orm0k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraliran [[버르aliran]]",
+    "meaning": "aliran하는 상태이다, aliran를 행하다",
+    "pos": "동사",
+    "root": "aliran",
+    "affix_logic": "어근 'aliran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aliran'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aliran",
+    "antonym": "tidak aliran",
+    "context": "'beraliran'은(는) principalmente 'aliran하는 상태이다, aliran를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliran'의 용법에 유의하세요. 'beraliran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraliran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliran하는 상태이다, aliran를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraliran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliran하는 상태이다, aliran를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliran",
+        "meaning": "(어근) aliran하는 상태이다"
+      },
+      {
+        "word": "beraliran",
+        "meaning": "aliran하는 상태이다, aliran를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5chvi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaliran [[뼝aliran]]",
+    "meaning": "aliran 수행 주체",
+    "pos": "명사",
+    "root": "aliran",
+    "affix_logic": "어근 'aliran'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aliran'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak aliran",
+    "antonym": "bukan aliran",
+    "context": "'pengaliran'은(는) principalmente 'aliran 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliran'의 용법에 유의하세요. 'pengaliran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaliran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliran 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaliran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliran 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliran",
+        "meaning": "(어근) aliran 수행 주체"
+      },
+      {
+        "word": "pengaliran",
+        "meaning": "aliran 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5xl9n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaliranan [[뼝aliran안]]",
+    "meaning": "aliran 과정 및 영역",
+    "pos": "명사",
+    "root": "aliran",
+    "affix_logic": "어근 'aliran'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aliran'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aliran",
+    "antonym": "bukan aliran",
+    "context": "'pengaliranan'은(는) principalmente 'aliran 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliran'의 용법에 유의하세요. 'pengaliranan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaliranan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliran 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaliranan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliran 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliran",
+        "meaning": "(어근) aliran 과정 및 영역"
+      },
+      {
+        "word": "pengaliranan",
+        "meaning": "aliran 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8nu3g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beramater [[버르amater]]",
+    "meaning": "amater하는 상태이다, amater를 행하다",
+    "pos": "동사",
+    "root": "amater",
+    "affix_logic": "어근 'amater'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amater'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan amater",
+    "antonym": "tidak amater",
+    "context": "'beramater'은(는) principalmente 'amater하는 상태이다, amater를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amater'의 용법에 유의하세요. 'beramater' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beramater untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amater하는 상태이다, amater를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beramater yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amater하는 상태이다, amater를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amater",
+        "meaning": "(어근) amater하는 상태이다"
+      },
+      {
+        "word": "beramater",
+        "meaning": "amater하는 상태이다, amater를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_xgdxk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamater [[뼝amater]]",
+    "meaning": "amater 수행 주체",
+    "pos": "명사",
+    "root": "amater",
+    "affix_logic": "어근 'amater'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amater'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak amater",
+    "antonym": "bukan amater",
+    "context": "'pengamater'은(는) principalmente 'amater 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amater'의 용법에 유의하세요. 'pengamater' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamater untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amater 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamater yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amater 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amater",
+        "meaning": "(어근) amater 수행 주체"
+      },
+      {
+        "word": "pengamater",
+        "meaning": "amater 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_xgz4g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamateran [[뼝amater안]]",
+    "meaning": "amater 과정 및 영역",
+    "pos": "명사",
+    "root": "amater",
+    "affix_logic": "어근 'amater'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amater'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses amater",
+    "antonym": "bukan amater",
+    "context": "'pengamateran'은(는) principalmente 'amater 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amater'의 용법에 유의하세요. 'pengamateran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamateran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amater 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamateran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amater 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amater",
+        "meaning": "(어근) amater 과정 및 영역"
+      },
+      {
+        "word": "pengamateran",
+        "meaning": "amater 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8o0wj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berambisi [[버르ambisi]]",
+    "meaning": "ambisi하는 상태이다, ambisi를 행하다",
+    "pos": "동사",
+    "root": "ambisi",
+    "affix_logic": "어근 'ambisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ambisi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ambisi",
+    "antonym": "tidak ambisi",
+    "context": "'berambisi'은(는) principalmente 'ambisi하는 상태이다, ambisi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisi'의 용법에 유의하세요. 'berambisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berambisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisi하는 상태이다, ambisi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berambisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisi하는 상태이다, ambisi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisi",
+        "meaning": "(어근) ambisi하는 상태이다"
+      },
+      {
+        "word": "berambisi",
+        "meaning": "ambisi하는 상태이다, ambisi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_hpe6t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambisi [[뼝ambisi]]",
+    "meaning": "ambisi 수행 주체",
+    "pos": "명사",
+    "root": "ambisi",
+    "affix_logic": "어근 'ambisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ambisi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ambisi",
+    "antonym": "bukan ambisi",
+    "context": "'pengambisi'은(는) principalmente 'ambisi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisi'의 용법에 유의하세요. 'pengambisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengambisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengambisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisi",
+        "meaning": "(어근) ambisi 수행 주체"
+      },
+      {
+        "word": "pengambisi",
+        "meaning": "ambisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8wik8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambisian [[뼝ambisi안]]",
+    "meaning": "ambisi 과정 및 영역",
+    "pos": "명사",
+    "root": "ambisi",
+    "affix_logic": "어근 'ambisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ambisi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ambisi",
+    "antonym": "bukan ambisi",
+    "context": "'pengambisian'은(는) principalmente 'ambisi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisi'의 용법에 유의하세요. 'pengambisian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengambisian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengambisian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisi",
+        "meaning": "(어근) ambisi 과정 및 영역"
+      },
+      {
+        "word": "pengambisian",
+        "meaning": "ambisi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0zd3c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beramenitas [[버르amenitas]]",
+    "meaning": "amenitas하는 상태이다, amenitas를 행하다",
+    "pos": "동사",
+    "root": "amenitas",
+    "affix_logic": "어근 'amenitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amenitas'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan amenitas",
+    "antonym": "tidak amenitas",
+    "context": "'beramenitas'은(는) principalmente 'amenitas하는 상태이다, amenitas를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amenitas'의 용법에 유의하세요. 'beramenitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amenitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beramenitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amenitas하는 상태이다, amenitas를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beramenitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amenitas하는 상태이다, amenitas를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amenitas",
+        "meaning": "(어근) amenitas하는 상태이다"
+      },
+      {
+        "word": "beramenitas",
+        "meaning": "amenitas하는 상태이다, amenitas를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_md5w9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamenitas [[뼝amenitas]]",
+    "meaning": "amenitas 수행 주체",
+    "pos": "명사",
+    "root": "amenitas",
+    "affix_logic": "어근 'amenitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amenitas'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak amenitas",
+    "antonym": "bukan amenitas",
+    "context": "'pengamenitas'은(는) principalmente 'amenitas 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amenitas'의 용법에 유의하세요. 'pengamenitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amenitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamenitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amenitas 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamenitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amenitas 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amenitas",
+        "meaning": "(어근) amenitas 수행 주체"
+      },
+      {
+        "word": "pengamenitas",
+        "meaning": "amenitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yqu68",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamenitasan [[뼝amenitas안]]",
+    "meaning": "amenitas 과정 및 영역",
+    "pos": "명사",
+    "root": "amenitas",
+    "affix_logic": "어근 'amenitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amenitas'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses amenitas",
+    "antonym": "bukan amenitas",
+    "context": "'pengamenitasan'은(는) principalmente 'amenitas 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amenitas'의 용법에 유의하세요. 'pengamenitasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amenitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamenitasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amenitas 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamenitasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amenitas 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amenitas",
+        "meaning": "(어근) amenitas 과정 및 영역"
+      },
+      {
+        "word": "pengamenitasan",
+        "meaning": "amenitas 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_o584x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beramunisi [[버르amunisi]]",
+    "meaning": "amunisi하는 상태이다, amunisi를 행하다",
+    "pos": "동사",
+    "root": "amunisi",
+    "affix_logic": "어근 'amunisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amunisi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan amunisi",
+    "antonym": "tidak amunisi",
+    "context": "'beramunisi'은(는) principalmente 'amunisi하는 상태이다, amunisi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amunisi'의 용법에 유의하세요. 'beramunisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amunisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beramunisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amunisi하는 상태이다, amunisi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beramunisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amunisi하는 상태이다, amunisi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amunisi",
+        "meaning": "(어근) amunisi하는 상태이다"
+      },
+      {
+        "word": "beramunisi",
+        "meaning": "amunisi하는 상태이다, amunisi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cvfhz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamunisi [[뼝amunisi]]",
+    "meaning": "amunisi 수행 주체",
+    "pos": "명사",
+    "root": "amunisi",
+    "affix_logic": "어근 'amunisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amunisi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak amunisi",
+    "antonym": "bukan amunisi",
+    "context": "'pengamunisi'은(는) principalmente 'amunisi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amunisi'의 용법에 유의하세요. 'pengamunisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amunisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamunisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amunisi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamunisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amunisi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amunisi",
+        "meaning": "(어근) amunisi 수행 주체"
+      },
+      {
+        "word": "pengamunisi",
+        "meaning": "amunisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2mqhr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamunisian [[뼝amunisi안]]",
+    "meaning": "amunisi 과정 및 영역",
+    "pos": "명사",
+    "root": "amunisi",
+    "affix_logic": "어근 'amunisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amunisi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses amunisi",
+    "antonym": "bukan amunisi",
+    "context": "'pengamunisian'은(는) principalmente 'amunisi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amunisi'의 용법에 유의하세요. 'pengamunisian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amunisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamunisian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amunisi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamunisian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amunisi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amunisi",
+        "meaning": "(어근) amunisi 과정 및 영역"
+      },
+      {
+        "word": "pengamunisian",
+        "meaning": "amunisi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mz8nl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranalis [[버르analis]]",
+    "meaning": "analis하는 상태이다, analis를 행하다",
+    "pos": "동사",
+    "root": "analis",
+    "affix_logic": "어근 'analis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'analis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan analis",
+    "antonym": "tidak analis",
+    "context": "'beranalis'은(는) principalmente 'analis하는 상태이다, analis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analis'의 용법에 유의하세요. 'beranalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analis하는 상태이다, analis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analis하는 상태이다, analis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analis",
+        "meaning": "(어근) analis하는 상태이다"
+      },
+      {
+        "word": "beranalis",
+        "meaning": "analis하는 상태이다, analis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_r25j4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalis [[뼝analis]]",
+    "meaning": "analis 수행 주체",
+    "pos": "명사",
+    "root": "analis",
+    "affix_logic": "어근 'analis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'analis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak analis",
+    "antonym": "bukan analis",
+    "context": "'penganalis'은(는) principalmente 'analis 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analis'의 용법에 유의하세요. 'penganalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analis 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analis 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analis",
+        "meaning": "(어근) analis 수행 주체"
+      },
+      {
+        "word": "penganalis",
+        "meaning": "analis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ub77i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalisan [[뼝analis안]]",
+    "meaning": "analis 과정 및 영역",
+    "pos": "명사",
+    "root": "analis",
+    "affix_logic": "어근 'analis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'analis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses analis",
+    "antonym": "bukan analis",
+    "context": "'penganalisan'은(는) principalmente 'analis 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analis'의 용법에 유의하세요. 'penganalisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganalisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analis 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganalisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analis 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analis",
+        "meaning": "(어근) analis 과정 및 영역"
+      },
+      {
+        "word": "penganalisan",
+        "meaning": "analis 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_thbyq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berangan [[버르angan]]",
+    "meaning": "angan하는 상태이다, angan를 행하다",
+    "pos": "동사",
+    "root": "angan",
+    "affix_logic": "어근 'angan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan angan",
+    "antonym": "tidak angan",
+    "context": "'berangan'은(는) principalmente 'angan하는 상태이다, angan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angan'의 용법에 유의하세요. 'berangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angan하는 상태이다, angan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angan하는 상태이다, angan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angan",
+        "meaning": "(어근) angan하는 상태이다"
+      },
+      {
+        "word": "berangan",
+        "meaning": "angan하는 상태이다, angan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yrydw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengangan [[뼝angan]]",
+    "meaning": "angan 수행 주체",
+    "pos": "명사",
+    "root": "angan",
+    "affix_logic": "어근 'angan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak angan",
+    "antonym": "bukan angan",
+    "context": "'pengangan'은(는) principalmente 'angan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angan'의 용법에 유의하세요. 'pengangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angan",
+        "meaning": "(어근) angan 수행 주체"
+      },
+      {
+        "word": "pengangan",
+        "meaning": "angan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8wce4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganganan [[뼝angan안]]",
+    "meaning": "angan 과정 및 영역",
+    "pos": "명사",
+    "root": "angan",
+    "affix_logic": "어근 'angan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses angan",
+    "antonym": "bukan angan",
+    "context": "'penganganan'은(는) principalmente 'angan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angan'의 용법에 유의하세요. 'penganganan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganganan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganganan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angan",
+        "meaning": "(어근) angan 과정 및 영역"
+      },
+      {
+        "word": "penganganan",
+        "meaning": "angan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_vr3b4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranggota [[버르anggota]]",
+    "meaning": "anggota하는 상태이다, anggota를 행하다",
+    "pos": "동사",
+    "root": "anggota",
+    "affix_logic": "어근 'anggota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anggota'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anggota",
+    "antonym": "tidak anggota",
+    "context": "'beranggota'은(는) principalmente 'anggota하는 상태이다, anggota를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggota'의 용법에 유의하세요. 'beranggota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranggota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggota하는 상태이다, anggota를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranggota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggota하는 상태이다, anggota를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggota",
+        "meaning": "(어근) anggota하는 상태이다"
+      },
+      {
+        "word": "beranggota",
+        "meaning": "anggota하는 상태이다, anggota를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_7it5u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganggota [[뼝anggota]]",
+    "meaning": "anggota 수행 주체",
+    "pos": "명사",
+    "root": "anggota",
+    "affix_logic": "어근 'anggota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anggota'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak anggota",
+    "antonym": "bukan anggota",
+    "context": "'penganggota'은(는) principalmente 'anggota 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggota'의 용법에 유의하세요. 'penganggota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganggota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggota 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganggota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggota 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggota",
+        "meaning": "(어근) anggota 수행 주체"
+      },
+      {
+        "word": "penganggota",
+        "meaning": "anggota 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_eyh9h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganggotaan [[뼝anggota안]]",
+    "meaning": "anggota 과정 및 영역",
+    "pos": "명사",
+    "root": "anggota",
+    "affix_logic": "어근 'anggota'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anggota'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anggota",
+    "antonym": "bukan anggota",
+    "context": "'penganggotaan'은(는) principalmente 'anggota 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggota'의 용법에 유의하세요. 'penganggotaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganggotaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggota 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganggotaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggota 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggota",
+        "meaning": "(어근) anggota 과정 및 영역"
+      },
+      {
+        "word": "penganggotaan",
+        "meaning": "anggota 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_25k98",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranggun [[버르anggun]]",
+    "meaning": "anggun하는 상태이다, anggun를 행하다",
+    "pos": "동사",
+    "root": "anggun",
+    "affix_logic": "어근 'anggun'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anggun'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anggun",
+    "antonym": "tidak anggun",
+    "context": "'beranggun'은(는) principalmente 'anggun하는 상태이다, anggun를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggun'의 용법에 유의하세요. 'beranggun' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggun' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranggun untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggun하는 상태이다, anggun를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranggun yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggun하는 상태이다, anggun를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggun",
+        "meaning": "(어근) anggun하는 상태이다"
+      },
+      {
+        "word": "beranggun",
+        "meaning": "anggun하는 상태이다, anggun를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_g104b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganggun [[뼝anggun]]",
+    "meaning": "anggun 수행 주체",
+    "pos": "명사",
+    "root": "anggun",
+    "affix_logic": "어근 'anggun'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anggun'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak anggun",
+    "antonym": "bukan anggun",
+    "context": "'penganggun'은(는) principalmente 'anggun 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggun'의 용법에 유의하세요. 'penganggun' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggun' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganggun untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggun 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganggun yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggun 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggun",
+        "meaning": "(어근) anggun 수행 주체"
+      },
+      {
+        "word": "penganggun",
+        "meaning": "anggun 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_orl3j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganggunan [[뼝anggun안]]",
+    "meaning": "anggun 과정 및 영역",
+    "pos": "명사",
+    "root": "anggun",
+    "affix_logic": "어근 'anggun'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anggun'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anggun",
+    "antonym": "bukan anggun",
+    "context": "'penganggunan'은(는) principalmente 'anggun 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggun'의 용법에 유의하세요. 'penganggunan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggun' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganggunan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggun 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganggunan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggun 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggun",
+        "meaning": "(어근) anggun 과정 및 영역"
+      },
+      {
+        "word": "penganggunan",
+        "meaning": "anggun 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_zgk41",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berangkasa [[버르angkasa]]",
+    "meaning": "angkasa하는 상태이다, angkasa를 행하다",
+    "pos": "동사",
+    "root": "angkasa",
+    "affix_logic": "어근 'angkasa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angkasa'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan angkasa",
+    "antonym": "tidak angkasa",
+    "context": "'berangkasa'은(는) principalmente 'angkasa하는 상태이다, angkasa를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angkasa'의 용법에 유의하세요. 'berangkasa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angkasa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berangkasa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angkasa하는 상태이다, angkasa를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berangkasa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angkasa하는 상태이다, angkasa를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angkasa",
+        "meaning": "(어근) angkasa하는 상태이다"
+      },
+      {
+        "word": "berangkasa",
+        "meaning": "angkasa하는 상태이다, angkasa를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_1budb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengangkasa [[뼝angkasa]]",
+    "meaning": "angkasa 수행 주체",
+    "pos": "명사",
+    "root": "angkasa",
+    "affix_logic": "어근 'angkasa'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angkasa'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak angkasa",
+    "antonym": "bukan angkasa",
+    "context": "'pengangkasa'은(는) principalmente 'angkasa 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angkasa'의 용법에 유의하세요. 'pengangkasa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angkasa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengangkasa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angkasa 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengangkasa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angkasa 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angkasa",
+        "meaning": "(어근) angkasa 수행 주체"
+      },
+      {
+        "word": "pengangkasa",
+        "meaning": "angkasa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_tcjoy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengangkasaan [[뼝angkasa안]]",
+    "meaning": "angkasa 과정 및 영역",
+    "pos": "명사",
+    "root": "angkasa",
+    "affix_logic": "어근 'angkasa'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angkasa'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses angkasa",
+    "antonym": "bukan angkasa",
+    "context": "'pengangkasaan'은(는) principalmente 'angkasa 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angkasa'의 용법에 유의하세요. 'pengangkasaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angkasa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengangkasaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angkasa 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengangkasaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angkasa 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angkasa",
+        "meaning": "(어근) angkasa 과정 및 영역"
+      },
+      {
+        "word": "pengangkasaan",
+        "meaning": "angkasa 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_hzj31",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berangpao [[버르angpao]]",
+    "meaning": "angpao하는 상태이다, angpao를 행하다",
+    "pos": "동사",
+    "root": "angpao",
+    "affix_logic": "어근 'angpao'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angpao'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan angpao",
+    "antonym": "tidak angpao",
+    "context": "'berangpao'은(는) principalmente 'angpao하는 상태이다, angpao를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angpao'의 용법에 유의하세요. 'berangpao' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angpao' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berangpao untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angpao하는 상태이다, angpao를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berangpao yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angpao하는 상태이다, angpao를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angpao",
+        "meaning": "(어근) angpao하는 상태이다"
+      },
+      {
+        "word": "berangpao",
+        "meaning": "angpao하는 상태이다, angpao를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0gyzq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengangpao [[뼝angpao]]",
+    "meaning": "angpao 수행 주체",
+    "pos": "명사",
+    "root": "angpao",
+    "affix_logic": "어근 'angpao'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angpao'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak angpao",
+    "antonym": "bukan angpao",
+    "context": "'pengangpao'은(는) principalmente 'angpao 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angpao'의 용법에 유의하세요. 'pengangpao' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angpao' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengangpao untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angpao 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengangpao yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angpao 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angpao",
+        "meaning": "(어근) angpao 수행 주체"
+      },
+      {
+        "word": "pengangpao",
+        "meaning": "angpao 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_9phli",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengangpaoan [[뼝angpao안]]",
+    "meaning": "angpao 과정 및 영역",
+    "pos": "명사",
+    "root": "angpao",
+    "affix_logic": "어근 'angpao'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angpao'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses angpao",
+    "antonym": "bukan angpao",
+    "context": "'pengangpaoan'은(는) principalmente 'angpao 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angpao'의 용법에 유의하세요. 'pengangpaoan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angpao' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengangpaoan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angpao 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengangpaoan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angpao 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angpao",
+        "meaning": "(어근) angpao 과정 및 영역"
+      },
+      {
+        "word": "pengangpaoan",
+        "meaning": "angpao 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ozjj2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berangsuran [[버르angsuran]]",
+    "meaning": "angsuran하는 상태이다, angsuran를 행하다",
+    "pos": "동사",
+    "root": "angsuran",
+    "affix_logic": "어근 'angsuran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angsuran'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan angsuran",
+    "antonym": "tidak angsuran",
+    "context": "'berangsuran'은(는) principalmente 'angsuran하는 상태이다, angsuran를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angsuran'의 용법에 유의하세요. 'berangsuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angsuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berangsuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angsuran하는 상태이다, angsuran를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berangsuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angsuran하는 상태이다, angsuran를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angsuran",
+        "meaning": "(어근) angsuran하는 상태이다"
+      },
+      {
+        "word": "berangsuran",
+        "meaning": "angsuran하는 상태이다, angsuran를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_m8e6w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengangsuran [[뼝angsuran]]",
+    "meaning": "angsuran 수행 주체",
+    "pos": "명사",
+    "root": "angsuran",
+    "affix_logic": "어근 'angsuran'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angsuran'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak angsuran",
+    "antonym": "bukan angsuran",
+    "context": "'pengangsuran'은(는) principalmente 'angsuran 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angsuran'의 용법에 유의하세요. 'pengangsuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angsuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengangsuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angsuran 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengangsuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angsuran 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angsuran",
+        "meaning": "(어근) angsuran 수행 주체"
+      },
+      {
+        "word": "pengangsuran",
+        "meaning": "angsuran 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_n0cg2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengangsuranan [[뼝angsuran안]]",
+    "meaning": "angsuran 과정 및 영역",
+    "pos": "명사",
+    "root": "angsuran",
+    "affix_logic": "어근 'angsuran'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'angsuran'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses angsuran",
+    "antonym": "bukan angsuran",
+    "context": "'pengangsuranan'은(는) principalmente 'angsuran 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angsuran'의 용법에 유의하세요. 'pengangsuranan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angsuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengangsuranan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angsuran 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengangsuranan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angsuran 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angsuran",
+        "meaning": "(어근) angsuran 과정 및 영역"
+      },
+      {
+        "word": "pengangsuranan",
+        "meaning": "angsuran 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fd7bh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranimator [[버르animator]]",
+    "meaning": "animator하는 상태이다, animator를 행하다",
+    "pos": "동사",
+    "root": "animator",
+    "affix_logic": "어근 'animator'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'animator'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan animator",
+    "antonym": "tidak animator",
+    "context": "'beranimator'은(는) principalmente 'animator하는 상태이다, animator를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'animator'의 용법에 유의하세요. 'beranimator' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'animator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranimator untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 animator하는 상태이다, animator를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranimator yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 animator하는 상태이다, animator를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "animator",
+        "meaning": "(어근) animator하는 상태이다"
+      },
+      {
+        "word": "beranimator",
+        "meaning": "animator하는 상태이다, animator를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_unbwp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganimator [[뼝animator]]",
+    "meaning": "animator 수행 주체",
+    "pos": "명사",
+    "root": "animator",
+    "affix_logic": "어근 'animator'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'animator'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak animator",
+    "antonym": "bukan animator",
+    "context": "'penganimator'은(는) principalmente 'animator 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'animator'의 용법에 유의하세요. 'penganimator' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'animator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganimator untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 animator 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganimator yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 animator 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "animator",
+        "meaning": "(어근) animator 수행 주체"
+      },
+      {
+        "word": "penganimator",
+        "meaning": "animator 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_d33wp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganimatoran [[뼝animator안]]",
+    "meaning": "animator 과정 및 영역",
+    "pos": "명사",
+    "root": "animator",
+    "affix_logic": "어근 'animator'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'animator'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses animator",
+    "antonym": "bukan animator",
+    "context": "'penganimatoran'은(는) principalmente 'animator 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'animator'의 용법에 유의하세요. 'penganimatoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'animator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganimatoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 animator 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganimatoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 animator 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "animator",
+        "meaning": "(어근) animator 과정 및 영역"
+      },
+      {
+        "word": "penganimatoran",
+        "meaning": "animator 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_h1oqf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranjuran [[버르anjuran]]",
+    "meaning": "anjuran하는 상태이다, anjuran를 행하다",
+    "pos": "동사",
+    "root": "anjuran",
+    "affix_logic": "어근 'anjuran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anjuran'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anjuran",
+    "antonym": "tidak anjuran",
+    "context": "'beranjuran'은(는) principalmente 'anjuran하는 상태이다, anjuran를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anjuran'의 용법에 유의하세요. 'beranjuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anjuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranjuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anjuran하는 상태이다, anjuran를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranjuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anjuran하는 상태이다, anjuran를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anjuran",
+        "meaning": "(어근) anjuran하는 상태이다"
+      },
+      {
+        "word": "beranjuran",
+        "meaning": "anjuran하는 상태이다, anjuran를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8ezso",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganjuran [[뼝anjuran]]",
+    "meaning": "anjuran 수행 주체",
+    "pos": "명사",
+    "root": "anjuran",
+    "affix_logic": "어근 'anjuran'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anjuran'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak anjuran",
+    "antonym": "bukan anjuran",
+    "context": "'penganjuran'은(는) principalmente 'anjuran 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anjuran'의 용법에 유의하세요. 'penganjuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anjuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganjuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anjuran 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganjuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anjuran 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anjuran",
+        "meaning": "(어근) anjuran 수행 주체"
+      },
+      {
+        "word": "penganjuran",
+        "meaning": "anjuran 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wllhw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganjuranan [[뼝anjuran안]]",
+    "meaning": "anjuran 과정 및 영역",
+    "pos": "명사",
+    "root": "anjuran",
+    "affix_logic": "어근 'anjuran'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anjuran'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anjuran",
+    "antonym": "bukan anjuran",
+    "context": "'penganjuranan'은(는) principalmente 'anjuran 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anjuran'의 용법에 유의하세요. 'penganjuranan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anjuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganjuranan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anjuran 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganjuranan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anjuran 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anjuran",
+        "meaning": "(어근) anjuran 과정 및 영역"
+      },
+      {
+        "word": "penganjuranan",
+        "meaning": "anjuran 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_7xxhq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranugerah [[버르anugerah]]",
+    "meaning": "anugerah하는 상태이다, anugerah를 행하다",
+    "pos": "동사",
+    "root": "anugerah",
+    "affix_logic": "어근 'anugerah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anugerah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anugerah",
+    "antonym": "tidak anugerah",
+    "context": "'beranugerah'은(는) principalmente 'anugerah하는 상태이다, anugerah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anugerah'의 용법에 유의하세요. 'beranugerah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anugerah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranugerah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anugerah하는 상태이다, anugerah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranugerah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anugerah하는 상태이다, anugerah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anugerah",
+        "meaning": "(어근) anugerah하는 상태이다"
+      },
+      {
+        "word": "beranugerah",
+        "meaning": "anugerah하는 상태이다, anugerah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_9jra5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganugerah [[뼝anugerah]]",
+    "meaning": "anugerah 수행 주체",
+    "pos": "명사",
+    "root": "anugerah",
+    "affix_logic": "어근 'anugerah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anugerah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak anugerah",
+    "antonym": "bukan anugerah",
+    "context": "'penganugerah'은(는) principalmente 'anugerah 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anugerah'의 용법에 유의하세요. 'penganugerah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anugerah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganugerah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anugerah 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganugerah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anugerah 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anugerah",
+        "meaning": "(어근) anugerah 수행 주체"
+      },
+      {
+        "word": "penganugerah",
+        "meaning": "anugerah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fl8hn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganugerahan [[뼝anugerah안]]",
+    "meaning": "anugerah 과정 및 영역",
+    "pos": "명사",
+    "root": "anugerah",
+    "affix_logic": "어근 'anugerah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anugerah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anugerah",
+    "antonym": "bukan anugerah",
+    "context": "'penganugerahan'은(는) principalmente 'anugerah 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anugerah'의 용법에 유의하세요. 'penganugerahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anugerah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganugerahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anugerah 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganugerahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anugerah 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anugerah",
+        "meaning": "(어근) anugerah 과정 및 영역"
+      },
+      {
+        "word": "penganugerahan",
+        "meaning": "anugerah 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_xryhr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranyaman [[버르anyaman]]",
+    "meaning": "anyaman하는 상태이다, anyaman를 행하다",
+    "pos": "동사",
+    "root": "anyaman",
+    "affix_logic": "어근 'anyaman'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anyaman'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anyaman",
+    "antonym": "tidak anyaman",
+    "context": "'beranyaman'은(는) principalmente 'anyaman하는 상태이다, anyaman를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anyaman'의 용법에 유의하세요. 'beranyaman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anyaman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranyaman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anyaman하는 상태이다, anyaman를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranyaman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anyaman하는 상태이다, anyaman를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anyaman",
+        "meaning": "(어근) anyaman하는 상태이다"
+      },
+      {
+        "word": "beranyaman",
+        "meaning": "anyaman하는 상태이다, anyaman를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_b7qsp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganyaman [[뼝anyaman]]",
+    "meaning": "anyaman 수행 주체",
+    "pos": "명사",
+    "root": "anyaman",
+    "affix_logic": "어근 'anyaman'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anyaman'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak anyaman",
+    "antonym": "bukan anyaman",
+    "context": "'penganyaman'은(는) principalmente 'anyaman 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anyaman'의 용법에 유의하세요. 'penganyaman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anyaman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganyaman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anyaman 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganyaman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anyaman 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anyaman",
+        "meaning": "(어근) anyaman 수행 주체"
+      },
+      {
+        "word": "penganyaman",
+        "meaning": "anyaman 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_w45bt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganyamanan [[뼝anyaman안]]",
+    "meaning": "anyaman 과정 및 영역",
+    "pos": "명사",
+    "root": "anyaman",
+    "affix_logic": "어근 'anyaman'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anyaman'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anyaman",
+    "antonym": "bukan anyaman",
+    "context": "'penganyamanan'은(는) principalmente 'anyaman 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anyaman'의 용법에 유의하세요. 'penganyamanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anyaman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganyamanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anyaman 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganyamanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anyaman 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anyaman",
+        "meaning": "(어근) anyaman 과정 및 영역"
+      },
+      {
+        "word": "penganyamanan",
+        "meaning": "anyaman 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2qvno",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraprikot [[버르aprikot]]",
+    "meaning": "aprikot하는 상태이다, aprikot를 행하다",
+    "pos": "동사",
+    "root": "aprikot",
+    "affix_logic": "어근 'aprikot'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aprikot'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aprikot",
+    "antonym": "tidak aprikot",
+    "context": "'beraprikot'은(는) principalmente 'aprikot하는 상태이다, aprikot를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aprikot'의 용법에 유의하세요. 'beraprikot' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aprikot' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraprikot untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aprikot하는 상태이다, aprikot를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraprikot yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aprikot하는 상태이다, aprikot를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aprikot",
+        "meaning": "(어근) aprikot하는 상태이다"
+      },
+      {
+        "word": "beraprikot",
+        "meaning": "aprikot하는 상태이다, aprikot를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_iqcnh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaprikot [[뼝aprikot]]",
+    "meaning": "aprikot 수행 주체",
+    "pos": "명사",
+    "root": "aprikot",
+    "affix_logic": "어근 'aprikot'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aprikot'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aprikot",
+    "antonym": "bukan aprikot",
+    "context": "'pengaprikot'은(는) principalmente 'aprikot 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aprikot'의 용법에 유의하세요. 'pengaprikot' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aprikot' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaprikot untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aprikot 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaprikot yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aprikot 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aprikot",
+        "meaning": "(어근) aprikot 수행 주체"
+      },
+      {
+        "word": "pengaprikot",
+        "meaning": "aprikot 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_az0en",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaprikotan [[뼝aprikot안]]",
+    "meaning": "aprikot 과정 및 영역",
+    "pos": "명사",
+    "root": "aprikot",
+    "affix_logic": "어근 'aprikot'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aprikot'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aprikot",
+    "antonym": "bukan aprikot",
+    "context": "'pengaprikotan'은(는) principalmente 'aprikot 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aprikot'의 용법에 유의하세요. 'pengaprikotan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aprikot' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaprikotan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aprikot 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaprikotan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aprikot 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aprikot",
+        "meaning": "(어근) aprikot 과정 및 영역"
+      },
+      {
+        "word": "pengaprikotan",
+        "meaning": "aprikot 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fz9f7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarena [[버르arena]]",
+    "meaning": "arena하는 상태이다, arena를 행하다",
+    "pos": "동사",
+    "root": "arena",
+    "affix_logic": "어근 'arena'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arena'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan arena",
+    "antonym": "tidak arena",
+    "context": "'berarena'은(는) principalmente 'arena하는 상태이다, arena를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arena'의 용법에 유의하세요. 'berarena' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arena' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berarena untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arena하는 상태이다, arena를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berarena yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arena하는 상태이다, arena를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arena",
+        "meaning": "(어근) arena하는 상태이다"
+      },
+      {
+        "word": "berarena",
+        "meaning": "arena하는 상태이다, arena를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_e7nu0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarena [[뼝arena]]",
+    "meaning": "arena 수행 주체",
+    "pos": "명사",
+    "root": "arena",
+    "affix_logic": "어근 'arena'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arena'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak arena",
+    "antonym": "bukan arena",
+    "context": "'pengarena'은(는) principalmente 'arena 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arena'의 용법에 유의하세요. 'pengarena' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arena' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarena untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arena 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarena yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arena 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arena",
+        "meaning": "(어근) arena 수행 주체"
+      },
+      {
+        "word": "pengarena",
+        "meaning": "arena 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_gw2uw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarenaan [[뼝arena안]]",
+    "meaning": "arena 과정 및 영역",
+    "pos": "명사",
+    "root": "arena",
+    "affix_logic": "어근 'arena'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arena'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses arena",
+    "antonym": "bukan arena",
+    "context": "'pengarenaan'은(는) principalmente 'arena 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arena'의 용법에 유의하세요. 'pengarenaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arena' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarenaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arena 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarenaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arena 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arena",
+        "meaning": "(어근) arena 과정 및 영역"
+      },
+      {
+        "word": "pengarenaan",
+        "meaning": "arena 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_if5co",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarisan [[버르arisan]]",
+    "meaning": "arisan하는 상태이다, arisan를 행하다",
+    "pos": "동사",
+    "root": "arisan",
+    "affix_logic": "어근 'arisan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arisan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan arisan",
+    "antonym": "tidak arisan",
+    "context": "'berarisan'은(는) principalmente 'arisan하는 상태이다, arisan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arisan'의 용법에 유의하세요. 'berarisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arisan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berarisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arisan하는 상태이다, arisan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berarisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arisan하는 상태이다, arisan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arisan",
+        "meaning": "(어근) arisan하는 상태이다"
+      },
+      {
+        "word": "berarisan",
+        "meaning": "arisan하는 상태이다, arisan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_y5h0h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarisan [[뼝arisan]]",
+    "meaning": "arisan 수행 주체",
+    "pos": "명사",
+    "root": "arisan",
+    "affix_logic": "어근 'arisan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arisan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak arisan",
+    "antonym": "bukan arisan",
+    "context": "'pengarisan'은(는) principalmente 'arisan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arisan'의 용법에 유의하세요. 'pengarisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arisan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arisan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arisan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arisan",
+        "meaning": "(어근) arisan 수행 주체"
+      },
+      {
+        "word": "pengarisan",
+        "meaning": "arisan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_thtas",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarisanan [[뼝arisan안]]",
+    "meaning": "arisan 과정 및 영역",
+    "pos": "명사",
+    "root": "arisan",
+    "affix_logic": "어근 'arisan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arisan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses arisan",
+    "antonym": "bukan arisan",
+    "context": "'pengarisanan'은(는) principalmente 'arisan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arisan'의 용법에 유의하세요. 'pengarisanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arisan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarisanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arisan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarisanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arisan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arisan",
+        "meaning": "(어근) arisan 과정 및 영역"
+      },
+      {
+        "word": "pengarisanan",
+        "meaning": "arisan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_6o254",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarsip [[버르arsip]]",
+    "meaning": "arsip하는 상태이다, arsip를 행하다",
+    "pos": "동사",
+    "root": "arsip",
+    "affix_logic": "어근 'arsip'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arsip'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan arsip",
+    "antonym": "tidak arsip",
+    "context": "'berarsip'은(는) principalmente 'arsip하는 상태이다, arsip를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsip'의 용법에 유의하세요. 'berarsip' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsip' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berarsip untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsip하는 상태이다, arsip를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berarsip yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsip하는 상태이다, arsip를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsip",
+        "meaning": "(어근) arsip하는 상태이다"
+      },
+      {
+        "word": "berarsip",
+        "meaning": "arsip하는 상태이다, arsip를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_oe9yh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsip [[뼝arsip]]",
+    "meaning": "arsip 수행 주체",
+    "pos": "명사",
+    "root": "arsip",
+    "affix_logic": "어근 'arsip'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arsip'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak arsip",
+    "antonym": "bukan arsip",
+    "context": "'pengarsip'은(는) principalmente 'arsip 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsip'의 용법에 유의하세요. 'pengarsip' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsip' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarsip untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsip 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarsip yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsip 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsip",
+        "meaning": "(어근) arsip 수행 주체"
+      },
+      {
+        "word": "pengarsip",
+        "meaning": "arsip 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_f4sh3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsipan [[뼝arsip안]]",
+    "meaning": "arsip 과정 및 영역",
+    "pos": "명사",
+    "root": "arsip",
+    "affix_logic": "어근 'arsip'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arsip'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses arsip",
+    "antonym": "bukan arsip",
+    "context": "'pengarsipan'은(는) principalmente 'arsip 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsip'의 용법에 유의하세요. 'pengarsipan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsip' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarsipan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsip 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarsipan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsip 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsip",
+        "meaning": "(어근) arsip 과정 및 영역"
+      },
+      {
+        "word": "pengarsipan",
+        "meaning": "arsip 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_4t48m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berartis [[버르artis]]",
+    "meaning": "artis하는 상태이다, artis를 행하다",
+    "pos": "동사",
+    "root": "artis",
+    "affix_logic": "어근 'artis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'artis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan artis",
+    "antonym": "tidak artis",
+    "context": "'berartis'은(는) principalmente 'artis하는 상태이다, artis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artis'의 용법에 유의하세요. 'berartis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berartis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artis하는 상태이다, artis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berartis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artis하는 상태이다, artis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artis",
+        "meaning": "(어근) artis하는 상태이다"
+      },
+      {
+        "word": "berartis",
+        "meaning": "artis하는 상태이다, artis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ogoke",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartis [[뼝artis]]",
+    "meaning": "artis 수행 주체",
+    "pos": "명사",
+    "root": "artis",
+    "affix_logic": "어근 'artis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'artis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak artis",
+    "antonym": "bukan artis",
+    "context": "'pengartis'은(는) principalmente 'artis 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artis'의 용법에 유의하세요. 'pengartis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengartis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artis 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengartis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artis 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artis",
+        "meaning": "(어근) artis 수행 주체"
+      },
+      {
+        "word": "pengartis",
+        "meaning": "artis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_djneh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartisan [[뼝artis안]]",
+    "meaning": "artis 과정 및 영역",
+    "pos": "명사",
+    "root": "artis",
+    "affix_logic": "어근 'artis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'artis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses artis",
+    "antonym": "bukan artis",
+    "context": "'pengartisan'은(는) principalmente 'artis 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artis'의 용법에 유의하세요. 'pengartisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengartisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artis 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengartisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artis 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artis",
+        "meaning": "(어근) artis 과정 및 영역"
+      },
+      {
+        "word": "pengartisan",
+        "meaning": "artis 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_vx6bf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasap [[버르asap]]",
+    "meaning": "asap하는 상태이다, asap를 행하다",
+    "pos": "동사",
+    "root": "asap",
+    "affix_logic": "어근 'asap'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asap'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan asap",
+    "antonym": "tidak asap",
+    "context": "'berasap'은(는) principalmente 'asap하는 상태이다, asap를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asap'의 용법에 유의하세요. 'berasap' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berasap untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asap하는 상태이다, asap를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berasap yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asap하는 상태이다, asap를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asap",
+        "meaning": "(어근) asap하는 상태이다"
+      },
+      {
+        "word": "berasap",
+        "meaning": "asap하는 상태이다, asap를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_1xhl2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasap [[뼝asap]]",
+    "meaning": "asap 수행 주체",
+    "pos": "명사",
+    "root": "asap",
+    "affix_logic": "어근 'asap'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asap'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak asap",
+    "antonym": "bukan asap",
+    "context": "'pengasap'은(는) principalmente 'asap 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asap'의 용법에 유의하세요. 'pengasap' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasap untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asap 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasap yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asap 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asap",
+        "meaning": "(어근) asap 수행 주체"
+      },
+      {
+        "word": "pengasap",
+        "meaning": "asap 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_tsvc0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasapan [[뼝asap안]]",
+    "meaning": "asap 과정 및 영역",
+    "pos": "명사",
+    "root": "asap",
+    "affix_logic": "어근 'asap'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asap'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses asap",
+    "antonym": "bukan asap",
+    "context": "'pengasapan'은(는) principalmente 'asap 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asap'의 용법에 유의하세요. 'pengasapan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasapan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asap 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasapan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asap 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asap",
+        "meaning": "(어근) asap 과정 및 영역"
+      },
+      {
+        "word": "pengasapan",
+        "meaning": "asap 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_dhbc3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasrama [[버르asrama]]",
+    "meaning": "asrama하는 상태이다, asrama를 행하다",
+    "pos": "동사",
+    "root": "asrama",
+    "affix_logic": "어근 'asrama'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asrama'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan asrama",
+    "antonym": "tidak asrama",
+    "context": "'berasrama'은(는) principalmente 'asrama하는 상태이다, asrama를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asrama'의 용법에 유의하세요. 'berasrama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asrama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berasrama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asrama하는 상태이다, asrama를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berasrama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asrama하는 상태이다, asrama를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asrama",
+        "meaning": "(어근) asrama하는 상태이다"
+      },
+      {
+        "word": "berasrama",
+        "meaning": "asrama하는 상태이다, asrama를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_rly8k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasrama [[뼝asrama]]",
+    "meaning": "asrama 수행 주체",
+    "pos": "명사",
+    "root": "asrama",
+    "affix_logic": "어근 'asrama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asrama'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak asrama",
+    "antonym": "bukan asrama",
+    "context": "'pengasrama'은(는) principalmente 'asrama 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asrama'의 용법에 유의하세요. 'pengasrama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asrama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasrama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asrama 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasrama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asrama 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asrama",
+        "meaning": "(어근) asrama 수행 주체"
+      },
+      {
+        "word": "pengasrama",
+        "meaning": "asrama 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0kd3l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasramaan [[뼝asrama안]]",
+    "meaning": "asrama 과정 및 영역",
+    "pos": "명사",
+    "root": "asrama",
+    "affix_logic": "어근 'asrama'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asrama'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses asrama",
+    "antonym": "bukan asrama",
+    "context": "'pengasramaan'은(는) principalmente 'asrama 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asrama'의 용법에 유의하세요. 'pengasramaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asrama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasramaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asrama 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasramaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asrama 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asrama",
+        "meaning": "(어근) asrama 과정 및 영역"
+      },
+      {
+        "word": "pengasramaan",
+        "meaning": "asrama 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_e6uru",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasuhan [[버르asuhan]]",
+    "meaning": "asuhan하는 상태이다, asuhan를 행하다",
+    "pos": "동사",
+    "root": "asuhan",
+    "affix_logic": "어근 'asuhan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asuhan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan asuhan",
+    "antonym": "tidak asuhan",
+    "context": "'berasuhan'은(는) principalmente 'asuhan하는 상태이다, asuhan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asuhan'의 용법에 유의하세요. 'berasuhan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asuhan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berasuhan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asuhan하는 상태이다, asuhan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berasuhan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asuhan하는 상태이다, asuhan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asuhan",
+        "meaning": "(어근) asuhan하는 상태이다"
+      },
+      {
+        "word": "berasuhan",
+        "meaning": "asuhan하는 상태이다, asuhan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_08qci",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasuhan [[뼝asuhan]]",
+    "meaning": "asuhan 수행 주체",
+    "pos": "명사",
+    "root": "asuhan",
+    "affix_logic": "어근 'asuhan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asuhan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak asuhan",
+    "antonym": "bukan asuhan",
+    "context": "'pengasuhan'은(는) principalmente 'asuhan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asuhan'의 용법에 유의하세요. 'pengasuhan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asuhan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasuhan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asuhan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasuhan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asuhan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asuhan",
+        "meaning": "(어근) asuhan 수행 주체"
+      },
+      {
+        "word": "pengasuhan",
+        "meaning": "asuhan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_swsxu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasuhanan [[뼝asuhan안]]",
+    "meaning": "asuhan 과정 및 영역",
+    "pos": "명사",
+    "root": "asuhan",
+    "affix_logic": "어근 'asuhan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asuhan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses asuhan",
+    "antonym": "bukan asuhan",
+    "context": "'pengasuhanan'은(는) principalmente 'asuhan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asuhan'의 용법에 유의하세요. 'pengasuhanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asuhan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasuhanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asuhan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasuhanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asuhan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asuhan",
+        "meaning": "(어근) asuhan 과정 및 영역"
+      },
+      {
+        "word": "pengasuhanan",
+        "meaning": "asuhan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_lusmj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beratletik [[버르atletik]]",
+    "meaning": "atletik하는 상태이다, atletik를 행하다",
+    "pos": "동사",
+    "root": "atletik",
+    "affix_logic": "어근 'atletik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atletik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan atletik",
+    "antonym": "tidak atletik",
+    "context": "'beratletik'은(는) principalmente 'atletik하는 상태이다, atletik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atletik'의 용법에 유의하세요. 'beratletik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atletik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beratletik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atletik하는 상태이다, atletik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beratletik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atletik하는 상태이다, atletik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atletik",
+        "meaning": "(어근) atletik하는 상태이다"
+      },
+      {
+        "word": "beratletik",
+        "meaning": "atletik하는 상태이다, atletik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_uqle3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatletik [[뼝atletik]]",
+    "meaning": "atletik 수행 주체",
+    "pos": "명사",
+    "root": "atletik",
+    "affix_logic": "어근 'atletik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'atletik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak atletik",
+    "antonym": "bukan atletik",
+    "context": "'pengatletik'은(는) principalmente 'atletik 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atletik'의 용법에 유의하세요. 'pengatletik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atletik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengatletik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atletik 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengatletik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atletik 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atletik",
+        "meaning": "(어근) atletik 수행 주체"
+      },
+      {
+        "word": "pengatletik",
+        "meaning": "atletik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_xz8fh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatletikan [[뼝atletik안]]",
+    "meaning": "atletik 과정 및 영역",
+    "pos": "명사",
+    "root": "atletik",
+    "affix_logic": "어근 'atletik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'atletik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses atletik",
+    "antonym": "bukan atletik",
+    "context": "'pengatletikan'은(는) principalmente 'atletik 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atletik'의 용법에 유의하세요. 'pengatletikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atletik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengatletikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atletik 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengatletikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atletik 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atletik",
+        "meaning": "(어근) atletik 과정 및 영역"
+      },
+      {
+        "word": "pengatletikan",
+        "meaning": "atletik 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cfbpk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beratraksi [[버르atraksi]]",
+    "meaning": "atraksi하는 상태이다, atraksi를 행하다",
+    "pos": "동사",
+    "root": "atraksi",
+    "affix_logic": "어근 'atraksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atraksi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan atraksi",
+    "antonym": "tidak atraksi",
+    "context": "'beratraksi'은(는) principalmente 'atraksi하는 상태이다, atraksi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atraksi'의 용법에 유의하세요. 'beratraksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atraksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beratraksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atraksi하는 상태이다, atraksi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beratraksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atraksi하는 상태이다, atraksi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atraksi",
+        "meaning": "(어근) atraksi하는 상태이다"
+      },
+      {
+        "word": "beratraksi",
+        "meaning": "atraksi하는 상태이다, atraksi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_md1tj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatraksi [[뼝atraksi]]",
+    "meaning": "atraksi 수행 주체",
+    "pos": "명사",
+    "root": "atraksi",
+    "affix_logic": "어근 'atraksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'atraksi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak atraksi",
+    "antonym": "bukan atraksi",
+    "context": "'pengatraksi'은(는) principalmente 'atraksi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atraksi'의 용법에 유의하세요. 'pengatraksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atraksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengatraksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atraksi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengatraksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atraksi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atraksi",
+        "meaning": "(어근) atraksi 수행 주체"
+      },
+      {
+        "word": "pengatraksi",
+        "meaning": "atraksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_zvx78",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatraksian [[뼝atraksi안]]",
+    "meaning": "atraksi 과정 및 영역",
+    "pos": "명사",
+    "root": "atraksi",
+    "affix_logic": "어근 'atraksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'atraksi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses atraksi",
+    "antonym": "bukan atraksi",
+    "context": "'pengatraksian'은(는) principalmente 'atraksi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atraksi'의 용법에 유의하세요. 'pengatraksian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atraksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengatraksian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atraksi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengatraksian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atraksi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atraksi",
+        "meaning": "(어근) atraksi 과정 및 영역"
+      },
+      {
+        "word": "pengatraksian",
+        "meaning": "atraksi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_x1l6k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beratribut [[버르atribut]]",
+    "meaning": "atribut하는 상태이다, atribut를 행하다",
+    "pos": "동사",
+    "root": "atribut",
+    "affix_logic": "어근 'atribut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atribut'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan atribut",
+    "antonym": "tidak atribut",
+    "context": "'beratribut'은(는) principalmente 'atribut하는 상태이다, atribut를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atribut'의 용법에 유의하세요. 'beratribut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atribut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beratribut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atribut하는 상태이다, atribut를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beratribut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atribut하는 상태이다, atribut를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atribut",
+        "meaning": "(어근) atribut하는 상태이다"
+      },
+      {
+        "word": "beratribut",
+        "meaning": "atribut하는 상태이다, atribut를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5zm7f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatribut [[뼝atribut]]",
+    "meaning": "atribut 수행 주체",
+    "pos": "명사",
+    "root": "atribut",
+    "affix_logic": "어근 'atribut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'atribut'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak atribut",
+    "antonym": "bukan atribut",
+    "context": "'pengatribut'은(는) principalmente 'atribut 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atribut'의 용법에 유의하세요. 'pengatribut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atribut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengatribut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atribut 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengatribut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atribut 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atribut",
+        "meaning": "(어근) atribut 수행 주체"
+      },
+      {
+        "word": "pengatribut",
+        "meaning": "atribut 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_jt6gj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatributan [[뼝atribut안]]",
+    "meaning": "atribut 과정 및 영역",
+    "pos": "명사",
+    "root": "atribut",
+    "affix_logic": "어근 'atribut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'atribut'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses atribut",
+    "antonym": "bukan atribut",
+    "context": "'pengatributan'은(는) principalmente 'atribut 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atribut'의 용법에 유의하세요. 'pengatributan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atribut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengatributan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atribut 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengatributan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atribut 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atribut",
+        "meaning": "(어근) atribut 과정 및 영역"
+      },
+      {
+        "word": "pengatributan",
+        "meaning": "atribut 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_z0brj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraudisi [[버르audisi]]",
+    "meaning": "audisi하는 상태이다, audisi를 행하다",
+    "pos": "동사",
+    "root": "audisi",
+    "affix_logic": "어근 'audisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'audisi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan audisi",
+    "antonym": "tidak audisi",
+    "context": "'beraudisi'은(는) principalmente 'audisi하는 상태이다, audisi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'audisi'의 용법에 유의하세요. 'beraudisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'audisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraudisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 audisi하는 상태이다, audisi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraudisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 audisi하는 상태이다, audisi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "audisi",
+        "meaning": "(어근) audisi하는 상태이다"
+      },
+      {
+        "word": "beraudisi",
+        "meaning": "audisi하는 상태이다, audisi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0ea8o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaudisi [[뼝audisi]]",
+    "meaning": "audisi 수행 주체",
+    "pos": "명사",
+    "root": "audisi",
+    "affix_logic": "어근 'audisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'audisi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak audisi",
+    "antonym": "bukan audisi",
+    "context": "'pengaudisi'은(는) principalmente 'audisi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'audisi'의 용법에 유의하세요. 'pengaudisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'audisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaudisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 audisi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaudisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 audisi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "audisi",
+        "meaning": "(어근) audisi 수행 주체"
+      },
+      {
+        "word": "pengaudisi",
+        "meaning": "audisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_pjte8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaudisian [[뼝audisi안]]",
+    "meaning": "audisi 과정 및 영역",
+    "pos": "명사",
+    "root": "audisi",
+    "affix_logic": "어근 'audisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'audisi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses audisi",
+    "antonym": "bukan audisi",
+    "context": "'pengaudisian'은(는) principalmente 'audisi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'audisi'의 용법에 유의하세요. 'pengaudisian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'audisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaudisian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 audisi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaudisian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 audisi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "audisi",
+        "meaning": "(어근) audisi 과정 및 영역"
+      },
+      {
+        "word": "pengaudisian",
+        "meaning": "audisi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ufcaz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraura [[버르aura]]",
+    "meaning": "aura하는 상태이다, aura를 행하다",
+    "pos": "동사",
+    "root": "aura",
+    "affix_logic": "어근 'aura'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aura'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aura",
+    "antonym": "tidak aura",
+    "context": "'beraura'은(는) principalmente 'aura하는 상태이다, aura를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aura'의 용법에 유의하세요. 'beraura' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraura untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aura하는 상태이다, aura를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraura yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aura하는 상태이다, aura를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aura",
+        "meaning": "(어근) aura하는 상태이다"
+      },
+      {
+        "word": "beraura",
+        "meaning": "aura하는 상태이다, aura를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_770zv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaura [[뼝aura]]",
+    "meaning": "aura 수행 주체",
+    "pos": "명사",
+    "root": "aura",
+    "affix_logic": "어근 'aura'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aura'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aura",
+    "antonym": "bukan aura",
+    "context": "'pengaura'은(는) principalmente 'aura 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aura'의 용법에 유의하세요. 'pengaura' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaura untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aura 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaura yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aura 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aura",
+        "meaning": "(어근) aura 수행 주체"
+      },
+      {
+        "word": "pengaura",
+        "meaning": "aura 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_t2lmm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengauraan [[뼝aura안]]",
+    "meaning": "aura 과정 및 영역",
+    "pos": "명사",
+    "root": "aura",
+    "affix_logic": "어근 'aura'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aura'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aura",
+    "antonym": "bukan aura",
+    "context": "'pengauraan'은(는) principalmente 'aura 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aura'의 용법에 유의하세요. 'pengauraan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengauraan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aura 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengauraan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aura 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aura",
+        "meaning": "(어근) aura 과정 및 영역"
+      },
+      {
+        "word": "pengauraan",
+        "meaning": "aura 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_am7df",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berautentikasi [[버르autentikasi]]",
+    "meaning": "autentikasi하는 상태이다, autentikasi를 행하다",
+    "pos": "동사",
+    "root": "autentikasi",
+    "affix_logic": "어근 'autentikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'autentikasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan autentikasi",
+    "antonym": "tidak autentikasi",
+    "context": "'berautentikasi'은(는) principalmente 'autentikasi하는 상태이다, autentikasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'autentikasi'의 용법에 유의하세요. 'berautentikasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'autentikasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berautentikasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 autentikasi하는 상태이다, autentikasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berautentikasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 autentikasi하는 상태이다, autentikasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "autentikasi",
+        "meaning": "(어근) autentikasi하는 상태이다"
+      },
+      {
+        "word": "berautentikasi",
+        "meaning": "autentikasi하는 상태이다, autentikasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_dma4b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautentikasi [[뼝autentikasi]]",
+    "meaning": "autentikasi 수행 주체",
+    "pos": "명사",
+    "root": "autentikasi",
+    "affix_logic": "어근 'autentikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'autentikasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak autentikasi",
+    "antonym": "bukan autentikasi",
+    "context": "'pengautentikasi'은(는) principalmente 'autentikasi 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'autentikasi'의 용법에 유의하세요. 'pengautentikasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'autentikasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengautentikasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 autentikasi 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengautentikasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 autentikasi 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "autentikasi",
+        "meaning": "(어근) autentikasi 수행 주체"
+      },
+      {
+        "word": "pengautentikasi",
+        "meaning": "autentikasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yot2j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautentikasian [[뼝autentikasi안]]",
+    "meaning": "autentikasi 과정 및 영역",
+    "pos": "명사",
+    "root": "autentikasi",
+    "affix_logic": "어근 'autentikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'autentikasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses autentikasi",
+    "antonym": "bukan autentikasi",
+    "context": "'pengautentikasian'은(는) principalmente 'autentikasi 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'autentikasi'의 용법에 유의하세요. 'pengautentikasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'autentikasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengautentikasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 autentikasi 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengautentikasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 autentikasi 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "autentikasi",
+        "meaning": "(어근) autentikasi 과정 및 영역"
+      },
+      {
+        "word": "pengautentikasian",
+        "meaning": "autentikasi 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_uow6p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beravan [[버르avan]]",
+    "meaning": "avan하는 상태이다, avan를 행하다",
+    "pos": "동사",
+    "root": "avan",
+    "affix_logic": "어근 'avan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'avan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan avan",
+    "antonym": "tidak avan",
+    "context": "'beravan'은(는) principalmente 'avan하는 상태이다, avan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'avan'의 용법에 유의하세요. 'beravan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'avan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beravan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 avan하는 상태이다, avan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beravan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 avan하는 상태이다, avan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "avan",
+        "meaning": "(어근) avan하는 상태이다"
+      },
+      {
+        "word": "beravan",
+        "meaning": "avan하는 상태이다, avan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_3zqqh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengavan [[뼝avan]]",
+    "meaning": "avan 수행 주체",
+    "pos": "명사",
+    "root": "avan",
+    "affix_logic": "어근 'avan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'avan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak avan",
+    "antonym": "bukan avan",
+    "context": "'pengavan'은(는) principalmente 'avan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'avan'의 용법에 유의하세요. 'pengavan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'avan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengavan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 avan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengavan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 avan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "avan",
+        "meaning": "(어근) avan 수행 주체"
+      },
+      {
+        "word": "pengavan",
+        "meaning": "avan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_krfu6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengavanan [[뼝avan안]]",
+    "meaning": "avan 과정 및 영역",
+    "pos": "명사",
+    "root": "avan",
+    "affix_logic": "어근 'avan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'avan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses avan",
+    "antonym": "bukan avan",
+    "context": "'pengavanan'은(는) principalmente 'avan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'avan'의 용법에 유의하세요. 'pengavanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'avan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengavanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 avan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengavanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 avan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "avan",
+        "meaning": "(어근) avan 과정 및 영역"
+      },
+      {
+        "word": "pengavanan",
+        "meaning": "avan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_7xdjo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berayat [[버르ayat]]",
+    "meaning": "ayat하는 상태이다, ayat를 행하다",
+    "pos": "동사",
+    "root": "ayat",
+    "affix_logic": "어근 'ayat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ayat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ayat",
+    "antonym": "tidak ayat",
+    "context": "'berayat'은(는) principalmente 'ayat하는 상태이다, ayat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ayat'의 용법에 유의하세요. 'berayat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ayat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berayat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ayat하는 상태이다, ayat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berayat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ayat하는 상태이다, ayat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ayat",
+        "meaning": "(어근) ayat하는 상태이다"
+      },
+      {
+        "word": "berayat",
+        "meaning": "ayat하는 상태이다, ayat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cq0sq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengayat [[뼝ayat]]",
+    "meaning": "ayat 수행 주체",
+    "pos": "명사",
+    "root": "ayat",
+    "affix_logic": "어근 'ayat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ayat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ayat",
+    "antonym": "bukan ayat",
+    "context": "'pengayat'은(는) principalmente 'ayat 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ayat'의 용법에 유의하세요. 'pengayat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ayat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengayat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ayat 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengayat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ayat 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ayat",
+        "meaning": "(어근) ayat 수행 주체"
+      },
+      {
+        "word": "pengayat",
+        "meaning": "ayat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_x0a47",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengayatan [[뼝ayat안]]",
+    "meaning": "ayat 과정 및 영역",
+    "pos": "명사",
+    "root": "ayat",
+    "affix_logic": "어근 'ayat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ayat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ayat",
+    "antonym": "bukan ayat",
+    "context": "'pengayatan'은(는) principalmente 'ayat 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ayat'의 용법에 유의하세요. 'pengayatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ayat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengayatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ayat 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengayatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ayat 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ayat",
+        "meaning": "(어근) ayat 과정 및 영역"
+      },
+      {
+        "word": "pengayatan",
+        "meaning": "ayat 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_hqhzh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbakat [[버르bakat]]",
+    "meaning": "bakat하는 상태이다, bakat를 행하다",
+    "pos": "동사",
+    "root": "bakat",
+    "affix_logic": "어근 'bakat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bakat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bakat",
+    "antonym": "tidak bakat",
+    "context": "'berbakat'은(는) principalmente 'bakat하는 상태이다, bakat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bakat'의 용법에 유의하세요. 'berbakat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bakat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbakat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bakat하는 상태이다, bakat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbakat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bakat하는 상태이다, bakat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bakat",
+        "meaning": "(어근) bakat하는 상태이다"
+      },
+      {
+        "word": "berbakat",
+        "meaning": "bakat하는 상태이다, bakat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_v15ds",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbakat [[뼝bakat]]",
+    "meaning": "bakat 수행 주체",
+    "pos": "명사",
+    "root": "bakat",
+    "affix_logic": "어근 'bakat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bakat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bakat",
+    "antonym": "bukan bakat",
+    "context": "'pengbakat'은(는) principalmente 'bakat 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bakat'의 용법에 유의하세요. 'pengbakat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bakat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbakat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bakat 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbakat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bakat 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bakat",
+        "meaning": "(어근) bakat 수행 주체"
+      },
+      {
+        "word": "pengbakat",
+        "meaning": "bakat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fgpxa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbakatan [[뼝bakat안]]",
+    "meaning": "bakat 과정 및 영역",
+    "pos": "명사",
+    "root": "bakat",
+    "affix_logic": "어근 'bakat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bakat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bakat",
+    "antonym": "bukan bakat",
+    "context": "'pengbakatan'은(는) principalmente 'bakat 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bakat'의 용법에 유의하세요. 'pengbakatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bakat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbakatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bakat 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbakatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bakat 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bakat",
+        "meaning": "(어근) bakat 과정 및 영역"
+      },
+      {
+        "word": "pengbakatan",
+        "meaning": "bakat 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_kl7nv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbalasan [[버르balasan]]",
+    "meaning": "balasan하는 상태이다, balasan를 행하다",
+    "pos": "동사",
+    "root": "balasan",
+    "affix_logic": "어근 'balasan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balasan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan balasan",
+    "antonym": "tidak balasan",
+    "context": "'berbalasan'은(는) principalmente 'balasan하는 상태이다, balasan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balasan'의 용법에 유의하세요. 'berbalasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbalasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balasan하는 상태이다, balasan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbalasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balasan하는 상태이다, balasan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balasan",
+        "meaning": "(어근) balasan하는 상태이다"
+      },
+      {
+        "word": "berbalasan",
+        "meaning": "balasan하는 상태이다, balasan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_qncz1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalasan [[뼝balasan]]",
+    "meaning": "balasan 수행 주체",
+    "pos": "명사",
+    "root": "balasan",
+    "affix_logic": "어근 'balasan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'balasan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak balasan",
+    "antonym": "bukan balasan",
+    "context": "'pengbalasan'은(는) principalmente 'balasan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balasan'의 용법에 유의하세요. 'pengbalasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbalasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balasan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbalasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balasan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balasan",
+        "meaning": "(어근) balasan 수행 주체"
+      },
+      {
+        "word": "pengbalasan",
+        "meaning": "balasan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yqkqe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalasanan [[뼝balasan안]]",
+    "meaning": "balasan 과정 및 영역",
+    "pos": "명사",
+    "root": "balasan",
+    "affix_logic": "어근 'balasan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'balasan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses balasan",
+    "antonym": "bukan balasan",
+    "context": "'pengbalasanan'은(는) principalmente 'balasan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balasan'의 용법에 유의하세요. 'pengbalasanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbalasanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balasan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbalasanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balasan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balasan",
+        "meaning": "(어근) balasan 과정 및 영역"
+      },
+      {
+        "word": "pengbalasanan",
+        "meaning": "balasan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_uqwfa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbalon [[버르balon]]",
+    "meaning": "balon하는 상태이다, balon를 행하다",
+    "pos": "동사",
+    "root": "balon",
+    "affix_logic": "어근 'balon'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balon'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan balon",
+    "antonym": "tidak balon",
+    "context": "'berbalon'은(는) principalmente 'balon하는 상태이다, balon를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balon'의 용법에 유의하세요. 'berbalon' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balon' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbalon untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balon하는 상태이다, balon를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbalon yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balon하는 상태이다, balon를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balon",
+        "meaning": "(어근) balon하는 상태이다"
+      },
+      {
+        "word": "berbalon",
+        "meaning": "balon하는 상태이다, balon를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_v5hci",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalon [[뼝balon]]",
+    "meaning": "balon 수행 주체",
+    "pos": "명사",
+    "root": "balon",
+    "affix_logic": "어근 'balon'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'balon'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak balon",
+    "antonym": "bukan balon",
+    "context": "'pengbalon'은(는) principalmente 'balon 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balon'의 용법에 유의하세요. 'pengbalon' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balon' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbalon untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balon 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbalon yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balon 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balon",
+        "meaning": "(어근) balon 수행 주체"
+      },
+      {
+        "word": "pengbalon",
+        "meaning": "balon 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_gzed8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalonan [[뼝balon안]]",
+    "meaning": "balon 과정 및 영역",
+    "pos": "명사",
+    "root": "balon",
+    "affix_logic": "어근 'balon'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'balon'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses balon",
+    "antonym": "bukan balon",
+    "context": "'pengbalonan'은(는) principalmente 'balon 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balon'의 용법에 유의하세요. 'pengbalonan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balon' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbalonan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balon 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbalonan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balon 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balon",
+        "meaning": "(어근) balon 과정 및 영역"
+      },
+      {
+        "word": "pengbalonan",
+        "meaning": "balon 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_oksmq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbalut [[버르balut]]",
+    "meaning": "balut하는 상태이다, balut를 행하다",
+    "pos": "동사",
+    "root": "balut",
+    "affix_logic": "어근 'balut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balut'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan balut",
+    "antonym": "tidak balut",
+    "context": "'berbalut'은(는) principalmente 'balut하는 상태이다, balut를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balut'의 용법에 유의하세요. 'berbalut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbalut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balut하는 상태이다, balut를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbalut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balut하는 상태이다, balut를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balut",
+        "meaning": "(어근) balut하는 상태이다"
+      },
+      {
+        "word": "berbalut",
+        "meaning": "balut하는 상태이다, balut를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8hmiz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalut [[뼝balut]]",
+    "meaning": "balut 수행 주체",
+    "pos": "명사",
+    "root": "balut",
+    "affix_logic": "어근 'balut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'balut'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak balut",
+    "antonym": "bukan balut",
+    "context": "'pengbalut'은(는) principalmente 'balut 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balut'의 용법에 유의하세요. 'pengbalut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbalut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balut 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbalut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balut 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balut",
+        "meaning": "(어근) balut 수행 주체"
+      },
+      {
+        "word": "pengbalut",
+        "meaning": "balut 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_xhhmf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbancakan [[버르bancakan]]",
+    "meaning": "bancakan하는 상태이다, bancakan를 행하다",
+    "pos": "동사",
+    "root": "bancakan",
+    "affix_logic": "어근 'bancakan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bancakan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bancakan",
+    "antonym": "tidak bancakan",
+    "context": "'berbancakan'은(는) principalmente 'bancakan하는 상태이다, bancakan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bancakan'의 용법에 유의하세요. 'berbancakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bancakan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbancakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bancakan하는 상태이다, bancakan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbancakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bancakan하는 상태이다, bancakan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bancakan",
+        "meaning": "(어근) bancakan하는 상태이다"
+      },
+      {
+        "word": "berbancakan",
+        "meaning": "bancakan하는 상태이다, bancakan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_nmim5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbancakan [[뼝bancakan]]",
+    "meaning": "bancakan 수행 주체",
+    "pos": "명사",
+    "root": "bancakan",
+    "affix_logic": "어근 'bancakan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bancakan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak bancakan",
+    "antonym": "bukan bancakan",
+    "context": "'pengbancakan'은(는) principalmente 'bancakan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bancakan'의 용법에 유의하세요. 'pengbancakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bancakan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbancakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bancakan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbancakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bancakan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bancakan",
+        "meaning": "(어근) bancakan 수행 주체"
+      },
+      {
+        "word": "pengbancakan",
+        "meaning": "bancakan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_x2x3x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbancakanan [[뼝bancakan안]]",
+    "meaning": "bancakan 과정 및 영역",
+    "pos": "명사",
+    "root": "bancakan",
+    "affix_logic": "어근 'bancakan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bancakan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bancakan",
+    "antonym": "bukan bancakan",
+    "context": "'pengbancakanan'은(는) principalmente 'bancakan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bancakan'의 용법에 유의하세요. 'pengbancakanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bancakan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbancakanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bancakan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbancakanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bancakan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bancakan",
+        "meaning": "(어근) bancakan 과정 및 영역"
+      },
+      {
+        "word": "pengbancakanan",
+        "meaning": "bancakan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mde7u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbandar [[버르bandar]]",
+    "meaning": "bandar하는 상태이다, bandar를 행하다",
+    "pos": "동사",
+    "root": "bandar",
+    "affix_logic": "어근 'bandar'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bandar'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bandar",
+    "antonym": "tidak bandar",
+    "context": "'berbandar'은(는) principalmente 'bandar하는 상태이다, bandar를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandar'의 용법에 유의하세요. 'berbandar' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbandar untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandar하는 상태이다, bandar를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbandar yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandar하는 상태이다, bandar를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandar",
+        "meaning": "(어근) bandar하는 상태이다"
+      },
+      {
+        "word": "berbandar",
+        "meaning": "bandar하는 상태이다, bandar를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_hd9l0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbandar [[뼝bandar]]",
+    "meaning": "bandar 수행 주체",
+    "pos": "명사",
+    "root": "bandar",
+    "affix_logic": "어근 'bandar'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bandar'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bandar",
+    "antonym": "bukan bandar",
+    "context": "'pengbandar'은(는) principalmente 'bandar 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandar'의 용법에 유의하세요. 'pengbandar' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbandar untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandar 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbandar yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandar 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandar",
+        "meaning": "(어근) bandar 수행 주체"
+      },
+      {
+        "word": "pengbandar",
+        "meaning": "bandar 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ky08e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbandaran [[뼝bandar안]]",
+    "meaning": "bandar 과정 및 영역",
+    "pos": "명사",
+    "root": "bandar",
+    "affix_logic": "어근 'bandar'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bandar'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bandar",
+    "antonym": "bukan bandar",
+    "context": "'pengbandaran'은(는) principalmente 'bandar 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandar'의 용법에 유의하세요. 'pengbandaran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbandaran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandar 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbandaran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandar 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandar",
+        "meaning": "(어근) bandar 과정 및 영역"
+      },
+      {
+        "word": "pengbandaran",
+        "meaning": "bandar 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_sicwo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbandel [[버르bandel]]",
+    "meaning": "bandel하는 상태이다, bandel를 행하다",
+    "pos": "동사",
+    "root": "bandel",
+    "affix_logic": "어근 'bandel'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bandel'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bandel",
+    "antonym": "tidak bandel",
+    "context": "'berbandel'은(는) principalmente 'bandel하는 상태이다, bandel를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandel'의 용법에 유의하세요. 'berbandel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbandel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandel하는 상태이다, bandel를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbandel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandel하는 상태이다, bandel를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandel",
+        "meaning": "(어근) bandel하는 상태이다"
+      },
+      {
+        "word": "berbandel",
+        "meaning": "bandel하는 상태이다, bandel를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_h2ikq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbandel [[뼝bandel]]",
+    "meaning": "bandel 수행 주체",
+    "pos": "명사",
+    "root": "bandel",
+    "affix_logic": "어근 'bandel'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bandel'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bandel",
+    "antonym": "bukan bandel",
+    "context": "'pengbandel'은(는) principalmente 'bandel 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandel'의 용법에 유의하세요. 'pengbandel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbandel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandel 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbandel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandel 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandel",
+        "meaning": "(어근) bandel 수행 주체"
+      },
+      {
+        "word": "pengbandel",
+        "meaning": "bandel 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_61fqe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbandelan [[뼝bandel안]]",
+    "meaning": "bandel 과정 및 영역",
+    "pos": "명사",
+    "root": "bandel",
+    "affix_logic": "어근 'bandel'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bandel'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bandel",
+    "antonym": "bukan bandel",
+    "context": "'pengbandelan'은(는) principalmente 'bandel 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandel'의 용법에 유의하세요. 'pengbandelan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbandelan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandel 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbandelan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandel 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandel",
+        "meaning": "(어근) bandel 과정 및 영역"
+      },
+      {
+        "word": "pengbandelan",
+        "meaning": "bandel 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_io062",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbanting [[버르banting]]",
+    "meaning": "banting하는 상태이다, banting를 행하다",
+    "pos": "동사",
+    "root": "banting",
+    "affix_logic": "어근 'banting'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'banting'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan banting",
+    "antonym": "tidak banting",
+    "context": "'berbanting'은(는) principalmente 'banting하는 상태이다, banting를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banting'의 용법에 유의하세요. 'berbanting' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbanting untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banting하는 상태이다, banting를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbanting yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banting하는 상태이다, banting를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banting",
+        "meaning": "(어근) banting하는 상태이다"
+      },
+      {
+        "word": "berbanting",
+        "meaning": "banting하는 상태이다, banting를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0sx3e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbanting [[뼝banting]]",
+    "meaning": "banting 수행 주체",
+    "pos": "명사",
+    "root": "banting",
+    "affix_logic": "어근 'banting'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'banting'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak banting",
+    "antonym": "bukan banting",
+    "context": "'pengbanting'은(는) principalmente 'banting 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banting'의 용법에 유의하세요. 'pengbanting' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbanting untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banting 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbanting yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banting 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banting",
+        "meaning": "(어근) banting 수행 주체"
+      },
+      {
+        "word": "pengbanting",
+        "meaning": "banting 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ni81z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbantingan [[뼝banting안]]",
+    "meaning": "banting 과정 및 영역",
+    "pos": "명사",
+    "root": "banting",
+    "affix_logic": "어근 'banting'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'banting'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses banting",
+    "antonym": "bukan banting",
+    "context": "'pengbantingan'은(는) principalmente 'banting 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banting'의 용법에 유의하세요. 'pengbantingan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbantingan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banting 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbantingan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banting 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banting",
+        "meaning": "(어근) banting 과정 및 영역"
+      },
+      {
+        "word": "pengbantingan",
+        "meaning": "banting 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_b2onr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbantuan [[버르bantuan]]",
+    "meaning": "bantuan하는 상태이다, bantuan를 행하다",
+    "pos": "동사",
+    "root": "bantuan",
+    "affix_logic": "어근 'bantuan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bantuan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bantuan",
+    "antonym": "tidak bantuan",
+    "context": "'berbantuan'은(는) principalmente 'bantuan하는 상태이다, bantuan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan'의 용법에 유의하세요. 'berbantuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbantuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan하는 상태이다, bantuan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbantuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan하는 상태이다, bantuan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan",
+        "meaning": "(어근) bantuan하는 상태이다"
+      },
+      {
+        "word": "berbantuan",
+        "meaning": "bantuan하는 상태이다, bantuan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_glxtj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbantuan [[뼝bantuan]]",
+    "meaning": "bantuan 수행 주체",
+    "pos": "명사",
+    "root": "bantuan",
+    "affix_logic": "어근 'bantuan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bantuan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak bantuan",
+    "antonym": "bukan bantuan",
+    "context": "'pengbantuan'은(는) principalmente 'bantuan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan'의 용법에 유의하세요. 'pengbantuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbantuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbantuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan",
+        "meaning": "(어근) bantuan 수행 주체"
+      },
+      {
+        "word": "pengbantuan",
+        "meaning": "bantuan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_q28k3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbantuanan [[뼝bantuan안]]",
+    "meaning": "bantuan 과정 및 영역",
+    "pos": "명사",
+    "root": "bantuan",
+    "affix_logic": "어근 'bantuan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bantuan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bantuan",
+    "antonym": "bukan bantuan",
+    "context": "'pengbantuanan'은(는) principalmente 'bantuan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan'의 용법에 유의하세요. 'pengbantuanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbantuanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbantuanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan",
+        "meaning": "(어근) bantuan 과정 및 영역"
+      },
+      {
+        "word": "pengbantuanan",
+        "meaning": "bantuan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_8m9qb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbantuan hukum [[버르bantuan hukum]]",
+    "meaning": "bantuan hukum하는 상태이다, bantuan hukum를 행하다",
+    "pos": "동사",
+    "root": "bantuan hukum",
+    "affix_logic": "어근 'bantuan hukum'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bantuan hukum'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bantuan hukum",
+    "antonym": "tidak bantuan hukum",
+    "context": "'berbantuan hukum'은(는) principalmente 'bantuan hukum하는 상태이다, bantuan hukum를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan hukum'의 용법에 유의하세요. 'berbantuan hukum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan hukum' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbantuan hukum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan hukum하는 상태이다, bantuan hukum를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbantuan hukum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan hukum하는 상태이다, bantuan hukum를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan hukum",
+        "meaning": "(어근) bantuan hukum하는 상태이다"
+      },
+      {
+        "word": "berbantuan hukum",
+        "meaning": "bantuan hukum하는 상태이다, bantuan hukum를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_yl592",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbantuan hukum [[뼝bantuan hukum]]",
+    "meaning": "bantuan hukum 수행 주체",
+    "pos": "명사",
+    "root": "bantuan hukum",
+    "affix_logic": "어근 'bantuan hukum'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bantuan hukum'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bantuan hukum",
+    "antonym": "bukan bantuan hukum",
+    "context": "'pengbantuan hukum'은(는) principalmente 'bantuan hukum 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan hukum'의 용법에 유의하세요. 'pengbantuan hukum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan hukum' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbantuan hukum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan hukum 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbantuan hukum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan hukum 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan hukum",
+        "meaning": "(어근) bantuan hukum 수행 주체"
+      },
+      {
+        "word": "pengbantuan hukum",
+        "meaning": "bantuan hukum 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_hdn5x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbantuan hukuman [[뼝bantuan hukum안]]",
+    "meaning": "bantuan hukum 과정 및 영역",
+    "pos": "명사",
+    "root": "bantuan hukum",
+    "affix_logic": "어근 'bantuan hukum'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bantuan hukum'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bantuan hukum",
+    "antonym": "bukan bantuan hukum",
+    "context": "'pengbantuan hukuman'은(는) principalmente 'bantuan hukum 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan hukum'의 용법에 유의하세요. 'pengbantuan hukuman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan hukum' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbantuan hukuman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan hukum 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbantuan hukuman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan hukum 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan hukum",
+        "meaning": "(어근) bantuan hukum 과정 및 영역"
+      },
+      {
+        "word": "pengbantuan hukuman",
+        "meaning": "bantuan hukum 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_njryg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbanyak [[버르banyak]]",
+    "meaning": "banyak하는 상태이다, banyak를 행하다",
+    "pos": "동사",
+    "root": "banyak",
+    "affix_logic": "어근 'banyak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'banyak'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan banyak",
+    "antonym": "tidak banyak",
+    "context": "'berbanyak'은(는) principalmente 'banyak하는 상태이다, banyak를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banyak'의 용법에 유의하세요. 'berbanyak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banyak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbanyak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banyak하는 상태이다, banyak를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbanyak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banyak하는 상태이다, banyak를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banyak",
+        "meaning": "(어근) banyak하는 상태이다"
+      },
+      {
+        "word": "berbanyak",
+        "meaning": "banyak하는 상태이다, banyak를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_vkfda",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbanyak [[뼝banyak]]",
+    "meaning": "banyak 수행 주체",
+    "pos": "명사",
+    "root": "banyak",
+    "affix_logic": "어근 'banyak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'banyak'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak banyak",
+    "antonym": "bukan banyak",
+    "context": "'pengbanyak'은(는) principalmente 'banyak 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banyak'의 용법에 유의하세요. 'pengbanyak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banyak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbanyak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banyak 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbanyak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banyak 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banyak",
+        "meaning": "(어근) banyak 수행 주체"
+      },
+      {
+        "word": "pengbanyak",
+        "meaning": "banyak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_o2iab",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbanyakan [[뼝banyak안]]",
+    "meaning": "banyak 과정 및 영역",
+    "pos": "명사",
+    "root": "banyak",
+    "affix_logic": "어근 'banyak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'banyak'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses banyak",
+    "antonym": "bukan banyak",
+    "context": "'pengbanyakan'은(는) principalmente 'banyak 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banyak'의 용법에 유의하세요. 'pengbanyakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banyak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbanyakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banyak 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbanyakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banyak 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banyak",
+        "meaning": "(어근) banyak 과정 및 영역"
+      },
+      {
+        "word": "pengbanyakan",
+        "meaning": "banyak 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_3cp5i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbapak [[버르bapak]]",
+    "meaning": "bapak하는 상태이다, bapak를 행하다",
+    "pos": "동사",
+    "root": "bapak",
+    "affix_logic": "어근 'bapak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bapak'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bapak",
+    "antonym": "tidak bapak",
+    "context": "'berbapak'은(는) principalmente 'bapak하는 상태이다, bapak를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bapak'의 용법에 유의하세요. 'berbapak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bapak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbapak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bapak하는 상태이다, bapak를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbapak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bapak하는 상태이다, bapak를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bapak",
+        "meaning": "(어근) bapak하는 상태이다"
+      },
+      {
+        "word": "berbapak",
+        "meaning": "bapak하는 상태이다, bapak를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_rgu9w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbapak [[뼝bapak]]",
+    "meaning": "bapak 수행 주체",
+    "pos": "명사",
+    "root": "bapak",
+    "affix_logic": "어근 'bapak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bapak'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bapak",
+    "antonym": "bukan bapak",
+    "context": "'pengbapak'은(는) principalmente 'bapak 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bapak'의 용법에 유의하세요. 'pengbapak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bapak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbapak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bapak 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbapak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bapak 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bapak",
+        "meaning": "(어근) bapak 수행 주체"
+      },
+      {
+        "word": "pengbapak",
+        "meaning": "bapak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_1hh77",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbapakan [[뼝bapak안]]",
+    "meaning": "bapak 과정 및 영역",
+    "pos": "명사",
+    "root": "bapak",
+    "affix_logic": "어근 'bapak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bapak'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bapak",
+    "antonym": "bukan bapak",
+    "context": "'pengbapakan'은(는) principalmente 'bapak 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bapak'의 용법에 유의하세요. 'pengbapakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bapak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbapakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bapak 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbapakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bapak 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bapak",
+        "meaning": "(어근) bapak 과정 및 영역"
+      },
+      {
+        "word": "pengbapakan",
+        "meaning": "bapak 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_uix2q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbarang [[버르barang]]",
+    "meaning": "barang하는 상태이다, barang를 행하다",
+    "pos": "동사",
+    "root": "barang",
+    "affix_logic": "어근 'barang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'barang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan barang",
+    "antonym": "tidak barang",
+    "context": "'berbarang'은(는) principalmente 'barang하는 상태이다, barang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'barang'의 용법에 유의하세요. 'berbarang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbarang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 barang하는 상태이다, barang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbarang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 barang하는 상태이다, barang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "barang",
+        "meaning": "(어근) barang하는 상태이다"
+      },
+      {
+        "word": "berbarang",
+        "meaning": "barang하는 상태이다, barang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_77z95",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbarang [[뼝barang]]",
+    "meaning": "barang 수행 주체",
+    "pos": "명사",
+    "root": "barang",
+    "affix_logic": "어근 'barang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'barang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak barang",
+    "antonym": "bukan barang",
+    "context": "'pengbarang'은(는) principalmente 'barang 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'barang'의 용법에 유의하세요. 'pengbarang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbarang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 barang 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbarang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 barang 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "barang",
+        "meaning": "(어근) barang 수행 주체"
+      },
+      {
+        "word": "pengbarang",
+        "meaning": "barang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_bu7v3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbarangan [[뼝barang안]]",
+    "meaning": "barang 과정 및 영역",
+    "pos": "명사",
+    "root": "barang",
+    "affix_logic": "어근 'barang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'barang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses barang",
+    "antonym": "bukan barang",
+    "context": "'pengbarangan'은(는) principalmente 'barang 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'barang'의 용법에 유의하세요. 'pengbarangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbarangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 barang 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbarangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 barang 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "barang",
+        "meaning": "(어근) barang 과정 및 영역"
+      },
+      {
+        "word": "pengbarangan",
+        "meaning": "barang 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_kgay9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbaris [[버르baris]]",
+    "meaning": "baris하는 상태이다, baris를 행하다",
+    "pos": "동사",
+    "root": "baris",
+    "affix_logic": "어근 'baris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baris'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan baris",
+    "antonym": "tidak baris",
+    "context": "'berbaris'은(는) principalmente 'baris하는 상태이다, baris를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baris'의 용법에 유의하세요. 'berbaris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbaris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baris하는 상태이다, baris를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbaris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baris하는 상태이다, baris를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baris",
+        "meaning": "(어근) baris하는 상태이다"
+      },
+      {
+        "word": "berbaris",
+        "meaning": "baris하는 상태이다, baris를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_wq5kd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaris [[뼝baris]]",
+    "meaning": "baris 수행 주체",
+    "pos": "명사",
+    "root": "baris",
+    "affix_logic": "어근 'baris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baris'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak baris",
+    "antonym": "bukan baris",
+    "context": "'pengbaris'은(는) principalmente 'baris 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baris'의 용법에 유의하세요. 'pengbaris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbaris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baris 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbaris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baris 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baris",
+        "meaning": "(어근) baris 수행 주체"
+      },
+      {
+        "word": "pengbaris",
+        "meaning": "baris 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_butpf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbarisan [[뼝baris안]]",
+    "meaning": "baris 과정 및 영역",
+    "pos": "명사",
+    "root": "baris",
+    "affix_logic": "어근 'baris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baris'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses baris",
+    "antonym": "bukan baris",
+    "context": "'pengbarisan'은(는) principalmente 'baris 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baris'의 용법에 유의하세요. 'pengbarisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbarisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baris 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbarisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baris 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baris",
+        "meaning": "(어근) baris 과정 및 영역"
+      },
+      {
+        "word": "pengbarisan",
+        "meaning": "baris 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_wwikw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbaskom [[버르baskom]]",
+    "meaning": "baskom하는 상태이다, baskom를 행하다",
+    "pos": "동사",
+    "root": "baskom",
+    "affix_logic": "어근 'baskom'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baskom'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan baskom",
+    "antonym": "tidak baskom",
+    "context": "'berbaskom'은(는) principalmente 'baskom하는 상태이다, baskom를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baskom'의 용법에 유의하세요. 'berbaskom' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baskom' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbaskom untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baskom하는 상태이다, baskom를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbaskom yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baskom하는 상태이다, baskom를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baskom",
+        "meaning": "(어근) baskom하는 상태이다"
+      },
+      {
+        "word": "berbaskom",
+        "meaning": "baskom하는 상태이다, baskom를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ahra3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaskom [[뼝baskom]]",
+    "meaning": "baskom 수행 주체",
+    "pos": "명사",
+    "root": "baskom",
+    "affix_logic": "어근 'baskom'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baskom'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak baskom",
+    "antonym": "bukan baskom",
+    "context": "'pengbaskom'은(는) principalmente 'baskom 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baskom'의 용법에 유의하세요. 'pengbaskom' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baskom' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbaskom untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baskom 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbaskom yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baskom 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baskom",
+        "meaning": "(어근) baskom 수행 주체"
+      },
+      {
+        "word": "pengbaskom",
+        "meaning": "baskom 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_8w6yc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaskoman [[뼝baskom안]]",
+    "meaning": "baskom 과정 및 영역",
+    "pos": "명사",
+    "root": "baskom",
+    "affix_logic": "어근 'baskom'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baskom'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses baskom",
+    "antonym": "bukan baskom",
+    "context": "'pengbaskoman'은(는) principalmente 'baskom 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baskom'의 용법에 유의하세요. 'pengbaskoman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baskom' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbaskoman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baskom 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbaskoman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baskom 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baskom",
+        "meaning": "(어근) baskom 과정 및 영역"
+      },
+      {
+        "word": "pengbaskoman",
+        "meaning": "baskom 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_jmstj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbatal [[버르batal]]",
+    "meaning": "batal하는 상태이다, batal를 행하다",
+    "pos": "동사",
+    "root": "batal",
+    "affix_logic": "어근 'batal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batal'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan batal",
+    "antonym": "tidak batal",
+    "context": "'berbatal'은(는) principalmente 'batal하는 상태이다, batal를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batal'의 용법에 유의하세요. 'berbatal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbatal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batal하는 상태이다, batal를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbatal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batal하는 상태이다, batal를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batal",
+        "meaning": "(어근) batal하는 상태이다"
+      },
+      {
+        "word": "berbatal",
+        "meaning": "batal하는 상태이다, batal를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ktdtb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatal [[뼝batal]]",
+    "meaning": "batal 수행 주체",
+    "pos": "명사",
+    "root": "batal",
+    "affix_logic": "어근 'batal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batal'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak batal",
+    "antonym": "bukan batal",
+    "context": "'pengbatal'은(는) principalmente 'batal 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batal'의 용법에 유의하세요. 'pengbatal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batal 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batal 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batal",
+        "meaning": "(어근) batal 수행 주체"
+      },
+      {
+        "word": "pengbatal",
+        "meaning": "batal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_dkgo8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatalan [[뼝batal안]]",
+    "meaning": "batal 과정 및 영역",
+    "pos": "명사",
+    "root": "batal",
+    "affix_logic": "어근 'batal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batal'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses batal",
+    "antonym": "bukan batal",
+    "context": "'pengbatalan'은(는) principalmente 'batal 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batal'의 용법에 유의하세요. 'pengbatalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batal 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batal 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batal",
+        "meaning": "(어근) batal 과정 및 영역"
+      },
+      {
+        "word": "pengbatalan",
+        "meaning": "batal 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_zy1py",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbaterai [[버르baterai]]",
+    "meaning": "baterai하는 상태이다, baterai를 행하다",
+    "pos": "동사",
+    "root": "baterai",
+    "affix_logic": "어근 'baterai'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baterai'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan baterai",
+    "antonym": "tidak baterai",
+    "context": "'berbaterai'은(는) principalmente 'baterai하는 상태이다, baterai를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baterai'의 용법에 유의하세요. 'berbaterai' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baterai' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbaterai untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baterai하는 상태이다, baterai를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbaterai yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baterai하는 상태이다, baterai를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baterai",
+        "meaning": "(어근) baterai하는 상태이다"
+      },
+      {
+        "word": "berbaterai",
+        "meaning": "baterai하는 상태이다, baterai를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_gu48h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaterai [[뼝baterai]]",
+    "meaning": "baterai 수행 주체",
+    "pos": "명사",
+    "root": "baterai",
+    "affix_logic": "어근 'baterai'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baterai'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak baterai",
+    "antonym": "bukan baterai",
+    "context": "'pengbaterai'은(는) principalmente 'baterai 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baterai'의 용법에 유의하세요. 'pengbaterai' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baterai' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbaterai untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baterai 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbaterai yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baterai 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baterai",
+        "meaning": "(어근) baterai 수행 주체"
+      },
+      {
+        "word": "pengbaterai",
+        "meaning": "baterai 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_mwtbb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbateraian [[뼝baterai안]]",
+    "meaning": "baterai 과정 및 영역",
+    "pos": "명사",
+    "root": "baterai",
+    "affix_logic": "어근 'baterai'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baterai'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses baterai",
+    "antonym": "bukan baterai",
+    "context": "'pengbateraian'은(는) principalmente 'baterai 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baterai'의 용법에 유의하세요. 'pengbateraian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baterai' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbateraian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baterai 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbateraian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baterai 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baterai",
+        "meaning": "(어근) baterai 과정 및 영역"
+      },
+      {
+        "word": "pengbateraian",
+        "meaning": "baterai 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_w6evi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbatin [[버르batin]]",
+    "meaning": "batin하는 상태이다, batin를 행하다",
+    "pos": "동사",
+    "root": "batin",
+    "affix_logic": "어근 'batin'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batin'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan batin",
+    "antonym": "tidak batin",
+    "context": "'berbatin'은(는) principalmente 'batin하는 상태이다, batin를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batin'의 용법에 유의하세요. 'berbatin' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batin' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbatin untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batin하는 상태이다, batin를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbatin yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batin하는 상태이다, batin를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batin",
+        "meaning": "(어근) batin하는 상태이다"
+      },
+      {
+        "word": "berbatin",
+        "meaning": "batin하는 상태이다, batin를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ikm8i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatin [[뼝batin]]",
+    "meaning": "batin 수행 주체",
+    "pos": "명사",
+    "root": "batin",
+    "affix_logic": "어근 'batin'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batin'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak batin",
+    "antonym": "bukan batin",
+    "context": "'pengbatin'은(는) principalmente 'batin 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batin'의 용법에 유의하세요. 'pengbatin' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batin' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatin untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batin 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatin yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batin 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batin",
+        "meaning": "(어근) batin 수행 주체"
+      },
+      {
+        "word": "pengbatin",
+        "meaning": "batin 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_6e9mc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatinan [[뼝batin안]]",
+    "meaning": "batin 과정 및 영역",
+    "pos": "명사",
+    "root": "batin",
+    "affix_logic": "어근 'batin'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batin'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses batin",
+    "antonym": "bukan batin",
+    "context": "'pengbatinan'은(는) principalmente 'batin 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batin'의 용법에 유의하세요. 'pengbatinan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batin' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatinan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batin 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatinan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batin 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batin",
+        "meaning": "(어근) batin 과정 및 영역"
+      },
+      {
+        "word": "pengbatinan",
+        "meaning": "batin 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_7obsn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbatuk [[버르batuk]]",
+    "meaning": "batuk하는 상태이다, batuk를 행하다",
+    "pos": "동사",
+    "root": "batuk",
+    "affix_logic": "어근 'batuk'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batuk'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan batuk",
+    "antonym": "tidak batuk",
+    "context": "'berbatuk'은(는) principalmente 'batuk하는 상태이다, batuk를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batuk'의 용법에 유의하세요. 'berbatuk' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batuk' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbatuk untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batuk하는 상태이다, batuk를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbatuk yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batuk하는 상태이다, batuk를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batuk",
+        "meaning": "(어근) batuk하는 상태이다"
+      },
+      {
+        "word": "berbatuk",
+        "meaning": "batuk하는 상태이다, batuk를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_5bfnt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatuk [[뼝batuk]]",
+    "meaning": "batuk 수행 주체",
+    "pos": "명사",
+    "root": "batuk",
+    "affix_logic": "어근 'batuk'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batuk'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak batuk",
+    "antonym": "bukan batuk",
+    "context": "'pengbatuk'은(는) principalmente 'batuk 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batuk'의 용법에 유의하세요. 'pengbatuk' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batuk' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatuk untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batuk 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatuk yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batuk 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batuk",
+        "meaning": "(어근) batuk 수행 주체"
+      },
+      {
+        "word": "pengbatuk",
+        "meaning": "batuk 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ddqe8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatukan [[뼝batuk안]]",
+    "meaning": "batuk 과정 및 영역",
+    "pos": "명사",
+    "root": "batuk",
+    "affix_logic": "어근 'batuk'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'batuk'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses batuk",
+    "antonym": "bukan batuk",
+    "context": "'pengbatukan'은(는) principalmente 'batuk 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batuk'의 용법에 유의하세요. 'pengbatukan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batuk' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbatukan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batuk 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbatukan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batuk 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batuk",
+        "meaning": "(어근) batuk 과정 및 영역"
+      },
+      {
+        "word": "pengbatukan",
+        "meaning": "batuk 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ns0bm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbaur [[버르baur]]",
+    "meaning": "baur하는 상태이다, baur를 행하다",
+    "pos": "동사",
+    "root": "baur",
+    "affix_logic": "어근 'baur'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baur'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan baur",
+    "antonym": "tidak baur",
+    "context": "'berbaur'은(는) principalmente 'baur하는 상태이다, baur를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baur'의 용법에 유의하세요. 'berbaur' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbaur untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baur하는 상태이다, baur를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbaur yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baur하는 상태이다, baur를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baur",
+        "meaning": "(어근) baur하는 상태이다"
+      },
+      {
+        "word": "berbaur",
+        "meaning": "baur하는 상태이다, baur를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_b7b9d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaur [[뼝baur]]",
+    "meaning": "baur 수행 주체",
+    "pos": "명사",
+    "root": "baur",
+    "affix_logic": "어근 'baur'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baur'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak baur",
+    "antonym": "bukan baur",
+    "context": "'pengbaur'은(는) principalmente 'baur 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baur'의 용법에 유의하세요. 'pengbaur' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbaur untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baur 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbaur yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baur 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baur",
+        "meaning": "(어근) baur 수행 주체"
+      },
+      {
+        "word": "pengbaur",
+        "meaning": "baur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hrern",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbauran [[뼝baur안]]",
+    "meaning": "baur 과정 및 영역",
+    "pos": "명사",
+    "root": "baur",
+    "affix_logic": "어근 'baur'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'baur'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses baur",
+    "antonym": "bukan baur",
+    "context": "'pengbauran'은(는) principalmente 'baur 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baur'의 용법에 유의하세요. 'pengbauran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbauran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baur 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbauran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baur 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baur",
+        "meaning": "(어근) baur 과정 및 영역"
+      },
+      {
+        "word": "pengbauran",
+        "meaning": "baur 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_zc8t1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbawaan [[버르bawaan]]",
+    "meaning": "bawaan하는 상태이다, bawaan를 행하다",
+    "pos": "동사",
+    "root": "bawaan",
+    "affix_logic": "어근 'bawaan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bawaan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bawaan",
+    "antonym": "tidak bawaan",
+    "context": "'berbawaan'은(는) principalmente 'bawaan하는 상태이다, bawaan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bawaan'의 용법에 유의하세요. 'berbawaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bawaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbawaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bawaan하는 상태이다, bawaan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbawaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bawaan하는 상태이다, bawaan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bawaan",
+        "meaning": "(어근) bawaan하는 상태이다"
+      },
+      {
+        "word": "berbawaan",
+        "meaning": "bawaan하는 상태이다, bawaan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_4nw8w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbawaan [[뼝bawaan]]",
+    "meaning": "bawaan 수행 주체",
+    "pos": "명사",
+    "root": "bawaan",
+    "affix_logic": "어근 'bawaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bawaan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak bawaan",
+    "antonym": "bukan bawaan",
+    "context": "'pengbawaan'은(는) principalmente 'bawaan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bawaan'의 용법에 유의하세요. 'pengbawaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bawaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbawaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bawaan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbawaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bawaan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bawaan",
+        "meaning": "(어근) bawaan 수행 주체"
+      },
+      {
+        "word": "pengbawaan",
+        "meaning": "bawaan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hlcg9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbawaanan [[뼝bawaan안]]",
+    "meaning": "bawaan 과정 및 영역",
+    "pos": "명사",
+    "root": "bawaan",
+    "affix_logic": "어근 'bawaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bawaan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bawaan",
+    "antonym": "bukan bawaan",
+    "context": "'pengbawaanan'은(는) principalmente 'bawaan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bawaan'의 용법에 유의하세요. 'pengbawaanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bawaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbawaanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bawaan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbawaanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bawaan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bawaan",
+        "meaning": "(어근) bawaan 과정 및 영역"
+      },
+      {
+        "word": "pengbawaanan",
+        "meaning": "bawaan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_daut2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbayangan [[버르bayangan]]",
+    "meaning": "bayangan하는 상태이다, bayangan를 행하다",
+    "pos": "동사",
+    "root": "bayangan",
+    "affix_logic": "어근 'bayangan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bayangan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bayangan",
+    "antonym": "tidak bayangan",
+    "context": "'berbayangan'은(는) principalmente 'bayangan하는 상태이다, bayangan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bayangan'의 용법에 유의하세요. 'berbayangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bayangan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbayangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bayangan하는 상태이다, bayangan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbayangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bayangan하는 상태이다, bayangan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bayangan",
+        "meaning": "(어근) bayangan하는 상태이다"
+      },
+      {
+        "word": "berbayangan",
+        "meaning": "bayangan하는 상태이다, bayangan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_76gw4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbayangan [[뼝bayangan]]",
+    "meaning": "bayangan 수행 주체",
+    "pos": "명사",
+    "root": "bayangan",
+    "affix_logic": "어근 'bayangan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bayangan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak bayangan",
+    "antonym": "bukan bayangan",
+    "context": "'pengbayangan'은(는) principalmente 'bayangan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bayangan'의 용법에 유의하세요. 'pengbayangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bayangan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbayangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bayangan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbayangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bayangan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bayangan",
+        "meaning": "(어근) bayangan 수행 주체"
+      },
+      {
+        "word": "pengbayangan",
+        "meaning": "bayangan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_84md7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbayanganan [[뼝bayangan안]]",
+    "meaning": "bayangan 과정 및 영역",
+    "pos": "명사",
+    "root": "bayangan",
+    "affix_logic": "어근 'bayangan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bayangan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bayangan",
+    "antonym": "bukan bayangan",
+    "context": "'pengbayanganan'은(는) principalmente 'bayangan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bayangan'의 용법에 유의하세요. 'pengbayanganan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bayangan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbayanganan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bayangan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbayanganan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bayangan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bayangan",
+        "meaning": "(어근) bayangan 과정 및 영역"
+      },
+      {
+        "word": "pengbayanganan",
+        "meaning": "bayangan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qdpgj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbeban [[버르beban]]",
+    "meaning": "beban하는 상태이다, beban를 행하다",
+    "pos": "동사",
+    "root": "beban",
+    "affix_logic": "어근 'beban'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'beban'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan beban",
+    "antonym": "tidak beban",
+    "context": "'berbeban'은(는) principalmente 'beban하는 상태이다, beban를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beban'의 용법에 유의하세요. 'berbeban' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beban' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbeban untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beban하는 상태이다, beban를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbeban yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beban하는 상태이다, beban를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beban",
+        "meaning": "(어근) beban하는 상태이다"
+      },
+      {
+        "word": "berbeban",
+        "meaning": "beban하는 상태이다, beban를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vm1t9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbeban [[뼝beban]]",
+    "meaning": "beban 수행 주체",
+    "pos": "명사",
+    "root": "beban",
+    "affix_logic": "어근 'beban'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'beban'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak beban",
+    "antonym": "bukan beban",
+    "context": "'pengbeban'은(는) principalmente 'beban 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beban'의 용법에 유의하세요. 'pengbeban' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beban' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbeban untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beban 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbeban yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beban 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beban",
+        "meaning": "(어근) beban 수행 주체"
+      },
+      {
+        "word": "pengbeban",
+        "meaning": "beban 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_z3ku3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbebanan [[뼝beban안]]",
+    "meaning": "beban 과정 및 영역",
+    "pos": "명사",
+    "root": "beban",
+    "affix_logic": "어근 'beban'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'beban'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses beban",
+    "antonym": "bukan beban",
+    "context": "'pengbebanan'은(는) principalmente 'beban 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beban'의 용법에 유의하세요. 'pengbebanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beban' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbebanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beban 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbebanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beban 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beban",
+        "meaning": "(어근) beban 과정 및 영역"
+      },
+      {
+        "word": "pengbebanan",
+        "meaning": "beban 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_bbxkq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbebas [[뼝bebas]]",
+    "meaning": "bebas 수행 주체",
+    "pos": "명사",
+    "root": "bebas",
+    "affix_logic": "어근 'bebas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bebas'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bebas",
+    "antonym": "bukan bebas",
+    "context": "'pengbebas'은(는) principalmente 'bebas 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bebas'의 용법에 유의하세요. 'pengbebas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bebas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbebas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bebas 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbebas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bebas 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bebas",
+        "meaning": "(어근) bebas 수행 주체"
+      },
+      {
+        "word": "pengbebas",
+        "meaning": "bebas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vmy1g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbebasan [[뼝bebas안]]",
+    "meaning": "bebas 과정 및 영역",
+    "pos": "명사",
+    "root": "bebas",
+    "affix_logic": "어근 'bebas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bebas'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bebas",
+    "antonym": "bukan bebas",
+    "context": "'pengbebasan'은(는) principalmente 'bebas 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bebas'의 용법에 유의하세요. 'pengbebasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bebas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbebasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bebas 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbebasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bebas 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bebas",
+        "meaning": "(어근) bebas 과정 및 영역"
+      },
+      {
+        "word": "pengbebasan",
+        "meaning": "bebas 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hrjv7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbeasiswa [[버르beasiswa]]",
+    "meaning": "beasiswa하는 상태이다, beasiswa를 행하다",
+    "pos": "동사",
+    "root": "beasiswa",
+    "affix_logic": "어근 'beasiswa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'beasiswa'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan beasiswa",
+    "antonym": "tidak beasiswa",
+    "context": "'berbeasiswa'은(는) principalmente 'beasiswa하는 상태이다, beasiswa를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beasiswa'의 용법에 유의하세요. 'berbeasiswa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beasiswa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbeasiswa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beasiswa하는 상태이다, beasiswa를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbeasiswa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beasiswa하는 상태이다, beasiswa를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beasiswa",
+        "meaning": "(어근) beasiswa하는 상태이다"
+      },
+      {
+        "word": "berbeasiswa",
+        "meaning": "beasiswa하는 상태이다, beasiswa를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_os3ea",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbeasiswa [[뼝beasiswa]]",
+    "meaning": "beasiswa 수행 주체",
+    "pos": "명사",
+    "root": "beasiswa",
+    "affix_logic": "어근 'beasiswa'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'beasiswa'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak beasiswa",
+    "antonym": "bukan beasiswa",
+    "context": "'pengbeasiswa'은(는) principalmente 'beasiswa 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beasiswa'의 용법에 유의하세요. 'pengbeasiswa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beasiswa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbeasiswa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beasiswa 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbeasiswa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beasiswa 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beasiswa",
+        "meaning": "(어근) beasiswa 수행 주체"
+      },
+      {
+        "word": "pengbeasiswa",
+        "meaning": "beasiswa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_a5v9y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbeasiswaan [[뼝beasiswa안]]",
+    "meaning": "beasiswa 과정 및 영역",
+    "pos": "명사",
+    "root": "beasiswa",
+    "affix_logic": "어근 'beasiswa'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'beasiswa'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses beasiswa",
+    "antonym": "bukan beasiswa",
+    "context": "'pengbeasiswaan'은(는) principalmente 'beasiswa 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beasiswa'의 용법에 유의하세요. 'pengbeasiswaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beasiswa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbeasiswaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beasiswa 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbeasiswaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beasiswa 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beasiswa",
+        "meaning": "(어근) beasiswa 과정 및 영역"
+      },
+      {
+        "word": "pengbeasiswaan",
+        "meaning": "beasiswa 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_k1n2x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbedah [[버르bedah]]",
+    "meaning": "bedah하는 상태이다, bedah를 행하다",
+    "pos": "동사",
+    "root": "bedah",
+    "affix_logic": "어근 'bedah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bedah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bedah",
+    "antonym": "tidak bedah",
+    "context": "'berbedah'은(는) principalmente 'bedah하는 상태이다, bedah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedah'의 용법에 유의하세요. 'berbedah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbedah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedah하는 상태이다, bedah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbedah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedah하는 상태이다, bedah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedah",
+        "meaning": "(어근) bedah하는 상태이다"
+      },
+      {
+        "word": "berbedah",
+        "meaning": "bedah하는 상태이다, bedah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_pznqz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbedah [[뼝bedah]]",
+    "meaning": "bedah 수행 주체",
+    "pos": "명사",
+    "root": "bedah",
+    "affix_logic": "어근 'bedah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bedah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bedah",
+    "antonym": "bukan bedah",
+    "context": "'pengbedah'은(는) principalmente 'bedah 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedah'의 용법에 유의하세요. 'pengbedah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbedah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedah 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbedah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedah 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedah",
+        "meaning": "(어근) bedah 수행 주체"
+      },
+      {
+        "word": "pengbedah",
+        "meaning": "bedah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wu8a7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbedahan [[뼝bedah안]]",
+    "meaning": "bedah 과정 및 영역",
+    "pos": "명사",
+    "root": "bedah",
+    "affix_logic": "어근 'bedah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bedah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bedah",
+    "antonym": "bukan bedah",
+    "context": "'pengbedahan'은(는) principalmente 'bedah 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedah'의 용법에 유의하세요. 'pengbedahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbedahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedah 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbedahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedah 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedah",
+        "meaning": "(어근) bedah 과정 및 영역"
+      },
+      {
+        "word": "pengbedahan",
+        "meaning": "bedah 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5j1sn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbedak [[버르bedak]]",
+    "meaning": "bedak하는 상태이다, bedak를 행하다",
+    "pos": "동사",
+    "root": "bedak",
+    "affix_logic": "어근 'bedak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bedak'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bedak",
+    "antonym": "tidak bedak",
+    "context": "'berbedak'은(는) principalmente 'bedak하는 상태이다, bedak를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedak'의 용법에 유의하세요. 'berbedak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbedak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedak하는 상태이다, bedak를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbedak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedak하는 상태이다, bedak를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedak",
+        "meaning": "(어근) bedak하는 상태이다"
+      },
+      {
+        "word": "berbedak",
+        "meaning": "bedak하는 상태이다, bedak를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wvix0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbedak [[뼝bedak]]",
+    "meaning": "bedak 수행 주체",
+    "pos": "명사",
+    "root": "bedak",
+    "affix_logic": "어근 'bedak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bedak'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bedak",
+    "antonym": "bukan bedak",
+    "context": "'pengbedak'은(는) principalmente 'bedak 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedak'의 용법에 유의하세요. 'pengbedak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbedak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedak 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbedak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedak 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedak",
+        "meaning": "(어근) bedak 수행 주체"
+      },
+      {
+        "word": "pengbedak",
+        "meaning": "bedak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_f4kkn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbedakan [[뼝bedak안]]",
+    "meaning": "bedak 과정 및 영역",
+    "pos": "명사",
+    "root": "bedak",
+    "affix_logic": "어근 'bedak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bedak'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bedak",
+    "antonym": "bukan bedak",
+    "context": "'pengbedakan'은(는) principalmente 'bedak 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedak'의 용법에 유의하세요. 'pengbedakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbedakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedak 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbedakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedak 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedak",
+        "meaning": "(어근) bedak 과정 및 영역"
+      },
+      {
+        "word": "pengbedakan",
+        "meaning": "bedak 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_r6nze",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbegadang [[버르begadang]]",
+    "meaning": "begadang하는 상태이다, begadang를 행하다",
+    "pos": "동사",
+    "root": "begadang",
+    "affix_logic": "어근 'begadang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'begadang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan begadang",
+    "antonym": "tidak begadang",
+    "context": "'berbegadang'은(는) principalmente 'begadang하는 상태이다, begadang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'begadang'의 용법에 유의하세요. 'berbegadang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'begadang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbegadang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 begadang하는 상태이다, begadang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbegadang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 begadang하는 상태이다, begadang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "begadang",
+        "meaning": "(어근) begadang하는 상태이다"
+      },
+      {
+        "word": "berbegadang",
+        "meaning": "begadang하는 상태이다, begadang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_pllvx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbegadang [[뼝begadang]]",
+    "meaning": "begadang 수행 주체",
+    "pos": "명사",
+    "root": "begadang",
+    "affix_logic": "어근 'begadang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'begadang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak begadang",
+    "antonym": "bukan begadang",
+    "context": "'pengbegadang'은(는) principalmente 'begadang 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'begadang'의 용법에 유의하세요. 'pengbegadang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'begadang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbegadang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 begadang 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbegadang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 begadang 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "begadang",
+        "meaning": "(어근) begadang 수행 주체"
+      },
+      {
+        "word": "pengbegadang",
+        "meaning": "begadang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6baes",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbegadangan [[뼝begadang안]]",
+    "meaning": "begadang 과정 및 영역",
+    "pos": "명사",
+    "root": "begadang",
+    "affix_logic": "어근 'begadang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'begadang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses begadang",
+    "antonym": "bukan begadang",
+    "context": "'pengbegadangan'은(는) principalmente 'begadang 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'begadang'의 용법에 유의하세요. 'pengbegadangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'begadang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbegadangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 begadang 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbegadangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 begadang 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "begadang",
+        "meaning": "(어근) begadang 과정 및 영역"
+      },
+      {
+        "word": "pengbegadangan",
+        "meaning": "begadang 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qsfv6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbekal [[버르bekal]]",
+    "meaning": "bekal하는 상태이다, bekal를 행하다",
+    "pos": "동사",
+    "root": "bekal",
+    "affix_logic": "어근 'bekal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bekal'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bekal",
+    "antonym": "tidak bekal",
+    "context": "'berbekal'은(는) principalmente 'bekal하는 상태이다, bekal를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekal'의 용법에 유의하세요. 'berbekal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbekal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekal하는 상태이다, bekal를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbekal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekal하는 상태이다, bekal를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekal",
+        "meaning": "(어근) bekal하는 상태이다"
+      },
+      {
+        "word": "berbekal",
+        "meaning": "bekal하는 상태이다, bekal를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5u4q0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbekal [[뼝bekal]]",
+    "meaning": "bekal 수행 주체",
+    "pos": "명사",
+    "root": "bekal",
+    "affix_logic": "어근 'bekal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bekal'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bekal",
+    "antonym": "bukan bekal",
+    "context": "'pengbekal'은(는) principalmente 'bekal 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekal'의 용법에 유의하세요. 'pengbekal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbekal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekal 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbekal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekal 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekal",
+        "meaning": "(어근) bekal 수행 주체"
+      },
+      {
+        "word": "pengbekal",
+        "meaning": "bekal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_kqfev",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbekalan [[뼝bekal안]]",
+    "meaning": "bekal 과정 및 영역",
+    "pos": "명사",
+    "root": "bekal",
+    "affix_logic": "어근 'bekal'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bekal'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bekal",
+    "antonym": "bukan bekal",
+    "context": "'pengbekalan'은(는) principalmente 'bekal 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekal'의 용법에 유의하세요. 'pengbekalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbekalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekal 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbekalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekal 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekal",
+        "meaning": "(어근) bekal 과정 및 영역"
+      },
+      {
+        "word": "pengbekalan",
+        "meaning": "bekal 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_njs5u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbekas [[버르bekas]]",
+    "meaning": "bekas하는 상태이다, bekas를 행하다",
+    "pos": "동사",
+    "root": "bekas",
+    "affix_logic": "어근 'bekas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bekas'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bekas",
+    "antonym": "tidak bekas",
+    "context": "'berbekas'은(는) principalmente 'bekas하는 상태이다, bekas를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekas'의 용법에 유의하세요. 'berbekas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbekas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekas하는 상태이다, bekas를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbekas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekas하는 상태이다, bekas를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekas",
+        "meaning": "(어근) bekas하는 상태이다"
+      },
+      {
+        "word": "berbekas",
+        "meaning": "bekas하는 상태이다, bekas를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5kyrt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbekas [[뼝bekas]]",
+    "meaning": "bekas 수행 주체",
+    "pos": "명사",
+    "root": "bekas",
+    "affix_logic": "어근 'bekas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bekas'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bekas",
+    "antonym": "bukan bekas",
+    "context": "'pengbekas'은(는) principalmente 'bekas 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekas'의 용법에 유의하세요. 'pengbekas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbekas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekas 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbekas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekas 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekas",
+        "meaning": "(어근) bekas 수행 주체"
+      },
+      {
+        "word": "pengbekas",
+        "meaning": "bekas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_w5rp5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbekasan [[뼝bekas안]]",
+    "meaning": "bekas 과정 및 영역",
+    "pos": "명사",
+    "root": "bekas",
+    "affix_logic": "어근 'bekas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bekas'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bekas",
+    "antonym": "bukan bekas",
+    "context": "'pengbekasan'은(는) principalmente 'bekas 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekas'의 용법에 유의하세요. 'pengbekasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbekasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekas 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbekasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekas 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekas",
+        "meaning": "(어근) bekas 과정 및 영역"
+      },
+      {
+        "word": "pengbekasan",
+        "meaning": "bekas 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_go7n3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbelahan [[버르belahan]]",
+    "meaning": "belahan하는 상태이다, belahan를 행하다",
+    "pos": "동사",
+    "root": "belahan",
+    "affix_logic": "어근 'belahan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belahan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan belahan",
+    "antonym": "tidak belahan",
+    "context": "'berbelahan'은(는) principalmente 'belahan하는 상태이다, belahan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belahan'의 용법에 유의하세요. 'berbelahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbelahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belahan하는 상태이다, belahan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbelahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belahan하는 상태이다, belahan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belahan",
+        "meaning": "(어근) belahan하는 상태이다"
+      },
+      {
+        "word": "berbelahan",
+        "meaning": "belahan하는 상태이다, belahan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_dsv7d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbelahan [[뼝belahan]]",
+    "meaning": "belahan 수행 주체",
+    "pos": "명사",
+    "root": "belahan",
+    "affix_logic": "어근 'belahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belahan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak belahan",
+    "antonym": "bukan belahan",
+    "context": "'pengbelahan'은(는) principalmente 'belahan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belahan'의 용법에 유의하세요. 'pengbelahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbelahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belahan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbelahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belahan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belahan",
+        "meaning": "(어근) belahan 수행 주체"
+      },
+      {
+        "word": "pengbelahan",
+        "meaning": "belahan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_uorj5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbelahanan [[뼝belahan안]]",
+    "meaning": "belahan 과정 및 영역",
+    "pos": "명사",
+    "root": "belahan",
+    "affix_logic": "어근 'belahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belahan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses belahan",
+    "antonym": "bukan belahan",
+    "context": "'pengbelahanan'은(는) principalmente 'belahan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belahan'의 용법에 유의하세요. 'pengbelahanan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbelahanan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belahan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbelahanan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belahan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belahan",
+        "meaning": "(어근) belahan 과정 및 영역"
+      },
+      {
+        "word": "pengbelahanan",
+        "meaning": "belahan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_17mbp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbelanja [[버르belanja]]",
+    "meaning": "belanja하는 상태이다, belanja를 행하다",
+    "pos": "동사",
+    "root": "belanja",
+    "affix_logic": "어근 'belanja'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belanja'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan belanja",
+    "antonym": "tidak belanja",
+    "context": "'berbelanja'은(는) principalmente 'belanja하는 상태이다, belanja를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belanja'의 용법에 유의하세요. 'berbelanja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belanja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbelanja untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belanja하는 상태이다, belanja를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbelanja yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belanja하는 상태이다, belanja를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belanja",
+        "meaning": "(어근) belanja하는 상태이다"
+      },
+      {
+        "word": "berbelanja",
+        "meaning": "belanja하는 상태이다, belanja를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hzk9p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbelanja [[뼝belanja]]",
+    "meaning": "belanja 수행 주체",
+    "pos": "명사",
+    "root": "belanja",
+    "affix_logic": "어근 'belanja'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belanja'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak belanja",
+    "antonym": "bukan belanja",
+    "context": "'pengbelanja'은(는) principalmente 'belanja 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belanja'의 용법에 유의하세요. 'pengbelanja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belanja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbelanja untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belanja 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbelanja yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belanja 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belanja",
+        "meaning": "(어근) belanja 수행 주체"
+      },
+      {
+        "word": "pengbelanja",
+        "meaning": "belanja 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_62gnq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbelanjaan [[뼝belanja안]]",
+    "meaning": "belanja 과정 및 영역",
+    "pos": "명사",
+    "root": "belanja",
+    "affix_logic": "어근 'belanja'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belanja'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses belanja",
+    "antonym": "bukan belanja",
+    "context": "'pengbelanjaan'은(는) principalmente 'belanja 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belanja'의 용법에 유의하세요. 'pengbelanjaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belanja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbelanjaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belanja 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbelanjaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belanja 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belanja",
+        "meaning": "(어근) belanja 과정 및 영역"
+      },
+      {
+        "word": "pengbelanjaan",
+        "meaning": "belanja 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_cm4ke",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbelia [[버르belia]]",
+    "meaning": "belia하는 상태이다, belia를 행하다",
+    "pos": "동사",
+    "root": "belia",
+    "affix_logic": "어근 'belia'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belia'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan belia",
+    "antonym": "tidak belia",
+    "context": "'berbelia'은(는) principalmente 'belia하는 상태이다, belia를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belia'의 용법에 유의하세요. 'berbelia' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belia' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbelia untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belia하는 상태이다, belia를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbelia yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belia하는 상태이다, belia를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belia",
+        "meaning": "(어근) belia하는 상태이다"
+      },
+      {
+        "word": "berbelia",
+        "meaning": "belia하는 상태이다, belia를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_uf9aw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbelia [[뼝belia]]",
+    "meaning": "belia 수행 주체",
+    "pos": "명사",
+    "root": "belia",
+    "affix_logic": "어근 'belia'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belia'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak belia",
+    "antonym": "bukan belia",
+    "context": "'pengbelia'은(는) principalmente 'belia 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belia'의 용법에 유의하세요. 'pengbelia' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belia' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbelia untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belia 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbelia yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belia 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belia",
+        "meaning": "(어근) belia 수행 주체"
+      },
+      {
+        "word": "pengbelia",
+        "meaning": "belia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_s91ii",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbeliaan [[뼝belia안]]",
+    "meaning": "belia 과정 및 영역",
+    "pos": "명사",
+    "root": "belia",
+    "affix_logic": "어근 'belia'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belia'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses belia",
+    "antonym": "bukan belia",
+    "context": "'pengbeliaan'은(는) principalmente 'belia 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belia'의 용법에 유의하세요. 'pengbeliaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belia' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbeliaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belia 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbeliaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belia 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belia",
+        "meaning": "(어근) belia 과정 및 영역"
+      },
+      {
+        "word": "pengbeliaan",
+        "meaning": "belia 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_0366u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbelut [[버르belut]]",
+    "meaning": "belut하는 상태이다, belut를 행하다",
+    "pos": "동사",
+    "root": "belut",
+    "affix_logic": "어근 'belut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belut'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan belut",
+    "antonym": "tidak belut",
+    "context": "'berbelut'은(는) principalmente 'belut하는 상태이다, belut를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belut'의 용법에 유의하세요. 'berbelut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbelut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belut하는 상태이다, belut를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbelut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belut하는 상태이다, belut를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belut",
+        "meaning": "(어근) belut하는 상태이다"
+      },
+      {
+        "word": "berbelut",
+        "meaning": "belut하는 상태이다, belut를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9f2xh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbelut [[뼝belut]]",
+    "meaning": "belut 수행 주체",
+    "pos": "명사",
+    "root": "belut",
+    "affix_logic": "어근 'belut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belut'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak belut",
+    "antonym": "bukan belut",
+    "context": "'pengbelut'은(는) principalmente 'belut 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belut'의 용법에 유의하세요. 'pengbelut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbelut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belut 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbelut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belut 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belut",
+        "meaning": "(어근) belut 수행 주체"
+      },
+      {
+        "word": "pengbelut",
+        "meaning": "belut 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gcx9e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbelutan [[뼝belut안]]",
+    "meaning": "belut 과정 및 영역",
+    "pos": "명사",
+    "root": "belut",
+    "affix_logic": "어근 'belut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'belut'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses belut",
+    "antonym": "bukan belut",
+    "context": "'pengbelutan'은(는) principalmente 'belut 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belut'의 용법에 유의하세요. 'pengbelutan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbelutan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belut 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbelutan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belut 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belut",
+        "meaning": "(어근) belut 과정 및 영역"
+      },
+      {
+        "word": "pengbelutan",
+        "meaning": "belut 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_zu5e7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbenang [[버르benang]]",
+    "meaning": "benang하는 상태이다, benang를 행하다",
+    "pos": "동사",
+    "root": "benang",
+    "affix_logic": "어근 'benang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan benang",
+    "antonym": "tidak benang",
+    "context": "'berbenang'은(는) principalmente 'benang하는 상태이다, benang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benang'의 용법에 유의하세요. 'berbenang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbenang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benang하는 상태이다, benang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbenang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benang하는 상태이다, benang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benang",
+        "meaning": "(어근) benang하는 상태이다"
+      },
+      {
+        "word": "berbenang",
+        "meaning": "benang하는 상태이다, benang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_0hx82",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenang [[뼝benang]]",
+    "meaning": "benang 수행 주체",
+    "pos": "명사",
+    "root": "benang",
+    "affix_logic": "어근 'benang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak benang",
+    "antonym": "bukan benang",
+    "context": "'pengbenang'은(는) principalmente 'benang 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benang'의 용법에 유의하세요. 'pengbenang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbenang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benang 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbenang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benang 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benang",
+        "meaning": "(어근) benang 수행 주체"
+      },
+      {
+        "word": "pengbenang",
+        "meaning": "benang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_dq2nc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenangan [[뼝benang안]]",
+    "meaning": "benang 과정 및 영역",
+    "pos": "명사",
+    "root": "benang",
+    "affix_logic": "어근 'benang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses benang",
+    "antonym": "bukan benang",
+    "context": "'pengbenangan'은(는) principalmente 'benang 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benang'의 용법에 유의하세요. 'pengbenangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbenangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benang 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbenangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benang 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benang",
+        "meaning": "(어근) benang 과정 및 영역"
+      },
+      {
+        "word": "pengbenangan",
+        "meaning": "benang 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_jvfa5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbencana [[버르bencana]]",
+    "meaning": "bencana하는 상태이다, bencana를 행하다",
+    "pos": "동사",
+    "root": "bencana",
+    "affix_logic": "어근 'bencana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bencana'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bencana",
+    "antonym": "tidak bencana",
+    "context": "'berbencana'은(는) principalmente 'bencana하는 상태이다, bencana를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bencana'의 용법에 유의하세요. 'berbencana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bencana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbencana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bencana하는 상태이다, bencana를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbencana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bencana하는 상태이다, bencana를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bencana",
+        "meaning": "(어근) bencana하는 상태이다"
+      },
+      {
+        "word": "berbencana",
+        "meaning": "bencana하는 상태이다, bencana를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qc89j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbencana [[뼝bencana]]",
+    "meaning": "bencana 수행 주체",
+    "pos": "명사",
+    "root": "bencana",
+    "affix_logic": "어근 'bencana'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bencana'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bencana",
+    "antonym": "bukan bencana",
+    "context": "'pengbencana'은(는) principalmente 'bencana 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bencana'의 용법에 유의하세요. 'pengbencana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bencana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbencana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bencana 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbencana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bencana 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bencana",
+        "meaning": "(어근) bencana 수행 주체"
+      },
+      {
+        "word": "pengbencana",
+        "meaning": "bencana 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_c9vz5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbencanaan [[뼝bencana안]]",
+    "meaning": "bencana 과정 및 영역",
+    "pos": "명사",
+    "root": "bencana",
+    "affix_logic": "어근 'bencana'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bencana'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bencana",
+    "antonym": "bukan bencana",
+    "context": "'pengbencanaan'은(는) principalmente 'bencana 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bencana'의 용법에 유의하세요. 'pengbencanaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bencana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbencanaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bencana 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbencanaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bencana 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bencana",
+        "meaning": "(어근) bencana 과정 및 영역"
+      },
+      {
+        "word": "pengbencanaan",
+        "meaning": "bencana 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8y548",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbenci [[버르benci]]",
+    "meaning": "benci하는 상태이다, benci를 행하다",
+    "pos": "동사",
+    "root": "benci",
+    "affix_logic": "어근 'benci'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benci'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan benci",
+    "antonym": "tidak benci",
+    "context": "'berbenci'은(는) principalmente 'benci하는 상태이다, benci를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benci'의 용법에 유의하세요. 'berbenci' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benci' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbenci untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benci하는 상태이다, benci를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbenci yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benci하는 상태이다, benci를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benci",
+        "meaning": "(어근) benci하는 상태이다"
+      },
+      {
+        "word": "berbenci",
+        "meaning": "benci하는 상태이다, benci를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_maf0e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenci [[뼝benci]]",
+    "meaning": "benci 수행 주체",
+    "pos": "명사",
+    "root": "benci",
+    "affix_logic": "어근 'benci'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benci'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak benci",
+    "antonym": "bukan benci",
+    "context": "'pengbenci'은(는) principalmente 'benci 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benci'의 용법에 유의하세요. 'pengbenci' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benci' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbenci untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benci 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbenci yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benci 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benci",
+        "meaning": "(어근) benci 수행 주체"
+      },
+      {
+        "word": "pengbenci",
+        "meaning": "benci 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_y9mcu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbencian [[뼝benci안]]",
+    "meaning": "benci 과정 및 영역",
+    "pos": "명사",
+    "root": "benci",
+    "affix_logic": "어근 'benci'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benci'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses benci",
+    "antonym": "bukan benci",
+    "context": "'pengbencian'은(는) principalmente 'benci 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benci'의 용법에 유의하세요. 'pengbencian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benci' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbencian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benci 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbencian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benci 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benci",
+        "meaning": "(어근) benci 과정 및 영역"
+      },
+      {
+        "word": "pengbencian",
+        "meaning": "benci 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_udzbg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbenda [[버르benda]]",
+    "meaning": "benda하는 상태이다, benda를 행하다",
+    "pos": "동사",
+    "root": "benda",
+    "affix_logic": "어근 'benda'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benda'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan benda",
+    "antonym": "tidak benda",
+    "context": "'berbenda'은(는) principalmente 'benda하는 상태이다, benda를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benda'의 용법에 유의하세요. 'berbenda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbenda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benda하는 상태이다, benda를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbenda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benda하는 상태이다, benda를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benda",
+        "meaning": "(어근) benda하는 상태이다"
+      },
+      {
+        "word": "berbenda",
+        "meaning": "benda하는 상태이다, benda를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_l0y4t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenda [[뼝benda]]",
+    "meaning": "benda 수행 주체",
+    "pos": "명사",
+    "root": "benda",
+    "affix_logic": "어근 'benda'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benda'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak benda",
+    "antonym": "bukan benda",
+    "context": "'pengbenda'은(는) principalmente 'benda 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benda'의 용법에 유의하세요. 'pengbenda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbenda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benda 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbenda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benda 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benda",
+        "meaning": "(어근) benda 수행 주체"
+      },
+      {
+        "word": "pengbenda",
+        "meaning": "benda 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_92cd7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbendaan [[뼝benda안]]",
+    "meaning": "benda 과정 및 영역",
+    "pos": "명사",
+    "root": "benda",
+    "affix_logic": "어근 'benda'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benda'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses benda",
+    "antonym": "bukan benda",
+    "context": "'pengbendaan'은(는) principalmente 'benda 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benda'의 용법에 유의하세요. 'pengbendaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbendaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benda 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbendaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benda 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benda",
+        "meaning": "(어근) benda 과정 및 영역"
+      },
+      {
+        "word": "pengbendaan",
+        "meaning": "benda 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_r9nsx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbengkel [[버르bengkel]]",
+    "meaning": "bengkel하는 상태이다, bengkel를 행하다",
+    "pos": "동사",
+    "root": "bengkel",
+    "affix_logic": "어근 'bengkel'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bengkel'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bengkel",
+    "antonym": "tidak bengkel",
+    "context": "'berbengkel'은(는) principalmente 'bengkel하는 상태이다, bengkel를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bengkel'의 용법에 유의하세요. 'berbengkel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bengkel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbengkel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bengkel하는 상태이다, bengkel를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbengkel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bengkel하는 상태이다, bengkel를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bengkel",
+        "meaning": "(어근) bengkel하는 상태이다"
+      },
+      {
+        "word": "berbengkel",
+        "meaning": "bengkel하는 상태이다, bengkel를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qwnbs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbengkel [[뼝bengkel]]",
+    "meaning": "bengkel 수행 주체",
+    "pos": "명사",
+    "root": "bengkel",
+    "affix_logic": "어근 'bengkel'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bengkel'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bengkel",
+    "antonym": "bukan bengkel",
+    "context": "'pengbengkel'은(는) principalmente 'bengkel 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bengkel'의 용법에 유의하세요. 'pengbengkel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bengkel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbengkel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bengkel 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbengkel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bengkel 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bengkel",
+        "meaning": "(어근) bengkel 수행 주체"
+      },
+      {
+        "word": "pengbengkel",
+        "meaning": "bengkel 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hz6uc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbengkelan [[뼝bengkel안]]",
+    "meaning": "bengkel 과정 및 영역",
+    "pos": "명사",
+    "root": "bengkel",
+    "affix_logic": "어근 'bengkel'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bengkel'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bengkel",
+    "antonym": "bukan bengkel",
+    "context": "'pengbengkelan'은(는) principalmente 'bengkel 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bengkel'의 용법에 유의하세요. 'pengbengkelan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bengkel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbengkelan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bengkel 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbengkelan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bengkel 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bengkel",
+        "meaning": "(어근) bengkel 과정 및 영역"
+      },
+      {
+        "word": "pengbengkelan",
+        "meaning": "bengkel 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_tisb4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbening [[버르bening]]",
+    "meaning": "bening하는 상태이다, bening를 행하다",
+    "pos": "동사",
+    "root": "bening",
+    "affix_logic": "어근 'bening'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bening'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bening",
+    "antonym": "tidak bening",
+    "context": "'berbening'은(는) principalmente 'bening하는 상태이다, bening를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bening'의 용법에 유의하세요. 'berbening' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bening' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbening untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bening하는 상태이다, bening를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbening yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bening하는 상태이다, bening를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bening",
+        "meaning": "(어근) bening하는 상태이다"
+      },
+      {
+        "word": "berbening",
+        "meaning": "bening하는 상태이다, bening를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gt454",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbening [[뼝bening]]",
+    "meaning": "bening 수행 주체",
+    "pos": "명사",
+    "root": "bening",
+    "affix_logic": "어근 'bening'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bening'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bening",
+    "antonym": "bukan bening",
+    "context": "'pengbening'은(는) principalmente 'bening 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bening'의 용법에 유의하세요. 'pengbening' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bening' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbening untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bening 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbening yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bening 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bening",
+        "meaning": "(어근) bening 수행 주체"
+      },
+      {
+        "word": "pengbening",
+        "meaning": "bening 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_k378u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbeningan [[뼝bening안]]",
+    "meaning": "bening 과정 및 영역",
+    "pos": "명사",
+    "root": "bening",
+    "affix_logic": "어근 'bening'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bening'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bening",
+    "antonym": "bukan bening",
+    "context": "'pengbeningan'은(는) principalmente 'bening 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bening'의 용법에 유의하세요. 'pengbeningan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bening' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbeningan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bening 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbeningan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bening 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bening",
+        "meaning": "(어근) bening 과정 및 영역"
+      },
+      {
+        "word": "pengbeningan",
+        "meaning": "bening 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ifcp4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbentang [[버르bentang]]",
+    "meaning": "bentang하는 상태이다, bentang를 행하다",
+    "pos": "동사",
+    "root": "bentang",
+    "affix_logic": "어근 'bentang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bentang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bentang",
+    "antonym": "tidak bentang",
+    "context": "'berbentang'은(는) principalmente 'bentang하는 상태이다, bentang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentang'의 용법에 유의하세요. 'berbentang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbentang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentang하는 상태이다, bentang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbentang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentang하는 상태이다, bentang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentang",
+        "meaning": "(어근) bentang하는 상태이다"
+      },
+      {
+        "word": "berbentang",
+        "meaning": "bentang하는 상태이다, bentang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_93drl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbentang [[뼝bentang]]",
+    "meaning": "bentang 수행 주체",
+    "pos": "명사",
+    "root": "bentang",
+    "affix_logic": "어근 'bentang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bentang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bentang",
+    "antonym": "bukan bentang",
+    "context": "'pengbentang'은(는) principalmente 'bentang 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentang'의 용법에 유의하세요. 'pengbentang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbentang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentang 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbentang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentang 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentang",
+        "meaning": "(어근) bentang 수행 주체"
+      },
+      {
+        "word": "pengbentang",
+        "meaning": "bentang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_fj8aq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbentangan [[뼝bentang안]]",
+    "meaning": "bentang 과정 및 영역",
+    "pos": "명사",
+    "root": "bentang",
+    "affix_logic": "어근 'bentang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bentang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bentang",
+    "antonym": "bukan bentang",
+    "context": "'pengbentangan'은(는) principalmente 'bentang 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentang'의 용법에 유의하세요. 'pengbentangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbentangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentang 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbentangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentang 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentang",
+        "meaning": "(어근) bentang 과정 및 영역"
+      },
+      {
+        "word": "pengbentangan",
+        "meaning": "bentang 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_3v96z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbentrok [[버르bentrok]]",
+    "meaning": "bentrok하는 상태이다, bentrok를 행하다",
+    "pos": "동사",
+    "root": "bentrok",
+    "affix_logic": "어근 'bentrok'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bentrok'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bentrok",
+    "antonym": "tidak bentrok",
+    "context": "'berbentrok'은(는) principalmente 'bentrok하는 상태이다, bentrok를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentrok'의 용법에 유의하세요. 'berbentrok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentrok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbentrok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentrok하는 상태이다, bentrok를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbentrok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentrok하는 상태이다, bentrok를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentrok",
+        "meaning": "(어근) bentrok하는 상태이다"
+      },
+      {
+        "word": "berbentrok",
+        "meaning": "bentrok하는 상태이다, bentrok를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_lkxwl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbentrok [[뼝bentrok]]",
+    "meaning": "bentrok 수행 주체",
+    "pos": "명사",
+    "root": "bentrok",
+    "affix_logic": "어근 'bentrok'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bentrok'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bentrok",
+    "antonym": "bukan bentrok",
+    "context": "'pengbentrok'은(는) principalmente 'bentrok 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentrok'의 용법에 유의하세요. 'pengbentrok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentrok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbentrok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentrok 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbentrok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentrok 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentrok",
+        "meaning": "(어근) bentrok 수행 주체"
+      },
+      {
+        "word": "pengbentrok",
+        "meaning": "bentrok 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_2s94y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbentrokan [[뼝bentrok안]]",
+    "meaning": "bentrok 과정 및 영역",
+    "pos": "명사",
+    "root": "bentrok",
+    "affix_logic": "어근 'bentrok'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bentrok'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bentrok",
+    "antonym": "bukan bentrok",
+    "context": "'pengbentrokan'은(는) principalmente 'bentrok 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentrok'의 용법에 유의하세요. 'pengbentrokan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentrok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbentrokan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentrok 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbentrokan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentrok 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentrok",
+        "meaning": "(어근) bentrok 과정 및 영역"
+      },
+      {
+        "word": "pengbentrokan",
+        "meaning": "bentrok 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_v9dzh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbenih [[버르benih]]",
+    "meaning": "benih하는 상태이다, benih를 행하다",
+    "pos": "동사",
+    "root": "benih",
+    "affix_logic": "어근 'benih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benih'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan benih",
+    "antonym": "tidak benih",
+    "context": "'berbenih'은(는) principalmente 'benih하는 상태이다, benih를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benih'의 용법에 유의하세요. 'berbenih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbenih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benih하는 상태이다, benih를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbenih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benih하는 상태이다, benih를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benih",
+        "meaning": "(어근) benih하는 상태이다"
+      },
+      {
+        "word": "berbenih",
+        "meaning": "benih하는 상태이다, benih를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ils1u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenih [[뼝benih]]",
+    "meaning": "benih 수행 주체",
+    "pos": "명사",
+    "root": "benih",
+    "affix_logic": "어근 'benih'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benih'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak benih",
+    "antonym": "bukan benih",
+    "context": "'pengbenih'은(는) principalmente 'benih 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benih'의 용법에 유의하세요. 'pengbenih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbenih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benih 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbenih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benih 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benih",
+        "meaning": "(어근) benih 수행 주체"
+      },
+      {
+        "word": "pengbenih",
+        "meaning": "benih 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_sgowt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenihan [[뼝benih안]]",
+    "meaning": "benih 과정 및 영역",
+    "pos": "명사",
+    "root": "benih",
+    "affix_logic": "어근 'benih'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'benih'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses benih",
+    "antonym": "bukan benih",
+    "context": "'pengbenihan'은(는) principalmente 'benih 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benih'의 용법에 유의하세요. 'pengbenihan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbenihan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benih 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbenihan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benih 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benih",
+        "meaning": "(어근) benih 과정 및 영역"
+      },
+      {
+        "word": "pengbenihan",
+        "meaning": "benih 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_zrc19",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berberkat [[버르berkat]]",
+    "meaning": "berkat하는 상태이다, berkat를 행하다",
+    "pos": "동사",
+    "root": "berkat",
+    "affix_logic": "어근 'berkat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berkat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan berkat",
+    "antonym": "tidak berkat",
+    "context": "'berberkat'은(는) principalmente 'berkat하는 상태이다, berkat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkat'의 용법에 유의하세요. 'berberkat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berberkat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkat하는 상태이다, berkat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berberkat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkat하는 상태이다, berkat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkat",
+        "meaning": "(어근) berkat하는 상태이다"
+      },
+      {
+        "word": "berberkat",
+        "meaning": "berkat하는 상태이다, berkat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_s44tn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberkat [[뼝berkat]]",
+    "meaning": "berkat 수행 주체",
+    "pos": "명사",
+    "root": "berkat",
+    "affix_logic": "어근 'berkat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'berkat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak berkat",
+    "antonym": "bukan berkat",
+    "context": "'pengberkat'은(는) principalmente 'berkat 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkat'의 용법에 유의하세요. 'pengberkat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengberkat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkat 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengberkat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkat 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkat",
+        "meaning": "(어근) berkat 수행 주체"
+      },
+      {
+        "word": "pengberkat",
+        "meaning": "berkat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_r9jpb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberkatan [[뼝berkat안]]",
+    "meaning": "berkat 과정 및 영역",
+    "pos": "명사",
+    "root": "berkat",
+    "affix_logic": "어근 'berkat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'berkat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses berkat",
+    "antonym": "bukan berkat",
+    "context": "'pengberkatan'은(는) principalmente 'berkat 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkat'의 용법에 유의하세요. 'pengberkatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengberkatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkat 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengberkatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkat 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkat",
+        "meaning": "(어근) berkat 과정 및 영역"
+      },
+      {
+        "word": "pengberkatan",
+        "meaning": "berkat 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_e3tvs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berberkah [[버르berkah]]",
+    "meaning": "berkah하는 상태이다, berkah를 행하다",
+    "pos": "동사",
+    "root": "berkah",
+    "affix_logic": "어근 'berkah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berkah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan berkah",
+    "antonym": "tidak berkah",
+    "context": "'berberkah'은(는) principalmente 'berkah하는 상태이다, berkah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkah'의 용법에 유의하세요. 'berberkah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berberkah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkah하는 상태이다, berkah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berberkah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkah하는 상태이다, berkah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkah",
+        "meaning": "(어근) berkah하는 상태이다"
+      },
+      {
+        "word": "berberkah",
+        "meaning": "berkah하는 상태이다, berkah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_h07uc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberkah [[뼝berkah]]",
+    "meaning": "berkah 수행 주체",
+    "pos": "명사",
+    "root": "berkah",
+    "affix_logic": "어근 'berkah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'berkah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak berkah",
+    "antonym": "bukan berkah",
+    "context": "'pengberkah'은(는) principalmente 'berkah 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkah'의 용법에 유의하세요. 'pengberkah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengberkah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkah 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengberkah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkah 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkah",
+        "meaning": "(어근) berkah 수행 주체"
+      },
+      {
+        "word": "pengberkah",
+        "meaning": "berkah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_3egbw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberkahan [[뼝berkah안]]",
+    "meaning": "berkah 과정 및 영역",
+    "pos": "명사",
+    "root": "berkah",
+    "affix_logic": "어근 'berkah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'berkah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses berkah",
+    "antonym": "bukan berkah",
+    "context": "'pengberkahan'은(는) principalmente 'berkah 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkah'의 용법에 유의하세요. 'pengberkahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengberkahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkah 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengberkahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkah 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkah",
+        "meaning": "(어근) berkah 과정 및 영역"
+      },
+      {
+        "word": "pengberkahan",
+        "meaning": "berkah 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_0kgt7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berberlian [[버르berlian]]",
+    "meaning": "berlian하는 상태이다, berlian를 행하다",
+    "pos": "동사",
+    "root": "berlian",
+    "affix_logic": "어근 'berlian'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berlian'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan berlian",
+    "antonym": "tidak berlian",
+    "context": "'berberlian'은(는) principalmente 'berlian하는 상태이다, berlian를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berlian'의 용법에 유의하세요. 'berberlian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berlian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berberlian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berlian하는 상태이다, berlian를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berberlian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berlian하는 상태이다, berlian를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berlian",
+        "meaning": "(어근) berlian하는 상태이다"
+      },
+      {
+        "word": "berberlian",
+        "meaning": "berlian하는 상태이다, berlian를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_rw3bh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberlian [[뼝berlian]]",
+    "meaning": "berlian 수행 주체",
+    "pos": "명사",
+    "root": "berlian",
+    "affix_logic": "어근 'berlian'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'berlian'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak berlian",
+    "antonym": "bukan berlian",
+    "context": "'pengberlian'은(는) principalmente 'berlian 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berlian'의 용법에 유의하세요. 'pengberlian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berlian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengberlian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berlian 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengberlian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berlian 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berlian",
+        "meaning": "(어근) berlian 수행 주체"
+      },
+      {
+        "word": "pengberlian",
+        "meaning": "berlian 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_omf6f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberlianan [[뼝berlian안]]",
+    "meaning": "berlian 과정 및 영역",
+    "pos": "명사",
+    "root": "berlian",
+    "affix_logic": "어근 'berlian'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'berlian'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses berlian",
+    "antonym": "bukan berlian",
+    "context": "'pengberlianan'은(는) principalmente 'berlian 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berlian'의 용법에 유의하세요. 'pengberlianan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berlian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengberlianan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berlian 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengberlianan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berlian 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berlian",
+        "meaning": "(어근) berlian 과정 및 영역"
+      },
+      {
+        "word": "pengberlianan",
+        "meaning": "berlian 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_i8glq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbersih [[버르bersih]]",
+    "meaning": "bersih하는 상태이다, bersih를 행하다",
+    "pos": "동사",
+    "root": "bersih",
+    "affix_logic": "어근 'bersih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bersih'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bersih",
+    "antonym": "tidak bersih",
+    "context": "'berbersih'은(는) principalmente 'bersih하는 상태이다, bersih를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bersih'의 용법에 유의하세요. 'berbersih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bersih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbersih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bersih하는 상태이다, bersih를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbersih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bersih하는 상태이다, bersih를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bersih",
+        "meaning": "(어근) bersih하는 상태이다"
+      },
+      {
+        "word": "berbersih",
+        "meaning": "bersih하는 상태이다, bersih를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_z3iwj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbersih [[뼝bersih]]",
+    "meaning": "bersih 수행 주체",
+    "pos": "명사",
+    "root": "bersih",
+    "affix_logic": "어근 'bersih'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bersih'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bersih",
+    "antonym": "bukan bersih",
+    "context": "'pengbersih'은(는) principalmente 'bersih 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bersih'의 용법에 유의하세요. 'pengbersih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bersih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbersih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bersih 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbersih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bersih 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bersih",
+        "meaning": "(어근) bersih 수행 주체"
+      },
+      {
+        "word": "pengbersih",
+        "meaning": "bersih 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gucmj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbersihan [[뼝bersih안]]",
+    "meaning": "bersih 과정 및 영역",
+    "pos": "명사",
+    "root": "bersih",
+    "affix_logic": "어근 'bersih'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bersih'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bersih",
+    "antonym": "bukan bersih",
+    "context": "'pengbersihan'은(는) principalmente 'bersih 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bersih'의 용법에 유의하세요. 'pengbersihan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bersih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbersihan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bersih 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbersihan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bersih 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bersih",
+        "meaning": "(어근) bersih 과정 및 영역"
+      },
+      {
+        "word": "pengbersihan",
+        "meaning": "bersih 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hjdra",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbesok [[버르besok]]",
+    "meaning": "besok하는 상태이다, besok를 행하다",
+    "pos": "동사",
+    "root": "besok",
+    "affix_logic": "어근 'besok'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'besok'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan besok",
+    "antonym": "tidak besok",
+    "context": "'berbesok'은(는) principalmente 'besok하는 상태이다, besok를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'besok'의 용법에 유의하세요. 'berbesok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'besok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbesok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 besok하는 상태이다, besok를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbesok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 besok하는 상태이다, besok를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "besok",
+        "meaning": "(어근) besok하는 상태이다"
+      },
+      {
+        "word": "berbesok",
+        "meaning": "besok하는 상태이다, besok를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_a5ll8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbesok [[뼝besok]]",
+    "meaning": "besok 수행 주체",
+    "pos": "명사",
+    "root": "besok",
+    "affix_logic": "어근 'besok'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'besok'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak besok",
+    "antonym": "bukan besok",
+    "context": "'pengbesok'은(는) principalmente 'besok 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'besok'의 용법에 유의하세요. 'pengbesok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'besok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbesok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 besok 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbesok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 besok 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "besok",
+        "meaning": "(어근) besok 수행 주체"
+      },
+      {
+        "word": "pengbesok",
+        "meaning": "besok 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_bqrtr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbesokan [[뼝besok안]]",
+    "meaning": "besok 과정 및 영역",
+    "pos": "명사",
+    "root": "besok",
+    "affix_logic": "어근 'besok'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'besok'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses besok",
+    "antonym": "bukan besok",
+    "context": "'pengbesokan'은(는) principalmente 'besok 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'besok'의 용법에 유의하세요. 'pengbesokan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'besok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbesokan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 besok 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbesokan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 besok 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "besok",
+        "meaning": "(어근) besok 과정 및 영역"
+      },
+      {
+        "word": "pengbesokan",
+        "meaning": "besok 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_601p8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbiaya [[버르biaya]]",
+    "meaning": "biaya하는 상태이다, biaya를 행하다",
+    "pos": "동사",
+    "root": "biaya",
+    "affix_logic": "어근 'biaya'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biaya'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan biaya",
+    "antonym": "tidak biaya",
+    "context": "'berbiaya'은(는) principalmente 'biaya하는 상태이다, biaya를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biaya'의 용법에 유의하세요. 'berbiaya' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biaya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbiaya untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biaya하는 상태이다, biaya를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbiaya yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biaya하는 상태이다, biaya를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biaya",
+        "meaning": "(어근) biaya하는 상태이다"
+      },
+      {
+        "word": "berbiaya",
+        "meaning": "biaya하는 상태이다, biaya를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qh1ml",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiaya [[뼝biaya]]",
+    "meaning": "biaya 수행 주체",
+    "pos": "명사",
+    "root": "biaya",
+    "affix_logic": "어근 'biaya'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biaya'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak biaya",
+    "antonym": "bukan biaya",
+    "context": "'pengbiaya'은(는) principalmente 'biaya 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biaya'의 용법에 유의하세요. 'pengbiaya' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biaya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiaya untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biaya 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiaya yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biaya 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biaya",
+        "meaning": "(어근) biaya 수행 주체"
+      },
+      {
+        "word": "pengbiaya",
+        "meaning": "biaya 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_886xb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiayaan [[뼝biaya안]]",
+    "meaning": "biaya 과정 및 영역",
+    "pos": "명사",
+    "root": "biaya",
+    "affix_logic": "어근 'biaya'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biaya'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses biaya",
+    "antonym": "bukan biaya",
+    "context": "'pengbiayaan'은(는) principalmente 'biaya 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biaya'의 용법에 유의하세요. 'pengbiayaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biaya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiayaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biaya 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiayaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biaya 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biaya",
+        "meaning": "(어근) biaya 과정 및 영역"
+      },
+      {
+        "word": "pengbiayaan",
+        "meaning": "biaya 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_yubsd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbibit [[버르bibit]]",
+    "meaning": "bibit하는 상태이다, bibit를 행하다",
+    "pos": "동사",
+    "root": "bibit",
+    "affix_logic": "어근 'bibit'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bibit'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bibit",
+    "antonym": "tidak bibit",
+    "context": "'berbibit'은(는) principalmente 'bibit하는 상태이다, bibit를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bibit'의 용법에 유의하세요. 'berbibit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bibit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbibit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bibit하는 상태이다, bibit를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbibit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bibit하는 상태이다, bibit를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bibit",
+        "meaning": "(어근) bibit하는 상태이다"
+      },
+      {
+        "word": "berbibit",
+        "meaning": "bibit하는 상태이다, bibit를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_o8niu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbibit [[뼝bibit]]",
+    "meaning": "bibit 수행 주체",
+    "pos": "명사",
+    "root": "bibit",
+    "affix_logic": "어근 'bibit'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bibit'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bibit",
+    "antonym": "bukan bibit",
+    "context": "'pengbibit'은(는) principalmente 'bibit 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bibit'의 용법에 유의하세요. 'pengbibit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bibit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbibit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bibit 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbibit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bibit 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bibit",
+        "meaning": "(어근) bibit 수행 주체"
+      },
+      {
+        "word": "pengbibit",
+        "meaning": "bibit 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_2s3c4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbibitan [[뼝bibit안]]",
+    "meaning": "bibit 과정 및 영역",
+    "pos": "명사",
+    "root": "bibit",
+    "affix_logic": "어근 'bibit'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bibit'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bibit",
+    "antonym": "bukan bibit",
+    "context": "'pengbibitan'은(는) principalmente 'bibit 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bibit'의 용법에 유의하세요. 'pengbibitan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bibit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbibitan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bibit 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbibitan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bibit 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bibit",
+        "meaning": "(어근) bibit 과정 및 영역"
+      },
+      {
+        "word": "pengbibitan",
+        "meaning": "bibit 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vlslt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbidadari [[버르bidadari]]",
+    "meaning": "bidadari하는 상태이다, bidadari를 행하다",
+    "pos": "동사",
+    "root": "bidadari",
+    "affix_logic": "어근 'bidadari'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bidadari'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bidadari",
+    "antonym": "tidak bidadari",
+    "context": "'berbidadari'은(는) principalmente 'bidadari하는 상태이다, bidadari를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidadari'의 용법에 유의하세요. 'berbidadari' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidadari' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbidadari untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidadari하는 상태이다, bidadari를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbidadari yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidadari하는 상태이다, bidadari를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidadari",
+        "meaning": "(어근) bidadari하는 상태이다"
+      },
+      {
+        "word": "berbidadari",
+        "meaning": "bidadari하는 상태이다, bidadari를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8vc43",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbidadari [[뼝bidadari]]",
+    "meaning": "bidadari 수행 주체",
+    "pos": "명사",
+    "root": "bidadari",
+    "affix_logic": "어근 'bidadari'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bidadari'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bidadari",
+    "antonym": "bukan bidadari",
+    "context": "'pengbidadari'은(는) principalmente 'bidadari 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidadari'의 용법에 유의하세요. 'pengbidadari' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidadari' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbidadari untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidadari 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbidadari yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidadari 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidadari",
+        "meaning": "(어근) bidadari 수행 주체"
+      },
+      {
+        "word": "pengbidadari",
+        "meaning": "bidadari 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6ar79",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbidadarian [[뼝bidadari안]]",
+    "meaning": "bidadari 과정 및 영역",
+    "pos": "명사",
+    "root": "bidadari",
+    "affix_logic": "어근 'bidadari'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bidadari'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bidadari",
+    "antonym": "bukan bidadari",
+    "context": "'pengbidadarian'은(는) principalmente 'bidadari 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidadari'의 용법에 유의하세요. 'pengbidadarian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidadari' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbidadarian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidadari 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbidadarian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidadari 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidadari",
+        "meaning": "(어근) bidadari 과정 및 영역"
+      },
+      {
+        "word": "pengbidadarian",
+        "meaning": "bidadari 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_7yw1s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbidang [[버르bidang]]",
+    "meaning": "bidang하는 상태이다, bidang를 행하다",
+    "pos": "동사",
+    "root": "bidang",
+    "affix_logic": "어근 'bidang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bidang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bidang",
+    "antonym": "tidak bidang",
+    "context": "'berbidang'은(는) principalmente 'bidang하는 상태이다, bidang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidang'의 용법에 유의하세요. 'berbidang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbidang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidang하는 상태이다, bidang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbidang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidang하는 상태이다, bidang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidang",
+        "meaning": "(어근) bidang하는 상태이다"
+      },
+      {
+        "word": "berbidang",
+        "meaning": "bidang하는 상태이다, bidang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8fcim",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbidang [[뼝bidang]]",
+    "meaning": "bidang 수행 주체",
+    "pos": "명사",
+    "root": "bidang",
+    "affix_logic": "어근 'bidang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bidang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bidang",
+    "antonym": "bukan bidang",
+    "context": "'pengbidang'은(는) principalmente 'bidang 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidang'의 용법에 유의하세요. 'pengbidang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbidang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidang 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbidang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidang 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidang",
+        "meaning": "(어근) bidang 수행 주체"
+      },
+      {
+        "word": "pengbidang",
+        "meaning": "bidang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8g35p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbidangan [[뼝bidang안]]",
+    "meaning": "bidang 과정 및 영역",
+    "pos": "명사",
+    "root": "bidang",
+    "affix_logic": "어근 'bidang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bidang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bidang",
+    "antonym": "bukan bidang",
+    "context": "'pengbidangan'은(는) principalmente 'bidang 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidang'의 용법에 유의하세요. 'pengbidangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbidangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidang 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbidangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidang 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidang",
+        "meaning": "(어근) bidang 과정 및 영역"
+      },
+      {
+        "word": "pengbidangan",
+        "meaning": "bidang 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xo5g7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbijaksana [[버르bijaksana]]",
+    "meaning": "bijaksana하는 상태이다, bijaksana를 행하다",
+    "pos": "동사",
+    "root": "bijaksana",
+    "affix_logic": "어근 'bijaksana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bijaksana'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bijaksana",
+    "antonym": "tidak bijaksana",
+    "context": "'berbijaksana'은(는) principalmente 'bijaksana하는 상태이다, bijaksana를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bijaksana'의 용법에 유의하세요. 'berbijaksana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bijaksana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbijaksana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bijaksana하는 상태이다, bijaksana를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbijaksana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bijaksana하는 상태이다, bijaksana를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bijaksana",
+        "meaning": "(어근) bijaksana하는 상태이다"
+      },
+      {
+        "word": "berbijaksana",
+        "meaning": "bijaksana하는 상태이다, bijaksana를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_zje1z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbijaksana [[뼝bijaksana]]",
+    "meaning": "bijaksana 수행 주체",
+    "pos": "명사",
+    "root": "bijaksana",
+    "affix_logic": "어근 'bijaksana'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bijaksana'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bijaksana",
+    "antonym": "bukan bijaksana",
+    "context": "'pengbijaksana'은(는) principalmente 'bijaksana 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bijaksana'의 용법에 유의하세요. 'pengbijaksana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bijaksana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbijaksana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bijaksana 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbijaksana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bijaksana 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bijaksana",
+        "meaning": "(어근) bijaksana 수행 주체"
+      },
+      {
+        "word": "pengbijaksana",
+        "meaning": "bijaksana 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_b8zh6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbijaksanaan [[뼝bijaksana안]]",
+    "meaning": "bijaksana 과정 및 영역",
+    "pos": "명사",
+    "root": "bijaksana",
+    "affix_logic": "어근 'bijaksana'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bijaksana'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bijaksana",
+    "antonym": "bukan bijaksana",
+    "context": "'pengbijaksanaan'은(는) principalmente 'bijaksana 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bijaksana'의 용법에 유의하세요. 'pengbijaksanaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bijaksana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbijaksanaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bijaksana 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbijaksanaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bijaksana 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bijaksana",
+        "meaning": "(어근) bijaksana 과정 및 영역"
+      },
+      {
+        "word": "pengbijaksanaan",
+        "meaning": "bijaksana 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_h56ji",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbikir [[버르bikir]]",
+    "meaning": "bikir하는 상태이다, bikir를 행하다",
+    "pos": "동사",
+    "root": "bikir",
+    "affix_logic": "어근 'bikir'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bikir'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bikir",
+    "antonym": "tidak bikir",
+    "context": "'berbikir'은(는) principalmente 'bikir하는 상태이다, bikir를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bikir'의 용법에 유의하세요. 'berbikir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bikir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbikir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bikir하는 상태이다, bikir를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbikir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bikir하는 상태이다, bikir를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bikir",
+        "meaning": "(어근) bikir하는 상태이다"
+      },
+      {
+        "word": "berbikir",
+        "meaning": "bikir하는 상태이다, bikir를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_cocgi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbikir [[뼝bikir]]",
+    "meaning": "bikir 수행 주체",
+    "pos": "명사",
+    "root": "bikir",
+    "affix_logic": "어근 'bikir'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bikir'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bikir",
+    "antonym": "bukan bikir",
+    "context": "'pengbikir'은(는) principalmente 'bikir 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bikir'의 용법에 유의하세요. 'pengbikir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bikir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbikir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bikir 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbikir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bikir 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bikir",
+        "meaning": "(어근) bikir 수행 주체"
+      },
+      {
+        "word": "pengbikir",
+        "meaning": "bikir 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_mp4j4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbikiran [[뼝bikir안]]",
+    "meaning": "bikir 과정 및 영역",
+    "pos": "명사",
+    "root": "bikir",
+    "affix_logic": "어근 'bikir'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bikir'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bikir",
+    "antonym": "bukan bikir",
+    "context": "'pengbikiran'은(는) principalmente 'bikir 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bikir'의 용법에 유의하세요. 'pengbikiran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bikir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbikiran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bikir 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbikiran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bikir 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bikir",
+        "meaning": "(어근) bikir 과정 및 영역"
+      },
+      {
+        "word": "pengbikiran",
+        "meaning": "bikir 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_kbu1f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbimbingan [[버르bimbingan]]",
+    "meaning": "bimbingan하는 상태이다, bimbingan를 행하다",
+    "pos": "동사",
+    "root": "bimbingan",
+    "affix_logic": "어근 'bimbingan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bimbingan'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bimbingan",
+    "antonym": "tidak bimbingan",
+    "context": "'berbimbingan'은(는) principalmente 'bimbingan하는 상태이다, bimbingan를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bimbingan'의 용법에 유의하세요. 'berbimbingan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bimbingan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbimbingan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bimbingan하는 상태이다, bimbingan를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbimbingan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bimbingan하는 상태이다, bimbingan를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bimbingan",
+        "meaning": "(어근) bimbingan하는 상태이다"
+      },
+      {
+        "word": "berbimbingan",
+        "meaning": "bimbingan하는 상태이다, bimbingan를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_4aply",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbimbingan [[뼝bimbingan]]",
+    "meaning": "bimbingan 수행 주체",
+    "pos": "명사",
+    "root": "bimbingan",
+    "affix_logic": "어근 'bimbingan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bimbingan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "pihak bimbingan",
+    "antonym": "bukan bimbingan",
+    "context": "'pengbimbingan'은(는) principalmente 'bimbingan 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bimbingan'의 용법에 유의하세요. 'pengbimbingan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bimbingan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbimbingan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bimbingan 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbimbingan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bimbingan 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bimbingan",
+        "meaning": "(어근) bimbingan 수행 주체"
+      },
+      {
+        "word": "pengbimbingan",
+        "meaning": "bimbingan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_s43s5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbimbinganan [[뼝bimbingan안]]",
+    "meaning": "bimbingan 과정 및 영역",
+    "pos": "명사",
+    "root": "bimbingan",
+    "affix_logic": "어근 'bimbingan'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bimbingan'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bimbingan",
+    "antonym": "bukan bimbingan",
+    "context": "'pengbimbinganan'은(는) principalmente 'bimbingan 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bimbingan'의 용법에 유의하세요. 'pengbimbinganan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bimbingan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbimbinganan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bimbingan 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbimbinganan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bimbingan 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bimbingan",
+        "meaning": "(어근) bimbingan 과정 및 영역"
+      },
+      {
+        "word": "pengbimbinganan",
+        "meaning": "bimbingan 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_m9hr7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbintang [[버르bintang]]",
+    "meaning": "bintang하는 상태이다, bintang를 행하다",
+    "pos": "동사",
+    "root": "bintang",
+    "affix_logic": "어근 'bintang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bintang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bintang",
+    "antonym": "tidak bintang",
+    "context": "'berbintang'은(는) principalmente 'bintang하는 상태이다, bintang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang'의 용법에 유의하세요. 'berbintang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbintang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang하는 상태이다, bintang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbintang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang하는 상태이다, bintang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang",
+        "meaning": "(어근) bintang하는 상태이다"
+      },
+      {
+        "word": "berbintang",
+        "meaning": "bintang하는 상태이다, bintang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_utnm4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbintang [[뼝bintang]]",
+    "meaning": "bintang 수행 주체",
+    "pos": "명사",
+    "root": "bintang",
+    "affix_logic": "어근 'bintang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bintang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bintang",
+    "antonym": "bukan bintang",
+    "context": "'pengbintang'은(는) principalmente 'bintang 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang'의 용법에 유의하세요. 'pengbintang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbintang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbintang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang",
+        "meaning": "(어근) bintang 수행 주체"
+      },
+      {
+        "word": "pengbintang",
+        "meaning": "bintang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_2hxr0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbintangan [[뼝bintang안]]",
+    "meaning": "bintang 과정 및 영역",
+    "pos": "명사",
+    "root": "bintang",
+    "affix_logic": "어근 'bintang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bintang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bintang",
+    "antonym": "bukan bintang",
+    "context": "'pengbintangan'은(는) principalmente 'bintang 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang'의 용법에 유의하세요. 'pengbintangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbintangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbintangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang",
+        "meaning": "(어근) bintang 과정 및 영역"
+      },
+      {
+        "word": "pengbintangan",
+        "meaning": "bintang 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6ov42",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbintang film [[버르bintang film]]",
+    "meaning": "bintang film하는 상태이다, bintang film를 행하다",
+    "pos": "동사",
+    "root": "bintang film",
+    "affix_logic": "어근 'bintang film'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bintang film'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bintang film",
+    "antonym": "tidak bintang film",
+    "context": "'berbintang film'은(는) principalmente 'bintang film하는 상태이다, bintang film를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang film'의 용법에 유의하세요. 'berbintang film' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang film' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbintang film untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang film하는 상태이다, bintang film를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbintang film yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang film하는 상태이다, bintang film를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang film",
+        "meaning": "(어근) bintang film하는 상태이다"
+      },
+      {
+        "word": "berbintang film",
+        "meaning": "bintang film하는 상태이다, bintang film를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_q1khz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbintang film [[뼝bintang film]]",
+    "meaning": "bintang film 수행 주체",
+    "pos": "명사",
+    "root": "bintang film",
+    "affix_logic": "어근 'bintang film'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bintang film'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bintang film",
+    "antonym": "bukan bintang film",
+    "context": "'pengbintang film'은(는) principalmente 'bintang film 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang film'의 용법에 유의하세요. 'pengbintang film' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang film' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbintang film untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang film 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbintang film yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang film 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang film",
+        "meaning": "(어근) bintang film 수행 주체"
+      },
+      {
+        "word": "pengbintang film",
+        "meaning": "bintang film 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_rnu8s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbintang filman [[뼝bintang film안]]",
+    "meaning": "bintang film 과정 및 영역",
+    "pos": "명사",
+    "root": "bintang film",
+    "affix_logic": "어근 'bintang film'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bintang film'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bintang film",
+    "antonym": "bukan bintang film",
+    "context": "'pengbintang filman'은(는) principalmente 'bintang film 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang film'의 용법에 유의하세요. 'pengbintang filman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang film' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbintang filman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang film 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbintang filman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang film 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang film",
+        "meaning": "(어근) bintang film 과정 및 영역"
+      },
+      {
+        "word": "pengbintang filman",
+        "meaning": "bintang film 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_tusxl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbiodata [[버르biodata]]",
+    "meaning": "biodata하는 상태이다, biodata를 행하다",
+    "pos": "동사",
+    "root": "biodata",
+    "affix_logic": "어근 'biodata'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biodata'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan biodata",
+    "antonym": "tidak biodata",
+    "context": "'berbiodata'은(는) principalmente 'biodata하는 상태이다, biodata를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biodata'의 용법에 유의하세요. 'berbiodata' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biodata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbiodata untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biodata하는 상태이다, biodata를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbiodata yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biodata하는 상태이다, biodata를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biodata",
+        "meaning": "(어근) biodata하는 상태이다"
+      },
+      {
+        "word": "berbiodata",
+        "meaning": "biodata하는 상태이다, biodata를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_w424r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiodata [[뼝biodata]]",
+    "meaning": "biodata 수행 주체",
+    "pos": "명사",
+    "root": "biodata",
+    "affix_logic": "어근 'biodata'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biodata'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak biodata",
+    "antonym": "bukan biodata",
+    "context": "'pengbiodata'은(는) principalmente 'biodata 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biodata'의 용법에 유의하세요. 'pengbiodata' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biodata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiodata untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biodata 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiodata yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biodata 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biodata",
+        "meaning": "(어근) biodata 수행 주체"
+      },
+      {
+        "word": "pengbiodata",
+        "meaning": "biodata 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_pq7vz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiodataan [[뼝biodata안]]",
+    "meaning": "biodata 과정 및 영역",
+    "pos": "명사",
+    "root": "biodata",
+    "affix_logic": "어근 'biodata'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biodata'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses biodata",
+    "antonym": "bukan biodata",
+    "context": "'pengbiodataan'은(는) principalmente 'biodata 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biodata'의 용법에 유의하세요. 'pengbiodataan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biodata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiodataan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biodata 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiodataan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biodata 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biodata",
+        "meaning": "(어근) biodata 과정 및 영역"
+      },
+      {
+        "word": "pengbiodataan",
+        "meaning": "biodata 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5gg9n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbison [[버르bison]]",
+    "meaning": "bison하는 상태이다, bison를 행하다",
+    "pos": "동사",
+    "root": "bison",
+    "affix_logic": "어근 'bison'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bison'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bison",
+    "antonym": "tidak bison",
+    "context": "'berbison'은(는) principalmente 'bison하는 상태이다, bison를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bison'의 용법에 유의하세요. 'berbison' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bison' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbison untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bison하는 상태이다, bison를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbison yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bison하는 상태이다, bison를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bison",
+        "meaning": "(어근) bison하는 상태이다"
+      },
+      {
+        "word": "berbison",
+        "meaning": "bison하는 상태이다, bison를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_44kyx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbison [[뼝bison]]",
+    "meaning": "bison 수행 주체",
+    "pos": "명사",
+    "root": "bison",
+    "affix_logic": "어근 'bison'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bison'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bison",
+    "antonym": "bukan bison",
+    "context": "'pengbison'은(는) principalmente 'bison 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bison'의 용법에 유의하세요. 'pengbison' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bison' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbison untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bison 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbison yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bison 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bison",
+        "meaning": "(어근) bison 수행 주체"
+      },
+      {
+        "word": "pengbison",
+        "meaning": "bison 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_kflcm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbisonan [[뼝bison안]]",
+    "meaning": "bison 과정 및 영역",
+    "pos": "명사",
+    "root": "bison",
+    "affix_logic": "어근 'bison'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bison'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bison",
+    "antonym": "bukan bison",
+    "context": "'pengbisonan'은(는) principalmente 'bison 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bison'의 용법에 유의하세요. 'pengbisonan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bison' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbisonan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bison 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbisonan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bison 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bison",
+        "meaning": "(어근) bison 과정 및 영역"
+      },
+      {
+        "word": "pengbisonan",
+        "meaning": "bison 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_njzi5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbisu [[버르bisu]]",
+    "meaning": "bisu하는 상태이다, bisu를 행하다",
+    "pos": "동사",
+    "root": "bisu",
+    "affix_logic": "어근 'bisu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bisu'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bisu",
+    "antonym": "tidak bisu",
+    "context": "'berbisu'은(는) principalmente 'bisu하는 상태이다, bisu를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bisu'의 용법에 유의하세요. 'berbisu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bisu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbisu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bisu하는 상태이다, bisu를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbisu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bisu하는 상태이다, bisu를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bisu",
+        "meaning": "(어근) bisu하는 상태이다"
+      },
+      {
+        "word": "berbisu",
+        "meaning": "bisu하는 상태이다, bisu를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_0m58x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbisu [[뼝bisu]]",
+    "meaning": "bisu 수행 주체",
+    "pos": "명사",
+    "root": "bisu",
+    "affix_logic": "어근 'bisu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bisu'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bisu",
+    "antonym": "bukan bisu",
+    "context": "'pengbisu'은(는) principalmente 'bisu 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bisu'의 용법에 유의하세요. 'pengbisu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bisu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbisu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bisu 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbisu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bisu 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bisu",
+        "meaning": "(어근) bisu 수행 주체"
+      },
+      {
+        "word": "pengbisu",
+        "meaning": "bisu 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_x0ld5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbisuan [[뼝bisu안]]",
+    "meaning": "bisu 과정 및 영역",
+    "pos": "명사",
+    "root": "bisu",
+    "affix_logic": "어근 'bisu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bisu'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bisu",
+    "antonym": "bukan bisu",
+    "context": "'pengbisuan'은(는) principalmente 'bisu 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bisu'의 용법에 유의하세요. 'pengbisuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bisu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbisuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bisu 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbisuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bisu 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bisu",
+        "meaning": "(어근) bisu 과정 및 영역"
+      },
+      {
+        "word": "pengbisuan",
+        "meaning": "bisu 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_rmvsv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbocah [[버르bocah]]",
+    "meaning": "bocah하는 상태이다, bocah를 행하다",
+    "pos": "동사",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocah'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bocah",
+    "antonym": "tidak bocah",
+    "context": "'berbocah'은(는) principalmente 'bocah하는 상태이다, bocah를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocah'의 용법에 유의하세요. 'berbocah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbocah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocah하는 상태이다, bocah를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbocah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocah하는 상태이다, bocah를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocah",
+        "meaning": "(어근) bocah하는 상태이다"
+      },
+      {
+        "word": "berbocah",
+        "meaning": "bocah하는 상태이다, bocah를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_urxy0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbocah [[뼝bocah]]",
+    "meaning": "bocah 수행 주체",
+    "pos": "명사",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bocah'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bocah",
+    "antonym": "bukan bocah",
+    "context": "'pengbocah'은(는) principalmente 'bocah 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocah'의 용법에 유의하세요. 'pengbocah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbocah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocah 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbocah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocah 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocah",
+        "meaning": "(어근) bocah 수행 주체"
+      },
+      {
+        "word": "pengbocah",
+        "meaning": "bocah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ejgx9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbocahan [[뼝bocah안]]",
+    "meaning": "bocah 과정 및 영역",
+    "pos": "명사",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bocah'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bocah",
+    "antonym": "bukan bocah",
+    "context": "'pengbocahan'은(는) principalmente 'bocah 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocah'의 용법에 유의하세요. 'pengbocahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbocahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocah 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbocahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocah 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocah",
+        "meaning": "(어근) bocah 과정 및 영역"
+      },
+      {
+        "word": "pengbocahan",
+        "meaning": "bocah 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5mx5q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbocor [[버르bocor]]",
+    "meaning": "bocor하는 상태이다, bocor를 행하다",
+    "pos": "동사",
+    "root": "bocor",
+    "affix_logic": "어근 'bocor'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocor'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bocor",
+    "antonym": "tidak bocor",
+    "context": "'berbocor'은(는) principalmente 'bocor하는 상태이다, bocor를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocor'의 용법에 유의하세요. 'berbocor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbocor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocor하는 상태이다, bocor를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbocor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocor하는 상태이다, bocor를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocor",
+        "meaning": "(어근) bocor하는 상태이다"
+      },
+      {
+        "word": "berbocor",
+        "meaning": "bocor하는 상태이다, bocor를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8geug",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbocor [[뼝bocor]]",
+    "meaning": "bocor 수행 주체",
+    "pos": "명사",
+    "root": "bocor",
+    "affix_logic": "어근 'bocor'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bocor'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bocor",
+    "antonym": "bukan bocor",
+    "context": "'pengbocor'은(는) principalmente 'bocor 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocor'의 용법에 유의하세요. 'pengbocor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbocor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocor 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbocor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocor 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocor",
+        "meaning": "(어근) bocor 수행 주체"
+      },
+      {
+        "word": "pengbocor",
+        "meaning": "bocor 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_03ul6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbocoran [[뼝bocor안]]",
+    "meaning": "bocor 과정 및 영역",
+    "pos": "명사",
+    "root": "bocor",
+    "affix_logic": "어근 'bocor'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bocor'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bocor",
+    "antonym": "bukan bocor",
+    "context": "'pengbocoran'은(는) principalmente 'bocor 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocor'의 용법에 유의하세요. 'pengbocoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbocoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocor 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbocoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocor 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocor",
+        "meaning": "(어근) bocor 과정 및 영역"
+      },
+      {
+        "word": "pengbocoran",
+        "meaning": "bocor 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_a2h2j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbohong [[버르bohong]]",
+    "meaning": "bohong하는 상태이다, bohong를 행하다",
+    "pos": "동사",
+    "root": "bohong",
+    "affix_logic": "어근 'bohong'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bohong'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bohong",
+    "antonym": "tidak bohong",
+    "context": "'berbohong'은(는) principalmente 'bohong하는 상태이다, bohong를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bohong'의 용법에 유의하세요. 'berbohong' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bohong' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbohong untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bohong하는 상태이다, bohong를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbohong yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bohong하는 상태이다, bohong를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bohong",
+        "meaning": "(어근) bohong하는 상태이다"
+      },
+      {
+        "word": "berbohong",
+        "meaning": "bohong하는 상태이다, bohong를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_jq1lc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbohong [[뼝bohong]]",
+    "meaning": "bohong 수행 주체",
+    "pos": "명사",
+    "root": "bohong",
+    "affix_logic": "어근 'bohong'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bohong'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bohong",
+    "antonym": "bukan bohong",
+    "context": "'pengbohong'은(는) principalmente 'bohong 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bohong'의 용법에 유의하세요. 'pengbohong' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bohong' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbohong untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bohong 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbohong yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bohong 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bohong",
+        "meaning": "(어근) bohong 수행 주체"
+      },
+      {
+        "word": "pengbohong",
+        "meaning": "bohong 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_zsvih",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbohongan [[뼝bohong안]]",
+    "meaning": "bohong 과정 및 영역",
+    "pos": "명사",
+    "root": "bohong",
+    "affix_logic": "어근 'bohong'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bohong'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bohong",
+    "antonym": "bukan bohong",
+    "context": "'pengbohongan'은(는) principalmente 'bohong 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bohong'의 용법에 유의하세요. 'pengbohongan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bohong' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbohongan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bohong 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbohongan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bohong 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bohong",
+        "meaning": "(어근) bohong 과정 및 영역"
+      },
+      {
+        "word": "pengbohongan",
+        "meaning": "bohong 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_1a9ei",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbola [[버르bola]]",
+    "meaning": "bola하는 상태이다, bola를 행하다",
+    "pos": "동사",
+    "root": "bola",
+    "affix_logic": "어근 'bola'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bola'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bola",
+    "antonym": "tidak bola",
+    "context": "'berbola'은(는) principalmente 'bola하는 상태이다, bola를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bola'의 용법에 유의하세요. 'berbola' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bola' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbola untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bola하는 상태이다, bola를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbola yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bola하는 상태이다, bola를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bola",
+        "meaning": "(어근) bola하는 상태이다"
+      },
+      {
+        "word": "berbola",
+        "meaning": "bola하는 상태이다, bola를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8zwtg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbola [[뼝bola]]",
+    "meaning": "bola 수행 주체",
+    "pos": "명사",
+    "root": "bola",
+    "affix_logic": "어근 'bola'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bola'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bola",
+    "antonym": "bukan bola",
+    "context": "'pengbola'은(는) principalmente 'bola 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bola'의 용법에 유의하세요. 'pengbola' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bola' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbola untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bola 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbola yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bola 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bola",
+        "meaning": "(어근) bola 수행 주체"
+      },
+      {
+        "word": "pengbola",
+        "meaning": "bola 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_nb85e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbolaan [[뼝bola안]]",
+    "meaning": "bola 과정 및 영역",
+    "pos": "명사",
+    "root": "bola",
+    "affix_logic": "어근 'bola'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bola'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bola",
+    "antonym": "bukan bola",
+    "context": "'pengbolaan'은(는) principalmente 'bola 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bola'의 용법에 유의하세요. 'pengbolaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bola' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbolaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bola 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbolaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bola 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bola",
+        "meaning": "(어근) bola 과정 및 영역"
+      },
+      {
+        "word": "pengbolaan",
+        "meaning": "bola 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8gbee",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbolpen [[버르bolpen]]",
+    "meaning": "bolpen하는 상태이다, bolpen를 행하다",
+    "pos": "동사",
+    "root": "bolpen",
+    "affix_logic": "어근 'bolpen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bolpen'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bolpen",
+    "antonym": "tidak bolpen",
+    "context": "'berbolpen'은(는) principalmente 'bolpen하는 상태이다, bolpen를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bolpen'의 용법에 유의하세요. 'berbolpen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bolpen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbolpen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bolpen하는 상태이다, bolpen를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbolpen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bolpen하는 상태이다, bolpen를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bolpen",
+        "meaning": "(어근) bolpen하는 상태이다"
+      },
+      {
+        "word": "berbolpen",
+        "meaning": "bolpen하는 상태이다, bolpen를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_3qtsv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbolpen [[뼝bolpen]]",
+    "meaning": "bolpen 수행 주체",
+    "pos": "명사",
+    "root": "bolpen",
+    "affix_logic": "어근 'bolpen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bolpen'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bolpen",
+    "antonym": "bukan bolpen",
+    "context": "'pengbolpen'은(는) principalmente 'bolpen 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bolpen'의 용법에 유의하세요. 'pengbolpen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bolpen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbolpen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bolpen 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbolpen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bolpen 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bolpen",
+        "meaning": "(어근) bolpen 수행 주체"
+      },
+      {
+        "word": "pengbolpen",
+        "meaning": "bolpen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_edx8v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbolpenan [[뼝bolpen안]]",
+    "meaning": "bolpen 과정 및 영역",
+    "pos": "명사",
+    "root": "bolpen",
+    "affix_logic": "어근 'bolpen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bolpen'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bolpen",
+    "antonym": "bukan bolpen",
+    "context": "'pengbolpenan'은(는) principalmente 'bolpen 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bolpen'의 용법에 유의하세요. 'pengbolpenan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bolpen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbolpenan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bolpen 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbolpenan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bolpen 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bolpen",
+        "meaning": "(어근) bolpen 과정 및 영역"
+      },
+      {
+        "word": "pengbolpenan",
+        "meaning": "bolpen 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_h2oc3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbocoran [[버르bocoran]]",
+    "meaning": "bocoran하는 상태이다, bocoran를 행하다",
+    "pos": "동사",
+    "root": "bocoran",
+    "affix_logic": "어근 'bocoran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocoran'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bocoran",
+    "antonym": "tidak bocoran",
+    "context": "'berbocoran'은(는) principalmente 'bocoran하는 상태이다, bocoran를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocoran'의 용법에 유의하세요. 'berbocoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocoran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbocoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocoran하는 상태이다, bocoran를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbocoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocoran하는 상태이다, bocoran를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocoran",
+        "meaning": "(어근) bocoran하는 상태이다"
+      },
+      {
+        "word": "berbocoran",
+        "meaning": "bocoran하는 상태이다, bocoran를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gta8y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbocoranan [[뼝bocoran안]]",
+    "meaning": "bocoran 과정 및 영역",
+    "pos": "명사",
+    "root": "bocoran",
+    "affix_logic": "어근 'bocoran'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bocoran'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bocoran",
+    "antonym": "bukan bocoran",
+    "context": "'pengbocoranan'은(는) principalmente 'bocoran 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocoran'의 용법에 유의하세요. 'pengbocoranan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocoran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbocoranan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocoran 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbocoranan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocoran 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocoran",
+        "meaning": "(어근) bocoran 과정 및 영역"
+      },
+      {
+        "word": "pengbocoranan",
+        "meaning": "bocoran 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_sr192",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbombardir [[버르bombardir]]",
+    "meaning": "bombardir하는 상태이다, bombardir를 행하다",
+    "pos": "동사",
+    "root": "bombardir",
+    "affix_logic": "어근 'bombardir'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bombardir'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bombardir",
+    "antonym": "tidak bombardir",
+    "context": "'berbombardir'은(는) principalmente 'bombardir하는 상태이다, bombardir를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bombardir'의 용법에 유의하세요. 'berbombardir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bombardir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbombardir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bombardir하는 상태이다, bombardir를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbombardir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bombardir하는 상태이다, bombardir를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bombardir",
+        "meaning": "(어근) bombardir하는 상태이다"
+      },
+      {
+        "word": "berbombardir",
+        "meaning": "bombardir하는 상태이다, bombardir를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_lghk6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbombardir [[뼝bombardir]]",
+    "meaning": "bombardir 수행 주체",
+    "pos": "명사",
+    "root": "bombardir",
+    "affix_logic": "어근 'bombardir'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bombardir'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bombardir",
+    "antonym": "bukan bombardir",
+    "context": "'pengbombardir'은(는) principalmente 'bombardir 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bombardir'의 용법에 유의하세요. 'pengbombardir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bombardir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbombardir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bombardir 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbombardir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bombardir 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bombardir",
+        "meaning": "(어근) bombardir 수행 주체"
+      },
+      {
+        "word": "pengbombardir",
+        "meaning": "bombardir 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_7o08n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbombardiran [[뼝bombardir안]]",
+    "meaning": "bombardir 과정 및 영역",
+    "pos": "명사",
+    "root": "bombardir",
+    "affix_logic": "어근 'bombardir'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bombardir'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bombardir",
+    "antonym": "bukan bombardir",
+    "context": "'pengbombardiran'은(는) principalmente 'bombardir 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bombardir'의 용법에 유의하세요. 'pengbombardiran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bombardir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbombardiran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bombardir 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbombardiran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bombardir 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bombardir",
+        "meaning": "(어근) bombardir 과정 및 영역"
+      },
+      {
+        "word": "pengbombardiran",
+        "meaning": "bombardir 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wbkhh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbumbu [[버르bumbu]]",
+    "meaning": "bumbu하는 상태이다, bumbu를 행하다",
+    "pos": "동사",
+    "root": "bumbu",
+    "affix_logic": "어근 'bumbu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bumbu'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bumbu",
+    "antonym": "tidak bumbu",
+    "context": "'berbumbu'은(는) principalmente 'bumbu하는 상태이다, bumbu를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bumbu'의 용법에 유의하세요. 'berbumbu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bumbu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbumbu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bumbu하는 상태이다, bumbu를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbumbu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bumbu하는 상태이다, bumbu를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bumbu",
+        "meaning": "(어근) bumbu하는 상태이다"
+      },
+      {
+        "word": "berbumbu",
+        "meaning": "bumbu하는 상태이다, bumbu를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_uz121",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbumbu [[뼝bumbu]]",
+    "meaning": "bumbu 수행 주체",
+    "pos": "명사",
+    "root": "bumbu",
+    "affix_logic": "어근 'bumbu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bumbu'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bumbu",
+    "antonym": "bukan bumbu",
+    "context": "'pengbumbu'은(는) principalmente 'bumbu 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bumbu'의 용법에 유의하세요. 'pengbumbu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bumbu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbumbu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bumbu 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbumbu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bumbu 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bumbu",
+        "meaning": "(어근) bumbu 수행 주체"
+      },
+      {
+        "word": "pengbumbu",
+        "meaning": "bumbu 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_h5adf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbumbuan [[뼝bumbu안]]",
+    "meaning": "bumbu 과정 및 영역",
+    "pos": "명사",
+    "root": "bumbu",
+    "affix_logic": "어근 'bumbu'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bumbu'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bumbu",
+    "antonym": "bukan bumbu",
+    "context": "'pengbumbuan'은(는) principalmente 'bumbu 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bumbu'의 용법에 유의하세요. 'pengbumbuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bumbu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbumbuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bumbu 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbumbuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bumbu 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bumbu",
+        "meaning": "(어근) bumbu 과정 및 영역"
+      },
+      {
+        "word": "pengbumbuan",
+        "meaning": "bumbu 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_89v9i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbunda [[버르bunda]]",
+    "meaning": "bunda하는 상태이다, bunda를 행하다",
+    "pos": "동사",
+    "root": "bunda",
+    "affix_logic": "어근 'bunda'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bunda'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bunda",
+    "antonym": "tidak bunda",
+    "context": "'berbunda'은(는) principalmente 'bunda하는 상태이다, bunda를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bunda'의 용법에 유의하세요. 'berbunda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bunda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbunda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bunda하는 상태이다, bunda를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbunda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bunda하는 상태이다, bunda를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bunda",
+        "meaning": "(어근) bunda하는 상태이다"
+      },
+      {
+        "word": "berbunda",
+        "meaning": "bunda하는 상태이다, bunda를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_10wj9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbunda [[뼝bunda]]",
+    "meaning": "bunda 수행 주체",
+    "pos": "명사",
+    "root": "bunda",
+    "affix_logic": "어근 'bunda'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bunda'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bunda",
+    "antonym": "bukan bunda",
+    "context": "'pengbunda'은(는) principalmente 'bunda 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bunda'의 용법에 유의하세요. 'pengbunda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bunda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbunda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bunda 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbunda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bunda 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bunda",
+        "meaning": "(어근) bunda 수행 주체"
+      },
+      {
+        "word": "pengbunda",
+        "meaning": "bunda 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_4r3jh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbundaan [[뼝bunda안]]",
+    "meaning": "bunda 과정 및 영역",
+    "pos": "명사",
+    "root": "bunda",
+    "affix_logic": "어근 'bunda'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bunda'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bunda",
+    "antonym": "bukan bunda",
+    "context": "'pengbundaan'은(는) principalmente 'bunda 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bunda'의 용법에 유의하세요. 'pengbundaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bunda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbundaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bunda 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbundaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bunda 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bunda",
+        "meaning": "(어근) bunda 과정 및 영역"
+      },
+      {
+        "word": "pengbundaan",
+        "meaning": "bunda 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_z7zcf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbungkus [[버르bungkus]]",
+    "meaning": "bungkus하는 상태이다, bungkus를 행하다",
+    "pos": "동사",
+    "root": "bungkus",
+    "affix_logic": "어근 'bungkus'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bungkus'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bungkus",
+    "antonym": "tidak bungkus",
+    "context": "'berbungkus'은(는) principalmente 'bungkus하는 상태이다, bungkus를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bungkus'의 용법에 유의하세요. 'berbungkus' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bungkus' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbungkus untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bungkus하는 상태이다, bungkus를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbungkus yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bungkus하는 상태이다, bungkus를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bungkus",
+        "meaning": "(어근) bungkus하는 상태이다"
+      },
+      {
+        "word": "berbungkus",
+        "meaning": "bungkus하는 상태이다, bungkus를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_juk21",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbungkus [[뼝bungkus]]",
+    "meaning": "bungkus 수행 주체",
+    "pos": "명사",
+    "root": "bungkus",
+    "affix_logic": "어근 'bungkus'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bungkus'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bungkus",
+    "antonym": "bukan bungkus",
+    "context": "'pengbungkus'은(는) principalmente 'bungkus 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bungkus'의 용법에 유의하세요. 'pengbungkus' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bungkus' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbungkus untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bungkus 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbungkus yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bungkus 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bungkus",
+        "meaning": "(어근) bungkus 수행 주체"
+      },
+      {
+        "word": "pengbungkus",
+        "meaning": "bungkus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_dq424",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbungkusan [[뼝bungkus안]]",
+    "meaning": "bungkus 과정 및 영역",
+    "pos": "명사",
+    "root": "bungkus",
+    "affix_logic": "어근 'bungkus'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bungkus'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bungkus",
+    "antonym": "bukan bungkus",
+    "context": "'pengbungkusan'은(는) principalmente 'bungkus 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bungkus'의 용법에 유의하세요. 'pengbungkusan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bungkus' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbungkusan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bungkus 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbungkusan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bungkus 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bungkus",
+        "meaning": "(어근) bungkus 과정 및 영역"
+      },
+      {
+        "word": "pengbungkusan",
+        "meaning": "bungkus 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_7exfj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbuntet [[버르buntet]]",
+    "meaning": "buntet하는 상태이다, buntet를 행하다",
+    "pos": "동사",
+    "root": "buntet",
+    "affix_logic": "어근 'buntet'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'buntet'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan buntet",
+    "antonym": "tidak buntet",
+    "context": "'berbuntet'은(는) principalmente 'buntet하는 상태이다, buntet를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buntet'의 용법에 유의하세요. 'berbuntet' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buntet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbuntet untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buntet하는 상태이다, buntet를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbuntet yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buntet하는 상태이다, buntet를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buntet",
+        "meaning": "(어근) buntet하는 상태이다"
+      },
+      {
+        "word": "berbuntet",
+        "meaning": "buntet하는 상태이다, buntet를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ku8wn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuntet [[뼝buntet]]",
+    "meaning": "buntet 수행 주체",
+    "pos": "명사",
+    "root": "buntet",
+    "affix_logic": "어근 'buntet'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'buntet'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak buntet",
+    "antonym": "bukan buntet",
+    "context": "'pengbuntet'은(는) principalmente 'buntet 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buntet'의 용법에 유의하세요. 'pengbuntet' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buntet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbuntet untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buntet 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbuntet yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buntet 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buntet",
+        "meaning": "(어근) buntet 수행 주체"
+      },
+      {
+        "word": "pengbuntet",
+        "meaning": "buntet 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_1jysx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuntetan [[뼝buntet안]]",
+    "meaning": "buntet 과정 및 영역",
+    "pos": "명사",
+    "root": "buntet",
+    "affix_logic": "어근 'buntet'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'buntet'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses buntet",
+    "antonym": "bukan buntet",
+    "context": "'pengbuntetan'은(는) principalmente 'buntet 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buntet'의 용법에 유의하세요. 'pengbuntetan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buntet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbuntetan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buntet 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbuntetan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buntet 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buntet",
+        "meaning": "(어근) buntet 과정 및 영역"
+      },
+      {
+        "word": "pengbuntetan",
+        "meaning": "buntet 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_od2ya",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbupati [[버르bupati]]",
+    "meaning": "bupati하는 상태이다, bupati를 행하다",
+    "pos": "동사",
+    "root": "bupati",
+    "affix_logic": "어근 'bupati'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bupati'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan bupati",
+    "antonym": "tidak bupati",
+    "context": "'berbupati'은(는) principalmente 'bupati하는 상태이다, bupati를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bupati'의 용법에 유의하세요. 'berbupati' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bupati' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbupati untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bupati하는 상태이다, bupati를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbupati yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bupati하는 상태이다, bupati를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bupati",
+        "meaning": "(어근) bupati하는 상태이다"
+      },
+      {
+        "word": "berbupati",
+        "meaning": "bupati하는 상태이다, bupati를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_2hac4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbupati [[뼝bupati]]",
+    "meaning": "bupati 수행 주체",
+    "pos": "명사",
+    "root": "bupati",
+    "affix_logic": "어근 'bupati'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bupati'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak bupati",
+    "antonym": "bukan bupati",
+    "context": "'pengbupati'은(는) principalmente 'bupati 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bupati'의 용법에 유의하세요. 'pengbupati' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bupati' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbupati untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bupati 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbupati yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bupati 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bupati",
+        "meaning": "(어근) bupati 수행 주체"
+      },
+      {
+        "word": "pengbupati",
+        "meaning": "bupati 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_c2729",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbupatian [[뼝bupati안]]",
+    "meaning": "bupati 과정 및 영역",
+    "pos": "명사",
+    "root": "bupati",
+    "affix_logic": "어근 'bupati'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'bupati'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses bupati",
+    "antonym": "bukan bupati",
+    "context": "'pengbupatian'은(는) principalmente 'bupati 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bupati'의 용법에 유의하세요. 'pengbupatian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bupati' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbupatian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bupati 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbupatian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bupati 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bupati",
+        "meaning": "(어근) bupati 과정 및 영역"
+      },
+      {
+        "word": "pengbupatian",
+        "meaning": "bupati 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_nf0lu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbusana [[버르busana]]",
+    "meaning": "busana하는 상태이다, busana를 행하다",
+    "pos": "동사",
+    "root": "busana",
+    "affix_logic": "어근 'busana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'busana'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan busana",
+    "antonym": "tidak busana",
+    "context": "'berbusana'은(는) principalmente 'busana하는 상태이다, busana를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busana'의 용법에 유의하세요. 'berbusana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbusana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busana하는 상태이다, busana를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbusana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busana하는 상태이다, busana를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busana",
+        "meaning": "(어근) busana하는 상태이다"
+      },
+      {
+        "word": "berbusana",
+        "meaning": "busana하는 상태이다, busana를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_7xnhk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbusana [[뼝busana]]",
+    "meaning": "busana 수행 주체",
+    "pos": "명사",
+    "root": "busana",
+    "affix_logic": "어근 'busana'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'busana'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak busana",
+    "antonym": "bukan busana",
+    "context": "'pengbusana'은(는) principalmente 'busana 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busana'의 용법에 유의하세요. 'pengbusana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbusana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busana 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbusana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busana 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busana",
+        "meaning": "(어근) busana 수행 주체"
+      },
+      {
+        "word": "pengbusana",
+        "meaning": "busana 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_q22g5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbusanaan [[뼝busana안]]",
+    "meaning": "busana 과정 및 영역",
+    "pos": "명사",
+    "root": "busana",
+    "affix_logic": "어근 'busana'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'busana'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses busana",
+    "antonym": "bukan busana",
+    "context": "'pengbusanaan'은(는) principalmente 'busana 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busana'의 용법에 유의하세요. 'pengbusanaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbusanaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busana 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbusanaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busana 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busana",
+        "meaning": "(어근) busana 과정 및 영역"
+      },
+      {
+        "word": "pengbusanaan",
+        "meaning": "busana 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ujq8k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbusa [[버르busa]]",
+    "meaning": "busa하는 상태이다, busa를 행하다",
+    "pos": "동사",
+    "root": "busa",
+    "affix_logic": "어근 'busa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'busa'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan busa",
+    "antonym": "tidak busa",
+    "context": "'berbusa'은(는) principalmente 'busa하는 상태이다, busa를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busa'의 용법에 유의하세요. 'berbusa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbusa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busa하는 상태이다, busa를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbusa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busa하는 상태이다, busa를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busa",
+        "meaning": "(어근) busa하는 상태이다"
+      },
+      {
+        "word": "berbusa",
+        "meaning": "busa하는 상태이다, busa를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qcuqe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbusa [[뼝busa]]",
+    "meaning": "busa 수행 주체",
+    "pos": "명사",
+    "root": "busa",
+    "affix_logic": "어근 'busa'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'busa'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak busa",
+    "antonym": "bukan busa",
+    "context": "'pengbusa'은(는) principalmente 'busa 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busa'의 용법에 유의하세요. 'pengbusa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbusa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busa 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbusa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busa 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busa",
+        "meaning": "(어근) busa 수행 주체"
+      },
+      {
+        "word": "pengbusa",
+        "meaning": "busa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_o4xeu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbusaan [[뼝busa안]]",
+    "meaning": "busa 과정 및 영역",
+    "pos": "명사",
+    "root": "busa",
+    "affix_logic": "어근 'busa'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'busa'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses busa",
+    "antonym": "bukan busa",
+    "context": "'pengbusaan'은(는) principalmente 'busa 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busa'의 용법에 유의하세요. 'pengbusaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbusaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busa 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbusaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busa 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busa",
+        "meaning": "(어근) busa 과정 및 영역"
+      },
+      {
+        "word": "pengbusaan",
+        "meaning": "busa 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hst2k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbutik [[버르butik]]",
+    "meaning": "butik하는 상태이다, butik를 행하다",
+    "pos": "동사",
+    "root": "butik",
+    "affix_logic": "어근 'butik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'butik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan butik",
+    "antonym": "tidak butik",
+    "context": "'berbutik'은(는) principalmente 'butik하는 상태이다, butik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'butik'의 용법에 유의하세요. 'berbutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'butik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 butik하는 상태이다, butik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 butik하는 상태이다, butik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "butik",
+        "meaning": "(어근) butik하는 상태이다"
+      },
+      {
+        "word": "berbutik",
+        "meaning": "butik하는 상태이다, butik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wkinm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbutik [[뼝butik]]",
+    "meaning": "butik 수행 주체",
+    "pos": "명사",
+    "root": "butik",
+    "affix_logic": "어근 'butik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'butik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak butik",
+    "antonym": "bukan butik",
+    "context": "'pengbutik'은(는) principalmente 'butik 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'butik'의 용법에 유의하세요. 'pengbutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'butik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 butik 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 butik 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "butik",
+        "meaning": "(어근) butik 수행 주체"
+      },
+      {
+        "word": "pengbutik",
+        "meaning": "butik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_e41fw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbutikan [[뼝butik안]]",
+    "meaning": "butik 과정 및 영역",
+    "pos": "명사",
+    "root": "butik",
+    "affix_logic": "어근 'butik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'butik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses butik",
+    "antonym": "bukan butik",
+    "context": "'pengbutikan'은(는) principalmente 'butik 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'butik'의 용법에 유의하세요. 'pengbutikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'butik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbutikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 butik 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbutikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 butik 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "butik",
+        "meaning": "(어근) butik 과정 및 영역"
+      },
+      {
+        "word": "pengbutikan",
+        "meaning": "butik 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xfuab",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbuyut [[버르buyut]]",
+    "meaning": "buyut하는 상태이다, buyut를 행하다",
+    "pos": "동사",
+    "root": "buyut",
+    "affix_logic": "어근 'buyut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'buyut'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan buyut",
+    "antonym": "tidak buyut",
+    "context": "'berbuyut'은(는) principalmente 'buyut하는 상태이다, buyut를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buyut'의 용법에 유의하세요. 'berbuyut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buyut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbuyut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buyut하는 상태이다, buyut를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbuyut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buyut하는 상태이다, buyut를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buyut",
+        "meaning": "(어근) buyut하는 상태이다"
+      },
+      {
+        "word": "berbuyut",
+        "meaning": "buyut하는 상태이다, buyut를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_1lrmq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuyut [[뼝buyut]]",
+    "meaning": "buyut 수행 주체",
+    "pos": "명사",
+    "root": "buyut",
+    "affix_logic": "어근 'buyut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'buyut'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak buyut",
+    "antonym": "bukan buyut",
+    "context": "'pengbuyut'은(는) principalmente 'buyut 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buyut'의 용법에 유의하세요. 'pengbuyut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buyut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbuyut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buyut 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbuyut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buyut 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buyut",
+        "meaning": "(어근) buyut 수행 주체"
+      },
+      {
+        "word": "pengbuyut",
+        "meaning": "buyut 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_lhk7q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuyutan [[뼝buyut안]]",
+    "meaning": "buyut 과정 및 영역",
+    "pos": "명사",
+    "root": "buyut",
+    "affix_logic": "어근 'buyut'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'buyut'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses buyut",
+    "antonym": "bukan buyut",
+    "context": "'pengbuyutan'은(는) principalmente 'buyut 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buyut'의 용법에 유의하세요. 'pengbuyutan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buyut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbuyutan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buyut 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbuyutan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buyut 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buyut",
+        "meaning": "(어근) buyut 과정 및 영역"
+      },
+      {
+        "word": "pengbuyutan",
+        "meaning": "buyut 과정 및 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6d1vc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bercabang [[버르cabang]]",
+    "meaning": "cabang하는 상태이다, cabang를 행하다",
+    "pos": "동사",
+    "root": "cabang",
+    "affix_logic": "어근 'cabang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'cabang'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan cabang",
+    "antonym": "tidak cabang",
+    "context": "'bercabang'은(는) principalmente 'cabang하는 상태이다, cabang를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'cabang'의 용법에 유의하세요. 'bercabang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'cabang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bercabang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 cabang하는 상태이다, cabang를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bercabang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 cabang하는 상태이다, cabang를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "cabang",
+        "meaning": "(어근) cabang하는 상태이다"
+      },
+      {
+        "word": "bercabang",
+        "meaning": "cabang하는 상태이다, cabang를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_1hj4d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcabang [[뼝cabang]]",
+    "meaning": "cabang 수행 주체",
+    "pos": "명사",
+    "root": "cabang",
+    "affix_logic": "어근 'cabang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'cabang'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak cabang",
+    "antonym": "bukan cabang",
+    "context": "'pengcabang'은(는) principalmente 'cabang 수행 주체'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'cabang'의 용법에 유의하세요. 'pengcabang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'cabang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengcabang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 cabang 수행 주체 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengcabang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 cabang 수행 주체에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "cabang",
+        "meaning": "(어근) cabang 수행 주체"
+      },
+      {
+        "word": "pengcabang",
+        "meaning": "cabang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gcn51",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcabangan [[뼝cabang안]]",
+    "meaning": "cabang 과정 및 영역",
+    "pos": "명사",
+    "root": "cabang",
+    "affix_logic": "어근 'cabang'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'cabang'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses cabang",
+    "antonym": "bukan cabang",
+    "context": "'pengcabangan'은(는) principalmente 'cabang 과정 및 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'cabang'의 용법에 유의하세요. 'pengcabangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'cabang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengcabangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 cabang 과정 및 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengcabangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 cabang 과정 및 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "cabang",
+        "meaning": "(어근) cabang 과정 및 영역"
+      },
+      {
+        "word": "pengcabangan",
+        "meaning": "cabang 과정 및 영역"
+      }
+    ]
   }
 ];

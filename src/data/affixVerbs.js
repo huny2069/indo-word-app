@@ -120894,5 +120894,11735 @@ export const affixVerbs = [
         "meaning": "완전히 tiang pancang되다"
       }
     ]
+  },
+  {
+    "id": "word_1787139734101_4i9wr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengabadi [[멍abadi]]",
+    "meaning": "abadi하다 (능동사)",
+    "pos": "동사",
+    "root": "abadi",
+    "affix_logic": "어근 'abadi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'abadi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan abadi",
+    "antonym": "diabadi",
+    "context": "'mengabadi'은(는) principalmente 'abadi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'abadi'의 용법에 유의하세요. 'mengabadi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'abadi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengabadi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 abadi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengabadi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 abadi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "abadi",
+        "meaning": "(어근) abadi하다 (능동사)"
+      },
+      {
+        "word": "mengabadi",
+        "meaning": "abadi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_6zytb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diabadi [[디abadi]]",
+    "meaning": "abadi되다, abadi당하다 (수동사)",
+    "pos": "동사",
+    "root": "abadi",
+    "affix_logic": "어근 'abadi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'abadi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena abadi",
+    "antonym": "mengabadi",
+    "context": "'diabadi'은(는) principalmente 'abadi되다, abadi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'abadi'의 용법에 유의하세요. 'diabadi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'abadi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diabadi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 abadi되다, abadi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diabadi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 abadi되다, abadi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "abadi",
+        "meaning": "(어근) abadi되다"
+      },
+      {
+        "word": "diabadi",
+        "meaning": "abadi되다, abadi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wobrg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terabadi [[뜨르abadi]]",
+    "meaning": "완전히 abadi되다",
+    "pos": "동사, 형용사",
+    "root": "abadi",
+    "affix_logic": "어근 'abadi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'abadi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling abadi",
+    "antonym": "sengaja diabadi",
+    "context": "'terabadi'은(는) principalmente '완전히 abadi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'abadi'의 용법에 유의하세요. 'terabadi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'abadi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terabadi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 abadi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terabadi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 abadi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "abadi",
+        "meaning": "(어근) 완전히 abadi되다"
+      },
+      {
+        "word": "terabadi",
+        "meaning": "완전히 abadi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_kstw8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengacara [[멍acara]]",
+    "meaning": "acara하다 (능동사)",
+    "pos": "동사",
+    "root": "acara",
+    "affix_logic": "어근 'acara'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'acara'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan acara",
+    "antonym": "diacara",
+    "context": "'mengacara'은(는) principalmente 'acara하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'acara'의 용법에 유의하세요. 'mengacara' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'acara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengacara untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 acara하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengacara yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 acara하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "acara",
+        "meaning": "(어근) acara하다 (능동사)"
+      },
+      {
+        "word": "mengacara",
+        "meaning": "acara하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_9argh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diacara [[디acara]]",
+    "meaning": "acara되다, acara당하다 (수동사)",
+    "pos": "동사",
+    "root": "acara",
+    "affix_logic": "어근 'acara'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'acara'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena acara",
+    "antonym": "mengacara",
+    "context": "'diacara'은(는) principalmente 'acara되다, acara당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'acara'의 용법에 유의하세요. 'diacara' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'acara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diacara untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 acara되다, acara당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diacara yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 acara되다, acara당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "acara",
+        "meaning": "(어근) acara되다"
+      },
+      {
+        "word": "diacara",
+        "meaning": "acara되다, acara당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_axrah",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teracara [[뜨르acara]]",
+    "meaning": "완전히 acara되다",
+    "pos": "동사, 형용사",
+    "root": "acara",
+    "affix_logic": "어근 'acara'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'acara'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling acara",
+    "antonym": "sengaja diacara",
+    "context": "'teracara'은(는) principalmente '완전히 acara되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'acara'의 용법에 유의하세요. 'teracara' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'acara' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teracara untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 acara되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teracara yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 acara되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "acara",
+        "meaning": "(어근) 완전히 acara되다"
+      },
+      {
+        "word": "teracara",
+        "meaning": "완전히 acara되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_eycch",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengadat [[멍adat]]",
+    "meaning": "adat하다 (능동사)",
+    "pos": "동사",
+    "root": "adat",
+    "affix_logic": "어근 'adat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adat'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan adat",
+    "antonym": "diadat",
+    "context": "'mengadat'은(는) principalmente 'adat하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adat'의 용법에 유의하세요. 'mengadat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengadat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adat하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengadat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adat하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adat",
+        "meaning": "(어근) adat하다 (능동사)"
+      },
+      {
+        "word": "mengadat",
+        "meaning": "adat하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ng4zk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diadat [[디adat]]",
+    "meaning": "adat되다, adat당하다 (수동사)",
+    "pos": "동사",
+    "root": "adat",
+    "affix_logic": "어근 'adat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adat'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena adat",
+    "antonym": "mengadat",
+    "context": "'diadat'은(는) principalmente 'adat되다, adat당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adat'의 용법에 유의하세요. 'diadat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diadat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adat되다, adat당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diadat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adat되다, adat당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adat",
+        "meaning": "(어근) adat되다"
+      },
+      {
+        "word": "diadat",
+        "meaning": "adat되다, adat당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2xf92",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teradat [[뜨르adat]]",
+    "meaning": "완전히 adat되다",
+    "pos": "동사, 형용사",
+    "root": "adat",
+    "affix_logic": "어근 'adat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'adat'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling adat",
+    "antonym": "sengaja diadat",
+    "context": "'teradat'은(는) principalmente '완전히 adat되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adat'의 용법에 유의하세요. 'teradat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teradat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 adat되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teradat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 adat되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adat",
+        "meaning": "(어근) 완전히 adat되다"
+      },
+      {
+        "word": "teradat",
+        "meaning": "완전히 adat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5qkbi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengadil [[멍adil]]",
+    "meaning": "adil하다 (능동사)",
+    "pos": "동사",
+    "root": "adil",
+    "affix_logic": "어근 'adil'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adil'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan adil",
+    "antonym": "diadil",
+    "context": "'mengadil'은(는) principalmente 'adil하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adil'의 용법에 유의하세요. 'mengadil' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adil' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengadil untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adil하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengadil yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adil하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adil",
+        "meaning": "(어근) adil하다 (능동사)"
+      },
+      {
+        "word": "mengadil",
+        "meaning": "adil하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wnm7u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diadil [[디adil]]",
+    "meaning": "adil되다, adil당하다 (수동사)",
+    "pos": "동사",
+    "root": "adil",
+    "affix_logic": "어근 'adil'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adil'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena adil",
+    "antonym": "mengadil",
+    "context": "'diadil'은(는) principalmente 'adil되다, adil당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adil'의 용법에 유의하세요. 'diadil' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adil' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diadil untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adil되다, adil당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diadil yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adil되다, adil당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adil",
+        "meaning": "(어근) adil되다"
+      },
+      {
+        "word": "diadil",
+        "meaning": "adil되다, adil당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_rby2g",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teradil [[뜨르adil]]",
+    "meaning": "완전히 adil되다",
+    "pos": "동사, 형용사",
+    "root": "adil",
+    "affix_logic": "어근 'adil'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'adil'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling adil",
+    "antonym": "sengaja diadil",
+    "context": "'teradil'은(는) principalmente '완전히 adil되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adil'의 용법에 유의하세요. 'teradil' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adil' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teradil untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 adil되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teradil yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 adil되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adil",
+        "meaning": "(어근) 완전히 adil되다"
+      },
+      {
+        "word": "teradil",
+        "meaning": "완전히 adil되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_c9u3c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengadu [[멍adu]]",
+    "meaning": "adu하다 (능동사)",
+    "pos": "동사",
+    "root": "adu",
+    "affix_logic": "어근 'adu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adu'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan adu",
+    "antonym": "diadu",
+    "context": "'mengadu'은(는) principalmente 'adu하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adu'의 용법에 유의하세요. 'mengadu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengadu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adu하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengadu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adu하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adu",
+        "meaning": "(어근) adu하다 (능동사)"
+      },
+      {
+        "word": "mengadu",
+        "meaning": "adu하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_3c6cx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diadu [[디adu]]",
+    "meaning": "adu되다, adu당하다 (수동사)",
+    "pos": "동사",
+    "root": "adu",
+    "affix_logic": "어근 'adu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'adu'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena adu",
+    "antonym": "mengadu",
+    "context": "'diadu'은(는) principalmente 'adu되다, adu당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adu'의 용법에 유의하세요. 'diadu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diadu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 adu되다, adu당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diadu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 adu되다, adu당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adu",
+        "meaning": "(어근) adu되다"
+      },
+      {
+        "word": "diadu",
+        "meaning": "adu되다, adu당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_o11wg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teradu [[뜨르adu]]",
+    "meaning": "완전히 adu되다",
+    "pos": "동사, 형용사",
+    "root": "adu",
+    "affix_logic": "어근 'adu'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'adu'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling adu",
+    "antonym": "sengaja diadu",
+    "context": "'teradu'은(는) principalmente '완전히 adu되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'adu'의 용법에 유의하세요. 'teradu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'adu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teradu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 adu되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teradu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 adu되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "adu",
+        "meaning": "(어근) 완전히 adu되다"
+      },
+      {
+        "word": "teradu",
+        "meaning": "완전히 adu되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_434uz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengafiliasi [[멍afiliasi]]",
+    "meaning": "afiliasi하다 (능동사)",
+    "pos": "동사",
+    "root": "afiliasi",
+    "affix_logic": "어근 'afiliasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'afiliasi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan afiliasi",
+    "antonym": "diafiliasi",
+    "context": "'mengafiliasi'은(는) principalmente 'afiliasi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'afiliasi'의 용법에 유의하세요. 'mengafiliasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'afiliasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengafiliasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 afiliasi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengafiliasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 afiliasi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "afiliasi",
+        "meaning": "(어근) afiliasi하다 (능동사)"
+      },
+      {
+        "word": "mengafiliasi",
+        "meaning": "afiliasi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_29uto",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diafiliasi [[디afiliasi]]",
+    "meaning": "afiliasi되다, afiliasi당하다 (수동사)",
+    "pos": "동사",
+    "root": "afiliasi",
+    "affix_logic": "어근 'afiliasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'afiliasi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena afiliasi",
+    "antonym": "mengafiliasi",
+    "context": "'diafiliasi'은(는) principalmente 'afiliasi되다, afiliasi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'afiliasi'의 용법에 유의하세요. 'diafiliasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'afiliasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diafiliasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 afiliasi되다, afiliasi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diafiliasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 afiliasi되다, afiliasi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "afiliasi",
+        "meaning": "(어근) afiliasi되다"
+      },
+      {
+        "word": "diafiliasi",
+        "meaning": "afiliasi되다, afiliasi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_f4cr6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terafiliasi [[뜨르afiliasi]]",
+    "meaning": "완전히 afiliasi되다",
+    "pos": "동사, 형용사",
+    "root": "afiliasi",
+    "affix_logic": "어근 'afiliasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'afiliasi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling afiliasi",
+    "antonym": "sengaja diafiliasi",
+    "context": "'terafiliasi'은(는) principalmente '완전히 afiliasi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'afiliasi'의 용법에 유의하세요. 'terafiliasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'afiliasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terafiliasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 afiliasi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terafiliasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 afiliasi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "afiliasi",
+        "meaning": "(어근) 완전히 afiliasi되다"
+      },
+      {
+        "word": "terafiliasi",
+        "meaning": "완전히 afiliasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yiqqv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengagung [[멍agung]]",
+    "meaning": "agung하다 (능동사)",
+    "pos": "동사",
+    "root": "agung",
+    "affix_logic": "어근 'agung'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'agung'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan agung",
+    "antonym": "diagung",
+    "context": "'mengagung'은(는) principalmente 'agung하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'agung'의 용법에 유의하세요. 'mengagung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'agung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengagung untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 agung하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengagung yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 agung하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "agung",
+        "meaning": "(어근) agung하다 (능동사)"
+      },
+      {
+        "word": "mengagung",
+        "meaning": "agung하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5fb4m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diagung [[디agung]]",
+    "meaning": "agung되다, agung당하다 (수동사)",
+    "pos": "동사",
+    "root": "agung",
+    "affix_logic": "어근 'agung'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'agung'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena agung",
+    "antonym": "mengagung",
+    "context": "'diagung'은(는) principalmente 'agung되다, agung당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'agung'의 용법에 유의하세요. 'diagung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'agung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diagung untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 agung되다, agung당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diagung yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 agung되다, agung당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "agung",
+        "meaning": "(어근) agung되다"
+      },
+      {
+        "word": "diagung",
+        "meaning": "agung되다, agung당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_v6tq9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teragung [[뜨르agung]]",
+    "meaning": "완전히 agung되다",
+    "pos": "동사, 형용사",
+    "root": "agung",
+    "affix_logic": "어근 'agung'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'agung'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling agung",
+    "antonym": "sengaja diagung",
+    "context": "'teragung'은(는) principalmente '완전히 agung되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'agung'의 용법에 유의하세요. 'teragung' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'agung' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teragung untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 agung되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teragung yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 agung되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "agung",
+        "meaning": "(어근) 완전히 agung되다"
+      },
+      {
+        "word": "teragung",
+        "meaning": "완전히 agung되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2ao2w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengakad [[멍akad]]",
+    "meaning": "akad하다 (능동사)",
+    "pos": "동사",
+    "root": "akad",
+    "affix_logic": "어근 'akad'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akad'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan akad",
+    "antonym": "diakad",
+    "context": "'mengakad'은(는) principalmente 'akad하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akad'의 용법에 유의하세요. 'mengakad' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengakad untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akad하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengakad yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akad하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akad",
+        "meaning": "(어근) akad하다 (능동사)"
+      },
+      {
+        "word": "mengakad",
+        "meaning": "akad하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_kivyc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diakad [[디akad]]",
+    "meaning": "akad되다, akad당하다 (수동사)",
+    "pos": "동사",
+    "root": "akad",
+    "affix_logic": "어근 'akad'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akad'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena akad",
+    "antonym": "mengakad",
+    "context": "'diakad'은(는) principalmente 'akad되다, akad당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akad'의 용법에 유의하세요. 'diakad' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diakad untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akad되다, akad당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diakad yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akad되다, akad당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akad",
+        "meaning": "(어근) akad되다"
+      },
+      {
+        "word": "diakad",
+        "meaning": "akad되다, akad당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_hfym3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terakad [[뜨르akad]]",
+    "meaning": "완전히 akad되다",
+    "pos": "동사, 형용사",
+    "root": "akad",
+    "affix_logic": "어근 'akad'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'akad'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling akad",
+    "antonym": "sengaja diakad",
+    "context": "'terakad'은(는) principalmente '완전히 akad되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akad'의 용법에 유의하세요. 'terakad' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akad' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terakad untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 akad되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terakad yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 akad되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akad",
+        "meaning": "(어근) 완전히 akad되다"
+      },
+      {
+        "word": "terakad",
+        "meaning": "완전히 akad되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8uu40",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengakal [[멍akal]]",
+    "meaning": "akal하다 (능동사)",
+    "pos": "동사",
+    "root": "akal",
+    "affix_logic": "어근 'akal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akal'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan akal",
+    "antonym": "diakal",
+    "context": "'mengakal'은(는) principalmente 'akal하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akal'의 용법에 유의하세요. 'mengakal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengakal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akal하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengakal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akal하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akal",
+        "meaning": "(어근) akal하다 (능동사)"
+      },
+      {
+        "word": "mengakal",
+        "meaning": "akal하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_nzm7m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diakal [[디akal]]",
+    "meaning": "akal되다, akal당하다 (수동사)",
+    "pos": "동사",
+    "root": "akal",
+    "affix_logic": "어근 'akal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akal'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena akal",
+    "antonym": "mengakal",
+    "context": "'diakal'은(는) principalmente 'akal되다, akal당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akal'의 용법에 유의하세요. 'diakal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diakal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akal되다, akal당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diakal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akal되다, akal당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akal",
+        "meaning": "(어근) akal되다"
+      },
+      {
+        "word": "diakal",
+        "meaning": "akal되다, akal당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_d5iqp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terakal [[뜨르akal]]",
+    "meaning": "완전히 akal되다",
+    "pos": "동사, 형용사",
+    "root": "akal",
+    "affix_logic": "어근 'akal'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'akal'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling akal",
+    "antonym": "sengaja diakal",
+    "context": "'terakal'은(는) principalmente '완전히 akal되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akal'의 용법에 유의하세요. 'terakal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terakal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 akal되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terakal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 akal되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akal",
+        "meaning": "(어근) 완전히 akal되다"
+      },
+      {
+        "word": "terakal",
+        "meaning": "완전히 akal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ctkn5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengakrab [[멍akrab]]",
+    "meaning": "akrab하다 (능동사)",
+    "pos": "동사",
+    "root": "akrab",
+    "affix_logic": "어근 'akrab'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akrab'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan akrab",
+    "antonym": "diakrab",
+    "context": "'mengakrab'은(는) principalmente 'akrab하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akrab'의 용법에 유의하세요. 'mengakrab' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akrab' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengakrab untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akrab하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengakrab yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akrab하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akrab",
+        "meaning": "(어근) akrab하다 (능동사)"
+      },
+      {
+        "word": "mengakrab",
+        "meaning": "akrab하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_u4q4z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diakrab [[디akrab]]",
+    "meaning": "akrab되다, akrab당하다 (수동사)",
+    "pos": "동사",
+    "root": "akrab",
+    "affix_logic": "어근 'akrab'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akrab'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena akrab",
+    "antonym": "mengakrab",
+    "context": "'diakrab'은(는) principalmente 'akrab되다, akrab당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akrab'의 용법에 유의하세요. 'diakrab' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akrab' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diakrab untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akrab되다, akrab당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diakrab yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akrab되다, akrab당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akrab",
+        "meaning": "(어근) akrab되다"
+      },
+      {
+        "word": "diakrab",
+        "meaning": "akrab되다, akrab당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_adlzo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terakrab [[뜨르akrab]]",
+    "meaning": "완전히 akrab되다",
+    "pos": "동사, 형용사",
+    "root": "akrab",
+    "affix_logic": "어근 'akrab'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'akrab'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling akrab",
+    "antonym": "sengaja diakrab",
+    "context": "'terakrab'은(는) principalmente '완전히 akrab되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akrab'의 용법에 유의하세요. 'terakrab' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akrab' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terakrab untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 akrab되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terakrab yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 akrab되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akrab",
+        "meaning": "(어근) 완전히 akrab되다"
+      },
+      {
+        "word": "terakrab",
+        "meaning": "완전히 akrab되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cwfle",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaksesibilitas [[멍aksesibilitas]]",
+    "meaning": "aksesibilitas하다 (능동사)",
+    "pos": "동사",
+    "root": "aksesibilitas",
+    "affix_logic": "어근 'aksesibilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksesibilitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aksesibilitas",
+    "antonym": "diaksesibilitas",
+    "context": "'mengaksesibilitas'은(는) principalmente 'aksesibilitas하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesibilitas'의 용법에 유의하세요. 'mengaksesibilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesibilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaksesibilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesibilitas하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaksesibilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesibilitas하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesibilitas",
+        "meaning": "(어근) aksesibilitas하다 (능동사)"
+      },
+      {
+        "word": "mengaksesibilitas",
+        "meaning": "aksesibilitas하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_y5ndy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaksesibilitas [[디aksesibilitas]]",
+    "meaning": "aksesibilitas되다, aksesibilitas당하다 (수동사)",
+    "pos": "동사",
+    "root": "aksesibilitas",
+    "affix_logic": "어근 'aksesibilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksesibilitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aksesibilitas",
+    "antonym": "mengaksesibilitas",
+    "context": "'diaksesibilitas'은(는) principalmente 'aksesibilitas되다, aksesibilitas당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesibilitas'의 용법에 유의하세요. 'diaksesibilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesibilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diaksesibilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesibilitas되다, aksesibilitas당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diaksesibilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesibilitas되다, aksesibilitas당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesibilitas",
+        "meaning": "(어근) aksesibilitas되다"
+      },
+      {
+        "word": "diaksesibilitas",
+        "meaning": "aksesibilitas되다, aksesibilitas당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_dsaum",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraksesibilitas [[뜨르aksesibilitas]]",
+    "meaning": "완전히 aksesibilitas되다",
+    "pos": "동사, 형용사",
+    "root": "aksesibilitas",
+    "affix_logic": "어근 'aksesibilitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aksesibilitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aksesibilitas",
+    "antonym": "sengaja diaksesibilitas",
+    "context": "'teraksesibilitas'은(는) principalmente '완전히 aksesibilitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesibilitas'의 용법에 유의하세요. 'teraksesibilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesibilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraksesibilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aksesibilitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraksesibilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aksesibilitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesibilitas",
+        "meaning": "(어근) 완전히 aksesibilitas되다"
+      },
+      {
+        "word": "teraksesibilitas",
+        "meaning": "완전히 aksesibilitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_421y2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaksesoris [[멍aksesoris]]",
+    "meaning": "aksesoris하다 (능동사)",
+    "pos": "동사",
+    "root": "aksesoris",
+    "affix_logic": "어근 'aksesoris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksesoris'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aksesoris",
+    "antonym": "diaksesoris",
+    "context": "'mengaksesoris'은(는) principalmente 'aksesoris하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesoris'의 용법에 유의하세요. 'mengaksesoris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesoris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaksesoris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesoris하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaksesoris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesoris하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesoris",
+        "meaning": "(어근) aksesoris하다 (능동사)"
+      },
+      {
+        "word": "mengaksesoris",
+        "meaning": "aksesoris하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cjtlh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaksesoris [[디aksesoris]]",
+    "meaning": "aksesoris되다, aksesoris당하다 (수동사)",
+    "pos": "동사",
+    "root": "aksesoris",
+    "affix_logic": "어근 'aksesoris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksesoris'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aksesoris",
+    "antonym": "mengaksesoris",
+    "context": "'diaksesoris'은(는) principalmente 'aksesoris되다, aksesoris당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesoris'의 용법에 유의하세요. 'diaksesoris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesoris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diaksesoris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksesoris되다, aksesoris당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diaksesoris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksesoris되다, aksesoris당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesoris",
+        "meaning": "(어근) aksesoris되다"
+      },
+      {
+        "word": "diaksesoris",
+        "meaning": "aksesoris되다, aksesoris당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8ovct",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraksesoris [[뜨르aksesoris]]",
+    "meaning": "완전히 aksesoris되다",
+    "pos": "동사, 형용사",
+    "root": "aksesoris",
+    "affix_logic": "어근 'aksesoris'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aksesoris'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aksesoris",
+    "antonym": "sengaja diaksesoris",
+    "context": "'teraksesoris'은(는) principalmente '완전히 aksesoris되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksesoris'의 용법에 유의하세요. 'teraksesoris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksesoris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraksesoris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aksesoris되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraksesoris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aksesoris되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksesoris",
+        "meaning": "(어근) 완전히 aksesoris되다"
+      },
+      {
+        "word": "teraksesoris",
+        "meaning": "완전히 aksesoris되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_aneng",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaksi [[멍aksi]]",
+    "meaning": "aksi하다 (능동사)",
+    "pos": "동사",
+    "root": "aksi",
+    "affix_logic": "어근 'aksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aksi",
+    "antonym": "diaksi",
+    "context": "'mengaksi'은(는) principalmente 'aksi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksi'의 용법에 유의하세요. 'mengaksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksi",
+        "meaning": "(어근) aksi하다 (능동사)"
+      },
+      {
+        "word": "mengaksi",
+        "meaning": "aksi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_q8uaq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaksi [[디aksi]]",
+    "meaning": "aksi되다, aksi당하다 (수동사)",
+    "pos": "동사",
+    "root": "aksi",
+    "affix_logic": "어근 'aksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aksi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aksi",
+    "antonym": "mengaksi",
+    "context": "'diaksi'은(는) principalmente 'aksi되다, aksi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksi'의 용법에 유의하세요. 'diaksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diaksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aksi되다, aksi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diaksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aksi되다, aksi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksi",
+        "meaning": "(어근) aksi되다"
+      },
+      {
+        "word": "diaksi",
+        "meaning": "aksi되다, aksi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_csxkw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraksi [[뜨르aksi]]",
+    "meaning": "완전히 aksi되다",
+    "pos": "동사, 형용사",
+    "root": "aksi",
+    "affix_logic": "어근 'aksi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aksi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aksi",
+    "antonym": "sengaja diaksi",
+    "context": "'teraksi'은(는) principalmente '완전히 aksi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aksi'의 용법에 유의하세요. 'teraksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aksi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aksi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aksi",
+        "meaning": "(어근) 완전히 aksi되다"
+      },
+      {
+        "word": "teraksi",
+        "meaning": "완전히 aksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_9urf2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaktiva [[멍aktiva]]",
+    "meaning": "aktiva하다 (능동사)",
+    "pos": "동사",
+    "root": "aktiva",
+    "affix_logic": "어근 'aktiva'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aktiva'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aktiva",
+    "antonym": "diaktiva",
+    "context": "'mengaktiva'은(는) principalmente 'aktiva하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktiva'의 용법에 유의하세요. 'mengaktiva' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktiva' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaktiva untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktiva하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaktiva yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktiva하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktiva",
+        "meaning": "(어근) aktiva하다 (능동사)"
+      },
+      {
+        "word": "mengaktiva",
+        "meaning": "aktiva하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_4mhuh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaktiva [[디aktiva]]",
+    "meaning": "aktiva되다, aktiva당하다 (수동사)",
+    "pos": "동사",
+    "root": "aktiva",
+    "affix_logic": "어근 'aktiva'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aktiva'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aktiva",
+    "antonym": "mengaktiva",
+    "context": "'diaktiva'은(는) principalmente 'aktiva되다, aktiva당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktiva'의 용법에 유의하세요. 'diaktiva' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktiva' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diaktiva untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktiva되다, aktiva당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diaktiva yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktiva되다, aktiva당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktiva",
+        "meaning": "(어근) aktiva되다"
+      },
+      {
+        "word": "diaktiva",
+        "meaning": "aktiva되다, aktiva당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_kxtsv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraktiva [[뜨르aktiva]]",
+    "meaning": "완전히 aktiva되다",
+    "pos": "동사, 형용사",
+    "root": "aktiva",
+    "affix_logic": "어근 'aktiva'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aktiva'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aktiva",
+    "antonym": "sengaja diaktiva",
+    "context": "'teraktiva'은(는) principalmente '완전히 aktiva되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktiva'의 용법에 유의하세요. 'teraktiva' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktiva' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraktiva untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aktiva되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraktiva yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aktiva되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktiva",
+        "meaning": "(어근) 완전히 aktiva되다"
+      },
+      {
+        "word": "teraktiva",
+        "meaning": "완전히 aktiva되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_10ysf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengakuarium [[멍akuarium]]",
+    "meaning": "akuarium하다 (능동사)",
+    "pos": "동사",
+    "root": "akuarium",
+    "affix_logic": "어근 'akuarium'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akuarium'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan akuarium",
+    "antonym": "diakuarium",
+    "context": "'mengakuarium'은(는) principalmente 'akuarium하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuarium'의 용법에 유의하세요. 'mengakuarium' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuarium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengakuarium untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuarium하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengakuarium yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuarium하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuarium",
+        "meaning": "(어근) akuarium하다 (능동사)"
+      },
+      {
+        "word": "mengakuarium",
+        "meaning": "akuarium하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_nsbsa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diakuarium [[디akuarium]]",
+    "meaning": "akuarium되다, akuarium당하다 (수동사)",
+    "pos": "동사",
+    "root": "akuarium",
+    "affix_logic": "어근 'akuarium'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akuarium'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena akuarium",
+    "antonym": "mengakuarium",
+    "context": "'diakuarium'은(는) principalmente 'akuarium되다, akuarium당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuarium'의 용법에 유의하세요. 'diakuarium' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuarium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diakuarium untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuarium되다, akuarium당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diakuarium yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuarium되다, akuarium당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuarium",
+        "meaning": "(어근) akuarium되다"
+      },
+      {
+        "word": "diakuarium",
+        "meaning": "akuarium되다, akuarium당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_t9cgs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terakuarium [[뜨르akuarium]]",
+    "meaning": "완전히 akuarium되다",
+    "pos": "동사, 형용사",
+    "root": "akuarium",
+    "affix_logic": "어근 'akuarium'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'akuarium'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling akuarium",
+    "antonym": "sengaja diakuarium",
+    "context": "'terakuarium'은(는) principalmente '완전히 akuarium되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuarium'의 용법에 유의하세요. 'terakuarium' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuarium' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terakuarium untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 akuarium되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terakuarium yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 akuarium되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuarium",
+        "meaning": "(어근) 완전히 akuarium되다"
+      },
+      {
+        "word": "terakuarium",
+        "meaning": "완전히 akuarium되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_vpvhj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengalam [[멍alam]]",
+    "meaning": "alam하다 (능동사)",
+    "pos": "동사",
+    "root": "alam",
+    "affix_logic": "어근 'alam'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alam'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan alam",
+    "antonym": "dialam",
+    "context": "'mengalam'은(는) principalmente 'alam하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alam'의 용법에 유의하세요. 'mengalam' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengalam untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alam하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengalam yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alam하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alam",
+        "meaning": "(어근) alam하다 (능동사)"
+      },
+      {
+        "word": "mengalam",
+        "meaning": "alam하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ayy7w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialam [[디alam]]",
+    "meaning": "alam되다, alam당하다 (수동사)",
+    "pos": "동사",
+    "root": "alam",
+    "affix_logic": "어근 'alam'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alam'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena alam",
+    "antonym": "mengalam",
+    "context": "'dialam'은(는) principalmente 'alam되다, alam당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alam'의 용법에 유의하세요. 'dialam' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialam untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alam되다, alam당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialam yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alam되다, alam당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alam",
+        "meaning": "(어근) alam되다"
+      },
+      {
+        "word": "dialam",
+        "meaning": "alam되다, alam당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fcm0b",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teralam [[뜨르alam]]",
+    "meaning": "완전히 alam되다",
+    "pos": "동사, 형용사",
+    "root": "alam",
+    "affix_logic": "어근 'alam'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'alam'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling alam",
+    "antonym": "sengaja dialam",
+    "context": "'teralam'은(는) principalmente '완전히 alam되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alam'의 용법에 유의하세요. 'teralam' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alam' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teralam untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 alam되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teralam yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 alam되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alam",
+        "meaning": "(어근) 완전히 alam되다"
+      },
+      {
+        "word": "teralam",
+        "meaning": "완전히 alam되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5q6f1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengalamat [[멍alamat]]",
+    "meaning": "alamat하다 (능동사)",
+    "pos": "동사",
+    "root": "alamat",
+    "affix_logic": "어근 'alamat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alamat'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan alamat",
+    "antonym": "dialamat",
+    "context": "'mengalamat'은(는) principalmente 'alamat하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alamat'의 용법에 유의하세요. 'mengalamat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alamat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengalamat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alamat하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengalamat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alamat하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alamat",
+        "meaning": "(어근) alamat하다 (능동사)"
+      },
+      {
+        "word": "mengalamat",
+        "meaning": "alamat하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_34j3v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialamat [[디alamat]]",
+    "meaning": "alamat되다, alamat당하다 (수동사)",
+    "pos": "동사",
+    "root": "alamat",
+    "affix_logic": "어근 'alamat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alamat'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena alamat",
+    "antonym": "mengalamat",
+    "context": "'dialamat'은(는) principalmente 'alamat되다, alamat당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alamat'의 용법에 유의하세요. 'dialamat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alamat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialamat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alamat되다, alamat당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialamat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alamat되다, alamat당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alamat",
+        "meaning": "(어근) alamat되다"
+      },
+      {
+        "word": "dialamat",
+        "meaning": "alamat되다, alamat당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mpvgf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teralamat [[뜨르alamat]]",
+    "meaning": "완전히 alamat되다",
+    "pos": "동사, 형용사",
+    "root": "alamat",
+    "affix_logic": "어근 'alamat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'alamat'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling alamat",
+    "antonym": "sengaja dialamat",
+    "context": "'teralamat'은(는) principalmente '완전히 alamat되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alamat'의 용법에 유의하세요. 'teralamat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alamat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teralamat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 alamat되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teralamat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 alamat되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alamat",
+        "meaning": "(어근) 완전히 alamat되다"
+      },
+      {
+        "word": "teralamat",
+        "meaning": "완전히 alamat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_7noep",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengalat [[멍alat]]",
+    "meaning": "alat하다 (능동사)",
+    "pos": "동사",
+    "root": "alat",
+    "affix_logic": "어근 'alat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alat'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan alat",
+    "antonym": "dialat",
+    "context": "'mengalat'은(는) principalmente 'alat하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alat'의 용법에 유의하세요. 'mengalat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengalat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alat하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengalat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alat하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alat",
+        "meaning": "(어근) alat하다 (능동사)"
+      },
+      {
+        "word": "mengalat",
+        "meaning": "alat하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_4ic4i",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialat [[디alat]]",
+    "meaning": "alat되다, alat당하다 (수동사)",
+    "pos": "동사",
+    "root": "alat",
+    "affix_logic": "어근 'alat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alat'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena alat",
+    "antonym": "mengalat",
+    "context": "'dialat'은(는) principalmente 'alat되다, alat당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alat'의 용법에 유의하세요. 'dialat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alat되다, alat당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alat되다, alat당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alat",
+        "meaning": "(어근) alat되다"
+      },
+      {
+        "word": "dialat",
+        "meaning": "alat되다, alat당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_6rz9g",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teralat [[뜨르alat]]",
+    "meaning": "완전히 alat되다",
+    "pos": "동사, 형용사",
+    "root": "alat",
+    "affix_logic": "어근 'alat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'alat'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling alat",
+    "antonym": "sengaja dialat",
+    "context": "'teralat'은(는) principalmente '완전히 alat되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alat'의 용법에 유의하세요. 'teralat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teralat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 alat되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teralat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 alat되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alat",
+        "meaning": "(어근) 완전히 alat되다"
+      },
+      {
+        "word": "teralat",
+        "meaning": "완전히 alat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_krncs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengalbum [[멍album]]",
+    "meaning": "album하다 (능동사)",
+    "pos": "동사",
+    "root": "album",
+    "affix_logic": "어근 'album'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'album'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan album",
+    "antonym": "dialbum",
+    "context": "'mengalbum'은(는) principalmente 'album하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'album'의 용법에 유의하세요. 'mengalbum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'album' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengalbum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 album하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengalbum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 album하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "album",
+        "meaning": "(어근) album하다 (능동사)"
+      },
+      {
+        "word": "mengalbum",
+        "meaning": "album하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_59nou",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialbum [[디album]]",
+    "meaning": "album되다, album당하다 (수동사)",
+    "pos": "동사",
+    "root": "album",
+    "affix_logic": "어근 'album'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'album'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena album",
+    "antonym": "mengalbum",
+    "context": "'dialbum'은(는) principalmente 'album되다, album당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'album'의 용법에 유의하세요. 'dialbum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'album' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialbum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 album되다, album당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialbum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 album되다, album당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "album",
+        "meaning": "(어근) album되다"
+      },
+      {
+        "word": "dialbum",
+        "meaning": "album되다, album당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8eo8c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teralbum [[뜨르album]]",
+    "meaning": "완전히 album되다",
+    "pos": "동사, 형용사",
+    "root": "album",
+    "affix_logic": "어근 'album'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'album'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling album",
+    "antonym": "sengaja dialbum",
+    "context": "'teralbum'은(는) principalmente '완전히 album되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'album'의 용법에 유의하세요. 'teralbum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'album' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teralbum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 album되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teralbum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 album되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "album",
+        "meaning": "(어근) 완전히 album되다"
+      },
+      {
+        "word": "teralbum",
+        "meaning": "완전히 album되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_o6hgm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengalasan [[멍alasan]]",
+    "meaning": "alasan하다 (능동사)",
+    "pos": "동사",
+    "root": "alasan",
+    "affix_logic": "어근 'alasan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alasan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan alasan",
+    "antonym": "dialasan",
+    "context": "'mengalasan'은(는) principalmente 'alasan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alasan'의 용법에 유의하세요. 'mengalasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengalasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alasan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengalasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alasan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alasan",
+        "meaning": "(어근) alasan하다 (능동사)"
+      },
+      {
+        "word": "mengalasan",
+        "meaning": "alasan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_br7ip",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialasan [[디alasan]]",
+    "meaning": "alasan되다, alasan당하다 (수동사)",
+    "pos": "동사",
+    "root": "alasan",
+    "affix_logic": "어근 'alasan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alasan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena alasan",
+    "antonym": "mengalasan",
+    "context": "'dialasan'은(는) principalmente 'alasan되다, alasan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alasan'의 용법에 유의하세요. 'dialasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alasan되다, alasan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alasan되다, alasan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alasan",
+        "meaning": "(어근) alasan되다"
+      },
+      {
+        "word": "dialasan",
+        "meaning": "alasan되다, alasan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_utsem",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teralasan [[뜨르alasan]]",
+    "meaning": "완전히 alasan되다",
+    "pos": "동사, 형용사",
+    "root": "alasan",
+    "affix_logic": "어근 'alasan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'alasan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling alasan",
+    "antonym": "sengaja dialasan",
+    "context": "'teralasan'은(는) principalmente '완전히 alasan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alasan'의 용법에 유의하세요. 'teralasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teralasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 alasan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teralasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 alasan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alasan",
+        "meaning": "(어근) 완전히 alasan되다"
+      },
+      {
+        "word": "teralasan",
+        "meaning": "완전히 alasan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8sp0y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaliansi [[멍aliansi]]",
+    "meaning": "aliansi하다 (능동사)",
+    "pos": "동사",
+    "root": "aliansi",
+    "affix_logic": "어근 'aliansi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aliansi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aliansi",
+    "antonym": "dialiansi",
+    "context": "'mengaliansi'은(는) principalmente 'aliansi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliansi'의 용법에 유의하세요. 'mengaliansi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliansi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaliansi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliansi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaliansi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliansi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliansi",
+        "meaning": "(어근) aliansi하다 (능동사)"
+      },
+      {
+        "word": "mengaliansi",
+        "meaning": "aliansi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fze3v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialiansi [[디aliansi]]",
+    "meaning": "aliansi되다, aliansi당하다 (수동사)",
+    "pos": "동사",
+    "root": "aliansi",
+    "affix_logic": "어근 'aliansi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aliansi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aliansi",
+    "antonym": "mengaliansi",
+    "context": "'dialiansi'은(는) principalmente 'aliansi되다, aliansi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliansi'의 용법에 유의하세요. 'dialiansi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliansi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialiansi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliansi되다, aliansi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialiansi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliansi되다, aliansi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliansi",
+        "meaning": "(어근) aliansi되다"
+      },
+      {
+        "word": "dialiansi",
+        "meaning": "aliansi되다, aliansi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_976mb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraliansi [[뜨르aliansi]]",
+    "meaning": "완전히 aliansi되다",
+    "pos": "동사, 형용사",
+    "root": "aliansi",
+    "affix_logic": "어근 'aliansi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aliansi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aliansi",
+    "antonym": "sengaja dialiansi",
+    "context": "'teraliansi'은(는) principalmente '완전히 aliansi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliansi'의 용법에 유의하세요. 'teraliansi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliansi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraliansi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aliansi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraliansi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aliansi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliansi",
+        "meaning": "(어근) 완전히 aliansi되다"
+      },
+      {
+        "word": "teraliansi",
+        "meaning": "완전히 aliansi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ynkfl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengalih [[멍alih]]",
+    "meaning": "alih하다 (능동사)",
+    "pos": "동사",
+    "root": "alih",
+    "affix_logic": "어근 'alih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alih'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan alih",
+    "antonym": "dialih",
+    "context": "'mengalih'은(는) principalmente 'alih하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alih'의 용법에 유의하세요. 'mengalih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengalih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alih하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengalih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alih하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alih",
+        "meaning": "(어근) alih하다 (능동사)"
+      },
+      {
+        "word": "mengalih",
+        "meaning": "alih하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_x21xo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialih [[디alih]]",
+    "meaning": "alih되다, alih당하다 (수동사)",
+    "pos": "동사",
+    "root": "alih",
+    "affix_logic": "어근 'alih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alih'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena alih",
+    "antonym": "mengalih",
+    "context": "'dialih'은(는) principalmente 'alih되다, alih당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alih'의 용법에 유의하세요. 'dialih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alih되다, alih당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alih되다, alih당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alih",
+        "meaning": "(어근) alih되다"
+      },
+      {
+        "word": "dialih",
+        "meaning": "alih되다, alih당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5gpir",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teralih [[뜨르alih]]",
+    "meaning": "완전히 alih되다",
+    "pos": "동사, 형용사",
+    "root": "alih",
+    "affix_logic": "어근 'alih'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'alih'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling alih",
+    "antonym": "sengaja dialih",
+    "context": "'teralih'은(는) principalmente '완전히 alih되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alih'의 용법에 유의하세요. 'teralih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teralih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 alih되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teralih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 alih되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alih",
+        "meaning": "(어근) 완전히 alih되다"
+      },
+      {
+        "word": "teralih",
+        "meaning": "완전히 alih되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_p12tl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaliran [[멍aliran]]",
+    "meaning": "aliran하다 (능동사)",
+    "pos": "동사",
+    "root": "aliran",
+    "affix_logic": "어근 'aliran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aliran'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aliran",
+    "antonym": "dialiran",
+    "context": "'mengaliran'은(는) principalmente 'aliran하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliran'의 용법에 유의하세요. 'mengaliran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaliran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliran하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaliran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliran하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliran",
+        "meaning": "(어근) aliran하다 (능동사)"
+      },
+      {
+        "word": "mengaliran",
+        "meaning": "aliran하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_u6jhs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialiran [[디aliran]]",
+    "meaning": "aliran되다, aliran당하다 (수동사)",
+    "pos": "동사",
+    "root": "aliran",
+    "affix_logic": "어근 'aliran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aliran'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aliran",
+    "antonym": "mengaliran",
+    "context": "'dialiran'은(는) principalmente 'aliran되다, aliran당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliran'의 용법에 유의하세요. 'dialiran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dialiran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aliran되다, aliran당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dialiran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aliran되다, aliran당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliran",
+        "meaning": "(어근) aliran되다"
+      },
+      {
+        "word": "dialiran",
+        "meaning": "aliran되다, aliran당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_a7eeh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraliran [[뜨르aliran]]",
+    "meaning": "완전히 aliran되다",
+    "pos": "동사, 형용사",
+    "root": "aliran",
+    "affix_logic": "어근 'aliran'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aliran'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aliran",
+    "antonym": "sengaja dialiran",
+    "context": "'teraliran'은(는) principalmente '완전히 aliran되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aliran'의 용법에 유의하세요. 'teraliran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aliran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraliran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aliran되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraliran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aliran되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aliran",
+        "meaning": "(어근) 완전히 aliran되다"
+      },
+      {
+        "word": "teraliran",
+        "meaning": "완전히 aliran되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_br596",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengamater [[멍amater]]",
+    "meaning": "amater하다 (능동사)",
+    "pos": "동사",
+    "root": "amater",
+    "affix_logic": "어근 'amater'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amater'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan amater",
+    "antonym": "diamater",
+    "context": "'mengamater'은(는) principalmente 'amater하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amater'의 용법에 유의하세요. 'mengamater' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengamater untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amater하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengamater yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amater하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amater",
+        "meaning": "(어근) amater하다 (능동사)"
+      },
+      {
+        "word": "mengamater",
+        "meaning": "amater하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_27a7r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diamater [[디amater]]",
+    "meaning": "amater되다, amater당하다 (수동사)",
+    "pos": "동사",
+    "root": "amater",
+    "affix_logic": "어근 'amater'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amater'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena amater",
+    "antonym": "mengamater",
+    "context": "'diamater'은(는) principalmente 'amater되다, amater당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amater'의 용법에 유의하세요. 'diamater' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diamater untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amater되다, amater당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diamater yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amater되다, amater당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amater",
+        "meaning": "(어근) amater되다"
+      },
+      {
+        "word": "diamater",
+        "meaning": "amater되다, amater당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_jdehk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teramater [[뜨르amater]]",
+    "meaning": "완전히 amater되다",
+    "pos": "동사, 형용사",
+    "root": "amater",
+    "affix_logic": "어근 'amater'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'amater'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling amater",
+    "antonym": "sengaja diamater",
+    "context": "'teramater'은(는) principalmente '완전히 amater되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amater'의 용법에 유의하세요. 'teramater' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amater' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teramater untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 amater되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teramater yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 amater되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amater",
+        "meaning": "(어근) 완전히 amater되다"
+      },
+      {
+        "word": "teramater",
+        "meaning": "완전히 amater되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_biecf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengambisi [[멍ambisi]]",
+    "meaning": "ambisi하다 (능동사)",
+    "pos": "동사",
+    "root": "ambisi",
+    "affix_logic": "어근 'ambisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ambisi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan ambisi",
+    "antonym": "diambisi",
+    "context": "'mengambisi'은(는) principalmente 'ambisi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisi'의 용법에 유의하세요. 'mengambisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengambisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengambisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisi",
+        "meaning": "(어근) ambisi하다 (능동사)"
+      },
+      {
+        "word": "mengambisi",
+        "meaning": "ambisi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_11su4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diambisi [[디ambisi]]",
+    "meaning": "ambisi되다, ambisi당하다 (수동사)",
+    "pos": "동사",
+    "root": "ambisi",
+    "affix_logic": "어근 'ambisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ambisi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena ambisi",
+    "antonym": "mengambisi",
+    "context": "'diambisi'은(는) principalmente 'ambisi되다, ambisi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisi'의 용법에 유의하세요. 'diambisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diambisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisi되다, ambisi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diambisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisi되다, ambisi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisi",
+        "meaning": "(어근) ambisi되다"
+      },
+      {
+        "word": "diambisi",
+        "meaning": "ambisi되다, ambisi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_x4i5n",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terambisi [[뜨르ambisi]]",
+    "meaning": "완전히 ambisi되다",
+    "pos": "동사, 형용사",
+    "root": "ambisi",
+    "affix_logic": "어근 'ambisi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'ambisi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling ambisi",
+    "antonym": "sengaja diambisi",
+    "context": "'terambisi'은(는) principalmente '완전히 ambisi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisi'의 용법에 유의하세요. 'terambisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terambisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 ambisi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terambisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 ambisi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisi",
+        "meaning": "(어근) 완전히 ambisi되다"
+      },
+      {
+        "word": "terambisi",
+        "meaning": "완전히 ambisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_dx8cx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengamenitas [[멍amenitas]]",
+    "meaning": "amenitas하다 (능동사)",
+    "pos": "동사",
+    "root": "amenitas",
+    "affix_logic": "어근 'amenitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amenitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan amenitas",
+    "antonym": "diamenitas",
+    "context": "'mengamenitas'은(는) principalmente 'amenitas하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amenitas'의 용법에 유의하세요. 'mengamenitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amenitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengamenitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amenitas하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengamenitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amenitas하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amenitas",
+        "meaning": "(어근) amenitas하다 (능동사)"
+      },
+      {
+        "word": "mengamenitas",
+        "meaning": "amenitas하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_f699w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diamenitas [[디amenitas]]",
+    "meaning": "amenitas되다, amenitas당하다 (수동사)",
+    "pos": "동사",
+    "root": "amenitas",
+    "affix_logic": "어근 'amenitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amenitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena amenitas",
+    "antonym": "mengamenitas",
+    "context": "'diamenitas'은(는) principalmente 'amenitas되다, amenitas당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amenitas'의 용법에 유의하세요. 'diamenitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amenitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diamenitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amenitas되다, amenitas당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diamenitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amenitas되다, amenitas당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amenitas",
+        "meaning": "(어근) amenitas되다"
+      },
+      {
+        "word": "diamenitas",
+        "meaning": "amenitas되다, amenitas당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_bgqid",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teramenitas [[뜨르amenitas]]",
+    "meaning": "완전히 amenitas되다",
+    "pos": "동사, 형용사",
+    "root": "amenitas",
+    "affix_logic": "어근 'amenitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'amenitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling amenitas",
+    "antonym": "sengaja diamenitas",
+    "context": "'teramenitas'은(는) principalmente '완전히 amenitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amenitas'의 용법에 유의하세요. 'teramenitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amenitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teramenitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 amenitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teramenitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 amenitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amenitas",
+        "meaning": "(어근) 완전히 amenitas되다"
+      },
+      {
+        "word": "teramenitas",
+        "meaning": "완전히 amenitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wwhbb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengamunisi [[멍amunisi]]",
+    "meaning": "amunisi하다 (능동사)",
+    "pos": "동사",
+    "root": "amunisi",
+    "affix_logic": "어근 'amunisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amunisi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan amunisi",
+    "antonym": "diamunisi",
+    "context": "'mengamunisi'은(는) principalmente 'amunisi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amunisi'의 용법에 유의하세요. 'mengamunisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amunisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengamunisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amunisi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengamunisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amunisi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amunisi",
+        "meaning": "(어근) amunisi하다 (능동사)"
+      },
+      {
+        "word": "mengamunisi",
+        "meaning": "amunisi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ob537",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diamunisi [[디amunisi]]",
+    "meaning": "amunisi되다, amunisi당하다 (수동사)",
+    "pos": "동사",
+    "root": "amunisi",
+    "affix_logic": "어근 'amunisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amunisi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena amunisi",
+    "antonym": "mengamunisi",
+    "context": "'diamunisi'은(는) principalmente 'amunisi되다, amunisi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amunisi'의 용법에 유의하세요. 'diamunisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amunisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diamunisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amunisi되다, amunisi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diamunisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amunisi되다, amunisi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amunisi",
+        "meaning": "(어근) amunisi되다"
+      },
+      {
+        "word": "diamunisi",
+        "meaning": "amunisi되다, amunisi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5g13m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teramunisi [[뜨르amunisi]]",
+    "meaning": "완전히 amunisi되다",
+    "pos": "동사, 형용사",
+    "root": "amunisi",
+    "affix_logic": "어근 'amunisi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'amunisi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling amunisi",
+    "antonym": "sengaja diamunisi",
+    "context": "'teramunisi'은(는) principalmente '완전히 amunisi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amunisi'의 용법에 유의하세요. 'teramunisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amunisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teramunisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 amunisi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teramunisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 amunisi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amunisi",
+        "meaning": "(어근) 완전히 amunisi되다"
+      },
+      {
+        "word": "teramunisi",
+        "meaning": "완전히 amunisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_c3zs3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganalis [[멍analis]]",
+    "meaning": "analis하다 (능동사)",
+    "pos": "동사",
+    "root": "analis",
+    "affix_logic": "어근 'analis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'analis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan analis",
+    "antonym": "dianalis",
+    "context": "'menganalis'은(는) principalmente 'analis하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analis'의 용법에 유의하세요. 'menganalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menganalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analis하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menganalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analis하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analis",
+        "meaning": "(어근) analis하다 (능동사)"
+      },
+      {
+        "word": "menganalis",
+        "meaning": "analis하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_bhvmp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianalis [[디analis]]",
+    "meaning": "analis되다, analis당하다 (수동사)",
+    "pos": "동사",
+    "root": "analis",
+    "affix_logic": "어근 'analis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'analis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena analis",
+    "antonym": "menganalis",
+    "context": "'dianalis'은(는) principalmente 'analis되다, analis당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analis'의 용법에 유의하세요. 'dianalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dianalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analis되다, analis당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dianalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analis되다, analis당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analis",
+        "meaning": "(어근) analis되다"
+      },
+      {
+        "word": "dianalis",
+        "meaning": "analis되다, analis당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_h89uy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranalis [[뜨르analis]]",
+    "meaning": "완전히 analis되다",
+    "pos": "동사, 형용사",
+    "root": "analis",
+    "affix_logic": "어근 'analis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'analis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling analis",
+    "antonym": "sengaja dianalis",
+    "context": "'teranalis'은(는) principalmente '완전히 analis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analis'의 용법에 유의하세요. 'teranalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teranalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 analis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teranalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 analis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analis",
+        "meaning": "(어근) 완전히 analis되다"
+      },
+      {
+        "word": "teranalis",
+        "meaning": "완전히 analis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ykn9i",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengangan [[멍angan]]",
+    "meaning": "angan하다 (능동사)",
+    "pos": "동사",
+    "root": "angan",
+    "affix_logic": "어근 'angan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan angan",
+    "antonym": "diangan",
+    "context": "'mengangan'은(는) principalmente 'angan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angan'의 용법에 유의하세요. 'mengangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angan",
+        "meaning": "(어근) angan하다 (능동사)"
+      },
+      {
+        "word": "mengangan",
+        "meaning": "angan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_05zfd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diangan [[디angan]]",
+    "meaning": "angan되다, angan당하다 (수동사)",
+    "pos": "동사",
+    "root": "angan",
+    "affix_logic": "어근 'angan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena angan",
+    "antonym": "mengangan",
+    "context": "'diangan'은(는) principalmente 'angan되다, angan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angan'의 용법에 유의하세요. 'diangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angan되다, angan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angan되다, angan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angan",
+        "meaning": "(어근) angan되다"
+      },
+      {
+        "word": "diangan",
+        "meaning": "angan되다, angan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_memvk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terangan [[뜨르angan]]",
+    "meaning": "완전히 angan되다",
+    "pos": "동사, 형용사",
+    "root": "angan",
+    "affix_logic": "어근 'angan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'angan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling angan",
+    "antonym": "sengaja diangan",
+    "context": "'terangan'은(는) principalmente '완전히 angan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angan'의 용법에 유의하세요. 'terangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 angan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 angan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angan",
+        "meaning": "(어근) 완전히 angan되다"
+      },
+      {
+        "word": "terangan",
+        "meaning": "완전히 angan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0ocfr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganggota [[멍anggota]]",
+    "meaning": "anggota하다 (능동사)",
+    "pos": "동사",
+    "root": "anggota",
+    "affix_logic": "어근 'anggota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anggota'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan anggota",
+    "antonym": "dianggota",
+    "context": "'menganggota'은(는) principalmente 'anggota하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggota'의 용법에 유의하세요. 'menganggota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menganggota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggota하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menganggota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggota하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggota",
+        "meaning": "(어근) anggota하다 (능동사)"
+      },
+      {
+        "word": "menganggota",
+        "meaning": "anggota하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_a9l4y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianggota [[디anggota]]",
+    "meaning": "anggota되다, anggota당하다 (수동사)",
+    "pos": "동사",
+    "root": "anggota",
+    "affix_logic": "어근 'anggota'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anggota'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena anggota",
+    "antonym": "menganggota",
+    "context": "'dianggota'은(는) principalmente 'anggota되다, anggota당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggota'의 용법에 유의하세요. 'dianggota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dianggota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggota되다, anggota당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dianggota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggota되다, anggota당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggota",
+        "meaning": "(어근) anggota되다"
+      },
+      {
+        "word": "dianggota",
+        "meaning": "anggota되다, anggota당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_j8nlf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranggota [[뜨르anggota]]",
+    "meaning": "완전히 anggota되다",
+    "pos": "동사, 형용사",
+    "root": "anggota",
+    "affix_logic": "어근 'anggota'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'anggota'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling anggota",
+    "antonym": "sengaja dianggota",
+    "context": "'teranggota'은(는) principalmente '완전히 anggota되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggota'의 용법에 유의하세요. 'teranggota' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggota' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teranggota untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 anggota되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teranggota yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 anggota되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggota",
+        "meaning": "(어근) 완전히 anggota되다"
+      },
+      {
+        "word": "teranggota",
+        "meaning": "완전히 anggota되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2cxuu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganggun [[멍anggun]]",
+    "meaning": "anggun하다 (능동사)",
+    "pos": "동사",
+    "root": "anggun",
+    "affix_logic": "어근 'anggun'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anggun'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan anggun",
+    "antonym": "dianggun",
+    "context": "'menganggun'은(는) principalmente 'anggun하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggun'의 용법에 유의하세요. 'menganggun' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggun' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menganggun untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggun하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menganggun yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggun하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggun",
+        "meaning": "(어근) anggun하다 (능동사)"
+      },
+      {
+        "word": "menganggun",
+        "meaning": "anggun하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_al4cy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianggun [[디anggun]]",
+    "meaning": "anggun되다, anggun당하다 (수동사)",
+    "pos": "동사",
+    "root": "anggun",
+    "affix_logic": "어근 'anggun'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anggun'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena anggun",
+    "antonym": "menganggun",
+    "context": "'dianggun'은(는) principalmente 'anggun되다, anggun당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggun'의 용법에 유의하세요. 'dianggun' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggun' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dianggun untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anggun되다, anggun당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dianggun yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anggun되다, anggun당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggun",
+        "meaning": "(어근) anggun되다"
+      },
+      {
+        "word": "dianggun",
+        "meaning": "anggun되다, anggun당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_p5phh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranggun [[뜨르anggun]]",
+    "meaning": "완전히 anggun되다",
+    "pos": "동사, 형용사",
+    "root": "anggun",
+    "affix_logic": "어근 'anggun'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'anggun'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling anggun",
+    "antonym": "sengaja dianggun",
+    "context": "'teranggun'은(는) principalmente '완전히 anggun되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anggun'의 용법에 유의하세요. 'teranggun' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anggun' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teranggun untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 anggun되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teranggun yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 anggun되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anggun",
+        "meaning": "(어근) 완전히 anggun되다"
+      },
+      {
+        "word": "teranggun",
+        "meaning": "완전히 anggun되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_4nlo9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengangkasa [[멍angkasa]]",
+    "meaning": "angkasa하다 (능동사)",
+    "pos": "동사",
+    "root": "angkasa",
+    "affix_logic": "어근 'angkasa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angkasa'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan angkasa",
+    "antonym": "diangkasa",
+    "context": "'mengangkasa'은(는) principalmente 'angkasa하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angkasa'의 용법에 유의하세요. 'mengangkasa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angkasa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengangkasa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angkasa하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengangkasa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angkasa하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angkasa",
+        "meaning": "(어근) angkasa하다 (능동사)"
+      },
+      {
+        "word": "mengangkasa",
+        "meaning": "angkasa하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_uz8vs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diangkasa [[디angkasa]]",
+    "meaning": "angkasa되다, angkasa당하다 (수동사)",
+    "pos": "동사",
+    "root": "angkasa",
+    "affix_logic": "어근 'angkasa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angkasa'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena angkasa",
+    "antonym": "mengangkasa",
+    "context": "'diangkasa'은(는) principalmente 'angkasa되다, angkasa당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angkasa'의 용법에 유의하세요. 'diangkasa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angkasa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diangkasa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angkasa되다, angkasa당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diangkasa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angkasa되다, angkasa당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angkasa",
+        "meaning": "(어근) angkasa되다"
+      },
+      {
+        "word": "diangkasa",
+        "meaning": "angkasa되다, angkasa당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_1bddm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terangkasa [[뜨르angkasa]]",
+    "meaning": "완전히 angkasa되다",
+    "pos": "동사, 형용사",
+    "root": "angkasa",
+    "affix_logic": "어근 'angkasa'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'angkasa'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling angkasa",
+    "antonym": "sengaja diangkasa",
+    "context": "'terangkasa'은(는) principalmente '완전히 angkasa되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angkasa'의 용법에 유의하세요. 'terangkasa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angkasa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terangkasa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 angkasa되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terangkasa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 angkasa되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angkasa",
+        "meaning": "(어근) 완전히 angkasa되다"
+      },
+      {
+        "word": "terangkasa",
+        "meaning": "완전히 angkasa되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_4myye",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengangpao [[멍angpao]]",
+    "meaning": "angpao하다 (능동사)",
+    "pos": "동사",
+    "root": "angpao",
+    "affix_logic": "어근 'angpao'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angpao'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan angpao",
+    "antonym": "diangpao",
+    "context": "'mengangpao'은(는) principalmente 'angpao하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angpao'의 용법에 유의하세요. 'mengangpao' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angpao' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengangpao untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angpao하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengangpao yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angpao하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angpao",
+        "meaning": "(어근) angpao하다 (능동사)"
+      },
+      {
+        "word": "mengangpao",
+        "meaning": "angpao하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_lwkvu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diangpao [[디angpao]]",
+    "meaning": "angpao되다, angpao당하다 (수동사)",
+    "pos": "동사",
+    "root": "angpao",
+    "affix_logic": "어근 'angpao'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angpao'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena angpao",
+    "antonym": "mengangpao",
+    "context": "'diangpao'은(는) principalmente 'angpao되다, angpao당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angpao'의 용법에 유의하세요. 'diangpao' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angpao' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diangpao untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angpao되다, angpao당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diangpao yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angpao되다, angpao당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angpao",
+        "meaning": "(어근) angpao되다"
+      },
+      {
+        "word": "diangpao",
+        "meaning": "angpao되다, angpao당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_1sb0c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terangpao [[뜨르angpao]]",
+    "meaning": "완전히 angpao되다",
+    "pos": "동사, 형용사",
+    "root": "angpao",
+    "affix_logic": "어근 'angpao'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'angpao'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling angpao",
+    "antonym": "sengaja diangpao",
+    "context": "'terangpao'은(는) principalmente '완전히 angpao되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angpao'의 용법에 유의하세요. 'terangpao' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angpao' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terangpao untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 angpao되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terangpao yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 angpao되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angpao",
+        "meaning": "(어근) 완전히 angpao되다"
+      },
+      {
+        "word": "terangpao",
+        "meaning": "완전히 angpao되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_g2ap0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengangsuran [[멍angsuran]]",
+    "meaning": "angsuran하다 (능동사)",
+    "pos": "동사",
+    "root": "angsuran",
+    "affix_logic": "어근 'angsuran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angsuran'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan angsuran",
+    "antonym": "diangsuran",
+    "context": "'mengangsuran'은(는) principalmente 'angsuran하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angsuran'의 용법에 유의하세요. 'mengangsuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angsuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengangsuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angsuran하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengangsuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angsuran하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angsuran",
+        "meaning": "(어근) angsuran하다 (능동사)"
+      },
+      {
+        "word": "mengangsuran",
+        "meaning": "angsuran하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8hfxv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diangsuran [[디angsuran]]",
+    "meaning": "angsuran되다, angsuran당하다 (수동사)",
+    "pos": "동사",
+    "root": "angsuran",
+    "affix_logic": "어근 'angsuran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'angsuran'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena angsuran",
+    "antonym": "mengangsuran",
+    "context": "'diangsuran'은(는) principalmente 'angsuran되다, angsuran당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angsuran'의 용법에 유의하세요. 'diangsuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angsuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diangsuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 angsuran되다, angsuran당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diangsuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 angsuran되다, angsuran당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angsuran",
+        "meaning": "(어근) angsuran되다"
+      },
+      {
+        "word": "diangsuran",
+        "meaning": "angsuran되다, angsuran당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2453j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terangsuran [[뜨르angsuran]]",
+    "meaning": "완전히 angsuran되다",
+    "pos": "동사, 형용사",
+    "root": "angsuran",
+    "affix_logic": "어근 'angsuran'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'angsuran'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling angsuran",
+    "antonym": "sengaja diangsuran",
+    "context": "'terangsuran'은(는) principalmente '완전히 angsuran되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'angsuran'의 용법에 유의하세요. 'terangsuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'angsuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terangsuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 angsuran되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terangsuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 angsuran되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "angsuran",
+        "meaning": "(어근) 완전히 angsuran되다"
+      },
+      {
+        "word": "terangsuran",
+        "meaning": "완전히 angsuran되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_25w0e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganimator [[멍animator]]",
+    "meaning": "animator하다 (능동사)",
+    "pos": "동사",
+    "root": "animator",
+    "affix_logic": "어근 'animator'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'animator'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan animator",
+    "antonym": "dianimator",
+    "context": "'menganimator'은(는) principalmente 'animator하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'animator'의 용법에 유의하세요. 'menganimator' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'animator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menganimator untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 animator하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menganimator yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 animator하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "animator",
+        "meaning": "(어근) animator하다 (능동사)"
+      },
+      {
+        "word": "menganimator",
+        "meaning": "animator하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_nwgtq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianimator [[디animator]]",
+    "meaning": "animator되다, animator당하다 (수동사)",
+    "pos": "동사",
+    "root": "animator",
+    "affix_logic": "어근 'animator'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'animator'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena animator",
+    "antonym": "menganimator",
+    "context": "'dianimator'은(는) principalmente 'animator되다, animator당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'animator'의 용법에 유의하세요. 'dianimator' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'animator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dianimator untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 animator되다, animator당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dianimator yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 animator되다, animator당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "animator",
+        "meaning": "(어근) animator되다"
+      },
+      {
+        "word": "dianimator",
+        "meaning": "animator되다, animator당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_tu5ne",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranimator [[뜨르animator]]",
+    "meaning": "완전히 animator되다",
+    "pos": "동사, 형용사",
+    "root": "animator",
+    "affix_logic": "어근 'animator'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'animator'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling animator",
+    "antonym": "sengaja dianimator",
+    "context": "'teranimator'은(는) principalmente '완전히 animator되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'animator'의 용법에 유의하세요. 'teranimator' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'animator' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teranimator untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 animator되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teranimator yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 animator되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "animator",
+        "meaning": "(어근) 완전히 animator되다"
+      },
+      {
+        "word": "teranimator",
+        "meaning": "완전히 animator되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fb9ug",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganjuran [[멍anjuran]]",
+    "meaning": "anjuran하다 (능동사)",
+    "pos": "동사",
+    "root": "anjuran",
+    "affix_logic": "어근 'anjuran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anjuran'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan anjuran",
+    "antonym": "dianjuran",
+    "context": "'menganjuran'은(는) principalmente 'anjuran하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anjuran'의 용법에 유의하세요. 'menganjuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anjuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menganjuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anjuran하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menganjuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anjuran하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anjuran",
+        "meaning": "(어근) anjuran하다 (능동사)"
+      },
+      {
+        "word": "menganjuran",
+        "meaning": "anjuran하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_1wddk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianjuran [[디anjuran]]",
+    "meaning": "anjuran되다, anjuran당하다 (수동사)",
+    "pos": "동사",
+    "root": "anjuran",
+    "affix_logic": "어근 'anjuran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anjuran'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena anjuran",
+    "antonym": "menganjuran",
+    "context": "'dianjuran'은(는) principalmente 'anjuran되다, anjuran당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anjuran'의 용법에 유의하세요. 'dianjuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anjuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dianjuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anjuran되다, anjuran당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dianjuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anjuran되다, anjuran당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anjuran",
+        "meaning": "(어근) anjuran되다"
+      },
+      {
+        "word": "dianjuran",
+        "meaning": "anjuran되다, anjuran당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_sjqwm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranjuran [[뜨르anjuran]]",
+    "meaning": "완전히 anjuran되다",
+    "pos": "동사, 형용사",
+    "root": "anjuran",
+    "affix_logic": "어근 'anjuran'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'anjuran'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling anjuran",
+    "antonym": "sengaja dianjuran",
+    "context": "'teranjuran'은(는) principalmente '완전히 anjuran되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anjuran'의 용법에 유의하세요. 'teranjuran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anjuran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teranjuran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 anjuran되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teranjuran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 anjuran되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anjuran",
+        "meaning": "(어근) 완전히 anjuran되다"
+      },
+      {
+        "word": "teranjuran",
+        "meaning": "완전히 anjuran되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_f7kvc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganugerah [[멍anugerah]]",
+    "meaning": "anugerah하다 (능동사)",
+    "pos": "동사",
+    "root": "anugerah",
+    "affix_logic": "어근 'anugerah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anugerah'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan anugerah",
+    "antonym": "dianugerah",
+    "context": "'menganugerah'은(는) principalmente 'anugerah하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anugerah'의 용법에 유의하세요. 'menganugerah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anugerah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menganugerah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anugerah하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menganugerah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anugerah하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anugerah",
+        "meaning": "(어근) anugerah하다 (능동사)"
+      },
+      {
+        "word": "menganugerah",
+        "meaning": "anugerah하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_dfvwp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianugerah [[디anugerah]]",
+    "meaning": "anugerah되다, anugerah당하다 (수동사)",
+    "pos": "동사",
+    "root": "anugerah",
+    "affix_logic": "어근 'anugerah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anugerah'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena anugerah",
+    "antonym": "menganugerah",
+    "context": "'dianugerah'은(는) principalmente 'anugerah되다, anugerah당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anugerah'의 용법에 유의하세요. 'dianugerah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anugerah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dianugerah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anugerah되다, anugerah당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dianugerah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anugerah되다, anugerah당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anugerah",
+        "meaning": "(어근) anugerah되다"
+      },
+      {
+        "word": "dianugerah",
+        "meaning": "anugerah되다, anugerah당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_9nqgs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranugerah [[뜨르anugerah]]",
+    "meaning": "완전히 anugerah되다",
+    "pos": "동사, 형용사",
+    "root": "anugerah",
+    "affix_logic": "어근 'anugerah'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'anugerah'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling anugerah",
+    "antonym": "sengaja dianugerah",
+    "context": "'teranugerah'은(는) principalmente '완전히 anugerah되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anugerah'의 용법에 유의하세요. 'teranugerah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anugerah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teranugerah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 anugerah되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teranugerah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 anugerah되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anugerah",
+        "meaning": "(어근) 완전히 anugerah되다"
+      },
+      {
+        "word": "teranugerah",
+        "meaning": "완전히 anugerah되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wz13l",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganyaman [[멍anyaman]]",
+    "meaning": "anyaman하다 (능동사)",
+    "pos": "동사",
+    "root": "anyaman",
+    "affix_logic": "어근 'anyaman'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anyaman'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan anyaman",
+    "antonym": "dianyaman",
+    "context": "'menganyaman'은(는) principalmente 'anyaman하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anyaman'의 용법에 유의하세요. 'menganyaman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anyaman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menganyaman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anyaman하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menganyaman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anyaman하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anyaman",
+        "meaning": "(어근) anyaman하다 (능동사)"
+      },
+      {
+        "word": "menganyaman",
+        "meaning": "anyaman하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2ip9s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianyaman [[디anyaman]]",
+    "meaning": "anyaman되다, anyaman당하다 (수동사)",
+    "pos": "동사",
+    "root": "anyaman",
+    "affix_logic": "어근 'anyaman'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anyaman'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena anyaman",
+    "antonym": "menganyaman",
+    "context": "'dianyaman'은(는) principalmente 'anyaman되다, anyaman당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anyaman'의 용법에 유의하세요. 'dianyaman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anyaman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dianyaman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anyaman되다, anyaman당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dianyaman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anyaman되다, anyaman당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anyaman",
+        "meaning": "(어근) anyaman되다"
+      },
+      {
+        "word": "dianyaman",
+        "meaning": "anyaman되다, anyaman당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_m5ri6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranyaman [[뜨르anyaman]]",
+    "meaning": "완전히 anyaman되다",
+    "pos": "동사, 형용사",
+    "root": "anyaman",
+    "affix_logic": "어근 'anyaman'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'anyaman'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling anyaman",
+    "antonym": "sengaja dianyaman",
+    "context": "'teranyaman'은(는) principalmente '완전히 anyaman되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anyaman'의 용법에 유의하세요. 'teranyaman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anyaman' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teranyaman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 anyaman되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teranyaman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 anyaman되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anyaman",
+        "meaning": "(어근) 완전히 anyaman되다"
+      },
+      {
+        "word": "teranyaman",
+        "meaning": "완전히 anyaman되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mu8i5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaprikot [[멍aprikot]]",
+    "meaning": "aprikot하다 (능동사)",
+    "pos": "동사",
+    "root": "aprikot",
+    "affix_logic": "어근 'aprikot'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aprikot'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aprikot",
+    "antonym": "diaprikot",
+    "context": "'mengaprikot'은(는) principalmente 'aprikot하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aprikot'의 용법에 유의하세요. 'mengaprikot' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aprikot' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaprikot untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aprikot하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaprikot yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aprikot하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aprikot",
+        "meaning": "(어근) aprikot하다 (능동사)"
+      },
+      {
+        "word": "mengaprikot",
+        "meaning": "aprikot하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_tfuta",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaprikot [[디aprikot]]",
+    "meaning": "aprikot되다, aprikot당하다 (수동사)",
+    "pos": "동사",
+    "root": "aprikot",
+    "affix_logic": "어근 'aprikot'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aprikot'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aprikot",
+    "antonym": "mengaprikot",
+    "context": "'diaprikot'은(는) principalmente 'aprikot되다, aprikot당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aprikot'의 용법에 유의하세요. 'diaprikot' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aprikot' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diaprikot untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aprikot되다, aprikot당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diaprikot yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aprikot되다, aprikot당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aprikot",
+        "meaning": "(어근) aprikot되다"
+      },
+      {
+        "word": "diaprikot",
+        "meaning": "aprikot되다, aprikot당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mcbio",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraprikot [[뜨르aprikot]]",
+    "meaning": "완전히 aprikot되다",
+    "pos": "동사, 형용사",
+    "root": "aprikot",
+    "affix_logic": "어근 'aprikot'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aprikot'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aprikot",
+    "antonym": "sengaja diaprikot",
+    "context": "'teraprikot'은(는) principalmente '완전히 aprikot되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aprikot'의 용법에 유의하세요. 'teraprikot' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aprikot' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraprikot untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aprikot되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraprikot yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aprikot되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aprikot",
+        "meaning": "(어근) 완전히 aprikot되다"
+      },
+      {
+        "word": "teraprikot",
+        "meaning": "완전히 aprikot되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_3kqi0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengarena [[멍arena]]",
+    "meaning": "arena하다 (능동사)",
+    "pos": "동사",
+    "root": "arena",
+    "affix_logic": "어근 'arena'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arena'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan arena",
+    "antonym": "diarena",
+    "context": "'mengarena'은(는) principalmente 'arena하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arena'의 용법에 유의하세요. 'mengarena' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arena' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengarena untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arena하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengarena yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arena하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arena",
+        "meaning": "(어근) arena하다 (능동사)"
+      },
+      {
+        "word": "mengarena",
+        "meaning": "arena하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_p1w7h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diarena [[디arena]]",
+    "meaning": "arena되다, arena당하다 (수동사)",
+    "pos": "동사",
+    "root": "arena",
+    "affix_logic": "어근 'arena'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arena'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena arena",
+    "antonym": "mengarena",
+    "context": "'diarena'은(는) principalmente 'arena되다, arena당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arena'의 용법에 유의하세요. 'diarena' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arena' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diarena untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arena되다, arena당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diarena yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arena되다, arena당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arena",
+        "meaning": "(어근) arena되다"
+      },
+      {
+        "word": "diarena",
+        "meaning": "arena되다, arena당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_cytky",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terarena [[뜨르arena]]",
+    "meaning": "완전히 arena되다",
+    "pos": "동사, 형용사",
+    "root": "arena",
+    "affix_logic": "어근 'arena'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'arena'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling arena",
+    "antonym": "sengaja diarena",
+    "context": "'terarena'은(는) principalmente '완전히 arena되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arena'의 용법에 유의하세요. 'terarena' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arena' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terarena untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 arena되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terarena yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 arena되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arena",
+        "meaning": "(어근) 완전히 arena되다"
+      },
+      {
+        "word": "terarena",
+        "meaning": "완전히 arena되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wqejb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengarisan [[멍arisan]]",
+    "meaning": "arisan하다 (능동사)",
+    "pos": "동사",
+    "root": "arisan",
+    "affix_logic": "어근 'arisan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arisan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan arisan",
+    "antonym": "diarisan",
+    "context": "'mengarisan'은(는) principalmente 'arisan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arisan'의 용법에 유의하세요. 'mengarisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arisan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengarisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arisan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengarisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arisan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arisan",
+        "meaning": "(어근) arisan하다 (능동사)"
+      },
+      {
+        "word": "mengarisan",
+        "meaning": "arisan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_1x8la",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diarisan [[디arisan]]",
+    "meaning": "arisan되다, arisan당하다 (수동사)",
+    "pos": "동사",
+    "root": "arisan",
+    "affix_logic": "어근 'arisan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arisan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena arisan",
+    "antonym": "mengarisan",
+    "context": "'diarisan'은(는) principalmente 'arisan되다, arisan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arisan'의 용법에 유의하세요. 'diarisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arisan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diarisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arisan되다, arisan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diarisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arisan되다, arisan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arisan",
+        "meaning": "(어근) arisan되다"
+      },
+      {
+        "word": "diarisan",
+        "meaning": "arisan되다, arisan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_db6u6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terarisan [[뜨르arisan]]",
+    "meaning": "완전히 arisan되다",
+    "pos": "동사, 형용사",
+    "root": "arisan",
+    "affix_logic": "어근 'arisan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'arisan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling arisan",
+    "antonym": "sengaja diarisan",
+    "context": "'terarisan'은(는) principalmente '완전히 arisan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arisan'의 용법에 유의하세요. 'terarisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arisan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terarisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 arisan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terarisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 arisan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arisan",
+        "meaning": "(어근) 완전히 arisan되다"
+      },
+      {
+        "word": "terarisan",
+        "meaning": "완전히 arisan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_smyhm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengarsip [[멍arsip]]",
+    "meaning": "arsip하다 (능동사)",
+    "pos": "동사",
+    "root": "arsip",
+    "affix_logic": "어근 'arsip'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arsip'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan arsip",
+    "antonym": "diarsip",
+    "context": "'mengarsip'은(는) principalmente 'arsip하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsip'의 용법에 유의하세요. 'mengarsip' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsip' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengarsip untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsip하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengarsip yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsip하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsip",
+        "meaning": "(어근) arsip하다 (능동사)"
+      },
+      {
+        "word": "mengarsip",
+        "meaning": "arsip하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ti0em",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diarsip [[디arsip]]",
+    "meaning": "arsip되다, arsip당하다 (수동사)",
+    "pos": "동사",
+    "root": "arsip",
+    "affix_logic": "어근 'arsip'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arsip'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena arsip",
+    "antonym": "mengarsip",
+    "context": "'diarsip'은(는) principalmente 'arsip되다, arsip당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsip'의 용법에 유의하세요. 'diarsip' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsip' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diarsip untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsip되다, arsip당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diarsip yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsip되다, arsip당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsip",
+        "meaning": "(어근) arsip되다"
+      },
+      {
+        "word": "diarsip",
+        "meaning": "arsip되다, arsip당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_2e1gk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terarsip [[뜨르arsip]]",
+    "meaning": "완전히 arsip되다",
+    "pos": "동사, 형용사",
+    "root": "arsip",
+    "affix_logic": "어근 'arsip'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'arsip'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling arsip",
+    "antonym": "sengaja diarsip",
+    "context": "'terarsip'은(는) principalmente '완전히 arsip되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsip'의 용법에 유의하세요. 'terarsip' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsip' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terarsip untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 arsip되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terarsip yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 arsip되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsip",
+        "meaning": "(어근) 완전히 arsip되다"
+      },
+      {
+        "word": "terarsip",
+        "meaning": "완전히 arsip되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_akxrf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengartis [[멍artis]]",
+    "meaning": "artis하다 (능동사)",
+    "pos": "동사",
+    "root": "artis",
+    "affix_logic": "어근 'artis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'artis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan artis",
+    "antonym": "diartis",
+    "context": "'mengartis'은(는) principalmente 'artis하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artis'의 용법에 유의하세요. 'mengartis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengartis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artis하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengartis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artis하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artis",
+        "meaning": "(어근) artis하다 (능동사)"
+      },
+      {
+        "word": "mengartis",
+        "meaning": "artis하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_snej5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diartis [[디artis]]",
+    "meaning": "artis되다, artis당하다 (수동사)",
+    "pos": "동사",
+    "root": "artis",
+    "affix_logic": "어근 'artis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'artis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena artis",
+    "antonym": "mengartis",
+    "context": "'diartis'은(는) principalmente 'artis되다, artis당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artis'의 용법에 유의하세요. 'diartis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diartis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artis되다, artis당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diartis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artis되다, artis당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artis",
+        "meaning": "(어근) artis되다"
+      },
+      {
+        "word": "diartis",
+        "meaning": "artis되다, artis당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_vm9qp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terartis [[뜨르artis]]",
+    "meaning": "완전히 artis되다",
+    "pos": "동사, 형용사",
+    "root": "artis",
+    "affix_logic": "어근 'artis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'artis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling artis",
+    "antonym": "sengaja diartis",
+    "context": "'terartis'은(는) principalmente '완전히 artis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artis'의 용법에 유의하세요. 'terartis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terartis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 artis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terartis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 artis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artis",
+        "meaning": "(어근) 완전히 artis되다"
+      },
+      {
+        "word": "terartis",
+        "meaning": "완전히 artis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_bsk4j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengasap [[멍asap]]",
+    "meaning": "asap하다 (능동사)",
+    "pos": "동사",
+    "root": "asap",
+    "affix_logic": "어근 'asap'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asap'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan asap",
+    "antonym": "diasap",
+    "context": "'mengasap'은(는) principalmente 'asap하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asap'의 용법에 유의하세요. 'mengasap' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengasap untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asap하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengasap yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asap하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asap",
+        "meaning": "(어근) asap하다 (능동사)"
+      },
+      {
+        "word": "mengasap",
+        "meaning": "asap하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_p4dw6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diasap [[디asap]]",
+    "meaning": "asap되다, asap당하다 (수동사)",
+    "pos": "동사",
+    "root": "asap",
+    "affix_logic": "어근 'asap'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asap'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena asap",
+    "antonym": "mengasap",
+    "context": "'diasap'은(는) principalmente 'asap되다, asap당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asap'의 용법에 유의하세요. 'diasap' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diasap untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asap되다, asap당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diasap yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asap되다, asap당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asap",
+        "meaning": "(어근) asap되다"
+      },
+      {
+        "word": "diasap",
+        "meaning": "asap되다, asap당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_7nnxb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terasap [[뜨르asap]]",
+    "meaning": "완전히 asap되다",
+    "pos": "동사, 형용사",
+    "root": "asap",
+    "affix_logic": "어근 'asap'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'asap'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling asap",
+    "antonym": "sengaja diasap",
+    "context": "'terasap'은(는) principalmente '완전히 asap되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asap'의 용법에 유의하세요. 'terasap' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asap' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terasap untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 asap되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terasap yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 asap되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asap",
+        "meaning": "(어근) 완전히 asap되다"
+      },
+      {
+        "word": "terasap",
+        "meaning": "완전히 asap되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_xvnxi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengasrama [[멍asrama]]",
+    "meaning": "asrama하다 (능동사)",
+    "pos": "동사",
+    "root": "asrama",
+    "affix_logic": "어근 'asrama'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asrama'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan asrama",
+    "antonym": "diasrama",
+    "context": "'mengasrama'은(는) principalmente 'asrama하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asrama'의 용법에 유의하세요. 'mengasrama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asrama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengasrama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asrama하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengasrama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asrama하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asrama",
+        "meaning": "(어근) asrama하다 (능동사)"
+      },
+      {
+        "word": "mengasrama",
+        "meaning": "asrama하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_fje7u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diasrama [[디asrama]]",
+    "meaning": "asrama되다, asrama당하다 (수동사)",
+    "pos": "동사",
+    "root": "asrama",
+    "affix_logic": "어근 'asrama'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asrama'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena asrama",
+    "antonym": "mengasrama",
+    "context": "'diasrama'은(는) principalmente 'asrama되다, asrama당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asrama'의 용법에 유의하세요. 'diasrama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asrama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diasrama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asrama되다, asrama당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diasrama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asrama되다, asrama당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asrama",
+        "meaning": "(어근) asrama되다"
+      },
+      {
+        "word": "diasrama",
+        "meaning": "asrama되다, asrama당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_yivv1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terasrama [[뜨르asrama]]",
+    "meaning": "완전히 asrama되다",
+    "pos": "동사, 형용사",
+    "root": "asrama",
+    "affix_logic": "어근 'asrama'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'asrama'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling asrama",
+    "antonym": "sengaja diasrama",
+    "context": "'terasrama'은(는) principalmente '완전히 asrama되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asrama'의 용법에 유의하세요. 'terasrama' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asrama' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terasrama untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 asrama되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terasrama yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 asrama되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asrama",
+        "meaning": "(어근) 완전히 asrama되다"
+      },
+      {
+        "word": "terasrama",
+        "meaning": "완전히 asrama되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_f6iig",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengasuhan [[멍asuhan]]",
+    "meaning": "asuhan하다 (능동사)",
+    "pos": "동사",
+    "root": "asuhan",
+    "affix_logic": "어근 'asuhan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asuhan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan asuhan",
+    "antonym": "diasuhan",
+    "context": "'mengasuhan'은(는) principalmente 'asuhan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asuhan'의 용법에 유의하세요. 'mengasuhan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asuhan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengasuhan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asuhan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengasuhan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asuhan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asuhan",
+        "meaning": "(어근) asuhan하다 (능동사)"
+      },
+      {
+        "word": "mengasuhan",
+        "meaning": "asuhan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5i3ks",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diasuhan [[디asuhan]]",
+    "meaning": "asuhan되다, asuhan당하다 (수동사)",
+    "pos": "동사",
+    "root": "asuhan",
+    "affix_logic": "어근 'asuhan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asuhan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena asuhan",
+    "antonym": "mengasuhan",
+    "context": "'diasuhan'은(는) principalmente 'asuhan되다, asuhan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asuhan'의 용법에 유의하세요. 'diasuhan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asuhan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diasuhan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asuhan되다, asuhan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diasuhan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asuhan되다, asuhan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asuhan",
+        "meaning": "(어근) asuhan되다"
+      },
+      {
+        "word": "diasuhan",
+        "meaning": "asuhan되다, asuhan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mgor1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terasuhan [[뜨르asuhan]]",
+    "meaning": "완전히 asuhan되다",
+    "pos": "동사, 형용사",
+    "root": "asuhan",
+    "affix_logic": "어근 'asuhan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'asuhan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling asuhan",
+    "antonym": "sengaja diasuhan",
+    "context": "'terasuhan'은(는) principalmente '완전히 asuhan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asuhan'의 용법에 유의하세요. 'terasuhan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asuhan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terasuhan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 asuhan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terasuhan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 asuhan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asuhan",
+        "meaning": "(어근) 완전히 asuhan되다"
+      },
+      {
+        "word": "terasuhan",
+        "meaning": "완전히 asuhan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_kntht",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengatletik [[멍atletik]]",
+    "meaning": "atletik하다 (능동사)",
+    "pos": "동사",
+    "root": "atletik",
+    "affix_logic": "어근 'atletik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atletik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan atletik",
+    "antonym": "diatletik",
+    "context": "'mengatletik'은(는) principalmente 'atletik하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atletik'의 용법에 유의하세요. 'mengatletik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atletik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengatletik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atletik하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengatletik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atletik하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atletik",
+        "meaning": "(어근) atletik하다 (능동사)"
+      },
+      {
+        "word": "mengatletik",
+        "meaning": "atletik하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_26stz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diatletik [[디atletik]]",
+    "meaning": "atletik되다, atletik당하다 (수동사)",
+    "pos": "동사",
+    "root": "atletik",
+    "affix_logic": "어근 'atletik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atletik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena atletik",
+    "antonym": "mengatletik",
+    "context": "'diatletik'은(는) principalmente 'atletik되다, atletik당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atletik'의 용법에 유의하세요. 'diatletik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atletik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diatletik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atletik되다, atletik당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diatletik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atletik되다, atletik당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atletik",
+        "meaning": "(어근) atletik되다"
+      },
+      {
+        "word": "diatletik",
+        "meaning": "atletik되다, atletik당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_eo8pc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teratletik [[뜨르atletik]]",
+    "meaning": "완전히 atletik되다",
+    "pos": "동사, 형용사",
+    "root": "atletik",
+    "affix_logic": "어근 'atletik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'atletik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling atletik",
+    "antonym": "sengaja diatletik",
+    "context": "'teratletik'은(는) principalmente '완전히 atletik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atletik'의 용법에 유의하세요. 'teratletik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atletik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teratletik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 atletik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teratletik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 atletik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atletik",
+        "meaning": "(어근) 완전히 atletik되다"
+      },
+      {
+        "word": "teratletik",
+        "meaning": "완전히 atletik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_us7ul",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengatraksi [[멍atraksi]]",
+    "meaning": "atraksi하다 (능동사)",
+    "pos": "동사",
+    "root": "atraksi",
+    "affix_logic": "어근 'atraksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atraksi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan atraksi",
+    "antonym": "diatraksi",
+    "context": "'mengatraksi'은(는) principalmente 'atraksi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atraksi'의 용법에 유의하세요. 'mengatraksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atraksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengatraksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atraksi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengatraksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atraksi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atraksi",
+        "meaning": "(어근) atraksi하다 (능동사)"
+      },
+      {
+        "word": "mengatraksi",
+        "meaning": "atraksi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_zvnjj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diatraksi [[디atraksi]]",
+    "meaning": "atraksi되다, atraksi당하다 (수동사)",
+    "pos": "동사",
+    "root": "atraksi",
+    "affix_logic": "어근 'atraksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atraksi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena atraksi",
+    "antonym": "mengatraksi",
+    "context": "'diatraksi'은(는) principalmente 'atraksi되다, atraksi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atraksi'의 용법에 유의하세요. 'diatraksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atraksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diatraksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atraksi되다, atraksi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diatraksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atraksi되다, atraksi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atraksi",
+        "meaning": "(어근) atraksi되다"
+      },
+      {
+        "word": "diatraksi",
+        "meaning": "atraksi되다, atraksi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_jfvkr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teratraksi [[뜨르atraksi]]",
+    "meaning": "완전히 atraksi되다",
+    "pos": "동사, 형용사",
+    "root": "atraksi",
+    "affix_logic": "어근 'atraksi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'atraksi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling atraksi",
+    "antonym": "sengaja diatraksi",
+    "context": "'teratraksi'은(는) principalmente '완전히 atraksi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atraksi'의 용법에 유의하세요. 'teratraksi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atraksi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teratraksi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 atraksi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teratraksi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 atraksi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atraksi",
+        "meaning": "(어근) 완전히 atraksi되다"
+      },
+      {
+        "word": "teratraksi",
+        "meaning": "완전히 atraksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_gc19f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengatribut [[멍atribut]]",
+    "meaning": "atribut하다 (능동사)",
+    "pos": "동사",
+    "root": "atribut",
+    "affix_logic": "어근 'atribut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atribut'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan atribut",
+    "antonym": "diatribut",
+    "context": "'mengatribut'은(는) principalmente 'atribut하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atribut'의 용법에 유의하세요. 'mengatribut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atribut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengatribut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atribut하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengatribut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atribut하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atribut",
+        "meaning": "(어근) atribut하다 (능동사)"
+      },
+      {
+        "word": "mengatribut",
+        "meaning": "atribut하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_omr7f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diatribut [[디atribut]]",
+    "meaning": "atribut되다, atribut당하다 (수동사)",
+    "pos": "동사",
+    "root": "atribut",
+    "affix_logic": "어근 'atribut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'atribut'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena atribut",
+    "antonym": "mengatribut",
+    "context": "'diatribut'은(는) principalmente 'atribut되다, atribut당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atribut'의 용법에 유의하세요. 'diatribut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atribut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diatribut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 atribut되다, atribut당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diatribut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 atribut되다, atribut당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atribut",
+        "meaning": "(어근) atribut되다"
+      },
+      {
+        "word": "diatribut",
+        "meaning": "atribut되다, atribut당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_rbkzy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teratribut [[뜨르atribut]]",
+    "meaning": "완전히 atribut되다",
+    "pos": "동사, 형용사",
+    "root": "atribut",
+    "affix_logic": "어근 'atribut'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'atribut'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling atribut",
+    "antonym": "sengaja diatribut",
+    "context": "'teratribut'은(는) principalmente '완전히 atribut되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'atribut'의 용법에 유의하세요. 'teratribut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'atribut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teratribut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 atribut되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teratribut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 atribut되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "atribut",
+        "meaning": "(어근) 완전히 atribut되다"
+      },
+      {
+        "word": "teratribut",
+        "meaning": "완전히 atribut되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_7aqp4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaudisi [[멍audisi]]",
+    "meaning": "audisi하다 (능동사)",
+    "pos": "동사",
+    "root": "audisi",
+    "affix_logic": "어근 'audisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'audisi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan audisi",
+    "antonym": "diaudisi",
+    "context": "'mengaudisi'은(는) principalmente 'audisi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'audisi'의 용법에 유의하세요. 'mengaudisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'audisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaudisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 audisi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaudisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 audisi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "audisi",
+        "meaning": "(어근) audisi하다 (능동사)"
+      },
+      {
+        "word": "mengaudisi",
+        "meaning": "audisi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_t2uqt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaudisi [[디audisi]]",
+    "meaning": "audisi되다, audisi당하다 (수동사)",
+    "pos": "동사",
+    "root": "audisi",
+    "affix_logic": "어근 'audisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'audisi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena audisi",
+    "antonym": "mengaudisi",
+    "context": "'diaudisi'은(는) principalmente 'audisi되다, audisi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'audisi'의 용법에 유의하세요. 'diaudisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'audisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diaudisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 audisi되다, audisi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diaudisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 audisi되다, audisi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "audisi",
+        "meaning": "(어근) audisi되다"
+      },
+      {
+        "word": "diaudisi",
+        "meaning": "audisi되다, audisi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_7yi6y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraudisi [[뜨르audisi]]",
+    "meaning": "완전히 audisi되다",
+    "pos": "동사, 형용사",
+    "root": "audisi",
+    "affix_logic": "어근 'audisi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'audisi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling audisi",
+    "antonym": "sengaja diaudisi",
+    "context": "'teraudisi'은(는) principalmente '완전히 audisi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'audisi'의 용법에 유의하세요. 'teraudisi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'audisi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraudisi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 audisi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraudisi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 audisi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "audisi",
+        "meaning": "(어근) 완전히 audisi되다"
+      },
+      {
+        "word": "teraudisi",
+        "meaning": "완전히 audisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0zulo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaura [[멍aura]]",
+    "meaning": "aura하다 (능동사)",
+    "pos": "동사",
+    "root": "aura",
+    "affix_logic": "어근 'aura'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aura'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan aura",
+    "antonym": "diaura",
+    "context": "'mengaura'은(는) principalmente 'aura하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aura'의 용법에 유의하세요. 'mengaura' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengaura untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aura하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengaura yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aura하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aura",
+        "meaning": "(어근) aura하다 (능동사)"
+      },
+      {
+        "word": "mengaura",
+        "meaning": "aura하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_59549",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaura [[디aura]]",
+    "meaning": "aura되다, aura당하다 (수동사)",
+    "pos": "동사",
+    "root": "aura",
+    "affix_logic": "어근 'aura'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aura'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena aura",
+    "antonym": "mengaura",
+    "context": "'diaura'은(는) principalmente 'aura되다, aura당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aura'의 용법에 유의하세요. 'diaura' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diaura untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aura되다, aura당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diaura yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aura되다, aura당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aura",
+        "meaning": "(어근) aura되다"
+      },
+      {
+        "word": "diaura",
+        "meaning": "aura되다, aura당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_5sadv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraura [[뜨르aura]]",
+    "meaning": "완전히 aura되다",
+    "pos": "동사, 형용사",
+    "root": "aura",
+    "affix_logic": "어근 'aura'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'aura'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling aura",
+    "antonym": "sengaja diaura",
+    "context": "'teraura'은(는) principalmente '완전히 aura되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aura'의 용법에 유의하세요. 'teraura' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aura' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teraura untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 aura되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teraura yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 aura되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aura",
+        "meaning": "(어근) 완전히 aura되다"
+      },
+      {
+        "word": "teraura",
+        "meaning": "완전히 aura되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_l8uct",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengautentikasi [[멍autentikasi]]",
+    "meaning": "autentikasi하다 (능동사)",
+    "pos": "동사",
+    "root": "autentikasi",
+    "affix_logic": "어근 'autentikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'autentikasi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan autentikasi",
+    "antonym": "diautentikasi",
+    "context": "'mengautentikasi'은(는) principalmente 'autentikasi하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'autentikasi'의 용법에 유의하세요. 'mengautentikasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'autentikasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengautentikasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 autentikasi하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengautentikasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 autentikasi하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "autentikasi",
+        "meaning": "(어근) autentikasi하다 (능동사)"
+      },
+      {
+        "word": "mengautentikasi",
+        "meaning": "autentikasi하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_3av8i",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diautentikasi [[디autentikasi]]",
+    "meaning": "autentikasi되다, autentikasi당하다 (수동사)",
+    "pos": "동사",
+    "root": "autentikasi",
+    "affix_logic": "어근 'autentikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'autentikasi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena autentikasi",
+    "antonym": "mengautentikasi",
+    "context": "'diautentikasi'은(는) principalmente 'autentikasi되다, autentikasi당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'autentikasi'의 용법에 유의하세요. 'diautentikasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'autentikasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diautentikasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 autentikasi되다, autentikasi당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diautentikasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 autentikasi되다, autentikasi당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "autentikasi",
+        "meaning": "(어근) autentikasi되다"
+      },
+      {
+        "word": "diautentikasi",
+        "meaning": "autentikasi되다, autentikasi당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8yi7r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terautentikasi [[뜨르autentikasi]]",
+    "meaning": "완전히 autentikasi되다",
+    "pos": "동사, 형용사",
+    "root": "autentikasi",
+    "affix_logic": "어근 'autentikasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'autentikasi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling autentikasi",
+    "antonym": "sengaja diautentikasi",
+    "context": "'terautentikasi'은(는) principalmente '완전히 autentikasi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'autentikasi'의 용법에 유의하세요. 'terautentikasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'autentikasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terautentikasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 autentikasi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terautentikasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 autentikasi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "autentikasi",
+        "meaning": "(어근) 완전히 autentikasi되다"
+      },
+      {
+        "word": "terautentikasi",
+        "meaning": "완전히 autentikasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_y3841",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengavan [[멍avan]]",
+    "meaning": "avan하다 (능동사)",
+    "pos": "동사",
+    "root": "avan",
+    "affix_logic": "어근 'avan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'avan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan avan",
+    "antonym": "diavan",
+    "context": "'mengavan'은(는) principalmente 'avan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'avan'의 용법에 유의하세요. 'mengavan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'avan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengavan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 avan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengavan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 avan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "avan",
+        "meaning": "(어근) avan하다 (능동사)"
+      },
+      {
+        "word": "mengavan",
+        "meaning": "avan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_dfq7k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diavan [[디avan]]",
+    "meaning": "avan되다, avan당하다 (수동사)",
+    "pos": "동사",
+    "root": "avan",
+    "affix_logic": "어근 'avan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'avan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena avan",
+    "antonym": "mengavan",
+    "context": "'diavan'은(는) principalmente 'avan되다, avan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'avan'의 용법에 유의하세요. 'diavan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'avan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diavan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 avan되다, avan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diavan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 avan되다, avan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "avan",
+        "meaning": "(어근) avan되다"
+      },
+      {
+        "word": "diavan",
+        "meaning": "avan되다, avan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_keucz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teravan [[뜨르avan]]",
+    "meaning": "완전히 avan되다",
+    "pos": "동사, 형용사",
+    "root": "avan",
+    "affix_logic": "어근 'avan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'avan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling avan",
+    "antonym": "sengaja diavan",
+    "context": "'teravan'은(는) principalmente '완전히 avan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'avan'의 용법에 유의하세요. 'teravan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'avan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teravan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 avan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teravan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 avan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "avan",
+        "meaning": "(어근) 완전히 avan되다"
+      },
+      {
+        "word": "teravan",
+        "meaning": "완전히 avan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wma9q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengayat [[멍ayat]]",
+    "meaning": "ayat하다 (능동사)",
+    "pos": "동사",
+    "root": "ayat",
+    "affix_logic": "어근 'ayat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ayat'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan ayat",
+    "antonym": "diayat",
+    "context": "'mengayat'은(는) principalmente 'ayat하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ayat'의 용법에 유의하세요. 'mengayat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ayat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengayat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ayat하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengayat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ayat하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ayat",
+        "meaning": "(어근) ayat하다 (능동사)"
+      },
+      {
+        "word": "mengayat",
+        "meaning": "ayat하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_jerrq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diayat [[디ayat]]",
+    "meaning": "ayat되다, ayat당하다 (수동사)",
+    "pos": "동사",
+    "root": "ayat",
+    "affix_logic": "어근 'ayat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ayat'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena ayat",
+    "antonym": "mengayat",
+    "context": "'diayat'은(는) principalmente 'ayat되다, ayat당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ayat'의 용법에 유의하세요. 'diayat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ayat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diayat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ayat되다, ayat당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diayat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ayat되다, ayat당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ayat",
+        "meaning": "(어근) ayat되다"
+      },
+      {
+        "word": "diayat",
+        "meaning": "ayat되다, ayat당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ywc0o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terayat [[뜨르ayat]]",
+    "meaning": "완전히 ayat되다",
+    "pos": "동사, 형용사",
+    "root": "ayat",
+    "affix_logic": "어근 'ayat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'ayat'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling ayat",
+    "antonym": "sengaja diayat",
+    "context": "'terayat'은(는) principalmente '완전히 ayat되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ayat'의 용법에 유의하세요. 'terayat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ayat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terayat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 ayat되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terayat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 ayat되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ayat",
+        "meaning": "(어근) 완전히 ayat되다"
+      },
+      {
+        "word": "terayat",
+        "meaning": "완전히 ayat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_aqd54",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbakat [[멍bakat]]",
+    "meaning": "bakat하다 (능동사)",
+    "pos": "동사",
+    "root": "bakat",
+    "affix_logic": "어근 'bakat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bakat'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bakat",
+    "antonym": "dibakat",
+    "context": "'mengbakat'은(는) principalmente 'bakat하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bakat'의 용법에 유의하세요. 'mengbakat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bakat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbakat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bakat하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbakat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bakat하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bakat",
+        "meaning": "(어근) bakat하다 (능동사)"
+      },
+      {
+        "word": "mengbakat",
+        "meaning": "bakat하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_ychqd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibakat [[디bakat]]",
+    "meaning": "bakat되다, bakat당하다 (수동사)",
+    "pos": "동사",
+    "root": "bakat",
+    "affix_logic": "어근 'bakat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bakat'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bakat",
+    "antonym": "mengbakat",
+    "context": "'dibakat'은(는) principalmente 'bakat되다, bakat당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bakat'의 용법에 유의하세요. 'dibakat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bakat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibakat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bakat되다, bakat당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibakat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bakat되다, bakat당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bakat",
+        "meaning": "(어근) bakat되다"
+      },
+      {
+        "word": "dibakat",
+        "meaning": "bakat되다, bakat당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_8e6mt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbakat [[뜨르bakat]]",
+    "meaning": "완전히 bakat되다",
+    "pos": "동사, 형용사",
+    "root": "bakat",
+    "affix_logic": "어근 'bakat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bakat'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bakat",
+    "antonym": "sengaja dibakat",
+    "context": "'terbakat'은(는) principalmente '완전히 bakat되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bakat'의 용법에 유의하세요. 'terbakat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bakat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbakat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bakat되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbakat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bakat되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bakat",
+        "meaning": "(어근) 완전히 bakat되다"
+      },
+      {
+        "word": "terbakat",
+        "meaning": "완전히 bakat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_85fc9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbalasan [[멍balasan]]",
+    "meaning": "balasan하다 (능동사)",
+    "pos": "동사",
+    "root": "balasan",
+    "affix_logic": "어근 'balasan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balasan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan balasan",
+    "antonym": "dibalasan",
+    "context": "'mengbalasan'은(는) principalmente 'balasan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balasan'의 용법에 유의하세요. 'mengbalasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbalasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balasan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbalasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balasan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balasan",
+        "meaning": "(어근) balasan하다 (능동사)"
+      },
+      {
+        "word": "mengbalasan",
+        "meaning": "balasan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_l9l04",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibalasan [[디balasan]]",
+    "meaning": "balasan되다, balasan당하다 (수동사)",
+    "pos": "동사",
+    "root": "balasan",
+    "affix_logic": "어근 'balasan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balasan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena balasan",
+    "antonym": "mengbalasan",
+    "context": "'dibalasan'은(는) principalmente 'balasan되다, balasan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balasan'의 용법에 유의하세요. 'dibalasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibalasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balasan되다, balasan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibalasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balasan되다, balasan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balasan",
+        "meaning": "(어근) balasan되다"
+      },
+      {
+        "word": "dibalasan",
+        "meaning": "balasan되다, balasan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_qu6ub",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbalasan [[뜨르balasan]]",
+    "meaning": "완전히 balasan되다",
+    "pos": "동사, 형용사",
+    "root": "balasan",
+    "affix_logic": "어근 'balasan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'balasan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling balasan",
+    "antonym": "sengaja dibalasan",
+    "context": "'terbalasan'은(는) principalmente '완전히 balasan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balasan'의 용법에 유의하세요. 'terbalasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balasan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbalasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 balasan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbalasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 balasan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balasan",
+        "meaning": "(어근) 완전히 balasan되다"
+      },
+      {
+        "word": "terbalasan",
+        "meaning": "완전히 balasan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_emkby",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbalon [[멍balon]]",
+    "meaning": "balon하다 (능동사)",
+    "pos": "동사",
+    "root": "balon",
+    "affix_logic": "어근 'balon'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balon'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan balon",
+    "antonym": "dibalon",
+    "context": "'mengbalon'은(는) principalmente 'balon하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balon'의 용법에 유의하세요. 'mengbalon' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balon' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbalon untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balon하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbalon yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balon하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balon",
+        "meaning": "(어근) balon하다 (능동사)"
+      },
+      {
+        "word": "mengbalon",
+        "meaning": "balon하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_zm5v1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibalon [[디balon]]",
+    "meaning": "balon되다, balon당하다 (수동사)",
+    "pos": "동사",
+    "root": "balon",
+    "affix_logic": "어근 'balon'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balon'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena balon",
+    "antonym": "mengbalon",
+    "context": "'dibalon'은(는) principalmente 'balon되다, balon당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balon'의 용법에 유의하세요. 'dibalon' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balon' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibalon untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balon되다, balon당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibalon yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balon되다, balon당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balon",
+        "meaning": "(어근) balon되다"
+      },
+      {
+        "word": "dibalon",
+        "meaning": "balon되다, balon당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_89hdz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbalon [[뜨르balon]]",
+    "meaning": "완전히 balon되다",
+    "pos": "동사, 형용사",
+    "root": "balon",
+    "affix_logic": "어근 'balon'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'balon'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling balon",
+    "antonym": "sengaja dibalon",
+    "context": "'terbalon'은(는) principalmente '완전히 balon되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balon'의 용법에 유의하세요. 'terbalon' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balon' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbalon untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 balon되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbalon yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 balon되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balon",
+        "meaning": "(어근) 완전히 balon되다"
+      },
+      {
+        "word": "terbalon",
+        "meaning": "완전히 balon되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_a3hh1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbalut [[멍balut]]",
+    "meaning": "balut하다 (능동사)",
+    "pos": "동사",
+    "root": "balut",
+    "affix_logic": "어근 'balut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balut'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan balut",
+    "antonym": "dibalut",
+    "context": "'mengbalut'은(는) principalmente 'balut하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balut'의 용법에 유의하세요. 'mengbalut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbalut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balut하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbalut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balut하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balut",
+        "meaning": "(어근) balut하다 (능동사)"
+      },
+      {
+        "word": "mengbalut",
+        "meaning": "balut하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_et2hp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibalut [[디balut]]",
+    "meaning": "balut되다, balut당하다 (수동사)",
+    "pos": "동사",
+    "root": "balut",
+    "affix_logic": "어근 'balut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'balut'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena balut",
+    "antonym": "mengbalut",
+    "context": "'dibalut'은(는) principalmente 'balut되다, balut당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balut'의 용법에 유의하세요. 'dibalut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibalut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 balut되다, balut당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibalut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 balut되다, balut당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balut",
+        "meaning": "(어근) balut되다"
+      },
+      {
+        "word": "dibalut",
+        "meaning": "balut되다, balut당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_e1jef",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbalut [[뜨르balut]]",
+    "meaning": "완전히 balut되다",
+    "pos": "동사, 형용사",
+    "root": "balut",
+    "affix_logic": "어근 'balut'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'balut'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling balut",
+    "antonym": "sengaja dibalut",
+    "context": "'terbalut'은(는) principalmente '완전히 balut되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'balut'의 용법에 유의하세요. 'terbalut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'balut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbalut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 balut되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbalut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 balut되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "balut",
+        "meaning": "(어근) 완전히 balut되다"
+      },
+      {
+        "word": "terbalut",
+        "meaning": "완전히 balut되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_6hpg0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbancakan [[멍bancakan]]",
+    "meaning": "bancakan하다 (능동사)",
+    "pos": "동사",
+    "root": "bancakan",
+    "affix_logic": "어근 'bancakan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bancakan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bancakan",
+    "antonym": "dibancakan",
+    "context": "'mengbancakan'은(는) principalmente 'bancakan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bancakan'의 용법에 유의하세요. 'mengbancakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bancakan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbancakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bancakan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbancakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bancakan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bancakan",
+        "meaning": "(어근) bancakan하다 (능동사)"
+      },
+      {
+        "word": "mengbancakan",
+        "meaning": "bancakan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_z7xp0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibancakan [[디bancakan]]",
+    "meaning": "bancakan되다, bancakan당하다 (수동사)",
+    "pos": "동사",
+    "root": "bancakan",
+    "affix_logic": "어근 'bancakan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bancakan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bancakan",
+    "antonym": "mengbancakan",
+    "context": "'dibancakan'은(는) principalmente 'bancakan되다, bancakan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bancakan'의 용법에 유의하세요. 'dibancakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bancakan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibancakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bancakan되다, bancakan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibancakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bancakan되다, bancakan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bancakan",
+        "meaning": "(어근) bancakan되다"
+      },
+      {
+        "word": "dibancakan",
+        "meaning": "bancakan되다, bancakan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_wgrr2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbancakan [[뜨르bancakan]]",
+    "meaning": "완전히 bancakan되다",
+    "pos": "동사, 형용사",
+    "root": "bancakan",
+    "affix_logic": "어근 'bancakan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bancakan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bancakan",
+    "antonym": "sengaja dibancakan",
+    "context": "'terbancakan'은(는) principalmente '완전히 bancakan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bancakan'의 용법에 유의하세요. 'terbancakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bancakan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbancakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bancakan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbancakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bancakan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bancakan",
+        "meaning": "(어근) 완전히 bancakan되다"
+      },
+      {
+        "word": "terbancakan",
+        "meaning": "완전히 bancakan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_k2evr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbandar [[멍bandar]]",
+    "meaning": "bandar하다 (능동사)",
+    "pos": "동사",
+    "root": "bandar",
+    "affix_logic": "어근 'bandar'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bandar'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bandar",
+    "antonym": "dibandar",
+    "context": "'mengbandar'은(는) principalmente 'bandar하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandar'의 용법에 유의하세요. 'mengbandar' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbandar untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandar하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbandar yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandar하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandar",
+        "meaning": "(어근) bandar하다 (능동사)"
+      },
+      {
+        "word": "mengbandar",
+        "meaning": "bandar하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_kdwzo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibandar [[디bandar]]",
+    "meaning": "bandar되다, bandar당하다 (수동사)",
+    "pos": "동사",
+    "root": "bandar",
+    "affix_logic": "어근 'bandar'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bandar'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bandar",
+    "antonym": "mengbandar",
+    "context": "'dibandar'은(는) principalmente 'bandar되다, bandar당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandar'의 용법에 유의하세요. 'dibandar' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibandar untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandar되다, bandar당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibandar yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandar되다, bandar당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandar",
+        "meaning": "(어근) bandar되다"
+      },
+      {
+        "word": "dibandar",
+        "meaning": "bandar되다, bandar당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_mn8z0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbandar [[뜨르bandar]]",
+    "meaning": "완전히 bandar되다",
+    "pos": "동사, 형용사",
+    "root": "bandar",
+    "affix_logic": "어근 'bandar'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bandar'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bandar",
+    "antonym": "sengaja dibandar",
+    "context": "'terbandar'은(는) principalmente '완전히 bandar되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandar'의 용법에 유의하세요. 'terbandar' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandar' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbandar untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bandar되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbandar yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bandar되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandar",
+        "meaning": "(어근) 완전히 bandar되다"
+      },
+      {
+        "word": "terbandar",
+        "meaning": "완전히 bandar되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_zjnd8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbandel [[멍bandel]]",
+    "meaning": "bandel하다 (능동사)",
+    "pos": "동사",
+    "root": "bandel",
+    "affix_logic": "어근 'bandel'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bandel'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bandel",
+    "antonym": "dibandel",
+    "context": "'mengbandel'은(는) principalmente 'bandel하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandel'의 용법에 유의하세요. 'mengbandel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbandel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandel하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbandel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandel하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandel",
+        "meaning": "(어근) bandel하다 (능동사)"
+      },
+      {
+        "word": "mengbandel",
+        "meaning": "bandel하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_i0utz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibandel [[디bandel]]",
+    "meaning": "bandel되다, bandel당하다 (수동사)",
+    "pos": "동사",
+    "root": "bandel",
+    "affix_logic": "어근 'bandel'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bandel'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bandel",
+    "antonym": "mengbandel",
+    "context": "'dibandel'은(는) principalmente 'bandel되다, bandel당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandel'의 용법에 유의하세요. 'dibandel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibandel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bandel되다, bandel당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibandel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bandel되다, bandel당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandel",
+        "meaning": "(어근) bandel되다"
+      },
+      {
+        "word": "dibandel",
+        "meaning": "bandel되다, bandel당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_kxz0o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbandel [[뜨르bandel]]",
+    "meaning": "완전히 bandel되다",
+    "pos": "동사, 형용사",
+    "root": "bandel",
+    "affix_logic": "어근 'bandel'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bandel'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bandel",
+    "antonym": "sengaja dibandel",
+    "context": "'terbandel'은(는) principalmente '완전히 bandel되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bandel'의 용법에 유의하세요. 'terbandel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bandel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbandel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bandel되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbandel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bandel되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bandel",
+        "meaning": "(어근) 완전히 bandel되다"
+      },
+      {
+        "word": "terbandel",
+        "meaning": "완전히 bandel되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_jaoag",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbanting [[멍banting]]",
+    "meaning": "banting하다 (능동사)",
+    "pos": "동사",
+    "root": "banting",
+    "affix_logic": "어근 'banting'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'banting'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan banting",
+    "antonym": "dibanting",
+    "context": "'mengbanting'은(는) principalmente 'banting하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banting'의 용법에 유의하세요. 'mengbanting' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbanting untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banting하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbanting yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banting하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banting",
+        "meaning": "(어근) banting하다 (능동사)"
+      },
+      {
+        "word": "mengbanting",
+        "meaning": "banting하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_934yg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibanting [[디banting]]",
+    "meaning": "banting되다, banting당하다 (수동사)",
+    "pos": "동사",
+    "root": "banting",
+    "affix_logic": "어근 'banting'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'banting'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena banting",
+    "antonym": "mengbanting",
+    "context": "'dibanting'은(는) principalmente 'banting되다, banting당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banting'의 용법에 유의하세요. 'dibanting' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibanting untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banting되다, banting당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibanting yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banting되다, banting당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banting",
+        "meaning": "(어근) banting되다"
+      },
+      {
+        "word": "dibanting",
+        "meaning": "banting되다, banting당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_vtfix",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbanting [[뜨르banting]]",
+    "meaning": "완전히 banting되다",
+    "pos": "동사, 형용사",
+    "root": "banting",
+    "affix_logic": "어근 'banting'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'banting'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling banting",
+    "antonym": "sengaja dibanting",
+    "context": "'terbanting'은(는) principalmente '완전히 banting되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banting'의 용법에 유의하세요. 'terbanting' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banting' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbanting untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 banting되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbanting yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 banting되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banting",
+        "meaning": "(어근) 완전히 banting되다"
+      },
+      {
+        "word": "terbanting",
+        "meaning": "완전히 banting되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734101_0qc6o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbantuan [[멍bantuan]]",
+    "meaning": "bantuan하다 (능동사)",
+    "pos": "동사",
+    "root": "bantuan",
+    "affix_logic": "어근 'bantuan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bantuan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bantuan",
+    "antonym": "dibantuan",
+    "context": "'mengbantuan'은(는) principalmente 'bantuan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan'의 용법에 유의하세요. 'mengbantuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbantuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbantuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan",
+        "meaning": "(어근) bantuan하다 (능동사)"
+      },
+      {
+        "word": "mengbantuan",
+        "meaning": "bantuan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_4fhse",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibantuan [[디bantuan]]",
+    "meaning": "bantuan되다, bantuan당하다 (수동사)",
+    "pos": "동사",
+    "root": "bantuan",
+    "affix_logic": "어근 'bantuan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bantuan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bantuan",
+    "antonym": "mengbantuan",
+    "context": "'dibantuan'은(는) principalmente 'bantuan되다, bantuan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan'의 용법에 유의하세요. 'dibantuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibantuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan되다, bantuan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibantuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan되다, bantuan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan",
+        "meaning": "(어근) bantuan되다"
+      },
+      {
+        "word": "dibantuan",
+        "meaning": "bantuan되다, bantuan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_vn135",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbantuan [[뜨르bantuan]]",
+    "meaning": "완전히 bantuan되다",
+    "pos": "동사, 형용사",
+    "root": "bantuan",
+    "affix_logic": "어근 'bantuan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bantuan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bantuan",
+    "antonym": "sengaja dibantuan",
+    "context": "'terbantuan'은(는) principalmente '완전히 bantuan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan'의 용법에 유의하세요. 'terbantuan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbantuan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bantuan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbantuan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bantuan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan",
+        "meaning": "(어근) 완전히 bantuan되다"
+      },
+      {
+        "word": "terbantuan",
+        "meaning": "완전히 bantuan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_26ho1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbantuan hukum [[멍bantuan hukum]]",
+    "meaning": "bantuan hukum하다 (능동사)",
+    "pos": "동사",
+    "root": "bantuan hukum",
+    "affix_logic": "어근 'bantuan hukum'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bantuan hukum'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bantuan hukum",
+    "antonym": "dibantuan hukum",
+    "context": "'mengbantuan hukum'은(는) principalmente 'bantuan hukum하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan hukum'의 용법에 유의하세요. 'mengbantuan hukum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan hukum' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbantuan hukum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan hukum하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbantuan hukum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan hukum하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan hukum",
+        "meaning": "(어근) bantuan hukum하다 (능동사)"
+      },
+      {
+        "word": "mengbantuan hukum",
+        "meaning": "bantuan hukum하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_hszgt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibantuan hukum [[디bantuan hukum]]",
+    "meaning": "bantuan hukum되다, bantuan hukum당하다 (수동사)",
+    "pos": "동사",
+    "root": "bantuan hukum",
+    "affix_logic": "어근 'bantuan hukum'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bantuan hukum'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bantuan hukum",
+    "antonym": "mengbantuan hukum",
+    "context": "'dibantuan hukum'은(는) principalmente 'bantuan hukum되다, bantuan hukum당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan hukum'의 용법에 유의하세요. 'dibantuan hukum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan hukum' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibantuan hukum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bantuan hukum되다, bantuan hukum당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibantuan hukum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bantuan hukum되다, bantuan hukum당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan hukum",
+        "meaning": "(어근) bantuan hukum되다"
+      },
+      {
+        "word": "dibantuan hukum",
+        "meaning": "bantuan hukum되다, bantuan hukum당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_j3xzz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbantuan hukum [[뜨르bantuan hukum]]",
+    "meaning": "완전히 bantuan hukum되다",
+    "pos": "동사, 형용사",
+    "root": "bantuan hukum",
+    "affix_logic": "어근 'bantuan hukum'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bantuan hukum'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bantuan hukum",
+    "antonym": "sengaja dibantuan hukum",
+    "context": "'terbantuan hukum'은(는) principalmente '완전히 bantuan hukum되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bantuan hukum'의 용법에 유의하세요. 'terbantuan hukum' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bantuan hukum' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbantuan hukum untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bantuan hukum되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbantuan hukum yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bantuan hukum되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bantuan hukum",
+        "meaning": "(어근) 완전히 bantuan hukum되다"
+      },
+      {
+        "word": "terbantuan hukum",
+        "meaning": "완전히 bantuan hukum되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_xzur9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbanyak [[멍banyak]]",
+    "meaning": "banyak하다 (능동사)",
+    "pos": "동사",
+    "root": "banyak",
+    "affix_logic": "어근 'banyak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'banyak'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan banyak",
+    "antonym": "dibanyak",
+    "context": "'mengbanyak'은(는) principalmente 'banyak하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banyak'의 용법에 유의하세요. 'mengbanyak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banyak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbanyak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banyak하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbanyak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banyak하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banyak",
+        "meaning": "(어근) banyak하다 (능동사)"
+      },
+      {
+        "word": "mengbanyak",
+        "meaning": "banyak하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_m7dwx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibanyak [[디banyak]]",
+    "meaning": "banyak되다, banyak당하다 (수동사)",
+    "pos": "동사",
+    "root": "banyak",
+    "affix_logic": "어근 'banyak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'banyak'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena banyak",
+    "antonym": "mengbanyak",
+    "context": "'dibanyak'은(는) principalmente 'banyak되다, banyak당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banyak'의 용법에 유의하세요. 'dibanyak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banyak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibanyak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 banyak되다, banyak당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibanyak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 banyak되다, banyak당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banyak",
+        "meaning": "(어근) banyak되다"
+      },
+      {
+        "word": "dibanyak",
+        "meaning": "banyak되다, banyak당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_r681f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbanyak [[뜨르banyak]]",
+    "meaning": "완전히 banyak되다",
+    "pos": "동사, 형용사",
+    "root": "banyak",
+    "affix_logic": "어근 'banyak'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'banyak'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling banyak",
+    "antonym": "sengaja dibanyak",
+    "context": "'terbanyak'은(는) principalmente '완전히 banyak되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'banyak'의 용법에 유의하세요. 'terbanyak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'banyak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbanyak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 banyak되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbanyak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 banyak되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "banyak",
+        "meaning": "(어근) 완전히 banyak되다"
+      },
+      {
+        "word": "terbanyak",
+        "meaning": "완전히 banyak되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_dlvw1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbapak [[멍bapak]]",
+    "meaning": "bapak하다 (능동사)",
+    "pos": "동사",
+    "root": "bapak",
+    "affix_logic": "어근 'bapak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bapak'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bapak",
+    "antonym": "dibapak",
+    "context": "'mengbapak'은(는) principalmente 'bapak하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bapak'의 용법에 유의하세요. 'mengbapak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bapak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbapak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bapak하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbapak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bapak하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bapak",
+        "meaning": "(어근) bapak하다 (능동사)"
+      },
+      {
+        "word": "mengbapak",
+        "meaning": "bapak하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_9eyup",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibapak [[디bapak]]",
+    "meaning": "bapak되다, bapak당하다 (수동사)",
+    "pos": "동사",
+    "root": "bapak",
+    "affix_logic": "어근 'bapak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bapak'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bapak",
+    "antonym": "mengbapak",
+    "context": "'dibapak'은(는) principalmente 'bapak되다, bapak당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bapak'의 용법에 유의하세요. 'dibapak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bapak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibapak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bapak되다, bapak당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibapak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bapak되다, bapak당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bapak",
+        "meaning": "(어근) bapak되다"
+      },
+      {
+        "word": "dibapak",
+        "meaning": "bapak되다, bapak당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_x5466",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbapak [[뜨르bapak]]",
+    "meaning": "완전히 bapak되다",
+    "pos": "동사, 형용사",
+    "root": "bapak",
+    "affix_logic": "어근 'bapak'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bapak'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bapak",
+    "antonym": "sengaja dibapak",
+    "context": "'terbapak'은(는) principalmente '완전히 bapak되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bapak'의 용법에 유의하세요. 'terbapak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bapak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbapak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bapak되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbapak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bapak되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bapak",
+        "meaning": "(어근) 완전히 bapak되다"
+      },
+      {
+        "word": "terbapak",
+        "meaning": "완전히 bapak되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_kj60p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbarang [[멍barang]]",
+    "meaning": "barang하다 (능동사)",
+    "pos": "동사",
+    "root": "barang",
+    "affix_logic": "어근 'barang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'barang'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan barang",
+    "antonym": "dibarang",
+    "context": "'mengbarang'은(는) principalmente 'barang하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'barang'의 용법에 유의하세요. 'mengbarang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbarang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 barang하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbarang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 barang하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "barang",
+        "meaning": "(어근) barang하다 (능동사)"
+      },
+      {
+        "word": "mengbarang",
+        "meaning": "barang하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_i9k6q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibarang [[디barang]]",
+    "meaning": "barang되다, barang당하다 (수동사)",
+    "pos": "동사",
+    "root": "barang",
+    "affix_logic": "어근 'barang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'barang'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena barang",
+    "antonym": "mengbarang",
+    "context": "'dibarang'은(는) principalmente 'barang되다, barang당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'barang'의 용법에 유의하세요. 'dibarang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibarang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 barang되다, barang당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibarang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 barang되다, barang당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "barang",
+        "meaning": "(어근) barang되다"
+      },
+      {
+        "word": "dibarang",
+        "meaning": "barang되다, barang당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_1iy1c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbarang [[뜨르barang]]",
+    "meaning": "완전히 barang되다",
+    "pos": "동사, 형용사",
+    "root": "barang",
+    "affix_logic": "어근 'barang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'barang'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling barang",
+    "antonym": "sengaja dibarang",
+    "context": "'terbarang'은(는) principalmente '완전히 barang되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'barang'의 용법에 유의하세요. 'terbarang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'barang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbarang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 barang되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbarang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 barang되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "barang",
+        "meaning": "(어근) 완전히 barang되다"
+      },
+      {
+        "word": "terbarang",
+        "meaning": "완전히 barang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ivpks",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbaris [[멍baris]]",
+    "meaning": "baris하다 (능동사)",
+    "pos": "동사",
+    "root": "baris",
+    "affix_logic": "어근 'baris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baris'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan baris",
+    "antonym": "dibaris",
+    "context": "'mengbaris'은(는) principalmente 'baris하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baris'의 용법에 유의하세요. 'mengbaris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbaris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baris하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbaris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baris하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baris",
+        "meaning": "(어근) baris하다 (능동사)"
+      },
+      {
+        "word": "mengbaris",
+        "meaning": "baris하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ryofg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibaris [[디baris]]",
+    "meaning": "baris되다, baris당하다 (수동사)",
+    "pos": "동사",
+    "root": "baris",
+    "affix_logic": "어근 'baris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baris'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena baris",
+    "antonym": "mengbaris",
+    "context": "'dibaris'은(는) principalmente 'baris되다, baris당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baris'의 용법에 유의하세요. 'dibaris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibaris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baris되다, baris당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibaris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baris되다, baris당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baris",
+        "meaning": "(어근) baris되다"
+      },
+      {
+        "word": "dibaris",
+        "meaning": "baris되다, baris당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_3vpr3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbaris [[뜨르baris]]",
+    "meaning": "완전히 baris되다",
+    "pos": "동사, 형용사",
+    "root": "baris",
+    "affix_logic": "어근 'baris'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'baris'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling baris",
+    "antonym": "sengaja dibaris",
+    "context": "'terbaris'은(는) principalmente '완전히 baris되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baris'의 용법에 유의하세요. 'terbaris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbaris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 baris되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbaris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 baris되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baris",
+        "meaning": "(어근) 완전히 baris되다"
+      },
+      {
+        "word": "terbaris",
+        "meaning": "완전히 baris되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_pniry",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbaskom [[멍baskom]]",
+    "meaning": "baskom하다 (능동사)",
+    "pos": "동사",
+    "root": "baskom",
+    "affix_logic": "어근 'baskom'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baskom'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan baskom",
+    "antonym": "dibaskom",
+    "context": "'mengbaskom'은(는) principalmente 'baskom하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baskom'의 용법에 유의하세요. 'mengbaskom' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baskom' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbaskom untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baskom하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbaskom yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baskom하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baskom",
+        "meaning": "(어근) baskom하다 (능동사)"
+      },
+      {
+        "word": "mengbaskom",
+        "meaning": "baskom하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_4rd5s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibaskom [[디baskom]]",
+    "meaning": "baskom되다, baskom당하다 (수동사)",
+    "pos": "동사",
+    "root": "baskom",
+    "affix_logic": "어근 'baskom'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baskom'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena baskom",
+    "antonym": "mengbaskom",
+    "context": "'dibaskom'은(는) principalmente 'baskom되다, baskom당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baskom'의 용법에 유의하세요. 'dibaskom' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baskom' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibaskom untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baskom되다, baskom당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibaskom yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baskom되다, baskom당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baskom",
+        "meaning": "(어근) baskom되다"
+      },
+      {
+        "word": "dibaskom",
+        "meaning": "baskom되다, baskom당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_viy4a",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbaskom [[뜨르baskom]]",
+    "meaning": "완전히 baskom되다",
+    "pos": "동사, 형용사",
+    "root": "baskom",
+    "affix_logic": "어근 'baskom'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'baskom'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling baskom",
+    "antonym": "sengaja dibaskom",
+    "context": "'terbaskom'은(는) principalmente '완전히 baskom되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baskom'의 용법에 유의하세요. 'terbaskom' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baskom' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbaskom untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 baskom되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbaskom yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 baskom되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baskom",
+        "meaning": "(어근) 완전히 baskom되다"
+      },
+      {
+        "word": "terbaskom",
+        "meaning": "완전히 baskom되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_k22qx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbatal [[멍batal]]",
+    "meaning": "batal하다 (능동사)",
+    "pos": "동사",
+    "root": "batal",
+    "affix_logic": "어근 'batal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batal'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan batal",
+    "antonym": "dibatal",
+    "context": "'mengbatal'은(는) principalmente 'batal하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batal'의 용법에 유의하세요. 'mengbatal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbatal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batal하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbatal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batal하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batal",
+        "meaning": "(어근) batal하다 (능동사)"
+      },
+      {
+        "word": "mengbatal",
+        "meaning": "batal하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_xg0ep",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibatal [[디batal]]",
+    "meaning": "batal되다, batal당하다 (수동사)",
+    "pos": "동사",
+    "root": "batal",
+    "affix_logic": "어근 'batal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batal'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena batal",
+    "antonym": "mengbatal",
+    "context": "'dibatal'은(는) principalmente 'batal되다, batal당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batal'의 용법에 유의하세요. 'dibatal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibatal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batal되다, batal당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibatal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batal되다, batal당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batal",
+        "meaning": "(어근) batal되다"
+      },
+      {
+        "word": "dibatal",
+        "meaning": "batal되다, batal당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_upagd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbatal [[뜨르batal]]",
+    "meaning": "완전히 batal되다",
+    "pos": "동사, 형용사",
+    "root": "batal",
+    "affix_logic": "어근 'batal'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'batal'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling batal",
+    "antonym": "sengaja dibatal",
+    "context": "'terbatal'은(는) principalmente '완전히 batal되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batal'의 용법에 유의하세요. 'terbatal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbatal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 batal되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbatal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 batal되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batal",
+        "meaning": "(어근) 완전히 batal되다"
+      },
+      {
+        "word": "terbatal",
+        "meaning": "완전히 batal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_f9l9c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbaterai [[멍baterai]]",
+    "meaning": "baterai하다 (능동사)",
+    "pos": "동사",
+    "root": "baterai",
+    "affix_logic": "어근 'baterai'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baterai'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan baterai",
+    "antonym": "dibaterai",
+    "context": "'mengbaterai'은(는) principalmente 'baterai하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baterai'의 용법에 유의하세요. 'mengbaterai' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baterai' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbaterai untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baterai하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbaterai yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baterai하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baterai",
+        "meaning": "(어근) baterai하다 (능동사)"
+      },
+      {
+        "word": "mengbaterai",
+        "meaning": "baterai하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_bzgm8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibaterai [[디baterai]]",
+    "meaning": "baterai되다, baterai당하다 (수동사)",
+    "pos": "동사",
+    "root": "baterai",
+    "affix_logic": "어근 'baterai'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baterai'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena baterai",
+    "antonym": "mengbaterai",
+    "context": "'dibaterai'은(는) principalmente 'baterai되다, baterai당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baterai'의 용법에 유의하세요. 'dibaterai' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baterai' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibaterai untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baterai되다, baterai당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibaterai yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baterai되다, baterai당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baterai",
+        "meaning": "(어근) baterai되다"
+      },
+      {
+        "word": "dibaterai",
+        "meaning": "baterai되다, baterai당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_psi1q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbaterai [[뜨르baterai]]",
+    "meaning": "완전히 baterai되다",
+    "pos": "동사, 형용사",
+    "root": "baterai",
+    "affix_logic": "어근 'baterai'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'baterai'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling baterai",
+    "antonym": "sengaja dibaterai",
+    "context": "'terbaterai'은(는) principalmente '완전히 baterai되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baterai'의 용법에 유의하세요. 'terbaterai' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baterai' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbaterai untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 baterai되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbaterai yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 baterai되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baterai",
+        "meaning": "(어근) 완전히 baterai되다"
+      },
+      {
+        "word": "terbaterai",
+        "meaning": "완전히 baterai되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_2tr97",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbatin [[멍batin]]",
+    "meaning": "batin하다 (능동사)",
+    "pos": "동사",
+    "root": "batin",
+    "affix_logic": "어근 'batin'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batin'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan batin",
+    "antonym": "dibatin",
+    "context": "'mengbatin'은(는) principalmente 'batin하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batin'의 용법에 유의하세요. 'mengbatin' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batin' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbatin untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batin하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbatin yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batin하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batin",
+        "meaning": "(어근) batin하다 (능동사)"
+      },
+      {
+        "word": "mengbatin",
+        "meaning": "batin하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_09hon",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibatin [[디batin]]",
+    "meaning": "batin되다, batin당하다 (수동사)",
+    "pos": "동사",
+    "root": "batin",
+    "affix_logic": "어근 'batin'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batin'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena batin",
+    "antonym": "mengbatin",
+    "context": "'dibatin'은(는) principalmente 'batin되다, batin당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batin'의 용법에 유의하세요. 'dibatin' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batin' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibatin untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batin되다, batin당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibatin yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batin되다, batin당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batin",
+        "meaning": "(어근) batin되다"
+      },
+      {
+        "word": "dibatin",
+        "meaning": "batin되다, batin당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_fls29",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbatin [[뜨르batin]]",
+    "meaning": "완전히 batin되다",
+    "pos": "동사, 형용사",
+    "root": "batin",
+    "affix_logic": "어근 'batin'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'batin'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling batin",
+    "antonym": "sengaja dibatin",
+    "context": "'terbatin'은(는) principalmente '완전히 batin되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batin'의 용법에 유의하세요. 'terbatin' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batin' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbatin untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 batin되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbatin yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 batin되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batin",
+        "meaning": "(어근) 완전히 batin되다"
+      },
+      {
+        "word": "terbatin",
+        "meaning": "완전히 batin되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ebo72",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbatuk [[멍batuk]]",
+    "meaning": "batuk하다 (능동사)",
+    "pos": "동사",
+    "root": "batuk",
+    "affix_logic": "어근 'batuk'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batuk'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan batuk",
+    "antonym": "dibatuk",
+    "context": "'mengbatuk'은(는) principalmente 'batuk하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batuk'의 용법에 유의하세요. 'mengbatuk' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batuk' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbatuk untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batuk하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbatuk yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batuk하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batuk",
+        "meaning": "(어근) batuk하다 (능동사)"
+      },
+      {
+        "word": "mengbatuk",
+        "meaning": "batuk하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_ueynu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibatuk [[디batuk]]",
+    "meaning": "batuk되다, batuk당하다 (수동사)",
+    "pos": "동사",
+    "root": "batuk",
+    "affix_logic": "어근 'batuk'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'batuk'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena batuk",
+    "antonym": "mengbatuk",
+    "context": "'dibatuk'은(는) principalmente 'batuk되다, batuk당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batuk'의 용법에 유의하세요. 'dibatuk' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batuk' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibatuk untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 batuk되다, batuk당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibatuk yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 batuk되다, batuk당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batuk",
+        "meaning": "(어근) batuk되다"
+      },
+      {
+        "word": "dibatuk",
+        "meaning": "batuk되다, batuk당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734102_3ukfv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbatuk [[뜨르batuk]]",
+    "meaning": "완전히 batuk되다",
+    "pos": "동사, 형용사",
+    "root": "batuk",
+    "affix_logic": "어근 'batuk'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'batuk'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling batuk",
+    "antonym": "sengaja dibatuk",
+    "context": "'terbatuk'은(는) principalmente '완전히 batuk되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'batuk'의 용법에 유의하세요. 'terbatuk' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'batuk' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbatuk untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 batuk되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbatuk yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 batuk되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "batuk",
+        "meaning": "(어근) 완전히 batuk되다"
+      },
+      {
+        "word": "terbatuk",
+        "meaning": "완전히 batuk되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_peyzo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbaur [[멍baur]]",
+    "meaning": "baur하다 (능동사)",
+    "pos": "동사",
+    "root": "baur",
+    "affix_logic": "어근 'baur'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baur'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan baur",
+    "antonym": "dibaur",
+    "context": "'mengbaur'은(는) principalmente 'baur하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baur'의 용법에 유의하세요. 'mengbaur' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbaur untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baur하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbaur yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baur하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baur",
+        "meaning": "(어근) baur하다 (능동사)"
+      },
+      {
+        "word": "mengbaur",
+        "meaning": "baur하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_a3t5v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibaur [[디baur]]",
+    "meaning": "baur되다, baur당하다 (수동사)",
+    "pos": "동사",
+    "root": "baur",
+    "affix_logic": "어근 'baur'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'baur'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena baur",
+    "antonym": "mengbaur",
+    "context": "'dibaur'은(는) principalmente 'baur되다, baur당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baur'의 용법에 유의하세요. 'dibaur' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibaur untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 baur되다, baur당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibaur yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 baur되다, baur당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baur",
+        "meaning": "(어근) baur되다"
+      },
+      {
+        "word": "dibaur",
+        "meaning": "baur되다, baur당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8dfvz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbaur [[뜨르baur]]",
+    "meaning": "완전히 baur되다",
+    "pos": "동사, 형용사",
+    "root": "baur",
+    "affix_logic": "어근 'baur'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'baur'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling baur",
+    "antonym": "sengaja dibaur",
+    "context": "'terbaur'은(는) principalmente '완전히 baur되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'baur'의 용법에 유의하세요. 'terbaur' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'baur' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbaur untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 baur되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbaur yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 baur되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "baur",
+        "meaning": "(어근) 완전히 baur되다"
+      },
+      {
+        "word": "terbaur",
+        "meaning": "완전히 baur되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_eniqo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbawaan [[멍bawaan]]",
+    "meaning": "bawaan하다 (능동사)",
+    "pos": "동사",
+    "root": "bawaan",
+    "affix_logic": "어근 'bawaan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bawaan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bawaan",
+    "antonym": "dibawaan",
+    "context": "'mengbawaan'은(는) principalmente 'bawaan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bawaan'의 용법에 유의하세요. 'mengbawaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bawaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbawaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bawaan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbawaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bawaan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bawaan",
+        "meaning": "(어근) bawaan하다 (능동사)"
+      },
+      {
+        "word": "mengbawaan",
+        "meaning": "bawaan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_d4jxb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibawaan [[디bawaan]]",
+    "meaning": "bawaan되다, bawaan당하다 (수동사)",
+    "pos": "동사",
+    "root": "bawaan",
+    "affix_logic": "어근 'bawaan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bawaan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bawaan",
+    "antonym": "mengbawaan",
+    "context": "'dibawaan'은(는) principalmente 'bawaan되다, bawaan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bawaan'의 용법에 유의하세요. 'dibawaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bawaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibawaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bawaan되다, bawaan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibawaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bawaan되다, bawaan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bawaan",
+        "meaning": "(어근) bawaan되다"
+      },
+      {
+        "word": "dibawaan",
+        "meaning": "bawaan되다, bawaan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_02itb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbawaan [[뜨르bawaan]]",
+    "meaning": "완전히 bawaan되다",
+    "pos": "동사, 형용사",
+    "root": "bawaan",
+    "affix_logic": "어근 'bawaan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bawaan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bawaan",
+    "antonym": "sengaja dibawaan",
+    "context": "'terbawaan'은(는) principalmente '완전히 bawaan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bawaan'의 용법에 유의하세요. 'terbawaan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bawaan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbawaan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bawaan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbawaan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bawaan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bawaan",
+        "meaning": "(어근) 완전히 bawaan되다"
+      },
+      {
+        "word": "terbawaan",
+        "meaning": "완전히 bawaan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_lq7xx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbayangan [[멍bayangan]]",
+    "meaning": "bayangan하다 (능동사)",
+    "pos": "동사",
+    "root": "bayangan",
+    "affix_logic": "어근 'bayangan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bayangan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bayangan",
+    "antonym": "dibayangan",
+    "context": "'mengbayangan'은(는) principalmente 'bayangan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bayangan'의 용법에 유의하세요. 'mengbayangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bayangan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbayangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bayangan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbayangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bayangan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bayangan",
+        "meaning": "(어근) bayangan하다 (능동사)"
+      },
+      {
+        "word": "mengbayangan",
+        "meaning": "bayangan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vn0fc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibayangan [[디bayangan]]",
+    "meaning": "bayangan되다, bayangan당하다 (수동사)",
+    "pos": "동사",
+    "root": "bayangan",
+    "affix_logic": "어근 'bayangan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bayangan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bayangan",
+    "antonym": "mengbayangan",
+    "context": "'dibayangan'은(는) principalmente 'bayangan되다, bayangan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bayangan'의 용법에 유의하세요. 'dibayangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bayangan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibayangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bayangan되다, bayangan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibayangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bayangan되다, bayangan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bayangan",
+        "meaning": "(어근) bayangan되다"
+      },
+      {
+        "word": "dibayangan",
+        "meaning": "bayangan되다, bayangan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_cfhyq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbayangan [[뜨르bayangan]]",
+    "meaning": "완전히 bayangan되다",
+    "pos": "동사, 형용사",
+    "root": "bayangan",
+    "affix_logic": "어근 'bayangan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bayangan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bayangan",
+    "antonym": "sengaja dibayangan",
+    "context": "'terbayangan'은(는) principalmente '완전히 bayangan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bayangan'의 용법에 유의하세요. 'terbayangan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bayangan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbayangan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bayangan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbayangan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bayangan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bayangan",
+        "meaning": "(어근) 완전히 bayangan되다"
+      },
+      {
+        "word": "terbayangan",
+        "meaning": "완전히 bayangan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_bnw8x",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbeban [[멍beban]]",
+    "meaning": "beban하다 (능동사)",
+    "pos": "동사",
+    "root": "beban",
+    "affix_logic": "어근 'beban'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'beban'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan beban",
+    "antonym": "dibeban",
+    "context": "'mengbeban'은(는) principalmente 'beban하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beban'의 용법에 유의하세요. 'mengbeban' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beban' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbeban untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beban하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbeban yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beban하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beban",
+        "meaning": "(어근) beban하다 (능동사)"
+      },
+      {
+        "word": "mengbeban",
+        "meaning": "beban하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8eaon",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibeban [[디beban]]",
+    "meaning": "beban되다, beban당하다 (수동사)",
+    "pos": "동사",
+    "root": "beban",
+    "affix_logic": "어근 'beban'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'beban'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena beban",
+    "antonym": "mengbeban",
+    "context": "'dibeban'은(는) principalmente 'beban되다, beban당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beban'의 용법에 유의하세요. 'dibeban' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beban' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibeban untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beban되다, beban당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibeban yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beban되다, beban당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beban",
+        "meaning": "(어근) beban되다"
+      },
+      {
+        "word": "dibeban",
+        "meaning": "beban되다, beban당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_fj878",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbeban [[뜨르beban]]",
+    "meaning": "완전히 beban되다",
+    "pos": "동사, 형용사",
+    "root": "beban",
+    "affix_logic": "어근 'beban'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'beban'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling beban",
+    "antonym": "sengaja dibeban",
+    "context": "'terbeban'은(는) principalmente '완전히 beban되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beban'의 용법에 유의하세요. 'terbeban' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beban' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbeban untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 beban되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbeban yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 beban되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beban",
+        "meaning": "(어근) 완전히 beban되다"
+      },
+      {
+        "word": "terbeban",
+        "meaning": "완전히 beban되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ld7sa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbebas [[멍bebas]]",
+    "meaning": "bebas하다 (능동사)",
+    "pos": "동사",
+    "root": "bebas",
+    "affix_logic": "어근 'bebas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bebas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bebas",
+    "antonym": "dibebas",
+    "context": "'mengbebas'은(는) principalmente 'bebas하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bebas'의 용법에 유의하세요. 'mengbebas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bebas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbebas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bebas하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbebas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bebas하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bebas",
+        "meaning": "(어근) bebas하다 (능동사)"
+      },
+      {
+        "word": "mengbebas",
+        "meaning": "bebas하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_joxe2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbeasiswa [[멍beasiswa]]",
+    "meaning": "beasiswa하다 (능동사)",
+    "pos": "동사",
+    "root": "beasiswa",
+    "affix_logic": "어근 'beasiswa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'beasiswa'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan beasiswa",
+    "antonym": "dibeasiswa",
+    "context": "'mengbeasiswa'은(는) principalmente 'beasiswa하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beasiswa'의 용법에 유의하세요. 'mengbeasiswa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beasiswa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbeasiswa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beasiswa하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbeasiswa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beasiswa하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beasiswa",
+        "meaning": "(어근) beasiswa하다 (능동사)"
+      },
+      {
+        "word": "mengbeasiswa",
+        "meaning": "beasiswa하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_0vtjp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibeasiswa [[디beasiswa]]",
+    "meaning": "beasiswa되다, beasiswa당하다 (수동사)",
+    "pos": "동사",
+    "root": "beasiswa",
+    "affix_logic": "어근 'beasiswa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'beasiswa'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena beasiswa",
+    "antonym": "mengbeasiswa",
+    "context": "'dibeasiswa'은(는) principalmente 'beasiswa되다, beasiswa당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beasiswa'의 용법에 유의하세요. 'dibeasiswa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beasiswa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibeasiswa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 beasiswa되다, beasiswa당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibeasiswa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 beasiswa되다, beasiswa당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beasiswa",
+        "meaning": "(어근) beasiswa되다"
+      },
+      {
+        "word": "dibeasiswa",
+        "meaning": "beasiswa되다, beasiswa당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_7smsk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbeasiswa [[뜨르beasiswa]]",
+    "meaning": "완전히 beasiswa되다",
+    "pos": "동사, 형용사",
+    "root": "beasiswa",
+    "affix_logic": "어근 'beasiswa'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'beasiswa'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling beasiswa",
+    "antonym": "sengaja dibeasiswa",
+    "context": "'terbeasiswa'은(는) principalmente '완전히 beasiswa되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'beasiswa'의 용법에 유의하세요. 'terbeasiswa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'beasiswa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbeasiswa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 beasiswa되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbeasiswa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 beasiswa되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "beasiswa",
+        "meaning": "(어근) 완전히 beasiswa되다"
+      },
+      {
+        "word": "terbeasiswa",
+        "meaning": "완전히 beasiswa되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_66mge",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbedah [[멍bedah]]",
+    "meaning": "bedah하다 (능동사)",
+    "pos": "동사",
+    "root": "bedah",
+    "affix_logic": "어근 'bedah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bedah'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bedah",
+    "antonym": "dibedah",
+    "context": "'mengbedah'은(는) principalmente 'bedah하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedah'의 용법에 유의하세요. 'mengbedah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbedah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedah하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbedah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedah하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedah",
+        "meaning": "(어근) bedah하다 (능동사)"
+      },
+      {
+        "word": "mengbedah",
+        "meaning": "bedah하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xpmmu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibedah [[디bedah]]",
+    "meaning": "bedah되다, bedah당하다 (수동사)",
+    "pos": "동사",
+    "root": "bedah",
+    "affix_logic": "어근 'bedah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bedah'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bedah",
+    "antonym": "mengbedah",
+    "context": "'dibedah'은(는) principalmente 'bedah되다, bedah당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedah'의 용법에 유의하세요. 'dibedah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibedah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedah되다, bedah당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibedah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedah되다, bedah당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedah",
+        "meaning": "(어근) bedah되다"
+      },
+      {
+        "word": "dibedah",
+        "meaning": "bedah되다, bedah당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6l0zg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbedah [[뜨르bedah]]",
+    "meaning": "완전히 bedah되다",
+    "pos": "동사, 형용사",
+    "root": "bedah",
+    "affix_logic": "어근 'bedah'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bedah'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bedah",
+    "antonym": "sengaja dibedah",
+    "context": "'terbedah'은(는) principalmente '완전히 bedah되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedah'의 용법에 유의하세요. 'terbedah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbedah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bedah되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbedah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bedah되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedah",
+        "meaning": "(어근) 완전히 bedah되다"
+      },
+      {
+        "word": "terbedah",
+        "meaning": "완전히 bedah되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_kijae",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbedak [[멍bedak]]",
+    "meaning": "bedak하다 (능동사)",
+    "pos": "동사",
+    "root": "bedak",
+    "affix_logic": "어근 'bedak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bedak'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bedak",
+    "antonym": "dibedak",
+    "context": "'mengbedak'은(는) principalmente 'bedak하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedak'의 용법에 유의하세요. 'mengbedak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbedak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedak하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbedak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedak하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedak",
+        "meaning": "(어근) bedak하다 (능동사)"
+      },
+      {
+        "word": "mengbedak",
+        "meaning": "bedak하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_a6wvq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibedak [[디bedak]]",
+    "meaning": "bedak되다, bedak당하다 (수동사)",
+    "pos": "동사",
+    "root": "bedak",
+    "affix_logic": "어근 'bedak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bedak'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bedak",
+    "antonym": "mengbedak",
+    "context": "'dibedak'은(는) principalmente 'bedak되다, bedak당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedak'의 용법에 유의하세요. 'dibedak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibedak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bedak되다, bedak당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibedak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bedak되다, bedak당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedak",
+        "meaning": "(어근) bedak되다"
+      },
+      {
+        "word": "dibedak",
+        "meaning": "bedak되다, bedak당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qzwdb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbedak [[뜨르bedak]]",
+    "meaning": "완전히 bedak되다",
+    "pos": "동사, 형용사",
+    "root": "bedak",
+    "affix_logic": "어근 'bedak'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bedak'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bedak",
+    "antonym": "sengaja dibedak",
+    "context": "'terbedak'은(는) principalmente '완전히 bedak되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bedak'의 용법에 유의하세요. 'terbedak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bedak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbedak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bedak되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbedak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bedak되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bedak",
+        "meaning": "(어근) 완전히 bedak되다"
+      },
+      {
+        "word": "terbedak",
+        "meaning": "완전히 bedak되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_g1vko",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbegadang [[멍begadang]]",
+    "meaning": "begadang하다 (능동사)",
+    "pos": "동사",
+    "root": "begadang",
+    "affix_logic": "어근 'begadang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'begadang'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan begadang",
+    "antonym": "dibegadang",
+    "context": "'mengbegadang'은(는) principalmente 'begadang하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'begadang'의 용법에 유의하세요. 'mengbegadang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'begadang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbegadang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 begadang하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbegadang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 begadang하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "begadang",
+        "meaning": "(어근) begadang하다 (능동사)"
+      },
+      {
+        "word": "mengbegadang",
+        "meaning": "begadang하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_f428u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibegadang [[디begadang]]",
+    "meaning": "begadang되다, begadang당하다 (수동사)",
+    "pos": "동사",
+    "root": "begadang",
+    "affix_logic": "어근 'begadang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'begadang'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena begadang",
+    "antonym": "mengbegadang",
+    "context": "'dibegadang'은(는) principalmente 'begadang되다, begadang당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'begadang'의 용법에 유의하세요. 'dibegadang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'begadang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibegadang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 begadang되다, begadang당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibegadang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 begadang되다, begadang당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "begadang",
+        "meaning": "(어근) begadang되다"
+      },
+      {
+        "word": "dibegadang",
+        "meaning": "begadang되다, begadang당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5cr77",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbegadang [[뜨르begadang]]",
+    "meaning": "완전히 begadang되다",
+    "pos": "동사, 형용사",
+    "root": "begadang",
+    "affix_logic": "어근 'begadang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'begadang'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling begadang",
+    "antonym": "sengaja dibegadang",
+    "context": "'terbegadang'은(는) principalmente '완전히 begadang되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'begadang'의 용법에 유의하세요. 'terbegadang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'begadang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbegadang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 begadang되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbegadang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 begadang되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "begadang",
+        "meaning": "(어근) 완전히 begadang되다"
+      },
+      {
+        "word": "terbegadang",
+        "meaning": "완전히 begadang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9axpj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbekal [[멍bekal]]",
+    "meaning": "bekal하다 (능동사)",
+    "pos": "동사",
+    "root": "bekal",
+    "affix_logic": "어근 'bekal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bekal'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bekal",
+    "antonym": "dibekal",
+    "context": "'mengbekal'은(는) principalmente 'bekal하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekal'의 용법에 유의하세요. 'mengbekal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbekal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekal하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbekal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekal하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekal",
+        "meaning": "(어근) bekal하다 (능동사)"
+      },
+      {
+        "word": "mengbekal",
+        "meaning": "bekal하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vamau",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibekal [[디bekal]]",
+    "meaning": "bekal되다, bekal당하다 (수동사)",
+    "pos": "동사",
+    "root": "bekal",
+    "affix_logic": "어근 'bekal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bekal'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bekal",
+    "antonym": "mengbekal",
+    "context": "'dibekal'은(는) principalmente 'bekal되다, bekal당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekal'의 용법에 유의하세요. 'dibekal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibekal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekal되다, bekal당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibekal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekal되다, bekal당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekal",
+        "meaning": "(어근) bekal되다"
+      },
+      {
+        "word": "dibekal",
+        "meaning": "bekal되다, bekal당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qhakh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbekal [[뜨르bekal]]",
+    "meaning": "완전히 bekal되다",
+    "pos": "동사, 형용사",
+    "root": "bekal",
+    "affix_logic": "어근 'bekal'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bekal'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bekal",
+    "antonym": "sengaja dibekal",
+    "context": "'terbekal'은(는) principalmente '완전히 bekal되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekal'의 용법에 유의하세요. 'terbekal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbekal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bekal되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbekal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bekal되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekal",
+        "meaning": "(어근) 완전히 bekal되다"
+      },
+      {
+        "word": "terbekal",
+        "meaning": "완전히 bekal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gizlr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbekas [[멍bekas]]",
+    "meaning": "bekas하다 (능동사)",
+    "pos": "동사",
+    "root": "bekas",
+    "affix_logic": "어근 'bekas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bekas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bekas",
+    "antonym": "dibekas",
+    "context": "'mengbekas'은(는) principalmente 'bekas하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekas'의 용법에 유의하세요. 'mengbekas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbekas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekas하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbekas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekas하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekas",
+        "meaning": "(어근) bekas하다 (능동사)"
+      },
+      {
+        "word": "mengbekas",
+        "meaning": "bekas하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_p22bu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibekas [[디bekas]]",
+    "meaning": "bekas되다, bekas당하다 (수동사)",
+    "pos": "동사",
+    "root": "bekas",
+    "affix_logic": "어근 'bekas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bekas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bekas",
+    "antonym": "mengbekas",
+    "context": "'dibekas'은(는) principalmente 'bekas되다, bekas당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekas'의 용법에 유의하세요. 'dibekas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibekas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bekas되다, bekas당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibekas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bekas되다, bekas당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekas",
+        "meaning": "(어근) bekas되다"
+      },
+      {
+        "word": "dibekas",
+        "meaning": "bekas되다, bekas당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_untbw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbekas [[뜨르bekas]]",
+    "meaning": "완전히 bekas되다",
+    "pos": "동사, 형용사",
+    "root": "bekas",
+    "affix_logic": "어근 'bekas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bekas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bekas",
+    "antonym": "sengaja dibekas",
+    "context": "'terbekas'은(는) principalmente '완전히 bekas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bekas'의 용법에 유의하세요. 'terbekas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bekas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbekas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bekas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbekas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bekas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bekas",
+        "meaning": "(어근) 완전히 bekas되다"
+      },
+      {
+        "word": "terbekas",
+        "meaning": "완전히 bekas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_b1a1h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbelahan [[멍belahan]]",
+    "meaning": "belahan하다 (능동사)",
+    "pos": "동사",
+    "root": "belahan",
+    "affix_logic": "어근 'belahan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belahan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan belahan",
+    "antonym": "dibelahan",
+    "context": "'mengbelahan'은(는) principalmente 'belahan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belahan'의 용법에 유의하세요. 'mengbelahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbelahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belahan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbelahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belahan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belahan",
+        "meaning": "(어근) belahan하다 (능동사)"
+      },
+      {
+        "word": "mengbelahan",
+        "meaning": "belahan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8xrjq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibelahan [[디belahan]]",
+    "meaning": "belahan되다, belahan당하다 (수동사)",
+    "pos": "동사",
+    "root": "belahan",
+    "affix_logic": "어근 'belahan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belahan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena belahan",
+    "antonym": "mengbelahan",
+    "context": "'dibelahan'은(는) principalmente 'belahan되다, belahan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belahan'의 용법에 유의하세요. 'dibelahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibelahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belahan되다, belahan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibelahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belahan되다, belahan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belahan",
+        "meaning": "(어근) belahan되다"
+      },
+      {
+        "word": "dibelahan",
+        "meaning": "belahan되다, belahan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_uzhco",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbelahan [[뜨르belahan]]",
+    "meaning": "완전히 belahan되다",
+    "pos": "동사, 형용사",
+    "root": "belahan",
+    "affix_logic": "어근 'belahan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'belahan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling belahan",
+    "antonym": "sengaja dibelahan",
+    "context": "'terbelahan'은(는) principalmente '완전히 belahan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belahan'의 용법에 유의하세요. 'terbelahan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belahan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbelahan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 belahan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbelahan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 belahan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belahan",
+        "meaning": "(어근) 완전히 belahan되다"
+      },
+      {
+        "word": "terbelahan",
+        "meaning": "완전히 belahan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hx8xw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbelanja [[멍belanja]]",
+    "meaning": "belanja하다 (능동사)",
+    "pos": "동사",
+    "root": "belanja",
+    "affix_logic": "어근 'belanja'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belanja'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan belanja",
+    "antonym": "dibelanja",
+    "context": "'mengbelanja'은(는) principalmente 'belanja하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belanja'의 용법에 유의하세요. 'mengbelanja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belanja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbelanja untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belanja하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbelanja yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belanja하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belanja",
+        "meaning": "(어근) belanja하다 (능동사)"
+      },
+      {
+        "word": "mengbelanja",
+        "meaning": "belanja하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_k584o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibelanja [[디belanja]]",
+    "meaning": "belanja되다, belanja당하다 (수동사)",
+    "pos": "동사",
+    "root": "belanja",
+    "affix_logic": "어근 'belanja'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belanja'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena belanja",
+    "antonym": "mengbelanja",
+    "context": "'dibelanja'은(는) principalmente 'belanja되다, belanja당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belanja'의 용법에 유의하세요. 'dibelanja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belanja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibelanja untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belanja되다, belanja당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibelanja yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belanja되다, belanja당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belanja",
+        "meaning": "(어근) belanja되다"
+      },
+      {
+        "word": "dibelanja",
+        "meaning": "belanja되다, belanja당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_cwt8k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbelanja [[뜨르belanja]]",
+    "meaning": "완전히 belanja되다",
+    "pos": "동사, 형용사",
+    "root": "belanja",
+    "affix_logic": "어근 'belanja'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'belanja'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling belanja",
+    "antonym": "sengaja dibelanja",
+    "context": "'terbelanja'은(는) principalmente '완전히 belanja되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belanja'의 용법에 유의하세요. 'terbelanja' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belanja' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbelanja untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 belanja되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbelanja yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 belanja되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belanja",
+        "meaning": "(어근) 완전히 belanja되다"
+      },
+      {
+        "word": "terbelanja",
+        "meaning": "완전히 belanja되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_m496o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbelia [[멍belia]]",
+    "meaning": "belia하다 (능동사)",
+    "pos": "동사",
+    "root": "belia",
+    "affix_logic": "어근 'belia'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belia'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan belia",
+    "antonym": "dibelia",
+    "context": "'mengbelia'은(는) principalmente 'belia하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belia'의 용법에 유의하세요. 'mengbelia' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belia' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbelia untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belia하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbelia yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belia하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belia",
+        "meaning": "(어근) belia하다 (능동사)"
+      },
+      {
+        "word": "mengbelia",
+        "meaning": "belia하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_15fk4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibelia [[디belia]]",
+    "meaning": "belia되다, belia당하다 (수동사)",
+    "pos": "동사",
+    "root": "belia",
+    "affix_logic": "어근 'belia'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belia'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena belia",
+    "antonym": "mengbelia",
+    "context": "'dibelia'은(는) principalmente 'belia되다, belia당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belia'의 용법에 유의하세요. 'dibelia' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belia' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibelia untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belia되다, belia당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibelia yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belia되다, belia당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belia",
+        "meaning": "(어근) belia되다"
+      },
+      {
+        "word": "dibelia",
+        "meaning": "belia되다, belia당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hwdoa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbelia [[뜨르belia]]",
+    "meaning": "완전히 belia되다",
+    "pos": "동사, 형용사",
+    "root": "belia",
+    "affix_logic": "어근 'belia'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'belia'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling belia",
+    "antonym": "sengaja dibelia",
+    "context": "'terbelia'은(는) principalmente '완전히 belia되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belia'의 용법에 유의하세요. 'terbelia' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belia' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbelia untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 belia되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbelia yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 belia되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belia",
+        "meaning": "(어근) 완전히 belia되다"
+      },
+      {
+        "word": "terbelia",
+        "meaning": "완전히 belia되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_g2kb1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbelut [[멍belut]]",
+    "meaning": "belut하다 (능동사)",
+    "pos": "동사",
+    "root": "belut",
+    "affix_logic": "어근 'belut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belut'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan belut",
+    "antonym": "dibelut",
+    "context": "'mengbelut'은(는) principalmente 'belut하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belut'의 용법에 유의하세요. 'mengbelut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbelut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belut하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbelut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belut하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belut",
+        "meaning": "(어근) belut하다 (능동사)"
+      },
+      {
+        "word": "mengbelut",
+        "meaning": "belut하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_l411c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibelut [[디belut]]",
+    "meaning": "belut되다, belut당하다 (수동사)",
+    "pos": "동사",
+    "root": "belut",
+    "affix_logic": "어근 'belut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'belut'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena belut",
+    "antonym": "mengbelut",
+    "context": "'dibelut'은(는) principalmente 'belut되다, belut당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belut'의 용법에 유의하세요. 'dibelut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibelut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 belut되다, belut당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibelut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 belut되다, belut당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belut",
+        "meaning": "(어근) belut되다"
+      },
+      {
+        "word": "dibelut",
+        "meaning": "belut되다, belut당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_zazgu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbelut [[뜨르belut]]",
+    "meaning": "완전히 belut되다",
+    "pos": "동사, 형용사",
+    "root": "belut",
+    "affix_logic": "어근 'belut'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'belut'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling belut",
+    "antonym": "sengaja dibelut",
+    "context": "'terbelut'은(는) principalmente '완전히 belut되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'belut'의 용법에 유의하세요. 'terbelut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'belut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbelut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 belut되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbelut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 belut되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "belut",
+        "meaning": "(어근) 완전히 belut되다"
+      },
+      {
+        "word": "terbelut",
+        "meaning": "완전히 belut되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_razyj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbenang [[멍benang]]",
+    "meaning": "benang하다 (능동사)",
+    "pos": "동사",
+    "root": "benang",
+    "affix_logic": "어근 'benang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benang'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan benang",
+    "antonym": "dibenang",
+    "context": "'mengbenang'은(는) principalmente 'benang하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benang'의 용법에 유의하세요. 'mengbenang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbenang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benang하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbenang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benang하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benang",
+        "meaning": "(어근) benang하다 (능동사)"
+      },
+      {
+        "word": "mengbenang",
+        "meaning": "benang하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_jglru",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibenang [[디benang]]",
+    "meaning": "benang되다, benang당하다 (수동사)",
+    "pos": "동사",
+    "root": "benang",
+    "affix_logic": "어근 'benang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benang'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena benang",
+    "antonym": "mengbenang",
+    "context": "'dibenang'은(는) principalmente 'benang되다, benang당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benang'의 용법에 유의하세요. 'dibenang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibenang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benang되다, benang당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibenang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benang되다, benang당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benang",
+        "meaning": "(어근) benang되다"
+      },
+      {
+        "word": "dibenang",
+        "meaning": "benang되다, benang당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vcxmw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbenang [[뜨르benang]]",
+    "meaning": "완전히 benang되다",
+    "pos": "동사, 형용사",
+    "root": "benang",
+    "affix_logic": "어근 'benang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'benang'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling benang",
+    "antonym": "sengaja dibenang",
+    "context": "'terbenang'은(는) principalmente '완전히 benang되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benang'의 용법에 유의하세요. 'terbenang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbenang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 benang되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbenang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 benang되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benang",
+        "meaning": "(어근) 완전히 benang되다"
+      },
+      {
+        "word": "terbenang",
+        "meaning": "완전히 benang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_3akyq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbencana [[멍bencana]]",
+    "meaning": "bencana하다 (능동사)",
+    "pos": "동사",
+    "root": "bencana",
+    "affix_logic": "어근 'bencana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bencana'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bencana",
+    "antonym": "dibencana",
+    "context": "'mengbencana'은(는) principalmente 'bencana하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bencana'의 용법에 유의하세요. 'mengbencana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bencana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbencana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bencana하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbencana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bencana하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bencana",
+        "meaning": "(어근) bencana하다 (능동사)"
+      },
+      {
+        "word": "mengbencana",
+        "meaning": "bencana하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_0dj73",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibencana [[디bencana]]",
+    "meaning": "bencana되다, bencana당하다 (수동사)",
+    "pos": "동사",
+    "root": "bencana",
+    "affix_logic": "어근 'bencana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bencana'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bencana",
+    "antonym": "mengbencana",
+    "context": "'dibencana'은(는) principalmente 'bencana되다, bencana당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bencana'의 용법에 유의하세요. 'dibencana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bencana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibencana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bencana되다, bencana당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibencana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bencana되다, bencana당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bencana",
+        "meaning": "(어근) bencana되다"
+      },
+      {
+        "word": "dibencana",
+        "meaning": "bencana되다, bencana당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_rs1or",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbencana [[뜨르bencana]]",
+    "meaning": "완전히 bencana되다",
+    "pos": "동사, 형용사",
+    "root": "bencana",
+    "affix_logic": "어근 'bencana'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bencana'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bencana",
+    "antonym": "sengaja dibencana",
+    "context": "'terbencana'은(는) principalmente '완전히 bencana되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bencana'의 용법에 유의하세요. 'terbencana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bencana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbencana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bencana되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbencana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bencana되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bencana",
+        "meaning": "(어근) 완전히 bencana되다"
+      },
+      {
+        "word": "terbencana",
+        "meaning": "완전히 bencana되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_3pq5r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbenci [[멍benci]]",
+    "meaning": "benci하다 (능동사)",
+    "pos": "동사",
+    "root": "benci",
+    "affix_logic": "어근 'benci'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benci'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan benci",
+    "antonym": "dibenci",
+    "context": "'mengbenci'은(는) principalmente 'benci하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benci'의 용법에 유의하세요. 'mengbenci' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benci' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbenci untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benci하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbenci yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benci하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benci",
+        "meaning": "(어근) benci하다 (능동사)"
+      },
+      {
+        "word": "mengbenci",
+        "meaning": "benci하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qjqgy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibenci [[디benci]]",
+    "meaning": "benci되다, benci당하다 (수동사)",
+    "pos": "동사",
+    "root": "benci",
+    "affix_logic": "어근 'benci'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benci'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena benci",
+    "antonym": "mengbenci",
+    "context": "'dibenci'은(는) principalmente 'benci되다, benci당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benci'의 용법에 유의하세요. 'dibenci' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benci' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibenci untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benci되다, benci당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibenci yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benci되다, benci당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benci",
+        "meaning": "(어근) benci되다"
+      },
+      {
+        "word": "dibenci",
+        "meaning": "benci되다, benci당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9eip0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbenci [[뜨르benci]]",
+    "meaning": "완전히 benci되다",
+    "pos": "동사, 형용사",
+    "root": "benci",
+    "affix_logic": "어근 'benci'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'benci'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling benci",
+    "antonym": "sengaja dibenci",
+    "context": "'terbenci'은(는) principalmente '완전히 benci되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benci'의 용법에 유의하세요. 'terbenci' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benci' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbenci untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 benci되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbenci yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 benci되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benci",
+        "meaning": "(어근) 완전히 benci되다"
+      },
+      {
+        "word": "terbenci",
+        "meaning": "완전히 benci되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_dar0a",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbenda [[멍benda]]",
+    "meaning": "benda하다 (능동사)",
+    "pos": "동사",
+    "root": "benda",
+    "affix_logic": "어근 'benda'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benda'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan benda",
+    "antonym": "dibenda",
+    "context": "'mengbenda'은(는) principalmente 'benda하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benda'의 용법에 유의하세요. 'mengbenda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbenda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benda하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbenda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benda하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benda",
+        "meaning": "(어근) benda하다 (능동사)"
+      },
+      {
+        "word": "mengbenda",
+        "meaning": "benda하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_fw0kb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibenda [[디benda]]",
+    "meaning": "benda되다, benda당하다 (수동사)",
+    "pos": "동사",
+    "root": "benda",
+    "affix_logic": "어근 'benda'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benda'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena benda",
+    "antonym": "mengbenda",
+    "context": "'dibenda'은(는) principalmente 'benda되다, benda당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benda'의 용법에 유의하세요. 'dibenda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibenda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benda되다, benda당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibenda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benda되다, benda당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benda",
+        "meaning": "(어근) benda되다"
+      },
+      {
+        "word": "dibenda",
+        "meaning": "benda되다, benda당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8s43v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbenda [[뜨르benda]]",
+    "meaning": "완전히 benda되다",
+    "pos": "동사, 형용사",
+    "root": "benda",
+    "affix_logic": "어근 'benda'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'benda'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling benda",
+    "antonym": "sengaja dibenda",
+    "context": "'terbenda'은(는) principalmente '완전히 benda되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benda'의 용법에 유의하세요. 'terbenda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbenda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 benda되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbenda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 benda되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benda",
+        "meaning": "(어근) 완전히 benda되다"
+      },
+      {
+        "word": "terbenda",
+        "meaning": "완전히 benda되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_bgp67",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbengkel [[멍bengkel]]",
+    "meaning": "bengkel하다 (능동사)",
+    "pos": "동사",
+    "root": "bengkel",
+    "affix_logic": "어근 'bengkel'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bengkel'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bengkel",
+    "antonym": "dibengkel",
+    "context": "'mengbengkel'은(는) principalmente 'bengkel하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bengkel'의 용법에 유의하세요. 'mengbengkel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bengkel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbengkel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bengkel하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbengkel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bengkel하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bengkel",
+        "meaning": "(어근) bengkel하다 (능동사)"
+      },
+      {
+        "word": "mengbengkel",
+        "meaning": "bengkel하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_agh02",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibengkel [[디bengkel]]",
+    "meaning": "bengkel되다, bengkel당하다 (수동사)",
+    "pos": "동사",
+    "root": "bengkel",
+    "affix_logic": "어근 'bengkel'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bengkel'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bengkel",
+    "antonym": "mengbengkel",
+    "context": "'dibengkel'은(는) principalmente 'bengkel되다, bengkel당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bengkel'의 용법에 유의하세요. 'dibengkel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bengkel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibengkel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bengkel되다, bengkel당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibengkel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bengkel되다, bengkel당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bengkel",
+        "meaning": "(어근) bengkel되다"
+      },
+      {
+        "word": "dibengkel",
+        "meaning": "bengkel되다, bengkel당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_fzojr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbengkel [[뜨르bengkel]]",
+    "meaning": "완전히 bengkel되다",
+    "pos": "동사, 형용사",
+    "root": "bengkel",
+    "affix_logic": "어근 'bengkel'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bengkel'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bengkel",
+    "antonym": "sengaja dibengkel",
+    "context": "'terbengkel'은(는) principalmente '완전히 bengkel되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bengkel'의 용법에 유의하세요. 'terbengkel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bengkel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbengkel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bengkel되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbengkel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bengkel되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bengkel",
+        "meaning": "(어근) 완전히 bengkel되다"
+      },
+      {
+        "word": "terbengkel",
+        "meaning": "완전히 bengkel되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_dqye9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbening [[멍bening]]",
+    "meaning": "bening하다 (능동사)",
+    "pos": "동사",
+    "root": "bening",
+    "affix_logic": "어근 'bening'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bening'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bening",
+    "antonym": "dibening",
+    "context": "'mengbening'은(는) principalmente 'bening하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bening'의 용법에 유의하세요. 'mengbening' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bening' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbening untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bening하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbening yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bening하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bening",
+        "meaning": "(어근) bening하다 (능동사)"
+      },
+      {
+        "word": "mengbening",
+        "meaning": "bening하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6glqb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibening [[디bening]]",
+    "meaning": "bening되다, bening당하다 (수동사)",
+    "pos": "동사",
+    "root": "bening",
+    "affix_logic": "어근 'bening'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bening'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bening",
+    "antonym": "mengbening",
+    "context": "'dibening'은(는) principalmente 'bening되다, bening당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bening'의 용법에 유의하세요. 'dibening' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bening' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibening untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bening되다, bening당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibening yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bening되다, bening당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bening",
+        "meaning": "(어근) bening되다"
+      },
+      {
+        "word": "dibening",
+        "meaning": "bening되다, bening당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_c7fir",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbening [[뜨르bening]]",
+    "meaning": "완전히 bening되다",
+    "pos": "동사, 형용사",
+    "root": "bening",
+    "affix_logic": "어근 'bening'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bening'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bening",
+    "antonym": "sengaja dibening",
+    "context": "'terbening'은(는) principalmente '완전히 bening되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bening'의 용법에 유의하세요. 'terbening' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bening' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbening untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bening되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbening yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bening되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bening",
+        "meaning": "(어근) 완전히 bening되다"
+      },
+      {
+        "word": "terbening",
+        "meaning": "완전히 bening되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5tprd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbentang [[멍bentang]]",
+    "meaning": "bentang하다 (능동사)",
+    "pos": "동사",
+    "root": "bentang",
+    "affix_logic": "어근 'bentang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bentang'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bentang",
+    "antonym": "dibentang",
+    "context": "'mengbentang'은(는) principalmente 'bentang하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentang'의 용법에 유의하세요. 'mengbentang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbentang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentang하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbentang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentang하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentang",
+        "meaning": "(어근) bentang하다 (능동사)"
+      },
+      {
+        "word": "mengbentang",
+        "meaning": "bentang하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_uimoz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibentang [[디bentang]]",
+    "meaning": "bentang되다, bentang당하다 (수동사)",
+    "pos": "동사",
+    "root": "bentang",
+    "affix_logic": "어근 'bentang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bentang'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bentang",
+    "antonym": "mengbentang",
+    "context": "'dibentang'은(는) principalmente 'bentang되다, bentang당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentang'의 용법에 유의하세요. 'dibentang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibentang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentang되다, bentang당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibentang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentang되다, bentang당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentang",
+        "meaning": "(어근) bentang되다"
+      },
+      {
+        "word": "dibentang",
+        "meaning": "bentang되다, bentang당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_o7o4m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbentang [[뜨르bentang]]",
+    "meaning": "완전히 bentang되다",
+    "pos": "동사, 형용사",
+    "root": "bentang",
+    "affix_logic": "어근 'bentang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bentang'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bentang",
+    "antonym": "sengaja dibentang",
+    "context": "'terbentang'은(는) principalmente '완전히 bentang되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentang'의 용법에 유의하세요. 'terbentang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbentang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bentang되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbentang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bentang되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentang",
+        "meaning": "(어근) 완전히 bentang되다"
+      },
+      {
+        "word": "terbentang",
+        "meaning": "완전히 bentang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_pyl3v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbentrok [[멍bentrok]]",
+    "meaning": "bentrok하다 (능동사)",
+    "pos": "동사",
+    "root": "bentrok",
+    "affix_logic": "어근 'bentrok'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bentrok'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bentrok",
+    "antonym": "dibentrok",
+    "context": "'mengbentrok'은(는) principalmente 'bentrok하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentrok'의 용법에 유의하세요. 'mengbentrok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentrok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbentrok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentrok하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbentrok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentrok하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentrok",
+        "meaning": "(어근) bentrok하다 (능동사)"
+      },
+      {
+        "word": "mengbentrok",
+        "meaning": "bentrok하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_qsvc7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibentrok [[디bentrok]]",
+    "meaning": "bentrok되다, bentrok당하다 (수동사)",
+    "pos": "동사",
+    "root": "bentrok",
+    "affix_logic": "어근 'bentrok'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bentrok'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bentrok",
+    "antonym": "mengbentrok",
+    "context": "'dibentrok'은(는) principalmente 'bentrok되다, bentrok당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentrok'의 용법에 유의하세요. 'dibentrok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentrok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibentrok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bentrok되다, bentrok당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibentrok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bentrok되다, bentrok당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentrok",
+        "meaning": "(어근) bentrok되다"
+      },
+      {
+        "word": "dibentrok",
+        "meaning": "bentrok되다, bentrok당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_o4vaz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbentrok [[뜨르bentrok]]",
+    "meaning": "완전히 bentrok되다",
+    "pos": "동사, 형용사",
+    "root": "bentrok",
+    "affix_logic": "어근 'bentrok'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bentrok'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bentrok",
+    "antonym": "sengaja dibentrok",
+    "context": "'terbentrok'은(는) principalmente '완전히 bentrok되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bentrok'의 용법에 유의하세요. 'terbentrok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bentrok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbentrok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bentrok되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbentrok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bentrok되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bentrok",
+        "meaning": "(어근) 완전히 bentrok되다"
+      },
+      {
+        "word": "terbentrok",
+        "meaning": "완전히 bentrok되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5kofi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbenih [[멍benih]]",
+    "meaning": "benih하다 (능동사)",
+    "pos": "동사",
+    "root": "benih",
+    "affix_logic": "어근 'benih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benih'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan benih",
+    "antonym": "dibenih",
+    "context": "'mengbenih'은(는) principalmente 'benih하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benih'의 용법에 유의하세요. 'mengbenih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbenih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benih하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbenih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benih하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benih",
+        "meaning": "(어근) benih하다 (능동사)"
+      },
+      {
+        "word": "mengbenih",
+        "meaning": "benih하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_od44r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibenih [[디benih]]",
+    "meaning": "benih되다, benih당하다 (수동사)",
+    "pos": "동사",
+    "root": "benih",
+    "affix_logic": "어근 'benih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'benih'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena benih",
+    "antonym": "mengbenih",
+    "context": "'dibenih'은(는) principalmente 'benih되다, benih당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benih'의 용법에 유의하세요. 'dibenih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibenih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 benih되다, benih당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibenih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 benih되다, benih당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benih",
+        "meaning": "(어근) benih되다"
+      },
+      {
+        "word": "dibenih",
+        "meaning": "benih되다, benih당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_o8t5f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbenih [[뜨르benih]]",
+    "meaning": "완전히 benih되다",
+    "pos": "동사, 형용사",
+    "root": "benih",
+    "affix_logic": "어근 'benih'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'benih'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling benih",
+    "antonym": "sengaja dibenih",
+    "context": "'terbenih'은(는) principalmente '완전히 benih되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'benih'의 용법에 유의하세요. 'terbenih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'benih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbenih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 benih되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbenih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 benih되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "benih",
+        "meaning": "(어근) 완전히 benih되다"
+      },
+      {
+        "word": "terbenih",
+        "meaning": "완전히 benih되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xubom",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengberkat [[멍berkat]]",
+    "meaning": "berkat하다 (능동사)",
+    "pos": "동사",
+    "root": "berkat",
+    "affix_logic": "어근 'berkat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berkat'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan berkat",
+    "antonym": "diberkat",
+    "context": "'mengberkat'은(는) principalmente 'berkat하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkat'의 용법에 유의하세요. 'mengberkat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengberkat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkat하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengberkat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkat하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkat",
+        "meaning": "(어근) berkat하다 (능동사)"
+      },
+      {
+        "word": "mengberkat",
+        "meaning": "berkat하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_yys1l",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diberkat [[디berkat]]",
+    "meaning": "berkat되다, berkat당하다 (수동사)",
+    "pos": "동사",
+    "root": "berkat",
+    "affix_logic": "어근 'berkat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berkat'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena berkat",
+    "antonym": "mengberkat",
+    "context": "'diberkat'은(는) principalmente 'berkat되다, berkat당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkat'의 용법에 유의하세요. 'diberkat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diberkat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkat되다, berkat당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diberkat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkat되다, berkat당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkat",
+        "meaning": "(어근) berkat되다"
+      },
+      {
+        "word": "diberkat",
+        "meaning": "berkat되다, berkat당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vdump",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terberkat [[뜨르berkat]]",
+    "meaning": "완전히 berkat되다",
+    "pos": "동사, 형용사",
+    "root": "berkat",
+    "affix_logic": "어근 'berkat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'berkat'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling berkat",
+    "antonym": "sengaja diberkat",
+    "context": "'terberkat'은(는) principalmente '완전히 berkat되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkat'의 용법에 유의하세요. 'terberkat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terberkat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 berkat되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terberkat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 berkat되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkat",
+        "meaning": "(어근) 완전히 berkat되다"
+      },
+      {
+        "word": "terberkat",
+        "meaning": "완전히 berkat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_8qhom",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengberkah [[멍berkah]]",
+    "meaning": "berkah하다 (능동사)",
+    "pos": "동사",
+    "root": "berkah",
+    "affix_logic": "어근 'berkah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berkah'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan berkah",
+    "antonym": "diberkah",
+    "context": "'mengberkah'은(는) principalmente 'berkah하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkah'의 용법에 유의하세요. 'mengberkah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengberkah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkah하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengberkah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkah하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkah",
+        "meaning": "(어근) berkah하다 (능동사)"
+      },
+      {
+        "word": "mengberkah",
+        "meaning": "berkah하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_nfq5a",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diberkah [[디berkah]]",
+    "meaning": "berkah되다, berkah당하다 (수동사)",
+    "pos": "동사",
+    "root": "berkah",
+    "affix_logic": "어근 'berkah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berkah'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena berkah",
+    "antonym": "mengberkah",
+    "context": "'diberkah'은(는) principalmente 'berkah되다, berkah당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkah'의 용법에 유의하세요. 'diberkah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diberkah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berkah되다, berkah당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diberkah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berkah되다, berkah당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkah",
+        "meaning": "(어근) berkah되다"
+      },
+      {
+        "word": "diberkah",
+        "meaning": "berkah되다, berkah당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xil4s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terberkah [[뜨르berkah]]",
+    "meaning": "완전히 berkah되다",
+    "pos": "동사, 형용사",
+    "root": "berkah",
+    "affix_logic": "어근 'berkah'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'berkah'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling berkah",
+    "antonym": "sengaja diberkah",
+    "context": "'terberkah'은(는) principalmente '완전히 berkah되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berkah'의 용법에 유의하세요. 'terberkah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berkah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terberkah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 berkah되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terberkah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 berkah되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berkah",
+        "meaning": "(어근) 완전히 berkah되다"
+      },
+      {
+        "word": "terberkah",
+        "meaning": "완전히 berkah되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wrgnn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengberlian [[멍berlian]]",
+    "meaning": "berlian하다 (능동사)",
+    "pos": "동사",
+    "root": "berlian",
+    "affix_logic": "어근 'berlian'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berlian'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan berlian",
+    "antonym": "diberlian",
+    "context": "'mengberlian'은(는) principalmente 'berlian하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berlian'의 용법에 유의하세요. 'mengberlian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berlian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengberlian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berlian하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengberlian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berlian하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berlian",
+        "meaning": "(어근) berlian하다 (능동사)"
+      },
+      {
+        "word": "mengberlian",
+        "meaning": "berlian하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_uebgu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diberlian [[디berlian]]",
+    "meaning": "berlian되다, berlian당하다 (수동사)",
+    "pos": "동사",
+    "root": "berlian",
+    "affix_logic": "어근 'berlian'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'berlian'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena berlian",
+    "antonym": "mengberlian",
+    "context": "'diberlian'은(는) principalmente 'berlian되다, berlian당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berlian'의 용법에 유의하세요. 'diberlian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berlian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diberlian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 berlian되다, berlian당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diberlian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 berlian되다, berlian당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berlian",
+        "meaning": "(어근) berlian되다"
+      },
+      {
+        "word": "diberlian",
+        "meaning": "berlian되다, berlian당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_y71i0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terberlian [[뜨르berlian]]",
+    "meaning": "완전히 berlian되다",
+    "pos": "동사, 형용사",
+    "root": "berlian",
+    "affix_logic": "어근 'berlian'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'berlian'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling berlian",
+    "antonym": "sengaja diberlian",
+    "context": "'terberlian'은(는) principalmente '완전히 berlian되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'berlian'의 용법에 유의하세요. 'terberlian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'berlian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terberlian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 berlian되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terberlian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 berlian되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "berlian",
+        "meaning": "(어근) 완전히 berlian되다"
+      },
+      {
+        "word": "terberlian",
+        "meaning": "완전히 berlian되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_i77g2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbersih [[멍bersih]]",
+    "meaning": "bersih하다 (능동사)",
+    "pos": "동사",
+    "root": "bersih",
+    "affix_logic": "어근 'bersih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bersih'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bersih",
+    "antonym": "dibersih",
+    "context": "'mengbersih'은(는) principalmente 'bersih하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bersih'의 용법에 유의하세요. 'mengbersih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bersih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbersih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bersih하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbersih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bersih하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bersih",
+        "meaning": "(어근) bersih하다 (능동사)"
+      },
+      {
+        "word": "mengbersih",
+        "meaning": "bersih하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_kzgf6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibersih [[디bersih]]",
+    "meaning": "bersih되다, bersih당하다 (수동사)",
+    "pos": "동사",
+    "root": "bersih",
+    "affix_logic": "어근 'bersih'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bersih'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bersih",
+    "antonym": "mengbersih",
+    "context": "'dibersih'은(는) principalmente 'bersih되다, bersih당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bersih'의 용법에 유의하세요. 'dibersih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bersih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibersih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bersih되다, bersih당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibersih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bersih되다, bersih당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bersih",
+        "meaning": "(어근) bersih되다"
+      },
+      {
+        "word": "dibersih",
+        "meaning": "bersih되다, bersih당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_kowok",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbersih [[뜨르bersih]]",
+    "meaning": "완전히 bersih되다",
+    "pos": "동사, 형용사",
+    "root": "bersih",
+    "affix_logic": "어근 'bersih'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bersih'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bersih",
+    "antonym": "sengaja dibersih",
+    "context": "'terbersih'은(는) principalmente '완전히 bersih되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bersih'의 용법에 유의하세요. 'terbersih' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bersih' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbersih untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bersih되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbersih yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bersih되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bersih",
+        "meaning": "(어근) 완전히 bersih되다"
+      },
+      {
+        "word": "terbersih",
+        "meaning": "완전히 bersih되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xr8ry",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbesok [[멍besok]]",
+    "meaning": "besok하다 (능동사)",
+    "pos": "동사",
+    "root": "besok",
+    "affix_logic": "어근 'besok'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'besok'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan besok",
+    "antonym": "dibesok",
+    "context": "'mengbesok'은(는) principalmente 'besok하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'besok'의 용법에 유의하세요. 'mengbesok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'besok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbesok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 besok하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbesok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 besok하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "besok",
+        "meaning": "(어근) besok하다 (능동사)"
+      },
+      {
+        "word": "mengbesok",
+        "meaning": "besok하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_low7o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibesok [[디besok]]",
+    "meaning": "besok되다, besok당하다 (수동사)",
+    "pos": "동사",
+    "root": "besok",
+    "affix_logic": "어근 'besok'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'besok'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena besok",
+    "antonym": "mengbesok",
+    "context": "'dibesok'은(는) principalmente 'besok되다, besok당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'besok'의 용법에 유의하세요. 'dibesok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'besok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibesok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 besok되다, besok당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibesok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 besok되다, besok당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "besok",
+        "meaning": "(어근) besok되다"
+      },
+      {
+        "word": "dibesok",
+        "meaning": "besok되다, besok당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_zc3mk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbesok [[뜨르besok]]",
+    "meaning": "완전히 besok되다",
+    "pos": "동사, 형용사",
+    "root": "besok",
+    "affix_logic": "어근 'besok'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'besok'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling besok",
+    "antonym": "sengaja dibesok",
+    "context": "'terbesok'은(는) principalmente '완전히 besok되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'besok'의 용법에 유의하세요. 'terbesok' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'besok' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbesok untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 besok되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbesok yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 besok되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "besok",
+        "meaning": "(어근) 완전히 besok되다"
+      },
+      {
+        "word": "terbesok",
+        "meaning": "완전히 besok되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9qm9r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiaya [[멍biaya]]",
+    "meaning": "biaya하다 (능동사)",
+    "pos": "동사",
+    "root": "biaya",
+    "affix_logic": "어근 'biaya'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biaya'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan biaya",
+    "antonym": "dibiaya",
+    "context": "'mengbiaya'은(는) principalmente 'biaya하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biaya'의 용법에 유의하세요. 'mengbiaya' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biaya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbiaya untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biaya하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbiaya yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biaya하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biaya",
+        "meaning": "(어근) biaya하다 (능동사)"
+      },
+      {
+        "word": "mengbiaya",
+        "meaning": "biaya하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_fjinn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiaya [[디biaya]]",
+    "meaning": "biaya되다, biaya당하다 (수동사)",
+    "pos": "동사",
+    "root": "biaya",
+    "affix_logic": "어근 'biaya'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biaya'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena biaya",
+    "antonym": "mengbiaya",
+    "context": "'dibiaya'은(는) principalmente 'biaya되다, biaya당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biaya'의 용법에 유의하세요. 'dibiaya' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biaya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibiaya untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biaya되다, biaya당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibiaya yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biaya되다, biaya당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biaya",
+        "meaning": "(어근) biaya되다"
+      },
+      {
+        "word": "dibiaya",
+        "meaning": "biaya되다, biaya당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_cexf6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiaya [[뜨르biaya]]",
+    "meaning": "완전히 biaya되다",
+    "pos": "동사, 형용사",
+    "root": "biaya",
+    "affix_logic": "어근 'biaya'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'biaya'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling biaya",
+    "antonym": "sengaja dibiaya",
+    "context": "'terbiaya'은(는) principalmente '완전히 biaya되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biaya'의 용법에 유의하세요. 'terbiaya' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biaya' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbiaya untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 biaya되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbiaya yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 biaya되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biaya",
+        "meaning": "(어근) 완전히 biaya되다"
+      },
+      {
+        "word": "terbiaya",
+        "meaning": "완전히 biaya되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_t0tig",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbibit [[멍bibit]]",
+    "meaning": "bibit하다 (능동사)",
+    "pos": "동사",
+    "root": "bibit",
+    "affix_logic": "어근 'bibit'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bibit'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bibit",
+    "antonym": "dibibit",
+    "context": "'mengbibit'은(는) principalmente 'bibit하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bibit'의 용법에 유의하세요. 'mengbibit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bibit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbibit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bibit하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbibit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bibit하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bibit",
+        "meaning": "(어근) bibit하다 (능동사)"
+      },
+      {
+        "word": "mengbibit",
+        "meaning": "bibit하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_d9270",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibibit [[디bibit]]",
+    "meaning": "bibit되다, bibit당하다 (수동사)",
+    "pos": "동사",
+    "root": "bibit",
+    "affix_logic": "어근 'bibit'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bibit'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bibit",
+    "antonym": "mengbibit",
+    "context": "'dibibit'은(는) principalmente 'bibit되다, bibit당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bibit'의 용법에 유의하세요. 'dibibit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bibit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibibit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bibit되다, bibit당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibibit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bibit되다, bibit당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bibit",
+        "meaning": "(어근) bibit되다"
+      },
+      {
+        "word": "dibibit",
+        "meaning": "bibit되다, bibit당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_mvp5v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbibit [[뜨르bibit]]",
+    "meaning": "완전히 bibit되다",
+    "pos": "동사, 형용사",
+    "root": "bibit",
+    "affix_logic": "어근 'bibit'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bibit'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bibit",
+    "antonym": "sengaja dibibit",
+    "context": "'terbibit'은(는) principalmente '완전히 bibit되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bibit'의 용법에 유의하세요. 'terbibit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bibit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbibit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bibit되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbibit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bibit되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bibit",
+        "meaning": "(어근) 완전히 bibit되다"
+      },
+      {
+        "word": "terbibit",
+        "meaning": "완전히 bibit되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_casq6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbidadari [[멍bidadari]]",
+    "meaning": "bidadari하다 (능동사)",
+    "pos": "동사",
+    "root": "bidadari",
+    "affix_logic": "어근 'bidadari'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bidadari'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bidadari",
+    "antonym": "dibidadari",
+    "context": "'mengbidadari'은(는) principalmente 'bidadari하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidadari'의 용법에 유의하세요. 'mengbidadari' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidadari' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbidadari untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidadari하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbidadari yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidadari하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidadari",
+        "meaning": "(어근) bidadari하다 (능동사)"
+      },
+      {
+        "word": "mengbidadari",
+        "meaning": "bidadari하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_axyd9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibidadari [[디bidadari]]",
+    "meaning": "bidadari되다, bidadari당하다 (수동사)",
+    "pos": "동사",
+    "root": "bidadari",
+    "affix_logic": "어근 'bidadari'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bidadari'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bidadari",
+    "antonym": "mengbidadari",
+    "context": "'dibidadari'은(는) principalmente 'bidadari되다, bidadari당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidadari'의 용법에 유의하세요. 'dibidadari' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidadari' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibidadari untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidadari되다, bidadari당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibidadari yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidadari되다, bidadari당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidadari",
+        "meaning": "(어근) bidadari되다"
+      },
+      {
+        "word": "dibidadari",
+        "meaning": "bidadari되다, bidadari당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xo3f5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbidadari [[뜨르bidadari]]",
+    "meaning": "완전히 bidadari되다",
+    "pos": "동사, 형용사",
+    "root": "bidadari",
+    "affix_logic": "어근 'bidadari'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bidadari'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bidadari",
+    "antonym": "sengaja dibidadari",
+    "context": "'terbidadari'은(는) principalmente '완전히 bidadari되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidadari'의 용법에 유의하세요. 'terbidadari' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidadari' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbidadari untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bidadari되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbidadari yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bidadari되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidadari",
+        "meaning": "(어근) 완전히 bidadari되다"
+      },
+      {
+        "word": "terbidadari",
+        "meaning": "완전히 bidadari되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_s0kh7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbidang [[멍bidang]]",
+    "meaning": "bidang하다 (능동사)",
+    "pos": "동사",
+    "root": "bidang",
+    "affix_logic": "어근 'bidang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bidang'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bidang",
+    "antonym": "dibidang",
+    "context": "'mengbidang'은(는) principalmente 'bidang하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidang'의 용법에 유의하세요. 'mengbidang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbidang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidang하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbidang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidang하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidang",
+        "meaning": "(어근) bidang하다 (능동사)"
+      },
+      {
+        "word": "mengbidang",
+        "meaning": "bidang하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_2pbcf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibidang [[디bidang]]",
+    "meaning": "bidang되다, bidang당하다 (수동사)",
+    "pos": "동사",
+    "root": "bidang",
+    "affix_logic": "어근 'bidang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bidang'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bidang",
+    "antonym": "mengbidang",
+    "context": "'dibidang'은(는) principalmente 'bidang되다, bidang당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidang'의 용법에 유의하세요. 'dibidang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibidang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bidang되다, bidang당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibidang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bidang되다, bidang당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidang",
+        "meaning": "(어근) bidang되다"
+      },
+      {
+        "word": "dibidang",
+        "meaning": "bidang되다, bidang당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5kkhd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbidang [[뜨르bidang]]",
+    "meaning": "완전히 bidang되다",
+    "pos": "동사, 형용사",
+    "root": "bidang",
+    "affix_logic": "어근 'bidang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bidang'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bidang",
+    "antonym": "sengaja dibidang",
+    "context": "'terbidang'은(는) principalmente '완전히 bidang되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bidang'의 용법에 유의하세요. 'terbidang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bidang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbidang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bidang되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbidang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bidang되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bidang",
+        "meaning": "(어근) 완전히 bidang되다"
+      },
+      {
+        "word": "terbidang",
+        "meaning": "완전히 bidang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_p67c3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbijaksana [[멍bijaksana]]",
+    "meaning": "bijaksana하다 (능동사)",
+    "pos": "동사",
+    "root": "bijaksana",
+    "affix_logic": "어근 'bijaksana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bijaksana'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bijaksana",
+    "antonym": "dibijaksana",
+    "context": "'mengbijaksana'은(는) principalmente 'bijaksana하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bijaksana'의 용법에 유의하세요. 'mengbijaksana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bijaksana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbijaksana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bijaksana하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbijaksana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bijaksana하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bijaksana",
+        "meaning": "(어근) bijaksana하다 (능동사)"
+      },
+      {
+        "word": "mengbijaksana",
+        "meaning": "bijaksana하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_y7o5w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibijaksana [[디bijaksana]]",
+    "meaning": "bijaksana되다, bijaksana당하다 (수동사)",
+    "pos": "동사",
+    "root": "bijaksana",
+    "affix_logic": "어근 'bijaksana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bijaksana'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bijaksana",
+    "antonym": "mengbijaksana",
+    "context": "'dibijaksana'은(는) principalmente 'bijaksana되다, bijaksana당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bijaksana'의 용법에 유의하세요. 'dibijaksana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bijaksana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibijaksana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bijaksana되다, bijaksana당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibijaksana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bijaksana되다, bijaksana당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bijaksana",
+        "meaning": "(어근) bijaksana되다"
+      },
+      {
+        "word": "dibijaksana",
+        "meaning": "bijaksana되다, bijaksana당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9r2p6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbijaksana [[뜨르bijaksana]]",
+    "meaning": "완전히 bijaksana되다",
+    "pos": "동사, 형용사",
+    "root": "bijaksana",
+    "affix_logic": "어근 'bijaksana'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bijaksana'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bijaksana",
+    "antonym": "sengaja dibijaksana",
+    "context": "'terbijaksana'은(는) principalmente '완전히 bijaksana되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bijaksana'의 용법에 유의하세요. 'terbijaksana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bijaksana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbijaksana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bijaksana되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbijaksana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bijaksana되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bijaksana",
+        "meaning": "(어근) 완전히 bijaksana되다"
+      },
+      {
+        "word": "terbijaksana",
+        "meaning": "완전히 bijaksana되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5f1b3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbikir [[멍bikir]]",
+    "meaning": "bikir하다 (능동사)",
+    "pos": "동사",
+    "root": "bikir",
+    "affix_logic": "어근 'bikir'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bikir'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bikir",
+    "antonym": "dibikir",
+    "context": "'mengbikir'은(는) principalmente 'bikir하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bikir'의 용법에 유의하세요. 'mengbikir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bikir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbikir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bikir하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbikir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bikir하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bikir",
+        "meaning": "(어근) bikir하다 (능동사)"
+      },
+      {
+        "word": "mengbikir",
+        "meaning": "bikir하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hmxge",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibikir [[디bikir]]",
+    "meaning": "bikir되다, bikir당하다 (수동사)",
+    "pos": "동사",
+    "root": "bikir",
+    "affix_logic": "어근 'bikir'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bikir'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bikir",
+    "antonym": "mengbikir",
+    "context": "'dibikir'은(는) principalmente 'bikir되다, bikir당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bikir'의 용법에 유의하세요. 'dibikir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bikir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibikir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bikir되다, bikir당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibikir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bikir되다, bikir당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bikir",
+        "meaning": "(어근) bikir되다"
+      },
+      {
+        "word": "dibikir",
+        "meaning": "bikir되다, bikir당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ek1a7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbikir [[뜨르bikir]]",
+    "meaning": "완전히 bikir되다",
+    "pos": "동사, 형용사",
+    "root": "bikir",
+    "affix_logic": "어근 'bikir'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bikir'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bikir",
+    "antonym": "sengaja dibikir",
+    "context": "'terbikir'은(는) principalmente '완전히 bikir되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bikir'의 용법에 유의하세요. 'terbikir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bikir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbikir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bikir되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbikir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bikir되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bikir",
+        "meaning": "(어근) 완전히 bikir되다"
+      },
+      {
+        "word": "terbikir",
+        "meaning": "완전히 bikir되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wa932",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbimbingan [[멍bimbingan]]",
+    "meaning": "bimbingan하다 (능동사)",
+    "pos": "동사",
+    "root": "bimbingan",
+    "affix_logic": "어근 'bimbingan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bimbingan'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bimbingan",
+    "antonym": "dibimbingan",
+    "context": "'mengbimbingan'은(는) principalmente 'bimbingan하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bimbingan'의 용법에 유의하세요. 'mengbimbingan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bimbingan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbimbingan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bimbingan하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbimbingan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bimbingan하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bimbingan",
+        "meaning": "(어근) bimbingan하다 (능동사)"
+      },
+      {
+        "word": "mengbimbingan",
+        "meaning": "bimbingan하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_b2qr3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibimbingan [[디bimbingan]]",
+    "meaning": "bimbingan되다, bimbingan당하다 (수동사)",
+    "pos": "동사",
+    "root": "bimbingan",
+    "affix_logic": "어근 'bimbingan'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bimbingan'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bimbingan",
+    "antonym": "mengbimbingan",
+    "context": "'dibimbingan'은(는) principalmente 'bimbingan되다, bimbingan당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bimbingan'의 용법에 유의하세요. 'dibimbingan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bimbingan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibimbingan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bimbingan되다, bimbingan당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibimbingan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bimbingan되다, bimbingan당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bimbingan",
+        "meaning": "(어근) bimbingan되다"
+      },
+      {
+        "word": "dibimbingan",
+        "meaning": "bimbingan되다, bimbingan당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9ht00",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbimbingan [[뜨르bimbingan]]",
+    "meaning": "완전히 bimbingan되다",
+    "pos": "동사, 형용사",
+    "root": "bimbingan",
+    "affix_logic": "어근 'bimbingan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bimbingan'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bimbingan",
+    "antonym": "sengaja dibimbingan",
+    "context": "'terbimbingan'은(는) principalmente '완전히 bimbingan되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bimbingan'의 용법에 유의하세요. 'terbimbingan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bimbingan' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbimbingan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bimbingan되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbimbingan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bimbingan되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bimbingan",
+        "meaning": "(어근) 완전히 bimbingan되다"
+      },
+      {
+        "word": "terbimbingan",
+        "meaning": "완전히 bimbingan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9zabl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbintang [[멍bintang]]",
+    "meaning": "bintang하다 (능동사)",
+    "pos": "동사",
+    "root": "bintang",
+    "affix_logic": "어근 'bintang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bintang'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bintang",
+    "antonym": "dibintang",
+    "context": "'mengbintang'은(는) principalmente 'bintang하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang'의 용법에 유의하세요. 'mengbintang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbintang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbintang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang",
+        "meaning": "(어근) bintang하다 (능동사)"
+      },
+      {
+        "word": "mengbintang",
+        "meaning": "bintang하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5cgzq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibintang [[디bintang]]",
+    "meaning": "bintang되다, bintang당하다 (수동사)",
+    "pos": "동사",
+    "root": "bintang",
+    "affix_logic": "어근 'bintang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bintang'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bintang",
+    "antonym": "mengbintang",
+    "context": "'dibintang'은(는) principalmente 'bintang되다, bintang당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang'의 용법에 유의하세요. 'dibintang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibintang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang되다, bintang당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibintang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang되다, bintang당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang",
+        "meaning": "(어근) bintang되다"
+      },
+      {
+        "word": "dibintang",
+        "meaning": "bintang되다, bintang당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hq5r1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbintang [[뜨르bintang]]",
+    "meaning": "완전히 bintang되다",
+    "pos": "동사, 형용사",
+    "root": "bintang",
+    "affix_logic": "어근 'bintang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bintang'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bintang",
+    "antonym": "sengaja dibintang",
+    "context": "'terbintang'은(는) principalmente '완전히 bintang되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang'의 용법에 유의하세요. 'terbintang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbintang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bintang되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbintang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bintang되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang",
+        "meaning": "(어근) 완전히 bintang되다"
+      },
+      {
+        "word": "terbintang",
+        "meaning": "완전히 bintang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_1emf1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbintang film [[멍bintang film]]",
+    "meaning": "bintang film하다 (능동사)",
+    "pos": "동사",
+    "root": "bintang film",
+    "affix_logic": "어근 'bintang film'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bintang film'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bintang film",
+    "antonym": "dibintang film",
+    "context": "'mengbintang film'은(는) principalmente 'bintang film하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang film'의 용법에 유의하세요. 'mengbintang film' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang film' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbintang film untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang film하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbintang film yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang film하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang film",
+        "meaning": "(어근) bintang film하다 (능동사)"
+      },
+      {
+        "word": "mengbintang film",
+        "meaning": "bintang film하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_xmnj7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibintang film [[디bintang film]]",
+    "meaning": "bintang film되다, bintang film당하다 (수동사)",
+    "pos": "동사",
+    "root": "bintang film",
+    "affix_logic": "어근 'bintang film'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bintang film'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bintang film",
+    "antonym": "mengbintang film",
+    "context": "'dibintang film'은(는) principalmente 'bintang film되다, bintang film당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang film'의 용법에 유의하세요. 'dibintang film' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang film' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibintang film untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bintang film되다, bintang film당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibintang film yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bintang film되다, bintang film당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang film",
+        "meaning": "(어근) bintang film되다"
+      },
+      {
+        "word": "dibintang film",
+        "meaning": "bintang film되다, bintang film당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ryrwn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbintang film [[뜨르bintang film]]",
+    "meaning": "완전히 bintang film되다",
+    "pos": "동사, 형용사",
+    "root": "bintang film",
+    "affix_logic": "어근 'bintang film'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bintang film'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bintang film",
+    "antonym": "sengaja dibintang film",
+    "context": "'terbintang film'은(는) principalmente '완전히 bintang film되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bintang film'의 용법에 유의하세요. 'terbintang film' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bintang film' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbintang film untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bintang film되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbintang film yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bintang film되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bintang film",
+        "meaning": "(어근) 완전히 bintang film되다"
+      },
+      {
+        "word": "terbintang film",
+        "meaning": "완전히 bintang film되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_lie82",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiodata [[멍biodata]]",
+    "meaning": "biodata하다 (능동사)",
+    "pos": "동사",
+    "root": "biodata",
+    "affix_logic": "어근 'biodata'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biodata'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan biodata",
+    "antonym": "dibiodata",
+    "context": "'mengbiodata'은(는) principalmente 'biodata하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biodata'의 용법에 유의하세요. 'mengbiodata' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biodata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbiodata untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biodata하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbiodata yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biodata하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biodata",
+        "meaning": "(어근) biodata하다 (능동사)"
+      },
+      {
+        "word": "mengbiodata",
+        "meaning": "biodata하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_mrsa3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiodata [[디biodata]]",
+    "meaning": "biodata되다, biodata당하다 (수동사)",
+    "pos": "동사",
+    "root": "biodata",
+    "affix_logic": "어근 'biodata'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biodata'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena biodata",
+    "antonym": "mengbiodata",
+    "context": "'dibiodata'은(는) principalmente 'biodata되다, biodata당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biodata'의 용법에 유의하세요. 'dibiodata' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biodata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibiodata untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biodata되다, biodata당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibiodata yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biodata되다, biodata당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biodata",
+        "meaning": "(어근) biodata되다"
+      },
+      {
+        "word": "dibiodata",
+        "meaning": "biodata되다, biodata당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_tf8kh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiodata [[뜨르biodata]]",
+    "meaning": "완전히 biodata되다",
+    "pos": "동사, 형용사",
+    "root": "biodata",
+    "affix_logic": "어근 'biodata'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'biodata'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling biodata",
+    "antonym": "sengaja dibiodata",
+    "context": "'terbiodata'은(는) principalmente '완전히 biodata되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biodata'의 용법에 유의하세요. 'terbiodata' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biodata' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbiodata untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 biodata되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbiodata yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 biodata되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biodata",
+        "meaning": "(어근) 완전히 biodata되다"
+      },
+      {
+        "word": "terbiodata",
+        "meaning": "완전히 biodata되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_w5qnz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbison [[멍bison]]",
+    "meaning": "bison하다 (능동사)",
+    "pos": "동사",
+    "root": "bison",
+    "affix_logic": "어근 'bison'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bison'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bison",
+    "antonym": "dibison",
+    "context": "'mengbison'은(는) principalmente 'bison하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bison'의 용법에 유의하세요. 'mengbison' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bison' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbison untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bison하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbison yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bison하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bison",
+        "meaning": "(어근) bison하다 (능동사)"
+      },
+      {
+        "word": "mengbison",
+        "meaning": "bison하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_o62ga",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibison [[디bison]]",
+    "meaning": "bison되다, bison당하다 (수동사)",
+    "pos": "동사",
+    "root": "bison",
+    "affix_logic": "어근 'bison'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bison'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bison",
+    "antonym": "mengbison",
+    "context": "'dibison'은(는) principalmente 'bison되다, bison당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bison'의 용법에 유의하세요. 'dibison' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bison' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibison untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bison되다, bison당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibison yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bison되다, bison당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bison",
+        "meaning": "(어근) bison되다"
+      },
+      {
+        "word": "dibison",
+        "meaning": "bison되다, bison당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gfxao",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbison [[뜨르bison]]",
+    "meaning": "완전히 bison되다",
+    "pos": "동사, 형용사",
+    "root": "bison",
+    "affix_logic": "어근 'bison'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bison'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bison",
+    "antonym": "sengaja dibison",
+    "context": "'terbison'은(는) principalmente '완전히 bison되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bison'의 용법에 유의하세요. 'terbison' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bison' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbison untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bison되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbison yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bison되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bison",
+        "meaning": "(어근) 완전히 bison되다"
+      },
+      {
+        "word": "terbison",
+        "meaning": "완전히 bison되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6tflk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbisu [[멍bisu]]",
+    "meaning": "bisu하다 (능동사)",
+    "pos": "동사",
+    "root": "bisu",
+    "affix_logic": "어근 'bisu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bisu'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bisu",
+    "antonym": "dibisu",
+    "context": "'mengbisu'은(는) principalmente 'bisu하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bisu'의 용법에 유의하세요. 'mengbisu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bisu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbisu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bisu하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbisu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bisu하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bisu",
+        "meaning": "(어근) bisu하다 (능동사)"
+      },
+      {
+        "word": "mengbisu",
+        "meaning": "bisu하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_j2fye",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibisu [[디bisu]]",
+    "meaning": "bisu되다, bisu당하다 (수동사)",
+    "pos": "동사",
+    "root": "bisu",
+    "affix_logic": "어근 'bisu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bisu'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bisu",
+    "antonym": "mengbisu",
+    "context": "'dibisu'은(는) principalmente 'bisu되다, bisu당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bisu'의 용법에 유의하세요. 'dibisu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bisu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibisu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bisu되다, bisu당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibisu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bisu되다, bisu당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bisu",
+        "meaning": "(어근) bisu되다"
+      },
+      {
+        "word": "dibisu",
+        "meaning": "bisu되다, bisu당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_dfv7n",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbisu [[뜨르bisu]]",
+    "meaning": "완전히 bisu되다",
+    "pos": "동사, 형용사",
+    "root": "bisu",
+    "affix_logic": "어근 'bisu'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bisu'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bisu",
+    "antonym": "sengaja dibisu",
+    "context": "'terbisu'은(는) principalmente '완전히 bisu되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bisu'의 용법에 유의하세요. 'terbisu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bisu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbisu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bisu되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbisu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bisu되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bisu",
+        "meaning": "(어근) 완전히 bisu되다"
+      },
+      {
+        "word": "terbisu",
+        "meaning": "완전히 bisu되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_5x48x",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbocah [[멍bocah]]",
+    "meaning": "bocah하다 (능동사)",
+    "pos": "동사",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocah'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bocah",
+    "antonym": "dibocah",
+    "context": "'mengbocah'은(는) principalmente 'bocah하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocah'의 용법에 유의하세요. 'mengbocah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbocah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocah하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbocah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocah하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocah",
+        "meaning": "(어근) bocah하다 (능동사)"
+      },
+      {
+        "word": "mengbocah",
+        "meaning": "bocah하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_g7bbd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibocah [[디bocah]]",
+    "meaning": "bocah되다, bocah당하다 (수동사)",
+    "pos": "동사",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocah'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bocah",
+    "antonym": "mengbocah",
+    "context": "'dibocah'은(는) principalmente 'bocah되다, bocah당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocah'의 용법에 유의하세요. 'dibocah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibocah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocah되다, bocah당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibocah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocah되다, bocah당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocah",
+        "meaning": "(어근) bocah되다"
+      },
+      {
+        "word": "dibocah",
+        "meaning": "bocah되다, bocah당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_u4162",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbocah [[뜨르bocah]]",
+    "meaning": "완전히 bocah되다",
+    "pos": "동사, 형용사",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bocah'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bocah",
+    "antonym": "sengaja dibocah",
+    "context": "'terbocah'은(는) principalmente '완전히 bocah되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocah'의 용법에 유의하세요. 'terbocah' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocah' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbocah untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bocah되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbocah yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bocah되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocah",
+        "meaning": "(어근) 완전히 bocah되다"
+      },
+      {
+        "word": "terbocah",
+        "meaning": "완전히 bocah되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_fw89h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbocor [[멍bocor]]",
+    "meaning": "bocor하다 (능동사)",
+    "pos": "동사",
+    "root": "bocor",
+    "affix_logic": "어근 'bocor'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocor'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bocor",
+    "antonym": "dibocor",
+    "context": "'mengbocor'은(는) principalmente 'bocor하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocor'의 용법에 유의하세요. 'mengbocor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbocor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocor하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbocor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocor하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocor",
+        "meaning": "(어근) bocor하다 (능동사)"
+      },
+      {
+        "word": "mengbocor",
+        "meaning": "bocor하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_sglhs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibocor [[디bocor]]",
+    "meaning": "bocor되다, bocor당하다 (수동사)",
+    "pos": "동사",
+    "root": "bocor",
+    "affix_logic": "어근 'bocor'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocor'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bocor",
+    "antonym": "mengbocor",
+    "context": "'dibocor'은(는) principalmente 'bocor되다, bocor당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocor'의 용법에 유의하세요. 'dibocor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibocor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocor되다, bocor당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibocor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocor되다, bocor당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocor",
+        "meaning": "(어근) bocor되다"
+      },
+      {
+        "word": "dibocor",
+        "meaning": "bocor되다, bocor당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_iow2f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbocor [[뜨르bocor]]",
+    "meaning": "완전히 bocor되다",
+    "pos": "동사, 형용사",
+    "root": "bocor",
+    "affix_logic": "어근 'bocor'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bocor'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bocor",
+    "antonym": "sengaja dibocor",
+    "context": "'terbocor'은(는) principalmente '완전히 bocor되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocor'의 용법에 유의하세요. 'terbocor' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocor' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbocor untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bocor되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbocor yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bocor되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocor",
+        "meaning": "(어근) 완전히 bocor되다"
+      },
+      {
+        "word": "terbocor",
+        "meaning": "완전히 bocor되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_o91nj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbohong [[멍bohong]]",
+    "meaning": "bohong하다 (능동사)",
+    "pos": "동사",
+    "root": "bohong",
+    "affix_logic": "어근 'bohong'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bohong'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bohong",
+    "antonym": "dibohong",
+    "context": "'mengbohong'은(는) principalmente 'bohong하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bohong'의 용법에 유의하세요. 'mengbohong' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bohong' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbohong untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bohong하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbohong yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bohong하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bohong",
+        "meaning": "(어근) bohong하다 (능동사)"
+      },
+      {
+        "word": "mengbohong",
+        "meaning": "bohong하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vgda2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibohong [[디bohong]]",
+    "meaning": "bohong되다, bohong당하다 (수동사)",
+    "pos": "동사",
+    "root": "bohong",
+    "affix_logic": "어근 'bohong'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bohong'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bohong",
+    "antonym": "mengbohong",
+    "context": "'dibohong'은(는) principalmente 'bohong되다, bohong당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bohong'의 용법에 유의하세요. 'dibohong' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bohong' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibohong untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bohong되다, bohong당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibohong yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bohong되다, bohong당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bohong",
+        "meaning": "(어근) bohong되다"
+      },
+      {
+        "word": "dibohong",
+        "meaning": "bohong되다, bohong당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_13s5u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbohong [[뜨르bohong]]",
+    "meaning": "완전히 bohong되다",
+    "pos": "동사, 형용사",
+    "root": "bohong",
+    "affix_logic": "어근 'bohong'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bohong'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bohong",
+    "antonym": "sengaja dibohong",
+    "context": "'terbohong'은(는) principalmente '완전히 bohong되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bohong'의 용법에 유의하세요. 'terbohong' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bohong' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbohong untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bohong되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbohong yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bohong되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bohong",
+        "meaning": "(어근) 완전히 bohong되다"
+      },
+      {
+        "word": "terbohong",
+        "meaning": "완전히 bohong되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_pp8q3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbola [[멍bola]]",
+    "meaning": "bola하다 (능동사)",
+    "pos": "동사",
+    "root": "bola",
+    "affix_logic": "어근 'bola'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bola'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bola",
+    "antonym": "dibola",
+    "context": "'mengbola'은(는) principalmente 'bola하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bola'의 용법에 유의하세요. 'mengbola' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bola' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbola untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bola하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbola yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bola하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bola",
+        "meaning": "(어근) bola하다 (능동사)"
+      },
+      {
+        "word": "mengbola",
+        "meaning": "bola하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6ov16",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibola [[디bola]]",
+    "meaning": "bola되다, bola당하다 (수동사)",
+    "pos": "동사",
+    "root": "bola",
+    "affix_logic": "어근 'bola'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bola'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bola",
+    "antonym": "mengbola",
+    "context": "'dibola'은(는) principalmente 'bola되다, bola당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bola'의 용법에 유의하세요. 'dibola' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bola' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibola untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bola되다, bola당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibola yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bola되다, bola당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bola",
+        "meaning": "(어근) bola되다"
+      },
+      {
+        "word": "dibola",
+        "meaning": "bola되다, bola당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_y2tw6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbola [[뜨르bola]]",
+    "meaning": "완전히 bola되다",
+    "pos": "동사, 형용사",
+    "root": "bola",
+    "affix_logic": "어근 'bola'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bola'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bola",
+    "antonym": "sengaja dibola",
+    "context": "'terbola'은(는) principalmente '완전히 bola되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bola'의 용법에 유의하세요. 'terbola' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bola' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbola untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bola되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbola yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bola되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bola",
+        "meaning": "(어근) 완전히 bola되다"
+      },
+      {
+        "word": "terbola",
+        "meaning": "완전히 bola되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_gqtmj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbolpen [[멍bolpen]]",
+    "meaning": "bolpen하다 (능동사)",
+    "pos": "동사",
+    "root": "bolpen",
+    "affix_logic": "어근 'bolpen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bolpen'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bolpen",
+    "antonym": "dibolpen",
+    "context": "'mengbolpen'은(는) principalmente 'bolpen하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bolpen'의 용법에 유의하세요. 'mengbolpen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bolpen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbolpen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bolpen하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbolpen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bolpen하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bolpen",
+        "meaning": "(어근) bolpen하다 (능동사)"
+      },
+      {
+        "word": "mengbolpen",
+        "meaning": "bolpen하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ffjmv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibolpen [[디bolpen]]",
+    "meaning": "bolpen되다, bolpen당하다 (수동사)",
+    "pos": "동사",
+    "root": "bolpen",
+    "affix_logic": "어근 'bolpen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bolpen'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bolpen",
+    "antonym": "mengbolpen",
+    "context": "'dibolpen'은(는) principalmente 'bolpen되다, bolpen당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bolpen'의 용법에 유의하세요. 'dibolpen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bolpen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibolpen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bolpen되다, bolpen당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibolpen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bolpen되다, bolpen당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bolpen",
+        "meaning": "(어근) bolpen되다"
+      },
+      {
+        "word": "dibolpen",
+        "meaning": "bolpen되다, bolpen당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hqugw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbolpen [[뜨르bolpen]]",
+    "meaning": "완전히 bolpen되다",
+    "pos": "동사, 형용사",
+    "root": "bolpen",
+    "affix_logic": "어근 'bolpen'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bolpen'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bolpen",
+    "antonym": "sengaja dibolpen",
+    "context": "'terbolpen'은(는) principalmente '완전히 bolpen되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bolpen'의 용법에 유의하세요. 'terbolpen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bolpen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbolpen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bolpen되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbolpen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bolpen되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bolpen",
+        "meaning": "(어근) 완전히 bolpen되다"
+      },
+      {
+        "word": "terbolpen",
+        "meaning": "완전히 bolpen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ywasc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbocoran [[멍bocoran]]",
+    "meaning": "bocoran하다 (능동사)",
+    "pos": "동사",
+    "root": "bocoran",
+    "affix_logic": "어근 'bocoran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocoran'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bocoran",
+    "antonym": "dibocoran",
+    "context": "'mengbocoran'은(는) principalmente 'bocoran하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocoran'의 용법에 유의하세요. 'mengbocoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocoran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbocoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocoran하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbocoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocoran하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocoran",
+        "meaning": "(어근) bocoran하다 (능동사)"
+      },
+      {
+        "word": "mengbocoran",
+        "meaning": "bocoran하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_i1j5u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibocoran [[디bocoran]]",
+    "meaning": "bocoran되다, bocoran당하다 (수동사)",
+    "pos": "동사",
+    "root": "bocoran",
+    "affix_logic": "어근 'bocoran'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bocoran'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bocoran",
+    "antonym": "mengbocoran",
+    "context": "'dibocoran'은(는) principalmente 'bocoran되다, bocoran당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocoran'의 용법에 유의하세요. 'dibocoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocoran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibocoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bocoran되다, bocoran당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibocoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bocoran되다, bocoran당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocoran",
+        "meaning": "(어근) bocoran되다"
+      },
+      {
+        "word": "dibocoran",
+        "meaning": "bocoran되다, bocoran당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_1uq7f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbocoran [[뜨르bocoran]]",
+    "meaning": "완전히 bocoran되다",
+    "pos": "동사, 형용사",
+    "root": "bocoran",
+    "affix_logic": "어근 'bocoran'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bocoran'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bocoran",
+    "antonym": "sengaja dibocoran",
+    "context": "'terbocoran'은(는) principalmente '완전히 bocoran되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bocoran'의 용법에 유의하세요. 'terbocoran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bocoran' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbocoran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bocoran되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbocoran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bocoran되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bocoran",
+        "meaning": "(어근) 완전히 bocoran되다"
+      },
+      {
+        "word": "terbocoran",
+        "meaning": "완전히 bocoran되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_docq2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbombardir [[멍bombardir]]",
+    "meaning": "bombardir하다 (능동사)",
+    "pos": "동사",
+    "root": "bombardir",
+    "affix_logic": "어근 'bombardir'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bombardir'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bombardir",
+    "antonym": "dibombardir",
+    "context": "'mengbombardir'은(는) principalmente 'bombardir하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bombardir'의 용법에 유의하세요. 'mengbombardir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bombardir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbombardir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bombardir하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbombardir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bombardir하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bombardir",
+        "meaning": "(어근) bombardir하다 (능동사)"
+      },
+      {
+        "word": "mengbombardir",
+        "meaning": "bombardir하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_6csp5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibombardir [[디bombardir]]",
+    "meaning": "bombardir되다, bombardir당하다 (수동사)",
+    "pos": "동사",
+    "root": "bombardir",
+    "affix_logic": "어근 'bombardir'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bombardir'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bombardir",
+    "antonym": "mengbombardir",
+    "context": "'dibombardir'은(는) principalmente 'bombardir되다, bombardir당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bombardir'의 용법에 유의하세요. 'dibombardir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bombardir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibombardir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bombardir되다, bombardir당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibombardir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bombardir되다, bombardir당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bombardir",
+        "meaning": "(어근) bombardir되다"
+      },
+      {
+        "word": "dibombardir",
+        "meaning": "bombardir되다, bombardir당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_om8a7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbombardir [[뜨르bombardir]]",
+    "meaning": "완전히 bombardir되다",
+    "pos": "동사, 형용사",
+    "root": "bombardir",
+    "affix_logic": "어근 'bombardir'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bombardir'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bombardir",
+    "antonym": "sengaja dibombardir",
+    "context": "'terbombardir'은(는) principalmente '완전히 bombardir되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bombardir'의 용법에 유의하세요. 'terbombardir' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bombardir' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbombardir untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bombardir되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbombardir yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bombardir되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bombardir",
+        "meaning": "(어근) 완전히 bombardir되다"
+      },
+      {
+        "word": "terbombardir",
+        "meaning": "완전히 bombardir되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_uvwvb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbumbu [[멍bumbu]]",
+    "meaning": "bumbu하다 (능동사)",
+    "pos": "동사",
+    "root": "bumbu",
+    "affix_logic": "어근 'bumbu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bumbu'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bumbu",
+    "antonym": "dibumbu",
+    "context": "'mengbumbu'은(는) principalmente 'bumbu하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bumbu'의 용법에 유의하세요. 'mengbumbu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bumbu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbumbu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bumbu하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbumbu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bumbu하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bumbu",
+        "meaning": "(어근) bumbu하다 (능동사)"
+      },
+      {
+        "word": "mengbumbu",
+        "meaning": "bumbu하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_70go8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibumbu [[디bumbu]]",
+    "meaning": "bumbu되다, bumbu당하다 (수동사)",
+    "pos": "동사",
+    "root": "bumbu",
+    "affix_logic": "어근 'bumbu'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bumbu'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bumbu",
+    "antonym": "mengbumbu",
+    "context": "'dibumbu'은(는) principalmente 'bumbu되다, bumbu당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bumbu'의 용법에 유의하세요. 'dibumbu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bumbu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibumbu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bumbu되다, bumbu당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibumbu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bumbu되다, bumbu당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bumbu",
+        "meaning": "(어근) bumbu되다"
+      },
+      {
+        "word": "dibumbu",
+        "meaning": "bumbu되다, bumbu당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_78amn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbumbu [[뜨르bumbu]]",
+    "meaning": "완전히 bumbu되다",
+    "pos": "동사, 형용사",
+    "root": "bumbu",
+    "affix_logic": "어근 'bumbu'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bumbu'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bumbu",
+    "antonym": "sengaja dibumbu",
+    "context": "'terbumbu'은(는) principalmente '완전히 bumbu되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bumbu'의 용법에 유의하세요. 'terbumbu' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bumbu' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbumbu untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bumbu되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbumbu yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bumbu되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bumbu",
+        "meaning": "(어근) 완전히 bumbu되다"
+      },
+      {
+        "word": "terbumbu",
+        "meaning": "완전히 bumbu되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_4a2ra",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbunda [[멍bunda]]",
+    "meaning": "bunda하다 (능동사)",
+    "pos": "동사",
+    "root": "bunda",
+    "affix_logic": "어근 'bunda'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bunda'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bunda",
+    "antonym": "dibunda",
+    "context": "'mengbunda'은(는) principalmente 'bunda하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bunda'의 용법에 유의하세요. 'mengbunda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bunda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbunda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bunda하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbunda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bunda하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bunda",
+        "meaning": "(어근) bunda하다 (능동사)"
+      },
+      {
+        "word": "mengbunda",
+        "meaning": "bunda하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_am0tp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibunda [[디bunda]]",
+    "meaning": "bunda되다, bunda당하다 (수동사)",
+    "pos": "동사",
+    "root": "bunda",
+    "affix_logic": "어근 'bunda'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bunda'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bunda",
+    "antonym": "mengbunda",
+    "context": "'dibunda'은(는) principalmente 'bunda되다, bunda당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bunda'의 용법에 유의하세요. 'dibunda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bunda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibunda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bunda되다, bunda당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibunda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bunda되다, bunda당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bunda",
+        "meaning": "(어근) bunda되다"
+      },
+      {
+        "word": "dibunda",
+        "meaning": "bunda되다, bunda당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_tq2eg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbunda [[뜨르bunda]]",
+    "meaning": "완전히 bunda되다",
+    "pos": "동사, 형용사",
+    "root": "bunda",
+    "affix_logic": "어근 'bunda'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bunda'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bunda",
+    "antonym": "sengaja dibunda",
+    "context": "'terbunda'은(는) principalmente '완전히 bunda되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bunda'의 용법에 유의하세요. 'terbunda' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bunda' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbunda untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bunda되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbunda yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bunda되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bunda",
+        "meaning": "(어근) 완전히 bunda되다"
+      },
+      {
+        "word": "terbunda",
+        "meaning": "완전히 bunda되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_2391y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbungkus [[멍bungkus]]",
+    "meaning": "bungkus하다 (능동사)",
+    "pos": "동사",
+    "root": "bungkus",
+    "affix_logic": "어근 'bungkus'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bungkus'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bungkus",
+    "antonym": "dibungkus",
+    "context": "'mengbungkus'은(는) principalmente 'bungkus하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bungkus'의 용법에 유의하세요. 'mengbungkus' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bungkus' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbungkus untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bungkus하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbungkus yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bungkus하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bungkus",
+        "meaning": "(어근) bungkus하다 (능동사)"
+      },
+      {
+        "word": "mengbungkus",
+        "meaning": "bungkus하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_i1fxs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibungkus [[디bungkus]]",
+    "meaning": "bungkus되다, bungkus당하다 (수동사)",
+    "pos": "동사",
+    "root": "bungkus",
+    "affix_logic": "어근 'bungkus'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bungkus'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bungkus",
+    "antonym": "mengbungkus",
+    "context": "'dibungkus'은(는) principalmente 'bungkus되다, bungkus당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bungkus'의 용법에 유의하세요. 'dibungkus' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bungkus' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibungkus untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bungkus되다, bungkus당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibungkus yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bungkus되다, bungkus당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bungkus",
+        "meaning": "(어근) bungkus되다"
+      },
+      {
+        "word": "dibungkus",
+        "meaning": "bungkus되다, bungkus당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_p9y9y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbungkus [[뜨르bungkus]]",
+    "meaning": "완전히 bungkus되다",
+    "pos": "동사, 형용사",
+    "root": "bungkus",
+    "affix_logic": "어근 'bungkus'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bungkus'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bungkus",
+    "antonym": "sengaja dibungkus",
+    "context": "'terbungkus'은(는) principalmente '완전히 bungkus되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bungkus'의 용법에 유의하세요. 'terbungkus' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bungkus' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbungkus untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bungkus되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbungkus yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bungkus되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bungkus",
+        "meaning": "(어근) 완전히 bungkus되다"
+      },
+      {
+        "word": "terbungkus",
+        "meaning": "완전히 bungkus되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ts6ec",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbuntet [[멍buntet]]",
+    "meaning": "buntet하다 (능동사)",
+    "pos": "동사",
+    "root": "buntet",
+    "affix_logic": "어근 'buntet'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'buntet'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan buntet",
+    "antonym": "dibuntet",
+    "context": "'mengbuntet'은(는) principalmente 'buntet하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buntet'의 용법에 유의하세요. 'mengbuntet' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buntet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbuntet untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buntet하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbuntet yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buntet하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buntet",
+        "meaning": "(어근) buntet하다 (능동사)"
+      },
+      {
+        "word": "mengbuntet",
+        "meaning": "buntet하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_9ortx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibuntet [[디buntet]]",
+    "meaning": "buntet되다, buntet당하다 (수동사)",
+    "pos": "동사",
+    "root": "buntet",
+    "affix_logic": "어근 'buntet'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'buntet'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena buntet",
+    "antonym": "mengbuntet",
+    "context": "'dibuntet'은(는) principalmente 'buntet되다, buntet당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buntet'의 용법에 유의하세요. 'dibuntet' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buntet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibuntet untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buntet되다, buntet당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibuntet yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buntet되다, buntet당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buntet",
+        "meaning": "(어근) buntet되다"
+      },
+      {
+        "word": "dibuntet",
+        "meaning": "buntet되다, buntet당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_892y6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbuntet [[뜨르buntet]]",
+    "meaning": "완전히 buntet되다",
+    "pos": "동사, 형용사",
+    "root": "buntet",
+    "affix_logic": "어근 'buntet'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'buntet'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling buntet",
+    "antonym": "sengaja dibuntet",
+    "context": "'terbuntet'은(는) principalmente '완전히 buntet되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buntet'의 용법에 유의하세요. 'terbuntet' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buntet' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbuntet untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 buntet되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbuntet yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 buntet되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buntet",
+        "meaning": "(어근) 완전히 buntet되다"
+      },
+      {
+        "word": "terbuntet",
+        "meaning": "완전히 buntet되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_0iies",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbupati [[멍bupati]]",
+    "meaning": "bupati하다 (능동사)",
+    "pos": "동사",
+    "root": "bupati",
+    "affix_logic": "어근 'bupati'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bupati'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan bupati",
+    "antonym": "dibupati",
+    "context": "'mengbupati'은(는) principalmente 'bupati하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bupati'의 용법에 유의하세요. 'mengbupati' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bupati' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbupati untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bupati하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbupati yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bupati하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bupati",
+        "meaning": "(어근) bupati하다 (능동사)"
+      },
+      {
+        "word": "mengbupati",
+        "meaning": "bupati하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_oah79",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibupati [[디bupati]]",
+    "meaning": "bupati되다, bupati당하다 (수동사)",
+    "pos": "동사",
+    "root": "bupati",
+    "affix_logic": "어근 'bupati'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'bupati'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena bupati",
+    "antonym": "mengbupati",
+    "context": "'dibupati'은(는) principalmente 'bupati되다, bupati당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bupati'의 용법에 유의하세요. 'dibupati' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bupati' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibupati untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 bupati되다, bupati당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibupati yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 bupati되다, bupati당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bupati",
+        "meaning": "(어근) bupati되다"
+      },
+      {
+        "word": "dibupati",
+        "meaning": "bupati되다, bupati당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_nfj0e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbupati [[뜨르bupati]]",
+    "meaning": "완전히 bupati되다",
+    "pos": "동사, 형용사",
+    "root": "bupati",
+    "affix_logic": "어근 'bupati'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'bupati'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling bupati",
+    "antonym": "sengaja dibupati",
+    "context": "'terbupati'은(는) principalmente '완전히 bupati되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'bupati'의 용법에 유의하세요. 'terbupati' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'bupati' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbupati untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 bupati되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbupati yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 bupati되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "bupati",
+        "meaning": "(어근) 완전히 bupati되다"
+      },
+      {
+        "word": "terbupati",
+        "meaning": "완전히 bupati되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_bxirz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbusana [[멍busana]]",
+    "meaning": "busana하다 (능동사)",
+    "pos": "동사",
+    "root": "busana",
+    "affix_logic": "어근 'busana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'busana'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan busana",
+    "antonym": "dibusana",
+    "context": "'mengbusana'은(는) principalmente 'busana하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busana'의 용법에 유의하세요. 'mengbusana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbusana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busana하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbusana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busana하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busana",
+        "meaning": "(어근) busana하다 (능동사)"
+      },
+      {
+        "word": "mengbusana",
+        "meaning": "busana하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_g6pn2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibusana [[디busana]]",
+    "meaning": "busana되다, busana당하다 (수동사)",
+    "pos": "동사",
+    "root": "busana",
+    "affix_logic": "어근 'busana'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'busana'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena busana",
+    "antonym": "mengbusana",
+    "context": "'dibusana'은(는) principalmente 'busana되다, busana당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busana'의 용법에 유의하세요. 'dibusana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibusana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busana되다, busana당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibusana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busana되다, busana당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busana",
+        "meaning": "(어근) busana되다"
+      },
+      {
+        "word": "dibusana",
+        "meaning": "busana되다, busana당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_bs5pa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbusana [[뜨르busana]]",
+    "meaning": "완전히 busana되다",
+    "pos": "동사, 형용사",
+    "root": "busana",
+    "affix_logic": "어근 'busana'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'busana'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling busana",
+    "antonym": "sengaja dibusana",
+    "context": "'terbusana'은(는) principalmente '완전히 busana되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busana'의 용법에 유의하세요. 'terbusana' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busana' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbusana untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 busana되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbusana yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 busana되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busana",
+        "meaning": "(어근) 완전히 busana되다"
+      },
+      {
+        "word": "terbusana",
+        "meaning": "완전히 busana되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_ra3qw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbusa [[멍busa]]",
+    "meaning": "busa하다 (능동사)",
+    "pos": "동사",
+    "root": "busa",
+    "affix_logic": "어근 'busa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'busa'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan busa",
+    "antonym": "dibusa",
+    "context": "'mengbusa'은(는) principalmente 'busa하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busa'의 용법에 유의하세요. 'mengbusa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbusa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busa하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbusa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busa하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busa",
+        "meaning": "(어근) busa하다 (능동사)"
+      },
+      {
+        "word": "mengbusa",
+        "meaning": "busa하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_3d5h3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibusa [[디busa]]",
+    "meaning": "busa되다, busa당하다 (수동사)",
+    "pos": "동사",
+    "root": "busa",
+    "affix_logic": "어근 'busa'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'busa'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena busa",
+    "antonym": "mengbusa",
+    "context": "'dibusa'은(는) principalmente 'busa되다, busa당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busa'의 용법에 유의하세요. 'dibusa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibusa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 busa되다, busa당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibusa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 busa되다, busa당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busa",
+        "meaning": "(어근) busa되다"
+      },
+      {
+        "word": "dibusa",
+        "meaning": "busa되다, busa당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_kzi87",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbusa [[뜨르busa]]",
+    "meaning": "완전히 busa되다",
+    "pos": "동사, 형용사",
+    "root": "busa",
+    "affix_logic": "어근 'busa'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'busa'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling busa",
+    "antonym": "sengaja dibusa",
+    "context": "'terbusa'은(는) principalmente '완전히 busa되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'busa'의 용법에 유의하세요. 'terbusa' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'busa' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbusa untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 busa되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbusa yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 busa되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "busa",
+        "meaning": "(어근) 완전히 busa되다"
+      },
+      {
+        "word": "terbusa",
+        "meaning": "완전히 busa되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_7yr85",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbutik [[멍butik]]",
+    "meaning": "butik하다 (능동사)",
+    "pos": "동사",
+    "root": "butik",
+    "affix_logic": "어근 'butik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'butik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan butik",
+    "antonym": "dibutik",
+    "context": "'mengbutik'은(는) principalmente 'butik하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'butik'의 용법에 유의하세요. 'mengbutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'butik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 butik하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 butik하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "butik",
+        "meaning": "(어근) butik하다 (능동사)"
+      },
+      {
+        "word": "mengbutik",
+        "meaning": "butik하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_cifo1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibutik [[디butik]]",
+    "meaning": "butik되다, butik당하다 (수동사)",
+    "pos": "동사",
+    "root": "butik",
+    "affix_logic": "어근 'butik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'butik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena butik",
+    "antonym": "mengbutik",
+    "context": "'dibutik'은(는) principalmente 'butik되다, butik당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'butik'의 용법에 유의하세요. 'dibutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'butik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 butik되다, butik당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 butik되다, butik당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "butik",
+        "meaning": "(어근) butik되다"
+      },
+      {
+        "word": "dibutik",
+        "meaning": "butik되다, butik당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_4euu3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbutik [[뜨르butik]]",
+    "meaning": "완전히 butik되다",
+    "pos": "동사, 형용사",
+    "root": "butik",
+    "affix_logic": "어근 'butik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'butik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling butik",
+    "antonym": "sengaja dibutik",
+    "context": "'terbutik'은(는) principalmente '완전히 butik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'butik'의 용법에 유의하세요. 'terbutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'butik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 butik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 butik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "butik",
+        "meaning": "(어근) 완전히 butik되다"
+      },
+      {
+        "word": "terbutik",
+        "meaning": "완전히 butik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_pqdfy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbuyut [[멍buyut]]",
+    "meaning": "buyut하다 (능동사)",
+    "pos": "동사",
+    "root": "buyut",
+    "affix_logic": "어근 'buyut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'buyut'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan buyut",
+    "antonym": "dibuyut",
+    "context": "'mengbuyut'은(는) principalmente 'buyut하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buyut'의 용법에 유의하세요. 'mengbuyut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buyut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengbuyut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buyut하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengbuyut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buyut하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buyut",
+        "meaning": "(어근) buyut하다 (능동사)"
+      },
+      {
+        "word": "mengbuyut",
+        "meaning": "buyut하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wl4kq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibuyut [[디buyut]]",
+    "meaning": "buyut되다, buyut당하다 (수동사)",
+    "pos": "동사",
+    "root": "buyut",
+    "affix_logic": "어근 'buyut'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'buyut'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena buyut",
+    "antonym": "mengbuyut",
+    "context": "'dibuyut'은(는) principalmente 'buyut되다, buyut당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buyut'의 용법에 유의하세요. 'dibuyut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buyut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dibuyut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 buyut되다, buyut당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dibuyut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 buyut되다, buyut당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buyut",
+        "meaning": "(어근) buyut되다"
+      },
+      {
+        "word": "dibuyut",
+        "meaning": "buyut되다, buyut당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_eqk9d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbuyut [[뜨르buyut]]",
+    "meaning": "완전히 buyut되다",
+    "pos": "동사, 형용사",
+    "root": "buyut",
+    "affix_logic": "어근 'buyut'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'buyut'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling buyut",
+    "antonym": "sengaja dibuyut",
+    "context": "'terbuyut'은(는) principalmente '완전히 buyut되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'buyut'의 용법에 유의하세요. 'terbuyut' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'buyut' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terbuyut untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 buyut되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terbuyut yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 buyut되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "buyut",
+        "meaning": "(어근) 완전히 buyut되다"
+      },
+      {
+        "word": "terbuyut",
+        "meaning": "완전히 buyut되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_wkeis",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengcabang [[멍cabang]]",
+    "meaning": "cabang하다 (능동사)",
+    "pos": "동사",
+    "root": "cabang",
+    "affix_logic": "어근 'cabang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'cabang'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan cabang",
+    "antonym": "dicabang",
+    "context": "'mengcabang'은(는) principalmente 'cabang하다 (능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'cabang'의 용법에 유의하세요. 'mengcabang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'cabang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengcabang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 cabang하다 (능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengcabang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 cabang하다 (능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "cabang",
+        "meaning": "(어근) cabang하다 (능동사)"
+      },
+      {
+        "word": "mengcabang",
+        "meaning": "cabang하다 (능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_vgh3z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dicabang [[디cabang]]",
+    "meaning": "cabang되다, cabang당하다 (수동사)",
+    "pos": "동사",
+    "root": "cabang",
+    "affix_logic": "어근 'cabang'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'cabang'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena cabang",
+    "antonym": "mengcabang",
+    "context": "'dicabang'은(는) principalmente 'cabang되다, cabang당하다 (수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'cabang'의 용법에 유의하세요. 'dicabang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'cabang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dicabang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 cabang되다, cabang당하다 (수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dicabang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 cabang되다, cabang당하다 (수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "cabang",
+        "meaning": "(어근) cabang되다"
+      },
+      {
+        "word": "dicabang",
+        "meaning": "cabang되다, cabang당하다 (수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139734103_hjaam",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tercabang [[뜨르cabang]]",
+    "meaning": "완전히 cabang되다",
+    "pos": "동사, 형용사",
+    "root": "cabang",
+    "affix_logic": "어근 'cabang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'cabang'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling cabang",
+    "antonym": "sengaja dicabang",
+    "context": "'tercabang'은(는) principalmente '완전히 cabang되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'cabang'의 용법에 유의하세요. 'tercabang' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'cabang' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tercabang untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 cabang되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tercabang yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 cabang되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "cabang",
+        "meaning": "(어근) 완전히 cabang되다"
+      },
+      {
+        "word": "tercabang",
+        "meaning": "완전히 cabang되다"
+      }
+    ]
   }
 ];
