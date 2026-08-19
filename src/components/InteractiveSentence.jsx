@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 
-const InteractiveSentence = ({ sentence, wordBreakdown }) => {
-  const [activeWordId, setActiveWordId] = useState(null);
+const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
+  const [hoveredIdx, setHoveredIdx] = useState(null);
+  const [clickedIdx, setClickedIdx] = useState(null);
 
   if (!sentence) return null;
+
+  const actualBreakdown = wordBreakdown || breakdown || [];
 
   const clean = (str) => {
     if (!str) return '';
@@ -12,23 +15,16 @@ const InteractiveSentence = ({ sentence, wordBreakdown }) => {
 
   // 단어장 맵 생성
   const breakdownMap = {};
-  if (wordBreakdown && Array.isArray(wordBreakdown)) {
-    wordBreakdown.forEach(item => {
+  if (actualBreakdown && Array.isArray(actualBreakdown)) {
+    actualBreakdown.forEach(item => {
       const cleanKey = clean(item.word);
       if (cleanKey) breakdownMap[cleanKey] = item.meaning;
     });
   }
 
-  // 숙어 및 단어를 포함한 모든 매칭 가능한 키들 (길이 내림차순 정렬)
-  const sortedKeys = Object.keys(breakdownMap).sort((a, b) => b.length - a.length);
-
   // 문장을 매칭된 부분과 매칭되지 않은 부분으로 나눔
   const renderInteractiveText = () => {
     let result = [];
-    let remainingText = sentence;
-    let keyIndex = 0;
-
-    // 단순화를 위해 공백 기준으로 토큰화하되, 숙어 매칭 시도
     const tokens = sentence.split(/(\s+)/); // 공백 보존하며 분할
 
     let i = 0;
@@ -40,7 +36,7 @@ const InteractiveSentence = ({ sentence, wordBreakdown }) => {
         continue;
       }
 
-      // 숙어 매칭 시도 (최대 5단어까지 확인)
+      // 숙어 및 단어 매칭 시도 (최대 5단어까지 확인)
       let foundMatch = null;
       for (let j = 5; j >= 1; j--) {
         const potentialPhraseTokens = tokens.slice(i, i + (j * 2) - 1);
@@ -60,44 +56,91 @@ const InteractiveSentence = ({ sentence, wordBreakdown }) => {
 
       if (foundMatch) {
         const idx = foundMatch.originalIndex;
+        const isShow = hoveredIdx === idx || clickedIdx === idx;
         result.push(
           <div key={idx} style={{ position: 'relative', display: 'inline-block' }}>
             <span 
-              onClick={() => setActiveWordId(activeWordId === idx ? null : idx)}
+              onMouseEnter={() => setHoveredIdx(idx)}
+              onMouseLeave={() => setHoveredIdx(null)}
+              onClick={() => setClickedIdx(clickedIdx === idx ? null : idx)}
               style={{ 
                 cursor: 'pointer',
                 textDecoration: 'underline',
                 textDecorationStyle: 'dotted',
-                textDecorationColor: '#90caf9',
-                color: '#0a58ca',
-                padding: '1px 2px',
+                textDecorationColor: '#ff9f43',
+                color: '#d35400',
+                padding: '1px 3px',
                 borderRadius: '4px',
-                background: activeWordId === idx ? '#e3f2fd' : 'transparent',
-                transition: 'background 0.2s',
-                fontWeight: '600'
+                background: isShow ? '#ffeaa7' : '#fff3e0',
+                transition: 'all 0.2s',
+                fontWeight: '700'
               }}
             >
               {foundMatch.text}
             </span>
-            {activeWordId === idx && (
+            {isShow && (
               <div style={{
                 position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
-                marginBottom: '6px', background: '#333', color: '#fff', padding: '6px 12px',
-                borderRadius: '8px', fontSize: '0.85rem', whiteSpace: 'nowrap', zIndex: 100,
-                boxShadow: '0 4px 12px rgba(0,0,0,0.15)', fontWeight: 'bold'
+                marginBottom: '6px', background: '#2d3436', color: '#fff', padding: '6px 12px',
+                borderRadius: '8px', fontSize: '0.85rem', whiteSpace: 'nowrap', zIndex: 999,
+                boxShadow: '0 4px 15px rgba(0,0,0,0.2)', fontWeight: 'bold'
               }}>
                 {foundMatch.meaning}
                 <div style={{
                   position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
-                  borderWidth: '5px', borderStyle: 'solid', borderColor: '#333 transparent transparent transparent'
+                  borderWidth: '5px', borderStyle: 'solid', borderColor: '#2d3436 transparent transparent transparent'
                 }} />
               </div>
             )}
           </div>
         );
       } else {
-        // 매칭되지 않은 단어
-        result.push(currentToken);
+        // 매칭되지 않은 일반 단어도 호버 시 단어/어근 의미 표출 시도 (단어 그대로 보여주기)
+        const tokenClean = clean(currentToken);
+        const tokenMeaning = breakdownMap[tokenClean];
+        const idx = i;
+        const isShow = tokenMeaning && (hoveredIdx === idx || clickedIdx === idx);
+
+        if (tokenMeaning) {
+          result.push(
+            <div key={idx} style={{ position: 'relative', display: 'inline-block' }}>
+              <span 
+                onMouseEnter={() => setHoveredIdx(idx)}
+                onMouseLeave={() => setHoveredIdx(null)}
+                onClick={() => setClickedIdx(clickedIdx === idx ? null : idx)}
+                style={{ 
+                  cursor: 'pointer',
+                  textDecoration: 'underline',
+                  textDecorationStyle: 'dotted',
+                  textDecorationColor: '#74b9ff',
+                  color: '#0984e3',
+                  padding: '1px 2px',
+                  borderRadius: '4px',
+                  background: isShow ? '#dff9fb' : 'transparent',
+                  fontWeight: '600'
+                }}
+              >
+                {currentToken}
+              </span>
+              {isShow && (
+                <div style={{
+                  position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
+                  marginBottom: '6px', background: '#2d3436', color: '#fff', padding: '6px 12px',
+                  borderRadius: '8px', fontSize: '0.85rem', whiteSpace: 'nowrap', zIndex: 999,
+                  boxShadow: '0 4px 15px rgba(0,0,0,0.2)', fontWeight: 'bold'
+                }}>
+                  {tokenMeaning}
+                  <div style={{
+                    position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
+                    borderWidth: '5px', borderStyle: 'solid', borderColor: '#2d3436 transparent transparent transparent'
+                  }} />
+                </div>
+              )}
+            </div>
+          );
+        } else {
+          result.push(currentToken);
+        }
         i++;
       }
     }
