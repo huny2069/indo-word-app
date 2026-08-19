@@ -298,7 +298,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v19.40 (최신 릴리즈)
+                버전 정보: v20.00 (1만 단어 오프라인 사전 탑재)
             </span>
         </div>
       </header>
