@@ -1,9 +1,12 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { addWord, getWords } from '../db/database';
 import { generateWords } from '../api/geminiApi';
 import { playAudio } from '../api/ttsApi';
 import { fetchSharedWords, saveSharedWords, logUsage } from '../api/supabase';
-import { Volume2, Sparkles, Database, Plus, Search, CheckCircle2, BookmarkPlus } from 'lucide-react';
+import { 
+  Volume2, Sparkles, Database, Plus, Search, CheckCircle2, BookmarkPlus, 
+  ChevronDown, ChevronUp, BookOpen, CheckSquare, Square, Layers 
+} from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -24,8 +27,11 @@ const WordGenerate = () => {
   // 생성 모드 ('offline', 'ai', 'manual')
   const [genMode, setGenMode] = useState('offline');
 
-  // 방금 생성/추가된 단어 목록 (결과 피드백용)
+  // 방금 생성/추가된 단어 목록 (상단 피드백용)
   const [generatedWords, setGeneratedWords] = useState([]);
+
+  // 로컬 단어장 ID/단어 셋 (이미 추가된 단어 표시용)
+  const [existingWordMap, setExistingWordMap] = useState(new Set());
 
   // --- [오프라인 모드 State] ---
   const categories = useMemo(() => getOfflineCategories(), []);
@@ -35,6 +41,36 @@ const WordGenerate = () => {
   const [offlineCount, setOfflineCount] = useState(10);
   const [offlineSearchQuery, setOfflineSearchQuery] = useState('');
   const [offlineAdding, setOfflineAdding] = useState(false);
+
+  // 펼쳐진 단어 ID (상세 아코디언)
+  const [expandedOfflineId, setExpandedOfflineId] = useState(null);
+
+  // 다중 선택 체크박스 State
+  const [selectedOfflineIds, setSelectedOfflineIds] = useState(new Set());
+
+  // 로컬 단어장 목록 로드 (중복 체크용)
+  const refreshLocalWords = async () => {
+    try {
+      const localWords = await getWords();
+      const wordSet = new Set(localWords.map(w => w.word.split(' ')[0].toLowerCase()));
+      setExistingWordMap(wordSet);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  useEffect(() => {
+    refreshLocalWords();
+  }, []);
+
+  // 선택된 카테고리/소분류에 해당하는 전체 오프라인 단어 목록
+  const currentCategoryWords = useMemo(() => {
+    return ALL_OFFLINE_WORDS.filter(item => {
+      if (selectedCatId && item.category_id !== selectedCatId) return false;
+      if (selectedSubCatId && item.subcategory_id !== selectedSubCatId) return false;
+      return true;
+    });
+  }, [selectedCatId, selectedSubCatId]);
 
   // 실시간 검색 결과 (오프라인 사전 탐색)
   const searchResults = useMemo(() => {
@@ -60,7 +96,7 @@ const WordGenerate = () => {
   });
 
   // ==========================================
-  // [1. 오프라인 단어 추출 및 단어장 일괄 추가]
+  // [1. 오프라인 단어 일괄 자동 추출 및 담기]
   // ==========================================
   const handleOfflineGenerate = async () => {
     setOfflineAdding(true);
@@ -93,8 +129,9 @@ const WordGenerate = () => {
         addedList.push({ ...wordData, id });
       }
 
+      await refreshLocalWords();
       setGeneratedWords(addedList);
-      alert(`🎉 ${addedList.length}개의 실생활 필수 단어가 단어장에 성공적으로 추가되었습니다!`);
+      alert(`🎉 ${addedList.length}개의 단어가 단어장에 성공적으로 추가되었습니다!`);
     } catch (err) {
       console.error('오프라인 단어 추가 오류:', err);
       alert('단어 추가 중 오류가 발생했습니다: ' + err.message);
@@ -104,7 +141,7 @@ const WordGenerate = () => {
   };
 
   // ==========================================
-  // [2. 오프라인 검색 결과에서 개별 단어 추가]
+  // [2. 오프라인 단어 개별 추가]
   // ==========================================
   const handleAddSingleOfflineWord = async (item) => {
     try {
@@ -119,9 +156,10 @@ const WordGenerate = () => {
         ...item,
         user_lang: userLang,
         study_lang: studyLang,
-        topic: '오프라인 사전'
+        topic: selectedCategory?.name || '오프라인 사전'
       };
       const id = await addWord(wordData);
+      await refreshLocalWords();
       setGeneratedWords(prev => [{ ...wordData, id }, ...prev]);
       alert(`'${item.word}' 단어가 단어장에 추가되었습니다! 🍌`);
     } catch (err) {
@@ -130,7 +168,60 @@ const WordGenerate = () => {
   };
 
   // ==========================================
-  // [3. 온라인 AI 생성 (Gemini API 100% 보존)]
+  // [3. 선택한 체크박스 단어들 일괄 담기]
+  // ==========================================
+  const handleAddSelectedOfflineWords = async () => {
+    if (selectedOfflineIds.size === 0) {
+      alert('추가할 단어를 먼저 체크해 주세요.');
+      return;
+    }
+
+    try {
+      const targetItems = currentCategoryWords.filter(w => selectedOfflineIds.has(w.id));
+      const addedList = [];
+
+      for (const item of targetItems) {
+        const cleanKeyword = item.word.split(' ')[0].toLowerCase();
+        if (existingWordMap.has(cleanKeyword)) continue;
+
+        const wordData = {
+          ...item,
+          user_lang: userLang,
+          study_lang: studyLang,
+          topic: selectedCategory?.name || '오프라인 사전'
+        };
+        const id = await addWord(wordData);
+        addedList.push({ ...wordData, id });
+      }
+
+      await refreshLocalWords();
+      setSelectedOfflineIds(new Set());
+      setGeneratedWords(addedList);
+      alert(`선택한 ${addedList.length}개의 단어가 단어장에 추가되었습니다!`);
+    } catch (err) {
+      alert('추가 실패: ' + err.message);
+    }
+  };
+
+  const toggleSelectAllCategoryWords = () => {
+    if (selectedOfflineIds.size === currentCategoryWords.length) {
+      setSelectedOfflineIds(new Set());
+    } else {
+      setSelectedOfflineIds(new Set(currentCategoryWords.map(w => w.id)));
+    }
+  };
+
+  const toggleSelectOfflineWord = (id) => {
+    setSelectedOfflineIds(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  };
+
+  // ==========================================
+  // [4. 온라인 AI 생성 (Gemini API 100% 보존)]
   // ==========================================
   const handleGenerate = async () => {
     let apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
@@ -234,6 +325,7 @@ const WordGenerate = () => {
       setProgress(100);
       setProgressMsg(t('gen_ai_ready'));
       setGeneratedWords(finalAddedWords);
+      await refreshLocalWords();
       
       if (finalAddedWords.length === 0) {
         alert(t('msg_ai_gen_fail'));
@@ -249,7 +341,7 @@ const WordGenerate = () => {
   };
 
   // ==========================================
-  // [4. 수동 입력]
+  // [5. 수동 입력]
   // ==========================================
   const handleManualSave = async (e) => {
     e.preventDefault();
@@ -261,6 +353,7 @@ const WordGenerate = () => {
     try {
         const wordData = { ...manualWord, user_lang: userLang, study_lang: studyLang };
         const id = await addWord(wordData);
+        await refreshLocalWords();
         setGeneratedWords([{ ...wordData, id }, ...generatedWords]);
         alert(t('msg_save_done'));
     } catch (err) { alert(t('msg_save_error') + ": " + err.message); }
@@ -273,7 +366,7 @@ const WordGenerate = () => {
         <div>
           <h2 style={{ margin: 0, color: 'var(--nana-dark)', fontWeight: '900', fontSize: '1.8rem' }}>{t('gen_title')}</h2>
           <p style={{ margin: '0.3rem 0 0', color: '#666', fontSize: '0.9rem' }}>
-            {genMode === 'offline' ? '📱 API 키 없이 내장된 실생활 1만 단어에서 즉시 학습' : genMode === 'ai' ? '🌐 Gemini AI를 통한 자유 주제 맞춤 단어 생성' : '✍️ 나만의 커스텀 단어 직접 등록'}
+            {genMode === 'offline' ? '📱 1만 단어 사전에서 카테고리별 직접 열람 및 단어장에 즉시 담기' : genMode === 'ai' ? '🌐 Gemini AI를 통한 자유 주제 맞춤 단어 생성' : '✍️ 나만의 커스텀 단어 직접 등록'}
           </p>
         </div>
 
@@ -340,22 +433,35 @@ const WordGenerate = () => {
             {searchResults.length > 0 && (
               <div style={{ marginTop: '1.2rem', borderTop: '1px solid #f1f3f5', paddingTop: '1rem', display: 'grid', gap: '0.8rem', maxHeight: '320px', overflowY: 'auto' }}>
                 <div style={{ fontSize: '0.85rem', color: '#888', fontWeight: '700' }}>검색 결과 {searchResults.length}건</div>
-                {searchResults.map(item => (
-                  <div key={item.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.8rem 1rem', background: '#fdfbf7', borderRadius: '15px', border: '1px solid #faeccb' }}>
-                    <div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                        <span style={{ fontWeight: '900', color: 'var(--nana-dark)', fontSize: '1.1rem' }}>{item.word}</span>
-                        <span style={{ fontSize: '0.75rem', background: '#fff', padding: '2px 8px', borderRadius: '10px', border: '1px solid #ddd', color: '#666' }}>{item.pos}</span>
+                {searchResults.map(item => {
+                  const cleanKey = item.word.split(' ')[0].toLowerCase();
+                  const isAdded = existingWordMap.has(cleanKey);
+                  return (
+                    <div key={item.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.8rem 1rem', background: '#fdfbf7', borderRadius: '15px', border: '1px solid #faeccb' }}>
+                      <div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                          <span style={{ fontWeight: '900', color: 'var(--nana-dark)', fontSize: '1.1rem' }}>{item.word}</span>
+                          <span style={{ fontSize: '0.75rem', background: '#fff', padding: '2px 8px', borderRadius: '10px', border: '1px solid #ddd', color: '#666' }}>{item.pos}</span>
+                          {isAdded && <span style={{ fontSize: '0.75rem', background: '#e8f8f5', color: '#10ac84', padding: '2px 8px', borderRadius: '10px', fontWeight: '800' }}>추가됨 ✓</span>}
+                        </div>
+                        <div style={{ fontSize: '0.9rem', color: '#555', marginTop: '2px' }}>= {item.meaning}</div>
                       </div>
-                      <div style={{ fontSize: '0.9rem', color: '#555', marginTop: '2px' }}>= {item.meaning}</div>
+                      <button 
+                        onClick={() => handleAddSingleOfflineWord(item)}
+                        disabled={isAdded}
+                        style={{ 
+                          display: 'flex', alignItems: 'center', gap: '4px', 
+                          background: isAdded ? '#e9ecef' : 'var(--primary-color)', 
+                          color: isAdded ? '#999' : '#fff', 
+                          border: 'none', padding: '0.5rem 0.9rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: '800', 
+                          cursor: isAdded ? 'default' : 'pointer', 
+                          boxShadow: isAdded ? 'none' : '0 3px 0 #e67e22' 
+                        }}>
+                        <BookmarkPlus size={14} /> {isAdded ? '담김' : '단어장 담기'}
+                      </button>
                     </div>
-                    <button 
-                      onClick={() => handleAddSingleOfflineWord(item)}
-                      style={{ display: 'flex', alignItems: 'center', gap: '4px', background: 'var(--primary-color)', color: '#fff', border: 'none', padding: '0.5rem 0.9rem', borderRadius: '20px', fontSize: '0.8rem', fontWeight: '800', cursor: 'pointer', boxShadow: '0 3px 0 #e67e22' }}>
-                      <BookmarkPlus size={14} /> 단어장 담기
-                    </button>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </div>
@@ -430,14 +536,14 @@ const WordGenerate = () => {
               </div>
             )}
 
-            {/* 단어 개수 선택 & 단어장 담기 버튼 */}
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap' }}>
+            {/* 빠른 일괄 자동 추출 컨트롤 바 */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap', padding: '1rem 1.2rem', background: '#f8f9fa', borderRadius: '20px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
-                <span style={{ fontWeight: '800', color: '#444' }}>추출할 단어 개수:</span>
+                <span style={{ fontWeight: '800', color: '#444', fontSize: '0.95rem' }}>랜덤 자동 추출:</span>
                 <select 
                   value={offlineCount} 
                   onChange={(e) => setOfflineCount(Number(e.target.value))}
-                  style={{ padding: '0.6rem 1rem', borderRadius: '12px', border: '2px solid #ddd', fontSize: '1rem', fontWeight: '800', outline: 'none' }}
+                  style={{ padding: '0.5rem 0.8rem', borderRadius: '12px', border: '2px solid #ddd', fontSize: '0.95rem', fontWeight: '800', outline: 'none' }}
                 >
                   <option value={5}>5개</option>
                   <option value={10}>10개 (추천)</option>
@@ -452,12 +558,217 @@ const WordGenerate = () => {
                 disabled={offlineAdding}
                 style={{
                   display: 'flex', alignItems: 'center', gap: '8px',
-                  padding: '1rem 2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '30px', fontSize: '1.1rem', fontWeight: '900', cursor: 'pointer',
-                  boxShadow: '0 6px 0 #e67e22', transition: 'transform 0.1s ease'
+                  padding: '0.8rem 1.5rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '25px', fontSize: '0.95rem', fontWeight: '900', cursor: 'pointer',
+                  boxShadow: '0 4px 0 #e67e22', transition: 'transform 0.1s ease'
                 }}
               >
-                <CheckCircle2 size={20} /> {offlineAdding ? '단어장에 추가 중...' : '단어장에 바로 담기'}
+                <CheckCircle2 size={18} /> {offlineAdding ? '추가 중...' : `${offlineCount}개 자동 담기`}
               </button>
+            </div>
+          </div>
+
+          {/* ======================================================= */}
+          {/* 🌟 [신규] 카테고리별 오프라인 전체 단어 직접 열람 리스트 뷰어 */}
+          {/* ======================================================= */}
+          <div style={{ background: '#fff', padding: '1.8rem', borderRadius: '30px', boxShadow: '0 8px 20px rgba(0,0,0,0.03)', border: '2px solid #e9ecef' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.2rem', flexWrap: 'wrap', gap: '1rem' }}>
+              <div>
+                <h3 style={{ margin: 0, fontSize: '1.2rem', fontWeight: '900', color: 'var(--nana-dark)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <BookOpen size={20} color="#f6b93b" /> 
+                  {selectedCategory?.name} 사전 목록 ({currentCategoryWords.length}개)
+                </h3>
+                <p style={{ margin: '0.2rem 0 0', fontSize: '0.85rem', color: '#888' }}>
+                  단어를 클릭하여 스타 강사의 시크릿 노트와 예문을 확인하고 원하는 단어를 직접 골라 담아보세요.
+                </p>
+              </div>
+
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                <button
+                  onClick={toggleSelectAllCategoryWords}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: '6px',
+                    padding: '0.5rem 1rem', background: '#fff', border: '2px solid #ddd', borderRadius: '15px', cursor: 'pointer', fontSize: '0.85rem', fontWeight: '800', color: '#555'
+                  }}
+                >
+                  {selectedOfflineIds.size === currentCategoryWords.length && currentCategoryWords.length > 0 ? (
+                    <CheckSquare size={16} color="var(--primary-color)" />
+                  ) : (
+                    <Square size={16} color="#aaa" />
+                  )}
+                  전체 선택 ({selectedOfflineIds.size}/{currentCategoryWords.length})
+                </button>
+
+                {selectedOfflineIds.size > 0 && (
+                  <button
+                    onClick={handleAddSelectedOfflineWords}
+                    style={{
+                      display: 'flex', alignItems: 'center', gap: '6px',
+                      padding: '0.5rem 1.2rem', background: '#10ac84', color: '#fff', border: 'none', borderRadius: '15px', cursor: 'pointer', fontSize: '0.85rem', fontWeight: '900',
+                      boxShadow: '0 3px 0 #009677'
+                    }}
+                  >
+                    <BookmarkPlus size={16} /> 선택 {selectedOfflineIds.size}개 담기
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* 단어 목록 아코디언 리스트 */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+              {currentCategoryWords.map((item, index) => {
+                const isExpanded = expandedOfflineId === item.id;
+                const cleanKey = item.word.split(' ')[0].toLowerCase();
+                const isAlreadyInDb = existingWordMap.has(cleanKey);
+                const isChecked = selectedOfflineIds.has(item.id);
+
+                return (
+                  <div
+                    key={item.id}
+                    style={{
+                      background: isExpanded ? '#fffdf7' : '#fff',
+                      border: isExpanded ? '2px solid #feca57' : '1.5px solid #eee',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      transition: 'all 0.2s ease',
+                      boxShadow: isExpanded ? '0 6px 15px rgba(254, 202, 87, 0.15)' : '0 2px 6px rgba(0,0,0,0.02)'
+                    }}
+                  >
+                    {/* 카드 헤더 요약 행 */}
+                    <div 
+                      onClick={() => setExpandedOfflineId(isExpanded ? null : item.id)}
+                      style={{ 
+                        padding: '1rem 1.2rem', 
+                        display: 'flex', 
+                        alignItems: 'center', 
+                        justifyContent: 'space-between', 
+                        cursor: 'pointer',
+                        gap: '0.8rem'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', flex: 1, minWidth: 0 }}>
+                        <div 
+                          onClick={(e) => { e.stopPropagation(); toggleSelectOfflineWord(item.id); }}
+                          style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                        >
+                          {isChecked ? <CheckSquare size={22} color="var(--primary-color)" /> : <Square size={22} color="#ccc" />}
+                        </div>
+
+                        <span style={{ fontSize: '0.85rem', fontWeight: '800', color: '#bbb', width: '24px' }}>
+                          {index + 1}
+                        </span>
+
+                        <div style={{ display: 'flex', flexDirection: 'column' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+                            <span style={{ fontWeight: '900', fontSize: '1.15rem', color: 'var(--nana-dark)' }}>
+                              {item.word}
+                            </span>
+                            <span style={{ fontSize: '0.75rem', background: '#f1f3f5', padding: '2px 8px', borderRadius: '8px', color: '#666', fontWeight: '800' }}>
+                              {item.pos}
+                            </span>
+                            {isAlreadyInDb && (
+                              <span style={{ fontSize: '0.7rem', background: '#e8f8f5', color: '#10ac84', padding: '2px 8px', borderRadius: '8px', fontWeight: '900' }}>
+                                내 단어장에 있음 ✓
+                              </span>
+                            )}
+                          </div>
+                          <div style={{ fontSize: '0.95rem', color: '#555', fontWeight: '700', marginTop: '2px' }}>
+                            = {item.meaning}
+                          </div>
+                        </div>
+                      </div>
+
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                        <button
+                          onClick={(e) => { e.stopPropagation(); playAudio(item.word.split(' ')[0], studyLang); }}
+                          style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '8px', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                          title="발음 듣기"
+                        >
+                          <Volume2 size={18} />
+                        </button>
+
+                        <button
+                          onClick={(e) => { e.stopPropagation(); handleAddSingleOfflineWord(item); }}
+                          disabled={isAlreadyInDb}
+                          style={{
+                            display: 'flex', alignItems: 'center', gap: '4px',
+                            background: isAlreadyInDb ? '#f1f3f5' : 'var(--primary-color)',
+                            color: isAlreadyInDb ? '#aaa' : '#fff',
+                            border: 'none', padding: '0.5rem 0.9rem', borderRadius: '15px', fontSize: '0.8rem', fontWeight: '800',
+                            cursor: isAlreadyInDb ? 'default' : 'pointer',
+                            boxShadow: isAlreadyInDb ? 'none' : '0 3px 0 #e67e22'
+                          }}
+                        >
+                          <BookmarkPlus size={14} /> {isAlreadyInDb ? '담김' : '담기'}
+                        </button>
+
+                        <div style={{ color: '#aaa', padding: '4px' }}>
+                          {isExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* 아코디언 펼침 상세 내용 (사진의 13개 항목 완벽 렌더링) */}
+                    {isExpanded && (
+                      <div style={{ padding: '1.2rem 1.5rem', borderTop: '1px solid #faeccb', background: '#fff', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.2rem' }}>
+                        {/* 스타 강사의 시크릿 노트 */}
+                        <div style={{ background: '#fdfbf7', padding: '1.2rem', borderRadius: '16px', border: '1.5px solid #feca57', display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.85rem' }}>
+                          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', background: '#feca57', color: '#fff', padding: '2px 8px', borderRadius: '8px', fontSize: '0.7rem', fontWeight: '900', alignSelf: 'flex-start' }}>
+                            🔥 스타 강사의 시크릿 노트
+                          </div>
+                          {item.root && <div><b style={{ color: '#27ae60' }}>어근:</b> {item.root}</div>}
+                          {item.grammar_rule && <div><b style={{ color: '#c0392b' }}>문법:</b> {item.grammar_rule}</div>}
+                          {item.synonym && <div><b style={{ color: '#00b894' }}>동의어:</b> {item.synonym}</div>}
+                          {item.antonym && <div><b style={{ color: '#d63031' }}>반의어:</b> {item.antonym}</div>}
+                          {item.context && <div><b style={{ color: '#2980b9' }}>상황:</b> {item.context}</div>}
+                          {item.caution && (
+                            <div style={{ background: '#fff5f5', padding: '0.6rem', borderRadius: '10px', borderLeft: '3px solid #ff7675' }}>
+                              <b style={{ color: '#d63031' }}>주의 (학습 주의):</b> {item.caution}
+                            </div>
+                          )}
+                          {item.related && (
+                            <div style={{ background: '#f0faff', padding: '0.6rem', borderRadius: '10px', borderLeft: '3px solid #4facfe' }}>
+                              <b style={{ color: '#0984e3' }}>💡 강사 비법 (공부 팁):</b> {item.related}
+                            </div>
+                          )}
+                        </div>
+
+                        {/* 격식체 / 구어체 예문 영역 */}
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                          {item.example_formal && (
+                            <div style={{ background: '#fdfcfe', padding: '1rem', borderRadius: '14px', border: '1px solid #eee' }}>
+                              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
+                                <span style={{ color: '#2c3e50', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>격식체</span>
+                                <div style={{ flex: 1, fontSize: '0.9rem', color: '#333', lineHeight: '1.4' }}>
+                                  <InteractiveSentence sentence={item.example_formal} breakdown={item.word_breakdown} />
+                                </div>
+                                <button onClick={() => playAudio(item.example_formal, studyLang)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
+                                  <Volume2 size={16} />
+                                </button>
+                              </div>
+                              <p style={{ margin: '0 0 0 3.8rem', fontSize: '0.8rem', color: '#888', fontWeight: '600' }}>{item.example_formal_kr}</p>
+                            </div>
+                          )}
+
+                          {item.example_casual && (
+                            <div style={{ background: '#fff9f0', padding: '1rem', borderRadius: '14px', border: '1px solid #fff3e0' }}>
+                              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
+                                <span style={{ color: '#d35400', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>구어체</span>
+                                <div style={{ flex: 1, fontSize: '0.9rem', color: '#333', lineHeight: '1.4' }}>
+                                  <InteractiveSentence sentence={item.example_casual} breakdown={item.word_breakdown} />
+                                </div>
+                                <button onClick={() => playAudio(item.example_casual, studyLang)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
+                                  <Volume2 size={16} />
+                                </button>
+                              </div>
+                              <p style={{ margin: '0 0 0 3.8rem', fontSize: '0.8rem', color: '#888', fontWeight: '600' }}>{item.example_casual_kr}</p>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -573,12 +884,12 @@ const WordGenerate = () => {
       )}
 
       {/* ======================================================= */}
-      {/* 방금 추가/생성된 단어 상세 렌더링 (사진과 100% 동일한 카드) */}
+      {/* 방금 추가/생성된 단어 상세 렌더링 (상단 피드백) */}
       {/* ======================================================= */}
       {generatedWords.length > 0 && (
         <div style={{ marginTop: '3rem' }}>
           <h3 style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1.4rem' }}>
-            <span style={{ fontSize: '1.6rem' }}>🎉</span> 방금 추가된 단어 ({generatedWords.length}개)
+            <span style={{ fontSize: '1.6rem' }}>🎉</span> 방금 단어장에 담긴 단어 ({generatedWords.length}개)
           </h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             {generatedWords.map(w => (
