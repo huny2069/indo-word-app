@@ -1068,6 +1068,110 @@ export const discourseConnectors = [
   {
     "id": "disc_0042",
     "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "lagian [[라기안]]",
+    "meaning": "어차피 또, 게다가 (구어)",
+    "pos": "접속사, 부사",
+    "root": "lagi",
+    "affix_logic": "어근 'lagi'에 접사가 결합한 접속사, 부사",
+    "grammar_rule": "문장 내에서 접속사, 부사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "lagipula",
+    "antonym": "hanya saja",
+    "context": "실생활 및 회화 상황에서 '어차피 또, 게다가 (구어)'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'lagi'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'lagian' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'어차피 또, 게다가 (구어)'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'lagian' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '어차피 또, 게다가 (구어)'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "lagian",
+        "meaning": "어차피 또"
+      }
+    ]
+  },
+  {
+    "id": "disc_0043",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "makanya [[마까냐]]",
+    "meaning": "그러니까, 그래서 말인데 (구어)",
+    "pos": "접속사, 부사",
+    "root": "maka",
+    "affix_logic": "어근 'maka'에 접사가 결합한 접속사, 부사",
+    "grammar_rule": "문장 내에서 접속사, 부사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "oleh karena itu",
+    "antonym": "padahal",
+    "context": "실생활 및 회화 상황에서 '그러니까, 그래서 말인데 (구어)'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'maka'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'makanya' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'그러니까, 그래서 말인데 (구어)'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'makanya' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '그러니까, 그래서 말인데 (구어)'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "makanya",
+        "meaning": "그러니까"
+      }
+    ]
+  },
+  {
+    "id": "disc_0044",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "seiring dengan [[스이링 등안]]",
+    "meaning": "~와 발맞추어, ~함에 따라",
+    "pos": "전치사구",
+    "root": "iring",
+    "affix_logic": "어근 'iring'에 접사가 결합한 전치사구",
+    "grammar_rule": "문장 내에서 전치사구의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "bersamaan dengan",
+    "antonym": "terlepas dari",
+    "context": "실생활 및 회화 상황에서 '~와 발맞추어, ~함에 따라'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'iring'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'seiring dengan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'~와 발맞추어, ~함에 따라'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'seiring dengan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '~와 발맞추어, ~함에 따라'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "seiring",
+        "meaning": "~와 발맞추어"
+      }
+    ]
+  },
+  {
+    "id": "disc_0045",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "sepanjang [[스빤장]]",
+    "meaning": "~하는 한, ~의 전 구간 내내",
+    "pos": "전치사, 부사",
+    "root": "panjang",
+    "affix_logic": "어근 'panjang'에 접사가 결합한 전치사, 부사",
+    "grammar_rule": "문장 내에서 전치사, 부사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "selama",
+    "antonym": "sebentar",
+    "context": "실생활 및 회화 상황에서 '~하는 한, ~의 전 구간 내내'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'panjang'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'sepanjang' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'~하는 한, ~의 전 구간 내내'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'sepanjang' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '~하는 한, ~의 전 구간 내내'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "sepanjang",
+        "meaning": "~하는 한"
+      }
+    ]
+  },
+  {
+    "id": "disc_0046",
+    "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "tiba-tiba [[띠바띠바]]",
     "meaning": "갑자기, 느닷없이",
@@ -1092,7 +1196,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0043",
+    "id": "disc_0047",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "mendadak [[믄다닥]]",
@@ -1118,7 +1222,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0044",
+    "id": "disc_0048",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "kebetulan [[끄브뚤란]]",
@@ -1144,7 +1248,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0045",
+    "id": "disc_0049",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "awalnya [[아왈냐]]",
@@ -1170,7 +1274,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0046",
+    "id": "disc_0050",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "semula [[스물라]]",
@@ -1196,7 +1300,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0047",
+    "id": "disc_0051",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "lantas [[란따스]]",
@@ -1222,7 +1326,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0048",
+    "id": "disc_0052",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "akhirnya [[아키르냐]]",
@@ -1248,7 +1352,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0049",
+    "id": "disc_0053",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "ujung-ujungnya [[우중우중냐]]",
@@ -1274,7 +1378,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0050",
+    "id": "disc_0054",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "seketika [[스끄띠까]]",
@@ -1300,7 +1404,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0051",
+    "id": "disc_0055",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "langsung [[랑숭]]",
@@ -1326,7 +1430,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0052",
+    "id": "disc_0056",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "kelak [[끌락]]",
@@ -1352,7 +1456,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0053",
+    "id": "disc_0057",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "segera [[스그라]]",
@@ -1378,7 +1482,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0054",
+    "id": "disc_0058",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "barusan [[바루산]]",
@@ -1404,7 +1508,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0055",
+    "id": "disc_0059",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "sewaktu [[스왁뚜]]",
@@ -1430,7 +1534,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0056",
+    "id": "disc_0060",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "tatkala [[땃깔라]]",
@@ -1456,7 +1560,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0057",
+    "id": "disc_0061",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "sementara itu [[스먼따라 이뚜]]",
@@ -1482,7 +1586,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0058",
+    "id": "disc_0062",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "semenjak [[스먼작]]",
@@ -1508,7 +1612,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0059",
+    "id": "disc_0063",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "seusai [[스우사이]]",
@@ -1534,7 +1638,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0060",
+    "id": "disc_0064",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "lama-kelamaan [[라마끄라마안]]",
@@ -1560,7 +1664,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0061",
+    "id": "disc_0065",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "lambat laun [[람밧 라운]]",
@@ -1586,7 +1690,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0062",
+    "id": "disc_0066",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "sebelumnya [[스블룸냐]]",
@@ -1612,7 +1716,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0063",
+    "id": "disc_0067",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "sesudahnya [[스수다냐]]",
@@ -1638,7 +1742,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0064",
+    "id": "disc_0068",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "sejak dulu [[스작 둘루]]",
@@ -1664,7 +1768,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0065",
+    "id": "disc_0069",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "sambil [[삼빌]]",
@@ -1690,7 +1794,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0066",
+    "id": "disc_0070",
     "category_id": "discourse",
     "subcategory_id": "time_trigger_adverbs",
     "word": "seraya [[스라야]]",
@@ -1700,7 +1804,7 @@ export const discourseConnectors = [
     "affix_logic": "어근 'seraya'에 접사가 결합한 접속사",
     "grammar_rule": "문장 내에서 접속사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
     "synonym": "sambil",
-    "antonym": "sebelum",
+    "antonym": "sebefore",
     "context": "실생활 및 회화 상황에서 '~하며, ~하는 한편 (문어)'의 의미로 빈번하게 활용됩니다.",
     "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
     "related": "어근 'seraya'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
@@ -1716,7 +1820,33 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0067",
+    "id": "disc_0071",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "selama ini [[스라마 이니]]",
+    "meaning": "그동안 줄곧, 지금까지",
+    "pos": "부사구",
+    "root": "lama",
+    "affix_logic": "어근 'lama'에 접사가 결합한 부사구",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "sejauh ini",
+    "antonym": "ke depannya",
+    "context": "실생활 및 회화 상황에서 '그동안 줄곧, 지금까지'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'lama'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'selama ini' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'그동안 줄곧, 지금까지'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'selama ini' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '그동안 줄곧, 지금까지'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "selama",
+        "meaning": "그동안 줄곧"
+      }
+    ]
+  },
+  {
+    "id": "disc_0072",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "kadang-kadang [[까당까당]]",
@@ -1742,7 +1872,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0068",
+    "id": "disc_0073",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "sering [[스링]]",
@@ -1768,7 +1898,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0069",
+    "id": "disc_0074",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "masih [[마시]]",
@@ -1794,7 +1924,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0070",
+    "id": "disc_0075",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "ke depannya [[끄 드빤냐]]",
@@ -1820,7 +1950,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0071",
+    "id": "disc_0076",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "selalu [[슬랄루]]",
@@ -1846,7 +1976,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0072",
+    "id": "disc_0077",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "jarang [[자랑]]",
@@ -1872,7 +2002,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0073",
+    "id": "disc_0078",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "hampir [[함삐르]]",
@@ -1898,7 +2028,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0074",
+    "id": "disc_0079",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "terlalu [[떠를랄루]]",
@@ -1924,7 +2054,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0075",
+    "id": "disc_0080",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "senantiasa [[스난띠아사]]",
@@ -1950,7 +2080,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0076",
+    "id": "disc_0081",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "sesekali [[스스깔리]]",
@@ -1976,7 +2106,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0077",
+    "id": "disc_0082",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "kerap kali [[끄랍 깔리]]",
@@ -2002,7 +2132,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0078",
+    "id": "disc_0083",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "amat sangat [[아맛 상앗]]",
@@ -2028,7 +2158,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0079",
+    "id": "disc_0084",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "terus-menerus [[뜨루스머느루스]]",
@@ -2054,7 +2184,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0080",
+    "id": "disc_0085",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "tiada henti [[띠아다 헌띠]]",
@@ -2080,7 +2210,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0081",
+    "id": "disc_0086",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "sedikit demi sedikit [[스디낏 드미 스디낏]]",
@@ -2106,7 +2236,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0082",
+    "id": "disc_0087",
     "category_id": "discourse",
     "subcategory_id": "frequency_degree_adverbs",
     "word": "pada dasarnya [[빠다 다사르냐]]",
@@ -2132,7 +2262,33 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0083",
+    "id": "disc_0088",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "seterusnya [[스뜨루스냐]]",
+    "meaning": "앞으로 계속해서, 차후에도",
+    "pos": "부사",
+    "root": "terus",
+    "affix_logic": "어근 'terus'에 접사가 결합한 부사",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "selanjutnya",
+    "antonym": "berhenti",
+    "context": "실생활 및 회화 상황에서 '앞으로 계속해서, 차후에도'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'terus'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'seterusnya' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'앞으로 계속해서, 차후에도'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'seterusnya' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '앞으로 계속해서, 차후에도'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "seterusnya",
+        "meaning": "앞으로 계속해서"
+      }
+    ]
+  },
+  {
+    "id": "disc_0089",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "jangan-jangan [[장안장안]]",
@@ -2158,7 +2314,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0084",
+    "id": "disc_0090",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "mendingan [[믄딩안]]",
@@ -2184,7 +2340,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0085",
+    "id": "disc_0091",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "rupanya [[루빠냐]]",
@@ -2210,7 +2366,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0086",
+    "id": "disc_0092",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "ternyata [[떠르냐따]]",
@@ -2236,7 +2392,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0087",
+    "id": "disc_0093",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "barangkali [[바랑깔리]]",
@@ -2262,7 +2418,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0088",
+    "id": "disc_0094",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "masakan [[마사깐]]",
@@ -2288,7 +2444,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0089",
+    "id": "disc_0095",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "seakan-akan [[스아깐아깐]]",
@@ -2314,7 +2470,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0090",
+    "id": "disc_0096",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "seolah-olah [[스올라올라]]",
@@ -2340,7 +2496,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0091",
+    "id": "disc_0097",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "gerangan [[그랑안]]",
@@ -2366,7 +2522,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0092",
+    "id": "disc_0098",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "mudah-mudahan [[무다무다한]]",
@@ -2392,7 +2548,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0093",
+    "id": "disc_0099",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "moga-moga [[모가모가]]",
@@ -2418,7 +2574,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0094",
+    "id": "disc_0100",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "bisa jadi [[비사 자디]]",
@@ -2444,7 +2600,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0095",
+    "id": "disc_0101",
     "category_id": "discourse",
     "subcategory_id": "modal_speculation_adverbs",
     "word": "tampaknya [[땀빡냐]]",
@@ -2470,7 +2626,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0096",
+    "id": "disc_0102",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "sih [[시]]",
@@ -2496,7 +2652,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0097",
+    "id": "disc_0103",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "dong [[동]]",
@@ -2522,7 +2678,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0098",
+    "id": "disc_0104",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "kok [[콕]]",
@@ -2548,7 +2704,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0099",
+    "id": "disc_0105",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "deh [[데]]",
@@ -2574,7 +2730,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0100",
+    "id": "disc_0106",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "lho [[로]]",
@@ -2600,7 +2756,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0101",
+    "id": "disc_0107",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "kan [[깐]]",
@@ -2626,7 +2782,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0102",
+    "id": "disc_0108",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "toh [[또]]",
@@ -2652,7 +2808,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0103",
+    "id": "disc_0109",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "nah [[나]]",
@@ -2678,7 +2834,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0104",
+    "id": "disc_0110",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "loh [[로]]",
@@ -2704,7 +2860,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0105",
+    "id": "disc_0111",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "yuk [[육]]",
@@ -2730,7 +2886,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0106",
+    "id": "disc_0112",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "ayo [[아요]]",
@@ -2756,7 +2912,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0107",
+    "id": "disc_0113",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "mari [[마리]]",
@@ -2782,7 +2938,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0108",
+    "id": "disc_0114",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "astaga [[아스따가]]",
@@ -2808,7 +2964,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0109",
+    "id": "disc_0115",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "waduh [[와두]]",
@@ -2834,7 +2990,7 @@ export const discourseConnectors = [
     ]
   },
   {
-    "id": "disc_0110",
+    "id": "disc_0116",
     "category_id": "discourse",
     "subcategory_id": "particles_discourse_markers",
     "word": "ya ampun [[야 암뿐]]",

@@ -882,5 +882,57 @@ export const slangDailySpoken = [
         "meaning": "가슴이 답답하고 먹먹하다"
       }
     ]
+  },
+  {
+    "id": "slang_0035",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "bestie [[베스띠]]",
+    "meaning": "단짝 친구, 찐친",
+    "pos": "명사, 구어",
+    "root": "best",
+    "affix_logic": "어근 'best'에 접사가 결합한 명사, 구어",
+    "grammar_rule": "문장 내에서 명사, 구어의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '단짝 친구, 찐친'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'best'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'bestie' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'단짝 친구, 찐친'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bestie' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '단짝 친구, 찐친'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "bestie",
+        "meaning": "단짝 친구"
+      }
+    ]
+  },
+  {
+    "id": "slang_0036",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "gokil abis [[고낄 아비스]]",
+    "meaning": "진짜 상상초월로 웃기다",
+    "pos": "형용사구",
+    "root": "gila",
+    "affix_logic": "어근 'gila'에 접사가 결합한 형용사구",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '진짜 상상초월로 웃기다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'gila'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'gokil abis' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'진짜 상상초월로 웃기다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'gokil abis' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '진짜 상상초월로 웃기다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "gokil",
+        "meaning": "진짜 상상초월로 웃기다"
+      }
+    ]
   }
 ];

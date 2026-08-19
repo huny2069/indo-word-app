@@ -1038,5 +1038,135 @@ export const affixVerbs = [
         "meaning": "떠나다"
       }
     ]
+  },
+  {
+    "id": "aff_0041",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "membawa [[멈바와]]",
+    "meaning": "가져오다, 지참하다",
+    "pos": "동사",
+    "root": "bawa",
+    "affix_logic": "어근 'bawa'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '가져오다, 지참하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'bawa'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'membawa' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'가져오다, 지참하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'membawa' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '가져오다, 지참하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "membawa",
+        "meaning": "가져오다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0042",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengirim [[멍이림]]",
+    "meaning": "보내다, 발송하다",
+    "pos": "동사",
+    "root": "kirim",
+    "affix_logic": "어근 'kirim'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '보내다, 발송하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kirim'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'mengirim' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'보내다, 발송하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengirim' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '보내다, 발송하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "mengirim",
+        "meaning": "보내다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0043",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menerima [[머느리마]]",
+    "meaning": "받다, 수락하다",
+    "pos": "동사",
+    "root": "terima",
+    "affix_logic": "어근 'terima'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '받다, 수락하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'terima'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'menerima' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'받다, 수락하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menerima' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '받다, 수락하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "menerima",
+        "meaning": "받다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0044",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "membayar [[멈바야르]]",
+    "meaning": "지불하다, 계산하다",
+    "pos": "동사",
+    "root": "bayar",
+    "affix_logic": "어근 'bayar'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '지불하다, 계산하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'bayar'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'membayar' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'지불하다, 계산하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'membayar' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '지불하다, 계산하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "membayar",
+        "meaning": "지불하다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0045",
+    "category_id": "affix_verbs",
+    "subcategory_id": "causative_locative_verbs",
+    "word": "menemukan [[머느무깐]]",
+    "meaning": "발견하다, 찾아내다",
+    "pos": "동사",
+    "root": "temu",
+    "affix_logic": "어근 'temu'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '발견하다, 찾아내다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'temu'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'menemukan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'발견하다, 찾아내다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menemukan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '발견하다, 찾아내다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "menemukan",
+        "meaning": "발견하다"
+      }
+    ]
   }
 ];
