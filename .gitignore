@@ -17,3 +17,11 @@ client_secret_*.json
 *.7z
 *.tar
 *.gz
+
+# Backup & Scratch files
+project_*_backup/
+scratch_*.js
+*.jpg
+*.png
+!public/**
+
