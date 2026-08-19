@@ -1558,5 +1558,135 @@ export const discourseConnectors = [
         "meaning": "~임을 감안할 때"
       }
     ]
+  },
+  {
+    "id": "disc_61",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "pada dasarnya [[빠다 다사르냐]]",
+    "meaning": "기본적으로",
+    "pos": "부사구",
+    "root": "dasar",
+    "affix_logic": "어근 'dasar'에 기반한 부사구 파생 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "secara umum",
+    "antonym": "khususnya",
+    "context": "실생활 대화 및 비즈니스 상황에서 '기본적으로'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'dasar'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'pada dasarnya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'기본적으로'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pada dasarnya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '기본적으로'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pada",
+        "meaning": "기본적으로"
+      }
+    ]
+  },
+  {
+    "id": "disc_63",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "pada hakikatnya [[빠다 하끼깟냐]]",
+    "meaning": "본질적으로는",
+    "pos": "부사구",
+    "root": "hakikat",
+    "affix_logic": "어근 'hakikat'에 기반한 부사구 파생 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "sebenarnya",
+    "antonym": "tampaknya",
+    "context": "실생활 대화 및 비즈니스 상황에서 '본질적으로는'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'hakikat'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'pada hakikatnya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'본질적으로는'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pada hakikatnya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '본질적으로는'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pada",
+        "meaning": "본질적으로는"
+      }
+    ]
+  },
+  {
+    "id": "disc_65",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "secara umum [[스짜라 우뭄]]",
+    "meaning": "일반적으로",
+    "pos": "부사구",
+    "root": "umum",
+    "affix_logic": "어근 'umum'에 기반한 부사구 파생 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "pada umumnya",
+    "antonym": "khususnya",
+    "context": "실생활 대화 및 비즈니스 상황에서 '일반적으로'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'umum'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'secara umum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'일반적으로'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'secara umum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '일반적으로'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "secara",
+        "meaning": "일반적으로"
+      }
+    ]
+  },
+  {
+    "id": "disc_67",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "terlebih lagi [[뜨르러비 라기]]",
+    "meaning": "하물며, 더군다나",
+    "pos": "부사구",
+    "root": "lebih",
+    "affix_logic": "어근 'lebih'에 기반한 부사구 파생 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "lagipula",
+    "antonym": "hanya saja",
+    "context": "실생활 대화 및 비즈니스 상황에서 '하물며, 더군다나'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'lebih'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'terlebih lagi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'하물며, 더군다나'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terlebih lagi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '하물며, 더군다나'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terlebih",
+        "meaning": "하물며"
+      }
+    ]
+  },
+  {
+    "id": "disc_69",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "sebagaimana [[스바가이마나]]",
+    "meaning": "~인 바와 같이",
+    "pos": "접속사",
+    "root": "bagaimana",
+    "affix_logic": "어근 'bagaimana'에 기반한 접속사 파생 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "seperti halnya",
+    "antonym": "berbeda dari",
+    "context": "실생활 대화 및 비즈니스 상황에서 '~인 바와 같이'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'bagaimana'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'sebagaimana' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'~인 바와 같이'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'sebagaimana' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '~인 바와 같이'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "sebagaimana",
+        "meaning": "~인 바와 같이"
+      }
+    ]
   }
 ];

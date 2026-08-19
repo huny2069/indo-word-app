@@ -440,5 +440,135 @@ export const dailyLivingVocab = [
         "meaning": "근로 계약서"
       }
     ]
+  },
+  {
+    "id": "life_18",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "ayam bakar [[아얌 바까르]]",
+    "meaning": "숯불 닭구이",
+    "pos": "명사",
+    "root": "bakar",
+    "affix_logic": "어근 'bakar'에 기반한 명사 파생 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "ayam panggang",
+    "antonym": "ayam rebus",
+    "context": "실생활 대화 및 비즈니스 상황에서 '숯불 닭구이'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'bakar'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'ayam bakar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'숯불 닭구이'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ayam bakar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '숯불 닭구이'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ayam",
+        "meaning": "숯불 닭구이"
+      }
+    ]
+  },
+  {
+    "id": "life_20",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "ikan goreng [[이깐 고렝]]",
+    "meaning": "생선 튀김",
+    "pos": "명사",
+    "root": "ikan",
+    "affix_logic": "어근 'ikan'에 기반한 명사 파생 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "ikan krispi",
+    "antonym": "ikan kukus",
+    "context": "실생활 대화 및 비즈니스 상황에서 '생선 튀김'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'ikan'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'ikan goreng' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'생선 튀김'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ikan goreng' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '생선 튀김'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ikan",
+        "meaning": "생선 튀김"
+      }
+    ]
+  },
+  {
+    "id": "life_22",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "jus alpukat [[주스 알뿌깟]]",
+    "meaning": "아보카도 주스",
+    "pos": "명사",
+    "root": "jus",
+    "affix_logic": "어근 'jus'에 기반한 명사 파생 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "olahan alpukat",
+    "antonym": "air putih",
+    "context": "실생활 대화 및 비즈니스 상황에서 '아보카도 주스'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'jus'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'jus alpukat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'아보카도 주스'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'jus alpukat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '아보카도 주스'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "jus",
+        "meaning": "아보카도 주스"
+      }
+    ]
+  },
+  {
+    "id": "life_24",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "bandara [[반다라]]",
+    "meaning": "공항",
+    "pos": "명사",
+    "root": "udara",
+    "affix_logic": "어근 'udara'에 기반한 명사 파생 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "bandar udara",
+    "antonym": "stasiun",
+    "context": "실생활 대화 및 비즈니스 상황에서 '공항'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'udara'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'bandara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'공항'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bandara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '공항'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bandara",
+        "meaning": "공항"
+      }
+    ]
+  },
+  {
+    "id": "life_26",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "halte bus [[할뜨 버스]]",
+    "meaning": "버스 정류장",
+    "pos": "명사",
+    "root": "halte",
+    "affix_logic": "어근 'halte'에 기반한 명사 파생 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "stasiun bus",
+    "antonym": "terminal",
+    "context": "실생활 대화 및 비즈니스 상황에서 '버스 정류장'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'halte'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'halte bus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'버스 정류장'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'halte bus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '버스 정류장'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "halte",
+        "meaning": "버스 정류장"
+      }
+    ]
   }
 ];

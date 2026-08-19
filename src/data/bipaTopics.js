@@ -258,5 +258,57 @@ export const bipaTopics = [
         "meaning": "민족의 통합"
       }
     ]
+  },
+  {
+    "id": "bipa_11",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pemerintahan [[쁘머린따한]]",
+    "meaning": "정부 행정",
+    "pos": "명사",
+    "root": "perintah",
+    "affix_logic": "어근 'perintah'에 기반한 명사 파생 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "kabinet",
+    "antonym": "oposisi",
+    "context": "실생활 대화 및 비즈니스 상황에서 '정부 행정'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'perintah'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'pemerintahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'정부 행정'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemerintahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '정부 행정'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemerintahan",
+        "meaning": "정부 행정"
+      }
+    ]
+  },
+  {
+    "id": "bipa_13",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "kemerdekaan [[끄머르데까안]]",
+    "meaning": "독립, 자주",
+    "pos": "명사",
+    "root": "merdeka",
+    "affix_logic": "어근 'merdeka'에 기반한 명사 파생 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "kebebasan",
+    "antonym": "penjajahan",
+    "context": "실생활 대화 및 비즈니스 상황에서 '독립, 자주'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'merdeka'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'kemerdekaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'독립, 자주'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kemerdekaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '독립, 자주'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kemerdekaan",
+        "meaning": "독립"
+      }
+    ]
   }
 ];

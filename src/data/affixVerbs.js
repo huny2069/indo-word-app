@@ -648,5 +648,109 @@ export const affixVerbs = [
         "meaning": "끝내다"
       }
     ]
+  },
+  {
+    "id": "aff_26",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mendorong [[믄도롱]]",
+    "meaning": "밀다, 촉진하다",
+    "pos": "동사",
+    "root": "dorong",
+    "affix_logic": "어근 'dorong'에 기반한 동사 파생 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "memotivasi",
+    "antonym": "menarik",
+    "context": "실생활 대화 및 비즈니스 상황에서 '밀다, 촉진하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'dorong'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'mendorong' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'밀다, 촉진하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mendorong' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '밀다, 촉진하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mendorong",
+        "meaning": "밀다"
+      }
+    ]
+  },
+  {
+    "id": "aff_28",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menarik [[머나릭]]",
+    "meaning": "끌다, 매력적이다",
+    "pos": "동사",
+    "root": "tarik",
+    "affix_logic": "어근 'tarik'에 기반한 동사 파생 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "memikat",
+    "antonym": "mendorong",
+    "context": "실생활 대화 및 비즈니스 상황에서 '끌다, 매력적이다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'tarik'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'menarik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'끌다, 매력적이다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menarik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '끌다, 매력적이다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menarik",
+        "meaning": "끌다"
+      }
+    ]
+  },
+  {
+    "id": "aff_30",
+    "category_id": "affix_verbs",
+    "subcategory_id": "causative_locative_verbs",
+    "word": "mengunjungi [[멍운중이]]",
+    "meaning": "방문하다",
+    "pos": "동사",
+    "root": "kunjung",
+    "affix_logic": "어근 'kunjung'에 기반한 동사 파생 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "mendatangi",
+    "antonym": "meninggalkan",
+    "context": "실생활 대화 및 비즈니스 상황에서 '방문하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'kunjung'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'mengunjungi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'방문하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengunjungi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '방문하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengunjungi",
+        "meaning": "방문하다"
+      }
+    ]
+  },
+  {
+    "id": "aff_32",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "merawat [[머라왓]]",
+    "meaning": "돌보다, 가꾸다",
+    "pos": "동사",
+    "root": "rawat",
+    "affix_logic": "어근 'rawat'에 기반한 동사 파생 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "menjaga",
+    "antonym": "merusak",
+    "context": "실생활 대화 및 비즈니스 상황에서 '돌보다, 가꾸다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'rawat'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'merawat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'돌보다, 가꾸다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'merawat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '돌보다, 가꾸다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "merawat",
+        "meaning": "돌보다"
+      }
+    ]
   }
 ];

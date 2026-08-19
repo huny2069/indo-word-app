@@ -882,5 +882,109 @@ export const emotionsNuances = [
         "meaning": "슬픔과 애통함"
       }
     ]
+  },
+  {
+    "id": "emo_35",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "mabuk kepayang [[마북 끄빠양]]",
+    "meaning": "상사병에 걸리다",
+    "pos": "형용사구",
+    "root": "mabuk",
+    "affix_logic": "어근 'mabuk'에 기반한 형용사구 파생 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "bucin parah",
+    "antonym": "benci",
+    "context": "실생활 대화 및 비즈니스 상황에서 '상사병에 걸리다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'mabuk'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'mabuk kepayang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'상사병에 걸리다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mabuk kepayang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '상사병에 걸리다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mabuk",
+        "meaning": "상사병에 걸리다"
+      }
+    ]
+  },
+  {
+    "id": "emo_37",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "berbunga-bunga [[버르붕아붕아]]",
+    "meaning": "가슴이 설레다",
+    "pos": "형용사",
+    "root": "bunga",
+    "affix_logic": "어근 'bunga'에 기반한 형용사 파생 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "senang sekali",
+    "antonym": "gundah",
+    "context": "실생활 대화 및 비즈니스 상황에서 '가슴이 설레다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'bunga'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'berbunga-bunga' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'가슴이 설레다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbunga-bunga' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '가슴이 설레다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbunga-bunga",
+        "meaning": "가슴이 설레다"
+      }
+    ]
+  },
+  {
+    "id": "emo_39",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "malu-malu kucing [[말루말루 꿀찡]]",
+    "meaning": "내숭 떨다",
+    "pos": "형용사구",
+    "root": "malu",
+    "affix_logic": "어근 'malu'에 기반한 형용사구 파생 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "jaim",
+    "antonym": "blak-blakan",
+    "context": "실생활 대화 및 비즈니스 상황에서 '내숭 떨다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'malu'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'malu-malu kucing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'내숭 떨다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'malu-malu kucing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '내숭 떨다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "malu-malu",
+        "meaning": "내숭 떨다"
+      }
+    ]
+  },
+  {
+    "id": "emo_41",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "iri dengki [[이리 덩끼]]",
+    "meaning": "시기 질투하다",
+    "pos": "형용사구",
+    "root": "iri",
+    "affix_logic": "어근 'iri'에 기반한 형용사구 파생 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "cemburu",
+    "antonym": "tulus",
+    "context": "실생활 대화 및 비즈니스 상황에서 '시기 질투하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'iri'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'iri dengki' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'시기 질투하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'iri dengki' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '시기 질투하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "iri",
+        "meaning": "시기 질투하다"
+      }
+    ]
   }
 ];

@@ -362,5 +362,57 @@ export const slangDailySpoken = [
         "meaning": "오토바이 폭주 족 슬랭"
       }
     ]
+  },
+  {
+    "id": "slang_15",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "tedeng aling-aling [[뜨등 알링알링]]",
+    "meaning": "숨김없이 솔직한",
+    "pos": "형용사구",
+    "root": "aling",
+    "affix_logic": "어근 'aling'에 기반한 형용사구 파생 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "blak-blakan",
+    "antonym": "jaim",
+    "context": "실생활 대화 및 비즈니스 상황에서 '숨김없이 솔직한'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'aling'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'tedeng aling-aling' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'숨김없이 솔직한'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tedeng aling-aling' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '숨김없이 솔직한'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tedeng",
+        "meaning": "숨김없이 솔직한"
+      }
+    ]
+  },
+  {
+    "id": "slang_17",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "daily_life_survival",
+    "word": "anak nongkrong [[아낙 농끄롱]]",
+    "meaning": "카페/길거리 수다족",
+    "pos": "명사구",
+    "root": "nongkrong",
+    "affix_logic": "어근 'nongkrong'에 기반한 명사구 파생 어휘",
+    "grammar_rule": "문장 내에서 명사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "penggemar kumpul",
+    "antonym": "rumahan",
+    "context": "실생활 대화 및 비즈니스 상황에서 '카페/길거리 수다족'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계에 따라 어조를 조절하세요.",
+    "related": "어근 'nongkrong'와 관련된 어휘 파생어를 함께 공부해보세요.",
+    "example_formal": "Penggunaan kata 'anak nongkrong' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'카페/길거리 수다족'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'anak nongkrong' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '카페/길거리 수다족'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "anak",
+        "meaning": "카페/길거리 수다족"
+      }
+    ]
   }
 ];
