@@ -778,5 +778,109 @@ export const slangDailySpoken = [
         "meaning": "완전 릴랙스하게 (santai 변형)"
       }
     ]
+  },
+  {
+    "id": "slang_0031",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "kudet [[꾸뎃]]",
+    "meaning": "트렌드에 뒤처지다 (kurang update)",
+    "pos": "형용사, 슬랭",
+    "root": "update",
+    "affix_logic": "어근 'update'에 접사가 결합한 형용사, 슬랭",
+    "grammar_rule": "문장 내에서 형용사, 슬랭의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '트렌드에 뒤처지다 (kurang update)'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'update'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kudet' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'트렌드에 뒤처지다 (kurang update)'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kudet' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '트렌드에 뒤처지다 (kurang update)'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kudet",
+        "meaning": "트렌드에 뒤처지다 (kurang update)"
+      }
+    ]
+  },
+  {
+    "id": "slang_0032",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "bocil [[보찔]]",
+    "meaning": "어린애들, 꼬맹이 (bocah cilik)",
+    "pos": "명사, 슬랭",
+    "root": "bocah",
+    "affix_logic": "어근 'bocah'에 접사가 결합한 명사, 슬랭",
+    "grammar_rule": "문장 내에서 명사, 슬랭의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '어린애들, 꼬맹이 (bocah cilik)'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'bocah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'bocil' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'어린애들, 꼬맹이 (bocah cilik)'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bocil' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '어린애들, 꼬맹이 (bocah cilik)'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "bocil",
+        "meaning": "어린애들"
+      }
+    ]
+  },
+  {
+    "id": "slang_0033",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "daily_life_survival",
+    "word": "emak-emak [[으막으막]]",
+    "meaning": "억척 아줌마 군단",
+    "pos": "명사, 구어",
+    "root": "emak",
+    "affix_logic": "어근 'emak'에 접사가 결합한 명사, 구어",
+    "grammar_rule": "문장 내에서 명사, 구어의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '억척 아줌마 군단'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'emak'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'emak-emak' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'억척 아줌마 군단'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'emak-emak' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '억척 아줌마 군단'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "emak-emak",
+        "meaning": "억척 아줌마 군단"
+      }
+    ]
+  },
+  {
+    "id": "slang_0034",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "nyesek [[녜섹]]",
+    "meaning": "가슴이 답답하고 먹먹하다",
+    "pos": "형용사, 슬랭",
+    "root": "sesak",
+    "affix_logic": "어근 'sesak'에 접사가 결합한 형용사, 슬랭",
+    "grammar_rule": "문장 내에서 형용사, 슬랭의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '가슴이 답답하고 먹먹하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'sesak'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'nyesek' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'가슴이 답답하고 먹먹하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'nyesek' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '가슴이 답답하고 먹먹하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "nyesek",
+        "meaning": "가슴이 답답하고 먹먹하다"
+      }
+    ]
   }
 ];

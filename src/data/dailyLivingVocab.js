@@ -470,6 +470,110 @@ export const dailyLivingVocab = [
   {
     "id": "life_0019",
     "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "kecap manis [[끄짭 마니스]]",
+    "meaning": "달콤한 인도네시아 전통 간장",
+    "pos": "명사",
+    "root": "kecap",
+    "affix_logic": "어근 'kecap'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '달콤한 인도네시아 전통 간장'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kecap'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kecap manis' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'달콤한 인도네시아 전통 간장'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kecap manis' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '달콤한 인도네시아 전통 간장'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kecap",
+        "meaning": "달콤한 인도네시아 전통 간장"
+      }
+    ]
+  },
+  {
+    "id": "life_0020",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "garam dapur [[가람 다뿌르]]",
+    "meaning": "식염, 요리용 소금",
+    "pos": "명사",
+    "root": "garam",
+    "affix_logic": "어근 'garam'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '식염, 요리용 소금'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'garam'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'garam dapur' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'식염, 요리용 소금'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'garam dapur' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '식염, 요리용 소금'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "garam",
+        "meaning": "식염"
+      }
+    ]
+  },
+  {
+    "id": "life_0021",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "gula pasir [[굴라 빠시르]]",
+    "meaning": "백설탕",
+    "pos": "명사",
+    "root": "gula",
+    "affix_logic": "어근 'gula'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '백설탕'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'gula'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'gula pasir' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'백설탕'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'gula pasir' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '백설탕'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "gula",
+        "meaning": "백설탕"
+      }
+    ]
+  },
+  {
+    "id": "life_0022",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "merica bubuk [[머리짜 부북]]",
+    "meaning": "후춧가루",
+    "pos": "명사",
+    "root": "merica",
+    "affix_logic": "어근 'merica'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '후춧가루'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'merica'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'merica bubuk' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'후춧가루'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'merica bubuk' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '후춧가루'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "merica",
+        "meaning": "후춧가루"
+      }
+    ]
+  },
+  {
+    "id": "life_0023",
+    "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "macet [[마쳇]]",
     "meaning": "교통 체증, 막히다",
@@ -494,7 +598,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0020",
+    "id": "life_0024",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "lancar [[란짜르]]",
@@ -520,7 +624,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0021",
+    "id": "life_0025",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "ongkos [[옹꼬스]]",
@@ -546,7 +650,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0022",
+    "id": "life_0026",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "ojek online [[오젝 온라인]]",
@@ -572,7 +676,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0023",
+    "id": "life_0027",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "lampu merah [[람뿌 메라]]",
@@ -598,7 +702,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0024",
+    "id": "life_0028",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "putar balik [[뿌따르 발릭]]",
@@ -624,7 +728,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0025",
+    "id": "life_0029",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "pom bensin [[뽐 벤신]]",
@@ -650,7 +754,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0026",
+    "id": "life_0030",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "tiket pesawat [[띠껫 쁘사와뜨]]",
@@ -676,7 +780,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0027",
+    "id": "life_0031",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "stasiun kereta [[스따시운 끄레따]]",
@@ -702,7 +806,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0028",
+    "id": "life_0032",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "bandara [[반다라]]",
@@ -728,7 +832,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0029",
+    "id": "life_0033",
     "category_id": "daily_living_themes",
     "subcategory_id": "transport_travel_map",
     "word": "halte bus [[할뜨 버스]]",
@@ -754,7 +858,59 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0030",
+    "id": "life_0034",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "helm [[헬름]]",
+    "meaning": "오토바이 안전 헬멧",
+    "pos": "명사",
+    "root": "helm",
+    "affix_logic": "어근 'helm'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '오토바이 안전 헬멧'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'helm'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'helm' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'오토바이 안전 헬멧'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'helm' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '오토바이 안전 헬멧'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "helm",
+        "meaning": "오토바이 안전 헬멧"
+      }
+    ]
+  },
+  {
+    "id": "life_0035",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "kartu etoll [[까르뚜 이똘]]",
+    "meaning": "고속도로 전자 통행 카드",
+    "pos": "명사",
+    "root": "toll",
+    "affix_logic": "어근 'toll'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '고속도로 전자 통행 카드'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'toll'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kartu etoll' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'고속도로 전자 통행 카드'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kartu etoll' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '고속도로 전자 통행 카드'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kartu",
+        "meaning": "고속도로 전자 통행 카드"
+      }
+    ]
+  },
+  {
+    "id": "life_0036",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "pusing [[뿌싱]]",
@@ -780,7 +936,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0031",
+    "id": "life_0037",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "demam [[드맘]]",
@@ -806,7 +962,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0032",
+    "id": "life_0038",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "resep dokter [[르셉 독떠르]]",
@@ -832,7 +988,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0033",
+    "id": "life_0039",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "batuk pilek [[바툭 삘렉]]",
@@ -858,7 +1014,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0034",
+    "id": "life_0040",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "sakit perut [[사낏 쁘룻]]",
@@ -884,7 +1040,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0035",
+    "id": "life_0041",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "ruang igd [[루앙 이게데]]",
@@ -910,7 +1066,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0036",
+    "id": "life_0042",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "apotek [[아뽀떽]]",
@@ -936,7 +1092,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0037",
+    "id": "life_0043",
     "category_id": "daily_living_themes",
     "subcategory_id": "body_health_hospital",
     "word": "tekanan darah [[뜨까난 다라]]",
@@ -962,7 +1118,59 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0038",
+    "id": "life_0044",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "minyak kayu putih [[민약 까유 뿌띠]]",
+    "meaning": "카유푸티 오일 (국민 상비약)",
+    "pos": "명사",
+    "root": "kayu",
+    "affix_logic": "어근 'kayu'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '카유푸티 오일 (국민 상비약)'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kayu'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'minyak kayu putih' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'카유푸티 오일 (국민 상비약)'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'minyak kayu putih' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '카유푸티 오일 (국민 상비약)'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "minyak",
+        "meaning": "카유푸티 오일 (국민 상비약)"
+      }
+    ]
+  },
+  {
+    "id": "life_0045",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "dokter spesialis [[독떠르 스뻬시아리스]]",
+    "meaning": "전문의",
+    "pos": "명사",
+    "root": "dokter",
+    "affix_logic": "어근 'dokter'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '전문의'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'dokter'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'dokter spesialis' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'전문의'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dokter spesialis' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '전문의'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "dokter",
+        "meaning": "전문의"
+      }
+    ]
+  },
+  {
+    "id": "life_0046",
     "category_id": "daily_living_themes",
     "subcategory_id": "shopping_finance_fashion",
     "word": "diskon [[디스꼰]]",
@@ -988,7 +1196,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0039",
+    "id": "life_0047",
     "category_id": "daily_living_themes",
     "subcategory_id": "shopping_finance_fashion",
     "word": "uang tunai [[우앙 뚜나이]]",
@@ -1014,7 +1222,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0040",
+    "id": "life_0048",
     "category_id": "daily_living_themes",
     "subcategory_id": "shopping_finance_fashion",
     "word": "tukar uang [[뚜까르 우앙]]",
@@ -1040,7 +1248,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0041",
+    "id": "life_0049",
     "category_id": "daily_living_themes",
     "subcategory_id": "shopping_finance_fashion",
     "word": "kartu kredit [[까르뚜 끄레딧]]",
@@ -1066,7 +1274,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0042",
+    "id": "life_0050",
     "category_id": "daily_living_themes",
     "subcategory_id": "shopping_finance_fashion",
     "word": "struk belanja [[스뜨룩 블란자]]",
@@ -1092,7 +1300,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0043",
+    "id": "life_0051",
     "category_id": "daily_living_themes",
     "subcategory_id": "shopping_finance_fashion",
     "word": "transfer bank [[뜨란스페르 방]]",
@@ -1118,7 +1326,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0044",
+    "id": "life_0052",
     "category_id": "daily_living_themes",
     "subcategory_id": "shopping_finance_fashion",
     "word": "mesin atm [[머신 아떼엠]]",
@@ -1144,7 +1352,59 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0045",
+    "id": "life_0053",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "shopping_finance_fashion",
+    "word": "pasar tradisional [[빠사르 뜨라디시오날]]",
+    "meaning": "전통 재래시장",
+    "pos": "명사",
+    "root": "pasar",
+    "affix_logic": "어근 'pasar'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '전통 재래시장'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'pasar'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'pasar tradisional' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'전통 재래시장'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pasar tradisional' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '전통 재래시장'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "pasar",
+        "meaning": "전통 재래시장"
+      }
+    ]
+  },
+  {
+    "id": "life_0054",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "shopping_finance_fashion",
+    "word": "tawar-menawar [[따와르머나와르]]",
+    "meaning": "가격을 흥정하다",
+    "pos": "동사",
+    "root": "tawar",
+    "affix_logic": "어근 'tawar'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '가격을 흥정하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'tawar'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'tawar-menawar' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'가격을 흥정하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tawar-menawar' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '가격을 흥정하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "tawar-menawar",
+        "meaning": "가격을 흥정하다"
+      }
+    ]
+  },
+  {
+    "id": "life_0055",
     "category_id": "daily_living_themes",
     "subcategory_id": "home_appliances_living",
     "word": "kamar mandi [[까마르 만디]]",
@@ -1170,7 +1430,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0046",
+    "id": "life_0056",
     "category_id": "daily_living_themes",
     "subcategory_id": "home_appliances_living",
     "word": "dapur [[다뿌르]]",
@@ -1196,7 +1456,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0047",
+    "id": "life_0057",
     "category_id": "daily_living_themes",
     "subcategory_id": "home_appliances_living",
     "word": "mesin cuci [[머신 쭈찌]]",
@@ -1222,7 +1482,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0048",
+    "id": "life_0058",
     "category_id": "daily_living_themes",
     "subcategory_id": "home_appliances_living",
     "word": "kulkas [[쿨까스]]",
@@ -1248,7 +1508,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0049",
+    "id": "life_0059",
     "category_id": "daily_living_themes",
     "subcategory_id": "home_appliances_living",
     "word": "sapu lidi [[사뿌 리디]]",
@@ -1274,7 +1534,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0050",
+    "id": "life_0060",
     "category_id": "daily_living_themes",
     "subcategory_id": "home_appliances_living",
     "word": "kamar tidur [[까마르 띠두르]]",
@@ -1300,7 +1560,59 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0051",
+    "id": "life_0061",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "kipas angin [[끼빠스 앙인]]",
+    "meaning": "선풍기",
+    "pos": "명사",
+    "root": "kipas",
+    "affix_logic": "어근 'kipas'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '선풍기'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kipas'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kipas angin' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'선풍기'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kipas angin' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '선풍기'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kipas",
+        "meaning": "선풍기"
+      }
+    ]
+  },
+  {
+    "id": "life_0062",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "colokan listrik [[쫄로깐 리스뜨릭]]",
+    "meaning": "전기 콘센트",
+    "pos": "명사",
+    "root": "colok",
+    "affix_logic": "어근 'colok'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '전기 콘센트'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'colok'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'colokan listrik' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'전기 콘센트'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'colokan listrik' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '전기 콘센트'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "colokan",
+        "meaning": "전기 콘센트"
+      }
+    ]
+  },
+  {
+    "id": "life_0063",
     "category_id": "daily_living_themes",
     "subcategory_id": "nature_weather_time",
     "word": "musim hujan [[무심 후잔]]",
@@ -1326,7 +1638,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0052",
+    "id": "life_0064",
     "category_id": "daily_living_themes",
     "subcategory_id": "nature_weather_time",
     "word": "musim kemarau [[무심 끄마라우]]",
@@ -1352,7 +1664,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0053",
+    "id": "life_0065",
     "category_id": "daily_living_themes",
     "subcategory_id": "nature_weather_time",
     "word": "banjir [[반지르]]",
@@ -1378,7 +1690,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0054",
+    "id": "life_0066",
     "category_id": "daily_living_themes",
     "subcategory_id": "nature_weather_time",
     "word": "gempa bumi [[겜빠 부미]]",
@@ -1404,7 +1716,7 @@ export const dailyLivingVocab = [
     ]
   },
   {
-    "id": "life_0055",
+    "id": "life_0067",
     "category_id": "daily_living_themes",
     "subcategory_id": "nature_weather_time",
     "word": "angin kencang [[앙인 끈짱]]",
@@ -1426,6 +1738,58 @@ export const dailyLivingVocab = [
       {
         "word": "angin",
         "meaning": "돌풍"
+      }
+    ]
+  },
+  {
+    "id": "life_0068",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "awan tebal [[아완 뜨발]]",
+    "meaning": "먹구름, 짙은 구름",
+    "pos": "명사",
+    "root": "awan",
+    "affix_logic": "어근 'awan'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '먹구름, 짙은 구름'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'awan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'awan tebal' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'먹구름, 짙은 구름'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'awan tebal' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '먹구름, 짙은 구름'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "awan",
+        "meaning": "먹구름"
+      }
+    ]
+  },
+  {
+    "id": "life_0069",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "pantai [[빤따이]]",
+    "meaning": "해변, 바닷가",
+    "pos": "명사",
+    "root": "pantai",
+    "affix_logic": "어근 'pantai'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '해변, 바닷가'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'pantai'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'pantai' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'해변, 바닷가'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pantai' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '해변, 바닷가'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "pantai",
+        "meaning": "해변"
       }
     ]
   }

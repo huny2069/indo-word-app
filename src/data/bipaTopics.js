@@ -544,5 +544,135 @@ export const bipaTopics = [
         "meaning": "문화"
       }
     ]
+  },
+  {
+    "id": "bipa_0022",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_beginner",
+    "word": "pendidikan [[쁜디디깐]]",
+    "meaning": "교육, 교양 교육",
+    "pos": "명사",
+    "root": "didik",
+    "affix_logic": "어근 'didik'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '교육, 교양 교육'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'didik'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'pendidikan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'교육, 교양 교육'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pendidikan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '교육, 교양 교육'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "pendidikan",
+        "meaning": "교육"
+      }
+    ]
+  },
+  {
+    "id": "bipa_0023",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_beginner",
+    "word": "kesehatan [[끄세하딴]]",
+    "meaning": "건강, 보건",
+    "pos": "명사",
+    "root": "sehat",
+    "affix_logic": "어근 'sehat'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '건강, 보건'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'sehat'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kesehatan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'건강, 보건'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kesehatan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '건강, 보건'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kesehatan",
+        "meaning": "건강"
+      }
+    ]
+  },
+  {
+    "id": "bipa_0024",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pemerintahan [[쁘머린따한]]",
+    "meaning": "정부, 통치 행정",
+    "pos": "명사",
+    "root": "perintah",
+    "affix_logic": "어근 'perintah'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '정부, 통치 행정'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'perintah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'pemerintahan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'정부, 통치 행정'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemerintahan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '정부, 통치 행정'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "pemerintahan",
+        "meaning": "정부"
+      }
+    ]
+  },
+  {
+    "id": "bipa_0025",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "masyarakat [[마샤라깟]]",
+    "meaning": "사회, 대중",
+    "pos": "명사",
+    "root": "masyarakat",
+    "affix_logic": "어근 'masyarakat'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '사회, 대중'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'masyarakat'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'masyarakat' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'사회, 대중'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'masyarakat' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '사회, 대중'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "masyarakat",
+        "meaning": "사회"
+      }
+    ]
+  },
+  {
+    "id": "bipa_0026",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "kemerdekaan [[끄머르데까안]]",
+    "meaning": "독립, 자주권",
+    "pos": "명사",
+    "root": "merdeka",
+    "affix_logic": "어근 'merdeka'에 접사가 결합한 명사",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '독립, 자주권'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'merdeka'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kemerdekaan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'독립, 자주권'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kemerdekaan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '독립, 자주권'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kemerdekaan",
+        "meaning": "독립"
+      }
+    ]
   }
 ];

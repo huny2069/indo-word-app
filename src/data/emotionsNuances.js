@@ -652,6 +652,58 @@ export const emotionsNuances = [
   {
     "id": "emo_0026",
     "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "mabuk kepayang [[마북 끄빠양]]",
+    "meaning": "사랑에 눈이 멀다, 상사병 나다",
+    "pos": "형용사구",
+    "root": "mabuk",
+    "affix_logic": "어근 'mabuk'에 접사가 결합한 형용사구",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "bucin parah",
+    "antonym": "benci",
+    "context": "실생활 및 회화 상황에서 '사랑에 눈이 멀다, 상사병 나다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'mabuk'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'mabuk kepayang' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'사랑에 눈이 멀다, 상사병 나다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mabuk kepayang' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '사랑에 눈이 멀다, 상사병 나다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "mabuk",
+        "meaning": "사랑에 눈이 멀다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0027",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "berbunga-bunga [[버르붕아붕아]]",
+    "meaning": "가슴이 설레다, 기쁨이 넘치다",
+    "pos": "형용사",
+    "root": "bunga",
+    "affix_logic": "어근 'bunga'에 접사가 결합한 형용사",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "senang sekali",
+    "antonym": "gundah",
+    "context": "실생활 및 회화 상황에서 '가슴이 설레다, 기쁨이 넘치다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'bunga'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'berbunga-bunga' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'가슴이 설레다, 기쁨이 넘치다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbunga-bunga' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '가슴이 설레다, 기쁨이 넘치다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "berbunga-bunga",
+        "meaning": "가슴이 설레다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0028",
+    "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "santai [[산따이]]",
     "meaning": "느긋하다, 여유롭다",
@@ -676,7 +728,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0027",
+    "id": "emo_0029",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "muka tembok [[무까 뗌복]]",
@@ -702,7 +754,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0028",
+    "id": "emo_0030",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "teliti [[뜰리티]]",
@@ -728,7 +780,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0029",
+    "id": "emo_0031",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "ceroboh [[츠로보]]",
@@ -754,7 +806,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0030",
+    "id": "emo_0032",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "sombong [[솜봉]]",
@@ -780,7 +832,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0031",
+    "id": "emo_0033",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "rendah hati [[른다 하티]]",
@@ -806,7 +858,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0032",
+    "id": "emo_0034",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "ramah [[라마]]",
@@ -832,7 +884,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0033",
+    "id": "emo_0035",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "jutek [[주텍]]",
@@ -858,7 +910,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0034",
+    "id": "emo_0036",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "pelit [[쁠릿]]",
@@ -884,7 +936,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0035",
+    "id": "emo_0037",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "dermawan [[더르마완]]",
@@ -910,7 +962,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0036",
+    "id": "emo_0038",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "tegas [[뜨가스]]",
@@ -936,7 +988,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0037",
+    "id": "emo_0039",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "licik [[리찍]]",
@@ -962,7 +1014,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0038",
+    "id": "emo_0040",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "jujur [[주주르]]",
@@ -988,7 +1040,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0039",
+    "id": "emo_0041",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "sabar [[사바르]]",
@@ -1014,7 +1066,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0040",
+    "id": "emo_0042",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "tabah [[따바]]",
@@ -1040,7 +1092,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0041",
+    "id": "emo_0043",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "bawel [[바웰]]",
@@ -1066,7 +1118,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0042",
+    "id": "emo_0044",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "pendiam [[픈디암]]",
@@ -1092,7 +1144,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0043",
+    "id": "emo_0045",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "mandiri [[만디리]]",
@@ -1118,7 +1170,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0044",
+    "id": "emo_0046",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "kreatif [[끄레아띱]]",
@@ -1144,7 +1196,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0045",
+    "id": "emo_0047",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "bijaksana [[비작사나]]",
@@ -1170,7 +1222,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0046",
+    "id": "emo_0048",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "gigih [[기기]]",
@@ -1196,7 +1248,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0047",
+    "id": "emo_0049",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "ulet [[울렛]]",
@@ -1222,7 +1274,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0048",
+    "id": "emo_0050",
     "category_id": "emotions_nuances",
     "subcategory_id": "personality_attitude",
     "word": "tamak [[따막]]",
@@ -1248,7 +1300,59 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0049",
+    "id": "emo_0051",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "kepala batu [[끄빨라 바뚜]]",
+    "meaning": "고집불통이다, 완고하다",
+    "pos": "형용사구",
+    "root": "batu",
+    "affix_logic": "어근 'batu'에 접사가 결합한 형용사구",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "keras kepala",
+    "antonym": "penurut",
+    "context": "실생활 및 회화 상황에서 '고집불통이다, 완고하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'batu'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kepala batu' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'고집불통이다, 완고하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kepala batu' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '고집불통이다, 완고하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kepala",
+        "meaning": "고집불통이다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0052",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "otak encer [[오딱 엔쩨르]]",
+    "meaning": "머리가 비상하다, 총명하다",
+    "pos": "형용사구",
+    "root": "encer",
+    "affix_logic": "어근 'encer'에 접사가 결합한 형용사구",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "pintar sekali",
+    "antonym": "bodoh",
+    "context": "실생활 및 회화 상황에서 '머리가 비상하다, 총명하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'encer'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'otak encer' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'머리가 비상하다, 총명하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'otak encer' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '머리가 비상하다, 총명하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "otak",
+        "meaning": "머리가 비상하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0053",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "gurih [[구리]]",
@@ -1274,7 +1378,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0050",
+    "id": "emo_0054",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "hambar [[함바르]]",
@@ -1300,7 +1404,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0051",
+    "id": "emo_0055",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "pedas [[쁘다스]]",
@@ -1326,7 +1430,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0052",
+    "id": "emo_0056",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "sejuk [[스죽]]",
@@ -1352,7 +1456,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0053",
+    "id": "emo_0057",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "gerah [[그라]]",
@@ -1378,7 +1482,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0054",
+    "id": "emo_0058",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "lembab [[름밥]]",
@@ -1404,7 +1508,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0055",
+    "id": "emo_0059",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "empuk [[음뿍]]",
@@ -1430,7 +1534,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0056",
+    "id": "emo_0060",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "garing [[가링]]",
@@ -1456,7 +1560,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0057",
+    "id": "emo_0061",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "melempem [[믈름뻠]]",
@@ -1482,7 +1586,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0058",
+    "id": "emo_0062",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "semerbak [[스머르박]]",
@@ -1508,7 +1612,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0059",
+    "id": "emo_0063",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "pengap [[믕압]]",
@@ -1534,7 +1638,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0060",
+    "id": "emo_0064",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "silau [[실라우]]",
@@ -1560,7 +1664,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0061",
+    "id": "emo_0065",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "remang-remang [[르망르망]]",
@@ -1586,7 +1690,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0062",
+    "id": "emo_0066",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "asam [[아삼]]",
@@ -1612,7 +1716,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0063",
+    "id": "emo_0067",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "manis legit [[마니스 르깃]]",
@@ -1638,7 +1742,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0064",
+    "id": "emo_0068",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "pahit getir [[빠힛 그띠르]]",
@@ -1664,7 +1768,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0065",
+    "id": "emo_0069",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "amis [[아미스]]",
@@ -1690,7 +1794,7 @@ export const emotionsNuances = [
     ]
   },
   {
-    "id": "emo_0066",
+    "id": "emo_0070",
     "category_id": "emotions_nuances",
     "subcategory_id": "senses_and_states",
     "word": "tengik [[떵익]]",
@@ -1712,6 +1816,58 @@ export const emotionsNuances = [
       {
         "word": "tengik",
         "meaning": "기름 쩐내가 나다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0071",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "kesat [[끄삿]]",
+    "meaning": "뽀득뽀득하다, 물기 없이 빳빳하다",
+    "pos": "형용사",
+    "root": "kesat",
+    "affix_logic": "어근 'kesat'에 접사가 결합한 형용사",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "bersih kesat",
+    "antonym": "licin",
+    "context": "실생활 및 회화 상황에서 '뽀득뽀득하다, 물기 없이 빳빳하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kesat'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kesat' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'뽀득뽀득하다, 물기 없이 빳빳하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kesat' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '뽀득뽀득하다, 물기 없이 빳빳하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kesat",
+        "meaning": "뽀득뽀득하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0072",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "licin [[리찐]]",
+    "meaning": "미끄럽다, 매끄럽다",
+    "pos": "형용사",
+    "root": "licin",
+    "affix_logic": "어근 'licin'에 접사가 결합한 형용사",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "halus",
+    "antonym": "kasar",
+    "context": "실생활 및 회화 상황에서 '미끄럽다, 매끄럽다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'licin'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'licin' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'미끄럽다, 매끄럽다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'licin' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '미끄럽다, 매끄럽다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "licin",
+        "meaning": "미끄럽다"
       }
     ]
   }

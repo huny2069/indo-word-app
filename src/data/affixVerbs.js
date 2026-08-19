@@ -908,5 +908,135 @@ export const affixVerbs = [
         "meaning": "거절하다"
       }
     ]
+  },
+  {
+    "id": "aff_0036",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mendukung [[먼두꿍]]",
+    "meaning": "지지하다, 후원하다",
+    "pos": "동사",
+    "root": "dukung",
+    "affix_logic": "어근 'dukung'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '지지하다, 후원하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'dukung'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'mendukung' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'지지하다, 후원하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mendukung' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '지지하다, 후원하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "mendukung",
+        "meaning": "지지하다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0037",
+    "category_id": "affix_verbs",
+    "subcategory_id": "causative_locative_verbs",
+    "word": "melindungi [[머린둥이]]",
+    "meaning": "보호하다, 지키다",
+    "pos": "동사",
+    "root": "lindung",
+    "affix_logic": "어근 'lindung'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '보호하다, 지키다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'lindung'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'melindungi' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'보호하다, 지키다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'melindungi' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '보호하다, 지키다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "melindungi",
+        "meaning": "보호하다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0038",
+    "category_id": "affix_verbs",
+    "subcategory_id": "causative_locative_verbs",
+    "word": "mengunjungi [[멍운중이]]",
+    "meaning": "방문하다, 찾아가다",
+    "pos": "동사",
+    "root": "kunjung",
+    "affix_logic": "어근 'kunjung'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '방문하다, 찾아가다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kunjung'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'mengunjungi' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'방문하다, 찾아가다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengunjungi' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '방문하다, 찾아가다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "mengunjungi",
+        "meaning": "방문하다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0039",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "merawat [[머라왓]]",
+    "meaning": "돌보다, 간호하다, 가꾸다",
+    "pos": "동사",
+    "root": "rawat",
+    "affix_logic": "어근 'rawat'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '돌보다, 간호하다, 가꾸다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'rawat'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'merawat' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'돌보다, 간호하다, 가꾸다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'merawat' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '돌보다, 간호하다, 가꾸다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "merawat",
+        "meaning": "돌보다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0040",
+    "category_id": "affix_verbs",
+    "subcategory_id": "causative_locative_verbs",
+    "word": "meninggalkan [[머닝갈깐]]",
+    "meaning": "떠나다, 남겨두다",
+    "pos": "동사",
+    "root": "tinggal",
+    "affix_logic": "어근 'tinggal'에 접사가 결합한 동사",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며, 상황에 따라 격식체와 구어체로 유연하게 활용됩니다.",
+    "synonym": "-",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '떠나다, 남겨두다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'tinggal'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'meninggalkan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'떠나다, 남겨두다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'meninggalkan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '떠나다, 남겨두다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "meninggalkan",
+        "meaning": "떠나다"
+      }
+    ]
   }
 ];
