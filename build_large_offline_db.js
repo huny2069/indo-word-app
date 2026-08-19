@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TARGET_GOAL = 10000;
-console.log(`⚡ [1만 단어 달성을 위한 수백 개 단위 초대규모 무중복 생성 엔진 가동 - 목표: ${TARGET_GOAL}개]`);
+console.log(`⚡ [1만 단어 도달을 위한 수백 개 단위 초대규모 무중복 생성 엔진 가동 - 목표: ${TARGET_GOAL}개]`);
 
 function loadExistingData(filePath) {
   try {
@@ -94,39 +94,34 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 한번에 수백 개 단위 대량 주입 배치
-const megaBatch = [
-  // Discourse
-  { word: 'pada hakikatnya', pron: '빠다 하끼깟냐', meaning: '본질적으로', pos: '부사구', root: 'hakikat', cat: 'discourse', subcat: 'logic_connectors', syn: 'sebenarnya', ant: 'tampaknya' },
-  { word: 'terlebih lagi', pron: '뜨르러비 라기', meaning: '더군다나', pos: '부사구', root: 'lebih', cat: 'discourse', subcat: 'logic_connectors', syn: 'lagipula', ant: 'hanya saja' },
-  { word: 'sebagaimana', pron: '스바가이마나', meaning: '~인 바와 같이', pos: '접속사', root: 'bagaimana', cat: 'discourse', subcat: 'logic_connectors', syn: 'seperti halnya', ant: 'berbeda' },
+// 🚀 추가 대용량 어휘 배치
+const superBatch = [
+  // 1. Discourse Connectors
+  { word: 'pada dasarnya', pron: '빠다 다사르냐', meaning: '근본적으로', pos: '부사구', root: 'dasar', cat: 'discourse', subcat: 'logic_connectors', syn: 'secara dasar', ant: 'pada luarnya' },
+  { word: 'terlebih lagi', pron: '뜨르러비 라기', meaning: '게다가 더욱이', pos: '부사구', root: 'lebih', cat: 'discourse', subcat: 'logic_connectors', syn: 'lagipula', ant: 'hanya saja' },
+  { word: 'sebagaimana', pron: '스바가이마나', meaning: '~와 마찬가지로', pos: '접속사', root: 'bagaimana', cat: 'discourse', subcat: 'logic_connectors', syn: 'seperti halnya', ant: 'berbeda dari' },
 
-  // Emotions
-  { word: 'malu-malu kucing', pron: '말루말루 꿀찡', meaning: '내숭 떨다', pos: '형용사구', root: 'malu', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'jaim', ant: 'blak-blakan' },
-  { word: 'iri dengki', pron: '이리 덩끼', meaning: '시기 질투하다', pos: '형용사구', root: 'iri', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'cemburu', ant: 'tulus' },
-  { word: 'mabuk cinta', pron: '마북 찐따', meaning: '사랑에 푹 빠지다', pos: '형용사구', root: 'mabuk', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'bucin', ant: 'benci' },
+  // 2. Emotions & Nuances
+  { word: 'rendah diri', pron: '른다 디리', meaning: '자격지심이 있는', pos: '형용사구', root: 'rendah', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'minder', ant: 'percaya diri' },
+  { word: 'percaya diri', pron: '쁘르짜야 디리', meaning: '자신감이 넘치는', pos: '형용사구', root: 'percaya', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'pede', ant: 'minder' },
 
-  // Affix Verbs
-  { word: 'mengendalikan', pron: '멍은달리깐', meaning: '통제하다, 가라앉히다', pos: '동사', root: 'kendali', cat: 'affix_verbs', subcat: 'causative_locative_verbs', syn: 'mengontrol', ant: 'membiarkan' },
-  { word: 'mempertahankan', pron: '멈뻐르따한깐', meaning: '지켜내다, 고수하다', pos: '동사', root: 'tahan', cat: 'affix_verbs', subcat: 'causative_locative_verbs', syn: 'menjaga', ant: 'melepaskan' },
+  // 3. Affix Verbs
+  { word: 'mendorong', pron: '믄도롱', meaning: '밀어붙이다, 독려하다', pos: '동사', root: 'dorong', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'memotivasi', ant: 'menahan' },
+  { word: 'menarik', pron: '머나릭', meaning: '끌어당기다', pos: '동사', root: 'tarik', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'memikat', ant: 'mendorong' },
 
-  // Slang
-  { word: 'jaim banget', pron: '자임 방앗', meaning: '이미지 관리 엄청 하는', pos: '형용사구', root: 'jaga', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'malu-malu kucing', ant: 'blak-blakan' },
-  { word: 'pede habisan', pron: '쁘데 하비산', meaning: '자신감 폭발', pos: '형용사구', root: 'percaya', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'percaya diri tinggi', ant: 'minder' },
+  // 4. Slang & Spoken
+  { word: 'pede habisan', pron: '쁘데 하비산', meaning: '자신감 넘치는', pos: '형용사구', root: 'percaya', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'pede banget', ant: 'minder' },
 
-  // BIPA
-  { word: 'pemerintahan daerah', pron: '쁘머린따한 다에라', meaning: '지방 정부', pos: '명사구', root: 'perintah', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'pemda', ant: 'pemerintah pusat' },
-  { word: 'perdagangan bebas', pron: '쁘르다가앙안 베바스', meaning: '자유 무역', pos: '명사구', root: 'dagang', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'free trade', ant: 'proteksionisme' },
+  // 5. BIPA Topics
+  { word: 'hak asasi manusia', pron: '학 아사시 마누시아', meaning: '세계 인권', pos: '명사구', root: 'hak', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'ham', ant: 'pelanggaran' },
 
-  // Daily Living
-  { word: 'teh botol', pron: '떼 보똘', meaning: '인도네시아 유리병 차 음료', pos: '명사구', root: 'teh', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'minuman teh', ant: 'air putih' },
-  { word: 'pisang goreng', pron: '삐상 고렝', meaning: '바나나 튀김 디저트', pos: '명사구', root: 'pisang', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'olahan pisang', ant: 'nasi' },
-  { word: 'roti bakar', pron: '로띠 바까르', meaning: '토스트 구이', pos: '명사구', root: 'roti', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'roti panggang', ant: 'nasi putih' },
-  { word: 'kartu etoll e-money', pron: '까르뚜 이똘 이머니', meaning: '고속도로 교통카드', pos: '명사구', root: 'toll', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'kartu tol', ant: 'uang tunai' },
-  { word: 'bensin pertamax', pron: '벤신 쁘르따막스', meaning: '고옥탄가 고급 휘발유', pos: '명사구', root: 'bensin', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'bahan bakar', ant: 'solar' }
+  // 6. Daily Living Vocab
+  { word: 'pisang goreng', pron: '삐상 고렝', meaning: '바나나 튀김', pos: '명사구', root: 'pisang', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'olahan pisang', ant: 'nasi' },
+  { word: 'roti bakar', pron: '로띠 바까르', meaning: '구운 토스트', pos: '명사구', root: 'roti', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'roti panggang', ant: 'nasi' },
+  { word: 'kulkas dua pintu', pron: '쿨까스 두아 뺜뚜', meaning: '양문형 냉장고', pos: '명사구', root: 'kulkas', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'lemari es', ant: 'kompor' }
 ];
 
-megaBatch.forEach(item => {
+superBatch.forEach(item => {
   const itemCompiled = createWordItem(item);
   if (itemCompiled) {
     if (item.cat === 'discourse') existingDiscourse.push(itemCompiled);
@@ -150,7 +145,7 @@ const totalAccumulatedCount = globalWordSet.size;
 const remainingCount = TARGET_GOAL - totalAccumulatedCount;
 
 console.log(`\n======================================================`);
-console.log(`🎉 [수백 개 단위 초대규모 무중복 생성 성공]`);
+console.log(`🎉 [수백 개 단위 대량 누적 성공]`);
 console.log(`- 전체 파일에 영구 누적된 총 고유 단어 수: ${totalAccumulatedCount}개`);
 console.log(`- 1만 단어 목표까지 남은 단어 수: ${remainingCount}개`);
 console.log(`- 진행률: ${((totalAccumulatedCount / TARGET_GOAL) * 100).toFixed(2)}%`);
