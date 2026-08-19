@@ -1064,5 +1064,499 @@ export const dailyLivingVocab = [
         "meaning": "고옥탄가 고급 휘발유"
       }
     ]
+  },
+  {
+    "id": "word_1787138634335_dptk5",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "harimau sumatra [[하리마우 수마뜨라]]",
+    "meaning": "수마트라 호랑이",
+    "pos": "명사구",
+    "root": "harimau",
+    "affix_logic": "어근 'harimau'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "macan sumatra",
+    "antonym": "kucing",
+    "context": "실생활 및 회화/비즈니스 상황에서 '수마트라 호랑이'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'harimau'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'harimau sumatra' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'수마트라 호랑이'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'harimau sumatra' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '수마트라 호랑이'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "harimau",
+        "meaning": "수마트라 호랑이"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_4ltcx",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "gajah sumatra [[가자 수마뜨라]]",
+    "meaning": "수마트라 코끼리",
+    "pos": "명사구",
+    "root": "gajah",
+    "affix_logic": "어근 'gajah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "gajah asia",
+    "antonym": "semut",
+    "context": "실생활 및 회화/비즈니스 상황에서 '수마트라 코끼리'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gajah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'gajah sumatra' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'수마트라 코끼리'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'gajah sumatra' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '수마트라 코끼리'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "gajah",
+        "meaning": "수마트라 코끼리"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_5ftz4",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "orangutan kalimantan [[오랑우딴 까리만딴]]",
+    "meaning": "보르네오 오랑우탄",
+    "pos": "명사구",
+    "root": "orangutan",
+    "affix_logic": "어근 'orangutan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kera besar",
+    "antonym": "manusia",
+    "context": "실생활 및 회화/비즈니스 상황에서 '보르네오 오랑우탄'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'orangutan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'orangutan kalimantan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'보르네오 오랑우탄'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'orangutan kalimantan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '보르네오 오랑우탄'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "orangutan",
+        "meaning": "보르네오 오랑우탄"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_calyf",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "komodo [[꼬모도]]",
+    "meaning": "코모도 왕도마뱀",
+    "pos": "명사",
+    "root": "komodo",
+    "affix_logic": "어근 'komodo'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "biawak komodo",
+    "antonym": "cicak",
+    "context": "실생활 및 회화/비즈니스 상황에서 '코모도 왕도마뱀'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komodo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'komodo' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'코모도 왕도마뱀'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'komodo' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '코모도 왕도마뱀'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "komodo",
+        "meaning": "코모도 왕도마뱀"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_o6fiw",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "burung cendrawasih [[부룽 쩐드라와시]]",
+    "meaning": "극락조",
+    "pos": "명사구",
+    "root": "burung",
+    "affix_logic": "어근 'burung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "burung surga",
+    "antonym": "ayam",
+    "context": "실생활 및 회화/비즈니스 상황에서 '극락조'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'burung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'burung cendrawasih' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'극락조'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'burung cendrawasih' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '극락조'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "burung",
+        "meaning": "극락조"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_eqsvl",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "bunga bangkai [[붕아 방까이]]",
+    "meaning": "라플레시아 시체꽃",
+    "pos": "명사구",
+    "root": "bunga",
+    "affix_logic": "어근 'bunga'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "rafflesia arnoldii",
+    "antonym": "bunga mawar",
+    "context": "실생활 및 회화/비즈니스 상황에서 '라플레시아 시체꽃'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bunga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bunga bangkai' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'라플레시아 시체꽃'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bunga bangkai' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '라플레시아 시체꽃'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bunga",
+        "meaning": "라플레시아 시체꽃"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_lig9p",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "pohon kelapa [[뾔혼 끄라빠]]",
+    "meaning": "야자나무",
+    "pos": "명사구",
+    "root": "pohon",
+    "affix_logic": "어근 'pohon'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pohon nyiur",
+    "antonym": "rumput",
+    "context": "실생활 및 회화/비즈니스 상황에서 '야자나무'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pohon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pohon kelapa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'야자나무'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pohon kelapa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '야자나무'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pohon",
+        "meaning": "야자나무"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_altvo",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "pohon pisang [[뾔혼 삐상]]",
+    "meaning": "바나나 나무",
+    "pos": "명사구",
+    "root": "pohon",
+    "affix_logic": "어근 'pohon'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "tanaman pisang",
+    "antonym": "pohon jati",
+    "context": "실생활 및 회화/비즈니스 상황에서 '바나나 나무'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pohon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pohon pisang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'바나나 나무'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pohon pisang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '바나나 나무'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pohon",
+        "meaning": "바나나 나무"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_1qyj0",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "pohon jati [[뾔혼 자티]]",
+    "meaning": "티크 나무",
+    "pos": "명사구",
+    "root": "pohon",
+    "affix_logic": "어근 'pohon'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kayu jati",
+    "antonym": "pohon pisang",
+    "context": "실생활 및 회화/비즈니스 상황에서 '티크 나무'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pohon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pohon jati' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'티크 나무'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pohon jati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '티크 나무'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pohon",
+        "meaning": "티크 나무"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_gsrsg",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "hujan lebat [[후잔 러밧]]",
+    "meaning": "폭우, 장대비",
+    "pos": "명사구",
+    "root": "hujan",
+    "affix_logic": "어근 'hujan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hujan deras",
+    "antonym": "hujan gerimis",
+    "context": "실생활 및 회화/비즈니스 상황에서 '폭우, 장대비'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hujan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'hujan lebat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'폭우, 장대비'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'hujan lebat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '폭우, 장대비'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "hujan",
+        "meaning": "폭우"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_420r4",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "nature_weather_time",
+    "word": "hujan gerimis [[후잔 그리미스]]",
+    "meaning": "이슬비, 보슬비",
+    "pos": "명사구",
+    "root": "hujan",
+    "affix_logic": "어근 'hujan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hujan rintik-rintik",
+    "antonym": "hujan lebat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '이슬비, 보슬비'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hujan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'hujan gerimis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'이슬비, 보슬비'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'hujan gerimis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '이슬비, 보슬비'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "hujan",
+        "meaning": "이슬비"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_lov80",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "rumah sakit umum [[루마 사낏 우뭄]]",
+    "meaning": "전공 종합병원",
+    "pos": "명사구",
+    "root": "sakit",
+    "affix_logic": "어근 'sakit'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "rsud",
+    "antonym": "puskesmas",
+    "context": "실생활 및 회화/비즈니스 상황에서 '전공 종합병원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sakit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'rumah sakit umum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'전공 종합병원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'rumah sakit umum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '전공 종합병원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "rumah",
+        "meaning": "전공 종합병원"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_h3pms",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "puskesmas [[뿌스께스마스]]",
+    "meaning": "보건소",
+    "pos": "명사",
+    "root": "pusat",
+    "affix_logic": "어근 'pusat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pusat kesehatan",
+    "antonym": "rumah sakit besar",
+    "context": "실생활 및 회화/비즈니스 상황에서 '보건소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pusat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'puskesmas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'보건소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'puskesmas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '보건소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "puskesmas",
+        "meaning": "보건소"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_tbupl",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "dokter gigi [[독떠르 기기]]",
+    "meaning": "치과의사",
+    "pos": "명사구",
+    "root": "dokter",
+    "affix_logic": "어근 'dokter'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "spesialis gigi",
+    "antonym": "dokter umum",
+    "context": "실생활 및 회화/비즈니스 상황에서 '치과의사'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dokter gigi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'치과의사'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dokter gigi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '치과의사'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dokter",
+        "meaning": "치과의사"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_4j01d",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "dokter mata [[독떠르 마따]]",
+    "meaning": "안과의사",
+    "pos": "명사구",
+    "root": "dokter",
+    "affix_logic": "어근 'dokter'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "spesialis mata",
+    "antonym": "dokter gigi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '안과의사'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dokter mata' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'안과의사'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dokter mata' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '안과의사'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dokter",
+        "meaning": "안과의사"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_z3hnv",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "perawat medis [[쁘라왓 메디스]]",
+    "meaning": "의료 간호사",
+    "pos": "명사구",
+    "root": "rawat",
+    "affix_logic": "어근 'rawat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "suster",
+    "antonym": "pasien",
+    "context": "실생활 및 회화/비즈니스 상황에서 '의료 간호사'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perawat medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'의료 간호사'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perawat medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '의료 간호사'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perawat",
+        "meaning": "의료 간호사"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_6d8sh",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "pasien rawat inap [[빠시엔 라왓 이납]]",
+    "meaning": "입원 환자",
+    "pos": "명사구",
+    "root": "pasien",
+    "affix_logic": "어근 'pasien'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pasien inap",
+    "antonym": "pasien rawat jalan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '입원 환자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pasien'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pasien rawat inap' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'입원 환자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pasien rawat inap' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '입원 환자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pasien",
+        "meaning": "입원 환자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_0r47s",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "obat resep [[오밧 르셉]]",
+    "meaning": "처방 약",
+    "pos": "명사구",
+    "root": "obat",
+    "affix_logic": "어근 'obat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "obat dokter",
+    "antonym": "obat bebas",
+    "context": "실생활 및 회화/비즈니스 상황에서 '처방 약'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'obat resep' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'처방 약'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'obat resep' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '처방 약'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "obat",
+        "meaning": "처방 약"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138634335_apag2",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "body_health_hospital",
+    "word": "obat bebas [[오밧 베바스]]",
+    "meaning": "일반 의약품",
+    "pos": "명사구",
+    "root": "obat",
+    "affix_logic": "어근 'obat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "obat generik",
+    "antonym": "obat resep",
+    "context": "실생활 및 회화/비즈니스 상황에서 '일반 의약품'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'obat bebas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'일반 의약품'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'obat bebas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '일반 의약품'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "obat",
+        "meaning": "일반 의약품"
+      }
+    ]
   }
 ];
