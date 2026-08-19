@@ -72200,5 +72200,6947 @@ export const bipaTopics = [
         "meaning": "sosialisasi psikologis 과정 및 심리 현상"
       }
     ]
+  },
+  {
+    "id": "word_1787139175590_elttq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berambulans [[버르ambulans]]",
+    "meaning": "ambulans하는 상태이다, ambulans를 행하다",
+    "pos": "동사",
+    "root": "ambulans",
+    "affix_logic": "어근 'ambulans'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ambulans",
+    "antonym": "tidak ambulans",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ambulans하는 상태이다, ambulans를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ambulans'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berambulans' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ambulans하는 상태이다, ambulans를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berambulans' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ambulans하는 상태이다, ambulans를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berambulans",
+        "meaning": "ambulans하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_2lja8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambulans [[뼝ambulans]]",
+    "meaning": "ambulans 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "ambulans",
+    "affix_logic": "어근 'ambulans'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ambulans",
+    "antonym": "bukan ambulans",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ambulans 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ambulans'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengambulans' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ambulans 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengambulans' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ambulans 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengambulans",
+        "meaning": "ambulans 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_i1iyl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambulansan [[뼝ambulans안]]",
+    "meaning": "ambulans 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "ambulans",
+    "affix_logic": "어근 'ambulans'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ambulans",
+    "antonym": "bukan ambulans",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ambulans 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ambulans'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengambulansan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ambulans 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengambulansan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ambulans 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengambulansan",
+        "meaning": "ambulans 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ok2kb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranestesi [[버르anestesi]]",
+    "meaning": "anestesi하는 상태이다, anestesi를 행하다",
+    "pos": "동사",
+    "root": "anestesi",
+    "affix_logic": "어근 'anestesi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan anestesi",
+    "antonym": "tidak anestesi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anestesi하는 상태이다, anestesi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anestesi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranestesi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anestesi하는 상태이다, anestesi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranestesi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anestesi하는 상태이다, anestesi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranestesi",
+        "meaning": "anestesi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_fxg3j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganestesi [[뼝anestesi]]",
+    "meaning": "anestesi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "anestesi",
+    "affix_logic": "어근 'anestesi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak anestesi",
+    "antonym": "bukan anestesi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anestesi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anestesi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganestesi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anestesi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganestesi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anestesi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganestesi",
+        "meaning": "anestesi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_8bgr6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganestesian [[뼝anestesi안]]",
+    "meaning": "anestesi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "anestesi",
+    "affix_logic": "어근 'anestesi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses anestesi",
+    "antonym": "bukan anestesi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anestesi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anestesi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganestesian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anestesi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganestesian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anestesi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganestesian",
+        "meaning": "anestesi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_wk0ji",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berantibiotik [[버르antibiotik]]",
+    "meaning": "antibiotik하는 상태이다, antibiotik를 행하다",
+    "pos": "동사",
+    "root": "antibiotik",
+    "affix_logic": "어근 'antibiotik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan antibiotik",
+    "antonym": "tidak antibiotik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antibiotik하는 상태이다, antibiotik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antibiotik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berantibiotik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antibiotik하는 상태이다, antibiotik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berantibiotik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antibiotik하는 상태이다, antibiotik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berantibiotik",
+        "meaning": "antibiotik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_dy523",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantibiotik [[뼝antibiotik]]",
+    "meaning": "antibiotik 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "antibiotik",
+    "affix_logic": "어근 'antibiotik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak antibiotik",
+    "antonym": "bukan antibiotik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antibiotik 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antibiotik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantibiotik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antibiotik 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantibiotik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antibiotik 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantibiotik",
+        "meaning": "antibiotik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_v8jby",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantibiotikan [[뼝antibiotik안]]",
+    "meaning": "antibiotik 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "antibiotik",
+    "affix_logic": "어근 'antibiotik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses antibiotik",
+    "antonym": "bukan antibiotik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antibiotik 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antibiotik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantibiotikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antibiotik 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantibiotikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antibiotik 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantibiotikan",
+        "meaning": "antibiotik 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_p42rx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berantiseptik [[버르antiseptik]]",
+    "meaning": "antiseptik하는 상태이다, antiseptik를 행하다",
+    "pos": "동사",
+    "root": "antiseptik",
+    "affix_logic": "어근 'antiseptik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan antiseptik",
+    "antonym": "tidak antiseptik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antiseptik하는 상태이다, antiseptik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antiseptik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berantiseptik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antiseptik하는 상태이다, antiseptik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berantiseptik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antiseptik하는 상태이다, antiseptik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berantiseptik",
+        "meaning": "antiseptik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_y45yr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantiseptik [[뼝antiseptik]]",
+    "meaning": "antiseptik 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "antiseptik",
+    "affix_logic": "어근 'antiseptik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak antiseptik",
+    "antonym": "bukan antiseptik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antiseptik 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antiseptik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantiseptik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antiseptik 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantiseptik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antiseptik 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantiseptik",
+        "meaning": "antiseptik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ll5d6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantiseptikan [[뼝antiseptik안]]",
+    "meaning": "antiseptik 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "antiseptik",
+    "affix_logic": "어근 'antiseptik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses antiseptik",
+    "antonym": "bukan antiseptik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antiseptik 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antiseptik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantiseptikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antiseptik 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantiseptikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antiseptik 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantiseptikan",
+        "meaning": "antiseptik 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_k3t9l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berapoteker [[버르apoteker]]",
+    "meaning": "apoteker하는 상태이다, apoteker를 행하다",
+    "pos": "동사",
+    "root": "apoteker",
+    "affix_logic": "어근 'apoteker'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan apoteker",
+    "antonym": "tidak apoteker",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apoteker하는 상태이다, apoteker를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apoteker'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berapoteker' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apoteker하는 상태이다, apoteker를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berapoteker' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apoteker하는 상태이다, apoteker를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berapoteker",
+        "meaning": "apoteker하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_o7rsy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapoteker [[뼝apoteker]]",
+    "meaning": "apoteker 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "apoteker",
+    "affix_logic": "어근 'apoteker'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak apoteker",
+    "antonym": "bukan apoteker",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apoteker 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apoteker'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapoteker' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apoteker 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapoteker' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apoteker 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapoteker",
+        "meaning": "apoteker 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_y460v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapotekeran [[뼝apoteker안]]",
+    "meaning": "apoteker 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "apoteker",
+    "affix_logic": "어근 'apoteker'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses apoteker",
+    "antonym": "bukan apoteker",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apoteker 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apoteker'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapotekeran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apoteker 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapotekeran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apoteker 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapotekeran",
+        "meaning": "apoteker 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_9zols",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarteri [[버르arteri]]",
+    "meaning": "arteri하는 상태이다, arteri를 행하다",
+    "pos": "동사",
+    "root": "arteri",
+    "affix_logic": "어근 'arteri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan arteri",
+    "antonym": "tidak arteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arteri하는 상태이다, arteri를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berarteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arteri하는 상태이다, arteri를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berarteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arteri하는 상태이다, arteri를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berarteri",
+        "meaning": "arteri하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_8az6n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarteri [[뼝arteri]]",
+    "meaning": "arteri 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "arteri",
+    "affix_logic": "어근 'arteri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak arteri",
+    "antonym": "bukan arteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arteri 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arteri 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arteri 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarteri",
+        "meaning": "arteri 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_u6o60",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarterian [[뼝arteri안]]",
+    "meaning": "arteri 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "arteri",
+    "affix_logic": "어근 'arteri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses arteri",
+    "antonym": "bukan arteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arteri 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarterian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arteri 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarterian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arteri 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarterian",
+        "meaning": "arteri 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_o98iv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasma [[버르asma]]",
+    "meaning": "asma하는 상태이다, asma를 행하다",
+    "pos": "동사",
+    "root": "asma",
+    "affix_logic": "어근 'asma'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan asma",
+    "antonym": "tidak asma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asma하는 상태이다, asma를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berasma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asma하는 상태이다, asma를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berasma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asma하는 상태이다, asma를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berasma",
+        "meaning": "asma하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_cj6mk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasma [[뼝asma]]",
+    "meaning": "asma 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "asma",
+    "affix_logic": "어근 'asma'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak asma",
+    "antonym": "bukan asma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asma 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asma 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asma 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasma",
+        "meaning": "asma 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ge986",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasmaan [[뼝asma안]]",
+    "meaning": "asma 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "asma",
+    "affix_logic": "어근 'asma'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses asma",
+    "antonym": "bukan asma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asma 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasmaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asma 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasmaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asma 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasmaan",
+        "meaning": "asma 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_rpisv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berautopsi [[버르autopsi]]",
+    "meaning": "autopsi하는 상태이다, autopsi를 행하다",
+    "pos": "동사",
+    "root": "autopsi",
+    "affix_logic": "어근 'autopsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan autopsi",
+    "antonym": "tidak autopsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autopsi하는 상태이다, autopsi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autopsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berautopsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autopsi하는 상태이다, autopsi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berautopsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autopsi하는 상태이다, autopsi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berautopsi",
+        "meaning": "autopsi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_8s501",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautopsi [[뼝autopsi]]",
+    "meaning": "autopsi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "autopsi",
+    "affix_logic": "어근 'autopsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak autopsi",
+    "antonym": "bukan autopsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autopsi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autopsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengautopsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autopsi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengautopsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autopsi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengautopsi",
+        "meaning": "autopsi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_e0vk9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautopsian [[뼝autopsi안]]",
+    "meaning": "autopsi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "autopsi",
+    "affix_logic": "어근 'autopsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses autopsi",
+    "antonym": "bukan autopsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autopsi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autopsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengautopsian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autopsi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengautopsian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autopsi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengautopsian",
+        "meaning": "autopsi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_1pcqj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbakterisida [[버르bakterisida]]",
+    "meaning": "bakterisida하는 상태이다, bakterisida를 행하다",
+    "pos": "동사",
+    "root": "bakterisida",
+    "affix_logic": "어근 'bakterisida'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bakterisida",
+    "antonym": "tidak bakterisida",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bakterisida하는 상태이다, bakterisida를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bakterisida'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbakterisida' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bakterisida하는 상태이다, bakterisida를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbakterisida' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bakterisida하는 상태이다, bakterisida를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbakterisida",
+        "meaning": "bakterisida하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_u2izi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbakterisida [[뼝bakterisida]]",
+    "meaning": "bakterisida 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "bakterisida",
+    "affix_logic": "어근 'bakterisida'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bakterisida",
+    "antonym": "bukan bakterisida",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bakterisida 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bakterisida'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbakterisida' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bakterisida 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbakterisida' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bakterisida 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbakterisida",
+        "meaning": "bakterisida 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_io53i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbakterisidaan [[뼝bakterisida안]]",
+    "meaning": "bakterisida 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "bakterisida",
+    "affix_logic": "어근 'bakterisida'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bakterisida",
+    "antonym": "bukan bakterisida",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bakterisida 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bakterisida'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbakterisidaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bakterisida 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbakterisidaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bakterisida 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbakterisidaan",
+        "meaning": "bakterisida 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_kl99o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbalutan [[버르balutan]]",
+    "meaning": "balutan하는 상태이다, balutan를 행하다",
+    "pos": "동사",
+    "root": "balutan",
+    "affix_logic": "어근 'balutan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan balutan",
+    "antonym": "tidak balutan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'balutan하는 상태이다, balutan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'balutan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbalutan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'balutan하는 상태이다, balutan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbalutan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'balutan하는 상태이다, balutan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbalutan",
+        "meaning": "balutan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_w1z1g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalutan [[뼝balutan]]",
+    "meaning": "balutan 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "balutan",
+    "affix_logic": "어근 'balutan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak balutan",
+    "antonym": "bukan balutan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'balutan 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'balutan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbalutan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'balutan 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbalutan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'balutan 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbalutan",
+        "meaning": "balutan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_5a8y9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalutanan [[뼝balutan안]]",
+    "meaning": "balutan 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "balutan",
+    "affix_logic": "어근 'balutan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses balutan",
+    "antonym": "bukan balutan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'balutan 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'balutan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbalutanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'balutan 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbalutanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'balutan 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbalutanan",
+        "meaning": "balutan 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_yfa6x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbiopsi [[버르biopsi]]",
+    "meaning": "biopsi하는 상태이다, biopsi를 행하다",
+    "pos": "동사",
+    "root": "biopsi",
+    "affix_logic": "어근 'biopsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biopsi",
+    "antonym": "tidak biopsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biopsi하는 상태이다, biopsi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biopsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbiopsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biopsi하는 상태이다, biopsi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbiopsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biopsi하는 상태이다, biopsi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbiopsi",
+        "meaning": "biopsi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_0oafs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiopsi [[뼝biopsi]]",
+    "meaning": "biopsi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "biopsi",
+    "affix_logic": "어근 'biopsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak biopsi",
+    "antonym": "bukan biopsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biopsi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biopsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbiopsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biopsi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbiopsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biopsi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbiopsi",
+        "meaning": "biopsi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_jdaik",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiopsian [[뼝biopsi안]]",
+    "meaning": "biopsi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "biopsi",
+    "affix_logic": "어근 'biopsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses biopsi",
+    "antonym": "bukan biopsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biopsi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biopsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbiopsian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biopsi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbiopsian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biopsi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbiopsian",
+        "meaning": "biopsi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_z5ypz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbronkitis [[버르bronkitis]]",
+    "meaning": "bronkitis하는 상태이다, bronkitis를 행하다",
+    "pos": "동사",
+    "root": "bronkitis",
+    "affix_logic": "어근 'bronkitis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bronkitis",
+    "antonym": "tidak bronkitis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bronkitis하는 상태이다, bronkitis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bronkitis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbronkitis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bronkitis하는 상태이다, bronkitis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbronkitis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bronkitis하는 상태이다, bronkitis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbronkitis",
+        "meaning": "bronkitis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_usoeo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbronkitis [[뼝bronkitis]]",
+    "meaning": "bronkitis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "bronkitis",
+    "affix_logic": "어근 'bronkitis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bronkitis",
+    "antonym": "bukan bronkitis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bronkitis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bronkitis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbronkitis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bronkitis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbronkitis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bronkitis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbronkitis",
+        "meaning": "bronkitis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_jc47y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbronkitisan [[뼝bronkitis안]]",
+    "meaning": "bronkitis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "bronkitis",
+    "affix_logic": "어근 'bronkitis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bronkitis",
+    "antonym": "bukan bronkitis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bronkitis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bronkitis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbronkitisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bronkitis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbronkitisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bronkitis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbronkitisan",
+        "meaning": "bronkitis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_yvlsh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdehidrasi [[버르dehidrasi]]",
+    "meaning": "dehidrasi하는 상태이다, dehidrasi를 행하다",
+    "pos": "동사",
+    "root": "dehidrasi",
+    "affix_logic": "어근 'dehidrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dehidrasi",
+    "antonym": "tidak dehidrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dehidrasi하는 상태이다, dehidrasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dehidrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdehidrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dehidrasi하는 상태이다, dehidrasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdehidrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dehidrasi하는 상태이다, dehidrasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdehidrasi",
+        "meaning": "dehidrasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_vdukh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdehidrasi [[뼝dehidrasi]]",
+    "meaning": "dehidrasi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "dehidrasi",
+    "affix_logic": "어근 'dehidrasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dehidrasi",
+    "antonym": "bukan dehidrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dehidrasi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dehidrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdehidrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dehidrasi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdehidrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dehidrasi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdehidrasi",
+        "meaning": "dehidrasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_itwf9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdehidrasian [[뼝dehidrasi안]]",
+    "meaning": "dehidrasi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "dehidrasi",
+    "affix_logic": "어근 'dehidrasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dehidrasi",
+    "antonym": "bukan dehidrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dehidrasi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dehidrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdehidrasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dehidrasi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdehidrasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dehidrasi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdehidrasian",
+        "meaning": "dehidrasi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_eoovn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiagnosis [[버르diagnosis]]",
+    "meaning": "diagnosis하는 상태이다, diagnosis를 행하다",
+    "pos": "동사",
+    "root": "diagnosis",
+    "affix_logic": "어근 'diagnosis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan diagnosis",
+    "antonym": "tidak diagnosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diagnosis하는 상태이다, diagnosis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diagnosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdiagnosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diagnosis하는 상태이다, diagnosis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdiagnosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diagnosis하는 상태이다, diagnosis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdiagnosis",
+        "meaning": "diagnosis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_9qtel",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiagnosis [[뼝diagnosis]]",
+    "meaning": "diagnosis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "diagnosis",
+    "affix_logic": "어근 'diagnosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak diagnosis",
+    "antonym": "bukan diagnosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diagnosis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diagnosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiagnosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diagnosis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiagnosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diagnosis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiagnosis",
+        "meaning": "diagnosis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_jb2xm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiagnosisan [[뼝diagnosis안]]",
+    "meaning": "diagnosis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "diagnosis",
+    "affix_logic": "어근 'diagnosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses diagnosis",
+    "antonym": "bukan diagnosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diagnosis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diagnosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiagnosisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diagnosis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiagnosisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diagnosis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiagnosisan",
+        "meaning": "diagnosis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_bkttm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdialisis [[버르dialisis]]",
+    "meaning": "dialisis하는 상태이다, dialisis를 행하다",
+    "pos": "동사",
+    "root": "dialisis",
+    "affix_logic": "어근 'dialisis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dialisis",
+    "antonym": "tidak dialisis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialisis하는 상태이다, dialisis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialisis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdialisis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialisis하는 상태이다, dialisis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdialisis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialisis하는 상태이다, dialisis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdialisis",
+        "meaning": "dialisis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_j4vil",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdialisis [[뼝dialisis]]",
+    "meaning": "dialisis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "dialisis",
+    "affix_logic": "어근 'dialisis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dialisis",
+    "antonym": "bukan dialisis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialisis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialisis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdialisis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialisis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdialisis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialisis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdialisis",
+        "meaning": "dialisis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_4ec01",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdialisisan [[뼝dialisis안]]",
+    "meaning": "dialisis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "dialisis",
+    "affix_logic": "어근 'dialisis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dialisis",
+    "antonym": "bukan dialisis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialisis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialisis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdialisisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialisis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdialisisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialisis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdialisisan",
+        "meaning": "dialisis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_lvn8c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdietisien [[버르dietisien]]",
+    "meaning": "dietisien하는 상태이다, dietisien를 행하다",
+    "pos": "동사",
+    "root": "dietisien",
+    "affix_logic": "어근 'dietisien'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dietisien",
+    "antonym": "tidak dietisien",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dietisien하는 상태이다, dietisien를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dietisien'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdietisien' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dietisien하는 상태이다, dietisien를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdietisien' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dietisien하는 상태이다, dietisien를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdietisien",
+        "meaning": "dietisien하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_07qsk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdietisien [[뼝dietisien]]",
+    "meaning": "dietisien 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "dietisien",
+    "affix_logic": "어근 'dietisien'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dietisien",
+    "antonym": "bukan dietisien",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dietisien 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dietisien'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdietisien' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dietisien 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdietisien' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dietisien 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdietisien",
+        "meaning": "dietisien 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_tp6ov",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdietisienan [[뼝dietisien안]]",
+    "meaning": "dietisien 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "dietisien",
+    "affix_logic": "어근 'dietisien'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dietisien",
+    "antonym": "bukan dietisien",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dietisien 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dietisien'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdietisienan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dietisien 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdietisienan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dietisien 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdietisienan",
+        "meaning": "dietisien 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ytgm8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdosis [[버르dosis]]",
+    "meaning": "dosis하는 상태이다, dosis를 행하다",
+    "pos": "동사",
+    "root": "dosis",
+    "affix_logic": "어근 'dosis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dosis",
+    "antonym": "tidak dosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dosis하는 상태이다, dosis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dosis하는 상태이다, dosis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dosis하는 상태이다, dosis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdosis",
+        "meaning": "dosis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_vc300",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdosis [[뼝dosis]]",
+    "meaning": "dosis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "dosis",
+    "affix_logic": "어근 'dosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dosis",
+    "antonym": "bukan dosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dosis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdosis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dosis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdosis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dosis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdosis",
+        "meaning": "dosis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_89xap",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdosisan [[뼝dosis안]]",
+    "meaning": "dosis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "dosis",
+    "affix_logic": "어근 'dosis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dosis",
+    "antonym": "bukan dosis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dosis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dosis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdosisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dosis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdosisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dosis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdosisan",
+        "meaning": "dosis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_v45g7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekokardiogram [[버르ekokardiogram]]",
+    "meaning": "ekokardiogram하는 상태이다, ekokardiogram를 행하다",
+    "pos": "동사",
+    "root": "ekokardiogram",
+    "affix_logic": "어근 'ekokardiogram'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekokardiogram",
+    "antonym": "tidak ekokardiogram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekokardiogram하는 상태이다, ekokardiogram를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekokardiogram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berekokardiogram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekokardiogram하는 상태이다, ekokardiogram를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berekokardiogram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekokardiogram하는 상태이다, ekokardiogram를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berekokardiogram",
+        "meaning": "ekokardiogram하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ye2oj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekokardiogram [[뼝ekokardiogram]]",
+    "meaning": "ekokardiogram 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "ekokardiogram",
+    "affix_logic": "어근 'ekokardiogram'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ekokardiogram",
+    "antonym": "bukan ekokardiogram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekokardiogram 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekokardiogram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekokardiogram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekokardiogram 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekokardiogram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekokardiogram 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekokardiogram",
+        "meaning": "ekokardiogram 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_s2hjo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekokardiograman [[뼝ekokardiogram안]]",
+    "meaning": "ekokardiogram 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "ekokardiogram",
+    "affix_logic": "어근 'ekokardiogram'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ekokardiogram",
+    "antonym": "bukan ekokardiogram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekokardiogram 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekokardiogram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekokardiograman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekokardiogram 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekokardiograman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekokardiogram 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekokardiograman",
+        "meaning": "ekokardiogram 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_cmcdl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelektroensefalogram [[버르elektroensefalogram]]",
+    "meaning": "elektroensefalogram하는 상태이다, elektroensefalogram를 행하다",
+    "pos": "동사",
+    "root": "elektroensefalogram",
+    "affix_logic": "어근 'elektroensefalogram'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan elektroensefalogram",
+    "antonym": "tidak elektroensefalogram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elektroensefalogram하는 상태이다, elektroensefalogram를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elektroensefalogram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berelektroensefalogram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elektroensefalogram하는 상태이다, elektroensefalogram를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berelektroensefalogram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elektroensefalogram하는 상태이다, elektroensefalogram를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berelektroensefalogram",
+        "meaning": "elektroensefalogram하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_xg1md",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektroensefalogram [[뼝elektroensefalogram]]",
+    "meaning": "elektroensefalogram 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "elektroensefalogram",
+    "affix_logic": "어근 'elektroensefalogram'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak elektroensefalogram",
+    "antonym": "bukan elektroensefalogram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elektroensefalogram 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elektroensefalogram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengelektroensefalogram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elektroensefalogram 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengelektroensefalogram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elektroensefalogram 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengelektroensefalogram",
+        "meaning": "elektroensefalogram 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_wrwjz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektroensefalograman [[뼝elektroensefalogram안]]",
+    "meaning": "elektroensefalogram 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "elektroensefalogram",
+    "affix_logic": "어근 'elektroensefalogram'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses elektroensefalogram",
+    "antonym": "bukan elektroensefalogram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elektroensefalogram 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elektroensefalogram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengelektroensefalograman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elektroensefalogram 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengelektroensefalograman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elektroensefalogram 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengelektroensefalograman",
+        "meaning": "elektroensefalogram 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_bmzdi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berembrio [[버르embrio]]",
+    "meaning": "embrio하는 상태이다, embrio를 행하다",
+    "pos": "동사",
+    "root": "embrio",
+    "affix_logic": "어근 'embrio'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan embrio",
+    "antonym": "tidak embrio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'embrio하는 상태이다, embrio를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embrio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berembrio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'embrio하는 상태이다, embrio를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berembrio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'embrio하는 상태이다, embrio를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berembrio",
+        "meaning": "embrio하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_8x5x0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengembrio [[뼝embrio]]",
+    "meaning": "embrio 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "embrio",
+    "affix_logic": "어근 'embrio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak embrio",
+    "antonym": "bukan embrio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'embrio 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embrio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengembrio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'embrio 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengembrio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'embrio 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengembrio",
+        "meaning": "embrio 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_yy0vk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengembrioan [[뼝embrio안]]",
+    "meaning": "embrio 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "embrio",
+    "affix_logic": "어근 'embrio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses embrio",
+    "antonym": "bukan embrio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'embrio 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embrio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengembrioan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'embrio 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengembrioan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'embrio 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengembrioan",
+        "meaning": "embrio 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_1aiec",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berepidemi [[버르epidemi]]",
+    "meaning": "epidemi하는 상태이다, epidemi를 행하다",
+    "pos": "동사",
+    "root": "epidemi",
+    "affix_logic": "어근 'epidemi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan epidemi",
+    "antonym": "tidak epidemi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'epidemi하는 상태이다, epidemi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'epidemi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berepidemi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'epidemi하는 상태이다, epidemi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berepidemi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'epidemi하는 상태이다, epidemi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berepidemi",
+        "meaning": "epidemi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_nvpeg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepidemi [[뼝epidemi]]",
+    "meaning": "epidemi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "epidemi",
+    "affix_logic": "어근 'epidemi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak epidemi",
+    "antonym": "bukan epidemi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'epidemi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'epidemi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengepidemi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'epidemi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengepidemi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'epidemi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengepidemi",
+        "meaning": "epidemi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_2btw5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepidemian [[뼝epidemi안]]",
+    "meaning": "epidemi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "epidemi",
+    "affix_logic": "어근 'epidemi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses epidemi",
+    "antonym": "bukan epidemi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'epidemi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'epidemi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengepidemian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'epidemi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengepidemian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'epidemi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengepidemian",
+        "meaning": "epidemi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_rrobr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfarmasi [[버르farmasi]]",
+    "meaning": "farmasi하는 상태이다, farmasi를 행하다",
+    "pos": "동사",
+    "root": "farmasi",
+    "affix_logic": "어근 'farmasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan farmasi",
+    "antonym": "tidak farmasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmasi하는 상태이다, farmasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfarmasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmasi하는 상태이다, farmasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfarmasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmasi하는 상태이다, farmasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfarmasi",
+        "meaning": "farmasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_eycex",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfarmasi [[뼝farmasi]]",
+    "meaning": "farmasi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "farmasi",
+    "affix_logic": "어근 'farmasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak farmasi",
+    "antonym": "bukan farmasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmasi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfarmasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmasi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfarmasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmasi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfarmasi",
+        "meaning": "farmasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_2dwsp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfarmasian [[뼝farmasi안]]",
+    "meaning": "farmasi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "farmasi",
+    "affix_logic": "어근 'farmasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses farmasi",
+    "antonym": "bukan farmasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmasi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfarmasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmasi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfarmasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmasi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfarmasian",
+        "meaning": "farmasi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_0dlud",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfarmakope [[버르farmakope]]",
+    "meaning": "farmakope하는 상태이다, farmakope를 행하다",
+    "pos": "동사",
+    "root": "farmakope",
+    "affix_logic": "어근 'farmakope'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan farmakope",
+    "antonym": "tidak farmakope",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmakope하는 상태이다, farmakope를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmakope'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfarmakope' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmakope하는 상태이다, farmakope를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfarmakope' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmakope하는 상태이다, farmakope를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfarmakope",
+        "meaning": "farmakope하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_q5koz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfarmakope [[뼝farmakope]]",
+    "meaning": "farmakope 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "farmakope",
+    "affix_logic": "어근 'farmakope'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak farmakope",
+    "antonym": "bukan farmakope",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmakope 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmakope'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfarmakope' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmakope 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfarmakope' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmakope 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfarmakope",
+        "meaning": "farmakope 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_hv7y6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfarmakopean [[뼝farmakope안]]",
+    "meaning": "farmakope 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "farmakope",
+    "affix_logic": "어근 'farmakope'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses farmakope",
+    "antonym": "bukan farmakope",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmakope 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmakope'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfarmakopean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmakope 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfarmakopean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmakope 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfarmakopean",
+        "meaning": "farmakope 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_5ozk8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfisioterapi [[버르fisioterapi]]",
+    "meaning": "fisioterapi하는 상태이다, fisioterapi를 행하다",
+    "pos": "동사",
+    "root": "fisioterapi",
+    "affix_logic": "어근 'fisioterapi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fisioterapi",
+    "antonym": "tidak fisioterapi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fisioterapi하는 상태이다, fisioterapi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fisioterapi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfisioterapi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fisioterapi하는 상태이다, fisioterapi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfisioterapi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fisioterapi하는 상태이다, fisioterapi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfisioterapi",
+        "meaning": "fisioterapi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_rzdi2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfisioterapi [[뼝fisioterapi]]",
+    "meaning": "fisioterapi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "fisioterapi",
+    "affix_logic": "어근 'fisioterapi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fisioterapi",
+    "antonym": "bukan fisioterapi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fisioterapi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fisioterapi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfisioterapi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fisioterapi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfisioterapi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fisioterapi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfisioterapi",
+        "meaning": "fisioterapi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_4jigf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfisioterapian [[뼝fisioterapi안]]",
+    "meaning": "fisioterapi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "fisioterapi",
+    "affix_logic": "어근 'fisioterapi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fisioterapi",
+    "antonym": "bukan fisioterapi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fisioterapi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fisioterapi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfisioterapian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fisioterapi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfisioterapian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fisioterapi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfisioterapian",
+        "meaning": "fisioterapi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_huxkb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berflue [[버르flue]]",
+    "meaning": "flue하는 상태이다, flue를 행하다",
+    "pos": "동사",
+    "root": "flue",
+    "affix_logic": "어근 'flue'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan flue",
+    "antonym": "tidak flue",
+    "context": "실생활 및 회화/비즈니스 상황에서 'flue하는 상태이다, flue를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'flue'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berflue' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'flue하는 상태이다, flue를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berflue' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'flue하는 상태이다, flue를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berflue",
+        "meaning": "flue하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_fdq76",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengflue [[뼝flue]]",
+    "meaning": "flue 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "flue",
+    "affix_logic": "어근 'flue'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak flue",
+    "antonym": "bukan flue",
+    "context": "실생활 및 회화/비즈니스 상황에서 'flue 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'flue'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengflue' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'flue 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengflue' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'flue 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengflue",
+        "meaning": "flue 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_4qudn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfluean [[뼝flue안]]",
+    "meaning": "flue 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "flue",
+    "affix_logic": "어근 'flue'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses flue",
+    "antonym": "bukan flue",
+    "context": "실생활 및 회화/비즈니스 상황에서 'flue 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'flue'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfluean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'flue 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfluean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'flue 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfluean",
+        "meaning": "flue 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_1f75h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergizi [[버르gizi]]",
+    "meaning": "gizi하는 상태이다, gizi를 행하다",
+    "pos": "동사",
+    "root": "gizi",
+    "affix_logic": "어근 'gizi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan gizi",
+    "antonym": "tidak gizi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gizi하는 상태이다, gizi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gizi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergizi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gizi하는 상태이다, gizi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergizi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gizi하는 상태이다, gizi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergizi",
+        "meaning": "gizi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ndtsf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggizi [[뼝gizi]]",
+    "meaning": "gizi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "gizi",
+    "affix_logic": "어근 'gizi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak gizi",
+    "antonym": "bukan gizi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gizi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gizi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggizi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gizi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggizi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gizi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggizi",
+        "meaning": "gizi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_jjs90",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggizian [[뼝gizi안]]",
+    "meaning": "gizi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "gizi",
+    "affix_logic": "어근 'gizi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses gizi",
+    "antonym": "bukan gizi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gizi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gizi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggizian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gizi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggizian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gizi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggizian",
+        "meaning": "gizi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_l13pm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berglukosa [[버르glukosa]]",
+    "meaning": "glukosa하는 상태이다, glukosa를 행하다",
+    "pos": "동사",
+    "root": "glukosa",
+    "affix_logic": "어근 'glukosa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan glukosa",
+    "antonym": "tidak glukosa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'glukosa하는 상태이다, glukosa를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'glukosa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berglukosa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'glukosa하는 상태이다, glukosa를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berglukosa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'glukosa하는 상태이다, glukosa를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berglukosa",
+        "meaning": "glukosa하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_zkcqx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengglukosa [[뼝glukosa]]",
+    "meaning": "glukosa 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "glukosa",
+    "affix_logic": "어근 'glukosa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak glukosa",
+    "antonym": "bukan glukosa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'glukosa 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'glukosa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengglukosa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'glukosa 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengglukosa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'glukosa 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengglukosa",
+        "meaning": "glukosa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_fep09",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengglukosaan [[뼝glukosa안]]",
+    "meaning": "glukosa 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "glukosa",
+    "affix_logic": "어근 'glukosa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses glukosa",
+    "antonym": "bukan glukosa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'glukosa 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'glukosa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengglukosaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'glukosa 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengglukosaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'glukosa 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengglukosaan",
+        "meaning": "glukosa 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_doiox",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergolongan darah [[버르golongan darah]]",
+    "meaning": "golongan darah하는 상태이다, golongan darah를 행하다",
+    "pos": "동사",
+    "root": "golongan darah",
+    "affix_logic": "어근 'golongan darah'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan golongan darah",
+    "antonym": "tidak golongan darah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'golongan darah하는 상태이다, golongan darah를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'golongan darah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergolongan darah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'golongan darah하는 상태이다, golongan darah를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergolongan darah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'golongan darah하는 상태이다, golongan darah를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergolongan",
+        "meaning": "golongan darah하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_8n544",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggolongan darah [[뼝golongan darah]]",
+    "meaning": "golongan darah 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "golongan darah",
+    "affix_logic": "어근 'golongan darah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak golongan darah",
+    "antonym": "bukan golongan darah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'golongan darah 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'golongan darah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggolongan darah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'golongan darah 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggolongan darah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'golongan darah 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggolongan",
+        "meaning": "golongan darah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_9hjt2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggolongan darahan [[뼝golongan darah안]]",
+    "meaning": "golongan darah 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "golongan darah",
+    "affix_logic": "어근 'golongan darah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses golongan darah",
+    "antonym": "bukan golongan darah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'golongan darah 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'golongan darah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggolongan darahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'golongan darah 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggolongan darahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'golongan darah 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggolongan",
+        "meaning": "golongan darah 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_tl5j3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergusi [[버르gusi]]",
+    "meaning": "gusi하는 상태이다, gusi를 행하다",
+    "pos": "동사",
+    "root": "gusi",
+    "affix_logic": "어근 'gusi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan gusi",
+    "antonym": "tidak gusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gusi하는 상태이다, gusi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gusi하는 상태이다, gusi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gusi하는 상태이다, gusi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergusi",
+        "meaning": "gusi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_onip6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggusi [[뼝gusi]]",
+    "meaning": "gusi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "gusi",
+    "affix_logic": "어근 'gusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak gusi",
+    "antonym": "bukan gusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gusi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gusi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gusi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggusi",
+        "meaning": "gusi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_i9kc9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggusian [[뼝gusi안]]",
+    "meaning": "gusi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "gusi",
+    "affix_logic": "어근 'gusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses gusi",
+    "antonym": "bukan gusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gusi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggusian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gusi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggusian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gusi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggusian",
+        "meaning": "gusi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_vck7f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhemodialisis [[버르hemodialisis]]",
+    "meaning": "hemodialisis하는 상태이다, hemodialisis를 행하다",
+    "pos": "동사",
+    "root": "hemodialisis",
+    "affix_logic": "어근 'hemodialisis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hemodialisis",
+    "antonym": "tidak hemodialisis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hemodialisis하는 상태이다, hemodialisis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hemodialisis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhemodialisis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hemodialisis하는 상태이다, hemodialisis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhemodialisis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hemodialisis하는 상태이다, hemodialisis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhemodialisis",
+        "meaning": "hemodialisis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_lyyg7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghemodialisis [[뼝hemodialisis]]",
+    "meaning": "hemodialisis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "hemodialisis",
+    "affix_logic": "어근 'hemodialisis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hemodialisis",
+    "antonym": "bukan hemodialisis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hemodialisis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hemodialisis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghemodialisis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hemodialisis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghemodialisis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hemodialisis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghemodialisis",
+        "meaning": "hemodialisis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_wcmr9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghemodialisisan [[뼝hemodialisis안]]",
+    "meaning": "hemodialisis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "hemodialisis",
+    "affix_logic": "어근 'hemodialisis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hemodialisis",
+    "antonym": "bukan hemodialisis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hemodialisis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hemodialisis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghemodialisisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hemodialisis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghemodialisisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hemodialisis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghemodialisisan",
+        "meaning": "hemodialisis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_m5u5l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhepatitis [[버르hepatitis]]",
+    "meaning": "hepatitis하는 상태이다, hepatitis를 행하다",
+    "pos": "동사",
+    "root": "hepatitis",
+    "affix_logic": "어근 'hepatitis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hepatitis",
+    "antonym": "tidak hepatitis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hepatitis하는 상태이다, hepatitis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hepatitis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhepatitis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hepatitis하는 상태이다, hepatitis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhepatitis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hepatitis하는 상태이다, hepatitis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhepatitis",
+        "meaning": "hepatitis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_oaw35",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghepatitis [[뼝hepatitis]]",
+    "meaning": "hepatitis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "hepatitis",
+    "affix_logic": "어근 'hepatitis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hepatitis",
+    "antonym": "bukan hepatitis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hepatitis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hepatitis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghepatitis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hepatitis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghepatitis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hepatitis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghepatitis",
+        "meaning": "hepatitis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_wjtj6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghepatitisan [[뼝hepatitis안]]",
+    "meaning": "hepatitis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "hepatitis",
+    "affix_logic": "어근 'hepatitis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hepatitis",
+    "antonym": "bukan hepatitis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hepatitis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hepatitis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghepatitisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hepatitis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghepatitisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hepatitis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghepatitisan",
+        "meaning": "hepatitis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_49zcq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhigienis [[버르higienis]]",
+    "meaning": "higienis하는 상태이다, higienis를 행하다",
+    "pos": "동사",
+    "root": "higienis",
+    "affix_logic": "어근 'higienis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan higienis",
+    "antonym": "tidak higienis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'higienis하는 상태이다, higienis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'higienis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhigienis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'higienis하는 상태이다, higienis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhigienis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'higienis하는 상태이다, higienis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhigienis",
+        "meaning": "higienis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_fjcjs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghigienis [[뼝higienis]]",
+    "meaning": "higienis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "higienis",
+    "affix_logic": "어근 'higienis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak higienis",
+    "antonym": "bukan higienis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'higienis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'higienis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghigienis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'higienis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghigienis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'higienis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghigienis",
+        "meaning": "higienis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_13hwq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghigienisan [[뼝higienis안]]",
+    "meaning": "higienis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "higienis",
+    "affix_logic": "어근 'higienis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses higienis",
+    "antonym": "bukan higienis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'higienis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'higienis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghigienisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'higienis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghigienisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'higienis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghigienisan",
+        "meaning": "higienis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_k8zsl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhipertensi [[버르hipertensi]]",
+    "meaning": "hipertensi하는 상태이다, hipertensi를 행하다",
+    "pos": "동사",
+    "root": "hipertensi",
+    "affix_logic": "어근 'hipertensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hipertensi",
+    "antonym": "tidak hipertensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipertensi하는 상태이다, hipertensi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipertensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhipertensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipertensi하는 상태이다, hipertensi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhipertensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipertensi하는 상태이다, hipertensi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhipertensi",
+        "meaning": "hipertensi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_0grxf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipertensi [[뼝hipertensi]]",
+    "meaning": "hipertensi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "hipertensi",
+    "affix_logic": "어근 'hipertensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hipertensi",
+    "antonym": "bukan hipertensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipertensi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipertensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipertensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipertensi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipertensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipertensi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipertensi",
+        "meaning": "hipertensi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_n1z8w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipertensian [[뼝hipertensi안]]",
+    "meaning": "hipertensi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "hipertensi",
+    "affix_logic": "어근 'hipertensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hipertensi",
+    "antonym": "bukan hipertensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipertensi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipertensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipertensian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipertensi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipertensian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipertensi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipertensian",
+        "meaning": "hipertensi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_5uu63",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhipotensi [[버르hipotensi]]",
+    "meaning": "hipotensi하는 상태이다, hipotensi를 행하다",
+    "pos": "동사",
+    "root": "hipotensi",
+    "affix_logic": "어근 'hipotensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hipotensi",
+    "antonym": "tidak hipotensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotensi하는 상태이다, hipotensi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhipotensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotensi하는 상태이다, hipotensi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhipotensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotensi하는 상태이다, hipotensi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhipotensi",
+        "meaning": "hipotensi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_psjl5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotensi [[뼝hipotensi]]",
+    "meaning": "hipotensi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "hipotensi",
+    "affix_logic": "어근 'hipotensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hipotensi",
+    "antonym": "bukan hipotensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotensi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotensi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotensi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotensi",
+        "meaning": "hipotensi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_fp4a4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotensian [[뼝hipotensi안]]",
+    "meaning": "hipotensi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "hipotensi",
+    "affix_logic": "어근 'hipotensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hipotensi",
+    "antonym": "bukan hipotensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotensi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotensian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotensi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotensian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotensi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotensian",
+        "meaning": "hipotensi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_byh3y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berimunisasi [[버르imunisasi]]",
+    "meaning": "imunisasi하는 상태이다, imunisasi를 행하다",
+    "pos": "동사",
+    "root": "imunisasi",
+    "affix_logic": "어근 'imunisasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan imunisasi",
+    "antonym": "tidak imunisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imunisasi하는 상태이다, imunisasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berimunisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imunisasi하는 상태이다, imunisasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berimunisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imunisasi하는 상태이다, imunisasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berimunisasi",
+        "meaning": "imunisasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_t97ni",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimunisasi [[뼝imunisasi]]",
+    "meaning": "imunisasi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "imunisasi",
+    "affix_logic": "어근 'imunisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak imunisasi",
+    "antonym": "bukan imunisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imunisasi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimunisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imunisasi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimunisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imunisasi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimunisasi",
+        "meaning": "imunisasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_eltjg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimunisasian [[뼝imunisasi안]]",
+    "meaning": "imunisasi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "imunisasi",
+    "affix_logic": "어근 'imunisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses imunisasi",
+    "antonym": "bukan imunisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imunisasi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimunisasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imunisasi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimunisasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imunisasi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimunisasian",
+        "meaning": "imunisasi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_krxwp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinfeksi [[버르infeksi]]",
+    "meaning": "infeksi하는 상태이다, infeksi를 행하다",
+    "pos": "동사",
+    "root": "infeksi",
+    "affix_logic": "어근 'infeksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan infeksi",
+    "antonym": "tidak infeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infeksi하는 상태이다, infeksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinfeksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infeksi하는 상태이다, infeksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinfeksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infeksi하는 상태이다, infeksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinfeksi",
+        "meaning": "infeksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_mo410",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfeksi [[뼝infeksi]]",
+    "meaning": "infeksi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "infeksi",
+    "affix_logic": "어근 'infeksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak infeksi",
+    "antonym": "bukan infeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infeksi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfeksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infeksi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfeksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infeksi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfeksi",
+        "meaning": "infeksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_20kqs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfeksian [[뼝infeksi안]]",
+    "meaning": "infeksi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "infeksi",
+    "affix_logic": "어근 'infeksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses infeksi",
+    "antonym": "bukan infeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infeksi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfeksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infeksi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfeksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infeksi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfeksian",
+        "meaning": "infeksi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_kryyz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinfus [[버르infus]]",
+    "meaning": "infus하는 상태이다, infus를 행하다",
+    "pos": "동사",
+    "root": "infus",
+    "affix_logic": "어근 'infus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan infus",
+    "antonym": "tidak infus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infus하는 상태이다, infus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinfus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infus하는 상태이다, infus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinfus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infus하는 상태이다, infus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinfus",
+        "meaning": "infus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_4wegd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfus [[뼝infus]]",
+    "meaning": "infus 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "infus",
+    "affix_logic": "어근 'infus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak infus",
+    "antonym": "bukan infus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infus 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infus 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infus 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfus",
+        "meaning": "infus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_4ngm6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfusan [[뼝infus안]]",
+    "meaning": "infus 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "infus",
+    "affix_logic": "어근 'infus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses infus",
+    "antonym": "bukan infus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infus 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infus 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infus 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfusan",
+        "meaning": "infus 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_5uw4a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinjeksi [[버르injeksi]]",
+    "meaning": "injeksi하는 상태이다, injeksi를 행하다",
+    "pos": "동사",
+    "root": "injeksi",
+    "affix_logic": "어근 'injeksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan injeksi",
+    "antonym": "tidak injeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'injeksi하는 상태이다, injeksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'injeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinjeksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'injeksi하는 상태이다, injeksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinjeksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'injeksi하는 상태이다, injeksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinjeksi",
+        "meaning": "injeksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_vp8rw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginjeksi [[뼝injeksi]]",
+    "meaning": "injeksi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "injeksi",
+    "affix_logic": "어근 'injeksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak injeksi",
+    "antonym": "bukan injeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'injeksi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'injeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginjeksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'injeksi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginjeksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'injeksi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginjeksi",
+        "meaning": "injeksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_bxjr7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginjeksian [[뼝injeksi안]]",
+    "meaning": "injeksi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "injeksi",
+    "affix_logic": "어근 'injeksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses injeksi",
+    "antonym": "bukan injeksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'injeksi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'injeksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginjeksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'injeksi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginjeksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'injeksi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginjeksian",
+        "meaning": "injeksi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_07uft",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinsomnia [[버르insomnia]]",
+    "meaning": "insomnia하는 상태이다, insomnia를 행하다",
+    "pos": "동사",
+    "root": "insomnia",
+    "affix_logic": "어근 'insomnia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan insomnia",
+    "antonym": "tidak insomnia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insomnia하는 상태이다, insomnia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insomnia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinsomnia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insomnia하는 상태이다, insomnia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinsomnia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insomnia하는 상태이다, insomnia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinsomnia",
+        "meaning": "insomnia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_5qttc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsomnia [[뼝insomnia]]",
+    "meaning": "insomnia 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "insomnia",
+    "affix_logic": "어근 'insomnia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak insomnia",
+    "antonym": "bukan insomnia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insomnia 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insomnia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsomnia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insomnia 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsomnia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insomnia 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsomnia",
+        "meaning": "insomnia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_8yrbo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsomniaan [[뼝insomnia안]]",
+    "meaning": "insomnia 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "insomnia",
+    "affix_logic": "어근 'insomnia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses insomnia",
+    "antonym": "bukan insomnia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insomnia 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insomnia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsomniaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insomnia 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsomniaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insomnia 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsomniaan",
+        "meaning": "insomnia 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_5hpyg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinsulin [[버르insulin]]",
+    "meaning": "insulin하는 상태이다, insulin를 행하다",
+    "pos": "동사",
+    "root": "insulin",
+    "affix_logic": "어근 'insulin'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan insulin",
+    "antonym": "tidak insulin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insulin하는 상태이다, insulin를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insulin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinsulin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insulin하는 상태이다, insulin를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinsulin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insulin하는 상태이다, insulin를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinsulin",
+        "meaning": "insulin하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ond38",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsulin [[뼝insulin]]",
+    "meaning": "insulin 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "insulin",
+    "affix_logic": "어근 'insulin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak insulin",
+    "antonym": "bukan insulin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insulin 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insulin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsulin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insulin 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsulin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insulin 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsulin",
+        "meaning": "insulin 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_u4vy8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsulinan [[뼝insulin안]]",
+    "meaning": "insulin 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "insulin",
+    "affix_logic": "어근 'insulin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses insulin",
+    "antonym": "bukan insulin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insulin 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insulin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsulinan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insulin 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsulinan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insulin 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsulinan",
+        "meaning": "insulin 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_jxi76",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berintubasi [[버르intubasi]]",
+    "meaning": "intubasi하는 상태이다, intubasi를 행하다",
+    "pos": "동사",
+    "root": "intubasi",
+    "affix_logic": "어근 'intubasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan intubasi",
+    "antonym": "tidak intubasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intubasi하는 상태이다, intubasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intubasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berintubasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intubasi하는 상태이다, intubasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berintubasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intubasi하는 상태이다, intubasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berintubasi",
+        "meaning": "intubasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_53anw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintubasi [[뼝intubasi]]",
+    "meaning": "intubasi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "intubasi",
+    "affix_logic": "어근 'intubasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak intubasi",
+    "antonym": "bukan intubasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intubasi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intubasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintubasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intubasi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintubasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intubasi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintubasi",
+        "meaning": "intubasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_hkp2m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintubasian [[뼝intubasi안]]",
+    "meaning": "intubasi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "intubasi",
+    "affix_logic": "어근 'intubasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses intubasi",
+    "antonym": "bukan intubasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intubasi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intubasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintubasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intubasi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintubasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intubasi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintubasian",
+        "meaning": "intubasi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_nyc7w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berisolasi medis [[버르isolasi medis]]",
+    "meaning": "isolasi medis하는 상태이다, isolasi medis를 행하다",
+    "pos": "동사",
+    "root": "isolasi medis",
+    "affix_logic": "어근 'isolasi medis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan isolasi medis",
+    "antonym": "tidak isolasi medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isolasi medis하는 상태이다, isolasi medis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isolasi medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berisolasi medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isolasi medis하는 상태이다, isolasi medis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berisolasi medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isolasi medis하는 상태이다, isolasi medis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berisolasi",
+        "meaning": "isolasi medis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_efooi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisolasi medis [[뼝isolasi medis]]",
+    "meaning": "isolasi medis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "isolasi medis",
+    "affix_logic": "어근 'isolasi medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak isolasi medis",
+    "antonym": "bukan isolasi medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isolasi medis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isolasi medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisolasi medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isolasi medis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisolasi medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isolasi medis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisolasi",
+        "meaning": "isolasi medis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_g45sf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisolasi medisan [[뼝isolasi medis안]]",
+    "meaning": "isolasi medis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "isolasi medis",
+    "affix_logic": "어근 'isolasi medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses isolasi medis",
+    "antonym": "bukan isolasi medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isolasi medis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isolasi medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisolasi medisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isolasi medis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisolasi medisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isolasi medis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisolasi",
+        "meaning": "isolasi medis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_rczey",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjanin [[버르janin]]",
+    "meaning": "janin하는 상태이다, janin를 행하다",
+    "pos": "동사",
+    "root": "janin",
+    "affix_logic": "어근 'janin'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan janin",
+    "antonym": "tidak janin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'janin하는 상태이다, janin를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'janin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berjanin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'janin하는 상태이다, janin를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berjanin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'janin하는 상태이다, janin를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berjanin",
+        "meaning": "janin하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_qov78",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjanin [[뼝janin]]",
+    "meaning": "janin 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "janin",
+    "affix_logic": "어근 'janin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak janin",
+    "antonym": "bukan janin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'janin 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'janin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjanin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'janin 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjanin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'janin 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjanin",
+        "meaning": "janin 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_w5mi4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjaninan [[뼝janin안]]",
+    "meaning": "janin 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "janin",
+    "affix_logic": "어근 'janin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses janin",
+    "antonym": "bukan janin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'janin 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'janin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjaninan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'janin 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjaninan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'janin 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjaninan",
+        "meaning": "janin 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_h0n6c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkanker [[버르kanker]]",
+    "meaning": "kanker하는 상태이다, kanker를 행하다",
+    "pos": "동사",
+    "root": "kanker",
+    "affix_logic": "어근 'kanker'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kanker",
+    "antonym": "tidak kanker",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kanker하는 상태이다, kanker를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kanker'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkanker' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kanker하는 상태이다, kanker를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkanker' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kanker하는 상태이다, kanker를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkanker",
+        "meaning": "kanker하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_16ewt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkanker [[뼝kanker]]",
+    "meaning": "kanker 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "kanker",
+    "affix_logic": "어근 'kanker'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kanker",
+    "antonym": "bukan kanker",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kanker 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kanker'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkanker' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kanker 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkanker' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kanker 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkanker",
+        "meaning": "kanker 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_kja7a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkankeran [[뼝kanker안]]",
+    "meaning": "kanker 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "kanker",
+    "affix_logic": "어근 'kanker'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kanker",
+    "antonym": "bukan kanker",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kanker 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kanker'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkankeran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kanker 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkankeran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kanker 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkankeran",
+        "meaning": "kanker 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ulyut",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkapsul [[버르kapsul]]",
+    "meaning": "kapsul하는 상태이다, kapsul를 행하다",
+    "pos": "동사",
+    "root": "kapsul",
+    "affix_logic": "어근 'kapsul'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kapsul",
+    "antonym": "tidak kapsul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kapsul하는 상태이다, kapsul를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kapsul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkapsul' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kapsul하는 상태이다, kapsul를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkapsul' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kapsul하는 상태이다, kapsul를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkapsul",
+        "meaning": "kapsul하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_7ckoz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkapsul [[뼝kapsul]]",
+    "meaning": "kapsul 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "kapsul",
+    "affix_logic": "어근 'kapsul'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kapsul",
+    "antonym": "bukan kapsul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kapsul 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kapsul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkapsul' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kapsul 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkapsul' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kapsul 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkapsul",
+        "meaning": "kapsul 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_3phiz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkapsulan [[뼝kapsul안]]",
+    "meaning": "kapsul 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "kapsul",
+    "affix_logic": "어근 'kapsul'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kapsul",
+    "antonym": "bukan kapsul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kapsul 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kapsul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkapsulan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kapsul 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkapsulan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kapsul 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkapsulan",
+        "meaning": "kapsul 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_30sho",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkarbohidrat [[버르karbohidrat]]",
+    "meaning": "karbohidrat하는 상태이다, karbohidrat를 행하다",
+    "pos": "동사",
+    "root": "karbohidrat",
+    "affix_logic": "어근 'karbohidrat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan karbohidrat",
+    "antonym": "tidak karbohidrat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karbohidrat하는 상태이다, karbohidrat를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karbohidrat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkarbohidrat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karbohidrat하는 상태이다, karbohidrat를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkarbohidrat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karbohidrat하는 상태이다, karbohidrat를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkarbohidrat",
+        "meaning": "karbohidrat하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_irl4f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkarbohidrat [[뼝karbohidrat]]",
+    "meaning": "karbohidrat 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "karbohidrat",
+    "affix_logic": "어근 'karbohidrat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak karbohidrat",
+    "antonym": "bukan karbohidrat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karbohidrat 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karbohidrat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkarbohidrat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karbohidrat 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkarbohidrat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karbohidrat 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkarbohidrat",
+        "meaning": "karbohidrat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_3thzp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkarbohidratan [[뼝karbohidrat안]]",
+    "meaning": "karbohidrat 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "karbohidrat",
+    "affix_logic": "어근 'karbohidrat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses karbohidrat",
+    "antonym": "bukan karbohidrat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karbohidrat 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karbohidrat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkarbohidratan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karbohidrat 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkarbohidratan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karbohidrat 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkarbohidratan",
+        "meaning": "karbohidrat 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_lvqm9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkardiologi [[버르kardiologi]]",
+    "meaning": "kardiologi하는 상태이다, kardiologi를 행하다",
+    "pos": "동사",
+    "root": "kardiologi",
+    "affix_logic": "어근 'kardiologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kardiologi",
+    "antonym": "tidak kardiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kardiologi하는 상태이다, kardiologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kardiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkardiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kardiologi하는 상태이다, kardiologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkardiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kardiologi하는 상태이다, kardiologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkardiologi",
+        "meaning": "kardiologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_6fm4y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkardiologi [[뼝kardiologi]]",
+    "meaning": "kardiologi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "kardiologi",
+    "affix_logic": "어근 'kardiologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kardiologi",
+    "antonym": "bukan kardiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kardiologi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kardiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkardiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kardiologi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkardiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kardiologi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkardiologi",
+        "meaning": "kardiologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_7sc03",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkardiologian [[뼝kardiologi안]]",
+    "meaning": "kardiologi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "kardiologi",
+    "affix_logic": "어근 'kardiologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kardiologi",
+    "antonym": "bukan kardiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kardiologi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kardiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkardiologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kardiologi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkardiologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kardiologi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkardiologian",
+        "meaning": "kardiologi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_z6op4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkateter [[버르kateter]]",
+    "meaning": "kateter하는 상태이다, kateter를 행하다",
+    "pos": "동사",
+    "root": "kateter",
+    "affix_logic": "어근 'kateter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kateter",
+    "antonym": "tidak kateter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kateter하는 상태이다, kateter를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kateter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkateter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kateter하는 상태이다, kateter를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkateter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kateter하는 상태이다, kateter를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkateter",
+        "meaning": "kateter하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_mo4e2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkateter [[뼝kateter]]",
+    "meaning": "kateter 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "kateter",
+    "affix_logic": "어근 'kateter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kateter",
+    "antonym": "bukan kateter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kateter 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kateter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkateter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kateter 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkateter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kateter 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkateter",
+        "meaning": "kateter 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_pawbt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkateteran [[뼝kateter안]]",
+    "meaning": "kateter 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "kateter",
+    "affix_logic": "어근 'kateter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kateter",
+    "antonym": "bukan kateter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kateter 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kateter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkateteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kateter 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkateteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kateter 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkateteran",
+        "meaning": "kateter 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_vuwin",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkavitasi gigi [[버르kavitasi gigi]]",
+    "meaning": "kavitasi gigi하는 상태이다, kavitasi gigi를 행하다",
+    "pos": "동사",
+    "root": "kavitasi gigi",
+    "affix_logic": "어근 'kavitasi gigi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kavitasi gigi",
+    "antonym": "tidak kavitasi gigi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kavitasi gigi하는 상태이다, kavitasi gigi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kavitasi gigi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkavitasi gigi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kavitasi gigi하는 상태이다, kavitasi gigi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkavitasi gigi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kavitasi gigi하는 상태이다, kavitasi gigi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkavitasi",
+        "meaning": "kavitasi gigi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_m0jl3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkavitasi gigi [[뼝kavitasi gigi]]",
+    "meaning": "kavitasi gigi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "kavitasi gigi",
+    "affix_logic": "어근 'kavitasi gigi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kavitasi gigi",
+    "antonym": "bukan kavitasi gigi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kavitasi gigi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kavitasi gigi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkavitasi gigi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kavitasi gigi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkavitasi gigi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kavitasi gigi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkavitasi",
+        "meaning": "kavitasi gigi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_vnloc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkavitasi gigian [[뼝kavitasi gigi안]]",
+    "meaning": "kavitasi gigi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "kavitasi gigi",
+    "affix_logic": "어근 'kavitasi gigi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kavitasi gigi",
+    "antonym": "bukan kavitasi gigi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kavitasi gigi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kavitasi gigi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkavitasi gigian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kavitasi gigi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkavitasi gigian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kavitasi gigi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkavitasi",
+        "meaning": "kavitasi gigi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_1c17p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berklinik [[버르klinik]]",
+    "meaning": "klinik하는 상태이다, klinik를 행하다",
+    "pos": "동사",
+    "root": "klinik",
+    "affix_logic": "어근 'klinik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan klinik",
+    "antonym": "tidak klinik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klinik하는 상태이다, klinik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klinik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berklinik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klinik하는 상태이다, klinik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berklinik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klinik하는 상태이다, klinik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berklinik",
+        "meaning": "klinik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_r0jt6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklinik [[뼝klinik]]",
+    "meaning": "klinik 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "klinik",
+    "affix_logic": "어근 'klinik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak klinik",
+    "antonym": "bukan klinik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klinik 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klinik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklinik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klinik 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklinik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klinik 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklinik",
+        "meaning": "klinik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_hyndb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklinikan [[뼝klinik안]]",
+    "meaning": "klinik 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "klinik",
+    "affix_logic": "어근 'klinik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses klinik",
+    "antonym": "bukan klinik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klinik 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klinik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklinikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klinik 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklinikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klinik 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklinikan",
+        "meaning": "klinik 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_xaqco",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkolesterol [[버르kolesterol]]",
+    "meaning": "kolesterol하는 상태이다, kolesterol를 행하다",
+    "pos": "동사",
+    "root": "kolesterol",
+    "affix_logic": "어근 'kolesterol'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kolesterol",
+    "antonym": "tidak kolesterol",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolesterol하는 상태이다, kolesterol를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolesterol'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkolesterol' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolesterol하는 상태이다, kolesterol를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkolesterol' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolesterol하는 상태이다, kolesterol를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkolesterol",
+        "meaning": "kolesterol하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_drxix",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolesterol [[뼝kolesterol]]",
+    "meaning": "kolesterol 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "kolesterol",
+    "affix_logic": "어근 'kolesterol'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kolesterol",
+    "antonym": "bukan kolesterol",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolesterol 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolesterol'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolesterol' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolesterol 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolesterol' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolesterol 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolesterol",
+        "meaning": "kolesterol 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_3cgsv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolesterolan [[뼝kolesterol안]]",
+    "meaning": "kolesterol 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "kolesterol",
+    "affix_logic": "어근 'kolesterol'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kolesterol",
+    "antonym": "bukan kolesterol",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolesterol 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolesterol'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolesterolan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolesterol 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolesterolan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolesterol 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolesterolan",
+        "meaning": "kolesterol 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_3pusq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkomplikasi [[버르komplikasi]]",
+    "meaning": "komplikasi하는 상태이다, komplikasi를 행하다",
+    "pos": "동사",
+    "root": "komplikasi",
+    "affix_logic": "어근 'komplikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan komplikasi",
+    "antonym": "tidak komplikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komplikasi하는 상태이다, komplikasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komplikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkomplikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komplikasi하는 상태이다, komplikasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkomplikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komplikasi하는 상태이다, komplikasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkomplikasi",
+        "meaning": "komplikasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_a2ci5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomplikasi [[뼝komplikasi]]",
+    "meaning": "komplikasi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "komplikasi",
+    "affix_logic": "어근 'komplikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak komplikasi",
+    "antonym": "bukan komplikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komplikasi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komplikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomplikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komplikasi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomplikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komplikasi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomplikasi",
+        "meaning": "komplikasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_4hwck",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomplikasian [[뼝komplikasi안]]",
+    "meaning": "komplikasi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "komplikasi",
+    "affix_logic": "어근 'komplikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses komplikasi",
+    "antonym": "bukan komplikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komplikasi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komplikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomplikasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komplikasi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomplikasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komplikasi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomplikasian",
+        "meaning": "komplikasi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_tkps8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonsultasi medis [[버르konsultasi medis]]",
+    "meaning": "konsultasi medis하는 상태이다, konsultasi medis를 행하다",
+    "pos": "동사",
+    "root": "konsultasi medis",
+    "affix_logic": "어근 'konsultasi medis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konsultasi medis",
+    "antonym": "tidak konsultasi medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsultasi medis하는 상태이다, konsultasi medis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsultasi medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkonsultasi medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsultasi medis하는 상태이다, konsultasi medis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkonsultasi medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsultasi medis하는 상태이다, konsultasi medis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkonsultasi",
+        "meaning": "konsultasi medis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_auf2d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonsultasi medis [[뼝konsultasi medis]]",
+    "meaning": "konsultasi medis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "konsultasi medis",
+    "affix_logic": "어근 'konsultasi medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak konsultasi medis",
+    "antonym": "bukan konsultasi medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsultasi medis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsultasi medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonsultasi medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsultasi medis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonsultasi medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsultasi medis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonsultasi",
+        "meaning": "konsultasi medis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ytiga",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonsultasi medisan [[뼝konsultasi medis안]]",
+    "meaning": "konsultasi medis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "konsultasi medis",
+    "affix_logic": "어근 'konsultasi medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses konsultasi medis",
+    "antonym": "bukan konsultasi medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsultasi medis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsultasi medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonsultasi medisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsultasi medis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonsultasi medisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsultasi medis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonsultasi",
+        "meaning": "konsultasi medis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_7sfjt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkontrasepsi [[버르kontrasepsi]]",
+    "meaning": "kontrasepsi하는 상태이다, kontrasepsi를 행하다",
+    "pos": "동사",
+    "root": "kontrasepsi",
+    "affix_logic": "어근 'kontrasepsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kontrasepsi",
+    "antonym": "tidak kontrasepsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontrasepsi하는 상태이다, kontrasepsi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontrasepsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkontrasepsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontrasepsi하는 상태이다, kontrasepsi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkontrasepsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontrasepsi하는 상태이다, kontrasepsi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkontrasepsi",
+        "meaning": "kontrasepsi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_9bi1y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontrasepsi [[뼝kontrasepsi]]",
+    "meaning": "kontrasepsi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "kontrasepsi",
+    "affix_logic": "어근 'kontrasepsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kontrasepsi",
+    "antonym": "bukan kontrasepsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontrasepsi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontrasepsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontrasepsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontrasepsi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontrasepsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontrasepsi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontrasepsi",
+        "meaning": "kontrasepsi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_lajkk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontrasepsian [[뼝kontrasepsi안]]",
+    "meaning": "kontrasepsi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "kontrasepsi",
+    "affix_logic": "어근 'kontrasepsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kontrasepsi",
+    "antonym": "bukan kontrasepsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontrasepsi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontrasepsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontrasepsian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontrasepsi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontrasepsian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontrasepsi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontrasepsian",
+        "meaning": "kontrasepsi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ostf4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlaboratorium klinik [[버르laboratorium klinik]]",
+    "meaning": "laboratorium klinik하는 상태이다, laboratorium klinik를 행하다",
+    "pos": "동사",
+    "root": "laboratorium klinik",
+    "affix_logic": "어근 'laboratorium klinik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan laboratorium klinik",
+    "antonym": "tidak laboratorium klinik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium klinik하는 상태이다, laboratorium klinik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium klinik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlaboratorium klinik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium klinik하는 상태이다, laboratorium klinik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlaboratorium klinik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium klinik하는 상태이다, laboratorium klinik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlaboratorium",
+        "meaning": "laboratorium klinik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_f0hko",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaboratorium klinik [[뼝laboratorium klinik]]",
+    "meaning": "laboratorium klinik 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "laboratorium klinik",
+    "affix_logic": "어근 'laboratorium klinik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak laboratorium klinik",
+    "antonym": "bukan laboratorium klinik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium klinik 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium klinik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaboratorium klinik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium klinik 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaboratorium klinik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium klinik 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaboratorium",
+        "meaning": "laboratorium klinik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_7f8oz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaboratorium klinikan [[뼝laboratorium klinik안]]",
+    "meaning": "laboratorium klinik 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "laboratorium klinik",
+    "affix_logic": "어근 'laboratorium klinik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses laboratorium klinik",
+    "antonym": "bukan laboratorium klinik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium klinik 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium klinik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaboratorium klinikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium klinik 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaboratorium klinikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium klinik 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaboratorium",
+        "meaning": "laboratorium klinik 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_96kj8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berluka bakar [[버르luka bakar]]",
+    "meaning": "luka bakar하는 상태이다, luka bakar를 행하다",
+    "pos": "동사",
+    "root": "luka bakar",
+    "affix_logic": "어근 'luka bakar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan luka bakar",
+    "antonym": "tidak luka bakar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'luka bakar하는 상태이다, luka bakar를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'luka bakar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berluka bakar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'luka bakar하는 상태이다, luka bakar를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berluka bakar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'luka bakar하는 상태이다, luka bakar를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berluka",
+        "meaning": "luka bakar하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_l2g7p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengluka bakar [[뼝luka bakar]]",
+    "meaning": "luka bakar 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "luka bakar",
+    "affix_logic": "어근 'luka bakar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak luka bakar",
+    "antonym": "bukan luka bakar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'luka bakar 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'luka bakar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengluka bakar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'luka bakar 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengluka bakar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'luka bakar 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengluka",
+        "meaning": "luka bakar 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_w1mmy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengluka bakaran [[뼝luka bakar안]]",
+    "meaning": "luka bakar 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "luka bakar",
+    "affix_logic": "어근 'luka bakar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses luka bakar",
+    "antonym": "bukan luka bakar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'luka bakar 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'luka bakar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengluka bakaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'luka bakar 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengluka bakaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'luka bakar 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengluka",
+        "meaning": "luka bakar 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_aurr1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermalnutrisi [[버르malnutrisi]]",
+    "meaning": "malnutrisi하는 상태이다, malnutrisi를 행하다",
+    "pos": "동사",
+    "root": "malnutrisi",
+    "affix_logic": "어근 'malnutrisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan malnutrisi",
+    "antonym": "tidak malnutrisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'malnutrisi하는 상태이다, malnutrisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'malnutrisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermalnutrisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'malnutrisi하는 상태이다, malnutrisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermalnutrisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'malnutrisi하는 상태이다, malnutrisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermalnutrisi",
+        "meaning": "malnutrisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_i46pp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmalnutrisi [[뼝malnutrisi]]",
+    "meaning": "malnutrisi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "malnutrisi",
+    "affix_logic": "어근 'malnutrisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak malnutrisi",
+    "antonym": "bukan malnutrisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'malnutrisi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'malnutrisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmalnutrisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'malnutrisi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmalnutrisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'malnutrisi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmalnutrisi",
+        "meaning": "malnutrisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_r9io7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmalnutrisian [[뼝malnutrisi안]]",
+    "meaning": "malnutrisi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "malnutrisi",
+    "affix_logic": "어근 'malnutrisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses malnutrisi",
+    "antonym": "bukan malnutrisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'malnutrisi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'malnutrisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmalnutrisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'malnutrisi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmalnutrisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'malnutrisi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmalnutrisian",
+        "meaning": "malnutrisi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_ej7mm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermammografi [[버르mammografi]]",
+    "meaning": "mammografi하는 상태이다, mammografi를 행하다",
+    "pos": "동사",
+    "root": "mammografi",
+    "affix_logic": "어근 'mammografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mammografi",
+    "antonym": "tidak mammografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mammografi하는 상태이다, mammografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mammografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermammografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mammografi하는 상태이다, mammografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermammografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mammografi하는 상태이다, mammografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermammografi",
+        "meaning": "mammografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_86cez",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmammografi [[뼝mammografi]]",
+    "meaning": "mammografi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "mammografi",
+    "affix_logic": "어근 'mammografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mammografi",
+    "antonym": "bukan mammografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mammografi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mammografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmammografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mammografi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmammografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mammografi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmammografi",
+        "meaning": "mammografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_70c8i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmammografian [[뼝mammografi안]]",
+    "meaning": "mammografi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "mammografi",
+    "affix_logic": "어근 'mammografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mammografi",
+    "antonym": "bukan mammografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mammografi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mammografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmammografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mammografi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmammografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mammografi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmammografian",
+        "meaning": "mammografi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_bs76q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermasker medis [[버르masker medis]]",
+    "meaning": "masker medis하는 상태이다, masker medis를 행하다",
+    "pos": "동사",
+    "root": "masker medis",
+    "affix_logic": "어근 'masker medis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan masker medis",
+    "antonym": "tidak masker medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'masker medis하는 상태이다, masker medis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'masker medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermasker medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'masker medis하는 상태이다, masker medis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermasker medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'masker medis하는 상태이다, masker medis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermasker",
+        "meaning": "masker medis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_o2h7b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmasker medis [[뼝masker medis]]",
+    "meaning": "masker medis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "masker medis",
+    "affix_logic": "어근 'masker medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak masker medis",
+    "antonym": "bukan masker medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'masker medis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'masker medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmasker medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'masker medis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmasker medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'masker medis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmasker",
+        "meaning": "masker medis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_g8p1g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmasker medisan [[뼝masker medis안]]",
+    "meaning": "masker medis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "masker medis",
+    "affix_logic": "어근 'masker medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses masker medis",
+    "antonym": "bukan masker medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'masker medis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'masker medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmasker medisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'masker medis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmasker medisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'masker medis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmasker",
+        "meaning": "masker medis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_uiwga",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermual [[버르mual]]",
+    "meaning": "mual하는 상태이다, mual를 행하다",
+    "pos": "동사",
+    "root": "mual",
+    "affix_logic": "어근 'mual'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mual",
+    "antonym": "tidak mual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mual하는 상태이다, mual를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mual하는 상태이다, mual를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mual하는 상태이다, mual를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermual",
+        "meaning": "mual하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_o782r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmual [[뼝mual]]",
+    "meaning": "mual 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "mual",
+    "affix_logic": "어근 'mual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mual",
+    "antonym": "bukan mual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mual 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mual 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mual 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmual",
+        "meaning": "mual 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_qmv7p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmualan [[뼝mual안]]",
+    "meaning": "mual 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "mual",
+    "affix_logic": "어근 'mual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mual",
+    "antonym": "bukan mual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mual 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmualan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mual 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmualan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mual 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmualan",
+        "meaning": "mual 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_w14iq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernarkotika medis [[버르narkotika medis]]",
+    "meaning": "narkotika medis하는 상태이다, narkotika medis를 행하다",
+    "pos": "동사",
+    "root": "narkotika medis",
+    "affix_logic": "어근 'narkotika medis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan narkotika medis",
+    "antonym": "tidak narkotika medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narkotika medis하는 상태이다, narkotika medis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narkotika medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernarkotika medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narkotika medis하는 상태이다, narkotika medis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernarkotika medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narkotika medis하는 상태이다, narkotika medis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernarkotika",
+        "meaning": "narkotika medis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_qqdvj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnarkotika medis [[뼝narkotika medis]]",
+    "meaning": "narkotika medis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "narkotika medis",
+    "affix_logic": "어근 'narkotika medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak narkotika medis",
+    "antonym": "bukan narkotika medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narkotika medis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narkotika medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnarkotika medis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narkotika medis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnarkotika medis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narkotika medis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnarkotika",
+        "meaning": "narkotika medis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_171q9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnarkotika medisan [[뼝narkotika medis안]]",
+    "meaning": "narkotika medis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "narkotika medis",
+    "affix_logic": "어근 'narkotika medis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses narkotika medis",
+    "antonym": "bukan narkotika medis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narkotika medis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narkotika medis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnarkotika medisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narkotika medis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnarkotika medisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narkotika medis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnarkotika",
+        "meaning": "narkotika medis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175590_4t6i2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernefrolofi [[버르nefrolofi]]",
+    "meaning": "nefrolofi하는 상태이다, nefrolofi를 행하다",
+    "pos": "동사",
+    "root": "nefrolofi",
+    "affix_logic": "어근 'nefrolofi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan nefrolofi",
+    "antonym": "tidak nefrolofi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nefrolofi하는 상태이다, nefrolofi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nefrolofi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernefrolofi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nefrolofi하는 상태이다, nefrolofi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernefrolofi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nefrolofi하는 상태이다, nefrolofi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernefrolofi",
+        "meaning": "nefrolofi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_0y3t4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnefrolofi [[뼝nefrolofi]]",
+    "meaning": "nefrolofi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "nefrolofi",
+    "affix_logic": "어근 'nefrolofi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak nefrolofi",
+    "antonym": "bukan nefrolofi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nefrolofi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nefrolofi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnefrolofi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nefrolofi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnefrolofi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nefrolofi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnefrolofi",
+        "meaning": "nefrolofi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_g0t72",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnefrolofian [[뼝nefrolofi안]]",
+    "meaning": "nefrolofi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "nefrolofi",
+    "affix_logic": "어근 'nefrolofi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses nefrolofi",
+    "antonym": "bukan nefrolofi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nefrolofi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nefrolofi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnefrolofian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nefrolofi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnefrolofian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nefrolofi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnefrolofian",
+        "meaning": "nefrolofi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_371su",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berneurologi [[버르neurologi]]",
+    "meaning": "neurologi하는 상태이다, neurologi를 행하다",
+    "pos": "동사",
+    "root": "neurologi",
+    "affix_logic": "어근 'neurologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan neurologi",
+    "antonym": "tidak neurologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neurologi하는 상태이다, neurologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neurologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berneurologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neurologi하는 상태이다, neurologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berneurologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neurologi하는 상태이다, neurologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berneurologi",
+        "meaning": "neurologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_q0h85",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengneurologi [[뼝neurologi]]",
+    "meaning": "neurologi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "neurologi",
+    "affix_logic": "어근 'neurologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak neurologi",
+    "antonym": "bukan neurologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neurologi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neurologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengneurologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neurologi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengneurologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neurologi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengneurologi",
+        "meaning": "neurologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_lnt7l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengneurologian [[뼝neurologi안]]",
+    "meaning": "neurologi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "neurologi",
+    "affix_logic": "어근 'neurologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses neurologi",
+    "antonym": "bukan neurologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neurologi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neurologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengneurologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neurologi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengneurologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neurologi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengneurologian",
+        "meaning": "neurologi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_w09rn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernutrisi [[버르nutrisi]]",
+    "meaning": "nutrisi하는 상태이다, nutrisi를 행하다",
+    "pos": "동사",
+    "root": "nutrisi",
+    "affix_logic": "어근 'nutrisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan nutrisi",
+    "antonym": "tidak nutrisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nutrisi하는 상태이다, nutrisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nutrisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernutrisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nutrisi하는 상태이다, nutrisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernutrisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nutrisi하는 상태이다, nutrisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernutrisi",
+        "meaning": "nutrisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_kcyuo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnutrisi [[뼝nutrisi]]",
+    "meaning": "nutrisi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "nutrisi",
+    "affix_logic": "어근 'nutrisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak nutrisi",
+    "antonym": "bukan nutrisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nutrisi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nutrisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnutrisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nutrisi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnutrisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nutrisi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnutrisi",
+        "meaning": "nutrisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_nod0j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnutrisian [[뼝nutrisi안]]",
+    "meaning": "nutrisi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "nutrisi",
+    "affix_logic": "어근 'nutrisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses nutrisi",
+    "antonym": "bukan nutrisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nutrisi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nutrisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnutrisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nutrisi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnutrisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nutrisi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnutrisian",
+        "meaning": "nutrisi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_u8hk7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berobesitas [[버르obesitas]]",
+    "meaning": "obesitas하는 상태이다, obesitas를 행하다",
+    "pos": "동사",
+    "root": "obesitas",
+    "affix_logic": "어근 'obesitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan obesitas",
+    "antonym": "tidak obesitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obesitas하는 상태이다, obesitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obesitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berobesitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obesitas하는 상태이다, obesitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berobesitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obesitas하는 상태이다, obesitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berobesitas",
+        "meaning": "obesitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_m3k0n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengobesitas [[뼝obesitas]]",
+    "meaning": "obesitas 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "obesitas",
+    "affix_logic": "어근 'obesitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak obesitas",
+    "antonym": "bukan obesitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obesitas 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obesitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengobesitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obesitas 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengobesitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obesitas 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengobesitas",
+        "meaning": "obesitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_htlp8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengobesitasan [[뼝obesitas안]]",
+    "meaning": "obesitas 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "obesitas",
+    "affix_logic": "어근 'obesitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses obesitas",
+    "antonym": "bukan obesitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obesitas 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obesitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengobesitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obesitas 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengobesitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obesitas 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengobesitasan",
+        "meaning": "obesitas 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_1iuwd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beroksigen [[버르oksigen]]",
+    "meaning": "oksigen하는 상태이다, oksigen를 행하다",
+    "pos": "동사",
+    "root": "oksigen",
+    "affix_logic": "어근 'oksigen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan oksigen",
+    "antonym": "tidak oksigen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oksigen하는 상태이다, oksigen를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oksigen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beroksigen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oksigen하는 상태이다, oksigen를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beroksigen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oksigen하는 상태이다, oksigen를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beroksigen",
+        "meaning": "oksigen하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_pg9jb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoksigen [[뼝oksigen]]",
+    "meaning": "oksigen 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "oksigen",
+    "affix_logic": "어근 'oksigen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak oksigen",
+    "antonym": "bukan oksigen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oksigen 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oksigen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoksigen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oksigen 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoksigen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oksigen 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoksigen",
+        "meaning": "oksigen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_3pnf7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoksigenan [[뼝oksigen안]]",
+    "meaning": "oksigen 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "oksigen",
+    "affix_logic": "어근 'oksigen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses oksigen",
+    "antonym": "bukan oksigen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oksigen 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oksigen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoksigenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oksigen 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoksigenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oksigen 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoksigenan",
+        "meaning": "oksigen 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_wgjlj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beroperasi [[버르operasi]]",
+    "meaning": "operasi하는 상태이다, operasi를 행하다",
+    "pos": "동사",
+    "root": "operasi",
+    "affix_logic": "어근 'operasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan operasi",
+    "antonym": "tidak operasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operasi하는 상태이다, operasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beroperasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operasi하는 상태이다, operasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beroperasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operasi하는 상태이다, operasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beroperasi",
+        "meaning": "operasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_vcc5s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoperasi [[뼝operasi]]",
+    "meaning": "operasi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "operasi",
+    "affix_logic": "어근 'operasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak operasi",
+    "antonym": "bukan operasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operasi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoperasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operasi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoperasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operasi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoperasi",
+        "meaning": "operasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_einwg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoperasian [[뼝operasi안]]",
+    "meaning": "operasi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "operasi",
+    "affix_logic": "어근 'operasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses operasi",
+    "antonym": "bukan operasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operasi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoperasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operasi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoperasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operasi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoperasian",
+        "meaning": "operasi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_idwlk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beroftalmologi [[버르oftalmologi]]",
+    "meaning": "oftalmologi하는 상태이다, oftalmologi를 행하다",
+    "pos": "동사",
+    "root": "oftalmologi",
+    "affix_logic": "어근 'oftalmologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan oftalmologi",
+    "antonym": "tidak oftalmologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oftalmologi하는 상태이다, oftalmologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oftalmologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beroftalmologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oftalmologi하는 상태이다, oftalmologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beroftalmologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oftalmologi하는 상태이다, oftalmologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beroftalmologi",
+        "meaning": "oftalmologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_i1uex",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoftalmologi [[뼝oftalmologi]]",
+    "meaning": "oftalmologi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "oftalmologi",
+    "affix_logic": "어근 'oftalmologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak oftalmologi",
+    "antonym": "bukan oftalmologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oftalmologi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oftalmologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoftalmologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oftalmologi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoftalmologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oftalmologi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoftalmologi",
+        "meaning": "oftalmologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_8kj5u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoftalmologian [[뼝oftalmologi안]]",
+    "meaning": "oftalmologi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "oftalmologi",
+    "affix_logic": "어근 'oftalmologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses oftalmologi",
+    "antonym": "bukan oftalmologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oftalmologi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oftalmologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoftalmologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oftalmologi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoftalmologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oftalmologi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoftalmologian",
+        "meaning": "oftalmologi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_nagde",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berorgan tubuh [[버르organ tubuh]]",
+    "meaning": "organ tubuh하는 상태이다, organ tubuh를 행하다",
+    "pos": "동사",
+    "root": "organ tubuh",
+    "affix_logic": "어근 'organ tubuh'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan organ tubuh",
+    "antonym": "tidak organ tubuh",
+    "context": "실생활 및 회화/비즈니스 상황에서 'organ tubuh하는 상태이다, organ tubuh를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'organ tubuh'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berorgan tubuh' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'organ tubuh하는 상태이다, organ tubuh를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berorgan tubuh' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'organ tubuh하는 상태이다, organ tubuh를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berorgan",
+        "meaning": "organ tubuh하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_v0c4y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorgan tubuh [[뼝organ tubuh]]",
+    "meaning": "organ tubuh 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "organ tubuh",
+    "affix_logic": "어근 'organ tubuh'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak organ tubuh",
+    "antonym": "bukan organ tubuh",
+    "context": "실생활 및 회화/비즈니스 상황에서 'organ tubuh 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'organ tubuh'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengorgan tubuh' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'organ tubuh 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengorgan tubuh' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'organ tubuh 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengorgan",
+        "meaning": "organ tubuh 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_a3rjb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorgan tubuhan [[뼝organ tubuh안]]",
+    "meaning": "organ tubuh 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "organ tubuh",
+    "affix_logic": "어근 'organ tubuh'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses organ tubuh",
+    "antonym": "bukan organ tubuh",
+    "context": "실생활 및 회화/비즈니스 상황에서 'organ tubuh 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'organ tubuh'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengorgan tubuhan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'organ tubuh 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengorgan tubuhan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'organ tubuh 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengorgan",
+        "meaning": "organ tubuh 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_sbipi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berortopedi [[버르ortopedi]]",
+    "meaning": "ortopedi하는 상태이다, ortopedi를 행하다",
+    "pos": "동사",
+    "root": "ortopedi",
+    "affix_logic": "어근 'ortopedi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ortopedi",
+    "antonym": "tidak ortopedi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ortopedi하는 상태이다, ortopedi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ortopedi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berortopedi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ortopedi하는 상태이다, ortopedi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berortopedi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ortopedi하는 상태이다, ortopedi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berortopedi",
+        "meaning": "ortopedi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_gpncn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengortopedi [[뼝ortopedi]]",
+    "meaning": "ortopedi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "ortopedi",
+    "affix_logic": "어근 'ortopedi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ortopedi",
+    "antonym": "bukan ortopedi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ortopedi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ortopedi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengortopedi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ortopedi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengortopedi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ortopedi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengortopedi",
+        "meaning": "ortopedi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_49d6f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengortopedian [[뼝ortopedi안]]",
+    "meaning": "ortopedi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "ortopedi",
+    "affix_logic": "어근 'ortopedi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ortopedi",
+    "antonym": "bukan ortopedi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ortopedi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ortopedi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengortopedian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ortopedi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengortopedian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ortopedi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengortopedian",
+        "meaning": "ortopedi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_njana",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpasien [[버르pasien]]",
+    "meaning": "pasien하는 상태이다, pasien를 행하다",
+    "pos": "동사",
+    "root": "pasien",
+    "affix_logic": "어근 'pasien'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pasien",
+    "antonym": "tidak pasien",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pasien하는 상태이다, pasien를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pasien'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpasien' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pasien하는 상태이다, pasien를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpasien' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pasien하는 상태이다, pasien를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpasien",
+        "meaning": "pasien하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_imggj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpasien [[뼝pasien]]",
+    "meaning": "pasien 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "pasien",
+    "affix_logic": "어근 'pasien'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pasien",
+    "antonym": "bukan pasien",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pasien 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pasien'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpasien' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pasien 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpasien' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pasien 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpasien",
+        "meaning": "pasien 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_jtzzk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpasienan [[뼝pasien안]]",
+    "meaning": "pasien 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "pasien",
+    "affix_logic": "어근 'pasien'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pasien",
+    "antonym": "bukan pasien",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pasien 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pasien'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpasienan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pasien 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpasienan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pasien 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpasienan",
+        "meaning": "pasien 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_j15et",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpatek [[버르patek]]",
+    "meaning": "patek하는 상태이다, patek를 행하다",
+    "pos": "동사",
+    "root": "patek",
+    "affix_logic": "어근 'patek'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan patek",
+    "antonym": "tidak patek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'patek하는 상태이다, patek를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'patek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpatek' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'patek하는 상태이다, patek를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpatek' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'patek하는 상태이다, patek를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpatek",
+        "meaning": "patek하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_vfz9y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpatek [[뼝patek]]",
+    "meaning": "patek 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "patek",
+    "affix_logic": "어근 'patek'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak patek",
+    "antonym": "bukan patek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'patek 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'patek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpatek' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'patek 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpatek' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'patek 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpatek",
+        "meaning": "patek 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_w86c6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpatekan [[뼝patek안]]",
+    "meaning": "patek 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "patek",
+    "affix_logic": "어근 'patek'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses patek",
+    "antonym": "bukan patek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'patek 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'patek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpatekan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'patek 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpatekan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'patek 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpatekan",
+        "meaning": "patek 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_qzbhb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpediatri [[버르pediatri]]",
+    "meaning": "pediatri하는 상태이다, pediatri를 행하다",
+    "pos": "동사",
+    "root": "pediatri",
+    "affix_logic": "어근 'pediatri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pediatri",
+    "antonym": "tidak pediatri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pediatri하는 상태이다, pediatri를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pediatri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpediatri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pediatri하는 상태이다, pediatri를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpediatri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pediatri하는 상태이다, pediatri를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpediatri",
+        "meaning": "pediatri하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_39kxw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpediatri [[뼝pediatri]]",
+    "meaning": "pediatri 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "pediatri",
+    "affix_logic": "어근 'pediatri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pediatri",
+    "antonym": "bukan pediatri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pediatri 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pediatri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpediatri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pediatri 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpediatri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pediatri 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpediatri",
+        "meaning": "pediatri 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_ulwy4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpediatrian [[뼝pediatri안]]",
+    "meaning": "pediatri 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "pediatri",
+    "affix_logic": "어근 'pediatri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pediatri",
+    "antonym": "bukan pediatri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pediatri 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pediatri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpediatrian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pediatri 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpediatrian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pediatri 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpediatrian",
+        "meaning": "pediatri 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_ujpkp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpenisilin [[버르penisilin]]",
+    "meaning": "penisilin하는 상태이다, penisilin를 행하다",
+    "pos": "동사",
+    "root": "penisilin",
+    "affix_logic": "어근 'penisilin'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan penisilin",
+    "antonym": "tidak penisilin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penisilin하는 상태이다, penisilin를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penisilin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpenisilin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penisilin하는 상태이다, penisilin를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpenisilin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penisilin하는 상태이다, penisilin를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpenisilin",
+        "meaning": "penisilin하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_ak6ww",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenisilin [[뼝penisilin]]",
+    "meaning": "penisilin 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "penisilin",
+    "affix_logic": "어근 'penisilin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak penisilin",
+    "antonym": "bukan penisilin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penisilin 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penisilin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenisilin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penisilin 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenisilin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penisilin 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenisilin",
+        "meaning": "penisilin 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_ll35i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenisilinan [[뼝penisilin안]]",
+    "meaning": "penisilin 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "penisilin",
+    "affix_logic": "어근 'penisilin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses penisilin",
+    "antonym": "bukan penisilin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penisilin 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penisilin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenisilinan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penisilin 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenisilinan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penisilin 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenisilinan",
+        "meaning": "penisilin 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_321zf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpencernaan [[버르pencernaan]]",
+    "meaning": "pencernaan하는 상태이다, pencernaan를 행하다",
+    "pos": "동사",
+    "root": "pencernaan",
+    "affix_logic": "어근 'pencernaan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pencernaan",
+    "antonym": "tidak pencernaan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pencernaan하는 상태이다, pencernaan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pencernaan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpencernaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pencernaan하는 상태이다, pencernaan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpencernaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pencernaan하는 상태이다, pencernaan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpencernaan",
+        "meaning": "pencernaan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_ggwde",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpencernaan [[뼝pencernaan]]",
+    "meaning": "pencernaan 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "pencernaan",
+    "affix_logic": "어근 'pencernaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pencernaan",
+    "antonym": "bukan pencernaan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pencernaan 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pencernaan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpencernaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pencernaan 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpencernaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pencernaan 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpencernaan",
+        "meaning": "pencernaan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_byfx8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpencernaanan [[뼝pencernaan안]]",
+    "meaning": "pencernaan 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "pencernaan",
+    "affix_logic": "어근 'pencernaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pencernaan",
+    "antonym": "bukan pencernaan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pencernaan 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pencernaan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpencernaanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pencernaan 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpencernaanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pencernaan 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpencernaanan",
+        "meaning": "pencernaan 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_d2v26",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpendarahan [[버르pendarahan]]",
+    "meaning": "pendarahan하는 상태이다, pendarahan를 행하다",
+    "pos": "동사",
+    "root": "pendarahan",
+    "affix_logic": "어근 'pendarahan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pendarahan",
+    "antonym": "tidak pendarahan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pendarahan하는 상태이다, pendarahan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pendarahan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpendarahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pendarahan하는 상태이다, pendarahan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpendarahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pendarahan하는 상태이다, pendarahan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpendarahan",
+        "meaning": "pendarahan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_bkbga",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpendarahan [[뼝pendarahan]]",
+    "meaning": "pendarahan 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "pendarahan",
+    "affix_logic": "어근 'pendarahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pendarahan",
+    "antonym": "bukan pendarahan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pendarahan 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pendarahan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpendarahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pendarahan 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpendarahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pendarahan 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpendarahan",
+        "meaning": "pendarahan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_7418o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpendarahanan [[뼝pendarahan안]]",
+    "meaning": "pendarahan 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "pendarahan",
+    "affix_logic": "어근 'pendarahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pendarahan",
+    "antonym": "bukan pendarahan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pendarahan 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pendarahan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpendarahanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pendarahan 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpendarahanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pendarahan 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpendarahanan",
+        "meaning": "pendarahan 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_ytuu4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpenyakit menular [[버르penyakit menular]]",
+    "meaning": "penyakit menular하는 상태이다, penyakit menular를 행하다",
+    "pos": "동사",
+    "root": "penyakit menular",
+    "affix_logic": "어근 'penyakit menular'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan penyakit menular",
+    "antonym": "tidak penyakit menular",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyakit menular하는 상태이다, penyakit menular를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyakit menular'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpenyakit menular' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyakit menular하는 상태이다, penyakit menular를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpenyakit menular' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyakit menular하는 상태이다, penyakit menular를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpenyakit",
+        "meaning": "penyakit menular하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_77ws8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenyakit menular [[뼝penyakit menular]]",
+    "meaning": "penyakit menular 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "penyakit menular",
+    "affix_logic": "어근 'penyakit menular'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak penyakit menular",
+    "antonym": "bukan penyakit menular",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyakit menular 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyakit menular'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenyakit menular' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyakit menular 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenyakit menular' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyakit menular 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenyakit",
+        "meaning": "penyakit menular 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_gkjjx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenyakit menularan [[뼝penyakit menular안]]",
+    "meaning": "penyakit menular 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "penyakit menular",
+    "affix_logic": "어근 'penyakit menular'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses penyakit menular",
+    "antonym": "bukan penyakit menular",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyakit menular 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyakit menular'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenyakit menularan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyakit menular 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenyakit menularan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyakit menular 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenyakit",
+        "meaning": "penyakit menular 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_uiqkk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpertolongan pertama [[버르pertolongan pertama]]",
+    "meaning": "pertolongan pertama하는 상태이다, pertolongan pertama를 행하다",
+    "pos": "동사",
+    "root": "pertolongan pertama",
+    "affix_logic": "어근 'pertolongan pertama'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pertolongan pertama",
+    "antonym": "tidak pertolongan pertama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pertolongan pertama하는 상태이다, pertolongan pertama를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pertolongan pertama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpertolongan pertama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pertolongan pertama하는 상태이다, pertolongan pertama를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpertolongan pertama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pertolongan pertama하는 상태이다, pertolongan pertama를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpertolongan",
+        "meaning": "pertolongan pertama하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_734de",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpertolongan pertama [[뼝pertolongan pertama]]",
+    "meaning": "pertolongan pertama 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "pertolongan pertama",
+    "affix_logic": "어근 'pertolongan pertama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pertolongan pertama",
+    "antonym": "bukan pertolongan pertama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pertolongan pertama 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pertolongan pertama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpertolongan pertama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pertolongan pertama 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpertolongan pertama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pertolongan pertama 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpertolongan",
+        "meaning": "pertolongan pertama 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_b23i3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpertolongan pertamaan [[뼝pertolongan pertama안]]",
+    "meaning": "pertolongan pertama 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "pertolongan pertama",
+    "affix_logic": "어근 'pertolongan pertama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pertolongan pertama",
+    "antonym": "bukan pertolongan pertama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pertolongan pertama 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pertolongan pertama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpertolongan pertamaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pertolongan pertama 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpertolongan pertamaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pertolongan pertama 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpertolongan",
+        "meaning": "pertolongan pertama 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_iqfo8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berplester [[버르plester]]",
+    "meaning": "plester하는 상태이다, plester를 행하다",
+    "pos": "동사",
+    "root": "plester",
+    "affix_logic": "어근 'plester'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan plester",
+    "antonym": "tidak plester",
+    "context": "실생활 및 회화/비즈니스 상황에서 'plester하는 상태이다, plester를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'plester'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berplester' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'plester하는 상태이다, plester를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berplester' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'plester하는 상태이다, plester를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berplester",
+        "meaning": "plester하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_hntms",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplester [[뼝plester]]",
+    "meaning": "plester 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "plester",
+    "affix_logic": "어근 'plester'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak plester",
+    "antonym": "bukan plester",
+    "context": "실생활 및 회화/비즈니스 상황에서 'plester 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'plester'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengplester' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'plester 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengplester' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'plester 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengplester",
+        "meaning": "plester 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_em7ww",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplesteran [[뼝plester안]]",
+    "meaning": "plester 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "plester",
+    "affix_logic": "어근 'plester'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses plester",
+    "antonym": "bukan plester",
+    "context": "실생활 및 회화/비즈니스 상황에서 'plester 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'plester'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengplesteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'plester 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengplesteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'plester 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengplesteran",
+        "meaning": "plester 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_nlxtq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpsikiatri [[버르psikiatri]]",
+    "meaning": "psikiatri하는 상태이다, psikiatri를 행하다",
+    "pos": "동사",
+    "root": "psikiatri",
+    "affix_logic": "어근 'psikiatri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan psikiatri",
+    "antonym": "tidak psikiatri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikiatri하는 상태이다, psikiatri를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikiatri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpsikiatri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikiatri하는 상태이다, psikiatri를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpsikiatri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikiatri하는 상태이다, psikiatri를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpsikiatri",
+        "meaning": "psikiatri하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_robb5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpsikiatri [[뼝psikiatri]]",
+    "meaning": "psikiatri 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "psikiatri",
+    "affix_logic": "어근 'psikiatri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak psikiatri",
+    "antonym": "bukan psikiatri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikiatri 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikiatri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpsikiatri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikiatri 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpsikiatri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikiatri 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpsikiatri",
+        "meaning": "psikiatri 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_0w17o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpsikiatrian [[뼝psikiatri안]]",
+    "meaning": "psikiatri 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "psikiatri",
+    "affix_logic": "어근 'psikiatri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses psikiatri",
+    "antonym": "bukan psikiatri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'psikiatri 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'psikiatri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpsikiatrian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'psikiatri 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpsikiatrian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'psikiatri 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpsikiatrian",
+        "meaning": "psikiatri 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_hyr6q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berradioterapi [[버르radioterapi]]",
+    "meaning": "radioterapi하는 상태이다, radioterapi를 행하다",
+    "pos": "동사",
+    "root": "radioterapi",
+    "affix_logic": "어근 'radioterapi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan radioterapi",
+    "antonym": "tidak radioterapi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radioterapi하는 상태이다, radioterapi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radioterapi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berradioterapi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radioterapi하는 상태이다, radioterapi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berradioterapi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radioterapi하는 상태이다, radioterapi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berradioterapi",
+        "meaning": "radioterapi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_74qkm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengradioterapi [[뼝radioterapi]]",
+    "meaning": "radioterapi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "radioterapi",
+    "affix_logic": "어근 'radioterapi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak radioterapi",
+    "antonym": "bukan radioterapi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radioterapi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radioterapi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengradioterapi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radioterapi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengradioterapi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radioterapi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengradioterapi",
+        "meaning": "radioterapi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_4cths",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengradioterapian [[뼝radioterapi안]]",
+    "meaning": "radioterapi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "radioterapi",
+    "affix_logic": "어근 'radioterapi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses radioterapi",
+    "antonym": "bukan radioterapi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radioterapi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radioterapi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengradioterapian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radioterapi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengradioterapian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radioterapi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengradioterapian",
+        "meaning": "radioterapi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_mwm7v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrawat inap [[버르rawat inap]]",
+    "meaning": "rawat inap하는 상태이다, rawat inap를 행하다",
+    "pos": "동사",
+    "root": "rawat inap",
+    "affix_logic": "어근 'rawat inap'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan rawat inap",
+    "antonym": "tidak rawat inap",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat inap하는 상태이다, rawat inap를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat inap'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrawat inap' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat inap하는 상태이다, rawat inap를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrawat inap' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat inap하는 상태이다, rawat inap를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrawat",
+        "meaning": "rawat inap하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_exanz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrawat inap [[뼝rawat inap]]",
+    "meaning": "rawat inap 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "rawat inap",
+    "affix_logic": "어근 'rawat inap'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak rawat inap",
+    "antonym": "bukan rawat inap",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat inap 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat inap'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrawat inap' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat inap 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrawat inap' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat inap 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrawat",
+        "meaning": "rawat inap 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_i5k7r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrawat inapan [[뼝rawat inap안]]",
+    "meaning": "rawat inap 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "rawat inap",
+    "affix_logic": "어근 'rawat inap'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses rawat inap",
+    "antonym": "bukan rawat inap",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat inap 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat inap'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrawat inapan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat inap 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrawat inapan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat inap 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrawat",
+        "meaning": "rawat inap 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_b5rc6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrawat jalan [[버르rawat jalan]]",
+    "meaning": "rawat jalan하는 상태이다, rawat jalan를 행하다",
+    "pos": "동사",
+    "root": "rawat jalan",
+    "affix_logic": "어근 'rawat jalan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan rawat jalan",
+    "antonym": "tidak rawat jalan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat jalan하는 상태이다, rawat jalan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat jalan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrawat jalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat jalan하는 상태이다, rawat jalan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrawat jalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat jalan하는 상태이다, rawat jalan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrawat",
+        "meaning": "rawat jalan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_3rfby",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrawat jalan [[뼝rawat jalan]]",
+    "meaning": "rawat jalan 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "rawat jalan",
+    "affix_logic": "어근 'rawat jalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak rawat jalan",
+    "antonym": "bukan rawat jalan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat jalan 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat jalan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrawat jalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat jalan 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrawat jalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat jalan 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrawat",
+        "meaning": "rawat jalan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_mf7ez",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrawat jalanan [[뼝rawat jalan안]]",
+    "meaning": "rawat jalan 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "rawat jalan",
+    "affix_logic": "어근 'rawat jalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses rawat jalan",
+    "antonym": "bukan rawat jalan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat jalan 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat jalan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrawat jalanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat jalan 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrawat jalanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat jalan 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrawat",
+        "meaning": "rawat jalan 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_zeriu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berresep dokter [[버르resep dokter]]",
+    "meaning": "resep dokter하는 상태이다, resep dokter를 행하다",
+    "pos": "동사",
+    "root": "resep dokter",
+    "affix_logic": "어근 'resep dokter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan resep dokter",
+    "antonym": "tidak resep dokter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resep dokter하는 상태이다, resep dokter를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resep dokter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berresep dokter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resep dokter하는 상태이다, resep dokter를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berresep dokter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resep dokter하는 상태이다, resep dokter를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berresep",
+        "meaning": "resep dokter하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_mcw97",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresep dokter [[뼝resep dokter]]",
+    "meaning": "resep dokter 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "resep dokter",
+    "affix_logic": "어근 'resep dokter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak resep dokter",
+    "antonym": "bukan resep dokter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resep dokter 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resep dokter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresep dokter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resep dokter 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresep dokter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resep dokter 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresep",
+        "meaning": "resep dokter 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_vvu8l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresep dokteran [[뼝resep dokter안]]",
+    "meaning": "resep dokter 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "resep dokter",
+    "affix_logic": "어근 'resep dokter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses resep dokter",
+    "antonym": "bukan resep dokter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resep dokter 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resep dokter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresep dokteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resep dokter 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresep dokteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resep dokter 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresep",
+        "meaning": "resep dokter 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_cgmos",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berskrining [[버르skrining]]",
+    "meaning": "skrining하는 상태이다, skrining를 행하다",
+    "pos": "동사",
+    "root": "skrining",
+    "affix_logic": "어근 'skrining'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan skrining",
+    "antonym": "tidak skrining",
+    "context": "실생활 및 회화/비즈니스 상황에서 'skrining하는 상태이다, skrining를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'skrining'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berskrining' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'skrining하는 상태이다, skrining를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berskrining' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'skrining하는 상태이다, skrining를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berskrining",
+        "meaning": "skrining하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_atk9l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengskrining [[뼝skrining]]",
+    "meaning": "skrining 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "skrining",
+    "affix_logic": "어근 'skrining'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak skrining",
+    "antonym": "bukan skrining",
+    "context": "실생활 및 회화/비즈니스 상황에서 'skrining 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'skrining'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengskrining' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'skrining 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengskrining' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'skrining 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengskrining",
+        "meaning": "skrining 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_zo1gp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengskriningan [[뼝skrining안]]",
+    "meaning": "skrining 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "skrining",
+    "affix_logic": "어근 'skrining'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses skrining",
+    "antonym": "bukan skrining",
+    "context": "실생활 및 회화/비즈니스 상황에서 'skrining 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'skrining'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengskriningan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'skrining 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengskriningan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'skrining 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengskriningan",
+        "meaning": "skrining 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_gmggq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berspesialis [[버르spesialis]]",
+    "meaning": "spesialis하는 상태이다, spesialis를 행하다",
+    "pos": "동사",
+    "root": "spesialis",
+    "affix_logic": "어근 'spesialis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan spesialis",
+    "antonym": "tidak spesialis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spesialis하는 상태이다, spesialis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spesialis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berspesialis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spesialis하는 상태이다, spesialis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berspesialis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spesialis하는 상태이다, spesialis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berspesialis",
+        "meaning": "spesialis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_49wl8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengspesialis [[뼝spesialis]]",
+    "meaning": "spesialis 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "spesialis",
+    "affix_logic": "어근 'spesialis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak spesialis",
+    "antonym": "bukan spesialis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spesialis 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spesialis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengspesialis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spesialis 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengspesialis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spesialis 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengspesialis",
+        "meaning": "spesialis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_q5q2w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengspesialisan [[뼝spesialis안]]",
+    "meaning": "spesialis 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "spesialis",
+    "affix_logic": "어근 'spesialis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses spesialis",
+    "antonym": "bukan spesialis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spesialis 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spesialis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengspesialisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spesialis 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengspesialisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spesialis 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengspesialisan",
+        "meaning": "spesialis 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_z6ahu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersterilisasi [[버르sterilisasi]]",
+    "meaning": "sterilisasi하는 상태이다, sterilisasi를 행하다",
+    "pos": "동사",
+    "root": "sterilisasi",
+    "affix_logic": "어근 'sterilisasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sterilisasi",
+    "antonym": "tidak sterilisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sterilisasi하는 상태이다, sterilisasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sterilisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersterilisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sterilisasi하는 상태이다, sterilisasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersterilisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sterilisasi하는 상태이다, sterilisasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersterilisasi",
+        "meaning": "sterilisasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_1tphi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsterilisasi [[뼝sterilisasi]]",
+    "meaning": "sterilisasi 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "sterilisasi",
+    "affix_logic": "어근 'sterilisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak sterilisasi",
+    "antonym": "bukan sterilisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sterilisasi 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sterilisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsterilisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sterilisasi 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsterilisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sterilisasi 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsterilisasi",
+        "meaning": "sterilisasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_xt2r2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsterilisasian [[뼝sterilisasi안]]",
+    "meaning": "sterilisasi 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "sterilisasi",
+    "affix_logic": "어근 'sterilisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses sterilisasi",
+    "antonym": "bukan sterilisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sterilisasi 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sterilisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsterilisasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sterilisasi 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsterilisasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sterilisasi 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsterilisasian",
+        "meaning": "sterilisasi 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_awcef",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berstetoskop [[버르stetoskop]]",
+    "meaning": "stetoskop하는 상태이다, stetoskop를 행하다",
+    "pos": "동사",
+    "root": "stetoskop",
+    "affix_logic": "어근 'stetoskop'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan stetoskop",
+    "antonym": "tidak stetoskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'stetoskop하는 상태이다, stetoskop를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'stetoskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berstetoskop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'stetoskop하는 상태이다, stetoskop를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berstetoskop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'stetoskop하는 상태이다, stetoskop를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berstetoskop",
+        "meaning": "stetoskop하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_5nght",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstetoskop [[뼝stetoskop]]",
+    "meaning": "stetoskop 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "stetoskop",
+    "affix_logic": "어근 'stetoskop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak stetoskop",
+    "antonym": "bukan stetoskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'stetoskop 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'stetoskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengstetoskop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'stetoskop 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengstetoskop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'stetoskop 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengstetoskop",
+        "meaning": "stetoskop 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_fmof4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstetoskopan [[뼝stetoskop안]]",
+    "meaning": "stetoskop 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "stetoskop",
+    "affix_logic": "어근 'stetoskop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses stetoskop",
+    "antonym": "bukan stetoskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'stetoskop 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'stetoskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengstetoskopan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'stetoskop 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengstetoskopan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'stetoskop 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengstetoskopan",
+        "meaning": "stetoskop 과정 및 치료 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_y1p0r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersuntikan [[버르suntikan]]",
+    "meaning": "suntikan하는 상태이다, suntikan를 행하다",
+    "pos": "동사",
+    "root": "suntikan",
+    "affix_logic": "어근 'suntikan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan suntikan",
+    "antonym": "tidak suntikan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'suntikan하는 상태이다, suntikan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'suntikan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersuntikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'suntikan하는 상태이다, suntikan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersuntikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'suntikan하는 상태이다, suntikan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersuntikan",
+        "meaning": "suntikan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_1sstf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsuntikan [[뼝suntikan]]",
+    "meaning": "suntikan 수행 주체, 의료진",
+    "pos": "명사",
+    "root": "suntikan",
+    "affix_logic": "어근 'suntikan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak suntikan",
+    "antonym": "bukan suntikan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'suntikan 수행 주체, 의료진'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'suntikan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsuntikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'suntikan 수행 주체, 의료진'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsuntikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'suntikan 수행 주체, 의료진'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsuntikan",
+        "meaning": "suntikan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139175591_9srah",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsuntikanan [[뼝suntikan안]]",
+    "meaning": "suntikan 과정 및 치료 영역",
+    "pos": "명사",
+    "root": "suntikan",
+    "affix_logic": "어근 'suntikan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses suntikan",
+    "antonym": "bukan suntikan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'suntikan 과정 및 치료 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'suntikan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsuntikanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'suntikan 과정 및 치료 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsuntikanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'suntikan 과정 및 치료 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsuntikanan",
+        "meaning": "suntikan 과정 및 치료 영역"
+      }
+    ]
   }
 ];
