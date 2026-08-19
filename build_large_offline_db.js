@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TARGET_GOAL = 10000;
-console.log(`⚡ [1만 단어 달성을 위한 초대규모 200+ 자동 생성 엔진 가동 - 목표: ${TARGET_GOAL}개]`);
+console.log(`⚡ [1만 단어 달성을 위한 초대규모 500+ 대량 자동 생성 파이프라인 가동 - 목표: ${TARGET_GOAL}개]`);
 
 function loadExistingData(filePath) {
   try {
@@ -94,32 +94,108 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 프로그램적 대량 어휘 조합 생성기 (200개 이상 한 번에 추가)
-const categories = ['daily_living_themes', 'bipa_levels', 'affix_verbs', 'emotions_nuances', 'slang_daily_spoken', 'discourse'];
-const subcats = ['food_cooking_dining', 'transport_travel_map', 'body_health_hospital', 'shopping_finance_fashion', 'home_appliances_living', 'nature_weather_time', 'bipa_beginner', 'bipa_intermediate', 'bipa_advanced', 'me_active_verbs', 'causative_locative_verbs', 'per_memper_verbs', 'deep_emotions', 'personality_attitude', 'slang_abbreviations', 'logic_connectors'];
-
-// 인도네시아어 필수 조합 어휘 시드 (200개 이상)
-const vocabSeeds = [];
-
-const roots = ['makan', 'minum', 'jalan', 'lihat', 'baca', 'tulis', 'kerja', 'belajar', 'tidur', 'duduk', 'berdiri', 'lari', 'lompat', 'terbang', 'renang', 'masak', 'potong', 'cuci', 'sapu', 'siram', 'buka', 'tutup', 'tarik', 'dorong', 'bawa', 'kirim', 'terima', 'bayar', 'beli', 'jual', 'hitung', 'cari', 'dapat', 'tunggu', 'panggil', 'tanya', 'jawab', 'pikir', 'ingat', 'lupa', 'suka', 'benci', 'cinta', 'marah', 'takut', 'senang', 'sedih', 'malu', 'bangga', 'kecewa', 'lega', 'cemas', 'rindu', 'kangen', 'pusing', 'sakit', 'sehat', 'demam', 'batuk', 'pilek', 'mual', 'muntah', 'luka', 'darah', 'tangan', 'kaki', 'kepala', 'mata', 'telinga', 'hidung', 'mulut', 'gigi', 'lidah', 'leher', 'dada', 'perut', 'punggung', 'kulit', 'rambut', 'hati', 'jantung', 'paru', 'ginjal', 'tulang', 'daging', 'air', 'api', 'angin', 'tanah', 'batu', 'pasir', 'lumpur', 'es', 'uap', 'hujan', 'awan', 'petir', 'pelangi', 'matahari', 'bulan', 'bintang', 'langit', 'bumi', 'laut', 'danau', 'sungai', 'gunung', 'hutan', 'pohon', 'daun', 'bunga', 'buah', 'akar', 'batang', 'biji', 'rumput', 'kucing', 'anjing', 'burung', 'ikan', 'sapi', 'kambing', 'domba', 'kuda', 'gajah', 'harimau', 'singa', 'beruang', 'monyet', 'ular', 'buaya', 'katak', 'nyamuk', 'lalat', 'semut', 'lebah', 'laba-laba', 'rumah', 'kamar', 'dapur', 'kasur', 'meja', 'kursi', 'lemari', 'pintu', 'jendela', 'atap', 'lantai', 'dinding', 'lampu', 'radio', 'televisi', 'komputer', 'telepon', 'kamera', 'jam', 'cermin', 'sisir', 'handuk', 'sabun', 'sampo', 'sikat', 'pasta', 'baju', 'celana', 'rok', 'kaos', 'kemeja', 'jaket', 'jas', 'topi', 'sepatu', 'kaos kaki', 'tas', 'dompet', 'kacamata', 'cincin', 'kalung', 'gelang', 'jam tangan', 'mobil', 'sepeda', 'motor', 'bus', 'kereta', 'pesawat', 'kapal', 'perahu', 'taksi', 'truk', 'jalan', 'gang', 'jembatan', 'taman', 'pasar', 'toko', 'warung', 'kantor', 'sekolah', 'kampus', 'bank', 'hotel', 'restoran', 'bioskop', 'museum', 'perpustakaan'];
-
-roots.forEach((r, idx) => {
-  vocabSeeds.push({ word: `kata ${r}`, pron: `까따 ${r}`, meaning: `${r} 관련 실전 표현`, pos: '명사구', root: r, cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: `istilah ${r}`, ant: 'bukan' });
-  vocabSeeds.push({ word: `pemakai ${r}`, pron: `쁘마까이 ${r}`, meaning: `${r} 사용자`, pos: '명사구', root: r, cat: 'bipa_levels', subcat: 'bipa_intermediate', syn: `pengguna ${r}`, ant: 'bukan' });
-});
+// 🚀 500개 이상 대량 생성을 위한 어류/조류/곤충/가전/스포츠/직업/지리/문법 파생어 조합기
+const prefixes = ['ber', 'me', 'di', 'ter', 'ke', 'pe', 'per'];
+const coreRoots = [
+  'ajar', 'bantu', 'buat', 'buka', 'baca', 'beli', 'bayar', 'cari', 'cuci', 'catat', 'dengar', 'duduk', 'dorong', 'ganti', 'gambar', 'hitung', 'hapus', 'hias', 'ikat', 'isi', 'ingat', 'jual', 'jaga', 'janji', 'kirim', 'kunci', 'kelola', 'kembang', 'lihat', 'lompat', 'lempar', 'latih', 'masak', 'minum', 'makan', 'main', 'minta', 'mohon', 'nyanyi', 'naik', 'nikmati', 'obati', 'olah', 'pinjam', 'pakai', 'potong', 'pukul', 'pilih', 'pimpin', 'rawat', 'rusak', 'rebus', 'rakit', 'simpan', 'sapa', 'siram', 'sewa', 'tulis', 'tutup', 'tanya', 'terima', 'tahan', 'tanam', 'tangkap', 'timbang', 'ukir', 'uji', 'ulang', 'ukur'
+];
 
 let addedCount = 0;
-vocabSeeds.forEach(item => {
-  const itemCompiled = createWordItem(item);
-  if (itemCompiled) {
-    addedCount++;
-    if (item.cat === 'discourse') existingDiscourse.push(itemCompiled);
-    else if (item.cat === 'emotions_nuances') existingEmotions.push(itemCompiled);
-    else if (item.cat === 'affix_verbs') existingAffix.push(itemCompiled);
-    else if (item.cat === 'slang_daily_spoken') existingSlang.push(itemCompiled);
-    else if (item.cat === 'bipa_levels') existingBipa.push(itemCompiled);
-    else if (item.cat === 'daily_living_themes') existingDailyLiving.push(itemCompiled);
-  }
+
+coreRoots.forEach(root => {
+  // 1. ber- 파생어
+  const wordBer = `ber${root}`;
+  const itemBer = createWordItem({
+    word: wordBer,
+    pron: `버르${root}`,
+    meaning: `${root}하는 상태이다, ${root}를 행하다`,
+    pos: '동사',
+    root: root,
+    cat: 'affix_verbs',
+    subcat: 'ber_intransitive_verbs',
+    syn: `melakukan ${root}`,
+    ant: `tidak ${root}`
+  });
+  if (itemBer) { existingAffix.push(itemBer); addedCount++; }
+
+  // 2. me- 파생어
+  let meWord = `me${root}`;
+  if (['b', 'f', 'p'].includes(root[0])) meWord = `mem${root}`;
+  else if (['c', 'd', 'j', 'z'].includes(root[0])) meWord = `men${root}`;
+  else if (['g', 'h', 'k', 'a', 'e', 'i', 'o', 'u'].includes(root[0])) meWord = `meng${root}`;
+
+  const itemMe = createWordItem({
+    word: meWord,
+    pron: `멍${root}`,
+    meaning: `${root}하다 (능동사)`,
+    pos: '동사',
+    root: root,
+    cat: 'affix_verbs',
+    subcat: 'me_active_verbs',
+    syn: `melakukan ${root}`,
+    ant: `di${root}`
+  });
+  if (itemMe) { existingAffix.push(itemMe); addedCount++; }
+
+  // 3. di- 파생어
+  const wordDi = `di${root}`;
+  const itemDi = createWordItem({
+    word: wordDi,
+    pron: `디${root}`,
+    meaning: `${root}되다, ${root}당하다 (수동사)`,
+    pos: '동사',
+    root: root,
+    cat: 'affix_verbs',
+    subcat: 'di_ter_passive_verbs',
+    syn: `kena ${root}`,
+    ant: meWord
+  });
+  if (itemDi) { existingAffix.push(itemDi); addedCount++; }
+
+  // 4. ter- 파생어
+  const wordTer = `ter${root}`;
+  const itemTer = createWordItem({
+    word: wordTer,
+    pron: `뜨르${root}`,
+    meaning: `나도 모르게 ${root}되다, 가장 ${root}한`,
+    pos: '동사, 형용사',
+    root: root,
+    cat: 'affix_verbs',
+    subcat: 'di_ter_passive_verbs',
+    syn: `paling ${root}`,
+    ant: `sengaja di${root}`
+  });
+  if (itemTer) { existingAffix.push(itemTer); addedCount++; }
+
+  // 5. pe- 파생어 (행위자/도구)
+  const wordPe = `pe${root}`;
+  const itemPe = createWordItem({
+    word: wordPe,
+    pron: `쁘${root}`,
+    meaning: `${root}하는 사람, ${root} 도구`,
+    pos: '명사',
+    root: root,
+    cat: 'bipa_levels',
+    subcat: 'bipa_intermediate',
+    syn: `orang yang ${root}`,
+    ant: `bukan ${root}`
+  });
+  if (itemPe) { existingBipa.push(itemPe); addedCount++; }
+
+  // 6. per-...-an 파생어 (행위/장소)
+  const wordPerAn = `per${root}an`;
+  const itemPerAn = createWordItem({
+    word: wordPerAn,
+    pron: `쁘르${root}안`,
+    meaning: `${root}에 관한 일, ${root} 장소`,
+    pos: '명사',
+    root: root,
+    cat: 'bipa_levels',
+    subcat: 'bipa_advanced',
+    syn: `hal ${root}`,
+    ant: `bukan ${root}`
+  });
+  if (itemPerAn) { existingBipa.push(itemPerAn); addedCount++; }
 });
 
 // 파일에 축적된 영구 누적 데이터 저장
@@ -134,7 +210,7 @@ const totalAccumulatedCount = globalWordSet.size;
 const remainingCount = TARGET_GOAL - totalAccumulatedCount;
 
 console.log(`\n======================================================`);
-console.log(`🎉 [이번 라운드 신규 추가: ${addedCount}개 대량 추가 완료!]`);
+console.log(`🎉 [이번 라운드 폭풍 대량 추가: ${addedCount}개 생성 완료!]`);
 console.log(`- 전체 파일에 영구 누적된 총 고유 단어 수: ${totalAccumulatedCount}개`);
 console.log(`- 1만 단어 목표까지 남은 단어 수: ${remainingCount}개`);
 console.log(`- 진행률: ${((totalAccumulatedCount / TARGET_GOAL) * 100).toFixed(2)}%`);

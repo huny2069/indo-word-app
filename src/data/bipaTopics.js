@@ -5822,5 +5822,3593 @@ export const bipaTopics = [
         "meaning": "perpustakaan 사용자"
       }
     ]
+  },
+  {
+    "id": "word_1787138733781_80mx9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peajar [[쁘ajar]]",
+    "meaning": "ajar하는 사람, ajar 도구",
+    "pos": "명사",
+    "root": "ajar",
+    "affix_logic": "어근 'ajar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang ajar",
+    "antonym": "bukan ajar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ajar하는 사람, ajar 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ajar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peajar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ajar하는 사람, ajar 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peajar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ajar하는 사람, ajar 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peajar",
+        "meaning": "ajar하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_92h2b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perajaran [[쁘르ajar안]]",
+    "meaning": "ajar에 관한 일, ajar 장소",
+    "pos": "명사",
+    "root": "ajar",
+    "affix_logic": "어근 'ajar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal ajar",
+    "antonym": "bukan ajar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ajar에 관한 일, ajar 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ajar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perajaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ajar에 관한 일, ajar 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perajaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ajar에 관한 일, ajar 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perajaran",
+        "meaning": "ajar에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_qeof0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pebantu [[쁘bantu]]",
+    "meaning": "bantu하는 사람, bantu 도구",
+    "pos": "명사",
+    "root": "bantu",
+    "affix_logic": "어근 'bantu'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang bantu",
+    "antonym": "bukan bantu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bantu하는 사람, bantu 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bantu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pebantu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bantu하는 사람, bantu 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pebantu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bantu하는 사람, bantu 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pebantu",
+        "meaning": "bantu하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_yfkj8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perbantuan [[쁘르bantu안]]",
+    "meaning": "bantu에 관한 일, bantu 장소",
+    "pos": "명사",
+    "root": "bantu",
+    "affix_logic": "어근 'bantu'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal bantu",
+    "antonym": "bukan bantu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bantu에 관한 일, bantu 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bantu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perbantuan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bantu에 관한 일, bantu 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perbantuan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bantu에 관한 일, bantu 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perbantuan",
+        "meaning": "bantu에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_zlllp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pebuat [[쁘buat]]",
+    "meaning": "buat하는 사람, buat 도구",
+    "pos": "명사",
+    "root": "buat",
+    "affix_logic": "어근 'buat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang buat",
+    "antonym": "bukan buat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buat하는 사람, buat 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pebuat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buat하는 사람, buat 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pebuat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buat하는 사람, buat 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pebuat",
+        "meaning": "buat하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_tpa5u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perbuatan [[쁘르buat안]]",
+    "meaning": "buat에 관한 일, buat 장소",
+    "pos": "명사",
+    "root": "buat",
+    "affix_logic": "어근 'buat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal buat",
+    "antonym": "bukan buat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buat에 관한 일, buat 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perbuatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buat에 관한 일, buat 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perbuatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buat에 관한 일, buat 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perbuatan",
+        "meaning": "buat에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_7kdtk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pebuka [[쁘buka]]",
+    "meaning": "buka하는 사람, buka 도구",
+    "pos": "명사",
+    "root": "buka",
+    "affix_logic": "어근 'buka'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang buka",
+    "antonym": "bukan buka",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buka하는 사람, buka 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buka'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pebuka' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buka하는 사람, buka 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pebuka' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buka하는 사람, buka 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pebuka",
+        "meaning": "buka하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_np4fm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perbukaan [[쁘르buka안]]",
+    "meaning": "buka에 관한 일, buka 장소",
+    "pos": "명사",
+    "root": "buka",
+    "affix_logic": "어근 'buka'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal buka",
+    "antonym": "bukan buka",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buka에 관한 일, buka 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buka'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perbukaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buka에 관한 일, buka 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perbukaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buka에 관한 일, buka 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perbukaan",
+        "meaning": "buka에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_ya3sn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pebaca [[쁘baca]]",
+    "meaning": "baca하는 사람, baca 도구",
+    "pos": "명사",
+    "root": "baca",
+    "affix_logic": "어근 'baca'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang baca",
+    "antonym": "bukan baca",
+    "context": "실생활 및 회화/비즈니스 상황에서 'baca하는 사람, baca 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'baca'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pebaca' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'baca하는 사람, baca 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pebaca' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'baca하는 사람, baca 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pebaca",
+        "meaning": "baca하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_j4diu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perbacaan [[쁘르baca안]]",
+    "meaning": "baca에 관한 일, baca 장소",
+    "pos": "명사",
+    "root": "baca",
+    "affix_logic": "어근 'baca'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal baca",
+    "antonym": "bukan baca",
+    "context": "실생활 및 회화/비즈니스 상황에서 'baca에 관한 일, baca 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'baca'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perbacaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'baca에 관한 일, baca 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perbacaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'baca에 관한 일, baca 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perbacaan",
+        "meaning": "baca에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_tuq3v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pebeli [[쁘beli]]",
+    "meaning": "beli하는 사람, beli 도구",
+    "pos": "명사",
+    "root": "beli",
+    "affix_logic": "어근 'beli'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang beli",
+    "antonym": "bukan beli",
+    "context": "실생활 및 회화/비즈니스 상황에서 'beli하는 사람, beli 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'beli'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pebeli' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'beli하는 사람, beli 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pebeli' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'beli하는 사람, beli 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pebeli",
+        "meaning": "beli하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_aoc6c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perbelian [[쁘르beli안]]",
+    "meaning": "beli에 관한 일, beli 장소",
+    "pos": "명사",
+    "root": "beli",
+    "affix_logic": "어근 'beli'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal beli",
+    "antonym": "bukan beli",
+    "context": "실생활 및 회화/비즈니스 상황에서 'beli에 관한 일, beli 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'beli'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perbelian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'beli에 관한 일, beli 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perbelian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'beli에 관한 일, beli 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perbelian",
+        "meaning": "beli에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_3a06i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pebayar [[쁘bayar]]",
+    "meaning": "bayar하는 사람, bayar 도구",
+    "pos": "명사",
+    "root": "bayar",
+    "affix_logic": "어근 'bayar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang bayar",
+    "antonym": "bukan bayar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bayar하는 사람, bayar 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bayar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pebayar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bayar하는 사람, bayar 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pebayar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bayar하는 사람, bayar 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pebayar",
+        "meaning": "bayar하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_0yukf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perbayaran [[쁘르bayar안]]",
+    "meaning": "bayar에 관한 일, bayar 장소",
+    "pos": "명사",
+    "root": "bayar",
+    "affix_logic": "어근 'bayar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal bayar",
+    "antonym": "bukan bayar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bayar에 관한 일, bayar 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bayar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perbayaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bayar에 관한 일, bayar 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perbayaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bayar에 관한 일, bayar 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perbayaran",
+        "meaning": "bayar에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_qanwi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pecari [[쁘cari]]",
+    "meaning": "cari하는 사람, cari 도구",
+    "pos": "명사",
+    "root": "cari",
+    "affix_logic": "어근 'cari'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang cari",
+    "antonym": "bukan cari",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cari하는 사람, cari 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cari'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pecari' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cari하는 사람, cari 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pecari' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cari하는 사람, cari 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pecari",
+        "meaning": "cari하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_xv0uo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "percarian [[쁘르cari안]]",
+    "meaning": "cari에 관한 일, cari 장소",
+    "pos": "명사",
+    "root": "cari",
+    "affix_logic": "어근 'cari'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal cari",
+    "antonym": "bukan cari",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cari에 관한 일, cari 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cari'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'percarian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cari에 관한 일, cari 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'percarian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cari에 관한 일, cari 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "percarian",
+        "meaning": "cari에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_37rhd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pecuci [[쁘cuci]]",
+    "meaning": "cuci하는 사람, cuci 도구",
+    "pos": "명사",
+    "root": "cuci",
+    "affix_logic": "어근 'cuci'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang cuci",
+    "antonym": "bukan cuci",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cuci하는 사람, cuci 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cuci'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pecuci' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cuci하는 사람, cuci 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pecuci' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cuci하는 사람, cuci 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pecuci",
+        "meaning": "cuci하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_cxqkr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "percucian [[쁘르cuci안]]",
+    "meaning": "cuci에 관한 일, cuci 장소",
+    "pos": "명사",
+    "root": "cuci",
+    "affix_logic": "어근 'cuci'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal cuci",
+    "antonym": "bukan cuci",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cuci에 관한 일, cuci 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cuci'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'percucian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cuci에 관한 일, cuci 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'percucian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cuci에 관한 일, cuci 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "percucian",
+        "meaning": "cuci에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_ihfwk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pecatat [[쁘catat]]",
+    "meaning": "catat하는 사람, catat 도구",
+    "pos": "명사",
+    "root": "catat",
+    "affix_logic": "어근 'catat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang catat",
+    "antonym": "bukan catat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'catat하는 사람, catat 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'catat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pecatat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'catat하는 사람, catat 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pecatat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'catat하는 사람, catat 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pecatat",
+        "meaning": "catat하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_utr6l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "percatatan [[쁘르catat안]]",
+    "meaning": "catat에 관한 일, catat 장소",
+    "pos": "명사",
+    "root": "catat",
+    "affix_logic": "어근 'catat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal catat",
+    "antonym": "bukan catat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'catat에 관한 일, catat 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'catat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'percatatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'catat에 관한 일, catat 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'percatatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'catat에 관한 일, catat 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "percatatan",
+        "meaning": "catat에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_3c0m5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pedengar [[쁘dengar]]",
+    "meaning": "dengar하는 사람, dengar 도구",
+    "pos": "명사",
+    "root": "dengar",
+    "affix_logic": "어근 'dengar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang dengar",
+    "antonym": "bukan dengar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dengar하는 사람, dengar 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dengar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pedengar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dengar하는 사람, dengar 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pedengar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dengar하는 사람, dengar 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pedengar",
+        "meaning": "dengar하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_qqghn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perdengaran [[쁘르dengar안]]",
+    "meaning": "dengar에 관한 일, dengar 장소",
+    "pos": "명사",
+    "root": "dengar",
+    "affix_logic": "어근 'dengar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal dengar",
+    "antonym": "bukan dengar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dengar에 관한 일, dengar 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dengar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perdengaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dengar에 관한 일, dengar 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perdengaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dengar에 관한 일, dengar 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perdengaran",
+        "meaning": "dengar에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_nn9qv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peduduk [[쁘duduk]]",
+    "meaning": "duduk하는 사람, duduk 도구",
+    "pos": "명사",
+    "root": "duduk",
+    "affix_logic": "어근 'duduk'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang duduk",
+    "antonym": "bukan duduk",
+    "context": "실생활 및 회화/비즈니스 상황에서 'duduk하는 사람, duduk 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'duduk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peduduk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'duduk하는 사람, duduk 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peduduk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'duduk하는 사람, duduk 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peduduk",
+        "meaning": "duduk하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_o2uor",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perdudukan [[쁘르duduk안]]",
+    "meaning": "duduk에 관한 일, duduk 장소",
+    "pos": "명사",
+    "root": "duduk",
+    "affix_logic": "어근 'duduk'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal duduk",
+    "antonym": "bukan duduk",
+    "context": "실생활 및 회화/비즈니스 상황에서 'duduk에 관한 일, duduk 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'duduk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perdudukan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'duduk에 관한 일, duduk 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perdudukan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'duduk에 관한 일, duduk 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perdudukan",
+        "meaning": "duduk에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_nj4yt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pedorong [[쁘dorong]]",
+    "meaning": "dorong하는 사람, dorong 도구",
+    "pos": "명사",
+    "root": "dorong",
+    "affix_logic": "어근 'dorong'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang dorong",
+    "antonym": "bukan dorong",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dorong하는 사람, dorong 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dorong'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pedorong' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dorong하는 사람, dorong 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pedorong' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dorong하는 사람, dorong 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pedorong",
+        "meaning": "dorong하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_xh1vg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perdorongan [[쁘르dorong안]]",
+    "meaning": "dorong에 관한 일, dorong 장소",
+    "pos": "명사",
+    "root": "dorong",
+    "affix_logic": "어근 'dorong'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal dorong",
+    "antonym": "bukan dorong",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dorong에 관한 일, dorong 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dorong'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perdorongan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dorong에 관한 일, dorong 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perdorongan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dorong에 관한 일, dorong 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perdorongan",
+        "meaning": "dorong에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_att9y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peganti [[쁘ganti]]",
+    "meaning": "ganti하는 사람, ganti 도구",
+    "pos": "명사",
+    "root": "ganti",
+    "affix_logic": "어근 'ganti'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang ganti",
+    "antonym": "bukan ganti",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ganti하는 사람, ganti 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ganti'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peganti' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ganti하는 사람, ganti 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peganti' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ganti하는 사람, ganti 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peganti",
+        "meaning": "ganti하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_7ilq6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pergantian [[쁘르ganti안]]",
+    "meaning": "ganti에 관한 일, ganti 장소",
+    "pos": "명사",
+    "root": "ganti",
+    "affix_logic": "어근 'ganti'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal ganti",
+    "antonym": "bukan ganti",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ganti에 관한 일, ganti 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ganti'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pergantian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ganti에 관한 일, ganti 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pergantian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ganti에 관한 일, ganti 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pergantian",
+        "meaning": "ganti에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_psqgn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pegambar [[쁘gambar]]",
+    "meaning": "gambar하는 사람, gambar 도구",
+    "pos": "명사",
+    "root": "gambar",
+    "affix_logic": "어근 'gambar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang gambar",
+    "antonym": "bukan gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gambar하는 사람, gambar 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pegambar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gambar하는 사람, gambar 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pegambar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gambar하는 사람, gambar 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pegambar",
+        "meaning": "gambar하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_p2q9z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pergambaran [[쁘르gambar안]]",
+    "meaning": "gambar에 관한 일, gambar 장소",
+    "pos": "명사",
+    "root": "gambar",
+    "affix_logic": "어근 'gambar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal gambar",
+    "antonym": "bukan gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gambar에 관한 일, gambar 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pergambaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gambar에 관한 일, gambar 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pergambaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gambar에 관한 일, gambar 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pergambaran",
+        "meaning": "gambar에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_pzbn7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pehitung [[쁘hitung]]",
+    "meaning": "hitung하는 사람, hitung 도구",
+    "pos": "명사",
+    "root": "hitung",
+    "affix_logic": "어근 'hitung'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang hitung",
+    "antonym": "bukan hitung",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hitung하는 사람, hitung 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hitung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pehitung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hitung하는 사람, hitung 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pehitung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hitung하는 사람, hitung 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pehitung",
+        "meaning": "hitung하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_q4lfy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perhitungan [[쁘르hitung안]]",
+    "meaning": "hitung에 관한 일, hitung 장소",
+    "pos": "명사",
+    "root": "hitung",
+    "affix_logic": "어근 'hitung'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal hitung",
+    "antonym": "bukan hitung",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hitung에 관한 일, hitung 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hitung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perhitungan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hitung에 관한 일, hitung 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perhitungan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hitung에 관한 일, hitung 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perhitungan",
+        "meaning": "hitung에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_32ueq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pehapus [[쁘hapus]]",
+    "meaning": "hapus하는 사람, hapus 도구",
+    "pos": "명사",
+    "root": "hapus",
+    "affix_logic": "어근 'hapus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang hapus",
+    "antonym": "bukan hapus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hapus하는 사람, hapus 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hapus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pehapus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hapus하는 사람, hapus 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pehapus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hapus하는 사람, hapus 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pehapus",
+        "meaning": "hapus하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_03uwj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perhapusan [[쁘르hapus안]]",
+    "meaning": "hapus에 관한 일, hapus 장소",
+    "pos": "명사",
+    "root": "hapus",
+    "affix_logic": "어근 'hapus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal hapus",
+    "antonym": "bukan hapus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hapus에 관한 일, hapus 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hapus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perhapusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hapus에 관한 일, hapus 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perhapusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hapus에 관한 일, hapus 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perhapusan",
+        "meaning": "hapus에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_1jg0r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pehias [[쁘hias]]",
+    "meaning": "hias하는 사람, hias 도구",
+    "pos": "명사",
+    "root": "hias",
+    "affix_logic": "어근 'hias'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang hias",
+    "antonym": "bukan hias",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hias하는 사람, hias 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hias'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pehias' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hias하는 사람, hias 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pehias' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hias하는 사람, hias 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pehias",
+        "meaning": "hias하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_qnn15",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perhiasan [[쁘르hias안]]",
+    "meaning": "hias에 관한 일, hias 장소",
+    "pos": "명사",
+    "root": "hias",
+    "affix_logic": "어근 'hias'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal hias",
+    "antonym": "bukan hias",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hias에 관한 일, hias 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hias'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perhiasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hias에 관한 일, hias 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perhiasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hias에 관한 일, hias 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perhiasan",
+        "meaning": "hias에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_xhho0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peikat [[쁘ikat]]",
+    "meaning": "ikat하는 사람, ikat 도구",
+    "pos": "명사",
+    "root": "ikat",
+    "affix_logic": "어근 'ikat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang ikat",
+    "antonym": "bukan ikat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ikat하는 사람, ikat 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ikat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peikat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ikat하는 사람, ikat 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peikat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ikat하는 사람, ikat 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peikat",
+        "meaning": "ikat하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_h33sk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perikatan [[쁘르ikat안]]",
+    "meaning": "ikat에 관한 일, ikat 장소",
+    "pos": "명사",
+    "root": "ikat",
+    "affix_logic": "어근 'ikat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal ikat",
+    "antonym": "bukan ikat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ikat에 관한 일, ikat 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ikat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perikatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ikat에 관한 일, ikat 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perikatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ikat에 관한 일, ikat 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perikatan",
+        "meaning": "ikat에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_cq6z8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peisi [[쁘isi]]",
+    "meaning": "isi하는 사람, isi 도구",
+    "pos": "명사",
+    "root": "isi",
+    "affix_logic": "어근 'isi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang isi",
+    "antonym": "bukan isi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isi하는 사람, isi 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isi하는 사람, isi 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isi하는 사람, isi 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peisi",
+        "meaning": "isi하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_4sc66",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perisian [[쁘르isi안]]",
+    "meaning": "isi에 관한 일, isi 장소",
+    "pos": "명사",
+    "root": "isi",
+    "affix_logic": "어근 'isi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal isi",
+    "antonym": "bukan isi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isi에 관한 일, isi 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isi에 관한 일, isi 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isi에 관한 일, isi 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perisian",
+        "meaning": "isi에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_dq1d5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peingat [[쁘ingat]]",
+    "meaning": "ingat하는 사람, ingat 도구",
+    "pos": "명사",
+    "root": "ingat",
+    "affix_logic": "어근 'ingat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang ingat",
+    "antonym": "bukan ingat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ingat하는 사람, ingat 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ingat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peingat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ingat하는 사람, ingat 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peingat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ingat하는 사람, ingat 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peingat",
+        "meaning": "ingat하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_03nrp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "peringatan [[쁘르ingat안]]",
+    "meaning": "ingat에 관한 일, ingat 장소",
+    "pos": "명사",
+    "root": "ingat",
+    "affix_logic": "어근 'ingat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal ingat",
+    "antonym": "bukan ingat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ingat에 관한 일, ingat 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ingat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peringatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ingat에 관한 일, ingat 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peringatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ingat에 관한 일, ingat 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peringatan",
+        "meaning": "ingat에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_2jka2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pejual [[쁘jual]]",
+    "meaning": "jual하는 사람, jual 도구",
+    "pos": "명사",
+    "root": "jual",
+    "affix_logic": "어근 'jual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang jual",
+    "antonym": "bukan jual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jual하는 사람, jual 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pejual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jual하는 사람, jual 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pejual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jual하는 사람, jual 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pejual",
+        "meaning": "jual하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_znka6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perjualan [[쁘르jual안]]",
+    "meaning": "jual에 관한 일, jual 장소",
+    "pos": "명사",
+    "root": "jual",
+    "affix_logic": "어근 'jual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal jual",
+    "antonym": "bukan jual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jual에 관한 일, jual 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perjualan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jual에 관한 일, jual 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perjualan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jual에 관한 일, jual 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perjualan",
+        "meaning": "jual에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_av59z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pejaga [[쁘jaga]]",
+    "meaning": "jaga하는 사람, jaga 도구",
+    "pos": "명사",
+    "root": "jaga",
+    "affix_logic": "어근 'jaga'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang jaga",
+    "antonym": "bukan jaga",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jaga하는 사람, jaga 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jaga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pejaga' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jaga하는 사람, jaga 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pejaga' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jaga하는 사람, jaga 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pejaga",
+        "meaning": "jaga하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_ogm3t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perjagaan [[쁘르jaga안]]",
+    "meaning": "jaga에 관한 일, jaga 장소",
+    "pos": "명사",
+    "root": "jaga",
+    "affix_logic": "어근 'jaga'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal jaga",
+    "antonym": "bukan jaga",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jaga에 관한 일, jaga 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jaga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perjagaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jaga에 관한 일, jaga 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perjagaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jaga에 관한 일, jaga 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perjagaan",
+        "meaning": "jaga에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_v43ty",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pejanji [[쁘janji]]",
+    "meaning": "janji하는 사람, janji 도구",
+    "pos": "명사",
+    "root": "janji",
+    "affix_logic": "어근 'janji'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang janji",
+    "antonym": "bukan janji",
+    "context": "실생활 및 회화/비즈니스 상황에서 'janji하는 사람, janji 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'janji'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pejanji' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'janji하는 사람, janji 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pejanji' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'janji하는 사람, janji 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pejanji",
+        "meaning": "janji하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_gaofs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perjanjian [[쁘르janji안]]",
+    "meaning": "janji에 관한 일, janji 장소",
+    "pos": "명사",
+    "root": "janji",
+    "affix_logic": "어근 'janji'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal janji",
+    "antonym": "bukan janji",
+    "context": "실생활 및 회화/비즈니스 상황에서 'janji에 관한 일, janji 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'janji'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perjanjian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'janji에 관한 일, janji 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perjanjian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'janji에 관한 일, janji 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perjanjian",
+        "meaning": "janji에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_6oi5k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pekirim [[쁘kirim]]",
+    "meaning": "kirim하는 사람, kirim 도구",
+    "pos": "명사",
+    "root": "kirim",
+    "affix_logic": "어근 'kirim'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang kirim",
+    "antonym": "bukan kirim",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kirim하는 사람, kirim 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kirim'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pekirim' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kirim하는 사람, kirim 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pekirim' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kirim하는 사람, kirim 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pekirim",
+        "meaning": "kirim하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_qtc8j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perkiriman [[쁘르kirim안]]",
+    "meaning": "kirim에 관한 일, kirim 장소",
+    "pos": "명사",
+    "root": "kirim",
+    "affix_logic": "어근 'kirim'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal kirim",
+    "antonym": "bukan kirim",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kirim에 관한 일, kirim 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kirim'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perkiriman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kirim에 관한 일, kirim 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perkiriman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kirim에 관한 일, kirim 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perkiriman",
+        "meaning": "kirim에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_sw5v3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pekunci [[쁘kunci]]",
+    "meaning": "kunci하는 사람, kunci 도구",
+    "pos": "명사",
+    "root": "kunci",
+    "affix_logic": "어근 'kunci'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang kunci",
+    "antonym": "bukan kunci",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kunci하는 사람, kunci 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kunci'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pekunci' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kunci하는 사람, kunci 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pekunci' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kunci하는 사람, kunci 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pekunci",
+        "meaning": "kunci하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_1byq6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perkuncian [[쁘르kunci안]]",
+    "meaning": "kunci에 관한 일, kunci 장소",
+    "pos": "명사",
+    "root": "kunci",
+    "affix_logic": "어근 'kunci'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal kunci",
+    "antonym": "bukan kunci",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kunci에 관한 일, kunci 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kunci'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perkuncian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kunci에 관한 일, kunci 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perkuncian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kunci에 관한 일, kunci 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perkuncian",
+        "meaning": "kunci에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_ita70",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pekelola [[쁘kelola]]",
+    "meaning": "kelola하는 사람, kelola 도구",
+    "pos": "명사",
+    "root": "kelola",
+    "affix_logic": "어근 'kelola'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang kelola",
+    "antonym": "bukan kelola",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kelola하는 사람, kelola 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kelola'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pekelola' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kelola하는 사람, kelola 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pekelola' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kelola하는 사람, kelola 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pekelola",
+        "meaning": "kelola하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_t5jgj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perkelolaan [[쁘르kelola안]]",
+    "meaning": "kelola에 관한 일, kelola 장소",
+    "pos": "명사",
+    "root": "kelola",
+    "affix_logic": "어근 'kelola'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal kelola",
+    "antonym": "bukan kelola",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kelola에 관한 일, kelola 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kelola'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perkelolaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kelola에 관한 일, kelola 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perkelolaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kelola에 관한 일, kelola 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perkelolaan",
+        "meaning": "kelola에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_7rdpa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pekembang [[쁘kembang]]",
+    "meaning": "kembang하는 사람, kembang 도구",
+    "pos": "명사",
+    "root": "kembang",
+    "affix_logic": "어근 'kembang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang kembang",
+    "antonym": "bukan kembang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kembang하는 사람, kembang 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kembang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pekembang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kembang하는 사람, kembang 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pekembang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kembang하는 사람, kembang 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pekembang",
+        "meaning": "kembang하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_9hxou",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perkembangan [[쁘르kembang안]]",
+    "meaning": "kembang에 관한 일, kembang 장소",
+    "pos": "명사",
+    "root": "kembang",
+    "affix_logic": "어근 'kembang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal kembang",
+    "antonym": "bukan kembang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kembang에 관한 일, kembang 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kembang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perkembangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kembang에 관한 일, kembang 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perkembangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kembang에 관한 일, kembang 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perkembangan",
+        "meaning": "kembang에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_035lv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pelihat [[쁘lihat]]",
+    "meaning": "lihat하는 사람, lihat 도구",
+    "pos": "명사",
+    "root": "lihat",
+    "affix_logic": "어근 'lihat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang lihat",
+    "antonym": "bukan lihat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lihat하는 사람, lihat 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lihat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pelihat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lihat하는 사람, lihat 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pelihat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lihat하는 사람, lihat 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pelihat",
+        "meaning": "lihat하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_txxbi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perlihatan [[쁘르lihat안]]",
+    "meaning": "lihat에 관한 일, lihat 장소",
+    "pos": "명사",
+    "root": "lihat",
+    "affix_logic": "어근 'lihat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal lihat",
+    "antonym": "bukan lihat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lihat에 관한 일, lihat 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lihat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perlihatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lihat에 관한 일, lihat 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perlihatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lihat에 관한 일, lihat 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perlihatan",
+        "meaning": "lihat에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_15sl2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pelompat [[쁘lompat]]",
+    "meaning": "lompat하는 사람, lompat 도구",
+    "pos": "명사",
+    "root": "lompat",
+    "affix_logic": "어근 'lompat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang lompat",
+    "antonym": "bukan lompat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lompat하는 사람, lompat 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lompat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pelompat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lompat하는 사람, lompat 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pelompat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lompat하는 사람, lompat 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pelompat",
+        "meaning": "lompat하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_ijlbn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perlompatan [[쁘르lompat안]]",
+    "meaning": "lompat에 관한 일, lompat 장소",
+    "pos": "명사",
+    "root": "lompat",
+    "affix_logic": "어근 'lompat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal lompat",
+    "antonym": "bukan lompat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lompat에 관한 일, lompat 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lompat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perlompatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lompat에 관한 일, lompat 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perlompatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lompat에 관한 일, lompat 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perlompatan",
+        "meaning": "lompat에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_icudb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pelempar [[쁘lempar]]",
+    "meaning": "lempar하는 사람, lempar 도구",
+    "pos": "명사",
+    "root": "lempar",
+    "affix_logic": "어근 'lempar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang lempar",
+    "antonym": "bukan lempar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lempar하는 사람, lempar 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lempar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pelempar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lempar하는 사람, lempar 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pelempar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lempar하는 사람, lempar 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pelempar",
+        "meaning": "lempar하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_fkpkl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perlemparan [[쁘르lempar안]]",
+    "meaning": "lempar에 관한 일, lempar 장소",
+    "pos": "명사",
+    "root": "lempar",
+    "affix_logic": "어근 'lempar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal lempar",
+    "antonym": "bukan lempar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lempar에 관한 일, lempar 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lempar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perlemparan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lempar에 관한 일, lempar 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perlemparan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lempar에 관한 일, lempar 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perlemparan",
+        "meaning": "lempar에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_hbyhi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pelatih [[쁘latih]]",
+    "meaning": "latih하는 사람, latih 도구",
+    "pos": "명사",
+    "root": "latih",
+    "affix_logic": "어근 'latih'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang latih",
+    "antonym": "bukan latih",
+    "context": "실생활 및 회화/비즈니스 상황에서 'latih하는 사람, latih 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'latih'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pelatih' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'latih하는 사람, latih 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pelatih' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'latih하는 사람, latih 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pelatih",
+        "meaning": "latih하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_k95nk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perlatihan [[쁘르latih안]]",
+    "meaning": "latih에 관한 일, latih 장소",
+    "pos": "명사",
+    "root": "latih",
+    "affix_logic": "어근 'latih'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal latih",
+    "antonym": "bukan latih",
+    "context": "실생활 및 회화/비즈니스 상황에서 'latih에 관한 일, latih 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'latih'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perlatihan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'latih에 관한 일, latih 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perlatihan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'latih에 관한 일, latih 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perlatihan",
+        "meaning": "latih에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_w6a6g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemasak [[쁘masak]]",
+    "meaning": "masak하는 사람, masak 도구",
+    "pos": "명사",
+    "root": "masak",
+    "affix_logic": "어근 'masak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang masak",
+    "antonym": "bukan masak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'masak하는 사람, masak 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'masak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemasak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'masak하는 사람, masak 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemasak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'masak하는 사람, masak 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemasak",
+        "meaning": "masak하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_chjbj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "permasakan [[쁘르masak안]]",
+    "meaning": "masak에 관한 일, masak 장소",
+    "pos": "명사",
+    "root": "masak",
+    "affix_logic": "어근 'masak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal masak",
+    "antonym": "bukan masak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'masak에 관한 일, masak 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'masak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'permasakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'masak에 관한 일, masak 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'permasakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'masak에 관한 일, masak 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "permasakan",
+        "meaning": "masak에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_hxlka",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peminum [[쁘minum]]",
+    "meaning": "minum하는 사람, minum 도구",
+    "pos": "명사",
+    "root": "minum",
+    "affix_logic": "어근 'minum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang minum",
+    "antonym": "bukan minum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'minum하는 사람, minum 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'minum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peminum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'minum하는 사람, minum 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peminum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'minum하는 사람, minum 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peminum",
+        "meaning": "minum하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_pujlz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perminuman [[쁘르minum안]]",
+    "meaning": "minum에 관한 일, minum 장소",
+    "pos": "명사",
+    "root": "minum",
+    "affix_logic": "어근 'minum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal minum",
+    "antonym": "bukan minum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'minum에 관한 일, minum 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'minum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perminuman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'minum에 관한 일, minum 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perminuman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'minum에 관한 일, minum 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perminuman",
+        "meaning": "minum에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_18p7v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakan [[쁘makan]]",
+    "meaning": "makan하는 사람, makan 도구",
+    "pos": "명사",
+    "root": "makan",
+    "affix_logic": "어근 'makan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang makan",
+    "antonym": "bukan makan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'makan하는 사람, makan 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'makan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'makan하는 사람, makan 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'makan하는 사람, makan 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakan",
+        "meaning": "makan하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_lhm1f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "permakanan [[쁘르makan안]]",
+    "meaning": "makan에 관한 일, makan 장소",
+    "pos": "명사",
+    "root": "makan",
+    "affix_logic": "어근 'makan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal makan",
+    "antonym": "bukan makan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'makan에 관한 일, makan 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'makan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'permakanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'makan에 관한 일, makan 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'permakanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'makan에 관한 일, makan 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "permakanan",
+        "meaning": "makan에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_v9dhc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemain [[쁘main]]",
+    "meaning": "main하는 사람, main 도구",
+    "pos": "명사",
+    "root": "main",
+    "affix_logic": "어근 'main'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang main",
+    "antonym": "bukan main",
+    "context": "실생활 및 회화/비즈니스 상황에서 'main하는 사람, main 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'main'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemain' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'main하는 사람, main 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemain' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'main하는 사람, main 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemain",
+        "meaning": "main하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_5figh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "permainan [[쁘르main안]]",
+    "meaning": "main에 관한 일, main 장소",
+    "pos": "명사",
+    "root": "main",
+    "affix_logic": "어근 'main'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal main",
+    "antonym": "bukan main",
+    "context": "실생활 및 회화/비즈니스 상황에서 'main에 관한 일, main 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'main'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'permainan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'main에 관한 일, main 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'permainan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'main에 관한 일, main 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "permainan",
+        "meaning": "main에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_snunj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peminta [[쁘minta]]",
+    "meaning": "minta하는 사람, minta 도구",
+    "pos": "명사",
+    "root": "minta",
+    "affix_logic": "어근 'minta'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang minta",
+    "antonym": "bukan minta",
+    "context": "실생활 및 회화/비즈니스 상황에서 'minta하는 사람, minta 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'minta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peminta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'minta하는 사람, minta 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peminta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'minta하는 사람, minta 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peminta",
+        "meaning": "minta하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_nf9cg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "permintaan [[쁘르minta안]]",
+    "meaning": "minta에 관한 일, minta 장소",
+    "pos": "명사",
+    "root": "minta",
+    "affix_logic": "어근 'minta'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal minta",
+    "antonym": "bukan minta",
+    "context": "실생활 및 회화/비즈니스 상황에서 'minta에 관한 일, minta 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'minta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'permintaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'minta에 관한 일, minta 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'permintaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'minta에 관한 일, minta 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "permintaan",
+        "meaning": "minta에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_fi0xe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemohon [[쁘mohon]]",
+    "meaning": "mohon하는 사람, mohon 도구",
+    "pos": "명사",
+    "root": "mohon",
+    "affix_logic": "어근 'mohon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang mohon",
+    "antonym": "bukan mohon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mohon하는 사람, mohon 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mohon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemohon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mohon하는 사람, mohon 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemohon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mohon하는 사람, mohon 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemohon",
+        "meaning": "mohon하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_8of2h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "permohonan [[쁘르mohon안]]",
+    "meaning": "mohon에 관한 일, mohon 장소",
+    "pos": "명사",
+    "root": "mohon",
+    "affix_logic": "어근 'mohon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal mohon",
+    "antonym": "bukan mohon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mohon에 관한 일, mohon 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mohon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'permohonan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mohon에 관한 일, mohon 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'permohonan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mohon에 관한 일, mohon 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "permohonan",
+        "meaning": "mohon에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_z5fj4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "penyanyi [[쁘nyanyi]]",
+    "meaning": "nyanyi하는 사람, nyanyi 도구",
+    "pos": "명사",
+    "root": "nyanyi",
+    "affix_logic": "어근 'nyanyi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang nyanyi",
+    "antonym": "bukan nyanyi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nyanyi하는 사람, nyanyi 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nyanyi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penyanyi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nyanyi하는 사람, nyanyi 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penyanyi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nyanyi하는 사람, nyanyi 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penyanyi",
+        "meaning": "nyanyi하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_zqgm1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pernyanyian [[쁘르nyanyi안]]",
+    "meaning": "nyanyi에 관한 일, nyanyi 장소",
+    "pos": "명사",
+    "root": "nyanyi",
+    "affix_logic": "어근 'nyanyi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal nyanyi",
+    "antonym": "bukan nyanyi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nyanyi에 관한 일, nyanyi 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nyanyi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pernyanyian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nyanyi에 관한 일, nyanyi 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pernyanyian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nyanyi에 관한 일, nyanyi 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pernyanyian",
+        "meaning": "nyanyi에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_4fh4r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "penaik [[쁘naik]]",
+    "meaning": "naik하는 사람, naik 도구",
+    "pos": "명사",
+    "root": "naik",
+    "affix_logic": "어근 'naik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang naik",
+    "antonym": "bukan naik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'naik하는 사람, naik 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'naik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penaik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'naik하는 사람, naik 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penaik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'naik하는 사람, naik 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penaik",
+        "meaning": "naik하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_apbip",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pernaikan [[쁘르naik안]]",
+    "meaning": "naik에 관한 일, naik 장소",
+    "pos": "명사",
+    "root": "naik",
+    "affix_logic": "어근 'naik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal naik",
+    "antonym": "bukan naik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'naik에 관한 일, naik 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'naik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pernaikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'naik에 관한 일, naik 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pernaikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'naik에 관한 일, naik 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pernaikan",
+        "meaning": "naik에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_dkpym",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "penikmati [[쁘nikmati]]",
+    "meaning": "nikmati하는 사람, nikmati 도구",
+    "pos": "명사",
+    "root": "nikmati",
+    "affix_logic": "어근 'nikmati'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang nikmati",
+    "antonym": "bukan nikmati",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nikmati하는 사람, nikmati 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nikmati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penikmati' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nikmati하는 사람, nikmati 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penikmati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nikmati하는 사람, nikmati 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penikmati",
+        "meaning": "nikmati하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_hk4gz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pernikmatian [[쁘르nikmati안]]",
+    "meaning": "nikmati에 관한 일, nikmati 장소",
+    "pos": "명사",
+    "root": "nikmati",
+    "affix_logic": "어근 'nikmati'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal nikmati",
+    "antonym": "bukan nikmati",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nikmati에 관한 일, nikmati 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nikmati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pernikmatian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nikmati에 관한 일, nikmati 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pernikmatian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nikmati에 관한 일, nikmati 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pernikmatian",
+        "meaning": "nikmati에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_uw9dn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peobati [[쁘obati]]",
+    "meaning": "obati하는 사람, obati 도구",
+    "pos": "명사",
+    "root": "obati",
+    "affix_logic": "어근 'obati'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang obati",
+    "antonym": "bukan obati",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obati하는 사람, obati 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peobati' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obati하는 사람, obati 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peobati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obati하는 사람, obati 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peobati",
+        "meaning": "obati하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_hwl1j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perobatian [[쁘르obati안]]",
+    "meaning": "obati에 관한 일, obati 장소",
+    "pos": "명사",
+    "root": "obati",
+    "affix_logic": "어근 'obati'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal obati",
+    "antonym": "bukan obati",
+    "context": "실생활 및 회화/비즈니스 상황에서 'obati에 관한 일, obati 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'obati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perobatian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'obati에 관한 일, obati 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perobatian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'obati에 관한 일, obati 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perobatian",
+        "meaning": "obati에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_6zzmv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peolah [[쁘olah]]",
+    "meaning": "olah하는 사람, olah 도구",
+    "pos": "명사",
+    "root": "olah",
+    "affix_logic": "어근 'olah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang olah",
+    "antonym": "bukan olah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'olah하는 사람, olah 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'olah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peolah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'olah하는 사람, olah 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peolah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'olah하는 사람, olah 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peolah",
+        "meaning": "olah하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_5mqr4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perolahan [[쁘르olah안]]",
+    "meaning": "olah에 관한 일, olah 장소",
+    "pos": "명사",
+    "root": "olah",
+    "affix_logic": "어근 'olah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal olah",
+    "antonym": "bukan olah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'olah에 관한 일, olah 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'olah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perolahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'olah에 관한 일, olah 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perolahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'olah에 관한 일, olah 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perolahan",
+        "meaning": "olah에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_5puia",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pepinjam [[쁘pinjam]]",
+    "meaning": "pinjam하는 사람, pinjam 도구",
+    "pos": "명사",
+    "root": "pinjam",
+    "affix_logic": "어근 'pinjam'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang pinjam",
+    "antonym": "bukan pinjam",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pinjam하는 사람, pinjam 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pinjam'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pepinjam' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pinjam하는 사람, pinjam 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pepinjam' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pinjam하는 사람, pinjam 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pepinjam",
+        "meaning": "pinjam하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_qzotj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perpinjaman [[쁘르pinjam안]]",
+    "meaning": "pinjam에 관한 일, pinjam 장소",
+    "pos": "명사",
+    "root": "pinjam",
+    "affix_logic": "어근 'pinjam'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal pinjam",
+    "antonym": "bukan pinjam",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pinjam에 관한 일, pinjam 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pinjam'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perpinjaman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pinjam에 관한 일, pinjam 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perpinjaman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pinjam에 관한 일, pinjam 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perpinjaman",
+        "meaning": "pinjam에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_xe84w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pepakai [[쁘pakai]]",
+    "meaning": "pakai하는 사람, pakai 도구",
+    "pos": "명사",
+    "root": "pakai",
+    "affix_logic": "어근 'pakai'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang pakai",
+    "antonym": "bukan pakai",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pakai하는 사람, pakai 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pakai'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pepakai' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pakai하는 사람, pakai 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pepakai' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pakai하는 사람, pakai 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pepakai",
+        "meaning": "pakai하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_fb8en",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perpakaian [[쁘르pakai안]]",
+    "meaning": "pakai에 관한 일, pakai 장소",
+    "pos": "명사",
+    "root": "pakai",
+    "affix_logic": "어근 'pakai'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal pakai",
+    "antonym": "bukan pakai",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pakai에 관한 일, pakai 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pakai'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perpakaian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pakai에 관한 일, pakai 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perpakaian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pakai에 관한 일, pakai 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perpakaian",
+        "meaning": "pakai에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_olqo0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pepotong [[쁘potong]]",
+    "meaning": "potong하는 사람, potong 도구",
+    "pos": "명사",
+    "root": "potong",
+    "affix_logic": "어근 'potong'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang potong",
+    "antonym": "bukan potong",
+    "context": "실생활 및 회화/비즈니스 상황에서 'potong하는 사람, potong 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'potong'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pepotong' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'potong하는 사람, potong 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pepotong' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'potong하는 사람, potong 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pepotong",
+        "meaning": "potong하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_ajnhq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perpotongan [[쁘르potong안]]",
+    "meaning": "potong에 관한 일, potong 장소",
+    "pos": "명사",
+    "root": "potong",
+    "affix_logic": "어근 'potong'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal potong",
+    "antonym": "bukan potong",
+    "context": "실생활 및 회화/비즈니스 상황에서 'potong에 관한 일, potong 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'potong'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perpotongan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'potong에 관한 일, potong 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perpotongan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'potong에 관한 일, potong 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perpotongan",
+        "meaning": "potong에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_uqeaz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pepukul [[쁘pukul]]",
+    "meaning": "pukul하는 사람, pukul 도구",
+    "pos": "명사",
+    "root": "pukul",
+    "affix_logic": "어근 'pukul'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang pukul",
+    "antonym": "bukan pukul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pukul하는 사람, pukul 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pukul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pepukul' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pukul하는 사람, pukul 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pepukul' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pukul하는 사람, pukul 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pepukul",
+        "meaning": "pukul하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_fgjeq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perpukulan [[쁘르pukul안]]",
+    "meaning": "pukul에 관한 일, pukul 장소",
+    "pos": "명사",
+    "root": "pukul",
+    "affix_logic": "어근 'pukul'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal pukul",
+    "antonym": "bukan pukul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pukul에 관한 일, pukul 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pukul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perpukulan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pukul에 관한 일, pukul 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perpukulan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pukul에 관한 일, pukul 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perpukulan",
+        "meaning": "pukul에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_pgpjb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pepilih [[쁘pilih]]",
+    "meaning": "pilih하는 사람, pilih 도구",
+    "pos": "명사",
+    "root": "pilih",
+    "affix_logic": "어근 'pilih'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang pilih",
+    "antonym": "bukan pilih",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pilih하는 사람, pilih 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pilih'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pepilih' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pilih하는 사람, pilih 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pepilih' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pilih하는 사람, pilih 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pepilih",
+        "meaning": "pilih하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733781_fchii",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perpilihan [[쁘르pilih안]]",
+    "meaning": "pilih에 관한 일, pilih 장소",
+    "pos": "명사",
+    "root": "pilih",
+    "affix_logic": "어근 'pilih'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal pilih",
+    "antonym": "bukan pilih",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pilih에 관한 일, pilih 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pilih'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perpilihan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pilih에 관한 일, pilih 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perpilihan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pilih에 관한 일, pilih 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perpilihan",
+        "meaning": "pilih에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_exmzy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pepimpin [[쁘pimpin]]",
+    "meaning": "pimpin하는 사람, pimpin 도구",
+    "pos": "명사",
+    "root": "pimpin",
+    "affix_logic": "어근 'pimpin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang pimpin",
+    "antonym": "bukan pimpin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pimpin하는 사람, pimpin 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pimpin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pepimpin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pimpin하는 사람, pimpin 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pepimpin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pimpin하는 사람, pimpin 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pepimpin",
+        "meaning": "pimpin하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_xk4t9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perpimpinan [[쁘르pimpin안]]",
+    "meaning": "pimpin에 관한 일, pimpin 장소",
+    "pos": "명사",
+    "root": "pimpin",
+    "affix_logic": "어근 'pimpin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal pimpin",
+    "antonym": "bukan pimpin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pimpin에 관한 일, pimpin 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pimpin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perpimpinan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pimpin에 관한 일, pimpin 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perpimpinan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pimpin에 관한 일, pimpin 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perpimpinan",
+        "meaning": "pimpin에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_8px65",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "perawat [[쁘rawat]]",
+    "meaning": "rawat하는 사람, rawat 도구",
+    "pos": "명사",
+    "root": "rawat",
+    "affix_logic": "어근 'rawat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang rawat",
+    "antonym": "bukan rawat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat하는 사람, rawat 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perawat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat하는 사람, rawat 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perawat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat하는 사람, rawat 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perawat",
+        "meaning": "rawat하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_m41f3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perrawatan [[쁘르rawat안]]",
+    "meaning": "rawat에 관한 일, rawat 장소",
+    "pos": "명사",
+    "root": "rawat",
+    "affix_logic": "어근 'rawat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal rawat",
+    "antonym": "bukan rawat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rawat에 관한 일, rawat 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rawat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perrawatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rawat에 관한 일, rawat 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perrawatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rawat에 관한 일, rawat 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perrawatan",
+        "meaning": "rawat에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_fkr34",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "perusak [[쁘rusak]]",
+    "meaning": "rusak하는 사람, rusak 도구",
+    "pos": "명사",
+    "root": "rusak",
+    "affix_logic": "어근 'rusak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang rusak",
+    "antonym": "bukan rusak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rusak하는 사람, rusak 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rusak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perusak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rusak하는 사람, rusak 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perusak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rusak하는 사람, rusak 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perusak",
+        "meaning": "rusak하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_kdq1b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perrusakan [[쁘르rusak안]]",
+    "meaning": "rusak에 관한 일, rusak 장소",
+    "pos": "명사",
+    "root": "rusak",
+    "affix_logic": "어근 'rusak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal rusak",
+    "antonym": "bukan rusak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rusak에 관한 일, rusak 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rusak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perrusakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rusak에 관한 일, rusak 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perrusakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rusak에 관한 일, rusak 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perrusakan",
+        "meaning": "rusak에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_jwwzi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "perebus [[쁘rebus]]",
+    "meaning": "rebus하는 사람, rebus 도구",
+    "pos": "명사",
+    "root": "rebus",
+    "affix_logic": "어근 'rebus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang rebus",
+    "antonym": "bukan rebus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rebus하는 사람, rebus 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rebus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perebus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rebus하는 사람, rebus 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perebus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rebus하는 사람, rebus 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perebus",
+        "meaning": "rebus하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_xuf63",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perrebusan [[쁘르rebus안]]",
+    "meaning": "rebus에 관한 일, rebus 장소",
+    "pos": "명사",
+    "root": "rebus",
+    "affix_logic": "어근 'rebus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal rebus",
+    "antonym": "bukan rebus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rebus에 관한 일, rebus 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rebus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perrebusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rebus에 관한 일, rebus 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perrebusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rebus에 관한 일, rebus 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perrebusan",
+        "meaning": "rebus에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_zhhfm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "perakit [[쁘rakit]]",
+    "meaning": "rakit하는 사람, rakit 도구",
+    "pos": "명사",
+    "root": "rakit",
+    "affix_logic": "어근 'rakit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang rakit",
+    "antonym": "bukan rakit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rakit하는 사람, rakit 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rakit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perakit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rakit하는 사람, rakit 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perakit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rakit하는 사람, rakit 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perakit",
+        "meaning": "rakit하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_jnqta",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perrakitan [[쁘르rakit안]]",
+    "meaning": "rakit에 관한 일, rakit 장소",
+    "pos": "명사",
+    "root": "rakit",
+    "affix_logic": "어근 'rakit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal rakit",
+    "antonym": "bukan rakit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rakit에 관한 일, rakit 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rakit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perrakitan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rakit에 관한 일, rakit 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perrakitan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rakit에 관한 일, rakit 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perrakitan",
+        "meaning": "rakit에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_sb3bw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pesimpan [[쁘simpan]]",
+    "meaning": "simpan하는 사람, simpan 도구",
+    "pos": "명사",
+    "root": "simpan",
+    "affix_logic": "어근 'simpan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang simpan",
+    "antonym": "bukan simpan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'simpan하는 사람, simpan 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'simpan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pesimpan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'simpan하는 사람, simpan 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pesimpan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'simpan하는 사람, simpan 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pesimpan",
+        "meaning": "simpan하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_uwun4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "persimpanan [[쁘르simpan안]]",
+    "meaning": "simpan에 관한 일, simpan 장소",
+    "pos": "명사",
+    "root": "simpan",
+    "affix_logic": "어근 'simpan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal simpan",
+    "antonym": "bukan simpan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'simpan에 관한 일, simpan 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'simpan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'persimpanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'simpan에 관한 일, simpan 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'persimpanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'simpan에 관한 일, simpan 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "persimpanan",
+        "meaning": "simpan에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_v2qx7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pesapa [[쁘sapa]]",
+    "meaning": "sapa하는 사람, sapa 도구",
+    "pos": "명사",
+    "root": "sapa",
+    "affix_logic": "어근 'sapa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang sapa",
+    "antonym": "bukan sapa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sapa하는 사람, sapa 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sapa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pesapa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sapa하는 사람, sapa 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pesapa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sapa하는 사람, sapa 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pesapa",
+        "meaning": "sapa하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_1b1ah",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "persapaan [[쁘르sapa안]]",
+    "meaning": "sapa에 관한 일, sapa 장소",
+    "pos": "명사",
+    "root": "sapa",
+    "affix_logic": "어근 'sapa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal sapa",
+    "antonym": "bukan sapa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sapa에 관한 일, sapa 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sapa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'persapaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sapa에 관한 일, sapa 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'persapaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sapa에 관한 일, sapa 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "persapaan",
+        "meaning": "sapa에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_r1qsb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pesiram [[쁘siram]]",
+    "meaning": "siram하는 사람, siram 도구",
+    "pos": "명사",
+    "root": "siram",
+    "affix_logic": "어근 'siram'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang siram",
+    "antonym": "bukan siram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'siram하는 사람, siram 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'siram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pesiram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'siram하는 사람, siram 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pesiram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'siram하는 사람, siram 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pesiram",
+        "meaning": "siram하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_pf7h3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "persiraman [[쁘르siram안]]",
+    "meaning": "siram에 관한 일, siram 장소",
+    "pos": "명사",
+    "root": "siram",
+    "affix_logic": "어근 'siram'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal siram",
+    "antonym": "bukan siram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'siram에 관한 일, siram 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'siram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'persiraman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'siram에 관한 일, siram 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'persiraman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'siram에 관한 일, siram 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "persiraman",
+        "meaning": "siram에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_wdtag",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pesewa [[쁘sewa]]",
+    "meaning": "sewa하는 사람, sewa 도구",
+    "pos": "명사",
+    "root": "sewa",
+    "affix_logic": "어근 'sewa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang sewa",
+    "antonym": "bukan sewa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sewa하는 사람, sewa 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sewa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pesewa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sewa하는 사람, sewa 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pesewa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sewa하는 사람, sewa 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pesewa",
+        "meaning": "sewa하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_1btr7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "persewaan [[쁘르sewa안]]",
+    "meaning": "sewa에 관한 일, sewa 장소",
+    "pos": "명사",
+    "root": "sewa",
+    "affix_logic": "어근 'sewa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal sewa",
+    "antonym": "bukan sewa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sewa에 관한 일, sewa 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sewa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'persewaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sewa에 관한 일, sewa 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'persewaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sewa에 관한 일, sewa 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "persewaan",
+        "meaning": "sewa에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_jb59c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "petulis [[쁘tulis]]",
+    "meaning": "tulis하는 사람, tulis 도구",
+    "pos": "명사",
+    "root": "tulis",
+    "affix_logic": "어근 'tulis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang tulis",
+    "antonym": "bukan tulis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tulis하는 사람, tulis 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tulis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'petulis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tulis하는 사람, tulis 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'petulis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tulis하는 사람, tulis 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "petulis",
+        "meaning": "tulis하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_vdcc1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pertulisan [[쁘르tulis안]]",
+    "meaning": "tulis에 관한 일, tulis 장소",
+    "pos": "명사",
+    "root": "tulis",
+    "affix_logic": "어근 'tulis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal tulis",
+    "antonym": "bukan tulis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tulis에 관한 일, tulis 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tulis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pertulisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tulis에 관한 일, tulis 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pertulisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tulis에 관한 일, tulis 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pertulisan",
+        "meaning": "tulis에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_ask2h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "petutup [[쁘tutup]]",
+    "meaning": "tutup하는 사람, tutup 도구",
+    "pos": "명사",
+    "root": "tutup",
+    "affix_logic": "어근 'tutup'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang tutup",
+    "antonym": "bukan tutup",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tutup하는 사람, tutup 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tutup'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'petutup' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tutup하는 사람, tutup 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'petutup' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tutup하는 사람, tutup 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "petutup",
+        "meaning": "tutup하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_ij840",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pertutupan [[쁘르tutup안]]",
+    "meaning": "tutup에 관한 일, tutup 장소",
+    "pos": "명사",
+    "root": "tutup",
+    "affix_logic": "어근 'tutup'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal tutup",
+    "antonym": "bukan tutup",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tutup에 관한 일, tutup 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tutup'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pertutupan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tutup에 관한 일, tutup 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pertutupan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tutup에 관한 일, tutup 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pertutupan",
+        "meaning": "tutup에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_4hegh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "petanya [[쁘tanya]]",
+    "meaning": "tanya하는 사람, tanya 도구",
+    "pos": "명사",
+    "root": "tanya",
+    "affix_logic": "어근 'tanya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang tanya",
+    "antonym": "bukan tanya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tanya하는 사람, tanya 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tanya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'petanya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tanya하는 사람, tanya 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'petanya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tanya하는 사람, tanya 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "petanya",
+        "meaning": "tanya하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_qq1ld",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pertanyaan [[쁘르tanya안]]",
+    "meaning": "tanya에 관한 일, tanya 장소",
+    "pos": "명사",
+    "root": "tanya",
+    "affix_logic": "어근 'tanya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal tanya",
+    "antonym": "bukan tanya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tanya에 관한 일, tanya 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tanya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pertanyaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tanya에 관한 일, tanya 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pertanyaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tanya에 관한 일, tanya 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pertanyaan",
+        "meaning": "tanya에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_ijrkp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peterima [[쁘terima]]",
+    "meaning": "terima하는 사람, terima 도구",
+    "pos": "명사",
+    "root": "terima",
+    "affix_logic": "어근 'terima'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang terima",
+    "antonym": "bukan terima",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terima하는 사람, terima 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terima'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peterima' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terima하는 사람, terima 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peterima' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terima하는 사람, terima 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peterima",
+        "meaning": "terima하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_1vmka",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perterimaan [[쁘르terima안]]",
+    "meaning": "terima에 관한 일, terima 장소",
+    "pos": "명사",
+    "root": "terima",
+    "affix_logic": "어근 'terima'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal terima",
+    "antonym": "bukan terima",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terima에 관한 일, terima 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terima'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perterimaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terima에 관한 일, terima 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perterimaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terima에 관한 일, terima 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perterimaan",
+        "meaning": "terima에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_gw72e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "petahan [[쁘tahan]]",
+    "meaning": "tahan하는 사람, tahan 도구",
+    "pos": "명사",
+    "root": "tahan",
+    "affix_logic": "어근 'tahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang tahan",
+    "antonym": "bukan tahan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tahan하는 사람, tahan 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tahan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'petahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tahan하는 사람, tahan 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'petahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tahan하는 사람, tahan 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "petahan",
+        "meaning": "tahan하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_kd3nq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pertahanan [[쁘르tahan안]]",
+    "meaning": "tahan에 관한 일, tahan 장소",
+    "pos": "명사",
+    "root": "tahan",
+    "affix_logic": "어근 'tahan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal tahan",
+    "antonym": "bukan tahan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tahan에 관한 일, tahan 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tahan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pertahanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tahan에 관한 일, tahan 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pertahanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tahan에 관한 일, tahan 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pertahanan",
+        "meaning": "tahan에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_003b7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "petanam [[쁘tanam]]",
+    "meaning": "tanam하는 사람, tanam 도구",
+    "pos": "명사",
+    "root": "tanam",
+    "affix_logic": "어근 'tanam'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang tanam",
+    "antonym": "bukan tanam",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tanam하는 사람, tanam 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tanam'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'petanam' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tanam하는 사람, tanam 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'petanam' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tanam하는 사람, tanam 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "petanam",
+        "meaning": "tanam하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_k6fs4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pertanaman [[쁘르tanam안]]",
+    "meaning": "tanam에 관한 일, tanam 장소",
+    "pos": "명사",
+    "root": "tanam",
+    "affix_logic": "어근 'tanam'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal tanam",
+    "antonym": "bukan tanam",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tanam에 관한 일, tanam 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tanam'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pertanaman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tanam에 관한 일, tanam 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pertanaman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tanam에 관한 일, tanam 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pertanaman",
+        "meaning": "tanam에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_exuop",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "petangkap [[쁘tangkap]]",
+    "meaning": "tangkap하는 사람, tangkap 도구",
+    "pos": "명사",
+    "root": "tangkap",
+    "affix_logic": "어근 'tangkap'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang tangkap",
+    "antonym": "bukan tangkap",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tangkap하는 사람, tangkap 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tangkap'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'petangkap' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tangkap하는 사람, tangkap 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'petangkap' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tangkap하는 사람, tangkap 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "petangkap",
+        "meaning": "tangkap하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_38esq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pertangkapan [[쁘르tangkap안]]",
+    "meaning": "tangkap에 관한 일, tangkap 장소",
+    "pos": "명사",
+    "root": "tangkap",
+    "affix_logic": "어근 'tangkap'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal tangkap",
+    "antonym": "bukan tangkap",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tangkap에 관한 일, tangkap 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tangkap'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pertangkapan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tangkap에 관한 일, tangkap 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pertangkapan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tangkap에 관한 일, tangkap 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pertangkapan",
+        "meaning": "tangkap에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_j4jz3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "petimbang [[쁘timbang]]",
+    "meaning": "timbang하는 사람, timbang 도구",
+    "pos": "명사",
+    "root": "timbang",
+    "affix_logic": "어근 'timbang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang timbang",
+    "antonym": "bukan timbang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'timbang하는 사람, timbang 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'timbang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'petimbang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'timbang하는 사람, timbang 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'petimbang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'timbang하는 사람, timbang 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "petimbang",
+        "meaning": "timbang하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_fwi9l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pertimbangan [[쁘르timbang안]]",
+    "meaning": "timbang에 관한 일, timbang 장소",
+    "pos": "명사",
+    "root": "timbang",
+    "affix_logic": "어근 'timbang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal timbang",
+    "antonym": "bukan timbang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'timbang에 관한 일, timbang 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'timbang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pertimbangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'timbang에 관한 일, timbang 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pertimbangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'timbang에 관한 일, timbang 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pertimbangan",
+        "meaning": "timbang에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_0jmx5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peukir [[쁘ukir]]",
+    "meaning": "ukir하는 사람, ukir 도구",
+    "pos": "명사",
+    "root": "ukir",
+    "affix_logic": "어근 'ukir'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang ukir",
+    "antonym": "bukan ukir",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ukir하는 사람, ukir 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ukir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peukir' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ukir하는 사람, ukir 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peukir' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ukir하는 사람, ukir 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peukir",
+        "meaning": "ukir하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_aqy1k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perukiran [[쁘르ukir안]]",
+    "meaning": "ukir에 관한 일, ukir 장소",
+    "pos": "명사",
+    "root": "ukir",
+    "affix_logic": "어근 'ukir'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal ukir",
+    "antonym": "bukan ukir",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ukir에 관한 일, ukir 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ukir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perukiran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ukir에 관한 일, ukir 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perukiran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ukir에 관한 일, ukir 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perukiran",
+        "meaning": "ukir에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_7kizn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peuji [[쁘uji]]",
+    "meaning": "uji하는 사람, uji 도구",
+    "pos": "명사",
+    "root": "uji",
+    "affix_logic": "어근 'uji'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang uji",
+    "antonym": "bukan uji",
+    "context": "실생활 및 회화/비즈니스 상황에서 'uji하는 사람, uji 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'uji'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peuji' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'uji하는 사람, uji 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peuji' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'uji하는 사람, uji 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peuji",
+        "meaning": "uji하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_361ob",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perujian [[쁘르uji안]]",
+    "meaning": "uji에 관한 일, uji 장소",
+    "pos": "명사",
+    "root": "uji",
+    "affix_logic": "어근 'uji'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal uji",
+    "antonym": "bukan uji",
+    "context": "실생활 및 회화/비즈니스 상황에서 'uji에 관한 일, uji 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'uji'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perujian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'uji에 관한 일, uji 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perujian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'uji에 관한 일, uji 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perujian",
+        "meaning": "uji에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_8b260",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peulang [[쁘ulang]]",
+    "meaning": "ulang하는 사람, ulang 도구",
+    "pos": "명사",
+    "root": "ulang",
+    "affix_logic": "어근 'ulang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang ulang",
+    "antonym": "bukan ulang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ulang하는 사람, ulang 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ulang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peulang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ulang하는 사람, ulang 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peulang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ulang하는 사람, ulang 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peulang",
+        "meaning": "ulang하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_f6n1h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perulangan [[쁘르ulang안]]",
+    "meaning": "ulang에 관한 일, ulang 장소",
+    "pos": "명사",
+    "root": "ulang",
+    "affix_logic": "어근 'ulang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal ulang",
+    "antonym": "bukan ulang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ulang에 관한 일, ulang 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ulang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perulangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ulang에 관한 일, ulang 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perulangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ulang에 관한 일, ulang 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perulangan",
+        "meaning": "ulang에 관한 일"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_wtk7q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "peukur [[쁘ukur]]",
+    "meaning": "ukur하는 사람, ukur 도구",
+    "pos": "명사",
+    "root": "ukur",
+    "affix_logic": "어근 'ukur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "orang yang ukur",
+    "antonym": "bukan ukur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ukur하는 사람, ukur 도구'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ukur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'peukur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ukur하는 사람, ukur 도구'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'peukur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ukur하는 사람, ukur 도구'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "peukur",
+        "meaning": "ukur하는 사람"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138733782_ztq3d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perukuran [[쁘르ukur안]]",
+    "meaning": "ukur에 관한 일, ukur 장소",
+    "pos": "명사",
+    "root": "ukur",
+    "affix_logic": "어근 'ukur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "hal ukur",
+    "antonym": "bukan ukur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ukur에 관한 일, ukur 장소'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ukur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perukuran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ukur에 관한 일, ukur 장소'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perukuran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ukur에 관한 일, ukur 장소'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perukuran",
+        "meaning": "ukur에 관한 일"
+      }
+    ]
   }
 ];

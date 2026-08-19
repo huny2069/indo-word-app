@@ -13,6 +13,7 @@ export default defineConfig({
       workbox: {
         skipWaiting: true,
         clientsClaim: true,
+        maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 1만 단어 PWA 캐싱용 10MB 확장
         // JS/CSS 파일은 항상 네트워크 우선으로 가져옴 (캐시 지연 방지)
         runtimeCaching: [
           {
