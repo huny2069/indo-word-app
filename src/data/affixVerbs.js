@@ -66714,5 +66714,6167 @@ export const affixVerbs = [
         "meaning": "완전히 yodium되다"
       }
     ]
+  },
+  {
+    "id": "word_1787139042837_x6xxi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengadjudikasi [[멍adjudikasi]]",
+    "meaning": "adjudikasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "adjudikasi",
+    "affix_logic": "어근 'adjudikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan adjudikasi",
+    "antonym": "diadjudikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'adjudikasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'adjudikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengadjudikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'adjudikasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengadjudikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'adjudikasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengadjudikasi",
+        "meaning": "adjudikasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_3moyl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diadjudikasi [[디adjudikasi]]",
+    "meaning": "adjudikasi되다, adjudikasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "adjudikasi",
+    "affix_logic": "어근 'adjudikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena adjudikasi",
+    "antonym": "mengadjudikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'adjudikasi되다, adjudikasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'adjudikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diadjudikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'adjudikasi되다, adjudikasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diadjudikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'adjudikasi되다, adjudikasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diadjudikasi",
+        "meaning": "adjudikasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_e8oob",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teradjudikasi [[뜨르adjudikasi]]",
+    "meaning": "완전히 adjudikasi되다",
+    "pos": "동사, 형용사",
+    "root": "adjudikasi",
+    "affix_logic": "어근 'adjudikasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling adjudikasi",
+    "antonym": "sengaja diadjudikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 adjudikasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'adjudikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teradjudikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 adjudikasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teradjudikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 adjudikasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teradjudikasi",
+        "meaning": "완전히 adjudikasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_u669b",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengadministrasi [[멍administrasi]]",
+    "meaning": "administrasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "administrasi",
+    "affix_logic": "어근 'administrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan administrasi",
+    "antonym": "diadministrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'administrasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'administrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengadministrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'administrasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengadministrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'administrasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengadministrasi",
+        "meaning": "administrasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_6jpnl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diadministrasi [[디administrasi]]",
+    "meaning": "administrasi되다, administrasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "administrasi",
+    "affix_logic": "어근 'administrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena administrasi",
+    "antonym": "mengadministrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'administrasi되다, administrasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'administrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diadministrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'administrasi되다, administrasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diadministrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'administrasi되다, administrasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diadministrasi",
+        "meaning": "administrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_j0wpu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teradministrasi [[뜨르administrasi]]",
+    "meaning": "완전히 administrasi되다",
+    "pos": "동사, 형용사",
+    "root": "administrasi",
+    "affix_logic": "어근 'administrasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling administrasi",
+    "antonym": "sengaja diadministrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 administrasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'administrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teradministrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 administrasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teradministrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 administrasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teradministrasi",
+        "meaning": "완전히 administrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_2e0fb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengagresi [[멍agresi]]",
+    "meaning": "agresi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "agresi",
+    "affix_logic": "어근 'agresi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan agresi",
+    "antonym": "diagresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'agresi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'agresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengagresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'agresi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengagresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'agresi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengagresi",
+        "meaning": "agresi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_p831o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diagresi [[디agresi]]",
+    "meaning": "agresi되다, agresi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "agresi",
+    "affix_logic": "어근 'agresi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena agresi",
+    "antonym": "mengagresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'agresi되다, agresi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'agresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diagresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'agresi되다, agresi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diagresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'agresi되다, agresi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diagresi",
+        "meaning": "agresi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_mh32w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teragresi [[뜨르agresi]]",
+    "meaning": "완전히 agresi되다",
+    "pos": "동사, 형용사",
+    "root": "agresi",
+    "affix_logic": "어근 'agresi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling agresi",
+    "antonym": "sengaja diagresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 agresi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'agresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teragresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 agresi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teragresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 agresi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teragresi",
+        "meaning": "완전히 agresi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_a6fr8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengakreditas [[멍akreditas]]",
+    "meaning": "akreditas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "akreditas",
+    "affix_logic": "어근 'akreditas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan akreditas",
+    "antonym": "diakreditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akreditas하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akreditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengakreditas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akreditas하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengakreditas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akreditas하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengakreditas",
+        "meaning": "akreditas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_r06f8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diakreditas [[디akreditas]]",
+    "meaning": "akreditas되다, akreditas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "akreditas",
+    "affix_logic": "어근 'akreditas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena akreditas",
+    "antonym": "mengakreditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akreditas되다, akreditas당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akreditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diakreditas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akreditas되다, akreditas당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diakreditas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akreditas되다, akreditas당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diakreditas",
+        "meaning": "akreditas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_fegqg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terakreditas [[뜨르akreditas]]",
+    "meaning": "완전히 akreditas되다",
+    "pos": "동사, 형용사",
+    "root": "akreditas",
+    "affix_logic": "어근 'akreditas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling akreditas",
+    "antonym": "sengaja diakreditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 akreditas되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akreditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terakreditas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 akreditas되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terakreditas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 akreditas되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terakreditas",
+        "meaning": "완전히 akreditas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_ymopi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengamandemen [[멍amandemen]]",
+    "meaning": "amandemen하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "amandemen",
+    "affix_logic": "어근 'amandemen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan amandemen",
+    "antonym": "diamandemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amandemen하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amandemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengamandemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amandemen하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengamandemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amandemen하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengamandemen",
+        "meaning": "amandemen하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_ccbup",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diamandemen [[디amandemen]]",
+    "meaning": "amandemen되다, amandemen당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "amandemen",
+    "affix_logic": "어근 'amandemen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena amandemen",
+    "antonym": "mengamandemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amandemen되다, amandemen당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amandemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diamandemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amandemen되다, amandemen당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diamandemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amandemen되다, amandemen당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diamandemen",
+        "meaning": "amandemen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_p6z66",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teramandemen [[뜨르amandemen]]",
+    "meaning": "완전히 amandemen되다",
+    "pos": "동사, 형용사",
+    "root": "amandemen",
+    "affix_logic": "어근 'amandemen'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling amandemen",
+    "antonym": "sengaja diamandemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 amandemen되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amandemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teramandemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 amandemen되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teramandemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 amandemen되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teramandemen",
+        "meaning": "완전히 amandemen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_u0ntd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganarki [[멍anarki]]",
+    "meaning": "anarki하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "anarki",
+    "affix_logic": "어근 'anarki'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan anarki",
+    "antonym": "dianarki",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anarki하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anarki'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menganarki' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anarki하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menganarki' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anarki하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menganarki",
+        "meaning": "anarki하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_y8ts3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianarki [[디anarki]]",
+    "meaning": "anarki되다, anarki당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "anarki",
+    "affix_logic": "어근 'anarki'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena anarki",
+    "antonym": "menganarki",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anarki되다, anarki당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anarki'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dianarki' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anarki되다, anarki당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dianarki' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anarki되다, anarki당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dianarki",
+        "meaning": "anarki되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_lbmez",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranarki [[뜨르anarki]]",
+    "meaning": "완전히 anarki되다",
+    "pos": "동사, 형용사",
+    "root": "anarki",
+    "affix_logic": "어근 'anarki'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling anarki",
+    "antonym": "sengaja dianarki",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 anarki되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anarki'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teranarki' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 anarki되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teranarki' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 anarki되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teranarki",
+        "meaning": "완전히 anarki되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_rfem4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganeksasi [[멍aneksasi]]",
+    "meaning": "aneksasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "aneksasi",
+    "affix_logic": "어근 'aneksasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aneksasi",
+    "antonym": "dianeksasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aneksasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aneksasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menganeksasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aneksasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menganeksasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aneksasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menganeksasi",
+        "meaning": "aneksasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_n48gz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianeksasi [[디aneksasi]]",
+    "meaning": "aneksasi되다, aneksasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "aneksasi",
+    "affix_logic": "어근 'aneksasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena aneksasi",
+    "antonym": "menganeksasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aneksasi되다, aneksasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aneksasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dianeksasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aneksasi되다, aneksasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dianeksasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aneksasi되다, aneksasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dianeksasi",
+        "meaning": "aneksasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_tcpec",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraneksasi [[뜨르aneksasi]]",
+    "meaning": "완전히 aneksasi되다",
+    "pos": "동사, 형용사",
+    "root": "aneksasi",
+    "affix_logic": "어근 'aneksasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling aneksasi",
+    "antonym": "sengaja dianeksasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 aneksasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aneksasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teraneksasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 aneksasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teraneksasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 aneksasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teraneksasi",
+        "meaning": "완전히 aneksasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_264ai",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaparat [[멍aparat]]",
+    "meaning": "aparat하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "aparat",
+    "affix_logic": "어근 'aparat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aparat",
+    "antonym": "diaparat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aparat하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aparat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengaparat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aparat하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengaparat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aparat하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengaparat",
+        "meaning": "aparat하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_s4dj2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaparat [[디aparat]]",
+    "meaning": "aparat되다, aparat당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "aparat",
+    "affix_logic": "어근 'aparat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena aparat",
+    "antonym": "mengaparat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aparat되다, aparat당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aparat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diaparat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aparat되다, aparat당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diaparat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aparat되다, aparat당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diaparat",
+        "meaning": "aparat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_ifh8h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraparat [[뜨르aparat]]",
+    "meaning": "완전히 aparat되다",
+    "pos": "동사, 형용사",
+    "root": "aparat",
+    "affix_logic": "어근 'aparat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling aparat",
+    "antonym": "sengaja diaparat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 aparat되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aparat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teraparat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 aparat되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teraparat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 aparat되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teraparat",
+        "meaning": "완전히 aparat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_3xfu3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengapresiasi publik [[멍apresiasi publik]]",
+    "meaning": "apresiasi publik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "apresiasi publik",
+    "affix_logic": "어근 'apresiasi publik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan apresiasi publik",
+    "antonym": "diapresiasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi publik하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengapresiasi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi publik하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengapresiasi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi publik하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengapresiasi",
+        "meaning": "apresiasi publik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_8d5rx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diapresiasi publik [[디apresiasi publik]]",
+    "meaning": "apresiasi publik되다, apresiasi publik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "apresiasi publik",
+    "affix_logic": "어근 'apresiasi publik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena apresiasi publik",
+    "antonym": "mengapresiasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi publik되다, apresiasi publik당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diapresiasi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi publik되다, apresiasi publik당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diapresiasi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi publik되다, apresiasi publik당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diapresiasi",
+        "meaning": "apresiasi publik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_by6sw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terapresiasi publik [[뜨르apresiasi publik]]",
+    "meaning": "완전히 apresiasi publik되다",
+    "pos": "동사, 형용사",
+    "root": "apresiasi publik",
+    "affix_logic": "어근 'apresiasi publik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling apresiasi publik",
+    "antonym": "sengaja diapresiasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 apresiasi publik되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terapresiasi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 apresiasi publik되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terapresiasi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 apresiasi publik되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terapresiasi",
+        "meaning": "완전히 apresiasi publik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_cwokl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengarbiter [[멍arbiter]]",
+    "meaning": "arbiter하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "arbiter",
+    "affix_logic": "어근 'arbiter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan arbiter",
+    "antonym": "diarbiter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arbiter하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arbiter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengarbiter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arbiter하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengarbiter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arbiter하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengarbiter",
+        "meaning": "arbiter하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_50p9p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diarbiter [[디arbiter]]",
+    "meaning": "arbiter되다, arbiter당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "arbiter",
+    "affix_logic": "어근 'arbiter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena arbiter",
+    "antonym": "mengarbiter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arbiter되다, arbiter당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arbiter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diarbiter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arbiter되다, arbiter당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diarbiter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arbiter되다, arbiter당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diarbiter",
+        "meaning": "arbiter되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_85hen",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terarbiter [[뜨르arbiter]]",
+    "meaning": "완전히 arbiter되다",
+    "pos": "동사, 형용사",
+    "root": "arbiter",
+    "affix_logic": "어근 'arbiter'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling arbiter",
+    "antonym": "sengaja diarbiter",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 arbiter되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arbiter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terarbiter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 arbiter되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terarbiter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 arbiter되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terarbiter",
+        "meaning": "완전히 arbiter되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_7fi9t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengarmada [[멍armada]]",
+    "meaning": "armada하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "armada",
+    "affix_logic": "어근 'armada'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan armada",
+    "antonym": "diarmada",
+    "context": "실생활 및 회화/비즈니스 상황에서 'armada하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'armada'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengarmada' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'armada하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengarmada' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'armada하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengarmada",
+        "meaning": "armada하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_cv8z5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diarmada [[디armada]]",
+    "meaning": "armada되다, armada당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "armada",
+    "affix_logic": "어근 'armada'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena armada",
+    "antonym": "mengarmada",
+    "context": "실생활 및 회화/비즈니스 상황에서 'armada되다, armada당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'armada'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diarmada' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'armada되다, armada당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diarmada' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'armada되다, armada당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diarmada",
+        "meaning": "armada되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042837_rcqpy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terarmada [[뜨르armada]]",
+    "meaning": "완전히 armada되다",
+    "pos": "동사, 형용사",
+    "root": "armada",
+    "affix_logic": "어근 'armada'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling armada",
+    "antonym": "sengaja diarmada",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 armada되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'armada'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terarmada' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 armada되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terarmada' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 armada되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terarmada",
+        "meaning": "완전히 armada되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_dppnq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengartileri [[멍artileri]]",
+    "meaning": "artileri하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "artileri",
+    "affix_logic": "어근 'artileri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan artileri",
+    "antonym": "diartileri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artileri하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artileri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengartileri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artileri하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengartileri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artileri하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengartileri",
+        "meaning": "artileri하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_xfyix",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diartileri [[디artileri]]",
+    "meaning": "artileri되다, artileri당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "artileri",
+    "affix_logic": "어근 'artileri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena artileri",
+    "antonym": "mengartileri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artileri되다, artileri당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artileri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diartileri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artileri되다, artileri당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diartileri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artileri되다, artileri당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diartileri",
+        "meaning": "artileri되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_bnsel",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terartileri [[뜨르artileri]]",
+    "meaning": "완전히 artileri되다",
+    "pos": "동사, 형용사",
+    "root": "artileri",
+    "affix_logic": "어근 'artileri'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling artileri",
+    "antonym": "sengaja diartileri",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 artileri되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artileri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terartileri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 artileri되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terartileri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 artileri되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terartileri",
+        "meaning": "완전히 artileri되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ljo38",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengaspirasi [[멍aspirasi]]",
+    "meaning": "aspirasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "aspirasi",
+    "affix_logic": "어근 'aspirasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aspirasi",
+    "antonym": "diaspirasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aspirasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aspirasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengaspirasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aspirasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengaspirasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aspirasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengaspirasi",
+        "meaning": "aspirasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_wkp2c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diaspirasi [[디aspirasi]]",
+    "meaning": "aspirasi되다, aspirasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "aspirasi",
+    "affix_logic": "어근 'aspirasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena aspirasi",
+    "antonym": "mengaspirasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aspirasi되다, aspirasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aspirasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diaspirasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aspirasi되다, aspirasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diaspirasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aspirasi되다, aspirasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diaspirasi",
+        "meaning": "aspirasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7hk9o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teraspirasi [[뜨르aspirasi]]",
+    "meaning": "완전히 aspirasi되다",
+    "pos": "동사, 형용사",
+    "root": "aspirasi",
+    "affix_logic": "어근 'aspirasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling aspirasi",
+    "antonym": "sengaja diaspirasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 aspirasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aspirasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teraspirasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 aspirasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teraspirasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 aspirasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teraspirasi",
+        "meaning": "완전히 aspirasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vdx93",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengasylum [[멍asylum]]",
+    "meaning": "asylum하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "asylum",
+    "affix_logic": "어근 'asylum'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan asylum",
+    "antonym": "diasylum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asylum하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asylum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengasylum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asylum하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengasylum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asylum하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengasylum",
+        "meaning": "asylum하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_000wm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diasylum [[디asylum]]",
+    "meaning": "asylum되다, asylum당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "asylum",
+    "affix_logic": "어근 'asylum'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena asylum",
+    "antonym": "mengasylum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asylum되다, asylum당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asylum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diasylum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asylum되다, asylum당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diasylum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asylum되다, asylum당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diasylum",
+        "meaning": "asylum되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_mj8hw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terasylum [[뜨르asylum]]",
+    "meaning": "완전히 asylum되다",
+    "pos": "동사, 형용사",
+    "root": "asylum",
+    "affix_logic": "어근 'asylum'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling asylum",
+    "antonym": "sengaja diasylum",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 asylum되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asylum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terasylum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 asylum되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terasylum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 asylum되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terasylum",
+        "meaning": "완전히 asylum되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ds5d7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengotonomi [[멍otonomi]]",
+    "meaning": "otonomi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "otonomi",
+    "affix_logic": "어근 'otonomi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan otonomi",
+    "antonym": "diotonomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'otonomi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otonomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengotonomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'otonomi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengotonomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'otonomi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengotonomi",
+        "meaning": "otonomi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7kib1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diotonomi [[디otonomi]]",
+    "meaning": "otonomi되다, otonomi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "otonomi",
+    "affix_logic": "어근 'otonomi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena otonomi",
+    "antonym": "mengotonomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'otonomi되다, otonomi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otonomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diotonomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'otonomi되다, otonomi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diotonomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'otonomi되다, otonomi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diotonomi",
+        "meaning": "otonomi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_gt8ab",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terotonomi [[뜨르otonomi]]",
+    "meaning": "완전히 otonomi되다",
+    "pos": "동사, 형용사",
+    "root": "otonomi",
+    "affix_logic": "어근 'otonomi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling otonomi",
+    "antonym": "sengaja diotonomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 otonomi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otonomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terotonomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 otonomi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terotonomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 otonomi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terotonomi",
+        "meaning": "완전히 otonomi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_qowp3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbadan hukum [[멍badan hukum]]",
+    "meaning": "badan hukum하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "badan hukum",
+    "affix_logic": "어근 'badan hukum'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan badan hukum",
+    "antonym": "dibadan hukum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'badan hukum하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'badan hukum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbadan hukum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'badan hukum하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbadan hukum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'badan hukum하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbadan",
+        "meaning": "badan hukum하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_5znc0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibadan hukum [[디badan hukum]]",
+    "meaning": "badan hukum되다, badan hukum당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "badan hukum",
+    "affix_logic": "어근 'badan hukum'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena badan hukum",
+    "antonym": "mengbadan hukum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'badan hukum되다, badan hukum당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'badan hukum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibadan hukum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'badan hukum되다, badan hukum당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibadan hukum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'badan hukum되다, badan hukum당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibadan",
+        "meaning": "badan hukum되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_328q1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbadan hukum [[뜨르badan hukum]]",
+    "meaning": "완전히 badan hukum되다",
+    "pos": "동사, 형용사",
+    "root": "badan hukum",
+    "affix_logic": "어근 'badan hukum'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling badan hukum",
+    "antonym": "sengaja dibadan hukum",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 badan hukum되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'badan hukum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbadan hukum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 badan hukum되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbadan hukum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 badan hukum되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbadan",
+        "meaning": "완전히 badan hukum되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_w2f2p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbarikade [[멍barikade]]",
+    "meaning": "barikade하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "barikade",
+    "affix_logic": "어근 'barikade'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan barikade",
+    "antonym": "dibarikade",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barikade하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barikade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbarikade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barikade하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbarikade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barikade하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbarikade",
+        "meaning": "barikade하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_s9at9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibarikade [[디barikade]]",
+    "meaning": "barikade되다, barikade당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "barikade",
+    "affix_logic": "어근 'barikade'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena barikade",
+    "antonym": "mengbarikade",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barikade되다, barikade당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barikade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibarikade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barikade되다, barikade당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibarikade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barikade되다, barikade당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibarikade",
+        "meaning": "barikade되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_111d6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbarikade [[뜨르barikade]]",
+    "meaning": "완전히 barikade되다",
+    "pos": "동사, 형용사",
+    "root": "barikade",
+    "affix_logic": "어근 'barikade'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling barikade",
+    "antonym": "sengaja dibarikade",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 barikade되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barikade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbarikade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 barikade되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbarikade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 barikade되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbarikade",
+        "meaning": "완전히 barikade되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_l5cro",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbatalyon [[멍batalyon]]",
+    "meaning": "batalyon하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "batalyon",
+    "affix_logic": "어근 'batalyon'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan batalyon",
+    "antonym": "dibatalyon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batalyon하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batalyon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbatalyon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batalyon하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbatalyon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batalyon하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbatalyon",
+        "meaning": "batalyon하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_l564d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibatalyon [[디batalyon]]",
+    "meaning": "batalyon되다, batalyon당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "batalyon",
+    "affix_logic": "어근 'batalyon'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena batalyon",
+    "antonym": "mengbatalyon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batalyon되다, batalyon당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batalyon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibatalyon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batalyon되다, batalyon당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibatalyon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batalyon되다, batalyon당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibatalyon",
+        "meaning": "batalyon되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7jocy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbatalyon [[뜨르batalyon]]",
+    "meaning": "완전히 batalyon되다",
+    "pos": "동사, 형용사",
+    "root": "batalyon",
+    "affix_logic": "어근 'batalyon'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling batalyon",
+    "antonym": "sengaja dibatalyon",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 batalyon되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batalyon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbatalyon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 batalyon되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbatalyon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 batalyon되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbatalyon",
+        "meaning": "완전히 batalyon되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_15ka6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbenteng [[멍benteng]]",
+    "meaning": "benteng하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "benteng",
+    "affix_logic": "어근 'benteng'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan benteng",
+    "antonym": "dibenteng",
+    "context": "실생활 및 회화/비즈니스 상황에서 'benteng하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'benteng'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbenteng' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'benteng하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbenteng' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'benteng하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbenteng",
+        "meaning": "benteng하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_91eiv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibenteng [[디benteng]]",
+    "meaning": "benteng되다, benteng당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "benteng",
+    "affix_logic": "어근 'benteng'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena benteng",
+    "antonym": "mengbenteng",
+    "context": "실생활 및 회화/비즈니스 상황에서 'benteng되다, benteng당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'benteng'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibenteng' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'benteng되다, benteng당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibenteng' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'benteng되다, benteng당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibenteng",
+        "meaning": "benteng되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_iaw9v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbenteng [[뜨르benteng]]",
+    "meaning": "완전히 benteng되다",
+    "pos": "동사, 형용사",
+    "root": "benteng",
+    "affix_logic": "어근 'benteng'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling benteng",
+    "antonym": "sengaja dibenteng",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 benteng되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'benteng'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbenteng' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 benteng되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbenteng' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 benteng되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbenteng",
+        "meaning": "완전히 benteng되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_wnw0m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbirokrasi [[멍birokrasi]]",
+    "meaning": "birokrasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "birokrasi",
+    "affix_logic": "어근 'birokrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan birokrasi",
+    "antonym": "dibirokrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'birokrasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'birokrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbirokrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'birokrasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbirokrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'birokrasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbirokrasi",
+        "meaning": "birokrasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_b7iyl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibirokrasi [[디birokrasi]]",
+    "meaning": "birokrasi되다, birokrasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "birokrasi",
+    "affix_logic": "어근 'birokrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena birokrasi",
+    "antonym": "mengbirokrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'birokrasi되다, birokrasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'birokrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibirokrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'birokrasi되다, birokrasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibirokrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'birokrasi되다, birokrasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibirokrasi",
+        "meaning": "birokrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_j7c1k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbirokrasi [[뜨르birokrasi]]",
+    "meaning": "완전히 birokrasi되다",
+    "pos": "동사, 형용사",
+    "root": "birokrasi",
+    "affix_logic": "어근 'birokrasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling birokrasi",
+    "antonym": "sengaja dibirokrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 birokrasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'birokrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbirokrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 birokrasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbirokrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 birokrasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbirokrasi",
+        "meaning": "완전히 birokrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_4nh35",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengblokade [[멍blokade]]",
+    "meaning": "blokade하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "blokade",
+    "affix_logic": "어근 'blokade'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan blokade",
+    "antonym": "diblokade",
+    "context": "실생활 및 회화/비즈니스 상황에서 'blokade하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'blokade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengblokade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'blokade하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengblokade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'blokade하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengblokade",
+        "meaning": "blokade하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_f137v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diblokade [[디blokade]]",
+    "meaning": "blokade되다, blokade당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "blokade",
+    "affix_logic": "어근 'blokade'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena blokade",
+    "antonym": "mengblokade",
+    "context": "실생활 및 회화/비즈니스 상황에서 'blokade되다, blokade당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'blokade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diblokade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'blokade되다, blokade당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diblokade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'blokade되다, blokade당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diblokade",
+        "meaning": "blokade되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_0d5s3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terblokade [[뜨르blokade]]",
+    "meaning": "완전히 blokade되다",
+    "pos": "동사, 형용사",
+    "root": "blokade",
+    "affix_logic": "어근 'blokade'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling blokade",
+    "antonym": "sengaja diblokade",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 blokade되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'blokade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terblokade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 blokade되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terblokade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 blokade되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terblokade",
+        "meaning": "완전히 blokade되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_w18o2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbrigade [[멍brigade]]",
+    "meaning": "brigade하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "brigade",
+    "affix_logic": "어근 'brigade'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan brigade",
+    "antonym": "dibrigade",
+    "context": "실생활 및 회화/비즈니스 상황에서 'brigade하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'brigade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbrigade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'brigade하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbrigade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'brigade하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbrigade",
+        "meaning": "brigade하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_991hh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibrigade [[디brigade]]",
+    "meaning": "brigade되다, brigade당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "brigade",
+    "affix_logic": "어근 'brigade'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena brigade",
+    "antonym": "mengbrigade",
+    "context": "실생활 및 회화/비즈니스 상황에서 'brigade되다, brigade당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'brigade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibrigade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'brigade되다, brigade당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibrigade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'brigade되다, brigade당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibrigade",
+        "meaning": "brigade되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_s4mro",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbrigade [[뜨르brigade]]",
+    "meaning": "완전히 brigade되다",
+    "pos": "동사, 형용사",
+    "root": "brigade",
+    "affix_logic": "어근 'brigade'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling brigade",
+    "antonym": "sengaja dibrigade",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 brigade되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'brigade'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbrigade' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 brigade되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbrigade' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 brigade되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbrigade",
+        "meaning": "완전히 brigade되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_e29fn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengburon [[멍buron]]",
+    "meaning": "buron하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "buron",
+    "affix_logic": "어근 'buron'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan buron",
+    "antonym": "diburon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buron하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengburon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buron하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengburon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buron하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengburon",
+        "meaning": "buron하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vkh6g",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diburon [[디buron]]",
+    "meaning": "buron되다, buron당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "buron",
+    "affix_logic": "어근 'buron'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena buron",
+    "antonym": "mengburon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buron되다, buron당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diburon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buron되다, buron당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diburon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buron되다, buron당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diburon",
+        "meaning": "buron되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_lc9om",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terburon [[뜨르buron]]",
+    "meaning": "완전히 buron되다",
+    "pos": "동사, 형용사",
+    "root": "buron",
+    "affix_logic": "어근 'buron'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling buron",
+    "antonym": "sengaja diburon",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 buron되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terburon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 buron되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terburon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 buron되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terburon",
+        "meaning": "완전히 buron되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_y0t4d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdemokrasi [[멍demokrasi]]",
+    "meaning": "demokrasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "demokrasi",
+    "affix_logic": "어근 'demokrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan demokrasi",
+    "antonym": "didemokrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'demokrasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'demokrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdemokrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'demokrasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdemokrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'demokrasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdemokrasi",
+        "meaning": "demokrasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_4728r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didemokrasi [[디demokrasi]]",
+    "meaning": "demokrasi되다, demokrasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "demokrasi",
+    "affix_logic": "어근 'demokrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena demokrasi",
+    "antonym": "mengdemokrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'demokrasi되다, demokrasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'demokrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didemokrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'demokrasi되다, demokrasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didemokrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'demokrasi되다, demokrasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didemokrasi",
+        "meaning": "demokrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_k5zg9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdemokrasi [[뜨르demokrasi]]",
+    "meaning": "완전히 demokrasi되다",
+    "pos": "동사, 형용사",
+    "root": "demokrasi",
+    "affix_logic": "어근 'demokrasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling demokrasi",
+    "antonym": "sengaja didemokrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 demokrasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'demokrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdemokrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 demokrasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdemokrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 demokrasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdemokrasi",
+        "meaning": "완전히 demokrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_olmxl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdemonstrasi [[멍demonstrasi]]",
+    "meaning": "demonstrasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "demonstrasi",
+    "affix_logic": "어근 'demonstrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan demonstrasi",
+    "antonym": "didemonstrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'demonstrasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'demonstrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdemonstrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'demonstrasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdemonstrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'demonstrasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdemonstrasi",
+        "meaning": "demonstrasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_5x5c2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didemonstrasi [[디demonstrasi]]",
+    "meaning": "demonstrasi되다, demonstrasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "demonstrasi",
+    "affix_logic": "어근 'demonstrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena demonstrasi",
+    "antonym": "mengdemonstrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'demonstrasi되다, demonstrasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'demonstrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didemonstrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'demonstrasi되다, demonstrasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didemonstrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'demonstrasi되다, demonstrasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didemonstrasi",
+        "meaning": "demonstrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_bonl9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdemonstrasi [[뜨르demonstrasi]]",
+    "meaning": "완전히 demonstrasi되다",
+    "pos": "동사, 형용사",
+    "root": "demonstrasi",
+    "affix_logic": "어근 'demonstrasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling demonstrasi",
+    "antonym": "sengaja didemonstrasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 demonstrasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'demonstrasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdemonstrasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 demonstrasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdemonstrasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 demonstrasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdemonstrasi",
+        "meaning": "완전히 demonstrasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_r308g",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdeportasi [[멍deportasi]]",
+    "meaning": "deportasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "deportasi",
+    "affix_logic": "어근 'deportasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan deportasi",
+    "antonym": "dideportasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deportasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deportasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdeportasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deportasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdeportasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deportasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdeportasi",
+        "meaning": "deportasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_5ap7w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dideportasi [[디deportasi]]",
+    "meaning": "deportasi되다, deportasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "deportasi",
+    "affix_logic": "어근 'deportasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena deportasi",
+    "antonym": "mengdeportasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deportasi되다, deportasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deportasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dideportasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deportasi되다, deportasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dideportasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deportasi되다, deportasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dideportasi",
+        "meaning": "deportasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_grqfe",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdeportasi [[뜨르deportasi]]",
+    "meaning": "완전히 deportasi되다",
+    "pos": "동사, 형용사",
+    "root": "deportasi",
+    "affix_logic": "어근 'deportasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling deportasi",
+    "antonym": "sengaja dideportasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 deportasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deportasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdeportasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 deportasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdeportasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 deportasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdeportasi",
+        "meaning": "완전히 deportasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_2wuda",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdesersi [[멍desersi]]",
+    "meaning": "desersi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "desersi",
+    "affix_logic": "어근 'desersi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan desersi",
+    "antonym": "didesersi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desersi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desersi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdesersi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desersi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdesersi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desersi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdesersi",
+        "meaning": "desersi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_25dgu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didesersi [[디desersi]]",
+    "meaning": "desersi되다, desersi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "desersi",
+    "affix_logic": "어근 'desersi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena desersi",
+    "antonym": "mengdesersi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desersi되다, desersi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desersi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didesersi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desersi되다, desersi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didesersi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desersi되다, desersi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didesersi",
+        "meaning": "desersi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_g0uy3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdesersi [[뜨르desersi]]",
+    "meaning": "완전히 desersi되다",
+    "pos": "동사, 형용사",
+    "root": "desersi",
+    "affix_logic": "어근 'desersi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling desersi",
+    "antonym": "sengaja didesersi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 desersi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desersi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdesersi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 desersi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdesersi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 desersi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdesersi",
+        "meaning": "완전히 desersi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_wcgih",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdetasemen [[멍detasemen]]",
+    "meaning": "detasemen하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "detasemen",
+    "affix_logic": "어근 'detasemen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan detasemen",
+    "antonym": "didetasemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'detasemen하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'detasemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdetasemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'detasemen하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdetasemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'detasemen하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdetasemen",
+        "meaning": "detasemen하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_jdjgx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didetasemen [[디detasemen]]",
+    "meaning": "detasemen되다, detasemen당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "detasemen",
+    "affix_logic": "어근 'detasemen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena detasemen",
+    "antonym": "mengdetasemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'detasemen되다, detasemen당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'detasemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didetasemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'detasemen되다, detasemen당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didetasemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'detasemen되다, detasemen당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didetasemen",
+        "meaning": "detasemen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_itmzb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdetasemen [[뜨르detasemen]]",
+    "meaning": "완전히 detasemen되다",
+    "pos": "동사, 형용사",
+    "root": "detasemen",
+    "affix_logic": "어근 'detasemen'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling detasemen",
+    "antonym": "sengaja didetasemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 detasemen되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'detasemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdetasemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 detasemen되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdetasemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 detasemen되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdetasemen",
+        "meaning": "완전히 detasemen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_9me69",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengduta besar [[멍duta besar]]",
+    "meaning": "duta besar하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "duta besar",
+    "affix_logic": "어근 'duta besar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan duta besar",
+    "antonym": "diduta besar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'duta besar하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'duta besar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengduta besar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'duta besar하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengduta besar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'duta besar하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengduta",
+        "meaning": "duta besar하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_zfp9h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diduta besar [[디duta besar]]",
+    "meaning": "duta besar되다, duta besar당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "duta besar",
+    "affix_logic": "어근 'duta besar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena duta besar",
+    "antonym": "mengduta besar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'duta besar되다, duta besar당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'duta besar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diduta besar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'duta besar되다, duta besar당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diduta besar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'duta besar되다, duta besar당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diduta",
+        "meaning": "duta besar되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_n85t2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terduta besar [[뜨르duta besar]]",
+    "meaning": "완전히 duta besar되다",
+    "pos": "동사, 형용사",
+    "root": "duta besar",
+    "affix_logic": "어근 'duta besar'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling duta besar",
+    "antonym": "sengaja diduta besar",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 duta besar되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'duta besar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terduta besar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 duta besar되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terduta besar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 duta besar되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terduta",
+        "meaning": "완전히 duta besar되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_px20v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdiplomat [[멍diplomat]]",
+    "meaning": "diplomat하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "diplomat",
+    "affix_logic": "어근 'diplomat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan diplomat",
+    "antonym": "didiplomat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diplomat하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diplomat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdiplomat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diplomat하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdiplomat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diplomat하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdiplomat",
+        "meaning": "diplomat하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_cflu4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didiplomat [[디diplomat]]",
+    "meaning": "diplomat되다, diplomat당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "diplomat",
+    "affix_logic": "어근 'diplomat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena diplomat",
+    "antonym": "mengdiplomat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diplomat되다, diplomat당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diplomat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didiplomat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diplomat되다, diplomat당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didiplomat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diplomat되다, diplomat당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didiplomat",
+        "meaning": "diplomat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_uacvn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdiplomat [[뜨르diplomat]]",
+    "meaning": "완전히 diplomat되다",
+    "pos": "동사, 형용사",
+    "root": "diplomat",
+    "affix_logic": "어근 'diplomat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling diplomat",
+    "antonym": "sengaja didiplomat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 diplomat되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diplomat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdiplomat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 diplomat되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdiplomat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 diplomat되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdiplomat",
+        "meaning": "완전히 diplomat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_g2nnq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdoktrin [[멍doktrin]]",
+    "meaning": "doktrin하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "doktrin",
+    "affix_logic": "어근 'doktrin'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan doktrin",
+    "antonym": "didoktrin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'doktrin하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'doktrin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdoktrin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'doktrin하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdoktrin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'doktrin하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdoktrin",
+        "meaning": "doktrin하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_trudu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didoktrin [[디doktrin]]",
+    "meaning": "doktrin되다, doktrin당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "doktrin",
+    "affix_logic": "어근 'doktrin'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena doktrin",
+    "antonym": "mengdoktrin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'doktrin되다, doktrin당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'doktrin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didoktrin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'doktrin되다, doktrin당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didoktrin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'doktrin되다, doktrin당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didoktrin",
+        "meaning": "doktrin되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_shhe9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdoktrin [[뜨르doktrin]]",
+    "meaning": "완전히 doktrin되다",
+    "pos": "동사, 형용사",
+    "root": "doktrin",
+    "affix_logic": "어근 'doktrin'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling doktrin",
+    "antonym": "sengaja didoktrin",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 doktrin되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'doktrin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdoktrin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 doktrin되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdoktrin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 doktrin되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdoktrin",
+        "meaning": "완전히 doktrin되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_mk6m5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdokumen negara [[멍dokumen negara]]",
+    "meaning": "dokumen negara하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "dokumen negara",
+    "affix_logic": "어근 'dokumen negara'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dokumen negara",
+    "antonym": "didokumen negara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumen negara하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumen negara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdokumen negara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumen negara하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdokumen negara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumen negara하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdokumen",
+        "meaning": "dokumen negara하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_cclrt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didokumen negara [[디dokumen negara]]",
+    "meaning": "dokumen negara되다, dokumen negara당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "dokumen negara",
+    "affix_logic": "어근 'dokumen negara'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena dokumen negara",
+    "antonym": "mengdokumen negara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumen negara되다, dokumen negara당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumen negara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didokumen negara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumen negara되다, dokumen negara당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didokumen negara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumen negara되다, dokumen negara당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didokumen",
+        "meaning": "dokumen negara되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_dijwi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdokumen negara [[뜨르dokumen negara]]",
+    "meaning": "완전히 dokumen negara되다",
+    "pos": "동사, 형용사",
+    "root": "dokumen negara",
+    "affix_logic": "어근 'dokumen negara'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling dokumen negara",
+    "antonym": "sengaja didokumen negara",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 dokumen negara되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumen negara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdokumen negara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 dokumen negara되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdokumen negara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 dokumen negara되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdokumen",
+        "meaning": "완전히 dokumen negara되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_zibtz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdominasi politik [[멍dominasi politik]]",
+    "meaning": "dominasi politik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "dominasi politik",
+    "affix_logic": "어근 'dominasi politik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dominasi politik",
+    "antonym": "didominasi politik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dominasi politik하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dominasi politik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdominasi politik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dominasi politik하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdominasi politik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dominasi politik하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdominasi",
+        "meaning": "dominasi politik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_4fhgf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didominasi politik [[디dominasi politik]]",
+    "meaning": "dominasi politik되다, dominasi politik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "dominasi politik",
+    "affix_logic": "어근 'dominasi politik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena dominasi politik",
+    "antonym": "mengdominasi politik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dominasi politik되다, dominasi politik당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dominasi politik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didominasi politik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dominasi politik되다, dominasi politik당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didominasi politik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dominasi politik되다, dominasi politik당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didominasi",
+        "meaning": "dominasi politik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_yd5n0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdominasi politik [[뜨르dominasi politik]]",
+    "meaning": "완전히 dominasi politik되다",
+    "pos": "동사, 형용사",
+    "root": "dominasi politik",
+    "affix_logic": "어근 'dominasi politik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling dominasi politik",
+    "antonym": "sengaja didominasi politik",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 dominasi politik되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dominasi politik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdominasi politik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 dominasi politik되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdominasi politik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 dominasi politik되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdominasi",
+        "meaning": "완전히 dominasi politik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vcdfz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdraf undang-undang [[멍draf undang-undang]]",
+    "meaning": "draf undang-undang하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "draf undang-undang",
+    "affix_logic": "어근 'draf undang-undang'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan draf undang-undang",
+    "antonym": "didraf undang-undang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'draf undang-undang하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'draf undang-undang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdraf undang-undang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'draf undang-undang하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdraf undang-undang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'draf undang-undang하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdraf",
+        "meaning": "draf undang-undang하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ws5di",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didraf undang-undang [[디draf undang-undang]]",
+    "meaning": "draf undang-undang되다, draf undang-undang당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "draf undang-undang",
+    "affix_logic": "어근 'draf undang-undang'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena draf undang-undang",
+    "antonym": "mengdraf undang-undang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'draf undang-undang되다, draf undang-undang당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'draf undang-undang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didraf undang-undang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'draf undang-undang되다, draf undang-undang당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didraf undang-undang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'draf undang-undang되다, draf undang-undang당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didraf",
+        "meaning": "draf undang-undang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_afs8z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdraf undang-undang [[뜨르draf undang-undang]]",
+    "meaning": "완전히 draf undang-undang되다",
+    "pos": "동사, 형용사",
+    "root": "draf undang-undang",
+    "affix_logic": "어근 'draf undang-undang'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling draf undang-undang",
+    "antonym": "sengaja didraf undang-undang",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 draf undang-undang되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'draf undang-undang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdraf undang-undang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 draf undang-undang되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdraf undang-undang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 draf undang-undang되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdraf",
+        "meaning": "완전히 draf undang-undang되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_puenk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengekstradisi [[멍ekstradisi]]",
+    "meaning": "ekstradisi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ekstradisi",
+    "affix_logic": "어근 'ekstradisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekstradisi",
+    "antonym": "diekstradisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekstradisi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekstradisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengekstradisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekstradisi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengekstradisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekstradisi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengekstradisi",
+        "meaning": "ekstradisi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_gmei3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diekstradisi [[디ekstradisi]]",
+    "meaning": "ekstradisi되다, ekstradisi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ekstradisi",
+    "affix_logic": "어근 'ekstradisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena ekstradisi",
+    "antonym": "mengekstradisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekstradisi되다, ekstradisi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekstradisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diekstradisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekstradisi되다, ekstradisi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diekstradisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekstradisi되다, ekstradisi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diekstradisi",
+        "meaning": "ekstradisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_infji",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terekstradisi [[뜨르ekstradisi]]",
+    "meaning": "완전히 ekstradisi되다",
+    "pos": "동사, 형용사",
+    "root": "ekstradisi",
+    "affix_logic": "어근 'ekstradisi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling ekstradisi",
+    "antonym": "sengaja diekstradisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 ekstradisi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekstradisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terekstradisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 ekstradisi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terekstradisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 ekstradisi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terekstradisi",
+        "meaning": "완전히 ekstradisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_8b0b9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengembargo [[멍embargo]]",
+    "meaning": "embargo하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "embargo",
+    "affix_logic": "어근 'embargo'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan embargo",
+    "antonym": "diembargo",
+    "context": "실생활 및 회화/비즈니스 상황에서 'embargo하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embargo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengembargo' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'embargo하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengembargo' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'embargo하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengembargo",
+        "meaning": "embargo하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_oq7jp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diembargo [[디embargo]]",
+    "meaning": "embargo되다, embargo당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "embargo",
+    "affix_logic": "어근 'embargo'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena embargo",
+    "antonym": "mengembargo",
+    "context": "실생활 및 회화/비즈니스 상황에서 'embargo되다, embargo당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embargo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diembargo' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'embargo되다, embargo당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diembargo' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'embargo되다, embargo당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diembargo",
+        "meaning": "embargo되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_lfjz7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terembargo [[뜨르embargo]]",
+    "meaning": "완전히 embargo되다",
+    "pos": "동사, 형용사",
+    "root": "embargo",
+    "affix_logic": "어근 'embargo'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling embargo",
+    "antonym": "sengaja diembargo",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 embargo되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embargo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terembargo' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 embargo되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terembargo' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 embargo되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terembargo",
+        "meaning": "완전히 embargo되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_noy7q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengevakuasi [[멍evakuasi]]",
+    "meaning": "evakuasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "evakuasi",
+    "affix_logic": "어근 'evakuasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan evakuasi",
+    "antonym": "dievakuasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evakuasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evakuasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengevakuasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evakuasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengevakuasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evakuasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengevakuasi",
+        "meaning": "evakuasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vl7a4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dievakuasi [[디evakuasi]]",
+    "meaning": "evakuasi되다, evakuasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "evakuasi",
+    "affix_logic": "어근 'evakuasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena evakuasi",
+    "antonym": "mengevakuasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evakuasi되다, evakuasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evakuasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dievakuasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evakuasi되다, evakuasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dievakuasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evakuasi되다, evakuasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dievakuasi",
+        "meaning": "evakuasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_hcei5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terevakuasi [[뜨르evakuasi]]",
+    "meaning": "완전히 evakuasi되다",
+    "pos": "동사, 형용사",
+    "root": "evakuasi",
+    "affix_logic": "어근 'evakuasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling evakuasi",
+    "antonym": "sengaja dievakuasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 evakuasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evakuasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terevakuasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 evakuasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terevakuasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 evakuasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terevakuasi",
+        "meaning": "완전히 evakuasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_k61fv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfaksi [[멍faksi]]",
+    "meaning": "faksi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "faksi",
+    "affix_logic": "어근 'faksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan faksi",
+    "antonym": "difaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'faksi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'faksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengfaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'faksi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengfaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'faksi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengfaksi",
+        "meaning": "faksi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_gj5mx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difaksi [[디faksi]]",
+    "meaning": "faksi되다, faksi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "faksi",
+    "affix_logic": "어근 'faksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena faksi",
+    "antonym": "mengfaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'faksi되다, faksi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'faksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'difaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'faksi되다, faksi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'difaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'faksi되다, faksi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "difaksi",
+        "meaning": "faksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_2tpjn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfaksi [[뜨르faksi]]",
+    "meaning": "완전히 faksi되다",
+    "pos": "동사, 형용사",
+    "root": "faksi",
+    "affix_logic": "어근 'faksi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling faksi",
+    "antonym": "sengaja difaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 faksi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'faksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terfaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 faksi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terfaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 faksi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terfaksi",
+        "meaning": "완전히 faksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_idmdh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menggaris depan [[멍garis depan]]",
+    "meaning": "garis depan하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "garis depan",
+    "affix_logic": "어근 'garis depan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan garis depan",
+    "antonym": "digaris depan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'garis depan하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'garis depan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menggaris depan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'garis depan하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menggaris depan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'garis depan하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menggaris",
+        "meaning": "garis depan하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_uw6d6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "digaris depan [[디garis depan]]",
+    "meaning": "garis depan되다, garis depan당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "garis depan",
+    "affix_logic": "어근 'garis depan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena garis depan",
+    "antonym": "menggaris depan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'garis depan되다, garis depan당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'garis depan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'digaris depan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'garis depan되다, garis depan당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'digaris depan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'garis depan되다, garis depan당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "digaris",
+        "meaning": "garis depan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_wec4f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tergaris depan [[뜨르garis depan]]",
+    "meaning": "완전히 garis depan되다",
+    "pos": "동사, 형용사",
+    "root": "garis depan",
+    "affix_logic": "어근 'garis depan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling garis depan",
+    "antonym": "sengaja digaris depan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 garis depan되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'garis depan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tergaris depan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 garis depan되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tergaris depan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 garis depan되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tergaris",
+        "meaning": "완전히 garis depan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_q5pjy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menggerilya [[멍gerilya]]",
+    "meaning": "gerilya하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "gerilya",
+    "affix_logic": "어근 'gerilya'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan gerilya",
+    "antonym": "digerilya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gerilya하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gerilya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menggerilya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gerilya하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menggerilya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gerilya하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menggerilya",
+        "meaning": "gerilya하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vsxwl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "digerilya [[디gerilya]]",
+    "meaning": "gerilya되다, gerilya당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "gerilya",
+    "affix_logic": "어근 'gerilya'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena gerilya",
+    "antonym": "menggerilya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gerilya되다, gerilya당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gerilya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'digerilya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gerilya되다, gerilya당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'digerilya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gerilya되다, gerilya당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "digerilya",
+        "meaning": "gerilya되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_p3u1j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tergerilya [[뜨르gerilya]]",
+    "meaning": "완전히 gerilya되다",
+    "pos": "동사, 형용사",
+    "root": "gerilya",
+    "affix_logic": "어근 'gerilya'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling gerilya",
+    "antonym": "sengaja digerilya",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 gerilya되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gerilya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tergerilya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 gerilya되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tergerilya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 gerilya되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tergerilya",
+        "meaning": "완전히 gerilya되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_kx5zr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghak angket [[멍hak angket]]",
+    "meaning": "hak angket하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hak angket",
+    "affix_logic": "어근 'hak angket'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hak angket",
+    "antonym": "dihak angket",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hak angket하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hak angket'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghak angket' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hak angket하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghak angket' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hak angket하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghak",
+        "meaning": "hak angket하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_4uy9p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihak angket [[디hak angket]]",
+    "meaning": "hak angket되다, hak angket당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hak angket",
+    "affix_logic": "어근 'hak angket'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hak angket",
+    "antonym": "menghak angket",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hak angket되다, hak angket당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hak angket'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihak angket' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hak angket되다, hak angket당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihak angket' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hak angket되다, hak angket당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihak",
+        "meaning": "hak angket되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_x1qn5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhak angket [[뜨르hak angket]]",
+    "meaning": "완전히 hak angket되다",
+    "pos": "동사, 형용사",
+    "root": "hak angket",
+    "affix_logic": "어근 'hak angket'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hak angket",
+    "antonym": "sengaja dihak angket",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hak angket되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hak angket'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhak angket' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hak angket되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhak angket' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hak angket되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhak",
+        "meaning": "완전히 hak angket되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_8an56",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghak veto [[멍hak veto]]",
+    "meaning": "hak veto하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hak veto",
+    "affix_logic": "어근 'hak veto'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hak veto",
+    "antonym": "dihak veto",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hak veto하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hak veto'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghak veto' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hak veto하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghak veto' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hak veto하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghak",
+        "meaning": "hak veto하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ybb7w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihak veto [[디hak veto]]",
+    "meaning": "hak veto되다, hak veto당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hak veto",
+    "affix_logic": "어근 'hak veto'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hak veto",
+    "antonym": "menghak veto",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hak veto되다, hak veto당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hak veto'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihak veto' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hak veto되다, hak veto당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihak veto' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hak veto되다, hak veto당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihak",
+        "meaning": "hak veto되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_h8one",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhak veto [[뜨르hak veto]]",
+    "meaning": "완전히 hak veto되다",
+    "pos": "동사, 형용사",
+    "root": "hak veto",
+    "affix_logic": "어근 'hak veto'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hak veto",
+    "antonym": "sengaja dihak veto",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hak veto되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hak veto'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhak veto' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hak veto되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhak veto' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hak veto되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhak",
+        "meaning": "완전히 hak veto되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7jkz1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghegemoni [[멍hegemoni]]",
+    "meaning": "hegemoni하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hegemoni",
+    "affix_logic": "어근 'hegemoni'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hegemoni",
+    "antonym": "dihegemoni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hegemoni하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hegemoni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghegemoni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hegemoni하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghegemoni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hegemoni하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghegemoni",
+        "meaning": "hegemoni하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vse3j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihegemoni [[디hegemoni]]",
+    "meaning": "hegemoni되다, hegemoni당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hegemoni",
+    "affix_logic": "어근 'hegemoni'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hegemoni",
+    "antonym": "menghegemoni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hegemoni되다, hegemoni당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hegemoni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihegemoni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hegemoni되다, hegemoni당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihegemoni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hegemoni되다, hegemoni당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihegemoni",
+        "meaning": "hegemoni되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_y8xd1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhegemoni [[뜨르hegemoni]]",
+    "meaning": "완전히 hegemoni되다",
+    "pos": "동사, 형용사",
+    "root": "hegemoni",
+    "affix_logic": "어근 'hegemoni'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hegemoni",
+    "antonym": "sengaja dihegemoni",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hegemoni되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hegemoni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhegemoni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hegemoni되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhegemoni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hegemoni되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhegemoni",
+        "meaning": "완전히 hegemoni되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_nivae",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghukum pidana [[멍hukum pidana]]",
+    "meaning": "hukum pidana하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hukum pidana",
+    "affix_logic": "어근 'hukum pidana'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hukum pidana",
+    "antonym": "dihukum pidana",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hukum pidana하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hukum pidana'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghukum pidana' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hukum pidana하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghukum pidana' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hukum pidana하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghukum",
+        "meaning": "hukum pidana하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ebzxg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihukum pidana [[디hukum pidana]]",
+    "meaning": "hukum pidana되다, hukum pidana당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hukum pidana",
+    "affix_logic": "어근 'hukum pidana'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hukum pidana",
+    "antonym": "menghukum pidana",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hukum pidana되다, hukum pidana당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hukum pidana'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihukum pidana' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hukum pidana되다, hukum pidana당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihukum pidana' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hukum pidana되다, hukum pidana당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihukum",
+        "meaning": "hukum pidana되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_v8zj1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhukum pidana [[뜨르hukum pidana]]",
+    "meaning": "완전히 hukum pidana되다",
+    "pos": "동사, 형용사",
+    "root": "hukum pidana",
+    "affix_logic": "어근 'hukum pidana'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hukum pidana",
+    "antonym": "sengaja dihukum pidana",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hukum pidana되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hukum pidana'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhukum pidana' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hukum pidana되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhukum pidana' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hukum pidana되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhukum",
+        "meaning": "완전히 hukum pidana되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_e1ukk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghukum perdata [[멍hukum perdata]]",
+    "meaning": "hukum perdata하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hukum perdata",
+    "affix_logic": "어근 'hukum perdata'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hukum perdata",
+    "antonym": "dihukum perdata",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hukum perdata하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hukum perdata'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghukum perdata' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hukum perdata하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghukum perdata' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hukum perdata하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghukum",
+        "meaning": "hukum perdata하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ecwla",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihukum perdata [[디hukum perdata]]",
+    "meaning": "hukum perdata되다, hukum perdata당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hukum perdata",
+    "affix_logic": "어근 'hukum perdata'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hukum perdata",
+    "antonym": "menghukum perdata",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hukum perdata되다, hukum perdata당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hukum perdata'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihukum perdata' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hukum perdata되다, hukum perdata당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihukum perdata' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hukum perdata되다, hukum perdata당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihukum",
+        "meaning": "hukum perdata되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_xe07l",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhukum perdata [[뜨르hukum perdata]]",
+    "meaning": "완전히 hukum perdata되다",
+    "pos": "동사, 형용사",
+    "root": "hukum perdata",
+    "affix_logic": "어근 'hukum perdata'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hukum perdata",
+    "antonym": "sengaja dihukum perdata",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hukum perdata되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hukum perdata'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhukum perdata' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hukum perdata되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhukum perdata' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hukum perdata되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhukum",
+        "meaning": "완전히 hukum perdata되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_1jhv4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengideologi [[멍ideologi]]",
+    "meaning": "ideologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ideologi",
+    "affix_logic": "어근 'ideologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ideologi",
+    "antonym": "diideologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ideologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ideologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengideologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ideologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengideologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ideologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengideologi",
+        "meaning": "ideologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_s117u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diideologi [[디ideologi]]",
+    "meaning": "ideologi되다, ideologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ideologi",
+    "affix_logic": "어근 'ideologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena ideologi",
+    "antonym": "mengideologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ideologi되다, ideologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ideologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diideologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ideologi되다, ideologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diideologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ideologi되다, ideologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diideologi",
+        "meaning": "ideologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_8achh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terideologi [[뜨르ideologi]]",
+    "meaning": "완전히 ideologi되다",
+    "pos": "동사, 형용사",
+    "root": "ideologi",
+    "affix_logic": "어근 'ideologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling ideologi",
+    "antonym": "sengaja diideologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 ideologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ideologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terideologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 ideologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terideologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 ideologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terideologi",
+        "meaning": "완전히 ideologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_eex0w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengimunitas [[멍imunitas]]",
+    "meaning": "imunitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "imunitas",
+    "affix_logic": "어근 'imunitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan imunitas",
+    "antonym": "diimunitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imunitas하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengimunitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imunitas하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengimunitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imunitas하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengimunitas",
+        "meaning": "imunitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_jl0wo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diimunitas [[디imunitas]]",
+    "meaning": "imunitas되다, imunitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "imunitas",
+    "affix_logic": "어근 'imunitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena imunitas",
+    "antonym": "mengimunitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imunitas되다, imunitas당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diimunitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imunitas되다, imunitas당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diimunitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imunitas되다, imunitas당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diimunitas",
+        "meaning": "imunitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_gzjdt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terimunitas [[뜨르imunitas]]",
+    "meaning": "완전히 imunitas되다",
+    "pos": "동사, 형용사",
+    "root": "imunitas",
+    "affix_logic": "어근 'imunitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling imunitas",
+    "antonym": "sengaja diimunitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 imunitas되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terimunitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 imunitas되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terimunitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 imunitas되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terimunitas",
+        "meaning": "완전히 imunitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_2pz8m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menginfanteri [[멍infanteri]]",
+    "meaning": "infanteri하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "infanteri",
+    "affix_logic": "어근 'infanteri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan infanteri",
+    "antonym": "diinfanteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infanteri하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infanteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menginfanteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infanteri하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menginfanteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infanteri하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menginfanteri",
+        "meaning": "infanteri하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_fff4l",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diinfanteri [[디infanteri]]",
+    "meaning": "infanteri되다, infanteri당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "infanteri",
+    "affix_logic": "어근 'infanteri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena infanteri",
+    "antonym": "menginfanteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infanteri되다, infanteri당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infanteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diinfanteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infanteri되다, infanteri당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diinfanteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infanteri되다, infanteri당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diinfanteri",
+        "meaning": "infanteri되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_mboej",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terinfanteri [[뜨르infanteri]]",
+    "meaning": "완전히 infanteri되다",
+    "pos": "동사, 형용사",
+    "root": "infanteri",
+    "affix_logic": "어근 'infanteri'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling infanteri",
+    "antonym": "sengaja diinfanteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 infanteri되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infanteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terinfanteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 infanteri되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terinfanteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 infanteri되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terinfanteri",
+        "meaning": "완전히 infanteri되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_k06yy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menginspektur [[멍inspektur]]",
+    "meaning": "inspektur하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "inspektur",
+    "affix_logic": "어근 'inspektur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan inspektur",
+    "antonym": "diinspektur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inspektur하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inspektur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menginspektur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inspektur하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menginspektur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inspektur하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menginspektur",
+        "meaning": "inspektur하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_y58rx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diinspektur [[디inspektur]]",
+    "meaning": "inspektur되다, inspektur당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "inspektur",
+    "affix_logic": "어근 'inspektur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena inspektur",
+    "antonym": "menginspektur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inspektur되다, inspektur당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inspektur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diinspektur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inspektur되다, inspektur당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diinspektur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inspektur되다, inspektur당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diinspektur",
+        "meaning": "inspektur되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_a6c8b",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terinspektur [[뜨르inspektur]]",
+    "meaning": "완전히 inspektur되다",
+    "pos": "동사, 형용사",
+    "root": "inspektur",
+    "affix_logic": "어근 'inspektur'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling inspektur",
+    "antonym": "sengaja diinspektur",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 inspektur되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inspektur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terinspektur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 inspektur되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terinspektur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 inspektur되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terinspektur",
+        "meaning": "완전히 inspektur되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_y50xn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menginstruksi [[멍instruksi]]",
+    "meaning": "instruksi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "instruksi",
+    "affix_logic": "어근 'instruksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan instruksi",
+    "antonym": "diinstruksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instruksi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instruksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menginstruksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instruksi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menginstruksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instruksi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menginstruksi",
+        "meaning": "instruksi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_3mjjj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diinstruksi [[디instruksi]]",
+    "meaning": "instruksi되다, instruksi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "instruksi",
+    "affix_logic": "어근 'instruksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena instruksi",
+    "antonym": "menginstruksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instruksi되다, instruksi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instruksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diinstruksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instruksi되다, instruksi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diinstruksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instruksi되다, instruksi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diinstruksi",
+        "meaning": "instruksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vvgfv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terinstruksi [[뜨르instruksi]]",
+    "meaning": "완전히 instruksi되다",
+    "pos": "동사, 형용사",
+    "root": "instruksi",
+    "affix_logic": "어근 'instruksi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling instruksi",
+    "antonym": "sengaja diinstruksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 instruksi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instruksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terinstruksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 instruksi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terinstruksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 instruksi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terinstruksi",
+        "meaning": "완전히 instruksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_lxeor",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengintelejen [[멍intelejen]]",
+    "meaning": "intelejen하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "intelejen",
+    "affix_logic": "어근 'intelejen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan intelejen",
+    "antonym": "diintelejen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intelejen하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intelejen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengintelejen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intelejen하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengintelejen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intelejen하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengintelejen",
+        "meaning": "intelejen하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_rpcdn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diintelejen [[디intelejen]]",
+    "meaning": "intelejen되다, intelejen당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "intelejen",
+    "affix_logic": "어근 'intelejen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena intelejen",
+    "antonym": "mengintelejen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intelejen되다, intelejen당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intelejen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diintelejen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intelejen되다, intelejen당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diintelejen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intelejen되다, intelejen당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diintelejen",
+        "meaning": "intelejen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ym6jb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terintelejen [[뜨르intelejen]]",
+    "meaning": "완전히 intelejen되다",
+    "pos": "동사, 형용사",
+    "root": "intelejen",
+    "affix_logic": "어근 'intelejen'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling intelejen",
+    "antonym": "sengaja diintelejen",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 intelejen되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intelejen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terintelejen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 intelejen되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terintelejen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 intelejen되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terintelejen",
+        "meaning": "완전히 intelejen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_hd5t8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menginterogasi [[멍interogasi]]",
+    "meaning": "interogasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "interogasi",
+    "affix_logic": "어근 'interogasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan interogasi",
+    "antonym": "diinterogasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interogasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interogasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menginterogasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interogasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menginterogasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interogasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menginterogasi",
+        "meaning": "interogasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_kz5fa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diinterogasi [[디interogasi]]",
+    "meaning": "interogasi되다, interogasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "interogasi",
+    "affix_logic": "어근 'interogasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena interogasi",
+    "antonym": "menginterogasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interogasi되다, interogasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interogasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diinterogasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interogasi되다, interogasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diinterogasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interogasi되다, interogasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diinterogasi",
+        "meaning": "interogasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_htoeg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terinterogasi [[뜨르interogasi]]",
+    "meaning": "완전히 interogasi되다",
+    "pos": "동사, 형용사",
+    "root": "interogasi",
+    "affix_logic": "어근 'interogasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling interogasi",
+    "antonym": "sengaja diinterogasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 interogasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interogasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terinterogasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 interogasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terinterogasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 interogasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terinterogasi",
+        "meaning": "완전히 interogasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_v941t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menginvasi [[멍invasi]]",
+    "meaning": "invasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "invasi",
+    "affix_logic": "어근 'invasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan invasi",
+    "antonym": "diinvasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'invasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'invasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menginvasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'invasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menginvasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'invasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menginvasi",
+        "meaning": "invasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_huul2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diinvasi [[디invasi]]",
+    "meaning": "invasi되다, invasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "invasi",
+    "affix_logic": "어근 'invasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena invasi",
+    "antonym": "menginvasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'invasi되다, invasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'invasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diinvasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'invasi되다, invasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diinvasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'invasi되다, invasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diinvasi",
+        "meaning": "invasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_5ip2q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terinvasi [[뜨르invasi]]",
+    "meaning": "완전히 invasi되다",
+    "pos": "동사, 형용사",
+    "root": "invasi",
+    "affix_logic": "어근 'invasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling invasi",
+    "antonym": "sengaja diinvasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 invasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'invasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terinvasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 invasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terinvasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 invasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terinvasi",
+        "meaning": "완전히 invasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_lku3h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengjurisdiksi [[멍jurisdiksi]]",
+    "meaning": "jurisdiksi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "jurisdiksi",
+    "affix_logic": "어근 'jurisdiksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan jurisdiksi",
+    "antonym": "dijurisdiksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurisdiksi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurisdiksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengjurisdiksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurisdiksi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengjurisdiksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurisdiksi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengjurisdiksi",
+        "meaning": "jurisdiksi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_x42lk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dijurisdiksi [[디jurisdiksi]]",
+    "meaning": "jurisdiksi되다, jurisdiksi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "jurisdiksi",
+    "affix_logic": "어근 'jurisdiksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena jurisdiksi",
+    "antonym": "mengjurisdiksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurisdiksi되다, jurisdiksi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurisdiksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dijurisdiksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurisdiksi되다, jurisdiksi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dijurisdiksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurisdiksi되다, jurisdiksi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dijurisdiksi",
+        "meaning": "jurisdiksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_b8rid",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terjurisdiksi [[뜨르jurisdiksi]]",
+    "meaning": "완전히 jurisdiksi되다",
+    "pos": "동사, 형용사",
+    "root": "jurisdiksi",
+    "affix_logic": "어근 'jurisdiksi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling jurisdiksi",
+    "antonym": "sengaja dijurisdiksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 jurisdiksi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurisdiksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terjurisdiksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 jurisdiksi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terjurisdiksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 jurisdiksi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terjurisdiksi",
+        "meaning": "완전히 jurisdiksi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_eqj6s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkedaulatan [[멍kedaulatan]]",
+    "meaning": "kedaulatan하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kedaulatan",
+    "affix_logic": "어근 'kedaulatan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kedaulatan",
+    "antonym": "dikedaulatan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kedaulatan하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kedaulatan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkedaulatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kedaulatan하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkedaulatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kedaulatan하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkedaulatan",
+        "meaning": "kedaulatan하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_52pyv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikedaulatan [[디kedaulatan]]",
+    "meaning": "kedaulatan되다, kedaulatan당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kedaulatan",
+    "affix_logic": "어근 'kedaulatan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kedaulatan",
+    "antonym": "mengkedaulatan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kedaulatan되다, kedaulatan당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kedaulatan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikedaulatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kedaulatan되다, kedaulatan당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikedaulatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kedaulatan되다, kedaulatan당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikedaulatan",
+        "meaning": "kedaulatan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_36o9h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkedaulatan [[뜨르kedaulatan]]",
+    "meaning": "완전히 kedaulatan되다",
+    "pos": "동사, 형용사",
+    "root": "kedaulatan",
+    "affix_logic": "어근 'kedaulatan'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kedaulatan",
+    "antonym": "sengaja dikedaulatan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kedaulatan되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kedaulatan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkedaulatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kedaulatan되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkedaulatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kedaulatan되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkedaulatan",
+        "meaning": "완전히 kedaulatan되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7h8k8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkebijakan eksternal [[멍kebijakan eksternal]]",
+    "meaning": "kebijakan eksternal하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kebijakan eksternal",
+    "affix_logic": "어근 'kebijakan eksternal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kebijakan eksternal",
+    "antonym": "dikebijakan eksternal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kebijakan eksternal하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kebijakan eksternal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkebijakan eksternal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kebijakan eksternal하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkebijakan eksternal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kebijakan eksternal하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkebijakan",
+        "meaning": "kebijakan eksternal하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_q7igy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikebijakan eksternal [[디kebijakan eksternal]]",
+    "meaning": "kebijakan eksternal되다, kebijakan eksternal당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kebijakan eksternal",
+    "affix_logic": "어근 'kebijakan eksternal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kebijakan eksternal",
+    "antonym": "mengkebijakan eksternal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kebijakan eksternal되다, kebijakan eksternal당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kebijakan eksternal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikebijakan eksternal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kebijakan eksternal되다, kebijakan eksternal당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikebijakan eksternal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kebijakan eksternal되다, kebijakan eksternal당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikebijakan",
+        "meaning": "kebijakan eksternal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_fb91y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkebijakan eksternal [[뜨르kebijakan eksternal]]",
+    "meaning": "완전히 kebijakan eksternal되다",
+    "pos": "동사, 형용사",
+    "root": "kebijakan eksternal",
+    "affix_logic": "어근 'kebijakan eksternal'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kebijakan eksternal",
+    "antonym": "sengaja dikebijakan eksternal",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kebijakan eksternal되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kebijakan eksternal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkebijakan eksternal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kebijakan eksternal되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkebijakan eksternal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kebijakan eksternal되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkebijakan",
+        "meaning": "완전히 kebijakan eksternal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_lodqj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkementerian [[멍kementerian]]",
+    "meaning": "kementerian하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kementerian",
+    "affix_logic": "어근 'kementerian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kementerian",
+    "antonym": "dikementerian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kementerian하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kementerian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkementerian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kementerian하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkementerian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kementerian하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkementerian",
+        "meaning": "kementerian하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_khxus",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikementerian [[디kementerian]]",
+    "meaning": "kementerian되다, kementerian당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kementerian",
+    "affix_logic": "어근 'kementerian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kementerian",
+    "antonym": "mengkementerian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kementerian되다, kementerian당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kementerian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikementerian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kementerian되다, kementerian당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikementerian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kementerian되다, kementerian당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikementerian",
+        "meaning": "kementerian되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_cv143",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkementerian [[뜨르kementerian]]",
+    "meaning": "완전히 kementerian되다",
+    "pos": "동사, 형용사",
+    "root": "kementerian",
+    "affix_logic": "어근 'kementerian'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kementerian",
+    "antonym": "sengaja dikementerian",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kementerian되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kementerian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkementerian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kementerian되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkementerian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kementerian되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkementerian",
+        "meaning": "완전히 kementerian되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_eqdqq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkoalisi [[멍koalisi]]",
+    "meaning": "koalisi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "koalisi",
+    "affix_logic": "어근 'koalisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan koalisi",
+    "antonym": "dikoalisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koalisi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koalisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkoalisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koalisi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkoalisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koalisi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkoalisi",
+        "meaning": "koalisi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_toy5e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikoalisi [[디koalisi]]",
+    "meaning": "koalisi되다, koalisi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "koalisi",
+    "affix_logic": "어근 'koalisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena koalisi",
+    "antonym": "mengkoalisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koalisi되다, koalisi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koalisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikoalisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koalisi되다, koalisi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikoalisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koalisi되다, koalisi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikoalisi",
+        "meaning": "koalisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_62kke",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkoalisi [[뜨르koalisi]]",
+    "meaning": "완전히 koalisi되다",
+    "pos": "동사, 형용사",
+    "root": "koalisi",
+    "affix_logic": "어근 'koalisi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling koalisi",
+    "antonym": "sengaja dikoalisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 koalisi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koalisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkoalisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 koalisi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkoalisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 koalisi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkoalisi",
+        "meaning": "완전히 koalisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ic4tm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkomando [[멍komando]]",
+    "meaning": "komando하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "komando",
+    "affix_logic": "어근 'komando'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan komando",
+    "antonym": "dikomando",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komando하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komando'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkomando' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komando하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkomando' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komando하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkomando",
+        "meaning": "komando하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ddgji",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikomando [[디komando]]",
+    "meaning": "komando되다, komando당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "komando",
+    "affix_logic": "어근 'komando'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena komando",
+    "antonym": "mengkomando",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komando되다, komando당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komando'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikomando' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komando되다, komando당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikomando' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komando되다, komando당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikomando",
+        "meaning": "komando되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_f8697",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkomando [[뜨르komando]]",
+    "meaning": "완전히 komando되다",
+    "pos": "동사, 형용사",
+    "root": "komando",
+    "affix_logic": "어근 'komando'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling komando",
+    "antonym": "sengaja dikomando",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 komando되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komando'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkomando' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 komando되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkomando' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 komando되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkomando",
+        "meaning": "완전히 komando되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_9u45i",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkomisi [[멍komisi]]",
+    "meaning": "komisi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "komisi",
+    "affix_logic": "어근 'komisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan komisi",
+    "antonym": "dikomisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komisi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkomisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komisi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkomisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komisi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkomisi",
+        "meaning": "komisi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_myo79",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikomisi [[디komisi]]",
+    "meaning": "komisi되다, komisi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "komisi",
+    "affix_logic": "어근 'komisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena komisi",
+    "antonym": "mengkomisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komisi되다, komisi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikomisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komisi되다, komisi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikomisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komisi되다, komisi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikomisi",
+        "meaning": "komisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_kw8mu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkomisi [[뜨르komisi]]",
+    "meaning": "완전히 komisi되다",
+    "pos": "동사, 형용사",
+    "root": "komisi",
+    "affix_logic": "어근 'komisi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling komisi",
+    "antonym": "sengaja dikomisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 komisi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkomisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 komisi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkomisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 komisi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkomisi",
+        "meaning": "완전히 komisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_rq8ut",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkonsulat [[멍konsulat]]",
+    "meaning": "konsulat하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "konsulat",
+    "affix_logic": "어근 'konsulat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konsulat",
+    "antonym": "dikonsulat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsulat하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsulat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkonsulat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsulat하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkonsulat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsulat하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkonsulat",
+        "meaning": "konsulat하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_3ksdm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikonsulat [[디konsulat]]",
+    "meaning": "konsulat되다, konsulat당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "konsulat",
+    "affix_logic": "어근 'konsulat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena konsulat",
+    "antonym": "mengkonsulat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsulat되다, konsulat당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsulat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikonsulat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsulat되다, konsulat당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikonsulat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsulat되다, konsulat당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikonsulat",
+        "meaning": "konsulat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_cqrg3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkonsulat [[뜨르konsulat]]",
+    "meaning": "완전히 konsulat되다",
+    "pos": "동사, 형용사",
+    "root": "konsulat",
+    "affix_logic": "어근 'konsulat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling konsulat",
+    "antonym": "sengaja dikonsulat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 konsulat되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsulat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkonsulat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 konsulat되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkonsulat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 konsulat되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkonsulat",
+        "meaning": "완전히 konsulat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_36rmx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkonstitusi [[멍konstitusi]]",
+    "meaning": "konstitusi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "konstitusi",
+    "affix_logic": "어근 'konstitusi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konstitusi",
+    "antonym": "dikonstitusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konstitusi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konstitusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkonstitusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konstitusi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkonstitusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konstitusi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkonstitusi",
+        "meaning": "konstitusi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_76j2f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikonstitusi [[디konstitusi]]",
+    "meaning": "konstitusi되다, konstitusi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "konstitusi",
+    "affix_logic": "어근 'konstitusi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena konstitusi",
+    "antonym": "mengkonstitusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konstitusi되다, konstitusi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konstitusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikonstitusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konstitusi되다, konstitusi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikonstitusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konstitusi되다, konstitusi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikonstitusi",
+        "meaning": "konstitusi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_274ba",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkonstitusi [[뜨르konstitusi]]",
+    "meaning": "완전히 konstitusi되다",
+    "pos": "동사, 형용사",
+    "root": "konstitusi",
+    "affix_logic": "어근 'konstitusi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling konstitusi",
+    "antonym": "sengaja dikonstitusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 konstitusi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konstitusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkonstitusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 konstitusi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkonstitusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 konstitusi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkonstitusi",
+        "meaning": "완전히 konstitusi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_0289n",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkontingen [[멍kontingen]]",
+    "meaning": "kontingen하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kontingen",
+    "affix_logic": "어근 'kontingen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kontingen",
+    "antonym": "dikontingen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontingen하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontingen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkontingen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontingen하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkontingen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontingen하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkontingen",
+        "meaning": "kontingen하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_zh97o",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikontingen [[디kontingen]]",
+    "meaning": "kontingen되다, kontingen당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kontingen",
+    "affix_logic": "어근 'kontingen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kontingen",
+    "antonym": "mengkontingen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontingen되다, kontingen당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontingen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikontingen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontingen되다, kontingen당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikontingen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontingen되다, kontingen당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikontingen",
+        "meaning": "kontingen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_ts92d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkontingen [[뜨르kontingen]]",
+    "meaning": "완전히 kontingen되다",
+    "pos": "동사, 형용사",
+    "root": "kontingen",
+    "affix_logic": "어근 'kontingen'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kontingen",
+    "antonym": "sengaja dikontingen",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kontingen되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontingen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkontingen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kontingen되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkontingen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kontingen되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkontingen",
+        "meaning": "완전히 kontingen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_vy8c7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkudeta [[멍kudeta]]",
+    "meaning": "kudeta하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kudeta",
+    "affix_logic": "어근 'kudeta'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kudeta",
+    "antonym": "dikudeta",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kudeta하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kudeta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkudeta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kudeta하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkudeta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kudeta하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkudeta",
+        "meaning": "kudeta하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_n3vc8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikudeta [[디kudeta]]",
+    "meaning": "kudeta되다, kudeta당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kudeta",
+    "affix_logic": "어근 'kudeta'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kudeta",
+    "antonym": "mengkudeta",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kudeta되다, kudeta당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kudeta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikudeta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kudeta되다, kudeta당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikudeta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kudeta되다, kudeta당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikudeta",
+        "meaning": "kudeta되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_j6g50",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkudeta [[뜨르kudeta]]",
+    "meaning": "완전히 kudeta되다",
+    "pos": "동사, 형용사",
+    "root": "kudeta",
+    "affix_logic": "어근 'kudeta'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kudeta",
+    "antonym": "sengaja dikudeta",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kudeta되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kudeta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkudeta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kudeta되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkudeta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kudeta되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkudeta",
+        "meaning": "완전히 kudeta되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_1ulgc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menglegitimasi [[멍legitimasi]]",
+    "meaning": "legitimasi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "legitimasi",
+    "affix_logic": "어근 'legitimasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan legitimasi",
+    "antonym": "dilegitimasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'legitimasi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'legitimasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menglegitimasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'legitimasi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menglegitimasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'legitimasi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menglegitimasi",
+        "meaning": "legitimasi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_zsnwq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dilegitimasi [[디legitimasi]]",
+    "meaning": "legitimasi되다, legitimasi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "legitimasi",
+    "affix_logic": "어근 'legitimasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena legitimasi",
+    "antonym": "menglegitimasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'legitimasi되다, legitimasi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'legitimasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dilegitimasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'legitimasi되다, legitimasi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dilegitimasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'legitimasi되다, legitimasi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dilegitimasi",
+        "meaning": "legitimasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_6a8en",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terlegitimasi [[뜨르legitimasi]]",
+    "meaning": "완전히 legitimasi되다",
+    "pos": "동사, 형용사",
+    "root": "legitimasi",
+    "affix_logic": "어근 'legitimasi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling legitimasi",
+    "antonym": "sengaja dilegitimasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 legitimasi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'legitimasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terlegitimasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 legitimasi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terlegitimasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 legitimasi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terlegitimasi",
+        "meaning": "완전히 legitimasi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_hyzub",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menglogistik militer [[멍logistik militer]]",
+    "meaning": "logistik militer하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "logistik militer",
+    "affix_logic": "어근 'logistik militer'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan logistik militer",
+    "antonym": "dilogistik militer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logistik militer하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logistik militer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menglogistik militer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logistik militer하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menglogistik militer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logistik militer하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menglogistik",
+        "meaning": "logistik militer하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_otwin",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dilogistik militer [[디logistik militer]]",
+    "meaning": "logistik militer되다, logistik militer당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "logistik militer",
+    "affix_logic": "어근 'logistik militer'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena logistik militer",
+    "antonym": "menglogistik militer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logistik militer되다, logistik militer당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logistik militer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dilogistik militer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logistik militer되다, logistik militer당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dilogistik militer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logistik militer되다, logistik militer당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dilogistik",
+        "meaning": "logistik militer되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_h4jir",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terlogistik militer [[뜨르logistik militer]]",
+    "meaning": "완전히 logistik militer되다",
+    "pos": "동사, 형용사",
+    "root": "logistik militer",
+    "affix_logic": "어근 'logistik militer'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling logistik militer",
+    "antonym": "sengaja dilogistik militer",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 logistik militer되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logistik militer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terlogistik militer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 logistik militer되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terlogistik militer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 logistik militer되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terlogistik",
+        "meaning": "완전히 logistik militer되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_6tl5b",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmaklumat [[멍maklumat]]",
+    "meaning": "maklumat하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "maklumat",
+    "affix_logic": "어근 'maklumat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan maklumat",
+    "antonym": "dimaklumat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'maklumat하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'maklumat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmaklumat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'maklumat하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmaklumat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'maklumat하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmaklumat",
+        "meaning": "maklumat하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_a7aph",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimaklumat [[디maklumat]]",
+    "meaning": "maklumat되다, maklumat당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "maklumat",
+    "affix_logic": "어근 'maklumat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena maklumat",
+    "antonym": "mengmaklumat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'maklumat되다, maklumat당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'maklumat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimaklumat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'maklumat되다, maklumat당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimaklumat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'maklumat되다, maklumat당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimaklumat",
+        "meaning": "maklumat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7bw4s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termaklumat [[뜨르maklumat]]",
+    "meaning": "완전히 maklumat되다",
+    "pos": "동사, 형용사",
+    "root": "maklumat",
+    "affix_logic": "어근 'maklumat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling maklumat",
+    "antonym": "sengaja dimaklumat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 maklumat되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'maklumat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termaklumat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 maklumat되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termaklumat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 maklumat되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termaklumat",
+        "meaning": "완전히 maklumat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_asj1p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmisi perdamaian [[멍misi perdamaian]]",
+    "meaning": "misi perdamaian하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "misi perdamaian",
+    "affix_logic": "어근 'misi perdamaian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan misi perdamaian",
+    "antonym": "dimisi perdamaian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'misi perdamaian하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'misi perdamaian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmisi perdamaian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'misi perdamaian하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmisi perdamaian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'misi perdamaian하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmisi",
+        "meaning": "misi perdamaian하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_0wkbd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimisi perdamaian [[디misi perdamaian]]",
+    "meaning": "misi perdamaian되다, misi perdamaian당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "misi perdamaian",
+    "affix_logic": "어근 'misi perdamaian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena misi perdamaian",
+    "antonym": "mengmisi perdamaian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'misi perdamaian되다, misi perdamaian당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'misi perdamaian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimisi perdamaian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'misi perdamaian되다, misi perdamaian당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimisi perdamaian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'misi perdamaian되다, misi perdamaian당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimisi",
+        "meaning": "misi perdamaian되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_8d3u0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termisi perdamaian [[뜨르misi perdamaian]]",
+    "meaning": "완전히 misi perdamaian되다",
+    "pos": "동사, 형용사",
+    "root": "misi perdamaian",
+    "affix_logic": "어근 'misi perdamaian'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling misi perdamaian",
+    "antonym": "sengaja dimisi perdamaian",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 misi perdamaian되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'misi perdamaian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termisi perdamaian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 misi perdamaian되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termisi perdamaian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 misi perdamaian되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termisi",
+        "meaning": "완전히 misi perdamaian되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_2c9ra",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmobilisasi massa [[멍mobilisasi massa]]",
+    "meaning": "mobilisasi massa하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "mobilisasi massa",
+    "affix_logic": "어근 'mobilisasi massa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mobilisasi massa",
+    "antonym": "dimobilisasi massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mobilisasi massa하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mobilisasi massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmobilisasi massa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mobilisasi massa하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmobilisasi massa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mobilisasi massa하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmobilisasi",
+        "meaning": "mobilisasi massa하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7x6nz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimobilisasi massa [[디mobilisasi massa]]",
+    "meaning": "mobilisasi massa되다, mobilisasi massa당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "mobilisasi massa",
+    "affix_logic": "어근 'mobilisasi massa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena mobilisasi massa",
+    "antonym": "mengmobilisasi massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mobilisasi massa되다, mobilisasi massa당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mobilisasi massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimobilisasi massa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mobilisasi massa되다, mobilisasi massa당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimobilisasi massa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mobilisasi massa되다, mobilisasi massa당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimobilisasi",
+        "meaning": "mobilisasi massa되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_0ybut",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termobilisasi massa [[뜨르mobilisasi massa]]",
+    "meaning": "완전히 mobilisasi massa되다",
+    "pos": "동사, 형용사",
+    "root": "mobilisasi massa",
+    "affix_logic": "어근 'mobilisasi massa'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling mobilisasi massa",
+    "antonym": "sengaja dimobilisasi massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 mobilisasi massa되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mobilisasi massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termobilisasi massa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 mobilisasi massa되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termobilisasi massa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 mobilisasi massa되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termobilisasi",
+        "meaning": "완전히 mobilisasi massa되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_qu6xg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmoratorium [[멍moratorium]]",
+    "meaning": "moratorium하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "moratorium",
+    "affix_logic": "어근 'moratorium'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan moratorium",
+    "antonym": "dimoratorium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'moratorium하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'moratorium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmoratorium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'moratorium하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmoratorium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'moratorium하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmoratorium",
+        "meaning": "moratorium하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_8v7gt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimoratorium [[디moratorium]]",
+    "meaning": "moratorium되다, moratorium당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "moratorium",
+    "affix_logic": "어근 'moratorium'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena moratorium",
+    "antonym": "mengmoratorium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'moratorium되다, moratorium당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'moratorium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimoratorium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'moratorium되다, moratorium당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimoratorium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'moratorium되다, moratorium당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimoratorium",
+        "meaning": "moratorium되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_7uhl2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termoratorium [[뜨르moratorium]]",
+    "meaning": "완전히 moratorium되다",
+    "pos": "동사, 형용사",
+    "root": "moratorium",
+    "affix_logic": "어근 'moratorium'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling moratorium",
+    "antonym": "sengaja dimoratorium",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 moratorium되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'moratorium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termoratorium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 moratorium되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termoratorium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 moratorium되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termoratorium",
+        "meaning": "완전히 moratorium되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_m8g25",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengnegosiator [[멍negosiator]]",
+    "meaning": "negosiator하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "negosiator",
+    "affix_logic": "어근 'negosiator'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan negosiator",
+    "antonym": "dinegosiator",
+    "context": "실생활 및 회화/비즈니스 상황에서 'negosiator하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'negosiator'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengnegosiator' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'negosiator하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengnegosiator' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'negosiator하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengnegosiator",
+        "meaning": "negosiator하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_pfhtx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dinegosiator [[디negosiator]]",
+    "meaning": "negosiator되다, negosiator당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "negosiator",
+    "affix_logic": "어근 'negosiator'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena negosiator",
+    "antonym": "mengnegosiator",
+    "context": "실생활 및 회화/비즈니스 상황에서 'negosiator되다, negosiator당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'negosiator'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dinegosiator' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'negosiator되다, negosiator당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dinegosiator' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'negosiator되다, negosiator당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dinegosiator",
+        "meaning": "negosiator되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_pu75f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ternegosiator [[뜨르negosiator]]",
+    "meaning": "완전히 negosiator되다",
+    "pos": "동사, 형용사",
+    "root": "negosiator",
+    "affix_logic": "어근 'negosiator'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling negosiator",
+    "antonym": "sengaja dinegosiator",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 negosiator되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'negosiator'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'ternegosiator' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 negosiator되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ternegosiator' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 negosiator되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ternegosiator",
+        "meaning": "완전히 negosiator되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_neus2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengoperasional [[멍operasional]]",
+    "meaning": "operasional하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "operasional",
+    "affix_logic": "어근 'operasional'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan operasional",
+    "antonym": "dioperasional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operasional하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operasional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengoperasional' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operasional하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengoperasional' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operasional하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengoperasional",
+        "meaning": "operasional하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_k7wzy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dioperasional [[디operasional]]",
+    "meaning": "operasional되다, operasional당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "operasional",
+    "affix_logic": "어근 'operasional'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena operasional",
+    "antonym": "mengoperasional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operasional되다, operasional당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operasional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dioperasional' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operasional되다, operasional당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dioperasional' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operasional되다, operasional당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dioperasional",
+        "meaning": "operasional되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_5j0ji",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teroperasional [[뜨르operasional]]",
+    "meaning": "완전히 operasional되다",
+    "pos": "동사, 형용사",
+    "root": "operasional",
+    "affix_logic": "어근 'operasional'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling operasional",
+    "antonym": "sengaja dioperasional",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 operasional되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operasional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teroperasional' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 operasional되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teroperasional' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 operasional되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teroperasional",
+        "meaning": "완전히 operasional되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_55xvj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengoposisi [[멍oposisi]]",
+    "meaning": "oposisi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "oposisi",
+    "affix_logic": "어근 'oposisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan oposisi",
+    "antonym": "dioposisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oposisi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oposisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengoposisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oposisi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengoposisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oposisi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengoposisi",
+        "meaning": "oposisi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_bj6hb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dioposisi [[디oposisi]]",
+    "meaning": "oposisi되다, oposisi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "oposisi",
+    "affix_logic": "어근 'oposisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena oposisi",
+    "antonym": "mengoposisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'oposisi되다, oposisi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oposisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dioposisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'oposisi되다, oposisi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dioposisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'oposisi되다, oposisi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dioposisi",
+        "meaning": "oposisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_sat2d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teroposisi [[뜨르oposisi]]",
+    "meaning": "완전히 oposisi되다",
+    "pos": "동사, 형용사",
+    "root": "oposisi",
+    "affix_logic": "어근 'oposisi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling oposisi",
+    "antonym": "sengaja dioposisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 oposisi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'oposisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teroposisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 oposisi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teroposisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 oposisi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teroposisi",
+        "meaning": "완전히 oposisi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_mfgal",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengorganisasi dunia [[멍organisasi dunia]]",
+    "meaning": "organisasi dunia하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "organisasi dunia",
+    "affix_logic": "어근 'organisasi dunia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan organisasi dunia",
+    "antonym": "diorganisasi dunia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'organisasi dunia하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'organisasi dunia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengorganisasi dunia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'organisasi dunia하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengorganisasi dunia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'organisasi dunia하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengorganisasi",
+        "meaning": "organisasi dunia하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_c8hj1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diorganisasi dunia [[디organisasi dunia]]",
+    "meaning": "organisasi dunia되다, organisasi dunia당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "organisasi dunia",
+    "affix_logic": "어근 'organisasi dunia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena organisasi dunia",
+    "antonym": "mengorganisasi dunia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'organisasi dunia되다, organisasi dunia당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'organisasi dunia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diorganisasi dunia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'organisasi dunia되다, organisasi dunia당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diorganisasi dunia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'organisasi dunia되다, organisasi dunia당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diorganisasi",
+        "meaning": "organisasi dunia되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_rx3fl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terorganisasi dunia [[뜨르organisasi dunia]]",
+    "meaning": "완전히 organisasi dunia되다",
+    "pos": "동사, 형용사",
+    "root": "organisasi dunia",
+    "affix_logic": "어근 'organisasi dunia'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling organisasi dunia",
+    "antonym": "sengaja diorganisasi dunia",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 organisasi dunia되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'organisasi dunia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terorganisasi dunia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 organisasi dunia되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terorganisasi dunia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 organisasi dunia되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terorganisasi",
+        "meaning": "완전히 organisasi dunia되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_wdg9f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengototoriter [[멍ototoriter]]",
+    "meaning": "ototoriter하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ototoriter",
+    "affix_logic": "어근 'ototoriter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ototoriter",
+    "antonym": "diototoriter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ototoriter하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ototoriter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengototoriter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ototoriter하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengototoriter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ototoriter하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengototoriter",
+        "meaning": "ototoriter하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042838_mde43",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diototoriter [[디ototoriter]]",
+    "meaning": "ototoriter되다, ototoriter당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ototoriter",
+    "affix_logic": "어근 'ototoriter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena ototoriter",
+    "antonym": "mengototoriter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ototoriter되다, ototoriter당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ototoriter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diototoriter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ototoriter되다, ototoriter당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diototoriter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ototoriter되다, ototoriter당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diototoriter",
+        "meaning": "ototoriter되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_0lkf0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terototoriter [[뜨르ototoriter]]",
+    "meaning": "완전히 ototoriter되다",
+    "pos": "동사, 형용사",
+    "root": "ototoriter",
+    "affix_logic": "어근 'ototoriter'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling ototoriter",
+    "antonym": "sengaja diototoriter",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 ototoriter되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ototoriter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terototoriter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 ototoriter되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terototoriter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 ototoriter되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terototoriter",
+        "meaning": "완전히 ototoriter되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_lz3tx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpakta [[멍pakta]]",
+    "meaning": "pakta하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "pakta",
+    "affix_logic": "어근 'pakta'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pakta",
+    "antonym": "dipakta",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pakta하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pakta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengpakta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pakta하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengpakta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pakta하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengpakta",
+        "meaning": "pakta하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_zt6x4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipakta [[디pakta]]",
+    "meaning": "pakta되다, pakta당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "pakta",
+    "affix_logic": "어근 'pakta'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena pakta",
+    "antonym": "mengpakta",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pakta되다, pakta당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pakta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dipakta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pakta되다, pakta당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dipakta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pakta되다, pakta당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dipakta",
+        "meaning": "pakta되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_px620",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpakta [[뜨르pakta]]",
+    "meaning": "완전히 pakta되다",
+    "pos": "동사, 형용사",
+    "root": "pakta",
+    "affix_logic": "어근 'pakta'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling pakta",
+    "antonym": "sengaja dipakta",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 pakta되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pakta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terpakta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 pakta되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terpakta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 pakta되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terpakta",
+        "meaning": "완전히 pakta되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_dw2v7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpancasila [[멍pancasila]]",
+    "meaning": "pancasila하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "pancasila",
+    "affix_logic": "어근 'pancasila'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pancasila",
+    "antonym": "dipancasila",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pancasila하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pancasila'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengpancasila' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pancasila하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengpancasila' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pancasila하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengpancasila",
+        "meaning": "pancasila하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_dd5dz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipancasila [[디pancasila]]",
+    "meaning": "pancasila되다, pancasila당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "pancasila",
+    "affix_logic": "어근 'pancasila'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena pancasila",
+    "antonym": "mengpancasila",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pancasila되다, pancasila당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pancasila'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dipancasila' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pancasila되다, pancasila당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dipancasila' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pancasila되다, pancasila당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dipancasila",
+        "meaning": "pancasila되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_uum27",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpancasila [[뜨르pancasila]]",
+    "meaning": "완전히 pancasila되다",
+    "pos": "동사, 형용사",
+    "root": "pancasila",
+    "affix_logic": "어근 'pancasila'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling pancasila",
+    "antonym": "sengaja dipancasila",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 pancasila되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pancasila'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terpancasila' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 pancasila되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terpancasila' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 pancasila되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terpancasila",
+        "meaning": "완전히 pancasila되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_fad2v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengparlemen [[멍parlemen]]",
+    "meaning": "parlemen하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "parlemen",
+    "affix_logic": "어근 'parlemen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan parlemen",
+    "antonym": "diparlemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'parlemen하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'parlemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengparlemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'parlemen하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengparlemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'parlemen하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengparlemen",
+        "meaning": "parlemen하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_x5hbt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diparlemen [[디parlemen]]",
+    "meaning": "parlemen되다, parlemen당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "parlemen",
+    "affix_logic": "어근 'parlemen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena parlemen",
+    "antonym": "mengparlemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'parlemen되다, parlemen당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'parlemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diparlemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'parlemen되다, parlemen당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diparlemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'parlemen되다, parlemen당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diparlemen",
+        "meaning": "parlemen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_2xbyh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terparlemen [[뜨르parlemen]]",
+    "meaning": "완전히 parlemen되다",
+    "pos": "동사, 형용사",
+    "root": "parlemen",
+    "affix_logic": "어근 'parlemen'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling parlemen",
+    "antonym": "sengaja diparlemen",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 parlemen되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'parlemen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terparlemen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 parlemen되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terparlemen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 parlemen되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terparlemen",
+        "meaning": "완전히 parlemen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_3xgsf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpartai politik [[멍partai politik]]",
+    "meaning": "partai politik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "partai politik",
+    "affix_logic": "어근 'partai politik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan partai politik",
+    "antonym": "dipartai politik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'partai politik하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'partai politik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengpartai politik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'partai politik하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengpartai politik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'partai politik하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengpartai",
+        "meaning": "partai politik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_rqb7u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipartai politik [[디partai politik]]",
+    "meaning": "partai politik되다, partai politik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "partai politik",
+    "affix_logic": "어근 'partai politik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena partai politik",
+    "antonym": "mengpartai politik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'partai politik되다, partai politik당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'partai politik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dipartai politik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'partai politik되다, partai politik당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dipartai politik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'partai politik되다, partai politik당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dipartai",
+        "meaning": "partai politik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139042839_p7sxu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpartai politik [[뜨르partai politik]]",
+    "meaning": "완전히 partai politik되다",
+    "pos": "동사, 형용사",
+    "root": "partai politik",
+    "affix_logic": "어근 'partai politik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling partai politik",
+    "antonym": "sengaja dipartai politik",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 partai politik되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'partai politik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terpartai politik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 partai politik되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terpartai politik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 partai politik되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terpartai",
+        "meaning": "완전히 partai politik되다"
+      }
+    ]
   }
 ];

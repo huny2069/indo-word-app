@@ -94,22 +94,21 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 9차 대규모 800+ 어휘 주입 어근 파이프라인 (인프라/에너지/광물/농업/해양 전문 어근 100개)
-const coreRootsBatch9 = [
-  'agrikultur', 'agroindustri', 'akuakultur', 'aloi', 'alumunium', 'amonia', 'anoda', 'antrasit', 'aparatus', 'aroma',
-  'aspal', 'batu bara', 'bauksit', 'bendungan', 'briket', 'biodiesel', 'bioenergi', 'biogas', 'drainase', 'ekstraktif',
-  'elektrifikasi', 'elektroda', 'elektronika', 'emisi karbon', 'energi terbarukan', 'eksplanasi', 'eksploitasi', 'fermentasi', 'fosil', 'fotovoltaik',
-  'generator', 'geotermal', 'hidroelektrik', 'hidroponik', 'irigasi', 'isolator', 'kabel transmisi', 'kilang minyak', 'kincir angin', 'klorin',
-  'kompos', 'kristal', 'laboratorium', 'lahan gambut', 'listrik tegangan tinggi', 'lubang biopori', 'magnetik', 'manufaktur berat', 'maritim', 'mesin uap',
-  'mineral', 'minyak mentah', 'nuklir buatan', 'observatori', 'oksidasi', 'panel surya', 'pembangkit listrik', 'pemurnian', 'penambangan', 'pendedahan',
-  'pengeboran', 'pengilangan', 'pengolahan limbah', 'penyulingan', 'perikanan tangkap', 'perkebunan kelapa sawit', 'petrokimia', 'pembangkit termal', 'plasma', 'polutan',
-  'pupuk organik', 'radiasi', 'reaktor', 'reklamasi', 'reboisasi', 'residu', 'salinitas', 'sanitasi', 'sedimen', 'sistem solar',
-  'solusi hijau', 'stasiun transmisi', 'substansi', 'sumber daya alam', 'turbin', 'uranium', 'ventilasi industri', 'vulkanisir', 'waduk', 'yodium'
+// 🚀 10차 대규모 800+ 어휘 주입 어근 파이프라인 (행정/외교/통상/치안/군사 전문 어근 100개)
+const coreRootsBatch10 = [
+  'adjudikasi', 'administrasi', 'agresi', 'akreditas', 'amandemen', 'anarki', 'aneksasi', 'aparat', 'apresiasi publik', 'arbiter',
+  'armada', 'artileri', 'aspirasi', 'asylum', 'otonomi', 'badan hukum', 'barikade', 'batalyon', 'benteng', 'birokrasi',
+  'blokade', 'brigade', 'buron', 'demokrasi', 'demonstrasi', 'deportasi', 'desersi', 'detasemen', 'duta besar', 'diplomat',
+  'doktrin', 'dokumen negara', 'dominasi politik', 'draf undang-undang', 'ekstradisi', 'embargo', 'evakuasi', 'faksi', 'federasi', 'garis depan',
+  'gerilya', 'hak angket', 'hak veto', 'hegemoni', 'hukum pidana', 'hukum perdata', 'ideologi', 'imunitas', 'infanteri', 'inspektur',
+  'instruksi', 'intelejen', 'interogasi', 'invasi', 'jurisdiksi', 'kedaulatan', 'kebijakan eksternal', 'kementerian', 'koalisi', 'komando',
+  'komisi', 'konsulat', 'konstitusi', 'kontingen', 'kudeta', 'legitimasi', 'logistik militer', 'maklumat', 'misi perdamaian', 'mobilisasi massa',
+  'moratorium', 'negosiator', 'operasional', 'oposisi', 'organisasi dunia', 'ototoriter', 'pakta', 'pancasila', 'parlemen', 'partai politik'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch9.forEach(root => {
+coreRootsBatch10.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -175,7 +174,7 @@ coreRootsBatch9.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 시스템`,
+    meaning: `${root} 수행 주체, 기구`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -190,7 +189,7 @@ coreRootsBatch9.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 산업 영역`,
+    meaning: `${root} 과정 및 행정 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
