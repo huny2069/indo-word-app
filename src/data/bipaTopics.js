@@ -91414,5 +91414,7565 @@ export const bipaTopics = [
         "meaning": "transmisi sinyal 과정 및 미디어 영역"
       }
     ]
+  },
+  {
+    "id": "word_1787139614018_lmpo1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakseptabilitas [[버르akseptabilitas]]",
+    "meaning": "akseptabilitas하는 상태이다, akseptabilitas를 행하다",
+    "pos": "동사",
+    "root": "akseptabilitas",
+    "affix_logic": "어근 'akseptabilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akseptabilitas'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akseptabilitas",
+    "antonym": "tidak akseptabilitas",
+    "context": "'berakseptabilitas'은(는) principalmente 'akseptabilitas하는 상태이다, akseptabilitas를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akseptabilitas'의 용법에 유의하세요. 'berakseptabilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akseptabilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakseptabilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akseptabilitas하는 상태이다, akseptabilitas를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakseptabilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akseptabilitas하는 상태이다, akseptabilitas를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akseptabilitas",
+        "meaning": "(어근) akseptabilitas하는 상태이다"
+      },
+      {
+        "word": "berakseptabilitas",
+        "meaning": "akseptabilitas하는 상태이다, akseptabilitas를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_6c9ks",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakseptabilitas [[뼝akseptabilitas]]",
+    "meaning": "akseptabilitas 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "akseptabilitas",
+    "affix_logic": "어근 'akseptabilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akseptabilitas'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akseptabilitas",
+    "antonym": "bukan akseptabilitas",
+    "context": "'pengakseptabilitas'은(는) principalmente 'akseptabilitas 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akseptabilitas'의 용법에 유의하세요. 'pengakseptabilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akseptabilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakseptabilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akseptabilitas 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakseptabilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akseptabilitas 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akseptabilitas",
+        "meaning": "(어근) akseptabilitas 수행 주체"
+      },
+      {
+        "word": "pengakseptabilitas",
+        "meaning": "akseptabilitas 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_2fd6y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakseptabilitasan [[뼝akseptabilitas안]]",
+    "meaning": "akseptabilitas 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "akseptabilitas",
+    "affix_logic": "어근 'akseptabilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akseptabilitas'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akseptabilitas",
+    "antonym": "bukan akseptabilitas",
+    "context": "'pengakseptabilitasan'은(는) principalmente 'akseptabilitas 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akseptabilitas'의 용법에 유의하세요. 'pengakseptabilitasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akseptabilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakseptabilitasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akseptabilitas 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakseptabilitasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akseptabilitas 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akseptabilitas",
+        "meaning": "(어근) akseptabilitas 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengakseptabilitasan",
+        "meaning": "akseptabilitas 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_uvr6g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakomodatif [[버르akomodatif]]",
+    "meaning": "akomodatif하는 상태이다, akomodatif를 행하다",
+    "pos": "동사",
+    "root": "akomodatif",
+    "affix_logic": "어근 'akomodatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akomodatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akomodatif",
+    "antonym": "tidak akomodatif",
+    "context": "'berakomodatif'은(는) principalmente 'akomodatif하는 상태이다, akomodatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akomodatif'의 용법에 유의하세요. 'berakomodatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akomodatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakomodatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akomodatif하는 상태이다, akomodatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakomodatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akomodatif하는 상태이다, akomodatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akomodatif",
+        "meaning": "(어근) akomodatif하는 상태이다"
+      },
+      {
+        "word": "berakomodatif",
+        "meaning": "akomodatif하는 상태이다, akomodatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_v6e1x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakomodatif [[뼝akomodatif]]",
+    "meaning": "akomodatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "akomodatif",
+    "affix_logic": "어근 'akomodatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akomodatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akomodatif",
+    "antonym": "bukan akomodatif",
+    "context": "'pengakomodatif'은(는) principalmente 'akomodatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akomodatif'의 용법에 유의하세요. 'pengakomodatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akomodatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakomodatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akomodatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakomodatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akomodatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akomodatif",
+        "meaning": "(어근) akomodatif 수행 주체"
+      },
+      {
+        "word": "pengakomodatif",
+        "meaning": "akomodatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_t52gu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakomodatifan [[뼝akomodatif안]]",
+    "meaning": "akomodatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "akomodatif",
+    "affix_logic": "어근 'akomodatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akomodatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akomodatif",
+    "antonym": "bukan akomodatif",
+    "context": "'pengakomodatifan'은(는) principalmente 'akomodatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akomodatif'의 용법에 유의하세요. 'pengakomodatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akomodatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakomodatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akomodatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakomodatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akomodatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akomodatif",
+        "meaning": "(어근) akomodatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengakomodatifan",
+        "meaning": "akomodatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_5pc2z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakronim [[버르akronim]]",
+    "meaning": "akronim하는 상태이다, akronim를 행하다",
+    "pos": "동사",
+    "root": "akronim",
+    "affix_logic": "어근 'akronim'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akronim'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akronim",
+    "antonym": "tidak akronim",
+    "context": "'berakronim'은(는) principalmente 'akronim하는 상태이다, akronim를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akronim'의 용법에 유의하세요. 'berakronim' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akronim' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakronim untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akronim하는 상태이다, akronim를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakronim yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akronim하는 상태이다, akronim를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akronim",
+        "meaning": "(어근) akronim하는 상태이다"
+      },
+      {
+        "word": "berakronim",
+        "meaning": "akronim하는 상태이다, akronim를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_7eh5x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakronim [[뼝akronim]]",
+    "meaning": "akronim 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "akronim",
+    "affix_logic": "어근 'akronim'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akronim'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akronim",
+    "antonym": "bukan akronim",
+    "context": "'pengakronim'은(는) principalmente 'akronim 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akronim'의 용법에 유의하세요. 'pengakronim' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akronim' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakronim untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akronim 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakronim yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akronim 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akronim",
+        "meaning": "(어근) akronim 수행 주체"
+      },
+      {
+        "word": "pengakronim",
+        "meaning": "akronim 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_whiwh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakroniman [[뼝akronim안]]",
+    "meaning": "akronim 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "akronim",
+    "affix_logic": "어근 'akronim'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akronim'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akronim",
+    "antonym": "bukan akronim",
+    "context": "'pengakroniman'은(는) principalmente 'akronim 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akronim'의 용법에 유의하세요. 'pengakroniman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akronim' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakroniman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akronim 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakroniman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akronim 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akronim",
+        "meaning": "(어근) akronim 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengakroniman",
+        "meaning": "akronim 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_4837v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraktivisme [[버르aktivisme]]",
+    "meaning": "aktivisme하는 상태이다, aktivisme를 행하다",
+    "pos": "동사",
+    "root": "aktivisme",
+    "affix_logic": "어근 'aktivisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aktivisme'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aktivisme",
+    "antonym": "tidak aktivisme",
+    "context": "'beraktivisme'은(는) principalmente 'aktivisme하는 상태이다, aktivisme를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktivisme'의 용법에 유의하세요. 'beraktivisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktivisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraktivisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktivisme하는 상태이다, aktivisme를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraktivisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktivisme하는 상태이다, aktivisme를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktivisme",
+        "meaning": "(어근) aktivisme하는 상태이다"
+      },
+      {
+        "word": "beraktivisme",
+        "meaning": "aktivisme하는 상태이다, aktivisme를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_8tfg0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaktivisme [[뼝aktivisme]]",
+    "meaning": "aktivisme 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "aktivisme",
+    "affix_logic": "어근 'aktivisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aktivisme'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aktivisme",
+    "antonym": "bukan aktivisme",
+    "context": "'pengaktivisme'은(는) principalmente 'aktivisme 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktivisme'의 용법에 유의하세요. 'pengaktivisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktivisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaktivisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktivisme 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaktivisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktivisme 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktivisme",
+        "meaning": "(어근) aktivisme 수행 주체"
+      },
+      {
+        "word": "pengaktivisme",
+        "meaning": "aktivisme 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_avyv0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaktivismean [[뼝aktivisme안]]",
+    "meaning": "aktivisme 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "aktivisme",
+    "affix_logic": "어근 'aktivisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aktivisme'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aktivisme",
+    "antonym": "bukan aktivisme",
+    "context": "'pengaktivismean'은(는) principalmente 'aktivisme 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aktivisme'의 용법에 유의하세요. 'pengaktivismean' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aktivisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaktivismean untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aktivisme 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaktivismean yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aktivisme 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aktivisme",
+        "meaning": "(어근) aktivisme 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengaktivismean",
+        "meaning": "aktivisme 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_krc9z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakuntabel [[버르akuntabel]]",
+    "meaning": "akuntabel하는 상태이다, akuntabel를 행하다",
+    "pos": "동사",
+    "root": "akuntabel",
+    "affix_logic": "어근 'akuntabel'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'akuntabel'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan akuntabel",
+    "antonym": "tidak akuntabel",
+    "context": "'berakuntabel'은(는) principalmente 'akuntabel하는 상태이다, akuntabel를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuntabel'의 용법에 유의하세요. 'berakuntabel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuntabel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berakuntabel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuntabel하는 상태이다, akuntabel를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berakuntabel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuntabel하는 상태이다, akuntabel를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuntabel",
+        "meaning": "(어근) akuntabel하는 상태이다"
+      },
+      {
+        "word": "berakuntabel",
+        "meaning": "akuntabel하는 상태이다, akuntabel를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_k0pxu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakuntabel [[뼝akuntabel]]",
+    "meaning": "akuntabel 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "akuntabel",
+    "affix_logic": "어근 'akuntabel'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akuntabel'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak akuntabel",
+    "antonym": "bukan akuntabel",
+    "context": "'pengakuntabel'은(는) principalmente 'akuntabel 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuntabel'의 용법에 유의하세요. 'pengakuntabel' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuntabel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakuntabel untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuntabel 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakuntabel yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuntabel 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuntabel",
+        "meaning": "(어근) akuntabel 수행 주체"
+      },
+      {
+        "word": "pengakuntabel",
+        "meaning": "akuntabel 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_nefqr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakuntabelan [[뼝akuntabel안]]",
+    "meaning": "akuntabel 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "akuntabel",
+    "affix_logic": "어근 'akuntabel'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'akuntabel'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses akuntabel",
+    "antonym": "bukan akuntabel",
+    "context": "'pengakuntabelan'은(는) principalmente 'akuntabel 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'akuntabel'의 용법에 유의하세요. 'pengakuntabelan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'akuntabel' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengakuntabelan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 akuntabel 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengakuntabelan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 akuntabel 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "akuntabel",
+        "meaning": "(어근) akuntabel 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengakuntabelan",
+        "meaning": "akuntabel 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_60zwz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralokatif [[버르alokatif]]",
+    "meaning": "alokatif하는 상태이다, alokatif를 행하다",
+    "pos": "동사",
+    "root": "alokatif",
+    "affix_logic": "어근 'alokatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'alokatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan alokatif",
+    "antonym": "tidak alokatif",
+    "context": "'beralokatif'은(는) principalmente 'alokatif하는 상태이다, alokatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alokatif'의 용법에 유의하세요. 'beralokatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alokatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beralokatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alokatif하는 상태이다, alokatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beralokatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alokatif하는 상태이다, alokatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alokatif",
+        "meaning": "(어근) alokatif하는 상태이다"
+      },
+      {
+        "word": "beralokatif",
+        "meaning": "alokatif하는 상태이다, alokatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_lwdso",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalokatif [[뼝alokatif]]",
+    "meaning": "alokatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "alokatif",
+    "affix_logic": "어근 'alokatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alokatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak alokatif",
+    "antonym": "bukan alokatif",
+    "context": "'pengalokatif'은(는) principalmente 'alokatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alokatif'의 용법에 유의하세요. 'pengalokatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alokatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalokatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alokatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalokatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alokatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alokatif",
+        "meaning": "(어근) alokatif 수행 주체"
+      },
+      {
+        "word": "pengalokatif",
+        "meaning": "alokatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_737ia",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalokatifan [[뼝alokatif안]]",
+    "meaning": "alokatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "alokatif",
+    "affix_logic": "어근 'alokatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'alokatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses alokatif",
+    "antonym": "bukan alokatif",
+    "context": "'pengalokatifan'은(는) principalmente 'alokatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'alokatif'의 용법에 유의하세요. 'pengalokatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'alokatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengalokatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 alokatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengalokatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 alokatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "alokatif",
+        "meaning": "(어근) alokatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengalokatifan",
+        "meaning": "alokatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_0xxsy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraltruistis [[버르altruistis]]",
+    "meaning": "altruistis하는 상태이다, altruistis를 행하다",
+    "pos": "동사",
+    "root": "altruistis",
+    "affix_logic": "어근 'altruistis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'altruistis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan altruistis",
+    "antonym": "tidak altruistis",
+    "context": "'beraltruistis'은(는) principalmente 'altruistis하는 상태이다, altruistis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'altruistis'의 용법에 유의하세요. 'beraltruistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'altruistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraltruistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 altruistis하는 상태이다, altruistis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraltruistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 altruistis하는 상태이다, altruistis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "altruistis",
+        "meaning": "(어근) altruistis하는 상태이다"
+      },
+      {
+        "word": "beraltruistis",
+        "meaning": "altruistis하는 상태이다, altruistis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_l1cos",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaltruistis [[뼝altruistis]]",
+    "meaning": "altruistis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "altruistis",
+    "affix_logic": "어근 'altruistis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'altruistis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak altruistis",
+    "antonym": "bukan altruistis",
+    "context": "'pengaltruistis'은(는) principalmente 'altruistis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'altruistis'의 용법에 유의하세요. 'pengaltruistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'altruistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaltruistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 altruistis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaltruistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 altruistis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "altruistis",
+        "meaning": "(어근) altruistis 수행 주체"
+      },
+      {
+        "word": "pengaltruistis",
+        "meaning": "altruistis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_tvzyl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaltruistisan [[뼝altruistis안]]",
+    "meaning": "altruistis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "altruistis",
+    "affix_logic": "어근 'altruistis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'altruistis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses altruistis",
+    "antonym": "bukan altruistis",
+    "context": "'pengaltruistisan'은(는) principalmente 'altruistis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'altruistis'의 용법에 유의하세요. 'pengaltruistisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'altruistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaltruistisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 altruistis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaltruistisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 altruistis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "altruistis",
+        "meaning": "(어근) altruistis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengaltruistisan",
+        "meaning": "altruistis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_jh109",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berambisius [[버르ambisius]]",
+    "meaning": "ambisius하는 상태이다, ambisius를 행하다",
+    "pos": "동사",
+    "root": "ambisius",
+    "affix_logic": "어근 'ambisius'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ambisius'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ambisius",
+    "antonym": "tidak ambisius",
+    "context": "'berambisius'은(는) principalmente 'ambisius하는 상태이다, ambisius를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisius'의 용법에 유의하세요. 'berambisius' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisius' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berambisius untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisius하는 상태이다, ambisius를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berambisius yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisius하는 상태이다, ambisius를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisius",
+        "meaning": "(어근) ambisius하는 상태이다"
+      },
+      {
+        "word": "berambisius",
+        "meaning": "ambisius하는 상태이다, ambisius를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_1ids9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambisius [[뼝ambisius]]",
+    "meaning": "ambisius 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ambisius",
+    "affix_logic": "어근 'ambisius'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ambisius'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ambisius",
+    "antonym": "bukan ambisius",
+    "context": "'pengambisius'은(는) principalmente 'ambisius 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisius'의 용법에 유의하세요. 'pengambisius' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisius' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengambisius untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisius 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengambisius yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisius 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisius",
+        "meaning": "(어근) ambisius 수행 주체"
+      },
+      {
+        "word": "pengambisius",
+        "meaning": "ambisius 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_t2de8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengambisiusan [[뼝ambisius안]]",
+    "meaning": "ambisius 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ambisius",
+    "affix_logic": "어근 'ambisius'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ambisius'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ambisius",
+    "antonym": "bukan ambisius",
+    "context": "'pengambisiusan'은(는) principalmente 'ambisius 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ambisius'의 용법에 유의하세요. 'pengambisiusan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ambisius' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengambisiusan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ambisius 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengambisiusan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ambisius 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ambisius",
+        "meaning": "(어근) ambisius 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengambisiusan",
+        "meaning": "ambisius 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_35svw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beramoral [[버르amoral]]",
+    "meaning": "amoral하는 상태이다, amoral를 행하다",
+    "pos": "동사",
+    "root": "amoral",
+    "affix_logic": "어근 'amoral'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'amoral'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan amoral",
+    "antonym": "tidak amoral",
+    "context": "'beramoral'은(는) principalmente 'amoral하는 상태이다, amoral를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amoral'의 용법에 유의하세요. 'beramoral' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amoral' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beramoral untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amoral하는 상태이다, amoral를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beramoral yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amoral하는 상태이다, amoral를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amoral",
+        "meaning": "(어근) amoral하는 상태이다"
+      },
+      {
+        "word": "beramoral",
+        "meaning": "amoral하는 상태이다, amoral를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_qvem1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamoral [[뼝amoral]]",
+    "meaning": "amoral 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "amoral",
+    "affix_logic": "어근 'amoral'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amoral'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak amoral",
+    "antonym": "bukan amoral",
+    "context": "'pengamoral'은(는) principalmente 'amoral 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amoral'의 용법에 유의하세요. 'pengamoral' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amoral' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamoral untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amoral 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamoral yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amoral 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amoral",
+        "meaning": "(어근) amoral 수행 주체"
+      },
+      {
+        "word": "pengamoral",
+        "meaning": "amoral 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_5d0bh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamoralan [[뼝amoral안]]",
+    "meaning": "amoral 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "amoral",
+    "affix_logic": "어근 'amoral'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'amoral'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses amoral",
+    "antonym": "bukan amoral",
+    "context": "'pengamoralan'은(는) principalmente 'amoral 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'amoral'의 용법에 유의하세요. 'pengamoralan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'amoral' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengamoralan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 amoral 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengamoralan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 amoral 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "amoral",
+        "meaning": "(어근) amoral 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengamoralan",
+        "meaning": "amoral 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_a795s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranalogis [[버르analogis]]",
+    "meaning": "analogis하는 상태이다, analogis를 행하다",
+    "pos": "동사",
+    "root": "analogis",
+    "affix_logic": "어근 'analogis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'analogis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan analogis",
+    "antonym": "tidak analogis",
+    "context": "'beranalogis'은(는) principalmente 'analogis하는 상태이다, analogis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analogis'의 용법에 유의하세요. 'beranalogis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analogis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranalogis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analogis하는 상태이다, analogis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranalogis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analogis하는 상태이다, analogis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analogis",
+        "meaning": "(어근) analogis하는 상태이다"
+      },
+      {
+        "word": "beranalogis",
+        "meaning": "analogis하는 상태이다, analogis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_g4s38",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalogis [[뼝analogis]]",
+    "meaning": "analogis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "analogis",
+    "affix_logic": "어근 'analogis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'analogis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak analogis",
+    "antonym": "bukan analogis",
+    "context": "'penganalogis'은(는) principalmente 'analogis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analogis'의 용법에 유의하세요. 'penganalogis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analogis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganalogis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analogis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganalogis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analogis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analogis",
+        "meaning": "(어근) analogis 수행 주체"
+      },
+      {
+        "word": "penganalogis",
+        "meaning": "analogis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_e8vvv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalogisan [[뼝analogis안]]",
+    "meaning": "analogis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "analogis",
+    "affix_logic": "어근 'analogis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'analogis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses analogis",
+    "antonym": "bukan analogis",
+    "context": "'penganalogisan'은(는) principalmente 'analogis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'analogis'의 용법에 유의하세요. 'penganalogisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'analogis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganalogisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 analogis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganalogisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 analogis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "analogis",
+        "meaning": "(어근) analogis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "penganalogisan",
+        "meaning": "analogis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_hs3kq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranarkis [[버르anarkis]]",
+    "meaning": "anarkis하는 상태이다, anarkis를 행하다",
+    "pos": "동사",
+    "root": "anarkis",
+    "affix_logic": "어근 'anarkis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anarkis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anarkis",
+    "antonym": "tidak anarkis",
+    "context": "'beranarkis'은(는) principalmente 'anarkis하는 상태이다, anarkis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anarkis'의 용법에 유의하세요. 'beranarkis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anarkis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranarkis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anarkis하는 상태이다, anarkis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranarkis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anarkis하는 상태이다, anarkis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anarkis",
+        "meaning": "(어근) anarkis하는 상태이다"
+      },
+      {
+        "word": "beranarkis",
+        "meaning": "anarkis하는 상태이다, anarkis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_wpfms",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganarkis [[뼝anarkis]]",
+    "meaning": "anarkis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "anarkis",
+    "affix_logic": "어근 'anarkis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anarkis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak anarkis",
+    "antonym": "bukan anarkis",
+    "context": "'penganarkis'은(는) principalmente 'anarkis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anarkis'의 용법에 유의하세요. 'penganarkis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anarkis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganarkis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anarkis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganarkis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anarkis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anarkis",
+        "meaning": "(어근) anarkis 수행 주체"
+      },
+      {
+        "word": "penganarkis",
+        "meaning": "anarkis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_7qrdn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganarkisan [[뼝anarkis안]]",
+    "meaning": "anarkis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "anarkis",
+    "affix_logic": "어근 'anarkis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anarkis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anarkis",
+    "antonym": "bukan anarkis",
+    "context": "'penganarkisan'은(는) principalmente 'anarkis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anarkis'의 용법에 유의하세요. 'penganarkisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anarkis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganarkisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anarkis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganarkisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anarkis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anarkis",
+        "meaning": "(어근) anarkis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "penganarkisan",
+        "meaning": "anarkis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_2eimt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranomalis [[버르anomalis]]",
+    "meaning": "anomalis하는 상태이다, anomalis를 행하다",
+    "pos": "동사",
+    "root": "anomalis",
+    "affix_logic": "어근 'anomalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anomalis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anomalis",
+    "antonym": "tidak anomalis",
+    "context": "'beranomalis'은(는) principalmente 'anomalis하는 상태이다, anomalis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anomalis'의 용법에 유의하세요. 'beranomalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anomalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranomalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anomalis하는 상태이다, anomalis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranomalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anomalis하는 상태이다, anomalis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anomalis",
+        "meaning": "(어근) anomalis하는 상태이다"
+      },
+      {
+        "word": "beranomalis",
+        "meaning": "anomalis하는 상태이다, anomalis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_m73ol",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganomalis [[뼝anomalis]]",
+    "meaning": "anomalis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "anomalis",
+    "affix_logic": "어근 'anomalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anomalis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak anomalis",
+    "antonym": "bukan anomalis",
+    "context": "'penganomalis'은(는) principalmente 'anomalis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anomalis'의 용법에 유의하세요. 'penganomalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anomalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganomalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anomalis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganomalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anomalis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anomalis",
+        "meaning": "(어근) anomalis 수행 주체"
+      },
+      {
+        "word": "penganomalis",
+        "meaning": "anomalis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_wjwoq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganomalisan [[뼝anomalis안]]",
+    "meaning": "anomalis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "anomalis",
+    "affix_logic": "어근 'anomalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anomalis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anomalis",
+    "antonym": "bukan anomalis",
+    "context": "'penganomalisan'은(는) principalmente 'anomalis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anomalis'의 용법에 유의하세요. 'penganomalisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anomalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganomalisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anomalis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganomalisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anomalis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anomalis",
+        "meaning": "(어근) anomalis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "penganomalisan",
+        "meaning": "anomalis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_2uxwr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranonim [[버르anonim]]",
+    "meaning": "anonim하는 상태이다, anonim를 행하다",
+    "pos": "동사",
+    "root": "anonim",
+    "affix_logic": "어근 'anonim'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'anonim'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan anonim",
+    "antonym": "tidak anonim",
+    "context": "'beranonim'은(는) principalmente 'anonim하는 상태이다, anonim를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anonim'의 용법에 유의하세요. 'beranonim' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anonim' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beranonim untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anonim하는 상태이다, anonim를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beranonim yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anonim하는 상태이다, anonim를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anonim",
+        "meaning": "(어근) anonim하는 상태이다"
+      },
+      {
+        "word": "beranonim",
+        "meaning": "anonim하는 상태이다, anonim를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_8rikw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganonim [[뼝anonim]]",
+    "meaning": "anonim 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "anonim",
+    "affix_logic": "어근 'anonim'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anonim'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak anonim",
+    "antonym": "bukan anonim",
+    "context": "'penganonim'은(는) principalmente 'anonim 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anonim'의 용법에 유의하세요. 'penganonim' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anonim' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganonim untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anonim 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganonim yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anonim 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anonim",
+        "meaning": "(어근) anonim 수행 주체"
+      },
+      {
+        "word": "penganonim",
+        "meaning": "anonim 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_jxohm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganoniman [[뼝anonim안]]",
+    "meaning": "anonim 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "anonim",
+    "affix_logic": "어근 'anonim'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'anonim'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses anonim",
+    "antonym": "bukan anonim",
+    "context": "'penganoniman'은(는) principalmente 'anonim 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'anonim'의 용법에 유의하세요. 'penganoniman' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'anonim' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait penganoniman untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 anonim 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang penganoniman yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 anonim 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "anonim",
+        "meaning": "(어근) anonim 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "penganoniman",
+        "meaning": "anonim 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_utfay",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berantagonis [[버르antagonis]]",
+    "meaning": "antagonis하는 상태이다, antagonis를 행하다",
+    "pos": "동사",
+    "root": "antagonis",
+    "affix_logic": "어근 'antagonis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'antagonis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan antagonis",
+    "antonym": "tidak antagonis",
+    "context": "'berantagonis'은(는) principalmente 'antagonis하는 상태이다, antagonis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'antagonis'의 용법에 유의하세요. 'berantagonis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'antagonis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berantagonis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 antagonis하는 상태이다, antagonis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berantagonis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 antagonis하는 상태이다, antagonis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "antagonis",
+        "meaning": "(어근) antagonis하는 상태이다"
+      },
+      {
+        "word": "berantagonis",
+        "meaning": "antagonis하는 상태이다, antagonis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_k49h2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantagonis [[뼝antagonis]]",
+    "meaning": "antagonis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "antagonis",
+    "affix_logic": "어근 'antagonis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'antagonis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak antagonis",
+    "antonym": "bukan antagonis",
+    "context": "'pengantagonis'은(는) principalmente 'antagonis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'antagonis'의 용법에 유의하세요. 'pengantagonis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'antagonis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengantagonis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 antagonis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengantagonis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 antagonis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "antagonis",
+        "meaning": "(어근) antagonis 수행 주체"
+      },
+      {
+        "word": "pengantagonis",
+        "meaning": "antagonis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_g7qzy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantagonisan [[뼝antagonis안]]",
+    "meaning": "antagonis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "antagonis",
+    "affix_logic": "어근 'antagonis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'antagonis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses antagonis",
+    "antonym": "bukan antagonis",
+    "context": "'pengantagonisan'은(는) principalmente 'antagonis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'antagonis'의 용법에 유의하세요. 'pengantagonisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'antagonis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengantagonisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 antagonis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengantagonisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 antagonis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "antagonis",
+        "meaning": "(어근) antagonis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengantagonisan",
+        "meaning": "antagonis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_30jqn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berantisipatif [[버르antisipatif]]",
+    "meaning": "antisipatif하는 상태이다, antisipatif를 행하다",
+    "pos": "동사",
+    "root": "antisipatif",
+    "affix_logic": "어근 'antisipatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'antisipatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan antisipatif",
+    "antonym": "tidak antisipatif",
+    "context": "'berantisipatif'은(는) principalmente 'antisipatif하는 상태이다, antisipatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'antisipatif'의 용법에 유의하세요. 'berantisipatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'antisipatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berantisipatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 antisipatif하는 상태이다, antisipatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berantisipatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 antisipatif하는 상태이다, antisipatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "antisipatif",
+        "meaning": "(어근) antisipatif하는 상태이다"
+      },
+      {
+        "word": "berantisipatif",
+        "meaning": "antisipatif하는 상태이다, antisipatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_y0j6c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantisipatif [[뼝antisipatif]]",
+    "meaning": "antisipatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "antisipatif",
+    "affix_logic": "어근 'antisipatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'antisipatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak antisipatif",
+    "antonym": "bukan antisipatif",
+    "context": "'pengantisipatif'은(는) principalmente 'antisipatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'antisipatif'의 용법에 유의하세요. 'pengantisipatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'antisipatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengantisipatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 antisipatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengantisipatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 antisipatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "antisipatif",
+        "meaning": "(어근) antisipatif 수행 주체"
+      },
+      {
+        "word": "pengantisipatif",
+        "meaning": "antisipatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_zd9tj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantisipatifan [[뼝antisipatif안]]",
+    "meaning": "antisipatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "antisipatif",
+    "affix_logic": "어근 'antisipatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'antisipatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses antisipatif",
+    "antonym": "bukan antisipatif",
+    "context": "'pengantisipatifan'은(는) principalmente 'antisipatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'antisipatif'의 용법에 유의하세요. 'pengantisipatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'antisipatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengantisipatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 antisipatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengantisipatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 antisipatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "antisipatif",
+        "meaning": "(어근) antisipatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengantisipatifan",
+        "meaning": "antisipatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_0vpej",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berapresiatif [[버르apresiatif]]",
+    "meaning": "apresiatif하는 상태이다, apresiatif를 행하다",
+    "pos": "동사",
+    "root": "apresiatif",
+    "affix_logic": "어근 'apresiatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'apresiatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan apresiatif",
+    "antonym": "tidak apresiatif",
+    "context": "'berapresiatif'은(는) principalmente 'apresiatif하는 상태이다, apresiatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apresiatif'의 용법에 유의하세요. 'berapresiatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apresiatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berapresiatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apresiatif하는 상태이다, apresiatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berapresiatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apresiatif하는 상태이다, apresiatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apresiatif",
+        "meaning": "(어근) apresiatif하는 상태이다"
+      },
+      {
+        "word": "berapresiatif",
+        "meaning": "apresiatif하는 상태이다, apresiatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_5ph2f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapresiatif [[뼝apresiatif]]",
+    "meaning": "apresiatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "apresiatif",
+    "affix_logic": "어근 'apresiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'apresiatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak apresiatif",
+    "antonym": "bukan apresiatif",
+    "context": "'pengapresiatif'은(는) principalmente 'apresiatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apresiatif'의 용법에 유의하세요. 'pengapresiatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apresiatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengapresiatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apresiatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengapresiatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apresiatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apresiatif",
+        "meaning": "(어근) apresiatif 수행 주체"
+      },
+      {
+        "word": "pengapresiatif",
+        "meaning": "apresiatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_r361w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapresiatifan [[뼝apresiatif안]]",
+    "meaning": "apresiatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "apresiatif",
+    "affix_logic": "어근 'apresiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'apresiatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses apresiatif",
+    "antonym": "bukan apresiatif",
+    "context": "'pengapresiatifan'은(는) principalmente 'apresiatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apresiatif'의 용법에 유의하세요. 'pengapresiatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apresiatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengapresiatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apresiatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengapresiatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apresiatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apresiatif",
+        "meaning": "(어근) apresiatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengapresiatifan",
+        "meaning": "apresiatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614018_g6s3l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berapriori [[버르apriori]]",
+    "meaning": "apriori하는 상태이다, apriori를 행하다",
+    "pos": "동사",
+    "root": "apriori",
+    "affix_logic": "어근 'apriori'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'apriori'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan apriori",
+    "antonym": "tidak apriori",
+    "context": "'berapriori'은(는) principalmente 'apriori하는 상태이다, apriori를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apriori'의 용법에 유의하세요. 'berapriori' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apriori' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berapriori untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apriori하는 상태이다, apriori를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berapriori yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apriori하는 상태이다, apriori를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apriori",
+        "meaning": "(어근) apriori하는 상태이다"
+      },
+      {
+        "word": "berapriori",
+        "meaning": "apriori하는 상태이다, apriori를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ebxof",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapriori [[뼝apriori]]",
+    "meaning": "apriori 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "apriori",
+    "affix_logic": "어근 'apriori'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'apriori'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak apriori",
+    "antonym": "bukan apriori",
+    "context": "'pengapriori'은(는) principalmente 'apriori 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apriori'의 용법에 유의하세요. 'pengapriori' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apriori' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengapriori untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apriori 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengapriori yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apriori 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apriori",
+        "meaning": "(어근) apriori 수행 주체"
+      },
+      {
+        "word": "pengapriori",
+        "meaning": "apriori 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_usiu8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapriorian [[뼝apriori안]]",
+    "meaning": "apriori 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "apriori",
+    "affix_logic": "어근 'apriori'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'apriori'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses apriori",
+    "antonym": "bukan apriori",
+    "context": "'pengapriorian'은(는) principalmente 'apriori 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'apriori'의 용법에 유의하세요. 'pengapriorian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'apriori' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengapriorian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 apriori 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengapriorian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 apriori 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "apriori",
+        "meaning": "(어근) apriori 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengapriorian",
+        "meaning": "apriori 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_c3hxk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarbitrer [[버르arbitrer]]",
+    "meaning": "arbitrer하는 상태이다, arbitrer를 행하다",
+    "pos": "동사",
+    "root": "arbitrer",
+    "affix_logic": "어근 'arbitrer'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arbitrer'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan arbitrer",
+    "antonym": "tidak arbitrer",
+    "context": "'berarbitrer'은(는) principalmente 'arbitrer하는 상태이다, arbitrer를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arbitrer'의 용법에 유의하세요. 'berarbitrer' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arbitrer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berarbitrer untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arbitrer하는 상태이다, arbitrer를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berarbitrer yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arbitrer하는 상태이다, arbitrer를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arbitrer",
+        "meaning": "(어근) arbitrer하는 상태이다"
+      },
+      {
+        "word": "berarbitrer",
+        "meaning": "arbitrer하는 상태이다, arbitrer를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_tbm1x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarbitrer [[뼝arbitrer]]",
+    "meaning": "arbitrer 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "arbitrer",
+    "affix_logic": "어근 'arbitrer'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arbitrer'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak arbitrer",
+    "antonym": "bukan arbitrer",
+    "context": "'pengarbitrer'은(는) principalmente 'arbitrer 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arbitrer'의 용법에 유의하세요. 'pengarbitrer' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arbitrer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarbitrer untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arbitrer 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarbitrer yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arbitrer 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arbitrer",
+        "meaning": "(어근) arbitrer 수행 주체"
+      },
+      {
+        "word": "pengarbitrer",
+        "meaning": "arbitrer 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_xw3ku",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarbitreran [[뼝arbitrer안]]",
+    "meaning": "arbitrer 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "arbitrer",
+    "affix_logic": "어근 'arbitrer'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arbitrer'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses arbitrer",
+    "antonym": "bukan arbitrer",
+    "context": "'pengarbitreran'은(는) principalmente 'arbitrer 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arbitrer'의 용법에 유의하세요. 'pengarbitreran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arbitrer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarbitreran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arbitrer 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarbitreran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arbitrer 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arbitrer",
+        "meaning": "(어근) arbitrer 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengarbitreran",
+        "meaning": "arbitrer 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_fywq8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berargumen [[버르argumen]]",
+    "meaning": "argumen하는 상태이다, argumen를 행하다",
+    "pos": "동사",
+    "root": "argumen",
+    "affix_logic": "어근 'argumen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'argumen'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan argumen",
+    "antonym": "tidak argumen",
+    "context": "'berargumen'은(는) principalmente 'argumen하는 상태이다, argumen를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'argumen'의 용법에 유의하세요. 'berargumen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'argumen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berargumen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 argumen하는 상태이다, argumen를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berargumen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 argumen하는 상태이다, argumen를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "argumen",
+        "meaning": "(어근) argumen하는 상태이다"
+      },
+      {
+        "word": "berargumen",
+        "meaning": "argumen하는 상태이다, argumen를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_9hgce",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengargumen [[뼝argumen]]",
+    "meaning": "argumen 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "argumen",
+    "affix_logic": "어근 'argumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'argumen'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak argumen",
+    "antonym": "bukan argumen",
+    "context": "'pengargumen'은(는) principalmente 'argumen 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'argumen'의 용법에 유의하세요. 'pengargumen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'argumen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengargumen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 argumen 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengargumen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 argumen 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "argumen",
+        "meaning": "(어근) argumen 수행 주체"
+      },
+      {
+        "word": "pengargumen",
+        "meaning": "argumen 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_5nbws",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengargumenan [[뼝argumen안]]",
+    "meaning": "argumen 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "argumen",
+    "affix_logic": "어근 'argumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'argumen'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses argumen",
+    "antonym": "bukan argumen",
+    "context": "'pengargumenan'은(는) principalmente 'argumen 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'argumen'의 용법에 유의하세요. 'pengargumenan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'argumen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengargumenan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 argumen 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengargumenan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 argumen 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "argumen",
+        "meaning": "(어근) argumen 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengargumenan",
+        "meaning": "argumen 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_eso40",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berargumentatif [[버르argumentatif]]",
+    "meaning": "argumentatif하는 상태이다, argumentatif를 행하다",
+    "pos": "동사",
+    "root": "argumentatif",
+    "affix_logic": "어근 'argumentatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'argumentatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan argumentatif",
+    "antonym": "tidak argumentatif",
+    "context": "'berargumentatif'은(는) principalmente 'argumentatif하는 상태이다, argumentatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'argumentatif'의 용법에 유의하세요. 'berargumentatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'argumentatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berargumentatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 argumentatif하는 상태이다, argumentatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berargumentatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 argumentatif하는 상태이다, argumentatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "argumentatif",
+        "meaning": "(어근) argumentatif하는 상태이다"
+      },
+      {
+        "word": "berargumentatif",
+        "meaning": "argumentatif하는 상태이다, argumentatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_g8iok",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengargumentatif [[뼝argumentatif]]",
+    "meaning": "argumentatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "argumentatif",
+    "affix_logic": "어근 'argumentatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'argumentatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak argumentatif",
+    "antonym": "bukan argumentatif",
+    "context": "'pengargumentatif'은(는) principalmente 'argumentatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'argumentatif'의 용법에 유의하세요. 'pengargumentatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'argumentatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengargumentatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 argumentatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengargumentatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 argumentatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "argumentatif",
+        "meaning": "(어근) argumentatif 수행 주체"
+      },
+      {
+        "word": "pengargumentatif",
+        "meaning": "argumentatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_oirjb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengargumentatifan [[뼝argumentatif안]]",
+    "meaning": "argumentatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "argumentatif",
+    "affix_logic": "어근 'argumentatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'argumentatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses argumentatif",
+    "antonym": "bukan argumentatif",
+    "context": "'pengargumentatifan'은(는) principalmente 'argumentatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'argumentatif'의 용법에 유의하세요. 'pengargumentatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'argumentatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengargumentatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 argumentatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengargumentatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 argumentatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "argumentatif",
+        "meaning": "(어근) argumentatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengargumentatifan",
+        "meaning": "argumentatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qhx01",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraristokrasi [[버르aristokrasi]]",
+    "meaning": "aristokrasi하는 상태이다, aristokrasi를 행하다",
+    "pos": "동사",
+    "root": "aristokrasi",
+    "affix_logic": "어근 'aristokrasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'aristokrasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan aristokrasi",
+    "antonym": "tidak aristokrasi",
+    "context": "'beraristokrasi'은(는) principalmente 'aristokrasi하는 상태이다, aristokrasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aristokrasi'의 용법에 유의하세요. 'beraristokrasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aristokrasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beraristokrasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aristokrasi하는 상태이다, aristokrasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beraristokrasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aristokrasi하는 상태이다, aristokrasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aristokrasi",
+        "meaning": "(어근) aristokrasi하는 상태이다"
+      },
+      {
+        "word": "beraristokrasi",
+        "meaning": "aristokrasi하는 상태이다, aristokrasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ybz6r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaristokrasi [[뼝aristokrasi]]",
+    "meaning": "aristokrasi 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "aristokrasi",
+    "affix_logic": "어근 'aristokrasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aristokrasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak aristokrasi",
+    "antonym": "bukan aristokrasi",
+    "context": "'pengaristokrasi'은(는) principalmente 'aristokrasi 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aristokrasi'의 용법에 유의하세요. 'pengaristokrasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aristokrasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaristokrasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aristokrasi 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaristokrasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aristokrasi 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aristokrasi",
+        "meaning": "(어근) aristokrasi 수행 주체"
+      },
+      {
+        "word": "pengaristokrasi",
+        "meaning": "aristokrasi 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ylu3w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaristokrasian [[뼝aristokrasi안]]",
+    "meaning": "aristokrasi 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "aristokrasi",
+    "affix_logic": "어근 'aristokrasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'aristokrasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses aristokrasi",
+    "antonym": "bukan aristokrasi",
+    "context": "'pengaristokrasian'은(는) principalmente 'aristokrasi 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'aristokrasi'의 용법에 유의하세요. 'pengaristokrasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'aristokrasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengaristokrasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 aristokrasi 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengaristokrasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 aristokrasi 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "aristokrasi",
+        "meaning": "(어근) aristokrasi 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengaristokrasian",
+        "meaning": "aristokrasi 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_p3kmp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarsitektural [[버르arsitektural]]",
+    "meaning": "arsitektural하는 상태이다, arsitektural를 행하다",
+    "pos": "동사",
+    "root": "arsitektural",
+    "affix_logic": "어근 'arsitektural'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'arsitektural'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan arsitektural",
+    "antonym": "tidak arsitektural",
+    "context": "'berarsitektural'은(는) principalmente 'arsitektural하는 상태이다, arsitektural를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsitektural'의 용법에 유의하세요. 'berarsitektural' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsitektural' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berarsitektural untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsitektural하는 상태이다, arsitektural를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berarsitektural yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsitektural하는 상태이다, arsitektural를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsitektural",
+        "meaning": "(어근) arsitektural하는 상태이다"
+      },
+      {
+        "word": "berarsitektural",
+        "meaning": "arsitektural하는 상태이다, arsitektural를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_o9btz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsitektural [[뼝arsitektural]]",
+    "meaning": "arsitektural 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "arsitektural",
+    "affix_logic": "어근 'arsitektural'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arsitektural'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak arsitektural",
+    "antonym": "bukan arsitektural",
+    "context": "'pengarsitektural'은(는) principalmente 'arsitektural 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsitektural'의 용법에 유의하세요. 'pengarsitektural' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsitektural' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarsitektural untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsitektural 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarsitektural yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsitektural 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsitektural",
+        "meaning": "(어근) arsitektural 수행 주체"
+      },
+      {
+        "word": "pengarsitektural",
+        "meaning": "arsitektural 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_e2j9k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsitekturalan [[뼝arsitektural안]]",
+    "meaning": "arsitektural 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "arsitektural",
+    "affix_logic": "어근 'arsitektural'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'arsitektural'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses arsitektural",
+    "antonym": "bukan arsitektural",
+    "context": "'pengarsitekturalan'은(는) principalmente 'arsitektural 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'arsitektural'의 용법에 유의하세요. 'pengarsitekturalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'arsitektural' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengarsitekturalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 arsitektural 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengarsitekturalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 arsitektural 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "arsitektural",
+        "meaning": "(어근) arsitektural 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengarsitekturalan",
+        "meaning": "arsitektural 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_vuyvl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berartifisial [[버르artifisial]]",
+    "meaning": "artifisial하는 상태이다, artifisial를 행하다",
+    "pos": "동사",
+    "root": "artifisial",
+    "affix_logic": "어근 'artifisial'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'artifisial'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan artifisial",
+    "antonym": "tidak artifisial",
+    "context": "'berartifisial'은(는) principalmente 'artifisial하는 상태이다, artifisial를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artifisial'의 용법에 유의하세요. 'berartifisial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artifisial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berartifisial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artifisial하는 상태이다, artifisial를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berartifisial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artifisial하는 상태이다, artifisial를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artifisial",
+        "meaning": "(어근) artifisial하는 상태이다"
+      },
+      {
+        "word": "berartifisial",
+        "meaning": "artifisial하는 상태이다, artifisial를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_xrwuq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartifisial [[뼝artifisial]]",
+    "meaning": "artifisial 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "artifisial",
+    "affix_logic": "어근 'artifisial'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'artifisial'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak artifisial",
+    "antonym": "bukan artifisial",
+    "context": "'pengartifisial'은(는) principalmente 'artifisial 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artifisial'의 용법에 유의하세요. 'pengartifisial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artifisial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengartifisial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artifisial 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengartifisial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artifisial 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artifisial",
+        "meaning": "(어근) artifisial 수행 주체"
+      },
+      {
+        "word": "pengartifisial",
+        "meaning": "artifisial 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_gmgwu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartifisialan [[뼝artifisial안]]",
+    "meaning": "artifisial 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "artifisial",
+    "affix_logic": "어근 'artifisial'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'artifisial'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses artifisial",
+    "antonym": "bukan artifisial",
+    "context": "'pengartifisialan'은(는) principalmente 'artifisial 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artifisial'의 용법에 유의하세요. 'pengartifisialan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artifisial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengartifisialan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artifisial 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengartifisialan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artifisial 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artifisial",
+        "meaning": "(어근) artifisial 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengartifisialan",
+        "meaning": "artifisial 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_hl80s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berartikulat [[버르artikulat]]",
+    "meaning": "artikulat하는 상태이다, artikulat를 행하다",
+    "pos": "동사",
+    "root": "artikulat",
+    "affix_logic": "어근 'artikulat'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'artikulat'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan artikulat",
+    "antonym": "tidak artikulat",
+    "context": "'berartikulat'은(는) principalmente 'artikulat하는 상태이다, artikulat를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artikulat'의 용법에 유의하세요. 'berartikulat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artikulat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berartikulat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artikulat하는 상태이다, artikulat를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berartikulat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artikulat하는 상태이다, artikulat를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artikulat",
+        "meaning": "(어근) artikulat하는 상태이다"
+      },
+      {
+        "word": "berartikulat",
+        "meaning": "artikulat하는 상태이다, artikulat를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_1o0ub",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartikulat [[뼝artikulat]]",
+    "meaning": "artikulat 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "artikulat",
+    "affix_logic": "어근 'artikulat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'artikulat'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak artikulat",
+    "antonym": "bukan artikulat",
+    "context": "'pengartikulat'은(는) principalmente 'artikulat 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artikulat'의 용법에 유의하세요. 'pengartikulat' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artikulat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengartikulat untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artikulat 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengartikulat yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artikulat 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artikulat",
+        "meaning": "(어근) artikulat 수행 주체"
+      },
+      {
+        "word": "pengartikulat",
+        "meaning": "artikulat 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_odgek",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartikulatan [[뼝artikulat안]]",
+    "meaning": "artikulat 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "artikulat",
+    "affix_logic": "어근 'artikulat'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'artikulat'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses artikulat",
+    "antonym": "bukan artikulat",
+    "context": "'pengartikulatan'은(는) principalmente 'artikulat 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'artikulat'의 용법에 유의하세요. 'pengartikulatan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'artikulat' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengartikulatan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 artikulat 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengartikulatan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 artikulat 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "artikulat",
+        "meaning": "(어근) artikulat 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengartikulatan",
+        "meaning": "artikulat 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ljlzz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasimetris [[버르asimetris]]",
+    "meaning": "asimetris하는 상태이다, asimetris를 행하다",
+    "pos": "동사",
+    "root": "asimetris",
+    "affix_logic": "어근 'asimetris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asimetris'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan asimetris",
+    "antonym": "tidak asimetris",
+    "context": "'berasimetris'은(는) principalmente 'asimetris하는 상태이다, asimetris를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asimetris'의 용법에 유의하세요. 'berasimetris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asimetris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berasimetris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asimetris하는 상태이다, asimetris를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berasimetris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asimetris하는 상태이다, asimetris를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asimetris",
+        "meaning": "(어근) asimetris하는 상태이다"
+      },
+      {
+        "word": "berasimetris",
+        "meaning": "asimetris하는 상태이다, asimetris를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_rg236",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasimetris [[뼝asimetris]]",
+    "meaning": "asimetris 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "asimetris",
+    "affix_logic": "어근 'asimetris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asimetris'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak asimetris",
+    "antonym": "bukan asimetris",
+    "context": "'pengasimetris'은(는) principalmente 'asimetris 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asimetris'의 용법에 유의하세요. 'pengasimetris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asimetris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasimetris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asimetris 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasimetris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asimetris 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asimetris",
+        "meaning": "(어근) asimetris 수행 주체"
+      },
+      {
+        "word": "pengasimetris",
+        "meaning": "asimetris 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_5yj04",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasimetrisan [[뼝asimetris안]]",
+    "meaning": "asimetris 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "asimetris",
+    "affix_logic": "어근 'asimetris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asimetris'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses asimetris",
+    "antonym": "bukan asimetris",
+    "context": "'pengasimetrisan'은(는) principalmente 'asimetris 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asimetris'의 용법에 유의하세요. 'pengasimetrisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asimetris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasimetrisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asimetris 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasimetrisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asimetris 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asimetris",
+        "meaning": "(어근) asimetris 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengasimetrisan",
+        "meaning": "asimetris 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_y010t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasimilatif [[버르asimilatif]]",
+    "meaning": "asimilatif하는 상태이다, asimilatif를 행하다",
+    "pos": "동사",
+    "root": "asimilatif",
+    "affix_logic": "어근 'asimilatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asimilatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan asimilatif",
+    "antonym": "tidak asimilatif",
+    "context": "'berasimilatif'은(는) principalmente 'asimilatif하는 상태이다, asimilatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asimilatif'의 용법에 유의하세요. 'berasimilatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asimilatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berasimilatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asimilatif하는 상태이다, asimilatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berasimilatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asimilatif하는 상태이다, asimilatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asimilatif",
+        "meaning": "(어근) asimilatif하는 상태이다"
+      },
+      {
+        "word": "berasimilatif",
+        "meaning": "asimilatif하는 상태이다, asimilatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_54l6t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasimilatif [[뼝asimilatif]]",
+    "meaning": "asimilatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "asimilatif",
+    "affix_logic": "어근 'asimilatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asimilatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak asimilatif",
+    "antonym": "bukan asimilatif",
+    "context": "'pengasimilatif'은(는) principalmente 'asimilatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asimilatif'의 용법에 유의하세요. 'pengasimilatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asimilatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasimilatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asimilatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasimilatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asimilatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asimilatif",
+        "meaning": "(어근) asimilatif 수행 주체"
+      },
+      {
+        "word": "pengasimilatif",
+        "meaning": "asimilatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_rhzn7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasimilatifan [[뼝asimilatif안]]",
+    "meaning": "asimilatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "asimilatif",
+    "affix_logic": "어근 'asimilatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asimilatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses asimilatif",
+    "antonym": "bukan asimilatif",
+    "context": "'pengasimilatifan'은(는) principalmente 'asimilatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asimilatif'의 용법에 유의하세요. 'pengasimilatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asimilatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasimilatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asimilatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasimilatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asimilatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asimilatif",
+        "meaning": "(어근) asimilatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengasimilatifan",
+        "meaning": "asimilatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_l9zjy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasertif [[버르asertif]]",
+    "meaning": "asertif하는 상태이다, asertif를 행하다",
+    "pos": "동사",
+    "root": "asertif",
+    "affix_logic": "어근 'asertif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'asertif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan asertif",
+    "antonym": "tidak asertif",
+    "context": "'berasertif'은(는) principalmente 'asertif하는 상태이다, asertif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asertif'의 용법에 유의하세요. 'berasertif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asertif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berasertif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asertif하는 상태이다, asertif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berasertif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asertif하는 상태이다, asertif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asertif",
+        "meaning": "(어근) asertif하는 상태이다"
+      },
+      {
+        "word": "berasertif",
+        "meaning": "asertif하는 상태이다, asertif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_tbkwq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasertif [[뼝asertif]]",
+    "meaning": "asertif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "asertif",
+    "affix_logic": "어근 'asertif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asertif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak asertif",
+    "antonym": "bukan asertif",
+    "context": "'pengasertif'은(는) principalmente 'asertif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asertif'의 용법에 유의하세요. 'pengasertif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asertif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasertif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asertif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasertif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asertif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asertif",
+        "meaning": "(어근) asertif 수행 주체"
+      },
+      {
+        "word": "pengasertif",
+        "meaning": "asertif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_oqego",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasertifan [[뼝asertif안]]",
+    "meaning": "asertif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "asertif",
+    "affix_logic": "어근 'asertif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'asertif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses asertif",
+    "antonym": "bukan asertif",
+    "context": "'pengasertifan'은(는) principalmente 'asertif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'asertif'의 용법에 유의하세요. 'pengasertifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'asertif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengasertifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 asertif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengasertifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 asertif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "asertif",
+        "meaning": "(어근) asertif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengasertifan",
+        "meaning": "asertif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_3tcog",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berotentisitas [[버르otentisitas]]",
+    "meaning": "otentisitas하는 상태이다, otentisitas를 행하다",
+    "pos": "동사",
+    "root": "otentisitas",
+    "affix_logic": "어근 'otentisitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'otentisitas'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan otentisitas",
+    "antonym": "tidak otentisitas",
+    "context": "'berotentisitas'은(는) principalmente 'otentisitas하는 상태이다, otentisitas를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otentisitas'의 용법에 유의하세요. 'berotentisitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otentisitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berotentisitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otentisitas하는 상태이다, otentisitas를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berotentisitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otentisitas하는 상태이다, otentisitas를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otentisitas",
+        "meaning": "(어근) otentisitas하는 상태이다"
+      },
+      {
+        "word": "berotentisitas",
+        "meaning": "otentisitas하는 상태이다, otentisitas를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_43gkb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotentisitas [[뼝otentisitas]]",
+    "meaning": "otentisitas 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "otentisitas",
+    "affix_logic": "어근 'otentisitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otentisitas'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak otentisitas",
+    "antonym": "bukan otentisitas",
+    "context": "'pengotentisitas'은(는) principalmente 'otentisitas 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otentisitas'의 용법에 유의하세요. 'pengotentisitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otentisitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotentisitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otentisitas 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotentisitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otentisitas 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otentisitas",
+        "meaning": "(어근) otentisitas 수행 주체"
+      },
+      {
+        "word": "pengotentisitas",
+        "meaning": "otentisitas 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_t4wn0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotentisitasan [[뼝otentisitas안]]",
+    "meaning": "otentisitas 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "otentisitas",
+    "affix_logic": "어근 'otentisitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otentisitas'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses otentisitas",
+    "antonym": "bukan otentisitas",
+    "context": "'pengotentisitasan'은(는) principalmente 'otentisitas 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otentisitas'의 용법에 유의하세요. 'pengotentisitasan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otentisitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotentisitasan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otentisitas 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotentisitasan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otentisitas 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otentisitas",
+        "meaning": "(어근) otentisitas 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengotentisitasan",
+        "meaning": "otentisitas 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_v3ivu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berotodidak [[버르otodidak]]",
+    "meaning": "otodidak하는 상태이다, otodidak를 행하다",
+    "pos": "동사",
+    "root": "otodidak",
+    "affix_logic": "어근 'otodidak'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'otodidak'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan otodidak",
+    "antonym": "tidak otodidak",
+    "context": "'berotodidak'은(는) principalmente 'otodidak하는 상태이다, otodidak를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otodidak'의 용법에 유의하세요. 'berotodidak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otodidak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berotodidak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otodidak하는 상태이다, otodidak를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berotodidak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otodidak하는 상태이다, otodidak를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otodidak",
+        "meaning": "(어근) otodidak하는 상태이다"
+      },
+      {
+        "word": "berotodidak",
+        "meaning": "otodidak하는 상태이다, otodidak를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_oxzem",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotodidak [[뼝otodidak]]",
+    "meaning": "otodidak 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "otodidak",
+    "affix_logic": "어근 'otodidak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otodidak'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak otodidak",
+    "antonym": "bukan otodidak",
+    "context": "'pengotodidak'은(는) principalmente 'otodidak 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otodidak'의 용법에 유의하세요. 'pengotodidak' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otodidak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotodidak untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otodidak 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotodidak yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otodidak 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otodidak",
+        "meaning": "(어근) otodidak 수행 주체"
+      },
+      {
+        "word": "pengotodidak",
+        "meaning": "otodidak 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_poadf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotodidakan [[뼝otodidak안]]",
+    "meaning": "otodidak 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "otodidak",
+    "affix_logic": "어근 'otodidak'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otodidak'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses otodidak",
+    "antonym": "bukan otodidak",
+    "context": "'pengotodidakan'은(는) principalmente 'otodidak 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otodidak'의 용법에 유의하세요. 'pengotodidakan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otodidak' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotodidakan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otodidak 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotodidakan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otodidak 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otodidak",
+        "meaning": "(어근) otodidak 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengotodidakan",
+        "meaning": "otodidak 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_84tgo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berotokratis [[버르otokratis]]",
+    "meaning": "otokratis하는 상태이다, otokratis를 행하다",
+    "pos": "동사",
+    "root": "otokratis",
+    "affix_logic": "어근 'otokratis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'otokratis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan otokratis",
+    "antonym": "tidak otokratis",
+    "context": "'berotokratis'은(는) principalmente 'otokratis하는 상태이다, otokratis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otokratis'의 용법에 유의하세요. 'berotokratis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berotokratis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otokratis하는 상태이다, otokratis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berotokratis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otokratis하는 상태이다, otokratis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otokratis",
+        "meaning": "(어근) otokratis하는 상태이다"
+      },
+      {
+        "word": "berotokratis",
+        "meaning": "otokratis하는 상태이다, otokratis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_j51si",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotokratis [[뼝otokratis]]",
+    "meaning": "otokratis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "otokratis",
+    "affix_logic": "어근 'otokratis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otokratis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak otokratis",
+    "antonym": "bukan otokratis",
+    "context": "'pengotokratis'은(는) principalmente 'otokratis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otokratis'의 용법에 유의하세요. 'pengotokratis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotokratis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otokratis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotokratis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otokratis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otokratis",
+        "meaning": "(어근) otokratis 수행 주체"
+      },
+      {
+        "word": "pengotokratis",
+        "meaning": "otokratis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_o3zyv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotokratisan [[뼝otokratis안]]",
+    "meaning": "otokratis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "otokratis",
+    "affix_logic": "어근 'otokratis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otokratis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses otokratis",
+    "antonym": "bukan otokratis",
+    "context": "'pengotokratisan'은(는) principalmente 'otokratis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otokratis'의 용법에 유의하세요. 'pengotokratisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotokratisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otokratis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotokratisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otokratis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otokratis",
+        "meaning": "(어근) otokratis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengotokratisan",
+        "meaning": "otokratis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_sgdly",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berotomasi [[버르otomasi]]",
+    "meaning": "otomasi하는 상태이다, otomasi를 행하다",
+    "pos": "동사",
+    "root": "otomasi",
+    "affix_logic": "어근 'otomasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'otomasi'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan otomasi",
+    "antonym": "tidak otomasi",
+    "context": "'berotomasi'은(는) principalmente 'otomasi하는 상태이다, otomasi를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otomasi'의 용법에 유의하세요. 'berotomasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otomasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berotomasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otomasi하는 상태이다, otomasi를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berotomasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otomasi하는 상태이다, otomasi를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otomasi",
+        "meaning": "(어근) otomasi하는 상태이다"
+      },
+      {
+        "word": "berotomasi",
+        "meaning": "otomasi하는 상태이다, otomasi를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_311no",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotomasi [[뼝otomasi]]",
+    "meaning": "otomasi 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "otomasi",
+    "affix_logic": "어근 'otomasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otomasi'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak otomasi",
+    "antonym": "bukan otomasi",
+    "context": "'pengotomasi'은(는) principalmente 'otomasi 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otomasi'의 용법에 유의하세요. 'pengotomasi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otomasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotomasi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otomasi 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotomasi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otomasi 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otomasi",
+        "meaning": "(어근) otomasi 수행 주체"
+      },
+      {
+        "word": "pengotomasi",
+        "meaning": "otomasi 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_dnsab",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengotomasian [[뼝otomasi안]]",
+    "meaning": "otomasi 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "otomasi",
+    "affix_logic": "어근 'otomasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'otomasi'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses otomasi",
+    "antonym": "bukan otomasi",
+    "context": "'pengotomasian'은(는) principalmente 'otomasi 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'otomasi'의 용법에 유의하세요. 'pengotomasian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'otomasi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengotomasian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 otomasi 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengotomasian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 otomasi 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "otomasi",
+        "meaning": "(어근) otomasi 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengotomasian",
+        "meaning": "otomasi 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_l4wx8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbirokratis [[버르birokratis]]",
+    "meaning": "birokratis하는 상태이다, birokratis를 행하다",
+    "pos": "동사",
+    "root": "birokratis",
+    "affix_logic": "어근 'birokratis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'birokratis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan birokratis",
+    "antonym": "tidak birokratis",
+    "context": "'berbirokratis'은(는) principalmente 'birokratis하는 상태이다, birokratis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'birokratis'의 용법에 유의하세요. 'berbirokratis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'birokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbirokratis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 birokratis하는 상태이다, birokratis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbirokratis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 birokratis하는 상태이다, birokratis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "birokratis",
+        "meaning": "(어근) birokratis하는 상태이다"
+      },
+      {
+        "word": "berbirokratis",
+        "meaning": "birokratis하는 상태이다, birokratis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_d7c6e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbirokratis [[뼝birokratis]]",
+    "meaning": "birokratis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "birokratis",
+    "affix_logic": "어근 'birokratis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'birokratis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak birokratis",
+    "antonym": "bukan birokratis",
+    "context": "'pengbirokratis'은(는) principalmente 'birokratis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'birokratis'의 용법에 유의하세요. 'pengbirokratis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'birokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbirokratis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 birokratis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbirokratis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 birokratis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "birokratis",
+        "meaning": "(어근) birokratis 수행 주체"
+      },
+      {
+        "word": "pengbirokratis",
+        "meaning": "birokratis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_6zbiw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbirokratisan [[뼝birokratis안]]",
+    "meaning": "birokratis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "birokratis",
+    "affix_logic": "어근 'birokratis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'birokratis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses birokratis",
+    "antonym": "bukan birokratis",
+    "context": "'pengbirokratisan'은(는) principalmente 'birokratis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'birokratis'의 용법에 유의하세요. 'pengbirokratisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'birokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbirokratisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 birokratis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbirokratisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 birokratis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "birokratis",
+        "meaning": "(어근) birokratis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengbirokratisan",
+        "meaning": "birokratis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_6k328",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbiometris [[버르biometris]]",
+    "meaning": "biometris하는 상태이다, biometris를 행하다",
+    "pos": "동사",
+    "root": "biometris",
+    "affix_logic": "어근 'biometris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biometris'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan biometris",
+    "antonym": "tidak biometris",
+    "context": "'berbiometris'은(는) principalmente 'biometris하는 상태이다, biometris를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biometris'의 용법에 유의하세요. 'berbiometris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biometris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbiometris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biometris하는 상태이다, biometris를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbiometris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biometris하는 상태이다, biometris를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biometris",
+        "meaning": "(어근) biometris하는 상태이다"
+      },
+      {
+        "word": "berbiometris",
+        "meaning": "biometris하는 상태이다, biometris를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_a2llm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiometris [[뼝biometris]]",
+    "meaning": "biometris 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "biometris",
+    "affix_logic": "어근 'biometris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biometris'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak biometris",
+    "antonym": "bukan biometris",
+    "context": "'pengbiometris'은(는) principalmente 'biometris 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biometris'의 용법에 유의하세요. 'pengbiometris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biometris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiometris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biometris 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiometris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biometris 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biometris",
+        "meaning": "(어근) biometris 수행 주체"
+      },
+      {
+        "word": "pengbiometris",
+        "meaning": "biometris 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_f1mem",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiometrisan [[뼝biometris안]]",
+    "meaning": "biometris 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "biometris",
+    "affix_logic": "어근 'biometris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biometris'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses biometris",
+    "antonym": "bukan biometris",
+    "context": "'pengbiometrisan'은(는) principalmente 'biometris 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biometris'의 용법에 유의하세요. 'pengbiometrisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biometris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiometrisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biometris 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiometrisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biometris 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biometris",
+        "meaning": "(어근) biometris 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengbiometrisan",
+        "meaning": "biometris 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_3h29n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbiotik [[버르biotik]]",
+    "meaning": "biotik하는 상태이다, biotik를 행하다",
+    "pos": "동사",
+    "root": "biotik",
+    "affix_logic": "어근 'biotik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'biotik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan biotik",
+    "antonym": "tidak biotik",
+    "context": "'berbiotik'은(는) principalmente 'biotik하는 상태이다, biotik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biotik'의 용법에 유의하세요. 'berbiotik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biotik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berbiotik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biotik하는 상태이다, biotik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berbiotik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biotik하는 상태이다, biotik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biotik",
+        "meaning": "(어근) biotik하는 상태이다"
+      },
+      {
+        "word": "berbiotik",
+        "meaning": "biotik하는 상태이다, biotik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_e827x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiotik [[뼝biotik]]",
+    "meaning": "biotik 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "biotik",
+    "affix_logic": "어근 'biotik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biotik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak biotik",
+    "antonym": "bukan biotik",
+    "context": "'pengbiotik'은(는) principalmente 'biotik 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biotik'의 용법에 유의하세요. 'pengbiotik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biotik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiotik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biotik 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiotik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biotik 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biotik",
+        "meaning": "(어근) biotik 수행 주체"
+      },
+      {
+        "word": "pengbiotik",
+        "meaning": "biotik 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_trnx8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiotikan [[뼝biotik안]]",
+    "meaning": "biotik 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "biotik",
+    "affix_logic": "어근 'biotik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'biotik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses biotik",
+    "antonym": "bukan biotik",
+    "context": "'pengbiotikan'은(는) principalmente 'biotik 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'biotik'의 용법에 유의하세요. 'pengbiotikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'biotik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengbiotikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 biotik 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengbiotikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 biotik 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "biotik",
+        "meaning": "(어근) biotik 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengbiotikan",
+        "meaning": "biotik 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_97amg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdefensif [[버르defensif]]",
+    "meaning": "defensif하는 상태이다, defensif를 행하다",
+    "pos": "동사",
+    "root": "defensif",
+    "affix_logic": "어근 'defensif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'defensif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan defensif",
+    "antonym": "tidak defensif",
+    "context": "'berdefensif'은(는) principalmente 'defensif하는 상태이다, defensif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'defensif'의 용법에 유의하세요. 'berdefensif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'defensif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdefensif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 defensif하는 상태이다, defensif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdefensif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 defensif하는 상태이다, defensif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "defensif",
+        "meaning": "(어근) defensif하는 상태이다"
+      },
+      {
+        "word": "berdefensif",
+        "meaning": "defensif하는 상태이다, defensif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_0tdfu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdefensif [[뼝defensif]]",
+    "meaning": "defensif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "defensif",
+    "affix_logic": "어근 'defensif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'defensif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak defensif",
+    "antonym": "bukan defensif",
+    "context": "'pengdefensif'은(는) principalmente 'defensif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'defensif'의 용법에 유의하세요. 'pengdefensif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'defensif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdefensif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 defensif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdefensif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 defensif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "defensif",
+        "meaning": "(어근) defensif 수행 주체"
+      },
+      {
+        "word": "pengdefensif",
+        "meaning": "defensif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_o7q5a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdefensifan [[뼝defensif안]]",
+    "meaning": "defensif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "defensif",
+    "affix_logic": "어근 'defensif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'defensif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses defensif",
+    "antonym": "bukan defensif",
+    "context": "'pengdefensifan'은(는) principalmente 'defensif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'defensif'의 용법에 유의하세요. 'pengdefensifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'defensif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdefensifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 defensif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdefensifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 defensif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "defensif",
+        "meaning": "(어근) defensif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdefensifan",
+        "meaning": "defensif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_2boag",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdekonstruktif [[버르dekonstruktif]]",
+    "meaning": "dekonstruktif하는 상태이다, dekonstruktif를 행하다",
+    "pos": "동사",
+    "root": "dekonstruktif",
+    "affix_logic": "어근 'dekonstruktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'dekonstruktif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan dekonstruktif",
+    "antonym": "tidak dekonstruktif",
+    "context": "'berdekonstruktif'은(는) principalmente 'dekonstruktif하는 상태이다, dekonstruktif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dekonstruktif'의 용법에 유의하세요. 'berdekonstruktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dekonstruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdekonstruktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dekonstruktif하는 상태이다, dekonstruktif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdekonstruktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dekonstruktif하는 상태이다, dekonstruktif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dekonstruktif",
+        "meaning": "(어근) dekonstruktif하는 상태이다"
+      },
+      {
+        "word": "berdekonstruktif",
+        "meaning": "dekonstruktif하는 상태이다, dekonstruktif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_x6s0j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekonstruktif [[뼝dekonstruktif]]",
+    "meaning": "dekonstruktif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "dekonstruktif",
+    "affix_logic": "어근 'dekonstruktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dekonstruktif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak dekonstruktif",
+    "antonym": "bukan dekonstruktif",
+    "context": "'pengdekonstruktif'은(는) principalmente 'dekonstruktif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dekonstruktif'의 용법에 유의하세요. 'pengdekonstruktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dekonstruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdekonstruktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dekonstruktif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdekonstruktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dekonstruktif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dekonstruktif",
+        "meaning": "(어근) dekonstruktif 수행 주체"
+      },
+      {
+        "word": "pengdekonstruktif",
+        "meaning": "dekonstruktif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_4u5zm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekonstruktifan [[뼝dekonstruktif안]]",
+    "meaning": "dekonstruktif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "dekonstruktif",
+    "affix_logic": "어근 'dekonstruktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dekonstruktif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses dekonstruktif",
+    "antonym": "bukan dekonstruktif",
+    "context": "'pengdekonstruktifan'은(는) principalmente 'dekonstruktif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dekonstruktif'의 용법에 유의하세요. 'pengdekonstruktifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dekonstruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdekonstruktifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dekonstruktif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdekonstruktifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dekonstruktif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dekonstruktif",
+        "meaning": "(어근) dekonstruktif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdekonstruktifan",
+        "meaning": "dekonstruktif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_83vk1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdelusif [[버르delusif]]",
+    "meaning": "delusif하는 상태이다, delusif를 행하다",
+    "pos": "동사",
+    "root": "delusif",
+    "affix_logic": "어근 'delusif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'delusif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan delusif",
+    "antonym": "tidak delusif",
+    "context": "'berdelusif'은(는) principalmente 'delusif하는 상태이다, delusif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'delusif'의 용법에 유의하세요. 'berdelusif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'delusif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdelusif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 delusif하는 상태이다, delusif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdelusif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 delusif하는 상태이다, delusif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "delusif",
+        "meaning": "(어근) delusif하는 상태이다"
+      },
+      {
+        "word": "berdelusif",
+        "meaning": "delusif하는 상태이다, delusif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ijyhf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdelusif [[뼝delusif]]",
+    "meaning": "delusif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "delusif",
+    "affix_logic": "어근 'delusif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'delusif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak delusif",
+    "antonym": "bukan delusif",
+    "context": "'pengdelusif'은(는) principalmente 'delusif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'delusif'의 용법에 유의하세요. 'pengdelusif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'delusif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdelusif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 delusif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdelusif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 delusif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "delusif",
+        "meaning": "(어근) delusif 수행 주체"
+      },
+      {
+        "word": "pengdelusif",
+        "meaning": "delusif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_t4d5w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdelusifan [[뼝delusif안]]",
+    "meaning": "delusif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "delusif",
+    "affix_logic": "어근 'delusif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'delusif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses delusif",
+    "antonym": "bukan delusif",
+    "context": "'pengdelusifan'은(는) principalmente 'delusif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'delusif'의 용법에 유의하세요. 'pengdelusifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'delusif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdelusifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 delusif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdelusifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 delusif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "delusif",
+        "meaning": "(어근) delusif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdelusifan",
+        "meaning": "delusif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_f2pgp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdemokratis [[버르demokratis]]",
+    "meaning": "demokratis하는 상태이다, demokratis를 행하다",
+    "pos": "동사",
+    "root": "demokratis",
+    "affix_logic": "어근 'demokratis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'demokratis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan demokratis",
+    "antonym": "tidak demokratis",
+    "context": "'berdemokratis'은(는) principalmente 'demokratis하는 상태이다, demokratis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demokratis'의 용법에 유의하세요. 'berdemokratis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdemokratis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demokratis하는 상태이다, demokratis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdemokratis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demokratis하는 상태이다, demokratis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demokratis",
+        "meaning": "(어근) demokratis하는 상태이다"
+      },
+      {
+        "word": "berdemokratis",
+        "meaning": "demokratis하는 상태이다, demokratis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_xuzih",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdemokratis [[뼝demokratis]]",
+    "meaning": "demokratis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "demokratis",
+    "affix_logic": "어근 'demokratis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'demokratis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak demokratis",
+    "antonym": "bukan demokratis",
+    "context": "'pengdemokratis'은(는) principalmente 'demokratis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demokratis'의 용법에 유의하세요. 'pengdemokratis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdemokratis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demokratis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdemokratis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demokratis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demokratis",
+        "meaning": "(어근) demokratis 수행 주체"
+      },
+      {
+        "word": "pengdemokratis",
+        "meaning": "demokratis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_1bwvp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdemokratisan [[뼝demokratis안]]",
+    "meaning": "demokratis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "demokratis",
+    "affix_logic": "어근 'demokratis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'demokratis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses demokratis",
+    "antonym": "bukan demokratis",
+    "context": "'pengdemokratisan'은(는) principalmente 'demokratis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demokratis'의 용법에 유의하세요. 'pengdemokratisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demokratis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdemokratisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demokratis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdemokratisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demokratis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demokratis",
+        "meaning": "(어근) demokratis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdemokratisan",
+        "meaning": "demokratis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_nvnsu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdemografis [[버르demografis]]",
+    "meaning": "demografis하는 상태이다, demografis를 행하다",
+    "pos": "동사",
+    "root": "demografis",
+    "affix_logic": "어근 'demografis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'demografis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan demografis",
+    "antonym": "tidak demografis",
+    "context": "'berdemografis'은(는) principalmente 'demografis하는 상태이다, demografis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demografis'의 용법에 유의하세요. 'berdemografis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demografis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdemografis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demografis하는 상태이다, demografis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdemografis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demografis하는 상태이다, demografis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demografis",
+        "meaning": "(어근) demografis하는 상태이다"
+      },
+      {
+        "word": "berdemografis",
+        "meaning": "demografis하는 상태이다, demografis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ul56m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdemografis [[뼝demografis]]",
+    "meaning": "demografis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "demografis",
+    "affix_logic": "어근 'demografis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'demografis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak demografis",
+    "antonym": "bukan demografis",
+    "context": "'pengdemografis'은(는) principalmente 'demografis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demografis'의 용법에 유의하세요. 'pengdemografis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demografis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdemografis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demografis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdemografis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demografis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demografis",
+        "meaning": "(어근) demografis 수행 주체"
+      },
+      {
+        "word": "pengdemografis",
+        "meaning": "demografis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ripck",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdemografisan [[뼝demografis안]]",
+    "meaning": "demografis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "demografis",
+    "affix_logic": "어근 'demografis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'demografis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses demografis",
+    "antonym": "bukan demografis",
+    "context": "'pengdemografisan'은(는) principalmente 'demografis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'demografis'의 용법에 유의하세요. 'pengdemografisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'demografis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdemografisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 demografis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdemografisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 demografis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "demografis",
+        "meaning": "(어근) demografis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdemografisan",
+        "meaning": "demografis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_hdsvm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdepresif [[버르depresif]]",
+    "meaning": "depresif하는 상태이다, depresif를 행하다",
+    "pos": "동사",
+    "root": "depresif",
+    "affix_logic": "어근 'depresif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'depresif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan depresif",
+    "antonym": "tidak depresif",
+    "context": "'berdepresif'은(는) principalmente 'depresif하는 상태이다, depresif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'depresif'의 용법에 유의하세요. 'berdepresif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'depresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdepresif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 depresif하는 상태이다, depresif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdepresif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 depresif하는 상태이다, depresif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "depresif",
+        "meaning": "(어근) depresif하는 상태이다"
+      },
+      {
+        "word": "berdepresif",
+        "meaning": "depresif하는 상태이다, depresif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_fjxhr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdepresif [[뼝depresif]]",
+    "meaning": "depresif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "depresif",
+    "affix_logic": "어근 'depresif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'depresif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak depresif",
+    "antonym": "bukan depresif",
+    "context": "'pengdepresif'은(는) principalmente 'depresif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'depresif'의 용법에 유의하세요. 'pengdepresif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'depresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdepresif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 depresif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdepresif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 depresif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "depresif",
+        "meaning": "(어근) depresif 수행 주체"
+      },
+      {
+        "word": "pengdepresif",
+        "meaning": "depresif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_54eaa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdepresifan [[뼝depresif안]]",
+    "meaning": "depresif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "depresif",
+    "affix_logic": "어근 'depresif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'depresif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses depresif",
+    "antonym": "bukan depresif",
+    "context": "'pengdepresifan'은(는) principalmente 'depresif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'depresif'의 용법에 유의하세요. 'pengdepresifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'depresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdepresifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 depresif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdepresifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 depresif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "depresif",
+        "meaning": "(어근) depresif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdepresifan",
+        "meaning": "depresif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_dh4lq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdesentralistis [[버르desentralistis]]",
+    "meaning": "desentralistis하는 상태이다, desentralistis를 행하다",
+    "pos": "동사",
+    "root": "desentralistis",
+    "affix_logic": "어근 'desentralistis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'desentralistis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan desentralistis",
+    "antonym": "tidak desentralistis",
+    "context": "'berdesentralistis'은(는) principalmente 'desentralistis하는 상태이다, desentralistis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'desentralistis'의 용법에 유의하세요. 'berdesentralistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'desentralistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdesentralistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 desentralistis하는 상태이다, desentralistis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdesentralistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 desentralistis하는 상태이다, desentralistis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "desentralistis",
+        "meaning": "(어근) desentralistis하는 상태이다"
+      },
+      {
+        "word": "berdesentralistis",
+        "meaning": "desentralistis하는 상태이다, desentralistis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_4fix9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdesentralistis [[뼝desentralistis]]",
+    "meaning": "desentralistis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "desentralistis",
+    "affix_logic": "어근 'desentralistis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'desentralistis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak desentralistis",
+    "antonym": "bukan desentralistis",
+    "context": "'pengdesentralistis'은(는) principalmente 'desentralistis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'desentralistis'의 용법에 유의하세요. 'pengdesentralistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'desentralistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdesentralistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 desentralistis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdesentralistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 desentralistis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "desentralistis",
+        "meaning": "(어근) desentralistis 수행 주체"
+      },
+      {
+        "word": "pengdesentralistis",
+        "meaning": "desentralistis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_oyyur",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdesentralistisan [[뼝desentralistis안]]",
+    "meaning": "desentralistis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "desentralistis",
+    "affix_logic": "어근 'desentralistis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'desentralistis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses desentralistis",
+    "antonym": "bukan desentralistis",
+    "context": "'pengdesentralistisan'은(는) principalmente 'desentralistis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'desentralistis'의 용법에 유의하세요. 'pengdesentralistisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'desentralistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdesentralistisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 desentralistis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdesentralistisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 desentralistis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "desentralistis",
+        "meaning": "(어근) desentralistis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdesentralistisan",
+        "meaning": "desentralistis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_adnk5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdeskriptif [[버르deskriptif]]",
+    "meaning": "deskriptif하는 상태이다, deskriptif를 행하다",
+    "pos": "동사",
+    "root": "deskriptif",
+    "affix_logic": "어근 'deskriptif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'deskriptif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan deskriptif",
+    "antonym": "tidak deskriptif",
+    "context": "'berdeskriptif'은(는) principalmente 'deskriptif하는 상태이다, deskriptif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'deskriptif'의 용법에 유의하세요. 'berdeskriptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'deskriptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdeskriptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 deskriptif하는 상태이다, deskriptif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdeskriptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 deskriptif하는 상태이다, deskriptif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "deskriptif",
+        "meaning": "(어근) deskriptif하는 상태이다"
+      },
+      {
+        "word": "berdeskriptif",
+        "meaning": "deskriptif하는 상태이다, deskriptif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qtoe7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeskriptif [[뼝deskriptif]]",
+    "meaning": "deskriptif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "deskriptif",
+    "affix_logic": "어근 'deskriptif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'deskriptif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak deskriptif",
+    "antonym": "bukan deskriptif",
+    "context": "'pengdeskriptif'은(는) principalmente 'deskriptif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'deskriptif'의 용법에 유의하세요. 'pengdeskriptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'deskriptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdeskriptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 deskriptif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdeskriptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 deskriptif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "deskriptif",
+        "meaning": "(어근) deskriptif 수행 주체"
+      },
+      {
+        "word": "pengdeskriptif",
+        "meaning": "deskriptif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_xcpcl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeskriptifan [[뼝deskriptif안]]",
+    "meaning": "deskriptif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "deskriptif",
+    "affix_logic": "어근 'deskriptif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'deskriptif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses deskriptif",
+    "antonym": "bukan deskriptif",
+    "context": "'pengdeskriptifan'은(는) principalmente 'deskriptif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'deskriptif'의 용법에 유의하세요. 'pengdeskriptifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'deskriptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdeskriptifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 deskriptif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdeskriptifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 deskriptif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "deskriptif",
+        "meaning": "(어근) deskriptif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdeskriptifan",
+        "meaning": "deskriptif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_i6jfq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdestruktif [[버르destruktif]]",
+    "meaning": "destruktif하는 상태이다, destruktif를 행하다",
+    "pos": "동사",
+    "root": "destruktif",
+    "affix_logic": "어근 'destruktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'destruktif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan destruktif",
+    "antonym": "tidak destruktif",
+    "context": "'berdestruktif'은(는) principalmente 'destruktif하는 상태이다, destruktif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'destruktif'의 용법에 유의하세요. 'berdestruktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'destruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdestruktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 destruktif하는 상태이다, destruktif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdestruktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 destruktif하는 상태이다, destruktif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "destruktif",
+        "meaning": "(어근) destruktif하는 상태이다"
+      },
+      {
+        "word": "berdestruktif",
+        "meaning": "destruktif하는 상태이다, destruktif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_nyvyo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdestruktif [[뼝destruktif]]",
+    "meaning": "destruktif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "destruktif",
+    "affix_logic": "어근 'destruktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'destruktif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak destruktif",
+    "antonym": "bukan destruktif",
+    "context": "'pengdestruktif'은(는) principalmente 'destruktif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'destruktif'의 용법에 유의하세요. 'pengdestruktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'destruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdestruktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 destruktif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdestruktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 destruktif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "destruktif",
+        "meaning": "(어근) destruktif 수행 주체"
+      },
+      {
+        "word": "pengdestruktif",
+        "meaning": "destruktif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_8st25",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdestruktifan [[뼝destruktif안]]",
+    "meaning": "destruktif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "destruktif",
+    "affix_logic": "어근 'destruktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'destruktif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses destruktif",
+    "antonym": "bukan destruktif",
+    "context": "'pengdestruktifan'은(는) principalmente 'destruktif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'destruktif'의 용법에 유의하세요. 'pengdestruktifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'destruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdestruktifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 destruktif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdestruktifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 destruktif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "destruktif",
+        "meaning": "(어근) destruktif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdestruktifan",
+        "meaning": "destruktif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_likmf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdetektif [[버르detektif]]",
+    "meaning": "detektif하는 상태이다, detektif를 행하다",
+    "pos": "동사",
+    "root": "detektif",
+    "affix_logic": "어근 'detektif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'detektif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan detektif",
+    "antonym": "tidak detektif",
+    "context": "'berdetektif'은(는) principalmente 'detektif하는 상태이다, detektif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'detektif'의 용법에 유의하세요. 'berdetektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'detektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdetektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 detektif하는 상태이다, detektif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdetektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 detektif하는 상태이다, detektif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "detektif",
+        "meaning": "(어근) detektif하는 상태이다"
+      },
+      {
+        "word": "berdetektif",
+        "meaning": "detektif하는 상태이다, detektif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_5zizv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdetektif [[뼝detektif]]",
+    "meaning": "detektif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "detektif",
+    "affix_logic": "어근 'detektif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'detektif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak detektif",
+    "antonym": "bukan detektif",
+    "context": "'pengdetektif'은(는) principalmente 'detektif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'detektif'의 용법에 유의하세요. 'pengdetektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'detektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdetektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 detektif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdetektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 detektif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "detektif",
+        "meaning": "(어근) detektif 수행 주체"
+      },
+      {
+        "word": "pengdetektif",
+        "meaning": "detektif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qllvm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdetektifan [[뼝detektif안]]",
+    "meaning": "detektif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "detektif",
+    "affix_logic": "어근 'detektif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'detektif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses detektif",
+    "antonym": "bukan detektif",
+    "context": "'pengdetektifan'은(는) principalmente 'detektif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'detektif'의 용법에 유의하세요. 'pengdetektifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'detektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdetektifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 detektif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdetektifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 detektif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "detektif",
+        "meaning": "(어근) detektif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdetektifan",
+        "meaning": "detektif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ie5tb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdeterminisme [[버르determinisme]]",
+    "meaning": "determinisme하는 상태이다, determinisme를 행하다",
+    "pos": "동사",
+    "root": "determinisme",
+    "affix_logic": "어근 'determinisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'determinisme'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan determinisme",
+    "antonym": "tidak determinisme",
+    "context": "'berdeterminisme'은(는) principalmente 'determinisme하는 상태이다, determinisme를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'determinisme'의 용법에 유의하세요. 'berdeterminisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'determinisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdeterminisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 determinisme하는 상태이다, determinisme를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdeterminisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 determinisme하는 상태이다, determinisme를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "determinisme",
+        "meaning": "(어근) determinisme하는 상태이다"
+      },
+      {
+        "word": "berdeterminisme",
+        "meaning": "determinisme하는 상태이다, determinisme를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ji5kd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeterminisme [[뼝determinisme]]",
+    "meaning": "determinisme 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "determinisme",
+    "affix_logic": "어근 'determinisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'determinisme'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak determinisme",
+    "antonym": "bukan determinisme",
+    "context": "'pengdeterminisme'은(는) principalmente 'determinisme 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'determinisme'의 용법에 유의하세요. 'pengdeterminisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'determinisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdeterminisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 determinisme 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdeterminisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 determinisme 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "determinisme",
+        "meaning": "(어근) determinisme 수행 주체"
+      },
+      {
+        "word": "pengdeterminisme",
+        "meaning": "determinisme 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ivjsi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeterminismean [[뼝determinisme안]]",
+    "meaning": "determinisme 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "determinisme",
+    "affix_logic": "어근 'determinisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'determinisme'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses determinisme",
+    "antonym": "bukan determinisme",
+    "context": "'pengdeterminismean'은(는) principalmente 'determinisme 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'determinisme'의 용법에 유의하세요. 'pengdeterminismean' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'determinisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdeterminismean untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 determinisme 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdeterminismean yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 determinisme 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "determinisme",
+        "meaning": "(어근) determinisme 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdeterminismean",
+        "meaning": "determinisme 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_mryzw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiferensial [[버르diferensial]]",
+    "meaning": "diferensial하는 상태이다, diferensial를 행하다",
+    "pos": "동사",
+    "root": "diferensial",
+    "affix_logic": "어근 'diferensial'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'diferensial'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan diferensial",
+    "antonym": "tidak diferensial",
+    "context": "'berdiferensial'은(는) principalmente 'diferensial하는 상태이다, diferensial를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diferensial'의 용법에 유의하세요. 'berdiferensial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diferensial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdiferensial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diferensial하는 상태이다, diferensial를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdiferensial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diferensial하는 상태이다, diferensial를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diferensial",
+        "meaning": "(어근) diferensial하는 상태이다"
+      },
+      {
+        "word": "berdiferensial",
+        "meaning": "diferensial하는 상태이다, diferensial를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_e3vce",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiferensial [[뼝diferensial]]",
+    "meaning": "diferensial 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "diferensial",
+    "affix_logic": "어근 'diferensial'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diferensial'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak diferensial",
+    "antonym": "bukan diferensial",
+    "context": "'pengdiferensial'은(는) principalmente 'diferensial 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diferensial'의 용법에 유의하세요. 'pengdiferensial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diferensial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiferensial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diferensial 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiferensial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diferensial 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diferensial",
+        "meaning": "(어근) diferensial 수행 주체"
+      },
+      {
+        "word": "pengdiferensial",
+        "meaning": "diferensial 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_v2841",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiferensialan [[뼝diferensial안]]",
+    "meaning": "diferensial 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "diferensial",
+    "affix_logic": "어근 'diferensial'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diferensial'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses diferensial",
+    "antonym": "bukan diferensial",
+    "context": "'pengdiferensialan'은(는) principalmente 'diferensial 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diferensial'의 용법에 유의하세요. 'pengdiferensialan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diferensial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiferensialan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diferensial 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiferensialan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diferensial 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diferensial",
+        "meaning": "(어근) diferensial 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdiferensialan",
+        "meaning": "diferensial 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ve5s9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiplomatis [[버르diplomatis]]",
+    "meaning": "diplomatis하는 상태이다, diplomatis를 행하다",
+    "pos": "동사",
+    "root": "diplomatis",
+    "affix_logic": "어근 'diplomatis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'diplomatis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan diplomatis",
+    "antonym": "tidak diplomatis",
+    "context": "'berdiplomatis'은(는) principalmente 'diplomatis하는 상태이다, diplomatis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diplomatis'의 용법에 유의하세요. 'berdiplomatis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diplomatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdiplomatis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diplomatis하는 상태이다, diplomatis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdiplomatis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diplomatis하는 상태이다, diplomatis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diplomatis",
+        "meaning": "(어근) diplomatis하는 상태이다"
+      },
+      {
+        "word": "berdiplomatis",
+        "meaning": "diplomatis하는 상태이다, diplomatis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_dvkmv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiplomatis [[뼝diplomatis]]",
+    "meaning": "diplomatis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "diplomatis",
+    "affix_logic": "어근 'diplomatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diplomatis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak diplomatis",
+    "antonym": "bukan diplomatis",
+    "context": "'pengdiplomatis'은(는) principalmente 'diplomatis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diplomatis'의 용법에 유의하세요. 'pengdiplomatis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diplomatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiplomatis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diplomatis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiplomatis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diplomatis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diplomatis",
+        "meaning": "(어근) diplomatis 수행 주체"
+      },
+      {
+        "word": "pengdiplomatis",
+        "meaning": "diplomatis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_rt2l2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiplomatisan [[뼝diplomatis안]]",
+    "meaning": "diplomatis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "diplomatis",
+    "affix_logic": "어근 'diplomatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diplomatis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses diplomatis",
+    "antonym": "bukan diplomatis",
+    "context": "'pengdiplomatisan'은(는) principalmente 'diplomatis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diplomatis'의 용법에 유의하세요. 'pengdiplomatisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diplomatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiplomatisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diplomatis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiplomatisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diplomatis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diplomatis",
+        "meaning": "(어근) diplomatis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdiplomatisan",
+        "meaning": "diplomatis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_47txh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdisipliner [[버르disipliner]]",
+    "meaning": "disipliner하는 상태이다, disipliner를 행하다",
+    "pos": "동사",
+    "root": "disipliner",
+    "affix_logic": "어근 'disipliner'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'disipliner'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan disipliner",
+    "antonym": "tidak disipliner",
+    "context": "'berdisipliner'은(는) principalmente 'disipliner하는 상태이다, disipliner를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'disipliner'의 용법에 유의하세요. 'berdisipliner' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'disipliner' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdisipliner untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 disipliner하는 상태이다, disipliner를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdisipliner yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 disipliner하는 상태이다, disipliner를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "disipliner",
+        "meaning": "(어근) disipliner하는 상태이다"
+      },
+      {
+        "word": "berdisipliner",
+        "meaning": "disipliner하는 상태이다, disipliner를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ro7es",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdisipliner [[뼝disipliner]]",
+    "meaning": "disipliner 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "disipliner",
+    "affix_logic": "어근 'disipliner'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'disipliner'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak disipliner",
+    "antonym": "bukan disipliner",
+    "context": "'pengdisipliner'은(는) principalmente 'disipliner 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'disipliner'의 용법에 유의하세요. 'pengdisipliner' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'disipliner' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdisipliner untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 disipliner 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdisipliner yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 disipliner 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "disipliner",
+        "meaning": "(어근) disipliner 수행 주체"
+      },
+      {
+        "word": "pengdisipliner",
+        "meaning": "disipliner 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_w28ck",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdisiplineran [[뼝disipliner안]]",
+    "meaning": "disipliner 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "disipliner",
+    "affix_logic": "어근 'disipliner'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'disipliner'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses disipliner",
+    "antonym": "bukan disipliner",
+    "context": "'pengdisiplineran'은(는) principalmente 'disipliner 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'disipliner'의 용법에 유의하세요. 'pengdisiplineran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'disipliner' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdisiplineran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 disipliner 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdisiplineran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 disipliner 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "disipliner",
+        "meaning": "(어근) disipliner 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdisiplineran",
+        "meaning": "disipliner 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_rpb7r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiskriminatif [[버르diskriminatif]]",
+    "meaning": "diskriminatif하는 상태이다, diskriminatif를 행하다",
+    "pos": "동사",
+    "root": "diskriminatif",
+    "affix_logic": "어근 'diskriminatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'diskriminatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan diskriminatif",
+    "antonym": "tidak diskriminatif",
+    "context": "'berdiskriminatif'은(는) principalmente 'diskriminatif하는 상태이다, diskriminatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diskriminatif'의 용법에 유의하세요. 'berdiskriminatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diskriminatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdiskriminatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diskriminatif하는 상태이다, diskriminatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdiskriminatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diskriminatif하는 상태이다, diskriminatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diskriminatif",
+        "meaning": "(어근) diskriminatif하는 상태이다"
+      },
+      {
+        "word": "berdiskriminatif",
+        "meaning": "diskriminatif하는 상태이다, diskriminatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_tk3rs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiskriminatif [[뼝diskriminatif]]",
+    "meaning": "diskriminatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "diskriminatif",
+    "affix_logic": "어근 'diskriminatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diskriminatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak diskriminatif",
+    "antonym": "bukan diskriminatif",
+    "context": "'pengdiskriminatif'은(는) principalmente 'diskriminatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diskriminatif'의 용법에 유의하세요. 'pengdiskriminatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diskriminatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiskriminatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diskriminatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiskriminatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diskriminatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diskriminatif",
+        "meaning": "(어근) diskriminatif 수행 주체"
+      },
+      {
+        "word": "pengdiskriminatif",
+        "meaning": "diskriminatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_pk0vi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiskriminatifan [[뼝diskriminatif안]]",
+    "meaning": "diskriminatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "diskriminatif",
+    "affix_logic": "어근 'diskriminatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diskriminatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses diskriminatif",
+    "antonym": "bukan diskriminatif",
+    "context": "'pengdiskriminatifan'은(는) principalmente 'diskriminatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diskriminatif'의 용법에 유의하세요. 'pengdiskriminatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diskriminatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiskriminatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diskriminatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiskriminatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diskriminatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diskriminatif",
+        "meaning": "(어근) diskriminatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdiskriminatifan",
+        "meaning": "diskriminatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_m4n3v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiskursif [[버르diskursif]]",
+    "meaning": "diskursif하는 상태이다, diskursif를 행하다",
+    "pos": "동사",
+    "root": "diskursif",
+    "affix_logic": "어근 'diskursif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'diskursif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan diskursif",
+    "antonym": "tidak diskursif",
+    "context": "'berdiskursif'은(는) principalmente 'diskursif하는 상태이다, diskursif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diskursif'의 용법에 유의하세요. 'berdiskursif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diskursif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdiskursif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diskursif하는 상태이다, diskursif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdiskursif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diskursif하는 상태이다, diskursif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diskursif",
+        "meaning": "(어근) diskursif하는 상태이다"
+      },
+      {
+        "word": "berdiskursif",
+        "meaning": "diskursif하는 상태이다, diskursif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_et4b0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiskursif [[뼝diskursif]]",
+    "meaning": "diskursif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "diskursif",
+    "affix_logic": "어근 'diskursif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diskursif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak diskursif",
+    "antonym": "bukan diskursif",
+    "context": "'pengdiskursif'은(는) principalmente 'diskursif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diskursif'의 용법에 유의하세요. 'pengdiskursif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diskursif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiskursif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diskursif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiskursif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diskursif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diskursif",
+        "meaning": "(어근) diskursif 수행 주체"
+      },
+      {
+        "word": "pengdiskursif",
+        "meaning": "diskursif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_mrzlk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiskursifan [[뼝diskursif안]]",
+    "meaning": "diskursif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "diskursif",
+    "affix_logic": "어근 'diskursif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diskursif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses diskursif",
+    "antonym": "bukan diskursif",
+    "context": "'pengdiskursifan'은(는) principalmente 'diskursif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diskursif'의 용법에 유의하세요. 'pengdiskursifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diskursif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiskursifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diskursif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiskursifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diskursif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diskursif",
+        "meaning": "(어근) diskursif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdiskursifan",
+        "meaning": "diskursif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_mc3lu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdisosiatif [[버르disosiatif]]",
+    "meaning": "disosiatif하는 상태이다, disosiatif를 행하다",
+    "pos": "동사",
+    "root": "disosiatif",
+    "affix_logic": "어근 'disosiatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'disosiatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan disosiatif",
+    "antonym": "tidak disosiatif",
+    "context": "'berdisosiatif'은(는) principalmente 'disosiatif하는 상태이다, disosiatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'disosiatif'의 용법에 유의하세요. 'berdisosiatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'disosiatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdisosiatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 disosiatif하는 상태이다, disosiatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdisosiatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 disosiatif하는 상태이다, disosiatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "disosiatif",
+        "meaning": "(어근) disosiatif하는 상태이다"
+      },
+      {
+        "word": "berdisosiatif",
+        "meaning": "disosiatif하는 상태이다, disosiatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_y6apm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdisosiatif [[뼝disosiatif]]",
+    "meaning": "disosiatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "disosiatif",
+    "affix_logic": "어근 'disosiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'disosiatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak disosiatif",
+    "antonym": "bukan disosiatif",
+    "context": "'pengdisosiatif'은(는) principalmente 'disosiatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'disosiatif'의 용법에 유의하세요. 'pengdisosiatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'disosiatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdisosiatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 disosiatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdisosiatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 disosiatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "disosiatif",
+        "meaning": "(어근) disosiatif 수행 주체"
+      },
+      {
+        "word": "pengdisosiatif",
+        "meaning": "disosiatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_46c7g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdisosiatifan [[뼝disosiatif안]]",
+    "meaning": "disosiatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "disosiatif",
+    "affix_logic": "어근 'disosiatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'disosiatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses disosiatif",
+    "antonym": "bukan disosiatif",
+    "context": "'pengdisosiatifan'은(는) principalmente 'disosiatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'disosiatif'의 용법에 유의하세요. 'pengdisosiatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'disosiatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdisosiatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 disosiatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdisosiatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 disosiatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "disosiatif",
+        "meaning": "(어근) disosiatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdisosiatifan",
+        "meaning": "disosiatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qaxzn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdistributif [[버르distributif]]",
+    "meaning": "distributif하는 상태이다, distributif를 행하다",
+    "pos": "동사",
+    "root": "distributif",
+    "affix_logic": "어근 'distributif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'distributif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan distributif",
+    "antonym": "tidak distributif",
+    "context": "'berdistributif'은(는) principalmente 'distributif하는 상태이다, distributif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'distributif'의 용법에 유의하세요. 'berdistributif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'distributif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdistributif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 distributif하는 상태이다, distributif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdistributif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 distributif하는 상태이다, distributif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "distributif",
+        "meaning": "(어근) distributif하는 상태이다"
+      },
+      {
+        "word": "berdistributif",
+        "meaning": "distributif하는 상태이다, distributif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qf3vl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdistributif [[뼝distributif]]",
+    "meaning": "distributif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "distributif",
+    "affix_logic": "어근 'distributif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'distributif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak distributif",
+    "antonym": "bukan distributif",
+    "context": "'pengdistributif'은(는) principalmente 'distributif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'distributif'의 용법에 유의하세요. 'pengdistributif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'distributif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdistributif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 distributif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdistributif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 distributif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "distributif",
+        "meaning": "(어근) distributif 수행 주체"
+      },
+      {
+        "word": "pengdistributif",
+        "meaning": "distributif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_pd0hi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdistributifan [[뼝distributif안]]",
+    "meaning": "distributif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "distributif",
+    "affix_logic": "어근 'distributif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'distributif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses distributif",
+    "antonym": "bukan distributif",
+    "context": "'pengdistributifan'은(는) principalmente 'distributif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'distributif'의 용법에 유의하세요. 'pengdistributifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'distributif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdistributifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 distributif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdistributifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 distributif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "distributif",
+        "meaning": "(어근) distributif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdistributifan",
+        "meaning": "distributif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_5lefm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiversif [[버르diversif]]",
+    "meaning": "diversif하는 상태이다, diversif를 행하다",
+    "pos": "동사",
+    "root": "diversif",
+    "affix_logic": "어근 'diversif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'diversif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan diversif",
+    "antonym": "tidak diversif",
+    "context": "'berdiversif'은(는) principalmente 'diversif하는 상태이다, diversif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diversif'의 용법에 유의하세요. 'berdiversif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diversif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdiversif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diversif하는 상태이다, diversif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdiversif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diversif하는 상태이다, diversif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diversif",
+        "meaning": "(어근) diversif하는 상태이다"
+      },
+      {
+        "word": "berdiversif",
+        "meaning": "diversif하는 상태이다, diversif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_7utrm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiversif [[뼝diversif]]",
+    "meaning": "diversif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "diversif",
+    "affix_logic": "어근 'diversif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diversif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak diversif",
+    "antonym": "bukan diversif",
+    "context": "'pengdiversif'은(는) principalmente 'diversif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diversif'의 용법에 유의하세요. 'pengdiversif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diversif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiversif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diversif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiversif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diversif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diversif",
+        "meaning": "(어근) diversif 수행 주체"
+      },
+      {
+        "word": "pengdiversif",
+        "meaning": "diversif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_yx4sq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiversifan [[뼝diversif안]]",
+    "meaning": "diversif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "diversif",
+    "affix_logic": "어근 'diversif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'diversif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses diversif",
+    "antonym": "bukan diversif",
+    "context": "'pengdiversifan'은(는) principalmente 'diversif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'diversif'의 용법에 유의하세요. 'pengdiversifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'diversif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdiversifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 diversif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdiversifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 diversif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "diversif",
+        "meaning": "(어근) diversif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdiversifan",
+        "meaning": "diversif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_uwhpk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdogmatis [[버르dogmatis]]",
+    "meaning": "dogmatis하는 상태이다, dogmatis를 행하다",
+    "pos": "동사",
+    "root": "dogmatis",
+    "affix_logic": "어근 'dogmatis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'dogmatis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan dogmatis",
+    "antonym": "tidak dogmatis",
+    "context": "'berdogmatis'은(는) principalmente 'dogmatis하는 상태이다, dogmatis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dogmatis'의 용법에 유의하세요. 'berdogmatis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dogmatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdogmatis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dogmatis하는 상태이다, dogmatis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdogmatis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dogmatis하는 상태이다, dogmatis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dogmatis",
+        "meaning": "(어근) dogmatis하는 상태이다"
+      },
+      {
+        "word": "berdogmatis",
+        "meaning": "dogmatis하는 상태이다, dogmatis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qfd2a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdogmatis [[뼝dogmatis]]",
+    "meaning": "dogmatis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "dogmatis",
+    "affix_logic": "어근 'dogmatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dogmatis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak dogmatis",
+    "antonym": "bukan dogmatis",
+    "context": "'pengdogmatis'은(는) principalmente 'dogmatis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dogmatis'의 용법에 유의하세요. 'pengdogmatis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dogmatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdogmatis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dogmatis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdogmatis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dogmatis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dogmatis",
+        "meaning": "(어근) dogmatis 수행 주체"
+      },
+      {
+        "word": "pengdogmatis",
+        "meaning": "dogmatis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_w3bvr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdogmatisan [[뼝dogmatis안]]",
+    "meaning": "dogmatis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "dogmatis",
+    "affix_logic": "어근 'dogmatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dogmatis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses dogmatis",
+    "antonym": "bukan dogmatis",
+    "context": "'pengdogmatisan'은(는) principalmente 'dogmatis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dogmatis'의 용법에 유의하세요. 'pengdogmatisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dogmatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdogmatisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dogmatis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdogmatisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dogmatis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dogmatis",
+        "meaning": "(어근) dogmatis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdogmatisan",
+        "meaning": "dogmatis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_6gxak",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdominatif [[버르dominatif]]",
+    "meaning": "dominatif하는 상태이다, dominatif를 행하다",
+    "pos": "동사",
+    "root": "dominatif",
+    "affix_logic": "어근 'dominatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'dominatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan dominatif",
+    "antonym": "tidak dominatif",
+    "context": "'berdominatif'은(는) principalmente 'dominatif하는 상태이다, dominatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dominatif'의 용법에 유의하세요. 'berdominatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dominatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdominatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dominatif하는 상태이다, dominatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdominatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dominatif하는 상태이다, dominatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dominatif",
+        "meaning": "(어근) dominatif하는 상태이다"
+      },
+      {
+        "word": "berdominatif",
+        "meaning": "dominatif하는 상태이다, dominatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_mt5m5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdominatif [[뼝dominatif]]",
+    "meaning": "dominatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "dominatif",
+    "affix_logic": "어근 'dominatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dominatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak dominatif",
+    "antonym": "bukan dominatif",
+    "context": "'pengdominatif'은(는) principalmente 'dominatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dominatif'의 용법에 유의하세요. 'pengdominatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dominatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdominatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dominatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdominatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dominatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dominatif",
+        "meaning": "(어근) dominatif 수행 주체"
+      },
+      {
+        "word": "pengdominatif",
+        "meaning": "dominatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_w101f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdominatifan [[뼝dominatif안]]",
+    "meaning": "dominatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "dominatif",
+    "affix_logic": "어근 'dominatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dominatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses dominatif",
+    "antonym": "bukan dominatif",
+    "context": "'pengdominatifan'은(는) principalmente 'dominatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dominatif'의 용법에 유의하세요. 'pengdominatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dominatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdominatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dominatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdominatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dominatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dominatif",
+        "meaning": "(어근) dominatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdominatifan",
+        "meaning": "dominatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_4y7uz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdualistis [[버르dualistis]]",
+    "meaning": "dualistis하는 상태이다, dualistis를 행하다",
+    "pos": "동사",
+    "root": "dualistis",
+    "affix_logic": "어근 'dualistis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'dualistis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan dualistis",
+    "antonym": "tidak dualistis",
+    "context": "'berdualistis'은(는) principalmente 'dualistis하는 상태이다, dualistis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dualistis'의 용법에 유의하세요. 'berdualistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dualistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berdualistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dualistis하는 상태이다, dualistis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berdualistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dualistis하는 상태이다, dualistis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dualistis",
+        "meaning": "(어근) dualistis하는 상태이다"
+      },
+      {
+        "word": "berdualistis",
+        "meaning": "dualistis하는 상태이다, dualistis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_7d18j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdualistis [[뼝dualistis]]",
+    "meaning": "dualistis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "dualistis",
+    "affix_logic": "어근 'dualistis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dualistis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak dualistis",
+    "antonym": "bukan dualistis",
+    "context": "'pengdualistis'은(는) principalmente 'dualistis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dualistis'의 용법에 유의하세요. 'pengdualistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dualistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdualistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dualistis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdualistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dualistis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dualistis",
+        "meaning": "(어근) dualistis 수행 주체"
+      },
+      {
+        "word": "pengdualistis",
+        "meaning": "dualistis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_iilfq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdualistisan [[뼝dualistis안]]",
+    "meaning": "dualistis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "dualistis",
+    "affix_logic": "어근 'dualistis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'dualistis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses dualistis",
+    "antonym": "bukan dualistis",
+    "context": "'pengdualistisan'은(는) principalmente 'dualistis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'dualistis'의 용법에 유의하세요. 'pengdualistisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'dualistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengdualistisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 dualistis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengdualistisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 dualistis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "dualistis",
+        "meaning": "(어근) dualistis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengdualistisan",
+        "meaning": "dualistis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_lcpkg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beredukatif [[버르edukatif]]",
+    "meaning": "edukatif하는 상태이다, edukatif를 행하다",
+    "pos": "동사",
+    "root": "edukatif",
+    "affix_logic": "어근 'edukatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'edukatif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan edukatif",
+    "antonym": "tidak edukatif",
+    "context": "'beredukatif'은(는) principalmente 'edukatif하는 상태이다, edukatif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'edukatif'의 용법에 유의하세요. 'beredukatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'edukatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beredukatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 edukatif하는 상태이다, edukatif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beredukatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 edukatif하는 상태이다, edukatif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "edukatif",
+        "meaning": "(어근) edukatif하는 상태이다"
+      },
+      {
+        "word": "beredukatif",
+        "meaning": "edukatif하는 상태이다, edukatif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_p172p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengedukatif [[뼝edukatif]]",
+    "meaning": "edukatif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "edukatif",
+    "affix_logic": "어근 'edukatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'edukatif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak edukatif",
+    "antonym": "bukan edukatif",
+    "context": "'pengedukatif'은(는) principalmente 'edukatif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'edukatif'의 용법에 유의하세요. 'pengedukatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'edukatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengedukatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 edukatif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengedukatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 edukatif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "edukatif",
+        "meaning": "(어근) edukatif 수행 주체"
+      },
+      {
+        "word": "pengedukatif",
+        "meaning": "edukatif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_mlwbu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengedukatifan [[뼝edukatif안]]",
+    "meaning": "edukatif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "edukatif",
+    "affix_logic": "어근 'edukatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'edukatif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses edukatif",
+    "antonym": "bukan edukatif",
+    "context": "'pengedukatifan'은(는) principalmente 'edukatif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'edukatif'의 용법에 유의하세요. 'pengedukatifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'edukatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengedukatifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 edukatif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengedukatifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 edukatif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "edukatif",
+        "meaning": "(어근) edukatif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengedukatifan",
+        "meaning": "edukatif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_yq36o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berefektif [[버르efektif]]",
+    "meaning": "efektif하는 상태이다, efektif를 행하다",
+    "pos": "동사",
+    "root": "efektif",
+    "affix_logic": "어근 'efektif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'efektif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan efektif",
+    "antonym": "tidak efektif",
+    "context": "'berefektif'은(는) principalmente 'efektif하는 상태이다, efektif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'efektif'의 용법에 유의하세요. 'berefektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'efektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berefektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 efektif하는 상태이다, efektif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berefektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 efektif하는 상태이다, efektif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "efektif",
+        "meaning": "(어근) efektif하는 상태이다"
+      },
+      {
+        "word": "berefektif",
+        "meaning": "efektif하는 상태이다, efektif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_4npjs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengefektif [[뼝efektif]]",
+    "meaning": "efektif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "efektif",
+    "affix_logic": "어근 'efektif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'efektif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak efektif",
+    "antonym": "bukan efektif",
+    "context": "'pengefektif'은(는) principalmente 'efektif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'efektif'의 용법에 유의하세요. 'pengefektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'efektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengefektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 efektif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengefektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 efektif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "efektif",
+        "meaning": "(어근) efektif 수행 주체"
+      },
+      {
+        "word": "pengefektif",
+        "meaning": "efektif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_b15at",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengefektifan [[뼝efektif안]]",
+    "meaning": "efektif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "efektif",
+    "affix_logic": "어근 'efektif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'efektif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses efektif",
+    "antonym": "bukan efektif",
+    "context": "'pengefektifan'은(는) principalmente 'efektif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'efektif'의 용법에 유의하세요. 'pengefektifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'efektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengefektifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 efektif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengefektifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 efektif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "efektif",
+        "meaning": "(어근) efektif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengefektifan",
+        "meaning": "efektif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_gxvl3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berefisien [[버르efisien]]",
+    "meaning": "efisien하는 상태이다, efisien를 행하다",
+    "pos": "동사",
+    "root": "efisien",
+    "affix_logic": "어근 'efisien'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'efisien'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan efisien",
+    "antonym": "tidak efisien",
+    "context": "'berefisien'은(는) principalmente 'efisien하는 상태이다, efisien를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'efisien'의 용법에 유의하세요. 'berefisien' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'efisien' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berefisien untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 efisien하는 상태이다, efisien를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berefisien yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 efisien하는 상태이다, efisien를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "efisien",
+        "meaning": "(어근) efisien하는 상태이다"
+      },
+      {
+        "word": "berefisien",
+        "meaning": "efisien하는 상태이다, efisien를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_wsh0n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengefisien [[뼝efisien]]",
+    "meaning": "efisien 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "efisien",
+    "affix_logic": "어근 'efisien'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'efisien'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak efisien",
+    "antonym": "bukan efisien",
+    "context": "'pengefisien'은(는) principalmente 'efisien 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'efisien'의 용법에 유의하세요. 'pengefisien' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'efisien' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengefisien untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 efisien 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengefisien yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 efisien 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "efisien",
+        "meaning": "(어근) efisien 수행 주체"
+      },
+      {
+        "word": "pengefisien",
+        "meaning": "efisien 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_dpwjb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengefisienan [[뼝efisien안]]",
+    "meaning": "efisien 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "efisien",
+    "affix_logic": "어근 'efisien'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'efisien'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses efisien",
+    "antonym": "bukan efisien",
+    "context": "'pengefisienan'은(는) principalmente 'efisien 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'efisien'의 용법에 유의하세요. 'pengefisienan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'efisien' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengefisienan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 efisien 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengefisienan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 efisien 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "efisien",
+        "meaning": "(어근) efisien 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengefisienan",
+        "meaning": "efisien 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_tdcef",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beregois [[버르egois]]",
+    "meaning": "egois하는 상태이다, egois를 행하다",
+    "pos": "동사",
+    "root": "egois",
+    "affix_logic": "어근 'egois'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'egois'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan egois",
+    "antonym": "tidak egois",
+    "context": "'beregois'은(는) principalmente 'egois하는 상태이다, egois를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'egois'의 용법에 유의하세요. 'beregois' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'egois' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beregois untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 egois하는 상태이다, egois를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beregois yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 egois하는 상태이다, egois를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "egois",
+        "meaning": "(어근) egois하는 상태이다"
+      },
+      {
+        "word": "beregois",
+        "meaning": "egois하는 상태이다, egois를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_10iuc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengegois [[뼝egois]]",
+    "meaning": "egois 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "egois",
+    "affix_logic": "어근 'egois'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'egois'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak egois",
+    "antonym": "bukan egois",
+    "context": "'pengegois'은(는) principalmente 'egois 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'egois'의 용법에 유의하세요. 'pengegois' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'egois' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengegois untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 egois 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengegois yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 egois 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "egois",
+        "meaning": "(어근) egois 수행 주체"
+      },
+      {
+        "word": "pengegois",
+        "meaning": "egois 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_xoisi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengegoisan [[뼝egois안]]",
+    "meaning": "egois 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "egois",
+    "affix_logic": "어근 'egois'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'egois'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses egois",
+    "antonym": "bukan egois",
+    "context": "'pengegoisan'은(는) principalmente 'egois 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'egois'의 용법에 유의하세요. 'pengegoisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'egois' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengegoisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 egois 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengegoisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 egois 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "egois",
+        "meaning": "(어근) egois 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengegoisan",
+        "meaning": "egois 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_vtgod",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekologis [[버르ekologis]]",
+    "meaning": "ekologis하는 상태이다, ekologis를 행하다",
+    "pos": "동사",
+    "root": "ekologis",
+    "affix_logic": "어근 'ekologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ekologis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ekologis",
+    "antonym": "tidak ekologis",
+    "context": "'berekologis'은(는) principalmente 'ekologis하는 상태이다, ekologis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekologis'의 용법에 유의하세요. 'berekologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berekologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekologis하는 상태이다, ekologis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berekologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekologis하는 상태이다, ekologis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekologis",
+        "meaning": "(어근) ekologis하는 상태이다"
+      },
+      {
+        "word": "berekologis",
+        "meaning": "ekologis하는 상태이다, ekologis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_vscg1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekologis [[뼝ekologis]]",
+    "meaning": "ekologis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ekologis",
+    "affix_logic": "어근 'ekologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekologis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ekologis",
+    "antonym": "bukan ekologis",
+    "context": "'pengekologis'은(는) principalmente 'ekologis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekologis'의 용법에 유의하세요. 'pengekologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekologis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekologis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekologis",
+        "meaning": "(어근) ekologis 수행 주체"
+      },
+      {
+        "word": "pengekologis",
+        "meaning": "ekologis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qadwc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekologisan [[뼝ekologis안]]",
+    "meaning": "ekologis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ekologis",
+    "affix_logic": "어근 'ekologis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekologis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ekologis",
+    "antonym": "bukan ekologis",
+    "context": "'pengekologisan'은(는) principalmente 'ekologis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekologis'의 용법에 유의하세요. 'pengekologisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekologisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekologis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekologisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekologis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekologis",
+        "meaning": "(어근) ekologis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengekologisan",
+        "meaning": "ekologis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_kbh3r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekonomis [[버르ekonomis]]",
+    "meaning": "ekonomis하는 상태이다, ekonomis를 행하다",
+    "pos": "동사",
+    "root": "ekonomis",
+    "affix_logic": "어근 'ekonomis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ekonomis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ekonomis",
+    "antonym": "tidak ekonomis",
+    "context": "'berekonomis'은(는) principalmente 'ekonomis하는 상태이다, ekonomis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekonomis'의 용법에 유의하세요. 'berekonomis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekonomis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berekonomis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekonomis하는 상태이다, ekonomis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berekonomis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekonomis하는 상태이다, ekonomis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekonomis",
+        "meaning": "(어근) ekonomis하는 상태이다"
+      },
+      {
+        "word": "berekonomis",
+        "meaning": "ekonomis하는 상태이다, ekonomis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_s16hs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekonomis [[뼝ekonomis]]",
+    "meaning": "ekonomis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ekonomis",
+    "affix_logic": "어근 'ekonomis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekonomis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ekonomis",
+    "antonym": "bukan ekonomis",
+    "context": "'pengekonomis'은(는) principalmente 'ekonomis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekonomis'의 용법에 유의하세요. 'pengekonomis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekonomis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekonomis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekonomis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekonomis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekonomis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekonomis",
+        "meaning": "(어근) ekonomis 수행 주체"
+      },
+      {
+        "word": "pengekonomis",
+        "meaning": "ekonomis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qifsg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekonomisan [[뼝ekonomis안]]",
+    "meaning": "ekonomis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ekonomis",
+    "affix_logic": "어근 'ekonomis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekonomis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ekonomis",
+    "antonym": "bukan ekonomis",
+    "context": "'pengekonomisan'은(는) principalmente 'ekonomis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekonomis'의 용법에 유의하세요. 'pengekonomisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekonomis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekonomisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekonomis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekonomisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekonomis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekonomis",
+        "meaning": "(어근) ekonomis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengekonomisan",
+        "meaning": "ekonomis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ruj6d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekosistemik [[버르ekosistemik]]",
+    "meaning": "ekosistemik하는 상태이다, ekosistemik를 행하다",
+    "pos": "동사",
+    "root": "ekosistemik",
+    "affix_logic": "어근 'ekosistemik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ekosistemik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ekosistemik",
+    "antonym": "tidak ekosistemik",
+    "context": "'berekosistemik'은(는) principalmente 'ekosistemik하는 상태이다, ekosistemik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekosistemik'의 용법에 유의하세요. 'berekosistemik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekosistemik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berekosistemik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekosistemik하는 상태이다, ekosistemik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berekosistemik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekosistemik하는 상태이다, ekosistemik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekosistemik",
+        "meaning": "(어근) ekosistemik하는 상태이다"
+      },
+      {
+        "word": "berekosistemik",
+        "meaning": "ekosistemik하는 상태이다, ekosistemik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_xql8g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekosistemik [[뼝ekosistemik]]",
+    "meaning": "ekosistemik 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ekosistemik",
+    "affix_logic": "어근 'ekosistemik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekosistemik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ekosistemik",
+    "antonym": "bukan ekosistemik",
+    "context": "'pengekosistemik'은(는) principalmente 'ekosistemik 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekosistemik'의 용법에 유의하세요. 'pengekosistemik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekosistemik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekosistemik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekosistemik 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekosistemik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekosistemik 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekosistemik",
+        "meaning": "(어근) ekosistemik 수행 주체"
+      },
+      {
+        "word": "pengekosistemik",
+        "meaning": "ekosistemik 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_fidrs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekosistemikan [[뼝ekosistemik안]]",
+    "meaning": "ekosistemik 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ekosistemik",
+    "affix_logic": "어근 'ekosistemik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekosistemik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ekosistemik",
+    "antonym": "bukan ekosistemik",
+    "context": "'pengekosistemikan'은(는) principalmente 'ekosistemik 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekosistemik'의 용법에 유의하세요. 'pengekosistemikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekosistemik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekosistemikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekosistemik 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekosistemikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekosistemik 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekosistemik",
+        "meaning": "(어근) ekosistemik 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengekosistemikan",
+        "meaning": "ekosistemik 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_34d5y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereksklusif [[버르eksklusif]]",
+    "meaning": "eksklusif하는 상태이다, eksklusif를 행하다",
+    "pos": "동사",
+    "root": "eksklusif",
+    "affix_logic": "어근 'eksklusif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'eksklusif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan eksklusif",
+    "antonym": "tidak eksklusif",
+    "context": "'bereksklusif'은(는) principalmente 'eksklusif하는 상태이다, eksklusif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksklusif'의 용법에 유의하세요. 'bereksklusif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksklusif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bereksklusif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksklusif하는 상태이다, eksklusif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bereksklusif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksklusif하는 상태이다, eksklusif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksklusif",
+        "meaning": "(어근) eksklusif하는 상태이다"
+      },
+      {
+        "word": "bereksklusif",
+        "meaning": "eksklusif하는 상태이다, eksklusif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ol03n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksklusif [[뼝eksklusif]]",
+    "meaning": "eksklusif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "eksklusif",
+    "affix_logic": "어근 'eksklusif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksklusif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak eksklusif",
+    "antonym": "bukan eksklusif",
+    "context": "'pengeksklusif'은(는) principalmente 'eksklusif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksklusif'의 용법에 유의하세요. 'pengeksklusif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksklusif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksklusif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksklusif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksklusif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksklusif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksklusif",
+        "meaning": "(어근) eksklusif 수행 주체"
+      },
+      {
+        "word": "pengeksklusif",
+        "meaning": "eksklusif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_v6khr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksklusifan [[뼝eksklusif안]]",
+    "meaning": "eksklusif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "eksklusif",
+    "affix_logic": "어근 'eksklusif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksklusif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses eksklusif",
+    "antonym": "bukan eksklusif",
+    "context": "'pengeksklusifan'은(는) principalmente 'eksklusif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksklusif'의 용법에 유의하세요. 'pengeksklusifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksklusif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksklusifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksklusif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksklusifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksklusif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksklusif",
+        "meaning": "(어근) eksklusif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengeksklusifan",
+        "meaning": "eksklusif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_frqp2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekspansif [[버르ekspansif]]",
+    "meaning": "ekspansif하는 상태이다, ekspansif를 행하다",
+    "pos": "동사",
+    "root": "ekspansif",
+    "affix_logic": "어근 'ekspansif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ekspansif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ekspansif",
+    "antonym": "tidak ekspansif",
+    "context": "'berekspansif'은(는) principalmente 'ekspansif하는 상태이다, ekspansif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekspansif'의 용법에 유의하세요. 'berekspansif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekspansif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berekspansif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekspansif하는 상태이다, ekspansif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berekspansif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekspansif하는 상태이다, ekspansif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekspansif",
+        "meaning": "(어근) ekspansif하는 상태이다"
+      },
+      {
+        "word": "berekspansif",
+        "meaning": "ekspansif하는 상태이다, ekspansif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_iuvr8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspansif [[뼝ekspansif]]",
+    "meaning": "ekspansif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ekspansif",
+    "affix_logic": "어근 'ekspansif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekspansif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ekspansif",
+    "antonym": "bukan ekspansif",
+    "context": "'pengekspansif'은(는) principalmente 'ekspansif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekspansif'의 용법에 유의하세요. 'pengekspansif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekspansif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekspansif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekspansif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekspansif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekspansif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekspansif",
+        "meaning": "(어근) ekspansif 수행 주체"
+      },
+      {
+        "word": "pengekspansif",
+        "meaning": "ekspansif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qm8lo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspansifan [[뼝ekspansif안]]",
+    "meaning": "ekspansif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ekspansif",
+    "affix_logic": "어근 'ekspansif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekspansif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ekspansif",
+    "antonym": "bukan ekspansif",
+    "context": "'pengekspansifan'은(는) principalmente 'ekspansif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekspansif'의 용법에 유의하세요. 'pengekspansifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekspansif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekspansifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekspansif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekspansifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekspansif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekspansif",
+        "meaning": "(어근) ekspansif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengekspansifan",
+        "meaning": "ekspansif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_n03od",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereksperimental [[버르eksperimental]]",
+    "meaning": "eksperimental하는 상태이다, eksperimental를 행하다",
+    "pos": "동사",
+    "root": "eksperimental",
+    "affix_logic": "어근 'eksperimental'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'eksperimental'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan eksperimental",
+    "antonym": "tidak eksperimental",
+    "context": "'bereksperimental'은(는) principalmente 'eksperimental하는 상태이다, eksperimental를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksperimental'의 용법에 유의하세요. 'bereksperimental' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksperimental' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bereksperimental untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksperimental하는 상태이다, eksperimental를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bereksperimental yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksperimental하는 상태이다, eksperimental를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksperimental",
+        "meaning": "(어근) eksperimental하는 상태이다"
+      },
+      {
+        "word": "bereksperimental",
+        "meaning": "eksperimental하는 상태이다, eksperimental를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_w67n3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksperimental [[뼝eksperimental]]",
+    "meaning": "eksperimental 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "eksperimental",
+    "affix_logic": "어근 'eksperimental'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksperimental'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak eksperimental",
+    "antonym": "bukan eksperimental",
+    "context": "'pengeksperimental'은(는) principalmente 'eksperimental 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksperimental'의 용법에 유의하세요. 'pengeksperimental' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksperimental' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksperimental untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksperimental 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksperimental yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksperimental 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksperimental",
+        "meaning": "(어근) eksperimental 수행 주체"
+      },
+      {
+        "word": "pengeksperimental",
+        "meaning": "eksperimental 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_utbzc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksperimentalan [[뼝eksperimental안]]",
+    "meaning": "eksperimental 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "eksperimental",
+    "affix_logic": "어근 'eksperimental'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksperimental'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses eksperimental",
+    "antonym": "bukan eksperimental",
+    "context": "'pengeksperimentalan'은(는) principalmente 'eksperimental 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksperimental'의 용법에 유의하세요. 'pengeksperimentalan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksperimental' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksperimentalan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksperimental 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksperimentalan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksperimental 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksperimental",
+        "meaning": "(어근) eksperimental 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengeksperimentalan",
+        "meaning": "eksperimental 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_0awes",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereksplicit [[버르eksplicit]]",
+    "meaning": "eksplicit하는 상태이다, eksplicit를 행하다",
+    "pos": "동사",
+    "root": "eksplicit",
+    "affix_logic": "어근 'eksplicit'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'eksplicit'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan eksplicit",
+    "antonym": "tidak eksplicit",
+    "context": "'bereksplicit'은(는) principalmente 'eksplicit하는 상태이다, eksplicit를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksplicit'의 용법에 유의하세요. 'bereksplicit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksplicit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bereksplicit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksplicit하는 상태이다, eksplicit를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bereksplicit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksplicit하는 상태이다, eksplicit를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksplicit",
+        "meaning": "(어근) eksplicit하는 상태이다"
+      },
+      {
+        "word": "bereksplicit",
+        "meaning": "eksplicit하는 상태이다, eksplicit를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ghrx2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksplicit [[뼝eksplicit]]",
+    "meaning": "eksplicit 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "eksplicit",
+    "affix_logic": "어근 'eksplicit'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksplicit'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak eksplicit",
+    "antonym": "bukan eksplicit",
+    "context": "'pengeksplicit'은(는) principalmente 'eksplicit 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksplicit'의 용법에 유의하세요. 'pengeksplicit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksplicit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksplicit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksplicit 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksplicit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksplicit 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksplicit",
+        "meaning": "(어근) eksplicit 수행 주체"
+      },
+      {
+        "word": "pengeksplicit",
+        "meaning": "eksplicit 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_1guld",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksplicitan [[뼝eksplicit안]]",
+    "meaning": "eksplicit 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "eksplicit",
+    "affix_logic": "어근 'eksplicit'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksplicit'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses eksplicit",
+    "antonym": "bukan eksplicit",
+    "context": "'pengeksplicitan'은(는) principalmente 'eksplicit 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksplicit'의 용법에 유의하세요. 'pengeksplicitan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksplicit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksplicitan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksplicit 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksplicitan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksplicit 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksplicit",
+        "meaning": "(어근) eksplicit 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengeksplicitan",
+        "meaning": "eksplicit 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_mlsqx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereksploratif [[버르eksploratif]]",
+    "meaning": "eksploratif하는 상태이다, eksploratif를 행하다",
+    "pos": "동사",
+    "root": "eksploratif",
+    "affix_logic": "어근 'eksploratif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'eksploratif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan eksploratif",
+    "antonym": "tidak eksploratif",
+    "context": "'bereksploratif'은(는) principalmente 'eksploratif하는 상태이다, eksploratif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksploratif'의 용법에 유의하세요. 'bereksploratif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksploratif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait bereksploratif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksploratif하는 상태이다, eksploratif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang bereksploratif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksploratif하는 상태이다, eksploratif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksploratif",
+        "meaning": "(어근) eksploratif하는 상태이다"
+      },
+      {
+        "word": "bereksploratif",
+        "meaning": "eksploratif하는 상태이다, eksploratif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_f31x5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksploratif [[뼝eksploratif]]",
+    "meaning": "eksploratif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "eksploratif",
+    "affix_logic": "어근 'eksploratif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksploratif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak eksploratif",
+    "antonym": "bukan eksploratif",
+    "context": "'pengeksploratif'은(는) principalmente 'eksploratif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksploratif'의 용법에 유의하세요. 'pengeksploratif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksploratif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksploratif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksploratif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksploratif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksploratif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksploratif",
+        "meaning": "(어근) eksploratif 수행 주체"
+      },
+      {
+        "word": "pengeksploratif",
+        "meaning": "eksploratif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_7lqhf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksploratifan [[뼝eksploratif안]]",
+    "meaning": "eksploratif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "eksploratif",
+    "affix_logic": "어근 'eksploratif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'eksploratif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses eksploratif",
+    "antonym": "bukan eksploratif",
+    "context": "'pengeksploratifan'은(는) principalmente 'eksploratif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'eksploratif'의 용법에 유의하세요. 'pengeksploratifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'eksploratif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengeksploratifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 eksploratif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengeksploratifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 eksploratif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "eksploratif",
+        "meaning": "(어근) eksploratif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengeksploratifan",
+        "meaning": "eksploratif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_g6zil",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekspresif [[버르ekspresif]]",
+    "meaning": "ekspresif하는 상태이다, ekspresif를 행하다",
+    "pos": "동사",
+    "root": "ekspresif",
+    "affix_logic": "어근 'ekspresif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ekspresif'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ekspresif",
+    "antonym": "tidak ekspresif",
+    "context": "'berekspresif'은(는) principalmente 'ekspresif하는 상태이다, ekspresif를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekspresif'의 용법에 유의하세요. 'berekspresif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekspresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berekspresif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekspresif하는 상태이다, ekspresif를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berekspresif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekspresif하는 상태이다, ekspresif를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekspresif",
+        "meaning": "(어근) ekspresif하는 상태이다"
+      },
+      {
+        "word": "berekspresif",
+        "meaning": "ekspresif하는 상태이다, ekspresif를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_u0aia",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspresif [[뼝ekspresif]]",
+    "meaning": "ekspresif 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ekspresif",
+    "affix_logic": "어근 'ekspresif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekspresif'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ekspresif",
+    "antonym": "bukan ekspresif",
+    "context": "'pengekspresif'은(는) principalmente 'ekspresif 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekspresif'의 용법에 유의하세요. 'pengekspresif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekspresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekspresif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekspresif 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekspresif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekspresif 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekspresif",
+        "meaning": "(어근) ekspresif 수행 주체"
+      },
+      {
+        "word": "pengekspresif",
+        "meaning": "ekspresif 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_2bt5u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspresifan [[뼝ekspresif안]]",
+    "meaning": "ekspresif 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ekspresif",
+    "affix_logic": "어근 'ekspresif'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekspresif'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ekspresif",
+    "antonym": "bukan ekspresif",
+    "context": "'pengekspresifan'은(는) principalmente 'ekspresif 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekspresif'의 용법에 유의하세요. 'pengekspresifan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekspresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekspresifan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekspresif 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekspresifan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekspresif 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekspresif",
+        "meaning": "(어근) ekspresif 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengekspresifan",
+        "meaning": "ekspresif 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_bnp3e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekstremis [[버르ekstremis]]",
+    "meaning": "ekstremis하는 상태이다, ekstremis를 행하다",
+    "pos": "동사",
+    "root": "ekstremis",
+    "affix_logic": "어근 'ekstremis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ekstremis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ekstremis",
+    "antonym": "tidak ekstremis",
+    "context": "'berekstremis'은(는) principalmente 'ekstremis하는 상태이다, ekstremis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekstremis'의 용법에 유의하세요. 'berekstremis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekstremis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berekstremis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekstremis하는 상태이다, ekstremis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berekstremis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekstremis하는 상태이다, ekstremis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekstremis",
+        "meaning": "(어근) ekstremis하는 상태이다"
+      },
+      {
+        "word": "berekstremis",
+        "meaning": "ekstremis하는 상태이다, ekstremis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_zo2fr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekstremis [[뼝ekstremis]]",
+    "meaning": "ekstremis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ekstremis",
+    "affix_logic": "어근 'ekstremis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekstremis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ekstremis",
+    "antonym": "bukan ekstremis",
+    "context": "'pengekstremis'은(는) principalmente 'ekstremis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekstremis'의 용법에 유의하세요. 'pengekstremis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekstremis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekstremis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekstremis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekstremis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekstremis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekstremis",
+        "meaning": "(어근) ekstremis 수행 주체"
+      },
+      {
+        "word": "pengekstremis",
+        "meaning": "ekstremis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_wvg28",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekstremisan [[뼝ekstremis안]]",
+    "meaning": "ekstremis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ekstremis",
+    "affix_logic": "어근 'ekstremis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekstremis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ekstremis",
+    "antonym": "bukan ekstremis",
+    "context": "'pengekstremisan'은(는) principalmente 'ekstremis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekstremis'의 용법에 유의하세요. 'pengekstremisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekstremis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekstremisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekstremis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekstremisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekstremis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekstremis",
+        "meaning": "(어근) ekstremis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengekstremisan",
+        "meaning": "ekstremis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_w1whh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekstrinsik [[버르ekstrinsik]]",
+    "meaning": "ekstrinsik하는 상태이다, ekstrinsik를 행하다",
+    "pos": "동사",
+    "root": "ekstrinsik",
+    "affix_logic": "어근 'ekstrinsik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ekstrinsik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ekstrinsik",
+    "antonym": "tidak ekstrinsik",
+    "context": "'berekstrinsik'은(는) principalmente 'ekstrinsik하는 상태이다, ekstrinsik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekstrinsik'의 용법에 유의하세요. 'berekstrinsik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekstrinsik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berekstrinsik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekstrinsik하는 상태이다, ekstrinsik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berekstrinsik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekstrinsik하는 상태이다, ekstrinsik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekstrinsik",
+        "meaning": "(어근) ekstrinsik하는 상태이다"
+      },
+      {
+        "word": "berekstrinsik",
+        "meaning": "ekstrinsik하는 상태이다, ekstrinsik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_eg018",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekstrinsik [[뼝ekstrinsik]]",
+    "meaning": "ekstrinsik 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ekstrinsik",
+    "affix_logic": "어근 'ekstrinsik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekstrinsik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ekstrinsik",
+    "antonym": "bukan ekstrinsik",
+    "context": "'pengekstrinsik'은(는) principalmente 'ekstrinsik 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekstrinsik'의 용법에 유의하세요. 'pengekstrinsik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekstrinsik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekstrinsik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekstrinsik 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekstrinsik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekstrinsik 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekstrinsik",
+        "meaning": "(어근) ekstrinsik 수행 주체"
+      },
+      {
+        "word": "pengekstrinsik",
+        "meaning": "ekstrinsik 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_lkwo2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekstrinsikan [[뼝ekstrinsik안]]",
+    "meaning": "ekstrinsik 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ekstrinsik",
+    "affix_logic": "어근 'ekstrinsik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ekstrinsik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ekstrinsik",
+    "antonym": "bukan ekstrinsik",
+    "context": "'pengekstrinsikan'은(는) principalmente 'ekstrinsik 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ekstrinsik'의 용법에 유의하세요. 'pengekstrinsikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ekstrinsik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengekstrinsikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ekstrinsik 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengekstrinsikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ekstrinsik 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ekstrinsik",
+        "meaning": "(어근) ekstrinsik 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengekstrinsikan",
+        "meaning": "ekstrinsik 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_4a0hp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelastis [[버르elastis]]",
+    "meaning": "elastis하는 상태이다, elastis를 행하다",
+    "pos": "동사",
+    "root": "elastis",
+    "affix_logic": "어근 'elastis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'elastis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan elastis",
+    "antonym": "tidak elastis",
+    "context": "'berelastis'은(는) principalmente 'elastis하는 상태이다, elastis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elastis'의 용법에 유의하세요. 'berelastis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elastis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berelastis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elastis하는 상태이다, elastis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berelastis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elastis하는 상태이다, elastis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elastis",
+        "meaning": "(어근) elastis하는 상태이다"
+      },
+      {
+        "word": "berelastis",
+        "meaning": "elastis하는 상태이다, elastis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_tvft3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelastis [[뼝elastis]]",
+    "meaning": "elastis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "elastis",
+    "affix_logic": "어근 'elastis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elastis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak elastis",
+    "antonym": "bukan elastis",
+    "context": "'pengelastis'은(는) principalmente 'elastis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elastis'의 용법에 유의하세요. 'pengelastis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elastis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelastis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elastis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelastis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elastis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elastis",
+        "meaning": "(어근) elastis 수행 주체"
+      },
+      {
+        "word": "pengelastis",
+        "meaning": "elastis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_t1iti",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelastisan [[뼝elastis안]]",
+    "meaning": "elastis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "elastis",
+    "affix_logic": "어근 'elastis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elastis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses elastis",
+    "antonym": "bukan elastis",
+    "context": "'pengelastisan'은(는) principalmente 'elastis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elastis'의 용법에 유의하세요. 'pengelastisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elastis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelastisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elastis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelastisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elastis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elastis",
+        "meaning": "(어근) elastis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengelastisan",
+        "meaning": "elastis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_bwufb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelektoral [[버르elektoral]]",
+    "meaning": "elektoral하는 상태이다, elektoral를 행하다",
+    "pos": "동사",
+    "root": "elektoral",
+    "affix_logic": "어근 'elektoral'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'elektoral'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan elektoral",
+    "antonym": "tidak elektoral",
+    "context": "'berelektoral'은(는) principalmente 'elektoral하는 상태이다, elektoral를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elektoral'의 용법에 유의하세요. 'berelektoral' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elektoral' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berelektoral untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elektoral하는 상태이다, elektoral를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berelektoral yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elektoral하는 상태이다, elektoral를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elektoral",
+        "meaning": "(어근) elektoral하는 상태이다"
+      },
+      {
+        "word": "berelektoral",
+        "meaning": "elektoral하는 상태이다, elektoral를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_anbpk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektoral [[뼝elektoral]]",
+    "meaning": "elektoral 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "elektoral",
+    "affix_logic": "어근 'elektoral'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elektoral'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak elektoral",
+    "antonym": "bukan elektoral",
+    "context": "'pengelektoral'은(는) principalmente 'elektoral 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elektoral'의 용법에 유의하세요. 'pengelektoral' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elektoral' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelektoral untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elektoral 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelektoral yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elektoral 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elektoral",
+        "meaning": "(어근) elektoral 수행 주체"
+      },
+      {
+        "word": "pengelektoral",
+        "meaning": "elektoral 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ggkm1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektoralan [[뼝elektoral안]]",
+    "meaning": "elektoral 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "elektoral",
+    "affix_logic": "어근 'elektoral'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elektoral'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses elektoral",
+    "antonym": "bukan elektoral",
+    "context": "'pengelektoralan'은(는) principalmente 'elektoral 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elektoral'의 용법에 유의하세요. 'pengelektoralan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elektoral' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelektoralan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elektoral 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelektoralan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elektoral 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elektoral",
+        "meaning": "(어근) elektoral 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengelektoralan",
+        "meaning": "elektoral 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_lo1zy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelektronis [[버르elektronis]]",
+    "meaning": "elektronis하는 상태이다, elektronis를 행하다",
+    "pos": "동사",
+    "root": "elektronis",
+    "affix_logic": "어근 'elektronis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'elektronis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan elektronis",
+    "antonym": "tidak elektronis",
+    "context": "'berelektronis'은(는) principalmente 'elektronis하는 상태이다, elektronis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elektronis'의 용법에 유의하세요. 'berelektronis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elektronis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berelektronis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elektronis하는 상태이다, elektronis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berelektronis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elektronis하는 상태이다, elektronis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elektronis",
+        "meaning": "(어근) elektronis하는 상태이다"
+      },
+      {
+        "word": "berelektronis",
+        "meaning": "elektronis하는 상태이다, elektronis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_2bevo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektronis [[뼝elektronis]]",
+    "meaning": "elektronis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "elektronis",
+    "affix_logic": "어근 'elektronis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elektronis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak elektronis",
+    "antonym": "bukan elektronis",
+    "context": "'pengelektronis'은(는) principalmente 'elektronis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elektronis'의 용법에 유의하세요. 'pengelektronis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elektronis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelektronis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elektronis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelektronis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elektronis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elektronis",
+        "meaning": "(어근) elektronis 수행 주체"
+      },
+      {
+        "word": "pengelektronis",
+        "meaning": "elektronis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_lb7fq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektronisan [[뼝elektronis안]]",
+    "meaning": "elektronis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "elektronis",
+    "affix_logic": "어근 'elektronis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elektronis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses elektronis",
+    "antonym": "bukan elektronis",
+    "context": "'pengelektronisan'은(는) principalmente 'elektronis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elektronis'의 용법에 유의하세요. 'pengelektronisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elektronis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelektronisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elektronis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelektronisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elektronis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elektronis",
+        "meaning": "(어근) elektronis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengelektronisan",
+        "meaning": "elektronis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_blhdm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelementer [[버르elementer]]",
+    "meaning": "elementer하는 상태이다, elementer를 행하다",
+    "pos": "동사",
+    "root": "elementer",
+    "affix_logic": "어근 'elementer'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'elementer'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan elementer",
+    "antonym": "tidak elementer",
+    "context": "'berelementer'은(는) principalmente 'elementer하는 상태이다, elementer를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elementer'의 용법에 유의하세요. 'berelementer' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elementer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berelementer untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elementer하는 상태이다, elementer를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berelementer yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elementer하는 상태이다, elementer를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elementer",
+        "meaning": "(어근) elementer하는 상태이다"
+      },
+      {
+        "word": "berelementer",
+        "meaning": "elementer하는 상태이다, elementer를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_jgnqs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelementer [[뼝elementer]]",
+    "meaning": "elementer 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "elementer",
+    "affix_logic": "어근 'elementer'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elementer'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak elementer",
+    "antonym": "bukan elementer",
+    "context": "'pengelementer'은(는) principalmente 'elementer 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elementer'의 용법에 유의하세요. 'pengelementer' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elementer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelementer untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elementer 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelementer yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elementer 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elementer",
+        "meaning": "(어근) elementer 수행 주체"
+      },
+      {
+        "word": "pengelementer",
+        "meaning": "elementer 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_w6ffd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelementeran [[뼝elementer안]]",
+    "meaning": "elementer 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "elementer",
+    "affix_logic": "어근 'elementer'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'elementer'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses elementer",
+    "antonym": "bukan elementer",
+    "context": "'pengelementeran'은(는) principalmente 'elementer 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'elementer'의 용법에 유의하세요. 'pengelementeran' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'elementer' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengelementeran untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 elementer 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengelementeran yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 elementer 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "elementer",
+        "meaning": "(어근) elementer 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengelementeran",
+        "meaning": "elementer 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_rnsx4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berematis [[버르ematis]]",
+    "meaning": "ematis하는 상태이다, ematis를 행하다",
+    "pos": "동사",
+    "root": "ematis",
+    "affix_logic": "어근 'ematis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ematis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ematis",
+    "antonym": "tidak ematis",
+    "context": "'berematis'은(는) principalmente 'ematis하는 상태이다, ematis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ematis'의 용법에 유의하세요. 'berematis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ematis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berematis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ematis하는 상태이다, ematis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berematis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ematis하는 상태이다, ematis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ematis",
+        "meaning": "(어근) ematis하는 상태이다"
+      },
+      {
+        "word": "berematis",
+        "meaning": "ematis하는 상태이다, ematis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_uvyf5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengematis [[뼝ematis]]",
+    "meaning": "ematis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ematis",
+    "affix_logic": "어근 'ematis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ematis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ematis",
+    "antonym": "bukan ematis",
+    "context": "'pengematis'은(는) principalmente 'ematis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ematis'의 용법에 유의하세요. 'pengematis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ematis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengematis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ematis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengematis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ematis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ematis",
+        "meaning": "(어근) ematis 수행 주체"
+      },
+      {
+        "word": "pengematis",
+        "meaning": "ematis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_rl3vb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengematisan [[뼝ematis안]]",
+    "meaning": "ematis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ematis",
+    "affix_logic": "어근 'ematis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ematis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ematis",
+    "antonym": "bukan ematis",
+    "context": "'pengematisan'은(는) principalmente 'ematis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ematis'의 용법에 유의하세요. 'pengematisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ematis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengematisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ematis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengematisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ematis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ematis",
+        "meaning": "(어근) ematis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengematisan",
+        "meaning": "ematis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_93pz4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berempiris [[버르empiris]]",
+    "meaning": "empiris하는 상태이다, empiris를 행하다",
+    "pos": "동사",
+    "root": "empiris",
+    "affix_logic": "어근 'empiris'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'empiris'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan empiris",
+    "antonym": "tidak empiris",
+    "context": "'berempiris'은(는) principalmente 'empiris하는 상태이다, empiris를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'empiris'의 용법에 유의하세요. 'berempiris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'empiris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berempiris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 empiris하는 상태이다, empiris를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berempiris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 empiris하는 상태이다, empiris를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "empiris",
+        "meaning": "(어근) empiris하는 상태이다"
+      },
+      {
+        "word": "berempiris",
+        "meaning": "empiris하는 상태이다, empiris를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_jwfo0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengempiris [[뼝empiris]]",
+    "meaning": "empiris 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "empiris",
+    "affix_logic": "어근 'empiris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'empiris'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak empiris",
+    "antonym": "bukan empiris",
+    "context": "'pengempiris'은(는) principalmente 'empiris 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'empiris'의 용법에 유의하세요. 'pengempiris' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'empiris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengempiris untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 empiris 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengempiris yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 empiris 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "empiris",
+        "meaning": "(어근) empiris 수행 주체"
+      },
+      {
+        "word": "pengempiris",
+        "meaning": "empiris 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_kzsmi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengempirisan [[뼝empiris안]]",
+    "meaning": "empiris 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "empiris",
+    "affix_logic": "어근 'empiris'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'empiris'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses empiris",
+    "antonym": "bukan empiris",
+    "context": "'pengempirisan'은(는) principalmente 'empiris 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'empiris'의 용법에 유의하세요. 'pengempirisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'empiris' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengempirisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 empiris 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengempirisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 empiris 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "empiris",
+        "meaning": "(어근) empiris 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengempirisan",
+        "meaning": "empiris 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_bcyd1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beremulasis [[버르emulasis]]",
+    "meaning": "emulasis하는 상태이다, emulasis를 행하다",
+    "pos": "동사",
+    "root": "emulasis",
+    "affix_logic": "어근 'emulasis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'emulasis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan emulasis",
+    "antonym": "tidak emulasis",
+    "context": "'beremulasis'은(는) principalmente 'emulasis하는 상태이다, emulasis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'emulasis'의 용법에 유의하세요. 'beremulasis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'emulasis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait beremulasis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 emulasis하는 상태이다, emulasis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang beremulasis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 emulasis하는 상태이다, emulasis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "emulasis",
+        "meaning": "(어근) emulasis하는 상태이다"
+      },
+      {
+        "word": "beremulasis",
+        "meaning": "emulasis하는 상태이다, emulasis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_lmjd2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengemulasis [[뼝emulasis]]",
+    "meaning": "emulasis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "emulasis",
+    "affix_logic": "어근 'emulasis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'emulasis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak emulasis",
+    "antonym": "bukan emulasis",
+    "context": "'pengemulasis'은(는) principalmente 'emulasis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'emulasis'의 용법에 유의하세요. 'pengemulasis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'emulasis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengemulasis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 emulasis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengemulasis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 emulasis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "emulasis",
+        "meaning": "(어근) emulasis 수행 주체"
+      },
+      {
+        "word": "pengemulasis",
+        "meaning": "emulasis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_3omba",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengemulasisan [[뼝emulasis안]]",
+    "meaning": "emulasis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "emulasis",
+    "affix_logic": "어근 'emulasis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'emulasis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses emulasis",
+    "antonym": "bukan emulasis",
+    "context": "'pengemulasisan'은(는) principalmente 'emulasis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'emulasis'의 용법에 유의하세요. 'pengemulasisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'emulasis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengemulasisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 emulasis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengemulasisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 emulasis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "emulasis",
+        "meaning": "(어근) emulasis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengemulasisan",
+        "meaning": "emulasis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_9oe0t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berendemis [[버르endemis]]",
+    "meaning": "endemis하는 상태이다, endemis를 행하다",
+    "pos": "동사",
+    "root": "endemis",
+    "affix_logic": "어근 'endemis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'endemis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan endemis",
+    "antonym": "tidak endemis",
+    "context": "'berendemis'은(는) principalmente 'endemis하는 상태이다, endemis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'endemis'의 용법에 유의하세요. 'berendemis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'endemis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berendemis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 endemis하는 상태이다, endemis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berendemis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 endemis하는 상태이다, endemis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "endemis",
+        "meaning": "(어근) endemis하는 상태이다"
+      },
+      {
+        "word": "berendemis",
+        "meaning": "endemis하는 상태이다, endemis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_sn6r8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengendemis [[뼝endemis]]",
+    "meaning": "endemis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "endemis",
+    "affix_logic": "어근 'endemis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'endemis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak endemis",
+    "antonym": "bukan endemis",
+    "context": "'pengendemis'은(는) principalmente 'endemis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'endemis'의 용법에 유의하세요. 'pengendemis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'endemis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengendemis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 endemis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengendemis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 endemis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "endemis",
+        "meaning": "(어근) endemis 수행 주체"
+      },
+      {
+        "word": "pengendemis",
+        "meaning": "endemis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_xsg4h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengendemisan [[뼝endemis안]]",
+    "meaning": "endemis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "endemis",
+    "affix_logic": "어근 'endemis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'endemis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses endemis",
+    "antonym": "bukan endemis",
+    "context": "'pengendemisan'은(는) principalmente 'endemis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'endemis'의 용법에 유의하세요. 'pengendemisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'endemis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengendemisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 endemis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengendemisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 endemis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "endemis",
+        "meaning": "(어근) endemis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengendemisan",
+        "meaning": "endemis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_p9v5o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berenergik [[버르energik]]",
+    "meaning": "energik하는 상태이다, energik를 행하다",
+    "pos": "동사",
+    "root": "energik",
+    "affix_logic": "어근 'energik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'energik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan energik",
+    "antonym": "tidak energik",
+    "context": "'berenergik'은(는) principalmente 'energik하는 상태이다, energik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'energik'의 용법에 유의하세요. 'berenergik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'energik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berenergik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 energik하는 상태이다, energik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berenergik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 energik하는 상태이다, energik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "energik",
+        "meaning": "(어근) energik하는 상태이다"
+      },
+      {
+        "word": "berenergik",
+        "meaning": "energik하는 상태이다, energik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_zlsww",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengenergik [[뼝energik]]",
+    "meaning": "energik 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "energik",
+    "affix_logic": "어근 'energik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'energik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak energik",
+    "antonym": "bukan energik",
+    "context": "'pengenergik'은(는) principalmente 'energik 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'energik'의 용법에 유의하세요. 'pengenergik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'energik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengenergik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 energik 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengenergik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 energik 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "energik",
+        "meaning": "(어근) energik 수행 주체"
+      },
+      {
+        "word": "pengenergik",
+        "meaning": "energik 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_qrt4d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengenergikan [[뼝energik안]]",
+    "meaning": "energik 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "energik",
+    "affix_logic": "어근 'energik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'energik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses energik",
+    "antonym": "bukan energik",
+    "context": "'pengenergikan'은(는) principalmente 'energik 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'energik'의 용법에 유의하세요. 'pengenergikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'energik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengenergikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 energik 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengenergikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 energik 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "energik",
+        "meaning": "(어근) energik 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengenergikan",
+        "meaning": "energik 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_lgprv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berentropis [[버르entropis]]",
+    "meaning": "entropis하는 상태이다, entropis를 행하다",
+    "pos": "동사",
+    "root": "entropis",
+    "affix_logic": "어근 'entropis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'entropis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan entropis",
+    "antonym": "tidak entropis",
+    "context": "'berentropis'은(는) principalmente 'entropis하는 상태이다, entropis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'entropis'의 용법에 유의하세요. 'berentropis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'entropis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berentropis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 entropis하는 상태이다, entropis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berentropis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 entropis하는 상태이다, entropis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "entropis",
+        "meaning": "(어근) entropis하는 상태이다"
+      },
+      {
+        "word": "berentropis",
+        "meaning": "entropis하는 상태이다, entropis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_5u0rg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengentropis [[뼝entropis]]",
+    "meaning": "entropis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "entropis",
+    "affix_logic": "어근 'entropis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'entropis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak entropis",
+    "antonym": "bukan entropis",
+    "context": "'pengentropis'은(는) principalmente 'entropis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'entropis'의 용법에 유의하세요. 'pengentropis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'entropis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengentropis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 entropis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengentropis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 entropis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "entropis",
+        "meaning": "(어근) entropis 수행 주체"
+      },
+      {
+        "word": "pengentropis",
+        "meaning": "entropis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_38wd1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengentropisan [[뼝entropis안]]",
+    "meaning": "entropis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "entropis",
+    "affix_logic": "어근 'entropis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'entropis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses entropis",
+    "antonym": "bukan entropis",
+    "context": "'pengentropisan'은(는) principalmente 'entropis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'entropis'의 용법에 유의하세요. 'pengentropisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'entropis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengentropisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 entropis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengentropisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 entropis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "entropis",
+        "meaning": "(어근) entropis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengentropisan",
+        "meaning": "entropis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_3kpx6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berepisodis [[버르episodis]]",
+    "meaning": "episodis하는 상태이다, episodis를 행하다",
+    "pos": "동사",
+    "root": "episodis",
+    "affix_logic": "어근 'episodis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'episodis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan episodis",
+    "antonym": "tidak episodis",
+    "context": "'berepisodis'은(는) principalmente 'episodis하는 상태이다, episodis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'episodis'의 용법에 유의하세요. 'berepisodis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'episodis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berepisodis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 episodis하는 상태이다, episodis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berepisodis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 episodis하는 상태이다, episodis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "episodis",
+        "meaning": "(어근) episodis하는 상태이다"
+      },
+      {
+        "word": "berepisodis",
+        "meaning": "episodis하는 상태이다, episodis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_7uro1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepisodis [[뼝episodis]]",
+    "meaning": "episodis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "episodis",
+    "affix_logic": "어근 'episodis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'episodis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak episodis",
+    "antonym": "bukan episodis",
+    "context": "'pengepisodis'은(는) principalmente 'episodis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'episodis'의 용법에 유의하세요. 'pengepisodis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'episodis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengepisodis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 episodis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengepisodis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 episodis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "episodis",
+        "meaning": "(어근) episodis 수행 주체"
+      },
+      {
+        "word": "pengepisodis",
+        "meaning": "episodis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_arm85",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepisodisan [[뼝episodis안]]",
+    "meaning": "episodis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "episodis",
+    "affix_logic": "어근 'episodis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'episodis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses episodis",
+    "antonym": "bukan episodis",
+    "context": "'pengepisodisan'은(는) principalmente 'episodis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'episodis'의 용법에 유의하세요. 'pengepisodisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'episodis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengepisodisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 episodis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengepisodisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 episodis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "episodis",
+        "meaning": "(어근) episodis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengepisodisan",
+        "meaning": "episodis 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_lzdp5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berepistemik [[버르epistemik]]",
+    "meaning": "epistemik하는 상태이다, epistemik를 행하다",
+    "pos": "동사",
+    "root": "epistemik",
+    "affix_logic": "어근 'epistemik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'epistemik'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan epistemik",
+    "antonym": "tidak epistemik",
+    "context": "'berepistemik'은(는) principalmente 'epistemik하는 상태이다, epistemik를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'epistemik'의 용법에 유의하세요. 'berepistemik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'epistemik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berepistemik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 epistemik하는 상태이다, epistemik를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berepistemik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 epistemik하는 상태이다, epistemik를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "epistemik",
+        "meaning": "(어근) epistemik하는 상태이다"
+      },
+      {
+        "word": "berepistemik",
+        "meaning": "epistemik하는 상태이다, epistemik를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_ohmrd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepistemik [[뼝epistemik]]",
+    "meaning": "epistemik 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "epistemik",
+    "affix_logic": "어근 'epistemik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'epistemik'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak epistemik",
+    "antonym": "bukan epistemik",
+    "context": "'pengepistemik'은(는) principalmente 'epistemik 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'epistemik'의 용법에 유의하세요. 'pengepistemik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'epistemik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengepistemik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 epistemik 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengepistemik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 epistemik 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "epistemik",
+        "meaning": "(어근) epistemik 수행 주체"
+      },
+      {
+        "word": "pengepistemik",
+        "meaning": "epistemik 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_imojn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepistemikan [[뼝epistemik안]]",
+    "meaning": "epistemik 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "epistemik",
+    "affix_logic": "어근 'epistemik'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'epistemik'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses epistemik",
+    "antonym": "bukan epistemik",
+    "context": "'pengepistemikan'은(는) principalmente 'epistemik 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'epistemik'의 용법에 유의하세요. 'pengepistemikan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'epistemik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengepistemikan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 epistemik 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengepistemikan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 epistemik 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "epistemik",
+        "meaning": "(어근) epistemik 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengepistemikan",
+        "meaning": "epistemik 과정 및 사회 전문 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_vgrhs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berergonomis [[버르ergonomis]]",
+    "meaning": "ergonomis하는 상태이다, ergonomis를 행하다",
+    "pos": "동사",
+    "root": "ergonomis",
+    "affix_logic": "어근 'ergonomis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ergonomis'에 접두사 'ber-'가 결합하여 '~하는 상태를 가지다' 또는 '~을 행하다'라는 자동사를 형성합니다.",
+    "synonym": "melakukan ergonomis",
+    "antonym": "tidak ergonomis",
+    "context": "'berergonomis'은(는) principalmente 'ergonomis하는 상태이다, ergonomis를 행하다'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ergonomis'의 용법에 유의하세요. 'berergonomis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ergonomis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait berergonomis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ergonomis하는 상태이다, ergonomis를 행하다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang berergonomis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ergonomis하는 상태이다, ergonomis를 행하다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ergonomis",
+        "meaning": "(어근) ergonomis하는 상태이다"
+      },
+      {
+        "word": "berergonomis",
+        "meaning": "ergonomis하는 상태이다, ergonomis를 행하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_idts8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengergonomis [[뼝ergonomis]]",
+    "meaning": "ergonomis 수행 주체, 전문인",
+    "pos": "명사",
+    "root": "ergonomis",
+    "affix_logic": "어근 'ergonomis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ergonomis'에 행위자 접두사 'pe-'가 결합하여 해당 행위를 수행하는 사람, 도구, 또는 특성을 가진 주체 명사를 형성합니다.",
+    "synonym": "pihak ergonomis",
+    "antonym": "bukan ergonomis",
+    "context": "'pengergonomis'은(는) principalmente 'ergonomis 수행 주체, 전문인'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ergonomis'의 용법에 유의하세요. 'pengergonomis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ergonomis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengergonomis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ergonomis 수행 주체, 전문인 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengergonomis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ergonomis 수행 주체, 전문인에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ergonomis",
+        "meaning": "(어근) ergonomis 수행 주체"
+      },
+      {
+        "word": "pengergonomis",
+        "meaning": "ergonomis 수행 주체, 전문인"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139614019_n1rf7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengergonomisan [[뼝ergonomis안]]",
+    "meaning": "ergonomis 과정 및 사회 전문 영역",
+    "pos": "명사",
+    "root": "ergonomis",
+    "affix_logic": "어근 'ergonomis'에 기반한 명사 파생 표현",
+    "grammar_rule": "어근 'ergonomis'에 양주 접사 'pe-...-an'이 결합하여 행위의 과정, 결과, 또는 행위가 이루어지는 장소를 나타내는 추상 명사를 형성합니다.",
+    "synonym": "proses ergonomis",
+    "antonym": "bukan ergonomis",
+    "context": "'pengergonomisan'은(는) principalmente 'ergonomis 과정 및 사회 전문 영역'을(를) 뜻하며, 명사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ergonomis'의 용법에 유의하세요. 'pengergonomisan' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ergonomis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait pengergonomisan untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ergonomis 과정 및 사회 전문 영역 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang pengergonomisan yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ergonomis 과정 및 사회 전문 영역에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ergonomis",
+        "meaning": "(어근) ergonomis 과정 및 사회 전문 영역"
+      },
+      {
+        "word": "pengergonomisan",
+        "meaning": "ergonomis 과정 및 사회 전문 영역"
+      }
+    ]
   }
 ];

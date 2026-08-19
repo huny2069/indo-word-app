@@ -161,21 +161,22 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 14차 대규모 800+ 어휘 주입 어근 파이프라인 (미디어/방송/언론/광고 전문 어근 100개)
-const coreRootsBatch14 = [
-  'iklan', 'almanak', 'animasi', 'anchor', 'artikel', 'audio visual', 'baliho', 'berita utama', 'bintang radio', 'buletin',
-  'buku petunjuk', 'caption', 'cetak tebal', 'cinematografi', 'desain komunikasi', 'dokumentasi', 'dubbing', 'durasi tayang', 'editor berita', 'editorial',
-  'eksepsional', 'fitur khas', 'fotografi pers', 'headline', 'infografis', 'informan', 'informasi publik', 'interaktif', 'isuar', 'jurnalis',
-  'jurnalistik investigatif', 'kamera udara', 'kamera sinema', 'kampanye media', 'karikaturis', 'kolomnis', 'komunikasi massa', 'konferensi pers', 'koreksian', 'konten digital',
-  'laporan khusus', 'lisensi tayang', 'liputan lapangan', 'majalah harian', 'media massa', 'narasumber', 'navigasi web', 'notifikasi', 'ombudsman pers', 'operator studio',
-  'pers rilis', 'podcaster', 'pemberitaan', 'pemimpin redaksi', 'penyiaran', 'penyunting gambar', 'percetakan', 'perusahaan pers', 'periklanan', 'presenter berita',
-  'produser program', 'publikasi cetak', 'rating acara', 'redaksi', 'reporter', 'resolusi gambar', 'rubrik khusus', 'saluran tv', 'sensor media', 'sinematik',
-  'situs berita', 'solusi digital', 'sponsor utama', 'streaming langsung', 'studio siaran', 'subtitel', 'tabloid harian', 'teknisi suara', 'televisi publik', 'transmisi sinyal'
+// 🚀 15차 대규모 800+ 어휘 주입 어근 파이프라인 (사회/법률/행정/IT 전문 어근 100개 추가)
+const coreRootsBatch15 = [
+  'akseptabilitas', 'akomodatif', 'akronim', 'aktivisme', 'akuntabel', 'alokatif', 'altruistis', 'ambisius', 'amoral', 'analogis',
+  'anarkis', 'anomalis', 'anonim', 'antagonis', 'antisipatif', 'aplikatif', 'apresiatif', 'apriori', 'arbitrer', 'argumen',
+  'argumentatif', 'aristokrasi', 'arsitektural', 'artifisial', 'artikulat', 'asosiatif', 'asimetris', 'asimilatif', 'asertif', 'otentisitas',
+  'otodidak', 'otokratis', 'otomat', 'otomasi', 'birokratis', 'biometris', 'biotik', 'defensif', 'dekonstruktif', 'delusif',
+  'demokratis', 'demografis', 'depresif', 'desentralistis', 'deskriptif', 'destruktif', 'detektif', 'determinisme', 'deviasi', 'diferensial',
+  'diplomatis', 'disipliner', 'diskriminatif', 'diskursif', 'disosiatif', 'distributif', 'diversif', 'dogmatis', 'dominatif', 'dramatis',
+  'dualistis', 'edukatif', 'efektif', 'efisien', 'egois', 'ekologis', 'ekonomis', 'ekosistemik', 'eksklusif', 'ekspansif',
+  'eksperimental', 'eksplicit', 'eksploratif', 'ekspresif', 'ekstremis', 'ekstrinsik', 'elastis', 'elektoral', 'elektronis', 'elementer',
+  'ematis', 'emisi', 'empiris', 'emulasis', 'endemis', 'energik', 'entropis', 'episodis', 'epistemik', 'ergonomis'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch14.forEach(root => {
+coreRootsBatch15.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -241,7 +242,7 @@ coreRootsBatch14.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 미디어인`,
+    meaning: `${root} 수행 주체, 전문인`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -256,7 +257,7 @@ coreRootsBatch14.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 미디어 영역`,
+    meaning: `${root} 과정 및 사회 전문 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
