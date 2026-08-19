@@ -31250,5 +31250,6869 @@ export const bipaTopics = [
         "meaning": "visualisasi 과정 및 행위 절차"
       }
     ]
+  },
+  {
+    "id": "word_1787138916558_uwbif",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakuntansi [[버르akuntansi]]",
+    "meaning": "akuntansi하는 상태이다, akuntansi를 행하다",
+    "pos": "동사",
+    "root": "akuntansi",
+    "affix_logic": "어근 'akuntansi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan akuntansi",
+    "antonym": "tidak akuntansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akuntansi하는 상태이다, akuntansi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akuntansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berakuntansi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akuntansi하는 상태이다, akuntansi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berakuntansi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akuntansi하는 상태이다, akuntansi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berakuntansi",
+        "meaning": "akuntansi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_5uxk4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakuntansi [[뼝akuntansi]]",
+    "meaning": "akuntansi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "akuntansi",
+    "affix_logic": "어근 'akuntansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak akuntansi",
+    "antonym": "bukan akuntansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akuntansi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akuntansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengakuntansi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akuntansi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengakuntansi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akuntansi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengakuntansi",
+        "meaning": "akuntansi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_jrdux",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakuntansian [[뼝akuntansi안]]",
+    "meaning": "akuntansi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "akuntansi",
+    "affix_logic": "어근 'akuntansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses akuntansi",
+    "antonym": "bukan akuntansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akuntansi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akuntansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengakuntansian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akuntansi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengakuntansian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akuntansi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengakuntansian",
+        "meaning": "akuntansi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_21cdj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranalitika [[버르analitika]]",
+    "meaning": "analitika하는 상태이다, analitika를 행하다",
+    "pos": "동사",
+    "root": "analitika",
+    "affix_logic": "어근 'analitika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan analitika",
+    "antonym": "tidak analitika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analitika하는 상태이다, analitika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analitika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranalitika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analitika하는 상태이다, analitika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranalitika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analitika하는 상태이다, analitika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranalitika",
+        "meaning": "analitika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_zclls",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalitika [[뼝analitika]]",
+    "meaning": "analitika 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "analitika",
+    "affix_logic": "어근 'analitika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak analitika",
+    "antonym": "bukan analitika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analitika 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analitika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganalitika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analitika 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganalitika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analitika 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganalitika",
+        "meaning": "analitika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_51r94",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalitikaan [[뼝analitika안]]",
+    "meaning": "analitika 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "analitika",
+    "affix_logic": "어근 'analitika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses analitika",
+    "antonym": "bukan analitika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analitika 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analitika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganalitikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analitika 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganalitikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analitika 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganalitikaan",
+        "meaning": "analitika 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_bd085",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranggaran [[버르anggaran]]",
+    "meaning": "anggaran하는 상태이다, anggaran를 행하다",
+    "pos": "동사",
+    "root": "anggaran",
+    "affix_logic": "어근 'anggaran'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan anggaran",
+    "antonym": "tidak anggaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anggaran하는 상태이다, anggaran를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anggaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranggaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anggaran하는 상태이다, anggaran를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranggaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anggaran하는 상태이다, anggaran를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranggaran",
+        "meaning": "anggaran하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_m7wla",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganggaran [[뼝anggaran]]",
+    "meaning": "anggaran 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "anggaran",
+    "affix_logic": "어근 'anggaran'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak anggaran",
+    "antonym": "bukan anggaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anggaran 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anggaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganggaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anggaran 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganggaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anggaran 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganggaran",
+        "meaning": "anggaran 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_6egj0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganggaranan [[뼝anggaran안]]",
+    "meaning": "anggaran 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "anggaran",
+    "affix_logic": "어근 'anggaran'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses anggaran",
+    "antonym": "bukan anggaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anggaran 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anggaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganggaranan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anggaran 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganggaranan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anggaran 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganggaranan",
+        "meaning": "anggaran 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_qny16",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranomali [[버르anomali]]",
+    "meaning": "anomali하는 상태이다, anomali를 행하다",
+    "pos": "동사",
+    "root": "anomali",
+    "affix_logic": "어근 'anomali'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan anomali",
+    "antonym": "tidak anomali",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anomali하는 상태이다, anomali를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anomali'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranomali' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anomali하는 상태이다, anomali를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranomali' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anomali하는 상태이다, anomali를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranomali",
+        "meaning": "anomali하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_ryzmf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganomali [[뼝anomali]]",
+    "meaning": "anomali 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "anomali",
+    "affix_logic": "어근 'anomali'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak anomali",
+    "antonym": "bukan anomali",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anomali 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anomali'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganomali' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anomali 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganomali' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anomali 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganomali",
+        "meaning": "anomali 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_5bl2p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganomalian [[뼝anomali안]]",
+    "meaning": "anomali 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "anomali",
+    "affix_logic": "어근 'anomali'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses anomali",
+    "antonym": "bukan anomali",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anomali 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anomali'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganomalian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anomali 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganomalian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anomali 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganomalian",
+        "meaning": "anomali 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_i8rsa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraplikatif [[버르aplikatif]]",
+    "meaning": "aplikatif하는 상태이다, aplikatif를 행하다",
+    "pos": "동사",
+    "root": "aplikatif",
+    "affix_logic": "어근 'aplikatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aplikatif",
+    "antonym": "tidak aplikatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aplikatif하는 상태이다, aplikatif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aplikatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraplikatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aplikatif하는 상태이다, aplikatif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraplikatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aplikatif하는 상태이다, aplikatif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraplikatif",
+        "meaning": "aplikatif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_rrc2p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaplikatif [[뼝aplikatif]]",
+    "meaning": "aplikatif 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "aplikatif",
+    "affix_logic": "어근 'aplikatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak aplikatif",
+    "antonym": "bukan aplikatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aplikatif 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aplikatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaplikatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aplikatif 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaplikatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aplikatif 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaplikatif",
+        "meaning": "aplikatif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_hwycv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaplikatifan [[뼝aplikatif안]]",
+    "meaning": "aplikatif 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "aplikatif",
+    "affix_logic": "어근 'aplikatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses aplikatif",
+    "antonym": "bukan aplikatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aplikatif 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aplikatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaplikatifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aplikatif 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaplikatifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aplikatif 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaplikatifan",
+        "meaning": "aplikatif 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_60ss7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarbitrase [[버르arbitrase]]",
+    "meaning": "arbitrase하는 상태이다, arbitrase를 행하다",
+    "pos": "동사",
+    "root": "arbitrase",
+    "affix_logic": "어근 'arbitrase'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan arbitrase",
+    "antonym": "tidak arbitrase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arbitrase하는 상태이다, arbitrase를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arbitrase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berarbitrase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arbitrase하는 상태이다, arbitrase를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berarbitrase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arbitrase하는 상태이다, arbitrase를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berarbitrase",
+        "meaning": "arbitrase하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_1r4c1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarbitrase [[뼝arbitrase]]",
+    "meaning": "arbitrase 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "arbitrase",
+    "affix_logic": "어근 'arbitrase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak arbitrase",
+    "antonym": "bukan arbitrase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arbitrase 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arbitrase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarbitrase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arbitrase 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarbitrase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arbitrase 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarbitrase",
+        "meaning": "arbitrase 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_2s8e4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarbitrasean [[뼝arbitrase안]]",
+    "meaning": "arbitrase 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "arbitrase",
+    "affix_logic": "어근 'arbitrase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses arbitrase",
+    "antonym": "bukan arbitrase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arbitrase 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arbitrase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarbitrasean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arbitrase 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarbitrasean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arbitrase 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarbitrasean",
+        "meaning": "arbitrase 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_6ot2f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarsitektur [[버르arsitektur]]",
+    "meaning": "arsitektur하는 상태이다, arsitektur를 행하다",
+    "pos": "동사",
+    "root": "arsitektur",
+    "affix_logic": "어근 'arsitektur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan arsitektur",
+    "antonym": "tidak arsitektur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arsitektur하는 상태이다, arsitektur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arsitektur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berarsitektur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arsitektur하는 상태이다, arsitektur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berarsitektur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arsitektur하는 상태이다, arsitektur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berarsitektur",
+        "meaning": "arsitektur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_glchf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsitektur [[뼝arsitektur]]",
+    "meaning": "arsitektur 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "arsitektur",
+    "affix_logic": "어근 'arsitektur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak arsitektur",
+    "antonym": "bukan arsitektur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arsitektur 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arsitektur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarsitektur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arsitektur 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarsitektur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arsitektur 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarsitektur",
+        "meaning": "arsitektur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916558_1ij7s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarsitekturan [[뼝arsitektur안]]",
+    "meaning": "arsitektur 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "arsitektur",
+    "affix_logic": "어근 'arsitektur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses arsitektur",
+    "antonym": "bukan arsitektur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arsitektur 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arsitektur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarsitekturan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arsitektur 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarsitekturan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arsitektur 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarsitekturan",
+        "meaning": "arsitektur 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_3a4cc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraset [[버르aset]]",
+    "meaning": "aset하는 상태이다, aset를 행하다",
+    "pos": "동사",
+    "root": "aset",
+    "affix_logic": "어근 'aset'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aset",
+    "antonym": "tidak aset",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aset하는 상태이다, aset를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aset'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraset' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aset하는 상태이다, aset를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraset' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aset하는 상태이다, aset를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraset",
+        "meaning": "aset하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_16xo7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaset [[뼝aset]]",
+    "meaning": "aset 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "aset",
+    "affix_logic": "어근 'aset'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak aset",
+    "antonym": "bukan aset",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aset 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aset'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaset' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aset 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaset' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aset 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaset",
+        "meaning": "aset 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_xgtka",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasetan [[뼝aset안]]",
+    "meaning": "aset 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "aset",
+    "affix_logic": "어근 'aset'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses aset",
+    "antonym": "bukan aset",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aset 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aset'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasetan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aset 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasetan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aset 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasetan",
+        "meaning": "aset 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_zpw61",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasuransi [[버르asuransi]]",
+    "meaning": "asuransi하는 상태이다, asuransi를 행하다",
+    "pos": "동사",
+    "root": "asuransi",
+    "affix_logic": "어근 'asuransi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan asuransi",
+    "antonym": "tidak asuransi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asuransi하는 상태이다, asuransi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asuransi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berasuransi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asuransi하는 상태이다, asuransi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berasuransi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asuransi하는 상태이다, asuransi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berasuransi",
+        "meaning": "asuransi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_hk8so",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasuransi [[뼝asuransi]]",
+    "meaning": "asuransi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "asuransi",
+    "affix_logic": "어근 'asuransi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak asuransi",
+    "antonym": "bukan asuransi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asuransi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asuransi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasuransi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asuransi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasuransi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asuransi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasuransi",
+        "meaning": "asuransi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_wwq91",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasuransian [[뼝asuransi안]]",
+    "meaning": "asuransi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "asuransi",
+    "affix_logic": "어근 'asuransi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses asuransi",
+    "antonym": "bukan asuransi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asuransi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asuransi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasuransian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asuransi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasuransian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asuransi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasuransian",
+        "meaning": "asuransi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_gdusd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraudit [[버르audit]]",
+    "meaning": "audit하는 상태이다, audit를 행하다",
+    "pos": "동사",
+    "root": "audit",
+    "affix_logic": "어근 'audit'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan audit",
+    "antonym": "tidak audit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audit하는 상태이다, audit를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraudit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audit하는 상태이다, audit를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraudit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audit하는 상태이다, audit를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraudit",
+        "meaning": "audit하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_vkzsi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaudit [[뼝audit]]",
+    "meaning": "audit 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "audit",
+    "affix_logic": "어근 'audit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak audit",
+    "antonym": "bukan audit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audit 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaudit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audit 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaudit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audit 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaudit",
+        "meaning": "audit 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_cn9ih",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengauditan [[뼝audit안]]",
+    "meaning": "audit 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "audit",
+    "affix_logic": "어근 'audit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses audit",
+    "antonym": "bukan audit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audit 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengauditan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audit 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengauditan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audit 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengauditan",
+        "meaning": "audit 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_2977t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berautentik [[버르autentik]]",
+    "meaning": "autentik하는 상태이다, autentik를 행하다",
+    "pos": "동사",
+    "root": "autentik",
+    "affix_logic": "어근 'autentik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan autentik",
+    "antonym": "tidak autentik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autentik하는 상태이다, autentik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autentik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berautentik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autentik하는 상태이다, autentik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berautentik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autentik하는 상태이다, autentik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berautentik",
+        "meaning": "autentik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_rp1r3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautentik [[뼝autentik]]",
+    "meaning": "autentik 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "autentik",
+    "affix_logic": "어근 'autentik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak autentik",
+    "antonym": "bukan autentik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autentik 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autentik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengautentik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autentik 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengautentik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autentik 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengautentik",
+        "meaning": "autentik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_54gqg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautentikan [[뼝autentik안]]",
+    "meaning": "autentik 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "autentik",
+    "affix_logic": "어근 'autentik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses autentik",
+    "antonym": "bukan autentik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autentik 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autentik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengautentikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autentik 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengautentikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autentik 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengautentikan",
+        "meaning": "autentik 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_jy22w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbagan [[버르bagan]]",
+    "meaning": "bagan하는 상태이다, bagan를 행하다",
+    "pos": "동사",
+    "root": "bagan",
+    "affix_logic": "어근 'bagan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bagan",
+    "antonym": "tidak bagan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bagan하는 상태이다, bagan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bagan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbagan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bagan하는 상태이다, bagan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbagan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bagan하는 상태이다, bagan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbagan",
+        "meaning": "bagan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_bkhtl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbagan [[뼝bagan]]",
+    "meaning": "bagan 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "bagan",
+    "affix_logic": "어근 'bagan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bagan",
+    "antonym": "bukan bagan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bagan 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bagan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbagan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bagan 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbagan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bagan 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbagan",
+        "meaning": "bagan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_gsmec",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaganan [[뼝bagan안]]",
+    "meaning": "bagan 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "bagan",
+    "affix_logic": "어근 'bagan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bagan",
+    "antonym": "bukan bagan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bagan 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bagan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbaganan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bagan 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbaganan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bagan 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbaganan",
+        "meaning": "bagan 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_f8w9z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbangkrut [[버르bangkrut]]",
+    "meaning": "bangkrut하는 상태이다, bangkrut를 행하다",
+    "pos": "동사",
+    "root": "bangkrut",
+    "affix_logic": "어근 'bangkrut'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bangkrut",
+    "antonym": "tidak bangkrut",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bangkrut하는 상태이다, bangkrut를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bangkrut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbangkrut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bangkrut하는 상태이다, bangkrut를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbangkrut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bangkrut하는 상태이다, bangkrut를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbangkrut",
+        "meaning": "bangkrut하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_zzd2g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbangkrut [[뼝bangkrut]]",
+    "meaning": "bangkrut 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "bangkrut",
+    "affix_logic": "어근 'bangkrut'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bangkrut",
+    "antonym": "bukan bangkrut",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bangkrut 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bangkrut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbangkrut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bangkrut 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbangkrut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bangkrut 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbangkrut",
+        "meaning": "bangkrut 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_vnme4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbangkrutan [[뼝bangkrut안]]",
+    "meaning": "bangkrut 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "bangkrut",
+    "affix_logic": "어근 'bangkrut'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bangkrut",
+    "antonym": "bukan bangkrut",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bangkrut 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bangkrut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbangkrutan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bangkrut 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbangkrutan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bangkrut 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbangkrutan",
+        "meaning": "bangkrut 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_fpc6n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbarter [[버르barter]]",
+    "meaning": "barter하는 상태이다, barter를 행하다",
+    "pos": "동사",
+    "root": "barter",
+    "affix_logic": "어근 'barter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan barter",
+    "antonym": "tidak barter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barter하는 상태이다, barter를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbarter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barter하는 상태이다, barter를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbarter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barter하는 상태이다, barter를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbarter",
+        "meaning": "barter하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_pxsss",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbarter [[뼝barter]]",
+    "meaning": "barter 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "barter",
+    "affix_logic": "어근 'barter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak barter",
+    "antonym": "bukan barter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barter 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbarter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barter 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbarter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barter 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbarter",
+        "meaning": "barter 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_snwqu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbarteran [[뼝barter안]]",
+    "meaning": "barter 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "barter",
+    "affix_logic": "어근 'barter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses barter",
+    "antonym": "bukan barter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barter 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbarteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barter 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbarteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barter 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbarteran",
+        "meaning": "barter 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_9vusl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbarometer [[버르barometer]]",
+    "meaning": "barometer하는 상태이다, barometer를 행하다",
+    "pos": "동사",
+    "root": "barometer",
+    "affix_logic": "어근 'barometer'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan barometer",
+    "antonym": "tidak barometer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barometer하는 상태이다, barometer를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barometer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbarometer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barometer하는 상태이다, barometer를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbarometer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barometer하는 상태이다, barometer를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbarometer",
+        "meaning": "barometer하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_tj3dv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbarometer [[뼝barometer]]",
+    "meaning": "barometer 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "barometer",
+    "affix_logic": "어근 'barometer'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak barometer",
+    "antonym": "bukan barometer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barometer 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barometer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbarometer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barometer 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbarometer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barometer 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbarometer",
+        "meaning": "barometer 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_9cg94",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbarometeran [[뼝barometer안]]",
+    "meaning": "barometer 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "barometer",
+    "affix_logic": "어근 'barometer'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses barometer",
+    "antonym": "bukan barometer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'barometer 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'barometer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbarometeran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'barometer 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbarometeran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'barometer 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbarometeran",
+        "meaning": "barometer 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_58cn9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbea [[버르bea]]",
+    "meaning": "bea하는 상태이다, bea를 행하다",
+    "pos": "동사",
+    "root": "bea",
+    "affix_logic": "어근 'bea'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bea",
+    "antonym": "tidak bea",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bea하는 상태이다, bea를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bea'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbea' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bea하는 상태이다, bea를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbea' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bea하는 상태이다, bea를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbea",
+        "meaning": "bea하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_5yxsy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbea [[뼝bea]]",
+    "meaning": "bea 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "bea",
+    "affix_logic": "어근 'bea'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bea",
+    "antonym": "bukan bea",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bea 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bea'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbea' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bea 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbea' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bea 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbea",
+        "meaning": "bea 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_o7k7l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbeaan [[뼝bea안]]",
+    "meaning": "bea 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "bea",
+    "affix_logic": "어근 'bea'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bea",
+    "antonym": "bukan bea",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bea 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bea'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbeaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bea 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbeaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bea 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbeaan",
+        "meaning": "bea 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_0hqz1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbenah [[버르benah]]",
+    "meaning": "benah하는 상태이다, benah를 행하다",
+    "pos": "동사",
+    "root": "benah",
+    "affix_logic": "어근 'benah'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan benah",
+    "antonym": "tidak benah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'benah하는 상태이다, benah를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'benah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbenah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'benah하는 상태이다, benah를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbenah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'benah하는 상태이다, benah를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbenah",
+        "meaning": "benah하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_hnt27",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenah [[뼝benah]]",
+    "meaning": "benah 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "benah",
+    "affix_logic": "어근 'benah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak benah",
+    "antonym": "bukan benah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'benah 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'benah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbenah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'benah 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbenah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'benah 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbenah",
+        "meaning": "benah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_qha0o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbenahan [[뼝benah안]]",
+    "meaning": "benah 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "benah",
+    "affix_logic": "어근 'benah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses benah",
+    "antonym": "bukan benah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'benah 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'benah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbenahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'benah 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbenahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'benah 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbenahan",
+        "meaning": "benah 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_u1nyb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbursa [[버르bursa]]",
+    "meaning": "bursa하는 상태이다, bursa를 행하다",
+    "pos": "동사",
+    "root": "bursa",
+    "affix_logic": "어근 'bursa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bursa",
+    "antonym": "tidak bursa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bursa하는 상태이다, bursa를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bursa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbursa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bursa하는 상태이다, bursa를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbursa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bursa하는 상태이다, bursa를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbursa",
+        "meaning": "bursa하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_8ls5x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbursa [[뼝bursa]]",
+    "meaning": "bursa 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "bursa",
+    "affix_logic": "어근 'bursa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bursa",
+    "antonym": "bukan bursa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bursa 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bursa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbursa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bursa 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbursa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bursa 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbursa",
+        "meaning": "bursa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_qiaui",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbursaan [[뼝bursa안]]",
+    "meaning": "bursa 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "bursa",
+    "affix_logic": "어근 'bursa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bursa",
+    "antonym": "bukan bursa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bursa 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bursa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbursaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bursa 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbursaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bursa 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbursaan",
+        "meaning": "bursa 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_kb9bw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbunga [[버르bunga]]",
+    "meaning": "bunga하는 상태이다, bunga를 행하다",
+    "pos": "동사",
+    "root": "bunga",
+    "affix_logic": "어근 'bunga'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bunga",
+    "antonym": "tidak bunga",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bunga하는 상태이다, bunga를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bunga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbunga' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bunga하는 상태이다, bunga를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbunga' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bunga하는 상태이다, bunga를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbunga",
+        "meaning": "bunga하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_uwcrb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbunga [[뼝bunga]]",
+    "meaning": "bunga 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "bunga",
+    "affix_logic": "어근 'bunga'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bunga",
+    "antonym": "bukan bunga",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bunga 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bunga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbunga' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bunga 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbunga' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bunga 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbunga",
+        "meaning": "bunga 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_py8cu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbungaan [[뼝bunga안]]",
+    "meaning": "bunga 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "bunga",
+    "affix_logic": "어근 'bunga'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bunga",
+    "antonym": "bukan bunga",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bunga 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bunga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbungaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bunga 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbungaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bunga 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbungaan",
+        "meaning": "bunga 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_2xbxu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdefisit [[버르defisit]]",
+    "meaning": "defisit하는 상태이다, defisit를 행하다",
+    "pos": "동사",
+    "root": "defisit",
+    "affix_logic": "어근 'defisit'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan defisit",
+    "antonym": "tidak defisit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'defisit하는 상태이다, defisit를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'defisit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdefisit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'defisit하는 상태이다, defisit를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdefisit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'defisit하는 상태이다, defisit를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdefisit",
+        "meaning": "defisit하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_cxrpj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdefisit [[뼝defisit]]",
+    "meaning": "defisit 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "defisit",
+    "affix_logic": "어근 'defisit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak defisit",
+    "antonym": "bukan defisit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'defisit 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'defisit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdefisit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'defisit 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdefisit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'defisit 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdefisit",
+        "meaning": "defisit 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_efzng",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdefisitan [[뼝defisit안]]",
+    "meaning": "defisit 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "defisit",
+    "affix_logic": "어근 'defisit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses defisit",
+    "antonym": "bukan defisit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'defisit 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'defisit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdefisitan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'defisit 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdefisitan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'defisit 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdefisitan",
+        "meaning": "defisit 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_z14g6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdevaluasi [[버르devaluasi]]",
+    "meaning": "devaluasi하는 상태이다, devaluasi를 행하다",
+    "pos": "동사",
+    "root": "devaluasi",
+    "affix_logic": "어근 'devaluasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan devaluasi",
+    "antonym": "tidak devaluasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'devaluasi하는 상태이다, devaluasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'devaluasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdevaluasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'devaluasi하는 상태이다, devaluasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdevaluasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'devaluasi하는 상태이다, devaluasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdevaluasi",
+        "meaning": "devaluasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ovvbe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdevaluasi [[뼝devaluasi]]",
+    "meaning": "devaluasi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "devaluasi",
+    "affix_logic": "어근 'devaluasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak devaluasi",
+    "antonym": "bukan devaluasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'devaluasi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'devaluasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdevaluasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'devaluasi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdevaluasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'devaluasi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdevaluasi",
+        "meaning": "devaluasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_w3uy8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdevaluasian [[뼝devaluasi안]]",
+    "meaning": "devaluasi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "devaluasi",
+    "affix_logic": "어근 'devaluasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses devaluasi",
+    "antonym": "bukan devaluasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'devaluasi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'devaluasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdevaluasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'devaluasi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdevaluasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'devaluasi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdevaluasian",
+        "meaning": "devaluasi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_7yvhf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdevise [[버르devise]]",
+    "meaning": "devise하는 상태이다, devise를 행하다",
+    "pos": "동사",
+    "root": "devise",
+    "affix_logic": "어근 'devise'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan devise",
+    "antonym": "tidak devise",
+    "context": "실생활 및 회화/비즈니스 상황에서 'devise하는 상태이다, devise를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'devise'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdevise' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'devise하는 상태이다, devise를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdevise' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'devise하는 상태이다, devise를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdevise",
+        "meaning": "devise하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_b2440",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdevise [[뼝devise]]",
+    "meaning": "devise 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "devise",
+    "affix_logic": "어근 'devise'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak devise",
+    "antonym": "bukan devise",
+    "context": "실생활 및 회화/비즈니스 상황에서 'devise 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'devise'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdevise' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'devise 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdevise' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'devise 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdevise",
+        "meaning": "devise 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_k56h7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdevisean [[뼝devise안]]",
+    "meaning": "devise 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "devise",
+    "affix_logic": "어근 'devise'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses devise",
+    "antonym": "bukan devise",
+    "context": "실생활 및 회화/비즈니스 상황에서 'devise 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'devise'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdevisean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'devise 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdevisean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'devise 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdevisean",
+        "meaning": "devise 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_yx9it",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiagonis [[버르diagonis]]",
+    "meaning": "diagonis하는 상태이다, diagonis를 행하다",
+    "pos": "동사",
+    "root": "diagonis",
+    "affix_logic": "어근 'diagonis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan diagonis",
+    "antonym": "tidak diagonis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diagonis하는 상태이다, diagonis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diagonis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdiagonis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diagonis하는 상태이다, diagonis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdiagonis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diagonis하는 상태이다, diagonis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdiagonis",
+        "meaning": "diagonis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_2v1ai",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiagonis [[뼝diagonis]]",
+    "meaning": "diagonis 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "diagonis",
+    "affix_logic": "어근 'diagonis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak diagonis",
+    "antonym": "bukan diagonis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diagonis 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diagonis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiagonis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diagonis 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiagonis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diagonis 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiagonis",
+        "meaning": "diagonis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_tc9kf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiagonisan [[뼝diagonis안]]",
+    "meaning": "diagonis 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "diagonis",
+    "affix_logic": "어근 'diagonis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses diagonis",
+    "antonym": "bukan diagonis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diagonis 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diagonis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiagonisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diagonis 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiagonisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diagonis 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiagonisan",
+        "meaning": "diagonis 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_rdk98",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdirektori [[버르direktori]]",
+    "meaning": "direktori하는 상태이다, direktori를 행하다",
+    "pos": "동사",
+    "root": "direktori",
+    "affix_logic": "어근 'direktori'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan direktori",
+    "antonym": "tidak direktori",
+    "context": "실생활 및 회화/비즈니스 상황에서 'direktori하는 상태이다, direktori를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'direktori'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdirektori' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'direktori하는 상태이다, direktori를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdirektori' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'direktori하는 상태이다, direktori를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdirektori",
+        "meaning": "direktori하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_b0gh1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdirektori [[뼝direktori]]",
+    "meaning": "direktori 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "direktori",
+    "affix_logic": "어근 'direktori'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak direktori",
+    "antonym": "bukan direktori",
+    "context": "실생활 및 회화/비즈니스 상황에서 'direktori 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'direktori'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdirektori' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'direktori 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdirektori' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'direktori 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdirektori",
+        "meaning": "direktori 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_jl85e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdirektorian [[뼝direktori안]]",
+    "meaning": "direktori 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "direktori",
+    "affix_logic": "어근 'direktori'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses direktori",
+    "antonym": "bukan direktori",
+    "context": "실생활 및 회화/비즈니스 상황에서 'direktori 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'direktori'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdirektorian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'direktori 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdirektorian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'direktori 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdirektorian",
+        "meaning": "direktori 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_osx0a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiskon [[버르diskon]]",
+    "meaning": "diskon하는 상태이다, diskon를 행하다",
+    "pos": "동사",
+    "root": "diskon",
+    "affix_logic": "어근 'diskon'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan diskon",
+    "antonym": "tidak diskon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diskon하는 상태이다, diskon를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diskon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdiskon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diskon하는 상태이다, diskon를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdiskon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diskon하는 상태이다, diskon를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdiskon",
+        "meaning": "diskon하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_gp7qi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiskon [[뼝diskon]]",
+    "meaning": "diskon 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "diskon",
+    "affix_logic": "어근 'diskon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak diskon",
+    "antonym": "bukan diskon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diskon 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diskon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiskon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diskon 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiskon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diskon 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiskon",
+        "meaning": "diskon 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_1te8r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiskonan [[뼝diskon안]]",
+    "meaning": "diskon 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "diskon",
+    "affix_logic": "어근 'diskon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses diskon",
+    "antonym": "bukan diskon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diskon 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diskon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiskonan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diskon 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiskonan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diskon 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiskonan",
+        "meaning": "diskon 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_jtpug",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdividen [[버르dividen]]",
+    "meaning": "dividen하는 상태이다, dividen를 행하다",
+    "pos": "동사",
+    "root": "dividen",
+    "affix_logic": "어근 'dividen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dividen",
+    "antonym": "tidak dividen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dividen하는 상태이다, dividen를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dividen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdividen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dividen하는 상태이다, dividen를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdividen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dividen하는 상태이다, dividen를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdividen",
+        "meaning": "dividen하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_l27ly",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdividen [[뼝dividen]]",
+    "meaning": "dividen 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "dividen",
+    "affix_logic": "어근 'dividen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dividen",
+    "antonym": "bukan dividen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dividen 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dividen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdividen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dividen 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdividen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dividen 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdividen",
+        "meaning": "dividen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_kyjuw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdividenan [[뼝dividen안]]",
+    "meaning": "dividen 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "dividen",
+    "affix_logic": "어근 'dividen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dividen",
+    "antonym": "bukan dividen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dividen 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dividen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdividenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dividen 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdividenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dividen 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdividenan",
+        "meaning": "dividen 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_2yjvr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdominan [[버르dominan]]",
+    "meaning": "dominan하는 상태이다, dominan를 행하다",
+    "pos": "동사",
+    "root": "dominan",
+    "affix_logic": "어근 'dominan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dominan",
+    "antonym": "tidak dominan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dominan하는 상태이다, dominan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dominan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdominan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dominan하는 상태이다, dominan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdominan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dominan하는 상태이다, dominan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdominan",
+        "meaning": "dominan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_fgb36",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdominan [[뼝dominan]]",
+    "meaning": "dominan 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "dominan",
+    "affix_logic": "어근 'dominan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dominan",
+    "antonym": "bukan dominan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dominan 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dominan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdominan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dominan 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdominan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dominan 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdominan",
+        "meaning": "dominan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_6sgr0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdominanan [[뼝dominan안]]",
+    "meaning": "dominan 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "dominan",
+    "affix_logic": "어근 'dominan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dominan",
+    "antonym": "bukan dominan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dominan 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dominan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdominanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dominan 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdominanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dominan 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdominanan",
+        "meaning": "dominan 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_4yz0i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdurabilitas [[버르durabilitas]]",
+    "meaning": "durabilitas하는 상태이다, durabilitas를 행하다",
+    "pos": "동사",
+    "root": "durabilitas",
+    "affix_logic": "어근 'durabilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan durabilitas",
+    "antonym": "tidak durabilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'durabilitas하는 상태이다, durabilitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'durabilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdurabilitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'durabilitas하는 상태이다, durabilitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdurabilitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'durabilitas하는 상태이다, durabilitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdurabilitas",
+        "meaning": "durabilitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_yu5r5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdurabilitas [[뼝durabilitas]]",
+    "meaning": "durabilitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "durabilitas",
+    "affix_logic": "어근 'durabilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak durabilitas",
+    "antonym": "bukan durabilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'durabilitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'durabilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdurabilitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'durabilitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdurabilitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'durabilitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdurabilitas",
+        "meaning": "durabilitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_2664o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdurabilitasan [[뼝durabilitas안]]",
+    "meaning": "durabilitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "durabilitas",
+    "affix_logic": "어근 'durabilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses durabilitas",
+    "antonym": "bukan durabilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'durabilitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'durabilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdurabilitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'durabilitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdurabilitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'durabilitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdurabilitasan",
+        "meaning": "durabilitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_0o9va",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berefektivitas [[버르efektivitas]]",
+    "meaning": "efektivitas하는 상태이다, efektivitas를 행하다",
+    "pos": "동사",
+    "root": "efektivitas",
+    "affix_logic": "어근 'efektivitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan efektivitas",
+    "antonym": "tidak efektivitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'efektivitas하는 상태이다, efektivitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'efektivitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berefektivitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'efektivitas하는 상태이다, efektivitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berefektivitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'efektivitas하는 상태이다, efektivitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berefektivitas",
+        "meaning": "efektivitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_izw5i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengefektivitas [[뼝efektivitas]]",
+    "meaning": "efektivitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "efektivitas",
+    "affix_logic": "어근 'efektivitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak efektivitas",
+    "antonym": "bukan efektivitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'efektivitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'efektivitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengefektivitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'efektivitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengefektivitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'efektivitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengefektivitas",
+        "meaning": "efektivitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_g9j4s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengefektivitasan [[뼝efektivitas안]]",
+    "meaning": "efektivitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "efektivitas",
+    "affix_logic": "어근 'efektivitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses efektivitas",
+    "antonym": "bukan efektivitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'efektivitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'efektivitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengefektivitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'efektivitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengefektivitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'efektivitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengefektivitasan",
+        "meaning": "efektivitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ukz8r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekonometrika [[버르ekonometrika]]",
+    "meaning": "ekonometrika하는 상태이다, ekonometrika를 행하다",
+    "pos": "동사",
+    "root": "ekonometrika",
+    "affix_logic": "어근 'ekonometrika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekonometrika",
+    "antonym": "tidak ekonometrika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekonometrika하는 상태이다, ekonometrika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekonometrika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berekonometrika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekonometrika하는 상태이다, ekonometrika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berekonometrika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekonometrika하는 상태이다, ekonometrika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berekonometrika",
+        "meaning": "ekonometrika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_cdpgv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekonometrika [[뼝ekonometrika]]",
+    "meaning": "ekonometrika 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "ekonometrika",
+    "affix_logic": "어근 'ekonometrika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ekonometrika",
+    "antonym": "bukan ekonometrika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekonometrika 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekonometrika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekonometrika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekonometrika 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekonometrika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekonometrika 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekonometrika",
+        "meaning": "ekonometrika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_4vwmk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekonometrikaan [[뼝ekonometrika안]]",
+    "meaning": "ekonometrika 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "ekonometrika",
+    "affix_logic": "어근 'ekonometrika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ekonometrika",
+    "antonym": "bukan ekonometrika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekonometrika 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekonometrika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekonometrikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekonometrika 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekonometrikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekonometrika 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekonometrikaan",
+        "meaning": "ekonometrika 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_yvnxq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereksekutif [[버르eksekutif]]",
+    "meaning": "eksekutif하는 상태이다, eksekutif를 행하다",
+    "pos": "동사",
+    "root": "eksekutif",
+    "affix_logic": "어근 'eksekutif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan eksekutif",
+    "antonym": "tidak eksekutif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'eksekutif하는 상태이다, eksekutif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'eksekutif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bereksekutif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'eksekutif하는 상태이다, eksekutif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bereksekutif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'eksekutif하는 상태이다, eksekutif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bereksekutif",
+        "meaning": "eksekutif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_6bd6r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksekutif [[뼝eksekutif]]",
+    "meaning": "eksekutif 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "eksekutif",
+    "affix_logic": "어근 'eksekutif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak eksekutif",
+    "antonym": "bukan eksekutif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'eksekutif 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'eksekutif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeksekutif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'eksekutif 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeksekutif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'eksekutif 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeksekutif",
+        "meaning": "eksekutif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_raegn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksekutifan [[뼝eksekutif안]]",
+    "meaning": "eksekutif 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "eksekutif",
+    "affix_logic": "어근 'eksekutif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses eksekutif",
+    "antonym": "bukan eksekutif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'eksekutif 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'eksekutif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeksekutifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'eksekutif 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeksekutifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'eksekutif 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeksekutifan",
+        "meaning": "eksekutif 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_l6wmg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekosistem [[버르ekosistem]]",
+    "meaning": "ekosistem하는 상태이다, ekosistem를 행하다",
+    "pos": "동사",
+    "root": "ekosistem",
+    "affix_logic": "어근 'ekosistem'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekosistem",
+    "antonym": "tidak ekosistem",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekosistem하는 상태이다, ekosistem를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekosistem'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berekosistem' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekosistem하는 상태이다, ekosistem를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berekosistem' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekosistem하는 상태이다, ekosistem를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berekosistem",
+        "meaning": "ekosistem하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ghunv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekosistem [[뼝ekosistem]]",
+    "meaning": "ekosistem 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "ekosistem",
+    "affix_logic": "어근 'ekosistem'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ekosistem",
+    "antonym": "bukan ekosistem",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekosistem 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekosistem'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekosistem' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekosistem 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekosistem' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekosistem 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekosistem",
+        "meaning": "ekosistem 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ry2rj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekosisteman [[뼝ekosistem안]]",
+    "meaning": "ekosistem 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "ekosistem",
+    "affix_logic": "어근 'ekosistem'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ekosistem",
+    "antonym": "bukan ekosistem",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekosistem 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekosistem'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekosisteman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekosistem 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekosisteman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekosistem 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekosisteman",
+        "meaning": "ekosistem 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_em4ms",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelastisitas [[버르elastisitas]]",
+    "meaning": "elastisitas하는 상태이다, elastisitas를 행하다",
+    "pos": "동사",
+    "root": "elastisitas",
+    "affix_logic": "어근 'elastisitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan elastisitas",
+    "antonym": "tidak elastisitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elastisitas하는 상태이다, elastisitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elastisitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berelastisitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elastisitas하는 상태이다, elastisitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berelastisitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elastisitas하는 상태이다, elastisitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berelastisitas",
+        "meaning": "elastisitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_bsywy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelastisitas [[뼝elastisitas]]",
+    "meaning": "elastisitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "elastisitas",
+    "affix_logic": "어근 'elastisitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak elastisitas",
+    "antonym": "bukan elastisitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elastisitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elastisitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengelastisitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elastisitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengelastisitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elastisitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengelastisitas",
+        "meaning": "elastisitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_oq4kw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelastisitasan [[뼝elastisitas안]]",
+    "meaning": "elastisitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "elastisitas",
+    "affix_logic": "어근 'elastisitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses elastisitas",
+    "antonym": "bukan elastisitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elastisitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elastisitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengelastisitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elastisitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengelastisitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elastisitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengelastisitasan",
+        "meaning": "elastisitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_rs92x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beremiten [[버르emiten]]",
+    "meaning": "emiten하는 상태이다, emiten를 행하다",
+    "pos": "동사",
+    "root": "emiten",
+    "affix_logic": "어근 'emiten'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan emiten",
+    "antonym": "tidak emiten",
+    "context": "실생활 및 회화/비즈니스 상황에서 'emiten하는 상태이다, emiten를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'emiten'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beremiten' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'emiten하는 상태이다, emiten를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beremiten' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'emiten하는 상태이다, emiten를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beremiten",
+        "meaning": "emiten하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_vikb4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengemiten [[뼝emiten]]",
+    "meaning": "emiten 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "emiten",
+    "affix_logic": "어근 'emiten'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak emiten",
+    "antonym": "bukan emiten",
+    "context": "실생활 및 회화/비즈니스 상황에서 'emiten 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'emiten'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengemiten' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'emiten 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengemiten' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'emiten 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengemiten",
+        "meaning": "emiten 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_baa8h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengemitenan [[뼝emiten안]]",
+    "meaning": "emiten 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "emiten",
+    "affix_logic": "어근 'emiten'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses emiten",
+    "antonym": "bukan emiten",
+    "context": "실생활 및 회화/비즈니스 상황에서 'emiten 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'emiten'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengemitenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'emiten 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengemitenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'emiten 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengemitenan",
+        "meaning": "emiten 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_0i5k9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berentitas [[버르entitas]]",
+    "meaning": "entitas하는 상태이다, entitas를 행하다",
+    "pos": "동사",
+    "root": "entitas",
+    "affix_logic": "어근 'entitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan entitas",
+    "antonym": "tidak entitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'entitas하는 상태이다, entitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'entitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berentitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'entitas하는 상태이다, entitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berentitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'entitas하는 상태이다, entitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berentitas",
+        "meaning": "entitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ggw2o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengentitas [[뼝entitas]]",
+    "meaning": "entitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "entitas",
+    "affix_logic": "어근 'entitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak entitas",
+    "antonym": "bukan entitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'entitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'entitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengentitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'entitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengentitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'entitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengentitas",
+        "meaning": "entitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_lctvm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengentitasan [[뼝entitas안]]",
+    "meaning": "entitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "entitas",
+    "affix_logic": "어근 'entitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses entitas",
+    "antonym": "bukan entitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'entitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'entitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengentitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'entitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengentitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'entitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengentitasan",
+        "meaning": "entitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_fz0if",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berestimasi [[버르estimasi]]",
+    "meaning": "estimasi하는 상태이다, estimasi를 행하다",
+    "pos": "동사",
+    "root": "estimasi",
+    "affix_logic": "어근 'estimasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan estimasi",
+    "antonym": "tidak estimasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'estimasi하는 상태이다, estimasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'estimasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berestimasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'estimasi하는 상태이다, estimasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berestimasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'estimasi하는 상태이다, estimasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berestimasi",
+        "meaning": "estimasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_o0t7m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengestimasi [[뼝estimasi]]",
+    "meaning": "estimasi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "estimasi",
+    "affix_logic": "어근 'estimasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak estimasi",
+    "antonym": "bukan estimasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'estimasi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'estimasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengestimasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'estimasi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengestimasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'estimasi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengestimasi",
+        "meaning": "estimasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_5rvzw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengestimasian [[뼝estimasi안]]",
+    "meaning": "estimasi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "estimasi",
+    "affix_logic": "어근 'estimasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses estimasi",
+    "antonym": "bukan estimasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'estimasi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'estimasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengestimasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'estimasi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengestimasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'estimasi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengestimasian",
+        "meaning": "estimasi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_g8fwh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beretika [[버르etika]]",
+    "meaning": "etika하는 상태이다, etika를 행하다",
+    "pos": "동사",
+    "root": "etika",
+    "affix_logic": "어근 'etika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan etika",
+    "antonym": "tidak etika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etika하는 상태이다, etika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beretika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etika하는 상태이다, etika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beretika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etika하는 상태이다, etika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beretika",
+        "meaning": "etika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_eswtv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetika [[뼝etika]]",
+    "meaning": "etika 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "etika",
+    "affix_logic": "어근 'etika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak etika",
+    "antonym": "bukan etika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etika 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etika 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etika 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetika",
+        "meaning": "etika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_mqelq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetikaan [[뼝etika안]]",
+    "meaning": "etika 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "etika",
+    "affix_logic": "어근 'etika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses etika",
+    "antonym": "bukan etika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etika 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etika 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etika 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetikaan",
+        "meaning": "etika 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_hjzrj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berevaluatif [[버르evaluatif]]",
+    "meaning": "evaluatif하는 상태이다, evaluatif를 행하다",
+    "pos": "동사",
+    "root": "evaluatif",
+    "affix_logic": "어근 'evaluatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan evaluatif",
+    "antonym": "tidak evaluatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evaluatif하는 상태이다, evaluatif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evaluatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berevaluatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evaluatif하는 상태이다, evaluatif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berevaluatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evaluatif하는 상태이다, evaluatif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berevaluatif",
+        "meaning": "evaluatif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_phkje",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengevaluatif [[뼝evaluatif]]",
+    "meaning": "evaluatif 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "evaluatif",
+    "affix_logic": "어근 'evaluatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak evaluatif",
+    "antonym": "bukan evaluatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evaluatif 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evaluatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengevaluatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evaluatif 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengevaluatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evaluatif 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengevaluatif",
+        "meaning": "evaluatif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_h31ce",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengevaluatifan [[뼝evaluatif안]]",
+    "meaning": "evaluatif 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "evaluatif",
+    "affix_logic": "어근 'evaluatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses evaluatif",
+    "antonym": "bukan evaluatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evaluatif 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evaluatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengevaluatifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evaluatif 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengevaluatifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evaluatif 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengevaluatifan",
+        "meaning": "evaluatif 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_hfckk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfaktur [[버르faktur]]",
+    "meaning": "faktur하는 상태이다, faktur를 행하다",
+    "pos": "동사",
+    "root": "faktur",
+    "affix_logic": "어근 'faktur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan faktur",
+    "antonym": "tidak faktur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'faktur하는 상태이다, faktur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'faktur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfaktur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'faktur하는 상태이다, faktur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfaktur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'faktur하는 상태이다, faktur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfaktur",
+        "meaning": "faktur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_8d7sh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfaktur [[뼝faktur]]",
+    "meaning": "faktur 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "faktur",
+    "affix_logic": "어근 'faktur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak faktur",
+    "antonym": "bukan faktur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'faktur 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'faktur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfaktur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'faktur 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfaktur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'faktur 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfaktur",
+        "meaning": "faktur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_qd0k7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfakturan [[뼝faktur안]]",
+    "meaning": "faktur 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "faktur",
+    "affix_logic": "어근 'faktur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses faktur",
+    "antonym": "bukan faktur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'faktur 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'faktur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfakturan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'faktur 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfakturan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'faktur 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfakturan",
+        "meaning": "faktur 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_68934",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfase [[버르fase]]",
+    "meaning": "fase하는 상태이다, fase를 행하다",
+    "pos": "동사",
+    "root": "fase",
+    "affix_logic": "어근 'fase'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fase",
+    "antonym": "tidak fase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fase하는 상태이다, fase를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fase하는 상태이다, fase를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fase하는 상태이다, fase를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfase",
+        "meaning": "fase하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_6hqes",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfase [[뼝fase]]",
+    "meaning": "fase 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "fase",
+    "affix_logic": "어근 'fase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fase",
+    "antonym": "bukan fase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fase 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fase 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fase 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfase",
+        "meaning": "fase 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_wxysd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfasean [[뼝fase안]]",
+    "meaning": "fase 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "fase",
+    "affix_logic": "어근 'fase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fase",
+    "antonym": "bukan fase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fase 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfasean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fase 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfasean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fase 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfasean",
+        "meaning": "fase 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_c6ef4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfenomena [[버르fenomena]]",
+    "meaning": "fenomena하는 상태이다, fenomena를 행하다",
+    "pos": "동사",
+    "root": "fenomena",
+    "affix_logic": "어근 'fenomena'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fenomena",
+    "antonym": "tidak fenomena",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fenomena하는 상태이다, fenomena를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fenomena'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfenomena' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fenomena하는 상태이다, fenomena를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfenomena' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fenomena하는 상태이다, fenomena를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfenomena",
+        "meaning": "fenomena하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_8kk6u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfenomena [[뼝fenomena]]",
+    "meaning": "fenomena 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "fenomena",
+    "affix_logic": "어근 'fenomena'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fenomena",
+    "antonym": "bukan fenomena",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fenomena 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fenomena'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfenomena' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fenomena 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfenomena' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fenomena 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfenomena",
+        "meaning": "fenomena 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_8hfd9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfenomenaan [[뼝fenomena안]]",
+    "meaning": "fenomena 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "fenomena",
+    "affix_logic": "어근 'fenomena'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fenomena",
+    "antonym": "bukan fenomena",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fenomena 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fenomena'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfenomenaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fenomena 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfenomenaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fenomena 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfenomenaan",
+        "meaning": "fenomena 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_8qyof",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfilosofi [[버르filosofi]]",
+    "meaning": "filosofi하는 상태이다, filosofi를 행하다",
+    "pos": "동사",
+    "root": "filosofi",
+    "affix_logic": "어근 'filosofi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan filosofi",
+    "antonym": "tidak filosofi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filosofi하는 상태이다, filosofi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filosofi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfilosofi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filosofi하는 상태이다, filosofi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfilosofi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filosofi하는 상태이다, filosofi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfilosofi",
+        "meaning": "filosofi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_5zkpn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfilosofi [[뼝filosofi]]",
+    "meaning": "filosofi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "filosofi",
+    "affix_logic": "어근 'filosofi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak filosofi",
+    "antonym": "bukan filosofi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filosofi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filosofi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfilosofi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filosofi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfilosofi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filosofi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfilosofi",
+        "meaning": "filosofi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_w5r46",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfilosofian [[뼝filosofi안]]",
+    "meaning": "filosofi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "filosofi",
+    "affix_logic": "어근 'filosofi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses filosofi",
+    "antonym": "bukan filosofi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filosofi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filosofi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfilosofian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filosofi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfilosofian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filosofi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfilosofian",
+        "meaning": "filosofi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_6hf96",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfinansial [[버르finansial]]",
+    "meaning": "finansial하는 상태이다, finansial를 행하다",
+    "pos": "동사",
+    "root": "finansial",
+    "affix_logic": "어근 'finansial'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan finansial",
+    "antonym": "tidak finansial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'finansial하는 상태이다, finansial를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'finansial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfinansial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'finansial하는 상태이다, finansial를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfinansial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'finansial하는 상태이다, finansial를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfinansial",
+        "meaning": "finansial하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_bsudq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfinansial [[뼝finansial]]",
+    "meaning": "finansial 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "finansial",
+    "affix_logic": "어근 'finansial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak finansial",
+    "antonym": "bukan finansial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'finansial 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'finansial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfinansial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'finansial 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfinansial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'finansial 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfinansial",
+        "meaning": "finansial 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_648rs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfinansialan [[뼝finansial안]]",
+    "meaning": "finansial 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "finansial",
+    "affix_logic": "어근 'finansial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses finansial",
+    "antonym": "bukan finansial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'finansial 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'finansial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfinansialan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'finansial 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfinansialan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'finansial 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfinansialan",
+        "meaning": "finansial 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_cad08",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfiskal [[버르fiskal]]",
+    "meaning": "fiskal하는 상태이다, fiskal를 행하다",
+    "pos": "동사",
+    "root": "fiskal",
+    "affix_logic": "어근 'fiskal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fiskal",
+    "antonym": "tidak fiskal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fiskal하는 상태이다, fiskal를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fiskal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfiskal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fiskal하는 상태이다, fiskal를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfiskal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fiskal하는 상태이다, fiskal를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfiskal",
+        "meaning": "fiskal하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_hxawt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfiskal [[뼝fiskal]]",
+    "meaning": "fiskal 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "fiskal",
+    "affix_logic": "어근 'fiskal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fiskal",
+    "antonym": "bukan fiskal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fiskal 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fiskal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfiskal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fiskal 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfiskal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fiskal 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfiskal",
+        "meaning": "fiskal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_fhvqi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfiskalan [[뼝fiskal안]]",
+    "meaning": "fiskal 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "fiskal",
+    "affix_logic": "어근 'fiskal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fiskal",
+    "antonym": "bukan fiskal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fiskal 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fiskal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfiskalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fiskal 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfiskalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fiskal 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfiskalan",
+        "meaning": "fiskal 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_0etr1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfondasi [[뼝fondasi]]",
+    "meaning": "fondasi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "fondasi",
+    "affix_logic": "어근 'fondasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fondasi",
+    "antonym": "bukan fondasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fondasi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fondasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfondasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fondasi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfondasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fondasi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfondasi",
+        "meaning": "fondasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_rq2al",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfondasian [[뼝fondasi안]]",
+    "meaning": "fondasi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "fondasi",
+    "affix_logic": "어근 'fondasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fondasi",
+    "antonym": "bukan fondasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fondasi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fondasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfondasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fondasi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfondasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fondasi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfondasian",
+        "meaning": "fondasi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_conkf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergaransi [[버르garansi]]",
+    "meaning": "garansi하는 상태이다, garansi를 행하다",
+    "pos": "동사",
+    "root": "garansi",
+    "affix_logic": "어근 'garansi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan garansi",
+    "antonym": "tidak garansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'garansi하는 상태이다, garansi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'garansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergaransi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'garansi하는 상태이다, garansi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergaransi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'garansi하는 상태이다, garansi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergaransi",
+        "meaning": "garansi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ihwj4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggaransi [[뼝garansi]]",
+    "meaning": "garansi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "garansi",
+    "affix_logic": "어근 'garansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak garansi",
+    "antonym": "bukan garansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'garansi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'garansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggaransi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'garansi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggaransi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'garansi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggaransi",
+        "meaning": "garansi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_7quev",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggaransian [[뼝garansi안]]",
+    "meaning": "garansi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "garansi",
+    "affix_logic": "어근 'garansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses garansi",
+    "antonym": "bukan garansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'garansi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'garansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggaransian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'garansi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggaransian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'garansi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggaransian",
+        "meaning": "garansi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_scwts",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergrosir [[버르grosir]]",
+    "meaning": "grosir하는 상태이다, grosir를 행하다",
+    "pos": "동사",
+    "root": "grosir",
+    "affix_logic": "어근 'grosir'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan grosir",
+    "antonym": "tidak grosir",
+    "context": "실생활 및 회화/비즈니스 상황에서 'grosir하는 상태이다, grosir를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'grosir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergrosir' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'grosir하는 상태이다, grosir를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergrosir' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'grosir하는 상태이다, grosir를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergrosir",
+        "meaning": "grosir하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_lx1ur",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggrosir [[뼝grosir]]",
+    "meaning": "grosir 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "grosir",
+    "affix_logic": "어근 'grosir'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak grosir",
+    "antonym": "bukan grosir",
+    "context": "실생활 및 회화/비즈니스 상황에서 'grosir 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'grosir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggrosir' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'grosir 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggrosir' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'grosir 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggrosir",
+        "meaning": "grosir 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_to80o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggrosiran [[뼝grosir안]]",
+    "meaning": "grosir 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "grosir",
+    "affix_logic": "어근 'grosir'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses grosir",
+    "antonym": "bukan grosir",
+    "context": "실생활 및 회화/비즈니스 상황에서 'grosir 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'grosir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggrosiran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'grosir 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggrosiran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'grosir 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggrosiran",
+        "meaning": "grosir 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_rutws",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhipotek [[버르hipotek]]",
+    "meaning": "hipotek하는 상태이다, hipotek를 행하다",
+    "pos": "동사",
+    "root": "hipotek",
+    "affix_logic": "어근 'hipotek'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hipotek",
+    "antonym": "tidak hipotek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotek하는 상태이다, hipotek를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhipotek' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotek하는 상태이다, hipotek를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhipotek' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotek하는 상태이다, hipotek를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhipotek",
+        "meaning": "hipotek하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_n2zjk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotek [[뼝hipotek]]",
+    "meaning": "hipotek 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "hipotek",
+    "affix_logic": "어근 'hipotek'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hipotek",
+    "antonym": "bukan hipotek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotek 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotek' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotek 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotek' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotek 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotek",
+        "meaning": "hipotek 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_go2cw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotekan [[뼝hipotek안]]",
+    "meaning": "hipotek 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "hipotek",
+    "affix_logic": "어근 'hipotek'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hipotek",
+    "antonym": "bukan hipotek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotek 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotekan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotek 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotekan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotek 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotekan",
+        "meaning": "hipotek 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_muyx8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhipotesis [[버르hipotesis]]",
+    "meaning": "hipotesis하는 상태이다, hipotesis를 행하다",
+    "pos": "동사",
+    "root": "hipotesis",
+    "affix_logic": "어근 'hipotesis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hipotesis",
+    "antonym": "tidak hipotesis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotesis하는 상태이다, hipotesis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotesis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhipotesis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotesis하는 상태이다, hipotesis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhipotesis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotesis하는 상태이다, hipotesis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhipotesis",
+        "meaning": "hipotesis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_7pofo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotesis [[뼝hipotesis]]",
+    "meaning": "hipotesis 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "hipotesis",
+    "affix_logic": "어근 'hipotesis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hipotesis",
+    "antonym": "bukan hipotesis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotesis 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotesis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotesis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotesis 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotesis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotesis 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotesis",
+        "meaning": "hipotesis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_n95rv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotesisan [[뼝hipotesis안]]",
+    "meaning": "hipotesis 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "hipotesis",
+    "affix_logic": "어근 'hipotesis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hipotesis",
+    "antonym": "bukan hipotesis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotesis 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotesis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotesisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotesis 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotesisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotesis 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotesisan",
+        "meaning": "hipotesis 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_uxxp4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berijazah [[버르ijazah]]",
+    "meaning": "ijazah하는 상태이다, ijazah를 행하다",
+    "pos": "동사",
+    "root": "ijazah",
+    "affix_logic": "어근 'ijazah'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ijazah",
+    "antonym": "tidak ijazah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ijazah하는 상태이다, ijazah를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ijazah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berijazah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ijazah하는 상태이다, ijazah를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berijazah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ijazah하는 상태이다, ijazah를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berijazah",
+        "meaning": "ijazah하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_601i4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengijazah [[뼝ijazah]]",
+    "meaning": "ijazah 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "ijazah",
+    "affix_logic": "어근 'ijazah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ijazah",
+    "antonym": "bukan ijazah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ijazah 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ijazah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengijazah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ijazah 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengijazah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ijazah 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengijazah",
+        "meaning": "ijazah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_mrpwb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengijazahan [[뼝ijazah안]]",
+    "meaning": "ijazah 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "ijazah",
+    "affix_logic": "어근 'ijazah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ijazah",
+    "antonym": "bukan ijazah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ijazah 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ijazah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengijazahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ijazah 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengijazahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ijazah 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengijazahan",
+        "meaning": "ijazah 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ggly8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berimbalan [[버르imbalan]]",
+    "meaning": "imbalan하는 상태이다, imbalan를 행하다",
+    "pos": "동사",
+    "root": "imbalan",
+    "affix_logic": "어근 'imbalan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan imbalan",
+    "antonym": "tidak imbalan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imbalan하는 상태이다, imbalan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imbalan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berimbalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imbalan하는 상태이다, imbalan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berimbalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imbalan하는 상태이다, imbalan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berimbalan",
+        "meaning": "imbalan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_yg24l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimbalan [[뼝imbalan]]",
+    "meaning": "imbalan 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "imbalan",
+    "affix_logic": "어근 'imbalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak imbalan",
+    "antonym": "bukan imbalan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imbalan 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imbalan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimbalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imbalan 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimbalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imbalan 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimbalan",
+        "meaning": "imbalan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_8fpu0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimbalanan [[뼝imbalan안]]",
+    "meaning": "imbalan 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "imbalan",
+    "affix_logic": "어근 'imbalan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses imbalan",
+    "antonym": "bukan imbalan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imbalan 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imbalan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimbalanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imbalan 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimbalanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imbalan 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimbalanan",
+        "meaning": "imbalan 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_yulbi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berimbal [[버르imbal]]",
+    "meaning": "imbal하는 상태이다, imbal를 행하다",
+    "pos": "동사",
+    "root": "imbal",
+    "affix_logic": "어근 'imbal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan imbal",
+    "antonym": "tidak imbal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imbal하는 상태이다, imbal를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imbal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berimbal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imbal하는 상태이다, imbal를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berimbal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imbal하는 상태이다, imbal를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berimbal",
+        "meaning": "imbal하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_oznt4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimbal [[뼝imbal]]",
+    "meaning": "imbal 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "imbal",
+    "affix_logic": "어근 'imbal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak imbal",
+    "antonym": "bukan imbal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imbal 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imbal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimbal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imbal 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimbal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imbal 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimbal",
+        "meaning": "imbal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_157l6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinfrastruktur [[버르infrastruktur]]",
+    "meaning": "infrastruktur하는 상태이다, infrastruktur를 행하다",
+    "pos": "동사",
+    "root": "infrastruktur",
+    "affix_logic": "어근 'infrastruktur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan infrastruktur",
+    "antonym": "tidak infrastruktur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infrastruktur하는 상태이다, infrastruktur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infrastruktur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinfrastruktur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infrastruktur하는 상태이다, infrastruktur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinfrastruktur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infrastruktur하는 상태이다, infrastruktur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinfrastruktur",
+        "meaning": "infrastruktur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_zl6we",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfrastruktur [[뼝infrastruktur]]",
+    "meaning": "infrastruktur 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "infrastruktur",
+    "affix_logic": "어근 'infrastruktur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak infrastruktur",
+    "antonym": "bukan infrastruktur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infrastruktur 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infrastruktur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfrastruktur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infrastruktur 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfrastruktur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infrastruktur 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfrastruktur",
+        "meaning": "infrastruktur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_r5i6y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfrastrukturan [[뼝infrastruktur안]]",
+    "meaning": "infrastruktur 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "infrastruktur",
+    "affix_logic": "어근 'infrastruktur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses infrastruktur",
+    "antonym": "bukan infrastruktur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infrastruktur 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infrastruktur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfrastrukturan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infrastruktur 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfrastrukturan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infrastruktur 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfrastrukturan",
+        "meaning": "infrastruktur 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_35d0q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinsentif [[버르insentif]]",
+    "meaning": "insentif하는 상태이다, insentif를 행하다",
+    "pos": "동사",
+    "root": "insentif",
+    "affix_logic": "어근 'insentif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan insentif",
+    "antonym": "tidak insentif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insentif하는 상태이다, insentif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insentif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinsentif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insentif하는 상태이다, insentif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinsentif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insentif하는 상태이다, insentif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinsentif",
+        "meaning": "insentif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_4r9lm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsentif [[뼝insentif]]",
+    "meaning": "insentif 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "insentif",
+    "affix_logic": "어근 'insentif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak insentif",
+    "antonym": "bukan insentif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insentif 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insentif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsentif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insentif 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsentif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insentif 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsentif",
+        "meaning": "insentif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_zovuw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsentifan [[뼝insentif안]]",
+    "meaning": "insentif 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "insentif",
+    "affix_logic": "어근 'insentif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses insentif",
+    "antonym": "bukan insentif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insentif 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insentif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsentifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insentif 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsentifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insentif 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsentifan",
+        "meaning": "insentif 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_qagoe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinsolvensi [[버르insolvensi]]",
+    "meaning": "insolvensi하는 상태이다, insolvensi를 행하다",
+    "pos": "동사",
+    "root": "insolvensi",
+    "affix_logic": "어근 'insolvensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan insolvensi",
+    "antonym": "tidak insolvensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insolvensi하는 상태이다, insolvensi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insolvensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinsolvensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insolvensi하는 상태이다, insolvensi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinsolvensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insolvensi하는 상태이다, insolvensi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinsolvensi",
+        "meaning": "insolvensi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_3ik0z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsolvensi [[뼝insolvensi]]",
+    "meaning": "insolvensi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "insolvensi",
+    "affix_logic": "어근 'insolvensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak insolvensi",
+    "antonym": "bukan insolvensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insolvensi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insolvensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsolvensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insolvensi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsolvensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insolvensi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsolvensi",
+        "meaning": "insolvensi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_lk9sh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginsolvensian [[뼝insolvensi안]]",
+    "meaning": "insolvensi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "insolvensi",
+    "affix_logic": "어근 'insolvensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses insolvensi",
+    "antonym": "bukan insolvensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'insolvensi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'insolvensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginsolvensian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'insolvensi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginsolvensian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'insolvensi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginsolvensian",
+        "meaning": "insolvensi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_hyqur",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinstrumen [[버르instrumen]]",
+    "meaning": "instrumen하는 상태이다, instrumen를 행하다",
+    "pos": "동사",
+    "root": "instrumen",
+    "affix_logic": "어근 'instrumen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan instrumen",
+    "antonym": "tidak instrumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instrumen하는 상태이다, instrumen를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instrumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinstrumen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instrumen하는 상태이다, instrumen를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinstrumen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instrumen하는 상태이다, instrumen를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinstrumen",
+        "meaning": "instrumen하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_mrty9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginstrumen [[뼝instrumen]]",
+    "meaning": "instrumen 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "instrumen",
+    "affix_logic": "어근 'instrumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak instrumen",
+    "antonym": "bukan instrumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instrumen 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instrumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginstrumen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instrumen 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginstrumen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instrumen 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginstrumen",
+        "meaning": "instrumen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_l5d1f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginstrumenan [[뼝instrumen안]]",
+    "meaning": "instrumen 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "instrumen",
+    "affix_logic": "어근 'instrumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses instrumen",
+    "antonym": "bukan instrumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instrumen 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instrumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginstrumenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instrumen 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginstrumenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instrumen 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginstrumenan",
+        "meaning": "instrumen 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_6o85y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berintegris [[버르integris]]",
+    "meaning": "integris하는 상태이다, integris를 행하다",
+    "pos": "동사",
+    "root": "integris",
+    "affix_logic": "어근 'integris'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan integris",
+    "antonym": "tidak integris",
+    "context": "실생활 및 회화/비즈니스 상황에서 'integris하는 상태이다, integris를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'integris'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berintegris' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'integris하는 상태이다, integris를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berintegris' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'integris하는 상태이다, integris를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berintegris",
+        "meaning": "integris하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_81npz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintegris [[뼝integris]]",
+    "meaning": "integris 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "integris",
+    "affix_logic": "어근 'integris'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak integris",
+    "antonym": "bukan integris",
+    "context": "실생활 및 회화/비즈니스 상황에서 'integris 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'integris'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintegris' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'integris 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintegris' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'integris 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintegris",
+        "meaning": "integris 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_p9vf3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintegrisan [[뼝integris안]]",
+    "meaning": "integris 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "integris",
+    "affix_logic": "어근 'integris'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses integris",
+    "antonym": "bukan integris",
+    "context": "실생활 및 회화/비즈니스 상황에서 'integris 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'integris'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintegrisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'integris 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintegrisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'integris 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintegrisan",
+        "meaning": "integris 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_lb86p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berintelektual [[버르intelektual]]",
+    "meaning": "intelektual하는 상태이다, intelektual를 행하다",
+    "pos": "동사",
+    "root": "intelektual",
+    "affix_logic": "어근 'intelektual'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan intelektual",
+    "antonym": "tidak intelektual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intelektual하는 상태이다, intelektual를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intelektual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berintelektual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intelektual하는 상태이다, intelektual를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berintelektual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intelektual하는 상태이다, intelektual를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berintelektual",
+        "meaning": "intelektual하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_b9isj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintelektual [[뼝intelektual]]",
+    "meaning": "intelektual 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "intelektual",
+    "affix_logic": "어근 'intelektual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak intelektual",
+    "antonym": "bukan intelektual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intelektual 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intelektual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintelektual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intelektual 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintelektual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intelektual 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintelektual",
+        "meaning": "intelektual 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_m422s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintelektualan [[뼝intelektual안]]",
+    "meaning": "intelektual 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "intelektual",
+    "affix_logic": "어근 'intelektual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses intelektual",
+    "antonym": "bukan intelektual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intelektual 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intelektual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintelektualan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intelektual 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintelektualan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intelektual 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintelektualan",
+        "meaning": "intelektual 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_sf7q9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berintensitas [[버르intensitas]]",
+    "meaning": "intensitas하는 상태이다, intensitas를 행하다",
+    "pos": "동사",
+    "root": "intensitas",
+    "affix_logic": "어근 'intensitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan intensitas",
+    "antonym": "tidak intensitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intensitas하는 상태이다, intensitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intensitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berintensitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intensitas하는 상태이다, intensitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berintensitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intensitas하는 상태이다, intensitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berintensitas",
+        "meaning": "intensitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_7edo5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintensitas [[뼝intensitas]]",
+    "meaning": "intensitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "intensitas",
+    "affix_logic": "어근 'intensitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak intensitas",
+    "antonym": "bukan intensitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intensitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intensitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintensitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intensitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintensitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intensitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintensitas",
+        "meaning": "intensitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_q8jzw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintensitasan [[뼝intensitas안]]",
+    "meaning": "intensitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "intensitas",
+    "affix_logic": "어근 'intensitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses intensitas",
+    "antonym": "bukan intensitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intensitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intensitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintensitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intensitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintensitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intensitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintensitasan",
+        "meaning": "intensitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_xz7pb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berintrinsik [[버르intrinsik]]",
+    "meaning": "intrinsik하는 상태이다, intrinsik를 행하다",
+    "pos": "동사",
+    "root": "intrinsik",
+    "affix_logic": "어근 'intrinsik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan intrinsik",
+    "antonym": "tidak intrinsik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intrinsik하는 상태이다, intrinsik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intrinsik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berintrinsik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intrinsik하는 상태이다, intrinsik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berintrinsik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intrinsik하는 상태이다, intrinsik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berintrinsik",
+        "meaning": "intrinsik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_dezqv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintrinsik [[뼝intrinsik]]",
+    "meaning": "intrinsik 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "intrinsik",
+    "affix_logic": "어근 'intrinsik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak intrinsik",
+    "antonym": "bukan intrinsik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intrinsik 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intrinsik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintrinsik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intrinsik 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintrinsik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intrinsik 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintrinsik",
+        "meaning": "intrinsik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_p4t3l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengintrinsikan [[뼝intrinsik안]]",
+    "meaning": "intrinsik 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "intrinsik",
+    "affix_logic": "어근 'intrinsik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses intrinsik",
+    "antonym": "bukan intrinsik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intrinsik 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intrinsik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengintrinsikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intrinsik 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengintrinsikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intrinsik 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengintrinsikan",
+        "meaning": "intrinsik 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_w6au4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinventaris [[버르inventaris]]",
+    "meaning": "inventaris하는 상태이다, inventaris를 행하다",
+    "pos": "동사",
+    "root": "inventaris",
+    "affix_logic": "어근 'inventaris'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan inventaris",
+    "antonym": "tidak inventaris",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inventaris하는 상태이다, inventaris를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inventaris'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinventaris' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inventaris하는 상태이다, inventaris를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinventaris' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inventaris하는 상태이다, inventaris를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinventaris",
+        "meaning": "inventaris하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_vku7f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginventaris [[뼝inventaris]]",
+    "meaning": "inventaris 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "inventaris",
+    "affix_logic": "어근 'inventaris'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak inventaris",
+    "antonym": "bukan inventaris",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inventaris 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inventaris'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginventaris' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inventaris 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginventaris' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inventaris 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginventaris",
+        "meaning": "inventaris 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_l2mep",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginventarisan [[뼝inventaris안]]",
+    "meaning": "inventaris 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "inventaris",
+    "affix_logic": "어근 'inventaris'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses inventaris",
+    "antonym": "bukan inventaris",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inventaris 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inventaris'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginventarisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inventaris 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginventarisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inventaris 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginventarisan",
+        "meaning": "inventaris 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_qgmu1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinvestor [[버르investor]]",
+    "meaning": "investor하는 상태이다, investor를 행하다",
+    "pos": "동사",
+    "root": "investor",
+    "affix_logic": "어근 'investor'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan investor",
+    "antonym": "tidak investor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'investor하는 상태이다, investor를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'investor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinvestor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'investor하는 상태이다, investor를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinvestor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'investor하는 상태이다, investor를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinvestor",
+        "meaning": "investor하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_7sqe3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginvestor [[뼝investor]]",
+    "meaning": "investor 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "investor",
+    "affix_logic": "어근 'investor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak investor",
+    "antonym": "bukan investor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'investor 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'investor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginvestor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'investor 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginvestor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'investor 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginvestor",
+        "meaning": "investor 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_q59dy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginvestoran [[뼝investor안]]",
+    "meaning": "investor 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "investor",
+    "affix_logic": "어근 'investor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses investor",
+    "antonym": "bukan investor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'investor 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'investor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginvestoran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'investor 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginvestoran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'investor 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginvestoran",
+        "meaning": "investor 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_xjcio",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkapital [[버르kapital]]",
+    "meaning": "kapital하는 상태이다, kapital를 행하다",
+    "pos": "동사",
+    "root": "kapital",
+    "affix_logic": "어근 'kapital'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kapital",
+    "antonym": "tidak kapital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kapital하는 상태이다, kapital를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kapital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkapital' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kapital하는 상태이다, kapital를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkapital' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kapital하는 상태이다, kapital를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkapital",
+        "meaning": "kapital하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_9ty7z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkapital [[뼝kapital]]",
+    "meaning": "kapital 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kapital",
+    "affix_logic": "어근 'kapital'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kapital",
+    "antonym": "bukan kapital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kapital 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kapital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkapital' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kapital 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkapital' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kapital 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkapital",
+        "meaning": "kapital 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_3z0re",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkapitalan [[뼝kapital안]]",
+    "meaning": "kapital 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kapital",
+    "affix_logic": "어근 'kapital'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kapital",
+    "antonym": "bukan kapital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kapital 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kapital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkapitalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kapital 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkapitalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kapital 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkapitalan",
+        "meaning": "kapital 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_an9x9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berklausula [[버르klausula]]",
+    "meaning": "klausula하는 상태이다, klausula를 행하다",
+    "pos": "동사",
+    "root": "klausula",
+    "affix_logic": "어근 'klausula'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan klausula",
+    "antonym": "tidak klausula",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klausula하는 상태이다, klausula를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klausula'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berklausula' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klausula하는 상태이다, klausula를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berklausula' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klausula하는 상태이다, klausula를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berklausula",
+        "meaning": "klausula하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_s192o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklausula [[뼝klausula]]",
+    "meaning": "klausula 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "klausula",
+    "affix_logic": "어근 'klausula'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak klausula",
+    "antonym": "bukan klausula",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klausula 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klausula'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklausula' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klausula 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklausula' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klausula 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklausula",
+        "meaning": "klausula 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_poo9s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklausulaan [[뼝klausula안]]",
+    "meaning": "klausula 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "klausula",
+    "affix_logic": "어근 'klausula'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses klausula",
+    "antonym": "bukan klausula",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klausula 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klausula'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklausulaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klausula 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklausulaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klausula 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklausulaan",
+        "meaning": "klausula 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_jwk37",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkolektibilitas [[버르kolektibilitas]]",
+    "meaning": "kolektibilitas하는 상태이다, kolektibilitas를 행하다",
+    "pos": "동사",
+    "root": "kolektibilitas",
+    "affix_logic": "어근 'kolektibilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kolektibilitas",
+    "antonym": "tidak kolektibilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolektibilitas하는 상태이다, kolektibilitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolektibilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkolektibilitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolektibilitas하는 상태이다, kolektibilitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkolektibilitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolektibilitas하는 상태이다, kolektibilitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkolektibilitas",
+        "meaning": "kolektibilitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_y873e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolektibilitas [[뼝kolektibilitas]]",
+    "meaning": "kolektibilitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kolektibilitas",
+    "affix_logic": "어근 'kolektibilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kolektibilitas",
+    "antonym": "bukan kolektibilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolektibilitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolektibilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolektibilitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolektibilitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolektibilitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolektibilitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolektibilitas",
+        "meaning": "kolektibilitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_wiuh6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolektibilitasan [[뼝kolektibilitas안]]",
+    "meaning": "kolektibilitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kolektibilitas",
+    "affix_logic": "어근 'kolektibilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kolektibilitas",
+    "antonym": "bukan kolektibilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolektibilitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolektibilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolektibilitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolektibilitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolektibilitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolektibilitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolektibilitasan",
+        "meaning": "kolektibilitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_b1tmd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkomoditas [[버르komoditas]]",
+    "meaning": "komoditas하는 상태이다, komoditas를 행하다",
+    "pos": "동사",
+    "root": "komoditas",
+    "affix_logic": "어근 'komoditas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan komoditas",
+    "antonym": "tidak komoditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komoditas하는 상태이다, komoditas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komoditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkomoditas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komoditas하는 상태이다, komoditas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkomoditas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komoditas하는 상태이다, komoditas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkomoditas",
+        "meaning": "komoditas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_nmxqn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomoditas [[뼝komoditas]]",
+    "meaning": "komoditas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "komoditas",
+    "affix_logic": "어근 'komoditas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak komoditas",
+    "antonym": "bukan komoditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komoditas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komoditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomoditas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komoditas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomoditas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komoditas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomoditas",
+        "meaning": "komoditas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_adoux",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomoditasan [[뼝komoditas안]]",
+    "meaning": "komoditas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "komoditas",
+    "affix_logic": "어근 'komoditas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses komoditas",
+    "antonym": "bukan komoditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komoditas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komoditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomoditasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komoditas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomoditasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komoditas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomoditasan",
+        "meaning": "komoditas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ooy5n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonsumen [[버르konsumen]]",
+    "meaning": "konsumen하는 상태이다, konsumen를 행하다",
+    "pos": "동사",
+    "root": "konsumen",
+    "affix_logic": "어근 'konsumen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konsumen",
+    "antonym": "tidak konsumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsumen하는 상태이다, konsumen를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkonsumen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsumen하는 상태이다, konsumen를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkonsumen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsumen하는 상태이다, konsumen를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkonsumen",
+        "meaning": "konsumen하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_ofg4b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonsumen [[뼝konsumen]]",
+    "meaning": "konsumen 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "konsumen",
+    "affix_logic": "어근 'konsumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak konsumen",
+    "antonym": "bukan konsumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsumen 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonsumen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsumen 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonsumen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsumen 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonsumen",
+        "meaning": "konsumen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_yp9uz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonsumenan [[뼝konsumen안]]",
+    "meaning": "konsumen 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "konsumen",
+    "affix_logic": "어근 'konsumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses konsumen",
+    "antonym": "bukan konsumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konsumen 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konsumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonsumenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konsumen 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonsumenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konsumen 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonsumenan",
+        "meaning": "konsumen 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_579v8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkontrak [[버르kontrak]]",
+    "meaning": "kontrak하는 상태이다, kontrak를 행하다",
+    "pos": "동사",
+    "root": "kontrak",
+    "affix_logic": "어근 'kontrak'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kontrak",
+    "antonym": "tidak kontrak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontrak하는 상태이다, kontrak를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontrak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkontrak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontrak하는 상태이다, kontrak를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkontrak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontrak하는 상태이다, kontrak를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkontrak",
+        "meaning": "kontrak하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_9fzv8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontrak [[뼝kontrak]]",
+    "meaning": "kontrak 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kontrak",
+    "affix_logic": "어근 'kontrak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kontrak",
+    "antonym": "bukan kontrak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontrak 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontrak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontrak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontrak 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontrak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontrak 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontrak",
+        "meaning": "kontrak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_qtlrd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontrakan [[뼝kontrak안]]",
+    "meaning": "kontrak 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kontrak",
+    "affix_logic": "어근 'kontrak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kontrak",
+    "antonym": "bukan kontrak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontrak 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontrak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontrakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontrak 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontrakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontrak 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontrakan",
+        "meaning": "kontrak 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_3ovz8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkredibilitas [[버르kredibilitas]]",
+    "meaning": "kredibilitas하는 상태이다, kredibilitas를 행하다",
+    "pos": "동사",
+    "root": "kredibilitas",
+    "affix_logic": "어근 'kredibilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kredibilitas",
+    "antonym": "tidak kredibilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kredibilitas하는 상태이다, kredibilitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kredibilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkredibilitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kredibilitas하는 상태이다, kredibilitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkredibilitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kredibilitas하는 상태이다, kredibilitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkredibilitas",
+        "meaning": "kredibilitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_bfyl3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkredibilitas [[뼝kredibilitas]]",
+    "meaning": "kredibilitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kredibilitas",
+    "affix_logic": "어근 'kredibilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kredibilitas",
+    "antonym": "bukan kredibilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kredibilitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kredibilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkredibilitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kredibilitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkredibilitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kredibilitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkredibilitas",
+        "meaning": "kredibilitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_455it",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkredibilitasan [[뼝kredibilitas안]]",
+    "meaning": "kredibilitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kredibilitas",
+    "affix_logic": "어근 'kredibilitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kredibilitas",
+    "antonym": "bukan kredibilitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kredibilitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kredibilitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkredibilitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kredibilitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkredibilitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kredibilitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkredibilitasan",
+        "meaning": "kredibilitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916559_mi0ee",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkreditur [[버르kreditur]]",
+    "meaning": "kreditur하는 상태이다, kreditur를 행하다",
+    "pos": "동사",
+    "root": "kreditur",
+    "affix_logic": "어근 'kreditur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kreditur",
+    "antonym": "tidak kreditur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kreditur하는 상태이다, kreditur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kreditur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkreditur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kreditur하는 상태이다, kreditur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkreditur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kreditur하는 상태이다, kreditur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkreditur",
+        "meaning": "kreditur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_ov6zc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkreditur [[뼝kreditur]]",
+    "meaning": "kreditur 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kreditur",
+    "affix_logic": "어근 'kreditur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kreditur",
+    "antonym": "bukan kreditur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kreditur 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kreditur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkreditur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kreditur 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkreditur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kreditur 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkreditur",
+        "meaning": "kreditur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_ervrw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkredituran [[뼝kreditur안]]",
+    "meaning": "kreditur 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kreditur",
+    "affix_logic": "어근 'kreditur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kreditur",
+    "antonym": "bukan kreditur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kreditur 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kreditur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkredituran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kreditur 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkredituran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kreditur 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkredituran",
+        "meaning": "kreditur 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_m5eb8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkronologi [[버르kronologi]]",
+    "meaning": "kronologi하는 상태이다, kronologi를 행하다",
+    "pos": "동사",
+    "root": "kronologi",
+    "affix_logic": "어근 'kronologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kronologi",
+    "antonym": "tidak kronologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kronologi하는 상태이다, kronologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kronologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkronologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kronologi하는 상태이다, kronologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkronologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kronologi하는 상태이다, kronologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkronologi",
+        "meaning": "kronologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_aibkj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkronologi [[뼝kronologi]]",
+    "meaning": "kronologi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kronologi",
+    "affix_logic": "어근 'kronologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kronologi",
+    "antonym": "bukan kronologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kronologi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kronologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkronologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kronologi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkronologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kronologi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkronologi",
+        "meaning": "kronologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_8ez6z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkronologian [[뼝kronologi안]]",
+    "meaning": "kronologi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kronologi",
+    "affix_logic": "어근 'kronologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kronologi",
+    "antonym": "bukan kronologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kronologi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kronologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkronologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kronologi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkronologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kronologi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkronologian",
+        "meaning": "kronologi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_1o9a6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkuota [[버르kuota]]",
+    "meaning": "kuota하는 상태이다, kuota를 행하다",
+    "pos": "동사",
+    "root": "kuota",
+    "affix_logic": "어근 'kuota'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kuota",
+    "antonym": "tidak kuota",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuota하는 상태이다, kuota를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuota'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkuota' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuota하는 상태이다, kuota를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkuota' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuota하는 상태이다, kuota를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkuota",
+        "meaning": "kuota하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_wk7zj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkuota [[뼝kuota]]",
+    "meaning": "kuota 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kuota",
+    "affix_logic": "어근 'kuota'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kuota",
+    "antonym": "bukan kuota",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuota 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuota'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkuota' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuota 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkuota' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuota 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkuota",
+        "meaning": "kuota 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_02s9g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkuotaan [[뼝kuota안]]",
+    "meaning": "kuota 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kuota",
+    "affix_logic": "어근 'kuota'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kuota",
+    "antonym": "bukan kuota",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuota 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuota'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkuotaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuota 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkuotaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuota 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkuotaan",
+        "meaning": "kuota 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_x43hq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkuitansi [[버르kuitansi]]",
+    "meaning": "kuitansi하는 상태이다, kuitansi를 행하다",
+    "pos": "동사",
+    "root": "kuitansi",
+    "affix_logic": "어근 'kuitansi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kuitansi",
+    "antonym": "tidak kuitansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuitansi하는 상태이다, kuitansi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuitansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkuitansi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuitansi하는 상태이다, kuitansi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkuitansi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuitansi하는 상태이다, kuitansi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkuitansi",
+        "meaning": "kuitansi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_4mfla",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkuitansi [[뼝kuitansi]]",
+    "meaning": "kuitansi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "kuitansi",
+    "affix_logic": "어근 'kuitansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kuitansi",
+    "antonym": "bukan kuitansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuitansi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuitansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkuitansi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuitansi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkuitansi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuitansi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkuitansi",
+        "meaning": "kuitansi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_crzyx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkuitansian [[뼝kuitansi안]]",
+    "meaning": "kuitansi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "kuitansi",
+    "affix_logic": "어근 'kuitansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kuitansi",
+    "antonym": "bukan kuitansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuitansi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuitansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkuitansian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuitansi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkuitansian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuitansi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkuitansian",
+        "meaning": "kuitansi 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_ylkad",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlaba [[버르laba]]",
+    "meaning": "laba하는 상태이다, laba를 행하다",
+    "pos": "동사",
+    "root": "laba",
+    "affix_logic": "어근 'laba'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan laba",
+    "antonym": "tidak laba",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laba하는 상태이다, laba를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laba'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlaba' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laba하는 상태이다, laba를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlaba' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laba하는 상태이다, laba를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlaba",
+        "meaning": "laba하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_2y9n5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaba [[뼝laba]]",
+    "meaning": "laba 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "laba",
+    "affix_logic": "어근 'laba'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak laba",
+    "antonym": "bukan laba",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laba 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laba'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaba' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laba 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaba' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laba 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaba",
+        "meaning": "laba 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_fagft",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglabaan [[뼝laba안]]",
+    "meaning": "laba 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "laba",
+    "affix_logic": "어근 'laba'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses laba",
+    "antonym": "bukan laba",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laba 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laba'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglabaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laba 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglabaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laba 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglabaan",
+        "meaning": "laba 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_6pbqt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlegalitas [[버르legalitas]]",
+    "meaning": "legalitas하는 상태이다, legalitas를 행하다",
+    "pos": "동사",
+    "root": "legalitas",
+    "affix_logic": "어근 'legalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan legalitas",
+    "antonym": "tidak legalitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'legalitas하는 상태이다, legalitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'legalitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlegalitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'legalitas하는 상태이다, legalitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlegalitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'legalitas하는 상태이다, legalitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlegalitas",
+        "meaning": "legalitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_iaqgx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglegalitas [[뼝legalitas]]",
+    "meaning": "legalitas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "legalitas",
+    "affix_logic": "어근 'legalitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak legalitas",
+    "antonym": "bukan legalitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'legalitas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'legalitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglegalitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'legalitas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglegalitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'legalitas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglegalitas",
+        "meaning": "legalitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_7wc5k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglegalitasan [[뼝legalitas안]]",
+    "meaning": "legalitas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "legalitas",
+    "affix_logic": "어근 'legalitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses legalitas",
+    "antonym": "bukan legalitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'legalitas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'legalitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglegalitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'legalitas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglegalitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'legalitas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglegalitasan",
+        "meaning": "legalitas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_i85x6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlikuiditas [[버르likuiditas]]",
+    "meaning": "likuiditas하는 상태이다, likuiditas를 행하다",
+    "pos": "동사",
+    "root": "likuiditas",
+    "affix_logic": "어근 'likuiditas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan likuiditas",
+    "antonym": "tidak likuiditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'likuiditas하는 상태이다, likuiditas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'likuiditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlikuiditas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'likuiditas하는 상태이다, likuiditas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlikuiditas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'likuiditas하는 상태이다, likuiditas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlikuiditas",
+        "meaning": "likuiditas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_71nbe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglikuiditas [[뼝likuiditas]]",
+    "meaning": "likuiditas 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "likuiditas",
+    "affix_logic": "어근 'likuiditas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak likuiditas",
+    "antonym": "bukan likuiditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'likuiditas 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'likuiditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglikuiditas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'likuiditas 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglikuiditas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'likuiditas 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglikuiditas",
+        "meaning": "likuiditas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_oh5p9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglikuiditasan [[뼝likuiditas안]]",
+    "meaning": "likuiditas 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "likuiditas",
+    "affix_logic": "어근 'likuiditas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses likuiditas",
+    "antonym": "bukan likuiditas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'likuiditas 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'likuiditas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglikuiditasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'likuiditas 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglikuiditasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'likuiditas 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglikuiditasan",
+        "meaning": "likuiditas 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_9sd88",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlogistik [[버르logistik]]",
+    "meaning": "logistik하는 상태이다, logistik를 행하다",
+    "pos": "동사",
+    "root": "logistik",
+    "affix_logic": "어근 'logistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan logistik",
+    "antonym": "tidak logistik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logistik하는 상태이다, logistik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logistik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlogistik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logistik하는 상태이다, logistik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlogistik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logistik하는 상태이다, logistik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlogistik",
+        "meaning": "logistik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_r17v0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglogistik [[뼝logistik]]",
+    "meaning": "logistik 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "logistik",
+    "affix_logic": "어근 'logistik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak logistik",
+    "antonym": "bukan logistik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logistik 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logistik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglogistik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logistik 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglogistik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logistik 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglogistik",
+        "meaning": "logistik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_y6zml",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglogistikan [[뼝logistik안]]",
+    "meaning": "logistik 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "logistik",
+    "affix_logic": "어근 'logistik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses logistik",
+    "antonym": "bukan logistik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'logistik 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'logistik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglogistikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'logistik 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglogistikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'logistik 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglogistikan",
+        "meaning": "logistik 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_jpbql",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermargin [[버르margin]]",
+    "meaning": "margin하는 상태이다, margin를 행하다",
+    "pos": "동사",
+    "root": "margin",
+    "affix_logic": "어근 'margin'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan margin",
+    "antonym": "tidak margin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'margin하는 상태이다, margin를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'margin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermargin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'margin하는 상태이다, margin를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermargin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'margin하는 상태이다, margin를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermargin",
+        "meaning": "margin하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_7uezm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmargin [[뼝margin]]",
+    "meaning": "margin 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "margin",
+    "affix_logic": "어근 'margin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak margin",
+    "antonym": "bukan margin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'margin 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'margin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmargin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'margin 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmargin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'margin 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmargin",
+        "meaning": "margin 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_kto0e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmarginan [[뼝margin안]]",
+    "meaning": "margin 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "margin",
+    "affix_logic": "어근 'margin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses margin",
+    "antonym": "bukan margin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'margin 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'margin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmarginan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'margin 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmarginan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'margin 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmarginan",
+        "meaning": "margin 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_1xrf3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermakro [[버르makro]]",
+    "meaning": "makro하는 상태이다, makro를 행하다",
+    "pos": "동사",
+    "root": "makro",
+    "affix_logic": "어근 'makro'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan makro",
+    "antonym": "tidak makro",
+    "context": "실생활 및 회화/비즈니스 상황에서 'makro하는 상태이다, makro를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'makro'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermakro' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'makro하는 상태이다, makro를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermakro' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'makro하는 상태이다, makro를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermakro",
+        "meaning": "makro하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_6w1mu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmakro [[뼝makro]]",
+    "meaning": "makro 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "makro",
+    "affix_logic": "어근 'makro'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak makro",
+    "antonym": "bukan makro",
+    "context": "실생활 및 회화/비즈니스 상황에서 'makro 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'makro'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmakro' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'makro 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmakro' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'makro 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmakro",
+        "meaning": "makro 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_x1gki",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmakroan [[뼝makro안]]",
+    "meaning": "makro 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "makro",
+    "affix_logic": "어근 'makro'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses makro",
+    "antonym": "bukan makro",
+    "context": "실생활 및 회화/비즈니스 상황에서 'makro 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'makro'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmakroan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'makro 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmakroan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'makro 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmakroan",
+        "meaning": "makro 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_z9b3t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermanajerial [[버르manajerial]]",
+    "meaning": "manajerial하는 상태이다, manajerial를 행하다",
+    "pos": "동사",
+    "root": "manajerial",
+    "affix_logic": "어근 'manajerial'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan manajerial",
+    "antonym": "tidak manajerial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manajerial하는 상태이다, manajerial를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manajerial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermanajerial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manajerial하는 상태이다, manajerial를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermanajerial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manajerial하는 상태이다, manajerial를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermanajerial",
+        "meaning": "manajerial하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_ecleb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanajerial [[뼝manajerial]]",
+    "meaning": "manajerial 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "manajerial",
+    "affix_logic": "어근 'manajerial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak manajerial",
+    "antonym": "bukan manajerial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manajerial 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manajerial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanajerial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manajerial 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanajerial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manajerial 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanajerial",
+        "meaning": "manajerial 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_nqpng",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanajerialan [[뼝manajerial안]]",
+    "meaning": "manajerial 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "manajerial",
+    "affix_logic": "어근 'manajerial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses manajerial",
+    "antonym": "bukan manajerial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manajerial 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manajerial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanajerialan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manajerial 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanajerialan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manajerial 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanajerialan",
+        "meaning": "manajerial 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_zsqc7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermanfaat [[버르manfaat]]",
+    "meaning": "manfaat하는 상태이다, manfaat를 행하다",
+    "pos": "동사",
+    "root": "manfaat",
+    "affix_logic": "어근 'manfaat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan manfaat",
+    "antonym": "tidak manfaat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manfaat하는 상태이다, manfaat를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manfaat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermanfaat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manfaat하는 상태이다, manfaat를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermanfaat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manfaat하는 상태이다, manfaat를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermanfaat",
+        "meaning": "manfaat하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_30pn8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanfaat [[뼝manfaat]]",
+    "meaning": "manfaat 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "manfaat",
+    "affix_logic": "어근 'manfaat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak manfaat",
+    "antonym": "bukan manfaat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manfaat 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manfaat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanfaat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manfaat 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanfaat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manfaat 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanfaat",
+        "meaning": "manfaat 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_eyqq6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanfaatan [[뼝manfaat안]]",
+    "meaning": "manfaat 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "manfaat",
+    "affix_logic": "어근 'manfaat'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses manfaat",
+    "antonym": "bukan manfaat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manfaat 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manfaat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanfaatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manfaat 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanfaatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manfaat 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanfaatan",
+        "meaning": "manfaat 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_gavuh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermekanisme [[버르mekanisme]]",
+    "meaning": "mekanisme하는 상태이다, mekanisme를 행하다",
+    "pos": "동사",
+    "root": "mekanisme",
+    "affix_logic": "어근 'mekanisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mekanisme",
+    "antonym": "tidak mekanisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mekanisme하는 상태이다, mekanisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mekanisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermekanisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mekanisme하는 상태이다, mekanisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermekanisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mekanisme하는 상태이다, mekanisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermekanisme",
+        "meaning": "mekanisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_3w0ka",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmekanisme [[뼝mekanisme]]",
+    "meaning": "mekanisme 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "mekanisme",
+    "affix_logic": "어근 'mekanisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mekanisme",
+    "antonym": "bukan mekanisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mekanisme 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mekanisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmekanisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mekanisme 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmekanisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mekanisme 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmekanisme",
+        "meaning": "mekanisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_j8ne0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmekanismean [[뼝mekanisme안]]",
+    "meaning": "mekanisme 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "mekanisme",
+    "affix_logic": "어근 'mekanisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mekanisme",
+    "antonym": "bukan mekanisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mekanisme 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mekanisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmekanismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mekanisme 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmekanismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mekanisme 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmekanismean",
+        "meaning": "mekanisme 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_lnjq3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermikro [[버르mikro]]",
+    "meaning": "mikro하는 상태이다, mikro를 행하다",
+    "pos": "동사",
+    "root": "mikro",
+    "affix_logic": "어근 'mikro'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mikro",
+    "antonym": "tidak mikro",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikro하는 상태이다, mikro를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikro'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermikro' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikro하는 상태이다, mikro를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermikro' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikro하는 상태이다, mikro를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermikro",
+        "meaning": "mikro하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_hbe6h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmikro [[뼝mikro]]",
+    "meaning": "mikro 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "mikro",
+    "affix_logic": "어근 'mikro'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mikro",
+    "antonym": "bukan mikro",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikro 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikro'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmikro' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikro 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmikro' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikro 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmikro",
+        "meaning": "mikro 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_4g9qq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmikroan [[뼝mikro안]]",
+    "meaning": "mikro 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "mikro",
+    "affix_logic": "어근 'mikro'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mikro",
+    "antonym": "bukan mikro",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikro 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikro'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmikroan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikro 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmikroan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikro 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmikroan",
+        "meaning": "mikro 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_tltmv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermodal [[버르modal]]",
+    "meaning": "modal하는 상태이다, modal를 행하다",
+    "pos": "동사",
+    "root": "modal",
+    "affix_logic": "어근 'modal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan modal",
+    "antonym": "tidak modal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'modal하는 상태이다, modal를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'modal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermodal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'modal하는 상태이다, modal를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermodal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'modal하는 상태이다, modal를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermodal",
+        "meaning": "modal하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_cvame",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmodal [[뼝modal]]",
+    "meaning": "modal 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "modal",
+    "affix_logic": "어근 'modal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak modal",
+    "antonym": "bukan modal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'modal 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'modal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmodal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'modal 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmodal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'modal 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmodal",
+        "meaning": "modal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_eggnw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmodalan [[뼝modal안]]",
+    "meaning": "modal 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "modal",
+    "affix_logic": "어근 'modal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses modal",
+    "antonym": "bukan modal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'modal 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'modal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmodalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'modal 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmodalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'modal 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmodalan",
+        "meaning": "modal 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_fckjd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermoneter [[버르moneter]]",
+    "meaning": "moneter하는 상태이다, moneter를 행하다",
+    "pos": "동사",
+    "root": "moneter",
+    "affix_logic": "어근 'moneter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan moneter",
+    "antonym": "tidak moneter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'moneter하는 상태이다, moneter를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'moneter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermoneter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'moneter하는 상태이다, moneter를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermoneter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'moneter하는 상태이다, moneter를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermoneter",
+        "meaning": "moneter하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_hcnji",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmoneter [[뼝moneter]]",
+    "meaning": "moneter 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "moneter",
+    "affix_logic": "어근 'moneter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak moneter",
+    "antonym": "bukan moneter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'moneter 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'moneter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmoneter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'moneter 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmoneter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'moneter 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmoneter",
+        "meaning": "moneter 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_fp12d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmoneteran [[뼝moneter안]]",
+    "meaning": "moneter 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "moneter",
+    "affix_logic": "어근 'moneter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses moneter",
+    "antonym": "bukan moneter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'moneter 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'moneter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmoneteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'moneter 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmoneteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'moneter 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmoneteran",
+        "meaning": "moneter 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_0im91",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernominal [[버르nominal]]",
+    "meaning": "nominal하는 상태이다, nominal를 행하다",
+    "pos": "동사",
+    "root": "nominal",
+    "affix_logic": "어근 'nominal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan nominal",
+    "antonym": "tidak nominal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nominal하는 상태이다, nominal를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nominal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernominal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nominal하는 상태이다, nominal를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernominal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nominal하는 상태이다, nominal를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernominal",
+        "meaning": "nominal하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_6nclh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnominal [[뼝nominal]]",
+    "meaning": "nominal 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "nominal",
+    "affix_logic": "어근 'nominal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak nominal",
+    "antonym": "bukan nominal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nominal 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nominal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnominal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nominal 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnominal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nominal 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnominal",
+        "meaning": "nominal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_ip8l0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnominalan [[뼝nominal안]]",
+    "meaning": "nominal 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "nominal",
+    "affix_logic": "어근 'nominal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses nominal",
+    "antonym": "bukan nominal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nominal 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nominal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnominalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nominal 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnominalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nominal 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnominalan",
+        "meaning": "nominal 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_bghs2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beromzet [[버르omzet]]",
+    "meaning": "omzet하는 상태이다, omzet를 행하다",
+    "pos": "동사",
+    "root": "omzet",
+    "affix_logic": "어근 'omzet'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan omzet",
+    "antonym": "tidak omzet",
+    "context": "실생활 및 회화/비즈니스 상황에서 'omzet하는 상태이다, omzet를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'omzet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beromzet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'omzet하는 상태이다, omzet를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beromzet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'omzet하는 상태이다, omzet를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beromzet",
+        "meaning": "omzet하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_ale5s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengomzet [[뼝omzet]]",
+    "meaning": "omzet 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "omzet",
+    "affix_logic": "어근 'omzet'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak omzet",
+    "antonym": "bukan omzet",
+    "context": "실생활 및 회화/비즈니스 상황에서 'omzet 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'omzet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengomzet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'omzet 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengomzet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'omzet 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengomzet",
+        "meaning": "omzet 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_0hdj3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengomzetan [[뼝omzet안]]",
+    "meaning": "omzet 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "omzet",
+    "affix_logic": "어근 'omzet'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses omzet",
+    "antonym": "bukan omzet",
+    "context": "실생활 및 회화/비즈니스 상황에서 'omzet 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'omzet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengomzetan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'omzet 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengomzetan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'omzet 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengomzetan",
+        "meaning": "omzet 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_yb9k6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beropini [[버르opini]]",
+    "meaning": "opini하는 상태이다, opini를 행하다",
+    "pos": "동사",
+    "root": "opini",
+    "affix_logic": "어근 'opini'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan opini",
+    "antonym": "tidak opini",
+    "context": "실생활 및 회화/비즈니스 상황에서 'opini하는 상태이다, opini를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'opini'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beropini' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'opini하는 상태이다, opini를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beropini' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'opini하는 상태이다, opini를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beropini",
+        "meaning": "opini하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_qad7j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengopini [[뼝opini]]",
+    "meaning": "opini 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "opini",
+    "affix_logic": "어근 'opini'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak opini",
+    "antonym": "bukan opini",
+    "context": "실생활 및 회화/비즈니스 상황에서 'opini 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'opini'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengopini' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'opini 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengopini' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'opini 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengopini",
+        "meaning": "opini 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_t5ht9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengopinian [[뼝opini안]]",
+    "meaning": "opini 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "opini",
+    "affix_logic": "어근 'opini'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses opini",
+    "antonym": "bukan opini",
+    "context": "실생활 및 회화/비즈니스 상황에서 'opini 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'opini'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengopinian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'opini 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengopinian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'opini 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengopinian",
+        "meaning": "opini 과정 및 행위 절차"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_uquk8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengopsi [[뼝opsi]]",
+    "meaning": "opsi 수행 주체, 시스템",
+    "pos": "명사",
+    "root": "opsi",
+    "affix_logic": "어근 'opsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak opsi",
+    "antonym": "bukan opsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'opsi 수행 주체, 시스템'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'opsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengopsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'opsi 수행 주체, 시스템'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengopsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'opsi 수행 주체, 시스템'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengopsi",
+        "meaning": "opsi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138916560_5jp1q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengopsian [[뼝opsi안]]",
+    "meaning": "opsi 과정 및 행위 절차",
+    "pos": "명사",
+    "root": "opsi",
+    "affix_logic": "어근 'opsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses opsi",
+    "antonym": "bukan opsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'opsi 과정 및 행위 절차'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'opsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengopsian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'opsi 과정 및 행위 절차'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengopsian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'opsi 과정 및 행위 절차'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengopsian",
+        "meaning": "opsi 과정 및 행위 절차"
+      }
+    ]
   }
 ];

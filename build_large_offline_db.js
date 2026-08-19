@@ -94,21 +94,22 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 5차 대규모 800+ 어휘 주입 어근 파이프라인 (사회/법률/행정/IT 전문 어근 100개)
-const coreRootsBatch5 = [
-  'koordinasi', 'koreksi', 'korelasi', 'kristalisasi', 'kualifikasi', 'kualitatif', 'kuantitatif', 'legalisasi', 'lisensi', 'likuidasi',
-  'lokalisasi', 'manufaktur', 'manipulasi', 'manifestasi', 'marginalisasi', 'masifikasi', 'mediasi', 'mekanisasi', 'modernisasi', 'monopoli',
-  'motivasi', 'mobilisasi', 'modifikasi', 'multilateral', 'nasionalisasi', 'navigasi', 'negosiasi', 'netralisasi', 'normalisasi', 'observasi',
-  'orientasi', 'organisasi', 'optimalisasi', 'otomatisasi', 'pencitraan', 'penilaian', 'persuasi', 'polarisasi', 'preservasi', 'privatisasi',
-  'publikasi', 'proyeksi', 'proklamasi', 'proteksi', 'provokasi', 'radikalisasi', 'rasionalisasi', 'rehabilitasi', 'rekonstruksi', 'reformasi',
-  'reorganisasi', 'representasi', 'reproduksi', 'restrukturisasi', 'revitalisasi', 'sanksi', 'sertifikasi', 'simulasi', 'sistematisasi', 'sosialisasi',
-  'spesifikasi', 'stabilisasi', 'standardisasi', 'stimulasi', 'substitusi', 'supervisi', 'toleransi', 'transaksi', 'transformasi', 'transisi',
-  'transmigrasi', 'transparansi', 'transportasi', 'urbanisasi', 'validasi', 'variasi', 'vegetasi', 'ventilasi', 'verifikasi', 'visualisasi'
+// 🚀 6차 대규모 800+ 어휘 주입 어근 파이프라인 (인문/철학/경제/금융/경영 전문 어근 100개)
+const coreRootsBatch6 = [
+  'akuntansi', 'analitika', 'anggaran', 'anomali', 'aplikatif', 'arbitrase', 'arsitektur', 'aset', 'asuransi', 'audit',
+  'autentik', 'bagan', 'bangkrut', 'barter', 'barometer', 'bea', 'benah', 'bursa', 'bunga', 'defisit',
+  'devaluasi', 'devise', 'diagonis', 'direktori', 'diskon', 'dividen', 'dominan', 'durabilitas', 'efektivitas', 'ekonometrika',
+  'eksekutif', 'ekosistem', 'elastisitas', 'emiten', 'entitas', 'estimasi', 'etika', 'evaluatif', 'faktur', 'fase',
+  'fenomena', 'filosofi', 'finansial', 'fiskal', 'fondasi', 'garansi', 'grosir', 'hipotek', 'hipotesis', 'ijazah',
+  'imbalan', 'imbal', 'infrastruktur', 'insentif', 'insolvensi', 'instrumen', 'integris', 'intelektual', 'intensitas', 'intrinsik',
+  'inventaris', 'investor', 'kapital', 'klausula', 'kolektibilitas', 'komoditas', 'konsumen', 'kontrak', 'kredibilitas', 'kreditur',
+  'kronologi', 'kuota', 'kuitansi', 'laba', 'legalitas', 'likuiditas', 'logistik', 'margin', 'makro', 'manajerial',
+  'manfaat', 'manufaktur', 'mekanisme', 'mikro', 'modal', 'moneter', 'nominal', 'omzet', 'opini', 'opsi'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch5.forEach(root => {
+coreRootsBatch6.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
