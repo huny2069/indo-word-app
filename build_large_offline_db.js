@@ -94,21 +94,21 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 13차 대규모 800+ 어휘 주입 어근 파이프라인 (물리/화학/수학/천문 전문 어근 100개)
-const coreRootsBatch13 = [
-  'akselerasi', 'amplitudo', 'anomali gravitasi', 'astronomi', 'atom', 'barometer', 'kalsium', 'reaksi kimia', 'klorofil', 'kosmologi',
-  'densitas', 'difraksi', 'dinamika', 'elektron', 'entropi', 'ekuilibrium', 'evaporasi', 'fluks', 'frekuensi', 'fusi',
-  'galaksi', 'geometri', 'gravitasi', 'hipotenusa', 'inersia', 'isotofer', 'isotop', 'joule', 'kalkulus', 'katalis',
-  'kinematika', 'laboratorium fisika', 'lensa', 'massa', 'materi', 'metrik', 'mikroskop', 'molekul', 'momentum', 'nebula',
-  'neutron', 'nukleus', 'orbit', 'osilasi', 'partikel', 'periode', 'plasma fisik', 'positron', 'potensial', 'presipitasi',
-  'prisma', 'proton', 'radiasi sinar-x', 'radioaktif', 'refraksi', 'resonansi', 'rotasi', 'spektrum', 'supernova', 'simetri',
-  'teleskop', 'temperatur', 'teorema', 'termodinamika', 'vektor fisik', 'visi kosmik', 'voltase', 'watt', 'waktu gelombang', 'zodium',
-  'abstrak', 'aljabar', 'algoritma numerik', 'analisis data', 'antiderivatif', 'aritmetika', 'asimtot', 'aksioma', 'biostatistika', 'bilangan riil'
+// 🚀 14차 대규모 800+ 어휘 주입 어근 파이프라인 (미디어/방송/언론/광고 전문 어근 100개)
+const coreRootsBatch14 = [
+  'iklan', 'almanak', 'animasi', 'anchor', 'artikel', 'audio visual', 'baliho', 'berita utama', 'bintang radio', 'buletin',
+  'buku petunjuk', 'caption', 'cetak tebal', 'cinematografi', 'desain komunikasi', 'dokumentasi', 'dubbing', 'durasi tayang', 'editor berita', 'editorial',
+  'eksepsional', 'fitur khas', 'fotografi pers', 'headline', 'infografis', 'informan', 'informasi publik', 'interaktif', 'isuar', 'jurnalis',
+  'jurnalistik investigatif', 'kamera udara', 'kamera sinema', 'kampanye media', 'karikaturis', 'kolomnis', 'komunikasi massa', 'konferensi pers', 'koreksian', 'konten digital',
+  'laporan khusus', 'lisensi tayang', 'liputan lapangan', 'majalah harian', 'media massa', 'narasumber', 'navigasi web', 'notifikasi', 'ombudsman pers', 'operator studio',
+  'pers rilis', 'podcaster', 'pemberitaan', 'pemimpin redaksi', 'penyiaran', 'penyunting gambar', 'percetakan', 'perusahaan pers', 'periklanan', 'presenter berita',
+  'produser program', 'publikasi cetak', 'rating acara', 'redaksi', 'reporter', 'resolusi gambar', 'rubrik khusus', 'saluran tv', 'sensor media', 'sinematik',
+  'situs berita', 'solusi digital', 'sponsor utama', 'streaming langsung', 'studio siaran', 'subtitel', 'tabloid harian', 'teknisi suara', 'televisi publik', 'transmisi sinyal'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch13.forEach(root => {
+coreRootsBatch14.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -174,7 +174,7 @@ coreRootsBatch13.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 연구원`,
+    meaning: `${root} 수행 주체, 미디어인`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -189,7 +189,7 @@ coreRootsBatch13.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 이과 과학 영역`,
+    meaning: `${root} 과정 및 미디어 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',

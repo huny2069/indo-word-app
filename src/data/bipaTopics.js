@@ -85278,5 +85278,6141 @@ export const bipaTopics = [
         "meaning": "bilangan riil 과정 및 이과 과학 영역"
       }
     ]
+  },
+  {
+    "id": "word_1787139233744_wc4hb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beriklan [[버르iklan]]",
+    "meaning": "iklan하는 상태이다, iklan를 행하다",
+    "pos": "동사",
+    "root": "iklan",
+    "affix_logic": "어근 'iklan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan iklan",
+    "antonym": "tidak iklan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'iklan하는 상태이다, iklan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'iklan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beriklan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'iklan하는 상태이다, iklan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beriklan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'iklan하는 상태이다, iklan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beriklan",
+        "meaning": "iklan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_pzlq9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengiklan [[뼝iklan]]",
+    "meaning": "iklan 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "iklan",
+    "affix_logic": "어근 'iklan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak iklan",
+    "antonym": "bukan iklan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'iklan 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'iklan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengiklan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'iklan 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengiklan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'iklan 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengiklan",
+        "meaning": "iklan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_4lazi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengiklanan [[뼝iklan안]]",
+    "meaning": "iklan 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "iklan",
+    "affix_logic": "어근 'iklan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses iklan",
+    "antonym": "bukan iklan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'iklan 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'iklan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengiklanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'iklan 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengiklanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'iklan 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengiklanan",
+        "meaning": "iklan 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_c4mbz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralmanak [[버르almanak]]",
+    "meaning": "almanak하는 상태이다, almanak를 행하다",
+    "pos": "동사",
+    "root": "almanak",
+    "affix_logic": "어근 'almanak'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan almanak",
+    "antonym": "tidak almanak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'almanak하는 상태이다, almanak를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'almanak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beralmanak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'almanak하는 상태이다, almanak를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beralmanak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'almanak하는 상태이다, almanak를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beralmanak",
+        "meaning": "almanak하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_k875m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalmanak [[뼝almanak]]",
+    "meaning": "almanak 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "almanak",
+    "affix_logic": "어근 'almanak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak almanak",
+    "antonym": "bukan almanak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'almanak 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'almanak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengalmanak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'almanak 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengalmanak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'almanak 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengalmanak",
+        "meaning": "almanak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_qci3q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalmanakan [[뼝almanak안]]",
+    "meaning": "almanak 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "almanak",
+    "affix_logic": "어근 'almanak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses almanak",
+    "antonym": "bukan almanak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'almanak 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'almanak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengalmanakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'almanak 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengalmanakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'almanak 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengalmanakan",
+        "meaning": "almanak 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ympca",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranimasi [[버르animasi]]",
+    "meaning": "animasi하는 상태이다, animasi를 행하다",
+    "pos": "동사",
+    "root": "animasi",
+    "affix_logic": "어근 'animasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan animasi",
+    "antonym": "tidak animasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'animasi하는 상태이다, animasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'animasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranimasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'animasi하는 상태이다, animasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranimasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'animasi하는 상태이다, animasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranimasi",
+        "meaning": "animasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_tyl7o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganimasi [[뼝animasi]]",
+    "meaning": "animasi 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "animasi",
+    "affix_logic": "어근 'animasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak animasi",
+    "antonym": "bukan animasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'animasi 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'animasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganimasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'animasi 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganimasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'animasi 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganimasi",
+        "meaning": "animasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_wk6ps",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganimasian [[뼝animasi안]]",
+    "meaning": "animasi 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "animasi",
+    "affix_logic": "어근 'animasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses animasi",
+    "antonym": "bukan animasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'animasi 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'animasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganimasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'animasi 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganimasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'animasi 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganimasian",
+        "meaning": "animasi 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_dp3h8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranchor [[버르anchor]]",
+    "meaning": "anchor하는 상태이다, anchor를 행하다",
+    "pos": "동사",
+    "root": "anchor",
+    "affix_logic": "어근 'anchor'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan anchor",
+    "antonym": "tidak anchor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anchor하는 상태이다, anchor를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anchor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranchor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anchor하는 상태이다, anchor를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranchor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anchor하는 상태이다, anchor를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranchor",
+        "meaning": "anchor하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_346yp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganchor [[뼝anchor]]",
+    "meaning": "anchor 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "anchor",
+    "affix_logic": "어근 'anchor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak anchor",
+    "antonym": "bukan anchor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anchor 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anchor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganchor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anchor 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganchor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anchor 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganchor",
+        "meaning": "anchor 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_y0dvt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganchoran [[뼝anchor안]]",
+    "meaning": "anchor 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "anchor",
+    "affix_logic": "어근 'anchor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses anchor",
+    "antonym": "bukan anchor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anchor 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anchor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganchoran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anchor 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganchoran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anchor 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganchoran",
+        "meaning": "anchor 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_o7uu9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berartikel [[버르artikel]]",
+    "meaning": "artikel하는 상태이다, artikel를 행하다",
+    "pos": "동사",
+    "root": "artikel",
+    "affix_logic": "어근 'artikel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan artikel",
+    "antonym": "tidak artikel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artikel하는 상태이다, artikel를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artikel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berartikel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artikel하는 상태이다, artikel를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berartikel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artikel하는 상태이다, artikel를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berartikel",
+        "meaning": "artikel하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_4nvl3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartikel [[뼝artikel]]",
+    "meaning": "artikel 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "artikel",
+    "affix_logic": "어근 'artikel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak artikel",
+    "antonym": "bukan artikel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artikel 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artikel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengartikel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artikel 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengartikel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artikel 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengartikel",
+        "meaning": "artikel 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_8lwyq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartikelan [[뼝artikel안]]",
+    "meaning": "artikel 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "artikel",
+    "affix_logic": "어근 'artikel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses artikel",
+    "antonym": "bukan artikel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artikel 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artikel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengartikelan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artikel 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengartikelan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artikel 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengartikelan",
+        "meaning": "artikel 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_3nkuc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraudio visual [[버르audio visual]]",
+    "meaning": "audio visual하는 상태이다, audio visual를 행하다",
+    "pos": "동사",
+    "root": "audio visual",
+    "affix_logic": "어근 'audio visual'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan audio visual",
+    "antonym": "tidak audio visual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audio visual하는 상태이다, audio visual를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audio visual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraudio visual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audio visual하는 상태이다, audio visual를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraudio visual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audio visual하는 상태이다, audio visual를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraudio",
+        "meaning": "audio visual하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_fdzgv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaudio visual [[뼝audio visual]]",
+    "meaning": "audio visual 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "audio visual",
+    "affix_logic": "어근 'audio visual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak audio visual",
+    "antonym": "bukan audio visual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audio visual 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audio visual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaudio visual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audio visual 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaudio visual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audio visual 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaudio",
+        "meaning": "audio visual 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_6p5sn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaudio visualan [[뼝audio visual안]]",
+    "meaning": "audio visual 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "audio visual",
+    "affix_logic": "어근 'audio visual'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses audio visual",
+    "antonym": "bukan audio visual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audio visual 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audio visual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaudio visualan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audio visual 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaudio visualan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audio visual 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaudio",
+        "meaning": "audio visual 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ex7xa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbaliho [[버르baliho]]",
+    "meaning": "baliho하는 상태이다, baliho를 행하다",
+    "pos": "동사",
+    "root": "baliho",
+    "affix_logic": "어근 'baliho'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan baliho",
+    "antonym": "tidak baliho",
+    "context": "실생활 및 회화/비즈니스 상황에서 'baliho하는 상태이다, baliho를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'baliho'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbaliho' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'baliho하는 상태이다, baliho를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbaliho' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'baliho하는 상태이다, baliho를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbaliho",
+        "meaning": "baliho하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ziz1s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaliho [[뼝baliho]]",
+    "meaning": "baliho 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "baliho",
+    "affix_logic": "어근 'baliho'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak baliho",
+    "antonym": "bukan baliho",
+    "context": "실생활 및 회화/비즈니스 상황에서 'baliho 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'baliho'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbaliho' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'baliho 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbaliho' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'baliho 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbaliho",
+        "meaning": "baliho 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ntxbt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalihoan [[뼝baliho안]]",
+    "meaning": "baliho 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "baliho",
+    "affix_logic": "어근 'baliho'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses baliho",
+    "antonym": "bukan baliho",
+    "context": "실생활 및 회화/비즈니스 상황에서 'baliho 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'baliho'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbalihoan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'baliho 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbalihoan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'baliho 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbalihoan",
+        "meaning": "baliho 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_fmgq7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berberita utama [[버르berita utama]]",
+    "meaning": "berita utama하는 상태이다, berita utama를 행하다",
+    "pos": "동사",
+    "root": "berita utama",
+    "affix_logic": "어근 'berita utama'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan berita utama",
+    "antonym": "tidak berita utama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'berita utama하는 상태이다, berita utama를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'berita utama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berberita utama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'berita utama하는 상태이다, berita utama를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berberita utama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'berita utama하는 상태이다, berita utama를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berberita",
+        "meaning": "berita utama하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_5ven7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberita utama [[뼝berita utama]]",
+    "meaning": "berita utama 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "berita utama",
+    "affix_logic": "어근 'berita utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak berita utama",
+    "antonym": "bukan berita utama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'berita utama 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'berita utama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengberita utama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'berita utama 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengberita utama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'berita utama 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengberita",
+        "meaning": "berita utama 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_2wv18",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberita utamaan [[뼝berita utama안]]",
+    "meaning": "berita utama 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "berita utama",
+    "affix_logic": "어근 'berita utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses berita utama",
+    "antonym": "bukan berita utama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'berita utama 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'berita utama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengberita utamaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'berita utama 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengberita utamaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'berita utama 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengberita",
+        "meaning": "berita utama 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_qq6sr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbintang radio [[버르bintang radio]]",
+    "meaning": "bintang radio하는 상태이다, bintang radio를 행하다",
+    "pos": "동사",
+    "root": "bintang radio",
+    "affix_logic": "어근 'bintang radio'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bintang radio",
+    "antonym": "tidak bintang radio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bintang radio하는 상태이다, bintang radio를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bintang radio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbintang radio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bintang radio하는 상태이다, bintang radio를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbintang radio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bintang radio하는 상태이다, bintang radio를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbintang",
+        "meaning": "bintang radio하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ivg71",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbintang radio [[뼝bintang radio]]",
+    "meaning": "bintang radio 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "bintang radio",
+    "affix_logic": "어근 'bintang radio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bintang radio",
+    "antonym": "bukan bintang radio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bintang radio 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bintang radio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbintang radio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bintang radio 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbintang radio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bintang radio 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbintang",
+        "meaning": "bintang radio 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_mgn3s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbintang radioan [[뼝bintang radio안]]",
+    "meaning": "bintang radio 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "bintang radio",
+    "affix_logic": "어근 'bintang radio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bintang radio",
+    "antonym": "bukan bintang radio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bintang radio 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bintang radio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbintang radioan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bintang radio 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbintang radioan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bintang radio 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbintang",
+        "meaning": "bintang radio 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_g6avn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbuletin [[버르buletin]]",
+    "meaning": "buletin하는 상태이다, buletin를 행하다",
+    "pos": "동사",
+    "root": "buletin",
+    "affix_logic": "어근 'buletin'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan buletin",
+    "antonym": "tidak buletin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buletin하는 상태이다, buletin를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buletin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbuletin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buletin하는 상태이다, buletin를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbuletin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buletin하는 상태이다, buletin를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbuletin",
+        "meaning": "buletin하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_24f5h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuletin [[뼝buletin]]",
+    "meaning": "buletin 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "buletin",
+    "affix_logic": "어근 'buletin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak buletin",
+    "antonym": "bukan buletin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buletin 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buletin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbuletin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buletin 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbuletin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buletin 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbuletin",
+        "meaning": "buletin 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_5z5ut",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuletinan [[뼝buletin안]]",
+    "meaning": "buletin 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "buletin",
+    "affix_logic": "어근 'buletin'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses buletin",
+    "antonym": "bukan buletin",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buletin 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buletin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbuletinan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buletin 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbuletinan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buletin 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbuletinan",
+        "meaning": "buletin 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_vvk1d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbuku petunjuk [[버르buku petunjuk]]",
+    "meaning": "buku petunjuk하는 상태이다, buku petunjuk를 행하다",
+    "pos": "동사",
+    "root": "buku petunjuk",
+    "affix_logic": "어근 'buku petunjuk'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan buku petunjuk",
+    "antonym": "tidak buku petunjuk",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buku petunjuk하는 상태이다, buku petunjuk를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buku petunjuk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbuku petunjuk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buku petunjuk하는 상태이다, buku petunjuk를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbuku petunjuk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buku petunjuk하는 상태이다, buku petunjuk를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbuku",
+        "meaning": "buku petunjuk하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_6hl0w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuku petunjuk [[뼝buku petunjuk]]",
+    "meaning": "buku petunjuk 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "buku petunjuk",
+    "affix_logic": "어근 'buku petunjuk'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak buku petunjuk",
+    "antonym": "bukan buku petunjuk",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buku petunjuk 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buku petunjuk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbuku petunjuk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buku petunjuk 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbuku petunjuk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buku petunjuk 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbuku",
+        "meaning": "buku petunjuk 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_vzh8v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbuku petunjukan [[뼝buku petunjuk안]]",
+    "meaning": "buku petunjuk 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "buku petunjuk",
+    "affix_logic": "어근 'buku petunjuk'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses buku petunjuk",
+    "antonym": "bukan buku petunjuk",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buku petunjuk 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buku petunjuk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbuku petunjukan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buku petunjuk 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbuku petunjukan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buku petunjuk 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbuku",
+        "meaning": "buku petunjuk 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_638w2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bercaption [[버르caption]]",
+    "meaning": "caption하는 상태이다, caption를 행하다",
+    "pos": "동사",
+    "root": "caption",
+    "affix_logic": "어근 'caption'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan caption",
+    "antonym": "tidak caption",
+    "context": "실생활 및 회화/비즈니스 상황에서 'caption하는 상태이다, caption를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'caption'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bercaption' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'caption하는 상태이다, caption를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bercaption' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'caption하는 상태이다, caption를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bercaption",
+        "meaning": "caption하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_57hae",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcaption [[뼝caption]]",
+    "meaning": "caption 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "caption",
+    "affix_logic": "어근 'caption'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak caption",
+    "antonym": "bukan caption",
+    "context": "실생활 및 회화/비즈니스 상황에서 'caption 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'caption'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcaption' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'caption 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcaption' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'caption 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcaption",
+        "meaning": "caption 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_fdr2r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcaptionan [[뼝caption안]]",
+    "meaning": "caption 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "caption",
+    "affix_logic": "어근 'caption'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses caption",
+    "antonym": "bukan caption",
+    "context": "실생활 및 회화/비즈니스 상황에서 'caption 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'caption'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcaptionan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'caption 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcaptionan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'caption 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcaptionan",
+        "meaning": "caption 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_euj9z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bercetak tebal [[버르cetak tebal]]",
+    "meaning": "cetak tebal하는 상태이다, cetak tebal를 행하다",
+    "pos": "동사",
+    "root": "cetak tebal",
+    "affix_logic": "어근 'cetak tebal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan cetak tebal",
+    "antonym": "tidak cetak tebal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cetak tebal하는 상태이다, cetak tebal를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cetak tebal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bercetak tebal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cetak tebal하는 상태이다, cetak tebal를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bercetak tebal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cetak tebal하는 상태이다, cetak tebal를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bercetak",
+        "meaning": "cetak tebal하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_y4wav",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcetak tebal [[뼝cetak tebal]]",
+    "meaning": "cetak tebal 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "cetak tebal",
+    "affix_logic": "어근 'cetak tebal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak cetak tebal",
+    "antonym": "bukan cetak tebal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cetak tebal 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cetak tebal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcetak tebal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cetak tebal 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcetak tebal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cetak tebal 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcetak",
+        "meaning": "cetak tebal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_h87iv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcetak tebalan [[뼝cetak tebal안]]",
+    "meaning": "cetak tebal 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "cetak tebal",
+    "affix_logic": "어근 'cetak tebal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses cetak tebal",
+    "antonym": "bukan cetak tebal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cetak tebal 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cetak tebal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcetak tebalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cetak tebal 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcetak tebalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cetak tebal 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcetak",
+        "meaning": "cetak tebal 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_8kjor",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdesain komunikasi [[버르desain komunikasi]]",
+    "meaning": "desain komunikasi하는 상태이다, desain komunikasi를 행하다",
+    "pos": "동사",
+    "root": "desain komunikasi",
+    "affix_logic": "어근 'desain komunikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan desain komunikasi",
+    "antonym": "tidak desain komunikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desain komunikasi하는 상태이다, desain komunikasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desain komunikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdesain komunikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desain komunikasi하는 상태이다, desain komunikasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdesain komunikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desain komunikasi하는 상태이다, desain komunikasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdesain",
+        "meaning": "desain komunikasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_gjfzj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdesain komunikasi [[뼝desain komunikasi]]",
+    "meaning": "desain komunikasi 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "desain komunikasi",
+    "affix_logic": "어근 'desain komunikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak desain komunikasi",
+    "antonym": "bukan desain komunikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desain komunikasi 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desain komunikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdesain komunikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desain komunikasi 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdesain komunikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desain komunikasi 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdesain",
+        "meaning": "desain komunikasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_35tuk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdesain komunikasian [[뼝desain komunikasi안]]",
+    "meaning": "desain komunikasi 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "desain komunikasi",
+    "affix_logic": "어근 'desain komunikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses desain komunikasi",
+    "antonym": "bukan desain komunikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desain komunikasi 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desain komunikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdesain komunikasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desain komunikasi 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdesain komunikasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desain komunikasi 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdesain",
+        "meaning": "desain komunikasi 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_52k6w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdokumentasi [[버르dokumentasi]]",
+    "meaning": "dokumentasi하는 상태이다, dokumentasi를 행하다",
+    "pos": "동사",
+    "root": "dokumentasi",
+    "affix_logic": "어근 'dokumentasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dokumentasi",
+    "antonym": "tidak dokumentasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumentasi하는 상태이다, dokumentasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumentasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdokumentasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumentasi하는 상태이다, dokumentasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdokumentasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumentasi하는 상태이다, dokumentasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdokumentasi",
+        "meaning": "dokumentasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_vjd0z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdokumentasi [[뼝dokumentasi]]",
+    "meaning": "dokumentasi 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "dokumentasi",
+    "affix_logic": "어근 'dokumentasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dokumentasi",
+    "antonym": "bukan dokumentasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumentasi 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumentasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdokumentasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumentasi 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdokumentasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumentasi 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdokumentasi",
+        "meaning": "dokumentasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_aur2c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdokumentasian [[뼝dokumentasi안]]",
+    "meaning": "dokumentasi 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "dokumentasi",
+    "affix_logic": "어근 'dokumentasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dokumentasi",
+    "antonym": "bukan dokumentasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumentasi 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumentasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdokumentasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumentasi 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdokumentasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumentasi 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdokumentasian",
+        "meaning": "dokumentasi 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ggzny",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdubbing [[버르dubbing]]",
+    "meaning": "dubbing하는 상태이다, dubbing를 행하다",
+    "pos": "동사",
+    "root": "dubbing",
+    "affix_logic": "어근 'dubbing'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dubbing",
+    "antonym": "tidak dubbing",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dubbing하는 상태이다, dubbing를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dubbing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdubbing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dubbing하는 상태이다, dubbing를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdubbing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dubbing하는 상태이다, dubbing를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdubbing",
+        "meaning": "dubbing하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_dxr60",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdubbing [[뼝dubbing]]",
+    "meaning": "dubbing 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "dubbing",
+    "affix_logic": "어근 'dubbing'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dubbing",
+    "antonym": "bukan dubbing",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dubbing 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dubbing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdubbing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dubbing 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdubbing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dubbing 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdubbing",
+        "meaning": "dubbing 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_wlq6b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdubbingan [[뼝dubbing안]]",
+    "meaning": "dubbing 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "dubbing",
+    "affix_logic": "어근 'dubbing'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dubbing",
+    "antonym": "bukan dubbing",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dubbing 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dubbing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdubbingan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dubbing 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdubbingan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dubbing 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdubbingan",
+        "meaning": "dubbing 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_yg49e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdurasi tayang [[버르durasi tayang]]",
+    "meaning": "durasi tayang하는 상태이다, durasi tayang를 행하다",
+    "pos": "동사",
+    "root": "durasi tayang",
+    "affix_logic": "어근 'durasi tayang'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan durasi tayang",
+    "antonym": "tidak durasi tayang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'durasi tayang하는 상태이다, durasi tayang를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'durasi tayang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdurasi tayang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'durasi tayang하는 상태이다, durasi tayang를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdurasi tayang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'durasi tayang하는 상태이다, durasi tayang를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdurasi",
+        "meaning": "durasi tayang하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_q6nmr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdurasi tayang [[뼝durasi tayang]]",
+    "meaning": "durasi tayang 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "durasi tayang",
+    "affix_logic": "어근 'durasi tayang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak durasi tayang",
+    "antonym": "bukan durasi tayang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'durasi tayang 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'durasi tayang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdurasi tayang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'durasi tayang 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdurasi tayang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'durasi tayang 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdurasi",
+        "meaning": "durasi tayang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_y49kt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdurasi tayangan [[뼝durasi tayang안]]",
+    "meaning": "durasi tayang 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "durasi tayang",
+    "affix_logic": "어근 'durasi tayang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses durasi tayang",
+    "antonym": "bukan durasi tayang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'durasi tayang 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'durasi tayang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdurasi tayangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'durasi tayang 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdurasi tayangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'durasi tayang 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdurasi",
+        "meaning": "durasi tayang 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_0zw9x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereditor berita [[버르editor berita]]",
+    "meaning": "editor berita하는 상태이다, editor berita를 행하다",
+    "pos": "동사",
+    "root": "editor berita",
+    "affix_logic": "어근 'editor berita'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan editor berita",
+    "antonym": "tidak editor berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editor berita하는 상태이다, editor berita를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editor berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bereditor berita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editor berita하는 상태이다, editor berita를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bereditor berita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editor berita하는 상태이다, editor berita를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bereditor",
+        "meaning": "editor berita하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_40dc2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeditor berita [[뼝editor berita]]",
+    "meaning": "editor berita 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "editor berita",
+    "affix_logic": "어근 'editor berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak editor berita",
+    "antonym": "bukan editor berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editor berita 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editor berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeditor berita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editor berita 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeditor berita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editor berita 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeditor",
+        "meaning": "editor berita 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_bsyqt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeditor beritaan [[뼝editor berita안]]",
+    "meaning": "editor berita 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "editor berita",
+    "affix_logic": "어근 'editor berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses editor berita",
+    "antonym": "bukan editor berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editor berita 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editor berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeditor beritaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editor berita 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeditor beritaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editor berita 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeditor",
+        "meaning": "editor berita 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_t9ptz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereditorial [[버르editorial]]",
+    "meaning": "editorial하는 상태이다, editorial를 행하다",
+    "pos": "동사",
+    "root": "editorial",
+    "affix_logic": "어근 'editorial'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan editorial",
+    "antonym": "tidak editorial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editorial하는 상태이다, editorial를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editorial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bereditorial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editorial하는 상태이다, editorial를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bereditorial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editorial하는 상태이다, editorial를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bereditorial",
+        "meaning": "editorial하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_gm5vo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeditorial [[뼝editorial]]",
+    "meaning": "editorial 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "editorial",
+    "affix_logic": "어근 'editorial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak editorial",
+    "antonym": "bukan editorial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editorial 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editorial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeditorial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editorial 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeditorial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editorial 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeditorial",
+        "meaning": "editorial 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_4pnfu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeditorialan [[뼝editorial안]]",
+    "meaning": "editorial 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "editorial",
+    "affix_logic": "어근 'editorial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses editorial",
+    "antonym": "bukan editorial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editorial 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editorial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeditorialan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editorial 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeditorialan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editorial 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeditorialan",
+        "meaning": "editorial 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_nlmr4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereksepsional [[버르eksepsional]]",
+    "meaning": "eksepsional하는 상태이다, eksepsional를 행하다",
+    "pos": "동사",
+    "root": "eksepsional",
+    "affix_logic": "어근 'eksepsional'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan eksepsional",
+    "antonym": "tidak eksepsional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'eksepsional하는 상태이다, eksepsional를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'eksepsional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bereksepsional' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'eksepsional하는 상태이다, eksepsional를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bereksepsional' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'eksepsional하는 상태이다, eksepsional를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bereksepsional",
+        "meaning": "eksepsional하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_kxjso",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksepsional [[뼝eksepsional]]",
+    "meaning": "eksepsional 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "eksepsional",
+    "affix_logic": "어근 'eksepsional'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak eksepsional",
+    "antonym": "bukan eksepsional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'eksepsional 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'eksepsional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeksepsional' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'eksepsional 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeksepsional' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'eksepsional 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeksepsional",
+        "meaning": "eksepsional 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_g3y9e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeksepsionalan [[뼝eksepsional안]]",
+    "meaning": "eksepsional 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "eksepsional",
+    "affix_logic": "어근 'eksepsional'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses eksepsional",
+    "antonym": "bukan eksepsional",
+    "context": "실생활 및 회화/비즈니스 상황에서 'eksepsional 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'eksepsional'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeksepsionalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'eksepsional 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeksepsionalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'eksepsional 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeksepsionalan",
+        "meaning": "eksepsional 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_6ew3u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfitur khas [[버르fitur khas]]",
+    "meaning": "fitur khas하는 상태이다, fitur khas를 행하다",
+    "pos": "동사",
+    "root": "fitur khas",
+    "affix_logic": "어근 'fitur khas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fitur khas",
+    "antonym": "tidak fitur khas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fitur khas하는 상태이다, fitur khas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fitur khas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfitur khas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fitur khas하는 상태이다, fitur khas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfitur khas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fitur khas하는 상태이다, fitur khas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfitur",
+        "meaning": "fitur khas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_gfa3s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfitur khas [[뼝fitur khas]]",
+    "meaning": "fitur khas 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "fitur khas",
+    "affix_logic": "어근 'fitur khas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fitur khas",
+    "antonym": "bukan fitur khas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fitur khas 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fitur khas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfitur khas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fitur khas 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfitur khas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fitur khas 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfitur",
+        "meaning": "fitur khas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_n7rkf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfitur khasan [[뼝fitur khas안]]",
+    "meaning": "fitur khas 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "fitur khas",
+    "affix_logic": "어근 'fitur khas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fitur khas",
+    "antonym": "bukan fitur khas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fitur khas 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fitur khas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfitur khasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fitur khas 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfitur khasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fitur khas 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfitur",
+        "meaning": "fitur khas 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_amk1w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfotografi pers [[버르fotografi pers]]",
+    "meaning": "fotografi pers하는 상태이다, fotografi pers를 행하다",
+    "pos": "동사",
+    "root": "fotografi pers",
+    "affix_logic": "어근 'fotografi pers'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fotografi pers",
+    "antonym": "tidak fotografi pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotografi pers하는 상태이다, fotografi pers를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotografi pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfotografi pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotografi pers하는 상태이다, fotografi pers를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfotografi pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotografi pers하는 상태이다, fotografi pers를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfotografi",
+        "meaning": "fotografi pers하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_1dxhn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfotografi pers [[뼝fotografi pers]]",
+    "meaning": "fotografi pers 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "fotografi pers",
+    "affix_logic": "어근 'fotografi pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fotografi pers",
+    "antonym": "bukan fotografi pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotografi pers 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotografi pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfotografi pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotografi pers 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfotografi pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotografi pers 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfotografi",
+        "meaning": "fotografi pers 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_6l0n1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfotografi persan [[뼝fotografi pers안]]",
+    "meaning": "fotografi pers 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "fotografi pers",
+    "affix_logic": "어근 'fotografi pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fotografi pers",
+    "antonym": "bukan fotografi pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotografi pers 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotografi pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfotografi persan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotografi pers 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfotografi persan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotografi pers 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfotografi",
+        "meaning": "fotografi pers 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_a1hy3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berheadline [[버르headline]]",
+    "meaning": "headline하는 상태이다, headline를 행하다",
+    "pos": "동사",
+    "root": "headline",
+    "affix_logic": "어근 'headline'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan headline",
+    "antonym": "tidak headline",
+    "context": "실생활 및 회화/비즈니스 상황에서 'headline하는 상태이다, headline를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'headline'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berheadline' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'headline하는 상태이다, headline를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berheadline' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'headline하는 상태이다, headline를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berheadline",
+        "meaning": "headline하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_4wi5w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengheadline [[뼝headline]]",
+    "meaning": "headline 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "headline",
+    "affix_logic": "어근 'headline'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak headline",
+    "antonym": "bukan headline",
+    "context": "실생활 및 회화/비즈니스 상황에서 'headline 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'headline'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengheadline' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'headline 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengheadline' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'headline 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengheadline",
+        "meaning": "headline 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ngw3f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengheadlinean [[뼝headline안]]",
+    "meaning": "headline 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "headline",
+    "affix_logic": "어근 'headline'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses headline",
+    "antonym": "bukan headline",
+    "context": "실생활 및 회화/비즈니스 상황에서 'headline 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'headline'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengheadlinean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'headline 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengheadlinean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'headline 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengheadlinean",
+        "meaning": "headline 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_osd28",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinfografis [[버르infografis]]",
+    "meaning": "infografis하는 상태이다, infografis를 행하다",
+    "pos": "동사",
+    "root": "infografis",
+    "affix_logic": "어근 'infografis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan infografis",
+    "antonym": "tidak infografis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infografis하는 상태이다, infografis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infografis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinfografis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infografis하는 상태이다, infografis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinfografis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infografis하는 상태이다, infografis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinfografis",
+        "meaning": "infografis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_4t94k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfografis [[뼝infografis]]",
+    "meaning": "infografis 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "infografis",
+    "affix_logic": "어근 'infografis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak infografis",
+    "antonym": "bukan infografis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infografis 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infografis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfografis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infografis 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfografis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infografis 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfografis",
+        "meaning": "infografis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_c6cx4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginfografisan [[뼝infografis안]]",
+    "meaning": "infografis 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "infografis",
+    "affix_logic": "어근 'infografis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses infografis",
+    "antonym": "bukan infografis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'infografis 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'infografis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginfografisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'infografis 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginfografisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'infografis 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginfografisan",
+        "meaning": "infografis 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_f8akv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinforman [[버르informan]]",
+    "meaning": "informan하는 상태이다, informan를 행하다",
+    "pos": "동사",
+    "root": "informan",
+    "affix_logic": "어근 'informan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan informan",
+    "antonym": "tidak informan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'informan하는 상태이다, informan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'informan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinforman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'informan하는 상태이다, informan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinforman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'informan하는 상태이다, informan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinforman",
+        "meaning": "informan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_kqmdh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginforman [[뼝informan]]",
+    "meaning": "informan 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "informan",
+    "affix_logic": "어근 'informan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak informan",
+    "antonym": "bukan informan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'informan 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'informan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginforman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'informan 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginforman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'informan 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginforman",
+        "meaning": "informan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_wz01g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginformanan [[뼝informan안]]",
+    "meaning": "informan 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "informan",
+    "affix_logic": "어근 'informan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses informan",
+    "antonym": "bukan informan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'informan 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'informan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginformanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'informan 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginformanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'informan 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginformanan",
+        "meaning": "informan 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_tnc3w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinformasi publik [[버르informasi publik]]",
+    "meaning": "informasi publik하는 상태이다, informasi publik를 행하다",
+    "pos": "동사",
+    "root": "informasi publik",
+    "affix_logic": "어근 'informasi publik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan informasi publik",
+    "antonym": "tidak informasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'informasi publik하는 상태이다, informasi publik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'informasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinformasi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'informasi publik하는 상태이다, informasi publik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinformasi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'informasi publik하는 상태이다, informasi publik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinformasi",
+        "meaning": "informasi publik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_0kc5q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginformasi publik [[뼝informasi publik]]",
+    "meaning": "informasi publik 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "informasi publik",
+    "affix_logic": "어근 'informasi publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak informasi publik",
+    "antonym": "bukan informasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'informasi publik 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'informasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginformasi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'informasi publik 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginformasi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'informasi publik 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginformasi",
+        "meaning": "informasi publik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_dktbm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginformasi publikan [[뼝informasi publik안]]",
+    "meaning": "informasi publik 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "informasi publik",
+    "affix_logic": "어근 'informasi publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses informasi publik",
+    "antonym": "bukan informasi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'informasi publik 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'informasi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginformasi publikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'informasi publik 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginformasi publikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'informasi publik 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginformasi",
+        "meaning": "informasi publik 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_rhmbv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinteraktif [[버르interaktif]]",
+    "meaning": "interaktif하는 상태이다, interaktif를 행하다",
+    "pos": "동사",
+    "root": "interaktif",
+    "affix_logic": "어근 'interaktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan interaktif",
+    "antonym": "tidak interaktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interaktif하는 상태이다, interaktif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interaktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinteraktif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interaktif하는 상태이다, interaktif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinteraktif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interaktif하는 상태이다, interaktif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinteraktif",
+        "meaning": "interaktif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_qcnyv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginteraktif [[뼝interaktif]]",
+    "meaning": "interaktif 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "interaktif",
+    "affix_logic": "어근 'interaktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak interaktif",
+    "antonym": "bukan interaktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interaktif 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interaktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginteraktif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interaktif 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginteraktif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interaktif 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginteraktif",
+        "meaning": "interaktif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_fek9l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginteraktifan [[뼝interaktif안]]",
+    "meaning": "interaktif 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "interaktif",
+    "affix_logic": "어근 'interaktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses interaktif",
+    "antonym": "bukan interaktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interaktif 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interaktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginteraktifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interaktif 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginteraktifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interaktif 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginteraktifan",
+        "meaning": "interaktif 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_kod9b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berisuar [[버르isuar]]",
+    "meaning": "isuar하는 상태이다, isuar를 행하다",
+    "pos": "동사",
+    "root": "isuar",
+    "affix_logic": "어근 'isuar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan isuar",
+    "antonym": "tidak isuar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isuar하는 상태이다, isuar를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isuar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berisuar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isuar하는 상태이다, isuar를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berisuar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isuar하는 상태이다, isuar를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berisuar",
+        "meaning": "isuar하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_hosu8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisuar [[뼝isuar]]",
+    "meaning": "isuar 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "isuar",
+    "affix_logic": "어근 'isuar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak isuar",
+    "antonym": "bukan isuar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isuar 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isuar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisuar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isuar 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisuar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isuar 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisuar",
+        "meaning": "isuar 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_o5jzz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisuaran [[뼝isuar안]]",
+    "meaning": "isuar 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "isuar",
+    "affix_logic": "어근 'isuar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses isuar",
+    "antonym": "bukan isuar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isuar 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isuar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisuaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isuar 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisuaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isuar 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisuaran",
+        "meaning": "isuar 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_91j8c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjurnalis [[버르jurnalis]]",
+    "meaning": "jurnalis하는 상태이다, jurnalis를 행하다",
+    "pos": "동사",
+    "root": "jurnalis",
+    "affix_logic": "어근 'jurnalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan jurnalis",
+    "antonym": "tidak jurnalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalis하는 상태이다, jurnalis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berjurnalis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalis하는 상태이다, jurnalis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berjurnalis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalis하는 상태이다, jurnalis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berjurnalis",
+        "meaning": "jurnalis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_dohij",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjurnalis [[뼝jurnalis]]",
+    "meaning": "jurnalis 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "jurnalis",
+    "affix_logic": "어근 'jurnalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak jurnalis",
+    "antonym": "bukan jurnalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalis 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjurnalis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalis 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjurnalis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalis 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjurnalis",
+        "meaning": "jurnalis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_y803d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjurnalisan [[뼝jurnalis안]]",
+    "meaning": "jurnalis 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "jurnalis",
+    "affix_logic": "어근 'jurnalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses jurnalis",
+    "antonym": "bukan jurnalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalis 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjurnalisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalis 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjurnalisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalis 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjurnalisan",
+        "meaning": "jurnalis 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_fwihm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjurnalistik investigatif [[버르jurnalistik investigatif]]",
+    "meaning": "jurnalistik investigatif하는 상태이다, jurnalistik investigatif를 행하다",
+    "pos": "동사",
+    "root": "jurnalistik investigatif",
+    "affix_logic": "어근 'jurnalistik investigatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan jurnalistik investigatif",
+    "antonym": "tidak jurnalistik investigatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalistik investigatif하는 상태이다, jurnalistik investigatif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalistik investigatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berjurnalistik investigatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalistik investigatif하는 상태이다, jurnalistik investigatif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berjurnalistik investigatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalistik investigatif하는 상태이다, jurnalistik investigatif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berjurnalistik",
+        "meaning": "jurnalistik investigatif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_7xv5f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjurnalistik investigatif [[뼝jurnalistik investigatif]]",
+    "meaning": "jurnalistik investigatif 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "jurnalistik investigatif",
+    "affix_logic": "어근 'jurnalistik investigatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak jurnalistik investigatif",
+    "antonym": "bukan jurnalistik investigatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalistik investigatif 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalistik investigatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjurnalistik investigatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalistik investigatif 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjurnalistik investigatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalistik investigatif 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjurnalistik",
+        "meaning": "jurnalistik investigatif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_q56p9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjurnalistik investigatifan [[뼝jurnalistik investigatif안]]",
+    "meaning": "jurnalistik investigatif 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "jurnalistik investigatif",
+    "affix_logic": "어근 'jurnalistik investigatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses jurnalistik investigatif",
+    "antonym": "bukan jurnalistik investigatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalistik investigatif 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalistik investigatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjurnalistik investigatifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalistik investigatif 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjurnalistik investigatifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalistik investigatif 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjurnalistik",
+        "meaning": "jurnalistik investigatif 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_dyrc2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkamera udara [[버르kamera udara]]",
+    "meaning": "kamera udara하는 상태이다, kamera udara를 행하다",
+    "pos": "동사",
+    "root": "kamera udara",
+    "affix_logic": "어근 'kamera udara'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kamera udara",
+    "antonym": "tidak kamera udara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamera udara하는 상태이다, kamera udara를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamera udara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkamera udara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamera udara하는 상태이다, kamera udara를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkamera udara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamera udara하는 상태이다, kamera udara를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkamera",
+        "meaning": "kamera udara하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_s1sjy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkamera udara [[뼝kamera udara]]",
+    "meaning": "kamera udara 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "kamera udara",
+    "affix_logic": "어근 'kamera udara'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kamera udara",
+    "antonym": "bukan kamera udara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamera udara 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamera udara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkamera udara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamera udara 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkamera udara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamera udara 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkamera",
+        "meaning": "kamera udara 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_9uhgr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkamera udaraan [[뼝kamera udara안]]",
+    "meaning": "kamera udara 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "kamera udara",
+    "affix_logic": "어근 'kamera udara'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kamera udara",
+    "antonym": "bukan kamera udara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamera udara 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamera udara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkamera udaraan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamera udara 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkamera udaraan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamera udara 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkamera",
+        "meaning": "kamera udara 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_as3o9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkamera sinema [[버르kamera sinema]]",
+    "meaning": "kamera sinema하는 상태이다, kamera sinema를 행하다",
+    "pos": "동사",
+    "root": "kamera sinema",
+    "affix_logic": "어근 'kamera sinema'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kamera sinema",
+    "antonym": "tidak kamera sinema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamera sinema하는 상태이다, kamera sinema를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamera sinema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkamera sinema' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamera sinema하는 상태이다, kamera sinema를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkamera sinema' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamera sinema하는 상태이다, kamera sinema를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkamera",
+        "meaning": "kamera sinema하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_47rtz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkamera sinema [[뼝kamera sinema]]",
+    "meaning": "kamera sinema 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "kamera sinema",
+    "affix_logic": "어근 'kamera sinema'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kamera sinema",
+    "antonym": "bukan kamera sinema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamera sinema 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamera sinema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkamera sinema' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamera sinema 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkamera sinema' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamera sinema 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkamera",
+        "meaning": "kamera sinema 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_hiw07",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkamera sinemaan [[뼝kamera sinema안]]",
+    "meaning": "kamera sinema 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "kamera sinema",
+    "affix_logic": "어근 'kamera sinema'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kamera sinema",
+    "antonym": "bukan kamera sinema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamera sinema 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamera sinema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkamera sinemaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamera sinema 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkamera sinemaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamera sinema 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkamera",
+        "meaning": "kamera sinema 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_gxca7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkampanye media [[버르kampanye media]]",
+    "meaning": "kampanye media하는 상태이다, kampanye media를 행하다",
+    "pos": "동사",
+    "root": "kampanye media",
+    "affix_logic": "어근 'kampanye media'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kampanye media",
+    "antonym": "tidak kampanye media",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kampanye media하는 상태이다, kampanye media를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kampanye media'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkampanye media' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kampanye media하는 상태이다, kampanye media를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkampanye media' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kampanye media하는 상태이다, kampanye media를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkampanye",
+        "meaning": "kampanye media하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_5be2a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkampanye media [[뼝kampanye media]]",
+    "meaning": "kampanye media 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "kampanye media",
+    "affix_logic": "어근 'kampanye media'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kampanye media",
+    "antonym": "bukan kampanye media",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kampanye media 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kampanye media'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkampanye media' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kampanye media 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkampanye media' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kampanye media 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkampanye",
+        "meaning": "kampanye media 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_1erbo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkampanye mediaan [[뼝kampanye media안]]",
+    "meaning": "kampanye media 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "kampanye media",
+    "affix_logic": "어근 'kampanye media'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kampanye media",
+    "antonym": "bukan kampanye media",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kampanye media 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kampanye media'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkampanye mediaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kampanye media 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkampanye mediaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kampanye media 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkampanye",
+        "meaning": "kampanye media 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_aehno",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkarikaturis [[버르karikaturis]]",
+    "meaning": "karikaturis하는 상태이다, karikaturis를 행하다",
+    "pos": "동사",
+    "root": "karikaturis",
+    "affix_logic": "어근 'karikaturis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan karikaturis",
+    "antonym": "tidak karikaturis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karikaturis하는 상태이다, karikaturis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karikaturis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkarikaturis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karikaturis하는 상태이다, karikaturis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkarikaturis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karikaturis하는 상태이다, karikaturis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkarikaturis",
+        "meaning": "karikaturis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_b49re",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkarikaturis [[뼝karikaturis]]",
+    "meaning": "karikaturis 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "karikaturis",
+    "affix_logic": "어근 'karikaturis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak karikaturis",
+    "antonym": "bukan karikaturis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karikaturis 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karikaturis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkarikaturis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karikaturis 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkarikaturis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karikaturis 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkarikaturis",
+        "meaning": "karikaturis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_s6orz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkarikaturisan [[뼝karikaturis안]]",
+    "meaning": "karikaturis 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "karikaturis",
+    "affix_logic": "어근 'karikaturis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses karikaturis",
+    "antonym": "bukan karikaturis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karikaturis 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karikaturis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkarikaturisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karikaturis 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkarikaturisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karikaturis 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkarikaturisan",
+        "meaning": "karikaturis 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_sqhc6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkolomnis [[버르kolomnis]]",
+    "meaning": "kolomnis하는 상태이다, kolomnis를 행하다",
+    "pos": "동사",
+    "root": "kolomnis",
+    "affix_logic": "어근 'kolomnis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kolomnis",
+    "antonym": "tidak kolomnis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolomnis하는 상태이다, kolomnis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolomnis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkolomnis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolomnis하는 상태이다, kolomnis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkolomnis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolomnis하는 상태이다, kolomnis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkolomnis",
+        "meaning": "kolomnis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_cs3a7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolomnis [[뼝kolomnis]]",
+    "meaning": "kolomnis 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "kolomnis",
+    "affix_logic": "어근 'kolomnis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kolomnis",
+    "antonym": "bukan kolomnis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolomnis 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolomnis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolomnis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolomnis 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolomnis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolomnis 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolomnis",
+        "meaning": "kolomnis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_j8wvc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolomnisan [[뼝kolomnis안]]",
+    "meaning": "kolomnis 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "kolomnis",
+    "affix_logic": "어근 'kolomnis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kolomnis",
+    "antonym": "bukan kolomnis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolomnis 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolomnis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolomnisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolomnis 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolomnisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolomnis 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolomnisan",
+        "meaning": "kolomnis 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_29dk3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkomunikasi massa [[버르komunikasi massa]]",
+    "meaning": "komunikasi massa하는 상태이다, komunikasi massa를 행하다",
+    "pos": "동사",
+    "root": "komunikasi massa",
+    "affix_logic": "어근 'komunikasi massa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan komunikasi massa",
+    "antonym": "tidak komunikasi massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komunikasi massa하는 상태이다, komunikasi massa를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komunikasi massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkomunikasi massa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komunikasi massa하는 상태이다, komunikasi massa를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkomunikasi massa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komunikasi massa하는 상태이다, komunikasi massa를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkomunikasi",
+        "meaning": "komunikasi massa하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_5sss4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomunikasi massa [[뼝komunikasi massa]]",
+    "meaning": "komunikasi massa 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "komunikasi massa",
+    "affix_logic": "어근 'komunikasi massa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak komunikasi massa",
+    "antonym": "bukan komunikasi massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komunikasi massa 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komunikasi massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomunikasi massa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komunikasi massa 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomunikasi massa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komunikasi massa 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomunikasi",
+        "meaning": "komunikasi massa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_cqcc4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomunikasi massaan [[뼝komunikasi massa안]]",
+    "meaning": "komunikasi massa 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "komunikasi massa",
+    "affix_logic": "어근 'komunikasi massa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses komunikasi massa",
+    "antonym": "bukan komunikasi massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komunikasi massa 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komunikasi massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomunikasi massaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komunikasi massa 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomunikasi massaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komunikasi massa 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomunikasi",
+        "meaning": "komunikasi massa 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_0uja4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonferensi pers [[버르konferensi pers]]",
+    "meaning": "konferensi pers하는 상태이다, konferensi pers를 행하다",
+    "pos": "동사",
+    "root": "konferensi pers",
+    "affix_logic": "어근 'konferensi pers'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konferensi pers",
+    "antonym": "tidak konferensi pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konferensi pers하는 상태이다, konferensi pers를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konferensi pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkonferensi pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konferensi pers하는 상태이다, konferensi pers를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkonferensi pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konferensi pers하는 상태이다, konferensi pers를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkonferensi",
+        "meaning": "konferensi pers하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_sts4k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonferensi pers [[뼝konferensi pers]]",
+    "meaning": "konferensi pers 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "konferensi pers",
+    "affix_logic": "어근 'konferensi pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak konferensi pers",
+    "antonym": "bukan konferensi pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konferensi pers 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konferensi pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonferensi pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konferensi pers 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonferensi pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konferensi pers 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonferensi",
+        "meaning": "konferensi pers 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_2pg2l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonferensi persan [[뼝konferensi pers안]]",
+    "meaning": "konferensi pers 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "konferensi pers",
+    "affix_logic": "어근 'konferensi pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses konferensi pers",
+    "antonym": "bukan konferensi pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konferensi pers 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konferensi pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonferensi persan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konferensi pers 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonferensi persan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konferensi pers 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonferensi",
+        "meaning": "konferensi pers 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_fgnje",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkoreksian [[버르koreksian]]",
+    "meaning": "koreksian하는 상태이다, koreksian를 행하다",
+    "pos": "동사",
+    "root": "koreksian",
+    "affix_logic": "어근 'koreksian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan koreksian",
+    "antonym": "tidak koreksian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreksian하는 상태이다, koreksian를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreksian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkoreksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreksian하는 상태이다, koreksian를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkoreksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreksian하는 상태이다, koreksian를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkoreksian",
+        "meaning": "koreksian하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_r8fal",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoreksianan [[뼝koreksian안]]",
+    "meaning": "koreksian 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "koreksian",
+    "affix_logic": "어근 'koreksian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses koreksian",
+    "antonym": "bukan koreksian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreksian 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreksian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkoreksianan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreksian 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkoreksianan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreksian 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkoreksianan",
+        "meaning": "koreksian 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_q8pom",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonten digital [[버르konten digital]]",
+    "meaning": "konten digital하는 상태이다, konten digital를 행하다",
+    "pos": "동사",
+    "root": "konten digital",
+    "affix_logic": "어근 'konten digital'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konten digital",
+    "antonym": "tidak konten digital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konten digital하는 상태이다, konten digital를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konten digital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkonten digital' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konten digital하는 상태이다, konten digital를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkonten digital' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konten digital하는 상태이다, konten digital를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkonten",
+        "meaning": "konten digital하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_hrmnk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonten digital [[뼝konten digital]]",
+    "meaning": "konten digital 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "konten digital",
+    "affix_logic": "어근 'konten digital'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak konten digital",
+    "antonym": "bukan konten digital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konten digital 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konten digital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonten digital' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konten digital 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonten digital' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konten digital 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonten",
+        "meaning": "konten digital 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_qkk5i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonten digitalan [[뼝konten digital안]]",
+    "meaning": "konten digital 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "konten digital",
+    "affix_logic": "어근 'konten digital'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses konten digital",
+    "antonym": "bukan konten digital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konten digital 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konten digital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonten digitalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konten digital 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonten digitalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konten digital 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonten",
+        "meaning": "konten digital 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_ws1uq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlaporan khusus [[버르laporan khusus]]",
+    "meaning": "laporan khusus하는 상태이다, laporan khusus를 행하다",
+    "pos": "동사",
+    "root": "laporan khusus",
+    "affix_logic": "어근 'laporan khusus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan laporan khusus",
+    "antonym": "tidak laporan khusus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laporan khusus하는 상태이다, laporan khusus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laporan khusus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlaporan khusus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laporan khusus하는 상태이다, laporan khusus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlaporan khusus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laporan khusus하는 상태이다, laporan khusus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlaporan",
+        "meaning": "laporan khusus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_hh9wd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaporan khusus [[뼝laporan khusus]]",
+    "meaning": "laporan khusus 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "laporan khusus",
+    "affix_logic": "어근 'laporan khusus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak laporan khusus",
+    "antonym": "bukan laporan khusus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laporan khusus 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laporan khusus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaporan khusus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laporan khusus 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaporan khusus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laporan khusus 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaporan",
+        "meaning": "laporan khusus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_7hxb4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaporan khususan [[뼝laporan khusus안]]",
+    "meaning": "laporan khusus 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "laporan khusus",
+    "affix_logic": "어근 'laporan khusus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses laporan khusus",
+    "antonym": "bukan laporan khusus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laporan khusus 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laporan khusus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaporan khususan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laporan khusus 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaporan khususan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laporan khusus 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaporan",
+        "meaning": "laporan khusus 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_9f606",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlisensi tayang [[버르lisensi tayang]]",
+    "meaning": "lisensi tayang하는 상태이다, lisensi tayang를 행하다",
+    "pos": "동사",
+    "root": "lisensi tayang",
+    "affix_logic": "어근 'lisensi tayang'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan lisensi tayang",
+    "antonym": "tidak lisensi tayang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lisensi tayang하는 상태이다, lisensi tayang를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lisensi tayang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlisensi tayang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lisensi tayang하는 상태이다, lisensi tayang를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlisensi tayang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lisensi tayang하는 상태이다, lisensi tayang를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlisensi",
+        "meaning": "lisensi tayang하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_zbr5p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglisensi tayang [[뼝lisensi tayang]]",
+    "meaning": "lisensi tayang 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "lisensi tayang",
+    "affix_logic": "어근 'lisensi tayang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak lisensi tayang",
+    "antonym": "bukan lisensi tayang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lisensi tayang 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lisensi tayang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglisensi tayang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lisensi tayang 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglisensi tayang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lisensi tayang 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglisensi",
+        "meaning": "lisensi tayang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_3swx3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglisensi tayangan [[뼝lisensi tayang안]]",
+    "meaning": "lisensi tayang 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "lisensi tayang",
+    "affix_logic": "어근 'lisensi tayang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses lisensi tayang",
+    "antonym": "bukan lisensi tayang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lisensi tayang 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lisensi tayang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglisensi tayangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lisensi tayang 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglisensi tayangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lisensi tayang 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglisensi",
+        "meaning": "lisensi tayang 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_tj6p4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berliputan lapangan [[버르liputan lapangan]]",
+    "meaning": "liputan lapangan하는 상태이다, liputan lapangan를 행하다",
+    "pos": "동사",
+    "root": "liputan lapangan",
+    "affix_logic": "어근 'liputan lapangan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan liputan lapangan",
+    "antonym": "tidak liputan lapangan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'liputan lapangan하는 상태이다, liputan lapangan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'liputan lapangan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berliputan lapangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'liputan lapangan하는 상태이다, liputan lapangan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berliputan lapangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'liputan lapangan하는 상태이다, liputan lapangan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berliputan",
+        "meaning": "liputan lapangan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_dgdnp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengliputan lapangan [[뼝liputan lapangan]]",
+    "meaning": "liputan lapangan 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "liputan lapangan",
+    "affix_logic": "어근 'liputan lapangan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak liputan lapangan",
+    "antonym": "bukan liputan lapangan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'liputan lapangan 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'liputan lapangan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengliputan lapangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'liputan lapangan 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengliputan lapangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'liputan lapangan 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengliputan",
+        "meaning": "liputan lapangan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_jeg72",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengliputan lapanganan [[뼝liputan lapangan안]]",
+    "meaning": "liputan lapangan 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "liputan lapangan",
+    "affix_logic": "어근 'liputan lapangan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses liputan lapangan",
+    "antonym": "bukan liputan lapangan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'liputan lapangan 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'liputan lapangan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengliputan lapanganan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'liputan lapangan 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengliputan lapanganan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'liputan lapangan 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengliputan",
+        "meaning": "liputan lapangan 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_tcqp9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermajalah harian [[버르majalah harian]]",
+    "meaning": "majalah harian하는 상태이다, majalah harian를 행하다",
+    "pos": "동사",
+    "root": "majalah harian",
+    "affix_logic": "어근 'majalah harian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan majalah harian",
+    "antonym": "tidak majalah harian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'majalah harian하는 상태이다, majalah harian를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'majalah harian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermajalah harian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'majalah harian하는 상태이다, majalah harian를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermajalah harian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'majalah harian하는 상태이다, majalah harian를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermajalah",
+        "meaning": "majalah harian하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_tg5ts",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmajalah harian [[뼝majalah harian]]",
+    "meaning": "majalah harian 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "majalah harian",
+    "affix_logic": "어근 'majalah harian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak majalah harian",
+    "antonym": "bukan majalah harian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'majalah harian 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'majalah harian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmajalah harian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'majalah harian 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmajalah harian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'majalah harian 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmajalah",
+        "meaning": "majalah harian 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_hkznw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmajalah harianan [[뼝majalah harian안]]",
+    "meaning": "majalah harian 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "majalah harian",
+    "affix_logic": "어근 'majalah harian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses majalah harian",
+    "antonym": "bukan majalah harian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'majalah harian 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'majalah harian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmajalah harianan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'majalah harian 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmajalah harianan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'majalah harian 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmajalah",
+        "meaning": "majalah harian 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_b80jk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermedia massa [[버르media massa]]",
+    "meaning": "media massa하는 상태이다, media massa를 행하다",
+    "pos": "동사",
+    "root": "media massa",
+    "affix_logic": "어근 'media massa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan media massa",
+    "antonym": "tidak media massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'media massa하는 상태이다, media massa를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'media massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermedia massa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'media massa하는 상태이다, media massa를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermedia massa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'media massa하는 상태이다, media massa를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermedia",
+        "meaning": "media massa하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_17mcb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmedia massa [[뼝media massa]]",
+    "meaning": "media massa 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "media massa",
+    "affix_logic": "어근 'media massa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak media massa",
+    "antonym": "bukan media massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'media massa 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'media massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmedia massa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'media massa 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmedia massa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'media massa 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmedia",
+        "meaning": "media massa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_7f985",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmedia massaan [[뼝media massa안]]",
+    "meaning": "media massa 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "media massa",
+    "affix_logic": "어근 'media massa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses media massa",
+    "antonym": "bukan media massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'media massa 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'media massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmedia massaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'media massa 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmedia massaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'media massa 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmedia",
+        "meaning": "media massa 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_5pqiq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernarasumber [[버르narasumber]]",
+    "meaning": "narasumber하는 상태이다, narasumber를 행하다",
+    "pos": "동사",
+    "root": "narasumber",
+    "affix_logic": "어근 'narasumber'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan narasumber",
+    "antonym": "tidak narasumber",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narasumber하는 상태이다, narasumber를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narasumber'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernarasumber' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narasumber하는 상태이다, narasumber를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernarasumber' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narasumber하는 상태이다, narasumber를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernarasumber",
+        "meaning": "narasumber하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_yskru",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnarasumber [[뼝narasumber]]",
+    "meaning": "narasumber 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "narasumber",
+    "affix_logic": "어근 'narasumber'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak narasumber",
+    "antonym": "bukan narasumber",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narasumber 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narasumber'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnarasumber' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narasumber 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnarasumber' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narasumber 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnarasumber",
+        "meaning": "narasumber 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_9oijk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnarasumberan [[뼝narasumber안]]",
+    "meaning": "narasumber 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "narasumber",
+    "affix_logic": "어근 'narasumber'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses narasumber",
+    "antonym": "bukan narasumber",
+    "context": "실생활 및 회화/비즈니스 상황에서 'narasumber 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'narasumber'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnarasumberan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'narasumber 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnarasumberan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'narasumber 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnarasumberan",
+        "meaning": "narasumber 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_55ow5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernavigasi web [[버르navigasi web]]",
+    "meaning": "navigasi web하는 상태이다, navigasi web를 행하다",
+    "pos": "동사",
+    "root": "navigasi web",
+    "affix_logic": "어근 'navigasi web'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan navigasi web",
+    "antonym": "tidak navigasi web",
+    "context": "실생활 및 회화/비즈니스 상황에서 'navigasi web하는 상태이다, navigasi web를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'navigasi web'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernavigasi web' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'navigasi web하는 상태이다, navigasi web를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernavigasi web' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'navigasi web하는 상태이다, navigasi web를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernavigasi",
+        "meaning": "navigasi web하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_iseel",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnavigasi web [[뼝navigasi web]]",
+    "meaning": "navigasi web 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "navigasi web",
+    "affix_logic": "어근 'navigasi web'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak navigasi web",
+    "antonym": "bukan navigasi web",
+    "context": "실생활 및 회화/비즈니스 상황에서 'navigasi web 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'navigasi web'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnavigasi web' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'navigasi web 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnavigasi web' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'navigasi web 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnavigasi",
+        "meaning": "navigasi web 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_dlrpw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnavigasi weban [[뼝navigasi web안]]",
+    "meaning": "navigasi web 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "navigasi web",
+    "affix_logic": "어근 'navigasi web'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses navigasi web",
+    "antonym": "bukan navigasi web",
+    "context": "실생활 및 회화/비즈니스 상황에서 'navigasi web 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'navigasi web'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnavigasi weban' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'navigasi web 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnavigasi weban' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'navigasi web 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnavigasi",
+        "meaning": "navigasi web 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233744_7bpft",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernotifikasi [[버르notifikasi]]",
+    "meaning": "notifikasi하는 상태이다, notifikasi를 행하다",
+    "pos": "동사",
+    "root": "notifikasi",
+    "affix_logic": "어근 'notifikasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan notifikasi",
+    "antonym": "tidak notifikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'notifikasi하는 상태이다, notifikasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'notifikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernotifikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'notifikasi하는 상태이다, notifikasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernotifikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'notifikasi하는 상태이다, notifikasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernotifikasi",
+        "meaning": "notifikasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_uq74d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnotifikasi [[뼝notifikasi]]",
+    "meaning": "notifikasi 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "notifikasi",
+    "affix_logic": "어근 'notifikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak notifikasi",
+    "antonym": "bukan notifikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'notifikasi 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'notifikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnotifikasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'notifikasi 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnotifikasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'notifikasi 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnotifikasi",
+        "meaning": "notifikasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_gbknq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnotifikasian [[뼝notifikasi안]]",
+    "meaning": "notifikasi 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "notifikasi",
+    "affix_logic": "어근 'notifikasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses notifikasi",
+    "antonym": "bukan notifikasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'notifikasi 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'notifikasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnotifikasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'notifikasi 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnotifikasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'notifikasi 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnotifikasian",
+        "meaning": "notifikasi 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_9fv3z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berombudsman pers [[버르ombudsman pers]]",
+    "meaning": "ombudsman pers하는 상태이다, ombudsman pers를 행하다",
+    "pos": "동사",
+    "root": "ombudsman pers",
+    "affix_logic": "어근 'ombudsman pers'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ombudsman pers",
+    "antonym": "tidak ombudsman pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ombudsman pers하는 상태이다, ombudsman pers를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ombudsman pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berombudsman pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ombudsman pers하는 상태이다, ombudsman pers를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berombudsman pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ombudsman pers하는 상태이다, ombudsman pers를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berombudsman",
+        "meaning": "ombudsman pers하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_p9fyx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengombudsman pers [[뼝ombudsman pers]]",
+    "meaning": "ombudsman pers 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "ombudsman pers",
+    "affix_logic": "어근 'ombudsman pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ombudsman pers",
+    "antonym": "bukan ombudsman pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ombudsman pers 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ombudsman pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengombudsman pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ombudsman pers 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengombudsman pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ombudsman pers 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengombudsman",
+        "meaning": "ombudsman pers 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_17e2v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengombudsman persan [[뼝ombudsman pers안]]",
+    "meaning": "ombudsman pers 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "ombudsman pers",
+    "affix_logic": "어근 'ombudsman pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ombudsman pers",
+    "antonym": "bukan ombudsman pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ombudsman pers 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ombudsman pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengombudsman persan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ombudsman pers 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengombudsman persan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ombudsman pers 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengombudsman",
+        "meaning": "ombudsman pers 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_5aeam",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beroperator studio [[버르operator studio]]",
+    "meaning": "operator studio하는 상태이다, operator studio를 행하다",
+    "pos": "동사",
+    "root": "operator studio",
+    "affix_logic": "어근 'operator studio'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan operator studio",
+    "antonym": "tidak operator studio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operator studio하는 상태이다, operator studio를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operator studio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beroperator studio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operator studio하는 상태이다, operator studio를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beroperator studio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operator studio하는 상태이다, operator studio를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beroperator",
+        "meaning": "operator studio하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_38exw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoperator studio [[뼝operator studio]]",
+    "meaning": "operator studio 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "operator studio",
+    "affix_logic": "어근 'operator studio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak operator studio",
+    "antonym": "bukan operator studio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operator studio 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operator studio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoperator studio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operator studio 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoperator studio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operator studio 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoperator",
+        "meaning": "operator studio 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_1475f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengoperator studioan [[뼝operator studio안]]",
+    "meaning": "operator studio 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "operator studio",
+    "affix_logic": "어근 'operator studio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses operator studio",
+    "antonym": "bukan operator studio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operator studio 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operator studio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengoperator studioan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operator studio 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengoperator studioan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operator studio 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengoperator",
+        "meaning": "operator studio 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_5711f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpers rilis [[버르pers rilis]]",
+    "meaning": "pers rilis하는 상태이다, pers rilis를 행하다",
+    "pos": "동사",
+    "root": "pers rilis",
+    "affix_logic": "어근 'pers rilis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pers rilis",
+    "antonym": "tidak pers rilis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pers rilis하는 상태이다, pers rilis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pers rilis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpers rilis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pers rilis하는 상태이다, pers rilis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpers rilis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pers rilis하는 상태이다, pers rilis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpers",
+        "meaning": "pers rilis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_001q4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpers rilis [[뼝pers rilis]]",
+    "meaning": "pers rilis 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "pers rilis",
+    "affix_logic": "어근 'pers rilis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pers rilis",
+    "antonym": "bukan pers rilis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pers rilis 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pers rilis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpers rilis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pers rilis 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpers rilis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pers rilis 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpers",
+        "meaning": "pers rilis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_tmiwg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpers rilisan [[뼝pers rilis안]]",
+    "meaning": "pers rilis 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "pers rilis",
+    "affix_logic": "어근 'pers rilis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pers rilis",
+    "antonym": "bukan pers rilis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pers rilis 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pers rilis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpers rilisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pers rilis 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpers rilisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pers rilis 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpers",
+        "meaning": "pers rilis 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_fmuxa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpodcaster [[버르podcaster]]",
+    "meaning": "podcaster하는 상태이다, podcaster를 행하다",
+    "pos": "동사",
+    "root": "podcaster",
+    "affix_logic": "어근 'podcaster'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan podcaster",
+    "antonym": "tidak podcaster",
+    "context": "실생활 및 회화/비즈니스 상황에서 'podcaster하는 상태이다, podcaster를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'podcaster'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpodcaster' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'podcaster하는 상태이다, podcaster를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpodcaster' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'podcaster하는 상태이다, podcaster를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpodcaster",
+        "meaning": "podcaster하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_3f05x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpodcaster [[뼝podcaster]]",
+    "meaning": "podcaster 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "podcaster",
+    "affix_logic": "어근 'podcaster'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak podcaster",
+    "antonym": "bukan podcaster",
+    "context": "실생활 및 회화/비즈니스 상황에서 'podcaster 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'podcaster'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpodcaster' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'podcaster 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpodcaster' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'podcaster 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpodcaster",
+        "meaning": "podcaster 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_ghvga",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpodcasteran [[뼝podcaster안]]",
+    "meaning": "podcaster 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "podcaster",
+    "affix_logic": "어근 'podcaster'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses podcaster",
+    "antonym": "bukan podcaster",
+    "context": "실생활 및 회화/비즈니스 상황에서 'podcaster 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'podcaster'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpodcasteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'podcaster 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpodcasteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'podcaster 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpodcasteran",
+        "meaning": "podcaster 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_7rh8e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpemberitaan [[버르pemberitaan]]",
+    "meaning": "pemberitaan하는 상태이다, pemberitaan를 행하다",
+    "pos": "동사",
+    "root": "pemberitaan",
+    "affix_logic": "어근 'pemberitaan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pemberitaan",
+    "antonym": "tidak pemberitaan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pemberitaan하는 상태이다, pemberitaan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pemberitaan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpemberitaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pemberitaan하는 상태이다, pemberitaan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpemberitaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pemberitaan하는 상태이다, pemberitaan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpemberitaan",
+        "meaning": "pemberitaan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_2ofo1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpemberitaan [[뼝pemberitaan]]",
+    "meaning": "pemberitaan 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "pemberitaan",
+    "affix_logic": "어근 'pemberitaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pemberitaan",
+    "antonym": "bukan pemberitaan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pemberitaan 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pemberitaan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpemberitaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pemberitaan 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpemberitaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pemberitaan 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpemberitaan",
+        "meaning": "pemberitaan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_uflyb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpemberitaanan [[뼝pemberitaan안]]",
+    "meaning": "pemberitaan 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "pemberitaan",
+    "affix_logic": "어근 'pemberitaan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pemberitaan",
+    "antonym": "bukan pemberitaan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pemberitaan 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pemberitaan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpemberitaanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pemberitaan 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpemberitaanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pemberitaan 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpemberitaanan",
+        "meaning": "pemberitaan 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_wfugw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpemimpin redaksi [[버르pemimpin redaksi]]",
+    "meaning": "pemimpin redaksi하는 상태이다, pemimpin redaksi를 행하다",
+    "pos": "동사",
+    "root": "pemimpin redaksi",
+    "affix_logic": "어근 'pemimpin redaksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pemimpin redaksi",
+    "antonym": "tidak pemimpin redaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pemimpin redaksi하는 상태이다, pemimpin redaksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pemimpin redaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpemimpin redaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pemimpin redaksi하는 상태이다, pemimpin redaksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpemimpin redaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pemimpin redaksi하는 상태이다, pemimpin redaksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpemimpin",
+        "meaning": "pemimpin redaksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_u29ko",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpemimpin redaksi [[뼝pemimpin redaksi]]",
+    "meaning": "pemimpin redaksi 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "pemimpin redaksi",
+    "affix_logic": "어근 'pemimpin redaksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak pemimpin redaksi",
+    "antonym": "bukan pemimpin redaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pemimpin redaksi 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pemimpin redaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpemimpin redaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pemimpin redaksi 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpemimpin redaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pemimpin redaksi 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpemimpin",
+        "meaning": "pemimpin redaksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_v1lx8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpemimpin redaksian [[뼝pemimpin redaksi안]]",
+    "meaning": "pemimpin redaksi 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "pemimpin redaksi",
+    "affix_logic": "어근 'pemimpin redaksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses pemimpin redaksi",
+    "antonym": "bukan pemimpin redaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pemimpin redaksi 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pemimpin redaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpemimpin redaksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pemimpin redaksi 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpemimpin redaksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pemimpin redaksi 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpemimpin",
+        "meaning": "pemimpin redaksi 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_73x3x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpenyiaran [[버르penyiaran]]",
+    "meaning": "penyiaran하는 상태이다, penyiaran를 행하다",
+    "pos": "동사",
+    "root": "penyiaran",
+    "affix_logic": "어근 'penyiaran'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan penyiaran",
+    "antonym": "tidak penyiaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyiaran하는 상태이다, penyiaran를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyiaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpenyiaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyiaran하는 상태이다, penyiaran를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpenyiaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyiaran하는 상태이다, penyiaran를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpenyiaran",
+        "meaning": "penyiaran하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_m49yj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenyiaran [[뼝penyiaran]]",
+    "meaning": "penyiaran 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "penyiaran",
+    "affix_logic": "어근 'penyiaran'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak penyiaran",
+    "antonym": "bukan penyiaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyiaran 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyiaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenyiaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyiaran 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenyiaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyiaran 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenyiaran",
+        "meaning": "penyiaran 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_x4p5q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenyiaranan [[뼝penyiaran안]]",
+    "meaning": "penyiaran 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "penyiaran",
+    "affix_logic": "어근 'penyiaran'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses penyiaran",
+    "antonym": "bukan penyiaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyiaran 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyiaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenyiaranan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyiaran 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenyiaranan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyiaran 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenyiaranan",
+        "meaning": "penyiaran 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_22dtt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpenyunting gambar [[버르penyunting gambar]]",
+    "meaning": "penyunting gambar하는 상태이다, penyunting gambar를 행하다",
+    "pos": "동사",
+    "root": "penyunting gambar",
+    "affix_logic": "어근 'penyunting gambar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan penyunting gambar",
+    "antonym": "tidak penyunting gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyunting gambar하는 상태이다, penyunting gambar를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyunting gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpenyunting gambar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyunting gambar하는 상태이다, penyunting gambar를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpenyunting gambar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyunting gambar하는 상태이다, penyunting gambar를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpenyunting",
+        "meaning": "penyunting gambar하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_z726e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenyunting gambar [[뼝penyunting gambar]]",
+    "meaning": "penyunting gambar 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "penyunting gambar",
+    "affix_logic": "어근 'penyunting gambar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak penyunting gambar",
+    "antonym": "bukan penyunting gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyunting gambar 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyunting gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenyunting gambar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyunting gambar 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenyunting gambar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyunting gambar 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenyunting",
+        "meaning": "penyunting gambar 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_4iq1p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpenyunting gambaran [[뼝penyunting gambar안]]",
+    "meaning": "penyunting gambar 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "penyunting gambar",
+    "affix_logic": "어근 'penyunting gambar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses penyunting gambar",
+    "antonym": "bukan penyunting gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'penyunting gambar 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'penyunting gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpenyunting gambaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'penyunting gambar 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpenyunting gambaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'penyunting gambar 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpenyunting",
+        "meaning": "penyunting gambar 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_kkdww",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpercetakan [[버르percetakan]]",
+    "meaning": "percetakan하는 상태이다, percetakan를 행하다",
+    "pos": "동사",
+    "root": "percetakan",
+    "affix_logic": "어근 'percetakan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan percetakan",
+    "antonym": "tidak percetakan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'percetakan하는 상태이다, percetakan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'percetakan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpercetakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'percetakan하는 상태이다, percetakan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpercetakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'percetakan하는 상태이다, percetakan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpercetakan",
+        "meaning": "percetakan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_rctrm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpercetakan [[뼝percetakan]]",
+    "meaning": "percetakan 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "percetakan",
+    "affix_logic": "어근 'percetakan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak percetakan",
+    "antonym": "bukan percetakan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'percetakan 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'percetakan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpercetakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'percetakan 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpercetakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'percetakan 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpercetakan",
+        "meaning": "percetakan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_eo35j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpercetakanan [[뼝percetakan안]]",
+    "meaning": "percetakan 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "percetakan",
+    "affix_logic": "어근 'percetakan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses percetakan",
+    "antonym": "bukan percetakan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'percetakan 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'percetakan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpercetakanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'percetakan 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpercetakanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'percetakan 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpercetakanan",
+        "meaning": "percetakan 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_k64wu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berperusahaan pers [[버르perusahaan pers]]",
+    "meaning": "perusahaan pers하는 상태이다, perusahaan pers를 행하다",
+    "pos": "동사",
+    "root": "perusahaan pers",
+    "affix_logic": "어근 'perusahaan pers'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan perusahaan pers",
+    "antonym": "tidak perusahaan pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'perusahaan pers하는 상태이다, perusahaan pers를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'perusahaan pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berperusahaan pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'perusahaan pers하는 상태이다, perusahaan pers를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berperusahaan pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'perusahaan pers하는 상태이다, perusahaan pers를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berperusahaan",
+        "meaning": "perusahaan pers하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_x7yv5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperusahaan pers [[뼝perusahaan pers]]",
+    "meaning": "perusahaan pers 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "perusahaan pers",
+    "affix_logic": "어근 'perusahaan pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak perusahaan pers",
+    "antonym": "bukan perusahaan pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'perusahaan pers 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'perusahaan pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengperusahaan pers' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'perusahaan pers 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengperusahaan pers' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'perusahaan pers 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengperusahaan",
+        "meaning": "perusahaan pers 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_qeqzk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperusahaan persan [[뼝perusahaan pers안]]",
+    "meaning": "perusahaan pers 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "perusahaan pers",
+    "affix_logic": "어근 'perusahaan pers'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses perusahaan pers",
+    "antonym": "bukan perusahaan pers",
+    "context": "실생활 및 회화/비즈니스 상황에서 'perusahaan pers 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'perusahaan pers'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengperusahaan persan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'perusahaan pers 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengperusahaan persan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'perusahaan pers 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengperusahaan",
+        "meaning": "perusahaan pers 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_c0spf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berperiklanan [[버르periklanan]]",
+    "meaning": "periklanan하는 상태이다, periklanan를 행하다",
+    "pos": "동사",
+    "root": "periklanan",
+    "affix_logic": "어근 'periklanan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan periklanan",
+    "antonym": "tidak periklanan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'periklanan하는 상태이다, periklanan를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'periklanan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berperiklanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'periklanan하는 상태이다, periklanan를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berperiklanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'periklanan하는 상태이다, periklanan를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berperiklanan",
+        "meaning": "periklanan하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_2hlgj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperiklanan [[뼝periklanan]]",
+    "meaning": "periklanan 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "periklanan",
+    "affix_logic": "어근 'periklanan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak periklanan",
+    "antonym": "bukan periklanan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'periklanan 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'periklanan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengperiklanan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'periklanan 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengperiklanan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'periklanan 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengperiklanan",
+        "meaning": "periklanan 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_kp9nx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperiklananan [[뼝periklanan안]]",
+    "meaning": "periklanan 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "periklanan",
+    "affix_logic": "어근 'periklanan'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses periklanan",
+    "antonym": "bukan periklanan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'periklanan 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'periklanan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengperiklananan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'periklanan 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengperiklananan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'periklanan 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengperiklananan",
+        "meaning": "periklanan 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_0qfoq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpresenter berita [[버르presenter berita]]",
+    "meaning": "presenter berita하는 상태이다, presenter berita를 행하다",
+    "pos": "동사",
+    "root": "presenter berita",
+    "affix_logic": "어근 'presenter berita'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan presenter berita",
+    "antonym": "tidak presenter berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'presenter berita하는 상태이다, presenter berita를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'presenter berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpresenter berita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'presenter berita하는 상태이다, presenter berita를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpresenter berita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'presenter berita하는 상태이다, presenter berita를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpresenter",
+        "meaning": "presenter berita하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_9cbq8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpresenter berita [[뼝presenter berita]]",
+    "meaning": "presenter berita 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "presenter berita",
+    "affix_logic": "어근 'presenter berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak presenter berita",
+    "antonym": "bukan presenter berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'presenter berita 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'presenter berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpresenter berita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'presenter berita 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpresenter berita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'presenter berita 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpresenter",
+        "meaning": "presenter berita 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_f0u8o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpresenter beritaan [[뼝presenter berita안]]",
+    "meaning": "presenter berita 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "presenter berita",
+    "affix_logic": "어근 'presenter berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses presenter berita",
+    "antonym": "bukan presenter berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'presenter berita 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'presenter berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpresenter beritaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'presenter berita 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpresenter beritaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'presenter berita 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpresenter",
+        "meaning": "presenter berita 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_4f133",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berproduser program [[버르produser program]]",
+    "meaning": "produser program하는 상태이다, produser program를 행하다",
+    "pos": "동사",
+    "root": "produser program",
+    "affix_logic": "어근 'produser program'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan produser program",
+    "antonym": "tidak produser program",
+    "context": "실생활 및 회화/비즈니스 상황에서 'produser program하는 상태이다, produser program를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'produser program'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berproduser program' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'produser program하는 상태이다, produser program를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berproduser program' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'produser program하는 상태이다, produser program를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berproduser",
+        "meaning": "produser program하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_jv9ir",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengproduser program [[뼝produser program]]",
+    "meaning": "produser program 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "produser program",
+    "affix_logic": "어근 'produser program'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak produser program",
+    "antonym": "bukan produser program",
+    "context": "실생활 및 회화/비즈니스 상황에서 'produser program 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'produser program'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengproduser program' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'produser program 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengproduser program' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'produser program 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengproduser",
+        "meaning": "produser program 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_fg3bt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengproduser programan [[뼝produser program안]]",
+    "meaning": "produser program 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "produser program",
+    "affix_logic": "어근 'produser program'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses produser program",
+    "antonym": "bukan produser program",
+    "context": "실생활 및 회화/비즈니스 상황에서 'produser program 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'produser program'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengproduser programan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'produser program 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengproduser programan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'produser program 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengproduser",
+        "meaning": "produser program 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_52ce3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpublikasi cetak [[버르publikasi cetak]]",
+    "meaning": "publikasi cetak하는 상태이다, publikasi cetak를 행하다",
+    "pos": "동사",
+    "root": "publikasi cetak",
+    "affix_logic": "어근 'publikasi cetak'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan publikasi cetak",
+    "antonym": "tidak publikasi cetak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'publikasi cetak하는 상태이다, publikasi cetak를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'publikasi cetak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpublikasi cetak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'publikasi cetak하는 상태이다, publikasi cetak를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpublikasi cetak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'publikasi cetak하는 상태이다, publikasi cetak를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpublikasi",
+        "meaning": "publikasi cetak하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_njuvr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpublikasi cetak [[뼝publikasi cetak]]",
+    "meaning": "publikasi cetak 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "publikasi cetak",
+    "affix_logic": "어근 'publikasi cetak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak publikasi cetak",
+    "antonym": "bukan publikasi cetak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'publikasi cetak 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'publikasi cetak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpublikasi cetak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'publikasi cetak 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpublikasi cetak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'publikasi cetak 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpublikasi",
+        "meaning": "publikasi cetak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_vu49j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpublikasi cetakan [[뼝publikasi cetak안]]",
+    "meaning": "publikasi cetak 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "publikasi cetak",
+    "affix_logic": "어근 'publikasi cetak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses publikasi cetak",
+    "antonym": "bukan publikasi cetak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'publikasi cetak 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'publikasi cetak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpublikasi cetakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'publikasi cetak 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpublikasi cetakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'publikasi cetak 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpublikasi",
+        "meaning": "publikasi cetak 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_nzgvy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrating acara [[버르rating acara]]",
+    "meaning": "rating acara하는 상태이다, rating acara를 행하다",
+    "pos": "동사",
+    "root": "rating acara",
+    "affix_logic": "어근 'rating acara'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan rating acara",
+    "antonym": "tidak rating acara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rating acara하는 상태이다, rating acara를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rating acara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrating acara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rating acara하는 상태이다, rating acara를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrating acara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rating acara하는 상태이다, rating acara를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrating",
+        "meaning": "rating acara하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_v34c5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrating acara [[뼝rating acara]]",
+    "meaning": "rating acara 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "rating acara",
+    "affix_logic": "어근 'rating acara'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak rating acara",
+    "antonym": "bukan rating acara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rating acara 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rating acara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrating acara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rating acara 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrating acara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rating acara 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrating",
+        "meaning": "rating acara 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_shkwy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrating acaraan [[뼝rating acara안]]",
+    "meaning": "rating acara 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "rating acara",
+    "affix_logic": "어근 'rating acara'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses rating acara",
+    "antonym": "bukan rating acara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rating acara 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rating acara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrating acaraan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rating acara 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrating acaraan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rating acara 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrating",
+        "meaning": "rating acara 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_6h6wi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berredaksi [[버르redaksi]]",
+    "meaning": "redaksi하는 상태이다, redaksi를 행하다",
+    "pos": "동사",
+    "root": "redaksi",
+    "affix_logic": "어근 'redaksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan redaksi",
+    "antonym": "tidak redaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'redaksi하는 상태이다, redaksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'redaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berredaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'redaksi하는 상태이다, redaksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berredaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'redaksi하는 상태이다, redaksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berredaksi",
+        "meaning": "redaksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_nnnji",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengredaksi [[뼝redaksi]]",
+    "meaning": "redaksi 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "redaksi",
+    "affix_logic": "어근 'redaksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak redaksi",
+    "antonym": "bukan redaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'redaksi 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'redaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengredaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'redaksi 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengredaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'redaksi 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengredaksi",
+        "meaning": "redaksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_te2vn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengredaksian [[뼝redaksi안]]",
+    "meaning": "redaksi 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "redaksi",
+    "affix_logic": "어근 'redaksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses redaksi",
+    "antonym": "bukan redaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'redaksi 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'redaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengredaksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'redaksi 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengredaksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'redaksi 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengredaksian",
+        "meaning": "redaksi 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_at7xk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berreporter [[버르reporter]]",
+    "meaning": "reporter하는 상태이다, reporter를 행하다",
+    "pos": "동사",
+    "root": "reporter",
+    "affix_logic": "어근 'reporter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan reporter",
+    "antonym": "tidak reporter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reporter하는 상태이다, reporter를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reporter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berreporter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reporter하는 상태이다, reporter를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berreporter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reporter하는 상태이다, reporter를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berreporter",
+        "meaning": "reporter하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_qr780",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengreporter [[뼝reporter]]",
+    "meaning": "reporter 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "reporter",
+    "affix_logic": "어근 'reporter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak reporter",
+    "antonym": "bukan reporter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reporter 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reporter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengreporter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reporter 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengreporter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reporter 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengreporter",
+        "meaning": "reporter 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_fy832",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengreporteran [[뼝reporter안]]",
+    "meaning": "reporter 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "reporter",
+    "affix_logic": "어근 'reporter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses reporter",
+    "antonym": "bukan reporter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reporter 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reporter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengreporteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reporter 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengreporteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reporter 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengreporteran",
+        "meaning": "reporter 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_8vi4m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berresolusi gambar [[버르resolusi gambar]]",
+    "meaning": "resolusi gambar하는 상태이다, resolusi gambar를 행하다",
+    "pos": "동사",
+    "root": "resolusi gambar",
+    "affix_logic": "어근 'resolusi gambar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan resolusi gambar",
+    "antonym": "tidak resolusi gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resolusi gambar하는 상태이다, resolusi gambar를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resolusi gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berresolusi gambar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resolusi gambar하는 상태이다, resolusi gambar를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berresolusi gambar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resolusi gambar하는 상태이다, resolusi gambar를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berresolusi",
+        "meaning": "resolusi gambar하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_lo1av",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresolusi gambar [[뼝resolusi gambar]]",
+    "meaning": "resolusi gambar 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "resolusi gambar",
+    "affix_logic": "어근 'resolusi gambar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak resolusi gambar",
+    "antonym": "bukan resolusi gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resolusi gambar 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resolusi gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresolusi gambar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resolusi gambar 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresolusi gambar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resolusi gambar 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresolusi",
+        "meaning": "resolusi gambar 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_fgxsk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresolusi gambaran [[뼝resolusi gambar안]]",
+    "meaning": "resolusi gambar 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "resolusi gambar",
+    "affix_logic": "어근 'resolusi gambar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses resolusi gambar",
+    "antonym": "bukan resolusi gambar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resolusi gambar 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resolusi gambar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresolusi gambaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resolusi gambar 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresolusi gambaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resolusi gambar 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresolusi",
+        "meaning": "resolusi gambar 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_qeavj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrubrik khusus [[버르rubrik khusus]]",
+    "meaning": "rubrik khusus하는 상태이다, rubrik khusus를 행하다",
+    "pos": "동사",
+    "root": "rubrik khusus",
+    "affix_logic": "어근 'rubrik khusus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan rubrik khusus",
+    "antonym": "tidak rubrik khusus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rubrik khusus하는 상태이다, rubrik khusus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rubrik khusus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrubrik khusus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rubrik khusus하는 상태이다, rubrik khusus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrubrik khusus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rubrik khusus하는 상태이다, rubrik khusus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrubrik",
+        "meaning": "rubrik khusus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_egrfq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrubrik khusus [[뼝rubrik khusus]]",
+    "meaning": "rubrik khusus 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "rubrik khusus",
+    "affix_logic": "어근 'rubrik khusus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak rubrik khusus",
+    "antonym": "bukan rubrik khusus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rubrik khusus 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rubrik khusus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrubrik khusus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rubrik khusus 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrubrik khusus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rubrik khusus 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrubrik",
+        "meaning": "rubrik khusus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_fh5o7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrubrik khususan [[뼝rubrik khusus안]]",
+    "meaning": "rubrik khusus 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "rubrik khusus",
+    "affix_logic": "어근 'rubrik khusus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses rubrik khusus",
+    "antonym": "bukan rubrik khusus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rubrik khusus 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rubrik khusus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrubrik khususan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rubrik khusus 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrubrik khususan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rubrik khusus 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrubrik",
+        "meaning": "rubrik khusus 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_6fdqn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersaluran tv [[버르saluran tv]]",
+    "meaning": "saluran tv하는 상태이다, saluran tv를 행하다",
+    "pos": "동사",
+    "root": "saluran tv",
+    "affix_logic": "어근 'saluran tv'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan saluran tv",
+    "antonym": "tidak saluran tv",
+    "context": "실생활 및 회화/비즈니스 상황에서 'saluran tv하는 상태이다, saluran tv를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'saluran tv'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersaluran tv' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'saluran tv하는 상태이다, saluran tv를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersaluran tv' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'saluran tv하는 상태이다, saluran tv를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersaluran",
+        "meaning": "saluran tv하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_1ddzq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsaluran tv [[뼝saluran tv]]",
+    "meaning": "saluran tv 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "saluran tv",
+    "affix_logic": "어근 'saluran tv'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak saluran tv",
+    "antonym": "bukan saluran tv",
+    "context": "실생활 및 회화/비즈니스 상황에서 'saluran tv 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'saluran tv'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsaluran tv' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'saluran tv 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsaluran tv' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'saluran tv 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsaluran",
+        "meaning": "saluran tv 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_v4eua",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsaluran tvan [[뼝saluran tv안]]",
+    "meaning": "saluran tv 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "saluran tv",
+    "affix_logic": "어근 'saluran tv'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses saluran tv",
+    "antonym": "bukan saluran tv",
+    "context": "실생활 및 회화/비즈니스 상황에서 'saluran tv 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'saluran tv'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsaluran tvan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'saluran tv 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsaluran tvan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'saluran tv 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsaluran",
+        "meaning": "saluran tv 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_i4dov",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersensor media [[버르sensor media]]",
+    "meaning": "sensor media하는 상태이다, sensor media를 행하다",
+    "pos": "동사",
+    "root": "sensor media",
+    "affix_logic": "어근 'sensor media'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sensor media",
+    "antonym": "tidak sensor media",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sensor media하는 상태이다, sensor media를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sensor media'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersensor media' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sensor media하는 상태이다, sensor media를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersensor media' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sensor media하는 상태이다, sensor media를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersensor",
+        "meaning": "sensor media하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_d1kvt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsensor media [[뼝sensor media]]",
+    "meaning": "sensor media 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "sensor media",
+    "affix_logic": "어근 'sensor media'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak sensor media",
+    "antonym": "bukan sensor media",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sensor media 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sensor media'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsensor media' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sensor media 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsensor media' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sensor media 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsensor",
+        "meaning": "sensor media 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_eq0se",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsensor mediaan [[뼝sensor media안]]",
+    "meaning": "sensor media 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "sensor media",
+    "affix_logic": "어근 'sensor media'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses sensor media",
+    "antonym": "bukan sensor media",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sensor media 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sensor media'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsensor mediaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sensor media 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsensor mediaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sensor media 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsensor",
+        "meaning": "sensor media 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233745_7jg0s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersinematik [[버르sinematik]]",
+    "meaning": "sinematik하는 상태이다, sinematik를 행하다",
+    "pos": "동사",
+    "root": "sinematik",
+    "affix_logic": "어근 'sinematik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sinematik",
+    "antonym": "tidak sinematik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sinematik하는 상태이다, sinematik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sinematik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersinematik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sinematik하는 상태이다, sinematik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersinematik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sinematik하는 상태이다, sinematik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersinematik",
+        "meaning": "sinematik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_o5acx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsinematik [[뼝sinematik]]",
+    "meaning": "sinematik 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "sinematik",
+    "affix_logic": "어근 'sinematik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak sinematik",
+    "antonym": "bukan sinematik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sinematik 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sinematik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsinematik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sinematik 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsinematik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sinematik 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsinematik",
+        "meaning": "sinematik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_r4o6t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsinematikan [[뼝sinematik안]]",
+    "meaning": "sinematik 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "sinematik",
+    "affix_logic": "어근 'sinematik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses sinematik",
+    "antonym": "bukan sinematik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sinematik 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sinematik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsinematikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sinematik 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsinematikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sinematik 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsinematikan",
+        "meaning": "sinematik 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_sahjh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersitus berita [[버르situs berita]]",
+    "meaning": "situs berita하는 상태이다, situs berita를 행하다",
+    "pos": "동사",
+    "root": "situs berita",
+    "affix_logic": "어근 'situs berita'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan situs berita",
+    "antonym": "tidak situs berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'situs berita하는 상태이다, situs berita를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'situs berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersitus berita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'situs berita하는 상태이다, situs berita를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersitus berita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'situs berita하는 상태이다, situs berita를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersitus",
+        "meaning": "situs berita하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_v8iih",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsitus berita [[뼝situs berita]]",
+    "meaning": "situs berita 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "situs berita",
+    "affix_logic": "어근 'situs berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak situs berita",
+    "antonym": "bukan situs berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'situs berita 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'situs berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsitus berita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'situs berita 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsitus berita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'situs berita 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsitus",
+        "meaning": "situs berita 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_s8zp4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsitus beritaan [[뼝situs berita안]]",
+    "meaning": "situs berita 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "situs berita",
+    "affix_logic": "어근 'situs berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses situs berita",
+    "antonym": "bukan situs berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'situs berita 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'situs berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsitus beritaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'situs berita 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsitus beritaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'situs berita 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsitus",
+        "meaning": "situs berita 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_483hq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersolusi digital [[버르solusi digital]]",
+    "meaning": "solusi digital하는 상태이다, solusi digital를 행하다",
+    "pos": "동사",
+    "root": "solusi digital",
+    "affix_logic": "어근 'solusi digital'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan solusi digital",
+    "antonym": "tidak solusi digital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'solusi digital하는 상태이다, solusi digital를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'solusi digital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersolusi digital' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'solusi digital하는 상태이다, solusi digital를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersolusi digital' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'solusi digital하는 상태이다, solusi digital를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersolusi",
+        "meaning": "solusi digital하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_ct2tc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsolusi digital [[뼝solusi digital]]",
+    "meaning": "solusi digital 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "solusi digital",
+    "affix_logic": "어근 'solusi digital'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak solusi digital",
+    "antonym": "bukan solusi digital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'solusi digital 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'solusi digital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsolusi digital' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'solusi digital 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsolusi digital' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'solusi digital 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsolusi",
+        "meaning": "solusi digital 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_rvel8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsolusi digitalan [[뼝solusi digital안]]",
+    "meaning": "solusi digital 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "solusi digital",
+    "affix_logic": "어근 'solusi digital'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses solusi digital",
+    "antonym": "bukan solusi digital",
+    "context": "실생활 및 회화/비즈니스 상황에서 'solusi digital 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'solusi digital'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsolusi digitalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'solusi digital 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsolusi digitalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'solusi digital 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsolusi",
+        "meaning": "solusi digital 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_890ma",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersponsor utama [[버르sponsor utama]]",
+    "meaning": "sponsor utama하는 상태이다, sponsor utama를 행하다",
+    "pos": "동사",
+    "root": "sponsor utama",
+    "affix_logic": "어근 'sponsor utama'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sponsor utama",
+    "antonym": "tidak sponsor utama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sponsor utama하는 상태이다, sponsor utama를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sponsor utama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersponsor utama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sponsor utama하는 상태이다, sponsor utama를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersponsor utama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sponsor utama하는 상태이다, sponsor utama를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersponsor",
+        "meaning": "sponsor utama하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_rx22f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsponsor utama [[뼝sponsor utama]]",
+    "meaning": "sponsor utama 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "sponsor utama",
+    "affix_logic": "어근 'sponsor utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak sponsor utama",
+    "antonym": "bukan sponsor utama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sponsor utama 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sponsor utama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsponsor utama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sponsor utama 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsponsor utama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sponsor utama 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsponsor",
+        "meaning": "sponsor utama 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_3jgij",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsponsor utamaan [[뼝sponsor utama안]]",
+    "meaning": "sponsor utama 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "sponsor utama",
+    "affix_logic": "어근 'sponsor utama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses sponsor utama",
+    "antonym": "bukan sponsor utama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sponsor utama 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sponsor utama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsponsor utamaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sponsor utama 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsponsor utamaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sponsor utama 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsponsor",
+        "meaning": "sponsor utama 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_v2l1v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berstreaming langsung [[버르streaming langsung]]",
+    "meaning": "streaming langsung하는 상태이다, streaming langsung를 행하다",
+    "pos": "동사",
+    "root": "streaming langsung",
+    "affix_logic": "어근 'streaming langsung'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan streaming langsung",
+    "antonym": "tidak streaming langsung",
+    "context": "실생활 및 회화/비즈니스 상황에서 'streaming langsung하는 상태이다, streaming langsung를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'streaming langsung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berstreaming langsung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'streaming langsung하는 상태이다, streaming langsung를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berstreaming langsung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'streaming langsung하는 상태이다, streaming langsung를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berstreaming",
+        "meaning": "streaming langsung하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_newtn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstreaming langsung [[뼝streaming langsung]]",
+    "meaning": "streaming langsung 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "streaming langsung",
+    "affix_logic": "어근 'streaming langsung'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak streaming langsung",
+    "antonym": "bukan streaming langsung",
+    "context": "실생활 및 회화/비즈니스 상황에서 'streaming langsung 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'streaming langsung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengstreaming langsung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'streaming langsung 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengstreaming langsung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'streaming langsung 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengstreaming",
+        "meaning": "streaming langsung 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_56450",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstreaming langsungan [[뼝streaming langsung안]]",
+    "meaning": "streaming langsung 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "streaming langsung",
+    "affix_logic": "어근 'streaming langsung'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses streaming langsung",
+    "antonym": "bukan streaming langsung",
+    "context": "실생활 및 회화/비즈니스 상황에서 'streaming langsung 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'streaming langsung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengstreaming langsungan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'streaming langsung 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengstreaming langsungan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'streaming langsung 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengstreaming",
+        "meaning": "streaming langsung 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_utoaw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berstudio siaran [[버르studio siaran]]",
+    "meaning": "studio siaran하는 상태이다, studio siaran를 행하다",
+    "pos": "동사",
+    "root": "studio siaran",
+    "affix_logic": "어근 'studio siaran'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan studio siaran",
+    "antonym": "tidak studio siaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'studio siaran하는 상태이다, studio siaran를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'studio siaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berstudio siaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'studio siaran하는 상태이다, studio siaran를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berstudio siaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'studio siaran하는 상태이다, studio siaran를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berstudio",
+        "meaning": "studio siaran하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_p3t0a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstudio siaran [[뼝studio siaran]]",
+    "meaning": "studio siaran 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "studio siaran",
+    "affix_logic": "어근 'studio siaran'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak studio siaran",
+    "antonym": "bukan studio siaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'studio siaran 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'studio siaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengstudio siaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'studio siaran 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengstudio siaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'studio siaran 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengstudio",
+        "meaning": "studio siaran 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_9xb7p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengstudio siaranan [[뼝studio siaran안]]",
+    "meaning": "studio siaran 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "studio siaran",
+    "affix_logic": "어근 'studio siaran'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses studio siaran",
+    "antonym": "bukan studio siaran",
+    "context": "실생활 및 회화/비즈니스 상황에서 'studio siaran 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'studio siaran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengstudio siaranan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'studio siaran 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengstudio siaranan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'studio siaran 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengstudio",
+        "meaning": "studio siaran 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_20ifz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersubtitel [[버르subtitel]]",
+    "meaning": "subtitel하는 상태이다, subtitel를 행하다",
+    "pos": "동사",
+    "root": "subtitel",
+    "affix_logic": "어근 'subtitel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan subtitel",
+    "antonym": "tidak subtitel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'subtitel하는 상태이다, subtitel를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'subtitel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersubtitel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'subtitel하는 상태이다, subtitel를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersubtitel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'subtitel하는 상태이다, subtitel를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersubtitel",
+        "meaning": "subtitel하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_9fkwu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsubtitel [[뼝subtitel]]",
+    "meaning": "subtitel 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "subtitel",
+    "affix_logic": "어근 'subtitel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak subtitel",
+    "antonym": "bukan subtitel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'subtitel 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'subtitel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsubtitel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'subtitel 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsubtitel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'subtitel 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsubtitel",
+        "meaning": "subtitel 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_rc6qy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsubtitelan [[뼝subtitel안]]",
+    "meaning": "subtitel 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "subtitel",
+    "affix_logic": "어근 'subtitel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses subtitel",
+    "antonym": "bukan subtitel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'subtitel 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'subtitel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsubtitelan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'subtitel 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsubtitelan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'subtitel 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsubtitelan",
+        "meaning": "subtitel 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_erf36",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertabloid harian [[버르tabloid harian]]",
+    "meaning": "tabloid harian하는 상태이다, tabloid harian를 행하다",
+    "pos": "동사",
+    "root": "tabloid harian",
+    "affix_logic": "어근 'tabloid harian'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan tabloid harian",
+    "antonym": "tidak tabloid harian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tabloid harian하는 상태이다, tabloid harian를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tabloid harian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bertabloid harian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tabloid harian하는 상태이다, tabloid harian를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bertabloid harian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tabloid harian하는 상태이다, tabloid harian를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bertabloid",
+        "meaning": "tabloid harian하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_3j6kf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtabloid harian [[뼝tabloid harian]]",
+    "meaning": "tabloid harian 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "tabloid harian",
+    "affix_logic": "어근 'tabloid harian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak tabloid harian",
+    "antonym": "bukan tabloid harian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tabloid harian 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tabloid harian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtabloid harian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tabloid harian 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtabloid harian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tabloid harian 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtabloid",
+        "meaning": "tabloid harian 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_hfqvf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtabloid harianan [[뼝tabloid harian안]]",
+    "meaning": "tabloid harian 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "tabloid harian",
+    "affix_logic": "어근 'tabloid harian'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses tabloid harian",
+    "antonym": "bukan tabloid harian",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tabloid harian 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tabloid harian'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtabloid harianan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tabloid harian 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtabloid harianan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tabloid harian 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtabloid",
+        "meaning": "tabloid harian 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_ctr0e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berteknisi suara [[버르teknisi suara]]",
+    "meaning": "teknisi suara하는 상태이다, teknisi suara를 행하다",
+    "pos": "동사",
+    "root": "teknisi suara",
+    "affix_logic": "어근 'teknisi suara'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan teknisi suara",
+    "antonym": "tidak teknisi suara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teknisi suara하는 상태이다, teknisi suara를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teknisi suara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berteknisi suara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teknisi suara하는 상태이다, teknisi suara를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berteknisi suara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teknisi suara하는 상태이다, teknisi suara를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berteknisi",
+        "meaning": "teknisi suara하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_u4df8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengteknisi suara [[뼝teknisi suara]]",
+    "meaning": "teknisi suara 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "teknisi suara",
+    "affix_logic": "어근 'teknisi suara'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak teknisi suara",
+    "antonym": "bukan teknisi suara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teknisi suara 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teknisi suara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengteknisi suara' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teknisi suara 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengteknisi suara' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teknisi suara 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengteknisi",
+        "meaning": "teknisi suara 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_xhxji",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengteknisi suaraan [[뼝teknisi suara안]]",
+    "meaning": "teknisi suara 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "teknisi suara",
+    "affix_logic": "어근 'teknisi suara'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses teknisi suara",
+    "antonym": "bukan teknisi suara",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teknisi suara 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teknisi suara'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengteknisi suaraan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teknisi suara 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengteknisi suaraan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teknisi suara 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengteknisi",
+        "meaning": "teknisi suara 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_ej30a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertelevisi publik [[버르televisi publik]]",
+    "meaning": "televisi publik하는 상태이다, televisi publik를 행하다",
+    "pos": "동사",
+    "root": "televisi publik",
+    "affix_logic": "어근 'televisi publik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan televisi publik",
+    "antonym": "tidak televisi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'televisi publik하는 상태이다, televisi publik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'televisi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bertelevisi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'televisi publik하는 상태이다, televisi publik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bertelevisi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'televisi publik하는 상태이다, televisi publik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bertelevisi",
+        "meaning": "televisi publik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_fzo3s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtelevisi publik [[뼝televisi publik]]",
+    "meaning": "televisi publik 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "televisi publik",
+    "affix_logic": "어근 'televisi publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak televisi publik",
+    "antonym": "bukan televisi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'televisi publik 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'televisi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtelevisi publik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'televisi publik 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtelevisi publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'televisi publik 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtelevisi",
+        "meaning": "televisi publik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_2mobc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtelevisi publikan [[뼝televisi publik안]]",
+    "meaning": "televisi publik 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "televisi publik",
+    "affix_logic": "어근 'televisi publik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses televisi publik",
+    "antonym": "bukan televisi publik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'televisi publik 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'televisi publik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtelevisi publikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'televisi publik 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtelevisi publikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'televisi publik 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtelevisi",
+        "meaning": "televisi publik 과정 및 미디어 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_kn470",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertransmisi sinyal [[버르transmisi sinyal]]",
+    "meaning": "transmisi sinyal하는 상태이다, transmisi sinyal를 행하다",
+    "pos": "동사",
+    "root": "transmisi sinyal",
+    "affix_logic": "어근 'transmisi sinyal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan transmisi sinyal",
+    "antonym": "tidak transmisi sinyal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'transmisi sinyal하는 상태이다, transmisi sinyal를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'transmisi sinyal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bertransmisi sinyal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'transmisi sinyal하는 상태이다, transmisi sinyal를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bertransmisi sinyal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'transmisi sinyal하는 상태이다, transmisi sinyal를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bertransmisi",
+        "meaning": "transmisi sinyal하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_g1mws",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtransmisi sinyal [[뼝transmisi sinyal]]",
+    "meaning": "transmisi sinyal 수행 주체, 미디어인",
+    "pos": "명사",
+    "root": "transmisi sinyal",
+    "affix_logic": "어근 'transmisi sinyal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak transmisi sinyal",
+    "antonym": "bukan transmisi sinyal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'transmisi sinyal 수행 주체, 미디어인'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'transmisi sinyal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtransmisi sinyal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'transmisi sinyal 수행 주체, 미디어인'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtransmisi sinyal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'transmisi sinyal 수행 주체, 미디어인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtransmisi",
+        "meaning": "transmisi sinyal 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139233746_i72rx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtransmisi sinyalan [[뼝transmisi sinyal안]]",
+    "meaning": "transmisi sinyal 과정 및 미디어 영역",
+    "pos": "명사",
+    "root": "transmisi sinyal",
+    "affix_logic": "어근 'transmisi sinyal'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses transmisi sinyal",
+    "antonym": "bukan transmisi sinyal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'transmisi sinyal 과정 및 미디어 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'transmisi sinyal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtransmisi sinyalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'transmisi sinyal 과정 및 미디어 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtransmisi sinyalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'transmisi sinyal 과정 및 미디어 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtransmisi",
+        "meaning": "transmisi sinyal 과정 및 미디어 영역"
+      }
+    ]
   }
 ];
