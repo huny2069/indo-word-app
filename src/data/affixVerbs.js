@@ -45030,5 +45030,7805 @@ export const affixVerbs = [
         "meaning": "완전히 opini되다"
       }
     ]
+  },
+  {
+    "id": "word_1787138948185_thw12",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengotoklaf [[멍otoklaf]]",
+    "meaning": "otoklaf하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "otoklaf",
+    "affix_logic": "어근 'otoklaf'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan otoklaf",
+    "antonym": "diotoklaf",
+    "context": "실생활 및 회화/비즈니스 상황에서 'otoklaf하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otoklaf'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengotoklaf' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'otoklaf하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengotoklaf' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'otoklaf하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengotoklaf",
+        "meaning": "otoklaf하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_muo2c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diotoklaf [[디otoklaf]]",
+    "meaning": "otoklaf되다, otoklaf당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "otoklaf",
+    "affix_logic": "어근 'otoklaf'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena otoklaf",
+    "antonym": "mengotoklaf",
+    "context": "실생활 및 회화/비즈니스 상황에서 'otoklaf되다, otoklaf당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otoklaf'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diotoklaf' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'otoklaf되다, otoklaf당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diotoklaf' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'otoklaf되다, otoklaf당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diotoklaf",
+        "meaning": "otoklaf되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_z5mpi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terotoklaf [[뜨르otoklaf]]",
+    "meaning": "완전히 otoklaf되다",
+    "pos": "동사, 형용사",
+    "root": "otoklaf",
+    "affix_logic": "어근 'otoklaf'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling otoklaf",
+    "antonym": "sengaja diotoklaf",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 otoklaf되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otoklaf'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terotoklaf' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 otoklaf되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terotoklaf' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 otoklaf되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terotoklaf",
+        "meaning": "완전히 otoklaf되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_8wml8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengotomat [[멍otomat]]",
+    "meaning": "otomat하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "otomat",
+    "affix_logic": "어근 'otomat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan otomat",
+    "antonym": "diotomat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'otomat하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otomat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengotomat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'otomat하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengotomat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'otomat하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengotomat",
+        "meaning": "otomat하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_7wjor",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diotomat [[디otomat]]",
+    "meaning": "otomat되다, otomat당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "otomat",
+    "affix_logic": "어근 'otomat'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena otomat",
+    "antonym": "mengotomat",
+    "context": "실생활 및 회화/비즈니스 상황에서 'otomat되다, otomat당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otomat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diotomat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'otomat되다, otomat당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diotomat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'otomat되다, otomat당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diotomat",
+        "meaning": "otomat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_6db0e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terotomat [[뜨르otomat]]",
+    "meaning": "완전히 otomat되다",
+    "pos": "동사, 형용사",
+    "root": "otomat",
+    "affix_logic": "어근 'otomat'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling otomat",
+    "antonym": "sengaja diotomat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 otomat되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'otomat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terotomat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 otomat되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terotomat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 otomat되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terotomat",
+        "meaning": "완전히 otomat되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_4vxol",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbakteri [[멍bakteri]]",
+    "meaning": "bakteri하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "bakteri",
+    "affix_logic": "어근 'bakteri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bakteri",
+    "antonym": "dibakteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bakteri하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bakteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbakteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bakteri하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbakteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bakteri하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbakteri",
+        "meaning": "bakteri하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_n4i5a",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibakteri [[디bakteri]]",
+    "meaning": "bakteri되다, bakteri당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "bakteri",
+    "affix_logic": "어근 'bakteri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena bakteri",
+    "antonym": "mengbakteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bakteri되다, bakteri당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bakteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibakteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bakteri되다, bakteri당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibakteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bakteri되다, bakteri당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibakteri",
+        "meaning": "bakteri되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_wp954",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbakteri [[뜨르bakteri]]",
+    "meaning": "완전히 bakteri되다",
+    "pos": "동사, 형용사",
+    "root": "bakteri",
+    "affix_logic": "어근 'bakteri'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling bakteri",
+    "antonym": "sengaja dibakteri",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 bakteri되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bakteri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbakteri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 bakteri되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbakteri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 bakteri되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbakteri",
+        "meaning": "완전히 bakteri되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_lm58n",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiologi [[멍biologi]]",
+    "meaning": "biologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "biologi",
+    "affix_logic": "어근 'biologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biologi",
+    "antonym": "dibiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbiologi",
+        "meaning": "biologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_evlxb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiologi [[디biologi]]",
+    "meaning": "biologi되다, biologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "biologi",
+    "affix_logic": "어근 'biologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena biologi",
+    "antonym": "mengbiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biologi되다, biologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biologi되다, biologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biologi되다, biologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibiologi",
+        "meaning": "biologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_5zft3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiologi [[뜨르biologi]]",
+    "meaning": "완전히 biologi되다",
+    "pos": "동사, 형용사",
+    "root": "biologi",
+    "affix_logic": "어근 'biologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling biologi",
+    "antonym": "sengaja dibiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 biologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 biologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 biologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbiologi",
+        "meaning": "완전히 biologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_ffyqf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiokimia [[멍biokimia]]",
+    "meaning": "biokimia하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "biokimia",
+    "affix_logic": "어근 'biokimia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biokimia",
+    "antonym": "dibiokimia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biokimia하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biokimia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbiokimia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biokimia하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbiokimia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biokimia하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbiokimia",
+        "meaning": "biokimia하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_jpfpq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiokimia [[디biokimia]]",
+    "meaning": "biokimia되다, biokimia당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "biokimia",
+    "affix_logic": "어근 'biokimia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena biokimia",
+    "antonym": "mengbiokimia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biokimia되다, biokimia당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biokimia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibiokimia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biokimia되다, biokimia당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibiokimia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biokimia되다, biokimia당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibiokimia",
+        "meaning": "biokimia되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_4t3pz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiokimia [[뜨르biokimia]]",
+    "meaning": "완전히 biokimia되다",
+    "pos": "동사, 형용사",
+    "root": "biokimia",
+    "affix_logic": "어근 'biokimia'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling biokimia",
+    "antonym": "sengaja dibiokimia",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 biokimia되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biokimia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbiokimia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 biokimia되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbiokimia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 biokimia되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbiokimia",
+        "meaning": "완전히 biokimia되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_9b1w0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbioteknologi [[멍bioteknologi]]",
+    "meaning": "bioteknologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "bioteknologi",
+    "affix_logic": "어근 'bioteknologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bioteknologi",
+    "antonym": "dibioteknologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bioteknologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bioteknologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbioteknologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bioteknologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbioteknologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bioteknologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbioteknologi",
+        "meaning": "bioteknologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_flxzv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibioteknologi [[디bioteknologi]]",
+    "meaning": "bioteknologi되다, bioteknologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "bioteknologi",
+    "affix_logic": "어근 'bioteknologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena bioteknologi",
+    "antonym": "mengbioteknologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bioteknologi되다, bioteknologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bioteknologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibioteknologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bioteknologi되다, bioteknologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibioteknologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bioteknologi되다, bioteknologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibioteknologi",
+        "meaning": "bioteknologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_qud29",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbioteknologi [[뜨르bioteknologi]]",
+    "meaning": "완전히 bioteknologi되다",
+    "pos": "동사, 형용사",
+    "root": "bioteknologi",
+    "affix_logic": "어근 'bioteknologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling bioteknologi",
+    "antonym": "sengaja dibioteknologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 bioteknologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bioteknologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbioteknologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 bioteknologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbioteknologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 bioteknologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbioteknologi",
+        "meaning": "완전히 bioteknologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_dc2cz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiosfer [[멍biosfer]]",
+    "meaning": "biosfer하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "biosfer",
+    "affix_logic": "어근 'biosfer'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biosfer",
+    "antonym": "dibiosfer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biosfer하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biosfer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbiosfer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biosfer하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbiosfer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biosfer하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbiosfer",
+        "meaning": "biosfer하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_wc2ju",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiosfer [[디biosfer]]",
+    "meaning": "biosfer되다, biosfer당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "biosfer",
+    "affix_logic": "어근 'biosfer'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena biosfer",
+    "antonym": "mengbiosfer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biosfer되다, biosfer당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biosfer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibiosfer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biosfer되다, biosfer당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibiosfer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biosfer되다, biosfer당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibiosfer",
+        "meaning": "biosfer되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_q0m6h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiosfer [[뜨르biosfer]]",
+    "meaning": "완전히 biosfer되다",
+    "pos": "동사, 형용사",
+    "root": "biosfer",
+    "affix_logic": "어근 'biosfer'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling biosfer",
+    "antonym": "sengaja dibiosfer",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 biosfer되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biosfer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbiosfer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 biosfer되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbiosfer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 biosfer되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbiosfer",
+        "meaning": "완전히 biosfer되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_4j1vb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiomassa [[멍biomassa]]",
+    "meaning": "biomassa하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "biomassa",
+    "affix_logic": "어근 'biomassa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biomassa",
+    "antonym": "dibiomassa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biomassa하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biomassa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbiomassa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biomassa하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbiomassa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biomassa하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbiomassa",
+        "meaning": "biomassa하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_pwdca",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiomassa [[디biomassa]]",
+    "meaning": "biomassa되다, biomassa당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "biomassa",
+    "affix_logic": "어근 'biomassa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena biomassa",
+    "antonym": "mengbiomassa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biomassa되다, biomassa당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biomassa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibiomassa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biomassa되다, biomassa당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibiomassa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biomassa되다, biomassa당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibiomassa",
+        "meaning": "biomassa되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_rajav",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiomassa [[뜨르biomassa]]",
+    "meaning": "완전히 biomassa되다",
+    "pos": "동사, 형용사",
+    "root": "biomassa",
+    "affix_logic": "어근 'biomassa'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling biomassa",
+    "antonym": "sengaja dibiomassa",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 biomassa되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biomassa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbiomassa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 biomassa되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbiomassa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 biomassa되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbiomassa",
+        "meaning": "완전히 biomassa되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_gmczj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbotani [[멍botani]]",
+    "meaning": "botani하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "botani",
+    "affix_logic": "어근 'botani'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan botani",
+    "antonym": "dibotani",
+    "context": "실생활 및 회화/비즈니스 상황에서 'botani하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'botani'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbotani' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'botani하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbotani' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'botani하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbotani",
+        "meaning": "botani하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_ms05c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibotani [[디botani]]",
+    "meaning": "botani되다, botani당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "botani",
+    "affix_logic": "어근 'botani'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena botani",
+    "antonym": "mengbotani",
+    "context": "실생활 및 회화/비즈니스 상황에서 'botani되다, botani당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'botani'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibotani' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'botani되다, botani당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibotani' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'botani되다, botani당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibotani",
+        "meaning": "botani되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_exacp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbotani [[뜨르botani]]",
+    "meaning": "완전히 botani되다",
+    "pos": "동사, 형용사",
+    "root": "botani",
+    "affix_logic": "어근 'botani'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling botani",
+    "antonym": "sengaja dibotani",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 botani되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'botani'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbotani' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 botani되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbotani' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 botani되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbotani",
+        "meaning": "완전히 botani되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_xmrjt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkromatografi [[멍kromatografi]]",
+    "meaning": "kromatografi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kromatografi",
+    "affix_logic": "어근 'kromatografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kromatografi",
+    "antonym": "dikromatografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kromatografi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kromatografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkromatografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kromatografi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkromatografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kromatografi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkromatografi",
+        "meaning": "kromatografi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_khiaa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikromatografi [[디kromatografi]]",
+    "meaning": "kromatografi되다, kromatografi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kromatografi",
+    "affix_logic": "어근 'kromatografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kromatografi",
+    "antonym": "mengkromatografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kromatografi되다, kromatografi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kromatografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikromatografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kromatografi되다, kromatografi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikromatografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kromatografi되다, kromatografi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikromatografi",
+        "meaning": "kromatografi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_zo6bt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkromatografi [[뜨르kromatografi]]",
+    "meaning": "완전히 kromatografi되다",
+    "pos": "동사, 형용사",
+    "root": "kromatografi",
+    "affix_logic": "어근 'kromatografi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kromatografi",
+    "antonym": "sengaja dikromatografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kromatografi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kromatografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkromatografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kromatografi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkromatografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kromatografi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkromatografi",
+        "meaning": "완전히 kromatografi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_cclx3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengsitologi [[멍sitologi]]",
+    "meaning": "sitologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "sitologi",
+    "affix_logic": "어근 'sitologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan sitologi",
+    "antonym": "disitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sitologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengsitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sitologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengsitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sitologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengsitologi",
+        "meaning": "sitologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_2j1c8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "disitologi [[디sitologi]]",
+    "meaning": "sitologi되다, sitologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "sitologi",
+    "affix_logic": "어근 'sitologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena sitologi",
+    "antonym": "mengsitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sitologi되다, sitologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'disitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sitologi되다, sitologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'disitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sitologi되다, sitologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "disitologi",
+        "meaning": "sitologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_ornpy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tersitologi [[뜨르sitologi]]",
+    "meaning": "완전히 sitologi되다",
+    "pos": "동사, 형용사",
+    "root": "sitologi",
+    "affix_logic": "어근 'sitologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling sitologi",
+    "antonym": "sengaja disitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 sitologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tersitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 sitologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tersitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 sitologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tersitologi",
+        "meaning": "완전히 sitologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_yegwz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengekologi [[멍ekologi]]",
+    "meaning": "ekologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ekologi",
+    "affix_logic": "어근 'ekologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekologi",
+    "antonym": "diekologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengekologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengekologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengekologi",
+        "meaning": "ekologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_89qfm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diekologi [[디ekologi]]",
+    "meaning": "ekologi되다, ekologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ekologi",
+    "affix_logic": "어근 'ekologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena ekologi",
+    "antonym": "mengekologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekologi되다, ekologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diekologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekologi되다, ekologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diekologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekologi되다, ekologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diekologi",
+        "meaning": "ekologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_2rr46",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terekologi [[뜨르ekologi]]",
+    "meaning": "완전히 ekologi되다",
+    "pos": "동사, 형용사",
+    "root": "ekologi",
+    "affix_logic": "어근 'ekologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling ekologi",
+    "antonym": "sengaja diekologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 ekologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terekologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 ekologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terekologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 ekologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terekologi",
+        "meaning": "완전히 ekologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_kv6k1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengembriologi [[멍embriologi]]",
+    "meaning": "embriologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "embriologi",
+    "affix_logic": "어근 'embriologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan embriologi",
+    "antonym": "diembriologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'embriologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embriologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengembriologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'embriologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengembriologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'embriologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengembriologi",
+        "meaning": "embriologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_2rzln",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diembriologi [[디embriologi]]",
+    "meaning": "embriologi되다, embriologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "embriologi",
+    "affix_logic": "어근 'embriologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena embriologi",
+    "antonym": "mengembriologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'embriologi되다, embriologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embriologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diembriologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'embriologi되다, embriologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diembriologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'embriologi되다, embriologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diembriologi",
+        "meaning": "embriologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_zwom8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terembriologi [[뜨르embriologi]]",
+    "meaning": "완전히 embriologi되다",
+    "pos": "동사, 형용사",
+    "root": "embriologi",
+    "affix_logic": "어근 'embriologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling embriologi",
+    "antonym": "sengaja diembriologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 embriologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'embriologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terembriologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 embriologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terembriologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 embriologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terembriologi",
+        "meaning": "완전히 embriologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_2687c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengenzim [[멍enzim]]",
+    "meaning": "enzim하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "enzim",
+    "affix_logic": "어근 'enzim'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan enzim",
+    "antonym": "dienzim",
+    "context": "실생활 및 회화/비즈니스 상황에서 'enzim하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'enzim'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengenzim' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'enzim하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengenzim' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'enzim하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengenzim",
+        "meaning": "enzim하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_vmtcp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dienzim [[디enzim]]",
+    "meaning": "enzim되다, enzim당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "enzim",
+    "affix_logic": "어근 'enzim'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena enzim",
+    "antonym": "mengenzim",
+    "context": "실생활 및 회화/비즈니스 상황에서 'enzim되다, enzim당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'enzim'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dienzim' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'enzim되다, enzim당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dienzim' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'enzim되다, enzim당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dienzim",
+        "meaning": "enzim되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_75508",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terenzim [[뜨르enzim]]",
+    "meaning": "완전히 enzim되다",
+    "pos": "동사, 형용사",
+    "root": "enzim",
+    "affix_logic": "어근 'enzim'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling enzim",
+    "antonym": "sengaja dienzim",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 enzim되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'enzim'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terenzim' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 enzim되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terenzim' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 enzim되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terenzim",
+        "meaning": "완전히 enzim되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_0bb5p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menggenetika [[멍genetika]]",
+    "meaning": "genetika하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "genetika",
+    "affix_logic": "어근 'genetika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan genetika",
+    "antonym": "digenetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'genetika하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'genetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menggenetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'genetika하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menggenetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'genetika하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menggenetika",
+        "meaning": "genetika하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_9ew0g",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "digenetika [[디genetika]]",
+    "meaning": "genetika되다, genetika당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "genetika",
+    "affix_logic": "어근 'genetika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena genetika",
+    "antonym": "menggenetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'genetika되다, genetika당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'genetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'digenetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'genetika되다, genetika당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'digenetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'genetika되다, genetika당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "digenetika",
+        "meaning": "genetika되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_0duea",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tergenetika [[뜨르genetika]]",
+    "meaning": "완전히 genetika되다",
+    "pos": "동사, 형용사",
+    "root": "genetika",
+    "affix_logic": "어근 'genetika'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling genetika",
+    "antonym": "sengaja digenetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 genetika되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'genetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tergenetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 genetika되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tergenetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 genetika되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tergenetika",
+        "meaning": "완전히 genetika되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_avhqz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menggeologi [[멍geologi]]",
+    "meaning": "geologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "geologi",
+    "affix_logic": "어근 'geologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan geologi",
+    "antonym": "digeologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menggeologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menggeologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menggeologi",
+        "meaning": "geologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_pxsei",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "digeologi [[디geologi]]",
+    "meaning": "geologi되다, geologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "geologi",
+    "affix_logic": "어근 'geologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena geologi",
+    "antonym": "menggeologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geologi되다, geologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'digeologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geologi되다, geologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'digeologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geologi되다, geologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "digeologi",
+        "meaning": "geologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_sw92t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tergeologi [[뜨르geologi]]",
+    "meaning": "완전히 geologi되다",
+    "pos": "동사, 형용사",
+    "root": "geologi",
+    "affix_logic": "어근 'geologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling geologi",
+    "antonym": "sengaja digeologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 geologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tergeologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 geologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tergeologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 geologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tergeologi",
+        "meaning": "완전히 geologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_vgkg3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menggeofisika [[멍geofisika]]",
+    "meaning": "geofisika하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "geofisika",
+    "affix_logic": "어근 'geofisika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan geofisika",
+    "antonym": "digeofisika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geofisika하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geofisika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menggeofisika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geofisika하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menggeofisika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geofisika하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menggeofisika",
+        "meaning": "geofisika하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_h6uh7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "digeofisika [[디geofisika]]",
+    "meaning": "geofisika되다, geofisika당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "geofisika",
+    "affix_logic": "어근 'geofisika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena geofisika",
+    "antonym": "menggeofisika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geofisika되다, geofisika당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geofisika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'digeofisika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geofisika되다, geofisika당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'digeofisika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geofisika되다, geofisika당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "digeofisika",
+        "meaning": "geofisika되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_drbw6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tergeofisika [[뜨르geofisika]]",
+    "meaning": "완전히 geofisika되다",
+    "pos": "동사, 형용사",
+    "root": "geofisika",
+    "affix_logic": "어근 'geofisika'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling geofisika",
+    "antonym": "sengaja digeofisika",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 geofisika되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geofisika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tergeofisika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 geofisika되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tergeofisika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 geofisika되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tergeofisika",
+        "meaning": "완전히 geofisika되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_yp1pl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghistologi [[멍histologi]]",
+    "meaning": "histologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "histologi",
+    "affix_logic": "어근 'histologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan histologi",
+    "antonym": "dihistologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'histologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'histologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghistologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'histologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghistologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'histologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghistologi",
+        "meaning": "histologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_t1iig",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihistologi [[디histologi]]",
+    "meaning": "histologi되다, histologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "histologi",
+    "affix_logic": "어근 'histologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena histologi",
+    "antonym": "menghistologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'histologi되다, histologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'histologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihistologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'histologi되다, histologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihistologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'histologi되다, histologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihistologi",
+        "meaning": "histologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_puus6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhistologi [[뜨르histologi]]",
+    "meaning": "완전히 histologi되다",
+    "pos": "동사, 형용사",
+    "root": "histologi",
+    "affix_logic": "어근 'histologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling histologi",
+    "antonym": "sengaja dihistologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 histologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'histologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhistologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 histologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhistologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 histologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhistologi",
+        "meaning": "완전히 histologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_eftxx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghidrologi [[멍hidrologi]]",
+    "meaning": "hidrologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hidrologi",
+    "affix_logic": "어근 'hidrologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hidrologi",
+    "antonym": "dihidrologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hidrologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hidrologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghidrologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hidrologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghidrologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hidrologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghidrologi",
+        "meaning": "hidrologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_3oj38",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihidrologi [[디hidrologi]]",
+    "meaning": "hidrologi되다, hidrologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hidrologi",
+    "affix_logic": "어근 'hidrologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hidrologi",
+    "antonym": "menghidrologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hidrologi되다, hidrologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hidrologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihidrologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hidrologi되다, hidrologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihidrologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hidrologi되다, hidrologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihidrologi",
+        "meaning": "hidrologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_pkr3u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhidrologi [[뜨르hidrologi]]",
+    "meaning": "완전히 hidrologi되다",
+    "pos": "동사, 형용사",
+    "root": "hidrologi",
+    "affix_logic": "어근 'hidrologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hidrologi",
+    "antonym": "sengaja dihidrologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hidrologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hidrologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhidrologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hidrologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhidrologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hidrologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhidrologi",
+        "meaning": "완전히 hidrologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_doa6p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengimunologi [[멍imunologi]]",
+    "meaning": "imunologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "imunologi",
+    "affix_logic": "어근 'imunologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan imunologi",
+    "antonym": "diimunologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imunologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengimunologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imunologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengimunologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imunologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengimunologi",
+        "meaning": "imunologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_90q8y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diimunologi [[디imunologi]]",
+    "meaning": "imunologi되다, imunologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "imunologi",
+    "affix_logic": "어근 'imunologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena imunologi",
+    "antonym": "mengimunologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imunologi되다, imunologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diimunologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imunologi되다, imunologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diimunologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imunologi되다, imunologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diimunologi",
+        "meaning": "imunologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_ety5c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terimunologi [[뜨르imunologi]]",
+    "meaning": "완전히 imunologi되다",
+    "pos": "동사, 형용사",
+    "root": "imunologi",
+    "affix_logic": "어근 'imunologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling imunologi",
+    "antonym": "sengaja diimunologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 imunologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imunologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terimunologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 imunologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terimunologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 imunologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terimunologi",
+        "meaning": "완전히 imunologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_03bdt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkinektika [[멍kinektika]]",
+    "meaning": "kinektika하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kinektika",
+    "affix_logic": "어근 'kinektika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kinektika",
+    "antonym": "dikinektika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kinektika하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kinektika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkinektika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kinektika하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkinektika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kinektika하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkinektika",
+        "meaning": "kinektika하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_tnnrc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikinektika [[디kinektika]]",
+    "meaning": "kinektika되다, kinektika당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kinektika",
+    "affix_logic": "어근 'kinektika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kinektika",
+    "antonym": "mengkinektika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kinektika되다, kinektika당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kinektika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikinektika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kinektika되다, kinektika당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikinektika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kinektika되다, kinektika당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikinektika",
+        "meaning": "kinektika되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_dcyvr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkinektika [[뜨르kinektika]]",
+    "meaning": "완전히 kinektika되다",
+    "pos": "동사, 형용사",
+    "root": "kinektika",
+    "affix_logic": "어근 'kinektika'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kinektika",
+    "antonym": "sengaja dikinektika",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kinektika되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kinektika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkinektika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kinektika되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkinektika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kinektika되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkinektika",
+        "meaning": "완전히 kinektika되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_xl8fr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmikrobiologi [[멍mikrobiologi]]",
+    "meaning": "mikrobiologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "mikrobiologi",
+    "affix_logic": "어근 'mikrobiologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mikrobiologi",
+    "antonym": "dimikrobiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikrobiologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikrobiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmikrobiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikrobiologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmikrobiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikrobiologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmikrobiologi",
+        "meaning": "mikrobiologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_0h5rp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimikrobiologi [[디mikrobiologi]]",
+    "meaning": "mikrobiologi되다, mikrobiologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "mikrobiologi",
+    "affix_logic": "어근 'mikrobiologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena mikrobiologi",
+    "antonym": "mengmikrobiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikrobiologi되다, mikrobiologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikrobiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimikrobiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikrobiologi되다, mikrobiologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimikrobiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikrobiologi되다, mikrobiologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimikrobiologi",
+        "meaning": "mikrobiologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_0bwhe",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termikrobiologi [[뜨르mikrobiologi]]",
+    "meaning": "완전히 mikrobiologi되다",
+    "pos": "동사, 형용사",
+    "root": "mikrobiologi",
+    "affix_logic": "어근 'mikrobiologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling mikrobiologi",
+    "antonym": "sengaja dimikrobiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 mikrobiologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikrobiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termikrobiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 mikrobiologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termikrobiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 mikrobiologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termikrobiologi",
+        "meaning": "완전히 mikrobiologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_pzpgi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmorfologi [[멍morfologi]]",
+    "meaning": "morfologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "morfologi",
+    "affix_logic": "어근 'morfologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan morfologi",
+    "antonym": "dimorfologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'morfologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'morfologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmorfologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'morfologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmorfologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'morfologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmorfologi",
+        "meaning": "morfologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_9sk6u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimorfologi [[디morfologi]]",
+    "meaning": "morfologi되다, morfologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "morfologi",
+    "affix_logic": "어근 'morfologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena morfologi",
+    "antonym": "mengmorfologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'morfologi되다, morfologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'morfologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimorfologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'morfologi되다, morfologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimorfologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'morfologi되다, morfologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimorfologi",
+        "meaning": "morfologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_64ygq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termorfologi [[뜨르morfologi]]",
+    "meaning": "완전히 morfologi되다",
+    "pos": "동사, 형용사",
+    "root": "morfologi",
+    "affix_logic": "어근 'morfologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling morfologi",
+    "antonym": "sengaja dimorfologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 morfologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'morfologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termorfologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 morfologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termorfologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 morfologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termorfologi",
+        "meaning": "완전히 morfologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_rgjns",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengneuro biologi [[멍neuro biologi]]",
+    "meaning": "neuro biologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "neuro biologi",
+    "affix_logic": "어근 'neuro biologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan neuro biologi",
+    "antonym": "dineuro biologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neuro biologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neuro biologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengneuro biologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neuro biologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengneuro biologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neuro biologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengneuro",
+        "meaning": "neuro biologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_0a5tz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dineuro biologi [[디neuro biologi]]",
+    "meaning": "neuro biologi되다, neuro biologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "neuro biologi",
+    "affix_logic": "어근 'neuro biologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena neuro biologi",
+    "antonym": "mengneuro biologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neuro biologi되다, neuro biologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neuro biologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dineuro biologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neuro biologi되다, neuro biologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dineuro biologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neuro biologi되다, neuro biologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dineuro",
+        "meaning": "neuro biologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_pctn6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terneuro biologi [[뜨르neuro biologi]]",
+    "meaning": "완전히 neuro biologi되다",
+    "pos": "동사, 형용사",
+    "root": "neuro biologi",
+    "affix_logic": "어근 'neuro biologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling neuro biologi",
+    "antonym": "sengaja dineuro biologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 neuro biologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neuro biologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terneuro biologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 neuro biologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terneuro biologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 neuro biologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terneuro",
+        "meaning": "완전히 neuro biologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_l4oaf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengonkologi [[멍onkologi]]",
+    "meaning": "onkologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "onkologi",
+    "affix_logic": "어근 'onkologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan onkologi",
+    "antonym": "dionkologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'onkologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'onkologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengonkologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'onkologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengonkologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'onkologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengonkologi",
+        "meaning": "onkologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_d8m8v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dionkologi [[디onkologi]]",
+    "meaning": "onkologi되다, onkologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "onkologi",
+    "affix_logic": "어근 'onkologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena onkologi",
+    "antonym": "mengonkologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'onkologi되다, onkologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'onkologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dionkologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'onkologi되다, onkologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dionkologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'onkologi되다, onkologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dionkologi",
+        "meaning": "onkologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_huytd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teronkologi [[뜨르onkologi]]",
+    "meaning": "완전히 onkologi되다",
+    "pos": "동사, 형용사",
+    "root": "onkologi",
+    "affix_logic": "어근 'onkologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling onkologi",
+    "antonym": "sengaja dionkologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 onkologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'onkologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teronkologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 onkologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teronkologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 onkologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teronkologi",
+        "meaning": "완전히 onkologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_mgc3g",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpaliontologi [[멍paliontologi]]",
+    "meaning": "paliontologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "paliontologi",
+    "affix_logic": "어근 'paliontologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan paliontologi",
+    "antonym": "dipaliontologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'paliontologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'paliontologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengpaliontologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'paliontologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengpaliontologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'paliontologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengpaliontologi",
+        "meaning": "paliontologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_h4d8d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipaliontologi [[디paliontologi]]",
+    "meaning": "paliontologi되다, paliontologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "paliontologi",
+    "affix_logic": "어근 'paliontologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena paliontologi",
+    "antonym": "mengpaliontologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'paliontologi되다, paliontologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'paliontologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dipaliontologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'paliontologi되다, paliontologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dipaliontologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'paliontologi되다, paliontologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dipaliontologi",
+        "meaning": "paliontologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_pjui1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpaliontologi [[뜨르paliontologi]]",
+    "meaning": "완전히 paliontologi되다",
+    "pos": "동사, 형용사",
+    "root": "paliontologi",
+    "affix_logic": "어근 'paliontologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling paliontologi",
+    "antonym": "sengaja dipaliontologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 paliontologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'paliontologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terpaliontologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 paliontologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terpaliontologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 paliontologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terpaliontologi",
+        "meaning": "완전히 paliontologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_ukkw5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengparasitologi [[멍parasitologi]]",
+    "meaning": "parasitologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "parasitologi",
+    "affix_logic": "어근 'parasitologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan parasitologi",
+    "antonym": "diparasitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'parasitologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'parasitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengparasitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'parasitologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengparasitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'parasitologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengparasitologi",
+        "meaning": "parasitologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_xszo4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diparasitologi [[디parasitologi]]",
+    "meaning": "parasitologi되다, parasitologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "parasitologi",
+    "affix_logic": "어근 'parasitologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena parasitologi",
+    "antonym": "mengparasitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'parasitologi되다, parasitologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'parasitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diparasitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'parasitologi되다, parasitologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diparasitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'parasitologi되다, parasitologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diparasitologi",
+        "meaning": "parasitologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_4tkni",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terparasitologi [[뜨르parasitologi]]",
+    "meaning": "완전히 parasitologi되다",
+    "pos": "동사, 형용사",
+    "root": "parasitologi",
+    "affix_logic": "어근 'parasitologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling parasitologi",
+    "antonym": "sengaja diparasitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 parasitologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'parasitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terparasitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 parasitologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terparasitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 parasitologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terparasitologi",
+        "meaning": "완전히 parasitologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_f3e2n",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpatologi [[멍patologi]]",
+    "meaning": "patologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "patologi",
+    "affix_logic": "어근 'patologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan patologi",
+    "antonym": "dipatologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'patologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'patologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengpatologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'patologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengpatologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'patologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengpatologi",
+        "meaning": "patologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_pjh48",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipatologi [[디patologi]]",
+    "meaning": "patologi되다, patologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "patologi",
+    "affix_logic": "어근 'patologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena patologi",
+    "antonym": "mengpatologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'patologi되다, patologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'patologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dipatologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'patologi되다, patologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dipatologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'patologi되다, patologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dipatologi",
+        "meaning": "patologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_hb09s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpatologi [[뜨르patologi]]",
+    "meaning": "완전히 patologi되다",
+    "pos": "동사, 형용사",
+    "root": "patologi",
+    "affix_logic": "어근 'patologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling patologi",
+    "antonym": "sengaja dipatologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 patologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'patologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terpatologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 patologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terpatologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 patologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terpatologi",
+        "meaning": "완전히 patologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_43kwj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfarmakologi [[멍farmakologi]]",
+    "meaning": "farmakologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "farmakologi",
+    "affix_logic": "어근 'farmakologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan farmakologi",
+    "antonym": "difarmakologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmakologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmakologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengfarmakologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmakologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengfarmakologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmakologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengfarmakologi",
+        "meaning": "farmakologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_8p5dj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difarmakologi [[디farmakologi]]",
+    "meaning": "farmakologi되다, farmakologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "farmakologi",
+    "affix_logic": "어근 'farmakologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena farmakologi",
+    "antonym": "mengfarmakologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'farmakologi되다, farmakologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmakologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'difarmakologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'farmakologi되다, farmakologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'difarmakologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'farmakologi되다, farmakologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "difarmakologi",
+        "meaning": "farmakologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_zenfr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfarmakologi [[뜨르farmakologi]]",
+    "meaning": "완전히 farmakologi되다",
+    "pos": "동사, 형용사",
+    "root": "farmakologi",
+    "affix_logic": "어근 'farmakologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling farmakologi",
+    "antonym": "sengaja difarmakologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 farmakologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'farmakologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terfarmakologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 farmakologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terfarmakologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 farmakologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terfarmakologi",
+        "meaning": "완전히 farmakologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_k1v4f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfotosintesis [[멍fotosintesis]]",
+    "meaning": "fotosintesis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "fotosintesis",
+    "affix_logic": "어근 'fotosintesis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fotosintesis",
+    "antonym": "difotosintesis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotosintesis하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotosintesis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengfotosintesis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotosintesis하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengfotosintesis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotosintesis하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengfotosintesis",
+        "meaning": "fotosintesis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_mdxfr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difotosintesis [[디fotosintesis]]",
+    "meaning": "fotosintesis되다, fotosintesis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "fotosintesis",
+    "affix_logic": "어근 'fotosintesis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena fotosintesis",
+    "antonym": "mengfotosintesis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotosintesis되다, fotosintesis당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotosintesis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'difotosintesis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotosintesis되다, fotosintesis당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'difotosintesis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotosintesis되다, fotosintesis당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "difotosintesis",
+        "meaning": "fotosintesis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_yrhnx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfotosintesis [[뜨르fotosintesis]]",
+    "meaning": "완전히 fotosintesis되다",
+    "pos": "동사, 형용사",
+    "root": "fotosintesis",
+    "affix_logic": "어근 'fotosintesis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling fotosintesis",
+    "antonym": "sengaja difotosintesis",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 fotosintesis되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotosintesis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terfotosintesis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 fotosintesis되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terfotosintesis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 fotosintesis되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terfotosintesis",
+        "meaning": "완전히 fotosintesis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_21i33",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfisiologi [[멍fisiologi]]",
+    "meaning": "fisiologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "fisiologi",
+    "affix_logic": "어근 'fisiologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fisiologi",
+    "antonym": "difisiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fisiologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fisiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengfisiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fisiologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengfisiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fisiologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengfisiologi",
+        "meaning": "fisiologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_wd410",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difisiologi [[디fisiologi]]",
+    "meaning": "fisiologi되다, fisiologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "fisiologi",
+    "affix_logic": "어근 'fisiologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena fisiologi",
+    "antonym": "mengfisiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fisiologi되다, fisiologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fisiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'difisiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fisiologi되다, fisiologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'difisiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fisiologi되다, fisiologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "difisiologi",
+        "meaning": "fisiologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_2n5fo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfisiologi [[뜨르fisiologi]]",
+    "meaning": "완전히 fisiologi되다",
+    "pos": "동사, 형용사",
+    "root": "fisiologi",
+    "affix_logic": "어근 'fisiologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling fisiologi",
+    "antonym": "sengaja difisiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 fisiologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fisiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terfisiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 fisiologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terfisiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 fisiologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terfisiologi",
+        "meaning": "완전히 fisiologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_kfdop",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengradiologi [[멍radiologi]]",
+    "meaning": "radiologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "radiologi",
+    "affix_logic": "어근 'radiologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan radiologi",
+    "antonym": "diradiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radiologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengradiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radiologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengradiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radiologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengradiologi",
+        "meaning": "radiologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_edpqa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diradiologi [[디radiologi]]",
+    "meaning": "radiologi되다, radiologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "radiologi",
+    "affix_logic": "어근 'radiologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena radiologi",
+    "antonym": "mengradiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radiologi되다, radiologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diradiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radiologi되다, radiologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diradiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radiologi되다, radiologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diradiologi",
+        "meaning": "radiologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_zjxcw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terradiologi [[뜨르radiologi]]",
+    "meaning": "완전히 radiologi되다",
+    "pos": "동사, 형용사",
+    "root": "radiologi",
+    "affix_logic": "어근 'radiologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling radiologi",
+    "antonym": "sengaja diradiologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 radiologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radiologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terradiologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 radiologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terradiologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 radiologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terradiologi",
+        "meaning": "완전히 radiologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_a6w6u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengserologi [[멍serologi]]",
+    "meaning": "serologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "serologi",
+    "affix_logic": "어근 'serologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan serologi",
+    "antonym": "diserologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'serologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'serologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengserologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'serologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengserologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'serologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengserologi",
+        "meaning": "serologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_t02f5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diserologi [[디serologi]]",
+    "meaning": "serologi되다, serologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "serologi",
+    "affix_logic": "어근 'serologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena serologi",
+    "antonym": "mengserologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'serologi되다, serologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'serologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diserologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'serologi되다, serologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diserologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'serologi되다, serologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diserologi",
+        "meaning": "serologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_485tx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terserologi [[뜨르serologi]]",
+    "meaning": "완전히 serologi되다",
+    "pos": "동사, 형용사",
+    "root": "serologi",
+    "affix_logic": "어근 'serologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling serologi",
+    "antonym": "sengaja diserologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 serologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'serologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terserologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 serologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terserologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 serologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terserologi",
+        "meaning": "완전히 serologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_lx5b1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengtaksonomi [[멍taksonomi]]",
+    "meaning": "taksonomi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "taksonomi",
+    "affix_logic": "어근 'taksonomi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan taksonomi",
+    "antonym": "ditaksonomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'taksonomi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'taksonomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengtaksonomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'taksonomi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengtaksonomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'taksonomi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengtaksonomi",
+        "meaning": "taksonomi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_b6m1x",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ditaksonomi [[디taksonomi]]",
+    "meaning": "taksonomi되다, taksonomi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "taksonomi",
+    "affix_logic": "어근 'taksonomi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena taksonomi",
+    "antonym": "mengtaksonomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'taksonomi되다, taksonomi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'taksonomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'ditaksonomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'taksonomi되다, taksonomi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ditaksonomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'taksonomi되다, taksonomi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ditaksonomi",
+        "meaning": "taksonomi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_c8zp4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tertaksonomi [[뜨르taksonomi]]",
+    "meaning": "완전히 taksonomi되다",
+    "pos": "동사, 형용사",
+    "root": "taksonomi",
+    "affix_logic": "어근 'taksonomi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling taksonomi",
+    "antonym": "sengaja ditaksonomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 taksonomi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'taksonomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tertaksonomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 taksonomi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tertaksonomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 taksonomi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tertaksonomi",
+        "meaning": "완전히 taksonomi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_98zw3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengtoksikologi [[멍toksikologi]]",
+    "meaning": "toksikologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "toksikologi",
+    "affix_logic": "어근 'toksikologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan toksikologi",
+    "antonym": "ditoksikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'toksikologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'toksikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengtoksikologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'toksikologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengtoksikologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'toksikologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengtoksikologi",
+        "meaning": "toksikologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_gjlhc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ditoksikologi [[디toksikologi]]",
+    "meaning": "toksikologi되다, toksikologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "toksikologi",
+    "affix_logic": "어근 'toksikologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena toksikologi",
+    "antonym": "mengtoksikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'toksikologi되다, toksikologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'toksikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'ditoksikologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'toksikologi되다, toksikologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ditoksikologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'toksikologi되다, toksikologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ditoksikologi",
+        "meaning": "toksikologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_oy1y0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tertoksikologi [[뜨르toksikologi]]",
+    "meaning": "완전히 toksikologi되다",
+    "pos": "동사, 형용사",
+    "root": "toksikologi",
+    "affix_logic": "어근 'toksikologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling toksikologi",
+    "antonym": "sengaja ditoksikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 toksikologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'toksikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tertoksikologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 toksikologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tertoksikologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 toksikologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tertoksikologi",
+        "meaning": "완전히 toksikologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_747y7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengvirologi [[멍virologi]]",
+    "meaning": "virologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "virologi",
+    "affix_logic": "어근 'virologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan virologi",
+    "antonym": "divirologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'virologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengvirologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'virologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengvirologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'virologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengvirologi",
+        "meaning": "virologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_y64tb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "divirologi [[디virologi]]",
+    "meaning": "virologi되다, virologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "virologi",
+    "affix_logic": "어근 'virologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena virologi",
+    "antonym": "mengvirologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'virologi되다, virologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'divirologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'virologi되다, virologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'divirologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'virologi되다, virologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "divirologi",
+        "meaning": "virologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_h9sug",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tervirologi [[뜨르virologi]]",
+    "meaning": "완전히 virologi되다",
+    "pos": "동사, 형용사",
+    "root": "virologi",
+    "affix_logic": "어근 'virologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling virologi",
+    "antonym": "sengaja divirologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 virologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tervirologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 virologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tervirologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 virologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tervirologi",
+        "meaning": "완전히 virologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_lrrsk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengzoologi [[멍zoologi]]",
+    "meaning": "zoologi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "zoologi",
+    "affix_logic": "어근 'zoologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan zoologi",
+    "antonym": "dizoologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'zoologi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'zoologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengzoologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'zoologi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengzoologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'zoologi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengzoologi",
+        "meaning": "zoologi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_znb7r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dizoologi [[디zoologi]]",
+    "meaning": "zoologi되다, zoologi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "zoologi",
+    "affix_logic": "어근 'zoologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena zoologi",
+    "antonym": "mengzoologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'zoologi되다, zoologi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'zoologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dizoologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'zoologi되다, zoologi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dizoologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'zoologi되다, zoologi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dizoologi",
+        "meaning": "zoologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_hovyd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terzoologi [[뜨르zoologi]]",
+    "meaning": "완전히 zoologi되다",
+    "pos": "동사, 형용사",
+    "root": "zoologi",
+    "affix_logic": "어근 'zoologi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling zoologi",
+    "antonym": "sengaja dizoologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 zoologi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'zoologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terzoologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 zoologi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terzoologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 zoologi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terzoologi",
+        "meaning": "완전히 zoologi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_oez7y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengalgoritma [[멍algoritma]]",
+    "meaning": "algoritma하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "algoritma",
+    "affix_logic": "어근 'algoritma'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan algoritma",
+    "antonym": "dialgoritma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'algoritma하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'algoritma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengalgoritma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'algoritma하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengalgoritma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'algoritma하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengalgoritma",
+        "meaning": "algoritma하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_19y07",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dialgoritma [[디algoritma]]",
+    "meaning": "algoritma되다, algoritma당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "algoritma",
+    "affix_logic": "어근 'algoritma'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena algoritma",
+    "antonym": "mengalgoritma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'algoritma되다, algoritma당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'algoritma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dialgoritma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'algoritma되다, algoritma당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dialgoritma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'algoritma되다, algoritma당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dialgoritma",
+        "meaning": "algoritma되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_iwmzq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teralgoritma [[뜨르algoritma]]",
+    "meaning": "완전히 algoritma되다",
+    "pos": "동사, 형용사",
+    "root": "algoritma",
+    "affix_logic": "어근 'algoritma'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling algoritma",
+    "antonym": "sengaja dialgoritma",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 algoritma되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'algoritma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teralgoritma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 algoritma되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teralgoritma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 algoritma되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teralgoritma",
+        "meaning": "완전히 algoritma되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_vgbgf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menganalog [[멍analog]]",
+    "meaning": "analog하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "analog",
+    "affix_logic": "어근 'analog'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan analog",
+    "antonym": "dianalog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analog하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menganalog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analog하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menganalog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analog하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menganalog",
+        "meaning": "analog하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_6uxgi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dianalog [[디analog]]",
+    "meaning": "analog되다, analog당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "analog",
+    "affix_logic": "어근 'analog'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena analog",
+    "antonym": "menganalog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analog되다, analog당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dianalog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analog되다, analog당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dianalog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analog되다, analog당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dianalog",
+        "meaning": "analog되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_y7ocs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teranalog [[뜨르analog]]",
+    "meaning": "완전히 analog되다",
+    "pos": "동사, 형용사",
+    "root": "analog",
+    "affix_logic": "어근 'analog'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling analog",
+    "antonym": "sengaja dianalog",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 analog되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teranalog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 analog되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teranalog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 analog되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teranalog",
+        "meaning": "완전히 analog되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_5uy4j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengantena [[멍antena]]",
+    "meaning": "antena하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "antena",
+    "affix_logic": "어근 'antena'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan antena",
+    "antonym": "diantena",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antena하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antena'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengantena' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antena하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengantena' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antena하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengantena",
+        "meaning": "antena하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_i6g80",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diantena [[디antena]]",
+    "meaning": "antena되다, antena당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "antena",
+    "affix_logic": "어근 'antena'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena antena",
+    "antonym": "mengantena",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antena되다, antena당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antena'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diantena' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antena되다, antena당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diantena' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antena되다, antena당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diantena",
+        "meaning": "antena되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_u5vvk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terantena [[뜨르antena]]",
+    "meaning": "완전히 antena되다",
+    "pos": "동사, 형용사",
+    "root": "antena",
+    "affix_logic": "어근 'antena'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling antena",
+    "antonym": "sengaja diantena",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 antena되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antena'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terantena' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 antena되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terantena' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 antena되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terantena",
+        "meaning": "완전히 antena되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_dxdba",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengantivirus [[멍antivirus]]",
+    "meaning": "antivirus하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "antivirus",
+    "affix_logic": "어근 'antivirus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan antivirus",
+    "antonym": "diantivirus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antivirus하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antivirus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengantivirus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antivirus하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengantivirus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antivirus하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengantivirus",
+        "meaning": "antivirus하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_zfnyt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diantivirus [[디antivirus]]",
+    "meaning": "antivirus되다, antivirus당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "antivirus",
+    "affix_logic": "어근 'antivirus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena antivirus",
+    "antonym": "mengantivirus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antivirus되다, antivirus당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antivirus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diantivirus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antivirus되다, antivirus당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diantivirus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antivirus되다, antivirus당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diantivirus",
+        "meaning": "antivirus되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_fba6t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terantivirus [[뜨르antivirus]]",
+    "meaning": "완전히 antivirus되다",
+    "pos": "동사, 형용사",
+    "root": "antivirus",
+    "affix_logic": "어근 'antivirus'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling antivirus",
+    "antonym": "sengaja diantivirus",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 antivirus되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antivirus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terantivirus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 antivirus되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terantivirus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 antivirus되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terantivirus",
+        "meaning": "완전히 antivirus되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_4w25h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengarsitektur cpu [[멍arsitektur cpu]]",
+    "meaning": "arsitektur cpu하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "arsitektur cpu",
+    "affix_logic": "어근 'arsitektur cpu'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan arsitektur cpu",
+    "antonym": "diarsitektur cpu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arsitektur cpu하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arsitektur cpu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengarsitektur cpu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arsitektur cpu하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengarsitektur cpu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arsitektur cpu하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengarsitektur",
+        "meaning": "arsitektur cpu하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_q3548",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diarsitektur cpu [[디arsitektur cpu]]",
+    "meaning": "arsitektur cpu되다, arsitektur cpu당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "arsitektur cpu",
+    "affix_logic": "어근 'arsitektur cpu'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena arsitektur cpu",
+    "antonym": "mengarsitektur cpu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arsitektur cpu되다, arsitektur cpu당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arsitektur cpu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diarsitektur cpu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arsitektur cpu되다, arsitektur cpu당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diarsitektur cpu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arsitektur cpu되다, arsitektur cpu당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diarsitektur",
+        "meaning": "arsitektur cpu되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_q9b2t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terarsitektur cpu [[뜨르arsitektur cpu]]",
+    "meaning": "완전히 arsitektur cpu되다",
+    "pos": "동사, 형용사",
+    "root": "arsitektur cpu",
+    "affix_logic": "어근 'arsitektur cpu'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling arsitektur cpu",
+    "antonym": "sengaja diarsitektur cpu",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 arsitektur cpu되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arsitektur cpu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terarsitektur cpu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 arsitektur cpu되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terarsitektur cpu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 arsitektur cpu되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terarsitektur",
+        "meaning": "완전히 arsitektur cpu되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_n66p4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbandwidth [[멍bandwidth]]",
+    "meaning": "bandwidth하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "bandwidth",
+    "affix_logic": "어근 'bandwidth'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bandwidth",
+    "antonym": "dibandwidth",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bandwidth하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bandwidth'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbandwidth' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bandwidth하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbandwidth' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bandwidth하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbandwidth",
+        "meaning": "bandwidth하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_wcap0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibandwidth [[디bandwidth]]",
+    "meaning": "bandwidth되다, bandwidth당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "bandwidth",
+    "affix_logic": "어근 'bandwidth'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena bandwidth",
+    "antonym": "mengbandwidth",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bandwidth되다, bandwidth당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bandwidth'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibandwidth' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bandwidth되다, bandwidth당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibandwidth' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bandwidth되다, bandwidth당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibandwidth",
+        "meaning": "bandwidth되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_ywbdx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbandwidth [[뜨르bandwidth]]",
+    "meaning": "완전히 bandwidth되다",
+    "pos": "동사, 형용사",
+    "root": "bandwidth",
+    "affix_logic": "어근 'bandwidth'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling bandwidth",
+    "antonym": "sengaja dibandwidth",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 bandwidth되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bandwidth'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbandwidth' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 bandwidth되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbandwidth' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 bandwidth되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbandwidth",
+        "meaning": "완전히 bandwidth되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_hv47p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbasis data [[멍basis data]]",
+    "meaning": "basis data하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "basis data",
+    "affix_logic": "어근 'basis data'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan basis data",
+    "antonym": "dibasis data",
+    "context": "실생활 및 회화/비즈니스 상황에서 'basis data하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'basis data'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbasis data' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'basis data하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbasis data' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'basis data하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbasis",
+        "meaning": "basis data하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_xw6zd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibasis data [[디basis data]]",
+    "meaning": "basis data되다, basis data당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "basis data",
+    "affix_logic": "어근 'basis data'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena basis data",
+    "antonym": "mengbasis data",
+    "context": "실생활 및 회화/비즈니스 상황에서 'basis data되다, basis data당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'basis data'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibasis data' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'basis data되다, basis data당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibasis data' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'basis data되다, basis data당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibasis",
+        "meaning": "basis data되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_edvs6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbasis data [[뜨르basis data]]",
+    "meaning": "완전히 basis data되다",
+    "pos": "동사, 형용사",
+    "root": "basis data",
+    "affix_logic": "어근 'basis data'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling basis data",
+    "antonym": "sengaja dibasis data",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 basis data되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'basis data'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbasis data' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 basis data되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbasis data' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 basis data되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbasis",
+        "meaning": "완전히 basis data되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_0iamh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiner [[멍biner]]",
+    "meaning": "biner하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "biner",
+    "affix_logic": "어근 'biner'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biner",
+    "antonym": "dibiner",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biner하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biner'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbiner' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biner하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbiner' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biner하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbiner",
+        "meaning": "biner하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_28whs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiner [[디biner]]",
+    "meaning": "biner되다, biner당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "biner",
+    "affix_logic": "어근 'biner'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena biner",
+    "antonym": "mengbiner",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biner되다, biner당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biner'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibiner' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biner되다, biner당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibiner' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biner되다, biner당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibiner",
+        "meaning": "biner되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_1hbhc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiner [[뜨르biner]]",
+    "meaning": "완전히 biner되다",
+    "pos": "동사, 형용사",
+    "root": "biner",
+    "affix_logic": "어근 'biner'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling biner",
+    "antonym": "sengaja dibiner",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 biner되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biner'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbiner' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 biner되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbiner' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 biner되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbiner",
+        "meaning": "완전히 biner되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_jc35j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbiometrik [[멍biometrik]]",
+    "meaning": "biometrik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "biometrik",
+    "affix_logic": "어근 'biometrik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biometrik",
+    "antonym": "dibiometrik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biometrik하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biometrik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbiometrik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biometrik하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbiometrik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biometrik하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbiometrik",
+        "meaning": "biometrik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_kfa2s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibiometrik [[디biometrik]]",
+    "meaning": "biometrik되다, biometrik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "biometrik",
+    "affix_logic": "어근 'biometrik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena biometrik",
+    "antonym": "mengbiometrik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biometrik되다, biometrik당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biometrik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibiometrik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biometrik되다, biometrik당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibiometrik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biometrik되다, biometrik당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibiometrik",
+        "meaning": "biometrik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_02trc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbiometrik [[뜨르biometrik]]",
+    "meaning": "완전히 biometrik되다",
+    "pos": "동사, 형용사",
+    "root": "biometrik",
+    "affix_logic": "어근 'biometrik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling biometrik",
+    "antonym": "sengaja dibiometrik",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 biometrik되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biometrik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbiometrik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 biometrik되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbiometrik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 biometrik되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbiometrik",
+        "meaning": "완전히 biometrik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948185_ebdxm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbit [[멍bit]]",
+    "meaning": "bit하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "bit",
+    "affix_logic": "어근 'bit'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bit",
+    "antonym": "dibit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bit하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bit하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bit하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbit",
+        "meaning": "bit하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_3wlku",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibit [[디bit]]",
+    "meaning": "bit되다, bit당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "bit",
+    "affix_logic": "어근 'bit'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena bit",
+    "antonym": "mengbit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bit되다, bit당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bit되다, bit당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bit되다, bit당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibit",
+        "meaning": "bit되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_yn807",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbit [[뜨르bit]]",
+    "meaning": "완전히 bit되다",
+    "pos": "동사, 형용사",
+    "root": "bit",
+    "affix_logic": "어근 'bit'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling bit",
+    "antonym": "sengaja dibit",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 bit되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 bit되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 bit되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbit",
+        "meaning": "완전히 bit되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_mifj4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbluetooth [[멍bluetooth]]",
+    "meaning": "bluetooth하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "bluetooth",
+    "affix_logic": "어근 'bluetooth'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bluetooth",
+    "antonym": "dibluetooth",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bluetooth하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bluetooth'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbluetooth' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bluetooth하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbluetooth' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bluetooth하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbluetooth",
+        "meaning": "bluetooth하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_x2owz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibluetooth [[디bluetooth]]",
+    "meaning": "bluetooth되다, bluetooth당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "bluetooth",
+    "affix_logic": "어근 'bluetooth'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena bluetooth",
+    "antonym": "mengbluetooth",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bluetooth되다, bluetooth당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bluetooth'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibluetooth' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bluetooth되다, bluetooth당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibluetooth' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bluetooth되다, bluetooth당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibluetooth",
+        "meaning": "bluetooth되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_mqwxm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbluetooth [[뜨르bluetooth]]",
+    "meaning": "완전히 bluetooth되다",
+    "pos": "동사, 형용사",
+    "root": "bluetooth",
+    "affix_logic": "어근 'bluetooth'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling bluetooth",
+    "antonym": "sengaja dibluetooth",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 bluetooth되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bluetooth'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbluetooth' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 bluetooth되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbluetooth' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 bluetooth되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbluetooth",
+        "meaning": "완전히 bluetooth되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_hgx1z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengbyte [[멍byte]]",
+    "meaning": "byte하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "byte",
+    "affix_logic": "어근 'byte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan byte",
+    "antonym": "dibyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'byte하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'byte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengbyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'byte하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengbyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'byte하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengbyte",
+        "meaning": "byte하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_opjna",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dibyte [[디byte]]",
+    "meaning": "byte되다, byte당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "byte",
+    "affix_logic": "어근 'byte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena byte",
+    "antonym": "mengbyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'byte되다, byte당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'byte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dibyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'byte되다, byte당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dibyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'byte되다, byte당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dibyte",
+        "meaning": "byte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_q898q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terbyte [[뜨르byte]]",
+    "meaning": "완전히 byte되다",
+    "pos": "동사, 형용사",
+    "root": "byte",
+    "affix_logic": "어근 'byte'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling byte",
+    "antonym": "sengaja dibyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 byte되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'byte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terbyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 byte되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terbyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 byte되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terbyte",
+        "meaning": "완전히 byte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_5nejl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengcache [[멍cache]]",
+    "meaning": "cache하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "cache",
+    "affix_logic": "어근 'cache'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan cache",
+    "antonym": "dicache",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cache하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cache'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengcache' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cache하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengcache' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cache하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengcache",
+        "meaning": "cache하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_17uoy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dicache [[디cache]]",
+    "meaning": "cache되다, cache당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "cache",
+    "affix_logic": "어근 'cache'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena cache",
+    "antonym": "mengcache",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cache되다, cache당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cache'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dicache' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cache되다, cache당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dicache' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cache되다, cache당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dicache",
+        "meaning": "cache되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_c84nu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tercache [[뜨르cache]]",
+    "meaning": "완전히 cache되다",
+    "pos": "동사, 형용사",
+    "root": "cache",
+    "affix_logic": "어근 'cache'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling cache",
+    "antonym": "sengaja dicache",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 cache되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cache'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tercache' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 cache되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tercache' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 cache되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tercache",
+        "meaning": "완전히 cache되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_5w65l",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengchip [[멍chip]]",
+    "meaning": "chip하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "chip",
+    "affix_logic": "어근 'chip'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan chip",
+    "antonym": "dichip",
+    "context": "실생활 및 회화/비즈니스 상황에서 'chip하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'chip'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengchip' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'chip하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengchip' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'chip하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengchip",
+        "meaning": "chip하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_5l2zf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dichip [[디chip]]",
+    "meaning": "chip되다, chip당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "chip",
+    "affix_logic": "어근 'chip'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena chip",
+    "antonym": "mengchip",
+    "context": "실생활 및 회화/비즈니스 상황에서 'chip되다, chip당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'chip'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dichip' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'chip되다, chip당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dichip' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'chip되다, chip당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dichip",
+        "meaning": "chip되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_15fsr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terchip [[뜨르chip]]",
+    "meaning": "완전히 chip되다",
+    "pos": "동사, 형용사",
+    "root": "chip",
+    "affix_logic": "어근 'chip'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling chip",
+    "antonym": "sengaja dichip",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 chip되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'chip'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terchip' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 chip되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terchip' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 chip되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terchip",
+        "meaning": "완전히 chip되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_w3ifg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengcloud computing [[멍cloud computing]]",
+    "meaning": "cloud computing하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "cloud computing",
+    "affix_logic": "어근 'cloud computing'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan cloud computing",
+    "antonym": "dicloud computing",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cloud computing하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cloud computing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengcloud computing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cloud computing하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengcloud computing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cloud computing하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengcloud",
+        "meaning": "cloud computing하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_2t9yj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dicloud computing [[디cloud computing]]",
+    "meaning": "cloud computing되다, cloud computing당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "cloud computing",
+    "affix_logic": "어근 'cloud computing'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena cloud computing",
+    "antonym": "mengcloud computing",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cloud computing되다, cloud computing당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cloud computing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dicloud computing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cloud computing되다, cloud computing당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dicloud computing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cloud computing되다, cloud computing당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dicloud",
+        "meaning": "cloud computing되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_a1n9k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tercloud computing [[뜨르cloud computing]]",
+    "meaning": "완전히 cloud computing되다",
+    "pos": "동사, 형용사",
+    "root": "cloud computing",
+    "affix_logic": "어근 'cloud computing'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling cloud computing",
+    "antonym": "sengaja dicloud computing",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 cloud computing되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cloud computing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tercloud computing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 cloud computing되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tercloud computing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 cloud computing되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tercloud",
+        "meaning": "완전히 cloud computing되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_0a5mv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengcybernetics [[멍cybernetics]]",
+    "meaning": "cybernetics하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "cybernetics",
+    "affix_logic": "어근 'cybernetics'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan cybernetics",
+    "antonym": "dicybernetics",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cybernetics하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cybernetics'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengcybernetics' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cybernetics하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengcybernetics' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cybernetics하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengcybernetics",
+        "meaning": "cybernetics하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_81fta",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dicybernetics [[디cybernetics]]",
+    "meaning": "cybernetics되다, cybernetics당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "cybernetics",
+    "affix_logic": "어근 'cybernetics'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena cybernetics",
+    "antonym": "mengcybernetics",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cybernetics되다, cybernetics당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cybernetics'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dicybernetics' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cybernetics되다, cybernetics당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dicybernetics' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cybernetics되다, cybernetics당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dicybernetics",
+        "meaning": "cybernetics되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_5rk5m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tercybernetics [[뜨르cybernetics]]",
+    "meaning": "완전히 cybernetics되다",
+    "pos": "동사, 형용사",
+    "root": "cybernetics",
+    "affix_logic": "어근 'cybernetics'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling cybernetics",
+    "antonym": "sengaja dicybernetics",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 cybernetics되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cybernetics'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tercybernetics' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 cybernetics되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tercybernetics' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 cybernetics되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tercybernetics",
+        "meaning": "완전히 cybernetics되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_f2dec",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdekripsi [[멍dekripsi]]",
+    "meaning": "dekripsi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "dekripsi",
+    "affix_logic": "어근 'dekripsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dekripsi",
+    "antonym": "didekripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekripsi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdekripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekripsi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdekripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekripsi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdekripsi",
+        "meaning": "dekripsi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_i6mf1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didekripsi [[디dekripsi]]",
+    "meaning": "dekripsi되다, dekripsi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "dekripsi",
+    "affix_logic": "어근 'dekripsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena dekripsi",
+    "antonym": "mengdekripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekripsi되다, dekripsi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didekripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekripsi되다, dekripsi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didekripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekripsi되다, dekripsi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didekripsi",
+        "meaning": "dekripsi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_8ntty",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdekripsi [[뜨르dekripsi]]",
+    "meaning": "완전히 dekripsi되다",
+    "pos": "동사, 형용사",
+    "root": "dekripsi",
+    "affix_logic": "어근 'dekripsi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling dekripsi",
+    "antonym": "sengaja didekripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 dekripsi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdekripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 dekripsi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdekripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 dekripsi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdekripsi",
+        "meaning": "완전히 dekripsi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_5ozpd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdesain grafis [[멍desain grafis]]",
+    "meaning": "desain grafis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "desain grafis",
+    "affix_logic": "어근 'desain grafis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan desain grafis",
+    "antonym": "didesain grafis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desain grafis하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desain grafis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdesain grafis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desain grafis하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdesain grafis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desain grafis하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdesain",
+        "meaning": "desain grafis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_d0l85",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didesain grafis [[디desain grafis]]",
+    "meaning": "desain grafis되다, desain grafis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "desain grafis",
+    "affix_logic": "어근 'desain grafis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena desain grafis",
+    "antonym": "mengdesain grafis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'desain grafis되다, desain grafis당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desain grafis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didesain grafis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'desain grafis되다, desain grafis당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didesain grafis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'desain grafis되다, desain grafis당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didesain",
+        "meaning": "desain grafis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_n8ck2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdesain grafis [[뜨르desain grafis]]",
+    "meaning": "완전히 desain grafis되다",
+    "pos": "동사, 형용사",
+    "root": "desain grafis",
+    "affix_logic": "어근 'desain grafis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling desain grafis",
+    "antonym": "sengaja didesain grafis",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 desain grafis되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'desain grafis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdesain grafis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 desain grafis되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdesain grafis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 desain grafis되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdesain",
+        "meaning": "완전히 desain grafis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_70y7j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengdomain [[멍domain]]",
+    "meaning": "domain하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "domain",
+    "affix_logic": "어근 'domain'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan domain",
+    "antonym": "didomain",
+    "context": "실생활 및 회화/비즈니스 상황에서 'domain하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'domain'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengdomain' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'domain하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengdomain' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'domain하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengdomain",
+        "meaning": "domain하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_19e6t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "didomain [[디domain]]",
+    "meaning": "domain되다, domain당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "domain",
+    "affix_logic": "어근 'domain'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena domain",
+    "antonym": "mengdomain",
+    "context": "실생활 및 회화/비즈니스 상황에서 'domain되다, domain당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'domain'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'didomain' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'domain되다, domain당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'didomain' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'domain되다, domain당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "didomain",
+        "meaning": "domain되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_1389s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terdomain [[뜨르domain]]",
+    "meaning": "완전히 domain되다",
+    "pos": "동사, 형용사",
+    "root": "domain",
+    "affix_logic": "어근 'domain'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling domain",
+    "antonym": "sengaja didomain",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 domain되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'domain'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terdomain' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 domain되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terdomain' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 domain되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terdomain",
+        "meaning": "완전히 domain되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_lc3er",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengenkripsi [[멍enkripsi]]",
+    "meaning": "enkripsi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "enkripsi",
+    "affix_logic": "어근 'enkripsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan enkripsi",
+    "antonym": "dienkripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'enkripsi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'enkripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengenkripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'enkripsi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengenkripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'enkripsi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengenkripsi",
+        "meaning": "enkripsi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_1dycu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dienkripsi [[디enkripsi]]",
+    "meaning": "enkripsi되다, enkripsi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "enkripsi",
+    "affix_logic": "어근 'enkripsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena enkripsi",
+    "antonym": "mengenkripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'enkripsi되다, enkripsi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'enkripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dienkripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'enkripsi되다, enkripsi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dienkripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'enkripsi되다, enkripsi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dienkripsi",
+        "meaning": "enkripsi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_rmnus",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terenkripsi [[뜨르enkripsi]]",
+    "meaning": "완전히 enkripsi되다",
+    "pos": "동사, 형용사",
+    "root": "enkripsi",
+    "affix_logic": "어근 'enkripsi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling enkripsi",
+    "antonym": "sengaja dienkripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 enkripsi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'enkripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terenkripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 enkripsi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terenkripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 enkripsi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terenkripsi",
+        "meaning": "완전히 enkripsi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_zv1qt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengethernet [[멍ethernet]]",
+    "meaning": "ethernet하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ethernet",
+    "affix_logic": "어근 'ethernet'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ethernet",
+    "antonym": "diethernet",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ethernet하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ethernet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengethernet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ethernet하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengethernet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ethernet하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengethernet",
+        "meaning": "ethernet하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_r93vx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diethernet [[디ethernet]]",
+    "meaning": "ethernet되다, ethernet당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ethernet",
+    "affix_logic": "어근 'ethernet'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena ethernet",
+    "antonym": "mengethernet",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ethernet되다, ethernet당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ethernet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diethernet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ethernet되다, ethernet당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diethernet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ethernet되다, ethernet당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diethernet",
+        "meaning": "ethernet되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_qyzv8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terethernet [[뜨르ethernet]]",
+    "meaning": "완전히 ethernet되다",
+    "pos": "동사, 형용사",
+    "root": "ethernet",
+    "affix_logic": "어근 'ethernet'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling ethernet",
+    "antonym": "sengaja diethernet",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 ethernet되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ethernet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terethernet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 ethernet되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terethernet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 ethernet되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terethernet",
+        "meaning": "완전히 ethernet되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_tocgq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfirewall [[멍firewall]]",
+    "meaning": "firewall하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "firewall",
+    "affix_logic": "어근 'firewall'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan firewall",
+    "antonym": "difirewall",
+    "context": "실생활 및 회화/비즈니스 상황에서 'firewall하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'firewall'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengfirewall' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'firewall하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengfirewall' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'firewall하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengfirewall",
+        "meaning": "firewall하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_bg1cq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difirewall [[디firewall]]",
+    "meaning": "firewall되다, firewall당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "firewall",
+    "affix_logic": "어근 'firewall'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena firewall",
+    "antonym": "mengfirewall",
+    "context": "실생활 및 회화/비즈니스 상황에서 'firewall되다, firewall당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'firewall'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'difirewall' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'firewall되다, firewall당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'difirewall' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'firewall되다, firewall당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "difirewall",
+        "meaning": "firewall되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_wtvth",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfirewall [[뜨르firewall]]",
+    "meaning": "완전히 firewall되다",
+    "pos": "동사, 형용사",
+    "root": "firewall",
+    "affix_logic": "어근 'firewall'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling firewall",
+    "antonym": "sengaja difirewall",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 firewall되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'firewall'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terfirewall' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 firewall되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terfirewall' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 firewall되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terfirewall",
+        "meaning": "완전히 firewall되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_71axg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfirmware [[멍firmware]]",
+    "meaning": "firmware하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "firmware",
+    "affix_logic": "어근 'firmware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan firmware",
+    "antonym": "difirmware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'firmware하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'firmware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengfirmware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'firmware하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengfirmware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'firmware하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengfirmware",
+        "meaning": "firmware하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_bqgde",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difirmware [[디firmware]]",
+    "meaning": "firmware되다, firmware당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "firmware",
+    "affix_logic": "어근 'firmware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena firmware",
+    "antonym": "mengfirmware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'firmware되다, firmware당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'firmware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'difirmware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'firmware되다, firmware당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'difirmware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'firmware되다, firmware당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "difirmware",
+        "meaning": "firmware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_a50bk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfirmware [[뜨르firmware]]",
+    "meaning": "완전히 firmware되다",
+    "pos": "동사, 형용사",
+    "root": "firmware",
+    "affix_logic": "어근 'firmware'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling firmware",
+    "antonym": "sengaja difirmware",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 firmware되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'firmware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terfirmware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 firmware되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terfirmware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 firmware되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terfirmware",
+        "meaning": "완전히 firmware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_8p4du",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menggigabyte [[멍gigabyte]]",
+    "meaning": "gigabyte하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "gigabyte",
+    "affix_logic": "어근 'gigabyte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan gigabyte",
+    "antonym": "digigabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gigabyte하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gigabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menggigabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gigabyte하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menggigabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gigabyte하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menggigabyte",
+        "meaning": "gigabyte하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_mhdmw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "digigabyte [[디gigabyte]]",
+    "meaning": "gigabyte되다, gigabyte당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "gigabyte",
+    "affix_logic": "어근 'gigabyte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena gigabyte",
+    "antonym": "menggigabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gigabyte되다, gigabyte당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gigabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'digigabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gigabyte되다, gigabyte당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'digigabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gigabyte되다, gigabyte당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "digigabyte",
+        "meaning": "gigabyte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_c8l2e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tergigabyte [[뜨르gigabyte]]",
+    "meaning": "완전히 gigabyte되다",
+    "pos": "동사, 형용사",
+    "root": "gigabyte",
+    "affix_logic": "어근 'gigabyte'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling gigabyte",
+    "antonym": "sengaja digigabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 gigabyte되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gigabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tergigabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 gigabyte되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tergigabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 gigabyte되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tergigabyte",
+        "meaning": "완전히 gigabyte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_tsbar",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghardware [[멍hardware]]",
+    "meaning": "hardware하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hardware",
+    "affix_logic": "어근 'hardware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hardware",
+    "antonym": "dihardware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hardware하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hardware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghardware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hardware하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghardware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hardware하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghardware",
+        "meaning": "hardware하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_jwtca",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihardware [[디hardware]]",
+    "meaning": "hardware되다, hardware당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hardware",
+    "affix_logic": "어근 'hardware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hardware",
+    "antonym": "menghardware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hardware되다, hardware당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hardware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihardware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hardware되다, hardware당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihardware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hardware되다, hardware당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihardware",
+        "meaning": "hardware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_lgx9k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhardware [[뜨르hardware]]",
+    "meaning": "완전히 hardware되다",
+    "pos": "동사, 형용사",
+    "root": "hardware",
+    "affix_logic": "어근 'hardware'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hardware",
+    "antonym": "sengaja dihardware",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hardware되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hardware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhardware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hardware되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhardware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hardware되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhardware",
+        "meaning": "완전히 hardware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_trfz1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghosting [[멍hosting]]",
+    "meaning": "hosting하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hosting",
+    "affix_logic": "어근 'hosting'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hosting",
+    "antonym": "dihosting",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hosting하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hosting'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghosting' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hosting하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghosting' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hosting하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghosting",
+        "meaning": "hosting하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_mi1wf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihosting [[디hosting]]",
+    "meaning": "hosting되다, hosting당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hosting",
+    "affix_logic": "어근 'hosting'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hosting",
+    "antonym": "menghosting",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hosting되다, hosting당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hosting'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihosting' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hosting되다, hosting당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihosting' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hosting되다, hosting당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihosting",
+        "meaning": "hosting되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_0sy70",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhosting [[뜨르hosting]]",
+    "meaning": "완전히 hosting되다",
+    "pos": "동사, 형용사",
+    "root": "hosting",
+    "affix_logic": "어근 'hosting'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hosting",
+    "antonym": "sengaja dihosting",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hosting되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hosting'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhosting' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hosting되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhosting' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hosting되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhosting",
+        "meaning": "완전히 hosting되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_7tx3z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghyperlink [[멍hyperlink]]",
+    "meaning": "hyperlink하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hyperlink",
+    "affix_logic": "어근 'hyperlink'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hyperlink",
+    "antonym": "dihyperlink",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hyperlink하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hyperlink'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menghyperlink' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hyperlink하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menghyperlink' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hyperlink하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menghyperlink",
+        "meaning": "hyperlink하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_b78aj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihyperlink [[디hyperlink]]",
+    "meaning": "hyperlink되다, hyperlink당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hyperlink",
+    "affix_logic": "어근 'hyperlink'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena hyperlink",
+    "antonym": "menghyperlink",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hyperlink되다, hyperlink당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hyperlink'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dihyperlink' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hyperlink되다, hyperlink당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dihyperlink' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hyperlink되다, hyperlink당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dihyperlink",
+        "meaning": "hyperlink되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_momqg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhyperlink [[뜨르hyperlink]]",
+    "meaning": "완전히 hyperlink되다",
+    "pos": "동사, 형용사",
+    "root": "hyperlink",
+    "affix_logic": "어근 'hyperlink'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling hyperlink",
+    "antonym": "sengaja dihyperlink",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 hyperlink되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hyperlink'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terhyperlink' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 hyperlink되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terhyperlink' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 hyperlink되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terhyperlink",
+        "meaning": "완전히 hyperlink되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_vi3ur",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menginterface [[멍interface]]",
+    "meaning": "interface하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "interface",
+    "affix_logic": "어근 'interface'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan interface",
+    "antonym": "diinterface",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interface하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interface'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menginterface' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interface하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menginterface' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interface하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menginterface",
+        "meaning": "interface하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_4yqdc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diinterface [[디interface]]",
+    "meaning": "interface되다, interface당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "interface",
+    "affix_logic": "어근 'interface'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena interface",
+    "antonym": "menginterface",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interface되다, interface당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interface'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diinterface' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interface되다, interface당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diinterface' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interface되다, interface당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diinterface",
+        "meaning": "interface되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_4u5oj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terinterface [[뜨르interface]]",
+    "meaning": "완전히 interface되다",
+    "pos": "동사, 형용사",
+    "root": "interface",
+    "affix_logic": "어근 'interface'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling interface",
+    "antonym": "sengaja diinterface",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 interface되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interface'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terinterface' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 interface되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terinterface' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 interface되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terinterface",
+        "meaning": "완전히 interface되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_f58b6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengintranet [[멍intranet]]",
+    "meaning": "intranet하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "intranet",
+    "affix_logic": "어근 'intranet'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan intranet",
+    "antonym": "diintranet",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intranet하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intranet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengintranet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intranet하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengintranet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intranet하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengintranet",
+        "meaning": "intranet하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_hq8b6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diintranet [[디intranet]]",
+    "meaning": "intranet되다, intranet당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "intranet",
+    "affix_logic": "어근 'intranet'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena intranet",
+    "antonym": "mengintranet",
+    "context": "실생활 및 회화/비즈니스 상황에서 'intranet되다, intranet당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intranet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diintranet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'intranet되다, intranet당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diintranet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'intranet되다, intranet당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diintranet",
+        "meaning": "intranet되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_hflmg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terintranet [[뜨르intranet]]",
+    "meaning": "완전히 intranet되다",
+    "pos": "동사, 형용사",
+    "root": "intranet",
+    "affix_logic": "어근 'intranet'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling intranet",
+    "antonym": "sengaja diintranet",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 intranet되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'intranet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terintranet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 intranet되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terintranet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 intranet되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terintranet",
+        "meaning": "완전히 intranet되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_mtwy5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkernel [[멍kernel]]",
+    "meaning": "kernel하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kernel",
+    "affix_logic": "어근 'kernel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kernel",
+    "antonym": "dikernel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kernel하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kernel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkernel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kernel하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkernel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kernel하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkernel",
+        "meaning": "kernel하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_w7lwz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikernel [[디kernel]]",
+    "meaning": "kernel되다, kernel당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kernel",
+    "affix_logic": "어근 'kernel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena kernel",
+    "antonym": "mengkernel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kernel되다, kernel당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kernel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikernel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kernel되다, kernel당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikernel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kernel되다, kernel당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikernel",
+        "meaning": "kernel되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_th1kh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkernel [[뜨르kernel]]",
+    "meaning": "완전히 kernel되다",
+    "pos": "동사, 형용사",
+    "root": "kernel",
+    "affix_logic": "어근 'kernel'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling kernel",
+    "antonym": "sengaja dikernel",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 kernel되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kernel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkernel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 kernel되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkernel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 kernel되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkernel",
+        "meaning": "완전히 kernel되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_qdg32",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkeyboard [[멍keyboard]]",
+    "meaning": "keyboard하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "keyboard",
+    "affix_logic": "어근 'keyboard'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan keyboard",
+    "antonym": "dikeyboard",
+    "context": "실생활 및 회화/비즈니스 상황에서 'keyboard하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'keyboard'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengkeyboard' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'keyboard하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengkeyboard' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'keyboard하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengkeyboard",
+        "meaning": "keyboard하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_21xo3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikeyboard [[디keyboard]]",
+    "meaning": "keyboard되다, keyboard당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "keyboard",
+    "affix_logic": "어근 'keyboard'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena keyboard",
+    "antonym": "mengkeyboard",
+    "context": "실생활 및 회화/비즈니스 상황에서 'keyboard되다, keyboard당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'keyboard'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dikeyboard' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'keyboard되다, keyboard당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dikeyboard' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'keyboard되다, keyboard당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dikeyboard",
+        "meaning": "keyboard되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_1z46w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkeyboard [[뜨르keyboard]]",
+    "meaning": "완전히 keyboard되다",
+    "pos": "동사, 형용사",
+    "root": "keyboard",
+    "affix_logic": "어근 'keyboard'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling keyboard",
+    "antonym": "sengaja dikeyboard",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 keyboard되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'keyboard'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terkeyboard' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 keyboard되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terkeyboard' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 keyboard되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terkeyboard",
+        "meaning": "완전히 keyboard되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_cfpfp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menglaptop [[멍laptop]]",
+    "meaning": "laptop하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "laptop",
+    "affix_logic": "어근 'laptop'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan laptop",
+    "antonym": "dilaptop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laptop하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laptop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menglaptop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laptop하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menglaptop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laptop하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menglaptop",
+        "meaning": "laptop하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_6uumh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dilaptop [[디laptop]]",
+    "meaning": "laptop되다, laptop당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "laptop",
+    "affix_logic": "어근 'laptop'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena laptop",
+    "antonym": "menglaptop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laptop되다, laptop당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laptop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dilaptop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laptop되다, laptop당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dilaptop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laptop되다, laptop당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dilaptop",
+        "meaning": "laptop되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_3pqgr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terlaptop [[뜨르laptop]]",
+    "meaning": "완전히 laptop되다",
+    "pos": "동사, 형용사",
+    "root": "laptop",
+    "affix_logic": "어근 'laptop'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling laptop",
+    "antonym": "sengaja dilaptop",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 laptop되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laptop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terlaptop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 laptop되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terlaptop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 laptop되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terlaptop",
+        "meaning": "완전히 laptop되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_pto35",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmalware [[멍malware]]",
+    "meaning": "malware하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "malware",
+    "affix_logic": "어근 'malware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan malware",
+    "antonym": "dimalware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'malware하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'malware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmalware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'malware하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmalware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'malware하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmalware",
+        "meaning": "malware하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_1e2id",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimalware [[디malware]]",
+    "meaning": "malware되다, malware당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "malware",
+    "affix_logic": "어근 'malware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena malware",
+    "antonym": "mengmalware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'malware되다, malware당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'malware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimalware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'malware되다, malware당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimalware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'malware되다, malware당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimalware",
+        "meaning": "malware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_7g2hj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termalware [[뜨르malware]]",
+    "meaning": "완전히 malware되다",
+    "pos": "동사, 형용사",
+    "root": "malware",
+    "affix_logic": "어근 'malware'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling malware",
+    "antonym": "sengaja dimalware",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 malware되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'malware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termalware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 malware되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termalware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 malware되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termalware",
+        "meaning": "완전히 malware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_r8k18",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmegabyte [[멍megabyte]]",
+    "meaning": "megabyte하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "megabyte",
+    "affix_logic": "어근 'megabyte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan megabyte",
+    "antonym": "dimegabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'megabyte하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'megabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmegabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'megabyte하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmegabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'megabyte하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmegabyte",
+        "meaning": "megabyte하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_uk8zg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimegabyte [[디megabyte]]",
+    "meaning": "megabyte되다, megabyte당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "megabyte",
+    "affix_logic": "어근 'megabyte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena megabyte",
+    "antonym": "mengmegabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'megabyte되다, megabyte당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'megabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimegabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'megabyte되다, megabyte당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimegabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'megabyte되다, megabyte당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimegabyte",
+        "meaning": "megabyte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_7modc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termegabyte [[뜨르megabyte]]",
+    "meaning": "완전히 megabyte되다",
+    "pos": "동사, 형용사",
+    "root": "megabyte",
+    "affix_logic": "어근 'megabyte'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling megabyte",
+    "antonym": "sengaja dimegabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 megabyte되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'megabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termegabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 megabyte되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termegabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 megabyte되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termegabyte",
+        "meaning": "완전히 megabyte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_pr2x4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmemori [[멍memori]]",
+    "meaning": "memori하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "memori",
+    "affix_logic": "어근 'memori'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan memori",
+    "antonym": "dimemori",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memori하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memori'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmemori' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memori하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmemori' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memori하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmemori",
+        "meaning": "memori하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_jteco",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimemori [[디memori]]",
+    "meaning": "memori되다, memori당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "memori",
+    "affix_logic": "어근 'memori'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena memori",
+    "antonym": "mengmemori",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memori되다, memori당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memori'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimemori' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memori되다, memori당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimemori' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memori되다, memori당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimemori",
+        "meaning": "memori되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_ngw5i",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termemori [[뜨르memori]]",
+    "meaning": "완전히 memori되다",
+    "pos": "동사, 형용사",
+    "root": "memori",
+    "affix_logic": "어근 'memori'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling memori",
+    "antonym": "sengaja dimemori",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 memori되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memori'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termemori' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 memori되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termemori' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 memori되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termemori",
+        "meaning": "완전히 memori되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_sgidb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmicroprocessor [[멍microprocessor]]",
+    "meaning": "microprocessor하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "microprocessor",
+    "affix_logic": "어근 'microprocessor'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan microprocessor",
+    "antonym": "dimicroprocessor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'microprocessor하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'microprocessor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmicroprocessor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'microprocessor하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmicroprocessor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'microprocessor하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmicroprocessor",
+        "meaning": "microprocessor하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_2u9p0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimicroprocessor [[디microprocessor]]",
+    "meaning": "microprocessor되다, microprocessor당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "microprocessor",
+    "affix_logic": "어근 'microprocessor'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena microprocessor",
+    "antonym": "mengmicroprocessor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'microprocessor되다, microprocessor당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'microprocessor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimicroprocessor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'microprocessor되다, microprocessor당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimicroprocessor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'microprocessor되다, microprocessor당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimicroprocessor",
+        "meaning": "microprocessor되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_s9uq8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termicroprocessor [[뜨르microprocessor]]",
+    "meaning": "완전히 microprocessor되다",
+    "pos": "동사, 형용사",
+    "root": "microprocessor",
+    "affix_logic": "어근 'microprocessor'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling microprocessor",
+    "antonym": "sengaja dimicroprocessor",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 microprocessor되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'microprocessor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termicroprocessor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 microprocessor되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termicroprocessor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 microprocessor되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termicroprocessor",
+        "meaning": "완전히 microprocessor되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_7fxli",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmodem [[멍modem]]",
+    "meaning": "modem하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "modem",
+    "affix_logic": "어근 'modem'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan modem",
+    "antonym": "dimodem",
+    "context": "실생활 및 회화/비즈니스 상황에서 'modem하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'modem'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmodem' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'modem하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmodem' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'modem하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmodem",
+        "meaning": "modem하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_y1ch3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimodem [[디modem]]",
+    "meaning": "modem되다, modem당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "modem",
+    "affix_logic": "어근 'modem'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena modem",
+    "antonym": "mengmodem",
+    "context": "실생활 및 회화/비즈니스 상황에서 'modem되다, modem당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'modem'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimodem' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'modem되다, modem당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimodem' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'modem되다, modem당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimodem",
+        "meaning": "modem되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_b7r0v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termodem [[뜨르modem]]",
+    "meaning": "완전히 modem되다",
+    "pos": "동사, 형용사",
+    "root": "modem",
+    "affix_logic": "어근 'modem'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling modem",
+    "antonym": "sengaja dimodem",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 modem되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'modem'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termodem' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 modem되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termodem' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 modem되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termodem",
+        "meaning": "완전히 modem되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_may9y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmotherboard [[멍motherboard]]",
+    "meaning": "motherboard하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "motherboard",
+    "affix_logic": "어근 'motherboard'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan motherboard",
+    "antonym": "dimotherboard",
+    "context": "실생활 및 회화/비즈니스 상황에서 'motherboard하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'motherboard'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengmotherboard' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'motherboard하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengmotherboard' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'motherboard하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengmotherboard",
+        "meaning": "motherboard하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_c14z1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimotherboard [[디motherboard]]",
+    "meaning": "motherboard되다, motherboard당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "motherboard",
+    "affix_logic": "어근 'motherboard'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena motherboard",
+    "antonym": "mengmotherboard",
+    "context": "실생활 및 회화/비즈니스 상황에서 'motherboard되다, motherboard당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'motherboard'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dimotherboard' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'motherboard되다, motherboard당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dimotherboard' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'motherboard되다, motherboard당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dimotherboard",
+        "meaning": "motherboard되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_1341q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termotherboard [[뜨르motherboard]]",
+    "meaning": "완전히 motherboard되다",
+    "pos": "동사, 형용사",
+    "root": "motherboard",
+    "affix_logic": "어근 'motherboard'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling motherboard",
+    "antonym": "sengaja dimotherboard",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 motherboard되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'motherboard'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'termotherboard' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 motherboard되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'termotherboard' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 motherboard되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "termotherboard",
+        "meaning": "완전히 motherboard되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_bfymi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengnetwork [[멍network]]",
+    "meaning": "network하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "network",
+    "affix_logic": "어근 'network'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan network",
+    "antonym": "dinetwork",
+    "context": "실생활 및 회화/비즈니스 상황에서 'network하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'network'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengnetwork' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'network하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengnetwork' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'network하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengnetwork",
+        "meaning": "network하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_r7jx5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dinetwork [[디network]]",
+    "meaning": "network되다, network당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "network",
+    "affix_logic": "어근 'network'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena network",
+    "antonym": "mengnetwork",
+    "context": "실생활 및 회화/비즈니스 상황에서 'network되다, network당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'network'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dinetwork' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'network되다, network당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dinetwork' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'network되다, network당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dinetwork",
+        "meaning": "network되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_3u83k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ternetwork [[뜨르network]]",
+    "meaning": "완전히 network되다",
+    "pos": "동사, 형용사",
+    "root": "network",
+    "affix_logic": "어근 'network'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling network",
+    "antonym": "sengaja dinetwork",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 network되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'network'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'ternetwork' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 network되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ternetwork' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 network되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ternetwork",
+        "meaning": "완전히 network되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_cw85v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengnode [[멍node]]",
+    "meaning": "node하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "node",
+    "affix_logic": "어근 'node'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan node",
+    "antonym": "dinode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'node하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'node'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengnode' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'node하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengnode' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'node하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengnode",
+        "meaning": "node하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_z54mp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dinode [[디node]]",
+    "meaning": "node되다, node당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "node",
+    "affix_logic": "어근 'node'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena node",
+    "antonym": "mengnode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'node되다, node당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'node'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dinode' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'node되다, node당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dinode' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'node되다, node당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dinode",
+        "meaning": "node되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_wka1l",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ternode [[뜨르node]]",
+    "meaning": "완전히 node되다",
+    "pos": "동사, 형용사",
+    "root": "node",
+    "affix_logic": "어근 'node'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling node",
+    "antonym": "sengaja dinode",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 node되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'node'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'ternode' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 node되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ternode' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 node되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ternode",
+        "meaning": "완전히 node되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_wb3fp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengoperating system [[멍operating system]]",
+    "meaning": "operating system하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "operating system",
+    "affix_logic": "어근 'operating system'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan operating system",
+    "antonym": "dioperating system",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operating system하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operating system'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengoperating system' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operating system하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengoperating system' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operating system하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengoperating",
+        "meaning": "operating system하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_55zum",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dioperating system [[디operating system]]",
+    "meaning": "operating system되다, operating system당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "operating system",
+    "affix_logic": "어근 'operating system'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena operating system",
+    "antonym": "mengoperating system",
+    "context": "실생활 및 회화/비즈니스 상황에서 'operating system되다, operating system당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operating system'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dioperating system' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'operating system되다, operating system당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dioperating system' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'operating system되다, operating system당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dioperating",
+        "meaning": "operating system되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_v19l5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teroperating system [[뜨르operating system]]",
+    "meaning": "완전히 operating system되다",
+    "pos": "동사, 형용사",
+    "root": "operating system",
+    "affix_logic": "어근 'operating system'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling operating system",
+    "antonym": "sengaja dioperating system",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 operating system되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'operating system'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teroperating system' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 operating system되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teroperating system' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 operating system되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teroperating",
+        "meaning": "완전히 operating system되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_9ai6h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengoptical [[멍optical]]",
+    "meaning": "optical하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "optical",
+    "affix_logic": "어근 'optical'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan optical",
+    "antonym": "dioptical",
+    "context": "실생활 및 회화/비즈니스 상황에서 'optical하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'optical'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengoptical' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'optical하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengoptical' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'optical하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengoptical",
+        "meaning": "optical하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_ujr2q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dioptical [[디optical]]",
+    "meaning": "optical되다, optical당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "optical",
+    "affix_logic": "어근 'optical'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena optical",
+    "antonym": "mengoptical",
+    "context": "실생활 및 회화/비즈니스 상황에서 'optical되다, optical당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'optical'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dioptical' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'optical되다, optical당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dioptical' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'optical되다, optical당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dioptical",
+        "meaning": "optical되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_ib736",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teroptical [[뜨르optical]]",
+    "meaning": "완전히 optical되다",
+    "pos": "동사, 형용사",
+    "root": "optical",
+    "affix_logic": "어근 'optical'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling optical",
+    "antonym": "sengaja dioptical",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 optical되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'optical'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teroptical' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 optical되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teroptical' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 optical되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teroptical",
+        "meaning": "완전히 optical되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_q14p4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpassword [[멍password]]",
+    "meaning": "password하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "password",
+    "affix_logic": "어근 'password'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan password",
+    "antonym": "dipassword",
+    "context": "실생활 및 회화/비즈니스 상황에서 'password하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'password'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengpassword' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'password하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengpassword' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'password하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengpassword",
+        "meaning": "password하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_wfr2z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipassword [[디password]]",
+    "meaning": "password되다, password당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "password",
+    "affix_logic": "어근 'password'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena password",
+    "antonym": "mengpassword",
+    "context": "실생활 및 회화/비즈니스 상황에서 'password되다, password당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'password'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dipassword' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'password되다, password당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dipassword' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'password되다, password당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dipassword",
+        "meaning": "password되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_uvjoo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpassword [[뜨르password]]",
+    "meaning": "완전히 password되다",
+    "pos": "동사, 형용사",
+    "root": "password",
+    "affix_logic": "어근 'password'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling password",
+    "antonym": "sengaja dipassword",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 password되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'password'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terpassword' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 password되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terpassword' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 password되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terpassword",
+        "meaning": "완전히 password되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_imarl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpixel [[멍pixel]]",
+    "meaning": "pixel하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "pixel",
+    "affix_logic": "어근 'pixel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan pixel",
+    "antonym": "dipixel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pixel하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pixel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengpixel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pixel하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengpixel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pixel하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengpixel",
+        "meaning": "pixel하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_4b7jv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipixel [[디pixel]]",
+    "meaning": "pixel되다, pixel당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "pixel",
+    "affix_logic": "어근 'pixel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena pixel",
+    "antonym": "mengpixel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pixel되다, pixel당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pixel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dipixel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pixel되다, pixel당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dipixel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pixel되다, pixel당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dipixel",
+        "meaning": "pixel되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_jne0m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpixel [[뜨르pixel]]",
+    "meaning": "완전히 pixel되다",
+    "pos": "동사, 형용사",
+    "root": "pixel",
+    "affix_logic": "어근 'pixel'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling pixel",
+    "antonym": "sengaja dipixel",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 pixel되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pixel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terpixel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 pixel되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terpixel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 pixel되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terpixel",
+        "meaning": "완전히 pixel되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_1b2b8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengprotocol [[멍protocol]]",
+    "meaning": "protocol하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "protocol",
+    "affix_logic": "어근 'protocol'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan protocol",
+    "antonym": "diprotocol",
+    "context": "실생활 및 회화/비즈니스 상황에서 'protocol하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'protocol'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengprotocol' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'protocol하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengprotocol' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'protocol하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengprotocol",
+        "meaning": "protocol하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_12rv4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diprotocol [[디protocol]]",
+    "meaning": "protocol되다, protocol당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "protocol",
+    "affix_logic": "어근 'protocol'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena protocol",
+    "antonym": "mengprotocol",
+    "context": "실생활 및 회화/비즈니스 상황에서 'protocol되다, protocol당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'protocol'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diprotocol' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'protocol되다, protocol당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diprotocol' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'protocol되다, protocol당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diprotocol",
+        "meaning": "protocol되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_pv8hr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terprotocol [[뜨르protocol]]",
+    "meaning": "완전히 protocol되다",
+    "pos": "동사, 형용사",
+    "root": "protocol",
+    "affix_logic": "어근 'protocol'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling protocol",
+    "antonym": "sengaja diprotocol",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 protocol되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'protocol'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terprotocol' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 protocol되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terprotocol' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 protocol되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terprotocol",
+        "meaning": "완전히 protocol되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_f6pyn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengram [[멍ram]]",
+    "meaning": "ram하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ram",
+    "affix_logic": "어근 'ram'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ram",
+    "antonym": "diram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ram하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ram하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ram하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengram",
+        "meaning": "ram하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_pidkf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diram [[디ram]]",
+    "meaning": "ram되다, ram당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ram",
+    "affix_logic": "어근 'ram'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena ram",
+    "antonym": "mengram",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ram되다, ram당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ram되다, ram당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ram되다, ram당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diram",
+        "meaning": "ram되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_daek7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terram [[뜨르ram]]",
+    "meaning": "완전히 ram되다",
+    "pos": "동사, 형용사",
+    "root": "ram",
+    "affix_logic": "어근 'ram'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling ram",
+    "antonym": "sengaja diram",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 ram되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 ram되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 ram되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terram",
+        "meaning": "완전히 ram되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_7pjfo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengrom [[멍rom]]",
+    "meaning": "rom하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "rom",
+    "affix_logic": "어근 'rom'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan rom",
+    "antonym": "dirom",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rom하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rom'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengrom' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rom하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengrom' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rom하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengrom",
+        "meaning": "rom하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_gmroi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dirom [[디rom]]",
+    "meaning": "rom되다, rom당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "rom",
+    "affix_logic": "어근 'rom'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena rom",
+    "antonym": "mengrom",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rom되다, rom당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rom'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dirom' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rom되다, rom당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dirom' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rom되다, rom당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dirom",
+        "meaning": "rom되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_r1ael",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terrom [[뜨르rom]]",
+    "meaning": "완전히 rom되다",
+    "pos": "동사, 형용사",
+    "root": "rom",
+    "affix_logic": "어근 'rom'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling rom",
+    "antonym": "sengaja dirom",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 rom되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rom'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terrom' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 rom되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terrom' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 rom되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terrom",
+        "meaning": "완전히 rom되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_ywu7e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengrouter [[멍router]]",
+    "meaning": "router하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "router",
+    "affix_logic": "어근 'router'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan router",
+    "antonym": "dirouter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'router하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'router'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengrouter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'router하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengrouter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'router하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengrouter",
+        "meaning": "router하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_l30pw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dirouter [[디router]]",
+    "meaning": "router되다, router당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "router",
+    "affix_logic": "어근 'router'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena router",
+    "antonym": "mengrouter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'router되다, router당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'router'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dirouter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'router되다, router당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dirouter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'router되다, router당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dirouter",
+        "meaning": "router되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_6qtze",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terrouter [[뜨르router]]",
+    "meaning": "완전히 router되다",
+    "pos": "동사, 형용사",
+    "root": "router",
+    "affix_logic": "어근 'router'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling router",
+    "antonym": "sengaja dirouter",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 router되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'router'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terrouter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 router되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terrouter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 router되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terrouter",
+        "meaning": "완전히 router되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_puhdl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengserver [[멍server]]",
+    "meaning": "server하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "server",
+    "affix_logic": "어근 'server'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan server",
+    "antonym": "diserver",
+    "context": "실생활 및 회화/비즈니스 상황에서 'server하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'server'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengserver' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'server하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengserver' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'server하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengserver",
+        "meaning": "server하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_2cg0m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diserver [[디server]]",
+    "meaning": "server되다, server당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "server",
+    "affix_logic": "어근 'server'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena server",
+    "antonym": "mengserver",
+    "context": "실생활 및 회화/비즈니스 상황에서 'server되다, server당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'server'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diserver' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'server되다, server당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diserver' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'server되다, server당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diserver",
+        "meaning": "server되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_s7rcu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terserver [[뜨르server]]",
+    "meaning": "완전히 server되다",
+    "pos": "동사, 형용사",
+    "root": "server",
+    "affix_logic": "어근 'server'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling server",
+    "antonym": "sengaja diserver",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 server되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'server'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terserver' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 server되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terserver' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 server되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terserver",
+        "meaning": "완전히 server되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_dvmw0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengsoftware [[멍software]]",
+    "meaning": "software하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "software",
+    "affix_logic": "어근 'software'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan software",
+    "antonym": "disoftware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'software하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'software'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengsoftware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'software하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengsoftware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'software하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengsoftware",
+        "meaning": "software하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_wyy4b",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "disoftware [[디software]]",
+    "meaning": "software되다, software당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "software",
+    "affix_logic": "어근 'software'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena software",
+    "antonym": "mengsoftware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'software되다, software당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'software'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'disoftware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'software되다, software당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'disoftware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'software되다, software당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "disoftware",
+        "meaning": "software되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_qk4k1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tersoftware [[뜨르software]]",
+    "meaning": "완전히 software되다",
+    "pos": "동사, 형용사",
+    "root": "software",
+    "affix_logic": "어근 'software'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling software",
+    "antonym": "sengaja disoftware",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 software되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'software'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tersoftware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 software되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tersoftware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 software되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tersoftware",
+        "meaning": "완전히 software되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_soiwg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengspyware [[멍spyware]]",
+    "meaning": "spyware하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "spyware",
+    "affix_logic": "어근 'spyware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan spyware",
+    "antonym": "dispyware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spyware하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spyware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengspyware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spyware하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengspyware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spyware하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengspyware",
+        "meaning": "spyware하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_nwsdn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dispyware [[디spyware]]",
+    "meaning": "spyware되다, spyware당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "spyware",
+    "affix_logic": "어근 'spyware'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena spyware",
+    "antonym": "mengspyware",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spyware되다, spyware당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spyware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'dispyware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spyware되다, spyware당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'dispyware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spyware되다, spyware당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dispyware",
+        "meaning": "spyware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_oyljv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terspyware [[뜨르spyware]]",
+    "meaning": "완전히 spyware되다",
+    "pos": "동사, 형용사",
+    "root": "spyware",
+    "affix_logic": "어근 'spyware'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling spyware",
+    "antonym": "sengaja dispyware",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 spyware되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spyware'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terspyware' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 spyware되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terspyware' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 spyware되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terspyware",
+        "meaning": "완전히 spyware되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_055kn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengstorage [[멍storage]]",
+    "meaning": "storage하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "storage",
+    "affix_logic": "어근 'storage'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan storage",
+    "antonym": "distorage",
+    "context": "실생활 및 회화/비즈니스 상황에서 'storage하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'storage'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengstorage' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'storage하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengstorage' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'storage하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengstorage",
+        "meaning": "storage하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_u4b5x",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "distorage [[디storage]]",
+    "meaning": "storage되다, storage당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "storage",
+    "affix_logic": "어근 'storage'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena storage",
+    "antonym": "mengstorage",
+    "context": "실생활 및 회화/비즈니스 상황에서 'storage되다, storage당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'storage'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'distorage' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'storage되다, storage당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'distorage' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'storage되다, storage당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "distorage",
+        "meaning": "storage되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_aysj7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terstorage [[뜨르storage]]",
+    "meaning": "완전히 storage되다",
+    "pos": "동사, 형용사",
+    "root": "storage",
+    "affix_logic": "어근 'storage'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling storage",
+    "antonym": "sengaja distorage",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 storage되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'storage'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terstorage' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 storage되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terstorage' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 storage되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terstorage",
+        "meaning": "완전히 storage되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_4mlph",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengterminal [[멍terminal]]",
+    "meaning": "terminal하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "terminal",
+    "affix_logic": "어근 'terminal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan terminal",
+    "antonym": "diterminal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terminal하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terminal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengterminal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terminal하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengterminal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terminal하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengterminal",
+        "meaning": "terminal하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_b1c9t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diterminal [[디terminal]]",
+    "meaning": "terminal되다, terminal당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "terminal",
+    "affix_logic": "어근 'terminal'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena terminal",
+    "antonym": "mengterminal",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terminal되다, terminal당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terminal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diterminal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terminal되다, terminal당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diterminal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terminal되다, terminal당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diterminal",
+        "meaning": "terminal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_ehdfp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terterminal [[뜨르terminal]]",
+    "meaning": "완전히 terminal되다",
+    "pos": "동사, 형용사",
+    "root": "terminal",
+    "affix_logic": "어근 'terminal'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling terminal",
+    "antonym": "sengaja diterminal",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 terminal되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terminal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terterminal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 terminal되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terterminal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 terminal되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terterminal",
+        "meaning": "완전히 terminal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_in4rz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengterabyte [[멍terabyte]]",
+    "meaning": "terabyte하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "terabyte",
+    "affix_logic": "어근 'terabyte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan terabyte",
+    "antonym": "diterabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terabyte하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengterabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terabyte하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengterabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terabyte하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengterabyte",
+        "meaning": "terabyte하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_v8p17",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diterabyte [[디terabyte]]",
+    "meaning": "terabyte되다, terabyte당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "terabyte",
+    "affix_logic": "어근 'terabyte'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena terabyte",
+    "antonym": "mengterabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terabyte되다, terabyte당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diterabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terabyte되다, terabyte당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diterabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terabyte되다, terabyte당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diterabyte",
+        "meaning": "terabyte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_optqo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terterabyte [[뜨르terabyte]]",
+    "meaning": "완전히 terabyte되다",
+    "pos": "동사, 형용사",
+    "root": "terabyte",
+    "affix_logic": "어근 'terabyte'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling terabyte",
+    "antonym": "sengaja diterabyte",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 terabyte되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terabyte'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terterabyte' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 terabyte되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terterabyte' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 terabyte되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terterabyte",
+        "meaning": "완전히 terabyte되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_knrbo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengtopology [[멍topology]]",
+    "meaning": "topology하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "topology",
+    "affix_logic": "어근 'topology'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan topology",
+    "antonym": "ditopology",
+    "context": "실생활 및 회화/비즈니스 상황에서 'topology하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'topology'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengtopology' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'topology하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengtopology' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'topology하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengtopology",
+        "meaning": "topology하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_8xdub",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ditopology [[디topology]]",
+    "meaning": "topology되다, topology당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "topology",
+    "affix_logic": "어근 'topology'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena topology",
+    "antonym": "mengtopology",
+    "context": "실생활 및 회화/비즈니스 상황에서 'topology되다, topology당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'topology'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'ditopology' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'topology되다, topology당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ditopology' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'topology되다, topology당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ditopology",
+        "meaning": "topology되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_pafof",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tertopology [[뜨르topology]]",
+    "meaning": "완전히 topology되다",
+    "pos": "동사, 형용사",
+    "root": "topology",
+    "affix_logic": "어근 'topology'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling topology",
+    "antonym": "sengaja ditopology",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 topology되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'topology'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tertopology' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 topology되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tertopology' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 topology되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tertopology",
+        "meaning": "완전히 topology되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_bxdee",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengurl [[멍url]]",
+    "meaning": "url하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "url",
+    "affix_logic": "어근 'url'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan url",
+    "antonym": "diurl",
+    "context": "실생활 및 회화/비즈니스 상황에서 'url하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'url'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengurl' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'url하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengurl' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'url하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengurl",
+        "meaning": "url하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_a30bv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diurl [[디url]]",
+    "meaning": "url되다, url당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "url",
+    "affix_logic": "어근 'url'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena url",
+    "antonym": "mengurl",
+    "context": "실생활 및 회화/비즈니스 상황에서 'url되다, url당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'url'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diurl' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'url되다, url당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diurl' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'url되다, url당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diurl",
+        "meaning": "url되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_ehp92",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terurl [[뜨르url]]",
+    "meaning": "완전히 url되다",
+    "pos": "동사, 형용사",
+    "root": "url",
+    "affix_logic": "어근 'url'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling url",
+    "antonym": "sengaja diurl",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 url되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'url'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terurl' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 url되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terurl' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 url되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terurl",
+        "meaning": "완전히 url되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_h4oyd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengusb [[멍usb]]",
+    "meaning": "usb하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "usb",
+    "affix_logic": "어근 'usb'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan usb",
+    "antonym": "diusb",
+    "context": "실생활 및 회화/비즈니스 상황에서 'usb하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'usb'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengusb' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'usb하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengusb' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'usb하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengusb",
+        "meaning": "usb하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_jjdoe",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diusb [[디usb]]",
+    "meaning": "usb되다, usb당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "usb",
+    "affix_logic": "어근 'usb'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena usb",
+    "antonym": "mengusb",
+    "context": "실생활 및 회화/비즈니스 상황에서 'usb되다, usb당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'usb'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diusb' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'usb되다, usb당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diusb' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'usb되다, usb당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diusb",
+        "meaning": "usb되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_xetif",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terusb [[뜨르usb]]",
+    "meaning": "완전히 usb되다",
+    "pos": "동사, 형용사",
+    "root": "usb",
+    "affix_logic": "어근 'usb'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling usb",
+    "antonym": "sengaja diusb",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 usb되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'usb'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terusb' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 usb되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terusb' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 usb되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terusb",
+        "meaning": "완전히 usb되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_x6lrk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menguser interface [[멍user interface]]",
+    "meaning": "user interface하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "user interface",
+    "affix_logic": "어근 'user interface'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan user interface",
+    "antonym": "diuser interface",
+    "context": "실생활 및 회화/비즈니스 상황에서 'user interface하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'user interface'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'menguser interface' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'user interface하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menguser interface' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'user interface하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "menguser",
+        "meaning": "user interface하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_hk72d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diuser interface [[디user interface]]",
+    "meaning": "user interface되다, user interface당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "user interface",
+    "affix_logic": "어근 'user interface'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena user interface",
+    "antonym": "menguser interface",
+    "context": "실생활 및 회화/비즈니스 상황에서 'user interface되다, user interface당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'user interface'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diuser interface' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'user interface되다, user interface당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diuser interface' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'user interface되다, user interface당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diuser",
+        "meaning": "user interface되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_lj2jr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teruser interface [[뜨르user interface]]",
+    "meaning": "완전히 user interface되다",
+    "pos": "동사, 형용사",
+    "root": "user interface",
+    "affix_logic": "어근 'user interface'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling user interface",
+    "antonym": "sengaja diuser interface",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 user interface되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'user interface'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teruser interface' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 user interface되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teruser interface' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 user interface되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teruser",
+        "meaning": "완전히 user interface되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_z1grp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengvirtual [[멍virtual]]",
+    "meaning": "virtual하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "virtual",
+    "affix_logic": "어근 'virtual'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan virtual",
+    "antonym": "divirtual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'virtual하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virtual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengvirtual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'virtual하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengvirtual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'virtual하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengvirtual",
+        "meaning": "virtual하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_26ttm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "divirtual [[디virtual]]",
+    "meaning": "virtual되다, virtual당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "virtual",
+    "affix_logic": "어근 'virtual'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena virtual",
+    "antonym": "mengvirtual",
+    "context": "실생활 및 회화/비즈니스 상황에서 'virtual되다, virtual당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virtual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'divirtual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'virtual되다, virtual당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'divirtual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'virtual되다, virtual당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "divirtual",
+        "meaning": "virtual되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_m792d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tervirtual [[뜨르virtual]]",
+    "meaning": "완전히 virtual되다",
+    "pos": "동사, 형용사",
+    "root": "virtual",
+    "affix_logic": "어근 'virtual'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling virtual",
+    "antonym": "sengaja divirtual",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 virtual되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virtual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tervirtual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 virtual되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tervirtual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 virtual되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tervirtual",
+        "meaning": "완전히 virtual되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_r1kz3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengvirus [[멍virus]]",
+    "meaning": "virus하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "virus",
+    "affix_logic": "어근 'virus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan virus",
+    "antonym": "divirus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'virus하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengvirus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'virus하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengvirus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'virus하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengvirus",
+        "meaning": "virus하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_9gf5r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "divirus [[디virus]]",
+    "meaning": "virus되다, virus당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "virus",
+    "affix_logic": "어근 'virus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena virus",
+    "antonym": "mengvirus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'virus되다, virus당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'divirus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'virus되다, virus당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'divirus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'virus되다, virus당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "divirus",
+        "meaning": "virus되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_qmt2y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tervirus [[뜨르virus]]",
+    "meaning": "완전히 virus되다",
+    "pos": "동사, 형용사",
+    "root": "virus",
+    "affix_logic": "어근 'virus'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling virus",
+    "antonym": "sengaja divirus",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 virus되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'virus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'tervirus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 virus되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'tervirus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 virus되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "tervirus",
+        "meaning": "완전히 virus되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_8cgrw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengweb browser [[멍web browser]]",
+    "meaning": "web browser하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "web browser",
+    "affix_logic": "어근 'web browser'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan web browser",
+    "antonym": "diweb browser",
+    "context": "실생활 및 회화/비즈니스 상황에서 'web browser하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'web browser'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengweb browser' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'web browser하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengweb browser' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'web browser하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengweb",
+        "meaning": "web browser하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_in8tc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diweb browser [[디web browser]]",
+    "meaning": "web browser되다, web browser당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "web browser",
+    "affix_logic": "어근 'web browser'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena web browser",
+    "antonym": "mengweb browser",
+    "context": "실생활 및 회화/비즈니스 상황에서 'web browser되다, web browser당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'web browser'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diweb browser' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'web browser되다, web browser당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diweb browser' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'web browser되다, web browser당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diweb",
+        "meaning": "web browser되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_dj86d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terweb browser [[뜨르web browser]]",
+    "meaning": "완전히 web browser되다",
+    "pos": "동사, 형용사",
+    "root": "web browser",
+    "affix_logic": "어근 'web browser'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling web browser",
+    "antonym": "sengaja diweb browser",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 web browser되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'web browser'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terweb browser' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 web browser되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terweb browser' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 web browser되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terweb",
+        "meaning": "완전히 web browser되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_zp46c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengwifi [[멍wifi]]",
+    "meaning": "wifi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "wifi",
+    "affix_logic": "어근 'wifi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan wifi",
+    "antonym": "diwifi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'wifi하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'wifi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengwifi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'wifi하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengwifi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'wifi하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengwifi",
+        "meaning": "wifi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_b0apc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diwifi [[디wifi]]",
+    "meaning": "wifi되다, wifi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "wifi",
+    "affix_logic": "어근 'wifi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena wifi",
+    "antonym": "mengwifi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'wifi되다, wifi당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'wifi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diwifi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'wifi되다, wifi당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diwifi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'wifi되다, wifi당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diwifi",
+        "meaning": "wifi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_pq5ll",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terwifi [[뜨르wifi]]",
+    "meaning": "완전히 wifi되다",
+    "pos": "동사, 형용사",
+    "root": "wifi",
+    "affix_logic": "어근 'wifi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling wifi",
+    "antonym": "sengaja diwifi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 wifi되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'wifi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terwifi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 wifi되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terwifi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 wifi되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terwifi",
+        "meaning": "완전히 wifi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_frgze",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengworkstation [[멍workstation]]",
+    "meaning": "workstation하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "workstation",
+    "affix_logic": "어근 'workstation'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan workstation",
+    "antonym": "diworkstation",
+    "context": "실생활 및 회화/비즈니스 상황에서 'workstation하다 (전문 행위 능동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'workstation'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengworkstation' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'workstation하다 (전문 행위 능동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengworkstation' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'workstation하다 (전문 행위 능동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengworkstation",
+        "meaning": "workstation하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_jmf0s",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diworkstation [[디workstation]]",
+    "meaning": "workstation되다, workstation당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "workstation",
+    "affix_logic": "어근 'workstation'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kena workstation",
+    "antonym": "mengworkstation",
+    "context": "실생활 및 회화/비즈니스 상황에서 'workstation되다, workstation당하다 (전문 수동사)'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'workstation'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'diworkstation' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'workstation되다, workstation당하다 (전문 수동사)'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'diworkstation' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'workstation되다, workstation당하다 (전문 수동사)'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "diworkstation",
+        "meaning": "workstation되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138948186_xrti0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terworkstation [[뜨르workstation]]",
+    "meaning": "완전히 workstation되다",
+    "pos": "동사, 형용사",
+    "root": "workstation",
+    "affix_logic": "어근 'workstation'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "문장 내에서 동사, 형용사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "paling workstation",
+    "antonym": "sengaja diworkstation",
+    "context": "실생활 및 회화/비즈니스 상황에서 '완전히 workstation되다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'workstation'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'terworkstation' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'완전히 workstation되다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'terworkstation' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '완전히 workstation되다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "terworkstation",
+        "meaning": "완전히 workstation되다"
+      }
+    ]
   }
 ];

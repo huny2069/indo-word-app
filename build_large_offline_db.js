@@ -94,22 +94,23 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 6차 대규모 800+ 어휘 주입 어근 파이프라인 (인문/철학/경제/금융/경영 전문 어근 100개)
-const coreRootsBatch6 = [
-  'akuntansi', 'analitika', 'anggaran', 'anomali', 'aplikatif', 'arbitrase', 'arsitektur', 'aset', 'asuransi', 'audit',
-  'autentik', 'bagan', 'bangkrut', 'barter', 'barometer', 'bea', 'benah', 'bursa', 'bunga', 'defisit',
-  'devaluasi', 'devise', 'diagonis', 'direktori', 'diskon', 'dividen', 'dominan', 'durabilitas', 'efektivitas', 'ekonometrika',
-  'eksekutif', 'ekosistem', 'elastisitas', 'emiten', 'entitas', 'estimasi', 'etika', 'evaluatif', 'faktur', 'fase',
-  'fenomena', 'filosofi', 'finansial', 'fiskal', 'fondasi', 'garansi', 'grosir', 'hipotek', 'hipotesis', 'ijazah',
-  'imbalan', 'imbal', 'infrastruktur', 'insentif', 'insolvensi', 'instrumen', 'integris', 'intelektual', 'intensitas', 'intrinsik',
-  'inventaris', 'investor', 'kapital', 'klausula', 'kolektibilitas', 'komoditas', 'konsumen', 'kontrak', 'kredibilitas', 'kreditur',
-  'kronologi', 'kuota', 'kuitansi', 'laba', 'legalitas', 'likuiditas', 'logistik', 'margin', 'makro', 'manajerial',
-  'manfaat', 'manufaktur', 'mekanisme', 'mikro', 'modal', 'moneter', 'nominal', 'omzet', 'opini', 'opsi'
+// 🚀 7차 대규모 800+ 어휘 주입 어근 파이프라인 (과학/기술/환경/의학/산업 전문 어근 100개)
+const coreRootsBatch7 = [
+  'otoklaf', 'otomat', 'bakteri', 'biologi', 'biokimia', 'bioteknologi', 'biosfer', 'biomassa', 'botani', 'kromatografi',
+  'sitologi', 'ekologi', 'embriologi', 'enzim', 'genetika', 'geologi', 'geofisika', 'histologi', 'hidrologi', 'imunologi',
+  'kinektika', 'mikrobiologi', 'morfologi', 'neuro biologi', 'onkologi', 'paliontologi', 'parasitologi', 'patologi', 'farmakologi', 'fotosintesis',
+  'fisiologi', 'radiologi', 'serologi', 'taksonomi', 'toksikologi', 'virologi', 'zoologi', 'algoritma', 'analog', 'antena',
+  'antivirus', 'arsitektur cpu', 'bandwidth', 'basis data', 'biner', 'biometrik', 'bit', 'bluetooth', 'byte', 'cache',
+  'chip', 'cloud computing', 'cybernetics', 'dekripsi', 'desain grafis', 'domain', 'enkripsi', 'ethernet', 'firewall', 'firmware',
+  'gigabyte', 'hardware', 'hosting', 'hyperlink', 'interface', 'intranet', 'kernel', 'keyboard', 'laptop', 'malware',
+  'megabyte', 'memori', 'microprocessor', 'modem', 'motherboard', 'network', 'node', 'operating system', 'optical', 'password',
+  'pixel', 'protocol', 'ram', 'rom', 'router', 'server', 'software', 'spyware', 'storage', 'terminal',
+  'terabyte', 'topology', 'url', 'usb', 'user interface', 'virtual', 'virus', 'web browser', 'wifi', 'workstation'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch6.forEach(root => {
+coreRootsBatch7.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
