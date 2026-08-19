@@ -180,5 +180,31 @@ export const bipaTopics = [
         "meaning": "상업"
       }
     ]
+  },
+  {
+    "id": "bipa_0008",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "ketenagakerjaan [[끄뜨나가꺼르자안]]",
+    "meaning": "노동, 고용 전반",
+    "pos": "명사",
+    "root": "kerja",
+    "affix_logic": "어근 'kerja'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "sistem kerja",
+    "antonym": "pengangguran",
+    "context": "실생활 및 회화 상황에서 '노동, 고용 전반'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kerja'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'ketenagakerjaan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'노동, 고용 전반'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'ketenagakerjaan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '노동, 고용 전반'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "ketenagakerjaan",
+        "meaning": "노동"
+      }
+    ]
   }
 ];

@@ -206,5 +206,57 @@ export const dailyLivingVocab = [
         "meaning": "레몬그라스"
       }
     ]
+  },
+  {
+    "id": "life_0009",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "lemari baju [[르마리 바주]]",
+    "meaning": "옷장",
+    "pos": "명사",
+    "root": "lemari",
+    "affix_logic": "어근 'lemari'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "almari pakaian",
+    "antonym": "gantungan",
+    "context": "실생활 및 회화 상황에서 '옷장'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'lemari'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'lemari baju' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'옷장'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'lemari baju' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '옷장'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "lemari",
+        "meaning": "옷장"
+      }
+    ]
+  },
+  {
+    "id": "life_0010",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "meja makan [[메자 마깐]]",
+    "meaning": "식탁",
+    "pos": "명사",
+    "root": "meja",
+    "affix_logic": "어근 'meja'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "meja santap",
+    "antonym": "lantai",
+    "context": "실생활 및 회화 상황에서 '식탁'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'meja'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'meja makan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'식탁'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'meja makan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '식탁'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "meja",
+        "meaning": "식탁"
+      }
+    ]
   }
 ];

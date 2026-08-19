@@ -258,5 +258,57 @@ export const slangDailySpoken = [
         "meaning": "상상초월로 웃기다"
       }
     ]
+  },
+  {
+    "id": "slang_0011",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "mageran [[마게란]]",
+    "meaning": "귀차니스트",
+    "pos": "명사",
+    "root": "gerak",
+    "affix_logic": "어근 'gerak'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "pemalas",
+    "antonym": "pekerja keras",
+    "context": "실생활 및 회화 상황에서 '귀차니스트'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'gerak'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'mageran' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'귀차니스트'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mageran' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '귀차니스트'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "mageran",
+        "meaning": "귀차니스트"
+      }
+    ]
+  },
+  {
+    "id": "slang_0012",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "baperan [[바뻬란]]",
+    "meaning": "잘 삐지는 사람",
+    "pos": "명사",
+    "root": "rasa",
+    "affix_logic": "어근 'rasa'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "sensitif",
+    "antonym": "pembawaan santai",
+    "context": "실생활 및 회화 상황에서 '잘 삐지는 사람'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'rasa'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'baperan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'잘 삐지는 사람'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'baperan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '잘 삐지는 사람'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "baperan",
+        "meaning": "잘 삐지는 사람"
+      }
+    ]
   }
 ];

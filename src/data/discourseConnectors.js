@@ -1355,7 +1355,7 @@ export const discourseConnectors = [
     "id": "disc_0053",
     "category_id": "discourse",
     "subcategory_id": "logic_connectors",
-    "word": "seiring dengan [[스이링 등안]]",
+    "word": "seiring dengan [[스이ring 등안]]",
     "meaning": "~와 발맞추어",
     "pos": "전치사구",
     "root": "iring",
@@ -1426,6 +1426,84 @@ export const discourseConnectors = [
       {
         "word": "selama",
         "meaning": "그동안 줄곧"
+      }
+    ]
+  },
+  {
+    "id": "disc_0056",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "oleh sebab itu [[올레 스밥 이뚜]]",
+    "meaning": "그러므로, 그런 이유로",
+    "pos": "접속사",
+    "root": "sebab",
+    "affix_logic": "어근 'sebab'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "oleh karena itu",
+    "antonym": "kendati demikian",
+    "context": "실생활 및 회화 상황에서 '그러므로, 그런 이유로'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'sebab'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'oleh sebab itu' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'그러므로, 그런 이유로'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'oleh sebab itu' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '그러므로, 그런 이유로'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "oleh",
+        "meaning": "그러므로"
+      }
+    ]
+  },
+  {
+    "id": "disc_0057",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "sehubungan dengan [[스후붕안 등안]]",
+    "meaning": "~와 관련하여",
+    "pos": "전치사구",
+    "root": "hubung",
+    "affix_logic": "어근 'hubung'에 기반한 전치사구 어휘",
+    "grammar_rule": "문장 내에서 전치사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "berkenaan dengan",
+    "antonym": "tidak ada hubungan",
+    "context": "실생활 및 회화 상황에서 '~와 관련하여'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'hubung'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'sehubungan dengan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'~와 관련하여'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'sehubungan dengan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '~와 관련하여'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "sehubungan",
+        "meaning": "~와 관련하여"
+      }
+    ]
+  },
+  {
+    "id": "disc_0058",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "berkenaan dengan [[버르끄나안 등안]]",
+    "meaning": "~에 관해서는",
+    "pos": "전치사구",
+    "root": "kena",
+    "affix_logic": "어근 'kena'에 기반한 전치사구 어휘",
+    "grammar_rule": "문장 내에서 전치사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "mengenai",
+    "antonym": "terlepas dari",
+    "context": "실생활 및 회화 상황에서 '~에 관해서는'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'kena'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'berkenaan dengan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'~에 관해서는'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkenaan dengan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '~에 관해서는'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "berkenaan",
+        "meaning": "~에 관해서는"
       }
     ]
   }

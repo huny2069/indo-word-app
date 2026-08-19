@@ -492,5 +492,57 @@ export const affixVerbs = [
         "meaning": "발견하다"
       }
     ]
+  },
+  {
+    "id": "aff_0020",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menunggu [[머눙구]]",
+    "meaning": "기다리다, 대기하다",
+    "pos": "동사",
+    "root": "tunggu",
+    "affix_logic": "어근 'tunggu'에 기반한 동사 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "menanti",
+    "antonym": "meninggalkan",
+    "context": "실생활 및 회화 상황에서 '기다리다, 대기하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'tunggu'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'menunggu' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'기다리다, 대기하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'menunggu' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '기다리다, 대기하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "menunggu",
+        "meaning": "기다리다"
+      }
+    ]
+  },
+  {
+    "id": "aff_0021",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengundang [[멍운당]]",
+    "meaning": "초대하다, 초청하다",
+    "pos": "동사",
+    "root": "undang",
+    "affix_logic": "어근 'undang'에 기반한 동사 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "mengajak",
+    "antonym": "mengusir",
+    "context": "실생활 및 회화 상황에서 '초대하다, 초청하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'undang'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'mengundang' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'초대하다, 초청하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengundang' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '초대하다, 초청하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "mengundang",
+        "meaning": "초대하다"
+      }
+    ]
   }
 ];

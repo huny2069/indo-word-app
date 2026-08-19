@@ -752,5 +752,57 @@ export const emotionsNuances = [
         "meaning": "햇볕이 쨍쨍 내리쬐다"
       }
     ]
+  },
+  {
+    "id": "emo_0030",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "makan hati [[마깐 하티]]",
+    "meaning": "속을 썩이다, 애태우다",
+    "pos": "동사구",
+    "root": "makan",
+    "affix_logic": "어근 'makan'에 기반한 동사구 어휘",
+    "grammar_rule": "문장 내에서 동사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "menderita batin",
+    "antonym": "bahagia",
+    "context": "실생활 및 회화 상황에서 '속을 썩이다, 애태우다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'makan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'makan hati' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'속을 썩이다, 애태우다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'makan hati' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '속을 썩이다, 애태우다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "makan",
+        "meaning": "속을 썩이다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0031",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "cuci tangan [[쭈찌 땅안]]",
+    "meaning": "손을 떼다, 책임을 회피하다",
+    "pos": "동사구",
+    "root": "cuci",
+    "affix_logic": "어근 'cuci'에 기반한 동사구 어휘",
+    "grammar_rule": "문장 내에서 동사구의 역할을 하며 다양한 뉘앙스를 형성합니다.",
+    "synonym": "lepas tangan",
+    "antonym": "bertanggung jawab",
+    "context": "실생활 및 회화 상황에서 '손을 떼다, 책임을 회피하다'의 의미로 빈번하게 활용됩니다.",
+    "caution": "상황과 대화 상대에 맞추어 적절한 어조와 예의를 갖추어 사용하는 것이 좋습니다.",
+    "related": "어근 'cuci'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'cuci tangan' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'손을 떼다, 책임을 회피하다'을(를) 나타내는 표준적인 표현입니다.",
+    "example_casual": "Kata 'cuci tangan' sering banget dipake pas lagi ngobrol santai sehari-hari.",
+    "example_casual_kr": "일상 대화에서 '손을 떼다, 책임을 회피하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "cuci",
+        "meaning": "손을 떼다"
+      }
+    ]
   }
 ];
