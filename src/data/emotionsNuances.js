@@ -1246,5 +1246,31 @@ export const emotionsNuances = [
         "meaning": "겸손하다"
       }
     ]
+  },
+  {
+    "id": "word_1787138576687_ge98w",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "mabuk cinta [[마북 찐따]]",
+    "meaning": "사랑에 푹 빠지다",
+    "pos": "형용사구",
+    "root": "mabuk",
+    "affix_logic": "어근 'mabuk'에 기반한 형용사구 파생 표현",
+    "grammar_rule": "문장 내에서 형용사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "bucin",
+    "antonym": "benci",
+    "context": "실생활 및 회화/비즈니스 상황에서 '사랑에 푹 빠지다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mabuk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mabuk cinta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'사랑에 푹 빠지다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mabuk cinta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '사랑에 푹 빠지다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mabuk",
+        "meaning": "사랑에 푹 빠지다"
+      }
+    ]
   }
 ];

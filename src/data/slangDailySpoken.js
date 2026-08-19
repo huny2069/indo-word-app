@@ -518,5 +518,31 @@ export const slangDailySpoken = [
         "meaning": "트롤짓 하는 꼬맹이"
       }
     ]
+  },
+  {
+    "id": "word_1787138576688_t298f",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "jaim banget [[자임 방앗]]",
+    "meaning": "이미지 관리 엄청 하는",
+    "pos": "형용사구",
+    "root": "jaga",
+    "affix_logic": "어근 'jaga'에 기반한 형용사구 파생 표현",
+    "grammar_rule": "문장 내에서 형용사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "malu-malu kucing",
+    "antonym": "blak-blakan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '이미지 관리 엄청 하는'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jaga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'jaim banget' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'이미지 관리 엄청 하는'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'jaim banget' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '이미지 관리 엄청 하는'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "jaim",
+        "meaning": "이미지 관리 엄청 하는"
+      }
+    ]
   }
 ];

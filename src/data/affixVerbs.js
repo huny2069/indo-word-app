@@ -830,5 +830,57 @@ export const affixVerbs = [
         "meaning": "방해하다"
       }
     ]
+  },
+  {
+    "id": "word_1787138576688_0te2y",
+    "category_id": "affix_verbs",
+    "subcategory_id": "causative_locative_verbs",
+    "word": "mengendalikan [[멍은달리깐]]",
+    "meaning": "통제하다, 가라앉히다",
+    "pos": "동사",
+    "root": "kendali",
+    "affix_logic": "어근 'kendali'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "mengontrol",
+    "antonym": "membiarkan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '통제하다, 가라앉히다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kendali'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mengendalikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'통제하다, 가라앉히다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mengendalikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '통제하다, 가라앉히다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengendalikan",
+        "meaning": "통제하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138576688_odw47",
+    "category_id": "affix_verbs",
+    "subcategory_id": "causative_locative_verbs",
+    "word": "mempertahankan [[멈뻐르따한깐]]",
+    "meaning": "지켜내다, 고수하다",
+    "pos": "동사",
+    "root": "tahan",
+    "affix_logic": "어근 'tahan'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "menjaga",
+    "antonym": "melepaskan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '지켜내다, 고수하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tahan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'mempertahankan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'지켜내다, 고수하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'mempertahankan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '지켜내다, 고수하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mempertahankan",
+        "meaning": "지켜내다"
+      }
+    ]
   }
 ];

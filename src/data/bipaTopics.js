@@ -440,5 +440,57 @@ export const bipaTopics = [
         "meaning": "극심한 빈곤"
       }
     ]
+  },
+  {
+    "id": "word_1787138576688_l2uof",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pemerintahan daerah [[쁘머린따한 다에라]]",
+    "meaning": "지방 정부",
+    "pos": "명사구",
+    "root": "perintah",
+    "affix_logic": "어근 'perintah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pemda",
+    "antonym": "pemerintah pusat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '지방 정부'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'perintah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemerintahan daerah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'지방 정부'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemerintahan daerah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '지방 정부'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemerintahan",
+        "meaning": "지방 정부"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138576688_hpo2j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "perdagangan bebas [[쁘르다가앙안 베바스]]",
+    "meaning": "자유 무역",
+    "pos": "명사구",
+    "root": "dagang",
+    "affix_logic": "어근 'dagang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "free trade",
+    "antonym": "proteksionisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 '자유 무역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dagang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'perdagangan bebas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'자유 무역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'perdagangan bebas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '자유 무역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "perdagangan",
+        "meaning": "자유 무역"
+      }
+    ]
   }
 ];

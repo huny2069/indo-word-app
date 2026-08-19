@@ -934,5 +934,135 @@ export const dailyLivingVocab = [
         "meaning": "공인 규격 헬멧"
       }
     ]
+  },
+  {
+    "id": "word_1787138576688_61rgv",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "teh botol [[떼 보똘]]",
+    "meaning": "인도네시아 유리병 차 음료",
+    "pos": "명사구",
+    "root": "teh",
+    "affix_logic": "어근 'teh'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "minuman teh",
+    "antonym": "air putih",
+    "context": "실생활 및 회화/비즈니스 상황에서 '인도네시아 유리병 차 음료'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teh'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'teh botol' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'인도네시아 유리병 차 음료'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'teh botol' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '인도네시아 유리병 차 음료'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "teh",
+        "meaning": "인도네시아 유리병 차 음료"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138576688_5rjdv",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "pisang goreng [[삐상 고렝]]",
+    "meaning": "바나나 튀김 디저트",
+    "pos": "명사구",
+    "root": "pisang",
+    "affix_logic": "어근 'pisang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "olahan pisang",
+    "antonym": "nasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '바나나 튀김 디저트'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pisang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pisang goreng' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'바나나 튀김 디저트'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pisang goreng' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '바나나 튀김 디저트'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pisang",
+        "meaning": "바나나 튀김 디저트"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138576688_4llqa",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "roti bakar [[로띠 바까르]]",
+    "meaning": "토스트 구이",
+    "pos": "명사구",
+    "root": "roti",
+    "affix_logic": "어근 'roti'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "roti panggang",
+    "antonym": "nasi putih",
+    "context": "실생활 및 회화/비즈니스 상황에서 '토스트 구이'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'roti'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'roti bakar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'토스트 구이'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'roti bakar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '토스트 구이'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "roti",
+        "meaning": "토스트 구이"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138576688_h6bh3",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "kartu etoll e-money [[까르뚜 이똘 이머니]]",
+    "meaning": "고속도로 교통카드",
+    "pos": "명사구",
+    "root": "toll",
+    "affix_logic": "어근 'toll'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "kartu tol",
+    "antonym": "uang tunai",
+    "context": "실생활 및 회화/비즈니스 상황에서 '고속도로 교통카드'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'toll'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'kartu etoll e-money' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'고속도로 교통카드'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'kartu etoll e-money' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '고속도로 교통카드'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kartu",
+        "meaning": "고속도로 교통카드"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138576688_hf50b",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "transport_travel_map",
+    "word": "bensin pertamax [[벤신 쁘르따막스]]",
+    "meaning": "고옥탄가 고급 휘발유",
+    "pos": "명사구",
+    "root": "bensin",
+    "affix_logic": "어근 'bensin'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "bahan bakar",
+    "antonym": "solar",
+    "context": "실생활 및 회화/비즈니스 상황에서 '고옥탄가 고급 휘발유'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bensin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bensin pertamax' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'고옥탄가 고급 휘발유'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bensin pertamax' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '고옥탄가 고급 휘발유'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bensin",
+        "meaning": "고옥탄가 고급 휘발유"
+      }
+    ]
   }
 ];
