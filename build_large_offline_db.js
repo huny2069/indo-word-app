@@ -94,15 +94,25 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 500개 이상 대량 생성을 위한 어류/조류/곤충/가전/스포츠/직업/지리/문법 파생어 조합기
-const prefixes = ['ber', 'me', 'di', 'ter', 'ke', 'pe', 'per'];
-const coreRoots = [
-  'ajar', 'bantu', 'buat', 'buka', 'baca', 'beli', 'bayar', 'cari', 'cuci', 'catat', 'dengar', 'duduk', 'dorong', 'ganti', 'gambar', 'hitung', 'hapus', 'hias', 'ikat', 'isi', 'ingat', 'jual', 'jaga', 'janji', 'kirim', 'kunci', 'kelola', 'kembang', 'lihat', 'lompat', 'lempar', 'latih', 'masak', 'minum', 'makan', 'main', 'minta', 'mohon', 'nyanyi', 'naik', 'nikmati', 'obati', 'olah', 'pinjam', 'pakai', 'potong', 'pukul', 'pilih', 'pimpin', 'rawat', 'rusak', 'rebus', 'rakit', 'simpan', 'sapa', 'siram', 'sewa', 'tulis', 'tutup', 'tanya', 'terima', 'tahan', 'tanam', 'tangkap', 'timbang', 'ukir', 'uji', 'ulang', 'ukur'
+// 🚀 2차 대규모 500+ 어휘 주입 어근 파이프라인
+const coreRootsBatch2 = [
+  'tunjuk', 'taruh', 'tumbuh', 'tolak', 'tukar', 'tanam', 'tembus', 'tanggung', 'tindih', 'tumpuk',
+  'angkat', 'atur', 'aduk', 'asing', 'ampun', 'ancam', 'adopsi', 'analisis', 'aplikasi', 'akses',
+  'bimbing', 'bina', 'bagi', 'balas', 'bentuk', 'bela', 'bebas', 'bakar', 'beku', 'bakar',
+  'cetak', 'cipata', 'bakar', 'buka', 'bantu', 'cabut', 'cukur', 'cuit', 'curi', 'cicip',
+  'didik', 'dorong', 'duga', 'dendam', 'daftar', 'darat', 'dengung', 'derita', 'darat', 'duri',
+  'edar', 'ekspor', 'impor', 'eja', 'evaluasi', 'efek', 'emang', 'eksekusi', 'edar', 'edukasi',
+  'fondasi', 'fokus', 'fasilitasi', 'fungsi', 'foto', 'format', 'fakta', 'filsafat', 'firasat', 'fisik',
+  'gantung', 'goreng', 'ganti', 'goyang', 'ganda', 'garap', 'gugat', 'goyah', 'genggam', 'gigi',
+  'hitung', 'hias', 'huni', 'hambat', 'hapus', 'harus', 'halang', 'harap', 'himpun', 'hidu',
+  'ikat', 'ikut', 'ingat', 'isi', 'imbau', 'inspeksi', 'investasi', 'inovasi', 'izin', 'iring',
+  'jual', 'jaga', 'jemput', 'jabat', 'jahit', 'jaring', 'jangkau', 'jajah', 'janjikan', 'jernih',
+  'kirim', 'kelola', 'kembali', 'kembang', 'kunci', 'kurang', 'kumpul', 'kejar', 'kaji', 'karang'
 ];
 
 let addedCount = 0;
 
-coreRoots.forEach(root => {
+coreRootsBatch2.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
