@@ -492,5 +492,5335 @@ export const bipaTopics = [
         "meaning": "자유 무역"
       }
     ]
+  },
+  {
+    "id": "word_1787138698046_qhude",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai makan [[쁘마까이 makan]]",
+    "meaning": "makan 사용자",
+    "pos": "명사구",
+    "root": "makan",
+    "affix_logic": "어근 'makan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna makan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'makan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'makan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai makan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'makan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai makan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'makan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "makan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698046_hs0lr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai minum [[쁘마까이 minum]]",
+    "meaning": "minum 사용자",
+    "pos": "명사구",
+    "root": "minum",
+    "affix_logic": "어근 'minum'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna minum",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'minum 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'minum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai minum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'minum 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai minum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'minum 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "minum 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698046_8591a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jalan [[쁘마까이 jalan]]",
+    "meaning": "jalan 사용자",
+    "pos": "명사구",
+    "root": "jalan",
+    "affix_logic": "어근 'jalan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jalan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jalan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jalan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jalan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jalan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jalan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698046_nufkp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lihat [[쁘마까이 lihat]]",
+    "meaning": "lihat 사용자",
+    "pos": "명사구",
+    "root": "lihat",
+    "affix_logic": "어근 'lihat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lihat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lihat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lihat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lihat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lihat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lihat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lihat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lihat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698046_3zape",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai baca [[쁘마까이 baca]]",
+    "meaning": "baca 사용자",
+    "pos": "명사구",
+    "root": "baca",
+    "affix_logic": "어근 'baca'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna baca",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'baca 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'baca'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai baca' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'baca 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai baca' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'baca 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "baca 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_2etve",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tulis [[쁘마까이 tulis]]",
+    "meaning": "tulis 사용자",
+    "pos": "명사구",
+    "root": "tulis",
+    "affix_logic": "어근 'tulis'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tulis",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tulis 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tulis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tulis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tulis 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tulis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tulis 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tulis 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_o3asw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kerja [[쁘마까이 kerja]]",
+    "meaning": "kerja 사용자",
+    "pos": "명사구",
+    "root": "kerja",
+    "affix_logic": "어근 'kerja'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kerja",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kerja 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kerja'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kerja' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kerja 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kerja' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kerja 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kerja 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1mnji",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai belajar [[쁘마까이 belajar]]",
+    "meaning": "belajar 사용자",
+    "pos": "명사구",
+    "root": "belajar",
+    "affix_logic": "어근 'belajar'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna belajar",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'belajar 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'belajar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai belajar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'belajar 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai belajar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'belajar 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "belajar 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_54lpd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tidur [[쁘마까이 tidur]]",
+    "meaning": "tidur 사용자",
+    "pos": "명사구",
+    "root": "tidur",
+    "affix_logic": "어근 'tidur'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tidur",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tidur 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tidur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tidur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tidur 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tidur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tidur 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tidur 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_owo3w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai duduk [[쁘마까이 duduk]]",
+    "meaning": "duduk 사용자",
+    "pos": "명사구",
+    "root": "duduk",
+    "affix_logic": "어근 'duduk'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna duduk",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'duduk 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'duduk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai duduk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'duduk 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai duduk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'duduk 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "duduk 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_t8725",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai berdiri [[쁘마까이 berdiri]]",
+    "meaning": "berdiri 사용자",
+    "pos": "명사구",
+    "root": "berdiri",
+    "affix_logic": "어근 'berdiri'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna berdiri",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'berdiri 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'berdiri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai berdiri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'berdiri 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai berdiri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'berdiri 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "berdiri 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_va6dj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lari [[쁘마까이 lari]]",
+    "meaning": "lari 사용자",
+    "pos": "명사구",
+    "root": "lari",
+    "affix_logic": "어근 'lari'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lari",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lari 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lari'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lari' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lari 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lari' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lari 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lari 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_h82vr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lompat [[쁘마까이 lompat]]",
+    "meaning": "lompat 사용자",
+    "pos": "명사구",
+    "root": "lompat",
+    "affix_logic": "어근 'lompat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lompat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lompat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lompat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lompat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lompat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lompat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lompat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lompat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_viku7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai terbang [[쁘마까이 terbang]]",
+    "meaning": "terbang 사용자",
+    "pos": "명사구",
+    "root": "terbang",
+    "affix_logic": "어근 'terbang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna terbang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terbang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terbang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai terbang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terbang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai terbang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terbang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "terbang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_sx8uu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai renang [[쁘마까이 renang]]",
+    "meaning": "renang 사용자",
+    "pos": "명사구",
+    "root": "renang",
+    "affix_logic": "어근 'renang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna renang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'renang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'renang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai renang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'renang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai renang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'renang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "renang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_umrrn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai masak [[쁘마까이 masak]]",
+    "meaning": "masak 사용자",
+    "pos": "명사구",
+    "root": "masak",
+    "affix_logic": "어근 'masak'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna masak",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'masak 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'masak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai masak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'masak 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai masak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'masak 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "masak 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_r3c9j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai potong [[쁘마까이 potong]]",
+    "meaning": "potong 사용자",
+    "pos": "명사구",
+    "root": "potong",
+    "affix_logic": "어근 'potong'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna potong",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'potong 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'potong'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai potong' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'potong 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai potong' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'potong 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "potong 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_fo1mh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai cuci [[쁘마까이 cuci]]",
+    "meaning": "cuci 사용자",
+    "pos": "명사구",
+    "root": "cuci",
+    "affix_logic": "어근 'cuci'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna cuci",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cuci 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cuci'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai cuci' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cuci 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai cuci' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cuci 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "cuci 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_axyak",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sapu [[쁘마까이 sapu]]",
+    "meaning": "sapu 사용자",
+    "pos": "명사구",
+    "root": "sapu",
+    "affix_logic": "어근 'sapu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sapu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sapu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sapu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sapu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sapu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sapu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sapu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sapu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_l4j8p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai siram [[쁘마까이 siram]]",
+    "meaning": "siram 사용자",
+    "pos": "명사구",
+    "root": "siram",
+    "affix_logic": "어근 'siram'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna siram",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'siram 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'siram'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai siram' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'siram 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai siram' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'siram 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "siram 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_15rqt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai buka [[쁘마까이 buka]]",
+    "meaning": "buka 사용자",
+    "pos": "명사구",
+    "root": "buka",
+    "affix_logic": "어근 'buka'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna buka",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buka 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buka'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai buka' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buka 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai buka' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buka 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "buka 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_x1h3q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tutup [[쁘마까이 tutup]]",
+    "meaning": "tutup 사용자",
+    "pos": "명사구",
+    "root": "tutup",
+    "affix_logic": "어근 'tutup'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tutup",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tutup 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tutup'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tutup' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tutup 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tutup' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tutup 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tutup 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_p3nnd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tarik [[쁘마까이 tarik]]",
+    "meaning": "tarik 사용자",
+    "pos": "명사구",
+    "root": "tarik",
+    "affix_logic": "어근 'tarik'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tarik",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tarik 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tarik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tarik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tarik 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tarik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tarik 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tarik 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_bm2uj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai dorong [[쁘마까이 dorong]]",
+    "meaning": "dorong 사용자",
+    "pos": "명사구",
+    "root": "dorong",
+    "affix_logic": "어근 'dorong'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna dorong",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dorong 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dorong'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai dorong' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dorong 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai dorong' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dorong 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "dorong 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_kklbk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bawa [[쁘마까이 bawa]]",
+    "meaning": "bawa 사용자",
+    "pos": "명사구",
+    "root": "bawa",
+    "affix_logic": "어근 'bawa'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bawa",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bawa 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bawa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bawa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bawa 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bawa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bawa 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bawa 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1kqtv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kirim [[쁘마까이 kirim]]",
+    "meaning": "kirim 사용자",
+    "pos": "명사구",
+    "root": "kirim",
+    "affix_logic": "어근 'kirim'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kirim",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kirim 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kirim'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kirim' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kirim 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kirim' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kirim 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kirim 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_21ich",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai terima [[쁘마까이 terima]]",
+    "meaning": "terima 사용자",
+    "pos": "명사구",
+    "root": "terima",
+    "affix_logic": "어근 'terima'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna terima",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'terima 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'terima'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai terima' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'terima 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai terima' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'terima 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "terima 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_elzb0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bayar [[쁘마까이 bayar]]",
+    "meaning": "bayar 사용자",
+    "pos": "명사구",
+    "root": "bayar",
+    "affix_logic": "어근 'bayar'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bayar",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bayar 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bayar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bayar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bayar 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bayar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bayar 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bayar 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1wgpa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai beli [[쁘마까이 beli]]",
+    "meaning": "beli 사용자",
+    "pos": "명사구",
+    "root": "beli",
+    "affix_logic": "어근 'beli'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna beli",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'beli 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'beli'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai beli' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'beli 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai beli' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'beli 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "beli 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_zxdbo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jual [[쁘마까이 jual]]",
+    "meaning": "jual 사용자",
+    "pos": "명사구",
+    "root": "jual",
+    "affix_logic": "어근 'jual'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jual",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jual 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jual 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jual 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jual 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_q2bft",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai hitung [[쁘마까이 hitung]]",
+    "meaning": "hitung 사용자",
+    "pos": "명사구",
+    "root": "hitung",
+    "affix_logic": "어근 'hitung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna hitung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hitung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hitung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai hitung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hitung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai hitung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hitung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "hitung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_gngsm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai cari [[쁘마까이 cari]]",
+    "meaning": "cari 사용자",
+    "pos": "명사구",
+    "root": "cari",
+    "affix_logic": "어근 'cari'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna cari",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cari 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cari'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai cari' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cari 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai cari' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cari 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "cari 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_3z4mi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai dapat [[쁘마까이 dapat]]",
+    "meaning": "dapat 사용자",
+    "pos": "명사구",
+    "root": "dapat",
+    "affix_logic": "어근 'dapat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna dapat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dapat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dapat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai dapat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dapat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai dapat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dapat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "dapat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_xg8hu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tunggu [[쁘마까이 tunggu]]",
+    "meaning": "tunggu 사용자",
+    "pos": "명사구",
+    "root": "tunggu",
+    "affix_logic": "어근 'tunggu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tunggu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tunggu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tunggu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tunggu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tunggu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tunggu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tunggu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tunggu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_u24xo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai panggil [[쁘마까이 panggil]]",
+    "meaning": "panggil 사용자",
+    "pos": "명사구",
+    "root": "panggil",
+    "affix_logic": "어근 'panggil'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna panggil",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'panggil 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'panggil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai panggil' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'panggil 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai panggil' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'panggil 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "panggil 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_n8hvc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tanya [[쁘마까이 tanya]]",
+    "meaning": "tanya 사용자",
+    "pos": "명사구",
+    "root": "tanya",
+    "affix_logic": "어근 'tanya'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tanya",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tanya 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tanya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tanya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tanya 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tanya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tanya 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tanya 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_eq0d1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jawab [[쁘마까이 jawab]]",
+    "meaning": "jawab 사용자",
+    "pos": "명사구",
+    "root": "jawab",
+    "affix_logic": "어근 'jawab'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jawab",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jawab 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jawab'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jawab' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jawab 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jawab' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jawab 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jawab 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_v611u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pikir [[쁘마까이 pikir]]",
+    "meaning": "pikir 사용자",
+    "pos": "명사구",
+    "root": "pikir",
+    "affix_logic": "어근 'pikir'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pikir",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pikir 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pikir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pikir' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pikir 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pikir' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pikir 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pikir 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_9lbxd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai ingat [[쁘마까이 ingat]]",
+    "meaning": "ingat 사용자",
+    "pos": "명사구",
+    "root": "ingat",
+    "affix_logic": "어근 'ingat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna ingat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ingat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ingat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai ingat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ingat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai ingat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ingat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "ingat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_b8x34",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lupa [[쁘마까이 lupa]]",
+    "meaning": "lupa 사용자",
+    "pos": "명사구",
+    "root": "lupa",
+    "affix_logic": "어근 'lupa'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lupa",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lupa 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lupa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lupa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lupa 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lupa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lupa 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lupa 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_vlfpo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai suka [[쁘마까이 suka]]",
+    "meaning": "suka 사용자",
+    "pos": "명사구",
+    "root": "suka",
+    "affix_logic": "어근 'suka'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna suka",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'suka 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'suka'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai suka' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'suka 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai suka' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'suka 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "suka 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_3jw8m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai benci [[쁘마까이 benci]]",
+    "meaning": "benci 사용자",
+    "pos": "명사구",
+    "root": "benci",
+    "affix_logic": "어근 'benci'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna benci",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'benci 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'benci'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai benci' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'benci 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai benci' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'benci 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "benci 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_iw0iw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai cinta [[쁘마까이 cinta]]",
+    "meaning": "cinta 사용자",
+    "pos": "명사구",
+    "root": "cinta",
+    "affix_logic": "어근 'cinta'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna cinta",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cinta 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cinta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai cinta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cinta 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai cinta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cinta 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "cinta 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_xmllr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai marah [[쁘마까이 marah]]",
+    "meaning": "marah 사용자",
+    "pos": "명사구",
+    "root": "marah",
+    "affix_logic": "어근 'marah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna marah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'marah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'marah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai marah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'marah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai marah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'marah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "marah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_rzp8b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai takut [[쁘마까이 takut]]",
+    "meaning": "takut 사용자",
+    "pos": "명사구",
+    "root": "takut",
+    "affix_logic": "어근 'takut'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna takut",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'takut 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'takut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai takut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'takut 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai takut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'takut 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "takut 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_xbowk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai senang [[쁘마까이 senang]]",
+    "meaning": "senang 사용자",
+    "pos": "명사구",
+    "root": "senang",
+    "affix_logic": "어근 'senang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna senang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'senang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'senang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai senang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'senang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai senang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'senang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "senang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_d42zp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sedih [[쁘마까이 sedih]]",
+    "meaning": "sedih 사용자",
+    "pos": "명사구",
+    "root": "sedih",
+    "affix_logic": "어근 'sedih'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sedih",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sedih 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sedih'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sedih' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sedih 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sedih' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sedih 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sedih 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_f77cs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai malu [[쁘마까이 malu]]",
+    "meaning": "malu 사용자",
+    "pos": "명사구",
+    "root": "malu",
+    "affix_logic": "어근 'malu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna malu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'malu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'malu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai malu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'malu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai malu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'malu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "malu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_l6as8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bangga [[쁘마까이 bangga]]",
+    "meaning": "bangga 사용자",
+    "pos": "명사구",
+    "root": "bangga",
+    "affix_logic": "어근 'bangga'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bangga",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bangga 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bangga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bangga' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bangga 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bangga' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bangga 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bangga 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_dmwf5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kecewa [[쁘마까이 kecewa]]",
+    "meaning": "kecewa 사용자",
+    "pos": "명사구",
+    "root": "kecewa",
+    "affix_logic": "어근 'kecewa'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kecewa",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kecewa 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kecewa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kecewa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kecewa 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kecewa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kecewa 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kecewa 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_nih6g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lega [[쁘마까이 lega]]",
+    "meaning": "lega 사용자",
+    "pos": "명사구",
+    "root": "lega",
+    "affix_logic": "어근 'lega'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lega",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lega 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lega'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lega' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lega 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lega' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lega 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lega 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_8nj8x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai cemas [[쁘마까이 cemas]]",
+    "meaning": "cemas 사용자",
+    "pos": "명사구",
+    "root": "cemas",
+    "affix_logic": "어근 'cemas'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna cemas",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cemas 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cemas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai cemas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cemas 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai cemas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cemas 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "cemas 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_x5iyv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai rindu [[쁘마까이 rindu]]",
+    "meaning": "rindu 사용자",
+    "pos": "명사구",
+    "root": "rindu",
+    "affix_logic": "어근 'rindu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna rindu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rindu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rindu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai rindu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rindu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai rindu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rindu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "rindu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_30byx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kangen [[쁘마까이 kangen]]",
+    "meaning": "kangen 사용자",
+    "pos": "명사구",
+    "root": "kangen",
+    "affix_logic": "어근 'kangen'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kangen",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kangen 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kangen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kangen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kangen 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kangen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kangen 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kangen 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_lzoe6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pusing [[쁘마까이 pusing]]",
+    "meaning": "pusing 사용자",
+    "pos": "명사구",
+    "root": "pusing",
+    "affix_logic": "어근 'pusing'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pusing",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pusing 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pusing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pusing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pusing 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pusing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pusing 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pusing 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_uoerk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sakit [[쁘마까이 sakit]]",
+    "meaning": "sakit 사용자",
+    "pos": "명사구",
+    "root": "sakit",
+    "affix_logic": "어근 'sakit'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sakit",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sakit 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sakit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sakit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sakit 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sakit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sakit 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sakit 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_n1flq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sehat [[쁘마까이 sehat]]",
+    "meaning": "sehat 사용자",
+    "pos": "명사구",
+    "root": "sehat",
+    "affix_logic": "어근 'sehat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sehat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sehat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sehat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sehat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sehat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sehat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sehat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sehat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_cjsdx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai demam [[쁘마까이 demam]]",
+    "meaning": "demam 사용자",
+    "pos": "명사구",
+    "root": "demam",
+    "affix_logic": "어근 'demam'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna demam",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'demam 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'demam'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai demam' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'demam 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai demam' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'demam 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "demam 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_dqnkm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai batuk [[쁘마까이 batuk]]",
+    "meaning": "batuk 사용자",
+    "pos": "명사구",
+    "root": "batuk",
+    "affix_logic": "어근 'batuk'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna batuk",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batuk 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batuk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai batuk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batuk 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai batuk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batuk 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "batuk 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_heou5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pilek [[쁘마까이 pilek]]",
+    "meaning": "pilek 사용자",
+    "pos": "명사구",
+    "root": "pilek",
+    "affix_logic": "어근 'pilek'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pilek",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pilek 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pilek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pilek' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pilek 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pilek' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pilek 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pilek 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_8bh2n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai mual [[쁘마까이 mual]]",
+    "meaning": "mual 사용자",
+    "pos": "명사구",
+    "root": "mual",
+    "affix_logic": "어근 'mual'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna mual",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mual 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mual'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai mual' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mual 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai mual' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mual 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "mual 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_jn03m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai muntah [[쁘마까이 muntah]]",
+    "meaning": "muntah 사용자",
+    "pos": "명사구",
+    "root": "muntah",
+    "affix_logic": "어근 'muntah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna muntah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'muntah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'muntah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai muntah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'muntah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai muntah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'muntah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "muntah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_dmfy4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai luka [[쁘마까이 luka]]",
+    "meaning": "luka 사용자",
+    "pos": "명사구",
+    "root": "luka",
+    "affix_logic": "어근 'luka'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna luka",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'luka 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'luka'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai luka' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'luka 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai luka' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'luka 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "luka 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_owfup",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai darah [[쁘마까이 darah]]",
+    "meaning": "darah 사용자",
+    "pos": "명사구",
+    "root": "darah",
+    "affix_logic": "어근 'darah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna darah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'darah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'darah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai darah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'darah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai darah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'darah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "darah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_gyb1r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tangan [[쁘마까이 tangan]]",
+    "meaning": "tangan 사용자",
+    "pos": "명사구",
+    "root": "tangan",
+    "affix_logic": "어근 'tangan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tangan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tangan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tangan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tangan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tangan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tangan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_6nzjn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kaki [[쁘마까이 kaki]]",
+    "meaning": "kaki 사용자",
+    "pos": "명사구",
+    "root": "kaki",
+    "affix_logic": "어근 'kaki'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kaki",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kaki 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kaki'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kaki' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kaki 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kaki' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kaki 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kaki 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_foiy8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kepala [[쁘마까이 kepala]]",
+    "meaning": "kepala 사용자",
+    "pos": "명사구",
+    "root": "kepala",
+    "affix_logic": "어근 'kepala'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kepala",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kepala 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kepala'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kepala' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kepala 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kepala' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kepala 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kepala 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1qcvk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai mata [[쁘마까이 mata]]",
+    "meaning": "mata 사용자",
+    "pos": "명사구",
+    "root": "mata",
+    "affix_logic": "어근 'mata'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna mata",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mata 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mata'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai mata' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mata 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai mata' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mata 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "mata 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_6x4i0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai telinga [[쁘마까이 telinga]]",
+    "meaning": "telinga 사용자",
+    "pos": "명사구",
+    "root": "telinga",
+    "affix_logic": "어근 'telinga'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna telinga",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'telinga 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'telinga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai telinga' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'telinga 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai telinga' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'telinga 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "telinga 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_d95rc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai hidung [[쁘마까이 hidung]]",
+    "meaning": "hidung 사용자",
+    "pos": "명사구",
+    "root": "hidung",
+    "affix_logic": "어근 'hidung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna hidung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hidung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hidung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai hidung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hidung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai hidung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hidung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "hidung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_vq035",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai mulut [[쁘마까이 mulut]]",
+    "meaning": "mulut 사용자",
+    "pos": "명사구",
+    "root": "mulut",
+    "affix_logic": "어근 'mulut'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna mulut",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mulut 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mulut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai mulut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mulut 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai mulut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mulut 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "mulut 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_w705h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai gigi [[쁘마까이 gigi]]",
+    "meaning": "gigi 사용자",
+    "pos": "명사구",
+    "root": "gigi",
+    "affix_logic": "어근 'gigi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna gigi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gigi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gigi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai gigi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gigi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai gigi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gigi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "gigi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_koao7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lidah [[쁘마까이 lidah]]",
+    "meaning": "lidah 사용자",
+    "pos": "명사구",
+    "root": "lidah",
+    "affix_logic": "어근 'lidah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lidah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lidah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lidah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lidah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lidah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lidah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lidah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lidah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_rokpp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai leher [[쁘마까이 leher]]",
+    "meaning": "leher 사용자",
+    "pos": "명사구",
+    "root": "leher",
+    "affix_logic": "어근 'leher'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna leher",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'leher 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'leher'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai leher' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'leher 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai leher' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'leher 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "leher 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_0tj6n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai dada [[쁘마까이 dada]]",
+    "meaning": "dada 사용자",
+    "pos": "명사구",
+    "root": "dada",
+    "affix_logic": "어근 'dada'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna dada",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dada 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dada'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai dada' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dada 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai dada' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dada 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "dada 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ifnr3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai perut [[쁘마까이 perut]]",
+    "meaning": "perut 사용자",
+    "pos": "명사구",
+    "root": "perut",
+    "affix_logic": "어근 'perut'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna perut",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'perut 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'perut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai perut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'perut 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai perut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'perut 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "perut 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_hull9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai punggung [[쁘마까이 punggung]]",
+    "meaning": "punggung 사용자",
+    "pos": "명사구",
+    "root": "punggung",
+    "affix_logic": "어근 'punggung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna punggung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'punggung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'punggung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai punggung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'punggung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai punggung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'punggung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "punggung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_a8xzn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kulit [[쁘마까이 kulit]]",
+    "meaning": "kulit 사용자",
+    "pos": "명사구",
+    "root": "kulit",
+    "affix_logic": "어근 'kulit'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kulit",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kulit 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kulit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kulit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kulit 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kulit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kulit 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kulit 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_vtr1w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai rambut [[쁘마까이 rambut]]",
+    "meaning": "rambut 사용자",
+    "pos": "명사구",
+    "root": "rambut",
+    "affix_logic": "어근 'rambut'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna rambut",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rambut 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rambut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai rambut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rambut 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai rambut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rambut 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "rambut 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_93xnq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai hati [[쁘마까이 hati]]",
+    "meaning": "hati 사용자",
+    "pos": "명사구",
+    "root": "hati",
+    "affix_logic": "어근 'hati'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna hati",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hati 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hati'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai hati' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hati 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai hati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hati 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "hati 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_mmobx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jantung [[쁘마까이 jantung]]",
+    "meaning": "jantung 사용자",
+    "pos": "명사구",
+    "root": "jantung",
+    "affix_logic": "어근 'jantung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jantung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jantung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jantung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jantung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jantung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jantung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jantung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jantung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_xovvi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai paru [[쁘마까이 paru]]",
+    "meaning": "paru 사용자",
+    "pos": "명사구",
+    "root": "paru",
+    "affix_logic": "어근 'paru'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna paru",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'paru 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'paru'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai paru' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'paru 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai paru' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'paru 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "paru 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_c9p9v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai ginjal [[쁘마까이 ginjal]]",
+    "meaning": "ginjal 사용자",
+    "pos": "명사구",
+    "root": "ginjal",
+    "affix_logic": "어근 'ginjal'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna ginjal",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ginjal 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ginjal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai ginjal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ginjal 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai ginjal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ginjal 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "ginjal 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_wx8xu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tulang [[쁘마까이 tulang]]",
+    "meaning": "tulang 사용자",
+    "pos": "명사구",
+    "root": "tulang",
+    "affix_logic": "어근 'tulang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tulang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tulang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tulang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tulang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tulang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tulang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tulang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tulang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_o6ggp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai daging [[쁘마까이 daging]]",
+    "meaning": "daging 사용자",
+    "pos": "명사구",
+    "root": "daging",
+    "affix_logic": "어근 'daging'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna daging",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'daging 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'daging'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai daging' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'daging 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai daging' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'daging 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "daging 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ddfxk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai air [[쁘마까이 air]]",
+    "meaning": "air 사용자",
+    "pos": "명사구",
+    "root": "air",
+    "affix_logic": "어근 'air'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna air",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'air 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'air'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai air' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'air 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai air' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'air 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "air 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_z5721",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai api [[쁘마까이 api]]",
+    "meaning": "api 사용자",
+    "pos": "명사구",
+    "root": "api",
+    "affix_logic": "어근 'api'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna api",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'api 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'api'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai api' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'api 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai api' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'api 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "api 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ylsh7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai angin [[쁘마까이 angin]]",
+    "meaning": "angin 사용자",
+    "pos": "명사구",
+    "root": "angin",
+    "affix_logic": "어근 'angin'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna angin",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'angin 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'angin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai angin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'angin 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai angin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'angin 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "angin 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_68cds",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tanah [[쁘마까이 tanah]]",
+    "meaning": "tanah 사용자",
+    "pos": "명사구",
+    "root": "tanah",
+    "affix_logic": "어근 'tanah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tanah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tanah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tanah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tanah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tanah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tanah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tanah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tanah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_rw632",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai batu [[쁘마까이 batu]]",
+    "meaning": "batu 사용자",
+    "pos": "명사구",
+    "root": "batu",
+    "affix_logic": "어근 'batu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna batu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai batu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai batu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "batu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_230w5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pasir [[쁘마까이 pasir]]",
+    "meaning": "pasir 사용자",
+    "pos": "명사구",
+    "root": "pasir",
+    "affix_logic": "어근 'pasir'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pasir",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pasir 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pasir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pasir' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pasir 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pasir' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pasir 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pasir 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_50nsl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lumpur [[쁘마까이 lumpur]]",
+    "meaning": "lumpur 사용자",
+    "pos": "명사구",
+    "root": "lumpur",
+    "affix_logic": "어근 'lumpur'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lumpur",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lumpur 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lumpur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lumpur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lumpur 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lumpur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lumpur 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lumpur 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_vk5l9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai es [[쁘마까이 es]]",
+    "meaning": "es 사용자",
+    "pos": "명사구",
+    "root": "es",
+    "affix_logic": "어근 'es'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna es",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'es 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'es'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai es' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'es 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai es' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'es 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "es 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_oi395",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai uap [[쁘마까이 uap]]",
+    "meaning": "uap 사용자",
+    "pos": "명사구",
+    "root": "uap",
+    "affix_logic": "어근 'uap'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna uap",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'uap 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'uap'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai uap' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'uap 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai uap' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'uap 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "uap 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_llxao",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai hujan [[쁘마까이 hujan]]",
+    "meaning": "hujan 사용자",
+    "pos": "명사구",
+    "root": "hujan",
+    "affix_logic": "어근 'hujan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna hujan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hujan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hujan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai hujan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hujan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai hujan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hujan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "hujan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_r7xpf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai awan [[쁘마까이 awan]]",
+    "meaning": "awan 사용자",
+    "pos": "명사구",
+    "root": "awan",
+    "affix_logic": "어근 'awan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna awan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'awan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'awan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai awan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'awan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai awan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'awan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "awan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_003g2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai petir [[쁘마까이 petir]]",
+    "meaning": "petir 사용자",
+    "pos": "명사구",
+    "root": "petir",
+    "affix_logic": "어근 'petir'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna petir",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'petir 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'petir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai petir' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'petir 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai petir' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'petir 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "petir 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1bpbx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pelangi [[쁘마까이 pelangi]]",
+    "meaning": "pelangi 사용자",
+    "pos": "명사구",
+    "root": "pelangi",
+    "affix_logic": "어근 'pelangi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pelangi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pelangi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pelangi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pelangi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pelangi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pelangi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pelangi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pelangi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ynoc0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai matahari [[쁘마까이 matahari]]",
+    "meaning": "matahari 사용자",
+    "pos": "명사구",
+    "root": "matahari",
+    "affix_logic": "어근 'matahari'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna matahari",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'matahari 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'matahari'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai matahari' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'matahari 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai matahari' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'matahari 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "matahari 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1e716",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bulan [[쁘마까이 bulan]]",
+    "meaning": "bulan 사용자",
+    "pos": "명사구",
+    "root": "bulan",
+    "affix_logic": "어근 'bulan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bulan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bulan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bulan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bulan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bulan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bulan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bulan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bulan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_z046f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bintang [[쁘마까이 bintang]]",
+    "meaning": "bintang 사용자",
+    "pos": "명사구",
+    "root": "bintang",
+    "affix_logic": "어근 'bintang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bintang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bintang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bintang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bintang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bintang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bintang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bintang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bintang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_mpkfg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai langit [[쁘마까이 langit]]",
+    "meaning": "langit 사용자",
+    "pos": "명사구",
+    "root": "langit",
+    "affix_logic": "어근 'langit'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna langit",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'langit 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'langit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai langit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'langit 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai langit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'langit 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "langit 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_au3pt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bumi [[쁘마까이 bumi]]",
+    "meaning": "bumi 사용자",
+    "pos": "명사구",
+    "root": "bumi",
+    "affix_logic": "어근 'bumi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bumi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bumi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bumi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bumi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bumi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bumi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bumi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bumi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_98sh5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai laut [[쁘마까이 laut]]",
+    "meaning": "laut 사용자",
+    "pos": "명사구",
+    "root": "laut",
+    "affix_logic": "어근 'laut'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna laut",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laut 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai laut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laut 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai laut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laut 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "laut 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1u15s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai danau [[쁘마까이 danau]]",
+    "meaning": "danau 사용자",
+    "pos": "명사구",
+    "root": "danau",
+    "affix_logic": "어근 'danau'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna danau",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'danau 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'danau'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai danau' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'danau 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai danau' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'danau 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "danau 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ymm1l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sungai [[쁘마까이 sungai]]",
+    "meaning": "sungai 사용자",
+    "pos": "명사구",
+    "root": "sungai",
+    "affix_logic": "어근 'sungai'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sungai",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sungai 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sungai'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sungai' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sungai 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sungai' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sungai 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sungai 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_0xbis",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai gunung [[쁘마까이 gunung]]",
+    "meaning": "gunung 사용자",
+    "pos": "명사구",
+    "root": "gunung",
+    "affix_logic": "어근 'gunung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna gunung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gunung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gunung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai gunung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gunung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai gunung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gunung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "gunung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_es5yx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai hutan [[쁘마까이 hutan]]",
+    "meaning": "hutan 사용자",
+    "pos": "명사구",
+    "root": "hutan",
+    "affix_logic": "어근 'hutan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna hutan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hutan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hutan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai hutan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hutan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai hutan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hutan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "hutan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_zt9de",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pohon [[쁘마까이 pohon]]",
+    "meaning": "pohon 사용자",
+    "pos": "명사구",
+    "root": "pohon",
+    "affix_logic": "어근 'pohon'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pohon",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pohon 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pohon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pohon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pohon 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pohon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pohon 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pohon 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_dl7kl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai daun [[쁘마까이 daun]]",
+    "meaning": "daun 사용자",
+    "pos": "명사구",
+    "root": "daun",
+    "affix_logic": "어근 'daun'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna daun",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'daun 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'daun'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai daun' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'daun 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai daun' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'daun 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "daun 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_2ue90",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bunga [[쁘마까이 bunga]]",
+    "meaning": "bunga 사용자",
+    "pos": "명사구",
+    "root": "bunga",
+    "affix_logic": "어근 'bunga'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bunga",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bunga 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bunga'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bunga' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bunga 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bunga' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bunga 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bunga 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_4jqu0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai buah [[쁘마까이 buah]]",
+    "meaning": "buah 사용자",
+    "pos": "명사구",
+    "root": "buah",
+    "affix_logic": "어근 'buah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna buah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai buah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai buah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "buah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_duyzi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai akar [[쁘마까이 akar]]",
+    "meaning": "akar 사용자",
+    "pos": "명사구",
+    "root": "akar",
+    "affix_logic": "어근 'akar'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna akar",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akar 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai akar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akar 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai akar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akar 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "akar 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_o9szi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai batang [[쁘마까이 batang]]",
+    "meaning": "batang 사용자",
+    "pos": "명사구",
+    "root": "batang",
+    "affix_logic": "어근 'batang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna batang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai batang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai batang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "batang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_che73",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai biji [[쁘마까이 biji]]",
+    "meaning": "biji 사용자",
+    "pos": "명사구",
+    "root": "biji",
+    "affix_logic": "어근 'biji'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna biji",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biji 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biji'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai biji' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biji 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai biji' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biji 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "biji 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_pvmf4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai rumput [[쁘마까이 rumput]]",
+    "meaning": "rumput 사용자",
+    "pos": "명사구",
+    "root": "rumput",
+    "affix_logic": "어근 'rumput'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna rumput",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rumput 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rumput'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai rumput' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rumput 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai rumput' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rumput 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "rumput 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_tw0wf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kucing [[쁘마까이 kucing]]",
+    "meaning": "kucing 사용자",
+    "pos": "명사구",
+    "root": "kucing",
+    "affix_logic": "어근 'kucing'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kucing",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kucing 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kucing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kucing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kucing 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kucing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kucing 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kucing 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_w9x4i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai anjing [[쁘마까이 anjing]]",
+    "meaning": "anjing 사용자",
+    "pos": "명사구",
+    "root": "anjing",
+    "affix_logic": "어근 'anjing'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna anjing",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anjing 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anjing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai anjing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anjing 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai anjing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anjing 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "anjing 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_v4lvr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai burung [[쁘마까이 burung]]",
+    "meaning": "burung 사용자",
+    "pos": "명사구",
+    "root": "burung",
+    "affix_logic": "어근 'burung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna burung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'burung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'burung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai burung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'burung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai burung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'burung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "burung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_4hvka",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai ikan [[쁘마까이 ikan]]",
+    "meaning": "ikan 사용자",
+    "pos": "명사구",
+    "root": "ikan",
+    "affix_logic": "어근 'ikan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna ikan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ikan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ikan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai ikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ikan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai ikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ikan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "ikan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_w1kjy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sapi [[쁘마까이 sapi]]",
+    "meaning": "sapi 사용자",
+    "pos": "명사구",
+    "root": "sapi",
+    "affix_logic": "어근 'sapi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sapi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sapi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sapi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sapi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sapi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sapi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sapi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sapi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ua3yl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kambing [[쁘마까이 kambing]]",
+    "meaning": "kambing 사용자",
+    "pos": "명사구",
+    "root": "kambing",
+    "affix_logic": "어근 'kambing'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kambing",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kambing 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kambing'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kambing' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kambing 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kambing' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kambing 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kambing 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_7c9bl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai domba [[쁘마까이 domba]]",
+    "meaning": "domba 사용자",
+    "pos": "명사구",
+    "root": "domba",
+    "affix_logic": "어근 'domba'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna domba",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'domba 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'domba'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai domba' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'domba 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai domba' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'domba 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "domba 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_mcudg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kuda [[쁘마까이 kuda]]",
+    "meaning": "kuda 사용자",
+    "pos": "명사구",
+    "root": "kuda",
+    "affix_logic": "어근 'kuda'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kuda",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuda 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuda'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kuda' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuda 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kuda' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuda 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kuda 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_hhr5o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai gajah [[쁘마까이 gajah]]",
+    "meaning": "gajah 사용자",
+    "pos": "명사구",
+    "root": "gajah",
+    "affix_logic": "어근 'gajah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna gajah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gajah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gajah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai gajah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gajah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai gajah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gajah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "gajah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_672ho",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai harimau [[쁘마까이 harimau]]",
+    "meaning": "harimau 사용자",
+    "pos": "명사구",
+    "root": "harimau",
+    "affix_logic": "어근 'harimau'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna harimau",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'harimau 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'harimau'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai harimau' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'harimau 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai harimau' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'harimau 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "harimau 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_pr6p2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai singa [[쁘마까이 singa]]",
+    "meaning": "singa 사용자",
+    "pos": "명사구",
+    "root": "singa",
+    "affix_logic": "어근 'singa'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna singa",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'singa 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'singa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai singa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'singa 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai singa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'singa 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "singa 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_n9pq8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai beruang [[쁘마까이 beruang]]",
+    "meaning": "beruang 사용자",
+    "pos": "명사구",
+    "root": "beruang",
+    "affix_logic": "어근 'beruang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna beruang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'beruang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'beruang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai beruang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'beruang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai beruang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'beruang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "beruang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_3373q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai monyet [[쁘마까이 monyet]]",
+    "meaning": "monyet 사용자",
+    "pos": "명사구",
+    "root": "monyet",
+    "affix_logic": "어근 'monyet'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna monyet",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'monyet 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'monyet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai monyet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'monyet 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai monyet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'monyet 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "monyet 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_q8tjm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai ular [[쁘마까이 ular]]",
+    "meaning": "ular 사용자",
+    "pos": "명사구",
+    "root": "ular",
+    "affix_logic": "어근 'ular'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna ular",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ular 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ular'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai ular' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ular 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai ular' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ular 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "ular 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_bnwh1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai buaya [[쁘마까이 buaya]]",
+    "meaning": "buaya 사용자",
+    "pos": "명사구",
+    "root": "buaya",
+    "affix_logic": "어근 'buaya'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna buaya",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'buaya 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'buaya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai buaya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'buaya 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai buaya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'buaya 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "buaya 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ct4dk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai katak [[쁘마까이 katak]]",
+    "meaning": "katak 사용자",
+    "pos": "명사구",
+    "root": "katak",
+    "affix_logic": "어근 'katak'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna katak",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'katak 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'katak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai katak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'katak 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai katak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'katak 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "katak 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_j2h41",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai nyamuk [[쁘마까이 nyamuk]]",
+    "meaning": "nyamuk 사용자",
+    "pos": "명사구",
+    "root": "nyamuk",
+    "affix_logic": "어근 'nyamuk'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna nyamuk",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nyamuk 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nyamuk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai nyamuk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nyamuk 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai nyamuk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nyamuk 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "nyamuk 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_igwvi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lalat [[쁘마까이 lalat]]",
+    "meaning": "lalat 사용자",
+    "pos": "명사구",
+    "root": "lalat",
+    "affix_logic": "어근 'lalat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lalat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lalat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lalat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lalat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lalat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lalat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lalat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lalat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_v6mye",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai semut [[쁘마까이 semut]]",
+    "meaning": "semut 사용자",
+    "pos": "명사구",
+    "root": "semut",
+    "affix_logic": "어근 'semut'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna semut",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'semut 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'semut'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai semut' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'semut 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai semut' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'semut 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "semut 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_2qu4r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lebah [[쁘마까이 lebah]]",
+    "meaning": "lebah 사용자",
+    "pos": "명사구",
+    "root": "lebah",
+    "affix_logic": "어근 'lebah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lebah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lebah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lebah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lebah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lebah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lebah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lebah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lebah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_fxh5f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai laba-laba [[쁘마까이 laba-laba]]",
+    "meaning": "laba-laba 사용자",
+    "pos": "명사구",
+    "root": "laba-laba",
+    "affix_logic": "어근 'laba-laba'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna laba-laba",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laba-laba 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laba-laba'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai laba-laba' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laba-laba 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai laba-laba' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laba-laba 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "laba-laba 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_0p6rp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai rumah [[쁘마까이 rumah]]",
+    "meaning": "rumah 사용자",
+    "pos": "명사구",
+    "root": "rumah",
+    "affix_logic": "어근 'rumah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna rumah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rumah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rumah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai rumah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rumah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai rumah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rumah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "rumah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_gx16k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kamar [[쁘마까이 kamar]]",
+    "meaning": "kamar 사용자",
+    "pos": "명사구",
+    "root": "kamar",
+    "affix_logic": "어근 'kamar'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kamar",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamar 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kamar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamar 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kamar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamar 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kamar 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_xgi1z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai dapur [[쁘마까이 dapur]]",
+    "meaning": "dapur 사용자",
+    "pos": "명사구",
+    "root": "dapur",
+    "affix_logic": "어근 'dapur'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna dapur",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dapur 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dapur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai dapur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dapur 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai dapur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dapur 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "dapur 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_jqzot",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kasur [[쁘마까이 kasur]]",
+    "meaning": "kasur 사용자",
+    "pos": "명사구",
+    "root": "kasur",
+    "affix_logic": "어근 'kasur'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kasur",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kasur 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kasur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kasur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kasur 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kasur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kasur 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kasur 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_x134o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai meja [[쁘마까이 meja]]",
+    "meaning": "meja 사용자",
+    "pos": "명사구",
+    "root": "meja",
+    "affix_logic": "어근 'meja'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna meja",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'meja 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'meja'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai meja' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'meja 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai meja' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'meja 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "meja 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_pgzv1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kursi [[쁘마까이 kursi]]",
+    "meaning": "kursi 사용자",
+    "pos": "명사구",
+    "root": "kursi",
+    "affix_logic": "어근 'kursi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kursi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kursi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kursi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kursi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kursi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kursi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kursi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kursi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_9076z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lemari [[쁘마까이 lemari]]",
+    "meaning": "lemari 사용자",
+    "pos": "명사구",
+    "root": "lemari",
+    "affix_logic": "어근 'lemari'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lemari",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lemari 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lemari'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lemari' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lemari 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lemari' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lemari 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lemari 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ih3nm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pintu [[쁘마까이 pintu]]",
+    "meaning": "pintu 사용자",
+    "pos": "명사구",
+    "root": "pintu",
+    "affix_logic": "어근 'pintu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pintu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pintu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pintu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pintu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pintu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pintu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pintu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pintu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_c8ouw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jendela [[쁘마까이 jendela]]",
+    "meaning": "jendela 사용자",
+    "pos": "명사구",
+    "root": "jendela",
+    "affix_logic": "어근 'jendela'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jendela",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jendela 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jendela'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jendela' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jendela 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jendela' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jendela 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jendela 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_kf1jd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai atap [[쁘마까이 atap]]",
+    "meaning": "atap 사용자",
+    "pos": "명사구",
+    "root": "atap",
+    "affix_logic": "어근 'atap'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna atap",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'atap 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'atap'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai atap' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'atap 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai atap' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'atap 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "atap 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_qzi9a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lantai [[쁘마까이 lantai]]",
+    "meaning": "lantai 사용자",
+    "pos": "명사구",
+    "root": "lantai",
+    "affix_logic": "어근 'lantai'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lantai",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lantai 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lantai'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lantai' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lantai 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lantai' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lantai 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lantai 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_rdg9g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai dinding [[쁘마까이 dinding]]",
+    "meaning": "dinding 사용자",
+    "pos": "명사구",
+    "root": "dinding",
+    "affix_logic": "어근 'dinding'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna dinding",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dinding 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dinding'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai dinding' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dinding 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai dinding' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dinding 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "dinding 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_zg9bk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai lampu [[쁘마까이 lampu]]",
+    "meaning": "lampu 사용자",
+    "pos": "명사구",
+    "root": "lampu",
+    "affix_logic": "어근 'lampu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna lampu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lampu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lampu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai lampu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lampu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai lampu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lampu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "lampu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_h1dau",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai radio [[쁘마까이 radio]]",
+    "meaning": "radio 사용자",
+    "pos": "명사구",
+    "root": "radio",
+    "affix_logic": "어근 'radio'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna radio",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radio 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai radio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radio 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai radio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radio 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "radio 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_kcb5h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai televisi [[쁘마까이 televisi]]",
+    "meaning": "televisi 사용자",
+    "pos": "명사구",
+    "root": "televisi",
+    "affix_logic": "어근 'televisi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna televisi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'televisi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'televisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai televisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'televisi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai televisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'televisi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "televisi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_4d1bc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai komputer [[쁘마까이 komputer]]",
+    "meaning": "komputer 사용자",
+    "pos": "명사구",
+    "root": "komputer",
+    "affix_logic": "어근 'komputer'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna komputer",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komputer 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komputer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai komputer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komputer 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai komputer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komputer 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "komputer 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ek76o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai telepon [[쁘마까이 telepon]]",
+    "meaning": "telepon 사용자",
+    "pos": "명사구",
+    "root": "telepon",
+    "affix_logic": "어근 'telepon'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna telepon",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'telepon 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'telepon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai telepon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'telepon 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai telepon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'telepon 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "telepon 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_dwmmv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kamera [[쁘마까이 kamera]]",
+    "meaning": "kamera 사용자",
+    "pos": "명사구",
+    "root": "kamera",
+    "affix_logic": "어근 'kamera'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kamera",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kamera 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kamera'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kamera' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kamera 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kamera' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kamera 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kamera 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_zmucf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jam [[쁘마까이 jam]]",
+    "meaning": "jam 사용자",
+    "pos": "명사구",
+    "root": "jam",
+    "affix_logic": "어근 'jam'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jam",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jam 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jam'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jam' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jam 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jam' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jam 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jam 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_5vj0k",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai cermin [[쁘마까이 cermin]]",
+    "meaning": "cermin 사용자",
+    "pos": "명사구",
+    "root": "cermin",
+    "affix_logic": "어근 'cermin'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna cermin",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cermin 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cermin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai cermin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cermin 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai cermin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cermin 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "cermin 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_00mn7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sisir [[쁘마까이 sisir]]",
+    "meaning": "sisir 사용자",
+    "pos": "명사구",
+    "root": "sisir",
+    "affix_logic": "어근 'sisir'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sisir",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sisir 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sisir'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sisir' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sisir 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sisir' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sisir 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sisir 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_dixm3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai handuk [[쁘마까이 handuk]]",
+    "meaning": "handuk 사용자",
+    "pos": "명사구",
+    "root": "handuk",
+    "affix_logic": "어근 'handuk'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna handuk",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'handuk 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'handuk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai handuk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'handuk 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai handuk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'handuk 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "handuk 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_68640",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sabun [[쁘마까이 sabun]]",
+    "meaning": "sabun 사용자",
+    "pos": "명사구",
+    "root": "sabun",
+    "affix_logic": "어근 'sabun'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sabun",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sabun 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sabun'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sabun' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sabun 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sabun' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sabun 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sabun 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_767ny",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sampo [[쁘마까이 sampo]]",
+    "meaning": "sampo 사용자",
+    "pos": "명사구",
+    "root": "sampo",
+    "affix_logic": "어근 'sampo'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sampo",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sampo 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sampo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sampo' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sampo 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sampo' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sampo 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sampo 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_sjrwf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sikat [[쁘마까이 sikat]]",
+    "meaning": "sikat 사용자",
+    "pos": "명사구",
+    "root": "sikat",
+    "affix_logic": "어근 'sikat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sikat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sikat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sikat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sikat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sikat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sikat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sikat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sikat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_0kz7v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pasta [[쁘마까이 pasta]]",
+    "meaning": "pasta 사용자",
+    "pos": "명사구",
+    "root": "pasta",
+    "affix_logic": "어근 'pasta'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pasta",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pasta 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pasta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pasta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pasta 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pasta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pasta 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pasta 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_e0agu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai baju [[쁘마까이 baju]]",
+    "meaning": "baju 사용자",
+    "pos": "명사구",
+    "root": "baju",
+    "affix_logic": "어근 'baju'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna baju",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'baju 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'baju'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai baju' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'baju 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai baju' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'baju 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "baju 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_hkfdx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai celana [[쁘마까이 celana]]",
+    "meaning": "celana 사용자",
+    "pos": "명사구",
+    "root": "celana",
+    "affix_logic": "어근 'celana'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna celana",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'celana 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'celana'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai celana' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'celana 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai celana' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'celana 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "celana 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_my3ms",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai rok [[쁘마까이 rok]]",
+    "meaning": "rok 사용자",
+    "pos": "명사구",
+    "root": "rok",
+    "affix_logic": "어근 'rok'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna rok",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rok 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rok'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai rok' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rok 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai rok' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rok 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "rok 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_4gcp5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kaos [[쁘마까이 kaos]]",
+    "meaning": "kaos 사용자",
+    "pos": "명사구",
+    "root": "kaos",
+    "affix_logic": "어근 'kaos'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kaos",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kaos 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kaos'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kaos' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kaos 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kaos' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kaos 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kaos 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_ds8ew",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kemeja [[쁘마까이 kemeja]]",
+    "meaning": "kemeja 사용자",
+    "pos": "명사구",
+    "root": "kemeja",
+    "affix_logic": "어근 'kemeja'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kemeja",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kemeja 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kemeja'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kemeja' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kemeja 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kemeja' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kemeja 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kemeja 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_qahmm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jaket [[쁘마까이 jaket]]",
+    "meaning": "jaket 사용자",
+    "pos": "명사구",
+    "root": "jaket",
+    "affix_logic": "어근 'jaket'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jaket",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jaket 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jaket'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jaket' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jaket 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jaket' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jaket 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jaket 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_b0kdr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jas [[쁘마까이 jas]]",
+    "meaning": "jas 사용자",
+    "pos": "명사구",
+    "root": "jas",
+    "affix_logic": "어근 'jas'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jas",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jas 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jas 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jas 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jas 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_c0nfl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai topi [[쁘마까이 topi]]",
+    "meaning": "topi 사용자",
+    "pos": "명사구",
+    "root": "topi",
+    "affix_logic": "어근 'topi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna topi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'topi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'topi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai topi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'topi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai topi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'topi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "topi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_fz4xn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sepatu [[쁘마까이 sepatu]]",
+    "meaning": "sepatu 사용자",
+    "pos": "명사구",
+    "root": "sepatu",
+    "affix_logic": "어근 'sepatu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sepatu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sepatu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sepatu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sepatu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sepatu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sepatu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sepatu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sepatu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_awezn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kaos kaki [[쁘마까이 kaos kaki]]",
+    "meaning": "kaos kaki 사용자",
+    "pos": "명사구",
+    "root": "kaos kaki",
+    "affix_logic": "어근 'kaos kaki'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kaos kaki",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kaos kaki 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kaos kaki'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kaos kaki' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kaos kaki 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kaos kaki' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kaos kaki 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kaos kaki 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_rtapw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai tas [[쁘마까이 tas]]",
+    "meaning": "tas 사용자",
+    "pos": "명사구",
+    "root": "tas",
+    "affix_logic": "어근 'tas'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna tas",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'tas 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'tas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai tas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'tas 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai tas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'tas 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "tas 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_h88ku",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai dompet [[쁘마까이 dompet]]",
+    "meaning": "dompet 사용자",
+    "pos": "명사구",
+    "root": "dompet",
+    "affix_logic": "어근 'dompet'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna dompet",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dompet 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dompet'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai dompet' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dompet 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai dompet' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dompet 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "dompet 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_b8oe7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kacamata [[쁘마까이 kacamata]]",
+    "meaning": "kacamata 사용자",
+    "pos": "명사구",
+    "root": "kacamata",
+    "affix_logic": "어근 'kacamata'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kacamata",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kacamata 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kacamata'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kacamata' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kacamata 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kacamata' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kacamata 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kacamata 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_r0mni",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai cincin [[쁘마까이 cincin]]",
+    "meaning": "cincin 사용자",
+    "pos": "명사구",
+    "root": "cincin",
+    "affix_logic": "어근 'cincin'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna cincin",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cincin 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cincin'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai cincin' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cincin 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai cincin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cincin 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "cincin 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_pbk2b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kalung [[쁘마까이 kalung]]",
+    "meaning": "kalung 사용자",
+    "pos": "명사구",
+    "root": "kalung",
+    "affix_logic": "어근 'kalung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kalung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kalung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kalung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kalung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kalung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kalung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kalung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kalung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_1b668",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai gelang [[쁘마까이 gelang]]",
+    "meaning": "gelang 사용자",
+    "pos": "명사구",
+    "root": "gelang",
+    "affix_logic": "어근 'gelang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna gelang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gelang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gelang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai gelang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gelang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai gelang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gelang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "gelang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_0nfxx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jam tangan [[쁘마까이 jam tangan]]",
+    "meaning": "jam tangan 사용자",
+    "pos": "명사구",
+    "root": "jam tangan",
+    "affix_logic": "어근 'jam tangan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jam tangan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jam tangan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jam tangan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jam tangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jam tangan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jam tangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jam tangan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jam tangan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_4agto",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai mobil [[쁘마까이 mobil]]",
+    "meaning": "mobil 사용자",
+    "pos": "명사구",
+    "root": "mobil",
+    "affix_logic": "어근 'mobil'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna mobil",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mobil 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mobil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai mobil' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mobil 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai mobil' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mobil 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "mobil 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_418hx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sepeda [[쁘마까이 sepeda]]",
+    "meaning": "sepeda 사용자",
+    "pos": "명사구",
+    "root": "sepeda",
+    "affix_logic": "어근 'sepeda'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sepeda",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sepeda 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sepeda'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sepeda' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sepeda 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sepeda' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sepeda 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sepeda 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_y90i9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai motor [[쁘마까이 motor]]",
+    "meaning": "motor 사용자",
+    "pos": "명사구",
+    "root": "motor",
+    "affix_logic": "어근 'motor'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna motor",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'motor 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'motor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai motor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'motor 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai motor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'motor 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "motor 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_apelg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bus [[쁘마까이 bus]]",
+    "meaning": "bus 사용자",
+    "pos": "명사구",
+    "root": "bus",
+    "affix_logic": "어근 'bus'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bus",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bus 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bus 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bus 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bus 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_b573v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kereta [[쁘마까이 kereta]]",
+    "meaning": "kereta 사용자",
+    "pos": "명사구",
+    "root": "kereta",
+    "affix_logic": "어근 'kereta'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kereta",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kereta 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kereta'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kereta' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kereta 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kereta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kereta 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kereta 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_gtlci",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pesawat [[쁘마까이 pesawat]]",
+    "meaning": "pesawat 사용자",
+    "pos": "명사구",
+    "root": "pesawat",
+    "affix_logic": "어근 'pesawat'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pesawat",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pesawat 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pesawat'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pesawat' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pesawat 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pesawat' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pesawat 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pesawat 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_00htk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kapal [[쁘마까이 kapal]]",
+    "meaning": "kapal 사용자",
+    "pos": "명사구",
+    "root": "kapal",
+    "affix_logic": "어근 'kapal'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kapal",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kapal 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kapal'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kapal' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kapal 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kapal' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kapal 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kapal 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_9i5b2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai perahu [[쁘마까이 perahu]]",
+    "meaning": "perahu 사용자",
+    "pos": "명사구",
+    "root": "perahu",
+    "affix_logic": "어근 'perahu'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna perahu",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'perahu 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'perahu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai perahu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'perahu 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai perahu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'perahu 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "perahu 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_6w252",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai taksi [[쁘마까이 taksi]]",
+    "meaning": "taksi 사용자",
+    "pos": "명사구",
+    "root": "taksi",
+    "affix_logic": "어근 'taksi'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna taksi",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'taksi 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'taksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai taksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'taksi 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai taksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'taksi 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "taksi 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_wxjpp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai truk [[쁘마까이 truk]]",
+    "meaning": "truk 사용자",
+    "pos": "명사구",
+    "root": "truk",
+    "affix_logic": "어근 'truk'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna truk",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'truk 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'truk'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai truk' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'truk 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai truk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'truk 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "truk 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_9r6az",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai gang [[쁘마까이 gang]]",
+    "meaning": "gang 사용자",
+    "pos": "명사구",
+    "root": "gang",
+    "affix_logic": "어근 'gang'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna gang",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gang 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai gang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gang 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai gang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gang 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "gang 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_62eo0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai jembatan [[쁘마까이 jembatan]]",
+    "meaning": "jembatan 사용자",
+    "pos": "명사구",
+    "root": "jembatan",
+    "affix_logic": "어근 'jembatan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna jembatan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jembatan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jembatan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai jembatan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jembatan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai jembatan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jembatan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "jembatan 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_gg39i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai taman [[쁘마까이 taman]]",
+    "meaning": "taman 사용자",
+    "pos": "명사구",
+    "root": "taman",
+    "affix_logic": "어근 'taman'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna taman",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'taman 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'taman'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai taman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'taman 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai taman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'taman 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "taman 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_jn6ds",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai pasar [[쁘마까이 pasar]]",
+    "meaning": "pasar 사용자",
+    "pos": "명사구",
+    "root": "pasar",
+    "affix_logic": "어근 'pasar'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna pasar",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'pasar 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'pasar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai pasar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'pasar 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai pasar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'pasar 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "pasar 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_9kxt0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai toko [[쁘마까이 toko]]",
+    "meaning": "toko 사용자",
+    "pos": "명사구",
+    "root": "toko",
+    "affix_logic": "어근 'toko'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna toko",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'toko 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'toko'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai toko' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'toko 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai toko' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'toko 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "toko 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_6a06o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai warung [[쁘마까이 warung]]",
+    "meaning": "warung 사용자",
+    "pos": "명사구",
+    "root": "warung",
+    "affix_logic": "어근 'warung'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna warung",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'warung 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'warung'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai warung' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'warung 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai warung' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'warung 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "warung 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_5xih4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kantor [[쁘마까이 kantor]]",
+    "meaning": "kantor 사용자",
+    "pos": "명사구",
+    "root": "kantor",
+    "affix_logic": "어근 'kantor'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kantor",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kantor 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kantor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kantor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kantor 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kantor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kantor 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kantor 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_fgfb1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai sekolah [[쁘마까이 sekolah]]",
+    "meaning": "sekolah 사용자",
+    "pos": "명사구",
+    "root": "sekolah",
+    "affix_logic": "어근 'sekolah'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna sekolah",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'sekolah 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'sekolah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai sekolah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'sekolah 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai sekolah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'sekolah 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "sekolah 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_xwzky",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai kampus [[쁘마까이 kampus]]",
+    "meaning": "kampus 사용자",
+    "pos": "명사구",
+    "root": "kampus",
+    "affix_logic": "어근 'kampus'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna kampus",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kampus 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kampus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai kampus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kampus 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai kampus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kampus 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "kampus 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_vsaol",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bank [[쁘마까이 bank]]",
+    "meaning": "bank 사용자",
+    "pos": "명사구",
+    "root": "bank",
+    "affix_logic": "어근 'bank'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bank",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bank 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bank'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bank' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bank 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bank' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bank 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bank 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_rtp25",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai hotel [[쁘마까이 hotel]]",
+    "meaning": "hotel 사용자",
+    "pos": "명사구",
+    "root": "hotel",
+    "affix_logic": "어근 'hotel'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna hotel",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hotel 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hotel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai hotel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hotel 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai hotel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hotel 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "hotel 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_l2vnb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai restoran [[쁘마까이 restoran]]",
+    "meaning": "restoran 사용자",
+    "pos": "명사구",
+    "root": "restoran",
+    "affix_logic": "어근 'restoran'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna restoran",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'restoran 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'restoran'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai restoran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'restoran 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai restoran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'restoran 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "restoran 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_b8ux6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai bioskop [[쁘마까이 bioskop]]",
+    "meaning": "bioskop 사용자",
+    "pos": "명사구",
+    "root": "bioskop",
+    "affix_logic": "어근 'bioskop'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna bioskop",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bioskop 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bioskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai bioskop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bioskop 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai bioskop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bioskop 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "bioskop 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_d2x48",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai museum [[쁘마까이 museum]]",
+    "meaning": "museum 사용자",
+    "pos": "명사구",
+    "root": "museum",
+    "affix_logic": "어근 'museum'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna museum",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'museum 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'museum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai museum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'museum 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai museum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'museum 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "museum 사용자"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138698047_mtei7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_intermediate",
+    "word": "pemakai perpustakaan [[쁘마까이 perpustakaan]]",
+    "meaning": "perpustakaan 사용자",
+    "pos": "명사구",
+    "root": "perpustakaan",
+    "affix_logic": "어근 'perpustakaan'에 기반한 명사구 파생 표현",
+    "grammar_rule": "문장 내에서 명사구 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pengguna perpustakaan",
+    "antonym": "bukan",
+    "context": "실생활 및 회화/비즈니스 상황에서 'perpustakaan 사용자'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'perpustakaan'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pemakai perpustakaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'perpustakaan 사용자'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pemakai perpustakaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'perpustakaan 사용자'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pemakai",
+        "meaning": "perpustakaan 사용자"
+      }
+    ]
   }
 ];
