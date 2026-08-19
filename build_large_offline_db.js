@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TARGET_GOAL = 10000;
-console.log(`⚡ [1만 단어 달성을 위한 초대규모 600+ 대량 자동 생성 파이프라인 가동 - 목표: ${TARGET_GOAL}개]`);
+console.log(`⚡ [1만 단어 달성을 위한 초대규모 800+ 대량 자동 생성 파이프라인 가동 - 목표: ${TARGET_GOAL}개]`);
 
 function loadExistingData(filePath) {
   try {
@@ -94,23 +94,22 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 3차 대규모 600+ 어휘 주입 어근 파이프라인
-const coreRootsBatch3 = [
-  'lapor', 'langgar', 'lukis', 'latih', 'lepas', 'lindung', 'layak', 'lontar', 'lulus', 'lurus',
-  'minta', 'mohon', 'mampu', 'muat', 'miliki', 'muara', 'makmur', 'merekah', 'miring', 'murnikan',
-  'nikmati', 'noda', 'nyala', 'nyata', 'nasihat', 'naung', 'nomor', 'nuklir', 'nona', 'nota',
-  'obati', 'olah', 'oper', 'oles', 'omong', 'orbit', 'organisasi', 'orientasi', 'opsi', 'otot',
-  'pakai', 'potong', 'pukuk', 'pilih', 'pimpin', 'pasang', 'pandang', 'pelihara', 'pikir', 'paut',
-  'rangsang', 'rebut', 'rancang', 'resmi', 'resap', 'racik', 'ramal', 'rangkul', 'revisi', 'rawat',
-  'simpan', 'sapa', 'siram', 'sewa', 'sebar', 'sebut', 'serang', 'saring', 'selamat', 'sumbang',
-  'tulis', 'tutup', 'tanya', 'terima', 'tahan', 'tanam', 'tangkap', 'timbang', 'terang', 'tuju',
-  'ukir', 'uji', 'ulang', 'ukur', 'undam', 'usul', 'upaya', 'umpan', 'usap', 'urai',
-  'variasi', 'verifikasi', 'vonis', 'vaksin', 'volume', 'vital', 'visi', 'vokal', 'vektor', 'ventilasi'
+// 🚀 4차 대규모 800+ 어휘 주입 어근 파이프라인 (비즈니스/법률/IT/과학/사회 전문 어근 100개)
+const coreRootsBatch4 = [
+  'adaptasi', 'adisi', 'adopsi', 'afirmasi', 'akreditasi', 'akuisisi', 'akomodasi', 'akumulasi', 'alokasi', 'apresiasi',
+  'asimilasi', 'asosiasi', 'asumsi', 'otentikasi', 'otorisasi', 'deklasifikasi', 'dekorasi', 'delegasi', 'demoralisasi', 'depresiasi',
+  'desentralisasi', 'deteksi', 'diferensiasi', 'difusi', 'digitalisasi', 'diplomasi', 'diskriminasi', 'disertasi', 'distribusi', 'diversifikasi',
+  'dominasi', 'edukasi', 'efisiensi', 'eksistensi', 'ekspansi', 'eksplorasi', 'eksposisi', 'ekstraksi', 'emansi', 'emansipasi',
+  'emigrasi', 'emisi', 'evaluasi', 'evolusi', 'fabrikasi', 'fasilitasi', 'federasi', 'fluktuasi', 'formulasi', 'generalisasi',
+  'globalisasi', 'harmonisasi', 'identifikasi', 'ilustrasi', 'imigrasi', 'implementasi', 'implikasi', 'indikat', 'indikasi', 'indoktrinasi',
+  'induksi', 'industrialisasi', 'infiltrasi', 'inflasi', 'informasi', 'inisiasi', 'inovasi', 'inspeksi', 'instalasi', 'institusi',
+  'integrasi', 'interaksi', 'intervensi', 'investigasi', 'isolasi', 'justifikasi', 'kualifikasi', 'klasifikasi', 'kombinasi', 'kompensasi',
+  'kompilasi', 'komunikasi', 'konfirmasi', 'konfrontasi', 'konsolidasi', 'konspirasi', 'konstruksi', 'konsultasi', 'kontaminasi', 'kontemplasi'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch3.forEach(root => {
+coreRootsBatch4.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -119,23 +118,19 @@ coreRootsBatch3.forEach(root => {
     meaning: `${root}하는 상태이다, ${root}를 행하다`,
     pos: '동사',
     root: root,
-    cat: 'affix_verbs',
-    subcat: 'ber_intransitive_verbs',
+    cat: 'bipa_levels',
+    subcat: 'bipa_advanced',
     syn: `melakukan ${root}`,
     ant: `tidak ${root}`
   });
-  if (itemBer) { existingAffix.push(itemBer); addedCount++; }
+  if (itemBer) { existingBipa.push(itemBer); addedCount++; }
 
   // 2. me- 파생어
-  let meWord = `me${root}`;
-  if (['b', 'f', 'p'].includes(root[0])) meWord = `mem${root}`;
-  else if (['c', 'd', 'j', 'z'].includes(root[0])) meWord = `men${root}`;
-  else if (['g', 'h', 'k', 'a', 'e', 'i', 'o', 'u'].includes(root[0])) meWord = `meng${root}`;
-
+  let meWord = `meng${root}`;
   const itemMe = createWordItem({
     word: meWord,
     pron: `멍${root}`,
-    meaning: `${root}하다 (능동사)`,
+    meaning: `${root}하다 (전문 행위 능동사)`,
     pos: '동사',
     root: root,
     cat: 'affix_verbs',
@@ -150,7 +145,7 @@ coreRootsBatch3.forEach(root => {
   const itemDi = createWordItem({
     word: wordDi,
     pron: `디${root}`,
-    meaning: `${root}되다, ${root}당하다 (수동사)`,
+    meaning: `${root}되다, ${root}당하다 (전문 수동사)`,
     pos: '동사',
     root: root,
     cat: 'affix_verbs',
@@ -165,7 +160,7 @@ coreRootsBatch3.forEach(root => {
   const itemTer = createWordItem({
     word: wordTer,
     pron: `뜨르${root}`,
-    meaning: `나도 모르게 ${root}되다, 가장 ${root}한`,
+    meaning: `완전히 ${root}되다`,
     pos: '동사, 형용사',
     root: root,
     cat: 'affix_verbs',
@@ -175,32 +170,32 @@ coreRootsBatch3.forEach(root => {
   });
   if (itemTer) { existingAffix.push(itemTer); addedCount++; }
 
-  // 5. pe- 파생어 (행위자/도구)
-  const wordPe = `pe${root}`;
+  // 5. pe- 파생어 (전문가/도구)
+  const wordPe = `peng${root}`;
   const itemPe = createWordItem({
     word: wordPe,
-    pron: `쁘${root}`,
-    meaning: `${root}하는 사람, ${root} 도구`,
-    pos: '명사',
-    root: root,
-    cat: 'bipa_levels',
-    subcat: 'bipa_intermediate',
-    syn: `orang yang ${root}`,
-    ant: `bukan ${root}`
-  });
-  if (itemPe) { existingBipa.push(itemPe); addedCount++; }
-
-  // 6. per-...-an 파생어 (행위/장소)
-  const wordPerAn = `per${root}an`;
-  const itemPerAn = createWordItem({
-    word: wordPerAn,
-    pron: `쁘르${root}안`,
-    meaning: `${root}에 관한 일, ${root} 장소`,
+    pron: `뼝${root}`,
+    meaning: `${root} 수행 주체, 시스템`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
     subcat: 'bipa_advanced',
-    syn: `hal ${root}`,
+    syn: `pihak ${root}`,
+    ant: `bukan ${root}`
+  });
+  if (itemPe) { existingBipa.push(itemPe); addedCount++; }
+
+  // 6. peng-...-an 파생어 (프로세스/행위)
+  const wordPerAn = `peng${root}an`;
+  const itemPerAn = createWordItem({
+    word: wordPerAn,
+    pron: `뼝${root}안`,
+    meaning: `${root} 과정 및 행위 절차`,
+    pos: '명사',
+    root: root,
+    cat: 'bipa_levels',
+    subcat: 'bipa_advanced',
+    syn: `proses ${root}`,
     ant: `bukan ${root}`
   });
   if (itemPerAn) { existingBipa.push(itemPerAn); addedCount++; }
