@@ -45914,5 +45914,6869 @@ export const bipaTopics = [
         "meaning": "workstation 과정 및 행위 절차"
       }
     ]
+  },
+  {
+    "id": "word_1787138986514_mgmj3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berestetika [[버르estetika]]",
+    "meaning": "estetika하는 상태이다, estetika를 행하다",
+    "pos": "동사",
+    "root": "estetika",
+    "affix_logic": "어근 'estetika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan estetika",
+    "antonym": "tidak estetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'estetika하는 상태이다, estetika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'estetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berestetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'estetika하는 상태이다, estetika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berestetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'estetika하는 상태이다, estetika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berestetika",
+        "meaning": "estetika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_1xb5j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengestetika [[뼝estetika]]",
+    "meaning": "estetika 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "estetika",
+    "affix_logic": "어근 'estetika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak estetika",
+    "antonym": "bukan estetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'estetika 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'estetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengestetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'estetika 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengestetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'estetika 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengestetika",
+        "meaning": "estetika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_ql7qd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengestetikaan [[뼝estetika안]]",
+    "meaning": "estetika 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "estetika",
+    "affix_logic": "어근 'estetika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses estetika",
+    "antonym": "bukan estetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'estetika 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'estetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengestetikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'estetika 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengestetikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'estetika 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengestetikaan",
+        "meaning": "estetika 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_oqmb9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakustik [[버르akustik]]",
+    "meaning": "akustik하는 상태이다, akustik를 행하다",
+    "pos": "동사",
+    "root": "akustik",
+    "affix_logic": "어근 'akustik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan akustik",
+    "antonym": "tidak akustik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akustik하는 상태이다, akustik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akustik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berakustik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akustik하는 상태이다, akustik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berakustik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akustik하는 상태이다, akustik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berakustik",
+        "meaning": "akustik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_mzwz5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakustik [[뼝akustik]]",
+    "meaning": "akustik 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "akustik",
+    "affix_logic": "어근 'akustik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak akustik",
+    "antonym": "bukan akustik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akustik 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akustik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengakustik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akustik 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengakustik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akustik 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengakustik",
+        "meaning": "akustik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_ml993",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakustikan [[뼝akustik안]]",
+    "meaning": "akustik 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "akustik",
+    "affix_logic": "어근 'akustik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses akustik",
+    "antonym": "bukan akustik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akustik 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akustik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengakustikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akustik 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengakustikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akustik 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengakustikan",
+        "meaning": "akustik 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_2jjmm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berantologi [[버르antologi]]",
+    "meaning": "antologi하는 상태이다, antologi를 행하다",
+    "pos": "동사",
+    "root": "antologi",
+    "affix_logic": "어근 'antologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan antologi",
+    "antonym": "tidak antologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antologi하는 상태이다, antologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berantologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antologi하는 상태이다, antologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berantologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antologi하는 상태이다, antologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berantologi",
+        "meaning": "antologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_8a855",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantologi [[뼝antologi]]",
+    "meaning": "antologi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "antologi",
+    "affix_logic": "어근 'antologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak antologi",
+    "antonym": "bukan antologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antologi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antologi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antologi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantologi",
+        "meaning": "antologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_juthe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantologian [[뼝antologi안]]",
+    "meaning": "antologi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "antologi",
+    "affix_logic": "어근 'antologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses antologi",
+    "antonym": "bukan antologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antologi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antologi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antologi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantologian",
+        "meaning": "antologi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_qke3e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranotasi [[버르anotasi]]",
+    "meaning": "anotasi하는 상태이다, anotasi를 행하다",
+    "pos": "동사",
+    "root": "anotasi",
+    "affix_logic": "어근 'anotasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan anotasi",
+    "antonym": "tidak anotasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anotasi하는 상태이다, anotasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anotasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranotasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anotasi하는 상태이다, anotasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranotasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anotasi하는 상태이다, anotasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranotasi",
+        "meaning": "anotasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_bubh5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganotasi [[뼝anotasi]]",
+    "meaning": "anotasi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "anotasi",
+    "affix_logic": "어근 'anotasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak anotasi",
+    "antonym": "bukan anotasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anotasi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anotasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganotasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anotasi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganotasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anotasi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganotasi",
+        "meaning": "anotasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_eakil",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganotasian [[뼝anotasi안]]",
+    "meaning": "anotasi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "anotasi",
+    "affix_logic": "어근 'anotasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses anotasi",
+    "antonym": "bukan anotasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anotasi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anotasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganotasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anotasi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganotasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anotasi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganotasian",
+        "meaning": "anotasi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_dg9tk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berapresiasi seni [[버르apresiasi seni]]",
+    "meaning": "apresiasi seni하는 상태이다, apresiasi seni를 행하다",
+    "pos": "동사",
+    "root": "apresiasi seni",
+    "affix_logic": "어근 'apresiasi seni'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan apresiasi seni",
+    "antonym": "tidak apresiasi seni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi seni하는 상태이다, apresiasi seni를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi seni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berapresiasi seni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi seni하는 상태이다, apresiasi seni를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berapresiasi seni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi seni하는 상태이다, apresiasi seni를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berapresiasi",
+        "meaning": "apresiasi seni하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_9pezv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapresiasi seni [[뼝apresiasi seni]]",
+    "meaning": "apresiasi seni 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "apresiasi seni",
+    "affix_logic": "어근 'apresiasi seni'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak apresiasi seni",
+    "antonym": "bukan apresiasi seni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi seni 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi seni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapresiasi seni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi seni 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapresiasi seni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi seni 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapresiasi",
+        "meaning": "apresiasi seni 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_9b6m0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengapresiasi senian [[뼝apresiasi seni안]]",
+    "meaning": "apresiasi seni 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "apresiasi seni",
+    "affix_logic": "어근 'apresiasi seni'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses apresiasi seni",
+    "antonym": "bukan apresiasi seni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'apresiasi seni 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'apresiasi seni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengapresiasi senian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'apresiasi seni 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengapresiasi senian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'apresiasi seni 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengapresiasi",
+        "meaning": "apresiasi seni 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_7kcnj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berarkeologi [[버르arkeologi]]",
+    "meaning": "arkeologi하는 상태이다, arkeologi를 행하다",
+    "pos": "동사",
+    "root": "arkeologi",
+    "affix_logic": "어근 'arkeologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan arkeologi",
+    "antonym": "tidak arkeologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arkeologi하는 상태이다, arkeologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arkeologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berarkeologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arkeologi하는 상태이다, arkeologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berarkeologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arkeologi하는 상태이다, arkeologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berarkeologi",
+        "meaning": "arkeologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_oaf1s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarkeologi [[뼝arkeologi]]",
+    "meaning": "arkeologi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "arkeologi",
+    "affix_logic": "어근 'arkeologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak arkeologi",
+    "antonym": "bukan arkeologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arkeologi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arkeologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarkeologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arkeologi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarkeologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arkeologi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarkeologi",
+        "meaning": "arkeologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_g6cj7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengarkeologian [[뼝arkeologi안]]",
+    "meaning": "arkeologi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "arkeologi",
+    "affix_logic": "어근 'arkeologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses arkeologi",
+    "antonym": "bukan arkeologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'arkeologi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'arkeologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengarkeologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'arkeologi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengarkeologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'arkeologi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengarkeologian",
+        "meaning": "arkeologi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_u5cjh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berartefak [[버르artefak]]",
+    "meaning": "artefak하는 상태이다, artefak를 행하다",
+    "pos": "동사",
+    "root": "artefak",
+    "affix_logic": "어근 'artefak'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan artefak",
+    "antonym": "tidak artefak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artefak하는 상태이다, artefak를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artefak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berartefak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artefak하는 상태이다, artefak를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berartefak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artefak하는 상태이다, artefak를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berartefak",
+        "meaning": "artefak하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_zdhbm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartefak [[뼝artefak]]",
+    "meaning": "artefak 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "artefak",
+    "affix_logic": "어근 'artefak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak artefak",
+    "antonym": "bukan artefak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artefak 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artefak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengartefak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artefak 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengartefak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artefak 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengartefak",
+        "meaning": "artefak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_qbltd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengartefakan [[뼝artefak안]]",
+    "meaning": "artefak 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "artefak",
+    "affix_logic": "어근 'artefak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses artefak",
+    "antonym": "bukan artefak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'artefak 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'artefak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengartefakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'artefak 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengartefakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'artefak 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengartefakan",
+        "meaning": "artefak 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_a734l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraudio [[버르audio]]",
+    "meaning": "audio하는 상태이다, audio를 행하다",
+    "pos": "동사",
+    "root": "audio",
+    "affix_logic": "어근 'audio'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan audio",
+    "antonym": "tidak audio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audio하는 상태이다, audio를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraudio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audio하는 상태이다, audio를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraudio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audio하는 상태이다, audio를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraudio",
+        "meaning": "audio하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_ch65i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaudio [[뼝audio]]",
+    "meaning": "audio 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "audio",
+    "affix_logic": "어근 'audio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak audio",
+    "antonym": "bukan audio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audio 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaudio' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audio 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaudio' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audio 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaudio",
+        "meaning": "audio 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_h1356",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaudioan [[뼝audio안]]",
+    "meaning": "audio 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "audio",
+    "affix_logic": "어근 'audio'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses audio",
+    "antonym": "bukan audio",
+    "context": "실생활 및 회화/비즈니스 상황에서 'audio 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'audio'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaudioan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'audio 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaudioan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'audio 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaudioan",
+        "meaning": "audio 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_qmsg7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berautobiografi [[버르autobiografi]]",
+    "meaning": "autobiografi하는 상태이다, autobiografi를 행하다",
+    "pos": "동사",
+    "root": "autobiografi",
+    "affix_logic": "어근 'autobiografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan autobiografi",
+    "antonym": "tidak autobiografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autobiografi하는 상태이다, autobiografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autobiografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berautobiografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autobiografi하는 상태이다, autobiografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berautobiografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autobiografi하는 상태이다, autobiografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berautobiografi",
+        "meaning": "autobiografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_4ym6l",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautobiografi [[뼝autobiografi]]",
+    "meaning": "autobiografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "autobiografi",
+    "affix_logic": "어근 'autobiografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak autobiografi",
+    "antonym": "bukan autobiografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autobiografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autobiografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengautobiografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autobiografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengautobiografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autobiografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengautobiografi",
+        "meaning": "autobiografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_z7m6b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengautobiografian [[뼝autobiografi안]]",
+    "meaning": "autobiografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "autobiografi",
+    "affix_logic": "어근 'autobiografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses autobiografi",
+    "antonym": "bukan autobiografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'autobiografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'autobiografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengautobiografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'autobiografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengautobiografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'autobiografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengautobiografian",
+        "meaning": "autobiografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_xkihd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbalada [[버르balada]]",
+    "meaning": "balada하는 상태이다, balada를 행하다",
+    "pos": "동사",
+    "root": "balada",
+    "affix_logic": "어근 'balada'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan balada",
+    "antonym": "tidak balada",
+    "context": "실생활 및 회화/비즈니스 상황에서 'balada하는 상태이다, balada를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'balada'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbalada' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'balada하는 상태이다, balada를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbalada' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'balada하는 상태이다, balada를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbalada",
+        "meaning": "balada하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_18s8g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbalada [[뼝balada]]",
+    "meaning": "balada 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "balada",
+    "affix_logic": "어근 'balada'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak balada",
+    "antonym": "bukan balada",
+    "context": "실생활 및 회화/비즈니스 상황에서 'balada 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'balada'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbalada' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'balada 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbalada' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'balada 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbalada",
+        "meaning": "balada 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_qjhd6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbaladaan [[뼝balada안]]",
+    "meaning": "balada 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "balada",
+    "affix_logic": "어근 'balada'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses balada",
+    "antonym": "bukan balada",
+    "context": "실생활 및 회화/비즈니스 상황에서 'balada 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'balada'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbaladaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'balada 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbaladaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'balada 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbaladaan",
+        "meaning": "balada 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_jyxt5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbambu [[버르bambu]]",
+    "meaning": "bambu하는 상태이다, bambu를 행하다",
+    "pos": "동사",
+    "root": "bambu",
+    "affix_logic": "어근 'bambu'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bambu",
+    "antonym": "tidak bambu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bambu하는 상태이다, bambu를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bambu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbambu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bambu하는 상태이다, bambu를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbambu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bambu하는 상태이다, bambu를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbambu",
+        "meaning": "bambu하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_7spat",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbambu [[뼝bambu]]",
+    "meaning": "bambu 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "bambu",
+    "affix_logic": "어근 'bambu'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bambu",
+    "antonym": "bukan bambu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bambu 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bambu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbambu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bambu 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbambu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bambu 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbambu",
+        "meaning": "bambu 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_1dkkc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbambuan [[뼝bambu안]]",
+    "meaning": "bambu 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "bambu",
+    "affix_logic": "어근 'bambu'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bambu",
+    "antonym": "bukan bambu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bambu 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bambu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbambuan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bambu 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbambuan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bambu 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbambuan",
+        "meaning": "bambu 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_29f31",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbatik [[버르batik]]",
+    "meaning": "batik하는 상태이다, batik를 행하다",
+    "pos": "동사",
+    "root": "batik",
+    "affix_logic": "어근 'batik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan batik",
+    "antonym": "tidak batik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batik하는 상태이다, batik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbatik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batik하는 상태이다, batik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbatik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batik하는 상태이다, batik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbatik",
+        "meaning": "batik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_12lxd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatik [[뼝batik]]",
+    "meaning": "batik 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "batik",
+    "affix_logic": "어근 'batik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak batik",
+    "antonym": "bukan batik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batik 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbatik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batik 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbatik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batik 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbatik",
+        "meaning": "batik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_8vog2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbatikan [[뼝batik안]]",
+    "meaning": "batik 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "batik",
+    "affix_logic": "어근 'batik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses batik",
+    "antonym": "bukan batik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'batik 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'batik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbatikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'batik 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbatikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'batik 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbatikan",
+        "meaning": "batik 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_8eevu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berberita [[버르berita]]",
+    "meaning": "berita하는 상태이다, berita를 행하다",
+    "pos": "동사",
+    "root": "berita",
+    "affix_logic": "어근 'berita'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan berita",
+    "antonym": "tidak berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'berita하는 상태이다, berita를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berberita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'berita하는 상태이다, berita를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berberita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'berita하는 상태이다, berita를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berberita",
+        "meaning": "berita하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_77t3x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberita [[뼝berita]]",
+    "meaning": "berita 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "berita",
+    "affix_logic": "어근 'berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak berita",
+    "antonym": "bukan berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'berita 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengberita' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'berita 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengberita' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'berita 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengberita",
+        "meaning": "berita 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_f9stt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengberitaan [[뼝berita안]]",
+    "meaning": "berita 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "berita",
+    "affix_logic": "어근 'berita'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses berita",
+    "antonym": "bukan berita",
+    "context": "실생활 및 회화/비즈니스 상황에서 'berita 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'berita'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengberitaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'berita 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengberitaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'berita 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengberitaan",
+        "meaning": "berita 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_g24ea",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbibliografi [[버르bibliografi]]",
+    "meaning": "bibliografi하는 상태이다, bibliografi를 행하다",
+    "pos": "동사",
+    "root": "bibliografi",
+    "affix_logic": "어근 'bibliografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bibliografi",
+    "antonym": "tidak bibliografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bibliografi하는 상태이다, bibliografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bibliografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbibliografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bibliografi하는 상태이다, bibliografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbibliografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bibliografi하는 상태이다, bibliografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbibliografi",
+        "meaning": "bibliografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_3vz2g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbibliografi [[뼝bibliografi]]",
+    "meaning": "bibliografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "bibliografi",
+    "affix_logic": "어근 'bibliografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bibliografi",
+    "antonym": "bukan bibliografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bibliografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bibliografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbibliografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bibliografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbibliografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bibliografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbibliografi",
+        "meaning": "bibliografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_wa0x0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbibliografian [[뼝bibliografi안]]",
+    "meaning": "bibliografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "bibliografi",
+    "affix_logic": "어근 'bibliografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bibliografi",
+    "antonym": "bukan bibliografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bibliografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bibliografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbibliografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bibliografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbibliografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bibliografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbibliografian",
+        "meaning": "bibliografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_9mvxe",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbiografi [[버르biografi]]",
+    "meaning": "biografi하는 상태이다, biografi를 행하다",
+    "pos": "동사",
+    "root": "biografi",
+    "affix_logic": "어근 'biografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biografi",
+    "antonym": "tidak biografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biografi하는 상태이다, biografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbiografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biografi하는 상태이다, biografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbiografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biografi하는 상태이다, biografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbiografi",
+        "meaning": "biografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_s2bbz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiografi [[뼝biografi]]",
+    "meaning": "biografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "biografi",
+    "affix_logic": "어근 'biografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak biografi",
+    "antonym": "bukan biografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbiografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbiografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbiografi",
+        "meaning": "biografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_ylasw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiografian [[뼝biografi안]]",
+    "meaning": "biografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "biografi",
+    "affix_logic": "어근 'biografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses biografi",
+    "antonym": "bukan biografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbiografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbiografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbiografian",
+        "meaning": "biografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_4c4ff",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbudaya [[버르budaya]]",
+    "meaning": "budaya하는 상태이다, budaya를 행하다",
+    "pos": "동사",
+    "root": "budaya",
+    "affix_logic": "어근 'budaya'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan budaya",
+    "antonym": "tidak budaya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'budaya하는 상태이다, budaya를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'budaya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbudaya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'budaya하는 상태이다, budaya를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbudaya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'budaya하는 상태이다, budaya를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbudaya",
+        "meaning": "budaya하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_ybhtg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbudaya [[뼝budaya]]",
+    "meaning": "budaya 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "budaya",
+    "affix_logic": "어근 'budaya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak budaya",
+    "antonym": "bukan budaya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'budaya 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'budaya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbudaya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'budaya 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbudaya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'budaya 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbudaya",
+        "meaning": "budaya 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_nk2os",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbudayaan [[뼝budaya안]]",
+    "meaning": "budaya 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "budaya",
+    "affix_logic": "어근 'budaya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses budaya",
+    "antonym": "bukan budaya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'budaya 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'budaya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbudayaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'budaya 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbudayaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'budaya 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbudayaan",
+        "meaning": "budaya 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_9srpo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bercerpen [[버르cerpen]]",
+    "meaning": "cerpen하는 상태이다, cerpen를 행하다",
+    "pos": "동사",
+    "root": "cerpen",
+    "affix_logic": "어근 'cerpen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan cerpen",
+    "antonym": "tidak cerpen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cerpen하는 상태이다, cerpen를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cerpen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bercerpen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cerpen하는 상태이다, cerpen를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bercerpen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cerpen하는 상태이다, cerpen를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bercerpen",
+        "meaning": "cerpen하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_15ozg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcerpen [[뼝cerpen]]",
+    "meaning": "cerpen 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "cerpen",
+    "affix_logic": "어근 'cerpen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak cerpen",
+    "antonym": "bukan cerpen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cerpen 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cerpen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcerpen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cerpen 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcerpen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cerpen 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcerpen",
+        "meaning": "cerpen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_uysxl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcerpenan [[뼝cerpen안]]",
+    "meaning": "cerpen 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "cerpen",
+    "affix_logic": "어근 'cerpen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses cerpen",
+    "antonym": "bukan cerpen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cerpen 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cerpen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcerpenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cerpen 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcerpenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cerpen 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcerpenan",
+        "meaning": "cerpen 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_yeqoj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkoreografi [[버르koreografi]]",
+    "meaning": "koreografi하는 상태이다, koreografi를 행하다",
+    "pos": "동사",
+    "root": "koreografi",
+    "affix_logic": "어근 'koreografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan koreografi",
+    "antonym": "tidak koreografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreografi하는 상태이다, koreografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkoreografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreografi하는 상태이다, koreografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkoreografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreografi하는 상태이다, koreografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkoreografi",
+        "meaning": "koreografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_22aiq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoreografi [[뼝koreografi]]",
+    "meaning": "koreografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "koreografi",
+    "affix_logic": "어근 'koreografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak koreografi",
+    "antonym": "bukan koreografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkoreografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkoreografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkoreografi",
+        "meaning": "koreografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_5gpnl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoreografian [[뼝koreografi안]]",
+    "meaning": "koreografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "koreografi",
+    "affix_logic": "어근 'koreografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses koreografi",
+    "antonym": "bukan koreografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkoreografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkoreografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkoreografian",
+        "meaning": "koreografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_mdb43",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bercinematografi [[버르cinematografi]]",
+    "meaning": "cinematografi하는 상태이다, cinematografi를 행하다",
+    "pos": "동사",
+    "root": "cinematografi",
+    "affix_logic": "어근 'cinematografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan cinematografi",
+    "antonym": "tidak cinematografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cinematografi하는 상태이다, cinematografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cinematografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bercinematografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cinematografi하는 상태이다, cinematografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bercinematografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cinematografi하는 상태이다, cinematografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bercinematografi",
+        "meaning": "cinematografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_wv8os",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcinematografi [[뼝cinematografi]]",
+    "meaning": "cinematografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "cinematografi",
+    "affix_logic": "어근 'cinematografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak cinematografi",
+    "antonym": "bukan cinematografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cinematografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cinematografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcinematografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cinematografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcinematografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cinematografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcinematografi",
+        "meaning": "cinematografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_28ppw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengcinematografian [[뼝cinematografi안]]",
+    "meaning": "cinematografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "cinematografi",
+    "affix_logic": "어근 'cinematografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses cinematografi",
+    "antonym": "bukan cinematografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'cinematografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'cinematografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengcinematografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'cinematografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengcinematografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'cinematografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengcinematografian",
+        "meaning": "cinematografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986514_503lt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdekoratif [[버르dekoratif]]",
+    "meaning": "dekoratif하는 상태이다, dekoratif를 행하다",
+    "pos": "동사",
+    "root": "dekoratif",
+    "affix_logic": "어근 'dekoratif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dekoratif",
+    "antonym": "tidak dekoratif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekoratif하는 상태이다, dekoratif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekoratif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdekoratif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekoratif하는 상태이다, dekoratif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdekoratif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekoratif하는 상태이다, dekoratif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdekoratif",
+        "meaning": "dekoratif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_5283q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekoratif [[뼝dekoratif]]",
+    "meaning": "dekoratif 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "dekoratif",
+    "affix_logic": "어근 'dekoratif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dekoratif",
+    "antonym": "bukan dekoratif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekoratif 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekoratif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdekoratif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekoratif 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdekoratif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekoratif 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdekoratif",
+        "meaning": "dekoratif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_fy90q",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdekoratifan [[뼝dekoratif안]]",
+    "meaning": "dekoratif 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "dekoratif",
+    "affix_logic": "어근 'dekoratif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dekoratif",
+    "antonym": "bukan dekoratif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dekoratif 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dekoratif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdekoratifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dekoratif 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdekoratifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dekoratif 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdekoratifan",
+        "meaning": "dekoratif 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_hl98a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdeskripsi [[버르deskripsi]]",
+    "meaning": "deskripsi하는 상태이다, deskripsi를 행하다",
+    "pos": "동사",
+    "root": "deskripsi",
+    "affix_logic": "어근 'deskripsi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan deskripsi",
+    "antonym": "tidak deskripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deskripsi하는 상태이다, deskripsi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deskripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdeskripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deskripsi하는 상태이다, deskripsi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdeskripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deskripsi하는 상태이다, deskripsi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdeskripsi",
+        "meaning": "deskripsi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_hae8x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeskripsi [[뼝deskripsi]]",
+    "meaning": "deskripsi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "deskripsi",
+    "affix_logic": "어근 'deskripsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak deskripsi",
+    "antonym": "bukan deskripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deskripsi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deskripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdeskripsi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deskripsi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdeskripsi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deskripsi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdeskripsi",
+        "meaning": "deskripsi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_77uz0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdeskripsian [[뼝deskripsi안]]",
+    "meaning": "deskripsi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "deskripsi",
+    "affix_logic": "어근 'deskripsi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses deskripsi",
+    "antonym": "bukan deskripsi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'deskripsi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'deskripsi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdeskripsian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'deskripsi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdeskripsian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'deskripsi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdeskripsian",
+        "meaning": "deskripsi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_9vrfu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdialek [[버르dialek]]",
+    "meaning": "dialek하는 상태이다, dialek를 행하다",
+    "pos": "동사",
+    "root": "dialek",
+    "affix_logic": "어근 'dialek'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dialek",
+    "antonym": "tidak dialek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialek하는 상태이다, dialek를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdialek' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialek하는 상태이다, dialek를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdialek' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialek하는 상태이다, dialek를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdialek",
+        "meaning": "dialek하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_yf6ya",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdialek [[뼝dialek]]",
+    "meaning": "dialek 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "dialek",
+    "affix_logic": "어근 'dialek'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dialek",
+    "antonym": "bukan dialek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialek 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdialek' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialek 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdialek' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialek 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdialek",
+        "meaning": "dialek 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_3ep6a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdialekan [[뼝dialek안]]",
+    "meaning": "dialek 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "dialek",
+    "affix_logic": "어근 'dialek'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dialek",
+    "antonym": "bukan dialek",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialek 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialek'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdialekan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialek 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdialekan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialek 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdialekan",
+        "meaning": "dialek 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_kh49r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdialog [[버르dialog]]",
+    "meaning": "dialog하는 상태이다, dialog를 행하다",
+    "pos": "동사",
+    "root": "dialog",
+    "affix_logic": "어근 'dialog'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dialog",
+    "antonym": "tidak dialog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialog하는 상태이다, dialog를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdialog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialog하는 상태이다, dialog를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdialog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialog하는 상태이다, dialog를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdialog",
+        "meaning": "dialog하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_q3zfi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdialog [[뼝dialog]]",
+    "meaning": "dialog 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "dialog",
+    "affix_logic": "어근 'dialog'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dialog",
+    "antonym": "bukan dialog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialog 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdialog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialog 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdialog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialog 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdialog",
+        "meaning": "dialog 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_tw69o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdialogan [[뼝dialog안]]",
+    "meaning": "dialog 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "dialog",
+    "affix_logic": "어근 'dialog'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dialog",
+    "antonym": "bukan dialog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dialog 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dialog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdialogan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dialog 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdialogan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dialog 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdialogan",
+        "meaning": "dialog 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_dofp0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdiorama [[버르diorama]]",
+    "meaning": "diorama하는 상태이다, diorama를 행하다",
+    "pos": "동사",
+    "root": "diorama",
+    "affix_logic": "어근 'diorama'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan diorama",
+    "antonym": "tidak diorama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diorama하는 상태이다, diorama를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diorama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdiorama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diorama하는 상태이다, diorama를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdiorama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diorama하는 상태이다, diorama를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdiorama",
+        "meaning": "diorama하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_dsncs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdiorama [[뼝diorama]]",
+    "meaning": "diorama 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "diorama",
+    "affix_logic": "어근 'diorama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak diorama",
+    "antonym": "bukan diorama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diorama 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diorama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdiorama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diorama 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdiorama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diorama 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdiorama",
+        "meaning": "diorama 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_lhdd8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdioramaan [[뼝diorama안]]",
+    "meaning": "diorama 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "diorama",
+    "affix_logic": "어근 'diorama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses diorama",
+    "antonym": "bukan diorama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'diorama 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'diorama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdioramaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'diorama 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdioramaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'diorama 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdioramaan",
+        "meaning": "diorama 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_unwu8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdokumenter [[버르dokumenter]]",
+    "meaning": "dokumenter하는 상태이다, dokumenter를 행하다",
+    "pos": "동사",
+    "root": "dokumenter",
+    "affix_logic": "어근 'dokumenter'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dokumenter",
+    "antonym": "tidak dokumenter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumenter하는 상태이다, dokumenter를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumenter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdokumenter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumenter하는 상태이다, dokumenter를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdokumenter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumenter하는 상태이다, dokumenter를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdokumenter",
+        "meaning": "dokumenter하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_lub70",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdokumenter [[뼝dokumenter]]",
+    "meaning": "dokumenter 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "dokumenter",
+    "affix_logic": "어근 'dokumenter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dokumenter",
+    "antonym": "bukan dokumenter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumenter 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumenter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdokumenter' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumenter 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdokumenter' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumenter 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdokumenter",
+        "meaning": "dokumenter 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_nuupg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdokumenteran [[뼝dokumenter안]]",
+    "meaning": "dokumenter 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "dokumenter",
+    "affix_logic": "어근 'dokumenter'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dokumenter",
+    "antonym": "bukan dokumenter",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dokumenter 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dokumenter'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdokumenteran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dokumenter 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdokumenteran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dokumenter 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdokumenteran",
+        "meaning": "dokumenter 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_qjzca",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdrama [[버르drama]]",
+    "meaning": "drama하는 상태이다, drama를 행하다",
+    "pos": "동사",
+    "root": "drama",
+    "affix_logic": "어근 'drama'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan drama",
+    "antonym": "tidak drama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'drama하는 상태이다, drama를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'drama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdrama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'drama하는 상태이다, drama를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdrama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'drama하는 상태이다, drama를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdrama",
+        "meaning": "drama하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_e3jq0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdrama [[뼝drama]]",
+    "meaning": "drama 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "drama",
+    "affix_logic": "어근 'drama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak drama",
+    "antonym": "bukan drama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'drama 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'drama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdrama' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'drama 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdrama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'drama 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdrama",
+        "meaning": "drama 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_pps2n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdramaan [[뼝drama안]]",
+    "meaning": "drama 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "drama",
+    "affix_logic": "어근 'drama'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses drama",
+    "antonym": "bukan drama",
+    "context": "실생활 및 회화/비즈니스 상황에서 'drama 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'drama'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdramaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'drama 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdramaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'drama 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdramaan",
+        "meaning": "drama 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_eok8y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdramatis [[버르dramatis]]",
+    "meaning": "dramatis하는 상태이다, dramatis를 행하다",
+    "pos": "동사",
+    "root": "dramatis",
+    "affix_logic": "어근 'dramatis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dramatis",
+    "antonym": "tidak dramatis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dramatis하는 상태이다, dramatis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dramatis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdramatis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dramatis하는 상태이다, dramatis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdramatis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dramatis하는 상태이다, dramatis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdramatis",
+        "meaning": "dramatis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_rhqa7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdramatis [[뼝dramatis]]",
+    "meaning": "dramatis 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "dramatis",
+    "affix_logic": "어근 'dramatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dramatis",
+    "antonym": "bukan dramatis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dramatis 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dramatis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdramatis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dramatis 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdramatis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dramatis 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdramatis",
+        "meaning": "dramatis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_1f0pg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdramatisan [[뼝dramatis안]]",
+    "meaning": "dramatis 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "dramatis",
+    "affix_logic": "어근 'dramatis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dramatis",
+    "antonym": "bukan dramatis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dramatis 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dramatis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdramatisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dramatis 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdramatisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dramatis 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdramatisan",
+        "meaning": "dramatis 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_bxnq6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beredisi [[버르edisi]]",
+    "meaning": "edisi하는 상태이다, edisi를 행하다",
+    "pos": "동사",
+    "root": "edisi",
+    "affix_logic": "어근 'edisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan edisi",
+    "antonym": "tidak edisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'edisi하는 상태이다, edisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'edisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beredisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'edisi하는 상태이다, edisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beredisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'edisi하는 상태이다, edisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beredisi",
+        "meaning": "edisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_hqywk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengedisi [[뼝edisi]]",
+    "meaning": "edisi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "edisi",
+    "affix_logic": "어근 'edisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak edisi",
+    "antonym": "bukan edisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'edisi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'edisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengedisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'edisi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengedisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'edisi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengedisi",
+        "meaning": "edisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_fvp12",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengedisian [[뼝edisi안]]",
+    "meaning": "edisi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "edisi",
+    "affix_logic": "어근 'edisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses edisi",
+    "antonym": "bukan edisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'edisi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'edisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengedisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'edisi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengedisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'edisi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengedisian",
+        "meaning": "edisi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_w9gvq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bereditor [[버르editor]]",
+    "meaning": "editor하는 상태이다, editor를 행하다",
+    "pos": "동사",
+    "root": "editor",
+    "affix_logic": "어근 'editor'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan editor",
+    "antonym": "tidak editor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editor하는 상태이다, editor를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bereditor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editor하는 상태이다, editor를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bereditor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editor하는 상태이다, editor를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bereditor",
+        "meaning": "editor하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_itffr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeditor [[뼝editor]]",
+    "meaning": "editor 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "editor",
+    "affix_logic": "어근 'editor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak editor",
+    "antonym": "bukan editor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editor 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeditor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editor 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeditor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editor 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeditor",
+        "meaning": "editor 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_5vwle",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengeditoran [[뼝editor안]]",
+    "meaning": "editor 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "editor",
+    "affix_logic": "어근 'editor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses editor",
+    "antonym": "bukan editor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'editor 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'editor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengeditoran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'editor 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengeditoran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'editor 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengeditoran",
+        "meaning": "editor 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_vqykr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekspresi [[버르ekspresi]]",
+    "meaning": "ekspresi하는 상태이다, ekspresi를 행하다",
+    "pos": "동사",
+    "root": "ekspresi",
+    "affix_logic": "어근 'ekspresi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekspresi",
+    "antonym": "tidak ekspresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekspresi하는 상태이다, ekspresi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekspresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berekspresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekspresi하는 상태이다, ekspresi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berekspresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekspresi하는 상태이다, ekspresi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berekspresi",
+        "meaning": "ekspresi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_gumzc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspresi [[뼝ekspresi]]",
+    "meaning": "ekspresi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "ekspresi",
+    "affix_logic": "어근 'ekspresi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ekspresi",
+    "antonym": "bukan ekspresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekspresi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekspresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekspresi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekspresi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekspresi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekspresi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekspresi",
+        "meaning": "ekspresi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_xi5nf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspresian [[뼝ekspresi안]]",
+    "meaning": "ekspresi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "ekspresi",
+    "affix_logic": "어근 'ekspresi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ekspresi",
+    "antonym": "bukan ekspresi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekspresi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekspresi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekspresian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekspresi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekspresian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekspresi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekspresian",
+        "meaning": "ekspresi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_chxzu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekspresionisme [[버르ekspresionisme]]",
+    "meaning": "ekspresionisme하는 상태이다, ekspresionisme를 행하다",
+    "pos": "동사",
+    "root": "ekspresionisme",
+    "affix_logic": "어근 'ekspresionisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekspresionisme",
+    "antonym": "tidak ekspresionisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekspresionisme하는 상태이다, ekspresionisme를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekspresionisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berekspresionisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekspresionisme하는 상태이다, ekspresionisme를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berekspresionisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekspresionisme하는 상태이다, ekspresionisme를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berekspresionisme",
+        "meaning": "ekspresionisme하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_apesw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspresionisme [[뼝ekspresionisme]]",
+    "meaning": "ekspresionisme 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "ekspresionisme",
+    "affix_logic": "어근 'ekspresionisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ekspresionisme",
+    "antonym": "bukan ekspresionisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekspresionisme 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekspresionisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekspresionisme' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekspresionisme 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekspresionisme' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekspresionisme 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekspresionisme",
+        "meaning": "ekspresionisme 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_gb51m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekspresionismean [[뼝ekspresionisme안]]",
+    "meaning": "ekspresionisme 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "ekspresionisme",
+    "affix_logic": "어근 'ekspresionisme'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ekspresionisme",
+    "antonym": "bukan ekspresionisme",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekspresionisme 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekspresionisme'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekspresionismean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekspresionisme 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekspresionismean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekspresionisme 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekspresionismean",
+        "meaning": "ekspresionisme 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_t52n1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berensiklopedia [[버르ensiklopedia]]",
+    "meaning": "ensiklopedia하는 상태이다, ensiklopedia를 행하다",
+    "pos": "동사",
+    "root": "ensiklopedia",
+    "affix_logic": "어근 'ensiklopedia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ensiklopedia",
+    "antonym": "tidak ensiklopedia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ensiklopedia하는 상태이다, ensiklopedia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ensiklopedia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berensiklopedia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ensiklopedia하는 상태이다, ensiklopedia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berensiklopedia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ensiklopedia하는 상태이다, ensiklopedia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berensiklopedia",
+        "meaning": "ensiklopedia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_x44ay",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengensiklopedia [[뼝ensiklopedia]]",
+    "meaning": "ensiklopedia 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "ensiklopedia",
+    "affix_logic": "어근 'ensiklopedia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ensiklopedia",
+    "antonym": "bukan ensiklopedia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ensiklopedia 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ensiklopedia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengensiklopedia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ensiklopedia 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengensiklopedia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ensiklopedia 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengensiklopedia",
+        "meaning": "ensiklopedia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_cew4s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengensiklopediaan [[뼝ensiklopedia안]]",
+    "meaning": "ensiklopedia 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "ensiklopedia",
+    "affix_logic": "어근 'ensiklopedia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ensiklopedia",
+    "antonym": "bukan ensiklopedia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ensiklopedia 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ensiklopedia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengensiklopediaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ensiklopedia 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengensiklopediaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ensiklopedia 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengensiklopediaan",
+        "meaning": "ensiklopedia 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_w9lvp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berepilog [[버르epilog]]",
+    "meaning": "epilog하는 상태이다, epilog를 행하다",
+    "pos": "동사",
+    "root": "epilog",
+    "affix_logic": "어근 'epilog'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan epilog",
+    "antonym": "tidak epilog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'epilog하는 상태이다, epilog를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'epilog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berepilog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'epilog하는 상태이다, epilog를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berepilog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'epilog하는 상태이다, epilog를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berepilog",
+        "meaning": "epilog하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_f1uuk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepilog [[뼝epilog]]",
+    "meaning": "epilog 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "epilog",
+    "affix_logic": "어근 'epilog'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak epilog",
+    "antonym": "bukan epilog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'epilog 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'epilog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengepilog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'epilog 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengepilog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'epilog 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengepilog",
+        "meaning": "epilog 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_afhwx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepilogan [[뼝epilog안]]",
+    "meaning": "epilog 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "epilog",
+    "affix_logic": "어근 'epilog'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses epilog",
+    "antonym": "bukan epilog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'epilog 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'epilog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengepilogan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'epilog 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengepilogan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'epilog 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengepilogan",
+        "meaning": "epilog 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_9eg57",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berepisode [[버르episode]]",
+    "meaning": "episode하는 상태이다, episode를 행하다",
+    "pos": "동사",
+    "root": "episode",
+    "affix_logic": "어근 'episode'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan episode",
+    "antonym": "tidak episode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'episode하는 상태이다, episode를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'episode'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berepisode' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'episode하는 상태이다, episode를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berepisode' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'episode하는 상태이다, episode를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berepisode",
+        "meaning": "episode하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_tmh31",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepisode [[뼝episode]]",
+    "meaning": "episode 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "episode",
+    "affix_logic": "어근 'episode'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak episode",
+    "antonym": "bukan episode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'episode 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'episode'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengepisode' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'episode 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengepisode' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'episode 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengepisode",
+        "meaning": "episode 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_r1en3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengepisodean [[뼝episode안]]",
+    "meaning": "episode 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "episode",
+    "affix_logic": "어근 'episode'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses episode",
+    "antonym": "bukan episode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'episode 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'episode'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengepisodean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'episode 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengepisodean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'episode 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengepisodean",
+        "meaning": "episode 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_0bh8s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beretnik [[버르etnik]]",
+    "meaning": "etnik하는 상태이다, etnik를 행하다",
+    "pos": "동사",
+    "root": "etnik",
+    "affix_logic": "어근 'etnik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan etnik",
+    "antonym": "tidak etnik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnik하는 상태이다, etnik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beretnik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnik하는 상태이다, etnik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beretnik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnik하는 상태이다, etnik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beretnik",
+        "meaning": "etnik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_80djy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnik [[뼝etnik]]",
+    "meaning": "etnik 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "etnik",
+    "affix_logic": "어근 'etnik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak etnik",
+    "antonym": "bukan etnik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnik 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnik 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnik 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnik",
+        "meaning": "etnik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_hzshi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnikan [[뼝etnik안]]",
+    "meaning": "etnik 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "etnik",
+    "affix_logic": "어근 'etnik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses etnik",
+    "antonym": "bukan etnik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnik 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnik 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnik 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnikan",
+        "meaning": "etnik 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_jvn2f",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beretnografi [[버르etnografi]]",
+    "meaning": "etnografi하는 상태이다, etnografi를 행하다",
+    "pos": "동사",
+    "root": "etnografi",
+    "affix_logic": "어근 'etnografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan etnografi",
+    "antonym": "tidak etnografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnografi하는 상태이다, etnografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beretnografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnografi하는 상태이다, etnografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beretnografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnografi하는 상태이다, etnografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beretnografi",
+        "meaning": "etnografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ny710",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnografi [[뼝etnografi]]",
+    "meaning": "etnografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "etnografi",
+    "affix_logic": "어근 'etnografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak etnografi",
+    "antonym": "bukan etnografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnografi",
+        "meaning": "etnografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_itp7z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnografian [[뼝etnografi안]]",
+    "meaning": "etnografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "etnografi",
+    "affix_logic": "어근 'etnografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses etnografi",
+    "antonym": "bukan etnografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnografian",
+        "meaning": "etnografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_um3ld",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beretnomusikologi [[버르etnomusikologi]]",
+    "meaning": "etnomusikologi하는 상태이다, etnomusikologi를 행하다",
+    "pos": "동사",
+    "root": "etnomusikologi",
+    "affix_logic": "어근 'etnomusikologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan etnomusikologi",
+    "antonym": "tidak etnomusikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnomusikologi하는 상태이다, etnomusikologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnomusikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beretnomusikologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnomusikologi하는 상태이다, etnomusikologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beretnomusikologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnomusikologi하는 상태이다, etnomusikologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beretnomusikologi",
+        "meaning": "etnomusikologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_fs2l7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnomusikologi [[뼝etnomusikologi]]",
+    "meaning": "etnomusikologi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "etnomusikologi",
+    "affix_logic": "어근 'etnomusikologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak etnomusikologi",
+    "antonym": "bukan etnomusikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnomusikologi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnomusikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnomusikologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnomusikologi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnomusikologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnomusikologi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnomusikologi",
+        "meaning": "etnomusikologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_c8xyx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengetnomusikologian [[뼝etnomusikologi안]]",
+    "meaning": "etnomusikologi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "etnomusikologi",
+    "affix_logic": "어근 'etnomusikologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses etnomusikologi",
+    "antonym": "bukan etnomusikologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'etnomusikologi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'etnomusikologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengetnomusikologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'etnomusikologi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengetnomusikologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'etnomusikologi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengetnomusikologian",
+        "meaning": "etnomusikologi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_h3vwq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfabel [[버르fabel]]",
+    "meaning": "fabel하는 상태이다, fabel를 행하다",
+    "pos": "동사",
+    "root": "fabel",
+    "affix_logic": "어근 'fabel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fabel",
+    "antonym": "tidak fabel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fabel하는 상태이다, fabel를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fabel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfabel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fabel하는 상태이다, fabel를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfabel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fabel하는 상태이다, fabel를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfabel",
+        "meaning": "fabel하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_patox",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfabel [[뼝fabel]]",
+    "meaning": "fabel 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "fabel",
+    "affix_logic": "어근 'fabel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fabel",
+    "antonym": "bukan fabel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fabel 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fabel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfabel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fabel 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfabel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fabel 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfabel",
+        "meaning": "fabel 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_4o14a",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfabelan [[뼝fabel안]]",
+    "meaning": "fabel 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "fabel",
+    "affix_logic": "어근 'fabel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fabel",
+    "antonym": "bukan fabel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fabel 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fabel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfabelan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fabel 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfabelan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fabel 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfabelan",
+        "meaning": "fabel 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_oflqs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfiksi [[버르fiksi]]",
+    "meaning": "fiksi하는 상태이다, fiksi를 행하다",
+    "pos": "동사",
+    "root": "fiksi",
+    "affix_logic": "어근 'fiksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fiksi",
+    "antonym": "tidak fiksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fiksi하는 상태이다, fiksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fiksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfiksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fiksi하는 상태이다, fiksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfiksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fiksi하는 상태이다, fiksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfiksi",
+        "meaning": "fiksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_45w6i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfiksi [[뼝fiksi]]",
+    "meaning": "fiksi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "fiksi",
+    "affix_logic": "어근 'fiksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fiksi",
+    "antonym": "bukan fiksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fiksi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fiksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfiksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fiksi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfiksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fiksi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfiksi",
+        "meaning": "fiksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_91o20",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfiksian [[뼝fiksi안]]",
+    "meaning": "fiksi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "fiksi",
+    "affix_logic": "어근 'fiksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fiksi",
+    "antonym": "bukan fiksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fiksi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fiksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfiksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fiksi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfiksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fiksi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfiksian",
+        "meaning": "fiksi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_o516v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfilateli [[버르filateli]]",
+    "meaning": "filateli하는 상태이다, filateli를 행하다",
+    "pos": "동사",
+    "root": "filateli",
+    "affix_logic": "어근 'filateli'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan filateli",
+    "antonym": "tidak filateli",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filateli하는 상태이다, filateli를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filateli'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfilateli' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filateli하는 상태이다, filateli를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfilateli' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filateli하는 상태이다, filateli를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfilateli",
+        "meaning": "filateli하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_mf8de",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfilateli [[뼝filateli]]",
+    "meaning": "filateli 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "filateli",
+    "affix_logic": "어근 'filateli'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak filateli",
+    "antonym": "bukan filateli",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filateli 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filateli'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfilateli' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filateli 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfilateli' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filateli 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfilateli",
+        "meaning": "filateli 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_44nk9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfilatelian [[뼝filateli안]]",
+    "meaning": "filateli 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "filateli",
+    "affix_logic": "어근 'filateli'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses filateli",
+    "antonym": "bukan filateli",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filateli 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filateli'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfilatelian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filateli 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfilatelian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filateli 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfilatelian",
+        "meaning": "filateli 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_6uiwh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfilmografi [[버르filmografi]]",
+    "meaning": "filmografi하는 상태이다, filmografi를 행하다",
+    "pos": "동사",
+    "root": "filmografi",
+    "affix_logic": "어근 'filmografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan filmografi",
+    "antonym": "tidak filmografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filmografi하는 상태이다, filmografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filmografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfilmografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filmografi하는 상태이다, filmografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfilmografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filmografi하는 상태이다, filmografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfilmografi",
+        "meaning": "filmografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_guyzg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfilmografi [[뼝filmografi]]",
+    "meaning": "filmografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "filmografi",
+    "affix_logic": "어근 'filmografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak filmografi",
+    "antonym": "bukan filmografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filmografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filmografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfilmografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filmografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfilmografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filmografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfilmografi",
+        "meaning": "filmografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_cvalr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfilmografian [[뼝filmografi안]]",
+    "meaning": "filmografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "filmografi",
+    "affix_logic": "어근 'filmografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses filmografi",
+    "antonym": "bukan filmografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'filmografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'filmografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfilmografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'filmografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfilmografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'filmografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfilmografian",
+        "meaning": "filmografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_qm4ht",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfolklor [[버르folklor]]",
+    "meaning": "folklor하는 상태이다, folklor를 행하다",
+    "pos": "동사",
+    "root": "folklor",
+    "affix_logic": "어근 'folklor'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan folklor",
+    "antonym": "tidak folklor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'folklor하는 상태이다, folklor를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'folklor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfolklor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'folklor하는 상태이다, folklor를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfolklor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'folklor하는 상태이다, folklor를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfolklor",
+        "meaning": "folklor하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ufj4v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfolklor [[뼝folklor]]",
+    "meaning": "folklor 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "folklor",
+    "affix_logic": "어근 'folklor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak folklor",
+    "antonym": "bukan folklor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'folklor 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'folklor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfolklor' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'folklor 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfolklor' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'folklor 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfolklor",
+        "meaning": "folklor 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_qrd5m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfolkloran [[뼝folklor안]]",
+    "meaning": "folklor 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "folklor",
+    "affix_logic": "어근 'folklor'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses folklor",
+    "antonym": "bukan folklor",
+    "context": "실생활 및 회화/비즈니스 상황에서 'folklor 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'folklor'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfolkloran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'folklor 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfolkloran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'folklor 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfolkloran",
+        "meaning": "folklor 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_f2vsy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfotografi [[버르fotografi]]",
+    "meaning": "fotografi하는 상태이다, fotografi를 행하다",
+    "pos": "동사",
+    "root": "fotografi",
+    "affix_logic": "어근 'fotografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fotografi",
+    "antonym": "tidak fotografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotografi하는 상태이다, fotografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfotografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotografi하는 상태이다, fotografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfotografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotografi하는 상태이다, fotografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfotografi",
+        "meaning": "fotografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_v6sak",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfotografi [[뼝fotografi]]",
+    "meaning": "fotografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "fotografi",
+    "affix_logic": "어근 'fotografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fotografi",
+    "antonym": "bukan fotografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfotografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfotografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfotografi",
+        "meaning": "fotografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_besyo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfotografian [[뼝fotografi안]]",
+    "meaning": "fotografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "fotografi",
+    "affix_logic": "어근 'fotografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fotografi",
+    "antonym": "bukan fotografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fotografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fotografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfotografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fotografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfotografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fotografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfotografian",
+        "meaning": "fotografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_rnli5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergaleri [[버르galeri]]",
+    "meaning": "galeri하는 상태이다, galeri를 행하다",
+    "pos": "동사",
+    "root": "galeri",
+    "affix_logic": "어근 'galeri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan galeri",
+    "antonym": "tidak galeri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'galeri하는 상태이다, galeri를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'galeri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergaleri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'galeri하는 상태이다, galeri를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergaleri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'galeri하는 상태이다, galeri를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergaleri",
+        "meaning": "galeri하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_vjkfc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggaleri [[뼝galeri]]",
+    "meaning": "galeri 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "galeri",
+    "affix_logic": "어근 'galeri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak galeri",
+    "antonym": "bukan galeri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'galeri 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'galeri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggaleri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'galeri 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggaleri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'galeri 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggaleri",
+        "meaning": "galeri 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_voxbs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggalerian [[뼝galeri안]]",
+    "meaning": "galeri 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "galeri",
+    "affix_logic": "어근 'galeri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses galeri",
+    "antonym": "bukan galeri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'galeri 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'galeri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggalerian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'galeri 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggalerian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'galeri 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggalerian",
+        "meaning": "galeri 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_nzto0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergenre [[버르genre]]",
+    "meaning": "genre하는 상태이다, genre를 행하다",
+    "pos": "동사",
+    "root": "genre",
+    "affix_logic": "어근 'genre'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan genre",
+    "antonym": "tidak genre",
+    "context": "실생활 및 회화/비즈니스 상황에서 'genre하는 상태이다, genre를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'genre'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergenre' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'genre하는 상태이다, genre를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergenre' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'genre하는 상태이다, genre를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergenre",
+        "meaning": "genre하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_dktxs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggenre [[뼝genre]]",
+    "meaning": "genre 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "genre",
+    "affix_logic": "어근 'genre'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak genre",
+    "antonym": "bukan genre",
+    "context": "실생활 및 회화/비즈니스 상황에서 'genre 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'genre'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggenre' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'genre 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggenre' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'genre 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggenre",
+        "meaning": "genre 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_42a40",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggenrean [[뼝genre안]]",
+    "meaning": "genre 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "genre",
+    "affix_logic": "어근 'genre'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses genre",
+    "antonym": "bukan genre",
+    "context": "실생활 및 회화/비즈니스 상황에서 'genre 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'genre'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggenrean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'genre 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggenrean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'genre 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggenrean",
+        "meaning": "genre 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_o5p6m",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergeografi [[버르geografi]]",
+    "meaning": "geografi하는 상태이다, geografi를 행하다",
+    "pos": "동사",
+    "root": "geografi",
+    "affix_logic": "어근 'geografi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan geografi",
+    "antonym": "tidak geografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geografi하는 상태이다, geografi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergeografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geografi하는 상태이다, geografi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergeografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geografi하는 상태이다, geografi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergeografi",
+        "meaning": "geografi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_9s4j2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeografi [[뼝geografi]]",
+    "meaning": "geografi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "geografi",
+    "affix_logic": "어근 'geografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak geografi",
+    "antonym": "bukan geografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geografi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggeografi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geografi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggeografi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geografi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggeografi",
+        "meaning": "geografi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_uuyec",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeografian [[뼝geografi안]]",
+    "meaning": "geografi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "geografi",
+    "affix_logic": "어근 'geografi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses geografi",
+    "antonym": "bukan geografi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geografi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geografi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggeografian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geografi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggeografian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geografi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggeografian",
+        "meaning": "geografi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_11rjb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergrafis [[버르grafis]]",
+    "meaning": "grafis하는 상태이다, grafis를 행하다",
+    "pos": "동사",
+    "root": "grafis",
+    "affix_logic": "어근 'grafis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan grafis",
+    "antonym": "tidak grafis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'grafis하는 상태이다, grafis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'grafis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergrafis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'grafis하는 상태이다, grafis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergrafis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'grafis하는 상태이다, grafis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergrafis",
+        "meaning": "grafis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ovpuc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggrafis [[뼝grafis]]",
+    "meaning": "grafis 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "grafis",
+    "affix_logic": "어근 'grafis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak grafis",
+    "antonym": "bukan grafis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'grafis 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'grafis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggrafis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'grafis 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggrafis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'grafis 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggrafis",
+        "meaning": "grafis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_25c2n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggrafisan [[뼝grafis안]]",
+    "meaning": "grafis 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "grafis",
+    "affix_logic": "어근 'grafis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses grafis",
+    "antonym": "bukan grafis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'grafis 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'grafis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggrafisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'grafis 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggrafisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'grafis 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggrafisan",
+        "meaning": "grafis 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_p3riv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berharmoni [[버르harmoni]]",
+    "meaning": "harmoni하는 상태이다, harmoni를 행하다",
+    "pos": "동사",
+    "root": "harmoni",
+    "affix_logic": "어근 'harmoni'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan harmoni",
+    "antonym": "tidak harmoni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'harmoni하는 상태이다, harmoni를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'harmoni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berharmoni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'harmoni하는 상태이다, harmoni를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berharmoni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'harmoni하는 상태이다, harmoni를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berharmoni",
+        "meaning": "harmoni하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_t5s2h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengharmoni [[뼝harmoni]]",
+    "meaning": "harmoni 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "harmoni",
+    "affix_logic": "어근 'harmoni'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak harmoni",
+    "antonym": "bukan harmoni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'harmoni 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'harmoni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengharmoni' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'harmoni 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengharmoni' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'harmoni 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengharmoni",
+        "meaning": "harmoni 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_atkc9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengharmonian [[뼝harmoni안]]",
+    "meaning": "harmoni 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "harmoni",
+    "affix_logic": "어근 'harmoni'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses harmoni",
+    "antonym": "bukan harmoni",
+    "context": "실생활 및 회화/비즈니스 상황에서 'harmoni 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'harmoni'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengharmonian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'harmoni 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengharmonian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'harmoni 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengharmonian",
+        "meaning": "harmoni 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_mq86g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhermeneutika [[버르hermeneutika]]",
+    "meaning": "hermeneutika하는 상태이다, hermeneutika를 행하다",
+    "pos": "동사",
+    "root": "hermeneutika",
+    "affix_logic": "어근 'hermeneutika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hermeneutika",
+    "antonym": "tidak hermeneutika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hermeneutika하는 상태이다, hermeneutika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hermeneutika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhermeneutika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hermeneutika하는 상태이다, hermeneutika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhermeneutika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hermeneutika하는 상태이다, hermeneutika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhermeneutika",
+        "meaning": "hermeneutika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_j6c4u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghermeneutika [[뼝hermeneutika]]",
+    "meaning": "hermeneutika 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "hermeneutika",
+    "affix_logic": "어근 'hermeneutika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hermeneutika",
+    "antonym": "bukan hermeneutika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hermeneutika 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hermeneutika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghermeneutika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hermeneutika 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghermeneutika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hermeneutika 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghermeneutika",
+        "meaning": "hermeneutika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_56gzg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghermeneutikaan [[뼝hermeneutika안]]",
+    "meaning": "hermeneutika 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "hermeneutika",
+    "affix_logic": "어근 'hermeneutika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hermeneutika",
+    "antonym": "bukan hermeneutika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hermeneutika 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hermeneutika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghermeneutikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hermeneutika 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghermeneutikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hermeneutika 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghermeneutikaan",
+        "meaning": "hermeneutika 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_8edmw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhistoris [[버르historis]]",
+    "meaning": "historis하는 상태이다, historis를 행하다",
+    "pos": "동사",
+    "root": "historis",
+    "affix_logic": "어근 'historis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan historis",
+    "antonym": "tidak historis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'historis하는 상태이다, historis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'historis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhistoris' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'historis하는 상태이다, historis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhistoris' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'historis하는 상태이다, historis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhistoris",
+        "meaning": "historis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_6jys9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghistoris [[뼝historis]]",
+    "meaning": "historis 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "historis",
+    "affix_logic": "어근 'historis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak historis",
+    "antonym": "bukan historis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'historis 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'historis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghistoris' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'historis 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghistoris' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'historis 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghistoris",
+        "meaning": "historis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_vq18x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghistorisan [[뼝historis안]]",
+    "meaning": "historis 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "historis",
+    "affix_logic": "어근 'historis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses historis",
+    "antonym": "bukan historis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'historis 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'historis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghistorisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'historis 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghistorisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'historis 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghistorisan",
+        "meaning": "historis 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_aovcv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhumaniora [[버르humaniora]]",
+    "meaning": "humaniora하는 상태이다, humaniora를 행하다",
+    "pos": "동사",
+    "root": "humaniora",
+    "affix_logic": "어근 'humaniora'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan humaniora",
+    "antonym": "tidak humaniora",
+    "context": "실생활 및 회화/비즈니스 상황에서 'humaniora하는 상태이다, humaniora를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'humaniora'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhumaniora' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'humaniora하는 상태이다, humaniora를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhumaniora' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'humaniora하는 상태이다, humaniora를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhumaniora",
+        "meaning": "humaniora하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_3c1bl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghumaniora [[뼝humaniora]]",
+    "meaning": "humaniora 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "humaniora",
+    "affix_logic": "어근 'humaniora'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak humaniora",
+    "antonym": "bukan humaniora",
+    "context": "실생활 및 회화/비즈니스 상황에서 'humaniora 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'humaniora'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghumaniora' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'humaniora 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghumaniora' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'humaniora 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghumaniora",
+        "meaning": "humaniora 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ta1md",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghumanioraan [[뼝humaniora안]]",
+    "meaning": "humaniora 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "humaniora",
+    "affix_logic": "어근 'humaniora'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses humaniora",
+    "antonym": "bukan humaniora",
+    "context": "실생활 및 회화/비즈니스 상황에서 'humaniora 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'humaniora'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghumanioraan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'humaniora 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghumanioraan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'humaniora 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghumanioraan",
+        "meaning": "humaniora 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_nhh1b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berikon [[버르ikon]]",
+    "meaning": "ikon하는 상태이다, ikon를 행하다",
+    "pos": "동사",
+    "root": "ikon",
+    "affix_logic": "어근 'ikon'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ikon",
+    "antonym": "tidak ikon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ikon하는 상태이다, ikon를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ikon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berikon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ikon하는 상태이다, ikon를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berikon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ikon하는 상태이다, ikon를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berikon",
+        "meaning": "ikon하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_reze6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengikon [[뼝ikon]]",
+    "meaning": "ikon 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "ikon",
+    "affix_logic": "어근 'ikon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ikon",
+    "antonym": "bukan ikon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ikon 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ikon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengikon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ikon 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengikon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ikon 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengikon",
+        "meaning": "ikon 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_bk3f0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengikonan [[뼝ikon안]]",
+    "meaning": "ikon 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "ikon",
+    "affix_logic": "어근 'ikon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ikon",
+    "antonym": "bukan ikon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ikon 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ikon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengikonan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ikon 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengikonan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ikon 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengikonan",
+        "meaning": "ikon 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ewklx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berilustrator [[버르ilustrator]]",
+    "meaning": "ilustrator하는 상태이다, ilustrator를 행하다",
+    "pos": "동사",
+    "root": "ilustrator",
+    "affix_logic": "어근 'ilustrator'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ilustrator",
+    "antonym": "tidak ilustrator",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ilustrator하는 상태이다, ilustrator를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ilustrator'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berilustrator' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ilustrator하는 상태이다, ilustrator를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berilustrator' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ilustrator하는 상태이다, ilustrator를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berilustrator",
+        "meaning": "ilustrator하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_7ifk8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengilustrator [[뼝ilustrator]]",
+    "meaning": "ilustrator 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "ilustrator",
+    "affix_logic": "어근 'ilustrator'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ilustrator",
+    "antonym": "bukan ilustrator",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ilustrator 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ilustrator'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengilustrator' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ilustrator 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengilustrator' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ilustrator 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengilustrator",
+        "meaning": "ilustrator 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_idbdu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengilustratoran [[뼝ilustrator안]]",
+    "meaning": "ilustrator 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "ilustrator",
+    "affix_logic": "어근 'ilustrator'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ilustrator",
+    "antonym": "bukan ilustrator",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ilustrator 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ilustrator'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengilustratoran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ilustrator 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengilustratoran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ilustrator 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengilustratoran",
+        "meaning": "ilustrator 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_v6w4g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berimajinasi [[버르imajinasi]]",
+    "meaning": "imajinasi하는 상태이다, imajinasi를 행하다",
+    "pos": "동사",
+    "root": "imajinasi",
+    "affix_logic": "어근 'imajinasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan imajinasi",
+    "antonym": "tidak imajinasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imajinasi하는 상태이다, imajinasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imajinasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berimajinasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imajinasi하는 상태이다, imajinasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berimajinasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imajinasi하는 상태이다, imajinasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berimajinasi",
+        "meaning": "imajinasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_swv5x",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimajinasi [[뼝imajinasi]]",
+    "meaning": "imajinasi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "imajinasi",
+    "affix_logic": "어근 'imajinasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak imajinasi",
+    "antonym": "bukan imajinasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imajinasi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imajinasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimajinasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imajinasi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimajinasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imajinasi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimajinasi",
+        "meaning": "imajinasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_oxn6y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimajinasian [[뼝imajinasi안]]",
+    "meaning": "imajinasi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "imajinasi",
+    "affix_logic": "어근 'imajinasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses imajinasi",
+    "antonym": "bukan imajinasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'imajinasi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'imajinasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimajinasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'imajinasi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimajinasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'imajinasi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimajinasian",
+        "meaning": "imajinasi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_8fcvv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berimprovisasi [[버르improvisasi]]",
+    "meaning": "improvisasi하는 상태이다, improvisasi를 행하다",
+    "pos": "동사",
+    "root": "improvisasi",
+    "affix_logic": "어근 'improvisasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan improvisasi",
+    "antonym": "tidak improvisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'improvisasi하는 상태이다, improvisasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'improvisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berimprovisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'improvisasi하는 상태이다, improvisasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berimprovisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'improvisasi하는 상태이다, improvisasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berimprovisasi",
+        "meaning": "improvisasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_xp7dc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimprovisasi [[뼝improvisasi]]",
+    "meaning": "improvisasi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "improvisasi",
+    "affix_logic": "어근 'improvisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak improvisasi",
+    "antonym": "bukan improvisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'improvisasi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'improvisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimprovisasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'improvisasi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimprovisasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'improvisasi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimprovisasi",
+        "meaning": "improvisasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_cyz57",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengimprovisasian [[뼝improvisasi안]]",
+    "meaning": "improvisasi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "improvisasi",
+    "affix_logic": "어근 'improvisasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses improvisasi",
+    "antonym": "bukan improvisasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'improvisasi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'improvisasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengimprovisasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'improvisasi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengimprovisasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'improvisasi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengimprovisasian",
+        "meaning": "improvisasi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_qqkyf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinstrumental [[버르instrumental]]",
+    "meaning": "instrumental하는 상태이다, instrumental를 행하다",
+    "pos": "동사",
+    "root": "instrumental",
+    "affix_logic": "어근 'instrumental'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan instrumental",
+    "antonym": "tidak instrumental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instrumental하는 상태이다, instrumental를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instrumental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinstrumental' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instrumental하는 상태이다, instrumental를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinstrumental' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instrumental하는 상태이다, instrumental를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinstrumental",
+        "meaning": "instrumental하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_fazcg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginstrumental [[뼝instrumental]]",
+    "meaning": "instrumental 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "instrumental",
+    "affix_logic": "어근 'instrumental'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak instrumental",
+    "antonym": "bukan instrumental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instrumental 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instrumental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginstrumental' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instrumental 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginstrumental' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instrumental 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginstrumental",
+        "meaning": "instrumental 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_smf2s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginstrumentalan [[뼝instrumental안]]",
+    "meaning": "instrumental 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "instrumental",
+    "affix_logic": "어근 'instrumental'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses instrumental",
+    "antonym": "bukan instrumental",
+    "context": "실생활 및 회화/비즈니스 상황에서 'instrumental 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'instrumental'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginstrumentalan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'instrumental 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginstrumentalan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'instrumental 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginstrumentalan",
+        "meaning": "instrumental 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_lvkan",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinterpretasi [[버르interpretasi]]",
+    "meaning": "interpretasi하는 상태이다, interpretasi를 행하다",
+    "pos": "동사",
+    "root": "interpretasi",
+    "affix_logic": "어근 'interpretasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan interpretasi",
+    "antonym": "tidak interpretasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interpretasi하는 상태이다, interpretasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interpretasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinterpretasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interpretasi하는 상태이다, interpretasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinterpretasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interpretasi하는 상태이다, interpretasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinterpretasi",
+        "meaning": "interpretasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_h27ns",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginterpretasi [[뼝interpretasi]]",
+    "meaning": "interpretasi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "interpretasi",
+    "affix_logic": "어근 'interpretasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak interpretasi",
+    "antonym": "bukan interpretasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interpretasi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interpretasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginterpretasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interpretasi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginterpretasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interpretasi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginterpretasi",
+        "meaning": "interpretasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_35fmg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginterpretasian [[뼝interpretasi안]]",
+    "meaning": "interpretasi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "interpretasi",
+    "affix_logic": "어근 'interpretasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses interpretasi",
+    "antonym": "bukan interpretasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'interpretasi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'interpretasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginterpretasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'interpretasi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginterpretasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'interpretasi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginterpretasian",
+        "meaning": "interpretasi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_gu7bb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berironi [[버르ironi]]",
+    "meaning": "ironi하는 상태이다, ironi를 행하다",
+    "pos": "동사",
+    "root": "ironi",
+    "affix_logic": "어근 'ironi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ironi",
+    "antonym": "tidak ironi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ironi하는 상태이다, ironi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ironi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berironi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ironi하는 상태이다, ironi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berironi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ironi하는 상태이다, ironi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berironi",
+        "meaning": "ironi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_3z3mc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengironi [[뼝ironi]]",
+    "meaning": "ironi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "ironi",
+    "affix_logic": "어근 'ironi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ironi",
+    "antonym": "bukan ironi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ironi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ironi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengironi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ironi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengironi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ironi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengironi",
+        "meaning": "ironi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_8vg2w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengironian [[뼝ironi안]]",
+    "meaning": "ironi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "ironi",
+    "affix_logic": "어근 'ironi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ironi",
+    "antonym": "bukan ironi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ironi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ironi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengironian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ironi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengironian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ironi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengironian",
+        "meaning": "ironi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_w0h7c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjurnalistik [[버르jurnalistik]]",
+    "meaning": "jurnalistik하는 상태이다, jurnalistik를 행하다",
+    "pos": "동사",
+    "root": "jurnalistik",
+    "affix_logic": "어근 'jurnalistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan jurnalistik",
+    "antonym": "tidak jurnalistik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalistik하는 상태이다, jurnalistik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalistik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berjurnalistik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalistik하는 상태이다, jurnalistik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berjurnalistik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalistik하는 상태이다, jurnalistik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berjurnalistik",
+        "meaning": "jurnalistik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_y9ljj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjurnalistik [[뼝jurnalistik]]",
+    "meaning": "jurnalistik 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "jurnalistik",
+    "affix_logic": "어근 'jurnalistik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak jurnalistik",
+    "antonym": "bukan jurnalistik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalistik 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalistik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjurnalistik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalistik 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjurnalistik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalistik 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjurnalistik",
+        "meaning": "jurnalistik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_0d8zo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjurnalistikan [[뼝jurnalistik안]]",
+    "meaning": "jurnalistik 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "jurnalistik",
+    "affix_logic": "어근 'jurnalistik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses jurnalistik",
+    "antonym": "bukan jurnalistik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'jurnalistik 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'jurnalistik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjurnalistikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'jurnalistik 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjurnalistikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'jurnalistik 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjurnalistikan",
+        "meaning": "jurnalistik 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_3fd2i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkaligrafi [[버르kaligrafi]]",
+    "meaning": "kaligrafi하는 상태이다, kaligrafi를 행하다",
+    "pos": "동사",
+    "root": "kaligrafi",
+    "affix_logic": "어근 'kaligrafi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kaligrafi",
+    "antonym": "tidak kaligrafi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kaligrafi하는 상태이다, kaligrafi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kaligrafi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkaligrafi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kaligrafi하는 상태이다, kaligrafi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkaligrafi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kaligrafi하는 상태이다, kaligrafi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkaligrafi",
+        "meaning": "kaligrafi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_gzfpy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkaligrafi [[뼝kaligrafi]]",
+    "meaning": "kaligrafi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "kaligrafi",
+    "affix_logic": "어근 'kaligrafi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kaligrafi",
+    "antonym": "bukan kaligrafi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kaligrafi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kaligrafi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkaligrafi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kaligrafi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkaligrafi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kaligrafi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkaligrafi",
+        "meaning": "kaligrafi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_jek2b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkaligrafian [[뼝kaligrafi안]]",
+    "meaning": "kaligrafi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "kaligrafi",
+    "affix_logic": "어근 'kaligrafi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kaligrafi",
+    "antonym": "bukan kaligrafi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kaligrafi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kaligrafi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkaligrafian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kaligrafi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkaligrafian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kaligrafi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkaligrafian",
+        "meaning": "kaligrafi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_1k5oa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkarikatur [[버르karikatur]]",
+    "meaning": "karikatur하는 상태이다, karikatur를 행하다",
+    "pos": "동사",
+    "root": "karikatur",
+    "affix_logic": "어근 'karikatur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan karikatur",
+    "antonym": "tidak karikatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karikatur하는 상태이다, karikatur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karikatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkarikatur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karikatur하는 상태이다, karikatur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkarikatur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karikatur하는 상태이다, karikatur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkarikatur",
+        "meaning": "karikatur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_u9jep",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkarikatur [[뼝karikatur]]",
+    "meaning": "karikatur 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "karikatur",
+    "affix_logic": "어근 'karikatur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak karikatur",
+    "antonym": "bukan karikatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karikatur 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karikatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkarikatur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karikatur 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkarikatur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karikatur 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkarikatur",
+        "meaning": "karikatur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_chwhq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkarikaturan [[뼝karikatur안]]",
+    "meaning": "karikatur 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "karikatur",
+    "affix_logic": "어근 'karikatur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses karikatur",
+    "antonym": "bukan karikatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karikatur 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karikatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkarikaturan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karikatur 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkarikaturan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karikatur 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkarikaturan",
+        "meaning": "karikatur 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_lvocd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkarya [[버르karya]]",
+    "meaning": "karya하는 상태이다, karya를 행하다",
+    "pos": "동사",
+    "root": "karya",
+    "affix_logic": "어근 'karya'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan karya",
+    "antonym": "tidak karya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karya하는 상태이다, karya를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkarya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karya하는 상태이다, karya를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkarya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karya하는 상태이다, karya를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkarya",
+        "meaning": "karya하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ir2wr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkarya [[뼝karya]]",
+    "meaning": "karya 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "karya",
+    "affix_logic": "어근 'karya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak karya",
+    "antonym": "bukan karya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karya 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkarya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karya 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkarya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karya 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkarya",
+        "meaning": "karya 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_hwfts",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkaryaan [[뼝karya안]]",
+    "meaning": "karya 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "karya",
+    "affix_logic": "어근 'karya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses karya",
+    "antonym": "bukan karya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'karya 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'karya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkaryaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'karya 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkaryaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'karya 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkaryaan",
+        "meaning": "karya 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_doggc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkatalog [[버르katalog]]",
+    "meaning": "katalog하는 상태이다, katalog를 행하다",
+    "pos": "동사",
+    "root": "katalog",
+    "affix_logic": "어근 'katalog'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan katalog",
+    "antonym": "tidak katalog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'katalog하는 상태이다, katalog를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'katalog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkatalog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'katalog하는 상태이다, katalog를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkatalog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'katalog하는 상태이다, katalog를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkatalog",
+        "meaning": "katalog하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_t3ric",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkatalog [[뼝katalog]]",
+    "meaning": "katalog 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "katalog",
+    "affix_logic": "어근 'katalog'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak katalog",
+    "antonym": "bukan katalog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'katalog 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'katalog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkatalog' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'katalog 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkatalog' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'katalog 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkatalog",
+        "meaning": "katalog 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_0l5gx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkatalogan [[뼝katalog안]]",
+    "meaning": "katalog 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "katalog",
+    "affix_logic": "어근 'katalog'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses katalog",
+    "antonym": "bukan katalog",
+    "context": "실생활 및 회화/비즈니스 상황에서 'katalog 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'katalog'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkatalogan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'katalog 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkatalogan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'katalog 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkatalogan",
+        "meaning": "katalog 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_rcety",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berklasik [[버르klasik]]",
+    "meaning": "klasik하는 상태이다, klasik를 행하다",
+    "pos": "동사",
+    "root": "klasik",
+    "affix_logic": "어근 'klasik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan klasik",
+    "antonym": "tidak klasik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klasik하는 상태이다, klasik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klasik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berklasik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klasik하는 상태이다, klasik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berklasik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klasik하는 상태이다, klasik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berklasik",
+        "meaning": "klasik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_hrebj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklasik [[뼝klasik]]",
+    "meaning": "klasik 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "klasik",
+    "affix_logic": "어근 'klasik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak klasik",
+    "antonym": "bukan klasik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klasik 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klasik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklasik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klasik 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklasik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klasik 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklasik",
+        "meaning": "klasik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_egoj0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklasikan [[뼝klasik안]]",
+    "meaning": "klasik 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "klasik",
+    "affix_logic": "어근 'klasik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses klasik",
+    "antonym": "bukan klasik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klasik 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klasik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklasikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klasik 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklasikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klasik 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklasikan",
+        "meaning": "klasik 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_4exx6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkolase [[버르kolase]]",
+    "meaning": "kolase하는 상태이다, kolase를 행하다",
+    "pos": "동사",
+    "root": "kolase",
+    "affix_logic": "어근 'kolase'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kolase",
+    "antonym": "tidak kolase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolase하는 상태이다, kolase를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkolase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolase하는 상태이다, kolase를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkolase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolase하는 상태이다, kolase를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkolase",
+        "meaning": "kolase하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_g1lrn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolase [[뼝kolase]]",
+    "meaning": "kolase 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "kolase",
+    "affix_logic": "어근 'kolase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kolase",
+    "antonym": "bukan kolase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolase 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolase 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolase 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolase",
+        "meaning": "kolase 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_bq2b5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkolasean [[뼝kolase안]]",
+    "meaning": "kolase 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "kolase",
+    "affix_logic": "어근 'kolase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kolase",
+    "antonym": "bukan kolase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kolase 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kolase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkolasean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kolase 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkolasean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kolase 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkolasean",
+        "meaning": "kolase 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_da12n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkoleksi [[버르koleksi]]",
+    "meaning": "koleksi하는 상태이다, koleksi를 행하다",
+    "pos": "동사",
+    "root": "koleksi",
+    "affix_logic": "어근 'koleksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan koleksi",
+    "antonym": "tidak koleksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koleksi하는 상태이다, koleksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koleksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkoleksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koleksi하는 상태이다, koleksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkoleksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koleksi하는 상태이다, koleksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkoleksi",
+        "meaning": "koleksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_mdp6r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoleksi [[뼝koleksi]]",
+    "meaning": "koleksi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "koleksi",
+    "affix_logic": "어근 'koleksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak koleksi",
+    "antonym": "bukan koleksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koleksi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koleksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkoleksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koleksi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkoleksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koleksi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkoleksi",
+        "meaning": "koleksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_l4mbw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoleksian [[뼝koleksi안]]",
+    "meaning": "koleksi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "koleksi",
+    "affix_logic": "어근 'koleksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses koleksi",
+    "antonym": "bukan koleksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koleksi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koleksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkoleksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koleksi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkoleksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koleksi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkoleksian",
+        "meaning": "koleksi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_smk8c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkomedi [[버르komedi]]",
+    "meaning": "komedi하는 상태이다, komedi를 행하다",
+    "pos": "동사",
+    "root": "komedi",
+    "affix_logic": "어근 'komedi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan komedi",
+    "antonym": "tidak komedi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komedi하는 상태이다, komedi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komedi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkomedi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komedi하는 상태이다, komedi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkomedi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komedi하는 상태이다, komedi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkomedi",
+        "meaning": "komedi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_55tjj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomedi [[뼝komedi]]",
+    "meaning": "komedi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "komedi",
+    "affix_logic": "어근 'komedi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak komedi",
+    "antonym": "bukan komedi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komedi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komedi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomedi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komedi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomedi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komedi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomedi",
+        "meaning": "komedi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_84mjh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomedian [[뼝komedi안]]",
+    "meaning": "komedi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "komedi",
+    "affix_logic": "어근 'komedi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses komedi",
+    "antonym": "bukan komedi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komedi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komedi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomedian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komedi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomedian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komedi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomedian",
+        "meaning": "komedi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_vkpwz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkomposisi [[버르komposisi]]",
+    "meaning": "komposisi하는 상태이다, komposisi를 행하다",
+    "pos": "동사",
+    "root": "komposisi",
+    "affix_logic": "어근 'komposisi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan komposisi",
+    "antonym": "tidak komposisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komposisi하는 상태이다, komposisi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komposisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkomposisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komposisi하는 상태이다, komposisi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkomposisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komposisi하는 상태이다, komposisi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkomposisi",
+        "meaning": "komposisi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_fnxz6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomposisi [[뼝komposisi]]",
+    "meaning": "komposisi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "komposisi",
+    "affix_logic": "어근 'komposisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak komposisi",
+    "antonym": "bukan komposisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komposisi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komposisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomposisi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komposisi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomposisi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komposisi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomposisi",
+        "meaning": "komposisi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_vy3zd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkomposisian [[뼝komposisi안]]",
+    "meaning": "komposisi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "komposisi",
+    "affix_logic": "어근 'komposisi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses komposisi",
+    "antonym": "bukan komposisi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'komposisi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'komposisi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkomposisian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'komposisi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkomposisian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'komposisi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkomposisian",
+        "meaning": "komposisi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_se3yp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkonser [[버르konser]]",
+    "meaning": "konser하는 상태이다, konser를 행하다",
+    "pos": "동사",
+    "root": "konser",
+    "affix_logic": "어근 'konser'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan konser",
+    "antonym": "tidak konser",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konser하는 상태이다, konser를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konser'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkonser' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konser하는 상태이다, konser를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkonser' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konser하는 상태이다, konser를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkonser",
+        "meaning": "konser하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_rqw1t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonser [[뼝konser]]",
+    "meaning": "konser 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "konser",
+    "affix_logic": "어근 'konser'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak konser",
+    "antonym": "bukan konser",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konser 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konser'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonser' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konser 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonser' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konser 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonser",
+        "meaning": "konser 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_338sz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkonseran [[뼝konser안]]",
+    "meaning": "konser 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "konser",
+    "affix_logic": "어근 'konser'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses konser",
+    "antonym": "bukan konser",
+    "context": "실생활 및 회화/비즈니스 상황에서 'konser 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'konser'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkonseran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'konser 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkonseran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'konser 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkonseran",
+        "meaning": "konser 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_sml42",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkontemporer [[버르kontemporer]]",
+    "meaning": "kontemporer하는 상태이다, kontemporer를 행하다",
+    "pos": "동사",
+    "root": "kontemporer",
+    "affix_logic": "어근 'kontemporer'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kontemporer",
+    "antonym": "tidak kontemporer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontemporer하는 상태이다, kontemporer를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontemporer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkontemporer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontemporer하는 상태이다, kontemporer를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkontemporer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontemporer하는 상태이다, kontemporer를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkontemporer",
+        "meaning": "kontemporer하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_fnaej",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontemporer [[뼝kontemporer]]",
+    "meaning": "kontemporer 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "kontemporer",
+    "affix_logic": "어근 'kontemporer'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kontemporer",
+    "antonym": "bukan kontemporer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontemporer 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontemporer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontemporer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontemporer 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontemporer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontemporer 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontemporer",
+        "meaning": "kontemporer 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_85lyz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkontemporeran [[뼝kontemporer안]]",
+    "meaning": "kontemporer 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "kontemporer",
+    "affix_logic": "어근 'kontemporer'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kontemporer",
+    "antonym": "bukan kontemporer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kontemporer 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kontemporer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkontemporeran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kontemporer 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkontemporeran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kontemporer 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkontemporeran",
+        "meaning": "kontemporer 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_e7x6b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkritikus [[버르kritikus]]",
+    "meaning": "kritikus하는 상태이다, kritikus를 행하다",
+    "pos": "동사",
+    "root": "kritikus",
+    "affix_logic": "어근 'kritikus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kritikus",
+    "antonym": "tidak kritikus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kritikus하는 상태이다, kritikus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kritikus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkritikus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kritikus하는 상태이다, kritikus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkritikus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kritikus하는 상태이다, kritikus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkritikus",
+        "meaning": "kritikus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_nn2lj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkritikus [[뼝kritikus]]",
+    "meaning": "kritikus 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "kritikus",
+    "affix_logic": "어근 'kritikus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kritikus",
+    "antonym": "bukan kritikus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kritikus 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kritikus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkritikus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kritikus 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkritikus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kritikus 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkritikus",
+        "meaning": "kritikus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_dp6xg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkritikusan [[뼝kritikus안]]",
+    "meaning": "kritikus 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "kritikus",
+    "affix_logic": "어근 'kritikus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kritikus",
+    "antonym": "bukan kritikus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kritikus 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kritikus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkritikusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kritikus 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkritikusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kritikus 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkritikusan",
+        "meaning": "kritikus 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_rip1c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkoreos [[버르koreos]]",
+    "meaning": "koreos하는 상태이다, koreos를 행하다",
+    "pos": "동사",
+    "root": "koreos",
+    "affix_logic": "어근 'koreos'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan koreos",
+    "antonym": "tidak koreos",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreos하는 상태이다, koreos를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreos'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkoreos' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreos하는 상태이다, koreos를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkoreos' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreos하는 상태이다, koreos를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkoreos",
+        "meaning": "koreos하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_iti9j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoreos [[뼝koreos]]",
+    "meaning": "koreos 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "koreos",
+    "affix_logic": "어근 'koreos'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak koreos",
+    "antonym": "bukan koreos",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreos 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreos'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkoreos' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreos 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkoreos' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreos 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkoreos",
+        "meaning": "koreos 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_rk4tl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkoreosan [[뼝koreos안]]",
+    "meaning": "koreos 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "koreos",
+    "affix_logic": "어근 'koreos'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses koreos",
+    "antonym": "bukan koreos",
+    "context": "실생활 및 회화/비즈니스 상황에서 'koreos 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'koreos'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkoreosan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'koreos 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkoreosan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'koreos 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkoreosan",
+        "meaning": "koreos 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_8f5ru",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkultur [[버르kultur]]",
+    "meaning": "kultur하는 상태이다, kultur를 행하다",
+    "pos": "동사",
+    "root": "kultur",
+    "affix_logic": "어근 'kultur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kultur",
+    "antonym": "tidak kultur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kultur하는 상태이다, kultur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kultur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkultur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kultur하는 상태이다, kultur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkultur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kultur하는 상태이다, kultur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkultur",
+        "meaning": "kultur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_pqvdv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkultur [[뼝kultur]]",
+    "meaning": "kultur 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "kultur",
+    "affix_logic": "어근 'kultur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kultur",
+    "antonym": "bukan kultur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kultur 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kultur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkultur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kultur 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkultur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kultur 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkultur",
+        "meaning": "kultur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_gc7fs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkulturan [[뼝kultur안]]",
+    "meaning": "kultur 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "kultur",
+    "affix_logic": "어근 'kultur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kultur",
+    "antonym": "bukan kultur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kultur 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kultur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkulturan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kultur 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkulturan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kultur 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkulturan",
+        "meaning": "kultur 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_5fj6s",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkuno [[버르kuno]]",
+    "meaning": "kuno하는 상태이다, kuno를 행하다",
+    "pos": "동사",
+    "root": "kuno",
+    "affix_logic": "어근 'kuno'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kuno",
+    "antonym": "tidak kuno",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuno하는 상태이다, kuno를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuno'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkuno' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuno하는 상태이다, kuno를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkuno' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuno하는 상태이다, kuno를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkuno",
+        "meaning": "kuno하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_xlt7y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkuno [[뼝kuno]]",
+    "meaning": "kuno 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "kuno",
+    "affix_logic": "어근 'kuno'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kuno",
+    "antonym": "bukan kuno",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuno 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuno'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkuno' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuno 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkuno' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuno 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkuno",
+        "meaning": "kuno 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_arjcm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkunoan [[뼝kuno안]]",
+    "meaning": "kuno 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "kuno",
+    "affix_logic": "어근 'kuno'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kuno",
+    "antonym": "bukan kuno",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kuno 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kuno'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkunoan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kuno 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkunoan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kuno 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkunoan",
+        "meaning": "kuno 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_nkfze",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlagu [[버르lagu]]",
+    "meaning": "lagu하는 상태이다, lagu를 행하다",
+    "pos": "동사",
+    "root": "lagu",
+    "affix_logic": "어근 'lagu'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan lagu",
+    "antonym": "tidak lagu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lagu하는 상태이다, lagu를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lagu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlagu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lagu하는 상태이다, lagu를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlagu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lagu하는 상태이다, lagu를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlagu",
+        "meaning": "lagu하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_fqolh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglagu [[뼝lagu]]",
+    "meaning": "lagu 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "lagu",
+    "affix_logic": "어근 'lagu'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak lagu",
+    "antonym": "bukan lagu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lagu 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lagu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglagu' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lagu 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglagu' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lagu 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglagu",
+        "meaning": "lagu 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ts3lc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaguan [[뼝lagu안]]",
+    "meaning": "lagu 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "lagu",
+    "affix_logic": "어근 'lagu'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses lagu",
+    "antonym": "bukan lagu",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lagu 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lagu'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaguan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lagu 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaguan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lagu 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaguan",
+        "meaning": "lagu 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_u4g18",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlakon [[버르lakon]]",
+    "meaning": "lakon하는 상태이다, lakon를 행하다",
+    "pos": "동사",
+    "root": "lakon",
+    "affix_logic": "어근 'lakon'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan lakon",
+    "antonym": "tidak lakon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lakon하는 상태이다, lakon를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lakon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlakon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lakon하는 상태이다, lakon를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlakon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lakon하는 상태이다, lakon를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlakon",
+        "meaning": "lakon하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_skmjv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglakon [[뼝lakon]]",
+    "meaning": "lakon 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "lakon",
+    "affix_logic": "어근 'lakon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak lakon",
+    "antonym": "bukan lakon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lakon 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lakon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglakon' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lakon 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglakon' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lakon 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglakon",
+        "meaning": "lakon 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ab81d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglakonan [[뼝lakon안]]",
+    "meaning": "lakon 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "lakon",
+    "affix_logic": "어근 'lakon'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses lakon",
+    "antonym": "bukan lakon",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lakon 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lakon'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglakonan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lakon 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglakonan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lakon 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglakonan",
+        "meaning": "lakon 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_p1dtm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berliteratur [[버르literatur]]",
+    "meaning": "literatur하는 상태이다, literatur를 행하다",
+    "pos": "동사",
+    "root": "literatur",
+    "affix_logic": "어근 'literatur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan literatur",
+    "antonym": "tidak literatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'literatur하는 상태이다, literatur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'literatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berliteratur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'literatur하는 상태이다, literatur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berliteratur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'literatur하는 상태이다, literatur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berliteratur",
+        "meaning": "literatur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_swnz9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengliteratur [[뼝literatur]]",
+    "meaning": "literatur 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "literatur",
+    "affix_logic": "어근 'literatur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak literatur",
+    "antonym": "bukan literatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'literatur 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'literatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengliteratur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'literatur 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengliteratur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'literatur 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengliteratur",
+        "meaning": "literatur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_i6hx6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengliteraturan [[뼝literatur안]]",
+    "meaning": "literatur 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "literatur",
+    "affix_logic": "어근 'literatur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses literatur",
+    "antonym": "bukan literatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'literatur 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'literatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengliteraturan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'literatur 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengliteraturan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'literatur 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengliteraturan",
+        "meaning": "literatur 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_5a7eb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlirik [[버르lirik]]",
+    "meaning": "lirik하는 상태이다, lirik를 행하다",
+    "pos": "동사",
+    "root": "lirik",
+    "affix_logic": "어근 'lirik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan lirik",
+    "antonym": "tidak lirik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lirik하는 상태이다, lirik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lirik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlirik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lirik하는 상태이다, lirik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlirik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lirik하는 상태이다, lirik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlirik",
+        "meaning": "lirik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ldv2d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglirik [[뼝lirik]]",
+    "meaning": "lirik 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "lirik",
+    "affix_logic": "어근 'lirik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak lirik",
+    "antonym": "bukan lirik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lirik 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lirik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglirik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lirik 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglirik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lirik 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglirik",
+        "meaning": "lirik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_d6rde",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglirikan [[뼝lirik안]]",
+    "meaning": "lirik 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "lirik",
+    "affix_logic": "어근 'lirik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses lirik",
+    "antonym": "bukan lirik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lirik 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lirik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglirikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lirik 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglirikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lirik 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglirikan",
+        "meaning": "lirik 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_onxgl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermahakarya [[버르mahakarya]]",
+    "meaning": "mahakarya하는 상태이다, mahakarya를 행하다",
+    "pos": "동사",
+    "root": "mahakarya",
+    "affix_logic": "어근 'mahakarya'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mahakarya",
+    "antonym": "tidak mahakarya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mahakarya하는 상태이다, mahakarya를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mahakarya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermahakarya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mahakarya하는 상태이다, mahakarya를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermahakarya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mahakarya하는 상태이다, mahakarya를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermahakarya",
+        "meaning": "mahakarya하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_5tcnc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmahakarya [[뼝mahakarya]]",
+    "meaning": "mahakarya 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "mahakarya",
+    "affix_logic": "어근 'mahakarya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mahakarya",
+    "antonym": "bukan mahakarya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mahakarya 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mahakarya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmahakarya' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mahakarya 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmahakarya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mahakarya 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmahakarya",
+        "meaning": "mahakarya 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ndxhn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmahakaryaan [[뼝mahakarya안]]",
+    "meaning": "mahakarya 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "mahakarya",
+    "affix_logic": "어근 'mahakarya'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mahakarya",
+    "antonym": "bukan mahakarya",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mahakarya 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mahakarya'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmahakaryaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mahakarya 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmahakaryaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mahakarya 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmahakaryaan",
+        "meaning": "mahakarya 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_f7iwp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermanuskrip [[버르manuskrip]]",
+    "meaning": "manuskrip하는 상태이다, manuskrip를 행하다",
+    "pos": "동사",
+    "root": "manuskrip",
+    "affix_logic": "어근 'manuskrip'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan manuskrip",
+    "antonym": "tidak manuskrip",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manuskrip하는 상태이다, manuskrip를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manuskrip'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermanuskrip' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manuskrip하는 상태이다, manuskrip를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermanuskrip' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manuskrip하는 상태이다, manuskrip를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermanuskrip",
+        "meaning": "manuskrip하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_k5l4r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanuskrip [[뼝manuskrip]]",
+    "meaning": "manuskrip 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "manuskrip",
+    "affix_logic": "어근 'manuskrip'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak manuskrip",
+    "antonym": "bukan manuskrip",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manuskrip 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manuskrip'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanuskrip' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manuskrip 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanuskrip' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manuskrip 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanuskrip",
+        "meaning": "manuskrip 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_yhw41",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmanuskripan [[뼝manuskrip안]]",
+    "meaning": "manuskrip 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "manuskrip",
+    "affix_logic": "어근 'manuskrip'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses manuskrip",
+    "antonym": "bukan manuskrip",
+    "context": "실생활 및 회화/비즈니스 상황에서 'manuskrip 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'manuskrip'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmanuskripan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'manuskrip 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmanuskripan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'manuskrip 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmanuskripan",
+        "meaning": "manuskrip 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_pvgrw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermelodi [[버르melodi]]",
+    "meaning": "melodi하는 상태이다, melodi를 행하다",
+    "pos": "동사",
+    "root": "melodi",
+    "affix_logic": "어근 'melodi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan melodi",
+    "antonym": "tidak melodi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'melodi하는 상태이다, melodi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'melodi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermelodi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'melodi하는 상태이다, melodi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermelodi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'melodi하는 상태이다, melodi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermelodi",
+        "meaning": "melodi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_badh2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmelodi [[뼝melodi]]",
+    "meaning": "melodi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "melodi",
+    "affix_logic": "어근 'melodi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak melodi",
+    "antonym": "bukan melodi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'melodi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'melodi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmelodi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'melodi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmelodi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'melodi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmelodi",
+        "meaning": "melodi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ay2h9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmelodian [[뼝melodi안]]",
+    "meaning": "melodi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "melodi",
+    "affix_logic": "어근 'melodi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses melodi",
+    "antonym": "bukan melodi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'melodi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'melodi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmelodian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'melodi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmelodian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'melodi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmelodian",
+        "meaning": "melodi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_6viru",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermemoar [[버르memoar]]",
+    "meaning": "memoar하는 상태이다, memoar를 행하다",
+    "pos": "동사",
+    "root": "memoar",
+    "affix_logic": "어근 'memoar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan memoar",
+    "antonym": "tidak memoar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memoar하는 상태이다, memoar를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memoar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermemoar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memoar하는 상태이다, memoar를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermemoar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memoar하는 상태이다, memoar를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermemoar",
+        "meaning": "memoar하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_k9u5c",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmemoar [[뼝memoar]]",
+    "meaning": "memoar 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "memoar",
+    "affix_logic": "어근 'memoar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak memoar",
+    "antonym": "bukan memoar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memoar 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memoar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmemoar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memoar 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmemoar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memoar 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmemoar",
+        "meaning": "memoar 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_6oh08",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmemoaran [[뼝memoar안]]",
+    "meaning": "memoar 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "memoar",
+    "affix_logic": "어근 'memoar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses memoar",
+    "antonym": "bukan memoar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'memoar 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'memoar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmemoaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'memoar 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmemoaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'memoar 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmemoaran",
+        "meaning": "memoar 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_r3i70",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermetfora [[버르metfora]]",
+    "meaning": "metfora하는 상태이다, metfora를 행하다",
+    "pos": "동사",
+    "root": "metfora",
+    "affix_logic": "어근 'metfora'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan metfora",
+    "antonym": "tidak metfora",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metfora하는 상태이다, metfora를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metfora'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermetfora' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metfora하는 상태이다, metfora를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermetfora' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metfora하는 상태이다, metfora를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermetfora",
+        "meaning": "metfora하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_xhyq8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmetfora [[뼝metfora]]",
+    "meaning": "metfora 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "metfora",
+    "affix_logic": "어근 'metfora'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak metfora",
+    "antonym": "bukan metfora",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metfora 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metfora'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmetfora' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metfora 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmetfora' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metfora 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmetfora",
+        "meaning": "metfora 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_k731z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmetforaan [[뼝metfora안]]",
+    "meaning": "metfora 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "metfora",
+    "affix_logic": "어근 'metfora'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses metfora",
+    "antonym": "bukan metfora",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metfora 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metfora'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmetforaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metfora 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmetforaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metfora 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmetforaan",
+        "meaning": "metfora 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_tzbfl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermitologi [[버르mitologi]]",
+    "meaning": "mitologi하는 상태이다, mitologi를 행하다",
+    "pos": "동사",
+    "root": "mitologi",
+    "affix_logic": "어근 'mitologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mitologi",
+    "antonym": "tidak mitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mitologi하는 상태이다, mitologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mitologi하는 상태이다, mitologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mitologi하는 상태이다, mitologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermitologi",
+        "meaning": "mitologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_1hi21",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmitologi [[뼝mitologi]]",
+    "meaning": "mitologi 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "mitologi",
+    "affix_logic": "어근 'mitologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mitologi",
+    "antonym": "bukan mitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mitologi 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmitologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mitologi 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmitologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mitologi 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmitologi",
+        "meaning": "mitologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_9ytpt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmitologian [[뼝mitologi안]]",
+    "meaning": "mitologi 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "mitologi",
+    "affix_logic": "어근 'mitologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mitologi",
+    "antonym": "bukan mitologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mitologi 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mitologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmitologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mitologi 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmitologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mitologi 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmitologian",
+        "meaning": "mitologi 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_b5bz1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermonumen [[버르monumen]]",
+    "meaning": "monumen하는 상태이다, monumen를 행하다",
+    "pos": "동사",
+    "root": "monumen",
+    "affix_logic": "어근 'monumen'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan monumen",
+    "antonym": "tidak monumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'monumen하는 상태이다, monumen를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'monumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermonumen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'monumen하는 상태이다, monumen를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermonumen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'monumen하는 상태이다, monumen를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermonumen",
+        "meaning": "monumen하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_crhzv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmonumen [[뼝monumen]]",
+    "meaning": "monumen 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "monumen",
+    "affix_logic": "어근 'monumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak monumen",
+    "antonym": "bukan monumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'monumen 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'monumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmonumen' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'monumen 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmonumen' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'monumen 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmonumen",
+        "meaning": "monumen 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_4mrge",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmonumenan [[뼝monumen안]]",
+    "meaning": "monumen 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "monumen",
+    "affix_logic": "어근 'monumen'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses monumen",
+    "antonym": "bukan monumen",
+    "context": "실생활 및 회화/비즈니스 상황에서 'monumen 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'monumen'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmonumenan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'monumen 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmonumenan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'monumen 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmonumenan",
+        "meaning": "monumen 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_xb1zt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermuseum [[버르museum]]",
+    "meaning": "museum하는 상태이다, museum를 행하다",
+    "pos": "동사",
+    "root": "museum",
+    "affix_logic": "어근 'museum'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan museum",
+    "antonym": "tidak museum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'museum하는 상태이다, museum를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'museum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermuseum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'museum하는 상태이다, museum를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermuseum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'museum하는 상태이다, museum를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermuseum",
+        "meaning": "museum하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ok566",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmuseum [[뼝museum]]",
+    "meaning": "museum 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "museum",
+    "affix_logic": "어근 'museum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak museum",
+    "antonym": "bukan museum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'museum 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'museum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmuseum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'museum 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmuseum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'museum 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmuseum",
+        "meaning": "museum 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ye09g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmuseuman [[뼝museum안]]",
+    "meaning": "museum 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "museum",
+    "affix_logic": "어근 'museum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses museum",
+    "antonym": "bukan museum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'museum 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'museum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmuseuman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'museum 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmuseuman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'museum 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmuseuman",
+        "meaning": "museum 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_xc3ky",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermusik [[버르musik]]",
+    "meaning": "musik하는 상태이다, musik를 행하다",
+    "pos": "동사",
+    "root": "musik",
+    "affix_logic": "어근 'musik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan musik",
+    "antonym": "tidak musik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'musik하는 상태이다, musik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'musik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermusik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'musik하는 상태이다, musik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermusik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'musik하는 상태이다, musik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermusik",
+        "meaning": "musik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_tu6ww",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmusik [[뼝musik]]",
+    "meaning": "musik 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "musik",
+    "affix_logic": "어근 'musik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak musik",
+    "antonym": "bukan musik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'musik 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'musik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmusik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'musik 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmusik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'musik 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmusik",
+        "meaning": "musik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_ls5ao",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmusikan [[뼝musik안]]",
+    "meaning": "musik 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "musik",
+    "affix_logic": "어근 'musik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses musik",
+    "antonym": "bukan musik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'musik 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'musik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmusikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'musik 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmusikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'musik 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmusikan",
+        "meaning": "musik 과정 및 작품 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_yw07v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernaskah [[버르naskah]]",
+    "meaning": "naskah하는 상태이다, naskah를 행하다",
+    "pos": "동사",
+    "root": "naskah",
+    "affix_logic": "어근 'naskah'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan naskah",
+    "antonym": "tidak naskah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'naskah하는 상태이다, naskah를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'naskah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernaskah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'naskah하는 상태이다, naskah를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernaskah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'naskah하는 상태이다, naskah를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernaskah",
+        "meaning": "naskah하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_gs6iv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnaskah [[뼝naskah]]",
+    "meaning": "naskah 수행 주체, 예술가",
+    "pos": "명사",
+    "root": "naskah",
+    "affix_logic": "어근 'naskah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak naskah",
+    "antonym": "bukan naskah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'naskah 수행 주체, 예술가'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'naskah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnaskah' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'naskah 수행 주체, 예술가'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnaskah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'naskah 수행 주체, 예술가'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnaskah",
+        "meaning": "naskah 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138986515_pqls0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnaskahan [[뼝naskah안]]",
+    "meaning": "naskah 과정 및 작품 영역",
+    "pos": "명사",
+    "root": "naskah",
+    "affix_logic": "어근 'naskah'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses naskah",
+    "antonym": "bukan naskah",
+    "context": "실생활 및 회화/비즈니스 상황에서 'naskah 과정 및 작품 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'naskah'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnaskahan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'naskah 과정 및 작품 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnaskahan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'naskah 과정 및 작품 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnaskahan",
+        "meaning": "naskah 과정 및 작품 영역"
+      }
+    ]
   }
 ];

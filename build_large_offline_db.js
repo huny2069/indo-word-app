@@ -94,23 +94,22 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 7차 대규모 800+ 어휘 주입 어근 파이프라인 (과학/기술/환경/의학/산업 전문 어근 100개)
-const coreRootsBatch7 = [
-  'otoklaf', 'otomat', 'bakteri', 'biologi', 'biokimia', 'bioteknologi', 'biosfer', 'biomassa', 'botani', 'kromatografi',
-  'sitologi', 'ekologi', 'embriologi', 'enzim', 'genetika', 'geologi', 'geofisika', 'histologi', 'hidrologi', 'imunologi',
-  'kinektika', 'mikrobiologi', 'morfologi', 'neuro biologi', 'onkologi', 'paliontologi', 'parasitologi', 'patologi', 'farmakologi', 'fotosintesis',
-  'fisiologi', 'radiologi', 'serologi', 'taksonomi', 'toksikologi', 'virologi', 'zoologi', 'algoritma', 'analog', 'antena',
-  'antivirus', 'arsitektur cpu', 'bandwidth', 'basis data', 'biner', 'biometrik', 'bit', 'bluetooth', 'byte', 'cache',
-  'chip', 'cloud computing', 'cybernetics', 'dekripsi', 'desain grafis', 'domain', 'enkripsi', 'ethernet', 'firewall', 'firmware',
-  'gigabyte', 'hardware', 'hosting', 'hyperlink', 'interface', 'intranet', 'kernel', 'keyboard', 'laptop', 'malware',
-  'megabyte', 'memori', 'microprocessor', 'modem', 'motherboard', 'network', 'node', 'operating system', 'optical', 'password',
-  'pixel', 'protocol', 'ram', 'rom', 'router', 'server', 'software', 'spyware', 'storage', 'terminal',
-  'terabyte', 'topology', 'url', 'usb', 'user interface', 'virtual', 'virus', 'web browser', 'wifi', 'workstation'
+// 🚀 8차 대규모 800+ 어휘 주입 어근 파이프라인 (예술/문화/지리/역사/문학 전문 어근 100개)
+const coreRootsBatch8 = [
+  'estetika', 'akustik', 'antologi', 'anotasi', 'apresiasi seni', 'arkeologi', 'artefak', 'audio', 'autobiografi', 'balada',
+  'bambu', 'batik', 'berita', 'bibliografi', 'biografi', 'budaya', 'cerpen', 'koreografi', 'cinematografi', 'dekoratif',
+  'deskripsi', 'dialek', 'dialog', 'diorama', 'direktori', 'dokumenter', 'drama', 'dramatis', 'edisi', 'editor',
+  'ekspresi', 'ekspresionisme', 'ensiklopedia', 'epilog', 'episode', 'estetika', 'etnik', 'etnografi', 'etnomusikologi', 'fabel',
+  'fiksi', 'filateli', 'filmografi', 'folklor', 'fotografi', 'galeri', 'genre', 'geografi', 'grafis', 'harmoni',
+  'hermeneutika', 'historis', 'humaniora', 'ikon', 'ilustrator', 'imajinasi', 'improvisasi', 'instrumental', 'interpretasi', 'ironi',
+  'jurnalistik', 'kaligrafi', 'karikatur', 'karya', 'katalog', 'klasik', 'kolase', 'koleksi', 'komedi', 'komposisi',
+  'konser', 'kontemporer', 'kritikus', 'koreos', 'kultur', 'kuno', 'lagu', 'lakon', 'literatur', 'lirik',
+  'mahakarya', 'manuskrip', 'melodi', 'memoar', 'metfora', 'mitologi', 'monumen', 'museum', 'musik', 'naskah'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch7.forEach(root => {
+coreRootsBatch8.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -176,7 +175,7 @@ coreRootsBatch7.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 시스템`,
+    meaning: `${root} 수행 주체, 예술가`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -191,7 +190,7 @@ coreRootsBatch7.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 행위 절차`,
+    meaning: `${root} 과정 및 작품 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
