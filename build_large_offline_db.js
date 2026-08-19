@@ -94,22 +94,21 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 12차 대규모 800+ 어휘 주입 어근 파이프라인 (의학/간호/영양/위생 전문 어근 100개)
-const coreRootsBatch12 = [
-  'ambulans', 'anestesi', 'antibiotik', 'antiseptik', 'apoteker', 'arteri', 'asma', 'autopsi', 'bakterisida', 'balutan',
-  'biopsi', 'bronkitis', 'dehidrasi', 'diagnosis', 'dialisis', 'dietisien', 'dosis', 'ekokardiogram', 'elektroensefalogram', 'embrio',
-  'epidemi', 'farmasi', 'farmakope', 'fisioterapi', 'flue', 'gizi', 'glukosa', 'golongan darah', 'gusi', 'hemodialisis',
-  'hepatitis', 'higienis', 'hipertensi', 'hipotensi', 'imunisasi', 'infeksi', 'infus', 'injeksi', 'insomnia', 'insulin',
-  'intubasi', 'isolasi medis', 'janin', 'kanker', 'kapsul', 'karbohidrat', 'kardiologi', 'kateter', 'kavitasi gigi', 'klinik',
-  'kolesterol', 'komplikasi', 'konsultasi medis', 'kontrasepsi', 'laboratorium klinik', 'luka bakar', 'malnutrisi', 'mammografi', 'masker medis', 'mual',
-  'narkotika medis', 'nefrolofi', 'neurologi', 'nutrisi', 'obesitas', 'oksigen', 'operasi', 'oftalmologi', 'organ tubuh', 'ortopedi',
-  'pasien', 'patek', 'pediatri', 'penisilin', 'pencernaan', 'pendarahan', 'penyakit menular', 'pertolongan pertama', 'plester', 'psikiatri',
-  'radioterapi', 'rawat inap', 'rawat jalan', 'resep dokter', 'sanitasi', 'skrining', 'spesialis', 'sterilisasi', 'stetoskop', 'suntikan'
+// 🚀 13차 대규모 800+ 어휘 주입 어근 파이프라인 (물리/화학/수학/천문 전문 어근 100개)
+const coreRootsBatch13 = [
+  'akselerasi', 'amplitudo', 'anomali gravitasi', 'astronomi', 'atom', 'barometer', 'kalsium', 'reaksi kimia', 'klorofil', 'kosmologi',
+  'densitas', 'difraksi', 'dinamika', 'elektron', 'entropi', 'ekuilibrium', 'evaporasi', 'fluks', 'frekuensi', 'fusi',
+  'galaksi', 'geometri', 'gravitasi', 'hipotenusa', 'inersia', 'isotofer', 'isotop', 'joule', 'kalkulus', 'katalis',
+  'kinematika', 'laboratorium fisika', 'lensa', 'massa', 'materi', 'metrik', 'mikroskop', 'molekul', 'momentum', 'nebula',
+  'neutron', 'nukleus', 'orbit', 'osilasi', 'partikel', 'periode', 'plasma fisik', 'positron', 'potensial', 'presipitasi',
+  'prisma', 'proton', 'radiasi sinar-x', 'radioaktif', 'refraksi', 'resonansi', 'rotasi', 'spektrum', 'supernova', 'simetri',
+  'teleskop', 'temperatur', 'teorema', 'termodinamika', 'vektor fisik', 'visi kosmik', 'voltase', 'watt', 'waktu gelombang', 'zodium',
+  'abstrak', 'aljabar', 'algoritma numerik', 'analisis data', 'antiderivatif', 'aritmetika', 'asimtot', 'aksioma', 'biostatistika', 'bilangan riil'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch12.forEach(root => {
+coreRootsBatch13.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -175,7 +174,7 @@ coreRootsBatch12.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 의료진`,
+    meaning: `${root} 수행 주체, 연구원`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -190,7 +189,7 @@ coreRootsBatch12.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 치료 영역`,
+    meaning: `${root} 과정 및 이과 과학 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',

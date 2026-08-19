@@ -79142,5 +79142,6141 @@ export const bipaTopics = [
         "meaning": "suntikan 과정 및 치료 영역"
       }
     ]
+  },
+  {
+    "id": "word_1787139205630_hlgqf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berakselerasi [[버르akselerasi]]",
+    "meaning": "akselerasi하는 상태이다, akselerasi를 행하다",
+    "pos": "동사",
+    "root": "akselerasi",
+    "affix_logic": "어근 'akselerasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan akselerasi",
+    "antonym": "tidak akselerasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akselerasi하는 상태이다, akselerasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akselerasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berakselerasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akselerasi하는 상태이다, akselerasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berakselerasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akselerasi하는 상태이다, akselerasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berakselerasi",
+        "meaning": "akselerasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_6d51r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakselerasi [[뼝akselerasi]]",
+    "meaning": "akselerasi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "akselerasi",
+    "affix_logic": "어근 'akselerasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak akselerasi",
+    "antonym": "bukan akselerasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akselerasi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akselerasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengakselerasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akselerasi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengakselerasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akselerasi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengakselerasi",
+        "meaning": "akselerasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_7s3l7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengakselerasian [[뼝akselerasi안]]",
+    "meaning": "akselerasi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "akselerasi",
+    "affix_logic": "어근 'akselerasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses akselerasi",
+    "antonym": "bukan akselerasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'akselerasi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'akselerasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengakselerasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'akselerasi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengakselerasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'akselerasi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengakselerasian",
+        "meaning": "akselerasi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_nyypy",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beramplitudo [[버르amplitudo]]",
+    "meaning": "amplitudo하는 상태이다, amplitudo를 행하다",
+    "pos": "동사",
+    "root": "amplitudo",
+    "affix_logic": "어근 'amplitudo'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan amplitudo",
+    "antonym": "tidak amplitudo",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amplitudo하는 상태이다, amplitudo를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amplitudo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beramplitudo' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amplitudo하는 상태이다, amplitudo를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beramplitudo' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amplitudo하는 상태이다, amplitudo를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beramplitudo",
+        "meaning": "amplitudo하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_lgb9n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamplitudo [[뼝amplitudo]]",
+    "meaning": "amplitudo 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "amplitudo",
+    "affix_logic": "어근 'amplitudo'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak amplitudo",
+    "antonym": "bukan amplitudo",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amplitudo 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amplitudo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengamplitudo' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amplitudo 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengamplitudo' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amplitudo 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengamplitudo",
+        "meaning": "amplitudo 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_i4elg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengamplitudoan [[뼝amplitudo안]]",
+    "meaning": "amplitudo 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "amplitudo",
+    "affix_logic": "어근 'amplitudo'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses amplitudo",
+    "antonym": "bukan amplitudo",
+    "context": "실생활 및 회화/비즈니스 상황에서 'amplitudo 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'amplitudo'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengamplitudoan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'amplitudo 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengamplitudoan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'amplitudo 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengamplitudoan",
+        "meaning": "amplitudo 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_o4qcs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranomali gravitasi [[버르anomali gravitasi]]",
+    "meaning": "anomali gravitasi하는 상태이다, anomali gravitasi를 행하다",
+    "pos": "동사",
+    "root": "anomali gravitasi",
+    "affix_logic": "어근 'anomali gravitasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan anomali gravitasi",
+    "antonym": "tidak anomali gravitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anomali gravitasi하는 상태이다, anomali gravitasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anomali gravitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranomali gravitasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anomali gravitasi하는 상태이다, anomali gravitasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranomali gravitasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anomali gravitasi하는 상태이다, anomali gravitasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranomali",
+        "meaning": "anomali gravitasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_txzip",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganomali gravitasi [[뼝anomali gravitasi]]",
+    "meaning": "anomali gravitasi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "anomali gravitasi",
+    "affix_logic": "어근 'anomali gravitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak anomali gravitasi",
+    "antonym": "bukan anomali gravitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anomali gravitasi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anomali gravitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganomali gravitasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anomali gravitasi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganomali gravitasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anomali gravitasi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganomali",
+        "meaning": "anomali gravitasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_zskdx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganomali gravitasian [[뼝anomali gravitasi안]]",
+    "meaning": "anomali gravitasi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "anomali gravitasi",
+    "affix_logic": "어근 'anomali gravitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses anomali gravitasi",
+    "antonym": "bukan anomali gravitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'anomali gravitasi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'anomali gravitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganomali gravitasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'anomali gravitasi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganomali gravitasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'anomali gravitasi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganomali",
+        "meaning": "anomali gravitasi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_zhw2h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berastronomi [[버르astronomi]]",
+    "meaning": "astronomi하는 상태이다, astronomi를 행하다",
+    "pos": "동사",
+    "root": "astronomi",
+    "affix_logic": "어근 'astronomi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan astronomi",
+    "antonym": "tidak astronomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'astronomi하는 상태이다, astronomi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'astronomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berastronomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'astronomi하는 상태이다, astronomi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berastronomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'astronomi하는 상태이다, astronomi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berastronomi",
+        "meaning": "astronomi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_p3s1y",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengastronomi [[뼝astronomi]]",
+    "meaning": "astronomi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "astronomi",
+    "affix_logic": "어근 'astronomi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak astronomi",
+    "antonym": "bukan astronomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'astronomi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'astronomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengastronomi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'astronomi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengastronomi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'astronomi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengastronomi",
+        "meaning": "astronomi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_cxaxq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengastronomian [[뼝astronomi안]]",
+    "meaning": "astronomi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "astronomi",
+    "affix_logic": "어근 'astronomi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses astronomi",
+    "antonym": "bukan astronomi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'astronomi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'astronomi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengastronomian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'astronomi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengastronomian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'astronomi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengastronomian",
+        "meaning": "astronomi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_k0vo7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beratom [[버르atom]]",
+    "meaning": "atom하는 상태이다, atom를 행하다",
+    "pos": "동사",
+    "root": "atom",
+    "affix_logic": "어근 'atom'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan atom",
+    "antonym": "tidak atom",
+    "context": "실생활 및 회화/비즈니스 상황에서 'atom하는 상태이다, atom를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'atom'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beratom' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'atom하는 상태이다, atom를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beratom' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'atom하는 상태이다, atom를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beratom",
+        "meaning": "atom하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_bg30e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatom [[뼝atom]]",
+    "meaning": "atom 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "atom",
+    "affix_logic": "어근 'atom'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak atom",
+    "antonym": "bukan atom",
+    "context": "실생활 및 회화/비즈니스 상황에서 'atom 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'atom'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengatom' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'atom 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengatom' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'atom 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengatom",
+        "meaning": "atom 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_s04w3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengatoman [[뼝atom안]]",
+    "meaning": "atom 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "atom",
+    "affix_logic": "어근 'atom'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses atom",
+    "antonym": "bukan atom",
+    "context": "실생활 및 회화/비즈니스 상황에서 'atom 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'atom'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengatoman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'atom 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengatoman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'atom 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengatoman",
+        "meaning": "atom 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_cesyg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkalsium [[버르kalsium]]",
+    "meaning": "kalsium하는 상태이다, kalsium를 행하다",
+    "pos": "동사",
+    "root": "kalsium",
+    "affix_logic": "어근 'kalsium'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kalsium",
+    "antonym": "tidak kalsium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kalsium하는 상태이다, kalsium를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kalsium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkalsium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kalsium하는 상태이다, kalsium를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkalsium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kalsium하는 상태이다, kalsium를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkalsium",
+        "meaning": "kalsium하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_qrbqa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkalsium [[뼝kalsium]]",
+    "meaning": "kalsium 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "kalsium",
+    "affix_logic": "어근 'kalsium'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kalsium",
+    "antonym": "bukan kalsium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kalsium 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kalsium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkalsium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kalsium 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkalsium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kalsium 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkalsium",
+        "meaning": "kalsium 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_kthgw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkalsiuman [[뼝kalsium안]]",
+    "meaning": "kalsium 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "kalsium",
+    "affix_logic": "어근 'kalsium'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kalsium",
+    "antonym": "bukan kalsium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kalsium 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kalsium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkalsiuman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kalsium 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkalsiuman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kalsium 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkalsiuman",
+        "meaning": "kalsium 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ccqks",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berreaksi kimia [[버르reaksi kimia]]",
+    "meaning": "reaksi kimia하는 상태이다, reaksi kimia를 행하다",
+    "pos": "동사",
+    "root": "reaksi kimia",
+    "affix_logic": "어근 'reaksi kimia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan reaksi kimia",
+    "antonym": "tidak reaksi kimia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reaksi kimia하는 상태이다, reaksi kimia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reaksi kimia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berreaksi kimia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reaksi kimia하는 상태이다, reaksi kimia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berreaksi kimia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reaksi kimia하는 상태이다, reaksi kimia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berreaksi",
+        "meaning": "reaksi kimia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_lqfp3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengreaksi kimia [[뼝reaksi kimia]]",
+    "meaning": "reaksi kimia 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "reaksi kimia",
+    "affix_logic": "어근 'reaksi kimia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak reaksi kimia",
+    "antonym": "bukan reaksi kimia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reaksi kimia 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reaksi kimia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengreaksi kimia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reaksi kimia 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengreaksi kimia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reaksi kimia 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengreaksi",
+        "meaning": "reaksi kimia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_o6mw8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengreaksi kimiaan [[뼝reaksi kimia안]]",
+    "meaning": "reaksi kimia 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "reaksi kimia",
+    "affix_logic": "어근 'reaksi kimia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses reaksi kimia",
+    "antonym": "bukan reaksi kimia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'reaksi kimia 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'reaksi kimia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengreaksi kimiaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'reaksi kimia 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengreaksi kimiaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'reaksi kimia 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengreaksi",
+        "meaning": "reaksi kimia 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_e3kms",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berklorofil [[버르klorofil]]",
+    "meaning": "klorofil하는 상태이다, klorofil를 행하다",
+    "pos": "동사",
+    "root": "klorofil",
+    "affix_logic": "어근 'klorofil'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan klorofil",
+    "antonym": "tidak klorofil",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klorofil하는 상태이다, klorofil를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klorofil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berklorofil' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klorofil하는 상태이다, klorofil를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berklorofil' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klorofil하는 상태이다, klorofil를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berklorofil",
+        "meaning": "klorofil하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_760ma",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklorofil [[뼝klorofil]]",
+    "meaning": "klorofil 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "klorofil",
+    "affix_logic": "어근 'klorofil'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak klorofil",
+    "antonym": "bukan klorofil",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klorofil 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klorofil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklorofil' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klorofil 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklorofil' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klorofil 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklorofil",
+        "meaning": "klorofil 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_k5lj4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengklorofilan [[뼝klorofil안]]",
+    "meaning": "klorofil 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "klorofil",
+    "affix_logic": "어근 'klorofil'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses klorofil",
+    "antonym": "bukan klorofil",
+    "context": "실생활 및 회화/비즈니스 상황에서 'klorofil 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'klorofil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengklorofilan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'klorofil 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengklorofilan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'klorofil 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengklorofilan",
+        "meaning": "klorofil 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_1yxa7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkosmologi [[버르kosmologi]]",
+    "meaning": "kosmologi하는 상태이다, kosmologi를 행하다",
+    "pos": "동사",
+    "root": "kosmologi",
+    "affix_logic": "어근 'kosmologi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kosmologi",
+    "antonym": "tidak kosmologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kosmologi하는 상태이다, kosmologi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kosmologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkosmologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kosmologi하는 상태이다, kosmologi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkosmologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kosmologi하는 상태이다, kosmologi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkosmologi",
+        "meaning": "kosmologi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_zusuu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkosmologi [[뼝kosmologi]]",
+    "meaning": "kosmologi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "kosmologi",
+    "affix_logic": "어근 'kosmologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kosmologi",
+    "antonym": "bukan kosmologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kosmologi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kosmologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkosmologi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kosmologi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkosmologi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kosmologi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkosmologi",
+        "meaning": "kosmologi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_kso34",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkosmologian [[뼝kosmologi안]]",
+    "meaning": "kosmologi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "kosmologi",
+    "affix_logic": "어근 'kosmologi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kosmologi",
+    "antonym": "bukan kosmologi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kosmologi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kosmologi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkosmologian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kosmologi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkosmologian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kosmologi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkosmologian",
+        "meaning": "kosmologi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_f3hz9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdensitas [[버르densitas]]",
+    "meaning": "densitas하는 상태이다, densitas를 행하다",
+    "pos": "동사",
+    "root": "densitas",
+    "affix_logic": "어근 'densitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan densitas",
+    "antonym": "tidak densitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'densitas하는 상태이다, densitas를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'densitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdensitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'densitas하는 상태이다, densitas를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdensitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'densitas하는 상태이다, densitas를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdensitas",
+        "meaning": "densitas하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_rdor0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdensitas [[뼝densitas]]",
+    "meaning": "densitas 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "densitas",
+    "affix_logic": "어근 'densitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak densitas",
+    "antonym": "bukan densitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'densitas 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'densitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdensitas' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'densitas 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdensitas' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'densitas 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdensitas",
+        "meaning": "densitas 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_iz6xl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdensitasan [[뼝densitas안]]",
+    "meaning": "densitas 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "densitas",
+    "affix_logic": "어근 'densitas'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses densitas",
+    "antonym": "bukan densitas",
+    "context": "실생활 및 회화/비즈니스 상황에서 'densitas 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'densitas'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdensitasan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'densitas 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdensitasan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'densitas 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdensitasan",
+        "meaning": "densitas 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_b4y5v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdifraksi [[버르difraksi]]",
+    "meaning": "difraksi하는 상태이다, difraksi를 행하다",
+    "pos": "동사",
+    "root": "difraksi",
+    "affix_logic": "어근 'difraksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan difraksi",
+    "antonym": "tidak difraksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'difraksi하는 상태이다, difraksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'difraksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdifraksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'difraksi하는 상태이다, difraksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdifraksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'difraksi하는 상태이다, difraksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdifraksi",
+        "meaning": "difraksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_xddl8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdifraksi [[뼝difraksi]]",
+    "meaning": "difraksi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "difraksi",
+    "affix_logic": "어근 'difraksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak difraksi",
+    "antonym": "bukan difraksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'difraksi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'difraksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdifraksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'difraksi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdifraksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'difraksi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdifraksi",
+        "meaning": "difraksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_6p8be",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdifraksian [[뼝difraksi안]]",
+    "meaning": "difraksi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "difraksi",
+    "affix_logic": "어근 'difraksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses difraksi",
+    "antonym": "bukan difraksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'difraksi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'difraksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdifraksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'difraksi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdifraksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'difraksi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdifraksian",
+        "meaning": "difraksi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_bbqwx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berdinamika [[버르dinamika]]",
+    "meaning": "dinamika하는 상태이다, dinamika를 행하다",
+    "pos": "동사",
+    "root": "dinamika",
+    "affix_logic": "어근 'dinamika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan dinamika",
+    "antonym": "tidak dinamika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dinamika하는 상태이다, dinamika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dinamika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berdinamika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dinamika하는 상태이다, dinamika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berdinamika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dinamika하는 상태이다, dinamika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berdinamika",
+        "meaning": "dinamika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_5fzl1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdinamika [[뼝dinamika]]",
+    "meaning": "dinamika 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "dinamika",
+    "affix_logic": "어근 'dinamika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak dinamika",
+    "antonym": "bukan dinamika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dinamika 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dinamika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdinamika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dinamika 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdinamika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dinamika 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdinamika",
+        "meaning": "dinamika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_4unvs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengdinamikaan [[뼝dinamika안]]",
+    "meaning": "dinamika 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "dinamika",
+    "affix_logic": "어근 'dinamika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses dinamika",
+    "antonym": "bukan dinamika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'dinamika 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'dinamika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengdinamikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'dinamika 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengdinamikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'dinamika 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengdinamikaan",
+        "meaning": "dinamika 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_rppix",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berelektron [[버르elektron]]",
+    "meaning": "elektron하는 상태이다, elektron를 행하다",
+    "pos": "동사",
+    "root": "elektron",
+    "affix_logic": "어근 'elektron'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan elektron",
+    "antonym": "tidak elektron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elektron하는 상태이다, elektron를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elektron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berelektron' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elektron하는 상태이다, elektron를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berelektron' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elektron하는 상태이다, elektron를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berelektron",
+        "meaning": "elektron하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_340e2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektron [[뼝elektron]]",
+    "meaning": "elektron 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "elektron",
+    "affix_logic": "어근 'elektron'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak elektron",
+    "antonym": "bukan elektron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elektron 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elektron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengelektron' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elektron 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengelektron' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elektron 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengelektron",
+        "meaning": "elektron 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_wh9dw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengelektronan [[뼝elektron안]]",
+    "meaning": "elektron 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "elektron",
+    "affix_logic": "어근 'elektron'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses elektron",
+    "antonym": "bukan elektron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'elektron 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'elektron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengelektronan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'elektron 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengelektronan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'elektron 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengelektronan",
+        "meaning": "elektron 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_200o9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berentropi [[버르entropi]]",
+    "meaning": "entropi하는 상태이다, entropi를 행하다",
+    "pos": "동사",
+    "root": "entropi",
+    "affix_logic": "어근 'entropi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan entropi",
+    "antonym": "tidak entropi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'entropi하는 상태이다, entropi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'entropi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berentropi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'entropi하는 상태이다, entropi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berentropi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'entropi하는 상태이다, entropi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berentropi",
+        "meaning": "entropi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_3o6e3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengentropi [[뼝entropi]]",
+    "meaning": "entropi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "entropi",
+    "affix_logic": "어근 'entropi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak entropi",
+    "antonym": "bukan entropi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'entropi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'entropi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengentropi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'entropi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengentropi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'entropi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengentropi",
+        "meaning": "entropi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ub6mz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengentropian [[뼝entropi안]]",
+    "meaning": "entropi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "entropi",
+    "affix_logic": "어근 'entropi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses entropi",
+    "antonym": "bukan entropi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'entropi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'entropi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengentropian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'entropi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengentropian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'entropi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengentropian",
+        "meaning": "entropi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_tju9g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berekuilibrium [[버르ekuilibrium]]",
+    "meaning": "ekuilibrium하는 상태이다, ekuilibrium를 행하다",
+    "pos": "동사",
+    "root": "ekuilibrium",
+    "affix_logic": "어근 'ekuilibrium'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan ekuilibrium",
+    "antonym": "tidak ekuilibrium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekuilibrium하는 상태이다, ekuilibrium를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekuilibrium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berekuilibrium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekuilibrium하는 상태이다, ekuilibrium를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berekuilibrium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekuilibrium하는 상태이다, ekuilibrium를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berekuilibrium",
+        "meaning": "ekuilibrium하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_8s5j1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekuilibrium [[뼝ekuilibrium]]",
+    "meaning": "ekuilibrium 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "ekuilibrium",
+    "affix_logic": "어근 'ekuilibrium'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak ekuilibrium",
+    "antonym": "bukan ekuilibrium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekuilibrium 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekuilibrium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekuilibrium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekuilibrium 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekuilibrium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekuilibrium 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekuilibrium",
+        "meaning": "ekuilibrium 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_25bc2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengekuilibriuman [[뼝ekuilibrium안]]",
+    "meaning": "ekuilibrium 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "ekuilibrium",
+    "affix_logic": "어근 'ekuilibrium'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses ekuilibrium",
+    "antonym": "bukan ekuilibrium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'ekuilibrium 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'ekuilibrium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengekuilibriuman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'ekuilibrium 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengekuilibriuman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'ekuilibrium 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengekuilibriuman",
+        "meaning": "ekuilibrium 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_mnay9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berevaporasi [[버르evaporasi]]",
+    "meaning": "evaporasi하는 상태이다, evaporasi를 행하다",
+    "pos": "동사",
+    "root": "evaporasi",
+    "affix_logic": "어근 'evaporasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan evaporasi",
+    "antonym": "tidak evaporasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evaporasi하는 상태이다, evaporasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evaporasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berevaporasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evaporasi하는 상태이다, evaporasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berevaporasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evaporasi하는 상태이다, evaporasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berevaporasi",
+        "meaning": "evaporasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_imkwj",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengevaporasi [[뼝evaporasi]]",
+    "meaning": "evaporasi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "evaporasi",
+    "affix_logic": "어근 'evaporasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak evaporasi",
+    "antonym": "bukan evaporasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evaporasi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evaporasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengevaporasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evaporasi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengevaporasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evaporasi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengevaporasi",
+        "meaning": "evaporasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_dkgby",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengevaporasian [[뼝evaporasi안]]",
+    "meaning": "evaporasi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "evaporasi",
+    "affix_logic": "어근 'evaporasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses evaporasi",
+    "antonym": "bukan evaporasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'evaporasi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'evaporasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengevaporasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'evaporasi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengevaporasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'evaporasi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengevaporasian",
+        "meaning": "evaporasi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_hnbdz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfluks [[버르fluks]]",
+    "meaning": "fluks하는 상태이다, fluks를 행하다",
+    "pos": "동사",
+    "root": "fluks",
+    "affix_logic": "어근 'fluks'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fluks",
+    "antonym": "tidak fluks",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fluks하는 상태이다, fluks를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fluks'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfluks' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fluks하는 상태이다, fluks를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfluks' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fluks하는 상태이다, fluks를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfluks",
+        "meaning": "fluks하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_02a06",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfluks [[뼝fluks]]",
+    "meaning": "fluks 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "fluks",
+    "affix_logic": "어근 'fluks'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fluks",
+    "antonym": "bukan fluks",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fluks 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fluks'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfluks' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fluks 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfluks' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fluks 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfluks",
+        "meaning": "fluks 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_f9xks",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfluksan [[뼝fluks안]]",
+    "meaning": "fluks 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "fluks",
+    "affix_logic": "어근 'fluks'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fluks",
+    "antonym": "bukan fluks",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fluks 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fluks'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfluksan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fluks 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfluksan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fluks 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfluksan",
+        "meaning": "fluks 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_b1l36",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfrekuensi [[버르frekuensi]]",
+    "meaning": "frekuensi하는 상태이다, frekuensi를 행하다",
+    "pos": "동사",
+    "root": "frekuensi",
+    "affix_logic": "어근 'frekuensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan frekuensi",
+    "antonym": "tidak frekuensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'frekuensi하는 상태이다, frekuensi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'frekuensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfrekuensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'frekuensi하는 상태이다, frekuensi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfrekuensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'frekuensi하는 상태이다, frekuensi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfrekuensi",
+        "meaning": "frekuensi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ulpzo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfrekuensi [[뼝frekuensi]]",
+    "meaning": "frekuensi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "frekuensi",
+    "affix_logic": "어근 'frekuensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak frekuensi",
+    "antonym": "bukan frekuensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'frekuensi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'frekuensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfrekuensi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'frekuensi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfrekuensi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'frekuensi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfrekuensi",
+        "meaning": "frekuensi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_10era",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfrekuensian [[뼝frekuensi안]]",
+    "meaning": "frekuensi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "frekuensi",
+    "affix_logic": "어근 'frekuensi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses frekuensi",
+    "antonym": "bukan frekuensi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'frekuensi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'frekuensi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfrekuensian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'frekuensi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfrekuensian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'frekuensi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfrekuensian",
+        "meaning": "frekuensi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_epoh6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berfusi [[버르fusi]]",
+    "meaning": "fusi하는 상태이다, fusi를 행하다",
+    "pos": "동사",
+    "root": "fusi",
+    "affix_logic": "어근 'fusi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan fusi",
+    "antonym": "tidak fusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fusi하는 상태이다, fusi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berfusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fusi하는 상태이다, fusi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berfusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fusi하는 상태이다, fusi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berfusi",
+        "meaning": "fusi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_gsnr3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfusi [[뼝fusi]]",
+    "meaning": "fusi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "fusi",
+    "affix_logic": "어근 'fusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak fusi",
+    "antonym": "bukan fusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fusi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfusi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fusi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfusi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fusi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfusi",
+        "meaning": "fusi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_fmxo5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengfusian [[뼝fusi안]]",
+    "meaning": "fusi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "fusi",
+    "affix_logic": "어근 'fusi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses fusi",
+    "antonym": "bukan fusi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'fusi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'fusi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengfusian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'fusi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengfusian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'fusi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengfusian",
+        "meaning": "fusi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_193qq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergalaksi [[버르galaksi]]",
+    "meaning": "galaksi하는 상태이다, galaksi를 행하다",
+    "pos": "동사",
+    "root": "galaksi",
+    "affix_logic": "어근 'galaksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan galaksi",
+    "antonym": "tidak galaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'galaksi하는 상태이다, galaksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'galaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergalaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'galaksi하는 상태이다, galaksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergalaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'galaksi하는 상태이다, galaksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergalaksi",
+        "meaning": "galaksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_daj3v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggalaksi [[뼝galaksi]]",
+    "meaning": "galaksi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "galaksi",
+    "affix_logic": "어근 'galaksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak galaksi",
+    "antonym": "bukan galaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'galaksi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'galaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggalaksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'galaksi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggalaksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'galaksi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggalaksi",
+        "meaning": "galaksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_x7dic",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggalaksian [[뼝galaksi안]]",
+    "meaning": "galaksi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "galaksi",
+    "affix_logic": "어근 'galaksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses galaksi",
+    "antonym": "bukan galaksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'galaksi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'galaksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggalaksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'galaksi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggalaksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'galaksi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggalaksian",
+        "meaning": "galaksi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_pavh9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergeometri [[버르geometri]]",
+    "meaning": "geometri하는 상태이다, geometri를 행하다",
+    "pos": "동사",
+    "root": "geometri",
+    "affix_logic": "어근 'geometri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan geometri",
+    "antonym": "tidak geometri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geometri하는 상태이다, geometri를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geometri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergeometri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geometri하는 상태이다, geometri를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergeometri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geometri하는 상태이다, geometri를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergeometri",
+        "meaning": "geometri하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ov6f7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeometri [[뼝geometri]]",
+    "meaning": "geometri 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "geometri",
+    "affix_logic": "어근 'geometri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak geometri",
+    "antonym": "bukan geometri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geometri 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geometri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggeometri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geometri 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggeometri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geometri 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggeometri",
+        "meaning": "geometri 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_p1rfm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggeometrian [[뼝geometri안]]",
+    "meaning": "geometri 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "geometri",
+    "affix_logic": "어근 'geometri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses geometri",
+    "antonym": "bukan geometri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'geometri 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'geometri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggeometrian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'geometri 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggeometrian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'geometri 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggeometrian",
+        "meaning": "geometri 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_r1ui1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bergravitasi [[버르gravitasi]]",
+    "meaning": "gravitasi하는 상태이다, gravitasi를 행하다",
+    "pos": "동사",
+    "root": "gravitasi",
+    "affix_logic": "어근 'gravitasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan gravitasi",
+    "antonym": "tidak gravitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gravitasi하는 상태이다, gravitasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gravitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bergravitasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gravitasi하는 상태이다, gravitasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bergravitasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gravitasi하는 상태이다, gravitasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bergravitasi",
+        "meaning": "gravitasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_sbbk6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggravitasi [[뼝gravitasi]]",
+    "meaning": "gravitasi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "gravitasi",
+    "affix_logic": "어근 'gravitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak gravitasi",
+    "antonym": "bukan gravitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gravitasi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gravitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggravitasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gravitasi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggravitasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gravitasi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggravitasi",
+        "meaning": "gravitasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_aus2o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penggravitasian [[뼝gravitasi안]]",
+    "meaning": "gravitasi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "gravitasi",
+    "affix_logic": "어근 'gravitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses gravitasi",
+    "antonym": "bukan gravitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'gravitasi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'gravitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penggravitasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'gravitasi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penggravitasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'gravitasi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penggravitasian",
+        "meaning": "gravitasi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_s8ads",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berhipotenusa [[버르hipotenusa]]",
+    "meaning": "hipotenusa하는 상태이다, hipotenusa를 행하다",
+    "pos": "동사",
+    "root": "hipotenusa",
+    "affix_logic": "어근 'hipotenusa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan hipotenusa",
+    "antonym": "tidak hipotenusa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotenusa하는 상태이다, hipotenusa를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotenusa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berhipotenusa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotenusa하는 상태이다, hipotenusa를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berhipotenusa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotenusa하는 상태이다, hipotenusa를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berhipotenusa",
+        "meaning": "hipotenusa하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_lpnsz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotenusa [[뼝hipotenusa]]",
+    "meaning": "hipotenusa 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "hipotenusa",
+    "affix_logic": "어근 'hipotenusa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak hipotenusa",
+    "antonym": "bukan hipotenusa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotenusa 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotenusa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotenusa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotenusa 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotenusa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotenusa 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotenusa",
+        "meaning": "hipotenusa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_082ww",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penghipotenusaan [[뼝hipotenusa안]]",
+    "meaning": "hipotenusa 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "hipotenusa",
+    "affix_logic": "어근 'hipotenusa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses hipotenusa",
+    "antonym": "bukan hipotenusa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'hipotenusa 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'hipotenusa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penghipotenusaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'hipotenusa 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penghipotenusaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'hipotenusa 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penghipotenusaan",
+        "meaning": "hipotenusa 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_0inls",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berinersia [[버르inersia]]",
+    "meaning": "inersia하는 상태이다, inersia를 행하다",
+    "pos": "동사",
+    "root": "inersia",
+    "affix_logic": "어근 'inersia'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan inersia",
+    "antonym": "tidak inersia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inersia하는 상태이다, inersia를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inersia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berinersia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inersia하는 상태이다, inersia를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berinersia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inersia하는 상태이다, inersia를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berinersia",
+        "meaning": "inersia하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_zo528",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginersia [[뼝inersia]]",
+    "meaning": "inersia 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "inersia",
+    "affix_logic": "어근 'inersia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak inersia",
+    "antonym": "bukan inersia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inersia 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inersia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginersia' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inersia 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginersia' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inersia 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginersia",
+        "meaning": "inersia 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ofxer",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penginersiaan [[뼝inersia안]]",
+    "meaning": "inersia 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "inersia",
+    "affix_logic": "어근 'inersia'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses inersia",
+    "antonym": "bukan inersia",
+    "context": "실생활 및 회화/비즈니스 상황에서 'inersia 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'inersia'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penginersiaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'inersia 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penginersiaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'inersia 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penginersiaan",
+        "meaning": "inersia 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_dzam4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berisotofer [[버르isotofer]]",
+    "meaning": "isotofer하는 상태이다, isotofer를 행하다",
+    "pos": "동사",
+    "root": "isotofer",
+    "affix_logic": "어근 'isotofer'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan isotofer",
+    "antonym": "tidak isotofer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isotofer하는 상태이다, isotofer를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isotofer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berisotofer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isotofer하는 상태이다, isotofer를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berisotofer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isotofer하는 상태이다, isotofer를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berisotofer",
+        "meaning": "isotofer하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_djv90",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisotofer [[뼝isotofer]]",
+    "meaning": "isotofer 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "isotofer",
+    "affix_logic": "어근 'isotofer'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak isotofer",
+    "antonym": "bukan isotofer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isotofer 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isotofer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisotofer' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isotofer 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisotofer' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isotofer 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisotofer",
+        "meaning": "isotofer 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_hjx0r",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisotoferan [[뼝isotofer안]]",
+    "meaning": "isotofer 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "isotofer",
+    "affix_logic": "어근 'isotofer'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses isotofer",
+    "antonym": "bukan isotofer",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isotofer 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isotofer'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisotoferan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isotofer 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisotoferan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isotofer 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisotoferan",
+        "meaning": "isotofer 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_0ouq5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berisotop [[버르isotop]]",
+    "meaning": "isotop하는 상태이다, isotop를 행하다",
+    "pos": "동사",
+    "root": "isotop",
+    "affix_logic": "어근 'isotop'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan isotop",
+    "antonym": "tidak isotop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isotop하는 상태이다, isotop를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isotop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berisotop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isotop하는 상태이다, isotop를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berisotop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isotop하는 상태이다, isotop를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berisotop",
+        "meaning": "isotop하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_liw46",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisotop [[뼝isotop]]",
+    "meaning": "isotop 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "isotop",
+    "affix_logic": "어근 'isotop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak isotop",
+    "antonym": "bukan isotop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isotop 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isotop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisotop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isotop 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisotop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isotop 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisotop",
+        "meaning": "isotop 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_lbkna",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengisotopan [[뼝isotop안]]",
+    "meaning": "isotop 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "isotop",
+    "affix_logic": "어근 'isotop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses isotop",
+    "antonym": "bukan isotop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'isotop 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'isotop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengisotopan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'isotop 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengisotopan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'isotop 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengisotopan",
+        "meaning": "isotop 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_7xk2n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berjoule [[버르joule]]",
+    "meaning": "joule하는 상태이다, joule를 행하다",
+    "pos": "동사",
+    "root": "joule",
+    "affix_logic": "어근 'joule'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan joule",
+    "antonym": "tidak joule",
+    "context": "실생활 및 회화/비즈니스 상황에서 'joule하는 상태이다, joule를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'joule'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berjoule' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'joule하는 상태이다, joule를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berjoule' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'joule하는 상태이다, joule를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berjoule",
+        "meaning": "joule하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_x2irp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjoule [[뼝joule]]",
+    "meaning": "joule 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "joule",
+    "affix_logic": "어근 'joule'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak joule",
+    "antonym": "bukan joule",
+    "context": "실생활 및 회화/비즈니스 상황에서 'joule 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'joule'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjoule' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'joule 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjoule' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'joule 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjoule",
+        "meaning": "joule 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_77bzf",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengjoulean [[뼝joule안]]",
+    "meaning": "joule 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "joule",
+    "affix_logic": "어근 'joule'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses joule",
+    "antonym": "bukan joule",
+    "context": "실생활 및 회화/비즈니스 상황에서 'joule 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'joule'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengjoulean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'joule 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengjoulean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'joule 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengjoulean",
+        "meaning": "joule 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_j4646",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkalkulus [[버르kalkulus]]",
+    "meaning": "kalkulus하는 상태이다, kalkulus를 행하다",
+    "pos": "동사",
+    "root": "kalkulus",
+    "affix_logic": "어근 'kalkulus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kalkulus",
+    "antonym": "tidak kalkulus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kalkulus하는 상태이다, kalkulus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kalkulus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkalkulus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kalkulus하는 상태이다, kalkulus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkalkulus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kalkulus하는 상태이다, kalkulus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkalkulus",
+        "meaning": "kalkulus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_zwzwp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkalkulus [[뼝kalkulus]]",
+    "meaning": "kalkulus 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "kalkulus",
+    "affix_logic": "어근 'kalkulus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kalkulus",
+    "antonym": "bukan kalkulus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kalkulus 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kalkulus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkalkulus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kalkulus 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkalkulus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kalkulus 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkalkulus",
+        "meaning": "kalkulus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_b8l7d",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkalkulusan [[뼝kalkulus안]]",
+    "meaning": "kalkulus 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "kalkulus",
+    "affix_logic": "어근 'kalkulus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kalkulus",
+    "antonym": "bukan kalkulus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kalkulus 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kalkulus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkalkulusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kalkulus 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkalkulusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kalkulus 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkalkulusan",
+        "meaning": "kalkulus 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_dlaey",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkatalis [[버르katalis]]",
+    "meaning": "katalis하는 상태이다, katalis를 행하다",
+    "pos": "동사",
+    "root": "katalis",
+    "affix_logic": "어근 'katalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan katalis",
+    "antonym": "tidak katalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'katalis하는 상태이다, katalis를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'katalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkatalis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'katalis하는 상태이다, katalis를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkatalis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'katalis하는 상태이다, katalis를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkatalis",
+        "meaning": "katalis하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_oa9m5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkatalis [[뼝katalis]]",
+    "meaning": "katalis 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "katalis",
+    "affix_logic": "어근 'katalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak katalis",
+    "antonym": "bukan katalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'katalis 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'katalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkatalis' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'katalis 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkatalis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'katalis 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkatalis",
+        "meaning": "katalis 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_6t503",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkatalisan [[뼝katalis안]]",
+    "meaning": "katalis 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "katalis",
+    "affix_logic": "어근 'katalis'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses katalis",
+    "antonym": "bukan katalis",
+    "context": "실생활 및 회화/비즈니스 상황에서 'katalis 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'katalis'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkatalisan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'katalis 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkatalisan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'katalis 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkatalisan",
+        "meaning": "katalis 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_r31yx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berkinematika [[버르kinematika]]",
+    "meaning": "kinematika하는 상태이다, kinematika를 행하다",
+    "pos": "동사",
+    "root": "kinematika",
+    "affix_logic": "어근 'kinematika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan kinematika",
+    "antonym": "tidak kinematika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kinematika하는 상태이다, kinematika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kinematika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berkinematika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kinematika하는 상태이다, kinematika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berkinematika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kinematika하는 상태이다, kinematika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berkinematika",
+        "meaning": "kinematika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_5x4bt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkinematika [[뼝kinematika]]",
+    "meaning": "kinematika 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "kinematika",
+    "affix_logic": "어근 'kinematika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak kinematika",
+    "antonym": "bukan kinematika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kinematika 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kinematika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkinematika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kinematika 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkinematika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kinematika 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkinematika",
+        "meaning": "kinematika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_u4zoo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengkinematikaan [[뼝kinematika안]]",
+    "meaning": "kinematika 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "kinematika",
+    "affix_logic": "어근 'kinematika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses kinematika",
+    "antonym": "bukan kinematika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'kinematika 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'kinematika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengkinematikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'kinematika 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengkinematikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'kinematika 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengkinematikaan",
+        "meaning": "kinematika 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_lnzae",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlaboratorium fisika [[버르laboratorium fisika]]",
+    "meaning": "laboratorium fisika하는 상태이다, laboratorium fisika를 행하다",
+    "pos": "동사",
+    "root": "laboratorium fisika",
+    "affix_logic": "어근 'laboratorium fisika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan laboratorium fisika",
+    "antonym": "tidak laboratorium fisika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium fisika하는 상태이다, laboratorium fisika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium fisika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlaboratorium fisika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium fisika하는 상태이다, laboratorium fisika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlaboratorium fisika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium fisika하는 상태이다, laboratorium fisika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlaboratorium",
+        "meaning": "laboratorium fisika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_oyx7h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaboratorium fisika [[뼝laboratorium fisika]]",
+    "meaning": "laboratorium fisika 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "laboratorium fisika",
+    "affix_logic": "어근 'laboratorium fisika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak laboratorium fisika",
+    "antonym": "bukan laboratorium fisika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium fisika 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium fisika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaboratorium fisika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium fisika 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaboratorium fisika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium fisika 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaboratorium",
+        "meaning": "laboratorium fisika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_f9wb5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglaboratorium fisikaan [[뼝laboratorium fisika안]]",
+    "meaning": "laboratorium fisika 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "laboratorium fisika",
+    "affix_logic": "어근 'laboratorium fisika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses laboratorium fisika",
+    "antonym": "bukan laboratorium fisika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'laboratorium fisika 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'laboratorium fisika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglaboratorium fisikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'laboratorium fisika 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglaboratorium fisikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'laboratorium fisika 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglaboratorium",
+        "meaning": "laboratorium fisika 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ngvm2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berlensa [[버르lensa]]",
+    "meaning": "lensa하는 상태이다, lensa를 행하다",
+    "pos": "동사",
+    "root": "lensa",
+    "affix_logic": "어근 'lensa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan lensa",
+    "antonym": "tidak lensa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lensa하는 상태이다, lensa를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lensa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berlensa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lensa하는 상태이다, lensa를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berlensa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lensa하는 상태이다, lensa를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berlensa",
+        "meaning": "lensa하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_g7djm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglensa [[뼝lensa]]",
+    "meaning": "lensa 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "lensa",
+    "affix_logic": "어근 'lensa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak lensa",
+    "antonym": "bukan lensa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lensa 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lensa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglensa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lensa 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglensa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lensa 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglensa",
+        "meaning": "lensa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_4y5ec",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penglensaan [[뼝lensa안]]",
+    "meaning": "lensa 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "lensa",
+    "affix_logic": "어근 'lensa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses lensa",
+    "antonym": "bukan lensa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'lensa 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'lensa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penglensaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'lensa 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penglensaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'lensa 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penglensaan",
+        "meaning": "lensa 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_fn3q3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermassa [[버르massa]]",
+    "meaning": "massa하는 상태이다, massa를 행하다",
+    "pos": "동사",
+    "root": "massa",
+    "affix_logic": "어근 'massa'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan massa",
+    "antonym": "tidak massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'massa하는 상태이다, massa를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermassa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'massa하는 상태이다, massa를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermassa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'massa하는 상태이다, massa를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermassa",
+        "meaning": "massa하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ixzvq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmassa [[뼝massa]]",
+    "meaning": "massa 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "massa",
+    "affix_logic": "어근 'massa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak massa",
+    "antonym": "bukan massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'massa 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmassa' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'massa 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmassa' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'massa 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmassa",
+        "meaning": "massa 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_p7sj9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmassaan [[뼝massa안]]",
+    "meaning": "massa 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "massa",
+    "affix_logic": "어근 'massa'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses massa",
+    "antonym": "bukan massa",
+    "context": "실생활 및 회화/비즈니스 상황에서 'massa 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'massa'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmassaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'massa 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmassaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'massa 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmassaan",
+        "meaning": "massa 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_4e9us",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermateri [[버르materi]]",
+    "meaning": "materi하는 상태이다, materi를 행하다",
+    "pos": "동사",
+    "root": "materi",
+    "affix_logic": "어근 'materi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan materi",
+    "antonym": "tidak materi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'materi하는 상태이다, materi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'materi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermateri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'materi하는 상태이다, materi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermateri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'materi하는 상태이다, materi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermateri",
+        "meaning": "materi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_vs0jg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmateri [[뼝materi]]",
+    "meaning": "materi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "materi",
+    "affix_logic": "어근 'materi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak materi",
+    "antonym": "bukan materi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'materi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'materi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmateri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'materi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmateri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'materi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmateri",
+        "meaning": "materi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_n20r2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmaterian [[뼝materi안]]",
+    "meaning": "materi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "materi",
+    "affix_logic": "어근 'materi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses materi",
+    "antonym": "bukan materi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'materi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'materi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmaterian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'materi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmaterian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'materi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmaterian",
+        "meaning": "materi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_lhchs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermetrik [[버르metrik]]",
+    "meaning": "metrik하는 상태이다, metrik를 행하다",
+    "pos": "동사",
+    "root": "metrik",
+    "affix_logic": "어근 'metrik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan metrik",
+    "antonym": "tidak metrik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metrik하는 상태이다, metrik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metrik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermetrik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metrik하는 상태이다, metrik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermetrik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metrik하는 상태이다, metrik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermetrik",
+        "meaning": "metrik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_sdwc5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmetrik [[뼝metrik]]",
+    "meaning": "metrik 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "metrik",
+    "affix_logic": "어근 'metrik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak metrik",
+    "antonym": "bukan metrik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metrik 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metrik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmetrik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metrik 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmetrik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metrik 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmetrik",
+        "meaning": "metrik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_vam8t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmetrikan [[뼝metrik안]]",
+    "meaning": "metrik 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "metrik",
+    "affix_logic": "어근 'metrik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses metrik",
+    "antonym": "bukan metrik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'metrik 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'metrik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmetrikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'metrik 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmetrikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'metrik 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmetrikan",
+        "meaning": "metrik 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_5x1t9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermikroskop [[버르mikroskop]]",
+    "meaning": "mikroskop하는 상태이다, mikroskop를 행하다",
+    "pos": "동사",
+    "root": "mikroskop",
+    "affix_logic": "어근 'mikroskop'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan mikroskop",
+    "antonym": "tidak mikroskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikroskop하는 상태이다, mikroskop를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikroskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermikroskop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikroskop하는 상태이다, mikroskop를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermikroskop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikroskop하는 상태이다, mikroskop를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermikroskop",
+        "meaning": "mikroskop하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_bz6jb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmikroskop [[뼝mikroskop]]",
+    "meaning": "mikroskop 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "mikroskop",
+    "affix_logic": "어근 'mikroskop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak mikroskop",
+    "antonym": "bukan mikroskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikroskop 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikroskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmikroskop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikroskop 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmikroskop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikroskop 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmikroskop",
+        "meaning": "mikroskop 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_81sys",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmikroskopan [[뼝mikroskop안]]",
+    "meaning": "mikroskop 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "mikroskop",
+    "affix_logic": "어근 'mikroskop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses mikroskop",
+    "antonym": "bukan mikroskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'mikroskop 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'mikroskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmikroskopan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'mikroskop 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmikroskopan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'mikroskop 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmikroskopan",
+        "meaning": "mikroskop 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_mmm4w",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermolekul [[버르molekul]]",
+    "meaning": "molekul하는 상태이다, molekul를 행하다",
+    "pos": "동사",
+    "root": "molekul",
+    "affix_logic": "어근 'molekul'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan molekul",
+    "antonym": "tidak molekul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'molekul하는 상태이다, molekul를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'molekul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermolekul' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'molekul하는 상태이다, molekul를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermolekul' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'molekul하는 상태이다, molekul를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermolekul",
+        "meaning": "molekul하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_gchpl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmolekul [[뼝molekul]]",
+    "meaning": "molekul 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "molekul",
+    "affix_logic": "어근 'molekul'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak molekul",
+    "antonym": "bukan molekul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'molekul 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'molekul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmolekul' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'molekul 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmolekul' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'molekul 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmolekul",
+        "meaning": "molekul 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ex156",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmolekulan [[뼝molekul안]]",
+    "meaning": "molekul 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "molekul",
+    "affix_logic": "어근 'molekul'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses molekul",
+    "antonym": "bukan molekul",
+    "context": "실생활 및 회화/비즈니스 상황에서 'molekul 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'molekul'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmolekulan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'molekul 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmolekulan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'molekul 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmolekulan",
+        "meaning": "molekul 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_7b4kn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bermomentum [[버르momentum]]",
+    "meaning": "momentum하는 상태이다, momentum를 행하다",
+    "pos": "동사",
+    "root": "momentum",
+    "affix_logic": "어근 'momentum'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan momentum",
+    "antonym": "tidak momentum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'momentum하는 상태이다, momentum를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'momentum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bermomentum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'momentum하는 상태이다, momentum를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bermomentum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'momentum하는 상태이다, momentum를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bermomentum",
+        "meaning": "momentum하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_wlthv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmomentum [[뼝momentum]]",
+    "meaning": "momentum 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "momentum",
+    "affix_logic": "어근 'momentum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak momentum",
+    "antonym": "bukan momentum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'momentum 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'momentum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmomentum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'momentum 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmomentum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'momentum 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmomentum",
+        "meaning": "momentum 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_7k8ex",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengmomentuman [[뼝momentum안]]",
+    "meaning": "momentum 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "momentum",
+    "affix_logic": "어근 'momentum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses momentum",
+    "antonym": "bukan momentum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'momentum 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'momentum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengmomentuman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'momentum 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengmomentuman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'momentum 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengmomentuman",
+        "meaning": "momentum 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_aihw6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernebula [[버르nebula]]",
+    "meaning": "nebula하는 상태이다, nebula를 행하다",
+    "pos": "동사",
+    "root": "nebula",
+    "affix_logic": "어근 'nebula'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan nebula",
+    "antonym": "tidak nebula",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nebula하는 상태이다, nebula를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nebula'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernebula' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nebula하는 상태이다, nebula를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernebula' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nebula하는 상태이다, nebula를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernebula",
+        "meaning": "nebula하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_b19e2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnebula [[뼝nebula]]",
+    "meaning": "nebula 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "nebula",
+    "affix_logic": "어근 'nebula'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak nebula",
+    "antonym": "bukan nebula",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nebula 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nebula'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnebula' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nebula 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnebula' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nebula 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnebula",
+        "meaning": "nebula 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_w413p",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnebulaan [[뼝nebula안]]",
+    "meaning": "nebula 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "nebula",
+    "affix_logic": "어근 'nebula'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses nebula",
+    "antonym": "bukan nebula",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nebula 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nebula'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnebulaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nebula 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnebulaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nebula 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnebulaan",
+        "meaning": "nebula 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_2kcc4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berneutron [[버르neutron]]",
+    "meaning": "neutron하는 상태이다, neutron를 행하다",
+    "pos": "동사",
+    "root": "neutron",
+    "affix_logic": "어근 'neutron'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan neutron",
+    "antonym": "tidak neutron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neutron하는 상태이다, neutron를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neutron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berneutron' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neutron하는 상태이다, neutron를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berneutron' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neutron하는 상태이다, neutron를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berneutron",
+        "meaning": "neutron하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_2a3vi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengneutron [[뼝neutron]]",
+    "meaning": "neutron 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "neutron",
+    "affix_logic": "어근 'neutron'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak neutron",
+    "antonym": "bukan neutron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neutron 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neutron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengneutron' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neutron 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengneutron' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neutron 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengneutron",
+        "meaning": "neutron 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_6m5ny",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengneutronan [[뼝neutron안]]",
+    "meaning": "neutron 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "neutron",
+    "affix_logic": "어근 'neutron'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses neutron",
+    "antonym": "bukan neutron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'neutron 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'neutron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengneutronan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'neutron 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengneutronan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'neutron 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengneutronan",
+        "meaning": "neutron 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_kk6dv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bernukleus [[버르nukleus]]",
+    "meaning": "nukleus하는 상태이다, nukleus를 행하다",
+    "pos": "동사",
+    "root": "nukleus",
+    "affix_logic": "어근 'nukleus'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan nukleus",
+    "antonym": "tidak nukleus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nukleus하는 상태이다, nukleus를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nukleus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bernukleus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nukleus하는 상태이다, nukleus를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bernukleus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nukleus하는 상태이다, nukleus를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bernukleus",
+        "meaning": "nukleus하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_mxnu1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnukleus [[뼝nukleus]]",
+    "meaning": "nukleus 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "nukleus",
+    "affix_logic": "어근 'nukleus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak nukleus",
+    "antonym": "bukan nukleus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nukleus 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nukleus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnukleus' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nukleus 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnukleus' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nukleus 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnukleus",
+        "meaning": "nukleus 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_nrf3u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengnukleusan [[뼝nukleus안]]",
+    "meaning": "nukleus 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "nukleus",
+    "affix_logic": "어근 'nukleus'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses nukleus",
+    "antonym": "bukan nukleus",
+    "context": "실생활 및 회화/비즈니스 상황에서 'nukleus 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'nukleus'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengnukleusan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'nukleus 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengnukleusan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'nukleus 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengnukleusan",
+        "meaning": "nukleus 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_oh9ea",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorbit [[뼝orbit]]",
+    "meaning": "orbit 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "orbit",
+    "affix_logic": "어근 'orbit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak orbit",
+    "antonym": "bukan orbit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'orbit 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'orbit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengorbit' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'orbit 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengorbit' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'orbit 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengorbit",
+        "meaning": "orbit 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_n448u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengorbitan [[뼝orbit안]]",
+    "meaning": "orbit 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "orbit",
+    "affix_logic": "어근 'orbit'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses orbit",
+    "antonym": "bukan orbit",
+    "context": "실생활 및 회화/비즈니스 상황에서 'orbit 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'orbit'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengorbitan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'orbit 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengorbitan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'orbit 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengorbitan",
+        "meaning": "orbit 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_uyd1n",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berosilasi [[버르osilasi]]",
+    "meaning": "osilasi하는 상태이다, osilasi를 행하다",
+    "pos": "동사",
+    "root": "osilasi",
+    "affix_logic": "어근 'osilasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan osilasi",
+    "antonym": "tidak osilasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'osilasi하는 상태이다, osilasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'osilasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berosilasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'osilasi하는 상태이다, osilasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berosilasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'osilasi하는 상태이다, osilasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berosilasi",
+        "meaning": "osilasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_e2rly",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengosilasi [[뼝osilasi]]",
+    "meaning": "osilasi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "osilasi",
+    "affix_logic": "어근 'osilasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak osilasi",
+    "antonym": "bukan osilasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'osilasi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'osilasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengosilasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'osilasi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengosilasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'osilasi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengosilasi",
+        "meaning": "osilasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_eu5mg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengosilasian [[뼝osilasi안]]",
+    "meaning": "osilasi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "osilasi",
+    "affix_logic": "어근 'osilasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses osilasi",
+    "antonym": "bukan osilasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'osilasi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'osilasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengosilasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'osilasi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengosilasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'osilasi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengosilasian",
+        "meaning": "osilasi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_m62eo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpartikel [[버르partikel]]",
+    "meaning": "partikel하는 상태이다, partikel를 행하다",
+    "pos": "동사",
+    "root": "partikel",
+    "affix_logic": "어근 'partikel'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan partikel",
+    "antonym": "tidak partikel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'partikel하는 상태이다, partikel를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'partikel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpartikel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'partikel하는 상태이다, partikel를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpartikel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'partikel하는 상태이다, partikel를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpartikel",
+        "meaning": "partikel하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_3xlq6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpartikel [[뼝partikel]]",
+    "meaning": "partikel 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "partikel",
+    "affix_logic": "어근 'partikel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak partikel",
+    "antonym": "bukan partikel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'partikel 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'partikel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpartikel' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'partikel 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpartikel' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'partikel 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpartikel",
+        "meaning": "partikel 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_bc6mn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpartikelan [[뼝partikel안]]",
+    "meaning": "partikel 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "partikel",
+    "affix_logic": "어근 'partikel'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses partikel",
+    "antonym": "bukan partikel",
+    "context": "실생활 및 회화/비즈니스 상황에서 'partikel 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'partikel'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpartikelan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'partikel 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpartikelan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'partikel 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpartikelan",
+        "meaning": "partikel 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_eroo7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berperiode [[버르periode]]",
+    "meaning": "periode하는 상태이다, periode를 행하다",
+    "pos": "동사",
+    "root": "periode",
+    "affix_logic": "어근 'periode'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan periode",
+    "antonym": "tidak periode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'periode하는 상태이다, periode를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'periode'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berperiode' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'periode하는 상태이다, periode를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berperiode' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'periode하는 상태이다, periode를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berperiode",
+        "meaning": "periode하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_xksre",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperiode [[뼝periode]]",
+    "meaning": "periode 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "periode",
+    "affix_logic": "어근 'periode'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak periode",
+    "antonym": "bukan periode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'periode 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'periode'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengperiode' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'periode 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengperiode' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'periode 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengperiode",
+        "meaning": "periode 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_wrqn3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengperiodean [[뼝periode안]]",
+    "meaning": "periode 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "periode",
+    "affix_logic": "어근 'periode'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses periode",
+    "antonym": "bukan periode",
+    "context": "실생활 및 회화/비즈니스 상황에서 'periode 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'periode'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengperiodean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'periode 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengperiodean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'periode 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengperiodean",
+        "meaning": "periode 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_y9hrm",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berplasma fisik [[버르plasma fisik]]",
+    "meaning": "plasma fisik하는 상태이다, plasma fisik를 행하다",
+    "pos": "동사",
+    "root": "plasma fisik",
+    "affix_logic": "어근 'plasma fisik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan plasma fisik",
+    "antonym": "tidak plasma fisik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'plasma fisik하는 상태이다, plasma fisik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'plasma fisik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berplasma fisik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'plasma fisik하는 상태이다, plasma fisik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berplasma fisik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'plasma fisik하는 상태이다, plasma fisik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berplasma",
+        "meaning": "plasma fisik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_mhea6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplasma fisik [[뼝plasma fisik]]",
+    "meaning": "plasma fisik 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "plasma fisik",
+    "affix_logic": "어근 'plasma fisik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak plasma fisik",
+    "antonym": "bukan plasma fisik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'plasma fisik 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'plasma fisik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengplasma fisik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'plasma fisik 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengplasma fisik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'plasma fisik 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengplasma",
+        "meaning": "plasma fisik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ydos6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengplasma fisikan [[뼝plasma fisik안]]",
+    "meaning": "plasma fisik 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "plasma fisik",
+    "affix_logic": "어근 'plasma fisik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses plasma fisik",
+    "antonym": "bukan plasma fisik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'plasma fisik 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'plasma fisik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengplasma fisikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'plasma fisik 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengplasma fisikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'plasma fisik 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengplasma",
+        "meaning": "plasma fisik 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_ysy9z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpositron [[버르positron]]",
+    "meaning": "positron하는 상태이다, positron를 행하다",
+    "pos": "동사",
+    "root": "positron",
+    "affix_logic": "어근 'positron'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan positron",
+    "antonym": "tidak positron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'positron하는 상태이다, positron를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'positron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpositron' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'positron하는 상태이다, positron를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpositron' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'positron하는 상태이다, positron를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpositron",
+        "meaning": "positron하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_tccus",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpositron [[뼝positron]]",
+    "meaning": "positron 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "positron",
+    "affix_logic": "어근 'positron'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak positron",
+    "antonym": "bukan positron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'positron 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'positron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpositron' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'positron 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpositron' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'positron 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpositron",
+        "meaning": "positron 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_b162e",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpositronan [[뼝positron안]]",
+    "meaning": "positron 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "positron",
+    "affix_logic": "어근 'positron'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses positron",
+    "antonym": "bukan positron",
+    "context": "실생활 및 회화/비즈니스 상황에서 'positron 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'positron'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpositronan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'positron 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpositronan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'positron 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpositronan",
+        "meaning": "positron 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_qpdlp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpotensial [[버르potensial]]",
+    "meaning": "potensial하는 상태이다, potensial를 행하다",
+    "pos": "동사",
+    "root": "potensial",
+    "affix_logic": "어근 'potensial'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan potensial",
+    "antonym": "tidak potensial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'potensial하는 상태이다, potensial를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'potensial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpotensial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'potensial하는 상태이다, potensial를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpotensial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'potensial하는 상태이다, potensial를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpotensial",
+        "meaning": "potensial하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_b9oxt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpotensial [[뼝potensial]]",
+    "meaning": "potensial 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "potensial",
+    "affix_logic": "어근 'potensial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak potensial",
+    "antonym": "bukan potensial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'potensial 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'potensial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpotensial' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'potensial 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpotensial' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'potensial 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpotensial",
+        "meaning": "potensial 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_fi6f3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpotensialan [[뼝potensial안]]",
+    "meaning": "potensial 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "potensial",
+    "affix_logic": "어근 'potensial'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses potensial",
+    "antonym": "bukan potensial",
+    "context": "실생활 및 회화/비즈니스 상황에서 'potensial 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'potensial'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpotensialan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'potensial 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpotensialan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'potensial 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpotensialan",
+        "meaning": "potensial 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_z7782",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berpresipitasi [[버르presipitasi]]",
+    "meaning": "presipitasi하는 상태이다, presipitasi를 행하다",
+    "pos": "동사",
+    "root": "presipitasi",
+    "affix_logic": "어근 'presipitasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan presipitasi",
+    "antonym": "tidak presipitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'presipitasi하는 상태이다, presipitasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'presipitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berpresipitasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'presipitasi하는 상태이다, presipitasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berpresipitasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'presipitasi하는 상태이다, presipitasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berpresipitasi",
+        "meaning": "presipitasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_5p4d2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpresipitasi [[뼝presipitasi]]",
+    "meaning": "presipitasi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "presipitasi",
+    "affix_logic": "어근 'presipitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak presipitasi",
+    "antonym": "bukan presipitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'presipitasi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'presipitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpresipitasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'presipitasi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpresipitasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'presipitasi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpresipitasi",
+        "meaning": "presipitasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_6e5d1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengpresipitasian [[뼝presipitasi안]]",
+    "meaning": "presipitasi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "presipitasi",
+    "affix_logic": "어근 'presipitasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses presipitasi",
+    "antonym": "bukan presipitasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'presipitasi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'presipitasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengpresipitasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'presipitasi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengpresipitasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'presipitasi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengpresipitasian",
+        "meaning": "presipitasi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_0pi9o",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berprisma [[버르prisma]]",
+    "meaning": "prisma하는 상태이다, prisma를 행하다",
+    "pos": "동사",
+    "root": "prisma",
+    "affix_logic": "어근 'prisma'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan prisma",
+    "antonym": "tidak prisma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'prisma하는 상태이다, prisma를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'prisma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berprisma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'prisma하는 상태이다, prisma를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berprisma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'prisma하는 상태이다, prisma를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berprisma",
+        "meaning": "prisma하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205630_w1wfl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengprisma [[뼝prisma]]",
+    "meaning": "prisma 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "prisma",
+    "affix_logic": "어근 'prisma'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak prisma",
+    "antonym": "bukan prisma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'prisma 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'prisma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengprisma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'prisma 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengprisma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'prisma 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengprisma",
+        "meaning": "prisma 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_qjkw7",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengprismaan [[뼝prisma안]]",
+    "meaning": "prisma 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "prisma",
+    "affix_logic": "어근 'prisma'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses prisma",
+    "antonym": "bukan prisma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'prisma 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'prisma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengprismaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'prisma 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengprismaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'prisma 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengprismaan",
+        "meaning": "prisma 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_266w5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berproton [[버르proton]]",
+    "meaning": "proton하는 상태이다, proton를 행하다",
+    "pos": "동사",
+    "root": "proton",
+    "affix_logic": "어근 'proton'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan proton",
+    "antonym": "tidak proton",
+    "context": "실생활 및 회화/비즈니스 상황에서 'proton하는 상태이다, proton를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'proton'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berproton' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'proton하는 상태이다, proton를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berproton' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'proton하는 상태이다, proton를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berproton",
+        "meaning": "proton하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_65bcu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengproton [[뼝proton]]",
+    "meaning": "proton 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "proton",
+    "affix_logic": "어근 'proton'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak proton",
+    "antonym": "bukan proton",
+    "context": "실생활 및 회화/비즈니스 상황에서 'proton 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'proton'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengproton' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'proton 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengproton' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'proton 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengproton",
+        "meaning": "proton 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_nk433",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengprotonan [[뼝proton안]]",
+    "meaning": "proton 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "proton",
+    "affix_logic": "어근 'proton'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses proton",
+    "antonym": "bukan proton",
+    "context": "실생활 및 회화/비즈니스 상황에서 'proton 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'proton'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengprotonan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'proton 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengprotonan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'proton 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengprotonan",
+        "meaning": "proton 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_7npw6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berradiasi sinar-x [[버르radiasi sinar-x]]",
+    "meaning": "radiasi sinar-x하는 상태이다, radiasi sinar-x를 행하다",
+    "pos": "동사",
+    "root": "radiasi sinar-x",
+    "affix_logic": "어근 'radiasi sinar-x'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan radiasi sinar-x",
+    "antonym": "tidak radiasi sinar-x",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radiasi sinar-x하는 상태이다, radiasi sinar-x를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radiasi sinar-x'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berradiasi sinar-x' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radiasi sinar-x하는 상태이다, radiasi sinar-x를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berradiasi sinar-x' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radiasi sinar-x하는 상태이다, radiasi sinar-x를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berradiasi",
+        "meaning": "radiasi sinar-x하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_9x1rw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengradiasi sinar-x [[뼝radiasi sinar-x]]",
+    "meaning": "radiasi sinar-x 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "radiasi sinar-x",
+    "affix_logic": "어근 'radiasi sinar-x'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak radiasi sinar-x",
+    "antonym": "bukan radiasi sinar-x",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radiasi sinar-x 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radiasi sinar-x'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengradiasi sinar-x' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radiasi sinar-x 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengradiasi sinar-x' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radiasi sinar-x 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengradiasi",
+        "meaning": "radiasi sinar-x 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_9jq7h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengradiasi sinar-xan [[뼝radiasi sinar-x안]]",
+    "meaning": "radiasi sinar-x 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "radiasi sinar-x",
+    "affix_logic": "어근 'radiasi sinar-x'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses radiasi sinar-x",
+    "antonym": "bukan radiasi sinar-x",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radiasi sinar-x 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radiasi sinar-x'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengradiasi sinar-xan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radiasi sinar-x 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengradiasi sinar-xan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radiasi sinar-x 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengradiasi",
+        "meaning": "radiasi sinar-x 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_i81dn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berradioaktif [[버르radioaktif]]",
+    "meaning": "radioaktif하는 상태이다, radioaktif를 행하다",
+    "pos": "동사",
+    "root": "radioaktif",
+    "affix_logic": "어근 'radioaktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan radioaktif",
+    "antonym": "tidak radioaktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radioaktif하는 상태이다, radioaktif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radioaktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berradioaktif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radioaktif하는 상태이다, radioaktif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berradioaktif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radioaktif하는 상태이다, radioaktif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berradioaktif",
+        "meaning": "radioaktif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_ihvph",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengradioaktif [[뼝radioaktif]]",
+    "meaning": "radioaktif 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "radioaktif",
+    "affix_logic": "어근 'radioaktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak radioaktif",
+    "antonym": "bukan radioaktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radioaktif 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radioaktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengradioaktif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radioaktif 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengradioaktif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radioaktif 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengradioaktif",
+        "meaning": "radioaktif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_sy2b8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengradioaktifan [[뼝radioaktif안]]",
+    "meaning": "radioaktif 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "radioaktif",
+    "affix_logic": "어근 'radioaktif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses radioaktif",
+    "antonym": "bukan radioaktif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'radioaktif 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'radioaktif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengradioaktifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'radioaktif 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengradioaktifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'radioaktif 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengradioaktifan",
+        "meaning": "radioaktif 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_0uvz0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrefraksi [[버르refraksi]]",
+    "meaning": "refraksi하는 상태이다, refraksi를 행하다",
+    "pos": "동사",
+    "root": "refraksi",
+    "affix_logic": "어근 'refraksi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan refraksi",
+    "antonym": "tidak refraksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'refraksi하는 상태이다, refraksi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'refraksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrefraksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'refraksi하는 상태이다, refraksi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrefraksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'refraksi하는 상태이다, refraksi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrefraksi",
+        "meaning": "refraksi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_7dzgd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrefraksi [[뼝refraksi]]",
+    "meaning": "refraksi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "refraksi",
+    "affix_logic": "어근 'refraksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak refraksi",
+    "antonym": "bukan refraksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'refraksi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'refraksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrefraksi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'refraksi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrefraksi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'refraksi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrefraksi",
+        "meaning": "refraksi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_nwz04",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrefraksian [[뼝refraksi안]]",
+    "meaning": "refraksi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "refraksi",
+    "affix_logic": "어근 'refraksi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses refraksi",
+    "antonym": "bukan refraksi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'refraksi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'refraksi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrefraksian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'refraksi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrefraksian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'refraksi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrefraksian",
+        "meaning": "refraksi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_dmxes",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berresonansi [[버르resonansi]]",
+    "meaning": "resonansi하는 상태이다, resonansi를 행하다",
+    "pos": "동사",
+    "root": "resonansi",
+    "affix_logic": "어근 'resonansi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan resonansi",
+    "antonym": "tidak resonansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resonansi하는 상태이다, resonansi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resonansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berresonansi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resonansi하는 상태이다, resonansi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berresonansi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resonansi하는 상태이다, resonansi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berresonansi",
+        "meaning": "resonansi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_j303u",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresonansi [[뼝resonansi]]",
+    "meaning": "resonansi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "resonansi",
+    "affix_logic": "어근 'resonansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak resonansi",
+    "antonym": "bukan resonansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resonansi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resonansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresonansi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resonansi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresonansi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resonansi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresonansi",
+        "meaning": "resonansi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_t3yo3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengresonansian [[뼝resonansi안]]",
+    "meaning": "resonansi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "resonansi",
+    "affix_logic": "어근 'resonansi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses resonansi",
+    "antonym": "bukan resonansi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'resonansi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'resonansi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengresonansian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'resonansi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengresonansian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'resonansi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengresonansian",
+        "meaning": "resonansi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_ca4lw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berrotasi [[버르rotasi]]",
+    "meaning": "rotasi하는 상태이다, rotasi를 행하다",
+    "pos": "동사",
+    "root": "rotasi",
+    "affix_logic": "어근 'rotasi'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan rotasi",
+    "antonym": "tidak rotasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rotasi하는 상태이다, rotasi를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rotasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berrotasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rotasi하는 상태이다, rotasi를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berrotasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rotasi하는 상태이다, rotasi를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berrotasi",
+        "meaning": "rotasi하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_mv7z8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrotasi [[뼝rotasi]]",
+    "meaning": "rotasi 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "rotasi",
+    "affix_logic": "어근 'rotasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak rotasi",
+    "antonym": "bukan rotasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rotasi 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rotasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrotasi' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rotasi 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrotasi' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rotasi 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrotasi",
+        "meaning": "rotasi 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_6oxon",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengrotasian [[뼝rotasi안]]",
+    "meaning": "rotasi 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "rotasi",
+    "affix_logic": "어근 'rotasi'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses rotasi",
+    "antonym": "bukan rotasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 'rotasi 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'rotasi'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengrotasian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'rotasi 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengrotasian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'rotasi 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengrotasian",
+        "meaning": "rotasi 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_kx4p3",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berspektrum [[버르spektrum]]",
+    "meaning": "spektrum하는 상태이다, spektrum를 행하다",
+    "pos": "동사",
+    "root": "spektrum",
+    "affix_logic": "어근 'spektrum'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan spektrum",
+    "antonym": "tidak spektrum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spektrum하는 상태이다, spektrum를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spektrum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berspektrum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spektrum하는 상태이다, spektrum를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berspektrum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spektrum하는 상태이다, spektrum를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berspektrum",
+        "meaning": "spektrum하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_kpr09",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengspektrum [[뼝spektrum]]",
+    "meaning": "spektrum 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "spektrum",
+    "affix_logic": "어근 'spektrum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak spektrum",
+    "antonym": "bukan spektrum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spektrum 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spektrum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengspektrum' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spektrum 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengspektrum' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spektrum 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengspektrum",
+        "meaning": "spektrum 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_xn85j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengspektruman [[뼝spektrum안]]",
+    "meaning": "spektrum 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "spektrum",
+    "affix_logic": "어근 'spektrum'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses spektrum",
+    "antonym": "bukan spektrum",
+    "context": "실생활 및 회화/비즈니스 상황에서 'spektrum 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'spektrum'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengspektruman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'spektrum 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengspektruman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'spektrum 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengspektruman",
+        "meaning": "spektrum 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_g0fls",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersupernova [[버르supernova]]",
+    "meaning": "supernova하는 상태이다, supernova를 행하다",
+    "pos": "동사",
+    "root": "supernova",
+    "affix_logic": "어근 'supernova'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan supernova",
+    "antonym": "tidak supernova",
+    "context": "실생활 및 회화/비즈니스 상황에서 'supernova하는 상태이다, supernova를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'supernova'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersupernova' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'supernova하는 상태이다, supernova를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersupernova' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'supernova하는 상태이다, supernova를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersupernova",
+        "meaning": "supernova하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_5z0nt",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsupernova [[뼝supernova]]",
+    "meaning": "supernova 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "supernova",
+    "affix_logic": "어근 'supernova'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak supernova",
+    "antonym": "bukan supernova",
+    "context": "실생활 및 회화/비즈니스 상황에서 'supernova 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'supernova'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsupernova' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'supernova 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsupernova' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'supernova 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsupernova",
+        "meaning": "supernova 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_edh3j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsupernovaan [[뼝supernova안]]",
+    "meaning": "supernova 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "supernova",
+    "affix_logic": "어근 'supernova'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses supernova",
+    "antonym": "bukan supernova",
+    "context": "실생활 및 회화/비즈니스 상황에서 'supernova 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'supernova'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsupernovaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'supernova 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsupernovaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'supernova 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsupernovaan",
+        "meaning": "supernova 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_w3nl6",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bersimetri [[버르simetri]]",
+    "meaning": "simetri하는 상태이다, simetri를 행하다",
+    "pos": "동사",
+    "root": "simetri",
+    "affix_logic": "어근 'simetri'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan simetri",
+    "antonym": "tidak simetri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'simetri하는 상태이다, simetri를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'simetri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bersimetri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'simetri하는 상태이다, simetri를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bersimetri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'simetri하는 상태이다, simetri를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bersimetri",
+        "meaning": "simetri하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_3xqry",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsimetri [[뼝simetri]]",
+    "meaning": "simetri 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "simetri",
+    "affix_logic": "어근 'simetri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak simetri",
+    "antonym": "bukan simetri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'simetri 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'simetri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsimetri' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'simetri 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsimetri' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'simetri 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsimetri",
+        "meaning": "simetri 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_yk38j",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengsimetrian [[뼝simetri안]]",
+    "meaning": "simetri 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "simetri",
+    "affix_logic": "어근 'simetri'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses simetri",
+    "antonym": "bukan simetri",
+    "context": "실생활 및 회화/비즈니스 상황에서 'simetri 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'simetri'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengsimetrian' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'simetri 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengsimetrian' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'simetri 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengsimetrian",
+        "meaning": "simetri 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_a7945",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berteleskop [[버르teleskop]]",
+    "meaning": "teleskop하는 상태이다, teleskop를 행하다",
+    "pos": "동사",
+    "root": "teleskop",
+    "affix_logic": "어근 'teleskop'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan teleskop",
+    "antonym": "tidak teleskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teleskop하는 상태이다, teleskop를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teleskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berteleskop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teleskop하는 상태이다, teleskop를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berteleskop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teleskop하는 상태이다, teleskop를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berteleskop",
+        "meaning": "teleskop하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_r91jz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengteleskop [[뼝teleskop]]",
+    "meaning": "teleskop 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "teleskop",
+    "affix_logic": "어근 'teleskop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak teleskop",
+    "antonym": "bukan teleskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teleskop 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teleskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengteleskop' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teleskop 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengteleskop' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teleskop 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengteleskop",
+        "meaning": "teleskop 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_9x1m2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengteleskopan [[뼝teleskop안]]",
+    "meaning": "teleskop 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "teleskop",
+    "affix_logic": "어근 'teleskop'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses teleskop",
+    "antonym": "bukan teleskop",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teleskop 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teleskop'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengteleskopan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teleskop 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengteleskopan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teleskop 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengteleskopan",
+        "meaning": "teleskop 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_6a164",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertemperatur [[버르temperatur]]",
+    "meaning": "temperatur하는 상태이다, temperatur를 행하다",
+    "pos": "동사",
+    "root": "temperatur",
+    "affix_logic": "어근 'temperatur'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan temperatur",
+    "antonym": "tidak temperatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'temperatur하는 상태이다, temperatur를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'temperatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bertemperatur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'temperatur하는 상태이다, temperatur를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bertemperatur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'temperatur하는 상태이다, temperatur를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bertemperatur",
+        "meaning": "temperatur하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_jiavc",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtemperatur [[뼝temperatur]]",
+    "meaning": "temperatur 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "temperatur",
+    "affix_logic": "어근 'temperatur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak temperatur",
+    "antonym": "bukan temperatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'temperatur 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'temperatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtemperatur' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'temperatur 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtemperatur' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'temperatur 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtemperatur",
+        "meaning": "temperatur 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_s936z",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtemperaturan [[뼝temperatur안]]",
+    "meaning": "temperatur 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "temperatur",
+    "affix_logic": "어근 'temperatur'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses temperatur",
+    "antonym": "bukan temperatur",
+    "context": "실생활 및 회화/비즈니스 상황에서 'temperatur 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'temperatur'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtemperaturan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'temperatur 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtemperaturan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'temperatur 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtemperaturan",
+        "meaning": "temperatur 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_ovnll",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berteorema [[버르teorema]]",
+    "meaning": "teorema하는 상태이다, teorema를 행하다",
+    "pos": "동사",
+    "root": "teorema",
+    "affix_logic": "어근 'teorema'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan teorema",
+    "antonym": "tidak teorema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teorema하는 상태이다, teorema를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teorema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berteorema' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teorema하는 상태이다, teorema를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berteorema' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teorema하는 상태이다, teorema를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berteorema",
+        "meaning": "teorema하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_626a1",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengteorema [[뼝teorema]]",
+    "meaning": "teorema 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "teorema",
+    "affix_logic": "어근 'teorema'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak teorema",
+    "antonym": "bukan teorema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teorema 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teorema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengteorema' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teorema 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengteorema' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teorema 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengteorema",
+        "meaning": "teorema 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_vpv3v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengteoremaan [[뼝teorema안]]",
+    "meaning": "teorema 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "teorema",
+    "affix_logic": "어근 'teorema'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses teorema",
+    "antonym": "bukan teorema",
+    "context": "실생활 및 회화/비즈니스 상황에서 'teorema 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'teorema'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengteoremaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'teorema 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengteoremaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'teorema 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengteoremaan",
+        "meaning": "teorema 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_epwxb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bertermodinamika [[버르termodinamika]]",
+    "meaning": "termodinamika하는 상태이다, termodinamika를 행하다",
+    "pos": "동사",
+    "root": "termodinamika",
+    "affix_logic": "어근 'termodinamika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan termodinamika",
+    "antonym": "tidak termodinamika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'termodinamika하는 상태이다, termodinamika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'termodinamika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bertermodinamika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'termodinamika하는 상태이다, termodinamika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bertermodinamika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'termodinamika하는 상태이다, termodinamika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bertermodinamika",
+        "meaning": "termodinamika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_4211t",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtermodinamika [[뼝termodinamika]]",
+    "meaning": "termodinamika 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "termodinamika",
+    "affix_logic": "어근 'termodinamika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak termodinamika",
+    "antonym": "bukan termodinamika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'termodinamika 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'termodinamika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtermodinamika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'termodinamika 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtermodinamika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'termodinamika 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtermodinamika",
+        "meaning": "termodinamika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_vhwqn",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengtermodinamikaan [[뼝termodinamika안]]",
+    "meaning": "termodinamika 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "termodinamika",
+    "affix_logic": "어근 'termodinamika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses termodinamika",
+    "antonym": "bukan termodinamika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'termodinamika 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'termodinamika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengtermodinamikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'termodinamika 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengtermodinamikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'termodinamika 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengtermodinamikaan",
+        "meaning": "termodinamika 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_30wny",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bervektor fisik [[버르vektor fisik]]",
+    "meaning": "vektor fisik하는 상태이다, vektor fisik를 행하다",
+    "pos": "동사",
+    "root": "vektor fisik",
+    "affix_logic": "어근 'vektor fisik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan vektor fisik",
+    "antonym": "tidak vektor fisik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'vektor fisik하는 상태이다, vektor fisik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'vektor fisik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bervektor fisik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'vektor fisik하는 상태이다, vektor fisik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bervektor fisik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'vektor fisik하는 상태이다, vektor fisik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bervektor",
+        "meaning": "vektor fisik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_r3l9i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengvektor fisik [[뼝vektor fisik]]",
+    "meaning": "vektor fisik 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "vektor fisik",
+    "affix_logic": "어근 'vektor fisik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak vektor fisik",
+    "antonym": "bukan vektor fisik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'vektor fisik 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'vektor fisik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengvektor fisik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'vektor fisik 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengvektor fisik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'vektor fisik 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengvektor",
+        "meaning": "vektor fisik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_t6byu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengvektor fisikan [[뼝vektor fisik안]]",
+    "meaning": "vektor fisik 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "vektor fisik",
+    "affix_logic": "어근 'vektor fisik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses vektor fisik",
+    "antonym": "bukan vektor fisik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'vektor fisik 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'vektor fisik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengvektor fisikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'vektor fisik 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengvektor fisikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'vektor fisik 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengvektor",
+        "meaning": "vektor fisik 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_9isgx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bervisi kosmik [[버르visi kosmik]]",
+    "meaning": "visi kosmik하는 상태이다, visi kosmik를 행하다",
+    "pos": "동사",
+    "root": "visi kosmik",
+    "affix_logic": "어근 'visi kosmik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan visi kosmik",
+    "antonym": "tidak visi kosmik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'visi kosmik하는 상태이다, visi kosmik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'visi kosmik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bervisi kosmik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'visi kosmik하는 상태이다, visi kosmik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bervisi kosmik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'visi kosmik하는 상태이다, visi kosmik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bervisi",
+        "meaning": "visi kosmik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_1pva2",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengvisi kosmik [[뼝visi kosmik]]",
+    "meaning": "visi kosmik 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "visi kosmik",
+    "affix_logic": "어근 'visi kosmik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak visi kosmik",
+    "antonym": "bukan visi kosmik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'visi kosmik 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'visi kosmik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengvisi kosmik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'visi kosmik 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengvisi kosmik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'visi kosmik 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengvisi",
+        "meaning": "visi kosmik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_ldtsx",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengvisi kosmikan [[뼝visi kosmik안]]",
+    "meaning": "visi kosmik 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "visi kosmik",
+    "affix_logic": "어근 'visi kosmik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses visi kosmik",
+    "antonym": "bukan visi kosmik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'visi kosmik 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'visi kosmik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengvisi kosmikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'visi kosmik 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengvisi kosmikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'visi kosmik 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengvisi",
+        "meaning": "visi kosmik 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_421xs",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "bervoltase [[버르voltase]]",
+    "meaning": "voltase하는 상태이다, voltase를 행하다",
+    "pos": "동사",
+    "root": "voltase",
+    "affix_logic": "어근 'voltase'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan voltase",
+    "antonym": "tidak voltase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'voltase하는 상태이다, voltase를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'voltase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'bervoltase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'voltase하는 상태이다, voltase를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'bervoltase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'voltase하는 상태이다, voltase를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "bervoltase",
+        "meaning": "voltase하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_azqt5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengvoltase [[뼝voltase]]",
+    "meaning": "voltase 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "voltase",
+    "affix_logic": "어근 'voltase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak voltase",
+    "antonym": "bukan voltase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'voltase 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'voltase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengvoltase' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'voltase 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengvoltase' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'voltase 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengvoltase",
+        "meaning": "voltase 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_fwtpb",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengvoltasean [[뼝voltase안]]",
+    "meaning": "voltase 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "voltase",
+    "affix_logic": "어근 'voltase'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses voltase",
+    "antonym": "bukan voltase",
+    "context": "실생활 및 회화/비즈니스 상황에서 'voltase 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'voltase'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengvoltasean' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'voltase 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengvoltasean' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'voltase 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengvoltasean",
+        "meaning": "voltase 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_wh5s5",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berwatt [[버르watt]]",
+    "meaning": "watt하는 상태이다, watt를 행하다",
+    "pos": "동사",
+    "root": "watt",
+    "affix_logic": "어근 'watt'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan watt",
+    "antonym": "tidak watt",
+    "context": "실생활 및 회화/비즈니스 상황에서 'watt하는 상태이다, watt를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'watt'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berwatt' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'watt하는 상태이다, watt를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berwatt' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'watt하는 상태이다, watt를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berwatt",
+        "meaning": "watt하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_3xejp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengwatt [[뼝watt]]",
+    "meaning": "watt 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "watt",
+    "affix_logic": "어근 'watt'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak watt",
+    "antonym": "bukan watt",
+    "context": "실생활 및 회화/비즈니스 상황에서 'watt 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'watt'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengwatt' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'watt 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengwatt' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'watt 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengwatt",
+        "meaning": "watt 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_zpq6h",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengwattan [[뼝watt안]]",
+    "meaning": "watt 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "watt",
+    "affix_logic": "어근 'watt'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses watt",
+    "antonym": "bukan watt",
+    "context": "실생활 및 회화/비즈니스 상황에서 'watt 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'watt'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengwattan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'watt 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengwattan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'watt 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengwattan",
+        "meaning": "watt 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_mc3b9",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berwaktu gelombang [[버르waktu gelombang]]",
+    "meaning": "waktu gelombang하는 상태이다, waktu gelombang를 행하다",
+    "pos": "동사",
+    "root": "waktu gelombang",
+    "affix_logic": "어근 'waktu gelombang'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan waktu gelombang",
+    "antonym": "tidak waktu gelombang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'waktu gelombang하는 상태이다, waktu gelombang를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'waktu gelombang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berwaktu gelombang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'waktu gelombang하는 상태이다, waktu gelombang를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berwaktu gelombang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'waktu gelombang하는 상태이다, waktu gelombang를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berwaktu",
+        "meaning": "waktu gelombang하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_gf4gd",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengwaktu gelombang [[뼝waktu gelombang]]",
+    "meaning": "waktu gelombang 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "waktu gelombang",
+    "affix_logic": "어근 'waktu gelombang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak waktu gelombang",
+    "antonym": "bukan waktu gelombang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'waktu gelombang 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'waktu gelombang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengwaktu gelombang' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'waktu gelombang 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengwaktu gelombang' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'waktu gelombang 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengwaktu",
+        "meaning": "waktu gelombang 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_ypdii",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengwaktu gelombangan [[뼝waktu gelombang안]]",
+    "meaning": "waktu gelombang 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "waktu gelombang",
+    "affix_logic": "어근 'waktu gelombang'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses waktu gelombang",
+    "antonym": "bukan waktu gelombang",
+    "context": "실생활 및 회화/비즈니스 상황에서 'waktu gelombang 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'waktu gelombang'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengwaktu gelombangan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'waktu gelombang 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengwaktu gelombangan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'waktu gelombang 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengwaktu",
+        "meaning": "waktu gelombang 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_3869b",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berzodium [[버르zodium]]",
+    "meaning": "zodium하는 상태이다, zodium를 행하다",
+    "pos": "동사",
+    "root": "zodium",
+    "affix_logic": "어근 'zodium'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan zodium",
+    "antonym": "tidak zodium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'zodium하는 상태이다, zodium를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'zodium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berzodium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'zodium하는 상태이다, zodium를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berzodium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'zodium하는 상태이다, zodium를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berzodium",
+        "meaning": "zodium하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_7nnma",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengzodium [[뼝zodium]]",
+    "meaning": "zodium 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "zodium",
+    "affix_logic": "어근 'zodium'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak zodium",
+    "antonym": "bukan zodium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'zodium 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'zodium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengzodium' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'zodium 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengzodium' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'zodium 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengzodium",
+        "meaning": "zodium 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_hnco4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengzodiuman [[뼝zodium안]]",
+    "meaning": "zodium 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "zodium",
+    "affix_logic": "어근 'zodium'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses zodium",
+    "antonym": "bukan zodium",
+    "context": "실생활 및 회화/비즈니스 상황에서 'zodium 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'zodium'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengzodiuman' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'zodium 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengzodiuman' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'zodium 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengzodiuman",
+        "meaning": "zodium 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_omnxu",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berabstrak [[버르abstrak]]",
+    "meaning": "abstrak하는 상태이다, abstrak를 행하다",
+    "pos": "동사",
+    "root": "abstrak",
+    "affix_logic": "어근 'abstrak'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan abstrak",
+    "antonym": "tidak abstrak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'abstrak하는 상태이다, abstrak를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'abstrak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berabstrak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'abstrak하는 상태이다, abstrak를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berabstrak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'abstrak하는 상태이다, abstrak를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berabstrak",
+        "meaning": "abstrak하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_uzpw0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengabstrak [[뼝abstrak]]",
+    "meaning": "abstrak 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "abstrak",
+    "affix_logic": "어근 'abstrak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak abstrak",
+    "antonym": "bukan abstrak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'abstrak 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'abstrak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengabstrak' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'abstrak 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengabstrak' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'abstrak 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengabstrak",
+        "meaning": "abstrak 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_afglq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengabstrakan [[뼝abstrak안]]",
+    "meaning": "abstrak 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "abstrak",
+    "affix_logic": "어근 'abstrak'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses abstrak",
+    "antonym": "bukan abstrak",
+    "context": "실생활 및 회화/비즈니스 상황에서 'abstrak 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'abstrak'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengabstrakan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'abstrak 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengabstrakan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'abstrak 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengabstrakan",
+        "meaning": "abstrak 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_rd2tz",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraljabar [[버르aljabar]]",
+    "meaning": "aljabar하는 상태이다, aljabar를 행하다",
+    "pos": "동사",
+    "root": "aljabar",
+    "affix_logic": "어근 'aljabar'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aljabar",
+    "antonym": "tidak aljabar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aljabar하는 상태이다, aljabar를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aljabar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraljabar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aljabar하는 상태이다, aljabar를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraljabar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aljabar하는 상태이다, aljabar를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraljabar",
+        "meaning": "aljabar하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_gddav",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaljabar [[뼝aljabar]]",
+    "meaning": "aljabar 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "aljabar",
+    "affix_logic": "어근 'aljabar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak aljabar",
+    "antonym": "bukan aljabar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aljabar 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aljabar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaljabar' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aljabar 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaljabar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aljabar 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaljabar",
+        "meaning": "aljabar 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_pw3c8",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaljabaran [[뼝aljabar안]]",
+    "meaning": "aljabar 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "aljabar",
+    "affix_logic": "어근 'aljabar'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses aljabar",
+    "antonym": "bukan aljabar",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aljabar 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aljabar'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaljabaran' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aljabar 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaljabaran' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aljabar 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaljabaran",
+        "meaning": "aljabar 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_buw0i",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beralgoritma numerik [[버르algoritma numerik]]",
+    "meaning": "algoritma numerik하는 상태이다, algoritma numerik를 행하다",
+    "pos": "동사",
+    "root": "algoritma numerik",
+    "affix_logic": "어근 'algoritma numerik'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan algoritma numerik",
+    "antonym": "tidak algoritma numerik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'algoritma numerik하는 상태이다, algoritma numerik를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'algoritma numerik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beralgoritma numerik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'algoritma numerik하는 상태이다, algoritma numerik를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beralgoritma numerik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'algoritma numerik하는 상태이다, algoritma numerik를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beralgoritma",
+        "meaning": "algoritma numerik하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_y7azg",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalgoritma numerik [[뼝algoritma numerik]]",
+    "meaning": "algoritma numerik 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "algoritma numerik",
+    "affix_logic": "어근 'algoritma numerik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak algoritma numerik",
+    "antonym": "bukan algoritma numerik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'algoritma numerik 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'algoritma numerik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengalgoritma numerik' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'algoritma numerik 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengalgoritma numerik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'algoritma numerik 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengalgoritma",
+        "meaning": "algoritma numerik 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_v7u9g",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengalgoritma numerikan [[뼝algoritma numerik안]]",
+    "meaning": "algoritma numerik 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "algoritma numerik",
+    "affix_logic": "어근 'algoritma numerik'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses algoritma numerik",
+    "antonym": "bukan algoritma numerik",
+    "context": "실생활 및 회화/비즈니스 상황에서 'algoritma numerik 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'algoritma numerik'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengalgoritma numerikan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'algoritma numerik 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengalgoritma numerikan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'algoritma numerik 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengalgoritma",
+        "meaning": "algoritma numerik 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_tu6ay",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beranalisis data [[버르analisis data]]",
+    "meaning": "analisis data하는 상태이다, analisis data를 행하다",
+    "pos": "동사",
+    "root": "analisis data",
+    "affix_logic": "어근 'analisis data'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan analisis data",
+    "antonym": "tidak analisis data",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analisis data하는 상태이다, analisis data를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analisis data'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beranalisis data' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analisis data하는 상태이다, analisis data를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beranalisis data' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analisis data하는 상태이다, analisis data를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beranalisis",
+        "meaning": "analisis data하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_lport",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalisis data [[뼝analisis data]]",
+    "meaning": "analisis data 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "analisis data",
+    "affix_logic": "어근 'analisis data'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak analisis data",
+    "antonym": "bukan analisis data",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analisis data 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analisis data'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganalisis data' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analisis data 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganalisis data' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analisis data 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganalisis",
+        "meaning": "analisis data 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_gsuqw",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "penganalisis dataan [[뼝analisis data안]]",
+    "meaning": "analisis data 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "analisis data",
+    "affix_logic": "어근 'analisis data'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses analisis data",
+    "antonym": "bukan analisis data",
+    "context": "실생활 및 회화/비즈니스 상황에서 'analisis data 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'analisis data'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'penganalisis dataan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'analisis data 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'penganalisis dataan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'analisis data 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "penganalisis",
+        "meaning": "analisis data 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_vrw0v",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berantiderivatif [[버르antiderivatif]]",
+    "meaning": "antiderivatif하는 상태이다, antiderivatif를 행하다",
+    "pos": "동사",
+    "root": "antiderivatif",
+    "affix_logic": "어근 'antiderivatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan antiderivatif",
+    "antonym": "tidak antiderivatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antiderivatif하는 상태이다, antiderivatif를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antiderivatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berantiderivatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antiderivatif하는 상태이다, antiderivatif를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berantiderivatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antiderivatif하는 상태이다, antiderivatif를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berantiderivatif",
+        "meaning": "antiderivatif하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_fd3wh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantiderivatif [[뼝antiderivatif]]",
+    "meaning": "antiderivatif 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "antiderivatif",
+    "affix_logic": "어근 'antiderivatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak antiderivatif",
+    "antonym": "bukan antiderivatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antiderivatif 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antiderivatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantiderivatif' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antiderivatif 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantiderivatif' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antiderivatif 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantiderivatif",
+        "meaning": "antiderivatif 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_o8krr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengantiderivatifan [[뼝antiderivatif안]]",
+    "meaning": "antiderivatif 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "antiderivatif",
+    "affix_logic": "어근 'antiderivatif'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses antiderivatif",
+    "antonym": "bukan antiderivatif",
+    "context": "실생활 및 회화/비즈니스 상황에서 'antiderivatif 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'antiderivatif'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengantiderivatifan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'antiderivatif 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengantiderivatifan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'antiderivatif 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengantiderivatifan",
+        "meaning": "antiderivatif 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_0vzuq",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraritmetika [[버르aritmetika]]",
+    "meaning": "aritmetika하는 상태이다, aritmetika를 행하다",
+    "pos": "동사",
+    "root": "aritmetika",
+    "affix_logic": "어근 'aritmetika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aritmetika",
+    "antonym": "tidak aritmetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aritmetika하는 상태이다, aritmetika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aritmetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraritmetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aritmetika하는 상태이다, aritmetika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraritmetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aritmetika하는 상태이다, aritmetika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraritmetika",
+        "meaning": "aritmetika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_0m1k0",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaritmetika [[뼝aritmetika]]",
+    "meaning": "aritmetika 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "aritmetika",
+    "affix_logic": "어근 'aritmetika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak aritmetika",
+    "antonym": "bukan aritmetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aritmetika 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aritmetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaritmetika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aritmetika 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaritmetika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aritmetika 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaritmetika",
+        "meaning": "aritmetika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_q7vkp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaritmetikaan [[뼝aritmetika안]]",
+    "meaning": "aritmetika 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "aritmetika",
+    "affix_logic": "어근 'aritmetika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses aritmetika",
+    "antonym": "bukan aritmetika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aritmetika 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aritmetika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaritmetikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aritmetika 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaritmetikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aritmetika 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaritmetikaan",
+        "meaning": "aritmetika 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_vw3ta",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berasimtot [[버르asimtot]]",
+    "meaning": "asimtot하는 상태이다, asimtot를 행하다",
+    "pos": "동사",
+    "root": "asimtot",
+    "affix_logic": "어근 'asimtot'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan asimtot",
+    "antonym": "tidak asimtot",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asimtot하는 상태이다, asimtot를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asimtot'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berasimtot' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asimtot하는 상태이다, asimtot를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berasimtot' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asimtot하는 상태이다, asimtot를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berasimtot",
+        "meaning": "asimtot하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_5idpi",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasimtot [[뼝asimtot]]",
+    "meaning": "asimtot 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "asimtot",
+    "affix_logic": "어근 'asimtot'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak asimtot",
+    "antonym": "bukan asimtot",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asimtot 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asimtot'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasimtot' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asimtot 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasimtot' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asimtot 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasimtot",
+        "meaning": "asimtot 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_ut8hv",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengasimtotan [[뼝asimtot안]]",
+    "meaning": "asimtot 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "asimtot",
+    "affix_logic": "어근 'asimtot'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses asimtot",
+    "antonym": "bukan asimtot",
+    "context": "실생활 및 회화/비즈니스 상황에서 'asimtot 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'asimtot'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengasimtotan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'asimtot 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengasimtotan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'asimtot 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengasimtotan",
+        "meaning": "asimtot 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_cc4q4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "beraksioma [[버르aksioma]]",
+    "meaning": "aksioma하는 상태이다, aksioma를 행하다",
+    "pos": "동사",
+    "root": "aksioma",
+    "affix_logic": "어근 'aksioma'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan aksioma",
+    "antonym": "tidak aksioma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aksioma하는 상태이다, aksioma를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aksioma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'beraksioma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aksioma하는 상태이다, aksioma를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'beraksioma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aksioma하는 상태이다, aksioma를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "beraksioma",
+        "meaning": "aksioma하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_wepoh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksioma [[뼝aksioma]]",
+    "meaning": "aksioma 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "aksioma",
+    "affix_logic": "어근 'aksioma'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak aksioma",
+    "antonym": "bukan aksioma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aksioma 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aksioma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaksioma' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aksioma 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaksioma' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aksioma 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaksioma",
+        "meaning": "aksioma 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_k4uzp",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengaksiomaan [[뼝aksioma안]]",
+    "meaning": "aksioma 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "aksioma",
+    "affix_logic": "어근 'aksioma'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses aksioma",
+    "antonym": "bukan aksioma",
+    "context": "실생활 및 회화/비즈니스 상황에서 'aksioma 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'aksioma'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengaksiomaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'aksioma 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengaksiomaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'aksioma 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengaksiomaan",
+        "meaning": "aksioma 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_8tkjo",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbiostatistika [[버르biostatistika]]",
+    "meaning": "biostatistika하는 상태이다, biostatistika를 행하다",
+    "pos": "동사",
+    "root": "biostatistika",
+    "affix_logic": "어근 'biostatistika'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan biostatistika",
+    "antonym": "tidak biostatistika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biostatistika하는 상태이다, biostatistika를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biostatistika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbiostatistika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biostatistika하는 상태이다, biostatistika를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbiostatistika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biostatistika하는 상태이다, biostatistika를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbiostatistika",
+        "meaning": "biostatistika하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_qr5ga",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiostatistika [[뼝biostatistika]]",
+    "meaning": "biostatistika 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "biostatistika",
+    "affix_logic": "어근 'biostatistika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak biostatistika",
+    "antonym": "bukan biostatistika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biostatistika 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biostatistika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbiostatistika' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biostatistika 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbiostatistika' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biostatistika 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbiostatistika",
+        "meaning": "biostatistika 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_whzvl",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbiostatistikaan [[뼝biostatistika안]]",
+    "meaning": "biostatistika 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "biostatistika",
+    "affix_logic": "어근 'biostatistika'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses biostatistika",
+    "antonym": "bukan biostatistika",
+    "context": "실생활 및 회화/비즈니스 상황에서 'biostatistika 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'biostatistika'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbiostatistikaan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'biostatistika 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbiostatistikaan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'biostatistika 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbiostatistikaan",
+        "meaning": "biostatistika 과정 및 이과 과학 영역"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_1rmzh",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "berbilangan riil [[버르bilangan riil]]",
+    "meaning": "bilangan riil하는 상태이다, bilangan riil를 행하다",
+    "pos": "동사",
+    "root": "bilangan riil",
+    "affix_logic": "어근 'bilangan riil'에 기반한 동사 파생 표현",
+    "grammar_rule": "문장 내에서 동사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "melakukan bilangan riil",
+    "antonym": "tidak bilangan riil",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bilangan riil하는 상태이다, bilangan riil를 행하다'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bilangan riil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'berbilangan riil' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bilangan riil하는 상태이다, bilangan riil를 행하다'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'berbilangan riil' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bilangan riil하는 상태이다, bilangan riil를 행하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berbilangan",
+        "meaning": "bilangan riil하는 상태이다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_63roa",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbilangan riil [[뼝bilangan riil]]",
+    "meaning": "bilangan riil 수행 주체, 연구원",
+    "pos": "명사",
+    "root": "bilangan riil",
+    "affix_logic": "어근 'bilangan riil'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "pihak bilangan riil",
+    "antonym": "bukan bilangan riil",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bilangan riil 수행 주체, 연구원'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bilangan riil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbilangan riil' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bilangan riil 수행 주체, 연구원'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbilangan riil' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bilangan riil 수행 주체, 연구원'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbilangan",
+        "meaning": "bilangan riil 수행 주체"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139205631_uo7l4",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "pengbilangan riilan [[뼝bilangan riil안]]",
+    "meaning": "bilangan riil 과정 및 이과 과학 영역",
+    "pos": "명사",
+    "root": "bilangan riil",
+    "affix_logic": "어근 'bilangan riil'에 기반한 명사 파생 표현",
+    "grammar_rule": "문장 내에서 명사 역할을 수행하며 문맥에 맞춰 유연하게 쓰입니다.",
+    "synonym": "proses bilangan riil",
+    "antonym": "bukan bilangan riil",
+    "context": "실생활 및 회화/비즈니스 상황에서 'bilangan riil 과정 및 이과 과학 영역'의 의미로 사용됩니다.",
+    "caution": "상대방과의 관계 및 정중함의 정도에 맞춰 어조를 조절하세요.",
+    "related": "어근 'bilangan riil'의 파생 규칙을 함께 익히면 외우기 수월합니다!",
+    "example_formal": "Penggunaan kata 'pengbilangan riilan' sangat lazim dalam ragam resmi bahasa Indonesia.",
+    "example_formal_kr": "'bilangan riil 과정 및 이과 과학 영역'을(를) 뜻하는 표준적인 표현입니다.",
+    "example_casual": "Kata 'pengbilangan riilan' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 'bilangan riil 과정 및 이과 과학 영역'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pengbilangan",
+        "meaning": "bilangan riil 과정 및 이과 과학 영역"
+      }
+    ]
   }
 ];
