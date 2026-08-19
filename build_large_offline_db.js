@@ -94,22 +94,22 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 8차 대규모 800+ 어휘 주입 어근 파이프라인 (예술/문화/지리/역사/문학 전문 어근 100개)
-const coreRootsBatch8 = [
-  'estetika', 'akustik', 'antologi', 'anotasi', 'apresiasi seni', 'arkeologi', 'artefak', 'audio', 'autobiografi', 'balada',
-  'bambu', 'batik', 'berita', 'bibliografi', 'biografi', 'budaya', 'cerpen', 'koreografi', 'cinematografi', 'dekoratif',
-  'deskripsi', 'dialek', 'dialog', 'diorama', 'direktori', 'dokumenter', 'drama', 'dramatis', 'edisi', 'editor',
-  'ekspresi', 'ekspresionisme', 'ensiklopedia', 'epilog', 'episode', 'estetika', 'etnik', 'etnografi', 'etnomusikologi', 'fabel',
-  'fiksi', 'filateli', 'filmografi', 'folklor', 'fotografi', 'galeri', 'genre', 'geografi', 'grafis', 'harmoni',
-  'hermeneutika', 'historis', 'humaniora', 'ikon', 'ilustrator', 'imajinasi', 'improvisasi', 'instrumental', 'interpretasi', 'ironi',
-  'jurnalistik', 'kaligrafi', 'karikatur', 'karya', 'katalog', 'klasik', 'kolase', 'koleksi', 'komedi', 'komposisi',
-  'konser', 'kontemporer', 'kritikus', 'koreos', 'kultur', 'kuno', 'lagu', 'lakon', 'literatur', 'lirik',
-  'mahakarya', 'manuskrip', 'melodi', 'memoar', 'metfora', 'mitologi', 'monumen', 'museum', 'musik', 'naskah'
+// 🚀 9차 대규모 800+ 어휘 주입 어근 파이프라인 (인프라/에너지/광물/농업/해양 전문 어근 100개)
+const coreRootsBatch9 = [
+  'agrikultur', 'agroindustri', 'akuakultur', 'aloi', 'alumunium', 'amonia', 'anoda', 'antrasit', 'aparatus', 'aroma',
+  'aspal', 'batu bara', 'bauksit', 'bendungan', 'briket', 'biodiesel', 'bioenergi', 'biogas', 'drainase', 'ekstraktif',
+  'elektrifikasi', 'elektroda', 'elektronika', 'emisi karbon', 'energi terbarukan', 'eksplanasi', 'eksploitasi', 'fermentasi', 'fosil', 'fotovoltaik',
+  'generator', 'geotermal', 'hidroelektrik', 'hidroponik', 'irigasi', 'isolator', 'kabel transmisi', 'kilang minyak', 'kincir angin', 'klorin',
+  'kompos', 'kristal', 'laboratorium', 'lahan gambut', 'listrik tegangan tinggi', 'lubang biopori', 'magnetik', 'manufaktur berat', 'maritim', 'mesin uap',
+  'mineral', 'minyak mentah', 'nuklir buatan', 'observatori', 'oksidasi', 'panel surya', 'pembangkit listrik', 'pemurnian', 'penambangan', 'pendedahan',
+  'pengeboran', 'pengilangan', 'pengolahan limbah', 'penyulingan', 'perikanan tangkap', 'perkebunan kelapa sawit', 'petrokimia', 'pembangkit termal', 'plasma', 'polutan',
+  'pupuk organik', 'radiasi', 'reaktor', 'reklamasi', 'reboisasi', 'residu', 'salinitas', 'sanitasi', 'sedimen', 'sistem solar',
+  'solusi hijau', 'stasiun transmisi', 'substansi', 'sumber daya alam', 'turbin', 'uranium', 'ventilasi industri', 'vulkanisir', 'waduk', 'yodium'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch8.forEach(root => {
+coreRootsBatch9.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -175,7 +175,7 @@ coreRootsBatch8.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 예술가`,
+    meaning: `${root} 수행 주체, 시스템`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -190,7 +190,7 @@ coreRootsBatch8.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 작품 영역`,
+    meaning: `${root} 과정 및 산업 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
