@@ -105864,5 +105864,6935 @@ export const affixVerbs = [
         "meaning": "완전히 ergonomis되다"
       }
     ]
+  },
+  {
+    "id": "word_1787139656798_pnvlw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengetimologis [[멍etimologis]]",
+    "meaning": "etimologis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "etimologis",
+    "affix_logic": "어근 'etimologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'etimologis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan etimologis",
+    "antonym": "dietimologis",
+    "context": "'mengetimologis'은(는) principalmente 'etimologis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'etimologis'의 용법에 유의하세요. 'mengetimologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'etimologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengetimologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 etimologis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengetimologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 etimologis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "etimologis",
+        "meaning": "(어근) etimologis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengetimologis",
+        "meaning": "etimologis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_w5eyw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dietimologis [[디etimologis]]",
+    "meaning": "etimologis되다, etimologis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "etimologis",
+    "affix_logic": "어근 'etimologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'etimologis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena etimologis",
+    "antonym": "mengetimologis",
+    "context": "'dietimologis'은(는) principalmente 'etimologis되다, etimologis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'etimologis'의 용법에 유의하세요. 'dietimologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'etimologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dietimologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 etimologis되다, etimologis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dietimologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 etimologis되다, etimologis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "etimologis",
+        "meaning": "(어근) etimologis되다"
+      },
+      {
+        "word": "dietimologis",
+        "meaning": "etimologis되다, etimologis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_7aii7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teretimologis [[뜨르etimologis]]",
+    "meaning": "완전히 etimologis되다",
+    "pos": "동사, 형용사",
+    "root": "etimologis",
+    "affix_logic": "어근 'etimologis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'etimologis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling etimologis",
+    "antonym": "sengaja dietimologis",
+    "context": "'teretimologis'은(는) principalmente '완전히 etimologis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'etimologis'의 용법에 유의하세요. 'teretimologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'etimologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teretimologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 etimologis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teretimologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 etimologis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "etimologis",
+        "meaning": "(어근) 완전히 etimologis되다"
+      },
+      {
+        "word": "teretimologis",
+        "meaning": "완전히 etimologis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_420lw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfenomenologis [[멍fenomenologis]]",
+    "meaning": "fenomenologis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "fenomenologis",
+    "affix_logic": "어근 'fenomenologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fenomenologis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan fenomenologis",
+    "antonym": "difenomenologis",
+    "context": "'mengfenomenologis'은(는) principalmente 'fenomenologis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fenomenologis'의 용법에 유의하세요. 'mengfenomenologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fenomenologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengfenomenologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fenomenologis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengfenomenologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fenomenologis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fenomenologis",
+        "meaning": "(어근) fenomenologis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengfenomenologis",
+        "meaning": "fenomenologis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_4m19k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difenomenologis [[디fenomenologis]]",
+    "meaning": "fenomenologis되다, fenomenologis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "fenomenologis",
+    "affix_logic": "어근 'fenomenologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fenomenologis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena fenomenologis",
+    "antonym": "mengfenomenologis",
+    "context": "'difenomenologis'은(는) principalmente 'fenomenologis되다, fenomenologis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fenomenologis'의 용법에 유의하세요. 'difenomenologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fenomenologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait difenomenologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fenomenologis되다, fenomenologis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang difenomenologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fenomenologis되다, fenomenologis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fenomenologis",
+        "meaning": "(어근) fenomenologis되다"
+      },
+      {
+        "word": "difenomenologis",
+        "meaning": "fenomenologis되다, fenomenologis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_f6t2q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfenomenologis [[뜨르fenomenologis]]",
+    "meaning": "완전히 fenomenologis되다",
+    "pos": "동사, 형용사",
+    "root": "fenomenologis",
+    "affix_logic": "어근 'fenomenologis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'fenomenologis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling fenomenologis",
+    "antonym": "sengaja difenomenologis",
+    "context": "'terfenomenologis'은(는) principalmente '완전히 fenomenologis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fenomenologis'의 용법에 유의하세요. 'terfenomenologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fenomenologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terfenomenologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 fenomenologis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terfenomenologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 fenomenologis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fenomenologis",
+        "meaning": "(어근) 완전히 fenomenologis되다"
+      },
+      {
+        "word": "terfenomenologis",
+        "meaning": "완전히 fenomenologis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_4zlha",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfilosofis [[멍filosofis]]",
+    "meaning": "filosofis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "filosofis",
+    "affix_logic": "어근 'filosofis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'filosofis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan filosofis",
+    "antonym": "difilosofis",
+    "context": "'mengfilosofis'은(는) principalmente 'filosofis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'filosofis'의 용법에 유의하세요. 'mengfilosofis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'filosofis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengfilosofis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 filosofis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengfilosofis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 filosofis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "filosofis",
+        "meaning": "(어근) filosofis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengfilosofis",
+        "meaning": "filosofis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_lzd2x",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difilosofis [[디filosofis]]",
+    "meaning": "filosofis되다, filosofis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "filosofis",
+    "affix_logic": "어근 'filosofis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'filosofis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena filosofis",
+    "antonym": "mengfilosofis",
+    "context": "'difilosofis'은(는) principalmente 'filosofis되다, filosofis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'filosofis'의 용법에 유의하세요. 'difilosofis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'filosofis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait difilosofis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 filosofis되다, filosofis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang difilosofis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 filosofis되다, filosofis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "filosofis",
+        "meaning": "(어근) filosofis되다"
+      },
+      {
+        "word": "difilosofis",
+        "meaning": "filosofis되다, filosofis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_pw73t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfilosofis [[뜨르filosofis]]",
+    "meaning": "완전히 filosofis되다",
+    "pos": "동사, 형용사",
+    "root": "filosofis",
+    "affix_logic": "어근 'filosofis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'filosofis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling filosofis",
+    "antonym": "sengaja difilosofis",
+    "context": "'terfilosofis'은(는) principalmente '완전히 filosofis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'filosofis'의 용법에 유의하세요. 'terfilosofis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'filosofis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terfilosofis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 filosofis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terfilosofis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 filosofis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "filosofis",
+        "meaning": "(어근) 완전히 filosofis되다"
+      },
+      {
+        "word": "terfilosofis",
+        "meaning": "완전히 filosofis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_0tn9v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengformalitas [[멍formalitas]]",
+    "meaning": "formalitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "formalitas",
+    "affix_logic": "어근 'formalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'formalitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan formalitas",
+    "antonym": "diformalitas",
+    "context": "'mengformalitas'은(는) principalmente 'formalitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'formalitas'의 용법에 유의하세요. 'mengformalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'formalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengformalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 formalitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengformalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 formalitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "formalitas",
+        "meaning": "(어근) formalitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengformalitas",
+        "meaning": "formalitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_u38bi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diformalitas [[디formalitas]]",
+    "meaning": "formalitas되다, formalitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "formalitas",
+    "affix_logic": "어근 'formalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'formalitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena formalitas",
+    "antonym": "mengformalitas",
+    "context": "'diformalitas'은(는) principalmente 'formalitas되다, formalitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'formalitas'의 용법에 유의하세요. 'diformalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'formalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diformalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 formalitas되다, formalitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diformalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 formalitas되다, formalitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "formalitas",
+        "meaning": "(어근) formalitas되다"
+      },
+      {
+        "word": "diformalitas",
+        "meaning": "formalitas되다, formalitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_m4t9z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terformalitas [[뜨르formalitas]]",
+    "meaning": "완전히 formalitas되다",
+    "pos": "동사, 형용사",
+    "root": "formalitas",
+    "affix_logic": "어근 'formalitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'formalitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling formalitas",
+    "antonym": "sengaja diformalitas",
+    "context": "'terformalitas'은(는) principalmente '완전히 formalitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'formalitas'의 용법에 유의하세요. 'terformalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'formalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terformalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 formalitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terformalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 formalitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "formalitas",
+        "meaning": "(어근) 완전히 formalitas되다"
+      },
+      {
+        "word": "terformalitas",
+        "meaning": "완전히 formalitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_qhaqf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfungsionalis [[멍fungsionalis]]",
+    "meaning": "fungsionalis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "fungsionalis",
+    "affix_logic": "어근 'fungsionalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fungsionalis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan fungsionalis",
+    "antonym": "difungsionalis",
+    "context": "'mengfungsionalis'은(는) principalmente 'fungsionalis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fungsionalis'의 용법에 유의하세요. 'mengfungsionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fungsionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengfungsionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fungsionalis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengfungsionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fungsionalis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fungsionalis",
+        "meaning": "(어근) fungsionalis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengfungsionalis",
+        "meaning": "fungsionalis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_8x3lo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difungsionalis [[디fungsionalis]]",
+    "meaning": "fungsionalis되다, fungsionalis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "fungsionalis",
+    "affix_logic": "어근 'fungsionalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fungsionalis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena fungsionalis",
+    "antonym": "mengfungsionalis",
+    "context": "'difungsionalis'은(는) principalmente 'fungsionalis되다, fungsionalis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fungsionalis'의 용법에 유의하세요. 'difungsionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fungsionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait difungsionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fungsionalis되다, fungsionalis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang difungsionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fungsionalis되다, fungsionalis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fungsionalis",
+        "meaning": "(어근) fungsionalis되다"
+      },
+      {
+        "word": "difungsionalis",
+        "meaning": "fungsionalis되다, fungsionalis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_wl5nw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfungsionalis [[뜨르fungsionalis]]",
+    "meaning": "완전히 fungsionalis되다",
+    "pos": "동사, 형용사",
+    "root": "fungsionalis",
+    "affix_logic": "어근 'fungsionalis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'fungsionalis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling fungsionalis",
+    "antonym": "sengaja difungsionalis",
+    "context": "'terfungsionalis'은(는) principalmente '완전히 fungsionalis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fungsionalis'의 용법에 유의하세요. 'terfungsionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fungsionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terfungsionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 fungsionalis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terfungsionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 fungsionalis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fungsionalis",
+        "meaning": "(어근) 완전히 fungsionalis되다"
+      },
+      {
+        "word": "terfungsionalis",
+        "meaning": "완전히 fungsionalis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_rtfpd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengfundamentalik [[멍fundamentalik]]",
+    "meaning": "fundamentalik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "fundamentalik",
+    "affix_logic": "어근 'fundamentalik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fundamentalik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan fundamentalik",
+    "antonym": "difundamentalik",
+    "context": "'mengfundamentalik'은(는) principalmente 'fundamentalik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fundamentalik'의 용법에 유의하세요. 'mengfundamentalik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fundamentalik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengfundamentalik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fundamentalik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengfundamentalik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fundamentalik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fundamentalik",
+        "meaning": "(어근) fundamentalik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengfundamentalik",
+        "meaning": "fundamentalik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_e26fy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "difundamentalik [[디fundamentalik]]",
+    "meaning": "fundamentalik되다, fundamentalik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "fundamentalik",
+    "affix_logic": "어근 'fundamentalik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'fundamentalik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena fundamentalik",
+    "antonym": "mengfundamentalik",
+    "context": "'difundamentalik'은(는) principalmente 'fundamentalik되다, fundamentalik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fundamentalik'의 용법에 유의하세요. 'difundamentalik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fundamentalik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait difundamentalik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 fundamentalik되다, fundamentalik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang difundamentalik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 fundamentalik되다, fundamentalik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fundamentalik",
+        "meaning": "(어근) fundamentalik되다"
+      },
+      {
+        "word": "difundamentalik",
+        "meaning": "fundamentalik되다, fundamentalik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656798_qgul0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terfundamentalik [[뜨르fundamentalik]]",
+    "meaning": "완전히 fundamentalik되다",
+    "pos": "동사, 형용사",
+    "root": "fundamentalik",
+    "affix_logic": "어근 'fundamentalik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'fundamentalik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling fundamentalik",
+    "antonym": "sengaja difundamentalik",
+    "context": "'terfundamentalik'은(는) principalmente '완전히 fundamentalik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'fundamentalik'의 용법에 유의하세요. 'terfundamentalik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'fundamentalik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terfundamentalik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 fundamentalik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terfundamentalik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 fundamentalik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "fundamentalik",
+        "meaning": "(어근) 완전히 fundamentalik되다"
+      },
+      {
+        "word": "terfundamentalik",
+        "meaning": "완전히 fundamentalik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_o6oiz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghermeneutik [[멍hermeneutik]]",
+    "meaning": "hermeneutik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "hermeneutik",
+    "affix_logic": "어근 'hermeneutik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'hermeneutik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan hermeneutik",
+    "antonym": "dihermeneutik",
+    "context": "'menghermeneutik'은(는) principalmente 'hermeneutik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'hermeneutik'의 용법에 유의하세요. 'menghermeneutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'hermeneutik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menghermeneutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 hermeneutik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menghermeneutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 hermeneutik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "hermeneutik",
+        "meaning": "(어근) hermeneutik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "menghermeneutik",
+        "meaning": "hermeneutik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_8ch5u",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihermeneutik [[디hermeneutik]]",
+    "meaning": "hermeneutik되다, hermeneutik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "hermeneutik",
+    "affix_logic": "어근 'hermeneutik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'hermeneutik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena hermeneutik",
+    "antonym": "menghermeneutik",
+    "context": "'dihermeneutik'은(는) principalmente 'hermeneutik되다, hermeneutik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'hermeneutik'의 용법에 유의하세요. 'dihermeneutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'hermeneutik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dihermeneutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 hermeneutik되다, hermeneutik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dihermeneutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 hermeneutik되다, hermeneutik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "hermeneutik",
+        "meaning": "(어근) hermeneutik되다"
+      },
+      {
+        "word": "dihermeneutik",
+        "meaning": "hermeneutik되다, hermeneutik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_nlp5g",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhermeneutik [[뜨르hermeneutik]]",
+    "meaning": "완전히 hermeneutik되다",
+    "pos": "동사, 형용사",
+    "root": "hermeneutik",
+    "affix_logic": "어근 'hermeneutik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'hermeneutik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling hermeneutik",
+    "antonym": "sengaja dihermeneutik",
+    "context": "'terhermeneutik'은(는) principalmente '완전히 hermeneutik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'hermeneutik'의 용법에 유의하세요. 'terhermeneutik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'hermeneutik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terhermeneutik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 hermeneutik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terhermeneutik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 hermeneutik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "hermeneutik",
+        "meaning": "(어근) 완전히 hermeneutik되다"
+      },
+      {
+        "word": "terhermeneutik",
+        "meaning": "완전히 hermeneutik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_sw1ij",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menghumanis [[멍humanis]]",
+    "meaning": "humanis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "humanis",
+    "affix_logic": "어근 'humanis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'humanis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan humanis",
+    "antonym": "dihumanis",
+    "context": "'menghumanis'은(는) principalmente 'humanis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'humanis'의 용법에 유의하세요. 'menghumanis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'humanis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menghumanis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 humanis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menghumanis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 humanis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "humanis",
+        "meaning": "(어근) humanis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "menghumanis",
+        "meaning": "humanis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_warhv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dihumanis [[디humanis]]",
+    "meaning": "humanis되다, humanis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "humanis",
+    "affix_logic": "어근 'humanis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'humanis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena humanis",
+    "antonym": "menghumanis",
+    "context": "'dihumanis'은(는) principalmente 'humanis되다, humanis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'humanis'의 용법에 유의하세요. 'dihumanis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'humanis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dihumanis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 humanis되다, humanis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dihumanis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 humanis되다, humanis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "humanis",
+        "meaning": "(어근) humanis되다"
+      },
+      {
+        "word": "dihumanis",
+        "meaning": "humanis되다, humanis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_gbbnz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terhumanis [[뜨르humanis]]",
+    "meaning": "완전히 humanis되다",
+    "pos": "동사, 형용사",
+    "root": "humanis",
+    "affix_logic": "어근 'humanis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'humanis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling humanis",
+    "antonym": "sengaja dihumanis",
+    "context": "'terhumanis'은(는) principalmente '완전히 humanis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'humanis'의 용법에 유의하세요. 'terhumanis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'humanis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terhumanis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 humanis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terhumanis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 humanis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "humanis",
+        "meaning": "(어근) 완전히 humanis되다"
+      },
+      {
+        "word": "terhumanis",
+        "meaning": "완전히 humanis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fi9pc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengideologis [[멍ideologis]]",
+    "meaning": "ideologis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ideologis",
+    "affix_logic": "어근 'ideologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ideologis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan ideologis",
+    "antonym": "diideologis",
+    "context": "'mengideologis'은(는) principalmente 'ideologis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ideologis'의 용법에 유의하세요. 'mengideologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ideologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengideologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ideologis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengideologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ideologis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ideologis",
+        "meaning": "(어근) ideologis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengideologis",
+        "meaning": "ideologis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_wau5t",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diideologis [[디ideologis]]",
+    "meaning": "ideologis되다, ideologis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ideologis",
+    "affix_logic": "어근 'ideologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ideologis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena ideologis",
+    "antonym": "mengideologis",
+    "context": "'diideologis'은(는) principalmente 'ideologis되다, ideologis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ideologis'의 용법에 유의하세요. 'diideologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ideologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diideologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ideologis되다, ideologis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diideologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ideologis되다, ideologis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ideologis",
+        "meaning": "(어근) ideologis되다"
+      },
+      {
+        "word": "diideologis",
+        "meaning": "ideologis되다, ideologis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_gy6hp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terideologis [[뜨르ideologis]]",
+    "meaning": "완전히 ideologis되다",
+    "pos": "동사, 형용사",
+    "root": "ideologis",
+    "affix_logic": "어근 'ideologis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'ideologis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling ideologis",
+    "antonym": "sengaja diideologis",
+    "context": "'terideologis'은(는) principalmente '완전히 ideologis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ideologis'의 용법에 유의하세요. 'terideologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ideologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terideologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 ideologis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terideologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 ideologis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ideologis",
+        "meaning": "(어근) 완전히 ideologis되다"
+      },
+      {
+        "word": "terideologis",
+        "meaning": "완전히 ideologis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_2w0ry",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengimmanen [[멍immanen]]",
+    "meaning": "immanen하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "immanen",
+    "affix_logic": "어근 'immanen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'immanen'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan immanen",
+    "antonym": "diimmanen",
+    "context": "'mengimmanen'은(는) principalmente 'immanen하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'immanen'의 용법에 유의하세요. 'mengimmanen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'immanen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengimmanen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 immanen하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengimmanen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 immanen하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "immanen",
+        "meaning": "(어근) immanen하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengimmanen",
+        "meaning": "immanen하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_7h2ag",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diimmanen [[디immanen]]",
+    "meaning": "immanen되다, immanen당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "immanen",
+    "affix_logic": "어근 'immanen'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'immanen'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena immanen",
+    "antonym": "mengimmanen",
+    "context": "'diimmanen'은(는) principalmente 'immanen되다, immanen당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'immanen'의 용법에 유의하세요. 'diimmanen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'immanen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diimmanen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 immanen되다, immanen당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diimmanen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 immanen되다, immanen당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "immanen",
+        "meaning": "(어근) immanen되다"
+      },
+      {
+        "word": "diimmanen",
+        "meaning": "immanen되다, immanen당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_erkb2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terimmanen [[뜨르immanen]]",
+    "meaning": "완전히 immanen되다",
+    "pos": "동사, 형용사",
+    "root": "immanen",
+    "affix_logic": "어근 'immanen'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'immanen'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling immanen",
+    "antonym": "sengaja diimmanen",
+    "context": "'terimmanen'은(는) principalmente '완전히 immanen되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'immanen'의 용법에 유의하세요. 'terimmanen' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'immanen' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terimmanen untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 immanen되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terimmanen yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 immanen되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "immanen",
+        "meaning": "(어근) 완전히 immanen되다"
+      },
+      {
+        "word": "terimmanen",
+        "meaning": "완전히 immanen되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_h8qel",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengimperialistik [[멍imperialistik]]",
+    "meaning": "imperialistik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "imperialistik",
+    "affix_logic": "어근 'imperialistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'imperialistik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan imperialistik",
+    "antonym": "diimperialistik",
+    "context": "'mengimperialistik'은(는) principalmente 'imperialistik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'imperialistik'의 용법에 유의하세요. 'mengimperialistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'imperialistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengimperialistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 imperialistik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengimperialistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 imperialistik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "imperialistik",
+        "meaning": "(어근) imperialistik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengimperialistik",
+        "meaning": "imperialistik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_hmmv1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diimperialistik [[디imperialistik]]",
+    "meaning": "imperialistik되다, imperialistik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "imperialistik",
+    "affix_logic": "어근 'imperialistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'imperialistik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena imperialistik",
+    "antonym": "mengimperialistik",
+    "context": "'diimperialistik'은(는) principalmente 'imperialistik되다, imperialistik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'imperialistik'의 용법에 유의하세요. 'diimperialistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'imperialistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diimperialistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 imperialistik되다, imperialistik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diimperialistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 imperialistik되다, imperialistik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "imperialistik",
+        "meaning": "(어근) imperialistik되다"
+      },
+      {
+        "word": "diimperialistik",
+        "meaning": "imperialistik되다, imperialistik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_o3qpc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terimperialistik [[뜨르imperialistik]]",
+    "meaning": "완전히 imperialistik되다",
+    "pos": "동사, 형용사",
+    "root": "imperialistik",
+    "affix_logic": "어근 'imperialistik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'imperialistik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling imperialistik",
+    "antonym": "sengaja diimperialistik",
+    "context": "'terimperialistik'은(는) principalmente '완전히 imperialistik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'imperialistik'의 용법에 유의하세요. 'terimperialistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'imperialistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terimperialistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 imperialistik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terimperialistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 imperialistik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "imperialistik",
+        "meaning": "(어근) 완전히 imperialistik되다"
+      },
+      {
+        "word": "terimperialistik",
+        "meaning": "완전히 imperialistik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ql5kh",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengimplisit [[멍implisit]]",
+    "meaning": "implisit하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "implisit",
+    "affix_logic": "어근 'implisit'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'implisit'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan implisit",
+    "antonym": "diimplisit",
+    "context": "'mengimplisit'은(는) principalmente 'implisit하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'implisit'의 용법에 유의하세요. 'mengimplisit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'implisit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengimplisit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 implisit하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengimplisit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 implisit하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "implisit",
+        "meaning": "(어근) implisit하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengimplisit",
+        "meaning": "implisit하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_wbv89",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diimplisit [[디implisit]]",
+    "meaning": "implisit되다, implisit당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "implisit",
+    "affix_logic": "어근 'implisit'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'implisit'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena implisit",
+    "antonym": "mengimplisit",
+    "context": "'diimplisit'은(는) principalmente 'implisit되다, implisit당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'implisit'의 용법에 유의하세요. 'diimplisit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'implisit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diimplisit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 implisit되다, implisit당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diimplisit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 implisit되다, implisit당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "implisit",
+        "meaning": "(어근) implisit되다"
+      },
+      {
+        "word": "diimplisit",
+        "meaning": "implisit되다, implisit당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_a9p9m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terimplisit [[뜨르implisit]]",
+    "meaning": "완전히 implisit되다",
+    "pos": "동사, 형용사",
+    "root": "implisit",
+    "affix_logic": "어근 'implisit'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'implisit'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling implisit",
+    "antonym": "sengaja diimplisit",
+    "context": "'terimplisit'은(는) principalmente '완전히 implisit되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'implisit'의 용법에 유의하세요. 'terimplisit' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'implisit' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terimplisit untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 implisit되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terimplisit yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 implisit되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "implisit",
+        "meaning": "(어근) 완전히 implisit되다"
+      },
+      {
+        "word": "terimplisit",
+        "meaning": "완전히 implisit되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_2zpn2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengindividualistik [[멍individualistik]]",
+    "meaning": "individualistik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "individualistik",
+    "affix_logic": "어근 'individualistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'individualistik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan individualistik",
+    "antonym": "diindividualistik",
+    "context": "'mengindividualistik'은(는) principalmente 'individualistik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'individualistik'의 용법에 유의하세요. 'mengindividualistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'individualistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengindividualistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 individualistik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengindividualistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 individualistik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "individualistik",
+        "meaning": "(어근) individualistik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengindividualistik",
+        "meaning": "individualistik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_bevpk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diindividualistik [[디individualistik]]",
+    "meaning": "individualistik되다, individualistik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "individualistik",
+    "affix_logic": "어근 'individualistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'individualistik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena individualistik",
+    "antonym": "mengindividualistik",
+    "context": "'diindividualistik'은(는) principalmente 'individualistik되다, individualistik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'individualistik'의 용법에 유의하세요. 'diindividualistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'individualistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diindividualistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 individualistik되다, individualistik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diindividualistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 individualistik되다, individualistik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "individualistik",
+        "meaning": "(어근) individualistik되다"
+      },
+      {
+        "word": "diindividualistik",
+        "meaning": "individualistik되다, individualistik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_8o6f7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terindividualistik [[뜨르individualistik]]",
+    "meaning": "완전히 individualistik되다",
+    "pos": "동사, 형용사",
+    "root": "individualistik",
+    "affix_logic": "어근 'individualistik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'individualistik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling individualistik",
+    "antonym": "sengaja diindividualistik",
+    "context": "'terindividualistik'은(는) principalmente '완전히 individualistik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'individualistik'의 용법에 유의하세요. 'terindividualistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'individualistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terindividualistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 individualistik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terindividualistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 individualistik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "individualistik",
+        "meaning": "(어근) 완전히 individualistik되다"
+      },
+      {
+        "word": "terindividualistik",
+        "meaning": "완전히 individualistik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_b5yz8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengintelektualitas [[멍intelektualitas]]",
+    "meaning": "intelektualitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "intelektualitas",
+    "affix_logic": "어근 'intelektualitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'intelektualitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan intelektualitas",
+    "antonym": "diintelektualitas",
+    "context": "'mengintelektualitas'은(는) principalmente 'intelektualitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'intelektualitas'의 용법에 유의하세요. 'mengintelektualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'intelektualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengintelektualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 intelektualitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengintelektualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 intelektualitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "intelektualitas",
+        "meaning": "(어근) intelektualitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengintelektualitas",
+        "meaning": "intelektualitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_25joy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diintelektualitas [[디intelektualitas]]",
+    "meaning": "intelektualitas되다, intelektualitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "intelektualitas",
+    "affix_logic": "어근 'intelektualitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'intelektualitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena intelektualitas",
+    "antonym": "mengintelektualitas",
+    "context": "'diintelektualitas'은(는) principalmente 'intelektualitas되다, intelektualitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'intelektualitas'의 용법에 유의하세요. 'diintelektualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'intelektualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diintelektualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 intelektualitas되다, intelektualitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diintelektualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 intelektualitas되다, intelektualitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "intelektualitas",
+        "meaning": "(어근) intelektualitas되다"
+      },
+      {
+        "word": "diintelektualitas",
+        "meaning": "intelektualitas되다, intelektualitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ydl35",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terintelektualitas [[뜨르intelektualitas]]",
+    "meaning": "완전히 intelektualitas되다",
+    "pos": "동사, 형용사",
+    "root": "intelektualitas",
+    "affix_logic": "어근 'intelektualitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'intelektualitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling intelektualitas",
+    "antonym": "sengaja diintelektualitas",
+    "context": "'terintelektualitas'은(는) principalmente '완전히 intelektualitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'intelektualitas'의 용법에 유의하세요. 'terintelektualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'intelektualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terintelektualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 intelektualitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terintelektualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 intelektualitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "intelektualitas",
+        "meaning": "(어근) 완전히 intelektualitas되다"
+      },
+      {
+        "word": "terintelektualitas",
+        "meaning": "완전히 intelektualitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_4h0b5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menginterpretatif [[멍interpretatif]]",
+    "meaning": "interpretatif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "interpretatif",
+    "affix_logic": "어근 'interpretatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'interpretatif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan interpretatif",
+    "antonym": "diinterpretatif",
+    "context": "'menginterpretatif'은(는) principalmente 'interpretatif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'interpretatif'의 용법에 유의하세요. 'menginterpretatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'interpretatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menginterpretatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 interpretatif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menginterpretatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 interpretatif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "interpretatif",
+        "meaning": "(어근) interpretatif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "menginterpretatif",
+        "meaning": "interpretatif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_zk6ob",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diinterpretatif [[디interpretatif]]",
+    "meaning": "interpretatif되다, interpretatif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "interpretatif",
+    "affix_logic": "어근 'interpretatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'interpretatif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena interpretatif",
+    "antonym": "menginterpretatif",
+    "context": "'diinterpretatif'은(는) principalmente 'interpretatif되다, interpretatif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'interpretatif'의 용법에 유의하세요. 'diinterpretatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'interpretatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diinterpretatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 interpretatif되다, interpretatif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diinterpretatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 interpretatif되다, interpretatif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "interpretatif",
+        "meaning": "(어근) interpretatif되다"
+      },
+      {
+        "word": "diinterpretatif",
+        "meaning": "interpretatif되다, interpretatif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fhzix",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terinterpretatif [[뜨르interpretatif]]",
+    "meaning": "완전히 interpretatif되다",
+    "pos": "동사, 형용사",
+    "root": "interpretatif",
+    "affix_logic": "어근 'interpretatif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'interpretatif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling interpretatif",
+    "antonym": "sengaja diinterpretatif",
+    "context": "'terinterpretatif'은(는) principalmente '완전히 interpretatif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'interpretatif'의 용법에 유의하세요. 'terinterpretatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'interpretatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terinterpretatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 interpretatif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terinterpretatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 interpretatif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "interpretatif",
+        "meaning": "(어근) 완전히 interpretatif되다"
+      },
+      {
+        "word": "terinterpretatif",
+        "meaning": "완전히 interpretatif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_qetqg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengintrospektif [[멍introspektif]]",
+    "meaning": "introspektif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "introspektif",
+    "affix_logic": "어근 'introspektif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'introspektif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan introspektif",
+    "antonym": "diintrospektif",
+    "context": "'mengintrospektif'은(는) principalmente 'introspektif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'introspektif'의 용법에 유의하세요. 'mengintrospektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'introspektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengintrospektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 introspektif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengintrospektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 introspektif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "introspektif",
+        "meaning": "(어근) introspektif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengintrospektif",
+        "meaning": "introspektif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_hn735",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diintrospektif [[디introspektif]]",
+    "meaning": "introspektif되다, introspektif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "introspektif",
+    "affix_logic": "어근 'introspektif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'introspektif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena introspektif",
+    "antonym": "mengintrospektif",
+    "context": "'diintrospektif'은(는) principalmente 'introspektif되다, introspektif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'introspektif'의 용법에 유의하세요. 'diintrospektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'introspektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diintrospektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 introspektif되다, introspektif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diintrospektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 introspektif되다, introspektif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "introspektif",
+        "meaning": "(어근) introspektif되다"
+      },
+      {
+        "word": "diintrospektif",
+        "meaning": "introspektif되다, introspektif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_5a02b",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terintrospektif [[뜨르introspektif]]",
+    "meaning": "완전히 introspektif되다",
+    "pos": "동사, 형용사",
+    "root": "introspektif",
+    "affix_logic": "어근 'introspektif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'introspektif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling introspektif",
+    "antonym": "sengaja diintrospektif",
+    "context": "'terintrospektif'은(는) principalmente '완전히 introspektif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'introspektif'의 용법에 유의하세요. 'terintrospektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'introspektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terintrospektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 introspektif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terintrospektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 introspektif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "introspektif",
+        "meaning": "(어근) 완전히 introspektif되다"
+      },
+      {
+        "word": "terintrospektif",
+        "meaning": "완전히 introspektif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ss6q9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengintuisionis [[멍intuisionis]]",
+    "meaning": "intuisionis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "intuisionis",
+    "affix_logic": "어근 'intuisionis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'intuisionis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan intuisionis",
+    "antonym": "diintuisionis",
+    "context": "'mengintuisionis'은(는) principalmente 'intuisionis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'intuisionis'의 용법에 유의하세요. 'mengintuisionis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'intuisionis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengintuisionis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 intuisionis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengintuisionis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 intuisionis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "intuisionis",
+        "meaning": "(어근) intuisionis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengintuisionis",
+        "meaning": "intuisionis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_2gsu5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diintuisionis [[디intuisionis]]",
+    "meaning": "intuisionis되다, intuisionis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "intuisionis",
+    "affix_logic": "어근 'intuisionis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'intuisionis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena intuisionis",
+    "antonym": "mengintuisionis",
+    "context": "'diintuisionis'은(는) principalmente 'intuisionis되다, intuisionis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'intuisionis'의 용법에 유의하세요. 'diintuisionis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'intuisionis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diintuisionis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 intuisionis되다, intuisionis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diintuisionis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 intuisionis되다, intuisionis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "intuisionis",
+        "meaning": "(어근) intuisionis되다"
+      },
+      {
+        "word": "diintuisionis",
+        "meaning": "intuisionis되다, intuisionis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_4z4z9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terintuisionis [[뜨르intuisionis]]",
+    "meaning": "완전히 intuisionis되다",
+    "pos": "동사, 형용사",
+    "root": "intuisionis",
+    "affix_logic": "어근 'intuisionis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'intuisionis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling intuisionis",
+    "antonym": "sengaja diintuisionis",
+    "context": "'terintuisionis'은(는) principalmente '완전히 intuisionis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'intuisionis'의 용법에 유의하세요. 'terintuisionis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'intuisionis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terintuisionis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 intuisionis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terintuisionis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 intuisionis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "intuisionis",
+        "meaning": "(어근) 완전히 intuisionis되다"
+      },
+      {
+        "word": "terintuisionis",
+        "meaning": "완전히 intuisionis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_x0bg5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengjurisprudensi [[멍jurisprudensi]]",
+    "meaning": "jurisprudensi하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "jurisprudensi",
+    "affix_logic": "어근 'jurisprudensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'jurisprudensi'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan jurisprudensi",
+    "antonym": "dijurisprudensi",
+    "context": "'mengjurisprudensi'은(는) principalmente 'jurisprudensi하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jurisprudensi'의 용법에 유의하세요. 'mengjurisprudensi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jurisprudensi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengjurisprudensi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jurisprudensi하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengjurisprudensi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jurisprudensi하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jurisprudensi",
+        "meaning": "(어근) jurisprudensi하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengjurisprudensi",
+        "meaning": "jurisprudensi하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_4k01r",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dijurisprudensi [[디jurisprudensi]]",
+    "meaning": "jurisprudensi되다, jurisprudensi당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "jurisprudensi",
+    "affix_logic": "어근 'jurisprudensi'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'jurisprudensi'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena jurisprudensi",
+    "antonym": "mengjurisprudensi",
+    "context": "'dijurisprudensi'은(는) principalmente 'jurisprudensi되다, jurisprudensi당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jurisprudensi'의 용법에 유의하세요. 'dijurisprudensi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jurisprudensi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dijurisprudensi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 jurisprudensi되다, jurisprudensi당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dijurisprudensi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 jurisprudensi되다, jurisprudensi당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jurisprudensi",
+        "meaning": "(어근) jurisprudensi되다"
+      },
+      {
+        "word": "dijurisprudensi",
+        "meaning": "jurisprudensi되다, jurisprudensi당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_opytd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terjurisprudensi [[뜨르jurisprudensi]]",
+    "meaning": "완전히 jurisprudensi되다",
+    "pos": "동사, 형용사",
+    "root": "jurisprudensi",
+    "affix_logic": "어근 'jurisprudensi'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'jurisprudensi'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling jurisprudensi",
+    "antonym": "sengaja dijurisprudensi",
+    "context": "'terjurisprudensi'은(는) principalmente '완전히 jurisprudensi되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'jurisprudensi'의 용법에 유의하세요. 'terjurisprudensi' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'jurisprudensi' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terjurisprudensi untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 jurisprudensi되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terjurisprudensi yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 jurisprudensi되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "jurisprudensi",
+        "meaning": "(어근) 완전히 jurisprudensi되다"
+      },
+      {
+        "word": "terjurisprudensi",
+        "meaning": "완전히 jurisprudensi되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_galbk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkategorial [[멍kategorial]]",
+    "meaning": "kategorial하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kategorial",
+    "affix_logic": "어근 'kategorial'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kategorial'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan kategorial",
+    "antonym": "dikategorial",
+    "context": "'mengkategorial'은(는) principalmente 'kategorial하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kategorial'의 용법에 유의하세요. 'mengkategorial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kategorial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkategorial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kategorial하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkategorial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kategorial하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kategorial",
+        "meaning": "(어근) kategorial하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkategorial",
+        "meaning": "kategorial하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_a8nei",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikategorial [[디kategorial]]",
+    "meaning": "kategorial되다, kategorial당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kategorial",
+    "affix_logic": "어근 'kategorial'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kategorial'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena kategorial",
+    "antonym": "mengkategorial",
+    "context": "'dikategorial'은(는) principalmente 'kategorial되다, kategorial당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kategorial'의 용법에 유의하세요. 'dikategorial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kategorial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikategorial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kategorial되다, kategorial당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikategorial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kategorial되다, kategorial당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kategorial",
+        "meaning": "(어근) kategorial되다"
+      },
+      {
+        "word": "dikategorial",
+        "meaning": "kategorial되다, kategorial당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_8qmtb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkategorial [[뜨르kategorial]]",
+    "meaning": "완전히 kategorial되다",
+    "pos": "동사, 형용사",
+    "root": "kategorial",
+    "affix_logic": "어근 'kategorial'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'kategorial'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling kategorial",
+    "antonym": "sengaja dikategorial",
+    "context": "'terkategorial'은(는) principalmente '완전히 kategorial되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kategorial'의 용법에 유의하세요. 'terkategorial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kategorial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkategorial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 kategorial되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkategorial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 kategorial되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kategorial",
+        "meaning": "(어근) 완전히 kategorial되다"
+      },
+      {
+        "word": "terkategorial",
+        "meaning": "완전히 kategorial되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_j2zfi",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengklasikal [[멍klasikal]]",
+    "meaning": "klasikal하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "klasikal",
+    "affix_logic": "어근 'klasikal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'klasikal'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan klasikal",
+    "antonym": "diklasikal",
+    "context": "'mengklasikal'은(는) principalmente 'klasikal하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'klasikal'의 용법에 유의하세요. 'mengklasikal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'klasikal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengklasikal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 klasikal하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengklasikal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 klasikal하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "klasikal",
+        "meaning": "(어근) klasikal하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengklasikal",
+        "meaning": "klasikal하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_3ofnj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diklasikal [[디klasikal]]",
+    "meaning": "klasikal되다, klasikal당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "klasikal",
+    "affix_logic": "어근 'klasikal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'klasikal'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena klasikal",
+    "antonym": "mengklasikal",
+    "context": "'diklasikal'은(는) principalmente 'klasikal되다, klasikal당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'klasikal'의 용법에 유의하세요. 'diklasikal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'klasikal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diklasikal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 klasikal되다, klasikal당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diklasikal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 klasikal되다, klasikal당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "klasikal",
+        "meaning": "(어근) klasikal되다"
+      },
+      {
+        "word": "diklasikal",
+        "meaning": "klasikal되다, klasikal당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fn741",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terklasikal [[뜨르klasikal]]",
+    "meaning": "완전히 klasikal되다",
+    "pos": "동사, 형용사",
+    "root": "klasikal",
+    "affix_logic": "어근 'klasikal'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'klasikal'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling klasikal",
+    "antonym": "sengaja diklasikal",
+    "context": "'terklasikal'은(는) principalmente '완전히 klasikal되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'klasikal'의 용법에 유의하세요. 'terklasikal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'klasikal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terklasikal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 klasikal되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terklasikal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 klasikal되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "klasikal",
+        "meaning": "(어근) 완전히 klasikal되다"
+      },
+      {
+        "word": "terklasikal",
+        "meaning": "완전히 klasikal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_adc9q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkolektifis [[멍kolektifis]]",
+    "meaning": "kolektifis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kolektifis",
+    "affix_logic": "어근 'kolektifis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kolektifis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan kolektifis",
+    "antonym": "dikolektifis",
+    "context": "'mengkolektifis'은(는) principalmente 'kolektifis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kolektifis'의 용법에 유의하세요. 'mengkolektifis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kolektifis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkolektifis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kolektifis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkolektifis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kolektifis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kolektifis",
+        "meaning": "(어근) kolektifis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkolektifis",
+        "meaning": "kolektifis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ioz57",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikolektifis [[디kolektifis]]",
+    "meaning": "kolektifis되다, kolektifis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kolektifis",
+    "affix_logic": "어근 'kolektifis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kolektifis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena kolektifis",
+    "antonym": "mengkolektifis",
+    "context": "'dikolektifis'은(는) principalmente 'kolektifis되다, kolektifis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kolektifis'의 용법에 유의하세요. 'dikolektifis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kolektifis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikolektifis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kolektifis되다, kolektifis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikolektifis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kolektifis되다, kolektifis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kolektifis",
+        "meaning": "(어근) kolektifis되다"
+      },
+      {
+        "word": "dikolektifis",
+        "meaning": "kolektifis되다, kolektifis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_uerf2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkolektifis [[뜨르kolektifis]]",
+    "meaning": "완전히 kolektifis되다",
+    "pos": "동사, 형용사",
+    "root": "kolektifis",
+    "affix_logic": "어근 'kolektifis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'kolektifis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling kolektifis",
+    "antonym": "sengaja dikolektifis",
+    "context": "'terkolektifis'은(는) principalmente '완전히 kolektifis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kolektifis'의 용법에 유의하세요. 'terkolektifis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kolektifis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkolektifis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 kolektifis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkolektifis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 kolektifis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kolektifis",
+        "meaning": "(어근) 완전히 kolektifis되다"
+      },
+      {
+        "word": "terkolektifis",
+        "meaning": "완전히 kolektifis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_pjzck",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkolonialistik [[멍kolonialistik]]",
+    "meaning": "kolonialistik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kolonialistik",
+    "affix_logic": "어근 'kolonialistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kolonialistik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan kolonialistik",
+    "antonym": "dikolonialistik",
+    "context": "'mengkolonialistik'은(는) principalmente 'kolonialistik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kolonialistik'의 용법에 유의하세요. 'mengkolonialistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kolonialistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkolonialistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kolonialistik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkolonialistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kolonialistik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kolonialistik",
+        "meaning": "(어근) kolonialistik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkolonialistik",
+        "meaning": "kolonialistik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_olok7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikolonialistik [[디kolonialistik]]",
+    "meaning": "kolonialistik되다, kolonialistik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kolonialistik",
+    "affix_logic": "어근 'kolonialistik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kolonialistik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena kolonialistik",
+    "antonym": "mengkolonialistik",
+    "context": "'dikolonialistik'은(는) principalmente 'kolonialistik되다, kolonialistik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kolonialistik'의 용법에 유의하세요. 'dikolonialistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kolonialistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikolonialistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kolonialistik되다, kolonialistik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikolonialistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kolonialistik되다, kolonialistik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kolonialistik",
+        "meaning": "(어근) kolonialistik되다"
+      },
+      {
+        "word": "dikolonialistik",
+        "meaning": "kolonialistik되다, kolonialistik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_3udng",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkolonialistik [[뜨르kolonialistik]]",
+    "meaning": "완전히 kolonialistik되다",
+    "pos": "동사, 형용사",
+    "root": "kolonialistik",
+    "affix_logic": "어근 'kolonialistik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'kolonialistik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling kolonialistik",
+    "antonym": "sengaja dikolonialistik",
+    "context": "'terkolonialistik'은(는) principalmente '완전히 kolonialistik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kolonialistik'의 용법에 유의하세요. 'terkolonialistik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kolonialistik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkolonialistik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 kolonialistik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkolonialistik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 kolonialistik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kolonialistik",
+        "meaning": "(어근) 완전히 kolonialistik되다"
+      },
+      {
+        "word": "terkolonialistik",
+        "meaning": "완전히 kolonialistik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_8nwd1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkomparatif [[멍komparatif]]",
+    "meaning": "komparatif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "komparatif",
+    "affix_logic": "어근 'komparatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'komparatif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan komparatif",
+    "antonym": "dikomparatif",
+    "context": "'mengkomparatif'은(는) principalmente 'komparatif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'komparatif'의 용법에 유의하세요. 'mengkomparatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'komparatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkomparatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 komparatif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkomparatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 komparatif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "komparatif",
+        "meaning": "(어근) komparatif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkomparatif",
+        "meaning": "komparatif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fgx87",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikomparatif [[디komparatif]]",
+    "meaning": "komparatif되다, komparatif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "komparatif",
+    "affix_logic": "어근 'komparatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'komparatif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena komparatif",
+    "antonym": "mengkomparatif",
+    "context": "'dikomparatif'은(는) principalmente 'komparatif되다, komparatif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'komparatif'의 용법에 유의하세요. 'dikomparatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'komparatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikomparatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 komparatif되다, komparatif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikomparatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 komparatif되다, komparatif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "komparatif",
+        "meaning": "(어근) komparatif되다"
+      },
+      {
+        "word": "dikomparatif",
+        "meaning": "komparatif되다, komparatif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_azp71",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkomparatif [[뜨르komparatif]]",
+    "meaning": "완전히 komparatif되다",
+    "pos": "동사, 형용사",
+    "root": "komparatif",
+    "affix_logic": "어근 'komparatif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'komparatif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling komparatif",
+    "antonym": "sengaja dikomparatif",
+    "context": "'terkomparatif'은(는) principalmente '완전히 komparatif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'komparatif'의 용법에 유의하세요. 'terkomparatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'komparatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkomparatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 komparatif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkomparatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 komparatif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "komparatif",
+        "meaning": "(어근) 완전히 komparatif되다"
+      },
+      {
+        "word": "terkomparatif",
+        "meaning": "완전히 komparatif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_pj9iv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkomprehensif [[멍komprehensif]]",
+    "meaning": "komprehensif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "komprehensif",
+    "affix_logic": "어근 'komprehensif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'komprehensif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan komprehensif",
+    "antonym": "dikomprehensif",
+    "context": "'mengkomprehensif'은(는) principalmente 'komprehensif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'komprehensif'의 용법에 유의하세요. 'mengkomprehensif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'komprehensif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkomprehensif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 komprehensif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkomprehensif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 komprehensif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "komprehensif",
+        "meaning": "(어근) komprehensif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkomprehensif",
+        "meaning": "komprehensif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_9nos6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikomprehensif [[디komprehensif]]",
+    "meaning": "komprehensif되다, komprehensif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "komprehensif",
+    "affix_logic": "어근 'komprehensif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'komprehensif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena komprehensif",
+    "antonym": "mengkomprehensif",
+    "context": "'dikomprehensif'은(는) principalmente 'komprehensif되다, komprehensif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'komprehensif'의 용법에 유의하세요. 'dikomprehensif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'komprehensif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikomprehensif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 komprehensif되다, komprehensif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikomprehensif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 komprehensif되다, komprehensif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "komprehensif",
+        "meaning": "(어근) komprehensif되다"
+      },
+      {
+        "word": "dikomprehensif",
+        "meaning": "komprehensif되다, komprehensif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_5wo3m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkomprehensif [[뜨르komprehensif]]",
+    "meaning": "완전히 komprehensif되다",
+    "pos": "동사, 형용사",
+    "root": "komprehensif",
+    "affix_logic": "어근 'komprehensif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'komprehensif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling komprehensif",
+    "antonym": "sengaja dikomprehensif",
+    "context": "'terkomprehensif'은(는) principalmente '완전히 komprehensif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'komprehensif'의 용법에 유의하세요. 'terkomprehensif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'komprehensif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkomprehensif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 komprehensif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkomprehensif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 komprehensif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "komprehensif",
+        "meaning": "(어근) 완전히 komprehensif되다"
+      },
+      {
+        "word": "terkomprehensif",
+        "meaning": "완전히 komprehensif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_vhv9m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkonseptual [[멍konseptual]]",
+    "meaning": "konseptual하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "konseptual",
+    "affix_logic": "어근 'konseptual'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'konseptual'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan konseptual",
+    "antonym": "dikonseptual",
+    "context": "'mengkonseptual'은(는) principalmente 'konseptual하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konseptual'의 용법에 유의하세요. 'mengkonseptual' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konseptual' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkonseptual untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 konseptual하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkonseptual yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 konseptual하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konseptual",
+        "meaning": "(어근) konseptual하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkonseptual",
+        "meaning": "konseptual하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fjuv8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikonseptual [[디konseptual]]",
+    "meaning": "konseptual되다, konseptual당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "konseptual",
+    "affix_logic": "어근 'konseptual'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'konseptual'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena konseptual",
+    "antonym": "mengkonseptual",
+    "context": "'dikonseptual'은(는) principalmente 'konseptual되다, konseptual당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konseptual'의 용법에 유의하세요. 'dikonseptual' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konseptual' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikonseptual untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 konseptual되다, konseptual당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikonseptual yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 konseptual되다, konseptual당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konseptual",
+        "meaning": "(어근) konseptual되다"
+      },
+      {
+        "word": "dikonseptual",
+        "meaning": "konseptual되다, konseptual당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_s8ii5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkonseptual [[뜨르konseptual]]",
+    "meaning": "완전히 konseptual되다",
+    "pos": "동사, 형용사",
+    "root": "konseptual",
+    "affix_logic": "어근 'konseptual'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'konseptual'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling konseptual",
+    "antonym": "sengaja dikonseptual",
+    "context": "'terkonseptual'은(는) principalmente '완전히 konseptual되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konseptual'의 용법에 유의하세요. 'terkonseptual' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konseptual' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkonseptual untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 konseptual되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkonseptual yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 konseptual되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konseptual",
+        "meaning": "(어근) 완전히 konseptual되다"
+      },
+      {
+        "word": "terkonseptual",
+        "meaning": "완전히 konseptual되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_wtzh0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkonseptualitas [[멍konseptualitas]]",
+    "meaning": "konseptualitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "konseptualitas",
+    "affix_logic": "어근 'konseptualitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'konseptualitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan konseptualitas",
+    "antonym": "dikonseptualitas",
+    "context": "'mengkonseptualitas'은(는) principalmente 'konseptualitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konseptualitas'의 용법에 유의하세요. 'mengkonseptualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konseptualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkonseptualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 konseptualitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkonseptualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 konseptualitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konseptualitas",
+        "meaning": "(어근) konseptualitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkonseptualitas",
+        "meaning": "konseptualitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_4lphk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikonseptualitas [[디konseptualitas]]",
+    "meaning": "konseptualitas되다, konseptualitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "konseptualitas",
+    "affix_logic": "어근 'konseptualitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'konseptualitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena konseptualitas",
+    "antonym": "mengkonseptualitas",
+    "context": "'dikonseptualitas'은(는) principalmente 'konseptualitas되다, konseptualitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konseptualitas'의 용법에 유의하세요. 'dikonseptualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konseptualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikonseptualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 konseptualitas되다, konseptualitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikonseptualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 konseptualitas되다, konseptualitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konseptualitas",
+        "meaning": "(어근) konseptualitas되다"
+      },
+      {
+        "word": "dikonseptualitas",
+        "meaning": "konseptualitas되다, konseptualitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_070vt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkonseptualitas [[뜨르konseptualitas]]",
+    "meaning": "완전히 konseptualitas되다",
+    "pos": "동사, 형용사",
+    "root": "konseptualitas",
+    "affix_logic": "어근 'konseptualitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'konseptualitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling konseptualitas",
+    "antonym": "sengaja dikonseptualitas",
+    "context": "'terkonseptualitas'은(는) principalmente '완전히 konseptualitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'konseptualitas'의 용법에 유의하세요. 'terkonseptualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'konseptualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkonseptualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 konseptualitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkonseptualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 konseptualitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "konseptualitas",
+        "meaning": "(어근) 완전히 konseptualitas되다"
+      },
+      {
+        "word": "terkonseptualitas",
+        "meaning": "완전히 konseptualitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_82p60",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkontekstual [[멍kontekstual]]",
+    "meaning": "kontekstual하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kontekstual",
+    "affix_logic": "어근 'kontekstual'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kontekstual'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan kontekstual",
+    "antonym": "dikontekstual",
+    "context": "'mengkontekstual'은(는) principalmente 'kontekstual하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontekstual'의 용법에 유의하세요. 'mengkontekstual' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontekstual' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkontekstual untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kontekstual하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkontekstual yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kontekstual하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontekstual",
+        "meaning": "(어근) kontekstual하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkontekstual",
+        "meaning": "kontekstual하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_njzjz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikontekstual [[디kontekstual]]",
+    "meaning": "kontekstual되다, kontekstual당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kontekstual",
+    "affix_logic": "어근 'kontekstual'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kontekstual'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena kontekstual",
+    "antonym": "mengkontekstual",
+    "context": "'dikontekstual'은(는) principalmente 'kontekstual되다, kontekstual당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontekstual'의 용법에 유의하세요. 'dikontekstual' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontekstual' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikontekstual untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kontekstual되다, kontekstual당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikontekstual yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kontekstual되다, kontekstual당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontekstual",
+        "meaning": "(어근) kontekstual되다"
+      },
+      {
+        "word": "dikontekstual",
+        "meaning": "kontekstual되다, kontekstual당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_jcet6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkontekstual [[뜨르kontekstual]]",
+    "meaning": "완전히 kontekstual되다",
+    "pos": "동사, 형용사",
+    "root": "kontekstual",
+    "affix_logic": "어근 'kontekstual'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'kontekstual'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling kontekstual",
+    "antonym": "sengaja dikontekstual",
+    "context": "'terkontekstual'은(는) principalmente '완전히 kontekstual되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontekstual'의 용법에 유의하세요. 'terkontekstual' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontekstual' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkontekstual untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 kontekstual되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkontekstual yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 kontekstual되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontekstual",
+        "meaning": "(어근) 완전히 kontekstual되다"
+      },
+      {
+        "word": "terkontekstual",
+        "meaning": "완전히 kontekstual되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_l5cgt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkontradiktif [[멍kontradiktif]]",
+    "meaning": "kontradiktif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kontradiktif",
+    "affix_logic": "어근 'kontradiktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kontradiktif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan kontradiktif",
+    "antonym": "dikontradiktif",
+    "context": "'mengkontradiktif'은(는) principalmente 'kontradiktif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontradiktif'의 용법에 유의하세요. 'mengkontradiktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontradiktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkontradiktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kontradiktif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkontradiktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kontradiktif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontradiktif",
+        "meaning": "(어근) kontradiktif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkontradiktif",
+        "meaning": "kontradiktif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_0i2bf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikontradiktif [[디kontradiktif]]",
+    "meaning": "kontradiktif되다, kontradiktif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kontradiktif",
+    "affix_logic": "어근 'kontradiktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kontradiktif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena kontradiktif",
+    "antonym": "mengkontradiktif",
+    "context": "'dikontradiktif'은(는) principalmente 'kontradiktif되다, kontradiktif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontradiktif'의 용법에 유의하세요. 'dikontradiktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontradiktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikontradiktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kontradiktif되다, kontradiktif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikontradiktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kontradiktif되다, kontradiktif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontradiktif",
+        "meaning": "(어근) kontradiktif되다"
+      },
+      {
+        "word": "dikontradiktif",
+        "meaning": "kontradiktif되다, kontradiktif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_puu21",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkontradiktif [[뜨르kontradiktif]]",
+    "meaning": "완전히 kontradiktif되다",
+    "pos": "동사, 형용사",
+    "root": "kontradiktif",
+    "affix_logic": "어근 'kontradiktif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'kontradiktif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling kontradiktif",
+    "antonym": "sengaja dikontradiktif",
+    "context": "'terkontradiktif'은(는) principalmente '완전히 kontradiktif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kontradiktif'의 용법에 유의하세요. 'terkontradiktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kontradiktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkontradiktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 kontradiktif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkontradiktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 kontradiktif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kontradiktif",
+        "meaning": "(어근) 완전히 kontradiktif되다"
+      },
+      {
+        "word": "terkontradiktif",
+        "meaning": "완전히 kontradiktif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_bzxpf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengkosmologis [[멍kosmologis]]",
+    "meaning": "kosmologis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "kosmologis",
+    "affix_logic": "어근 'kosmologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kosmologis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan kosmologis",
+    "antonym": "dikosmologis",
+    "context": "'mengkosmologis'은(는) principalmente 'kosmologis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kosmologis'의 용법에 유의하세요. 'mengkosmologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kosmologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengkosmologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kosmologis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengkosmologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kosmologis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kosmologis",
+        "meaning": "(어근) kosmologis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengkosmologis",
+        "meaning": "kosmologis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_vey1p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dikosmologis [[디kosmologis]]",
+    "meaning": "kosmologis되다, kosmologis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "kosmologis",
+    "affix_logic": "어근 'kosmologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'kosmologis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena kosmologis",
+    "antonym": "mengkosmologis",
+    "context": "'dikosmologis'은(는) principalmente 'kosmologis되다, kosmologis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kosmologis'의 용법에 유의하세요. 'dikosmologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kosmologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dikosmologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 kosmologis되다, kosmologis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dikosmologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 kosmologis되다, kosmologis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kosmologis",
+        "meaning": "(어근) kosmologis되다"
+      },
+      {
+        "word": "dikosmologis",
+        "meaning": "kosmologis되다, kosmologis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_0zu1h",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terkosmologis [[뜨르kosmologis]]",
+    "meaning": "완전히 kosmologis되다",
+    "pos": "동사, 형용사",
+    "root": "kosmologis",
+    "affix_logic": "어근 'kosmologis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'kosmologis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling kosmologis",
+    "antonym": "sengaja dikosmologis",
+    "context": "'terkosmologis'은(는) principalmente '완전히 kosmologis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'kosmologis'의 용법에 유의하세요. 'terkosmologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'kosmologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terkosmologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 kosmologis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terkosmologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 kosmologis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "kosmologis",
+        "meaning": "(어근) 완전히 kosmologis되다"
+      },
+      {
+        "word": "terkosmologis",
+        "meaning": "완전히 kosmologis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_3mlpy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menglegitimatif [[멍legitimatif]]",
+    "meaning": "legitimatif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "legitimatif",
+    "affix_logic": "어근 'legitimatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'legitimatif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan legitimatif",
+    "antonym": "dilegitimatif",
+    "context": "'menglegitimatif'은(는) principalmente 'legitimatif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'legitimatif'의 용법에 유의하세요. 'menglegitimatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'legitimatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menglegitimatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 legitimatif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menglegitimatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 legitimatif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "legitimatif",
+        "meaning": "(어근) legitimatif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "menglegitimatif",
+        "meaning": "legitimatif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_bkobn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dilegitimatif [[디legitimatif]]",
+    "meaning": "legitimatif되다, legitimatif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "legitimatif",
+    "affix_logic": "어근 'legitimatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'legitimatif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena legitimatif",
+    "antonym": "menglegitimatif",
+    "context": "'dilegitimatif'은(는) principalmente 'legitimatif되다, legitimatif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'legitimatif'의 용법에 유의하세요. 'dilegitimatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'legitimatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dilegitimatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 legitimatif되다, legitimatif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dilegitimatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 legitimatif되다, legitimatif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "legitimatif",
+        "meaning": "(어근) legitimatif되다"
+      },
+      {
+        "word": "dilegitimatif",
+        "meaning": "legitimatif되다, legitimatif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_nn8du",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terlegitimatif [[뜨르legitimatif]]",
+    "meaning": "완전히 legitimatif되다",
+    "pos": "동사, 형용사",
+    "root": "legitimatif",
+    "affix_logic": "어근 'legitimatif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'legitimatif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling legitimatif",
+    "antonym": "sengaja dilegitimatif",
+    "context": "'terlegitimatif'은(는) principalmente '완전히 legitimatif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'legitimatif'의 용법에 유의하세요. 'terlegitimatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'legitimatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terlegitimatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 legitimatif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terlegitimatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 legitimatif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "legitimatif",
+        "meaning": "(어근) 완전히 legitimatif되다"
+      },
+      {
+        "word": "terlegitimatif",
+        "meaning": "완전히 legitimatif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_4piqj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengliberalis [[멍liberalis]]",
+    "meaning": "liberalis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "liberalis",
+    "affix_logic": "어근 'liberalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'liberalis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan liberalis",
+    "antonym": "diliberalis",
+    "context": "'mengliberalis'은(는) principalmente 'liberalis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'liberalis'의 용법에 유의하세요. 'mengliberalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'liberalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengliberalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 liberalis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengliberalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 liberalis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "liberalis",
+        "meaning": "(어근) liberalis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengliberalis",
+        "meaning": "liberalis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_s4l3j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diliberalis [[디liberalis]]",
+    "meaning": "liberalis되다, liberalis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "liberalis",
+    "affix_logic": "어근 'liberalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'liberalis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena liberalis",
+    "antonym": "mengliberalis",
+    "context": "'diliberalis'은(는) principalmente 'liberalis되다, liberalis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'liberalis'의 용법에 유의하세요. 'diliberalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'liberalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diliberalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 liberalis되다, liberalis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diliberalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 liberalis되다, liberalis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "liberalis",
+        "meaning": "(어근) liberalis되다"
+      },
+      {
+        "word": "diliberalis",
+        "meaning": "liberalis되다, liberalis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_xrxhk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terliberalis [[뜨르liberalis]]",
+    "meaning": "완전히 liberalis되다",
+    "pos": "동사, 형용사",
+    "root": "liberalis",
+    "affix_logic": "어근 'liberalis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'liberalis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling liberalis",
+    "antonym": "sengaja diliberalis",
+    "context": "'terliberalis'은(는) principalmente '완전히 liberalis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'liberalis'의 용법에 유의하세요. 'terliberalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'liberalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terliberalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 liberalis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terliberalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 liberalis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "liberalis",
+        "meaning": "(어근) 완전히 liberalis되다"
+      },
+      {
+        "word": "terliberalis",
+        "meaning": "완전히 liberalis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ukgss",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmaterialis [[멍materialis]]",
+    "meaning": "materialis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "materialis",
+    "affix_logic": "어근 'materialis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'materialis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan materialis",
+    "antonym": "dimaterialis",
+    "context": "'mengmaterialis'은(는) principalmente 'materialis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'materialis'의 용법에 유의하세요. 'mengmaterialis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'materialis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengmaterialis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 materialis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengmaterialis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 materialis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "materialis",
+        "meaning": "(어근) materialis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengmaterialis",
+        "meaning": "materialis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_jhtj8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimaterialis [[디materialis]]",
+    "meaning": "materialis되다, materialis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "materialis",
+    "affix_logic": "어근 'materialis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'materialis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena materialis",
+    "antonym": "mengmaterialis",
+    "context": "'dimaterialis'은(는) principalmente 'materialis되다, materialis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'materialis'의 용법에 유의하세요. 'dimaterialis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'materialis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dimaterialis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 materialis되다, materialis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dimaterialis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 materialis되다, materialis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "materialis",
+        "meaning": "(어근) materialis되다"
+      },
+      {
+        "word": "dimaterialis",
+        "meaning": "materialis되다, materialis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_p7v5f",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termaterialis [[뜨르materialis]]",
+    "meaning": "완전히 materialis되다",
+    "pos": "동사, 형용사",
+    "root": "materialis",
+    "affix_logic": "어근 'materialis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'materialis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling materialis",
+    "antonym": "sengaja dimaterialis",
+    "context": "'termaterialis'은(는) principalmente '완전히 materialis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'materialis'의 용법에 유의하세요. 'termaterialis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'materialis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait termaterialis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 materialis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang termaterialis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 materialis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "materialis",
+        "meaning": "(어근) 완전히 materialis되다"
+      },
+      {
+        "word": "termaterialis",
+        "meaning": "완전히 materialis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_69uzt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmetafisik [[멍metafisik]]",
+    "meaning": "metafisik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "metafisik",
+    "affix_logic": "어근 'metafisik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'metafisik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan metafisik",
+    "antonym": "dimetafisik",
+    "context": "'mengmetafisik'은(는) principalmente 'metafisik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'metafisik'의 용법에 유의하세요. 'mengmetafisik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'metafisik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengmetafisik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 metafisik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengmetafisik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 metafisik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "metafisik",
+        "meaning": "(어근) metafisik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengmetafisik",
+        "meaning": "metafisik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_3op7j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimetafisik [[디metafisik]]",
+    "meaning": "metafisik되다, metafisik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "metafisik",
+    "affix_logic": "어근 'metafisik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'metafisik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena metafisik",
+    "antonym": "mengmetafisik",
+    "context": "'dimetafisik'은(는) principalmente 'metafisik되다, metafisik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'metafisik'의 용법에 유의하세요. 'dimetafisik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'metafisik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dimetafisik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 metafisik되다, metafisik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dimetafisik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 metafisik되다, metafisik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "metafisik",
+        "meaning": "(어근) metafisik되다"
+      },
+      {
+        "word": "dimetafisik",
+        "meaning": "metafisik되다, metafisik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_yaigv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termetafisik [[뜨르metafisik]]",
+    "meaning": "완전히 metafisik되다",
+    "pos": "동사, 형용사",
+    "root": "metafisik",
+    "affix_logic": "어근 'metafisik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'metafisik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling metafisik",
+    "antonym": "sengaja dimetafisik",
+    "context": "'termetafisik'은(는) principalmente '완전히 metafisik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'metafisik'의 용법에 유의하세요. 'termetafisik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'metafisik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait termetafisik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 metafisik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang termetafisik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 metafisik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "metafisik",
+        "meaning": "(어근) 완전히 metafisik되다"
+      },
+      {
+        "word": "termetafisik",
+        "meaning": "완전히 metafisik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_nw78c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmetodologis [[멍metodologis]]",
+    "meaning": "metodologis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "metodologis",
+    "affix_logic": "어근 'metodologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'metodologis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan metodologis",
+    "antonym": "dimetodologis",
+    "context": "'mengmetodologis'은(는) principalmente 'metodologis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'metodologis'의 용법에 유의하세요. 'mengmetodologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'metodologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengmetodologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 metodologis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengmetodologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 metodologis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "metodologis",
+        "meaning": "(어근) metodologis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengmetodologis",
+        "meaning": "metodologis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_0n3w8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimetodologis [[디metodologis]]",
+    "meaning": "metodologis되다, metodologis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "metodologis",
+    "affix_logic": "어근 'metodologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'metodologis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena metodologis",
+    "antonym": "mengmetodologis",
+    "context": "'dimetodologis'은(는) principalmente 'metodologis되다, metodologis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'metodologis'의 용법에 유의하세요. 'dimetodologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'metodologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dimetodologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 metodologis되다, metodologis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dimetodologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 metodologis되다, metodologis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "metodologis",
+        "meaning": "(어근) metodologis되다"
+      },
+      {
+        "word": "dimetodologis",
+        "meaning": "metodologis되다, metodologis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_i2p2d",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termetodologis [[뜨르metodologis]]",
+    "meaning": "완전히 metodologis되다",
+    "pos": "동사, 형용사",
+    "root": "metodologis",
+    "affix_logic": "어근 'metodologis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'metodologis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling metodologis",
+    "antonym": "sengaja dimetodologis",
+    "context": "'termetodologis'은(는) principalmente '완전히 metodologis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'metodologis'의 용법에 유의하세요. 'termetodologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'metodologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait termetodologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 metodologis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang termetodologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 metodologis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "metodologis",
+        "meaning": "(어근) 완전히 metodologis되다"
+      },
+      {
+        "word": "termetodologis",
+        "meaning": "완전히 metodologis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ew949",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmistisisme [[멍mistisisme]]",
+    "meaning": "mistisisme하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "mistisisme",
+    "affix_logic": "어근 'mistisisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'mistisisme'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan mistisisme",
+    "antonym": "dimistisisme",
+    "context": "'mengmistisisme'은(는) principalmente 'mistisisme하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'mistisisme'의 용법에 유의하세요. 'mengmistisisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'mistisisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengmistisisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 mistisisme하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengmistisisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 mistisisme하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "mistisisme",
+        "meaning": "(어근) mistisisme하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengmistisisme",
+        "meaning": "mistisisme하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_7drgl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimistisisme [[디mistisisme]]",
+    "meaning": "mistisisme되다, mistisisme당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "mistisisme",
+    "affix_logic": "어근 'mistisisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'mistisisme'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena mistisisme",
+    "antonym": "mengmistisisme",
+    "context": "'dimistisisme'은(는) principalmente 'mistisisme되다, mistisisme당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'mistisisme'의 용법에 유의하세요. 'dimistisisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'mistisisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dimistisisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 mistisisme되다, mistisisme당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dimistisisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 mistisisme되다, mistisisme당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "mistisisme",
+        "meaning": "(어근) mistisisme되다"
+      },
+      {
+        "word": "dimistisisme",
+        "meaning": "mistisisme되다, mistisisme당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_wc8dq",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termistisisme [[뜨르mistisisme]]",
+    "meaning": "완전히 mistisisme되다",
+    "pos": "동사, 형용사",
+    "root": "mistisisme",
+    "affix_logic": "어근 'mistisisme'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'mistisisme'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling mistisisme",
+    "antonym": "sengaja dimistisisme",
+    "context": "'termistisisme'은(는) principalmente '완전히 mistisisme되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'mistisisme'의 용법에 유의하세요. 'termistisisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'mistisisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait termistisisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 mistisisme되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang termistisisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 mistisisme되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "mistisisme",
+        "meaning": "(어근) 완전히 mistisisme되다"
+      },
+      {
+        "word": "termistisisme",
+        "meaning": "완전히 mistisisme되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_njped",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmonoteisme [[멍monoteisme]]",
+    "meaning": "monoteisme하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "monoteisme",
+    "affix_logic": "어근 'monoteisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'monoteisme'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan monoteisme",
+    "antonym": "dimonoteisme",
+    "context": "'mengmonoteisme'은(는) principalmente 'monoteisme하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'monoteisme'의 용법에 유의하세요. 'mengmonoteisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'monoteisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengmonoteisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 monoteisme하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengmonoteisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 monoteisme하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "monoteisme",
+        "meaning": "(어근) monoteisme하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengmonoteisme",
+        "meaning": "monoteisme하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_r9ld6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimonoteisme [[디monoteisme]]",
+    "meaning": "monoteisme되다, monoteisme당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "monoteisme",
+    "affix_logic": "어근 'monoteisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'monoteisme'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena monoteisme",
+    "antonym": "mengmonoteisme",
+    "context": "'dimonoteisme'은(는) principalmente 'monoteisme되다, monoteisme당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'monoteisme'의 용법에 유의하세요. 'dimonoteisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'monoteisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dimonoteisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 monoteisme되다, monoteisme당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dimonoteisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 monoteisme되다, monoteisme당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "monoteisme",
+        "meaning": "(어근) monoteisme되다"
+      },
+      {
+        "word": "dimonoteisme",
+        "meaning": "monoteisme되다, monoteisme당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_lc9wz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termonoteisme [[뜨르monoteisme]]",
+    "meaning": "완전히 monoteisme되다",
+    "pos": "동사, 형용사",
+    "root": "monoteisme",
+    "affix_logic": "어근 'monoteisme'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'monoteisme'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling monoteisme",
+    "antonym": "sengaja dimonoteisme",
+    "context": "'termonoteisme'은(는) principalmente '완전히 monoteisme되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'monoteisme'의 용법에 유의하세요. 'termonoteisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'monoteisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait termonoteisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 monoteisme되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang termonoteisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 monoteisme되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "monoteisme",
+        "meaning": "(어근) 완전히 monoteisme되다"
+      },
+      {
+        "word": "termonoteisme",
+        "meaning": "완전히 monoteisme되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_lv7ba",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengmoralitas [[멍moralitas]]",
+    "meaning": "moralitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "moralitas",
+    "affix_logic": "어근 'moralitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'moralitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan moralitas",
+    "antonym": "dimoralitas",
+    "context": "'mengmoralitas'은(는) principalmente 'moralitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'moralitas'의 용법에 유의하세요. 'mengmoralitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'moralitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengmoralitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 moralitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengmoralitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 moralitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "moralitas",
+        "meaning": "(어근) moralitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengmoralitas",
+        "meaning": "moralitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_icktb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dimoralitas [[디moralitas]]",
+    "meaning": "moralitas되다, moralitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "moralitas",
+    "affix_logic": "어근 'moralitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'moralitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena moralitas",
+    "antonym": "mengmoralitas",
+    "context": "'dimoralitas'은(는) principalmente 'moralitas되다, moralitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'moralitas'의 용법에 유의하세요. 'dimoralitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'moralitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dimoralitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 moralitas되다, moralitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dimoralitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 moralitas되다, moralitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "moralitas",
+        "meaning": "(어근) moralitas되다"
+      },
+      {
+        "word": "dimoralitas",
+        "meaning": "moralitas되다, moralitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_9fdsy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "termoralitas [[뜨르moralitas]]",
+    "meaning": "완전히 moralitas되다",
+    "pos": "동사, 형용사",
+    "root": "moralitas",
+    "affix_logic": "어근 'moralitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'moralitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling moralitas",
+    "antonym": "sengaja dimoralitas",
+    "context": "'termoralitas'은(는) principalmente '완전히 moralitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'moralitas'의 용법에 유의하세요. 'termoralitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'moralitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait termoralitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 moralitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang termoralitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 moralitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "moralitas",
+        "meaning": "(어근) 완전히 moralitas되다"
+      },
+      {
+        "word": "termoralitas",
+        "meaning": "완전히 moralitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_6voej",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengnasionalis [[멍nasionalis]]",
+    "meaning": "nasionalis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "nasionalis",
+    "affix_logic": "어근 'nasionalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'nasionalis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan nasionalis",
+    "antonym": "dinasionalis",
+    "context": "'mengnasionalis'은(는) principalmente 'nasionalis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'nasionalis'의 용법에 유의하세요. 'mengnasionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'nasionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengnasionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 nasionalis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengnasionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 nasionalis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "nasionalis",
+        "meaning": "(어근) nasionalis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengnasionalis",
+        "meaning": "nasionalis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_z9tjc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dinasionalis [[디nasionalis]]",
+    "meaning": "nasionalis되다, nasionalis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "nasionalis",
+    "affix_logic": "어근 'nasionalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'nasionalis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena nasionalis",
+    "antonym": "mengnasionalis",
+    "context": "'dinasionalis'은(는) principalmente 'nasionalis되다, nasionalis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'nasionalis'의 용법에 유의하세요. 'dinasionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'nasionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dinasionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 nasionalis되다, nasionalis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dinasionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 nasionalis되다, nasionalis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "nasionalis",
+        "meaning": "(어근) nasionalis되다"
+      },
+      {
+        "word": "dinasionalis",
+        "meaning": "nasionalis되다, nasionalis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_qng5c",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ternasionalis [[뜨르nasionalis]]",
+    "meaning": "완전히 nasionalis되다",
+    "pos": "동사, 형용사",
+    "root": "nasionalis",
+    "affix_logic": "어근 'nasionalis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'nasionalis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling nasionalis",
+    "antonym": "sengaja dinasionalis",
+    "context": "'ternasionalis'은(는) principalmente '완전히 nasionalis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'nasionalis'의 용법에 유의하세요. 'ternasionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'nasionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait ternasionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 nasionalis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang ternasionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 nasionalis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "nasionalis",
+        "meaning": "(어근) 완전히 nasionalis되다"
+      },
+      {
+        "word": "ternasionalis",
+        "meaning": "완전히 nasionalis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fuf5v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengnaturalis [[멍naturalis]]",
+    "meaning": "naturalis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "naturalis",
+    "affix_logic": "어근 'naturalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'naturalis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan naturalis",
+    "antonym": "dinaturalis",
+    "context": "'mengnaturalis'은(는) principalmente 'naturalis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'naturalis'의 용법에 유의하세요. 'mengnaturalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'naturalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengnaturalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 naturalis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengnaturalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 naturalis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "naturalis",
+        "meaning": "(어근) naturalis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengnaturalis",
+        "meaning": "naturalis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_5z6na",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dinaturalis [[디naturalis]]",
+    "meaning": "naturalis되다, naturalis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "naturalis",
+    "affix_logic": "어근 'naturalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'naturalis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena naturalis",
+    "antonym": "mengnaturalis",
+    "context": "'dinaturalis'은(는) principalmente 'naturalis되다, naturalis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'naturalis'의 용법에 유의하세요. 'dinaturalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'naturalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dinaturalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 naturalis되다, naturalis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dinaturalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 naturalis되다, naturalis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "naturalis",
+        "meaning": "(어근) naturalis되다"
+      },
+      {
+        "word": "dinaturalis",
+        "meaning": "naturalis되다, naturalis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_rk3pa",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ternaturalis [[뜨르naturalis]]",
+    "meaning": "완전히 naturalis되다",
+    "pos": "동사, 형용사",
+    "root": "naturalis",
+    "affix_logic": "어근 'naturalis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'naturalis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling naturalis",
+    "antonym": "sengaja dinaturalis",
+    "context": "'ternaturalis'은(는) principalmente '완전히 naturalis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'naturalis'의 용법에 유의하세요. 'ternaturalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'naturalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait ternaturalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 naturalis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang ternaturalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 naturalis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "naturalis",
+        "meaning": "(어근) 완전히 naturalis되다"
+      },
+      {
+        "word": "ternaturalis",
+        "meaning": "완전히 naturalis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_lcrnn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengnihilisme [[멍nihilisme]]",
+    "meaning": "nihilisme하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "nihilisme",
+    "affix_logic": "어근 'nihilisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'nihilisme'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan nihilisme",
+    "antonym": "dinihilisme",
+    "context": "'mengnihilisme'은(는) principalmente 'nihilisme하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'nihilisme'의 용법에 유의하세요. 'mengnihilisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'nihilisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengnihilisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 nihilisme하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengnihilisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 nihilisme하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "nihilisme",
+        "meaning": "(어근) nihilisme하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengnihilisme",
+        "meaning": "nihilisme하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_a6dtp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dinihilisme [[디nihilisme]]",
+    "meaning": "nihilisme되다, nihilisme당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "nihilisme",
+    "affix_logic": "어근 'nihilisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'nihilisme'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena nihilisme",
+    "antonym": "mengnihilisme",
+    "context": "'dinihilisme'은(는) principalmente 'nihilisme되다, nihilisme당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'nihilisme'의 용법에 유의하세요. 'dinihilisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'nihilisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dinihilisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 nihilisme되다, nihilisme당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dinihilisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 nihilisme되다, nihilisme당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "nihilisme",
+        "meaning": "(어근) nihilisme되다"
+      },
+      {
+        "word": "dinihilisme",
+        "meaning": "nihilisme되다, nihilisme당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_8rtqt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ternihilisme [[뜨르nihilisme]]",
+    "meaning": "완전히 nihilisme되다",
+    "pos": "동사, 형용사",
+    "root": "nihilisme",
+    "affix_logic": "어근 'nihilisme'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'nihilisme'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling nihilisme",
+    "antonym": "sengaja dinihilisme",
+    "context": "'ternihilisme'은(는) principalmente '완전히 nihilisme되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'nihilisme'의 용법에 유의하세요. 'ternihilisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'nihilisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait ternihilisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 nihilisme되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang ternihilisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 nihilisme되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "nihilisme",
+        "meaning": "(어근) 완전히 nihilisme되다"
+      },
+      {
+        "word": "ternihilisme",
+        "meaning": "완전히 nihilisme되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ihe8e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengnormatif [[멍normatif]]",
+    "meaning": "normatif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "normatif",
+    "affix_logic": "어근 'normatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'normatif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan normatif",
+    "antonym": "dinormatif",
+    "context": "'mengnormatif'은(는) principalmente 'normatif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'normatif'의 용법에 유의하세요. 'mengnormatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'normatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengnormatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 normatif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengnormatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 normatif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "normatif",
+        "meaning": "(어근) normatif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengnormatif",
+        "meaning": "normatif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_flgbc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dinormatif [[디normatif]]",
+    "meaning": "normatif되다, normatif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "normatif",
+    "affix_logic": "어근 'normatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'normatif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena normatif",
+    "antonym": "mengnormatif",
+    "context": "'dinormatif'은(는) principalmente 'normatif되다, normatif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'normatif'의 용법에 유의하세요. 'dinormatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'normatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dinormatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 normatif되다, normatif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dinormatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 normatif되다, normatif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "normatif",
+        "meaning": "(어근) normatif되다"
+      },
+      {
+        "word": "dinormatif",
+        "meaning": "normatif되다, normatif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_xkceo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ternormatif [[뜨르normatif]]",
+    "meaning": "완전히 normatif되다",
+    "pos": "동사, 형용사",
+    "root": "normatif",
+    "affix_logic": "어근 'normatif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'normatif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling normatif",
+    "antonym": "sengaja dinormatif",
+    "context": "'ternormatif'은(는) principalmente '완전히 normatif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'normatif'의 용법에 유의하세요. 'ternormatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'normatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait ternormatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 normatif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang ternormatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 normatif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "normatif",
+        "meaning": "(어근) 완전히 normatif되다"
+      },
+      {
+        "word": "ternormatif",
+        "meaning": "완전히 normatif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_vge71",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengobjektivitas [[멍objektivitas]]",
+    "meaning": "objektivitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "objektivitas",
+    "affix_logic": "어근 'objektivitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'objektivitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan objektivitas",
+    "antonym": "diobjektivitas",
+    "context": "'mengobjektivitas'은(는) principalmente 'objektivitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'objektivitas'의 용법에 유의하세요. 'mengobjektivitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'objektivitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengobjektivitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 objektivitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengobjektivitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 objektivitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "objektivitas",
+        "meaning": "(어근) objektivitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengobjektivitas",
+        "meaning": "objektivitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fkc5j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diobjektivitas [[디objektivitas]]",
+    "meaning": "objektivitas되다, objektivitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "objektivitas",
+    "affix_logic": "어근 'objektivitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'objektivitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena objektivitas",
+    "antonym": "mengobjektivitas",
+    "context": "'diobjektivitas'은(는) principalmente 'objektivitas되다, objektivitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'objektivitas'의 용법에 유의하세요. 'diobjektivitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'objektivitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diobjektivitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 objektivitas되다, objektivitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diobjektivitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 objektivitas되다, objektivitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "objektivitas",
+        "meaning": "(어근) objektivitas되다"
+      },
+      {
+        "word": "diobjektivitas",
+        "meaning": "objektivitas되다, objektivitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_facvn",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terobjektivitas [[뜨르objektivitas]]",
+    "meaning": "완전히 objektivitas되다",
+    "pos": "동사, 형용사",
+    "root": "objektivitas",
+    "affix_logic": "어근 'objektivitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'objektivitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling objektivitas",
+    "antonym": "sengaja diobjektivitas",
+    "context": "'terobjektivitas'은(는) principalmente '완전히 objektivitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'objektivitas'의 용법에 유의하세요. 'terobjektivitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'objektivitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terobjektivitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 objektivitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terobjektivitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 objektivitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "objektivitas",
+        "meaning": "(어근) 완전히 objektivitas되다"
+      },
+      {
+        "word": "terobjektivitas",
+        "meaning": "완전히 objektivitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_9mohf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengontologis [[멍ontologis]]",
+    "meaning": "ontologis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ontologis",
+    "affix_logic": "어근 'ontologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ontologis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan ontologis",
+    "antonym": "diontologis",
+    "context": "'mengontologis'은(는) principalmente 'ontologis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ontologis'의 용법에 유의하세요. 'mengontologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ontologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengontologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ontologis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengontologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ontologis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ontologis",
+        "meaning": "(어근) ontologis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengontologis",
+        "meaning": "ontologis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_4p5og",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diontologis [[디ontologis]]",
+    "meaning": "ontologis되다, ontologis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ontologis",
+    "affix_logic": "어근 'ontologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ontologis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena ontologis",
+    "antonym": "mengontologis",
+    "context": "'diontologis'은(는) principalmente 'ontologis되다, ontologis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ontologis'의 용법에 유의하세요. 'diontologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ontologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diontologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ontologis되다, ontologis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diontologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ontologis되다, ontologis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ontologis",
+        "meaning": "(어근) ontologis되다"
+      },
+      {
+        "word": "diontologis",
+        "meaning": "ontologis되다, ontologis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_c80g7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terontologis [[뜨르ontologis]]",
+    "meaning": "완전히 ontologis되다",
+    "pos": "동사, 형용사",
+    "root": "ontologis",
+    "affix_logic": "어근 'ontologis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'ontologis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling ontologis",
+    "antonym": "sengaja diontologis",
+    "context": "'terontologis'은(는) principalmente '완전히 ontologis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ontologis'의 용법에 유의하세요. 'terontologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ontologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terontologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 ontologis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terontologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 ontologis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ontologis",
+        "meaning": "(어근) 완전히 ontologis되다"
+      },
+      {
+        "word": "terontologis",
+        "meaning": "완전히 ontologis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_d2uxf",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengoptimalitas [[멍optimalitas]]",
+    "meaning": "optimalitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "optimalitas",
+    "affix_logic": "어근 'optimalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'optimalitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan optimalitas",
+    "antonym": "dioptimalitas",
+    "context": "'mengoptimalitas'은(는) principalmente 'optimalitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'optimalitas'의 용법에 유의하세요. 'mengoptimalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'optimalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengoptimalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 optimalitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengoptimalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 optimalitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "optimalitas",
+        "meaning": "(어근) optimalitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengoptimalitas",
+        "meaning": "optimalitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_soabj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dioptimalitas [[디optimalitas]]",
+    "meaning": "optimalitas되다, optimalitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "optimalitas",
+    "affix_logic": "어근 'optimalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'optimalitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena optimalitas",
+    "antonym": "mengoptimalitas",
+    "context": "'dioptimalitas'은(는) principalmente 'optimalitas되다, optimalitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'optimalitas'의 용법에 유의하세요. 'dioptimalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'optimalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dioptimalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 optimalitas되다, optimalitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dioptimalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 optimalitas되다, optimalitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "optimalitas",
+        "meaning": "(어근) optimalitas되다"
+      },
+      {
+        "word": "dioptimalitas",
+        "meaning": "optimalitas되다, optimalitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ey6l2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teroptimalitas [[뜨르optimalitas]]",
+    "meaning": "완전히 optimalitas되다",
+    "pos": "동사, 형용사",
+    "root": "optimalitas",
+    "affix_logic": "어근 'optimalitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'optimalitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling optimalitas",
+    "antonym": "sengaja dioptimalitas",
+    "context": "'teroptimalitas'은(는) principalmente '완전히 optimalitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'optimalitas'의 용법에 유의하세요. 'teroptimalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'optimalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teroptimalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 optimalitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teroptimalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 optimalitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "optimalitas",
+        "meaning": "(어근) 완전히 optimalitas되다"
+      },
+      {
+        "word": "teroptimalitas",
+        "meaning": "완전히 optimalitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_is89q",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengortodoks [[멍ortodoks]]",
+    "meaning": "ortodoks하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "ortodoks",
+    "affix_logic": "어근 'ortodoks'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ortodoks'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan ortodoks",
+    "antonym": "diortodoks",
+    "context": "'mengortodoks'은(는) principalmente 'ortodoks하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ortodoks'의 용법에 유의하세요. 'mengortodoks' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ortodoks' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengortodoks untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ortodoks하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengortodoks yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ortodoks하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ortodoks",
+        "meaning": "(어근) ortodoks하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengortodoks",
+        "meaning": "ortodoks하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_du9vv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diortodoks [[디ortodoks]]",
+    "meaning": "ortodoks되다, ortodoks당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "ortodoks",
+    "affix_logic": "어근 'ortodoks'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'ortodoks'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena ortodoks",
+    "antonym": "mengortodoks",
+    "context": "'diortodoks'은(는) principalmente 'ortodoks되다, ortodoks당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ortodoks'의 용법에 유의하세요. 'diortodoks' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ortodoks' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diortodoks untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 ortodoks되다, ortodoks당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diortodoks yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 ortodoks되다, ortodoks당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ortodoks",
+        "meaning": "(어근) ortodoks되다"
+      },
+      {
+        "word": "diortodoks",
+        "meaning": "ortodoks되다, ortodoks당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_8l4k8",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terortodoks [[뜨르ortodoks]]",
+    "meaning": "완전히 ortodoks되다",
+    "pos": "동사, 형용사",
+    "root": "ortodoks",
+    "affix_logic": "어근 'ortodoks'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'ortodoks'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling ortodoks",
+    "antonym": "sengaja diortodoks",
+    "context": "'terortodoks'은(는) principalmente '완전히 ortodoks되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'ortodoks'의 용법에 유의하세요. 'terortodoks' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'ortodoks' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terortodoks untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 ortodoks되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terortodoks yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 ortodoks되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "ortodoks",
+        "meaning": "(어근) 완전히 ortodoks되다"
+      },
+      {
+        "word": "terortodoks",
+        "meaning": "완전히 ortodoks되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_7gsci",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengparadoksikal [[멍paradoksikal]]",
+    "meaning": "paradoksikal하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "paradoksikal",
+    "affix_logic": "어근 'paradoksikal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'paradoksikal'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan paradoksikal",
+    "antonym": "diparadoksikal",
+    "context": "'mengparadoksikal'은(는) principalmente 'paradoksikal하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'paradoksikal'의 용법에 유의하세요. 'mengparadoksikal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'paradoksikal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengparadoksikal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 paradoksikal하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengparadoksikal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 paradoksikal하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "paradoksikal",
+        "meaning": "(어근) paradoksikal하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengparadoksikal",
+        "meaning": "paradoksikal하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_v2lr7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diparadoksikal [[디paradoksikal]]",
+    "meaning": "paradoksikal되다, paradoksikal당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "paradoksikal",
+    "affix_logic": "어근 'paradoksikal'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'paradoksikal'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena paradoksikal",
+    "antonym": "mengparadoksikal",
+    "context": "'diparadoksikal'은(는) principalmente 'paradoksikal되다, paradoksikal당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'paradoksikal'의 용법에 유의하세요. 'diparadoksikal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'paradoksikal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diparadoksikal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 paradoksikal되다, paradoksikal당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diparadoksikal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 paradoksikal되다, paradoksikal당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "paradoksikal",
+        "meaning": "(어근) paradoksikal되다"
+      },
+      {
+        "word": "diparadoksikal",
+        "meaning": "paradoksikal되다, paradoksikal당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_h6pbw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terparadoksikal [[뜨르paradoksikal]]",
+    "meaning": "완전히 paradoksikal되다",
+    "pos": "동사, 형용사",
+    "root": "paradoksikal",
+    "affix_logic": "어근 'paradoksikal'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'paradoksikal'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling paradoksikal",
+    "antonym": "sengaja diparadoksikal",
+    "context": "'terparadoksikal'은(는) principalmente '완전히 paradoksikal되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'paradoksikal'의 용법에 유의하세요. 'terparadoksikal' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'paradoksikal' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terparadoksikal untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 paradoksikal되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terparadoksikal yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 paradoksikal되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "paradoksikal",
+        "meaning": "(어근) 완전히 paradoksikal되다"
+      },
+      {
+        "word": "terparadoksikal",
+        "meaning": "완전히 paradoksikal되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_299dz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpatriotik [[멍patriotik]]",
+    "meaning": "patriotik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "patriotik",
+    "affix_logic": "어근 'patriotik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'patriotik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan patriotik",
+    "antonym": "dipatriotik",
+    "context": "'mengpatriotik'은(는) principalmente 'patriotik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'patriotik'의 용법에 유의하세요. 'mengpatriotik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'patriotik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengpatriotik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 patriotik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengpatriotik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 patriotik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "patriotik",
+        "meaning": "(어근) patriotik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengpatriotik",
+        "meaning": "patriotik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_erlr5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipatriotik [[디patriotik]]",
+    "meaning": "patriotik되다, patriotik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "patriotik",
+    "affix_logic": "어근 'patriotik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'patriotik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena patriotik",
+    "antonym": "mengpatriotik",
+    "context": "'dipatriotik'은(는) principalmente 'patriotik되다, patriotik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'patriotik'의 용법에 유의하세요. 'dipatriotik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'patriotik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dipatriotik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 patriotik되다, patriotik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dipatriotik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 patriotik되다, patriotik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "patriotik",
+        "meaning": "(어근) patriotik되다"
+      },
+      {
+        "word": "dipatriotik",
+        "meaning": "patriotik되다, patriotik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_lf77n",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpatriotik [[뜨르patriotik]]",
+    "meaning": "완전히 patriotik되다",
+    "pos": "동사, 형용사",
+    "root": "patriotik",
+    "affix_logic": "어근 'patriotik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'patriotik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling patriotik",
+    "antonym": "sengaja dipatriotik",
+    "context": "'terpatriotik'은(는) principalmente '완전히 patriotik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'patriotik'의 용법에 유의하세요. 'terpatriotik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'patriotik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terpatriotik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 patriotik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terpatriotik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 patriotik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "patriotik",
+        "meaning": "(어근) 완전히 patriotik되다"
+      },
+      {
+        "word": "terpatriotik",
+        "meaning": "완전히 patriotik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_myl17",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpedagogis [[멍pedagogis]]",
+    "meaning": "pedagogis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "pedagogis",
+    "affix_logic": "어근 'pedagogis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pedagogis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan pedagogis",
+    "antonym": "dipedagogis",
+    "context": "'mengpedagogis'은(는) principalmente 'pedagogis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pedagogis'의 용법에 유의하세요. 'mengpedagogis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pedagogis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengpedagogis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pedagogis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengpedagogis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pedagogis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pedagogis",
+        "meaning": "(어근) pedagogis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengpedagogis",
+        "meaning": "pedagogis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_11dzv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipedagogis [[디pedagogis]]",
+    "meaning": "pedagogis되다, pedagogis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "pedagogis",
+    "affix_logic": "어근 'pedagogis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pedagogis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena pedagogis",
+    "antonym": "mengpedagogis",
+    "context": "'dipedagogis'은(는) principalmente 'pedagogis되다, pedagogis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pedagogis'의 용법에 유의하세요. 'dipedagogis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pedagogis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dipedagogis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pedagogis되다, pedagogis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dipedagogis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pedagogis되다, pedagogis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pedagogis",
+        "meaning": "(어근) pedagogis되다"
+      },
+      {
+        "word": "dipedagogis",
+        "meaning": "pedagogis되다, pedagogis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_6cb1m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpedagogis [[뜨르pedagogis]]",
+    "meaning": "완전히 pedagogis되다",
+    "pos": "동사, 형용사",
+    "root": "pedagogis",
+    "affix_logic": "어근 'pedagogis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'pedagogis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling pedagogis",
+    "antonym": "sengaja dipedagogis",
+    "context": "'terpedagogis'은(는) principalmente '완전히 pedagogis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pedagogis'의 용법에 유의하세요. 'terpedagogis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pedagogis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terpedagogis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 pedagogis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terpedagogis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 pedagogis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pedagogis",
+        "meaning": "(어근) 완전히 pedagogis되다"
+      },
+      {
+        "word": "terpedagogis",
+        "meaning": "완전히 pedagogis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_s4zut",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengperseptif [[멍perseptif]]",
+    "meaning": "perseptif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "perseptif",
+    "affix_logic": "어근 'perseptif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'perseptif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan perseptif",
+    "antonym": "diperseptif",
+    "context": "'mengperseptif'은(는) principalmente 'perseptif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perseptif'의 용법에 유의하세요. 'mengperseptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perseptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengperseptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perseptif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengperseptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perseptif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perseptif",
+        "meaning": "(어근) perseptif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengperseptif",
+        "meaning": "perseptif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_0ppuv",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diperseptif [[디perseptif]]",
+    "meaning": "perseptif되다, perseptif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "perseptif",
+    "affix_logic": "어근 'perseptif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'perseptif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena perseptif",
+    "antonym": "mengperseptif",
+    "context": "'diperseptif'은(는) principalmente 'perseptif되다, perseptif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perseptif'의 용법에 유의하세요. 'diperseptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perseptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diperseptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 perseptif되다, perseptif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diperseptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 perseptif되다, perseptif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perseptif",
+        "meaning": "(어근) perseptif되다"
+      },
+      {
+        "word": "diperseptif",
+        "meaning": "perseptif되다, perseptif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_vvhz6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terperseptif [[뜨르perseptif]]",
+    "meaning": "완전히 perseptif되다",
+    "pos": "동사, 형용사",
+    "root": "perseptif",
+    "affix_logic": "어근 'perseptif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'perseptif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling perseptif",
+    "antonym": "sengaja diperseptif",
+    "context": "'terperseptif'은(는) principalmente '완전히 perseptif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'perseptif'의 용법에 유의하세요. 'terperseptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'perseptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terperseptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 perseptif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terperseptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 perseptif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "perseptif",
+        "meaning": "(어근) 완전히 perseptif되다"
+      },
+      {
+        "word": "terperseptif",
+        "meaning": "완전히 perseptif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_d25dk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpluralis [[멍pluralis]]",
+    "meaning": "pluralis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "pluralis",
+    "affix_logic": "어근 'pluralis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pluralis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan pluralis",
+    "antonym": "dipluralis",
+    "context": "'mengpluralis'은(는) principalmente 'pluralis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pluralis'의 용법에 유의하세요. 'mengpluralis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pluralis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengpluralis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pluralis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengpluralis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pluralis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pluralis",
+        "meaning": "(어근) pluralis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengpluralis",
+        "meaning": "pluralis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_8kxno",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipluralis [[디pluralis]]",
+    "meaning": "pluralis되다, pluralis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "pluralis",
+    "affix_logic": "어근 'pluralis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pluralis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena pluralis",
+    "antonym": "mengpluralis",
+    "context": "'dipluralis'은(는) principalmente 'pluralis되다, pluralis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pluralis'의 용법에 유의하세요. 'dipluralis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pluralis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dipluralis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pluralis되다, pluralis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dipluralis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pluralis되다, pluralis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pluralis",
+        "meaning": "(어근) pluralis되다"
+      },
+      {
+        "word": "dipluralis",
+        "meaning": "pluralis되다, pluralis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_j9wd9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpluralis [[뜨르pluralis]]",
+    "meaning": "완전히 pluralis되다",
+    "pos": "동사, 형용사",
+    "root": "pluralis",
+    "affix_logic": "어근 'pluralis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'pluralis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling pluralis",
+    "antonym": "sengaja dipluralis",
+    "context": "'terpluralis'은(는) principalmente '완전히 pluralis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pluralis'의 용법에 유의하세요. 'terpluralis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pluralis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terpluralis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 pluralis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terpluralis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 pluralis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pluralis",
+        "meaning": "(어근) 완전히 pluralis되다"
+      },
+      {
+        "word": "terpluralis",
+        "meaning": "완전히 pluralis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_vzn0m",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpragmatis [[멍pragmatis]]",
+    "meaning": "pragmatis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "pragmatis",
+    "affix_logic": "어근 'pragmatis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pragmatis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan pragmatis",
+    "antonym": "dipragmatis",
+    "context": "'mengpragmatis'은(는) principalmente 'pragmatis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pragmatis'의 용법에 유의하세요. 'mengpragmatis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pragmatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengpragmatis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pragmatis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengpragmatis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pragmatis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pragmatis",
+        "meaning": "(어근) pragmatis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengpragmatis",
+        "meaning": "pragmatis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_9wtir",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipragmatis [[디pragmatis]]",
+    "meaning": "pragmatis되다, pragmatis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "pragmatis",
+    "affix_logic": "어근 'pragmatis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'pragmatis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena pragmatis",
+    "antonym": "mengpragmatis",
+    "context": "'dipragmatis'은(는) principalmente 'pragmatis되다, pragmatis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pragmatis'의 용법에 유의하세요. 'dipragmatis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pragmatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dipragmatis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 pragmatis되다, pragmatis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dipragmatis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 pragmatis되다, pragmatis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pragmatis",
+        "meaning": "(어근) pragmatis되다"
+      },
+      {
+        "word": "dipragmatis",
+        "meaning": "pragmatis되다, pragmatis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_hfbic",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpragmatis [[뜨르pragmatis]]",
+    "meaning": "완전히 pragmatis되다",
+    "pos": "동사, 형용사",
+    "root": "pragmatis",
+    "affix_logic": "어근 'pragmatis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'pragmatis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling pragmatis",
+    "antonym": "sengaja dipragmatis",
+    "context": "'terpragmatis'은(는) principalmente '완전히 pragmatis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'pragmatis'의 용법에 유의하세요. 'terpragmatis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'pragmatis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terpragmatis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 pragmatis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terpragmatis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 pragmatis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "pragmatis",
+        "meaning": "(어근) 완전히 pragmatis되다"
+      },
+      {
+        "word": "terpragmatis",
+        "meaning": "완전히 pragmatis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_5t0ws",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengpreskriptif [[멍preskriptif]]",
+    "meaning": "preskriptif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "preskriptif",
+    "affix_logic": "어근 'preskriptif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'preskriptif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan preskriptif",
+    "antonym": "dipreskriptif",
+    "context": "'mengpreskriptif'은(는) principalmente 'preskriptif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'preskriptif'의 용법에 유의하세요. 'mengpreskriptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'preskriptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengpreskriptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 preskriptif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengpreskriptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 preskriptif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "preskriptif",
+        "meaning": "(어근) preskriptif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengpreskriptif",
+        "meaning": "preskriptif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ss7g4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dipreskriptif [[디preskriptif]]",
+    "meaning": "preskriptif되다, preskriptif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "preskriptif",
+    "affix_logic": "어근 'preskriptif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'preskriptif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena preskriptif",
+    "antonym": "mengpreskriptif",
+    "context": "'dipreskriptif'은(는) principalmente 'preskriptif되다, preskriptif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'preskriptif'의 용법에 유의하세요. 'dipreskriptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'preskriptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dipreskriptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 preskriptif되다, preskriptif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dipreskriptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 preskriptif되다, preskriptif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "preskriptif",
+        "meaning": "(어근) preskriptif되다"
+      },
+      {
+        "word": "dipreskriptif",
+        "meaning": "preskriptif되다, preskriptif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_gqcl6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terpreskriptif [[뜨르preskriptif]]",
+    "meaning": "완전히 preskriptif되다",
+    "pos": "동사, 형용사",
+    "root": "preskriptif",
+    "affix_logic": "어근 'preskriptif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'preskriptif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling preskriptif",
+    "antonym": "sengaja dipreskriptif",
+    "context": "'terpreskriptif'은(는) principalmente '완전히 preskriptif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'preskriptif'의 용법에 유의하세요. 'terpreskriptif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'preskriptif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terpreskriptif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 preskriptif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terpreskriptif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 preskriptif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "preskriptif",
+        "meaning": "(어근) 완전히 preskriptif되다"
+      },
+      {
+        "word": "terpreskriptif",
+        "meaning": "완전히 preskriptif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_ltsf1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengprobabilistis [[멍probabilistis]]",
+    "meaning": "probabilistis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "probabilistis",
+    "affix_logic": "어근 'probabilistis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'probabilistis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan probabilistis",
+    "antonym": "diprobabilistis",
+    "context": "'mengprobabilistis'은(는) principalmente 'probabilistis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'probabilistis'의 용법에 유의하세요. 'mengprobabilistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'probabilistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengprobabilistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 probabilistis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengprobabilistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 probabilistis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "probabilistis",
+        "meaning": "(어근) probabilistis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengprobabilistis",
+        "meaning": "probabilistis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_l0blk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diprobabilistis [[디probabilistis]]",
+    "meaning": "probabilistis되다, probabilistis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "probabilistis",
+    "affix_logic": "어근 'probabilistis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'probabilistis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena probabilistis",
+    "antonym": "mengprobabilistis",
+    "context": "'diprobabilistis'은(는) principalmente 'probabilistis되다, probabilistis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'probabilistis'의 용법에 유의하세요. 'diprobabilistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'probabilistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diprobabilistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 probabilistis되다, probabilistis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diprobabilistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 probabilistis되다, probabilistis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "probabilistis",
+        "meaning": "(어근) probabilistis되다"
+      },
+      {
+        "word": "diprobabilistis",
+        "meaning": "probabilistis되다, probabilistis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_773ns",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terprobabilistis [[뜨르probabilistis]]",
+    "meaning": "완전히 probabilistis되다",
+    "pos": "동사, 형용사",
+    "root": "probabilistis",
+    "affix_logic": "어근 'probabilistis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'probabilistis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling probabilistis",
+    "antonym": "sengaja diprobabilistis",
+    "context": "'terprobabilistis'은(는) principalmente '완전히 probabilistis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'probabilistis'의 용법에 유의하세요. 'terprobabilistis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'probabilistis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terprobabilistis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 probabilistis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terprobabilistis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 probabilistis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "probabilistis",
+        "meaning": "(어근) 완전히 probabilistis되다"
+      },
+      {
+        "word": "terprobabilistis",
+        "meaning": "완전히 probabilistis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_o9vg6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengprogresif [[멍progresif]]",
+    "meaning": "progresif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "progresif",
+    "affix_logic": "어근 'progresif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'progresif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan progresif",
+    "antonym": "diprogresif",
+    "context": "'mengprogresif'은(는) principalmente 'progresif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'progresif'의 용법에 유의하세요. 'mengprogresif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'progresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengprogresif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 progresif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengprogresif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 progresif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "progresif",
+        "meaning": "(어근) progresif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengprogresif",
+        "meaning": "progresif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_k5yzt",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diprogresif [[디progresif]]",
+    "meaning": "progresif되다, progresif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "progresif",
+    "affix_logic": "어근 'progresif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'progresif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena progresif",
+    "antonym": "mengprogresif",
+    "context": "'diprogresif'은(는) principalmente 'progresif되다, progresif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'progresif'의 용법에 유의하세요. 'diprogresif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'progresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diprogresif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 progresif되다, progresif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diprogresif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 progresif되다, progresif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "progresif",
+        "meaning": "(어근) progresif되다"
+      },
+      {
+        "word": "diprogresif",
+        "meaning": "progresif되다, progresif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_fq065",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terprogresif [[뜨르progresif]]",
+    "meaning": "완전히 progresif되다",
+    "pos": "동사, 형용사",
+    "root": "progresif",
+    "affix_logic": "어근 'progresif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'progresif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling progresif",
+    "antonym": "sengaja diprogresif",
+    "context": "'terprogresif'은(는) principalmente '완전히 progresif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'progresif'의 용법에 유의하세요. 'terprogresif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'progresif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terprogresif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 progresif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terprogresif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 progresif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "progresif",
+        "meaning": "(어근) 완전히 progresif되다"
+      },
+      {
+        "word": "terprogresif",
+        "meaning": "완전히 progresif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_bl51w",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengprospektif [[멍prospektif]]",
+    "meaning": "prospektif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "prospektif",
+    "affix_logic": "어근 'prospektif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'prospektif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan prospektif",
+    "antonym": "diprospektif",
+    "context": "'mengprospektif'은(는) principalmente 'prospektif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'prospektif'의 용법에 유의하세요. 'mengprospektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'prospektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengprospektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 prospektif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengprospektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 prospektif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "prospektif",
+        "meaning": "(어근) prospektif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengprospektif",
+        "meaning": "prospektif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_rh5fp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diprospektif [[디prospektif]]",
+    "meaning": "prospektif되다, prospektif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "prospektif",
+    "affix_logic": "어근 'prospektif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'prospektif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena prospektif",
+    "antonym": "mengprospektif",
+    "context": "'diprospektif'은(는) principalmente 'prospektif되다, prospektif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'prospektif'의 용법에 유의하세요. 'diprospektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'prospektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diprospektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 prospektif되다, prospektif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diprospektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 prospektif되다, prospektif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "prospektif",
+        "meaning": "(어근) prospektif되다"
+      },
+      {
+        "word": "diprospektif",
+        "meaning": "prospektif되다, prospektif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_4quno",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terprospektif [[뜨르prospektif]]",
+    "meaning": "완전히 prospektif되다",
+    "pos": "동사, 형용사",
+    "root": "prospektif",
+    "affix_logic": "어근 'prospektif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'prospektif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling prospektif",
+    "antonym": "sengaja diprospektif",
+    "context": "'terprospektif'은(는) principalmente '완전히 prospektif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'prospektif'의 용법에 유의하세요. 'terprospektif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'prospektif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terprospektif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 prospektif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terprospektif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 prospektif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "prospektif",
+        "meaning": "(어근) 완전히 prospektif되다"
+      },
+      {
+        "word": "terprospektif",
+        "meaning": "완전히 prospektif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_w7hvc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengrasionalis [[멍rasionalis]]",
+    "meaning": "rasionalis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "rasionalis",
+    "affix_logic": "어근 'rasionalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'rasionalis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan rasionalis",
+    "antonym": "dirasionalis",
+    "context": "'mengrasionalis'은(는) principalmente 'rasionalis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rasionalis'의 용법에 유의하세요. 'mengrasionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rasionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengrasionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rasionalis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengrasionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rasionalis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rasionalis",
+        "meaning": "(어근) rasionalis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengrasionalis",
+        "meaning": "rasionalis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_x47ov",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dirasionalis [[디rasionalis]]",
+    "meaning": "rasionalis되다, rasionalis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "rasionalis",
+    "affix_logic": "어근 'rasionalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'rasionalis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena rasionalis",
+    "antonym": "mengrasionalis",
+    "context": "'dirasionalis'은(는) principalmente 'rasionalis되다, rasionalis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rasionalis'의 용법에 유의하세요. 'dirasionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rasionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dirasionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rasionalis되다, rasionalis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dirasionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rasionalis되다, rasionalis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rasionalis",
+        "meaning": "(어근) rasionalis되다"
+      },
+      {
+        "word": "dirasionalis",
+        "meaning": "rasionalis되다, rasionalis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_hpdyd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terrasionalis [[뜨르rasionalis]]",
+    "meaning": "완전히 rasionalis되다",
+    "pos": "동사, 형용사",
+    "root": "rasionalis",
+    "affix_logic": "어근 'rasionalis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'rasionalis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling rasionalis",
+    "antonym": "sengaja dirasionalis",
+    "context": "'terrasionalis'은(는) principalmente '완전히 rasionalis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rasionalis'의 용법에 유의하세요. 'terrasionalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rasionalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terrasionalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 rasionalis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terrasionalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 rasionalis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rasionalis",
+        "meaning": "(어근) 완전히 rasionalis되다"
+      },
+      {
+        "word": "terrasionalis",
+        "meaning": "완전히 rasionalis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_co4hg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengrealisme [[멍realisme]]",
+    "meaning": "realisme하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "realisme",
+    "affix_logic": "어근 'realisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'realisme'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan realisme",
+    "antonym": "direalisme",
+    "context": "'mengrealisme'은(는) principalmente 'realisme하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'realisme'의 용법에 유의하세요. 'mengrealisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'realisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengrealisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 realisme하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengrealisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 realisme하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "realisme",
+        "meaning": "(어근) realisme하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengrealisme",
+        "meaning": "realisme하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_rbago",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "direalisme [[디realisme]]",
+    "meaning": "realisme되다, realisme당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "realisme",
+    "affix_logic": "어근 'realisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'realisme'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena realisme",
+    "antonym": "mengrealisme",
+    "context": "'direalisme'은(는) principalmente 'realisme되다, realisme당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'realisme'의 용법에 유의하세요. 'direalisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'realisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait direalisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 realisme되다, realisme당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang direalisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 realisme되다, realisme당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "realisme",
+        "meaning": "(어근) realisme되다"
+      },
+      {
+        "word": "direalisme",
+        "meaning": "realisme되다, realisme당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656799_amqof",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terrealisme [[뜨르realisme]]",
+    "meaning": "완전히 realisme되다",
+    "pos": "동사, 형용사",
+    "root": "realisme",
+    "affix_logic": "어근 'realisme'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'realisme'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling realisme",
+    "antonym": "sengaja direalisme",
+    "context": "'terrealisme'은(는) principalmente '완전히 realisme되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'realisme'의 용법에 유의하세요. 'terrealisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'realisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terrealisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 realisme되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terrealisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 realisme되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "realisme",
+        "meaning": "(어근) 완전히 realisme되다"
+      },
+      {
+        "word": "terrealisme",
+        "meaning": "완전히 realisme되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_o5q3k",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengrelativisme [[멍relativisme]]",
+    "meaning": "relativisme하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "relativisme",
+    "affix_logic": "어근 'relativisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'relativisme'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan relativisme",
+    "antonym": "direlativisme",
+    "context": "'mengrelativisme'은(는) principalmente 'relativisme하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'relativisme'의 용법에 유의하세요. 'mengrelativisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'relativisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengrelativisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 relativisme하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengrelativisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 relativisme하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "relativisme",
+        "meaning": "(어근) relativisme하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengrelativisme",
+        "meaning": "relativisme하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_lt5ks",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "direlativisme [[디relativisme]]",
+    "meaning": "relativisme되다, relativisme당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "relativisme",
+    "affix_logic": "어근 'relativisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'relativisme'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena relativisme",
+    "antonym": "mengrelativisme",
+    "context": "'direlativisme'은(는) principalmente 'relativisme되다, relativisme당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'relativisme'의 용법에 유의하세요. 'direlativisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'relativisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait direlativisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 relativisme되다, relativisme당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang direlativisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 relativisme되다, relativisme당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "relativisme",
+        "meaning": "(어근) relativisme되다"
+      },
+      {
+        "word": "direlativisme",
+        "meaning": "relativisme되다, relativisme당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_raigy",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terrelativisme [[뜨르relativisme]]",
+    "meaning": "완전히 relativisme되다",
+    "pos": "동사, 형용사",
+    "root": "relativisme",
+    "affix_logic": "어근 'relativisme'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'relativisme'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling relativisme",
+    "antonym": "sengaja direlativisme",
+    "context": "'terrelativisme'은(는) principalmente '완전히 relativisme되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'relativisme'의 용법에 유의하세요. 'terrelativisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'relativisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terrelativisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 relativisme되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terrelativisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 relativisme되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "relativisme",
+        "meaning": "(어근) 완전히 relativisme되다"
+      },
+      {
+        "word": "terrelativisme",
+        "meaning": "완전히 relativisme되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_dqyq3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengreligiusitas [[멍religiusitas]]",
+    "meaning": "religiusitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "religiusitas",
+    "affix_logic": "어근 'religiusitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'religiusitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan religiusitas",
+    "antonym": "direligiusitas",
+    "context": "'mengreligiusitas'은(는) principalmente 'religiusitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'religiusitas'의 용법에 유의하세요. 'mengreligiusitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'religiusitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengreligiusitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 religiusitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengreligiusitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 religiusitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "religiusitas",
+        "meaning": "(어근) religiusitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengreligiusitas",
+        "meaning": "religiusitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_mnst4",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "direligiusitas [[디religiusitas]]",
+    "meaning": "religiusitas되다, religiusitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "religiusitas",
+    "affix_logic": "어근 'religiusitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'religiusitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena religiusitas",
+    "antonym": "mengreligiusitas",
+    "context": "'direligiusitas'은(는) principalmente 'religiusitas되다, religiusitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'religiusitas'의 용법에 유의하세요. 'direligiusitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'religiusitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait direligiusitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 religiusitas되다, religiusitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang direligiusitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 religiusitas되다, religiusitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "religiusitas",
+        "meaning": "(어근) religiusitas되다"
+      },
+      {
+        "word": "direligiusitas",
+        "meaning": "religiusitas되다, religiusitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_afata",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terreligiusitas [[뜨르religiusitas]]",
+    "meaning": "완전히 religiusitas되다",
+    "pos": "동사, 형용사",
+    "root": "religiusitas",
+    "affix_logic": "어근 'religiusitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'religiusitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling religiusitas",
+    "antonym": "sengaja direligiusitas",
+    "context": "'terreligiusitas'은(는) principalmente '완전히 religiusitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'religiusitas'의 용법에 유의하세요. 'terreligiusitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'religiusitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terreligiusitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 religiusitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terreligiusitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 religiusitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "religiusitas",
+        "meaning": "(어근) 완전히 religiusitas되다"
+      },
+      {
+        "word": "terreligiusitas",
+        "meaning": "완전히 religiusitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_7ctu9",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengrekonstruktif [[멍rekonstruktif]]",
+    "meaning": "rekonstruktif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "rekonstruktif",
+    "affix_logic": "어근 'rekonstruktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'rekonstruktif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan rekonstruktif",
+    "antonym": "direkonstruktif",
+    "context": "'mengrekonstruktif'은(는) principalmente 'rekonstruktif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rekonstruktif'의 용법에 유의하세요. 'mengrekonstruktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rekonstruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengrekonstruktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rekonstruktif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengrekonstruktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rekonstruktif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rekonstruktif",
+        "meaning": "(어근) rekonstruktif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengrekonstruktif",
+        "meaning": "rekonstruktif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_c401z",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "direkonstruktif [[디rekonstruktif]]",
+    "meaning": "rekonstruktif되다, rekonstruktif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "rekonstruktif",
+    "affix_logic": "어근 'rekonstruktif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'rekonstruktif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena rekonstruktif",
+    "antonym": "mengrekonstruktif",
+    "context": "'direkonstruktif'은(는) principalmente 'rekonstruktif되다, rekonstruktif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rekonstruktif'의 용법에 유의하세요. 'direkonstruktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rekonstruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait direkonstruktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 rekonstruktif되다, rekonstruktif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang direkonstruktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 rekonstruktif되다, rekonstruktif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rekonstruktif",
+        "meaning": "(어근) rekonstruktif되다"
+      },
+      {
+        "word": "direkonstruktif",
+        "meaning": "rekonstruktif되다, rekonstruktif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_d77eo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terrekonstruktif [[뜨르rekonstruktif]]",
+    "meaning": "완전히 rekonstruktif되다",
+    "pos": "동사, 형용사",
+    "root": "rekonstruktif",
+    "affix_logic": "어근 'rekonstruktif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'rekonstruktif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling rekonstruktif",
+    "antonym": "sengaja direkonstruktif",
+    "context": "'terrekonstruktif'은(는) principalmente '완전히 rekonstruktif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'rekonstruktif'의 용법에 유의하세요. 'terrekonstruktif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'rekonstruktif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terrekonstruktif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 rekonstruktif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terrekonstruktif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 rekonstruktif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "rekonstruktif",
+        "meaning": "(어근) 완전히 rekonstruktif되다"
+      },
+      {
+        "word": "terrekonstruktif",
+        "meaning": "완전히 rekonstruktif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_3oboc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengskeptisisme [[멍skeptisisme]]",
+    "meaning": "skeptisisme하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "skeptisisme",
+    "affix_logic": "어근 'skeptisisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'skeptisisme'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan skeptisisme",
+    "antonym": "diskeptisisme",
+    "context": "'mengskeptisisme'은(는) principalmente 'skeptisisme하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'skeptisisme'의 용법에 유의하세요. 'mengskeptisisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'skeptisisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengskeptisisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 skeptisisme하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengskeptisisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 skeptisisme하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "skeptisisme",
+        "meaning": "(어근) skeptisisme하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengskeptisisme",
+        "meaning": "skeptisisme하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_rztfu",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diskeptisisme [[디skeptisisme]]",
+    "meaning": "skeptisisme되다, skeptisisme당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "skeptisisme",
+    "affix_logic": "어근 'skeptisisme'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'skeptisisme'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena skeptisisme",
+    "antonym": "mengskeptisisme",
+    "context": "'diskeptisisme'은(는) principalmente 'skeptisisme되다, skeptisisme당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'skeptisisme'의 용법에 유의하세요. 'diskeptisisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'skeptisisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diskeptisisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 skeptisisme되다, skeptisisme당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diskeptisisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 skeptisisme되다, skeptisisme당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "skeptisisme",
+        "meaning": "(어근) skeptisisme되다"
+      },
+      {
+        "word": "diskeptisisme",
+        "meaning": "skeptisisme되다, skeptisisme당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_bw606",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terskeptisisme [[뜨르skeptisisme]]",
+    "meaning": "완전히 skeptisisme되다",
+    "pos": "동사, 형용사",
+    "root": "skeptisisme",
+    "affix_logic": "어근 'skeptisisme'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'skeptisisme'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling skeptisisme",
+    "antonym": "sengaja diskeptisisme",
+    "context": "'terskeptisisme'은(는) principalmente '완전히 skeptisisme되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'skeptisisme'의 용법에 유의하세요. 'terskeptisisme' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'skeptisisme' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terskeptisisme untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 skeptisisme되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terskeptisisme yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 skeptisisme되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "skeptisisme",
+        "meaning": "(어근) 완전히 skeptisisme되다"
+      },
+      {
+        "word": "terskeptisisme",
+        "meaning": "완전히 skeptisisme되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_39h10",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengskolastik [[멍skolastik]]",
+    "meaning": "skolastik하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "skolastik",
+    "affix_logic": "어근 'skolastik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'skolastik'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan skolastik",
+    "antonym": "diskolastik",
+    "context": "'mengskolastik'은(는) principalmente 'skolastik하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'skolastik'의 용법에 유의하세요. 'mengskolastik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'skolastik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengskolastik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 skolastik하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengskolastik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 skolastik하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "skolastik",
+        "meaning": "(어근) skolastik하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengskolastik",
+        "meaning": "skolastik하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_xt1i5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diskolastik [[디skolastik]]",
+    "meaning": "skolastik되다, skolastik당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "skolastik",
+    "affix_logic": "어근 'skolastik'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'skolastik'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena skolastik",
+    "antonym": "mengskolastik",
+    "context": "'diskolastik'은(는) principalmente 'skolastik되다, skolastik당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'skolastik'의 용법에 유의하세요. 'diskolastik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'skolastik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diskolastik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 skolastik되다, skolastik당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diskolastik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 skolastik되다, skolastik당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "skolastik",
+        "meaning": "(어근) skolastik되다"
+      },
+      {
+        "word": "diskolastik",
+        "meaning": "skolastik되다, skolastik당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_3cds5",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terskolastik [[뜨르skolastik]]",
+    "meaning": "완전히 skolastik되다",
+    "pos": "동사, 형용사",
+    "root": "skolastik",
+    "affix_logic": "어근 'skolastik'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'skolastik'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling skolastik",
+    "antonym": "sengaja diskolastik",
+    "context": "'terskolastik'은(는) principalmente '완전히 skolastik되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'skolastik'의 용법에 유의하세요. 'terskolastik' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'skolastik' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terskolastik untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 skolastik되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terskolastik yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 skolastik되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "skolastik",
+        "meaning": "(어근) 완전히 skolastik되다"
+      },
+      {
+        "word": "terskolastik",
+        "meaning": "완전히 skolastik되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_vf7u7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengsosialis [[멍sosialis]]",
+    "meaning": "sosialis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "sosialis",
+    "affix_logic": "어근 'sosialis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'sosialis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan sosialis",
+    "antonym": "disosialis",
+    "context": "'mengsosialis'은(는) principalmente 'sosialis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sosialis'의 용법에 유의하세요. 'mengsosialis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sosialis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengsosialis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sosialis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengsosialis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sosialis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sosialis",
+        "meaning": "(어근) sosialis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengsosialis",
+        "meaning": "sosialis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_yzgu7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "disosialis [[디sosialis]]",
+    "meaning": "sosialis되다, sosialis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "sosialis",
+    "affix_logic": "어근 'sosialis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'sosialis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena sosialis",
+    "antonym": "mengsosialis",
+    "context": "'disosialis'은(는) principalmente 'sosialis되다, sosialis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sosialis'의 용법에 유의하세요. 'disosialis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sosialis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait disosialis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sosialis되다, sosialis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang disosialis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sosialis되다, sosialis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sosialis",
+        "meaning": "(어근) sosialis되다"
+      },
+      {
+        "word": "disosialis",
+        "meaning": "sosialis되다, sosialis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_dgyrz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tersosialis [[뜨르sosialis]]",
+    "meaning": "완전히 sosialis되다",
+    "pos": "동사, 형용사",
+    "root": "sosialis",
+    "affix_logic": "어근 'sosialis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'sosialis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling sosialis",
+    "antonym": "sengaja disosialis",
+    "context": "'tersosialis'은(는) principalmente '완전히 sosialis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sosialis'의 용법에 유의하세요. 'tersosialis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sosialis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tersosialis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 sosialis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tersosialis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 sosialis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sosialis",
+        "meaning": "(어근) 완전히 sosialis되다"
+      },
+      {
+        "word": "tersosialis",
+        "meaning": "완전히 sosialis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_vfveb",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengspiritualitas [[멍spiritualitas]]",
+    "meaning": "spiritualitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "spiritualitas",
+    "affix_logic": "어근 'spiritualitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'spiritualitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan spiritualitas",
+    "antonym": "dispiritualitas",
+    "context": "'mengspiritualitas'은(는) principalmente 'spiritualitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'spiritualitas'의 용법에 유의하세요. 'mengspiritualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'spiritualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengspiritualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 spiritualitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengspiritualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 spiritualitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "spiritualitas",
+        "meaning": "(어근) spiritualitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengspiritualitas",
+        "meaning": "spiritualitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_6wqik",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "dispiritualitas [[디spiritualitas]]",
+    "meaning": "spiritualitas되다, spiritualitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "spiritualitas",
+    "affix_logic": "어근 'spiritualitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'spiritualitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena spiritualitas",
+    "antonym": "mengspiritualitas",
+    "context": "'dispiritualitas'은(는) principalmente 'spiritualitas되다, spiritualitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'spiritualitas'의 용법에 유의하세요. 'dispiritualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'spiritualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait dispiritualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 spiritualitas되다, spiritualitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang dispiritualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 spiritualitas되다, spiritualitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "spiritualitas",
+        "meaning": "(어근) spiritualitas되다"
+      },
+      {
+        "word": "dispiritualitas",
+        "meaning": "spiritualitas되다, spiritualitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_jv580",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terspiritualitas [[뜨르spiritualitas]]",
+    "meaning": "완전히 spiritualitas되다",
+    "pos": "동사, 형용사",
+    "root": "spiritualitas",
+    "affix_logic": "어근 'spiritualitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'spiritualitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling spiritualitas",
+    "antonym": "sengaja dispiritualitas",
+    "context": "'terspiritualitas'은(는) principalmente '완전히 spiritualitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'spiritualitas'의 용법에 유의하세요. 'terspiritualitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'spiritualitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terspiritualitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 spiritualitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terspiritualitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 spiritualitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "spiritualitas",
+        "meaning": "(어근) 완전히 spiritualitas되다"
+      },
+      {
+        "word": "terspiritualitas",
+        "meaning": "완전히 spiritualitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_vb8c1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengstrukturalis [[멍strukturalis]]",
+    "meaning": "strukturalis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "strukturalis",
+    "affix_logic": "어근 'strukturalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'strukturalis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan strukturalis",
+    "antonym": "distrukturalis",
+    "context": "'mengstrukturalis'은(는) principalmente 'strukturalis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'strukturalis'의 용법에 유의하세요. 'mengstrukturalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'strukturalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengstrukturalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 strukturalis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengstrukturalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 strukturalis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "strukturalis",
+        "meaning": "(어근) strukturalis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengstrukturalis",
+        "meaning": "strukturalis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_l4wkp",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "distrukturalis [[디strukturalis]]",
+    "meaning": "strukturalis되다, strukturalis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "strukturalis",
+    "affix_logic": "어근 'strukturalis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'strukturalis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena strukturalis",
+    "antonym": "mengstrukturalis",
+    "context": "'distrukturalis'은(는) principalmente 'strukturalis되다, strukturalis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'strukturalis'의 용법에 유의하세요. 'distrukturalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'strukturalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait distrukturalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 strukturalis되다, strukturalis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang distrukturalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 strukturalis되다, strukturalis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "strukturalis",
+        "meaning": "(어근) strukturalis되다"
+      },
+      {
+        "word": "distrukturalis",
+        "meaning": "strukturalis되다, strukturalis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_7pmjw",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terstrukturalis [[뜨르strukturalis]]",
+    "meaning": "완전히 strukturalis되다",
+    "pos": "동사, 형용사",
+    "root": "strukturalis",
+    "affix_logic": "어근 'strukturalis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'strukturalis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling strukturalis",
+    "antonym": "sengaja distrukturalis",
+    "context": "'terstrukturalis'은(는) principalmente '완전히 strukturalis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'strukturalis'의 용법에 유의하세요. 'terstrukturalis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'strukturalis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terstrukturalis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 strukturalis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terstrukturalis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 strukturalis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "strukturalis",
+        "meaning": "(어근) 완전히 strukturalis되다"
+      },
+      {
+        "word": "terstrukturalis",
+        "meaning": "완전히 strukturalis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_ffged",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengsubjektivitas [[멍subjektivitas]]",
+    "meaning": "subjektivitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "subjektivitas",
+    "affix_logic": "어근 'subjektivitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'subjektivitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan subjektivitas",
+    "antonym": "disubjektivitas",
+    "context": "'mengsubjektivitas'은(는) principalmente 'subjektivitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'subjektivitas'의 용법에 유의하세요. 'mengsubjektivitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'subjektivitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengsubjektivitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 subjektivitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengsubjektivitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 subjektivitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "subjektivitas",
+        "meaning": "(어근) subjektivitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengsubjektivitas",
+        "meaning": "subjektivitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_l9rhm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "disubjektivitas [[디subjektivitas]]",
+    "meaning": "subjektivitas되다, subjektivitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "subjektivitas",
+    "affix_logic": "어근 'subjektivitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'subjektivitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena subjektivitas",
+    "antonym": "mengsubjektivitas",
+    "context": "'disubjektivitas'은(는) principalmente 'subjektivitas되다, subjektivitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'subjektivitas'의 용법에 유의하세요. 'disubjektivitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'subjektivitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait disubjektivitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 subjektivitas되다, subjektivitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang disubjektivitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 subjektivitas되다, subjektivitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "subjektivitas",
+        "meaning": "(어근) subjektivitas되다"
+      },
+      {
+        "word": "disubjektivitas",
+        "meaning": "subjektivitas되다, subjektivitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_11qbj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tersubjektivitas [[뜨르subjektivitas]]",
+    "meaning": "완전히 subjektivitas되다",
+    "pos": "동사, 형용사",
+    "root": "subjektivitas",
+    "affix_logic": "어근 'subjektivitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'subjektivitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling subjektivitas",
+    "antonym": "sengaja disubjektivitas",
+    "context": "'tersubjektivitas'은(는) principalmente '완전히 subjektivitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'subjektivitas'의 용법에 유의하세요. 'tersubjektivitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'subjektivitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tersubjektivitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 subjektivitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tersubjektivitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 subjektivitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "subjektivitas",
+        "meaning": "(어근) 완전히 subjektivitas되다"
+      },
+      {
+        "word": "tersubjektivitas",
+        "meaning": "완전히 subjektivitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_569te",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengsubstansial [[멍substansial]]",
+    "meaning": "substansial하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "substansial",
+    "affix_logic": "어근 'substansial'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'substansial'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan substansial",
+    "antonym": "disubstansial",
+    "context": "'mengsubstansial'은(는) principalmente 'substansial하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'substansial'의 용법에 유의하세요. 'mengsubstansial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'substansial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengsubstansial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 substansial하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengsubstansial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 substansial하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "substansial",
+        "meaning": "(어근) substansial하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengsubstansial",
+        "meaning": "substansial하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_72six",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "disubstansial [[디substansial]]",
+    "meaning": "substansial되다, substansial당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "substansial",
+    "affix_logic": "어근 'substansial'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'substansial'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena substansial",
+    "antonym": "mengsubstansial",
+    "context": "'disubstansial'은(는) principalmente 'substansial되다, substansial당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'substansial'의 용법에 유의하세요. 'disubstansial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'substansial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait disubstansial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 substansial되다, substansial당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang disubstansial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 substansial되다, substansial당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "substansial",
+        "meaning": "(어근) substansial되다"
+      },
+      {
+        "word": "disubstansial",
+        "meaning": "substansial되다, substansial당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_n2mv3",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tersubstansial [[뜨르substansial]]",
+    "meaning": "완전히 substansial되다",
+    "pos": "동사, 형용사",
+    "root": "substansial",
+    "affix_logic": "어근 'substansial'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'substansial'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling substansial",
+    "antonym": "sengaja disubstansial",
+    "context": "'tersubstansial'은(는) principalmente '완전히 substansial되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'substansial'의 용법에 유의하세요. 'tersubstansial' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'substansial' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tersubstansial untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 substansial되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tersubstansial yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 substansial되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "substansial",
+        "meaning": "(어근) 완전히 substansial되다"
+      },
+      {
+        "word": "tersubstansial",
+        "meaning": "완전히 substansial되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_wdgnz",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengsustainabilitas [[멍sustainabilitas]]",
+    "meaning": "sustainabilitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "sustainabilitas",
+    "affix_logic": "어근 'sustainabilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'sustainabilitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan sustainabilitas",
+    "antonym": "disustainabilitas",
+    "context": "'mengsustainabilitas'은(는) principalmente 'sustainabilitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sustainabilitas'의 용법에 유의하세요. 'mengsustainabilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sustainabilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengsustainabilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sustainabilitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengsustainabilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sustainabilitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sustainabilitas",
+        "meaning": "(어근) sustainabilitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengsustainabilitas",
+        "meaning": "sustainabilitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_2b1jd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "disustainabilitas [[디sustainabilitas]]",
+    "meaning": "sustainabilitas되다, sustainabilitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "sustainabilitas",
+    "affix_logic": "어근 'sustainabilitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'sustainabilitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena sustainabilitas",
+    "antonym": "mengsustainabilitas",
+    "context": "'disustainabilitas'은(는) principalmente 'sustainabilitas되다, sustainabilitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sustainabilitas'의 용법에 유의하세요. 'disustainabilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sustainabilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait disustainabilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 sustainabilitas되다, sustainabilitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang disustainabilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 sustainabilitas되다, sustainabilitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sustainabilitas",
+        "meaning": "(어근) sustainabilitas되다"
+      },
+      {
+        "word": "disustainabilitas",
+        "meaning": "sustainabilitas되다, sustainabilitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_i0xc1",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tersustainabilitas [[뜨르sustainabilitas]]",
+    "meaning": "완전히 sustainabilitas되다",
+    "pos": "동사, 형용사",
+    "root": "sustainabilitas",
+    "affix_logic": "어근 'sustainabilitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'sustainabilitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling sustainabilitas",
+    "antonym": "sengaja disustainabilitas",
+    "context": "'tersustainabilitas'은(는) principalmente '완전히 sustainabilitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'sustainabilitas'의 용법에 유의하세요. 'tersustainabilitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'sustainabilitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tersustainabilitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 sustainabilitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tersustainabilitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 sustainabilitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "sustainabilitas",
+        "meaning": "(어근) 완전히 sustainabilitas되다"
+      },
+      {
+        "word": "tersustainabilitas",
+        "meaning": "완전히 sustainabilitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_vc29v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengteologis [[멍teologis]]",
+    "meaning": "teologis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "teologis",
+    "affix_logic": "어근 'teologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'teologis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan teologis",
+    "antonym": "diteologis",
+    "context": "'mengteologis'은(는) principalmente 'teologis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'teologis'의 용법에 유의하세요. 'mengteologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'teologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengteologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 teologis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengteologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 teologis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "teologis",
+        "meaning": "(어근) teologis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengteologis",
+        "meaning": "teologis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_p3q5v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diteologis [[디teologis]]",
+    "meaning": "teologis되다, teologis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "teologis",
+    "affix_logic": "어근 'teologis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'teologis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena teologis",
+    "antonym": "mengteologis",
+    "context": "'diteologis'은(는) principalmente 'teologis되다, teologis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'teologis'의 용법에 유의하세요. 'diteologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'teologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diteologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 teologis되다, teologis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diteologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 teologis되다, teologis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "teologis",
+        "meaning": "(어근) teologis되다"
+      },
+      {
+        "word": "diteologis",
+        "meaning": "teologis되다, teologis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_nxh8e",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terteologis [[뜨르teologis]]",
+    "meaning": "완전히 teologis되다",
+    "pos": "동사, 형용사",
+    "root": "teologis",
+    "affix_logic": "어근 'teologis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'teologis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling teologis",
+    "antonym": "sengaja diteologis",
+    "context": "'terteologis'은(는) principalmente '완전히 teologis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'teologis'의 용법에 유의하세요. 'terteologis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'teologis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terteologis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 teologis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terteologis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 teologis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "teologis",
+        "meaning": "(어근) 완전히 teologis되다"
+      },
+      {
+        "word": "terteologis",
+        "meaning": "완전히 teologis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_yzfee",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengteoritis [[멍teoritis]]",
+    "meaning": "teoritis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "teoritis",
+    "affix_logic": "어근 'teoritis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'teoritis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan teoritis",
+    "antonym": "diteoritis",
+    "context": "'mengteoritis'은(는) principalmente 'teoritis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'teoritis'의 용법에 유의하세요. 'mengteoritis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'teoritis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengteoritis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 teoritis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengteoritis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 teoritis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "teoritis",
+        "meaning": "(어근) teoritis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengteoritis",
+        "meaning": "teoritis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_8uwvs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diteoritis [[디teoritis]]",
+    "meaning": "teoritis되다, teoritis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "teoritis",
+    "affix_logic": "어근 'teoritis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'teoritis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena teoritis",
+    "antonym": "mengteoritis",
+    "context": "'diteoritis'은(는) principalmente 'teoritis되다, teoritis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'teoritis'의 용법에 유의하세요. 'diteoritis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'teoritis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diteoritis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 teoritis되다, teoritis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diteoritis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 teoritis되다, teoritis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "teoritis",
+        "meaning": "(어근) teoritis되다"
+      },
+      {
+        "word": "diteoritis",
+        "meaning": "teoritis되다, teoritis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_kho25",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terteoritis [[뜨르teoritis]]",
+    "meaning": "완전히 teoritis되다",
+    "pos": "동사, 형용사",
+    "root": "teoritis",
+    "affix_logic": "어근 'teoritis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'teoritis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling teoritis",
+    "antonym": "sengaja diteoritis",
+    "context": "'terteoritis'은(는) principalmente '완전히 teoritis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'teoritis'의 용법에 유의하세요. 'terteoritis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'teoritis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terteoritis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 teoritis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terteoritis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 teoritis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "teoritis",
+        "meaning": "(어근) 완전히 teoritis되다"
+      },
+      {
+        "word": "terteoritis",
+        "meaning": "완전히 teoritis되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_1lcke",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengtransendental [[멍transendental]]",
+    "meaning": "transendental하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "transendental",
+    "affix_logic": "어근 'transendental'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'transendental'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan transendental",
+    "antonym": "ditransendental",
+    "context": "'mengtransendental'은(는) principalmente 'transendental하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'transendental'의 용법에 유의하세요. 'mengtransendental' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'transendental' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengtransendental untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 transendental하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengtransendental yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 transendental하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "transendental",
+        "meaning": "(어근) transendental하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengtransendental",
+        "meaning": "transendental하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_xvrg7",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "ditransendental [[디transendental]]",
+    "meaning": "transendental되다, transendental당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "transendental",
+    "affix_logic": "어근 'transendental'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'transendental'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena transendental",
+    "antonym": "mengtransendental",
+    "context": "'ditransendental'은(는) principalmente 'transendental되다, transendental당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'transendental'의 용법에 유의하세요. 'ditransendental' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'transendental' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait ditransendental untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 transendental되다, transendental당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang ditransendental yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 transendental되다, transendental당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "transendental",
+        "meaning": "(어근) transendental되다"
+      },
+      {
+        "word": "ditransendental",
+        "meaning": "transendental되다, transendental당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_1wuru",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tertransendental [[뜨르transendental]]",
+    "meaning": "완전히 transendental되다",
+    "pos": "동사, 형용사",
+    "root": "transendental",
+    "affix_logic": "어근 'transendental'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'transendental'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling transendental",
+    "antonym": "sengaja ditransendental",
+    "context": "'tertransendental'은(는) principalmente '완전히 transendental되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'transendental'의 용법에 유의하세요. 'tertransendental' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'transendental' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tertransendental untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 transendental되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tertransendental yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 transendental되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "transendental",
+        "meaning": "(어근) 완전히 transendental되다"
+      },
+      {
+        "word": "tertransendental",
+        "meaning": "완전히 transendental되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_8huzl",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "menguniversalitas [[멍universalitas]]",
+    "meaning": "universalitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "universalitas",
+    "affix_logic": "어근 'universalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'universalitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan universalitas",
+    "antonym": "diuniversalitas",
+    "context": "'menguniversalitas'은(는) principalmente 'universalitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'universalitas'의 용법에 유의하세요. 'menguniversalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'universalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait menguniversalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 universalitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang menguniversalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 universalitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "universalitas",
+        "meaning": "(어근) universalitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "menguniversalitas",
+        "meaning": "universalitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_pm859",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diuniversalitas [[디universalitas]]",
+    "meaning": "universalitas되다, universalitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "universalitas",
+    "affix_logic": "어근 'universalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'universalitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena universalitas",
+    "antonym": "menguniversalitas",
+    "context": "'diuniversalitas'은(는) principalmente 'universalitas되다, universalitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'universalitas'의 용법에 유의하세요. 'diuniversalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'universalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diuniversalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 universalitas되다, universalitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diuniversalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 universalitas되다, universalitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "universalitas",
+        "meaning": "(어근) universalitas되다"
+      },
+      {
+        "word": "diuniversalitas",
+        "meaning": "universalitas되다, universalitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_vfsz2",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teruniversalitas [[뜨르universalitas]]",
+    "meaning": "완전히 universalitas되다",
+    "pos": "동사, 형용사",
+    "root": "universalitas",
+    "affix_logic": "어근 'universalitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'universalitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling universalitas",
+    "antonym": "sengaja diuniversalitas",
+    "context": "'teruniversalitas'은(는) principalmente '완전히 universalitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'universalitas'의 용법에 유의하세요. 'teruniversalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'universalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teruniversalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 universalitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teruniversalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 universalitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "universalitas",
+        "meaning": "(어근) 완전히 universalitas되다"
+      },
+      {
+        "word": "teruniversalitas",
+        "meaning": "완전히 universalitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_zsblc",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengutilitarian [[멍utilitarian]]",
+    "meaning": "utilitarian하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "utilitarian",
+    "affix_logic": "어근 'utilitarian'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'utilitarian'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan utilitarian",
+    "antonym": "diutilitarian",
+    "context": "'mengutilitarian'은(는) principalmente 'utilitarian하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'utilitarian'의 용법에 유의하세요. 'mengutilitarian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'utilitarian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengutilitarian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 utilitarian하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengutilitarian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 utilitarian하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "utilitarian",
+        "meaning": "(어근) utilitarian하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengutilitarian",
+        "meaning": "utilitarian하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_e7ttj",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diutilitarian [[디utilitarian]]",
+    "meaning": "utilitarian되다, utilitarian당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "utilitarian",
+    "affix_logic": "어근 'utilitarian'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'utilitarian'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena utilitarian",
+    "antonym": "mengutilitarian",
+    "context": "'diutilitarian'은(는) principalmente 'utilitarian되다, utilitarian당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'utilitarian'의 용법에 유의하세요. 'diutilitarian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'utilitarian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diutilitarian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 utilitarian되다, utilitarian당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diutilitarian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 utilitarian되다, utilitarian당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "utilitarian",
+        "meaning": "(어근) utilitarian되다"
+      },
+      {
+        "word": "diutilitarian",
+        "meaning": "utilitarian되다, utilitarian당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_crvp6",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terutilitarian [[뜨르utilitarian]]",
+    "meaning": "완전히 utilitarian되다",
+    "pos": "동사, 형용사",
+    "root": "utilitarian",
+    "affix_logic": "어근 'utilitarian'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'utilitarian'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling utilitarian",
+    "antonym": "sengaja diutilitarian",
+    "context": "'terutilitarian'은(는) principalmente '완전히 utilitarian되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'utilitarian'의 용법에 유의하세요. 'terutilitarian' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'utilitarian' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terutilitarian untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 utilitarian되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terutilitarian yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 utilitarian되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "utilitarian",
+        "meaning": "(어근) 완전히 utilitarian되다"
+      },
+      {
+        "word": "terutilitarian",
+        "meaning": "완전히 utilitarian되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_8oknm",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengvaliditas [[멍validitas]]",
+    "meaning": "validitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "validitas",
+    "affix_logic": "어근 'validitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'validitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan validitas",
+    "antonym": "divaliditas",
+    "context": "'mengvaliditas'은(는) principalmente 'validitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'validitas'의 용법에 유의하세요. 'mengvaliditas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'validitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengvaliditas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 validitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengvaliditas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 validitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "validitas",
+        "meaning": "(어근) validitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengvaliditas",
+        "meaning": "validitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_trefk",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "divaliditas [[디validitas]]",
+    "meaning": "validitas되다, validitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "validitas",
+    "affix_logic": "어근 'validitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'validitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena validitas",
+    "antonym": "mengvaliditas",
+    "context": "'divaliditas'은(는) principalmente 'validitas되다, validitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'validitas'의 용법에 유의하세요. 'divaliditas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'validitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait divaliditas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 validitas되다, validitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang divaliditas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 validitas되다, validitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "validitas",
+        "meaning": "(어근) validitas되다"
+      },
+      {
+        "word": "divaliditas",
+        "meaning": "validitas되다, validitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_mo3ys",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tervaliditas [[뜨르validitas]]",
+    "meaning": "완전히 validitas되다",
+    "pos": "동사, 형용사",
+    "root": "validitas",
+    "affix_logic": "어근 'validitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'validitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling validitas",
+    "antonym": "sengaja divaliditas",
+    "context": "'tervaliditas'은(는) principalmente '완전히 validitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'validitas'의 용법에 유의하세요. 'tervaliditas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'validitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tervaliditas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 validitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tervaliditas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 validitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "validitas",
+        "meaning": "(어근) 완전히 validitas되다"
+      },
+      {
+        "word": "tervaliditas",
+        "meaning": "완전히 validitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_lok2v",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengverifikatif [[멍verifikatif]]",
+    "meaning": "verifikatif하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "verifikatif",
+    "affix_logic": "어근 'verifikatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'verifikatif'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan verifikatif",
+    "antonym": "diverifikatif",
+    "context": "'mengverifikatif'은(는) principalmente 'verifikatif하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'verifikatif'의 용법에 유의하세요. 'mengverifikatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'verifikatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengverifikatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 verifikatif하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengverifikatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 verifikatif하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "verifikatif",
+        "meaning": "(어근) verifikatif하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengverifikatif",
+        "meaning": "verifikatif하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_9qc0j",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diverifikatif [[디verifikatif]]",
+    "meaning": "verifikatif되다, verifikatif당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "verifikatif",
+    "affix_logic": "어근 'verifikatif'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'verifikatif'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena verifikatif",
+    "antonym": "mengverifikatif",
+    "context": "'diverifikatif'은(는) principalmente 'verifikatif되다, verifikatif당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'verifikatif'의 용법에 유의하세요. 'diverifikatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'verifikatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diverifikatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 verifikatif되다, verifikatif당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diverifikatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 verifikatif되다, verifikatif당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "verifikatif",
+        "meaning": "(어근) verifikatif되다"
+      },
+      {
+        "word": "diverifikatif",
+        "meaning": "verifikatif되다, verifikatif당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_y7m8x",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "terverifikatif [[뜨르verifikatif]]",
+    "meaning": "완전히 verifikatif되다",
+    "pos": "동사, 형용사",
+    "root": "verifikatif",
+    "affix_logic": "어근 'verifikatif'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'verifikatif'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling verifikatif",
+    "antonym": "sengaja diverifikatif",
+    "context": "'terverifikatif'은(는) principalmente '완전히 verifikatif되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'verifikatif'의 용법에 유의하세요. 'terverifikatif' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'verifikatif' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait terverifikatif untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 verifikatif되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang terverifikatif yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 verifikatif되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "verifikatif",
+        "meaning": "(어근) 완전히 verifikatif되다"
+      },
+      {
+        "word": "terverifikatif",
+        "meaning": "완전히 verifikatif되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_u541p",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengvitalitas [[멍vitalitas]]",
+    "meaning": "vitalitas하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "vitalitas",
+    "affix_logic": "어근 'vitalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'vitalitas'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan vitalitas",
+    "antonym": "divitalitas",
+    "context": "'mengvitalitas'은(는) principalmente 'vitalitas하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'vitalitas'의 용법에 유의하세요. 'mengvitalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'vitalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengvitalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 vitalitas하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengvitalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 vitalitas하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "vitalitas",
+        "meaning": "(어근) vitalitas하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengvitalitas",
+        "meaning": "vitalitas하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_1ewmg",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "divitalitas [[디vitalitas]]",
+    "meaning": "vitalitas되다, vitalitas당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "vitalitas",
+    "affix_logic": "어근 'vitalitas'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'vitalitas'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena vitalitas",
+    "antonym": "mengvitalitas",
+    "context": "'divitalitas'은(는) principalmente 'vitalitas되다, vitalitas당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'vitalitas'의 용법에 유의하세요. 'divitalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'vitalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait divitalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 vitalitas되다, vitalitas당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang divitalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 vitalitas되다, vitalitas당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "vitalitas",
+        "meaning": "(어근) vitalitas되다"
+      },
+      {
+        "word": "divitalitas",
+        "meaning": "vitalitas되다, vitalitas당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_jd1fr",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "tervitalitas [[뜨르vitalitas]]",
+    "meaning": "완전히 vitalitas되다",
+    "pos": "동사, 형용사",
+    "root": "vitalitas",
+    "affix_logic": "어근 'vitalitas'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'vitalitas'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling vitalitas",
+    "antonym": "sengaja divitalitas",
+    "context": "'tervitalitas'은(는) principalmente '완전히 vitalitas되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'vitalitas'의 용법에 유의하세요. 'tervitalitas' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'vitalitas' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait tervitalitas untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 vitalitas되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang tervitalitas yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 vitalitas되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "vitalitas",
+        "meaning": "(어근) 완전히 vitalitas되다"
+      },
+      {
+        "word": "tervitalitas",
+        "meaning": "완전히 vitalitas되다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_gjedo",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengyuridis [[멍yuridis]]",
+    "meaning": "yuridis하다 (전문 행위 능동사)",
+    "pos": "동사",
+    "root": "yuridis",
+    "affix_logic": "어근 'yuridis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'yuridis'에 능동 접두사 'meng-'가 결합하여 목적어를 취하는 타동사를 형성합니다. (어근의 첫 철자에 따라 음운 변화 발생)",
+    "synonym": "melakukan yuridis",
+    "antonym": "diyuridis",
+    "context": "'mengyuridis'은(는) principalmente 'yuridis하다 (전문 행위 능동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'yuridis'의 용법에 유의하세요. 'mengyuridis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'yuridis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait mengyuridis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 yuridis하다 (전문 행위 능동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang mengyuridis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 yuridis하다 (전문 행위 능동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "yuridis",
+        "meaning": "(어근) yuridis하다 (전문 행위 능동사)"
+      },
+      {
+        "word": "mengyuridis",
+        "meaning": "yuridis하다 (전문 행위 능동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_q9qwd",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "diyuridis [[디yuridis]]",
+    "meaning": "yuridis되다, yuridis당하다 (전문 수동사)",
+    "pos": "동사",
+    "root": "yuridis",
+    "affix_logic": "어근 'yuridis'에 기반한 동사 파생 표현",
+    "grammar_rule": "어근 'yuridis'에 수동 접두사 'di-'가 결합하여 '~하여지다' 또는 '~당하다'라는 수동태 동사를 형성합니다. (주어가 행위의 대상을 나타냄)",
+    "synonym": "kena yuridis",
+    "antonym": "mengyuridis",
+    "context": "'diyuridis'은(는) principalmente 'yuridis되다, yuridis당하다 (전문 수동사)'을(를) 뜻하며, 동사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'yuridis'의 용법에 유의하세요. 'diyuridis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'yuridis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait diyuridis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 yuridis되다, yuridis당하다 (전문 수동사) 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang diyuridis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 yuridis되다, yuridis당하다 (전문 수동사)에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "yuridis",
+        "meaning": "(어근) yuridis되다"
+      },
+      {
+        "word": "diyuridis",
+        "meaning": "yuridis되다, yuridis당하다 (전문 수동사)"
+      }
+    ]
+  },
+  {
+    "id": "word_1787139656800_t7rcs",
+    "category_id": "affix_verbs",
+    "subcategory_id": "di_ter_passive_verbs",
+    "word": "teryuridis [[뜨르yuridis]]",
+    "meaning": "완전히 yuridis되다",
+    "pos": "동사, 형용사",
+    "root": "yuridis",
+    "affix_logic": "어근 'yuridis'에 기반한 동사, 형용사 파생 표현",
+    "grammar_rule": "어근 'yuridis'에 접두사 'ter-'가 결합하여 '의도하지 않게 이루어진 완료 상태' 또는 '가장 ~한 (최상급)'의 의미를 형성합니다.",
+    "synonym": "paling yuridis",
+    "antonym": "sengaja diyuridis",
+    "context": "'teryuridis'은(는) principalmente '완전히 yuridis되다'을(를) 뜻하며, 동사, 형용사로서 공식 담화, 비즈니스 문서 및 실생활 맞춤 문맥에서 활발히 사용됩니다.",
+    "caution": "어근 'yuridis'의 용법에 유의하세요. 'teryuridis' 사용 시 상황의 정중함과 상대방과의 친밀도에 따라 격식체/구어체를 적절히 선택해야 합니다.",
+    "related": "'yuridis' (어근)을 중심으로 관련 파생어(동사/명사 형태)를 함께 연상하여 외우면 훨씬 오래 기억할 수 있습니다!",
+    "example_formal": "Pemerintah telah menetapkan kebijakan baru terkait teryuridis untuk kesejahteraan masyarakat.",
+    "example_formal_kr": "정부는 국민들의 복지를 위해 완전히 yuridis되다 관련 새로운 정책을 수립했습니다.",
+    "example_casual": "Kamu sudah tahu tentang teryuridis yang lagi ramai dibicarakan ini?",
+    "example_casual_kr": "너 요즘 요란하게 이야기되고 있는 완전히 yuridis되다에 대해 알고 있어?",
+    "word_breakdown": [
+      {
+        "word": "yuridis",
+        "meaning": "(어근) 완전히 yuridis되다"
+      },
+      {
+        "word": "teryuridis",
+        "meaning": "완전히 yuridis되다"
+      }
+    ]
   }
 ];

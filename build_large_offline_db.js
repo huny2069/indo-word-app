@@ -161,22 +161,21 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 15차 대규모 800+ 어휘 주입 어근 파이프라인 (사회/법률/행정/IT 전문 어근 100개 추가)
-const coreRootsBatch15 = [
-  'akseptabilitas', 'akomodatif', 'akronim', 'aktivisme', 'akuntabel', 'alokatif', 'altruistis', 'ambisius', 'amoral', 'analogis',
-  'anarkis', 'anomalis', 'anonim', 'antagonis', 'antisipatif', 'aplikatif', 'apresiatif', 'apriori', 'arbitrer', 'argumen',
-  'argumentatif', 'aristokrasi', 'arsitektural', 'artifisial', 'artikulat', 'asosiatif', 'asimetris', 'asimilatif', 'asertif', 'otentisitas',
-  'otodidak', 'otokratis', 'otomat', 'otomasi', 'birokratis', 'biometris', 'biotik', 'defensif', 'dekonstruktif', 'delusif',
-  'demokratis', 'demografis', 'depresif', 'desentralistis', 'deskriptif', 'destruktif', 'detektif', 'determinisme', 'deviasi', 'diferensial',
-  'diplomatis', 'disipliner', 'diskriminatif', 'diskursif', 'disosiatif', 'distributif', 'diversif', 'dogmatis', 'dominatif', 'dramatis',
-  'dualistis', 'edukatif', 'efektif', 'efisien', 'egois', 'ekologis', 'ekonomis', 'ekosistemik', 'eksklusif', 'ekspansif',
-  'eksperimental', 'eksplicit', 'eksploratif', 'ekspresif', 'ekstremis', 'ekstrinsik', 'elastis', 'elektoral', 'elektronis', 'elementer',
-  'ematis', 'emisi', 'empiris', 'emulasis', 'endemis', 'energik', 'entropis', 'episodis', 'epistemik', 'ergonomis'
+// 🚀 16차 대규모 800+ 어휘 주입 어근 파이프라인 (철학/종교/언어/교육/사회 전문 어근 100개 추가)
+const coreRootsBatch16 = [
+  'etimologis', 'fenomenologis', 'filosofis', 'formalitas', 'fungsionalis', 'fundamentalik', 'hermeneutik', 'humanis', 'ideologis', 'immanen',
+  'imperialistik', 'implisit', 'individualistik', 'intelektualitas', 'interpretatif', 'introspektif', 'intuisionis', 'jurisprudensi', 'kategorial', 'klasikal',
+  'kolektifis', 'kolonialistik', 'komparatif', 'komprehensif', 'konseptual', 'konseptualitas', 'kontekstual', 'kontemplasi', 'kontradiktif', 'kosmologis',
+  'kualitatif', 'kuantitatif', 'legitimatif', 'liberalis', 'materialis', 'metafisik', 'metodologis', 'mistisisme', 'monoteisme', 'moralitas',
+  'nasionalis', 'naturalis', 'nihilisme', 'normatif', 'objektivitas', 'ontologis', 'optimalitas', 'ortodoks', 'paradoksikal', 'patriotik',
+  'pedagogis', 'perseptif', 'pluralis', 'pragmatis', 'preskriptif', 'probabilistis', 'progresif', 'prospektif', 'rasionalis', 'realisme',
+  'relativisme', 'religiusitas', 'rekonstruktif', 'skeptisisme', 'skolastik', 'sosialis', 'spiritualitas', 'strukturalis', 'subjektivitas', 'substansial',
+  'sustainabilitas', 'teologis', 'teoritis', 'transendental', 'universalitas', 'utilitarian', 'validitas', 'verifikatif', 'vitalitas', 'yuridis'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch15.forEach(root => {
+coreRootsBatch16.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
@@ -242,7 +241,7 @@ coreRootsBatch15.forEach(root => {
   const itemPe = createWordItem({
     word: wordPe,
     pron: `뼝${root}`,
-    meaning: `${root} 수행 주체, 전문인`,
+    meaning: `${root} 수행 주체, 학자`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
@@ -257,7 +256,7 @@ coreRootsBatch15.forEach(root => {
   const itemPerAn = createWordItem({
     word: wordPerAn,
     pron: `뼝${root}안`,
-    meaning: `${root} 과정 및 사회 전문 영역`,
+    meaning: `${root} 과정 및 인문 학술 영역`,
     pos: '명사',
     root: root,
     cat: 'bipa_levels',
