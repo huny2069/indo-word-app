@@ -1,591 +1,1432 @@
-/**
- * 대분류 1: 문장 연결 & 담화 표지 (Discourse Connectors)
- * 접속사, 부사, 전치사, 인도네시아 특유의 만능 추임새/조동사
- */
-
 export const discourseConnectors = [
-  // --- [소분류 1-1: 논리 & 인과 접속사] ---
   {
-    id: 'disc_001',
-    category_id: 'discourse',
-    subcategory_id: 'logic_connectors',
-    word: 'tetapi [[뜨따삐]]',
-    meaning: '하지만, 그러나 (격식/표준)',
-    pos: '접속사',
-    root: 'tetapi',
-    affix_logic: '단일 기본 접속사',
-    grammar_rule: '앞 문장과 상반되는 내용을 이끌며, 쉼표(,) 뒤에 자주 위치합니다. 구어에서는 주로 tapi로 축약됩니다.',
-    synonym: 'namun (그러나/하지만), akan tetapi (그렇지만)',
-    antonym: 'dan (그리고), serta (및/함께)',
-    context: '공식 문서, 뉴스, 비즈니스 미팅 및 정중한 자리에서 대조/양보의 뜻을 나타낼 때 사용합니다.',
-    caution: '문장의 맨 앞에 올 때는 namun을 선호하며, tetapi는 주로 문장 중간 연결에 쓰입니다.',
-    related: '구어체에서는 tapi, 격식체/글말에서는 namun 또는 tetapi를 쓴다고 외우세요!',
-    example_formal: 'Rencana ini sangat bagus, tetapi anggarannya terlalu besar.',
-    example_formal_kr: '이 계획은 매우 훌륭하지만, 예산이 너무 큽니다.',
-    example_casual: 'Aku mau ikut, tapi lagi nggak ada uang nih.',
-    example_casual_kr: '나도 같이 가고 싶은데, 지금 돈이 없어.',
-    word_breakdown: [
-      { word: 'Rencana', meaning: '계획' },
-      { word: 'ini', meaning: '이(것)' },
-      { word: 'sangat', meaning: '매우' },
-      { word: 'bagus', meaning: '좋은/훌륭한' },
-      { word: 'tetapi', meaning: '하지만' },
-      { word: 'anggarannya', meaning: '그 예산은' },
-      { word: 'terlalu', meaning: '너무/지나치게' },
-      { word: 'besar', meaning: '큰' }
+    "id": "disc_0001",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "tetapi [[뜨따삐]]",
+    "meaning": "하지만, 그러나 (격식)",
+    "pos": "접속사",
+    "root": "tetapi",
+    "affix_logic": "어근 'tetapi'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "namun",
+    "antonym": "dan",
+    "context": "실생활 및 회화 상황에서 '하지만, 그러나 (격식)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'tetapi'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Rencana ini bagus, tetapi butuh dana besar.",
+    "example_formal_kr": "이 계획은 좋으나 큰 자금이 필요합니다.",
+    "example_casual": "Mau ikut tapi lagi sibuk nih.",
+    "example_casual_kr": "가고 싶은데 지금 바빠.",
+    "word_breakdown": [
+      {
+        "word": "tetapi",
+        "meaning": "하지만"
+      }
     ]
   },
   {
-    id: 'disc_002',
-    category_id: 'discourse',
-    subcategory_id: 'logic_connectors',
-    word: 'namun [[나문]]',
-    meaning: '그러나, 그렇지만',
-    pos: '접속사',
-    root: 'namun',
-    affix_logic: '단일 기본 접속사',
-    grammar_rule: '문장 첫머리에 오며 뒤에 쉼표(,)를 동반하는 경우가 많습니다. tetapi보다 훨씬 세련되고 문어체적 느낌을 줍니다.',
-    synonym: 'tetapi (그러나), melainkan (오히려 ~이 아니라)',
-    antonym: 'oleh karena itu (그러므로)',
-    context: '기사문, 논문, 공식 연설 등에서 논리적 반전을 명확히 제시할 때 씁니다.',
-    caution: '구어체에서는 어색하게 들릴 수 있으므로 일상 대화에서는 tapi를 사용하세요.',
-    related: '영어의 However와 100% 동일한 격식 연결사라고 생각하면 쉽습니다.',
-    example_formal: 'Pemerintah telah berusaha keras. Namun, masalah ekonomi masih berlanjut.',
-    example_formal_kr: '정부는 최선을 다했습니다. 그러나 경제 문제는 여전히 지속되고 있습니다.',
-    example_casual: 'Udah coba berkali-kali, namun hasilnya tetep aja nihil.',
-    example_casual_kr: '몇 번이나 해봤지만, 결과는 여전히 꽝이야.',
-    word_breakdown: [
-      { word: 'Pemerintah', meaning: '정부' },
-      { word: 'telah', meaning: '~했다(완료)' },
-      { word: 'berusaha', meaning: '노력하다' },
-      { word: 'keras', meaning: '열심히/강하게' },
-      { word: 'Namun', meaning: '그러나' },
-      { word: 'masalah', meaning: '문제' },
-      { word: 'ekonomi', meaning: '경제' },
-      { word: 'masih', meaning: '여전히' },
-      { word: 'berlanjut', meaning: '지속되다' }
+    "id": "disc_0002",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "namun [[나문]]",
+    "meaning": "그러나, 그렇지만",
+    "pos": "접속사",
+    "root": "namun",
+    "affix_logic": "어근 'namun'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tetapi",
+    "antonym": "oleh karena itu",
+    "context": "실생활 및 회화 상황에서 '그러나, 그렇지만'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'namun'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Upaya telah dilakukan. Namun belum berhasil.",
+    "example_formal_kr": "노력은 기울였습니다. 그러나 아직 성공하지 못했습니다.",
+    "example_casual": "Udah coba, namun tetep gagal.",
+    "example_casual_kr": "해봤는데 그래도 안 되더라.",
+    "word_breakdown": [
+      {
+        "word": "namun",
+        "meaning": "그러나"
+      }
     ]
   },
   {
-    id: 'disc_003',
-    category_id: 'discourse',
-    subcategory_id: 'logic_connectors',
-    word: 'oleh karena itu [[올레 까르나 이뚜]]',
-    meaning: '따라서, 그러므로, 그렇기 때문에',
-    pos: '접속사',
-    root: 'karena',
-    affix_logic: '전치사 oleh + 이유 접속사 karena + 지시대명사 itu 복합 연결사',
-    grammar_rule: '앞선 원인에 대한 필연적 결론을 이끌 때 사용하며 문두에 위치합니다.',
-    synonym: 'maka dari itu (그러므로), akibatnya (그 결과로), sehingga (그 결과)',
-    antonym: 'meskipun demikian (그럼에도 불구하고)',
-    context: '원인과 결과를 논리정연하게 정리할 때 쓰는 표준 인과 연결사입니다.',
-    caution: '줄여서 oleh sebab itu로도 쓰이며 의미는 완전히 동일합니다.',
-    related: 'Therefore = Oleh karena itu! 글쓰기/회의 발표 때 필수 무기입니다.',
-    example_formal: 'Cuaca sangat buruk, oleh karena itu penerbangan dibatalkan.',
-    example_formal_kr: '날씨가 매우 나쁩니다, 그러므로 항공편이 취소되었습니다.',
-    example_casual: 'Gua telat bangun, makanya jadi ketinggalan kereta deh.',
-    example_casual_kr: '나 늦잠 잤잖아, 그래서 기차 놓쳤어.',
-    word_breakdown: [
-      { word: 'Cuaca', meaning: '날씨' },
-      { word: 'sangat', meaning: '매우' },
-      { word: 'buruk', meaning: '나쁜/악천후' },
-      { word: 'oleh karena itu', meaning: '그러므로' },
-      { word: 'penerbangan', meaning: '항공편/비행' },
-      { word: 'dibatalkan', meaning: '취소되다' }
+    "id": "disc_0003",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "oleh karena itu [[올레 까르나 이뚜]]",
+    "meaning": "따라서, 그러므로",
+    "pos": "접속사",
+    "root": "karena",
+    "affix_logic": "어근 'karena'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "maka dari itu",
+    "antonym": "meskipun",
+    "context": "실생활 및 회화 상황에서 '따라서, 그러므로'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'karena'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Cuaca buruk, oleh karena itu acara dibatalkan.",
+    "example_formal_kr": "날씨가 나빠 행사가 취소되었습니다.",
+    "example_casual": "Gua telat, makanya ketinggalan.",
+    "example_casual_kr": "나 늦어서 놓쳤어.",
+    "word_breakdown": [
+      {
+        "word": "oleh",
+        "meaning": "따라서"
+      }
     ]
   },
   {
-    id: 'disc_004',
-    category_id: 'discourse',
-    subcategory_id: 'logic_connectors',
-    word: 'meskipun [[메스끼뿐]]',
-    meaning: '비록 ~일지라도, ~에도 불구하고',
-    pos: '접속사',
-    root: 'meski',
-    affix_logic: '접속사 meski + 강조 접미사 -pun 결합',
-    grammar_rule: '양보절을 이끌며 뒤에 절(주어+동사)이 옵니다. walau/walaupun과 상호 교환 가능합니다.',
-    synonym: 'walaupun (비록 ~이지만), kendati (불구하고)',
-    antonym: 'karena (때문에), sebab (왜냐하면)',
-    context: '어려운 상황이나 반대 조건에도 불구하고 어떤 일이 이루어짐을 강조할 때 씁니다.',
-    caution: 'meskipun과 하지만(tetapi)을 한 문장에 동시에 쓰면 문법상 중복 오류입니다.',
-    related: 'Even though / Although = Meskipun! 입에 착 붙여두세요.',
-    example_formal: 'Meskipun hujan deras, mereka tetap melanjutkan perjalanan.',
-    example_formal_kr: '비록 폭우가 쏟아졌지만, 그들은 계속해서 여정을 이어갔습니다.',
-    example_casual: 'Meskipun capek banget, gue tetep harus kelarin tugas ini.',
-    example_casual_kr: '진짜 피곤하긴 한데, 그래도 이 과제는 끝내야 해.',
-    word_breakdown: [
-      { word: 'Meskipun', meaning: '비록 ~일지라도' },
-      { word: 'hujan deras', meaning: '폭우/거센 비' },
-      { word: 'mereka', meaning: '그들은' },
-      { word: 'tetap', meaning: '여전히/그대로' },
-      { word: 'melanjutkan', meaning: '이어가다/계속하다' },
-      { word: 'perjalanan', meaning: '여행/여정' }
+    "id": "disc_0004",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "meskipun [[메스끼뿐]]",
+    "meaning": "비록 ~일지라도",
+    "pos": "접속사",
+    "root": "meski",
+    "affix_logic": "어근 'meski'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "walaupun",
+    "antonym": "karena",
+    "context": "실생활 및 회화 상황에서 '비록 ~일지라도'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'meski'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Meskipun sulit, proyek ini terus berjalan.",
+    "example_formal_kr": "어려울지라도 이 프로젝트는 계속됩니다.",
+    "example_casual": "Kata 'meskipun' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '비록 ~일지라도'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "meskipun",
+        "meaning": "비록 ~일지라도"
+      }
     ]
   },
   {
-    id: 'disc_005',
-    category_id: 'discourse',
-    subcategory_id: 'logic_connectors',
-    word: 'sebaliknya [[스발릭냐]]',
-    meaning: '반면에, 그와 반대로',
-    pos: '접속사, 부사',
-    root: 'balik',
-    affix_logic: '접두사 se- + 어근 balik(뒤/반대) + 대명 접미사 -nya',
-    grammar_rule: '두 대상이나 상황의 정반대 양상을 대조할 때 문두 또는 절 사이에 씁니다.',
-    synonym: 'justru (오히려), sebaliknya (반대로)',
-    antonym: 'sama halnya (마찬가지로), demikian pula (마찬가지로)',
-    context: 'A는 이렇지만 반대로 B는 저렇다는 식의 뚜렷한 대비를 보여줄 때 사용합니다.',
-    caution: 'sebaliknya 뒤에는 쉼표(,)를 찍어주는 것이 표준 표기법입니다.',
-    related: '어근 balik(되돌리다/뒤집다)에서 온 단어! 뒤집어보면 반대라는 뜻입니다.',
-    example_formal: 'Kakaknya sangat pendiam, sebaliknya adiknya sangat aktif dan ceria.',
-    example_formal_kr: '형은 매우 과묵한 반면에, 동생은 대단히 활발하고 쾌활합니다.',
-    example_casual: 'Bukannya makin murah, sebaliknya harganya malah makin mahal.',
-    example_casual_kr: '더 싸지기는커녕, 반대로 가격이 오히려 더 비싸졌어.',
-    word_breakdown: [
-      { word: 'Kakaknya', meaning: '그의 형/누나' },
-      { word: 'sangat', meaning: '매우' },
-      { word: 'pendiam', meaning: '과묵한' },
-      { word: 'sebaliknya', meaning: '반면에' },
-      { word: 'adiknya', meaning: '그의 동생' },
-      { word: 'aktif', meaning: '활동적인' },
-      { word: 'dan', meaning: '그리고' },
-      { word: 'ceria', meaning: '쾌활한' }
-    ]
-  },
-
-  // --- [소분류 1-2: 시간, 전환 & 계기 부사] ---
-  {
-    id: 'disc_006',
-    category_id: 'discourse',
-    subcategory_id: 'time_trigger_adverbs',
-    word: 'tiba-tiba [[띠바띠바]]',
-    meaning: '갑자기, 느닷없이',
-    pos: '부사',
-    root: 'tiba',
-    affix_logic: '어근 tiba(도착하다)의 첩어화(Reduplication)로 부사 형성',
-    grammar_rule: '예상치 못한 사건의 발생을 서술할 때 동사 앞 또는 문장 맨 앞에 옵니다.',
-    synonym: 'mendadak (돌연/갑자기), sekonyong-konyong (불현듯)',
-    antonym: 'perlahan-lahan (차츰차츰), berangsur-angsur (점진적으로)',
-    context: '평온하던 흐름 속에서 돌발적인 사건이나 생각이 번뜩 떠오를 때 씁니다.',
-    caution: 'mendadak과 거의 유사하나 tiba-tiba가 일상과 격식 모두에서 가장 널리 쓰입니다.',
-    related: '도착하다(tiba)가 두 번 겹치면 "불쑥 도착하듯 갑자기!"로 기억하세요.',
-    example_formal: 'Listrik padam secara tiba-tiba saat seminar sedang berlangsung.',
-    example_formal_kr: '세미나가 진행 중이던 때에 전기가 갑자기 나갔습니다.',
-    example_casual: 'Tiba-tiba dia nangis tanpa alasan yang jelas.',
-    example_casual_kr: '그 사람이 명확한 이유도 없이 갑자기 울더라고.',
-    word_breakdown: [
-      { word: 'Listrik', meaning: '전기' },
-      { word: 'padam', meaning: '꺼지다/단전되다' },
-      { word: 'secara tiba-tiba', meaning: '갑작스럽게' },
-      { word: 'saat', meaning: '~할 때' },
-      { word: 'seminar', meaning: '세미나' },
-      { word: 'sedang berlangsung', meaning: '진행 중이다' }
+    "id": "disc_0005",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "sebaliknya [[스발릭냐]]",
+    "meaning": "반면에, 그와 반대로",
+    "pos": "접속사",
+    "root": "balik",
+    "affix_logic": "어근 'balik'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "justru",
+    "antonym": "sama halnya",
+    "context": "실생활 및 회화 상황에서 '반면에, 그와 반대로'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'balik'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ekonomi melambat, sebaliknya inflasi naik.",
+    "example_formal_kr": "경기는 둔화된 반면 인플레이션은 올랐습니다.",
+    "example_casual": "Bukannya untung, sebaliknya malah rugi.",
+    "example_casual_kr": "이득은커녕 반대로 손해 봤어.",
+    "word_breakdown": [
+      {
+        "word": "sebaliknya",
+        "meaning": "반면에"
+      }
     ]
   },
   {
-    id: 'disc_007',
-    category_id: 'discourse',
-    subcategory_id: 'time_trigger_adverbs',
-    word: 'kebetulan [[끄브뚤란]]',
-    meaning: '어쩌다, 우연히, 마침',
-    pos: '부사',
-    root: 'betul',
-    affix_logic: '어근 betul(맞다/옳다) + 접사 ke-...-an 결합으로 명사/부사화',
-    grammar_rule: '우연의 일치나 타이밍이 딱 들어맞는 상황을 설명할 때 쓰입니다.',
-    synonym: 'tanpa sengaja (의도치 않게), pas banget (딱 맞게)',
-    antonym: 'sengaja (일부러/고의로)',
-    context: '길에서 우연히 아는 사람을 마주쳤거나, 필요한 물건이 마침 손에 있을 때 자주 씁니다.',
-    caution: 'betul(맞다)에서 파생되었으나 kebetulan은 "우연(By chance)"의 뜻이 됨을 주의!',
-    related: '"어쩌다 보니 딱 들어맞았네!" ke-betul-an = 마침/우연히!',
-    example_formal: 'Kebetulan saya juga berencana pergi ke tempat yang sama hari ini.',
-    example_formal_kr: '어쩌다 보니(마침) 저도 오늘 같은 장소에 갈 계획이었습니다.',
-    example_casual: 'Eh kebetulan banget ketemu lu di sini!',
-    example_casual_kr: '어머 여기서 널 우연히 만나다니 완전 대박이다!',
-    word_breakdown: [
-      { word: 'Kebetulan', meaning: '우연히/마침' },
-      { word: 'saya', meaning: '나/저' },
-      { word: 'juga', meaning: '역시/또한' },
-      { word: 'berencana', meaning: '계획하다' },
-      { word: 'pergi ke', meaning: '~로 가다' },
-      { word: 'tempat yang sama', meaning: '같은 장소' },
-      { word: 'hari ini', meaning: '오늘' }
+    "id": "disc_0006",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "padahal [[빠다할]]",
+    "meaning": "사실은 ~인데도, ~임에도",
+    "pos": "접속사",
+    "root": "padahal",
+    "affix_logic": "어근 'padahal'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sedangkan",
+    "antonym": "memang",
+    "context": "실생활 및 회화 상황에서 '사실은 ~인데도, ~임에도'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'padahal'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ia tidak datang, padahal berjanji hadir.",
+    "example_formal_kr": "그는 오기로 약속했음에도 오지 않았습니다.",
+    "example_casual": "Dia laper padahal baru makan.",
+    "example_casual_kr": "방금 먹어놓고 또 배고프대.",
+    "word_breakdown": [
+      {
+        "word": "padahal",
+        "meaning": "사실은 ~인데도"
+      }
     ]
   },
   {
-    id: 'disc_008',
-    category_id: 'discourse',
-    subcategory_id: 'time_trigger_adverbs',
-    word: 'awalnya [[아왈냐]]',
-    meaning: '원래는, 처음에는, 당초에',
-    pos: '부사',
-    root: 'awal',
-    affix_logic: '어근 awal(시작/처음) + 한정/강조 접미사 -nya',
-    grammar_rule: '과거의 초기 상태나 의도가 현재와 달라졌음을 대조할 때 문두에 씁니다.',
-    synonym: 'semula (애초에/처음에는), pada mulanya (시초에는)',
-    antonym: 'akhirnya (결국/마침내)',
-    context: '"원래는 안 그러려고 했는데...", "처음 계획은 이랬는데..." 처럼 반전 직전의 상황 묘사.',
-    caution: '단독 부사로 쓰일 때는 뒤에 tapi/namun과 호응하여 "원래는 ~했으나"로 자주 씁니다.',
-    related: 'awal(시작) + nya(그것) ➔ "그 시작은 원래 이랬다"!',
-    example_formal: 'Awalnya proyek ini diragukan, tetapi akhirnya berhasil dengan gemilang.',
-    example_formal_kr: '원래 이 프로젝트는 의구심을 샀으나, 결국 눈부신 성공을 거두었습니다.',
-    example_casual: 'Awalnya gue kira dia sombong, taunya baik banget.',
-    example_casual_kr: '처음엔 걔가 도도한 줄 알았는데, 알고 보니 진짜 착하더라.',
-    word_breakdown: [
-      { word: 'Awalnya', meaning: '원래는/처음에는' },
-      { word: 'proyek ini', meaning: '이 프로젝트는' },
-      { word: 'diragukan', meaning: '의심받다' },
-      { word: 'tetapi', meaning: '하지만' },
-      { word: 'akhirnya', meaning: '결국' },
-      { word: 'berhasil', meaning: '성공하다' },
-      { word: 'dengan gemilang', meaning: '눈부시게' }
+    "id": "disc_0007",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "sedangkan [[스당깐]]",
+    "meaning": "~인 반면에, 한편",
+    "pos": "접속사",
+    "root": "sedang",
+    "affix_logic": "어근 'sedang'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sementara",
+    "antonym": "dan",
+    "context": "실생활 및 회화 상황에서 '~인 반면에, 한편'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'sedang'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ia bekerja, sedangkan adiknya belajar.",
+    "example_formal_kr": "그는 일하는 반면 동생은 공부합니다.",
+    "example_casual": "Gue sibuk, sedangkan lu santai.",
+    "example_casual_kr": "난 바쁜데 넌 여유롭네.",
+    "word_breakdown": [
+      {
+        "word": "sedangkan",
+        "meaning": "~인 반면에"
+      }
     ]
   },
   {
-    id: 'disc_009',
-    category_id: 'discourse',
-    subcategory_id: 'time_trigger_adverbs',
-    word: 'lantas [[란따스]]',
-    meaning: '그러다가, 그러더니, 이어서',
-    pos: '부사, 접속사',
-    root: 'lantas',
-    affix_logic: '단일 기본 부사/접속사',
-    grammar_rule: '한 사건이 발생한 직후 다음 사건이 곧바로 뒤이어 일어남을 나타냅니다.',
-    synonym: 'lalu (그리고 나서), kemudian (그 후에), lantas (그러더니)',
-    antonym: 'sebelumnya (그 이전에)',
-    context: '이야기를 시간 순서대로 박진감 있게 전개할 때 사용합니다.',
-    caution: '구어에서는 "Lantas kenapa? (그래서 어쩌라고?)" 같은 반문 표현으로도 씁니다.',
-    related: 'lalu보다 좀 더 급박하고 즉각적인 시간적 연결 뉘앙스를 풍깁니다.',
-    example_formal: 'Ia terdiam sejenak, lantas menganggukkan kepalanya tanda setuju.',
-    example_formal_kr: '그는 잠시 침묵하더니, 그러다가 동의한다는 뜻으로 고개를 끄덕였습니다.',
-    example_casual: 'Dia denger kabar itu, lantas langsung cabut begitu aja.',
-    example_casual_kr: '걔 그 소식 듣더니만, 곧바로 그냥 튀어버리더라.',
-    word_breakdown: [
-      { word: 'Ia', meaning: '그는' },
-      { word: 'terdiam', meaning: '말문이 막히다/침묵하다' },
-      { word: 'sejenak', meaning: '잠시' },
-      { word: 'lantas', meaning: '그러더니/이어서' },
-      { word: 'menganggukkan', meaning: '끄덕이다' },
-      { word: 'kepalanya', meaning: '그의 머리를' },
-      { word: 'tanda setuju', meaning: '동의의 표시로' }
+    "id": "disc_0008",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "melainkan [[믈라인깐]]",
+    "meaning": "~이 아니라 오히려",
+    "pos": "접속사",
+    "root": "lain",
+    "affix_logic": "어근 'lain'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tetapi",
+    "antonym": "dan juga",
+    "context": "실생활 및 회화 상황에서 '~이 아니라 오히려'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'lain'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Bukan harta melainkan ilmu yang dicari.",
+    "example_formal_kr": "찾는 것은 재물이 아니라 지식입니다.",
+    "example_casual": "Bukan marah melainkan kaget aja.",
+    "example_casual_kr": "화난 게 아니라 놀란 것뿐이야.",
+    "word_breakdown": [
+      {
+        "word": "melainkan",
+        "meaning": "~이 아니라 오히려"
+      }
     ]
   },
   {
-    id: 'disc_010',
-    category_id: 'discourse',
-    subcategory_id: 'time_trigger_adverbs',
-    word: 'akhirnya [[아키르냐]]',
-    meaning: '결국, 마침내, 드디어',
-    pos: '부사',
-    root: 'akhir',
-    affix_logic: '어근 akhir(끝/마지막) + 접미사 -nya',
-    grammar_rule: '오랜 과정이나 진통 끝에 도달한 최종 결과를 서술할 때 씁니다.',
-    synonym: 'pada akhirnya (끝내), ujung-ujungnya (결국에는 - 구어)',
-    antonym: 'awalnya (처음에는), mulanya (애초에)',
-    context: '오랜 노력의 결실이 맺어졌을 때, 혹은 피하려던 결과가 결국 벌어졌을 때.',
-    caution: '구어체에서는 ujung-ujungnya(끝끝내)라는 표현도 매우 자주 씁니다.',
-    related: '영어의 Finally / In the end = Akhirnya! 승리의 탄성 드디어!',
-    example_formal: 'Setelah bernegosiasi panjang, akhirnya kedua pihak mencapai kesepakatan.',
-    example_formal_kr: '오랜 협상 끝에, 마침내 양측은 합의에 도달했습니다.',
-    example_casual: 'Akhirnya kelar juga kerjaan yang numpuk ini!',
-    example_casual_kr: '드디어 이렇게 쌓였던 일 다 끝났다!',
-    word_breakdown: [
-      { word: 'Setelah', meaning: '~한 후에' },
-      { word: 'bernegosiasi panjang', meaning: '긴 협상을 하다' },
-      { word: 'akhirnya', meaning: '마침내' },
-      { word: 'kedua pihak', meaning: '양측' },
-      { word: 'mencapai', meaning: '도달하다' },
-      { word: 'kesepakatan', meaning: '합의' }
-    ]
-  },
-
-  // --- [소분류 1-3: 빈도, 정도 & 시점 부사] ---
-  {
-    id: 'disc_011',
-    category_id: 'discourse',
-    subcategory_id: 'frequency_degree_adverbs',
-    word: 'kadang-kadang [[까당까당]]',
-    meaning: '가끔, 때때로, 이따금',
-    pos: '부사',
-    root: 'kadang',
-    affix_logic: '어근 kadang의 첩어화',
-    grammar_rule: '불규칙한 빈도를 나타내며 문장 앞이나 동사 앞에 자유롭게 위치합니다.',
-    synonym: 'terkadang (때때로), sesekali (이따금씩)',
-    antonym: 'selalu (항상), sering (자주)',
-    context: '매일은 아니지만 간헐적으로 일어나는 습관이나 현상을 말할 때.',
-    caution: '줄여서 terkadang으로 쓰기도 하며, 구어에서는 kadang 하나만 쓰기도 합니다.',
-    related: 'Sometimes = Kadang-kadang! 일상 대화의 감초 빈도 부사.',
-    example_formal: 'Kadang-kadang kita perlu beristirahat sejenak untuk memulihkan energi.',
-    example_formal_kr: '때때로 우리는 에너지를 회복하기 위해 잠시 휴식을 취할 필요가 있습니다.',
-    example_casual: 'Kadang gue suka bingung mau makan apa pas makan siang.',
-    example_casual_kr: '난 가끔 점심시간에 뭐 먹을지 진짜 고민될 때가 있어.',
-    word_breakdown: [
-      { word: 'Kadang-kadang', meaning: '가끔/때때로' },
-      { word: 'kita', meaning: '우리(청자 포함)' },
-      { word: 'perlu', meaning: '필요하다' },
-      { word: 'beristirahat', meaning: '쉬다' },
-      { word: 'sejenak', meaning: '잠시' },
-      { word: 'untuk', meaning: '~하기 위해' },
-      { word: 'memulihkan', meaning: '회복하다' },
-      { word: 'energi', meaning: '에너지' }
+    "id": "disc_0009",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "sehingga [[스힝가]]",
+    "meaning": "그리하여, 그 결과",
+    "pos": "접속사",
+    "root": "hingga",
+    "affix_logic": "어근 'hingga'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sampai",
+    "antonym": "sebelum",
+    "context": "실생활 및 회화 상황에서 '그리하여, 그 결과'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'hingga'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Jalan rusak sehingga macet parah.",
+    "example_formal_kr": "도로가 파손되어 심하게 막힙니다.",
+    "example_casual": "Kekenyangan sehingga susah napas.",
+    "example_casual_kr": "너무 배불러서 숨쉬기 힘들어.",
+    "word_breakdown": [
+      {
+        "word": "sehingga",
+        "meaning": "그리하여"
+      }
     ]
   },
   {
-    id: 'disc_012',
-    category_id: 'discourse',
-    subcategory_id: 'frequency_degree_adverbs',
-    word: 'sering [[스링]]',
-    meaning: '자주, 흔히, 빈번하게',
-    pos: '부사',
-    root: 'sering',
-    affix_logic: '단일 기본 부사',
-    grammar_rule: '높은 빈도를 나타내며 동사 바로 앞에 위치하여 동작을 수식합니다.',
-    synonym: 'kerap (빈번히), acap kali (자주/종종)',
-    antonym: 'jarang (드물게/거의 안 함)',
-    context: '습관적이거나 주기적으로 자주 일어나는 일상적 행동 서술.',
-    caution: 'seringkali(자주)처럼 kali를 붙여 부사적 의미를 더 강조할 수도 있습니다.',
-    related: 'Often = Sering! 반대말은 Jarang(드물게). 둘은 세트로 암기하세요.',
-    example_formal: 'Perusahaan ini sering mengadakan pelatihan untuk meningkatkan mutu staf.',
-    example_formal_kr: '이 회사는 직원의 자질 향상을 위해 자주 교육을 개최합니다.',
-    example_casual: 'Lu sering banget nongkrong di kafe ini ya?',
-    example_casual_kr: '너 이 카페에서 진짜 자주 시간 때우는구나?',
-    word_breakdown: [
-      { word: 'Perusahaan ini', meaning: '이 회사는' },
-      { word: 'sering', meaning: '자주' },
-      { word: 'mengadakan', meaning: '개최하다' },
-      { word: 'pelatihan', meaning: '교육/훈련' },
-      { word: 'untuk', meaning: '~하기 위해' },
-      { word: 'meningkatkan', meaning: '향상시키다' },
-      { word: 'mutu staf', meaning: '직원 자질/품질' }
+    "id": "disc_0010",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "akibatnya [[아끼밧냐]]",
+    "meaning": "그 결과로, 그 탓에",
+    "pos": "부사, 접속사",
+    "root": "akibat",
+    "affix_logic": "어근 'akibat'에 기반한 부사, 접속사 어휘",
+    "grammar_rule": "문장 내에서 부사, 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "hasilnya",
+    "antonym": "sebabnya",
+    "context": "실생활 및 회화 상황에서 '그 결과로, 그 탓에'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'akibat'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ia lalai, akibatnya proyek tertunda.",
+    "example_formal_kr": "그가 부주의하여 그 결과 프로젝트가 지연되었습니다.",
+    "example_casual": "Begadang semaleman, akibatnya kesiangan.",
+    "example_casual_kr": "밤샜더니 그 탓에 늦잠 잤잖아.",
+    "word_breakdown": [
+      {
+        "word": "akibatnya",
+        "meaning": "그 결과로"
+      }
     ]
   },
   {
-    id: 'disc_013',
-    category_id: 'discourse',
-    subcategory_id: 'frequency_degree_adverbs',
-    word: 'masih [[마시]]',
-    meaning: '여전히, 아직도, 계속해서',
-    pos: '부사',
-    root: 'masih',
-    affix_logic: '상태의 지속을 나타내는 시제/상태 보조사',
-    grammar_rule: '과거부터 시작된 상태나 행위가 현재까지 중단 없이 지속되고 있음을 나타냅니다.',
-    synonym: 'tetap (여전히/변함없이), belum selesai (아직 안 끝난)',
-    antonym: 'sudah tidak (더 이상 ~않다), telah usai (이미 끝난)',
-    context: '"아직 일하는 중이야", "그는 여전히 그곳에 살아" 같은 지속 상태.',
-    caution: 'belum(아직 안 함)과 혼동하지 마세요. masih는 "이미 하고 있는 상태가 지속"됨을 뜻합니다.',
-    related: 'Still = Masih! 아직 잔여 분량이나 상태가 남아있음을 뜻함.',
-    example_formal: 'Meskipun sudah pensiun, beliau masih aktif memberikan kontribusi pemikiran.',
-    example_formal_kr: '비록 이미 은퇴하셨으나, 그분은 여전히 활발히 고견을 전해주고 계십니다.',
-    example_casual: 'Lu masih di kantor? Jangan lupa makan ya.',
-    example_casual_kr: '너 아직 사무실이야? 밥 챙겨 먹는 거 잊지 마.',
-    word_breakdown: [
-      { word: 'Meskipun', meaning: '비록 ~일지라도' },
-      { word: 'sudah pensiun', meaning: '이미 은퇴하다' },
-      { word: 'beliau', meaning: '그분(존칭)' },
-      { word: 'masih', meaning: '여전히' },
-      { word: 'aktif', meaning: '활발하게' },
-      { word: 'memberikan', meaning: '주다/제공하다' },
-      { word: 'kontribusi pemikiran', meaning: '생각/의견 기여' }
+    "id": "disc_0011",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "agar [[아가르]]",
+    "meaning": "~하도록, ~하기 위하여",
+    "pos": "접속사",
+    "root": "agar",
+    "affix_logic": "어근 'agar'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "supaya",
+    "antonym": "jangan",
+    "context": "실생활 및 회화 상황에서 '~하도록, ~하기 위하여'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'agar'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Belajarlah agar lulus ujian.",
+    "example_formal_kr": "시험에 합격하도록 공부하세요.",
+    "example_casual": "Cepetan jalan biar nggak telat!",
+    "example_casual_kr": "늦지 않게 빨리 걸어!",
+    "word_breakdown": [
+      {
+        "word": "agar",
+        "meaning": "~하도록"
+      }
     ]
   },
   {
-    id: 'disc_014',
-    category_id: 'discourse',
-    subcategory_id: 'frequency_degree_adverbs',
-    word: 'ke depannya [[끄 드빤냐]]',
-    meaning: '앞으로는, 향후에는, 차후에',
-    pos: '부사, 관용구',
-    root: 'depan',
-    affix_logic: '전치사 ke(향하여) + 어근 depan(앞) + 접미사 -nya',
-    grammar_rule: '미래의 시점이나 앞으로 펼쳐질 계획/방침을 설명할 때 문두에 위치합니다.',
-    synonym: 'mulai sekarang (지금부터), di masa mendatang (향후에)',
-    antonym: 'sebelumnya (이전에는), dulu (예전에는)',
-    context: '업무 개선안 제시, 각오 다지기, 향후 비전 제시 시 필수 표현.',
-    caution: '공식 자리에서는 di masa depan 또는 untuk selanjutnya로 표현하기도 합니다.',
-    related: 'In the future / Moving forward = Ke depannya! 직장인 비즈니스 필수 표현.',
-    example_formal: 'Ke depannya, kami akan lebih memprioritaskan layanan kepuasan pelanggan.',
-    example_formal_kr: '앞으로는 저희가 고객 만족 서비스를 더욱 최우선시할 것입니다.',
-    example_casual: 'Ke depannya jangan diulangi lagi ya kesalahan kayak gini.',
-    example_casual_kr: '앞으로는 이런 실수 다시는 반복하지 마라, 알았지?',
-    word_breakdown: [
-      { word: 'Ke depannya', meaning: '앞으로는/향후에는' },
-      { word: 'kami', meaning: '저희(청자 제외)' },
-      { word: 'akan', meaning: '~할 것이다' },
-      { word: 'lebih', meaning: '더욱' },
-      { word: 'memprioritaskan', meaning: '우선순위를 두다' },
-      { word: 'layanan kepuasan pelanggan', meaning: '고객 만족 서비스' }
-    ]
-  },
-
-  // --- [소분류 1-4: 추측, 가정 & 양태 부사] ---
-  {
-    id: 'disc_015',
-    category_id: 'discourse',
-    subcategory_id: 'modal_speculation_adverbs',
-    word: 'jangan-jangan [[장안장안]]',
-    meaning: '혹시나, 설마 (~인 건 아닌가)',
-    pos: '부사',
-    root: 'jangan',
-    affix_logic: '금지사 jangan(~하지 마라)의 첩어로 "불길하거나 의심스러운 추측"을 형성',
-    grammar_rule: '불안하거나 의심스러운 가능성을 제기할 때 문장 맨 앞에 씁니다.',
-    synonym: 'barangkali (어쩌면), jangan sampai (설마 ~되지 않기를)',
-    antonym: 'pasti (확실히), tentu saja (물론)',
-    context: '기다리는 사람이 안 오거나 의심스러운 낌새가 있을 때 "설마...?" 하는 뉘앙스.',
-    caution: '단독 jangan은 "~하지 마라"는 금지지만, 두 번 반복하면 "설마/혹시나"가 됩니다!',
-    related: 'Jangan(하지 마)을 두 번 말하면 ➔ "설마 그런 일이 벌어지는 건 아니겠지?!"',
-    example_formal: 'Kita harus waspada, jangan-jangan ada kesalahan dalam data statistik ini.',
-    example_formal_kr: '우리는 경계해야 합니다. 혹시나 이 통계 데이터에 오류가 있는 것은 아닌지.',
-    example_casual: 'Jangan-jangan dia lupa kalau hari ini ada janji ketemu!',
-    example_casual_kr: '설마 걔 오늘 만나기로 한 약속 까먹은 거 아니야?!',
-    word_breakdown: [
-      { word: 'Kita', meaning: '우리는' },
-      { word: 'harus', meaning: '해야 한다' },
-      { word: 'waspada', meaning: '경계하다/조심하다' },
-      { word: 'jangan-jangan', meaning: '혹시나/설마' },
-      { word: 'ada', meaning: '있다' },
-      { word: 'kesalahan', meaning: '오류/실수' },
-      { word: 'dalam data statistik ini', meaning: '이 통계 데이터 안에' }
+    "id": "disc_0012",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "supaya [[수빠야]]",
+    "meaning": "~할 수 있도록, ~하기 위해",
+    "pos": "접속사",
+    "root": "supaya",
+    "affix_logic": "어근 'supaya'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "agar",
+    "antonym": "jangan",
+    "context": "실생활 및 회화 상황에서 '~할 수 있도록, ~하기 위해'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'supaya'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Minum obat supaya lekas sembuh.",
+    "example_formal_kr": "빨리 낫도록 약을 드세요.",
+    "example_casual": "Biar cepet kelar, kerjain bareng yuk.",
+    "example_casual_kr": "빨리 끝나게 같이 하자.",
+    "word_breakdown": [
+      {
+        "word": "supaya",
+        "meaning": "~할 수 있도록"
+      }
     ]
   },
   {
-    id: 'disc_016',
-    category_id: 'discourse',
-    subcategory_id: 'modal_speculation_adverbs',
-    word: 'mendingan [[믄딩안]]',
-    meaning: '차라리, 그나마 ~가 낫다',
-    pos: '부사, 형용사',
-    root: 'mending',
-    affix_logic: '어근 mending + 접미사 -an (구어 강조)',
-    grammar_rule: '두 가지 선택지 중 비교적 나은 쪽을 선택할 때 주어 뒤나 문두에 옵니다.',
-    synonym: 'lebih baik (더 낫다), lumayan (그나마 낫다)',
-    antonym: 'malah lebih buruk (오히려 더 나쁘다)',
-    context: '최선은 아니지만 차악을 선택하거나, 둘 중 더 현명한 대안을 제시할 때.',
-    caution: '격식 문서에서는 lebih baik을 쓰고, mending/mendingan은 일상 회화에서 씁니다.',
-    related: 'Rather / Better = Mendingan! 인도네시아인들이 입에 달고 사는 선택 어휘.',
-    example_formal: 'Daripada mengambil risiko tinggi, lebih baik kita menunda peluncuran produk.',
-    example_formal_kr: '높은 위험을 감수하느니, 차라리 제품 출시를 연기하는 편이 낫습니다.',
-    example_casual: 'Macet parah begini, mendingan kita naik MRT aja deh.',
-    example_casual_kr: '이렇게 차가 엄청 막히는데, 차라리 우리 MRT 타는 게 낫겠어.',
-    word_breakdown: [
-      { word: 'Macet parah begini', meaning: '이렇게 심하게 막히니' },
-      { word: 'mendingan', meaning: '차라리 ~가 낫다' },
-      { word: 'kita', meaning: '우리' },
-      { word: 'naik MRT', meaning: 'MRT를 타다' },
-      { word: 'aja deh', meaning: '그냥 ~하자' }
-    ]
-  },
-
-  // --- [소분류 1-6: 인도네시아 만능 추임새 & 조동사] ---
-  {
-    id: 'disc_017',
-    category_id: 'discourse',
-    subcategory_id: 'particles_discourse_markers',
-    word: 'sih [[시]]',
-    meaning: '~이긴 한데, 글쎄, ~말이야 (완곡/강조 추임새)',
-    pos: '감탄사, 담화 표지',
-    root: 'sih',
-    affix_logic: '자카르타 구어 특유의 불변 담화 표지사',
-    grammar_rule: '문장 중간이나 끝에 붙어 단정적인 말투를 부드럽게 완화하거나 화제를 부각시킵니다.',
-    synonym: 'sebenarnya (사실은/실은)',
-    antonym: 'pasti (단정적 어조)',
-    context: '"그렇긴 한데...", "내가 보기엔 말이지..." 처럼 부드럽게 의견을 피력할 때 필수.',
-    caution: '의문문에서 쓰이면 "Kok bisa sih? (도대체 어떻게 그럴 수가 있어?)"처럼 의아함을 나타냅니다.',
-    related: '현지인 회화력 200% 상승 치트키! 문장에 sih 하나만 얹어도 현지인 느낌 물씬!',
-    example_formal: 'Secara teori hal ini mungkin, tetapi implementasinya membutuhkan kajian mendalam.',
-    example_formal_kr: '이론적으로는 이것이 가능합니다만, 실행에는 심층적 검토가 필요합니다.',
-    example_casual: 'Bagus sih bajunya, tapi harganya kemahalan buat gue.',
-    example_casual_kr: '옷이 예쁘긴 한데, 나한테는 가격이 너무 비싸.',
-    word_breakdown: [
-      { word: 'Bagus', meaning: '좋다/예쁘다' },
-      { word: 'sih', meaning: '~하긴 한데(완곡)' },
-      { word: 'bajunya', meaning: '그 옷은' },
-      { word: 'tapi', meaning: '하지만' },
-      { word: 'harganya', meaning: '그 가격이' },
-      { word: 'kemahalan', meaning: '너무 비싼' },
-      { word: 'buat gue', meaning: '나에게는' }
+    "id": "disc_0013",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "lagipula [[라기뿔라]]",
+    "meaning": "게다가, 어차피 또",
+    "pos": "접속사",
+    "root": "pula",
+    "affix_logic": "어근 'pula'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "selain itu",
+    "antonym": "hanya saja",
+    "context": "실생활 및 회화 상황에서 '게다가, 어차피 또'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'pula'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Harganya mahal, lagipula kualitasnya biasa.",
+    "example_formal_kr": "가격이 비싸고 게다가 품질도 평범합니다.",
+    "example_casual": "Nggak usah pergi, lagipula udah malem.",
+    "example_casual_kr": "가지 마, 게다가 시간도 늦었잖아.",
+    "word_breakdown": [
+      {
+        "word": "lagipula",
+        "meaning": "게다가"
+      }
     ]
   },
   {
-    id: 'disc_018',
-    category_id: 'discourse',
-    subcategory_id: 'particles_discourse_markers',
-    word: 'dong [[동]]',
-    meaning: '당연하지, 제발 ~해줘, ~해야지 (권유/확신/애교 추임새)',
-    pos: '감탄사, 담화 표지',
-    root: 'dong',
-    affix_logic: '자카르타 구어 특유의 불변 담화 표지사',
-    grammar_rule: '문장 끝에 붙어 명령을 부드럽게 만들거나, 당연한 사실에 대한 자신감을 나타냅니다.',
-    synonym: 'tentu saja (물론이지), tolonglah (부탁해)',
-    antonym: 'jangan (하지 마라)',
-    context: '"Bagi dong! (나도 좀 나눠줘!)", "Pasti bisa dong! (당연히 할 수 있지!)".',
-    caution: '너무 윗사람에게 쓰면 다소 격식이 없고 버릇없게 느껴질 수 있으니 친한 사이에 쓰세요.',
-    related: '당연함을 어필할 때 끝에 "동!" 붙이기. 자신감 넘치는 인도네시아식 리액션!',
-    example_formal: 'Tentu saja kami berkomitmen untuk menyelesaikan proyek tepat waktu.',
-    example_formal_kr: '물론 저희는 정해진 시간 내에 프로젝트를 완수할 것을 약속드립니다.',
-    example_casual: 'Bantuin gue kelarin laporan ini dong, pusing banget nih.',
-    example_casual_kr: '나 이 보고서 끝내는 것 좀 도와줘 제발, 머리 터질 것 같아.',
-    word_breakdown: [
-      { word: 'Bantuin', meaning: '도와줘' },
-      { word: 'gue', meaning: '나를' },
-      { word: 'kelarin', meaning: '끝내다' },
-      { word: 'laporan ini', meaning: '이 보고서를' },
-      { word: 'dong', meaning: '제발/좀' },
-      { word: 'pusing banget', meaning: '너무 머리 아프다' },
-      { word: 'nih', meaning: '지금/여기' }
+    "id": "disc_0014",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "bahkan [[바흐깐]]",
+    "meaning": "심지어, 심지어는",
+    "pos": "부사",
+    "root": "bahkan",
+    "affix_logic": "어근 'bahkan'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "malahan",
+    "antonym": "hanya",
+    "context": "실생활 및 회화 상황에서 '심지어, 심지어는'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'bahkan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Bahkan anak kecil pun memahaminya.",
+    "example_formal_kr": "심지어 어린아이조차 이해합니다.",
+    "example_casual": "Bahkan dia sendiri nggak tau.",
+    "example_casual_kr": "심지어 걔 자신도 몰라.",
+    "word_breakdown": [
+      {
+        "word": "bahkan",
+        "meaning": "심지어"
+      }
     ]
   },
   {
-    id: 'disc_019',
-    category_id: 'discourse',
-    subcategory_id: 'particles_discourse_markers',
-    word: 'kok [[콕]]',
-    meaning: '어라?, 왜?, 어째서 (의아함/놀람의 의문사)',
-    pos: '부사, 감탄사',
-    root: 'kok',
-    affix_logic: '자카르타 구어 의문/놀람 표지사',
-    grammar_rule: '문장 첫머리에서 kenapa(왜)를 대신하거나, 문장 끝에서 의아함을 반문할 때 씁니다.',
-    synonym: 'kenapa (왜), mengapa (어찌하여)',
-    antonym: 'memang (원래 그렇다)',
-    context: '예상과 전혀 다른 상황을 보고 당황하거나 놀랐을 때 "어라? 왜 이러지?" 하는 상황.',
-    caution: '문장 끝에 쓰일 때는 "Nggak apa-apa kok (별일 아니야/진짜 괜찮아)" 처럼 안심시키는 뉘앙스가 됩니다.',
-    related: '문두의 kok = "어라 왜?", 문미의 kok = "진짜야 괜찮아!" 두 얼굴의 만능 단어!',
-    example_formal: 'Mengapa sistem tiba-tiba berhenti beroperasi tanpa adanya pemberitahuan?',
-    example_formal_kr: '어찌하여 사전 공지도 없이 시스템이 갑자기 작동을 멈추었습니까?',
-    example_casual: 'Kok lu bisa ada di sini? Bukannya lu lagi di Bali?',
-    example_casual_kr: '어라 너 어떻게 여기 있어? 너 지금 발리에 있는 거 아니었어?',
-    word_breakdown: [
-      { word: 'Kok', meaning: '어라 왜/어째서' },
-      { word: 'lu', meaning: '너' },
-      { word: 'bisa ada di sini', meaning: '여기 있을 수 있어' },
-      { word: 'Bukannya', meaning: '~인 거 아니었어?' },
-      { word: 'lu', meaning: '너' },
-      { word: 'lagi di Bali', meaning: '발리에 있는 중' }
+    "id": "disc_0015",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "malahan [[말라한]]",
+    "meaning": "오히려, 도리어",
+    "pos": "부사, 접속사",
+    "root": "malah",
+    "affix_logic": "어근 'malah'에 기반한 부사, 접속사 어휘",
+    "grammar_rule": "문장 내에서 부사, 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "justru",
+    "antonym": "sebenarnya",
+    "context": "실생활 및 회화 상황에서 '오히려, 도리어'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'malah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Bukannya membaik, malahan makin parah.",
+    "example_formal_kr": "나아지기는커녕 오히려 더 악화되었습니다.",
+    "example_casual": "Bukannya untung, malahan rugi bandar.",
+    "example_casual_kr": "이득은커녕 도리어 쫄딱 망했어.",
+    "word_breakdown": [
+      {
+        "word": "malahan",
+        "meaning": "오히려"
+      }
     ]
   },
   {
-    id: 'disc_020',
-    category_id: 'discourse',
-    subcategory_id: 'particles_discourse_markers',
-    word: 'deh [[데]]',
-    meaning: '~할게, ~하는 게 낫겠어 (결심/권유/체념)',
-    pos: '감탄사, 담화 표지',
-    root: 'deh',
-    affix_logic: '구어 종결 표지사',
-    grammar_rule: '문장 맨 끝에 붙어 화자의 결정, 타협, 혹은 상대를 향한 부드러운 제안을 굳힙니다.',
-    synonym: 'sudahlah (됐어/그만하자), baiklah (알았어/그렇게 하자)',
-    antonym: 'jangan (하지 마)',
-    context: '"Ya udah deh (에휴 알았어/그럼 그렇게 하자)", "Gue pergi dulu deh (나 먼저 가볼게)".',
-    caution: '고민 끝에 결론을 내리거나 아쉬운 마음으로 마무리할 때 붙는 뉘앙스입니다.',
-    related: 'Deh = 마침표 찍기! "그냥 이렇게 할게~" 할 때 문장 끝에 살포시 얹어주세요.',
-    example_formal: 'Baiklah, saya menyetujui keputusan bersama tersebut demi kelancaran tugas.',
-    example_formal_kr: '알겠습니다, 원활한 업무 진행을 위해 저는 해당 공동 결정에 동의하겠습니다.',
-    example_casual: 'Ya udah deh, gue ngalah aja kali ini.',
-    example_casual_kr: '에휴 알았어 그래, 이번엔 그냥 내가 양보할게.',
-    word_breakdown: [
-      { word: 'Ya udah deh', meaning: '에휴 알았어 그래' },
-      { word: 'gue', meaning: '내가' },
-      { word: 'ngalah', meaning: '양보하다/지다' },
-      { word: 'aja', meaning: '그냥/단지' },
-      { word: 'kali ini', meaning: '이번에는' }
+    "id": "disc_0016",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "justru [[주스뜨루]]",
+    "meaning": "오히려, 바로 그렇기에",
+    "pos": "부사",
+    "root": "justru",
+    "affix_logic": "어근 'justru'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "malahan",
+    "antonym": "sebaliknya",
+    "context": "실생활 및 회화 상황에서 '오히려, 바로 그렇기에'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'justru'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Kritik tersebut justru membangun mental tim.",
+    "example_formal_kr": "그 비판은 오히려 팀의 정신력을 강화했습니다.",
+    "example_casual": "Justru karena itu kita harus coba lagi!",
+    "example_casual_kr": "바로 그렇기 때문에 우리가 다시 도전해야지!",
+    "word_breakdown": [
+      {
+        "word": "justru",
+        "meaning": "오히려"
+      }
+    ]
+  },
+  {
+    "id": "disc_0017",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "walaupun [[왈라우뿐]]",
+    "meaning": "비록 ~일지라도, ~라 해도",
+    "pos": "접속사",
+    "root": "walau",
+    "affix_logic": "어근 'walau'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "meskipun",
+    "antonym": "karena",
+    "context": "실생활 및 회화 상황에서 '비록 ~일지라도, ~라 해도'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'walau'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Walaupun lelah, ia tetap tersenyum.",
+    "example_formal_kr": "비록 지쳤지만 그는 여전히 미소 짓습니다.",
+    "example_casual": "Walaupun mahal tetep gue beli.",
+    "example_casual_kr": "비싸도 난 무조건 살 거야.",
+    "word_breakdown": [
+      {
+        "word": "walaupun",
+        "meaning": "비록 ~일지라도"
+      }
+    ]
+  },
+  {
+    "id": "disc_0018",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "biarpun [[비아르뿐]]",
+    "meaning": "아무리 ~일지라도",
+    "pos": "접속사",
+    "root": "biar",
+    "affix_logic": "어근 'biar'에 기반한 접속사 어휘",
+    "grammar_rule": "문장 내에서 접속사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "meskipun",
+    "antonym": "karena",
+    "context": "실생활 및 회화 상황에서 '아무리 ~일지라도'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'biar'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Biarpun ditentang, ia pantang menyerah.",
+    "example_formal_kr": "아무리 반대에 부딪혀도 그는 결코 굴복하지 않습니다.",
+    "example_casual": "Biarpun hujan tetep nongkrong dong.",
+    "example_casual_kr": "비가 와도 당연히 놀러 나가야지.",
+    "word_breakdown": [
+      {
+        "word": "biarpun",
+        "meaning": "아무리 ~일지라도"
+      }
+    ]
+  },
+  {
+    "id": "disc_0019",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "tiba-tiba [[띠바띠바]]",
+    "meaning": "갑자기, 느닷없이",
+    "pos": "부사",
+    "root": "tiba",
+    "affix_logic": "어근 'tiba'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "mendadak",
+    "antonym": "perlahan",
+    "context": "실생활 및 회화 상황에서 '갑자기, 느닷없이'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'tiba'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Hujan turun secara tiba-tiba.",
+    "example_formal_kr": "비가 갑자기 내렸습니다.",
+    "example_casual": "Tiba-tiba dia nelpon gue.",
+    "example_casual_kr": "걔가 갑자기 나한테 전화하더라.",
+    "word_breakdown": [
+      {
+        "word": "tiba-tiba",
+        "meaning": "갑자기"
+      }
+    ]
+  },
+  {
+    "id": "disc_0020",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "mendadak [[믄다닥]]",
+    "meaning": "돌연, 불시에, 급작스럽게",
+    "pos": "부사",
+    "root": "dadak",
+    "affix_logic": "어근 'dadak'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tiba-tiba",
+    "antonym": "berangsur",
+    "context": "실생활 및 회화 상황에서 '돌연, 불시에, 급작스럽게'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'dadak'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Rapat dibatalkan secara mendadak.",
+    "example_formal_kr": "회의가 돌연 취소되었습니다.",
+    "example_casual": "Ada urusan mendadak nih bro.",
+    "example_casual_kr": "갑자기 급한 일이 생겼어.",
+    "word_breakdown": [
+      {
+        "word": "mendadak",
+        "meaning": "돌연"
+      }
+    ]
+  },
+  {
+    "id": "disc_0021",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "kebetulan [[끄브뚤란]]",
+    "meaning": "어쩌다, 우연히, 마침",
+    "pos": "부사",
+    "root": "betul",
+    "affix_logic": "어근 'betul'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tanpa sengaja",
+    "antonym": "sengaja",
+    "context": "실생활 및 회화 상황에서 '어쩌다, 우연히, 마침'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'betul'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Kebetulan saya ada di lokasi tersebut.",
+    "example_formal_kr": "마침 제가 그 현장에 있었습니다.",
+    "example_casual": "Kebetulan banget ketemu lu di sini!",
+    "example_casual_kr": "여기서 널 우연히 만나다니 대박!",
+    "word_breakdown": [
+      {
+        "word": "kebetulan",
+        "meaning": "어쩌다"
+      }
+    ]
+  },
+  {
+    "id": "disc_0022",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "awalnya [[아왈냐]]",
+    "meaning": "원래는, 처음에는",
+    "pos": "부사",
+    "root": "awal",
+    "affix_logic": "어근 'awal'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "semula",
+    "antonym": "akhirnya",
+    "context": "실생활 및 회화 상황에서 '원래는, 처음에는'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'awal'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Awalnya rencana ini sangat sederhana.",
+    "example_formal_kr": "원래 이 계획은 매우 단순했습니다.",
+    "example_casual": "Awalnya gue nggak mau ikut.",
+    "example_casual_kr": "처음엔 나 안 가려고 했어.",
+    "word_breakdown": [
+      {
+        "word": "awalnya",
+        "meaning": "원래는"
+      }
+    ]
+  },
+  {
+    "id": "disc_0023",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "semula [[스물라]]",
+    "meaning": "애초에, 원래, 당초에",
+    "pos": "부사",
+    "root": "mula",
+    "affix_logic": "어근 'mula'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "awalnya",
+    "antonym": "akhirnya",
+    "context": "실생활 및 회화 상황에서 '애초에, 원래, 당초에'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'mula'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Jadwal semula telah mengalami perubahan.",
+    "example_formal_kr": "당초 일정에 변동이 생겼습니다.",
+    "example_casual": "Semula gue kira gampang, taunya susah.",
+    "example_casual_kr": "원래 쉬울 줄 알았는데 알고 보니 어렵더라.",
+    "word_breakdown": [
+      {
+        "word": "semula",
+        "meaning": "애초에"
+      }
+    ]
+  },
+  {
+    "id": "disc_0024",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "lantas [[란따스]]",
+    "meaning": "그러더니, 이어서",
+    "pos": "부사",
+    "root": "lantas",
+    "affix_logic": "어근 'lantas'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "lalu",
+    "antonym": "sebelumnya",
+    "context": "실생활 및 회화 상황에서 '그러더니, 이어서'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'lantas'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ia terdiam lantas mengangguk.",
+    "example_formal_kr": "그는 침묵하더니 고개를 끄덕였습니다.",
+    "example_casual": "Dia denger itu lantas kabur.",
+    "example_casual_kr": "그거 듣더니 바로 튀더라.",
+    "word_breakdown": [
+      {
+        "word": "lantas",
+        "meaning": "그러더니"
+      }
+    ]
+  },
+  {
+    "id": "disc_0025",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "akhirnya [[아키르냐]]",
+    "meaning": "결국, 마침내",
+    "pos": "부사",
+    "root": "akhir",
+    "affix_logic": "어근 'akhir'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "pada akhirnya",
+    "antonym": "awalnya",
+    "context": "실생활 및 회화 상황에서 '결국, 마침내'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'akhir'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Akhirnya proyek ini rampung.",
+    "example_formal_kr": "마침내 이 프로젝트가 완료되었습니다.",
+    "example_casual": "Akhirnya kelar juga tugas gue!",
+    "example_casual_kr": "드디어 과제 다 끝났다!",
+    "word_breakdown": [
+      {
+        "word": "akhirnya",
+        "meaning": "결국"
+      }
+    ]
+  },
+  {
+    "id": "disc_0026",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "ujung-ujungnya [[우중우중냐]]",
+    "meaning": "결국에는, 끝끝내 (구어)",
+    "pos": "부사",
+    "root": "ujung",
+    "affix_logic": "어근 'ujung'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "akhirnya",
+    "antonym": "awalnya",
+    "context": "실생활 및 회화 상황에서 '결국에는, 끝끝내 (구어)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'ujung'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Semua berujung pada kesimpulan sama.",
+    "example_formal_kr": "모든 것은 결국 동일한 결론으로 귀결됩니다.",
+    "example_casual": "Ujung-ujungnya pasti dia yang bayar.",
+    "example_casual_kr": "결국엔 걔가 돈 내게 될걸.",
+    "word_breakdown": [
+      {
+        "word": "ujung-ujungnya",
+        "meaning": "결국에는"
+      }
+    ]
+  },
+  {
+    "id": "disc_0027",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "seketika [[스끄띠까]]",
+    "meaning": "순식간에, 즉각, 그 자리에서",
+    "pos": "부사",
+    "root": "ketika",
+    "affix_logic": "어근 'ketika'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "langsung",
+    "antonym": "nanti",
+    "context": "실생활 및 회화 상황에서 '순식간에, 즉각, 그 자리에서'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'ketika'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Suasana seketika menjadi hening.",
+    "example_formal_kr": "분위기가 순식간에 숙연해졌습니다.",
+    "example_casual": "Gue seketika kaget denger itu.",
+    "example_casual_kr": "그거 듣고 그 자리에서 굳어버렸잖아.",
+    "word_breakdown": [
+      {
+        "word": "seketika",
+        "meaning": "순식간에"
+      }
+    ]
+  },
+  {
+    "id": "disc_0028",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "langsung [[랑숭]]",
+    "meaning": "곧바로, 즉시, 직접",
+    "pos": "부사",
+    "root": "langsung",
+    "affix_logic": "어근 'langsung'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "segera",
+    "antonym": "tertunda",
+    "context": "실생활 및 회화 상황에서 '곧바로, 즉시, 직접'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'langsung'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Silakan langsung menuju ruang rapat.",
+    "example_formal_kr": "곧바로 회의실로 향해 주십시오.",
+    "example_casual": "Abis ini langsung pulang ya.",
+    "example_casual_kr": "이거 끝나고 곧장 집에 가자.",
+    "word_breakdown": [
+      {
+        "word": "langsung",
+        "meaning": "곧바로"
+      }
+    ]
+  },
+  {
+    "id": "disc_0029",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "kelak [[끌락]]",
+    "meaning": "훗날, 언젠가, 장차",
+    "pos": "부사",
+    "root": "kelak",
+    "affix_logic": "어근 'kelak'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "nanti",
+    "antonym": "sekarang",
+    "context": "실생활 및 회화 상황에서 '훗날, 언젠가, 장차'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'kelak'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Kelak ia akan menjadi pemimpin besar.",
+    "example_formal_kr": "장차 그는 위대한 지도자가 될 것입니다.",
+    "example_casual": "Kelak lu bakal ngerti kenapa gue ngomong gini.",
+    "example_casual_kr": "훗날 네가 내 말뜻을 이해하게 될 거야.",
+    "word_breakdown": [
+      {
+        "word": "kelak",
+        "meaning": "훗날"
+      }
+    ]
+  },
+  {
+    "id": "disc_0030",
+    "category_id": "discourse",
+    "subcategory_id": "time_trigger_adverbs",
+    "word": "segera [[스그라]]",
+    "meaning": "즉시, 조속히, 지체 없이",
+    "pos": "부사",
+    "root": "segera",
+    "affix_logic": "어근 'segera'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "lekas",
+    "antonym": "lambat",
+    "context": "실생활 및 회화 상황에서 '즉시, 조속히, 지체 없이'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'segera'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Harap segera mengirimkan berkas.",
+    "example_formal_kr": "조속히 서류를 발송해 주시기 바랍니다.",
+    "example_casual": "Segera kabarin gue kalau udah nyampe.",
+    "example_casual_kr": "도착하면 바로 나한테 연락 줘.",
+    "word_breakdown": [
+      {
+        "word": "segera",
+        "meaning": "즉시"
+      }
+    ]
+  },
+  {
+    "id": "disc_0031",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "kadang-kadang [[까당까당]]",
+    "meaning": "가끔, 때때로",
+    "pos": "부사",
+    "root": "kadang",
+    "affix_logic": "어근 'kadang'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "terkadang",
+    "antonym": "selalu",
+    "context": "실생활 및 회화 상황에서 '가끔, 때때로'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'kadang'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Kadang-kadang kita butuh rehat.",
+    "example_formal_kr": "때때로 우리는 휴식이 필요합니다.",
+    "example_casual": "Kadang gue suka bengong sendiri.",
+    "example_casual_kr": "난 가끔 혼자 멍때릴 때가 있어.",
+    "word_breakdown": [
+      {
+        "word": "kadang-kadang",
+        "meaning": "가끔"
+      }
+    ]
+  },
+  {
+    "id": "disc_0032",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "sering [[스링]]",
+    "meaning": "자주, 흔히",
+    "pos": "부사",
+    "root": "sering",
+    "affix_logic": "어근 'sering'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kerap",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '자주, 흔히'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'sering'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Kami sering mengadakan seminar.",
+    "example_formal_kr": "저희는 자주 세미나를 엽니다.",
+    "example_casual": "Lu sering makan di sini ya?",
+    "example_casual_kr": "너 여기서 자주 밥 먹는구나?",
+    "word_breakdown": [
+      {
+        "word": "sering",
+        "meaning": "자주"
+      }
+    ]
+  },
+  {
+    "id": "disc_0033",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "masih [[마시]]",
+    "meaning": "여전히, 아직도",
+    "pos": "부사",
+    "root": "masih",
+    "affix_logic": "어근 'masih'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tetap",
+    "antonym": "sudah tidak",
+    "context": "실생활 및 회화 상황에서 '여전히, 아직도'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'masih'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Proses ini masih berlangsung.",
+    "example_formal_kr": "이 과정은 여전히 진행 중입니다.",
+    "example_casual": "Lu masih di kantor jam segini?",
+    "example_casual_kr": "너 이 시간까지 아직 사무실이야?",
+    "word_breakdown": [
+      {
+        "word": "masih",
+        "meaning": "여전히"
+      }
+    ]
+  },
+  {
+    "id": "disc_0034",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "ke depannya [[끄 드빤냐]]",
+    "meaning": "앞으로는, 향후에는",
+    "pos": "부사",
+    "root": "depan",
+    "affix_logic": "어근 'depan'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "mulai sekarang",
+    "antonym": "dulu",
+    "context": "실생활 및 회화 상황에서 '앞으로는, 향후에는'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'depan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ke depannya layanan akan ditingkatkan.",
+    "example_formal_kr": "앞으로는 서비스가 개선될 것입니다.",
+    "example_casual": "Ke depannya jangan diulangin ya.",
+    "example_casual_kr": "앞으로는 반복하지 마.",
+    "word_breakdown": [
+      {
+        "word": "ke",
+        "meaning": "앞으로는"
+      }
+    ]
+  },
+  {
+    "id": "disc_0035",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "selalu [[슬랄루]]",
+    "meaning": "항상, 언제나",
+    "pos": "부사",
+    "root": "selalu",
+    "affix_logic": "어근 'selalu'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "senantiasa",
+    "antonym": "tidak pernah",
+    "context": "실생활 및 회화 상황에서 '항상, 언제나'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'selalu'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ia selalu mematuhi peraturan.",
+    "example_formal_kr": "그는 항상 규칙을 준수합니다.",
+    "example_casual": "Lu selalu bikin gue ketawa.",
+    "example_casual_kr": "넌 항상 날 웃게 만들어.",
+    "word_breakdown": [
+      {
+        "word": "selalu",
+        "meaning": "항상"
+      }
+    ]
+  },
+  {
+    "id": "disc_0036",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "jarang [[자랑]]",
+    "meaning": "드물게, 거의 ~않다",
+    "pos": "부사",
+    "root": "jarang",
+    "affix_logic": "어근 'jarang'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "hampir tidak pernah",
+    "antonym": "sering",
+    "context": "실생활 및 회화 상황에서 '드물게, 거의 ~않다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'jarang'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Peristiwa ini sangat jarang terjadi.",
+    "example_formal_kr": "이 사건은 매우 드물게 일어납니다.",
+    "example_casual": "Gue jarang banget makan pedes.",
+    "example_casual_kr": "나 매운 거 진짜 거의 안 먹어.",
+    "word_breakdown": [
+      {
+        "word": "jarang",
+        "meaning": "드물게"
+      }
+    ]
+  },
+  {
+    "id": "disc_0037",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "hampir [[함삐르]]",
+    "meaning": "거의, 하마터면",
+    "pos": "부사",
+    "root": "hampir",
+    "affix_logic": "어근 'hampir'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "nyaris",
+    "antonym": "jauh",
+    "context": "실생활 및 회화 상황에서 '거의, 하마터면'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'hampir'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Proyek ini hampir selesai.",
+    "example_formal_kr": "이 프로젝트는 거의 끝났습니다.",
+    "example_casual": "Gue hampir jatuh tadi!",
+    "example_casual_kr": "나 아까 넘어질 뻔했잖아!",
+    "word_breakdown": [
+      {
+        "word": "hampir",
+        "meaning": "거의"
+      }
+    ]
+  },
+  {
+    "id": "disc_0038",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "terlalu [[떠를랄루]]",
+    "meaning": "너무, 지나치게",
+    "pos": "부사",
+    "root": "lalu",
+    "affix_logic": "어근 'lalu'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "teramat",
+    "antonym": "kurang",
+    "context": "실생활 및 회화 상황에서 '너무, 지나치게'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'lalu'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Harga ini terlalu mahal.",
+    "example_formal_kr": "이 가격은 너무 비쌉니다.",
+    "example_casual": "Jangan terlalu dipikirin.",
+    "example_casual_kr": "너무 깊게 생각하지 마.",
+    "word_breakdown": [
+      {
+        "word": "terlalu",
+        "meaning": "너무"
+      }
+    ]
+  },
+  {
+    "id": "disc_0039",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "senantiasa [[스난띠아사]]",
+    "meaning": "늘, 언제나, 한결같이 (격식)",
+    "pos": "부사",
+    "root": "senantiasa",
+    "affix_logic": "어근 'senantiasa'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "selalu",
+    "antonym": "kadang-kadang",
+    "context": "실생활 및 회화 상황에서 '늘, 언제나, 한결같이 (격식)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'senantiasa'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Semoga Tuhan senantiasa melindungi kita.",
+    "example_formal_kr": "신께서 늘 우리를 보호해 주시기를 바랍니다.",
+    "example_casual": "Hati ini senantiasa mengingatmu.",
+    "example_casual_kr": "이 마음은 늘 너를 기억하고 있어.",
+    "word_breakdown": [
+      {
+        "word": "senantiasa",
+        "meaning": "늘"
+      }
+    ]
+  },
+  {
+    "id": "disc_0040",
+    "category_id": "discourse",
+    "subcategory_id": "frequency_degree_adverbs",
+    "word": "sesekali [[스스깔리]]",
+    "meaning": "이따금씩, 가끔 한 번씩",
+    "pos": "부사",
+    "root": "kali",
+    "affix_logic": "어근 'kali'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kadang-kadang",
+    "antonym": "selalu",
+    "context": "실생활 및 회화 상황에서 '이따금씩, 가끔 한 번씩'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'kali'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Sesekali kita perlu berlibur.",
+    "example_formal_kr": "이따금 우리는 휴가를 떠날 필요가 있습니다.",
+    "example_casual": "Sesekali traktir gue makan dong.",
+    "example_casual_kr": "가끔 한 번씩 나 밥 좀 사줘라.",
+    "word_breakdown": [
+      {
+        "word": "sesekali",
+        "meaning": "이따금씩"
+      }
+    ]
+  },
+  {
+    "id": "disc_0041",
+    "category_id": "discourse",
+    "subcategory_id": "modal_speculation_adverbs",
+    "word": "jangan-jangan [[장안장안]]",
+    "meaning": "혹시나, 설마 (~인가)",
+    "pos": "부사",
+    "root": "jangan",
+    "affix_logic": "어근 'jangan'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "barangkali",
+    "antonym": "pasti",
+    "context": "실생활 및 회화 상황에서 '혹시나, 설마 (~인가)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'jangan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Waspada, jangan-jangan ada kesalahan.",
+    "example_formal_kr": "조심하세요, 혹시나 오류가 있을지.",
+    "example_casual": "Jangan-jangan dia lupa janji!",
+    "example_casual_kr": "설마 걔 약속 잊은 거 아냐!",
+    "word_breakdown": [
+      {
+        "word": "jangan-jangan",
+        "meaning": "혹시나"
+      }
+    ]
+  },
+  {
+    "id": "disc_0042",
+    "category_id": "discourse",
+    "subcategory_id": "modal_speculation_adverbs",
+    "word": "mendingan [[믄딩안]]",
+    "meaning": "차라리, 그나마 낫다",
+    "pos": "부사",
+    "root": "mending",
+    "affix_logic": "어근 'mending'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "lebih baik",
+    "antonym": "malah buruk",
+    "context": "실생활 및 회화 상황에서 '차라리, 그나마 낫다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'mending'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Lebih baik menunda daripada gagal.",
+    "example_formal_kr": "실패하느니 차라리 연기하는 게 낫습니다.",
+    "example_casual": "Mendingan naik MRT aja biar cepet.",
+    "example_casual_kr": "빨리 가게 차라리 MRT 타자.",
+    "word_breakdown": [
+      {
+        "word": "mendingan",
+        "meaning": "차라리"
+      }
+    ]
+  },
+  {
+    "id": "disc_0043",
+    "category_id": "discourse",
+    "subcategory_id": "modal_speculation_adverbs",
+    "word": "rupanya [[루빠냐]]",
+    "meaning": "알고 보니, 겉보기에",
+    "pos": "부사",
+    "root": "rupa",
+    "affix_logic": "어근 'rupa'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tampaknya",
+    "antonym": "sebenarnya",
+    "context": "실생활 및 회화 상황에서 '알고 보니, 겉보기에'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'rupa'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Rupanya masalah ini lebih rumit.",
+    "example_formal_kr": "알고 보니 이 문제는 더 복잡했습니다.",
+    "example_casual": "Rupanya lu yang ngambil kue gue!",
+    "example_casual_kr": "알고 보니 네가 내 빵 먹은 거였구나!",
+    "word_breakdown": [
+      {
+        "word": "rupanya",
+        "meaning": "알고 보니"
+      }
+    ]
+  },
+  {
+    "id": "disc_0044",
+    "category_id": "discourse",
+    "subcategory_id": "modal_speculation_adverbs",
+    "word": "ternyata [[떠르냐따]]",
+    "meaning": "알고 보니, 뜻밖에",
+    "pos": "부사",
+    "root": "nyata",
+    "affix_logic": "어근 'nyata'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "rupanya",
+    "antonym": "katanya",
+    "context": "실생활 및 회화 상황에서 '알고 보니, 뜻밖에'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'nyata'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Laporan ini ternyata sangat akurat.",
+    "example_formal_kr": "이 보고서는 알고 보니 매우 정확했습니다.",
+    "example_casual": "Ternyata gampang banget bikin ini!",
+    "example_casual_kr": "알고 보니 이거 만들기 진짜 쉽네!",
+    "word_breakdown": [
+      {
+        "word": "ternyata",
+        "meaning": "알고 보니"
+      }
+    ]
+  },
+  {
+    "id": "disc_0045",
+    "category_id": "discourse",
+    "subcategory_id": "modal_speculation_adverbs",
+    "word": "barangkali [[바랑깔리]]",
+    "meaning": "어쩌면, 아마도",
+    "pos": "부사",
+    "root": "kali",
+    "affix_logic": "어근 'kali'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "mungkin",
+    "antonym": "pasti",
+    "context": "실생활 및 회화 상황에서 '어쩌면, 아마도'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'kali'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Barangkali beliau berhalangan hadir.",
+    "example_formal_kr": "어쩌면 그분께서 참석이 어려우실 수 있습니다.",
+    "example_casual": "Barangkali dia lagi sibuk.",
+    "example_casual_kr": "아마 걔 바쁜가 봐.",
+    "word_breakdown": [
+      {
+        "word": "barangkali",
+        "meaning": "어쩌면"
+      }
+    ]
+  },
+  {
+    "id": "disc_0046",
+    "category_id": "discourse",
+    "subcategory_id": "modal_speculation_adverbs",
+    "word": "masakan [[마사깐]]",
+    "meaning": "설마 그럴 리가, 어찌 ~하겠는가",
+    "pos": "부사, 감탄사",
+    "root": "masak",
+    "affix_logic": "어근 'masak'에 기반한 부사, 감탄사 어휘",
+    "grammar_rule": "문장 내에서 부사, 감탄사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "mana mungkin",
+    "antonym": "tentu saja",
+    "context": "실생활 및 회화 상황에서 '설마 그럴 리가, 어찌 ~하겠는가'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'masak'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Masakan hal sejelas ini tidak dimengerti?",
+    "example_formal_kr": "설마 이렇게 명확한 것을 이해하지 못하겠습니까?",
+    "example_casual": "Masakan lu nggak tau kabar seheboh ini?",
+    "example_casual_kr": "설마 너 이렇게 난리 난 소식을 모른다고?",
+    "word_breakdown": [
+      {
+        "word": "masakan",
+        "meaning": "설마 그럴 리가"
+      }
+    ]
+  },
+  {
+    "id": "disc_0047",
+    "category_id": "discourse",
+    "subcategory_id": "modal_speculation_adverbs",
+    "word": "seakan-akan [[스아깐아깐]]",
+    "meaning": "마치 ~인 것처럼",
+    "pos": "접속사, 부사",
+    "root": "akan",
+    "affix_logic": "어근 'akan'에 기반한 접속사, 부사 어휘",
+    "grammar_rule": "문장 내에서 접속사, 부사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "seolah-olah",
+    "antonym": "nyatanya",
+    "context": "실생활 및 회화 상황에서 '마치 ~인 것처럼'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'akan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Ia berbicara seakan-akan tahu segalanya.",
+    "example_formal_kr": "그는 마치 모든 것을 아는 것처럼 말합니다.",
+    "example_casual": "Lagaknya seakan-akan bos aja.",
+    "example_casual_kr": "지 혼자 마치 사장인 것처럼 굴어.",
+    "word_breakdown": [
+      {
+        "word": "seakan-akan",
+        "meaning": "마치 ~인 것처럼"
+      }
+    ]
+  },
+  {
+    "id": "disc_0048",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "sih [[시]]",
+    "meaning": "~이긴 한데, 글쎄",
+    "pos": "감탄사",
+    "root": "sih",
+    "affix_logic": "어근 'sih'에 기반한 감탄사 어휘",
+    "grammar_rule": "문장 내에서 감탄사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sebenarnya",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '~이긴 한데, 글쎄'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'sih'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Hal ini mungkin secara teori.",
+    "example_formal_kr": "이것은 이론상 가능합니다.",
+    "example_casual": "Bagus sih tapi mahal.",
+    "example_casual_kr": "좋긴 한데 비싸.",
+    "word_breakdown": [
+      {
+        "word": "sih",
+        "meaning": "~이긴 한데"
+      }
+    ]
+  },
+  {
+    "id": "disc_0049",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "dong [[동]]",
+    "meaning": "당연하지, 제발 좀",
+    "pos": "감탄사",
+    "root": "dong",
+    "affix_logic": "어근 'dong'에 기반한 감탄사 어휘",
+    "grammar_rule": "문장 내에서 감탄사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tentu",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '당연하지, 제발 좀'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'dong'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Kami siap membantu kapan saja.",
+    "example_formal_kr": "언제든 도울 준비가 되어 있습니다.",
+    "example_casual": "Bantuin gue dong bro!",
+    "example_casual_kr": "나 좀 도와줘 형씨!",
+    "word_breakdown": [
+      {
+        "word": "dong",
+        "meaning": "당연하지"
+      }
+    ]
+  },
+  {
+    "id": "disc_0050",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "kok [[콕]]",
+    "meaning": "어라?, 왜?, 어째서",
+    "pos": "감탄사",
+    "root": "kok",
+    "affix_logic": "어근 'kok'에 기반한 감탄사 어휘",
+    "grammar_rule": "문장 내에서 감탄사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kenapa",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '어라?, 왜?, 어째서'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'kok'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Mengapa lampu tiba-tiba padam?",
+    "example_formal_kr": "어찌하여 불이 갑자기 꺼졌습니까?",
+    "example_casual": "Kok lu bisa ada di sini?",
+    "example_casual_kr": "어라 너 어떻게 여기 있어?",
+    "word_breakdown": [
+      {
+        "word": "kok",
+        "meaning": "어라?"
+      }
+    ]
+  },
+  {
+    "id": "disc_0051",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "deh [[데]]",
+    "meaning": "~할게, ~하겠어",
+    "pos": "감탄사",
+    "root": "deh",
+    "affix_logic": "어근 'deh'에 기반한 감탄사 어휘",
+    "grammar_rule": "문장 내에서 감탄사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "baiklah",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '~할게, ~하겠어'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'deh'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Saya menyetujui opsi ini.",
+    "example_formal_kr": "저는 이 옵션에 동의합니다.",
+    "example_casual": "Ya udah deh gue ngalah.",
+    "example_casual_kr": "에휴 알았어 내가 양보할게.",
+    "word_breakdown": [
+      {
+        "word": "deh",
+        "meaning": "~할게"
+      }
+    ]
+  },
+  {
+    "id": "disc_0052",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "lho [[로]]",
+    "meaning": "어머나!, 저런! (놀람)",
+    "pos": "감탄사",
+    "root": "lho",
+    "affix_logic": "어근 'lho'에 기반한 감탄사 어휘",
+    "grammar_rule": "문장 내에서 감탄사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "ternyata",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '어머나!, 저런! (놀람)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'lho'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Sungguh di luar dugaan hal tersebut.",
+    "example_formal_kr": "그 일은 참으로 예상 밖이었습니다.",
+    "example_casual": "Lho, bukannya tadi udah pulang?",
+    "example_casual_kr": "어라?, 아까 집에 가지 않았어?",
+    "word_breakdown": [
+      {
+        "word": "lho",
+        "meaning": "어머나!"
+      }
+    ]
+  },
+  {
+    "id": "disc_0053",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "kan [[깐]]",
+    "meaning": "~잖아, 그렇지?",
+    "pos": "담화 표지",
+    "root": "bukan",
+    "affix_logic": "어근 'bukan'에 기반한 담화 표지 어휘",
+    "grammar_rule": "문장 내에서 담화 표지의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "bukan begitu",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '~잖아, 그렇지?'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'bukan'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Bukankah kita telah sepakat?",
+    "example_formal_kr": "우리가 이미 합의하지 않았습니까?",
+    "example_casual": "Udah gue bilang kan tadi!",
+    "example_casual_kr": "내가 아까 말했잖아, 그치!",
+    "word_breakdown": [
+      {
+        "word": "kan",
+        "meaning": "~잖아"
+      }
+    ]
+  },
+  {
+    "id": "disc_0054",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "toh [[또]]",
+    "meaning": "어차피, 결국에는 (~일 텐데)",
+    "pos": "담화 표지",
+    "root": "toh",
+    "affix_logic": "어근 'toh'에 기반한 담화 표지 어휘",
+    "grammar_rule": "문장 내에서 담화 표지의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "pada akhirnya",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '어차피, 결국에는 (~일 텐데)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'toh'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Keputusan akhir tetap berada di tangan direksi.",
+    "example_formal_kr": "최종 결정은 어차피 이사진의 손에 달려 있습니다.",
+    "example_casual": "Nggak usah khawatir, toh semua udah beres.",
+    "example_casual_kr": "걱정 마, 어차피 다 깔끔하게 정리됐는걸.",
+    "word_breakdown": [
+      {
+        "word": "toh",
+        "meaning": "어차피"
+      }
+    ]
+  },
+  {
+    "id": "disc_0055",
+    "category_id": "discourse",
+    "subcategory_id": "particles_discourse_markers",
+    "word": "nah [[나]]",
+    "meaning": "자 봐봐, 바로 그거야, 이제",
+    "pos": "감탄사",
+    "root": "nah",
+    "affix_logic": "어근 'nah'에 기반한 감탄사 어휘",
+    "grammar_rule": "문장 내에서 감탄사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "begitulah",
+    "antonym": "-",
+    "context": "실생활 및 회화 상황에서 '자 봐봐, 바로 그거야, 이제'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'nah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Nah, inilah pokok permasalahan yang sebenarnya.",
+    "example_formal_kr": "자, 이것이 바로 실제 문제의 핵심입니다.",
+    "example_casual": "Nah gitu dong, dari tadi kek!",
+    "example_casual_kr": "자 그래 바로 그거야! 진작 그럴 것이지!",
+    "word_breakdown": [
+      {
+        "word": "nah",
+        "meaning": "자 봐봐"
+      }
     ]
   }
 ];

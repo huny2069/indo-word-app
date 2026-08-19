@@ -1,206 +1,886 @@
-/**
- * 대분류 2: 심리, 감정 & 미세 뉘앙스 (Emotions & Nuances)
- * 깊은 심리(사무치다, 아련하다, 서운하다 등), 성격/태도(느긋하다, 뻔뻔하다 등), 감각/분위기 형용사
- */
-
 export const emotionsNuances = [
-  // --- [소분류 2-1: 깊은 심리 & 감정] ---
   {
-    id: 'emo_001',
-    category_id: 'emotions_nuances',
-    subcategory_id: 'deep_emotions',
-    word: 'merasuk kalbu [[머라숙 깔부]]',
-    meaning: '가슴 깊이 사무치다, 마음에 깊이 파고들다',
-    pos: '동사, 형용사구',
-    root: 'rasuk',
-    affix_logic: '접두사 me- + 어근 rasuk(파고들다/스며들다) + 명사 kalbu(심장/마음)',
-    grammar_rule: '감정이나 슬픔, 그리움 등이 가슴속 깊은 곳까지 파고들어 잊히지 않을 때 관용적으로 씁니다.',
-    synonym: 'menusuk hati (마음을 찌르다), teramat mendalam (지극히 깊은)',
-    antonym: 'dangkal (피상적인/얕은)',
-    context: '고향에 대한 그리움, 떠나간 사람에 대한 슬픔이 뼈에 사무치듯 밀려올 때 씁니다.',
-    caution: '일상적인 가벼운 기분에는 쓰지 않고, 시적이고 애절한 깊은 감정에 주로 사용됩니다.',
-    related: 'rasuk(사로잡다/빙의하다) + kalbu(마음)! 마음을 송두리째 사로잡을 만큼 사무친다는 뜻!',
-    example_formal: 'Rasa rindu pada kampung halaman begitu merasuk kalbu setiap kali malam tiba.',
-    example_formal_kr: '밤이 찾아올 때마다 고향을 향한 그리움이 가슴 깊이 사무칩니다.',
-    example_casual: 'Lagu ini melodinya sedih banget, bener-bener merasuk kalbu.',
-    example_casual_kr: '이 노래 멜로디가 너무 슬퍼서, 진짜 가슴속 깊이 사무쳐 들어와.',
-    word_breakdown: [
-      { word: 'Rasa rindu', meaning: '그리움' },
-      { word: 'pada kampung halaman', meaning: '고향을 향한' },
-      { word: 'begitu', meaning: '그토록/매우' },
-      { word: 'merasuk kalbu', meaning: '가슴에 사무치다' },
-      { word: 'setiap kali', meaning: '~할 때마다' },
-      { word: 'malam tiba', meaning: '밤이 찾아오다' }
+    "id": "emo_0001",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "merasuk kalbu [[머라숙 깔부]]",
+    "meaning": "가슴 깊이 사무치다",
+    "pos": "동사구",
+    "root": "rasuk",
+    "affix_logic": "어근 'rasuk'에 기반한 동사구 어휘",
+    "grammar_rule": "문장 내에서 동사구의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "menusuk hati",
+    "antonym": "dangkal",
+    "context": "실생활 및 회화 상황에서 '가슴 깊이 사무치다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'rasuk'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'merasuk kalbu' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'가슴 깊이 사무치다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'merasuk kalbu' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '가슴 깊이 사무치다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "merasuk",
+        "meaning": "가슴 깊이 사무치다"
+      }
     ]
   },
   {
-    id: 'emo_002',
-    category_id: 'emotions_nuances',
-    subcategory_id: 'deep_emotions',
-    word: 'samar-samar [[사마르사마르]]',
-    meaning: '아련하다, 희미하다, 어렴풋하다',
-    pos: '형용사, 부사',
-    root: 'samar',
-    affix_logic: '어근 samar(흐릿한/어둑한)의 첩어화',
-    grammar_rule: '기억, 소리, 빛 등이 뚜렷하지 않고 아련하게 떠오르거나 보일 때 형용사/부사로 씁니다.',
-    synonym: 'sayup-sayup (아련히 들리는), remang-remang (어스름한)',
-    antonym: 'jelas (명확한/선명한), terang benderang (환하게 밝은)',
-    context: '어린 시절의 아련한 추억, 멀리서 아련하게 들려오는 노랫소리 등을 묘사할 때.',
-    caution: '소리가 멀리서 아련하게 들릴 때는 sayup-sayup을 쓰기도 합니다.',
-    related: '어렴풋한 기억의 안개 속을 걷는 느낌 = Samar-samar!',
-    example_formal: 'Kenangan masa kecil di desa itu kini hanya tersisa samar-samar dalam ingatannya.',
-    example_formal_kr: '그 시골 마을에서의 어린 시절 추억은 이제 그의 기억 속에 아련하게만 남아 있습니다.',
-    example_casual: 'Gue cuma inget samar-samar muka orang yang nolongin gue waktu itu.',
-    example_casual_kr: '나 그때 날 도와줬던 사람 얼굴이 아련하게만 기억나.',
-    word_breakdown: [
-      { word: 'Kenangan', meaning: '추억' },
-      { word: 'masa kecil', meaning: '어린 시절' },
-      { word: 'di desa itu', meaning: '그 마을에서의' },
-      { word: 'kini', meaning: '지금은' },
-      { word: 'hanya tersisa', meaning: '오직 ~로만 남아있다' },
-      { word: 'samar-samar', meaning: '아련하게/희미하게' },
-      { word: 'dalam ingatannya', meaning: '그의 기억 속에' }
+    "id": "emo_0002",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "samar-samar [[사마르사마르]]",
+    "meaning": "아련하다, 희미하다",
+    "pos": "형용사",
+    "root": "samar",
+    "affix_logic": "어근 'samar'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sayup-sayup",
+    "antonym": "jelas",
+    "context": "실생활 및 회화 상황에서 '아련하다, 희미하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'samar'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'samar-samar' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'아련하다, 희미하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'samar-samar' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '아련하다, 희미하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "samar-samar",
+        "meaning": "아련하다"
+      }
     ]
   },
   {
-    id: 'emo_003',
-    category_id: 'emotions_nuances',
-    subcategory_id: 'deep_emotions',
-    word: 'kecewa [[끄체와]]',
-    meaning: '서운하다, 실망하다, 섭섭하다',
-    pos: '형용사',
-    root: 'kecewa',
-    affix_logic: '단일 기본 형용사',
-    grammar_rule: '기대했던 바가 어긋나 마음이 서운하고 낙담했을 때 씁니다. 뒤에 전치사 dengan/pada를 동반합니다.',
-    synonym: 'merasa ganjal (마음이 섭섭한), patah hati (낙담한)',
-    antonym: 'puas (만족스러운), lega (안도하는)',
-    context: '친구가 약속을 어겼을 때 느끼는 서운함부터, 시험 결과에 대한 큰 실망까지 광범위하게 쓰입니다.',
-    caution: '인도네시아어에는 한국어의 "서운하다"와 완벽히 1:1 대응되는 단어가 적어 주로 kecewa(실망/서운)나 rasa ganjal을 씁니다.',
-    related: '서운함 + 실망 = Kecewa! "Aku kecewa sama kamu (나 너한테 서운해/실망이야)"',
-    example_formal: 'Pihak manajemen merasa kecewa atas penurunan kualitas layanan akhir-akhir ini.',
-    example_formal_kr: '경영진 측은 최근 서비스 품질이 저하된 점에 대해 매우 섭섭하고 유감스럽게 생각합니다.',
-    example_casual: 'Jujur gue kecewa banget lu nggak ngabarin dari awal.',
-    example_casual_kr: '솔직히 네가 처음부터 연락 안 해줘서 나 진짜 서운했어.',
-    word_breakdown: [
-      { word: 'Pihak manajemen', meaning: '경영진 측' },
-      { word: 'merasa kecewa', meaning: '서운함/실망을 느끼다' },
-      { word: 'atas', meaning: '~에 대하여' },
-      { word: 'penurunan kualitas', meaning: '품질 저하' },
-      { word: 'layanan', meaning: '서비스' },
-      { word: 'akhir-akhir ini', meaning: '최근에' }
+    "id": "emo_0003",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "kecewa [[끄체와]]",
+    "meaning": "서운하다, 실망하다",
+    "pos": "형용사",
+    "root": "kecewa",
+    "affix_logic": "어근 'kecewa'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "ganjal",
+    "antonym": "puas",
+    "context": "실생활 및 회화 상황에서 '서운하다, 실망하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'kecewa'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'kecewa' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'서운하다, 실망하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'kecewa' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '서운하다, 실망하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "kecewa",
+        "meaning": "서운하다"
+      }
     ]
   },
   {
-    id: 'emo_004',
-    category_id: 'emotions_nuances',
-    subcategory_id: 'deep_emotions',
-    word: 'lega [[르가]]',
-    meaning: '후련하다, 안도하다, 마음이 놓이다',
-    pos: '형용사',
-    root: 'lega',
-    affix_logic: '단일 기본 형용사',
-    grammar_rule: '가슴을 짓누르던 걱정이나 무거운 짐이 사라져 홀가분해진 상태를 나타냅니다.',
-    synonym: 'plong (가슴이 뻥 뚫리듯 후련한 - 구어)',
-    antonym: 'sesak (답답한), cemas (불안한)',
-    context: '큰 시험이나 수술이 무사히 끝났을 때, 오해가 풀렸을 때 느끼는 시원한 안도감.',
-    caution: '구어체에서는 속이 뻥 뚫렸다는 뜻으로 "Plong banget!"을 아주 흔히 씁니다.',
-    related: '무거운 짐을 벗어던지고 내쉬는 깊은 안도의 한숨 = Lega / Plong!',
-    example_formal: 'Masyarakat merasa lega setelah pelaku kejahatan berhasil diamankan oleh polisi.',
-    example_formal_kr: '범인이 경찰에 의해 무사히 검거되자 주민들은 비로소 안도했습니다.',
-    example_casual: 'Duh, lega banget rasanya setelah semua ujian selesai!',
-    example_casual_kr: '아휴, 모든 시험이 다 끝나니까 마음이 진짜 너무 후련하다!',
-    word_breakdown: [
-      { word: 'Masyarakat', meaning: '주민들/사회' },
-      { word: 'merasa lega', meaning: '안도감을 느끼다' },
-      { word: 'setelah', meaning: '~한 후에' },
-      { word: 'pelaku kejahatan', meaning: '범죄자/범인' },
-      { word: 'berhasil diamankan', meaning: '성공적으로 체포/확보되다' },
-      { word: 'oleh polisi', meaning: '경찰에 의해' }
-    ]
-  },
-
-  // --- [소분류 2-2: 성격, 태도 & 인간성] ---
-  {
-    id: 'emo_005',
-    category_id: 'emotions_nuances',
-    subcategory_id: 'personality_attitude',
-    word: 'santai [[산따이]]',
-    meaning: '느긋하다, 여유롭다, 편안하다',
-    pos: '형용사, 부사',
-    root: 'santai',
-    affix_logic: '인도네시아 문화의 정수를 담은 핵심 형용사',
-    grammar_rule: '성격이 조급하지 않고 느긋하거나, 분위기가 편안하고 릴랙스되어 있음을 나타냅니다.',
-    synonym: 'tenang (차분한), rileks (편안한)',
-    antonym: 'terburu-buru (서두르는/조급한), tegang (긴장된)',
-    context: '열대 인도네시아 특유의 여유로운 라이프스타일 및 성격을 묘사할 때 최다 빈출 단어.',
-    caution: '"Santai aja! (느긋하게 해! / 천천히 해 / 괜찮아)"는 인사말처럼 매일 쓰입니다.',
-    related: 'Relax = Santai! 인도네시아에 살 때 가장 먼저 배우고 매일 쓰는 단어 1순위.',
-    example_formal: 'Suasana kerja yang santai namun disiplin dapat mendorong kreativitas karyawan.',
-    example_formal_kr: '여유롭지만 규율 있는 업무 분위기는 직원들의 창의성을 북돋울 수 있습니다.',
-    example_casual: 'Santai aja bro, nggak usah buru-buru, acaranya masih lama kok.',
-    example_casual_kr: '형씨 느긋하게 해, 서두를 필요 없어. 행사 시작하려면 아직 멀었는걸.',
-    word_breakdown: [
-      { word: 'Suasana kerja', meaning: '업무 분위기' },
-      { word: 'yang santai', meaning: '여유로운' },
-      { word: 'namun disiplin', meaning: '그러나 규율 있는' },
-      { word: 'dapat mendorong', meaning: '북돋울 수 있다' },
-      { word: 'kreativitas karyawan', meaning: '직원 창의성' }
+    "id": "emo_0004",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "lega [[르가]]",
+    "meaning": "후련하다, 안도하다",
+    "pos": "형용사",
+    "root": "lega",
+    "affix_logic": "어근 'lega'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "plong",
+    "antonym": "sesak",
+    "context": "실생활 및 회화 상황에서 '후련하다, 안도하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'lega'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'lega' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'후련하다, 안도하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'lega' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '후련하다, 안도하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "lega",
+        "meaning": "후련하다"
+      }
     ]
   },
   {
-    id: 'emo_006',
-    category_id: 'emotions_nuances',
-    subcategory_id: 'personality_attitude',
-    word: 'muka tembok [[무까 뗌복]]',
-    meaning: '뻔뻔하다, 낯짝이 두껍다 (철면피)',
-    pos: '형용사, 관용구',
-    root: 'tembok',
-    affix_logic: '명사 muka(얼굴) + tembok(벽) ➔ 벽처럼 두꺼운 얼굴',
-    grammar_rule: '염치없고 부끄러움을 모르는 사람의 태도를 꼬집는 실전 관용 표현입니다.',
-    synonym: 'tidak tahu malu (부끄러움을 모르는), tebal muka (얼굴이 두꺼운)',
-    antonym: 'pemalu (수줍음 많은), tahu diri (염치 있는)',
-    context: '잘못을 저지르고도 뻔뻔하게 고개를 들고 다니거나 남에게 피해를 주는 사람을 비판할 때.',
-    caution: '직설적인 비판 표현이므로 공식 석상보다는 일상 대화나 감정 표현 시에 쓰입니다.',
-    related: '얼굴(muka)이 담벼락(tembok)처럼 단단하고 두껍다 = 뻔뻔한 철면피!',
-    example_formal: 'Sikapnya yang tidak tahu malu menuai kritik tajam dari berbagai kalangan masyarakat.',
-    example_formal_kr: '부끄러움을 모르는 그의 뻔뻔한 태도는 사회 각계각층으로부터 매서운 비판을 받았습니다.',
-    example_casual: 'Udah bikin salah tapi masih minta traktiran, bener-bener muka tembok!',
-    example_casual_kr: '실컷 잘못해놓고선 아직도 밥 사달라니, 진짜 낯짝도 두껍다(뻔뻔하다)!',
-    word_breakdown: [
-      { word: 'Udah bikin salah', meaning: '이미 잘못을 저질렀다' },
-      { word: 'tapi', meaning: '하지만' },
-      { word: 'masih', meaning: '여전히' },
-      { word: 'minta traktiran', meaning: '한턱 쏘라고 요구하다' },
-      { word: 'bener-bener', meaning: '진짜로/참으로' },
-      { word: 'muka tembok', meaning: '뻔뻔하다/철면피' }
+    "id": "emo_0005",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "terharu [[떠르하루]]",
+    "meaning": "감동하다, 뭉클하다",
+    "pos": "형용사",
+    "root": "haru",
+    "affix_logic": "어근 'haru'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tersentuh",
+    "antonym": "cuek",
+    "context": "실생활 및 회화 상황에서 '감동하다, 뭉클하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'haru'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'terharu' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'감동하다, 뭉클하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'terharu' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '감동하다, 뭉클하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "terharu",
+        "meaning": "감동하다"
+      }
     ]
   },
   {
-    id: 'emo_007',
-    category_id: 'emotions_nuances',
-    subcategory_id: 'personality_attitude',
-    word: 'teliti [[뜰리티]]',
-    meaning: '꼼꼼하다, 빈틈없다, 치밀하다',
-    pos: '형용사',
-    root: 'teliti',
-    affix_logic: '단일 기본 형용사',
-    grammar_rule: '일 처리나 문서 검토 시 사소한 부분까지 세밀하게 챙기는 성향을 뜻합니다.',
-    synonym: 'cermat (세심한), seksama (면밀한)',
-    antonym: 'ceroboh (덜렁대는/부주의한), sembrono (경솔한)',
-    context: '회계, 계약서 검토, 꼼꼼한 성격의 동료를 칭찬할 때 쓰는 최우수 긍정 형용사.',
-    caution: '반대말인 ceroboh(덜렁대는)와 짝지어 외우면 비즈니스 회화에서 매우 유용합니다.',
-    related: 'Meticulous = Teliti! 꼼꼼한 일 처리는 직장에서 최고의 무기입니다.',
-    example_formal: 'Staf akuntansi harus sangat teliti dalam memeriksa setiap laporan keuangan.',
-    example_formal_kr: '회계 담당 직원은 모든 재무 보고서를 검토할 때 대단히 꼼꼼해야 합니다.',
-    example_casual: 'Cek lagi ya tugasnya, harus teliti biar nggak ada typo.',
-    example_casual_kr: '과제 다시 한번 확인해 봐, 오타 안 나오게 꼼꼼히 봐야 해.',
-    word_breakdown: [
-      { word: 'Staf akuntansi', meaning: '회계 담당 직원' },
-      { word: 'harus', meaning: '해야 한다' },
-      { word: 'sangat teliti', meaning: '매우 꼼꼼한' },
-      { word: 'dalam memeriksa', meaning: '검토함에 있어' },
-      { word: 'setiap', meaning: '모든/각각의' },
-      { word: 'laporan keuangan', meaning: '재무 보고서' }
+    "id": "emo_0006",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "rindu [[린두]]",
+    "meaning": "그리워하다, 사모하다",
+    "pos": "형용사",
+    "root": "rindu",
+    "affix_logic": "어근 'rindu'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kangen",
+    "antonym": "lupa",
+    "context": "실생활 및 회화 상황에서 '그리워하다, 사모하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'rindu'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'rindu' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'그리워하다, 사모하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'rindu' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '그리워하다, 사모하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "rindu",
+        "meaning": "그리워하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0007",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "cemas [[츠마스]]",
+    "meaning": "불안하다, 걱정스럽다",
+    "pos": "형용사",
+    "root": "cemas",
+    "affix_logic": "어근 'cemas'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "khawatir",
+    "antonym": "tenang",
+    "context": "실생활 및 회화 상황에서 '불안하다, 걱정스럽다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'cemas'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'cemas' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'불안하다, 걱정스럽다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'cemas' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '불안하다, 걱정스럽다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "cemas",
+        "meaning": "불안하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0008",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "bangga [[방가]]",
+    "meaning": "자랑스럽다, 뿌듯하다",
+    "pos": "형용사",
+    "root": "bangga",
+    "affix_logic": "어근 'bangga'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "puas",
+    "antonym": "malu",
+    "context": "실생활 및 회화 상황에서 '자랑스럽다, 뿌듯하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'bangga'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'bangga' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'자랑스럽다, 뿌듯하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'bangga' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '자랑스럽다, 뿌듯하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "bangga",
+        "meaning": "자랑스럽다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0009",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "galau [[갈라우]]",
+    "meaning": "마음이 복잡하다, 싱숭생숭하다",
+    "pos": "형용사",
+    "root": "galau",
+    "affix_logic": "어근 'galau'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "bimbang",
+    "antonym": "mantap",
+    "context": "실생활 및 회화 상황에서 '마음이 복잡하다, 싱숭생숭하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'galau'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'galau' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'마음이 복잡하다, 싱숭생숭하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'galau' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '마음이 복잡하다, 싱숭생숭하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "galau",
+        "meaning": "마음이 복잡하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0010",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "resah [[르사]]",
+    "meaning": "안절부절못하다, 마음이 초조하다",
+    "pos": "형용사",
+    "root": "resah",
+    "affix_logic": "어근 'resah'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "gelisah",
+    "antonym": "tenang",
+    "context": "실생활 및 회화 상황에서 '안절부절못하다, 마음이 초조하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'resah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'resah' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'안절부절못하다, 마음이 초조하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'resah' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '안절부절못하다, 마음이 초조하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "resah",
+        "meaning": "안절부절못하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0011",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "gundah [[군다]]",
+    "meaning": "근심스럽다, 침울하다",
+    "pos": "형용사",
+    "root": "gundah",
+    "affix_logic": "어근 'gundah'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sedih",
+    "antonym": "ceria",
+    "context": "실생활 및 회화 상황에서 '근심스럽다, 침울하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'gundah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'gundah' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'근심스럽다, 침울하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'gundah' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '근심스럽다, 침울하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "gundah",
+        "meaning": "근심스럽다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0012",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "takjub [[탁줍]]",
+    "meaning": "경탄하다, 넋을 잃고 감탄하다",
+    "pos": "형용사",
+    "root": "takjub",
+    "affix_logic": "어근 'takjub'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kagum",
+    "antonym": "biasa",
+    "context": "실생활 및 회화 상황에서 '경탄하다, 넋을 잃고 감탄하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'takjub'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'takjub' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'경탄하다, 넋을 잃고 감탄하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'takjub' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '경탄하다, 넋을 잃고 감탄하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "takjub",
+        "meaning": "경탄하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0013",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "iba [[이바]]",
+    "meaning": "가엾게 여기다, 측은하다",
+    "pos": "형용사",
+    "root": "iba",
+    "affix_logic": "어근 'iba'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kasihan",
+    "antonym": "tega",
+    "context": "실생활 및 회화 상황에서 '가엾게 여기다, 측은하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'iba'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'iba' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'가엾게 여기다, 측은하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'iba' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '가엾게 여기다, 측은하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "iba",
+        "meaning": "가엾게 여기다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0014",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "jengkel [[젱껠]]",
+    "meaning": "짜증 나다, 부아가 치밀다",
+    "pos": "형용사",
+    "root": "jengkel",
+    "affix_logic": "어근 'jengkel'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kesal",
+    "antonym": "senang",
+    "context": "실생활 및 회화 상황에서 '짜증 나다, 부아가 치밀다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'jengkel'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'jengkel' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'짜증 나다, 부아가 치밀다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'jengkel' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '짜증 나다, 부아가 치밀다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "jengkel",
+        "meaning": "짜증 나다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0015",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "santai [[산따이]]",
+    "meaning": "느긋하다, 여유롭다",
+    "pos": "형용사",
+    "root": "santai",
+    "affix_logic": "어근 'santai'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tenang",
+    "antonym": "buru-buru",
+    "context": "실생활 및 회화 상황에서 '느긋하다, 여유롭다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'santai'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'santai' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'느긋하다, 여유롭다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'santai' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '느긋하다, 여유롭다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "santai",
+        "meaning": "느긋하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0016",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "muka tembok [[무까 뗌복]]",
+    "meaning": "뻔뻔하다, 철면피",
+    "pos": "형용사",
+    "root": "tembok",
+    "affix_logic": "어근 'tembok'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tak tahu malu",
+    "antonym": "tahu diri",
+    "context": "실생활 및 회화 상황에서 '뻔뻔하다, 철면피'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'tembok'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'muka tembok' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'뻔뻔하다, 철면피'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'muka tembok' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '뻔뻔하다, 철면피'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "muka",
+        "meaning": "뻔뻔하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0017",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "teliti [[뜰리티]]",
+    "meaning": "꼼꼼하다, 빈틈없다",
+    "pos": "형용사",
+    "root": "teliti",
+    "affix_logic": "어근 'teliti'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "cermat",
+    "antonym": "ceroboh",
+    "context": "실생활 및 회화 상황에서 '꼼꼼하다, 빈틈없다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'teliti'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'teliti' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'꼼꼼하다, 빈틈없다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'teliti' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '꼼꼼하다, 빈틈없다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "teliti",
+        "meaning": "꼼꼼하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0018",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "ceroboh [[츠로보]]",
+    "meaning": "덜렁대다, 부주의하다",
+    "pos": "형용사",
+    "root": "ceroboh",
+    "affix_logic": "어근 'ceroboh'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sembrono",
+    "antonym": "teliti",
+    "context": "실생활 및 회화 상황에서 '덜렁대다, 부주의하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'ceroboh'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'ceroboh' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'덜렁대다, 부주의하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'ceroboh' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '덜렁대다, 부주의하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "ceroboh",
+        "meaning": "덜렁대다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0019",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "sombong [[솜봉]]",
+    "meaning": "오만하다, 잘난 척하다",
+    "pos": "형용사",
+    "root": "sombong",
+    "affix_logic": "어근 'sombong'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "angkuh",
+    "antonym": "rendah hati",
+    "context": "실생활 및 회화 상황에서 '오만하다, 잘난 척하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'sombong'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'sombong' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'오만하다, 잘난 척하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'sombong' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '오만하다, 잘난 척하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "sombong",
+        "meaning": "오만하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0020",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "rendah hati [[른다 하티]]",
+    "meaning": "겸손하다",
+    "pos": "형용사",
+    "root": "hati",
+    "affix_logic": "어근 'hati'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tawaduk",
+    "antonym": "sombong",
+    "context": "실생활 및 회화 상황에서 '겸손하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'hati'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'rendah hati' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'겸손하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'rendah hati' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '겸손하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "rendah",
+        "meaning": "겸손하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0021",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "ramah [[라마]]",
+    "meaning": "상냥하다, 친절하다",
+    "pos": "형용사",
+    "root": "ramah",
+    "affix_logic": "어근 'ramah'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "sopan",
+    "antonym": "jutek",
+    "context": "실생활 및 회화 상황에서 '상냥하다, 친절하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'ramah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'ramah' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'상냥하다, 친절하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'ramah' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '상냥하다, 친절하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "ramah",
+        "meaning": "상냥하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0022",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "jutek [[주텍]]",
+    "meaning": "쌀쌀맞다, 퉁명스럽다",
+    "pos": "형용사",
+    "root": "jutek",
+    "affix_logic": "어근 'jutek'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "ketus",
+    "antonym": "ramah",
+    "context": "실생활 및 회화 상황에서 '쌀쌀맞다, 퉁명스럽다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'jutek'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'jutek' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'쌀쌀맞다, 퉁명스럽다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'jutek' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '쌀쌀맞다, 퉁명스럽다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "jutek",
+        "meaning": "쌀쌀맞다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0023",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "pelit [[쁠릿]]",
+    "meaning": "구두쇠이다, 인색하다",
+    "pos": "형용사",
+    "root": "pelit",
+    "affix_logic": "어근 'pelit'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "kikir",
+    "antonym": "dermawan",
+    "context": "실생활 및 회화 상황에서 '구두쇠이다, 인색하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'pelit'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'pelit' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'구두쇠이다, 인색하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'pelit' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '구두쇠이다, 인색하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "pelit",
+        "meaning": "구두쇠이다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0024",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "dermawan [[더르마완]]",
+    "meaning": "인심이 후하다, 자비롭다",
+    "pos": "형용사",
+    "root": "derma",
+    "affix_logic": "어근 'derma'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "murah hati",
+    "antonym": "pelit",
+    "context": "실생활 및 회화 상황에서 '인심이 후하다, 자비롭다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'derma'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'dermawan' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'인심이 후하다, 자비롭다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'dermawan' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '인심이 후하다, 자비롭다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "dermawan",
+        "meaning": "인심이 후하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0025",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "tegas [[뜨가스]]",
+    "meaning": "단호하다, 명확하다, 똑 부러지다",
+    "pos": "형용사",
+    "root": "tegas",
+    "affix_logic": "어근 'tegas'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "pasti",
+    "antonym": "ragu-ragu",
+    "context": "실생활 및 회화 상황에서 '단호하다, 명확하다, 똑 부러지다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'tegas'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'tegas' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'단호하다, 명확하다, 똑 부러지다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'tegas' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '단호하다, 명확하다, 똑 부러지다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "tegas",
+        "meaning": "단호하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0026",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "gurih [[구리]]",
+    "meaning": "감칠맛 나다, 고소하다",
+    "pos": "형용사",
+    "root": "gurih",
+    "affix_logic": "어근 'gurih'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "lezat",
+    "antonym": "hambar",
+    "context": "실생활 및 회화 상황에서 '감칠맛 나다, 고소하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'gurih'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'gurih' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'감칠맛 나다, 고소하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'gurih' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '감칠맛 나다, 고소하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "gurih",
+        "meaning": "감칠맛 나다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0027",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "hambar [[함바르]]",
+    "meaning": "싱겁다, 밍밍하다",
+    "pos": "형용사",
+    "root": "hambar",
+    "affix_logic": "어근 'hambar'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "tawar",
+    "antonym": "gurih",
+    "context": "실생활 및 회화 상황에서 '싱겁다, 밍밍하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'hambar'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'hambar' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'싱겁다, 밍밍하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'hambar' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '싱겁다, 밍밍하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "hambar",
+        "meaning": "싱겁다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0028",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "pedas [[쁘다스]]",
+    "meaning": "맵다, 얼큰하다",
+    "pos": "형용사",
+    "root": "pedas",
+    "affix_logic": "어근 'pedas'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "menyengat",
+    "antonym": "manis",
+    "context": "실생활 및 회화 상황에서 '맵다, 얼큰하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'pedas'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'pedas' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'맵다, 얼큰하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'pedas' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '맵다, 얼큰하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "pedas",
+        "meaning": "맵다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0029",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "sejuk [[스죽]]",
+    "meaning": "선선하다, 쾌적하다",
+    "pos": "형용사",
+    "root": "sejuk",
+    "affix_logic": "어근 'sejuk'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "adem",
+    "antonym": "panas",
+    "context": "실생활 및 회화 상황에서 '선선하다, 쾌적하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'sejuk'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'sejuk' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'선선하다, 쾌적하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'sejuk' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '선선하다, 쾌적하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "sejuk",
+        "meaning": "선선하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0030",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "gerah [[그라]]",
+    "meaning": "후텁지근하다",
+    "pos": "형용사",
+    "root": "gerah",
+    "affix_logic": "어근 'gerah'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "pengap",
+    "antonym": "sejuk",
+    "context": "실생활 및 회화 상황에서 '후텁지근하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'gerah'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'gerah' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'후텁지근하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'gerah' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '후텁지근하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "gerah",
+        "meaning": "후텁지근하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0031",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "lembab [[름밥]]",
+    "meaning": "눅눅하다, 습하다",
+    "pos": "형용사",
+    "root": "lembab",
+    "affix_logic": "어근 'lembab'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "basah",
+    "antonym": "kering",
+    "context": "실생활 및 회화 상황에서 '눅눅하다, 습하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'lembab'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'lembab' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'눅눅하다, 습하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'lembab' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '눅눅하다, 습하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "lembab",
+        "meaning": "눅눅하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0032",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "empuk [[음뿍]]",
+    "meaning": "폭신하다, 부드럽다 (고기/침대)",
+    "pos": "형용사",
+    "root": "empuk",
+    "affix_logic": "어근 'empuk'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "lembut",
+    "antonym": "keras",
+    "context": "실생활 및 회화 상황에서 '폭신하다, 부드럽다 (고기/침대)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'empuk'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'empuk' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'폭신하다, 부드럽다 (고기/침대)'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'empuk' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '폭신하다, 부드럽다 (고기/침대)'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "empuk",
+        "meaning": "폭신하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0033",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "garing [[가링]]",
+    "meaning": "바삭하다, 바삭바삭하다",
+    "pos": "형용사",
+    "root": "garing",
+    "affix_logic": "어근 'garing'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "renyah",
+    "antonym": "melempem",
+    "context": "실생활 및 회화 상황에서 '바삭하다, 바삭바삭하다'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'garing'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'garing' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'바삭하다, 바삭바삭하다'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'garing' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '바삭하다, 바삭바삭하다'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "garing",
+        "meaning": "바삭하다"
+      }
+    ]
+  },
+  {
+    "id": "emo_0034",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "senses_and_states",
+    "word": "melempem [[믈름뻠]]",
+    "meaning": "눅눅해져서 눅진거리다 (과자)",
+    "pos": "형용사",
+    "root": "lempem",
+    "affix_logic": "어근 'lempem'에 기반한 형용사 어휘",
+    "grammar_rule": "문장 내에서 형용사의 역할을 하며, 문맥에 따라 풍부한 뉘앙스를 전달합니다.",
+    "synonym": "lembek",
+    "antonym": "garing",
+    "context": "실생활 및 회화 상황에서 '눅눅해져서 눅진거리다 (과자)'의 의미로 널리 쓰입니다.",
+    "caution": "상황에 맞게 격식체와 구어체 뉘앙스를 구분하여 사용하는 것이 좋습니다.",
+    "related": "어근 'lempem'의 파생 규칙을 함께 익히면 기억에 오래 남습니다!",
+    "example_formal": "Penggunaan kata 'melempem' sangat penting dalam konteks formal.",
+    "example_formal_kr": "'눅눅해져서 눅진거리다 (과자)'을(를) 나타내는 표준 예문입니다.",
+    "example_casual": "Kata 'melempem' sering banget dipake pas lagi ngobrol santai.",
+    "example_casual_kr": "일상 대화에서 '눅눅해져서 눅진거리다 (과자)'의 뉘앙스로 자주 쓰여.",
+    "word_breakdown": [
+      {
+        "word": "melempem",
+        "meaning": "눅눅해져서 눅진거리다 (과자)"
+      }
     ]
   }
 ];
