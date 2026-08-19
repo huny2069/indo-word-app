@@ -1688,5 +1688,135 @@ export const discourseConnectors = [
         "meaning": "~인 바와 같이"
       }
     ]
+  },
+  {
+    "id": "word_1787138414850_54gtg",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "dengan kata lain [[등안 까따 라인]]",
+    "meaning": "다시 말해서",
+    "pos": "부사구",
+    "root": "kata",
+    "affix_logic": "어근 'kata'에 기반한 부사구 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "yaitu, yakni",
+    "antonym": "sebaliknya",
+    "context": "실생활 및 회화/비즈니스 상황에서 '다시 말해서'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'kata'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'dengan kata lain' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'다시 말해서'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'dengan kata lain' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '다시 말해서'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "dengan",
+        "meaning": "다시 말해서"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_367tz",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "singkat kata [[싱깟 까따]]",
+    "meaning": "요약하자면, 한마디로",
+    "pos": "부사구",
+    "root": "singkat",
+    "affix_logic": "어근 'singkat'에 기반한 부사구 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "ringkasnya",
+    "antonym": "panjang lebar",
+    "context": "실생활 및 회화/비즈니스 상황에서 '요약하자면, 한마디로'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'singkat'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'singkat kata' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'요약하자면, 한마디로'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'singkat kata' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '요약하자면, 한마디로'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "singkat",
+        "meaning": "요약하자면"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_a3rbe",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "ringkasnya [[링까스냐]]",
+    "meaning": "간단히 말해",
+    "pos": "부사",
+    "root": "ringkas",
+    "affix_logic": "어근 'ringkas'에 기반한 부사 어휘",
+    "grammar_rule": "문장 내에서 부사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "singkatnya",
+    "antonym": "secara mendetail",
+    "context": "실생활 및 회화/비즈니스 상황에서 '간단히 말해'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'ringkas'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'ringkasnya' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'간단히 말해'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'ringkasnya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '간단히 말해'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "ringkasnya",
+        "meaning": "간단히 말해"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_88ouk",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "pada umumnya [[빠다 우뭄냐]]",
+    "meaning": "일반적으로는",
+    "pos": "부사구",
+    "root": "umum",
+    "affix_logic": "어근 'umum'에 기반한 부사구 어휘",
+    "grammar_rule": "문장 내에서 부사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "secara umum",
+    "antonym": "khususnya",
+    "context": "실생활 및 회화/비즈니스 상황에서 '일반적으로는'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'umum'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'pada umumnya' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'일반적으로는'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'pada umumnya' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '일반적으로는'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "pada",
+        "meaning": "일반적으로는"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_wdb6o",
+    "category_id": "discourse",
+    "subcategory_id": "logic_connectors",
+    "word": "khusus untuk [[쿠수스 운뚝]]",
+    "meaning": "특별히 ~를 위해",
+    "pos": "전치사구",
+    "root": "khusus",
+    "affix_logic": "어근 'khusus'에 기반한 전치사구 어휘",
+    "grammar_rule": "문장 내에서 전치사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "terutama untuk",
+    "antonym": "secara acak",
+    "context": "실생활 및 회화/비즈니스 상황에서 '특별히 ~를 위해'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'khusus'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'khusus untuk' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'특별히 ~를 위해'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'khusus untuk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '특별히 ~를 위해'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "khusus",
+        "meaning": "특별히 ~를 위해"
+      }
+    ]
   }
 ];

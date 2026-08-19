@@ -986,5 +986,109 @@ export const emotionsNuances = [
         "meaning": "시기 질투하다"
       }
     ]
+  },
+  {
+    "id": "word_1787138414850_xgxbb",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "deep_emotions",
+    "word": "cemburu buta [[쩜부루 부따]]",
+    "meaning": "눈먼 질투를 하다",
+    "pos": "형용사구",
+    "root": "cemburu",
+    "affix_logic": "어근 'cemburu'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "iri sekali",
+    "antonym": "percaya penuh",
+    "context": "실생활 및 회화/비즈니스 상황에서 '눈먼 질투를 하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'cemburu'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'cemburu buta' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'눈먼 질투를 하다'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'cemburu buta' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '눈먼 질투를 하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "cemburu",
+        "meaning": "눈먼 질투를 하다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_jo7gp",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "berjiwa besar [[버르지와 브사르]]",
+    "meaning": "도량이 넓다",
+    "pos": "형용사구",
+    "root": "jiwa",
+    "affix_logic": "어근 'jiwa'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "lapang dada",
+    "antonym": "sempit hati",
+    "context": "실생활 및 회화/비즈니스 상황에서 '도량이 넓다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'jiwa'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'berjiwa besar' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'도량이 넓다'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'berjiwa besar' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '도량이 넓다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "berjiwa",
+        "meaning": "도량이 넓다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_vlfgb",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "sempit hati [[슴빳 하티]]",
+    "meaning": "속이 좁다, 소심하다",
+    "pos": "형용사구",
+    "root": "sempit",
+    "affix_logic": "어근 'sempit'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "kikir, picik",
+    "antonym": "berjiwa besar",
+    "context": "실생활 및 회화/비즈니스 상황에서 '속이 좁다, 소심하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'sempit'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'sempit hati' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'속이 좁다, 소심하다'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'sempit hati' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '속이 좁다, 소심하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "sempit",
+        "meaning": "속이 좁다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_f56zq",
+    "category_id": "emotions_nuances",
+    "subcategory_id": "personality_attitude",
+    "word": "besar kepala [[브사르 끄빨라]]",
+    "meaning": "우쭐대다, 오만하다",
+    "pos": "형용사구",
+    "root": "besar",
+    "affix_logic": "어근 'besar'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "sombong, angkuh",
+    "antonym": "rendah hati",
+    "context": "실생활 및 회화/비즈니스 상황에서 '우쭐대다, 오만하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'besar'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'besar kepala' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'우쭐대다, 오만하다'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'besar kepala' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '우쭐대다, 오만하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "besar",
+        "meaning": "우쭐대다"
+      }
+    ]
   }
 ];

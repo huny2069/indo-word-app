@@ -570,5 +570,135 @@ export const dailyLivingVocab = [
         "meaning": "버스 정류장"
       }
     ]
+  },
+  {
+    "id": "word_1787138414850_4qs45",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "kopi tubruk [[꼬삐 뚜브룩]]",
+    "meaning": "인도네시아 전통 가루 커피",
+    "pos": "명사구",
+    "root": "kopi",
+    "affix_logic": "어근 'kopi'에 기반한 명사구 어휘",
+    "grammar_rule": "문장 내에서 명사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "kopi hitam tradisional",
+    "antonym": "kopi instan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '인도네시아 전통 가루 커피'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'kopi'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'kopi tubruk' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'인도네시아 전통 가루 커피'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'kopi tubruk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '인도네시아 전통 가루 커피'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kopi",
+        "meaning": "인도네시아 전통 가루 커피"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_acgwj",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "kopi susu gula aren [[꼬삐 수수 굴라 아렌]]",
+    "meaning": "야자당 라떼 커피",
+    "pos": "명사구",
+    "root": "kopi",
+    "affix_logic": "어근 'kopi'에 기반한 명사구 어휘",
+    "grammar_rule": "문장 내에서 명사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "kopi aren",
+    "antonym": "air teh",
+    "context": "실생활 및 회화/비즈니스 상황에서 '야자당 라떼 커피'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'kopi'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'kopi susu gula aren' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'야자당 라떼 커피'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'kopi susu gula aren' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '야자당 라떼 커피'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kopi",
+        "meaning": "야자당 라떼 커피"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_adhir",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "food_cooking_dining",
+    "word": "kerupuk [[끄루뿍]]",
+    "meaning": "인도네시아 전통 튀김 칩",
+    "pos": "명사",
+    "root": "kerupuk",
+    "affix_logic": "어근 'kerupuk'에 기반한 명사 어휘",
+    "grammar_rule": "문장 내에서 명사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "krupuk renyah",
+    "antonym": "nasi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '인도네시아 전통 튀김 칩'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'kerupuk'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'kerupuk' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'인도네시아 전통 튀김 칩'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'kerupuk' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '인도네시아 전통 튀김 칩'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kerupuk",
+        "meaning": "인도네시아 전통 튀김 칩"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_d48yk",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "papan tulis [[빠판 뚜리스]]",
+    "meaning": "칠판, 화이트보드",
+    "pos": "명사구",
+    "root": "papan",
+    "affix_logic": "어근 'papan'에 기반한 명사구 어휘",
+    "grammar_rule": "문장 내에서 명사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "board",
+    "antonym": "buku",
+    "context": "실생활 및 회화/비즈니스 상황에서 '칠판, 화이트보드'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'papan'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'papan tulis' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'칠판, 화이트보드'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'papan tulis' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '칠판, 화이트보드'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "papan",
+        "meaning": "칠판"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_k697b",
+    "category_id": "daily_living_themes",
+    "subcategory_id": "home_appliances_living",
+    "word": "kartu nama [[까르뚜 나마]]",
+    "meaning": "비즈니스 명함",
+    "pos": "명사구",
+    "root": "kartu",
+    "affix_logic": "어근 'kartu'에 기반한 명사구 어휘",
+    "grammar_rule": "문장 내에서 명사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "namecard",
+    "antonym": "surat",
+    "context": "실생활 및 회화/비즈니스 상황에서 '비즈니스 명함'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'kartu'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'kartu nama' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'비즈니스 명함'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'kartu nama' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '비즈니스 명함'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kartu",
+        "meaning": "비즈니스 명함"
+      }
+    ]
   }
 ];

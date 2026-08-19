@@ -310,5 +310,57 @@ export const bipaTopics = [
         "meaning": "독립"
       }
     ]
+  },
+  {
+    "id": "word_1787138414850_mzrjk",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "kebijakan publik [[끄비자깐 뿌블릭]]",
+    "meaning": "공공 정책",
+    "pos": "명사구",
+    "root": "bijak",
+    "affix_logic": "어근 'bijak'에 기반한 명사구 어휘",
+    "grammar_rule": "문장 내에서 명사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "peraturan pemerintah",
+    "antonym": "kebijakan pribadi",
+    "context": "실생활 및 회화/비즈니스 상황에서 '공공 정책'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'bijak'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'kebijakan publik' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'공공 정책'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'kebijakan publik' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '공공 정책'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "kebijakan",
+        "meaning": "공공 정책"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_4hedr",
+    "category_id": "bipa_levels",
+    "subcategory_id": "bipa_advanced",
+    "word": "hubungan bilateral [[후붕안 비라뜨랄]]",
+    "meaning": "양국 외교 관계",
+    "pos": "명사구",
+    "root": "hubung",
+    "affix_logic": "어근 'hubung'에 기반한 명사구 어휘",
+    "grammar_rule": "문장 내에서 명사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "kerjasama antarnegara",
+    "antonym": "konflik",
+    "context": "실생활 및 회화/비즈니스 상황에서 '양국 외교 관계'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'hubung'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'hubungan bilateral' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'양국 외교 관계'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'hubungan bilateral' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '양국 외교 관계'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "hubungan",
+        "meaning": "양국 외교 관계"
+      }
+    ]
   }
 ];

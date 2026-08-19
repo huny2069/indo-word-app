@@ -414,5 +414,57 @@ export const slangDailySpoken = [
         "meaning": "카페/길거리 수다족"
       }
     ]
+  },
+  {
+    "id": "word_1787138414850_6oa84",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "mageran parah [[마게란 빠라]]",
+    "meaning": "극강의 귀차니스트",
+    "pos": "형용사구",
+    "root": "gerak",
+    "affix_logic": "어근 'gerak'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "pemalas sekali",
+    "antonym": "rajin banget",
+    "context": "실생활 및 회화/비즈니스 상황에서 '극강의 귀차니스트'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'gerak'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'mageran parah' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'극강의 귀차니스트'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'mageran parah' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '극강의 귀차니스트'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mageran",
+        "meaning": "극강의 귀차니스트"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_k6oae",
+    "category_id": "slang_daily_spoken",
+    "subcategory_id": "slang_abbreviations",
+    "word": "baperan banget [[바뻬란 방앗]]",
+    "meaning": "엄청 유리멘탈인",
+    "pos": "형용사구",
+    "root": "rasa",
+    "affix_logic": "어근 'rasa'에 기반한 형용사구 어휘",
+    "grammar_rule": "문장 내에서 형용사구의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "sensitif sekali",
+    "antonym": "cuek habisan",
+    "context": "실생활 및 회화/비즈니스 상황에서 '엄청 유리멘탈인'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'rasa'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'baperan banget' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'엄청 유리멘탈인'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'baperan banget' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '엄청 유리멘탈인'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "baperan",
+        "meaning": "엄청 유리멘탈인"
+      }
+    ]
   }
 ];

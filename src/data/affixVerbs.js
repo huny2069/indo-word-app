@@ -752,5 +752,57 @@ export const affixVerbs = [
         "meaning": "돌보다"
       }
     ]
+  },
+  {
+    "id": "word_1787138414850_wh6yx",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "memimpin [[머ميم삔]]",
+    "meaning": "이끌다, 리도하다",
+    "pos": "동사",
+    "root": "pimpin",
+    "affix_logic": "어근 'pimpin'에 기반한 동사 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "mengarahkan",
+    "antonym": "mengikuti",
+    "context": "실생활 및 회화/비즈니스 상황에서 '이끌다, 리도하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'pimpin'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'memimpin' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'이끌다, 리도하다'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'memimpin' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '이끌다, 리도하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "memimpin",
+        "meaning": "이끌다"
+      }
+    ]
+  },
+  {
+    "id": "word_1787138414850_p3kg0",
+    "category_id": "affix_verbs",
+    "subcategory_id": "me_active_verbs",
+    "word": "mengikuti [[멍이꾸띠]]",
+    "meaning": "따르다, 주시하다",
+    "pos": "동사",
+    "root": "ikut",
+    "affix_logic": "어근 'ikut'에 기반한 동사 어휘",
+    "grammar_rule": "문장 내에서 동사의 역할을 하며 유연하게 활용됩니다.",
+    "synonym": "mengekor",
+    "antonym": "memimpin",
+    "context": "실생활 및 회화/비즈니스 상황에서 '따르다, 주시하다'의 의미로 쓰입니다.",
+    "caution": "상대방과의 관계 및 문맥에 맞추어 사용하세요.",
+    "related": "어근 'ikut'의 파생 규칙을 함께 익히세요!",
+    "example_formal": "Penggunaan kata 'mengikuti' sangat lazim dalam bahasa Indonesia standar.",
+    "example_formal_kr": "'따르다, 주시하다'을(를) 뜻하는 격식체 표현입니다.",
+    "example_casual": "Kata 'mengikuti' sering dipakai dalam percakapan sehari-hari.",
+    "example_casual_kr": "일상 회화에서 '따르다, 주시하다'의 의미로 자주 쓰여요.",
+    "word_breakdown": [
+      {
+        "word": "mengikuti",
+        "meaning": "따르다"
+      }
+    ]
   }
 ];

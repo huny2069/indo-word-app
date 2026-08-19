@@ -6,10 +6,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TARGET_GOAL = 10000;
-console.log(`⚡ [1만 단어 영구 누적 데이터베이스 생성 엔진 가동 - 목표: ${TARGET_GOAL}개]`);
+console.log(`⚡ [1만 단어 도달을 위한 영구 누적 데이터베이스 확장 가동 - 목표: ${TARGET_GOAL}개]`);
 
-// 1. 기존 데이터 파일들 읽어오기 (덮어쓰지 않고 기존 데이터 보존!)
-function loadExistingData(filePath, exportName) {
+function loadExistingData(filePath) {
   try {
     if (!fs.existsSync(filePath)) return [];
     const content = fs.readFileSync(filePath, 'utf-8');
@@ -32,12 +31,12 @@ const slangFile = path.join(__dirname, 'src/data/slangDailySpoken.js');
 const bipaFile = path.join(__dirname, 'src/data/bipaTopics.js');
 const dailyLivingFile = path.join(__dirname, 'src/data/dailyLivingVocab.js');
 
-let existingDiscourse = loadExistingData(discourseFile, 'discourseConnectors');
-let existingEmotions = loadExistingData(emotionsFile, 'emotionsNuances');
-let existingAffix = loadExistingData(affixFile, 'affixVerbs');
-let existingSlang = loadExistingData(slangFile, 'slangDailySpoken');
-let existingBipa = loadExistingData(bipaFile, 'bipaTopics');
-let existingDailyLiving = loadExistingData(dailyLivingFile, 'dailyLivingVocab');
+let existingDiscourse = loadExistingData(discourseFile);
+let existingEmotions = loadExistingData(emotionsFile);
+let existingAffix = loadExistingData(affixFile);
+let existingSlang = loadExistingData(slangFile);
+let existingBipa = loadExistingData(bipaFile);
+let existingDailyLiving = loadExistingData(dailyLivingFile);
 
 const globalWordSet = new Set();
 
@@ -46,14 +45,14 @@ function cleanWordKey(w) {
   return w.split('[[')[0].trim().toLowerCase().replace(/[^a-z0-9\-\s]/g, '');
 }
 
-// 기존 데이터들을 globalWordSet에 등록
+// 기존 데이터 무중복 집계
 [...existingDiscourse, ...existingEmotions, ...existingAffix, ...existingSlang, ...existingBipa, ...existingDailyLiving].forEach(item => {
   if (item && item.word) {
     globalWordSet.add(cleanWordKey(item.word));
   }
 });
 
-console.log(`📌 기존 파일에서 로드된 고유 단어 수: ${globalWordSet.size}개`);
+console.log(`📌 기존 파일에 남아있는 고유 단어 수: ${globalWordSet.size}개`);
 
 function createWordItem(item) {
   const key = cleanWordKey(item.word);
@@ -78,15 +77,15 @@ function createWordItem(item) {
     meaning: item.meaning,
     pos: item.pos,
     root: rootWord,
-    affix_logic: item.affix_logic || `어근 '${rootWord}'에 기반한 ${item.pos} 파생 어휘`,
+    affix_logic: item.affix_logic || `어근 '${rootWord}'에 기반한 ${item.pos} 어휘`,
     grammar_rule: item.grammar_rule || `문장 내에서 ${item.pos}의 역할을 하며 유연하게 활용됩니다.`,
     synonym: synonymVal,
     antonym: antonymVal,
-    context: item.context || `실생활 대화 및 비즈니스 상황에서 '${item.meaning}'의 의미로 쓰입니다.`,
-    caution: item.caution || `상대방과의 관계에 따라 어조를 조절하세요.`,
-    related: item.related || `어근 '${rootWord}'와 관련된 어휘 파생어를 함께 공부해보세요.`,
-    example_formal: item.example_formal || `Penggunaan kata '${item.word}' sangat lazim dalam ragam resmi bahasa Indonesia.`,
-    example_formal_kr: item.example_formal_kr || `'${item.meaning}'을(를) 뜻하는 표준적인 표현입니다.`,
+    context: item.context || `실생활 및 회화/비즈니스 상황에서 '${item.meaning}'의 의미로 쓰입니다.`,
+    caution: item.caution || `상대방과의 관계 및 문맥에 맞추어 사용하세요.`,
+    related: item.related || `어근 '${rootWord}'의 파생 규칙을 함께 익히세요!`,
+    example_formal: item.example_formal || `Penggunaan kata '${item.word}' sangat lazim dalam bahasa Indonesia standar.`,
+    example_formal_kr: item.example_formal_kr || `'${item.meaning}'을(를) 뜻하는 격식체 표현입니다.`,
     example_casual: item.example_casual || `Kata '${item.word}' sering dipakai dalam percakapan sehari-hari.`,
     example_casual_kr: item.example_casual_kr || `일상 회화에서 '${item.meaning}'의 의미로 자주 쓰여요.`,
     word_breakdown: item.word_breakdown || [
@@ -95,79 +94,56 @@ function createWordItem(item) {
   };
 }
 
-// 2. 대규모 신규 단어 데이터셋 계속 추가!
-const newDiscourseList = [
-  { word: 'pada dasarnya', pron: '빠다 다사르냐', meaning: '기본적으로', pos: '부사구', root: 'dasar', cat: 'discourse', subcat: 'logic_connectors', syn: 'secara umum', ant: 'khususnya' },
-  { word: 'pada hakikatnya', pron: '빠다 하끼깟냐', meaning: '본질적으로는', pos: '부사구', root: 'hakikat', cat: 'discourse', subcat: 'logic_connectors', syn: 'sebenarnya', ant: 'tampaknya' },
-  { word: 'secara umum', pron: '스짜라 우뭄', meaning: '일반적으로', pos: '부사구', root: 'umum', cat: 'discourse', subcat: 'logic_connectors', syn: 'pada umumnya', ant: 'khususnya' },
-  { word: 'terlebih lagi', pron: '뜨르러비 라기', meaning: '하물며, 더군다나', pos: '부사구', root: 'lebih', cat: 'discourse', subcat: 'logic_connectors', syn: 'lagipula', ant: 'hanya saja' },
-  { word: 'sebagaimana', pron: '스바가이마나', meaning: '~인 바와 같이', pos: '접속사', root: 'bagaimana', cat: 'discourse', subcat: 'logic_connectors', syn: 'seperti halnya', ant: 'berbeda dari' }
+// 🚀 대규모 어휘 재충전 (실생활 20대 테마, BIPA, 슬랭, 접사파생동사, 연결어 등)
+const newWordsBatch = [
+  // 1. Discourse Connectors
+  { word: 'dengan kata lain', pron: '등안 까따 라인', meaning: '다시 말해서', pos: '부사구', root: 'kata', cat: 'discourse', subcat: 'logic_connectors', syn: 'yaitu, yakni', ant: 'sebaliknya' },
+  { word: 'singkat kata', pron: '싱깟 까따', meaning: '요약하자면, 한마디로', pos: '부사구', root: 'singkat', cat: 'discourse', subcat: 'logic_connectors', syn: 'ringkasnya', ant: 'panjang lebar' },
+  { word: 'ringkasnya', pron: '링까스냐', meaning: '간단히 말해', pos: '부사', root: 'ringkas', cat: 'discourse', subcat: 'logic_connectors', syn: 'singkatnya', ant: 'secara mendetail' },
+  { word: 'pada umumnya', pron: '빠다 우뭄냐', meaning: '일반적으로는', pos: '부사구', root: 'umum', cat: 'discourse', subcat: 'logic_connectors', syn: 'secara umum', ant: 'khususnya' },
+  { word: 'khusus untuk', pron: '쿠수스 운뚝', meaning: '특별히 ~를 위해', pos: '전치사구', root: 'khusus', cat: 'discourse', subcat: 'logic_connectors', syn: 'terutama untuk', ant: 'secara acak' },
+
+  // 2. Emotions & Nuances
+  { word: 'cemburu buta', pron: '쩜부루 부따', meaning: '눈먼 질투를 하다', pos: '형용사구', root: 'cemburu', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'iri sekali', ant: 'percaya penuh' },
+  { word: 'berjiwa besar', pron: '버르지와 브사르', meaning: '도량이 넓다', pos: '형용사구', root: 'jiwa', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'lapang dada', ant: 'sempit hati' },
+  { word: 'sempit hati', pron: '슴빳 하티', meaning: '속이 좁다, 소심하다', pos: '형용사구', root: 'sempit', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'kikir, picik', ant: 'berjiwa besar' },
+  { word: 'besar kepala', pron: '브사르 끄빨라', meaning: '우쭐대다, 오만하다', pos: '형용사구', root: 'besar', cat: 'emotions_nuances', subcat: 'personality_attitude', syn: 'sombong, angkuh', ant: 'rendah hati' },
+
+  // 3. Affix Verbs
+  { word: 'memimpin', pron: '머ميم삔', meaning: '이끌다, 리도하다', pos: '동사', root: 'pimpin', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'mengarahkan', ant: 'mengikuti' },
+  { word: 'mengikuti', pron: '멍이꾸띠', meaning: '따르다, 주시하다', pos: '동사', root: 'ikut', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'mengekor', ant: 'memimpin' },
+  { word: 'mengakhiri', pron: '멍아키리', meaning: '매듭짓다, 종결하다', pos: '동사', root: 'akhir', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'menuntaskan', ant: 'memulai' },
+  { word: 'memulai', pron: '멈무라이', meaning: '착수하다, 대두되다', pos: '동사', root: 'mula', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'mengawali', ant: 'mengakhiri' },
+
+  // 4. Slang & Spoken
+  { word: 'mageran parah', pron: '마게란 빠라', meaning: '극강의 귀차니스트', pos: '형용사구', root: 'gerak', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'pemalas sekali', ant: 'rajin banget' },
+  { word: 'baperan banget', pron: '바뻬란 방앗', meaning: '엄청 유리멘탈인', pos: '형용사구', root: 'rasa', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'sensitif sekali', ant: 'cuek habisan' },
+
+  // 5. BIPA Topics
+  { word: 'kebijakan publik', pron: '끄비자깐 뿌블릭', meaning: '공공 정책', pos: '명사구', root: 'bijak', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'peraturan pemerintah', ant: 'kebijakan pribadi' },
+  { word: 'hubungan bilateral', pron: '후붕안 비라뜨랄', meaning: '양국 외교 관계', pos: '명사구', root: 'hubung', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'kerjasama antarnegara', ant: 'konflik' },
+
+  // 6. Daily Living Vocab
+  { word: 'kopi tubruk', pron: '꼬삐 뚜브룩', meaning: '인도네시아 전통 가루 커피', pos: '명사구', root: 'kopi', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'kopi hitam tradisional', ant: 'kopi instan' },
+  { word: 'kopi susu gula aren', pron: '꼬삐 수수 굴라 아렌', meaning: '야자당 라떼 커피', pos: '명사구', root: 'kopi', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'kopi aren', ant: 'air teh' },
+  { word: 'kerupuk', pron: '끄루뿍', meaning: '인도네시아 전통 튀김 칩', pos: '명사', root: 'kerupuk', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'krupuk renyah', ant: 'nasi' },
+  { word: 'papan tulis', pron: '빠판 뚜리스', meaning: '칠판, 화이트보드', pos: '명사구', root: 'papan', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'board', ant: 'buku' },
+  { word: 'kartu nama', pron: '까르뚜 나마', meaning: '비즈니스 명함', pos: '명사구', root: 'kartu', cat: 'daily_living_themes', subcat: 'home_appliances_living', syn: 'namecard', ant: 'surat' }
 ];
 
-const newEmotionsList = [
-  { word: 'mabuk kepayang', pron: '마북 끄빠양', meaning: '상사병에 걸리다', pos: '형용사구', root: 'mabuk', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'bucin parah', ant: 'benci' },
-  { word: 'berbunga-bunga', pron: '버르붕아붕아', meaning: '가슴이 설레다', pos: '형용사', root: 'bunga', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'senang sekali', ant: 'gundah' },
-  { word: 'malu-malu kucing', pron: '말루말루 꿀찡', meaning: '내숭 떨다', pos: '형용사구', root: 'malu', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'jaim', ant: 'blak-blakan' },
-  { word: 'iri dengki', pron: '이리 덩끼', meaning: '시기 질투하다', pos: '형용사구', root: 'iri', cat: 'emotions_nuances', subcat: 'deep_emotions', syn: 'cemburu', ant: 'tulus' }
-];
-
-const newAffixList = [
-  { word: 'mendorong', pron: '믄도롱', meaning: '밀다, 촉진하다', pos: '동사', root: 'dorong', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'memotivasi', ant: 'menarik' },
-  { word: 'menarik', pron: '머나릭', meaning: '끌다, 매력적이다', pos: '동사', root: 'tarik', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'memikat', ant: 'mendorong' },
-  { word: 'mengunjungi', pron: '멍운중이', meaning: '방문하다', pos: '동사', root: 'kunjung', cat: 'affix_verbs', subcat: 'causative_locative_verbs', syn: 'mendatangi', ant: 'meninggalkan' },
-  { word: 'merawat', pron: '머라왓', meaning: '돌보다, 가꾸다', pos: '동사', root: 'rawat', cat: 'affix_verbs', subcat: 'me_active_verbs', syn: 'menjaga', ant: 'merusak' }
-];
-
-const newSlangList = [
-  { word: 'tedeng aling-aling', pron: '뜨등 알링알링', meaning: '숨김없이 솔직한', pos: '형용사구', root: 'aling', cat: 'slang_daily_spoken', subcat: 'slang_abbreviations', syn: 'blak-blakan', ant: 'jaim' },
-  { word: 'anak nongkrong', pron: '아낙 농끄롱', meaning: '카페/길거리 수다족', pos: '명사구', root: 'nongkrong', cat: 'slang_daily_spoken', subcat: 'daily_life_survival', syn: 'penggemar kumpul', ant: 'rumahan' }
-];
-
-const newBipaList = [
-  { word: 'pemerintahan', pron: '쁘머린따한', meaning: '정부 행정', pos: '명사', root: 'perintah', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'kabinet', ant: 'oposisi' },
-  { word: 'kemerdekaan', pron: '끄머르데까안', meaning: '독립, 자주', pos: '명사', root: 'merdeka', cat: 'bipa_levels', subcat: 'bipa_advanced', syn: 'kebebasan', ant: 'penjajahan' }
-];
-
-const newDailyLivingList = [
-  { word: 'ayam bakar', pron: '아얌 바까르', meaning: '숯불 닭구이', pos: '명사', root: 'bakar', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'ayam panggang', ant: 'ayam rebus' },
-  { word: 'ikan goreng', pron: '이깐 고렝', meaning: '생선 튀김', pos: '명사', root: 'ikan', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'ikan krispi', ant: 'ikan kukus' },
-  { word: 'jus alpukat', pron: '주스 알뿌깟', meaning: '아보카도 주스', pos: '명사', root: 'jus', cat: 'daily_living_themes', subcat: 'food_cooking_dining', syn: 'olahan alpukat', ant: 'air putih' },
-  { word: 'bandara', pron: '반다라', meaning: '공항', pos: '명사', root: 'udara', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'bandar udara', ant: 'stasiun' },
-  { word: 'halte bus', pron: '할뜨 버스', meaning: '버스 정류장', pos: '명사', root: 'halte', cat: 'daily_living_themes', subcat: 'transport_travel_map', syn: 'stasiun bus', ant: 'terminal' }
-];
-
-// 신규 단어들 추가 누적
-newDiscourseList.forEach((item, i) => {
-  const wordObj = createWordItem({ ...item, id: `disc_${existingDiscourse.length + i + 1}` });
-  if (wordObj) existingDiscourse.push(wordObj);
+newWordsBatch.forEach(item => {
+  const itemCompiled = createWordItem(item);
+  if (itemCompiled) {
+    if (item.cat === 'discourse') existingDiscourse.push(itemCompiled);
+    else if (item.cat === 'emotions_nuances') existingEmotions.push(itemCompiled);
+    else if (item.cat === 'affix_verbs') existingAffix.push(itemCompiled);
+    else if (item.cat === 'slang_daily_spoken') existingSlang.push(itemCompiled);
+    else if (item.cat === 'bipa_levels') existingBipa.push(itemCompiled);
+    else if (item.cat === 'daily_living_themes') existingDailyLiving.push(itemCompiled);
+  }
 });
 
-newEmotionsList.forEach((item, i) => {
-  const wordObj = createWordItem({ ...item, id: `emo_${existingEmotions.length + i + 1}` });
-  if (wordObj) existingEmotions.push(wordObj);
-});
-
-newAffixList.forEach((item, i) => {
-  const wordObj = createWordItem({ ...item, id: `aff_${existingAffix.length + i + 1}` });
-  if (wordObj) existingAffix.push(wordObj);
-});
-
-newSlangList.forEach((item, i) => {
-  const wordObj = createWordItem({ ...item, id: `slang_${existingSlang.length + i + 1}` });
-  if (wordObj) existingSlang.push(wordObj);
-});
-
-newBipaList.forEach((item, i) => {
-  const wordObj = createWordItem({ ...item, id: `bipa_${existingBipa.length + i + 1}` });
-  if (wordObj) existingBipa.push(wordObj);
-});
-
-newDailyLivingList.forEach((item, i) => {
-  const wordObj = createWordItem({ ...item, id: `life_${existingDailyLiving.length + i + 1}` });
-  if (wordObj) existingDailyLiving.push(wordObj);
-});
-
-// 파일에 누적 데이터 저장
+// 파일에 축적된 영구 누적 데이터 저장
 fs.writeFileSync(discourseFile, `export const discourseConnectors = ${JSON.stringify(existingDiscourse, null, 2)};\n`, 'utf-8');
 fs.writeFileSync(emotionsFile, `export const emotionsNuances = ${JSON.stringify(existingEmotions, null, 2)};\n`, 'utf-8');
 fs.writeFileSync(affixFile, `export const affixVerbs = ${JSON.stringify(existingAffix, null, 2)};\n`, 'utf-8');
@@ -179,8 +155,8 @@ const totalAccumulatedCount = globalWordSet.size;
 const remainingCount = TARGET_GOAL - totalAccumulatedCount;
 
 console.log(`\n======================================================`);
-console.log(`🎉 [누적 단어 카운트 검증 및 저장 성공]`);
-console.log(`- 전체 파일에 영구 누적된 총 고유 단어 수: ${totalAccumulatedCount}개`);
+console.log(`🎉 [누적 단어 검증 및 확장 성공]`);
+console.log(`- 파일에 누적 수록된 총 고유 단어 수: ${totalAccumulatedCount}개`);
 console.log(`- 1만 단어 목표까지 남은 단어 수: ${remainingCount}개`);
 console.log(`- 진행률: ${((totalAccumulatedCount / TARGET_GOAL) * 100).toFixed(2)}%`);
 console.log(`======================================================\n`);
