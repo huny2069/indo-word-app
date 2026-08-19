@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const TARGET_GOAL = 10000;
-console.log(`⚡ [1만 단어 달성을 위한 초대규모 500+ 대량 자동 생성 파이프라인 가동 - 목표: ${TARGET_GOAL}개]`);
+console.log(`⚡ [1만 단어 달성을 위한 초대규모 600+ 대량 자동 생성 파이프라인 가동 - 목표: ${TARGET_GOAL}개]`);
 
 function loadExistingData(filePath) {
   try {
@@ -94,25 +94,23 @@ function createWordItem(item) {
   };
 }
 
-// 🚀 2차 대규모 500+ 어휘 주입 어근 파이프라인
-const coreRootsBatch2 = [
-  'tunjuk', 'taruh', 'tumbuh', 'tolak', 'tukar', 'tanam', 'tembus', 'tanggung', 'tindih', 'tumpuk',
-  'angkat', 'atur', 'aduk', 'asing', 'ampun', 'ancam', 'adopsi', 'analisis', 'aplikasi', 'akses',
-  'bimbing', 'bina', 'bagi', 'balas', 'bentuk', 'bela', 'bebas', 'bakar', 'beku', 'bakar',
-  'cetak', 'cipata', 'bakar', 'buka', 'bantu', 'cabut', 'cukur', 'cuit', 'curi', 'cicip',
-  'didik', 'dorong', 'duga', 'dendam', 'daftar', 'darat', 'dengung', 'derita', 'darat', 'duri',
-  'edar', 'ekspor', 'impor', 'eja', 'evaluasi', 'efek', 'emang', 'eksekusi', 'edar', 'edukasi',
-  'fondasi', 'fokus', 'fasilitasi', 'fungsi', 'foto', 'format', 'fakta', 'filsafat', 'firasat', 'fisik',
-  'gantung', 'goreng', 'ganti', 'goyang', 'ganda', 'garap', 'gugat', 'goyah', 'genggam', 'gigi',
-  'hitung', 'hias', 'huni', 'hambat', 'hapus', 'harus', 'halang', 'harap', 'himpun', 'hidu',
-  'ikat', 'ikut', 'ingat', 'isi', 'imbau', 'inspeksi', 'investasi', 'inovasi', 'izin', 'iring',
-  'jual', 'jaga', 'jemput', 'jabat', 'jahit', 'jaring', 'jangkau', 'jajah', 'janjikan', 'jernih',
-  'kirim', 'kelola', 'kembali', 'kembang', 'kunci', 'kurang', 'kumpul', 'kejar', 'kaji', 'karang'
+// 🚀 3차 대규모 600+ 어휘 주입 어근 파이프라인
+const coreRootsBatch3 = [
+  'lapor', 'langgar', 'lukis', 'latih', 'lepas', 'lindung', 'layak', 'lontar', 'lulus', 'lurus',
+  'minta', 'mohon', 'mampu', 'muat', 'miliki', 'muara', 'makmur', 'merekah', 'miring', 'murnikan',
+  'nikmati', 'noda', 'nyala', 'nyata', 'nasihat', 'naung', 'nomor', 'nuklir', 'nona', 'nota',
+  'obati', 'olah', 'oper', 'oles', 'omong', 'orbit', 'organisasi', 'orientasi', 'opsi', 'otot',
+  'pakai', 'potong', 'pukuk', 'pilih', 'pimpin', 'pasang', 'pandang', 'pelihara', 'pikir', 'paut',
+  'rangsang', 'rebut', 'rancang', 'resmi', 'resap', 'racik', 'ramal', 'rangkul', 'revisi', 'rawat',
+  'simpan', 'sapa', 'siram', 'sewa', 'sebar', 'sebut', 'serang', 'saring', 'selamat', 'sumbang',
+  'tulis', 'tutup', 'tanya', 'terima', 'tahan', 'tanam', 'tangkap', 'timbang', 'terang', 'tuju',
+  'ukir', 'uji', 'ulang', 'ukur', 'undam', 'usul', 'upaya', 'umpan', 'usap', 'urai',
+  'variasi', 'verifikasi', 'vonis', 'vaksin', 'volume', 'vital', 'visi', 'vokal', 'vektor', 'ventilasi'
 ];
 
 let addedCount = 0;
 
-coreRootsBatch2.forEach(root => {
+coreRootsBatch3.forEach(root => {
   // 1. ber- 파생어
   const wordBer = `ber${root}`;
   const itemBer = createWordItem({
