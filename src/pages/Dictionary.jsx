@@ -742,7 +742,7 @@ const Dictionary = () => {
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
                       <button
-                        onClick={(e) => { e.stopPropagation(); playAudio(item.word.split(' ')[0], studyLang); }}
+                        onClick={(e) => { e.stopPropagation(); playAudio(item.word, studyLang); }}
                         style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '8px', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
                         title="발음 듣기"
                       >

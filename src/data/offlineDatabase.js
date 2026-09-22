@@ -38,7 +38,7 @@ export const searchOfflineWords = ({ categoryId = '', subcategoryId = '', keywor
     if (categoryId && item.category_id !== categoryId) return false;
     if (subcategoryId && item.subcategory_id !== subcategoryId) return false;
 
-    const cleanWord = item.word.split(' ')[0].toLowerCase();
+    const cleanWord = item.word.split('[[')[0].trim().toLowerCase();
     if (lowerExcludes.includes(cleanWord) || lowerExcludes.includes(item.word.toLowerCase())) {
       return false;
     }

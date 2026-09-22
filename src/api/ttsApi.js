@@ -7,6 +7,29 @@
 const containsHangul = (text) => /[\u3131-\uD79D]/.test(text);
 
 /**
+ * [v20.09] TTS 음성 합성 전 텍스트 정제 함수
+ * - [[발음기호]] 이중 대괄호 완벽 제거 (예: [[말루말루 꿀찡]], [[스아이은 이뚜]])
+ * - [발음기호] 단일 대괄호 완벽 제거
+ * - 비한국어 언어일 때 괄호 안 한글 발음 표기 (예: (말루말루), (사마르)) 제거
+ * - 다중 공백 정규화 및 트림
+ */
+export const cleanTtsText = (text, targetLang = null) => {
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text
+    // 1. [[발음]] 이중 대괄호 완벽 제거
+    .replace(/\[\[[\s\S]*?\]\]/g, '')
+    // 2. [발음] 단일 대괄호 완벽 제거
+    .replace(/\[[\s\S]*?\]/g, '');
+
+  // 3. 한국어가 아닌 언어(인도네시아어/영어)를 재생할 때 (한글발음) 표기 제거
+  if (targetLang !== 'ko') {
+    cleaned = cleaned.replace(/\([가-힣\s\-_.,~]+\)/g, '');
+  }
+
+  return cleaned.replace(/\s+/g, ' ').trim();
+};
+
+/**
  * 텍스트 언어 판별
  */
 const getLangType = (text, langOverride = null) => {
@@ -26,7 +49,8 @@ let prefetchedAudioMap = {};
  * 이로써 네트워크 레이턴시에 따른 재생 간격 끊김 딜레이를 100% 소멸시킵니다.
  */
 export async function prefetchGoogleAudio(text, lang) {
-  if (!text || prefetchedAudioMap[text] || isTtsCancelled) return;
+  const cleanedText = cleanTtsText(text, lang);
+  if (!cleanedText || prefetchedAudioMap[cleanedText] || isTtsCancelled) return;
   
   const accessToken = localStorage.getItem('gcp_access_token');
   const expiry = localStorage.getItem('gcp_token_expiry');
@@ -61,7 +85,7 @@ export async function prefetchGoogleAudio(text, lang) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        input: { text },
+        input: { text: cleanedText },
         voice: { languageCode: langCode, name: effectiveModel },
         audioConfig: { 
           audioEncoding: 'MP3',
@@ -74,8 +98,8 @@ export async function prefetchGoogleAudio(text, lang) {
       const data = await response.json();
       if (data.audioContent) {
         // 성공적으로 미리 받아온 Base64 오디오 컨텐츠를 메모리 맵에 보관
-        prefetchedAudioMap[text] = data.audioContent;
-        console.log(`[TTS-PREFETCH] 🚀 백그라운드 미리선점 완료: "${text.substring(0, 15)}..."`);
+        prefetchedAudioMap[cleanedText] = data.audioContent;
+        console.log(`[TTS-PREFETCH] 🚀 백그라운드 미리선점 완료: "${cleanedText.substring(0, 15)}..."`);
       }
     }
   } catch (err) {
@@ -99,6 +123,7 @@ export const stopTTS = () => {
 
 /**
  * 단일 텍스트 재생 (단어장 등에서 사용)
+ * [v20.09] 단어 뒤의 발음 표기([[...]])를 완벽 필터링하여 TTS가 발음 기호까지 읽어버리지 않도록 개선
  */
 export const playAudio = async (text, lang = null, voiceName = null) => {
   if (!text) return;
@@ -107,25 +132,29 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
   const isAudioEnabled = localStorage.getItem('is_audio_enabled') !== 'false';
   if (!isAudioEnabled) return;
 
-  const targetLang = getLangType(text, lang);
+  // [v20.09] 발음 기호([[말루말루 꿀찡]], [..])를 완전히 제거한 순수 단어/문장 정제
+  const cleanedText = cleanTtsText(text, lang);
+  if (!cleanedText) return;
+
+  const targetLang = getLangType(cleanedText, lang);
   const preferredEngine = localStorage.getItem('tts_engine') || 'google';
 
-  console.log(`[TTS] playAudio 호출 | 엔진: ${preferredEngine} | 언어: ${targetLang} | 텍스트: "${text.substring(0, 30)}..."`);
+  console.log(`[TTS] playAudio 호출 | 엔진: ${preferredEngine} | 언어: ${targetLang} | 원본: "${text.substring(0, 30)}" -> 정제: "${cleanedText}"`);
 
   try {
     if (preferredEngine === 'google') {
-      await playGoogleCloudTTS(text, targetLang, voiceName);
+      await playGoogleCloudTTS(cleanedText, targetLang, voiceName);
     } else if (preferredEngine === 'gemini') {
-      await playGeminiTTS(text, targetLang, voiceName);
+      await playGeminiTTS(cleanedText, targetLang, voiceName);
     } else {
-      await playWebSpeechTTS(text, targetLang);
+      await playWebSpeechTTS(cleanedText, targetLang);
     }
   } catch (error) {
     console.error(`[TTS] ❌ ${preferredEngine} 엔진 실패:`, error.message);
     // 프리미엄 엔진이 실패하면 브라우저 기본 TTS로 폴백
     if (!isTtsCancelled) {
       console.warn(`[TTS] ⚠️ 기본 Web Speech 폴백 실행`);
-      await playWebSpeechTTS(text, targetLang);
+      await playWebSpeechTTS(cleanedText, targetLang);
     }
   }
 };
@@ -149,8 +178,11 @@ export const playMixedAudio = async (text) => {
     return;
   }
 
+  // [v20.09] 강의 텍스트 내의 [[...]] 발음 표기 사전 정제
+  const purifiedText = cleanTtsText(text);
+
   // [v19.20] 알파벳(영어/인도네시아어) 단어 조각과 한글 조각을 정교하게 분리하는 정규식
-  const tokens = text.split(/([a-zA-Z]+[a-zA-Z\s]*[a-zA-Z]+|[a-zA-Z]+)/g).filter(t => t.trim().length > 0);
+  const tokens = purifiedText.split(/([a-zA-Z]+[a-zA-Z\s]*[a-zA-Z]+|[a-zA-Z]+)/g).filter(t => t.trim().length > 0);
   console.log(`[TTS-MIX] 총 ${tokens.length}개 조각으로 세부 언어별 분리됨`);
 
   // [v19.20] 재생 시작 직전, 미리 앞서갈 다음 3개 조각을 비동기 프리페치 큐에 비동기 주입(선장전)
@@ -212,13 +244,15 @@ async function playGeminiTTS(text, lang, modelOverride = null) {
 
   const langNames = { 'ko': '한국어(Korean)', 'id': '인도네시아어(Indonesian)', 'en': '영어(English)' };
   const langLabel = langNames[lang] || "인도네시아어(Indonesian)";
+  const targetText = cleanTtsText(text, lang);
+  if (!targetText) return;
 
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
   const response = await fetch(endpoint, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: `Read: "${text}" in ${langLabel}` }] }],
+      contents: [{ parts: [{ text: `Read: "${targetText}" in ${langLabel}` }] }],
       generationConfig: { response_modalities: ["AUDIO"] }
     })
   });
@@ -241,12 +275,15 @@ async function playGeminiTTS(text, lang, modelOverride = null) {
  * 상세 로깅 추가 - 어디서 실패하는지 정확히 파악 가능
  */
 async function playGoogleCloudTTS(text, lang, overrideModel = null) {
+  const targetText = cleanTtsText(text, lang);
+  if (!targetText) return;
+
   // [v19.20] 초강력 캐시 프리페치 버퍼 히트 인터셉터 장착!
   // 이미 비동기로 백그라운드에서 다운로드받아 둔 오디오 데이터가 있다면 즉각 지연시간 0ms로 낭독합니다.
-  if (prefetchedAudioMap[text]) {
-    console.log(`[GCP-TTS] ⚡ 캐시(Prefetched Buffer) 히트! 네트워크 딜레이 0ms 즉시 재생: "${text.substring(0, 15)}..."`);
-    const cachedAudio = prefetchedAudioMap[text];
-    delete prefetchedAudioMap[text]; // 메모리 릭 방지를 위한 캐시 정리
+  if (prefetchedAudioMap[targetText]) {
+    console.log(`[GCP-TTS] ⚡ 캐시(Prefetched Buffer) 히트! 네트워크 딜레이 0ms 즉시 재생: "${targetText.substring(0, 15)}..."`);
+    const cachedAudio = prefetchedAudioMap[targetText];
+    delete prefetchedAudioMap[targetText]; // 메모리 릭 방지를 위한 캐시 정리
     return playBase64Audio(cachedAudio);
   }
 
@@ -284,13 +321,13 @@ async function playGoogleCloudTTS(text, lang, overrideModel = null) {
     effectiveModel = defaultModels[lang] || defaultModels['id'];
   }
 
-  console.log(`[GCP-TTS] 요청 | 모델: ${effectiveModel} | 언어: ${langCode} | 텍스트길이: ${text.length}`);
+  console.log(`[GCP-TTS] 요청 | 모델: ${effectiveModel} | 언어: ${langCode} | 텍스트길이: ${targetText.length}`);
 
   const savedRate = localStorage.getItem('tts_speed') || '1.0';
   const speakingRate = parseFloat(savedRate);
 
   const requestBody = {
-    input: { text },
+    input: { text: targetText },
     voice: { languageCode: langCode, name: effectiveModel },
     audioConfig: { 
       audioEncoding: 'MP3',
@@ -357,8 +394,11 @@ export async function fetchGoogleVoices(accessToken) {
 export function playWebSpeechTTS(text, lang) {
   return new Promise((resolve) => {
     if (!('speechSynthesis' in window) || isTtsCancelled) return resolve();
+    const targetText = cleanTtsText(text, lang);
+    if (!targetText) return resolve();
+
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
+    const utterance = new SpeechSynthesisUtterance(targetText);
     const langCodes = { 'ko': 'ko-KR', 'id': 'id-ID', 'en': 'en-US' };
     utterance.lang = langCodes[lang] || 'id-ID';
     const savedRate = localStorage.getItem('tts_speed') || '1.0';

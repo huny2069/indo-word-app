@@ -151,7 +151,7 @@ const WordGenerate = () => {
   const handleAddSingleOfflineWord = async (item) => {
     try {
       const localWords = await getWords();
-      const isDuplicate = localWords.some(w => w.word.toLowerCase().includes(item.word.split(' ')[0].toLowerCase()));
+      const isDuplicate = localWords.some(w => normalizeWord(w.word) === normalizeWord(item.word));
       if (isDuplicate) {
         alert(`'${item.word}' 단어는 이미 단어장에 존재합니다.`);
         return;
@@ -186,7 +186,7 @@ const WordGenerate = () => {
       const addedList = [];
 
       for (const item of targetItems) {
-        const cleanKeyword = item.word.split(' ')[0].toLowerCase();
+        const cleanKeyword = normalizeWord(item.word);
         if (existingWordMap.has(cleanKeyword)) continue;
 
         const wordData = {
@@ -484,7 +484,7 @@ const WordGenerate = () => {
               <div style={{ marginTop: '1.2rem', borderTop: '1px solid #f1f3f5', paddingTop: '1rem', display: 'grid', gap: '0.8rem', maxHeight: '320px', overflowY: 'auto' }}>
                 <div style={{ fontSize: '0.85rem', color: '#888', fontWeight: '700' }}>검색 결과 {searchResults.length}건</div>
                 {searchResults.map(item => {
-                  const cleanKey = item.word.split(' ')[0].toLowerCase();
+                  const cleanKey = normalizeWord(item.word);
                   const isAdded = existingWordMap.has(cleanKey);
                   return (
                     <div key={item.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.8rem 1rem', background: '#fdfbf7', borderRadius: '15px', border: '1px solid #faeccb' }}>
@@ -667,7 +667,7 @@ const WordGenerate = () => {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
               {currentCategoryWords.map((item, index) => {
                 const isExpanded = expandedOfflineId === item.id;
-                const cleanKey = item.word.split(' ')[0].toLowerCase();
+                const cleanKey = normalizeWord(item.word);
                 const isAlreadyInDb = existingWordMap.has(cleanKey);
                 const isChecked = selectedOfflineIds.has(item.id);
 
@@ -729,7 +729,7 @@ const WordGenerate = () => {
 
                       <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
                         <button
-                          onClick={(e) => { e.stopPropagation(); playAudio(item.word.split(' ')[0], studyLang); }}
+                          onClick={(e) => { e.stopPropagation(); playAudio(item.word, studyLang); }}
                           style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '8px', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
                           title="발음 듣기"
                         >
@@ -947,7 +947,7 @@ const WordGenerate = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
                     <h3 style={{ margin: 0, color: 'var(--primary-color)', fontSize: '1.6rem', fontWeight: '900' }}>{w.word}</h3>
-                    <button onClick={() => playAudio(w.word.split(' ')[0], w.study_lang || studyLang)} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '10px', cursor: 'pointer' }}>
+                    <button onClick={() => playAudio(w.word, w.study_lang || studyLang)} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '10px', cursor: 'pointer' }}>
                         <Volume2 size={22} />
                     </button>
                   </div>

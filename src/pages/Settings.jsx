@@ -469,7 +469,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.08 (AI 재생성 JSON 시작 따옴표 누락 자동 복구 파서 및 2단계 자동 재시도 탑재)
+                버전 정보: v20.09 (TTS 단어 발음 [[...]] 읽기 방지 정제 필터 및 다단어 숙어 전수 발음 지원)
             </span>
         </div>
       </header>
