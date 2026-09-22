@@ -394,7 +394,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.05 (1만단어 사전 독립 메뉴 분리 및 사전 내 AI 정밀 재생성 기능 탑재)
+                버전 정보: v20.06 (1만단어 사전 내 AI 재생성 실시간 화면 반영 및 오버라이드 시스템 완비)
             </span>
         </div>
       </header>

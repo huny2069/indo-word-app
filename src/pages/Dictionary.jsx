@@ -4,14 +4,13 @@ import { playAudio } from '../api/ttsApi';
 import { regenerateWordData } from '../api/geminiApi';
 import { 
   BookOpen, Search, Volume2, BookmarkPlus, CheckSquare, Square, 
-  ChevronDown, ChevronUp, Sparkles, CheckCircle2, Layers, Loader2, ArrowRight
+  ChevronDown, ChevronUp, Sparkles, CheckCircle2, Layers, Loader2, ArrowRight, RotateCcw
 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 import { 
   getOfflineCategories, 
-  searchOfflineWords, 
   extractOfflineWords,
   ALL_OFFLINE_WORDS 
 } from '../data/offlineDatabase';
@@ -19,6 +18,20 @@ import {
 const Dictionary = () => {
   const { userLang, studyLang, t } = useLanguage();
   const navigate = useNavigate();
+
+  // 단어 정규화 헬퍼 (발음기호 [[...]], 대소문자, 공백 제거)
+  const normalizeWord = (str) => (str || '').split('[[')[0].trim().toLowerCase();
+
+  // 1만 단어 사전의 AI 재생성 오버라이드 맵 (localStorage 영구 보존)
+  const [dictOverrides, setDictOverrides] = useState(() => {
+    try {
+      const saved = localStorage.getItem('inko_dict_overrides');
+      return saved ? JSON.parse(saved) : {};
+    } catch (e) {
+      console.error('오버라이드 로드 실패:', e);
+      return {};
+    }
+  });
 
   // 오프라인 사전 카테고리 데이터
   const categories = useMemo(() => getOfflineCategories(), []);
@@ -42,9 +55,6 @@ const Dictionary = () => {
   const [isRegenerating, setIsRegenerating] = useState(false);
   const [regenStatus, setRegenStatus] = useState({ current: 0, total: 0, currentWord: '' });
 
-  // 단어 정규화 헬퍼 (발음기호 [[...]], 대소문자, 공백 제거)
-  const normalizeWord = (str) => (str || '').split('[[')[0].trim().toLowerCase();
-
   // 로컬 단어장 목록 로드
   const refreshLocalWords = async () => {
     try {
@@ -63,20 +73,45 @@ const Dictionary = () => {
     refreshLocalWords();
   }, []);
 
-  // 선택된 카테고리/소분류에 해당하는 전체 오프라인 단어 목록
+  // AI 재생성 오버라이드가 실시간으로 반영된 통합 단어 풀
+  const effectiveWords = useMemo(() => {
+    return ALL_OFFLINE_WORDS.map(item => {
+      const key = normalizeWord(item.word);
+      const override = dictOverrides[key];
+      if (override) {
+        return {
+          ...item,
+          ...override,
+          isAiRegenerated: true,
+          regeneratedAt: override.regeneratedAt
+        };
+      }
+      return item;
+    });
+  }, [dictOverrides]);
+
+  // 선택된 카테고리/소분류에 해당하는 전체 오프라인 단어 목록 (오버라이드 적용)
   const currentCategoryWords = useMemo(() => {
-    return ALL_OFFLINE_WORDS.filter(item => {
+    return effectiveWords.filter(item => {
       if (selectedCatId && item.category_id !== selectedCatId) return false;
       if (selectedSubCatId && item.subcategory_id !== selectedSubCatId) return false;
       return true;
     });
-  }, [selectedCatId, selectedSubCatId]);
+  }, [effectiveWords, selectedCatId, selectedSubCatId]);
 
-  // 실시간 검색 결과
+  // 실시간 검색 결과 (오버라이드 적용)
   const searchResults = useMemo(() => {
-    if (!offlineSearchQuery.trim()) return [];
-    return searchOfflineWords({ keyword: offlineSearchQuery });
-  }, [offlineSearchQuery]);
+    const cleanKeyword = offlineSearchQuery.trim().toLowerCase();
+    if (!cleanKeyword) return [];
+
+    return effectiveWords.filter(item => {
+      const matchWord = item.word && item.word.toLowerCase().includes(cleanKeyword);
+      const matchMeaning = item.meaning && item.meaning.toLowerCase().includes(cleanKeyword);
+      const matchRoot = item.root && item.root.toLowerCase().includes(cleanKeyword);
+      const matchContext = item.context && item.context.toLowerCase().includes(cleanKeyword);
+      return matchWord || matchMeaning || matchRoot || matchContext;
+    });
+  }, [effectiveWords, offlineSearchQuery]);
 
   // 단어 단일 추가
   const handleAddSingleOfflineWord = async (item) => {
@@ -155,8 +190,12 @@ const Dictionary = () => {
       }
 
       for (const item of extracted) {
+        // 혹시 오버라이드가 있다면 오버라이드 적용
+        const key = normalizeWord(item.word);
+        const dataToSave = dictOverrides[key] ? { ...item, ...dictOverrides[key] } : item;
+
         const wordData = {
-          ...item,
+          ...dataToSave,
           user_lang: userLang,
           study_lang: studyLang,
           topic: selectedCategory?.name + (selectedSubCatId ? ` > ${selectedSubCatId}` : '')
@@ -208,13 +247,14 @@ const Dictionary = () => {
     const targetWords = currentCategoryWords.filter(w => selectedOfflineIds.has(w.id));
     if (targetWords.length === 0) return;
 
-    if (!window.confirm(`${targetWords.length}개 단어를 최신 AI 규칙(인도네시아어 어근, 접사 문법 원리, 동/반의어, 대화 상황, 예문 전수 분석)으로 정밀 재생성하여 단어장에 저장하시겠습니까?`)) {
+    if (!window.confirm(`${targetWords.length}개 단어를 최신 AI 규칙(인도네시아어 어근, 접사 문법 원리, 동/반의어 뜻, 대화 상황, 예문 전수 분석)으로 정밀 재생성하시겠습니까?\n화면의 사전 데이터와 단어장에 즉시 반영됩니다.`)) {
       return;
     }
 
     setIsRegenerating(true);
     const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
     let successCount = 0;
+    const newOverrides = { ...dictOverrides };
 
     try {
       for (let i = 0; i < targetWords.length; i++) {
@@ -230,8 +270,14 @@ const Dictionary = () => {
             item.study_lang || studyLang || 'id'
           );
 
-          // 로컬 단어장에 이미 있는지 확인
           const cleanKey = normalizeWord(item.word);
+          newOverrides[cleanKey] = {
+            ...regenerated,
+            isAiRegenerated: true,
+            regeneratedAt: new Date().toISOString()
+          };
+
+          // 로컬 단어장(IndexedDB)에도 동기화
           const existing = existingWordMap.get(cleanKey);
           if (existing && existing.id) {
             await updateWord({ ...regenerated, id: existing.id });
@@ -244,9 +290,13 @@ const Dictionary = () => {
         }
       }
 
+      // 화면에 즉각 반영하기 위해 State 및 localStorage 업데이트
+      setDictOverrides(newOverrides);
+      localStorage.setItem('inko_dict_overrides', JSON.stringify(newOverrides));
+
       await refreshLocalWords();
       setSelectedOfflineIds(new Set());
-      alert(`✨ ${successCount}개 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 단어장에 등록되었습니다!`);
+      alert(`✨ ${successCount}개 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면과 단어장에 즉시 반영되었습니다!`);
     } catch (err) {
       alert('재생성 중 오류 발생: ' + (err.message || ''));
     } finally {
@@ -266,7 +316,7 @@ const Dictionary = () => {
       return;
     }
 
-    if (!window.confirm(`'${item.word}' 단어를 최신 AI 규칙(어근, 문법 변화 원리, 동/반의어, 대화 상황, 예문 전수 분석)으로 다시 올바르게 생성하시겠습니까?`)) {
+    if (!window.confirm(`'${item.word}' 단어를 최신 AI 규칙(인도네시아어 어근, 접사 문법 원리, 동/반의어, 대화 상황, 예문 전수 분석)으로 다시 올바르게 생성하시겠습니까?\n사전 화면과 단어장에 즉시 갱신되어 표시됩니다.`)) {
       return;
     }
 
@@ -284,6 +334,20 @@ const Dictionary = () => {
       );
 
       const cleanKey = normalizeWord(item.word);
+      
+      // 1. 사전 화면에 즉시 표시되도록 오버라이드 State와 localStorage 갱신
+      const newOverrides = {
+        ...dictOverrides,
+        [cleanKey]: {
+          ...regenerated,
+          isAiRegenerated: true,
+          regeneratedAt: new Date().toISOString()
+        }
+      };
+      setDictOverrides(newOverrides);
+      localStorage.setItem('inko_dict_overrides', JSON.stringify(newOverrides));
+
+      // 2. 단어장 DB(IndexedDB)에도 동시 저장/업데이트
       const existing = existingWordMap.get(cleanKey);
       if (existing && existing.id) {
         await updateWord({ ...regenerated, id: existing.id });
@@ -292,12 +356,32 @@ const Dictionary = () => {
       }
 
       await refreshLocalWords();
-      alert(`'${item.word}' 단어가 최신 AI 규칙으로 성공적으로 다시 생성되어 단어장에 등록되었습니다! ✨`);
+
+      // 3. 사용자가 방금 새로 만들어진 어근, 문법, 예문 등을 즉시 볼 수 있게 카드 펼침
+      setExpandedOfflineId(item.id);
+
+      alert(`'${item.word}' 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면에 즉시 반영되었습니다! ✨`);
     } catch (err) {
+      console.error(err);
       alert('재생성 실패: ' + (err.message || ''));
     } finally {
       setIsRegenerating(false);
       setRegenStatus({ current: 0, total: 0, currentWord: '' });
+    }
+  };
+
+  // 재생성된 단어를 원래 사전 데이터로 되돌리기
+  const handleResetOverride = (item, e) => {
+    if (e) e.stopPropagation();
+    const cleanKey = normalizeWord(item.word);
+    if (!dictOverrides[cleanKey]) return;
+
+    if (window.confirm(`'${item.word}' 단어를 원래 초기 사전 데이터로 되돌리시겠습니까?`)) {
+      const newOverrides = { ...dictOverrides };
+      delete newOverrides[cleanKey];
+      setDictOverrides(newOverrides);
+      localStorage.setItem('inko_dict_overrides', JSON.stringify(newOverrides));
+      alert(`'${item.word}' 단어가 원래 사전 데이터로 복원되었습니다.`);
     }
   };
 
@@ -310,7 +394,7 @@ const Dictionary = () => {
             <BookOpen size={28} color="#f6b93b" /> 1만단어 사전
           </h2>
           <p style={{ margin: '0.3rem 0 0', color: '#666', fontSize: '0.95rem', fontWeight: '600' }}>
-            체계적인 대분류/소분류 카테고리별 열람, 검색 및 마음에 들지 않는 단어는 즉시 AI로 올바르게 재생성하세요!
+            체계적인 대분류/소분류 카테고리별 열람, 검색 및 잘못 생성된 단어는 즉시 [AI 재생성]을 눌러 올바르게 교체하세요!
           </p>
         </div>
 
@@ -350,17 +434,22 @@ const Dictionary = () => {
 
           {/* 검색 결과 리스트 */}
           {searchResults.length > 0 && (
-            <div style={{ marginTop: '1.2rem', borderTop: '1px solid #f1f3f5', paddingTop: '1rem', display: 'grid', gap: '0.8rem', maxHeight: '320px', overflowY: 'auto' }}>
+            <div style={{ marginTop: '1.2rem', borderTop: '1px solid #f1f3f5', paddingTop: '1rem', display: 'grid', gap: '0.8rem', maxHeight: '360px', overflowY: 'auto' }}>
               <div style={{ fontSize: '0.85rem', color: '#888', fontWeight: '700' }}>검색 결과 {searchResults.length}건</div>
               {searchResults.map(item => {
                 const cleanKey = normalizeWord(item.word);
                 const isAdded = existingWordMap.has(cleanKey);
                 return (
-                  <div key={item.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.8rem 1rem', background: '#fdfbf7', borderRadius: '15px', border: '1px solid #faeccb' }}>
+                  <div key={item.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.8rem 1rem', background: item.isAiRegenerated ? '#faf5ff' : '#fdfbf7', borderRadius: '15px', border: item.isAiRegenerated ? '1.5px solid #d8b4fe' : '1px solid #faeccb' }}>
                     <div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
                         <span style={{ fontWeight: '900', color: 'var(--nana-dark)', fontSize: '1.1rem' }}>{item.word}</span>
                         <span style={{ fontSize: '0.75rem', background: '#fff', padding: '2px 8px', borderRadius: '10px', border: '1px solid #ddd', color: '#666' }}>{item.pos}</span>
+                        {item.isAiRegenerated && (
+                          <span style={{ fontSize: '0.75rem', background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', color: '#fff', padding: '2px 8px', borderRadius: '10px', fontWeight: '900' }}>
+                            AI 재생성됨 ✨
+                          </span>
+                        )}
                         {isAdded && <span style={{ fontSize: '0.75rem', background: '#e8f8f5', color: '#10ac84', padding: '2px 8px', borderRadius: '10px', fontWeight: '800' }}>내 단어장에 있음 ✓</span>}
                       </div>
                       <div style={{ fontSize: '0.9rem', color: '#555', marginTop: '2px' }}>= {item.meaning}</div>
@@ -509,7 +598,7 @@ const Dictionary = () => {
                 {selectedCategory?.name} 사전 목록 ({currentCategoryWords.length}개)
               </h3>
               <p style={{ margin: '0.2rem 0 0', fontSize: '0.85rem', color: '#888' }}>
-                단어를 확인하고, 잘못된 단어는 AI로 즉시 재생성하거나 원하는 단어를 골라 담아보세요.
+                단어를 확인하고, 잘못된 단어는 <b>[재생성]</b>을 누르면 올바른 어근·문법·예문으로 화면에 즉시 교체됩니다.
               </p>
             </div>
 
@@ -571,12 +660,12 @@ const Dictionary = () => {
                 <div
                   key={item.id}
                   style={{
-                    background: isExpanded ? '#fffdf7' : '#fff',
-                    border: isExpanded ? '2px solid #feca57' : '1.5px solid #eee',
+                    background: item.isAiRegenerated ? '#fbf8ff' : (isExpanded ? '#fffdf7' : '#fff'),
+                    border: item.isAiRegenerated ? (isExpanded ? '2.5px solid #a855f7' : '1.5px solid #d8b4fe') : (isExpanded ? '2px solid #feca57' : '1.5px solid #eee'),
                     borderRadius: '20px',
                     overflow: 'hidden',
                     transition: 'all 0.2s ease',
-                    boxShadow: isExpanded ? '0 6px 15px rgba(254, 202, 87, 0.15)' : '0 2px 6px rgba(0,0,0,0.02)'
+                    boxShadow: item.isAiRegenerated ? '0 4px 15px rgba(168, 85, 247, 0.12)' : (isExpanded ? '0 6px 15px rgba(254, 202, 87, 0.15)' : '0 2px 6px rgba(0,0,0,0.02)')
                   }}
                 >
                   {/* 카드 요약 헤더 */}
@@ -605,12 +694,25 @@ const Dictionary = () => {
 
                       <div style={{ display: 'flex', flexDirection: 'column' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
-                          <span style={{ fontWeight: '900', fontSize: '1.15rem', color: 'var(--nana-dark)' }}>
+                          <span style={{ fontWeight: '900', fontSize: '1.15rem', color: item.isAiRegenerated ? '#6b21a8' : 'var(--nana-dark)' }}>
                             {item.word}
                           </span>
                           <span style={{ fontSize: '0.75rem', background: '#f1f3f5', padding: '2px 8px', borderRadius: '8px', color: '#666', fontWeight: '800' }}>
                             {item.pos}
                           </span>
+                          {item.isAiRegenerated && (
+                            <span style={{ 
+                              fontSize: '0.75rem', 
+                              background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', 
+                              color: '#fff', 
+                              padding: '2px 8px', 
+                              borderRadius: '8px', 
+                              fontWeight: '900',
+                              boxShadow: '0 2px 5px rgba(108, 92, 231, 0.25)'
+                            }}>
+                              AI 재생성 완료 ✨
+                            </span>
+                          )}
                           {isAlreadyInDb && (
                             <span style={{ fontSize: '0.7rem', background: '#e8f8f5', color: '#10ac84', padding: '2px 8px', borderRadius: '8px', fontWeight: '900' }}>
                               내 단어장에 있음 ✓
@@ -669,27 +771,39 @@ const Dictionary = () => {
                     </div>
                   </div>
 
-                  {/* 아코디언 펼침 상세 내용 */}
+                  {/* 아코디언 펼침 상세 내용 (재생성된 최신 필드가 즉시 렌더링됨) */}
                   {isExpanded && (
-                    <div style={{ padding: '1.4rem 1.6rem', borderTop: '1px solid #faeccb', background: '#fff', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.4rem' }}>
+                    <div style={{ padding: '1.4rem 1.6rem', borderTop: item.isAiRegenerated ? '1px solid #e9d5ff' : '1px solid #faeccb', background: '#fff', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.4rem' }}>
                       {/* 스타 강사의 시크릿 노트 */}
-                      <div style={{ background: '#fdfbf7', padding: '1.2rem', borderRadius: '18px', border: '1.5px solid #feca57', display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.85rem' }}>
-                        <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', background: '#feca57', color: '#fff', padding: '2px 8px', borderRadius: '8px', fontSize: '0.7rem', fontWeight: '900', alignSelf: 'flex-start' }}>
-                          🔥 스타 강사의 시크릿 노트
+                      <div style={{ background: item.isAiRegenerated ? '#faf5ff' : '#fdfbf7', padding: '1.2rem', borderRadius: '18px', border: item.isAiRegenerated ? '1.5px solid #c084fc' : '1.5px solid #feca57', display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.85rem' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', background: item.isAiRegenerated ? '#a855f7' : '#feca57', color: '#fff', padding: '2px 8px', borderRadius: '8px', fontSize: '0.7rem', fontWeight: '900' }}>
+                            {item.isAiRegenerated ? '✨ AI 1타 강사 정밀 분석 노트' : '🔥 스타 강사의 시크릿 노트'}
+                          </div>
+                          {item.isAiRegenerated && (
+                            <button 
+                              onClick={(e) => handleResetOverride(item, e)}
+                              style={{ background: 'none', border: 'none', color: '#a855f7', fontSize: '0.75rem', fontWeight: '800', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '2px' }}
+                              title="원래 사전 데이터로 되돌리기"
+                            >
+                              <RotateCcw size={12} /> 원본 복원
+                            </button>
+                          )}
                         </div>
-                        {item.root && <div><b style={{ color: '#27ae60' }}>어근:</b> {item.root}</div>}
-                        {item.grammar_rule && <div><b style={{ color: '#c0392b' }}>문법:</b> {item.grammar_rule}</div>}
+
+                        {item.root && <div><b style={{ color: '#27ae60' }}>어근 (Kata Dasar):</b> <span style={{ fontWeight: '800', color: '#2d3436' }}>{item.root}</span></div>}
+                        {item.grammar_rule && <div><b style={{ color: '#c0392b' }}>문법 변형 규칙:</b> {item.grammar_rule}</div>}
                         {item.synonym && <div><b style={{ color: '#00b894' }}>동의어:</b> {item.synonym}</div>}
                         {item.antonym && <div><b style={{ color: '#d63031' }}>반의어:</b> {item.antonym}</div>}
-                        {item.context && <div><b style={{ color: '#2980b9' }}>상황:</b> {item.context}</div>}
+                        {item.context && <div><b style={{ color: '#2980b9' }}>상황/분위기:</b> {item.context}</div>}
                         {item.caution && (
                           <div style={{ background: '#fff5f5', padding: '0.6rem', borderRadius: '10px', borderLeft: '3px solid #ff7675' }}>
-                            <b style={{ color: '#d63031' }}>주의 (학습 주의):</b> {item.caution}
+                            <b style={{ color: '#d63031' }}>주의점:</b> {item.caution}
                           </div>
                         )}
                         {item.related && (
                           <div style={{ background: '#f0faff', padding: '0.6rem', borderRadius: '10px', borderLeft: '3px solid #4facfe' }}>
-                            <b style={{ color: '#0984e3' }}>💡 강사 비법 (공부 팁):</b> {item.related}
+                            <b style={{ color: '#0984e3' }}>💡 1타 강사 팁:</b> {item.related}
                           </div>
                         )}
                       </div>
@@ -701,7 +815,7 @@ const Dictionary = () => {
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
                               <span style={{ color: '#2c3e50', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>격식체</span>
                               <div style={{ flex: 1, fontSize: '0.9rem', color: '#333', lineHeight: '1.4' }}>
-                                <InteractiveSentence sentence={item.example_formal} wordBreakdown={item.word_breakdown} />
+                                <InteractiveSentence sentence={item.example_formal} wordBreakdown={item.word_breakdown} breakdown={item.word_breakdown} />
                               </div>
                               <button onClick={() => playAudio(item.example_formal, studyLang)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
                                 <Volume2 size={16} />
@@ -716,7 +830,7 @@ const Dictionary = () => {
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
                               <span style={{ color: '#d35400', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>구어체</span>
                               <div style={{ flex: 1, fontSize: '0.9rem', color: '#333', lineHeight: '1.4' }}>
-                                <InteractiveSentence sentence={item.example_casual} wordBreakdown={item.word_breakdown} />
+                                <InteractiveSentence sentence={item.example_casual} wordBreakdown={item.word_breakdown} breakdown={item.word_breakdown} />
                               </div>
                               <button onClick={() => playAudio(item.example_casual, studyLang)} style={{ color: '#777', border: 'none', background: 'none', cursor: 'pointer' }}>
                                 <Volume2 size={16} />
@@ -739,7 +853,7 @@ const Dictionary = () => {
                               boxShadow: '0 3px 8px rgba(108, 92, 231, 0.25)'
                             }}
                           >
-                            <Sparkles size={15} /> AI로 올바르게 재생성
+                            <Sparkles size={15} /> AI로 다시 올바르게 생성
                           </button>
                         </div>
                       </div>
@@ -778,7 +892,7 @@ const Dictionary = () => {
             </h3>
             <p style={{ margin: '0 0 1.5rem', color: '#636e72', fontWeight: '700', fontSize: '0.95rem' }}>
               인도네시아어 어근, 접사 문법 변화 원리, 동/반의어 및<br/>
-              예문 단어별 전수 분석을 엄격히 적용하여 생성 중입니다.
+              예문 단어별 전수 분석을 엄격히 적용하여 즉시 화면에 반영합니다.
             </p>
 
             <div style={{ 
