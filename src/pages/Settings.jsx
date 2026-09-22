@@ -41,62 +41,71 @@ const Settings = () => {
   const krVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('ko'))), [googleVoiceList]);
   const enVoices = React.useMemo(() => googleVoiceList.filter(v => v.languageCodes.some(lc => lc.startsWith('en'))), [googleVoiceList]);
 
+  // 모델 ID를 translations.js 키 규격(예: 3_8_flash)으로 정규화하는 헬퍼
+  const normalizeModelKey = (modelId) => {
+    if (!modelId) return '3_8_flash';
+    return modelId
+      .replace('models/', '')
+      .replace(/^gemini-/, '')
+      .replace(/[^a-zA-Z0-9]/g, '_');
+  };
+
+  // 사용자 선택 언어(ko, id, en)에 맞는 모델 정보 필드를 가져오는 헬퍼
+  const getModelField = (model, field) => {
+    if (!model) return '';
+    const normKey = normalizeModelKey(model.id);
+
+    // 1. translations[userLang]에서 model_${normKey}_${field} 조회
+    const transKey = `model_${normKey}_${field}`;
+    const transVal = t(transKey);
+    if (transVal && transVal !== transKey) return transVal;
+
+    // 2. translations[userLang]에서 model_gemini_${normKey}_${field} 조회
+    const transGeminiKey = `model_gemini_${normKey}_${field}`;
+    const transGeminiVal = t(transGeminiKey);
+    if (transGeminiVal && transGeminiVal !== transGeminiKey) return transGeminiVal;
+
+    // 3. CURATED_MODELS 큐레이션 매칭
+    const curated = CURATED_MODELS.find(c => c.id === model.id || model.id.includes(c.id));
+    if (curated && curated[field]) return curated[field];
+
+    // 4. 모델 자체 정의 필드
+    if (model[field]) return model[field];
+
+    return '';
+  };
+
   // API를 통해 동적으로 가져온 modelList가 있는 경우 이를 우선 렌더링 대상으로 지정 (하이브리드 방식)
   const displayModels = React.useMemo(() => {
     if (modelList && modelList.length > 0) {
       return modelList.map(item => {
         const modelId = typeof item === 'string' ? item : item.id;
+        const normKey = normalizeModelKey(modelId);
         const curated = CURATED_MODELS.find(m => m.id === modelId || modelId.includes(m.id) || m.id.includes(modelId));
         
-        if (typeof item === 'object' && item !== null) {
-          const isPro = modelId.includes('pro');
-          const isLite = modelId.includes('lite') || modelId.includes('8b');
-          return {
-            id: modelId,
-            t_key: curated?.t_key || item.t_key || modelId.replace(/[^a-zA-Z0-9]/g, '_'),
-            name: curated?.name || item.name || item.displayName || modelId,
-            shortDesc: curated?.shortDesc || item.shortDesc || (isPro ? '🧠 [고성능] 심층 추론 및 정밀 분석' : isLite ? '🚀 [가성비] 모바일 초고속 최저비용' : '⚡ [최신] 고속 표준 생성 모델'),
-            speed: curated?.speed || item.speed || (isPro ? '🐢 느림' : isLite ? '🚀 매우 빠름' : '⚡ 빠름'),
-            speed_key: curated?.speed_key || item.speed_key || (isPro ? 'slow' : isLite ? 'very_fast' : 'fast'),
-            tokens: curated?.tokens || item.tokens || (isPro ? '💎 높음' : isLite ? '📉 매우 낮음' : '📉 낮음'),
-            tokens_key: curated?.tokens_key || item.tokens_key || (isPro ? 'high' : isLite ? 'very_low' : 'low'),
-            pros: curated?.pros || item.pros || item.googleDescription || '구글 API를 통해 실시간 제공되는 최신 AI 모델입니다.',
-            cons: curated?.cons || item.cons || '표준 모델입니다.',
-            googleDescription: item.googleDescription || curated?.googleDescription || ''
-          };
-        }
-
-        if (curated) return curated;
-
         const isPro = modelId.includes('pro');
         const isLite = modelId.includes('lite') || modelId.includes('8b');
-        const cleanName = modelId.split('-').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+        const cleanName = typeof item === 'object' && item?.displayName 
+          ? item.displayName 
+          : modelId.split('-').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+
         return {
           id: modelId,
-          t_key: modelId.replace(/[^a-zA-Z0-9]/g, '_'),
-          name: cleanName,
-          shortDesc: isPro ? '🧠 [고성능] 심층 추론 및 정밀 분석' : isLite ? '🚀 [가성비] 모바일 초고속 최저비용' : '⚡ [최신] 고속 표준 생성 모델',
-          speed: isPro ? '🐢 느림' : isLite ? '🚀 매우 빠름' : '⚡ 빠름',
-          speed_key: isPro ? 'slow' : isLite ? 'very_fast' : 'fast',
-          tokens: isPro ? '💎 높음' : isLite ? '📉 매우 낮음' : '📉 낮음',
-          tokens_key: isPro ? 'high' : isLite ? 'very_low' : 'low',
-          pros: 'API를 통해 실시간 활성화되어 즉시 사용 가능한 구글 제미나이 신규 모델입니다.',
-          cons: '이 모델의 한국어 가이드는 준비 중입니다.',
-          googleDescription: ''
+          t_key: normKey,
+          name: curated?.name || cleanName,
+          shortDesc: curated?.shortDesc || (isPro ? '🧠 [최상위] 심층 추론 분석' : isLite ? '🚀 [가성비] 모바일 초고속 최저비용' : '⚡ [최신] 고속 표준 생성 모델'),
+          speed: curated?.speed || (isPro ? '🐢 느림' : isLite ? '🚀 매우 빠름' : '⚡ 빠름'),
+          speed_key: curated?.speed_key || (isPro ? 'slow' : isLite ? 'very_fast' : 'fast'),
+          tokens: curated?.tokens || (isPro ? '💎 높음' : isLite ? '📉 매우 낮음' : '📉 낮음'),
+          tokens_key: curated?.tokens_key || (isPro ? 'high' : isLite ? 'very_low' : 'low'),
+          pros: curated?.pros || (userLang === 'id' ? 'Model AI generasi terbaru yang aktif via Google API.' : userLang === 'en' ? 'Latest official Google AI model available via API.' : '구글 API를 통해 실시간 활성화된 공식 최신 모델입니다.'),
+          cons: curated?.cons || (userLang === 'id' ? 'Model standar.' : userLang === 'en' ? 'Standard model.' : '표준 모델입니다.')
         };
       });
     }
     // API 갱신 전이거나 목록이 없는 경우 최신 추천 목록(CURATED_MODELS)을 디폴트로 표시
     return CURATED_MODELS;
   }, [modelList, userLang]);
-
-  // 번역 키가 없을 때 원래 문자열이 그대로 노출되지 않도록 가드해 주는 헬퍼 함수
-  const getTranslation = (key, fallback) => {
-    const val = t(key);
-    // 다국어 사전에 리소스가 없어 번역 키 문자열이 그대로 리턴된 경우 fallback 텍스트 반환
-    if (val === key) return fallback;
-    return val;
-  };
 
   // 선택된 모델의 상세 정보를 콤팩트 카드에 바인딩하기 위해 색출하는 훅
   const selectedModelInfo = React.useMemo(() => {
@@ -385,7 +394,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.02 (제미나이 3.8 Flash 최신 공식 AI 모델 전면 개편)
+                버전 정보: v20.03 (AI 모델 설명 3개국어 완벽 현지화 및 영문 혼입 제거)
             </span>
         </div>
       </header>
@@ -555,11 +564,15 @@ const Settings = () => {
                         transition: 'border-color 0.2s'
                     }}
                 >
-                    {displayModels.map(m => (
-                        <option key={m.id} value={m.id}>
-                            {getTranslation(`model_${m.t_key}_name`, m.name)} {m.shortDesc ? ` | ${m.shortDesc}` : ''}
-                        </option>
-                    ))}
+                    {displayModels.map(m => {
+                        const name = getModelField(m, 'name') || m.name;
+                        const shortDesc = getModelField(m, 'short') || m.shortDesc;
+                        return (
+                            <option key={m.id} value={m.id}>
+                                {name} {shortDesc ? ` | ${shortDesc}` : ''}
+                            </option>
+                        );
+                    })}
                 </select>
             </div>
 
@@ -580,7 +593,7 @@ const Settings = () => {
                     
                     <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px', flexWrap: 'wrap', marginBottom: '6px' }}>
                         <div style={{ fontWeight: '900', fontSize: '1.05rem', color: 'var(--nana-dark)' }}>
-                            {getTranslation(`model_${selectedModelInfo.t_key}_name`, selectedModelInfo.name)}
+                            {getModelField(selectedModelInfo, 'name') || selectedModelInfo.name}
                         </div>
                         <span style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace' }}>
                             ({selectedModelInfo.id})
@@ -596,7 +609,7 @@ const Settings = () => {
                         </span>
                         {selectedModelInfo.id.includes('3.8-flash') && (
                             <span style={{ fontSize: '0.75rem', background: '#fef3c7', border: '1px solid #fde68a', padding: '3px 8px', borderRadius: '6px', fontWeight: '900', color: '#b45309' }}>
-                                ⭐ 공식 추천
+                                ⭐ {userLang === 'id' ? 'Rekomendasi Utama' : userLang === 'en' ? 'Recommended' : '공식 추천'}
                             </span>
                         )}
                     </div>
@@ -606,19 +619,14 @@ const Settings = () => {
                             <strong style={{ color: '#059669', marginRight: '4px' }}>
                                 💡 {t('model_label_pros') || '핵심 특징'}:
                             </strong> 
-                            {getTranslation(`model_${selectedModelInfo.t_key}_pros`, selectedModelInfo.pros)}
+                            {getModelField(selectedModelInfo, 'pros')}
                         </div>
-                        {selectedModelInfo.cons && (
-                            <div style={{ marginBottom: selectedModelInfo.googleDescription ? '6px' : 0 }}>
+                        {getModelField(selectedModelInfo, 'cons') && (
+                            <div>
                                 <strong style={{ color: '#e11d48', marginRight: '4px' }}>
                                     ⚠️ {t('model_label_cons') || '주의점'}:
                                 </strong> 
-                                {getTranslation(`model_${selectedModelInfo.t_key}_cons`, selectedModelInfo.cons)}
-                            </div>
-                        )}
-                        {selectedModelInfo.googleDescription && selectedModelInfo.googleDescription !== selectedModelInfo.pros && (
-                            <div style={{ marginTop: '8px', paddingTop: '8px', borderTop: '1px dashed #e2e8f0', fontSize: '0.78rem', color: '#64748b' }}>
-                                <span style={{ fontWeight: '700', color: '#475569' }}>🌐 Google 공식 스펙:</span> {selectedModelInfo.googleDescription}
+                                {getModelField(selectedModelInfo, 'cons')}
                             </div>
                         )}
                     </div>
