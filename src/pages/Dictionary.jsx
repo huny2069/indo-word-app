@@ -73,22 +73,37 @@ const Dictionary = () => {
     refreshLocalWords();
   }, []);
 
-  // AI 재생성 오버라이드가 실시간으로 반영된 통합 단어 풀
+  // AI 재생성 오버라이드 및 CSV 신규 단어가 실시간으로 반영된 통합 단어 풀
   const effectiveWords = useMemo(() => {
-    return ALL_OFFLINE_WORDS.map(item => {
+    // 1. 기존 ALL_OFFLINE_WORDS에 오버라이드 매핑
+    const mapped = ALL_OFFLINE_WORDS.map(item => {
       const key = normalizeWord(item.word);
       const override = dictOverrides[key];
       if (override) {
         return {
           ...item,
           ...override,
-          isAiRegenerated: true,
+          isAiRegenerated: override.isAiRegenerated !== false,
           regeneratedAt: override.regeneratedAt
         };
       }
       return item;
     });
-  }, [dictOverrides]);
+
+    // 2. ALL_OFFLINE_WORDS에 없는 순수 신규 추가 단어들(CSV 가져오기 단어 등)도 포함!
+    const existingKeys = new Set(ALL_OFFLINE_WORDS.map(item => normalizeWord(item.word)));
+    const extraWords = Object.values(dictOverrides).filter(w => {
+      if (!w || !w.word) return false;
+      return !existingKeys.has(normalizeWord(w.word));
+    }).map((w, idx) => ({
+      ...w,
+      id: w.id || `custom_dict_${idx}_${normalizeWord(w.word)}`,
+      category_id: w.category_id || selectedCatId || 'discourse',
+      isCustomAdded: true
+    }));
+
+    return [...mapped, ...extraWords];
+  }, [dictOverrides, selectedCatId]);
 
   // 선택된 카테고리/소분류에 해당하는 전체 오프라인 단어 목록 (오버라이드 적용)
   const currentCategoryWords = useMemo(() => {

@@ -3,11 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import { getWords, getFolders, addWord, addFolder } from '../db/database';
 import { fetchGeminiModels, CURATED_MODELS } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
+import { ALL_OFFLINE_WORDS } from '../data/offlineDatabase';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
-import { Sparkles, Eye, EyeOff, Volume2, BookOpen, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info } from 'lucide-react';
+import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info } from 'lucide-react';
 
 const Settings = () => {
   const { userLang, studyLang, changeUserLang, changeStudyLang, t } = useLanguage();
@@ -251,6 +252,80 @@ const Settings = () => {
     } catch (err) { alert(t('msg_export_csv_error')); }
   };
 
+  // 1만단어 사전 단어명 정규화
+  const normalizeDictWord = (str) => (str || '').split('[[')[0].trim().toLowerCase();
+
+  // 1만단어 사전 전체 CSV 내보내기 (기본 1만단어 + 재생성/신규 단어)
+  const handleExportDictCSV = () => {
+    try {
+      const overrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
+      const mapped = ALL_OFFLINE_WORDS.map(item => {
+        const key = normalizeDictWord(item.word);
+        if (overrides[key]) return { ...item, ...overrides[key] };
+        return item;
+      });
+      const existingKeys = new Set(ALL_OFFLINE_WORDS.map(item => normalizeDictWord(item.word)));
+      const extraWords = Object.values(overrides).filter(w => w && w.word && !existingKeys.has(normalizeDictWord(w.word)));
+      const fullList = [...mapped, ...extraWords];
+
+      const csvContent = convertToCSV(fullList);
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', `Inko_10K_Dictionary_Export_${new Date().toISOString().slice(0,10)}.csv`);
+      link.click();
+    } catch (err) {
+      alert('1만단어 사전 CSV 내보내기 실패: ' + err.message);
+    }
+  };
+
+  // 1만단어 사전 CSV 가져오기 (기존 중복 단어는 자동으로 건너뜀)
+  const handleImportDictCSV = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = async (event) => {
+      try {
+        const parsedWords = parseCSV(event.target.result);
+        if (!parsedWords || parsedWords.length === 0) {
+          alert('CSV 파일에서 유효한 단어 데이터를 찾을 수 없습니다.');
+          return;
+        }
+
+        const overrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
+        const existingKeys = new Set(ALL_OFFLINE_WORDS.map(item => normalizeDictWord(item.word)));
+        Object.keys(overrides).forEach(k => existingKeys.add(k));
+
+        let addedCount = 0;
+        let skipCount = 0;
+
+        parsedWords.forEach(w => {
+          if (!w || !w.word || !w.word.trim()) return;
+          const key = normalizeDictWord(w.word);
+          if (existingKeys.has(key)) {
+            skipCount++; // 기존에 있던 중복단어는 건너뜀!
+          } else {
+            overrides[key] = {
+              ...w,
+              isCustomAdded: true,
+              addedAt: new Date().toISOString()
+            };
+            existingKeys.add(key);
+            addedCount++;
+          }
+        });
+
+        localStorage.setItem('inko_dict_overrides', JSON.stringify(overrides));
+        alert(`🎉 1만 단어 사전 CSV 불러오기 완료!\n\n- 전체 분석된 단어: ${parsedWords.length}개\n- 이미 존재하여 건너뜀(Skip): ${skipCount}개\n- 신규로 사전에 추가됨: ${addedCount}개\n\n1만단어 사전 메뉴에서 바로 확인하실 수 있습니다.`);
+        e.target.value = ''; // 동일 파일 재선택 가능하게 리셋
+      } catch (err) {
+        alert('1만단어 사전 CSV 파일 불러오기 오류: ' + err.message);
+      }
+    };
+    reader.readAsText(file);
+  };
+
   const handleBackupToDrive = async () => {
     if (!gcpAccessToken) { handleGoogleLogin(); return; }
     if (!window.confirm(t('msg_backup_confirm'))) return;
@@ -394,7 +469,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.06 (1만단어 사전 내 AI 재생성 실시간 화면 반영 및 오버라이드 시스템 완비)
+                버전 정보: v20.07 (1만단어 사전 전용 CSV 가져오기/내보내기 및 중복 자동 건너뛰기 완비)
             </span>
         </div>
       </header>
@@ -640,13 +715,13 @@ const Settings = () => {
       </div>
 
       {/* 4. 데이터 및 클라우드 */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '2rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.2rem' }}>
         <div className="settings-card" style={{ marginBottom: 0 }}>
-            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>📁 {t('set_backup_title')}</h4>
+            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>📁 {t('set_backup_title')} (내 단어장)</h4>
             <div style={{ display: 'grid', gap: '0.6rem' }}>
-                <button onClick={handleExportCSV} style={{ padding: '0.7rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}><FileDown size={14} /> CSV</button>
-                <label style={{ padding: '0.7rem', background: '#fffbeb', color: '#92400e', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem', textAlign: 'center', cursor: 'pointer' }}>
-                    <FileUp size={14} /> Import <input type="file" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
+                <button onClick={handleExportCSV} style={{ padding: '0.7rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}><FileDown size={14} /> CSV 백업</button>
+                <label style={{ padding: '0.7rem', background: '#fffbeb', color: '#92400e', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem', textAlign: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                    <FileUp size={14} /> CSV 복원 <input type="file" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
                 </label>
             </div>
         </div>
@@ -662,6 +737,49 @@ const Settings = () => {
                     <LogIn size={18} /> {t('set_google_login') || 'Login'}
                 </button>
             )}
+        </div>
+      </div>
+
+      {/* 5. 1만 단어 사전 전용 데이터 관리 (신규) */}
+      <div className="settings-card" style={{ marginBottom: '2rem', border: '2px solid #feca57', background: 'linear-gradient(135deg, #fffdf8 0%, #fff9ec 100%)', boxShadow: '0 4px 15px rgba(254, 202, 87, 0.15)' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+          <h4 style={{ fontSize: '1.05rem', fontWeight: '900', margin: 0, color: 'var(--nana-dark)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <BookMarked size={20} color="#f6b93b" /> 1만 단어 사전 데이터 관리 (CSV)
+          </h4>
+          <span style={{ fontSize: '0.75rem', background: '#6c5ce7', color: '#fff', padding: '3px 10px', borderRadius: '12px', fontWeight: '800' }}>
+            중복 자동 건너뛰기 지원
+          </span>
+        </div>
+        
+        <p style={{ margin: '0 0 1.2rem', fontSize: '0.85rem', color: '#666', lineHeight: '1.5', fontWeight: '600' }}>
+          개인 단어장과 별개로 <b>1만단어 사전에 직접 신규 단어를 대량 추가</b>하거나, 전체 사전 데이터를 <b>CSV 파일로 백업(다운로드)</b>할 수 있습니다. 불러오기 시 이미 사전에 존재하는 단어는 자동으로 건너뜁니다(Skip).
+        </p>
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }}>
+          <label style={{ 
+            padding: '0.85rem 1rem', 
+            background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', 
+            color: '#fff', borderRadius: '14px', fontWeight: '900', fontSize: '0.85rem', 
+            textAlign: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+            boxShadow: '0 3px 8px rgba(108, 92, 231, 0.25)' 
+          }}>
+            <FileUp size={16} /> 1만단어 사전 CSV 가져오기
+            <input type="file" accept=".csv" onChange={handleImportDictCSV} style={{ display: 'none' }} />
+          </label>
+
+          <button 
+            onClick={handleExportDictCSV} 
+            style={{ 
+              padding: '0.85rem 1rem', 
+              background: '#fff', 
+              color: '#6c5ce7', 
+              border: '2px solid #6c5ce7', 
+              borderRadius: '14px', fontWeight: '900', fontSize: '0.85rem', 
+              cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+              boxShadow: '0 2px 6px rgba(0,0,0,0.04)' 
+            }}>
+            <FileDown size={16} /> 1만단어 사전 CSV 다운로드
+          </button>
         </div>
       </div>
 

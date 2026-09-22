@@ -85,13 +85,13 @@ export const parseCSV = (csvText) => {
     headers.forEach((header, index) => {
       let val = values[index] || '';
       
-      // JSON 객체 형태인 경우 다시 객체로 변환 시도 (word_breakdown 등)
-      if (val.startsWith('[') || val.startsWith('{')) {
+      // word_breakdown 유연한 파싱 (JSON 배열 또는 "단어: 뜻 | 단어: 뜻" 형태)
+      if (header === 'word_breakdown') {
+        val = parseWordBreakdown(val);
+      } else if (typeof val === 'string' && (val.startsWith('[') || val.startsWith('{'))) {
         try {
           val = JSON.parse(val);
-        } catch (e) {
-          // 파싱 실패시 텍스트 그대로 유지
-        }
+        } catch (e) {}
       }
       obj[header] = val;
     });
@@ -100,3 +100,33 @@ export const parseCSV = (csvText) => {
 
   return result;
 };
+
+/**
+ * 다양한 형태의 word_breakdown 문자열을 [{ word, meaning }] 객체 배열로 정규화
+ */
+export const parseWordBreakdown = (val) => {
+  if (!val) return [];
+  if (Array.isArray(val)) return val;
+  if (typeof val === 'string') {
+    const trimmed = val.trim();
+    if (trimmed.startsWith('[')) {
+      try {
+        const parsed = JSON.parse(trimmed);
+        if (Array.isArray(parsed)) return parsed;
+      } catch (e) {}
+    }
+    // "단어: 뜻 | 단어: 뜻" 또는 "단어 - 뜻" 형태 파싱
+    if (trimmed.includes(':') || trimmed.includes('|')) {
+      const items = trimmed.split('|').map(s => s.trim()).filter(Boolean);
+      return items.map(item => {
+        const parts = item.split(':');
+        return {
+          word: (parts[0] || '').trim(),
+          meaning: (parts.slice(1).join(':') || '').trim()
+        };
+      }).filter(b => b.word);
+    }
+  }
+  return [];
+};
+
