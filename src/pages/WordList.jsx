@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { getWords, getCartWords, toggleCartItem, addWordsToCart, removeWordsFromCart, updateWord, deleteWords, getFolders, moveWordsToFolder, clearCart } from '../db/database';
 import { playAudio } from '../api/ttsApi';
-import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, Volume2, CheckSquare, Square, ShoppingCart, ChevronDown, ChevronUp, Sparkles, HelpCircle, List, X, ChevronLeft, CornerUpRight, ArrowRight, FileText, GraduationCap } from 'lucide-react';
+import { regenerateWordData } from '../api/geminiApi';
+import { Filter, Search, Plus, Trash2, FolderPlus, Folder, Move, MoreVertical, Volume2, CheckSquare, Square, ShoppingCart, ChevronDown, ChevronUp, Sparkles, HelpCircle, List, X, ChevronLeft, CornerUpRight, ArrowRight, FileText, GraduationCap, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import InteractiveSentence from '../components/InteractiveSentence';
@@ -25,6 +26,10 @@ const WordList = () => {
   const [editingWord, setEditingWord] = useState(null);
   const [expandedId, setExpandedId] = useState(null);
   const [filterLang, setFilterLang] = useState('all'); // 'all', 'id', 'en', 'ko'
+
+  // AI 재생성 State
+  const [isRegenerating, setIsRegenerating] = useState(false);
+  const [regenStatus, setRegenStatus] = useState({ current: 0, total: 0, currentWord: '' });
 
   const [searchTerm, setSearchTerm] = useState('');
   const [suggestions, setSuggestions] = useState([]);
@@ -267,6 +272,78 @@ const WordList = () => {
     });
   };
 
+  const handleRegenerateSelected = async () => {
+    if (selectedIds.size === 0 || isRegenerating) return;
+    const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
+    if (!apiKey || !apiKey.trim()) {
+      alert(t('msg_ai_key_missing') || 'Gemini API 키가 필요합니다. 설정에서 입력해주세요.');
+      navigate('/settings');
+      return;
+    }
+
+    const targetWords = words.filter(w => selectedIds.has(w.id));
+    if (targetWords.length === 0) return;
+
+    const confirmMsg = t('msg_regenerate_confirm', { count: targetWords.length });
+    if (!window.confirm(confirmMsg)) return;
+
+    setIsRegenerating(true);
+    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
+    let successCount = 0;
+
+    try {
+      for (let i = 0; i < targetWords.length; i++) {
+        const current = targetWords[i];
+        setRegenStatus({ current: i + 1, total: targetWords.length, currentWord: current.word });
+        try {
+          const regenerated = await regenerateWordData(current, apiKey, modelName, userLang, current.study_lang || studyLang);
+          await updateWord(regenerated);
+          successCount++;
+        } catch (wordErr) {
+          console.error(`단어 ${current.word} 재생성 실패:`, wordErr);
+        }
+      }
+      alert(t('msg_regenerate_done', { count: successCount }));
+      setSelectedIds(new Set());
+      await loadData();
+    } catch (err) {
+      alert(t('msg_regenerate_error') + (err.message || ''));
+    } finally {
+      setIsRegenerating(false);
+      setRegenStatus({ current: 0, total: 0, currentWord: '' });
+    }
+  };
+
+  const handleRegenerateSingle = async (wordItem, e) => {
+    if (e) e.stopPropagation();
+    if (isRegenerating) return;
+    const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
+    if (!apiKey || !apiKey.trim()) {
+      alert(t('msg_ai_key_missing') || 'Gemini API 키가 필요합니다. 설정에서 입력해주세요.');
+      navigate('/settings');
+      return;
+    }
+
+    const confirmMsg = t('msg_regenerate_single_confirm', { word: wordItem.word });
+    if (!window.confirm(confirmMsg)) return;
+
+    setIsRegenerating(true);
+    setRegenStatus({ current: 1, total: 1, currentWord: wordItem.word });
+    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
+
+    try {
+      const regenerated = await regenerateWordData(wordItem, apiKey, modelName, userLang, wordItem.study_lang || studyLang);
+      await updateWord(regenerated);
+      alert(t('msg_regenerate_done', { count: 1 }));
+      await loadData();
+    } catch (err) {
+      alert(t('msg_regenerate_error') + (err.message || ''));
+    } finally {
+      setIsRegenerating(false);
+      setRegenStatus({ current: 0, total: 0, currentWord: '' });
+    }
+  };
+
   const handleMoveSelected = async () => {
     if (!moveFolderId) {
       alert(t('msg_move_no_folder'));
@@ -499,25 +576,38 @@ const WordList = () => {
 
         <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '1.5rem' }}>
            <button 
-              disabled={selectedIds.size === 0}
+              disabled={selectedIds.size === 0 || isRegenerating}
+              onClick={handleRegenerateSelected}
+              style={{ 
+                background: selectedIds.size > 0 ? 'linear-gradient(135deg, #6c5ce7, #a29bfe)' : '#f5f5f5', 
+                color: selectedIds.size > 0 ? '#fff' : '#ccc', 
+                border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', 
+                cursor: selectedIds.size > 0 ? 'pointer' : 'default', 
+                display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s',
+                boxShadow: selectedIds.size > 0 ? '0 4px 12px rgba(108, 92, 231, 0.3)' : 'none'
+              }}>
+              <Sparkles size={18} /> {t('btn_regenerate_selected')} ({selectedIds.size})
+           </button>
+           <button 
+              disabled={selectedIds.size === 0 || isRegenerating}
               onClick={handleDeleteSelected}
               style={{ background: selectedIds.size > 0 ? '#ff4d4f' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s' }}>
               <Trash2 size={18} /> {t('btn_delete_selected')} ({selectedIds.size})
            </button>
            <button 
-              disabled={selectedIds.size === 0}
+              disabled={selectedIds.size === 0 || isRegenerating}
               onClick={() => setIsMoveModalOpen(true)}
               style={{ background: selectedIds.size > 0 ? '#1890ff' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s' }}>
               <Move size={18} /> {t('btn_move_folder')}
            </button>
            <button 
-              disabled={selectedIds.size === 0}
+              disabled={selectedIds.size === 0 || isRegenerating}
               onClick={handleExportPDF}
               style={{ background: selectedIds.size > 0 ? '#722ed1' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s' }}>
               <FileText size={18} /> {t('btn_export_pdf')}
            </button>
            <button 
-              disabled={selectedIds.size === 0}
+              disabled={selectedIds.size === 0 || isRegenerating}
               onClick={handleAddToCart}
               style={{ background: selectedIds.size > 0 ? '#52c41a' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s' }}>
               <ShoppingCart size={18} /> {t('btn_add_to_cart')}
@@ -700,7 +790,19 @@ const WordList = () => {
                                 )}
                              </div>
                           </div>
-                          <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1.5rem', marginTop: '2rem', paddingTop: '1.2rem', borderTop: '2px solid #f0f0f0' }}>
+                          <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem', marginTop: '2rem', paddingTop: '1.2rem', borderTop: '2px solid #f0f0f0', flexWrap: 'wrap' }}>
+                             <button 
+                                disabled={isRegenerating}
+                                onClick={(e) => handleRegenerateSingle(w, e)} 
+                                style={{ 
+                                  background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', 
+                                  border: 'none', borderRadius: '20px', color: '#fff', 
+                                  padding: '0.5rem 1rem', cursor: isRegenerating ? 'default' : 'pointer', 
+                                  display: 'flex', alignItems: 'center', gap: '0.4rem', 
+                                  fontWeight: '900', fontSize: '0.9rem', boxShadow: '0 2px 8px rgba(108, 92, 231, 0.2)' 
+                                }}>
+                                <Sparkles size={16} /> {t('btn_regenerate_single')}
+                             </button>
                              <button onClick={(e) => handleDelete(w.id, e)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#ff4d4f', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1rem' }}><Trash2 size={18} /> {t('btn_delete')}</button>
                           </div>
                         </div>
@@ -754,6 +856,65 @@ const WordList = () => {
             setSelectedTeacherWord(updatedWord);
           }}
         />
+      )}
+
+      {/* AI 단어 정밀 재생성 실시간 모달 */}
+      {isRegenerating && (
+        <div className="modal-overlay" style={{ 
+          position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, 
+          background: 'rgba(15, 23, 42, 0.75)', backdropFilter: 'blur(8px)', 
+          display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 4000 
+        }}>
+          <div style={{ 
+            background: '#fff', padding: '2.5rem 2rem', borderRadius: '32px', 
+            width: '90%', maxWidth: '460px', textAlign: 'center',
+            boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.35)',
+            border: '2px solid #6c5ce7'
+          }}>
+            <div style={{ 
+              display: 'inline-flex', padding: '16px', borderRadius: '50%', 
+              background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', color: '#fff', 
+              marginBottom: '1.2rem', boxShadow: '0 8px 16px rgba(108, 92, 231, 0.3)' 
+            }}>
+              <Loader2 size={36} className="spin-animation" style={{ animation: 'spin 1.5s linear infinite' }} />
+            </div>
+
+            <h3 style={{ margin: '0 0 0.5rem', fontWeight: '900', fontSize: '1.35rem', color: '#2d3436' }}>
+              AI 단어 정밀 재생성 중...
+            </h3>
+            <p style={{ margin: '0 0 1.5rem', color: '#636e72', fontWeight: '700', fontSize: '0.95rem' }}>
+              인도네시아어 어근, 접사 문법 원리, 동/반의어 및<br/>
+              예문 단어별 전수 분석(인터랙션)을 엄격히 생성 중입니다.
+            </p>
+
+            <div style={{ 
+              background: '#f8f9fa', padding: '1rem', borderRadius: '18px', 
+              marginBottom: '1.2rem', border: '1.5px solid #edf2f7' 
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem', fontWeight: '800', fontSize: '0.9rem', color: '#4a5568' }}>
+                <span>진행 상황</span>
+                <span style={{ color: '#6c5ce7' }}>{regenStatus.current} / {regenStatus.total}</span>
+              </div>
+              <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '8px', overflow: 'hidden' }}>
+                <div style={{ 
+                  height: '100%', 
+                  width: `${regenStatus.total > 0 ? (regenStatus.current / regenStatus.total) * 100 : 0}%`, 
+                  background: 'linear-gradient(90deg, #6c5ce7, #a29bfe)', 
+                  transition: 'width 0.4s ease' 
+                }} />
+              </div>
+              {regenStatus.currentWord && (
+                <div style={{ marginTop: '0.8rem', fontWeight: '900', color: '#2d3436', fontSize: '1.05rem' }}>
+                  현재 단어: <span style={{ color: '#6c5ce7' }}>{regenStatus.currentWord}</span>
+                </div>
+              )}
+            </div>
+
+            <p style={{ margin: 0, fontSize: '0.8rem', color: '#a0aec0', fontWeight: '600' }}>
+              완료될 때까지 잠시만 창을 유지해 주세요.
+            </p>
+          </div>
+        </div>
       )}
     </div>
   );

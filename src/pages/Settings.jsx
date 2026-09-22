@@ -394,7 +394,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.03 (AI 모델 설명 3개국어 완벽 현지화 및 영문 혼입 제거)
+                버전 정보: v20.04 (선택 단어 AI 정밀 재생성 및 어근/문법/동반의어/예문 전수 분석 강화)
             </span>
         </div>
       </header>
