@@ -207,7 +207,7 @@ export const playMixedAudio = async (text) => {
  */
 async function playGeminiTTS(text, lang, modelOverride = null) {
   const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
-  const model = modelOverride || localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash-latest';
+  const model = modelOverride || localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
   if (!apiKey) throw new Error("Gemini API Key가 없습니다.");
 
   const langNames = { 'ko': '한국어(Korean)', 'id': '인도네시아어(Indonesian)', 'en': '영어(English)' };

@@ -14,7 +14,7 @@ const Translate = () => {
     const [isTranslating, setIsTranslating] = useState(false);
     const [isSaving, setIsSaving] = useState(false);
     const [apiKey, setApiKey] = useState(localStorage.getItem('geminiApiKey') || '');
-    const [model, setModel] = useState(localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash');
+    const [model, setModel] = useState(localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash');
     const [transStyle, setTransStyle] = useState('formal'); // 'formal' or 'casual'
 
     const timeoutRef = useRef(null);

@@ -254,7 +254,7 @@ const WordGenerate = () => {
     }, 200);
     
     try {
-      const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash';
+      const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
       
       setProgressMsg(t('gen_ai_booting'));
       let localWords = await getWords();
@@ -868,7 +868,7 @@ const WordGenerate = () => {
             </h3>
             
             <p style={{ fontSize: '0.9rem', color: '#888', marginBottom: '2rem', fontWeight: '600' }}>
-                {t('gen_ai_current_model')} <span style={{ color: '#feca57' }}>{localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}</span>
+                {t('gen_ai_current_model')} <span style={{ color: '#feca57' }}>{localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash'}</span>
             </p>
 
             <div style={{ width: '100%', maxWidth: '400px', height: '18px', background: '#f5f5f5', borderRadius: '10px', overflow: 'hidden', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.05)' }}>

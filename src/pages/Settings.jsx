@@ -153,9 +153,9 @@ const Settings = () => {
     setTtsEngine(localStorage.getItem('tts_engine') || 'gemini');
 
     let savedModel = localStorage.getItem('selectedGeminiModel');
-    // 사용 불가능한 1.0 등 구형 모델 마이그레이션
-    if (!savedModel || savedModel.includes('1.0') || savedModel === 'gemini-pro') {
-      savedModel = 'gemini-2.5-flash';
+    // 사용 불가능한 1.x 및 2.x 전 기종 자동 마이그레이션
+    if (!savedModel || savedModel.includes('1.') || savedModel.includes('2.') || savedModel === 'gemini-pro' || savedModel === 'gemini-ultra') {
+      savedModel = 'gemini-3.8-flash';
       localStorage.setItem('selectedGeminiModel', savedModel);
     }
     setSelectedGeminiModel(savedModel);
@@ -164,9 +164,10 @@ const Settings = () => {
     if (savedList) {
       try {
         const parsed = JSON.parse(savedList);
+        // 캐시된 목록 중 사용 불가능한 1.x, 2.x 모델 완전 삭제
         const cleaned = parsed.filter(item => {
           const id = typeof item === 'string' ? item : item.id;
-          return id && !id.startsWith('gemini-1.0') && id !== 'gemini-pro';
+          return id && !id.startsWith('gemini-1.') && !id.startsWith('gemini-2.') && id !== 'gemini-pro' && id !== 'gemini-ultra';
         });
         setModelList(cleaned);
       } catch (e) {}
@@ -302,13 +303,14 @@ const Settings = () => {
       const validIds = fetched.map(m => typeof m === 'string' ? m : m.id);
       let targetModel = selectedGeminiModel;
       
-      // 구형 1.0 모델이거나 지원되지 않는 모델일 경우 최신 추천 모델로 자동 교체
-      const isOutdated = !targetModel || !validIds.includes(targetModel) || targetModel.includes('1.0');
+      // 구형 1.x 및 2.x 모델이거나 지원되지 않는 모델일 경우 최신 플래그십(3.8 Flash)으로 자동 교체
+      const isOutdated = !targetModel || !validIds.includes(targetModel) || targetModel.includes('1.') || targetModel.includes('2.');
       if (isOutdated) {
-        const bestModel = validIds.find(id => id.includes('2.5-flash') && !id.includes('lite')) ||
-                          validIds.find(id => id.includes('2.0-flash')) ||
-                          validIds.find(id => id.includes('1.5-flash')) ||
-                          validIds[0];
+        const bestModel = validIds.find(id => id.includes('3.8-flash')) ||
+                          validIds.find(id => id.includes('3.7-flash')) ||
+                          validIds.find(id => id.includes('3.5-flash')) ||
+                          validIds[0] ||
+                          'gemini-3.8-flash';
         targetModel = bestModel;
         setSelectedGeminiModel(targetModel);
       }
@@ -383,7 +385,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.01 (구글 최신 AI 모델 실시간 동기화)
+                버전 정보: v20.02 (제미나이 3.8 Flash 최신 공식 AI 모델 전면 개편)
             </span>
         </div>
       </header>
@@ -592,7 +594,7 @@ const Settings = () => {
                         <span style={{ fontSize: '0.75rem', background: '#fff', border: '1px solid #e2e8f0', padding: '3px 8px', borderRadius: '6px', fontWeight: '800', color: '#475569' }}>
                             {t(`model_tokens_${selectedModelInfo.tokens_key}`) || selectedModelInfo.tokens}
                         </span>
-                        {selectedModelInfo.id.includes('2.5-flash') && !selectedModelInfo.id.includes('lite') && (
+                        {selectedModelInfo.id.includes('3.8-flash') && (
                             <span style={{ fontSize: '0.75rem', background: '#fef3c7', border: '1px solid #fde68a', padding: '3px 8px', borderRadius: '6px', fontWeight: '900', color: '#b45309' }}>
                                 ⭐ 공식 추천
                             </span>

@@ -746,7 +746,7 @@ const WordList = () => {
           wordData={selectedTeacherWord}
           onClose={() => setSelectedTeacherWord(null)}
           apiKey={localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY}
-          modelName={localStorage.getItem('selectedGeminiModel') || 'gemini-1.5-flash'}
+          modelName={localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash'}
           userLang={userLang}
           studyLang={selectedTeacherWord.study_lang}
           onUpdateWord={(updatedWord) => {
