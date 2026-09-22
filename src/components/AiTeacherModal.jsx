@@ -8,6 +8,14 @@ import { playMixedAudio, stopTTS } from '../api/ttsApi';
 import { updateWord } from '../db/database';
 import { useLanguage } from '../contexts/LanguageContext';
 import TokenCostCard from './TokenCostCard';
+import { 
+  confirmActionWithTokenEstimate, 
+  alertActualTokenCost, 
+  recordTokenUsage,
+  confirmTtsWithEstimate,
+  alertActualTtsCost,
+  recordTtsUsage
+} from '../utils/tokenCostTracker';
 
 const AiTeacherModal = ({ 
   wordData, 
@@ -83,6 +91,12 @@ const AiTeacherModal = ({
         return targetWord.ai_lecture;
       }
 
+      // 새로 생성 전 예상 비용 확인 팝업
+      if (!confirmActionWithTokenEstimate('lecture', modelName)) {
+        setIsLoading(false);
+        return null;
+      }
+
       // 새로 생성
       const data = await generateWordLecture(targetWord, apiKey, modelName, userLang, targetWord.study_lang || studyLang);
       if (data && Array.isArray(data)) {
@@ -95,6 +109,12 @@ const AiTeacherModal = ({
         const updatedWord = { ...targetWord, ai_lecture: data, _lectureUsage: usageObj };
         await updateWord(updatedWord);
         if (onUpdateWord) onUpdateWord(updatedWord);
+
+        if (usageObj && usageObj.usageMetadata) {
+          recordTokenUsage('lecture', usageObj.usageMetadata, usageObj.modelUsed);
+          alertActualTokenCost('lecture', usageObj.usageMetadata, usageObj.modelUsed);
+        }
+
         setIsLoading(false);
         return data;
       } else {
@@ -118,10 +138,20 @@ const AiTeacherModal = ({
 
   // [핵심 엔진] 선택한 모든 단어 및 모든 슬라이드를 끊김 없이 차례대로 전수 재생하는 통합 시퀀서
   const startContinuousSequence = async (startWordIndex = 0, startSlideIndex = 0) => {
+    // 전체 연속 낭독 글자 수 추산 및 사전 확인
+    const estTotalChars = (slides && slides.length > 0)
+      ? slides.reduce((sum, s) => sum + (s.content?.length || 0), 0) * (playlist.length - startWordIndex)
+      : 800 * (playlist.length - startWordIndex);
+
+    if (!confirmTtsWithEstimate(estTotalChars, currentEngine, '스타강사 특강 연속 재생')) {
+      return;
+    }
+
     userStoppedRef.current = false;
     isPlayingRef.current = true;
     setIsPlaying(true);
     setIsAutoPlayAll(true);
+    let actualTotalChars = 0;
 
     for (let wIdx = startWordIndex; wIdx < playlist.length; wIdx++) {
       if (userStoppedRef.current) break;
@@ -154,6 +184,7 @@ const AiTeacherModal = ({
         if (slide && slide.content) {
           const ttsText = stripForTTS(slide.content);
           if (ttsText) {
+            actualTotalChars += ttsText.length;
             await playMixedAudio(ttsText, currentEngine);
           }
         }
@@ -175,6 +206,11 @@ const AiTeacherModal = ({
 
     if (!userStoppedRef.current) {
       console.log(`[AI-TEACHER] 🏁 모든 선택 단어 특강 연속 재생 완료!`);
+    }
+
+    if (actualTotalChars > 0) {
+      recordTtsUsage(actualTotalChars, currentEngine);
+      alertActualTtsCost(actualTotalChars, currentEngine, '스타강사 특강 연속 재생');
     }
 
     isPlayingRef.current = false;

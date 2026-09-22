@@ -7,6 +7,11 @@ import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import InteractiveSentence from '../components/InteractiveSentence';
 import AiTeacherModal from '../components/AiTeacherModal';
+import { 
+  confirmActionWithTokenEstimate, 
+  alertActualTokenCost, 
+  recordTokenUsage 
+} from '../utils/tokenCostTracker';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 
@@ -304,12 +309,12 @@ const WordList = () => {
     const targetWords = words.filter(w => selectedIds.has(w.id));
     if (targetWords.length === 0) return;
 
-    const confirmMsg = t('msg_regenerate_confirm', { count: targetWords.length });
-    if (!window.confirm(confirmMsg)) return;
+    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
+    if (!confirmActionWithTokenEstimate('regenerate', modelName, { count: targetWords.length })) return;
 
     setIsRegenerating(true);
-    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
     let successCount = 0;
+    let lastRegenUsage = null;
 
     try {
       for (let i = 0; i < targetWords.length; i++) {
@@ -318,12 +323,20 @@ const WordList = () => {
         try {
           const regenerated = await regenerateWordData(current, apiKey, modelName, userLang, current.study_lang || studyLang);
           await updateWord(regenerated);
+          if (regenerated._usageMetadata) {
+            recordTokenUsage('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
+            lastRegenUsage = regenerated._usageMetadata;
+          }
           successCount++;
         } catch (wordErr) {
           console.error(`단어 ${current.word} 재생성 실패:`, wordErr);
         }
       }
-      alert(t('msg_regenerate_done', { count: successCount }));
+      if (lastRegenUsage) {
+        alertActualTokenCost('regenerate', lastRegenUsage, modelName);
+      } else {
+        alert(t('msg_regenerate_done', { count: successCount }));
+      }
       setSelectedIds(new Set());
       await loadData();
     } catch (err) {
@@ -344,17 +357,21 @@ const WordList = () => {
       return;
     }
 
-    const confirmMsg = t('msg_regenerate_single_confirm', { word: wordItem.word });
-    if (!window.confirm(confirmMsg)) return;
+    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
+    if (!confirmActionWithTokenEstimate('regenerate', modelName, { count: 1 })) return;
 
     setIsRegenerating(true);
     setRegenStatus({ current: 1, total: 1, currentWord: wordItem.word });
-    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
 
     try {
       const regenerated = await regenerateWordData(wordItem, apiKey, modelName, userLang, wordItem.study_lang || studyLang);
       await updateWord(regenerated);
-      alert(t('msg_regenerate_done', { count: 1 }));
+      if (regenerated._usageMetadata) {
+        recordTokenUsage('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
+        alertActualTokenCost('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
+      } else {
+        alert(t('msg_regenerate_done', { count: 1 }));
+      }
       await loadData();
     } catch (err) {
       alert(t('msg_regenerate_error') + (err.message || ''));

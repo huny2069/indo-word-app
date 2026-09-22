@@ -8,9 +8,16 @@ import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
-import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info, Coins, Calculator } from 'lucide-react';
+import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info, Coins, Calculator, RotateCcw, BarChart3 } from 'lucide-react';
 import TokenCostCard from '../components/TokenCostCard';
-import { isTokenCostVisible, setTokenCostVisible, getModelRates } from '../utils/tokenCostTracker';
+import { 
+  isTokenCostVisible, 
+  setTokenCostVisible, 
+  getModelRates,
+  getTokenUsageStats,
+  resetTokenUsageStats,
+  formatCost
+} from '../utils/tokenCostTracker';
 
 const Settings = () => {
   const { userLang, studyLang, changeUserLang, changeStudyLang, t } = useLanguage();
@@ -25,10 +32,27 @@ const Settings = () => {
   const [showApiKey, setShowApiKey] = useState(false);
   const [apiStatus, setApiStatus] = useState('idle');
   const [showTokenCost, setShowTokenCost] = useState(isTokenCostVisible());
+  const [usageStats, setUsageStats] = useState(getTokenUsageStats());
+
+  useEffect(() => {
+    const handleStatsUpdate = (e) => {
+      setUsageStats(e.detail?.stats || getTokenUsageStats());
+    };
+    window.addEventListener('token_usage_updated', handleStatsUpdate);
+    return () => window.removeEventListener('token_usage_updated', handleStatsUpdate);
+  }, []);
 
   const handleToggleTokenCost = (checked) => {
     setTokenCostVisible(checked);
     setShowTokenCost(checked);
+  };
+
+  const handleResetTokenStats = () => {
+    if (window.confirm('🪙 지금까지 누적된 모든 토큰 사용량과 요금 통계를 0으로 초기화하시겠습니까?')) {
+      resetTokenUsageStats();
+      setUsageStats(getTokenUsageStats());
+      alert('✅ 누적 토큰 및 요금 통계가 깨끗하게 초기화되었습니다.');
+    }
   };
 
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); 
@@ -477,7 +501,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.12 (모델별 토큰 & 원화/루피아 실시간 비용 계산기 및 On/Off 토글 탑재)
+                버전 정보: v20.12 (사전 확인 팝업 & 실제 발생 요금 안내 & 설정 누적 통계 대시보드 및 리셋 탑재)
             </span>
         </div>
       </header>
@@ -799,6 +823,176 @@ const Settings = () => {
                                 modelId={selectedGeminiModel || 'gemini-3.8-flash'} 
                                 actionType="lecture" 
                             />
+                        </div>
+
+                        {/* [v20.12 신규] 내 토큰 & 요금 누적 사용량 대시보드 및 리셋 기능 */}
+                        <div style={{
+                            marginTop: '1rem',
+                            padding: '1.2rem',
+                            borderRadius: '16px',
+                            background: 'linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%)',
+                            border: '2px solid #cbd5e1',
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.04)'
+                        }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '8px' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                    <BarChart3 size={20} color="#0284c7" />
+                                    <div>
+                                        <div style={{ fontSize: '1rem', fontWeight: '900', color: '#0f172a' }}>
+                                            📊 내 토큰 & 요금 누적 사용량
+                                        </div>
+                                        <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
+                                            실제 API 호출 및 TTS 사용으로 누적된 입출력 토큰과 요금
+                                        </div>
+                                    </div>
+                                </div>
+                                <button 
+                                    onClick={handleResetTokenStats}
+                                    style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: '4px',
+                                        padding: '0.4rem 0.8rem',
+                                        background: '#fee2e2',
+                                        color: '#b91c1c',
+                                        border: '1px solid #fca5a5',
+                                        borderRadius: '10px',
+                                        fontSize: '0.75rem',
+                                        fontWeight: '900',
+                                        cursor: 'pointer',
+                                        transition: '0.2s'
+                                    }}
+                                    title="누적된 통계를 0으로 초기화합니다"
+                                >
+                                    <RotateCcw size={13} /> 누적 요금 리셋
+                                </button>
+                            </div>
+
+                            {/* 총합 대형 요약 배너 */}
+                            <div style={{
+                                background: '#ffffff',
+                                borderRadius: '14px',
+                                padding: '1rem 1.2rem',
+                                border: '1.5px solid #e2e8f0',
+                                marginBottom: '1rem',
+                                display: 'grid',
+                                gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+                                gap: '0.8rem'
+                            }}>
+                                <div>
+                                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '800' }}>총 소모 토큰</div>
+                                    <div style={{ fontSize: '1.25rem', fontWeight: '900', color: '#7c3aed' }}>
+                                        {usageStats.total.totalTokens.toLocaleString()} <span style={{ fontSize: '0.8rem' }}>T</span>
+                                    </div>
+                                    <div style={{ fontSize: '0.72rem', color: '#94a3b8' }}>
+                                        입력: {usageStats.total.inputTokens.toLocaleString()} T / 출력: {usageStats.total.outputTokens.toLocaleString()} T
+                                    </div>
+                                </div>
+                                <div>
+                                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '800' }}>누적 환산 요금 (KRW / IDR)</div>
+                                    <div style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
+                                        <span style={{ fontSize: '1.15rem', fontWeight: '900', color: '#059669' }}>
+                                            ₩{formatCost(usageStats.total.usdCost).krwText}
+                                        </span>
+                                        <span style={{ fontSize: '0.9rem', fontWeight: '800', color: '#2563eb' }}>
+                                            (Rp {formatCost(usageStats.total.usdCost).idrText})
+                                        </span>
+                                    </div>
+                                    <div style={{ fontSize: '0.72rem', color: '#94a3b8' }}>
+                                        USD: {formatCost(usageStats.total.usdCost).usdText} | 총 {usageStats.total.count}회 실행
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 작업별 4대 카테고리 상세 카드 */}
+                            <div style={{ fontSize: '0.82rem', fontWeight: '900', color: '#334155', marginBottom: '6px' }}>
+                                📌 작업별 토큰 및 요금 상세 내역:
+                            </div>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.6rem' }}>
+                                {/* 1. 단어생성 */}
+                                <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
+                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                                        <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                            📝 단어생성
+                                        </strong>
+                                        <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
+                                            {usageStats.byAction.generate.count}회
+                                        </span>
+                                    </div>
+                                    <div style={{ color: '#475569', lineHeight: '1.5' }}>
+                                        <div>총 토큰: <strong>{usageStats.byAction.generate.totalTokens.toLocaleString()} T</strong></div>
+                                        <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
+                                            (입력: {usageStats.byAction.generate.inputTokens.toLocaleString()} / 출력: {usageStats.byAction.generate.outputTokens.toLocaleString()})
+                                        </div>
+                                        <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
+                                            요금: ₩{formatCost(usageStats.byAction.generate.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.generate.usdCost).idrText})</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* 2. 재생성 */}
+                                <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
+                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                                        <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                            🔄 단어 재생성
+                                        </strong>
+                                        <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
+                                            {usageStats.byAction.regenerate.count}회
+                                        </span>
+                                    </div>
+                                    <div style={{ color: '#475569', lineHeight: '1.5' }}>
+                                        <div>총 토큰: <strong>{usageStats.byAction.regenerate.totalTokens.toLocaleString()} T</strong></div>
+                                        <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
+                                            (입력: {usageStats.byAction.regenerate.inputTokens.toLocaleString()} / 출력: {usageStats.byAction.regenerate.outputTokens.toLocaleString()})
+                                        </div>
+                                        <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
+                                            요금: ₩{formatCost(usageStats.byAction.regenerate.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.regenerate.usdCost).idrText})</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* 3. 스타강사 특강 */}
+                                <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
+                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                                        <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                            🎓 스타강사 특강
+                                        </strong>
+                                        <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
+                                            {usageStats.byAction.lecture.count}회
+                                        </span>
+                                    </div>
+                                    <div style={{ color: '#475569', lineHeight: '1.5' }}>
+                                        <div>총 토큰: <strong>{usageStats.byAction.lecture.totalTokens.toLocaleString()} T</strong></div>
+                                        <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
+                                            (입력: {usageStats.byAction.lecture.inputTokens.toLocaleString()} / 출력: {usageStats.byAction.lecture.outputTokens.toLocaleString()})
+                                        </div>
+                                        <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
+                                            요금: ₩{formatCost(usageStats.byAction.lecture.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.lecture.usdCost).idrText})</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* 4. 음성 엔진 TTS */}
+                                <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
+                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                                        <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                            🎙️ 음성엔진 사용 (TTS)
+                                        </strong>
+                                        <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
+                                            {usageStats.byAction.tts.count}회
+                                        </span>
+                                    </div>
+                                    <div style={{ color: '#475569', lineHeight: '1.5' }}>
+                                        <div>합성 글자수: <strong>{usageStats.byAction.tts.chars.toLocaleString()} 자</strong></div>
+                                        <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
+                                            (Google HD 월 100만자 무료 구간 적용)
+                                        </div>
+                                        <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
+                                            요금: ₩{formatCost(usageStats.byAction.tts.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.tts.usdCost).idrText})</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 ) : (

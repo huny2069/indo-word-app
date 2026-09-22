@@ -7,6 +7,11 @@ import {
   ChevronDown, ChevronUp, Sparkles, CheckCircle2, Layers, Loader2, ArrowRight, RotateCcw
 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
+import { 
+  confirmActionWithTokenEstimate, 
+  alertActualTokenCost, 
+  recordTokenUsage 
+} from '../utils/tokenCostTracker';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 import { 
@@ -262,13 +267,14 @@ const Dictionary = () => {
     const targetWords = currentCategoryWords.filter(w => selectedOfflineIds.has(w.id));
     if (targetWords.length === 0) return;
 
-    if (!window.confirm(`${targetWords.length}개 단어를 최신 AI 규칙(인도네시아어 어근, 접사 문법 원리, 동/반의어 뜻, 대화 상황, 예문 전수 분석)으로 정밀 재생성하시겠습니까?\n화면의 사전 데이터와 단어장에 즉시 반영됩니다.`)) {
+    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
+    if (!confirmActionWithTokenEstimate('regenerate', modelName, { count: targetWords.length })) {
       return;
     }
 
     setIsRegenerating(true);
-    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
     let successCount = 0;
+    let lastRegenUsage = null;
     const newOverrides = { ...dictOverrides };
 
     try {
@@ -284,6 +290,11 @@ const Dictionary = () => {
             userLang, 
             item.study_lang || studyLang || 'id'
           );
+
+          if (regenerated && regenerated._usageMetadata) {
+            recordTokenUsage('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
+            lastRegenUsage = regenerated._usageMetadata;
+          }
 
           const cleanKey = normalizeWord(item.word);
           newOverrides[cleanKey] = {
@@ -311,7 +322,11 @@ const Dictionary = () => {
 
       await refreshLocalWords();
       setSelectedOfflineIds(new Set());
-      alert(`✨ ${successCount}개 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면과 단어장에 즉시 반영되었습니다!`);
+      if (lastRegenUsage) {
+        alertActualTokenCost('regenerate', lastRegenUsage, modelName);
+      } else {
+        alert(`✨ ${successCount}개 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면과 단어장에 즉시 반영되었습니다!`);
+      }
     } catch (err) {
       alert('재생성 중 오류 발생: ' + (err.message || ''));
     } finally {
@@ -331,13 +346,13 @@ const Dictionary = () => {
       return;
     }
 
-    if (!window.confirm(`'${item.word}' 단어를 최신 AI 규칙(인도네시아어 어근, 접사 문법 원리, 동/반의어, 대화 상황, 예문 전수 분석)으로 다시 올바르게 생성하시겠습니까?\n사전 화면과 단어장에 즉시 갱신되어 표시됩니다.`)) {
+    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
+    if (!confirmActionWithTokenEstimate('regenerate', modelName, { count: 1 })) {
       return;
     }
 
     setIsRegenerating(true);
     setRegenStatus({ current: 1, total: 1, currentWord: item.word });
-    const modelName = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
 
     try {
       const regenerated = await regenerateWordData(
@@ -347,6 +362,10 @@ const Dictionary = () => {
         userLang, 
         item.study_lang || studyLang || 'id'
       );
+
+      if (regenerated && regenerated._usageMetadata) {
+        recordTokenUsage('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
+      }
 
       const cleanKey = normalizeWord(item.word);
       
@@ -375,7 +394,11 @@ const Dictionary = () => {
       // 3. 사용자가 방금 새로 만들어진 어근, 문법, 예문 등을 즉시 볼 수 있게 카드 펼침
       setExpandedOfflineId(item.id);
 
-      alert(`'${item.word}' 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면에 즉시 반영되었습니다! ✨`);
+      if (regenerated && regenerated._usageMetadata) {
+        alertActualTokenCost('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
+      } else {
+        alert(`'${item.word}' 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면에 즉시 반영되었습니다! ✨`);
+      }
     } catch (err) {
       console.error(err);
       alert('재생성 실패: ' + (err.message || ''));

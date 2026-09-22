@@ -10,6 +10,11 @@ import {
 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import TokenCostCard from '../components/TokenCostCard';
+import { 
+  confirmActionWithTokenEstimate, 
+  alertActualTokenCost, 
+  recordTokenUsage 
+} from '../utils/tokenCostTracker';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
 import { 
@@ -243,6 +248,11 @@ const WordGenerate = () => {
       return;
     }
 
+    const savedModel = localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash';
+    if (!confirmActionWithTokenEstimate('generate', savedModel, { count })) {
+      return;
+    }
+
     setLoading(true);
     setGeneratedWords([]);
     setLastAiUsage(null);
@@ -266,6 +276,7 @@ const WordGenerate = () => {
       let existingWordStrings = localWords.map(w => w.word.toLowerCase());
       
       let finalAddedWords = [];
+      let capturedUsageMeta = null;
 
       // Supabase 캐시 조회
       setProgressMsg(t('gen_ai_analyzing'));
@@ -305,6 +316,7 @@ const WordGenerate = () => {
           try {
               const result = await generateWords(topic, currentRemaining, apiKey, savedModel, excludeList, userLang, studyLang, user?.email);
               if (result && result._usageMetadata) {
+                  capturedUsageMeta = result._usageMetadata;
                   setLastAiUsage({
                       usageMetadata: result._usageMetadata,
                       modelUsed: result._modelUsed || savedModel
@@ -344,7 +356,12 @@ const WordGenerate = () => {
       if (finalAddedWords.length === 0) {
         alert(t('msg_ai_gen_fail'));
       } else {
-        alert(t('msg_cart_added', { count: finalAddedWords.length }));
+        if (capturedUsageMeta) {
+          recordTokenUsage('generate', capturedUsageMeta, savedModel);
+          alertActualTokenCost('generate', capturedUsageMeta, savedModel);
+        } else {
+          alert(t('msg_cart_added', { count: finalAddedWords.length }));
+        }
       }
     } catch (error) {
       clearInterval(progressInterval);
