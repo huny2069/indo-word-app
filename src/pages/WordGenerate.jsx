@@ -9,6 +9,7 @@ import {
   ChevronDown, ChevronUp, BookOpen, CheckSquare, Square, Layers, ArrowRight 
 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
+import TokenCostCard from '../components/TokenCostCard';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
 import { 
@@ -89,6 +90,7 @@ const WordGenerate = () => {
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const [progressMsg, setProgressMsg] = useState('');
+  const [lastAiUsage, setLastAiUsage] = useState(null);
 
   // --- [수동 입력 State] ---
   const [manualWord, setManualWord] = useState({
@@ -243,6 +245,7 @@ const WordGenerate = () => {
 
     setLoading(true);
     setGeneratedWords([]);
+    setLastAiUsage(null);
     setProgress(0);
     
     const progressInterval = setInterval(() => {
@@ -301,6 +304,12 @@ const WordGenerate = () => {
           
           try {
               const result = await generateWords(topic, currentRemaining, apiKey, savedModel, excludeList, userLang, studyLang, user?.email);
+              if (result && result._usageMetadata) {
+                  setLastAiUsage({
+                      usageMetadata: result._usageMetadata,
+                      modelUsed: result._modelUsed || savedModel
+                  });
+              }
               const newAiResults = result.filter(w => {
                   const isDuplicateInLocal = existingWordStrings.includes(w.word.toLowerCase());
                   const isDuplicateInBatch = finalAddedWords.some(fw => fw.word.toLowerCase() === w.word.toLowerCase());
@@ -851,10 +860,20 @@ const WordGenerate = () => {
             style={{ width: '100%', padding: '1rem', border: '2px solid #f0f0f0', borderRadius: '15px', outline: 'none', fontSize: '1rem' }}
             />
 
+            {/* 사전 예상 토큰 및 실시간 환산 비용 카드 */}
+            <div style={{ marginTop: '1.2rem' }}>
+              <TokenCostCard 
+                mode="estimate" 
+                modelId={localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash'} 
+                actionType="generate" 
+                count={count} 
+              />
+            </div>
+
             <button 
             onClick={handleGenerate} 
             disabled={loading}
-            style={{ width: '100%', padding: '1.2rem', marginTop: '2rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '35px', fontSize: '1.2rem', cursor: loading ? 'not-allowed' : 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #e67e22' }}>
+            style={{ width: '100%', padding: '1.2rem', marginTop: '1.5rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '35px', fontSize: '1.2rem', cursor: loading ? 'not-allowed' : 'pointer', fontWeight: '900', boxShadow: '0 6px 0 #e67e22' }}>
             {loading ? t('gen_btn_loading') : t('gen_btn_start')}
             </button>
         </div>
@@ -938,6 +957,18 @@ const WordGenerate = () => {
       {/* ======================================================= */}
       {generatedWords.length > 0 && (
         <div style={{ marginTop: '3rem' }}>
+          {/* 실제 API 토큰 소모량 및 실시간 환산 비용 카드 */}
+          {lastAiUsage && lastAiUsage.usageMetadata && (
+            <div style={{ marginBottom: '1.5rem' }}>
+              <TokenCostCard 
+                mode="actual" 
+                usageMetadata={lastAiUsage.usageMetadata} 
+                modelId={lastAiUsage.modelUsed} 
+                actionType="generate" 
+              />
+            </div>
+          )}
+
           <h3 style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1.4rem' }}>
             <span style={{ fontSize: '1.6rem' }}>🎉</span> 방금 단어장에 담긴 단어 ({generatedWords.length}개)
           </h3>

@@ -128,12 +128,21 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
         } catch (err) { console.warn("Log failed:", err); }
     }
 
+    const usage = data.usageMetadata || null;
     const textContent = data.candidates[0].content.parts[0].text;
     let parsedData = safeParseJSON(textContent);
     if (Array.isArray(parsedData)) {
-      return parsedData.map(item => normalizeAndEnrichWordBreakdown(item, studyLang));
+      return parsedData.map(item => ({
+        ...normalizeAndEnrichWordBreakdown(item, studyLang),
+        _usageMetadata: usage,
+        _modelUsed: modelName
+      }));
     }
-    return [normalizeAndEnrichWordBreakdown(parsedData, studyLang)];
+    return [{
+      ...normalizeAndEnrichWordBreakdown(parsedData, studyLang),
+      _usageMetadata: usage,
+      _modelUsed: modelName
+    }];
 
   } catch (error) {
     console.error("Gemini API Error:", error);
@@ -388,7 +397,9 @@ export const regenerateWordData = async (wordObj, apiKey, modelName = 'gemini-3.
         word: targetWord,
         study_lang: studyLang,
         user_lang: userLang,
-        updated_at: new Date().toISOString()
+        updated_at: new Date().toISOString(),
+        _usageMetadata: data.usageMetadata || null,
+        _modelUsed: modelName
       };
     } catch (error) {
       lastError = error;
@@ -411,72 +422,112 @@ export const CURATED_MODELS = [
   { 
     id: 'gemini-3.8-flash', 
     t_key: '3_8_flash',
-    name: 'Gemini 3.8 Flash (최신 플래그십 추천)', 
-    shortDesc: '⚡ [최신 추천] 차세대 플래그십 초고속 모델',
-    speed: '🚀 압도적 빠름', speed_key: 'very_fast',
-    tokens: '📉 매우 낮음', tokens_key: 'very_low',
-    pros: '구글의 최신 플래그십 Flash 모델로, 긴 문맥과 멀티턴 추론 능력을 갖추어 인도네시아어 문법 논리, 어근 분석 및 1타 강사 강의 대본 생성에 극강의 속도와 정확성을 발휘합니다.',
-    cons: '초고난도 심층 추론은 3.5 Pro와 병행하여 활용 가능합니다.'
+    name: 'Gemini 3.8 Flash (공식 추천)', 
+    shortDesc: '⚡ [공식 추천] 차세대 플래그십 고지능 Flash 모델',
+    speed: '🚀 매우 빠름', speed_key: 'very_fast',
+    tokens: '📉 낮음', tokens_key: 'low',
+    pros: '장기 소프트웨어 엔지니어링, 자율 에이전트, 복잡한 엔터프라이즈 워크플로를 위해 설계된 고지능 Flash 모델로, 탁월한 속도와 비용 효율성의 균형을 제공합니다.',
+    cons: '표준 요금제는 2026년 12월 31일까지 프로모션 할인가($0.75/$3.75)가 적용되며, 이후 정가($1.50/$7.50)로 전환됩니다.'
   },
   { 
     id: 'gemini-3.7-flash', 
     t_key: '3_7_flash',
-    name: 'Gemini 3.7 Flash (검증된 고성능)', 
-    shortDesc: '⚡ [안정] 3.7세대 고속 개발자 표준',
+    name: 'Gemini 3.7 Flash (고성능 검증 모델)', 
+    shortDesc: '⚡ [안정성] 복합 다국어 및 에이전트 워크플로 표준',
     speed: '⚡ 빠름', speed_key: 'fast',
     tokens: '📉 낮음', tokens_key: 'low',
-    pros: '소프트웨어 엔지니어링 및 다국어 언어 추론 능력이 뛰어난 3.7세대 표준 모델로 안정성이 입증되어 있습니다.',
-    cons: '최신 3.8 Flash에 비해 에이전틱 복합 추론 처리 효율이 소폭 낮습니다.'
+    pros: '고도화된 코딩, 복합 추론 및 다국어 텍스트 이해에 최적화되어 폭넓은 개발 워크플로에서 안정성이 검증된 고속 모델입니다.',
+    cons: '최신 3.8 Flash 대비 자율 에이전트 장기 실행 효율이 소폭 차이날 수 있습니다.'
   },
   { 
     id: 'gemini-3.5-pro', 
     t_key: '3_5_pro',
-    name: 'Gemini 3.5 Pro (최상위 심층 추론)', 
-    shortDesc: '🧠 [최상위] 심층 추론 및 1타 강사 특화',
+    name: 'Gemini 3.5 Pro (최상위 심층 추론 모델)', 
+    shortDesc: '🧠 [최상위] 고난도 다단계 추론 및 심층 언어 분석',
     speed: '🐢 느림', speed_key: 'slow',
     tokens: '💎 매우 높음', tokens_key: 'very_high',
-    pros: '최상위 지능을 갖추어 복잡한 인도네시아어 문법 논리, 어근 분석 및 1타 강사 시크릿 노트 생성에 극강의 정확성을 발휘합니다.',
-    cons: 'Pro 모델 특성상 생성 지연 대기 시간이 다소 발생하며, 토큰당 API 소모 비용이 가장 높습니다.'
+    pros: 'Gemini 3 Pro 제품군의 주력 모델로, 복잡한 문제 해결, 다단계 심층 추론(Deep Thinking), 고난도 논리 구성 및 언어 분석에서 업계 최고의 성능을 발휘합니다.',
+    cons: '심층 추론 연산 특성상 생성 지연 시간(Latency)이 발생하며, 1M 토큰당 비용($2.00 / $12.00)이 Flash 모델 대비 높습니다.'
   },
   { 
     id: 'gemini-3.5-flash', 
     t_key: '3_5_flash',
-    name: 'Gemini 3.5 Flash (에이전트 고효율)', 
-    shortDesc: '⚡ [고효율] 100만 컨텍스트 사고 보존',
-    speed: '🚀 압도적 빠름', speed_key: 'very_fast',
-    tokens: '📉 매우 낮음', tokens_key: 'very_low',
-    pros: '100만 컨텍스트 및 사고 보존(Thinking Preservation)을 갖추어 멀티턴 대화의 추론을 자동 유지하며, 에이전트형 루프와 코딩 작업에서 최첨단 가성비를 제공합니다.',
-    cons: 'Pro 기종에 비해 고난도 논리 추론 연산 능력이 미세하게 제한적입니다.'
+    name: 'Gemini 3.5 Flash (고효율 표준 모델)', 
+    shortDesc: '⚡ [고효율] 100만 컨텍스트 및 프론티어급 실무 지능',
+    speed: '🚀 매우 빠름', speed_key: 'very_fast',
+    tokens: '📉 낮음', tokens_key: 'low',
+    pros: '더 빠른 처리 속도와 절감된 비용으로 실제 작업에 최적화된 프론티어급 최고 수준의 지능을 지속적으로 제공하며, 100만 토큰 대규모 컨텍스트를 지원합니다.',
+    cons: '고난도 심층 추론 전용 작업에서는 3.5 Pro에 비해 추론 깊이가 제한될 수 있습니다.'
   },
   { 
     id: 'gemini-3.5-flash-lite', 
     t_key: '3_5_flash_lite',
-    name: 'Gemini 3.5 Flash-Lite (초고속 가성비)', 
-    shortDesc: '🚀 [가성비] 모바일 초고속 최저비용',
-    speed: '🚀 압도적 빠름', speed_key: 'very_fast',
+    name: 'Gemini 3.5 Flash-Lite (초저지연 대량 처리 모델)', 
+    shortDesc: '🚀 [초가성비] 서브에이전트 및 고처리량 최저 비용 실행',
+    speed: '🚀 매우 빠름', speed_key: 'very_fast',
     tokens: '📉 매우 낮음', tokens_key: 'very_low',
-    pros: '단순 언어 변환 및 대규모 단어 퀴즈 생성 시 최적의 반응 속도와 사실상 비용 제로에 가까운 효율성을 제공합니다.',
-    cons: '깊이 있는 핵심 어근 분해 및 유사어 뉘앙스 도출 시 설명 디테일이 생략되곤 합니다.'
+    pros: '서브에이전트 작업 및 대용량 문서 파싱을 위해 설계된 고처리량, 최저 비용 실행에 최적화된 초저지연·초가성비 멀티모달 모델입니다.',
+    cons: '복잡한 뉘앙스 설명이나 긴 강의 대본 생성 시 세부 묘사가 축약될 수 있습니다.'
   },
   { 
     id: 'gemini-3.1-pro', 
     t_key: '3_1_pro',
-    name: 'Gemini 3.1 Pro (정밀 언어 분석)', 
-    shortDesc: '🧠 [정밀] 다국어 번역 미세 감정 조율',
+    name: 'Gemini 3.1 Pro (정밀 추론 및 그라운딩)', 
+    shortDesc: '🧠 [정밀] 향상된 사고(Thinking) 및 토큰 효율성',
     speed: '🐢 느림', speed_key: 'slow',
     tokens: '💎 매우 높음', tokens_key: 'very_high',
-    pros: '대규모 추론 지능을 탑재하여 다국어 번역 시 원어민의 감정과 종결어미 상황별 차이를 정밀 조율하는 강점이 있습니다.',
-    cons: '최신 3.8 Flash에 비해 속도가 느리고 비용이 큽니다.'
+    pros: 'Gemini 3 Pro 시리즈의 성능과 신뢰성을 한층 더 정교하게 다듬어, 향상된 심층 추론(Thinking), 뛰어난 토큰 효율성 및 그라운딩을 제공합니다.',
+    cons: '최신 Flash 기종 대비 응답 대기 시간이 길며, 비용이 다소 높습니다.'
+  },
+  { 
+    id: 'gemini-3.1-flash-lite', 
+    t_key: '3_1_flash_lite',
+    name: 'Gemini 3.1 Flash-Lite (초경량 초고속 모델)', 
+    shortDesc: '🚀 [초경량] 고빈도 경량 작업 및 최저 비용 데이터 추출',
+    speed: '🚀 매우 빠름', speed_key: 'very_fast',
+    tokens: '📉 매우 낮음', tokens_key: 'very_low',
+    pros: '대규모 에이전트 워크플로 및 고속 데이터 추출 등 빈번하고 가벼운 작업에 최적화된 초저지연·초가성비 멀티모달 모델입니다.',
+    cons: '방대한 어휘 간의 심층적인 상호 비교 설명에는 한계가 있을 수 있습니다.'
   },
   { 
     id: 'gemini-3.0-flash', 
     t_key: '3_0_flash',
     name: 'Gemini 3.0 Flash (3.0 기본 속도형)', 
-    shortDesc: '⚡ [기초] 3.0 세대 기본 속도형',
+    shortDesc: '⚡ [기본형] 3.0 세대 표준 멀티모달 모델',
     speed: '⚡ 빠름', speed_key: 'fast',
     tokens: '⚖️ 보통', tokens_key: 'normal',
-    pros: '빠른 응답성과 보편적인 다국어 번역 영역에서 높은 신뢰도를 갖춘 세대적 표준형 모델입니다.',
-    cons: '최신 3.8 모델에 비해 토큰 효율과 대화 일관성이 떨어질 수 있습니다.'
+    pros: '빠른 응답성과 보편적인 다국어 처리 영역에서 높은 신뢰도를 갖춘 3.0 세대 표준형 모델입니다.',
+    cons: '최신 3.8 모델에 비해 토큰 효율과 장기 문맥 일관성이 떨어질 수 있습니다.'
+  },
+  { 
+    id: 'gemini-2.5-pro', 
+    t_key: '2_5_pro',
+    name: 'Gemini 2.5 Pro (고도화 심층 분석)', 
+    shortDesc: '🧠 [고도화] 복잡한 작업을 위한 심층 추론 및 코딩',
+    speed: '🐢 느림', speed_key: 'slow',
+    tokens: '💎 높음', tokens_key: 'high',
+    pros: 'Gemini 2.5 제품군 중 가장 진보된 최상위 모델로, 복잡한 작업을 위한 심층 추론 및 고도화된 코딩 역량을 갖추고 있습니다.',
+    cons: '구글 공식 정책상 장기 운영 후 3.x 세대로의 마이그레이션이 권장됩니다.'
+  },
+  { 
+    id: 'gemini-2.5-flash', 
+    t_key: '2_5_flash',
+    name: 'Gemini 2.5 Flash (균형 잡힌 멀티모달)', 
+    shortDesc: '⚡ [균형] 속도와 추론력의 완벽한 조화',
+    speed: '⚡ 빠름', speed_key: 'fast',
+    tokens: '📉 낮음', tokens_key: 'low',
+    pros: '텍스트, 이미지, 비디오, 오디오 입력을 폭넓게 지원하며 속도와 추론력의 완벽한 균형에 최적화된 고성능 멀티모달 모델입니다.',
+    cons: '2.5세대 모델로 최신 3.8 Flash 대비 에이전트 도구 연동 성능 차이가 있습니다.'
+  },
+  { 
+    id: 'gemini-2.0-flash', 
+    t_key: '2_0_flash',
+    name: 'Gemini 2.0 Flash (차세대 기본 고속형)', 
+    shortDesc: '⚡ [기본 고속] 대규모 고빈도 작업을 위한 저지연 모델',
+    speed: '🚀 매우 빠름', speed_key: 'very_fast',
+    tokens: '📉 매우 낮음', tokens_key: 'very_low',
+    pros: '낮은 지연 시간과 강력한 멀티모달 기능으로 대규모 고빈도 작업에 최적화된 차세대 고속 모델입니다.',
+    cons: '복잡한 언어 문법 생성 시 3.x 세대에 비해 설명 깊이가 얕을 수 있습니다.'
   }
 ];
 
@@ -698,6 +749,11 @@ export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-
     } catch (e) {
       console.error("JSON 파싱 에러:", textContent);
       throw new Error("AI가 올바른 JSON 형식을 반환하지 않았습니다.");
+    }
+    
+    if (parsedData && typeof parsedData === 'object') {
+      parsedData._usageMetadata = data.usageMetadata || null;
+      parsedData._modelUsed = modelName;
     }
     
     return parsedData;

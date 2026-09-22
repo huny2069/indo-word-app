@@ -8,7 +8,9 @@ import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
-import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info } from 'lucide-react';
+import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info, Coins, Calculator } from 'lucide-react';
+import TokenCostCard from '../components/TokenCostCard';
+import { isTokenCostVisible, setTokenCostVisible, getModelRates } from '../utils/tokenCostTracker';
 
 const Settings = () => {
   const { userLang, studyLang, changeUserLang, changeStudyLang, t } = useLanguage();
@@ -22,6 +24,12 @@ const Settings = () => {
   const [loadingVoices, setLoadingVoices] = useState(false); 
   const [showApiKey, setShowApiKey] = useState(false);
   const [apiStatus, setApiStatus] = useState('idle');
+  const [showTokenCost, setShowTokenCost] = useState(isTokenCostVisible());
+
+  const handleToggleTokenCost = (checked) => {
+    setTokenCostVisible(checked);
+    setShowTokenCost(checked);
+  };
 
   const [isAudioEnabled, setIsAudioEnabled] = useState(true); 
   const [ttsEngine, setTtsEngine] = useState('gemini');
@@ -469,7 +477,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.11 (특강 전 단어 무중단 연속 재생 보장 & 현지 실생활 구어체 회화 꿀팁 강의 탑재)
+                버전 정보: v20.12 (모델별 토큰 & 원화/루피아 실시간 비용 계산기 및 On/Off 토글 탑재)
             </span>
         </div>
       </header>
@@ -707,6 +715,98 @@ const Settings = () => {
                     </div>
                 </div>
             )}
+            {/* 3. [신규] 토큰 및 실시간 예상/실제 비용(KRW ₩ / IDR Rp) 계산기 On/Off 및 단가 안내 */}
+            <div style={{
+                marginTop: '1.2rem',
+                padding: '1.2rem',
+                borderRadius: '16px',
+                background: '#ffffff',
+                border: '1.5px solid #e2e8f0',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.03)'
+            }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <Calculator size={20} color="#f59e0b" />
+                        <div>
+                            <div style={{ fontSize: '0.95rem', fontWeight: '900', color: '#1e293b' }}>
+                                토큰 및 실시간 비용 계산기 (KRW ₩ / IDR Rp)
+                            </div>
+                            <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
+                                모델별 토큰 소모량과 원화/루피아 환산 금액 사전·실시간 표시
+                            </div>
+                        </div>
+                    </div>
+                    <label className="switch" style={{ transform: 'scale(0.85)' }} title="토큰 및 환산 비용 표시 켜기/끄기">
+                        <input 
+                            type="checkbox" 
+                            checked={showTokenCost} 
+                            onChange={e => handleToggleTokenCost(e.target.checked)} 
+                        />
+                        <span className="slider round"></span>
+                    </label>
+                </div>
+
+                {showTokenCost ? (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginTop: '0.6rem' }}>
+                        {/* 현재 선택된 모델 단가 요약 */}
+                        {(() => {
+                            const rates = getModelRates(selectedGeminiModel);
+                            const inKrw1M = Math.round(rates.input * 1380);
+                            const outKrw1M = Math.round(rates.output * 1380);
+                            const inIdr1M = Math.round(rates.input * 16000);
+                            const outIdr1M = Math.round(rates.output * 16000);
+                            return (
+                                <div style={{ background: '#f8fafc', padding: '0.9rem', borderRadius: '12px', border: '1px solid #f1f5f9', fontSize: '0.8rem' }}>
+                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px', flexWrap: 'wrap', gap: '6px' }}>
+                                        <div style={{ fontWeight: '900', color: '#0f172a', display: 'flex', alignItems: 'center', gap: '5px' }}>
+                                            <Coins size={14} color="#f59e0b" />
+                                            선택 모델 [{selectedGeminiModel || 'gemini-3.8-flash'}] 공식 단가표 (1M 토큰당):
+                                        </div>
+                                        <a 
+                                            href="https://ai.google.dev/gemini-api/docs/pricing?hl=ko#standard" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            style={{ fontSize: '0.72rem', color: '#2563eb', fontWeight: '800', textDecoration: 'underline', display: 'inline-flex', alignItems: 'center', gap: '2px' }}
+                                        >
+                                            구글 공식 요금 문서 ↗
+                                        </a>
+                                    </div>
+                                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '6px', color: '#475569' }}>
+                                        <div>
+                                            📥 <strong>입력(Prompt):</strong> ${rates.input}/1M <span style={{ color: '#059669', fontWeight: '800' }}>(약 ₩{inKrw1M.toLocaleString()} / Rp {inIdr1M.toLocaleString()})</span>
+                                        </div>
+                                        <div>
+                                            📤 <strong>출력(Response):</strong> ${rates.output}/1M <span style={{ color: '#059669', fontWeight: '800' }}>(약 ₩{outKrw1M.toLocaleString()} / Rp {outIdr1M.toLocaleString()})</span>
+                                        </div>
+                                    </div>
+                                    <div style={{ fontSize: '0.72rem', color: '#94a3b8', marginTop: '4px' }}>
+                                        * 구글 공식 표준(Standard) 요금제 기준 | 환율: 1 USD = 1,380 KRW(₩) = 16,000 IDR(Rp) | TTS: Basic(무료), Google HD($16/1M자, 월 100만자 무료)
+                                    </div>
+                                </div>
+                            );
+                        })()}
+
+                        {/* 작업별 사전 견적 예시 */}
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '0.6rem' }}>
+                            <TokenCostCard 
+                                mode="estimate" 
+                                modelId={selectedGeminiModel || 'gemini-3.8-flash'} 
+                                actionType="generate" 
+                                count={10} 
+                            />
+                            <TokenCostCard 
+                                mode="estimate" 
+                                modelId={selectedGeminiModel || 'gemini-3.8-flash'} 
+                                actionType="lecture" 
+                            />
+                        </div>
+                    </div>
+                ) : (
+                    <div style={{ fontSize: '0.78rem', color: '#94a3b8', fontStyle: 'italic', background: '#f8fafc', padding: '0.6rem 0.8rem', borderRadius: '10px' }}>
+                        💡 계산기 표시가 꺼져 있습니다. 단어생성 화면 및 특강 창에서 토큰/비용 정보가 숨김 처리됩니다.
+                    </div>
+                )}
+            </div>
         </div>
 
         <button onClick={saveApiKeys} style={{ width: '100%', padding: '1rem', background: 'var(--nana-dark)', color: '#fff', border: 'none', borderRadius: '15px', fontWeight: '900', fontSize: '1rem', boxShadow: '0 4px 0 #000', cursor: 'pointer' }}>

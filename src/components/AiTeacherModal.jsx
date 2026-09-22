@@ -7,6 +7,7 @@ import { generateWordLecture } from '../api/geminiApi';
 import { playMixedAudio, stopTTS } from '../api/ttsApi';
 import { updateWord } from '../db/database';
 import { useLanguage } from '../contexts/LanguageContext';
+import TokenCostCard from './TokenCostCard';
 
 const AiTeacherModal = ({ 
   wordData, 
@@ -31,6 +32,7 @@ const AiTeacherModal = ({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [lectureUsage, setLectureUsage] = useState(null);
 
   // 음성 재생 상태
   const [isPlaying, setIsPlaying] = useState(false);
@@ -72,6 +74,11 @@ const AiTeacherModal = ({
       // 이미 생성된 대본이 있는 경우 즉시 활용
       if (!forceRegenerate && targetWord.ai_lecture && Array.isArray(targetWord.ai_lecture) && targetWord.ai_lecture.length > 0) {
         setSlides(targetWord.ai_lecture);
+        if (targetWord._lectureUsage) {
+          setLectureUsage(targetWord._lectureUsage);
+        } else {
+          setLectureUsage(null);
+        }
         setIsLoading(false);
         return targetWord.ai_lecture;
       }
@@ -80,7 +87,12 @@ const AiTeacherModal = ({
       const data = await generateWordLecture(targetWord, apiKey, modelName, userLang, targetWord.study_lang || studyLang);
       if (data && Array.isArray(data)) {
         setSlides(data);
-        const updatedWord = { ...targetWord, ai_lecture: data };
+        const usageObj = data._usageMetadata ? {
+          usageMetadata: data._usageMetadata,
+          modelUsed: data._modelUsed || modelName
+        } : null;
+        setLectureUsage(usageObj);
+        const updatedWord = { ...targetWord, ai_lecture: data, _lectureUsage: usageObj };
         await updateWord(updatedWord);
         if (onUpdateWord) onUpdateWord(updatedWord);
         setIsLoading(false);
@@ -430,6 +442,21 @@ const AiTeacherModal = ({
             </button>
           </div>
         </div>
+
+        {/* 토큰 & TTS 실시간 예상/실제 비용 표시 배너 */}
+        {!isLoading && !error && slides.length > 0 && (
+          <div style={{ padding: '0.3rem 1.6rem', background: '#f8fafc', borderBottom: '1px solid #f1f5f9' }}>
+            <TokenCostCard 
+              mode={lectureUsage?.usageMetadata ? "actual" : "estimate"}
+              usageMetadata={lectureUsage?.usageMetadata}
+              modelId={lectureUsage?.modelUsed || modelName || localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash'}
+              actionType="lecture"
+              charCount={slides.reduce((sum, s) => sum + (s.teacher_script?.length || 0), 0)}
+              ttsEngine={currentEngine}
+              compact={true}
+            />
+          </div>
+        )}
 
         {/* 강의실 칠판 본문 영역 */}
         <div style={{
