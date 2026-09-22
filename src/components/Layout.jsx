@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { Home, BookOpen, GraduationCap, Settings as SettingsIcon, Sparkles, AlertCircle, Info, Languages, ChevronDown, BarChart3, LogOut, User, ArrowRight } from 'lucide-react';
+import { Home, BookOpen, BookMarked, GraduationCap, Settings as SettingsIcon, Sparkles, AlertCircle, Info, Languages, ChevronDown, BarChart3, LogOut, User, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -40,6 +40,7 @@ const Layout = () => {
 
   const navItems = [
     { path: '/', label: t('nav_dashboard'), icon: <Home size={24} /> },
+    { path: '/dictionary', label: t('nav_dictionary'), icon: <BookMarked size={24} /> },
     { path: '/generate', label: t('nav_generate'), icon: <Sparkles size={24} /> },
     { path: '/translate', label: t('nav_translate'), icon: <Languages size={24} /> },
     { path: '/words', label: t('nav_words'), icon: <BookOpen size={24} /> },

@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Onboarding from './pages/Onboarding';
 
 import Dashboard from './pages/Dashboard';
+import Dictionary from './pages/Dictionary';
 import WordGenerate from './pages/WordGenerate';
 import WordList from './pages/WordList';
 import Learn from './pages/Learn';
@@ -94,6 +95,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
+            <Route path="dictionary" element={<Dictionary />} />
             <Route path="generate" element={<WordGenerate />} />
             <Route path="words" element={<WordList />} />
             <Route path="learn" element={<Learn />} />

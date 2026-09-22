@@ -2,6 +2,7 @@ export const translations = {
   ko: {
     // Navigation
     nav_dashboard: '대시보드',
+    nav_dictionary: '1만단어 사전',
     nav_generate: '단어생성',
     nav_words: '단어장',
     nav_learn: '학습하기',
@@ -516,6 +517,7 @@ export const translations = {
   id: {
     // Navigation
     nav_dashboard: 'Beranda',
+    nav_dictionary: 'Kamus 10.000 Kata',
     nav_words: 'Kosakata',
     nav_learn: 'Belajar',
     nav_incorrect: 'Catatan Kesalahan',
@@ -990,6 +992,8 @@ export const translations = {
   en: {
     // Navigation
     nav_dashboard: 'Dashboard',
+    nav_dictionary: '10K Dictionary',
+    nav_generate: 'Generate Words',
     nav_words: 'Wordbook',
     nav_learn: 'Study',
     nav_incorrect: 'Mistakes',

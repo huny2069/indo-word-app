@@ -1,11 +1,12 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { addWord, getWords } from '../db/database';
 import { generateWords } from '../api/geminiApi';
 import { playAudio } from '../api/ttsApi';
 import { fetchSharedWords, saveSharedWords, logUsage } from '../api/supabase';
 import { 
   Volume2, Sparkles, Database, Plus, Search, CheckCircle2, BookmarkPlus, 
-  ChevronDown, ChevronUp, BookOpen, CheckSquare, Square, Layers 
+  ChevronDown, ChevronUp, BookOpen, CheckSquare, Square, Layers, ArrowRight 
 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -20,12 +21,13 @@ import {
 const WordGenerate = () => {
   const { userLang, studyLang, t } = useLanguage();
   const { user } = useAuth();
+  const navigate = useNavigate();
 
   const langNames = { ko: '한국어', id: '인도네시아어', en: '영어' };
   const targetLangName = langNames[studyLang] || '대상 언어';
 
-  // 생성 모드 ('offline', 'ai', 'manual')
-  const [genMode, setGenMode] = useState('offline');
+  // 생성 모드 ('ai', 'manual')
+  const [genMode, setGenMode] = useState('ai');
 
   // 방금 생성/추가된 단어 목록 (상단 피드백용)
   const [generatedWords, setGeneratedWords] = useState([]);
@@ -369,20 +371,20 @@ const WordGenerate = () => {
         <div>
           <h2 style={{ margin: 0, color: 'var(--nana-dark)', fontWeight: '900', fontSize: '1.8rem' }}>{t('gen_title')}</h2>
           <p style={{ margin: '0.3rem 0 0', color: '#666', fontSize: '0.9rem' }}>
-            {genMode === 'offline' ? '📱 1만 단어 사전에서 카테고리별 직접 열람 및 단어장에 즉시 담기' : genMode === 'ai' ? '🌐 Gemini AI를 통한 자유 주제 맞춤 단어 생성' : '✍️ 나만의 커스텀 단어 직접 등록'}
+            {genMode === 'ai' ? '🌐 Gemini AI를 통한 자유 주제 맞춤 단어 생성' : '✍️ 나만의 커스텀 단어 직접 등록'}
           </p>
         </div>
 
-        <div style={{ display: 'flex', background: '#f1f3f5', padding: '0.35rem', borderRadius: '35px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.04)' }}>
+        <div style={{ display: 'flex', background: '#f1f3f5', padding: '0.35rem', borderRadius: '35px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.04)', gap: '4px' }}>
           <button 
-            onClick={() => setGenMode('offline')}
+            onClick={() => navigate('/dictionary')}
             style={{ 
               display: 'flex', alignItems: 'center', gap: '6px',
               padding: '0.6rem 1.1rem', border: 'none', borderRadius: '30px', cursor: 'pointer', transition: 'all 0.25s ease', fontWeight: '800', fontSize: '0.9rem',
-              background: genMode === 'offline' ? 'var(--primary-color)' : 'transparent', color: genMode === 'offline' ? '#fff' : '#666',
-              boxShadow: genMode === 'offline' ? '0 4px 10px rgba(246, 185, 59, 0.4)' : 'none'
+              background: '#fff', color: 'var(--primary-color)',
+              boxShadow: '0 2px 6px rgba(0,0,0,0.06)'
             }}>
-            <Database size={16} /> 1만단어 사전
+            <Database size={16} /> 1만단어 사전 바로가기 <ArrowRight size={14} />
           </button>
           <button 
             onClick={() => setGenMode('ai')}
@@ -405,6 +407,51 @@ const WordGenerate = () => {
             <Plus size={16} /> 수동입력
           </button>
         </div>
+      </div>
+
+      {/* 1만단어 사전 독립 메뉴 안내 배너 */}
+      <div 
+        onClick={() => navigate('/dictionary')}
+        style={{
+          background: 'linear-gradient(135deg, #fffdf5 0%, #fff9e6 100%)',
+          border: '2px solid #feca57',
+          padding: '1.2rem 1.6rem',
+          borderRadius: '25px',
+          marginBottom: '1.8rem',
+          cursor: 'pointer',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '1rem',
+          boxShadow: '0 4px 15px rgba(254, 202, 87, 0.15)',
+          transition: 'transform 0.2s ease'
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#feca57', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
+            <Database size={24} />
+          </div>
+          <div>
+            <div style={{ fontWeight: '900', color: 'var(--nana-dark)', fontSize: '1.05rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              📖 1만 단어 사전이 독립 메뉴로 분리되었습니다!
+              <span style={{ fontSize: '0.75rem', background: '#6c5ce7', color: '#fff', padding: '2px 8px', borderRadius: '10px', fontWeight: '800' }}>AI 재생성 지원</span>
+            </div>
+            <div style={{ color: '#666', fontSize: '0.85rem', marginTop: '3px' }}>
+              체계적인 카테고리/소분류 열람과 실시간 검색은 물론, 잘못된 단어를 최신 AI 규칙으로 즉시 올바르게 다시 생성할 수 있습니다.
+            </div>
+          </div>
+        </div>
+
+        <button 
+          style={{
+            background: 'var(--primary-color)', color: '#fff', border: 'none',
+            padding: '0.6rem 1.2rem', borderRadius: '20px', fontWeight: '900', fontSize: '0.85rem',
+            cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px', flexShrink: 0,
+            boxShadow: '0 3px 0 #e67e22'
+          }}
+        >
+          사전 열기 <ArrowRight size={14} />
+        </button>
       </div>
 
       {/* ===================================== */}
