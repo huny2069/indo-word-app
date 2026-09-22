@@ -4,7 +4,7 @@ import { getWords, getFolders, addWord, addFolder } from '../db/database';
 import { fetchGeminiModels, CURATED_MODELS } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { ALL_OFFLINE_WORDS } from '../data/offlineDatabase';
-import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile } from '../api/driveApi';
+import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile, DICT_BACKUP_FILE } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
@@ -349,6 +349,7 @@ const Settings = () => {
         });
 
         localStorage.setItem('inko_dict_overrides', JSON.stringify(overrides));
+        window.dispatchEvent(new CustomEvent('dict_overrides_updated'));
         alert(`🎉 1만 단어 사전 CSV 불러오기 완료!\n\n- 전체 분석된 단어: ${parsedWords.length}개\n- 이미 존재하여 건너뜀(Skip): ${skipCount}개\n- 신규로 사전에 추가됨: ${addedCount}개\n\n1만단어 사전 메뉴에서 바로 확인하실 수 있습니다.`);
         e.target.value = ''; // 동일 파일 재선택 가능하게 리셋
       } catch (err) {
@@ -392,6 +393,109 @@ const Settings = () => {
       alert(t('msg_restore_done', { count: addCount }));
     } catch (e) { alert(t('msg_restore_fail')); }
     finally { setIsDriveOperating(false); }
+  };
+
+  // 1만단어 사전 전용 Google Drive 백업
+  const handleBackupDictToDrive = async () => {
+    if (!gcpAccessToken) { handleGoogleLogin(); return; }
+    const overrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
+    const overrideCount = Object.keys(overrides).length;
+
+    if (!window.confirm(`☁️ 1만단어 사전 데이터를 구글 드라이브에 백업하시겠습니까?\n\n- 사용자 추가/수정 단어: ${overrideCount}개\n\n구글 드라이브에 안전하게 보관됩니다.`)) {
+      return;
+    }
+
+    setIsDriveOperating(true);
+    try {
+      const backupPayload = {
+        type: '10k_dictionary_backup',
+        version: '1.0',
+        timestamp: new Date().toISOString(),
+        overrideCount,
+        overrides
+      };
+      await uploadBackupToDrive(gcpAccessToken, backupPayload, DICT_BACKUP_FILE);
+      alert(`🎉 1만 단어 사전이 구글 드라이브에 성공적으로 백업되었습니다!\n(백업 파일명: ${DICT_BACKUP_FILE})`);
+    } catch (err) {
+      alert(`❌ 1만 단어 사전 구글 백업 실패: ${err.message}`);
+    } finally {
+      setIsDriveOperating(false);
+    }
+  };
+
+  // 1만단어 사전 전용 Google Drive 불러오기 (중복 단어 자동 건너뛰기)
+  const handleRestoreDictFromDrive = async () => {
+    if (!gcpAccessToken) { handleGoogleLogin(); return; }
+    setIsDriveOperating(true);
+    try {
+      const backupFile = await searchBackupFile(gcpAccessToken, DICT_BACKUP_FILE);
+      if (!backupFile) {
+        alert(`구글 드라이브에서 1만단어 사전 백업 파일(${DICT_BACKUP_FILE})을 찾을 수 없습니다.\n먼저 구글 드라이브 백업을 진행해 주세요.`);
+        return;
+      }
+
+      if (!window.confirm(`📥 구글 드라이브에서 1만단어 사전 백업을 불러오시겠습니까?\n\n- 백업 일시: ${new Date(backupFile.modifiedTime).toLocaleString()}\n- 기존에 사전에 있던 중복 단어는 건너뛰며(Skip), 신규 및 수정 단어를 안전하게 병합합니다.`)) {
+        return;
+      }
+
+      const backupData = await downloadBackupFromDrive(gcpAccessToken, backupFile.id);
+      if (!backupData || (!backupData.overrides && !backupData.words)) {
+        alert('구글 드라이브 백업 파일에 유효한 1만단어 사전 데이터가 없습니다.');
+        return;
+      }
+
+      const currentOverrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
+      const existingKeys = new Set(ALL_OFFLINE_WORDS.map(item => normalizeDictWord(item.word)));
+      Object.keys(currentOverrides).forEach(k => existingKeys.add(k));
+
+      let addedCount = 0;
+      let skipCount = 0;
+
+      // 1) overrides 딕셔너리 형태 복원
+      if (backupData.overrides && typeof backupData.overrides === 'object') {
+        Object.entries(backupData.overrides).forEach(([key, wordObj]) => {
+          if (!wordObj || !wordObj.word) return;
+          const normKey = normalizeDictWord(wordObj.word) || key;
+          if (existingKeys.has(normKey)) {
+            skipCount++;
+          } else {
+            currentOverrides[normKey] = {
+              ...wordObj,
+              isCustomAdded: true,
+              restoredFromDriveAt: new Date().toISOString()
+            };
+            existingKeys.add(normKey);
+            addedCount++;
+          }
+        });
+      } 
+      // 2) 단어 리스트 배열 형태 복원
+      else if (Array.isArray(backupData.words)) {
+        backupData.words.forEach(w => {
+          if (!w || !w.word) return;
+          const normKey = normalizeDictWord(w.word);
+          if (existingKeys.has(normKey)) {
+            skipCount++;
+          } else {
+            currentOverrides[normKey] = {
+              ...w,
+              isCustomAdded: true,
+              restoredFromDriveAt: new Date().toISOString()
+            };
+            existingKeys.add(normKey);
+            addedCount++;
+          }
+        });
+      }
+
+      localStorage.setItem('inko_dict_overrides', JSON.stringify(currentOverrides));
+      window.dispatchEvent(new CustomEvent('dict_overrides_updated'));
+      alert(`🎉 1만 단어 사전 구글 드라이브 복원 완료!\n\n- 이미 존재하여 건너뜀(Skip): ${skipCount}개\n- 신규로 사전에 추가/반영됨: ${addedCount}개\n\n1만단어 사전 메뉴에서 바로 확인하실 수 있습니다.`);
+    } catch (err) {
+      alert(`❌ 1만 단어 사전 구글 복원 실패: ${err.message}`);
+    } finally {
+      setIsDriveOperating(false);
+    }
   };
 
   // 구글 API로부터 현재 실제로 사용되는 최신 모델 목록을 실시간 동기화하는 함수
@@ -501,7 +605,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.12 (사전 확인 팝업 & 실제 발생 요금 안내 & 설정 누적 통계 대시보드 및 리셋 탑재)
+                버전 정보: v20.14 (1만단어 사전 전용 구글 드라이브 클라우드 백업 & 불러오기 탑재)
             </span>
         </div>
       </header>
@@ -1034,11 +1138,11 @@ const Settings = () => {
         </div>
       </div>
 
-      {/* 5. 1만 단어 사전 전용 데이터 관리 (신규) */}
+      {/* 5. 1만 단어 사전 전용 데이터 관리 (CSV & 구글 드라이브 동기화) */}
       <div className="settings-card" style={{ marginBottom: '2rem', border: '2px solid #feca57', background: 'linear-gradient(135deg, #fffdf8 0%, #fff9ec 100%)', boxShadow: '0 4px 15px rgba(254, 202, 87, 0.15)' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem', flexWrap: 'wrap', gap: '0.5rem' }}>
           <h4 style={{ fontSize: '1.05rem', fontWeight: '900', margin: 0, color: 'var(--nana-dark)', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <BookMarked size={20} color="#f6b93b" /> 1만 단어 사전 데이터 관리 (CSV)
+            <BookMarked size={20} color="#f6b93b" /> 1만 단어 사전 데이터 관리 (CSV & 구글 클라우드)
           </h4>
           <span style={{ fontSize: '0.75rem', background: '#6c5ce7', color: '#fff', padding: '3px 10px', borderRadius: '12px', fontWeight: '800' }}>
             중복 자동 건너뛰기 지원
@@ -1046,34 +1150,128 @@ const Settings = () => {
         </div>
         
         <p style={{ margin: '0 0 1.2rem', fontSize: '0.85rem', color: '#666', lineHeight: '1.5', fontWeight: '600' }}>
-          개인 단어장과 별개로 <b>1만단어 사전에 직접 신규 단어를 대량 추가</b>하거나, 전체 사전 데이터를 <b>CSV 파일로 백업(다운로드)</b>할 수 있습니다. 불러오기 시 이미 사전에 존재하는 단어는 자동으로 건너뜁니다(Skip).
+          개인 단어장과 별개로 <b>1만단어 사전에 직접 신규 단어를 대량 추가</b>하거나, 전체 사전 데이터를 <b>CSV 파일 또는 구글 드라이브 클라우드로 안전하게 백업 및 불러오기</b>할 수 있습니다. 불러오기 시 이미 사전에 존재하는 단어는 자동으로 건너뜁니다(Skip).
         </p>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }}>
-          <label style={{ 
-            padding: '0.85rem 1rem', 
-            background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', 
-            color: '#fff', borderRadius: '14px', fontWeight: '900', fontSize: '0.85rem', 
-            textAlign: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-            boxShadow: '0 3px 8px rgba(108, 92, 231, 0.25)' 
-          }}>
-            <FileUp size={16} /> 1만단어 사전 CSV 가져오기
-            <input type="file" accept=".csv" onChange={handleImportDictCSV} style={{ display: 'none' }} />
-          </label>
-
-          <button 
-            onClick={handleExportDictCSV} 
-            style={{ 
+        {/* 1) CSV 백업 및 가져오기 */}
+        <div style={{ marginBottom: '1rem' }}>
+          <div style={{ fontSize: '0.8rem', fontWeight: '900', color: '#475569', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '4px' }}>
+            📄 파일 기반 백업 (CSV)
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }}>
+            <label style={{ 
               padding: '0.85rem 1rem', 
-              background: '#fff', 
-              color: '#6c5ce7', 
-              border: '2px solid #6c5ce7', 
-              borderRadius: '14px', fontWeight: '900', fontSize: '0.85rem', 
-              cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-              boxShadow: '0 2px 6px rgba(0,0,0,0.04)' 
+              background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', 
+              color: '#fff', borderRadius: '14px', fontWeight: '900', fontSize: '0.85rem', 
+              textAlign: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+              boxShadow: '0 3px 8px rgba(108, 92, 231, 0.25)' 
             }}>
-            <FileDown size={16} /> 1만단어 사전 CSV 다운로드
-          </button>
+              <FileUp size={16} /> 1만단어 사전 CSV 가져오기
+              <input type="file" accept=".csv" onChange={handleImportDictCSV} style={{ display: 'none' }} />
+            </label>
+
+            <button 
+              onClick={handleExportDictCSV} 
+              style={{ 
+                padding: '0.85rem 1rem', 
+                background: '#fff', 
+                color: '#6c5ce7', 
+                border: '2px solid #6c5ce7', 
+                borderRadius: '14px', fontWeight: '900', fontSize: '0.85rem', 
+                cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                boxShadow: '0 2px 6px rgba(0,0,0,0.04)' 
+              }}>
+              <FileDown size={16} /> 1만단어 사전 CSV 다운로드
+            </button>
+          </div>
+        </div>
+
+        {/* 2) 구글 드라이브 클라우드 백업 및 불러오기 */}
+        <div style={{
+          padding: '1rem',
+          borderRadius: '16px',
+          background: 'linear-gradient(135deg, #eff6ff 0%, #e0f2fe 100%)',
+          border: '1.5px solid #93c5fd',
+          boxShadow: '0 2px 8px rgba(59, 130, 246, 0.08)'
+        }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem', flexWrap: 'wrap', gap: '4px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.88rem', fontWeight: '900', color: '#1e3a8a' }}>
+              <Cloud size={18} color="#2563eb" /> ☁️ 1만단어장 구글 드라이브 백업 & 불러오기
+            </div>
+            {!gcpAccessToken ? (
+              <button 
+                onClick={handleGoogleLogin} 
+                style={{
+                  background: '#2563eb',
+                  color: '#fff',
+                  border: 'none',
+                  padding: '3px 10px',
+                  borderRadius: '10px',
+                  fontSize: '0.72rem',
+                  fontWeight: '800',
+                  cursor: 'pointer'
+                }}
+              >
+                Google 계정 연동 필요
+              </button>
+            ) : (
+              <span style={{ fontSize: '0.72rem', color: '#059669', fontWeight: '800', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <CheckCircle size={12} /> 구글 계정 연결됨
+              </span>
+            )}
+          </div>
+          
+          <div style={{ fontSize: '0.76rem', color: '#475569', marginBottom: '0.8rem', lineHeight: '1.4' }}>
+            구글 드라이브에 1만단어 사전 전용 백업 파일(<code>{DICT_BACKUP_FILE}</code>)로 저장되며, 기기를 바꾸거나 재설치해도 원클릭으로 완벽하게 복원할 수 있습니다.
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }}>
+            <button 
+              onClick={handleBackupDictToDrive}
+              disabled={isDriveOperating}
+              style={{
+                padding: '0.85rem 1rem',
+                background: '#2563eb',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '14px',
+                fontWeight: '900',
+                fontSize: '0.85rem',
+                cursor: isDriveOperating ? 'not-allowed' : 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                boxShadow: '0 3px 8px rgba(37, 99, 235, 0.25)',
+                transition: '0.2s'
+              }}
+            >
+              <FileUp size={16} /> 1만단어장 구글 백업
+            </button>
+
+            <button 
+              onClick={handleRestoreDictFromDrive}
+              disabled={isDriveOperating}
+              style={{
+                padding: '0.85rem 1rem',
+                background: '#059669',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '14px',
+                fontWeight: '900',
+                fontSize: '0.85rem',
+                cursor: isDriveOperating ? 'not-allowed' : 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                boxShadow: '0 3px 8px rgba(5, 150, 105, 0.25)',
+                transition: '0.2s'
+              }}
+            >
+              <FileDown size={16} /> 1만단어장 구글 불러오기
+            </button>
+          </div>
         </div>
       </div>
 

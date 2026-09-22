@@ -3,13 +3,14 @@
  * 인가(OAuth 2.0)된 Access Token을 사용하여 백업 및 복원을 수행합니다.
  */
 
-const BACKUP_FILE_NAME = 'indo-word-app-backup.json';
+export const BACKUP_FILE_NAME = 'indo-word-app-backup.json';
+export const DICT_BACKUP_FILE = 'indo-10k-dict-backup.json';
 
 /**
  * 구글 드라이브에서 이전 백업 파일이 있는지 검색합니다.
  */
-export const searchBackupFile = async (accessToken) => {
-  const query = `name = '${BACKUP_FILE_NAME}' and trashed = false`;
+export const searchBackupFile = async (accessToken, targetFileName = BACKUP_FILE_NAME) => {
+  const query = `name = '${targetFileName}' and trashed = false`;
   const endpoint = `https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}&fields=files(id, name, modifiedTime)`;
 
   const response = await fetch(endpoint, {
@@ -32,10 +33,10 @@ export const searchBackupFile = async (accessToken) => {
  * 구글 드라이브에 데이터를 업로드(백업)합니다.
  * 파일이 이미 있으면 업데이트하고, 없으면 새로 만듭니다.
  */
-export const uploadBackupToDrive = async (accessToken, backupData) => {
-  const existingFile = await searchBackupFile(accessToken);
+export const uploadBackupToDrive = async (accessToken, backupData, targetFileName = BACKUP_FILE_NAME) => {
+  const existingFile = await searchBackupFile(accessToken, targetFileName);
   const metadata = {
-    name: BACKUP_FILE_NAME,
+    name: targetFileName,
     mimeType: 'application/json',
   };
 

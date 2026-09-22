@@ -76,6 +76,24 @@ const Dictionary = () => {
 
   useEffect(() => {
     refreshLocalWords();
+
+    const handleOverridesUpdate = () => {
+      try {
+        const saved = localStorage.getItem('inko_dict_overrides');
+        if (saved) {
+          setDictOverrides(JSON.parse(saved));
+        }
+      } catch (e) {
+        console.error('오버라이드 리로드 실패:', e);
+      }
+    };
+
+    window.addEventListener('dict_overrides_updated', handleOverridesUpdate);
+    window.addEventListener('storage', handleOverridesUpdate);
+    return () => {
+      window.removeEventListener('dict_overrides_updated', handleOverridesUpdate);
+      window.removeEventListener('storage', handleOverridesUpdate);
+    };
   }, []);
 
   // AI 재생성 오버라이드 및 CSV 신규 단어가 실시간으로 반영된 통합 단어 풀
