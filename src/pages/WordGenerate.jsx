@@ -276,7 +276,12 @@ const WordGenerate = () => {
       let existingWordStrings = localWords.map(w => w.word.toLowerCase());
       
       let finalAddedWords = [];
-      let capturedUsageMeta = null;
+      let totalUsageMeta = {
+        promptTokenCount: 0,
+        candidatesTokenCount: 0,
+        totalTokenCount: 0
+      };
+      let hasAiCall = false;
 
       // Supabase 캐시 조회
       setProgressMsg(t('gen_ai_analyzing'));
@@ -315,11 +320,16 @@ const WordGenerate = () => {
           
           try {
               const result = await generateWords(topic, currentRemaining, apiKey, savedModel, excludeList, userLang, studyLang, user?.email);
-              if (result && result._usageMetadata) {
-                  capturedUsageMeta = result._usageMetadata;
+              const usage = (result && result._usageMetadata) || (Array.isArray(result) && result[0]?._usageMetadata);
+              if (usage) {
+                  hasAiCall = true;
+                  totalUsageMeta.promptTokenCount += (usage.promptTokenCount || 0);
+                  totalUsageMeta.candidatesTokenCount += (usage.candidatesTokenCount || 0);
+                  totalUsageMeta.totalTokenCount += (usage.totalTokenCount || ((usage.promptTokenCount || 0) + (usage.candidatesTokenCount || 0)));
+                  
                   setLastAiUsage({
-                      usageMetadata: result._usageMetadata,
-                      modelUsed: result._modelUsed || savedModel
+                      usageMetadata: { ...totalUsageMeta },
+                      modelUsed: (result && result._modelUsed) || (Array.isArray(result) && result[0]?._modelUsed) || savedModel
                   });
               }
               const newAiResults = result.filter(w => {
@@ -356,9 +366,9 @@ const WordGenerate = () => {
       if (finalAddedWords.length === 0) {
         alert(t('msg_ai_gen_fail'));
       } else {
-        if (capturedUsageMeta) {
-          recordTokenUsage('generate', capturedUsageMeta, savedModel);
-          alertActualTokenCost('generate', capturedUsageMeta, savedModel);
+        if (hasAiCall && totalUsageMeta.totalTokenCount > 0) {
+          recordTokenUsage('generate', totalUsageMeta, savedModel);
+          alertActualTokenCost('generate', totalUsageMeta, savedModel);
         } else {
           alert(t('msg_cart_added', { count: finalAddedWords.length }));
         }

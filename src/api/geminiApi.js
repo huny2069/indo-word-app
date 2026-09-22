@@ -132,17 +132,23 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     const textContent = data.candidates[0].content.parts[0].text;
     let parsedData = safeParseJSON(textContent);
     if (Array.isArray(parsedData)) {
-      return parsedData.map(item => ({
+      const enriched = parsedData.map(item => ({
         ...normalizeAndEnrichWordBreakdown(item, studyLang),
         _usageMetadata: usage,
         _modelUsed: modelName
       }));
+      enriched._usageMetadata = usage;
+      enriched._modelUsed = modelName;
+      return enriched;
     }
-    return [{
+    const single = [{
       ...normalizeAndEnrichWordBreakdown(parsedData, studyLang),
       _usageMetadata: usage,
       _modelUsed: modelName
     }];
+    single._usageMetadata = usage;
+    single._modelUsed = modelName;
+    return single;
 
   } catch (error) {
     console.error("Gemini API Error:", error);
