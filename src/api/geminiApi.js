@@ -643,15 +643,19 @@ export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-
     },
     {
       "type": "grammar",
-      "content": "이 단어의 문법적인 형태(품사, 어근 등)에 대한 쉽고 재밌는 설명"
+      "content": "이 단어의 문법적인 형태(품사, 어근, 접사 결합 원리 등)에 대한 쉽고 명쾌한 설명"
+    },
+    {
+      "type": "spoken",
+      "content": "원어민들의 찐 구어체 실전 회화 팁! 친구 사이, 길거리 일상 대화, 편한 자리에서 이 단어를 어떻게 구어체로 줄여 부르거나 어떤 말투/어조로 쓰면 가장 자연스럽고 현지인 같은지 생생한 구어체 회화 비법을 전수해주세요."
     },
     {
       "type": "usage",
-      "content": "이 단어가 실제 어떻게 쓰이는지 보여주는 꿀팁! 격식체(존댓말)와 비격식체(반말) 예문을 각각 하나씩 들고 해석해주세요."
+      "content": "이 단어가 실제 어떻게 쓰이는지 보여주는 꿀팁! 격식체(존댓말)와 비격식체(구어체) 예문을 각각 하나씩 들고 해석해주세요."
     },
     {
       "type": "nuance",
-      "content": "이 단어만의 아주 미세한 뉘앙스, 주의할 점, 또는 원어민들이 자주 쓰는 비슷한 단어와의 차이점"
+      "content": "이 단어만의 아주 미세한 뉘앙스, 대화 분위기, 주의할 점, 또는 원어민들이 자주 쓰는 비슷한 단어와의 차이점"
     },
     {
       "type": "question",
@@ -675,17 +679,22 @@ export const generateWordLecture = async (wordData, apiKey, modelName = 'gemini-
     });
 
     if (!response.ok) {
-        const errData = await response.json();
+        const errData = await response.json().catch(() => ({}));
         throw new Error(`강의 생성 실패: ${errData.error?.message || response.statusText}`);
     }
 
     const data = await response.json();
     const textContent = data.candidates[0].content.parts[0].text;
     
-    // 마크다운 블록 제거
+    // safeParseJSON으로 불완전한 JSON도 복원하여 안전하게 파싱
     let parsedData;
     try {
-      parsedData = JSON.parse(textContent.trim().replace(/```(?:json)?/g, '').replace(/```/g, '').trim());
+      parsedData = safeParseJSON(textContent);
+      if (!Array.isArray(parsedData)) {
+        if (parsedData.slides && Array.isArray(parsedData.slides)) parsedData = parsedData.slides;
+        else if (parsedData.lecture && Array.isArray(parsedData.lecture)) parsedData = parsedData.lecture;
+        else parsedData = [parsedData];
+      }
     } catch (e) {
       console.error("JSON 파싱 에러:", textContent);
       throw new Error("AI가 올바른 JSON 형식을 반환하지 않았습니다.");

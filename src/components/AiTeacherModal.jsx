@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   X, ChevronRight, ChevronLeft, GraduationCap, Volume2, 
-  Loader2, Sparkles, RefreshCw, Play, Square, SkipForward, SkipBack, Radio, Zap
+  Loader2, Sparkles, RefreshCw, Play, Square, SkipForward, SkipBack, Zap
 } from 'lucide-react';
 import { generateWordLecture } from '../api/geminiApi';
 import { playMixedAudio, stopTTS } from '../api/ttsApi';
@@ -37,24 +37,14 @@ const AiTeacherModal = ({
   const [isAutoPlayAll, setIsAutoPlayAll] = useState(false);
   const [currentEngine, setCurrentEngine] = useState(() => localStorage.getItem('tts_engine') || 'google');
 
-  // 취소 및 비동기 상태 제어용 Ref
-  const isCancelledRef = useRef(false);
-  const currentSlideRef = useRef(0);
+  // 취소 및 비동기 상태 제어용 Ref (단어 간 끊김 없는 연속 재생을 위한 독립 루프 제어기)
+  const userStoppedRef = useRef(false);
+  const isPlayingRef = useRef(false);
   const currentWordIdxRef = useRef(currentWordIdx);
-  const slidesRef = useRef([]);
-  const autoPlayNextWordRef = useRef(initialAutoPlay);
-
-  useEffect(() => {
-    currentSlideRef.current = currentIndex;
-  }, [currentIndex]);
 
   useEffect(() => {
     currentWordIdxRef.current = currentWordIdx;
   }, [currentWordIdx]);
-
-  useEffect(() => {
-    slidesRef.current = slides;
-  }, [slides]);
 
   // TTS 전용 텍스트 정제 함수
   const stripForTTS = (str) => {
@@ -78,7 +68,6 @@ const AiTeacherModal = ({
     try {
       setIsLoading(true);
       setError(null);
-      setCurrentIndex(0);
 
       // 이미 생성된 대본이 있는 경우 즉시 활용
       if (!forceRegenerate && targetWord.ai_lecture && Array.isArray(targetWord.ai_lecture) && targetWord.ai_lecture.length > 0) {
@@ -106,74 +95,104 @@ const AiTeacherModal = ({
     }
   };
 
-  // 단어 변경 시 강의 로드 및 필요시 자동 연속 재생 시작
+  // 음성 정지 함수
+  const stopPlayback = () => {
+    userStoppedRef.current = true;
+    isPlayingRef.current = false;
+    stopTTS();
+    setIsPlaying(false);
+    setIsAutoPlayAll(false);
+  };
+
+  // [핵심 엔진] 선택한 모든 단어 및 모든 슬라이드를 끊김 없이 차례대로 전수 재생하는 통합 시퀀서
+  const startContinuousSequence = async (startWordIndex = 0, startSlideIndex = 0) => {
+    userStoppedRef.current = false;
+    isPlayingRef.current = true;
+    setIsPlaying(true);
+    setIsAutoPlayAll(true);
+
+    for (let wIdx = startWordIndex; wIdx < playlist.length; wIdx++) {
+      if (userStoppedRef.current) break;
+
+      // 1. 단어 전환
+      setCurrentWordIdx(wIdx);
+      currentWordIdxRef.current = wIdx;
+      const targetWord = playlist[wIdx];
+
+      // 2. 해당 단어의 강의 슬라이드 준비
+      let wordSlides = targetWord.ai_lecture;
+      if (!wordSlides || !Array.isArray(wordSlides) || wordSlides.length === 0) {
+        wordSlides = await fetchLecture(targetWord, false);
+      } else {
+        setSlides(wordSlides);
+        setIsLoading(false);
+      }
+
+      if (!wordSlides || wordSlides.length === 0 || userStoppedRef.current) {
+        break;
+      }
+
+      // 3. 해당 단어의 슬라이드들을 1번부터 끝까지 자동 넘김하며 낭독
+      const sStart = (wIdx === startWordIndex) ? startSlideIndex : 0;
+      for (let sIdx = sStart; sIdx < wordSlides.length; sIdx++) {
+        if (userStoppedRef.current) break;
+
+        setCurrentIndex(sIdx);
+        const slide = wordSlides[sIdx];
+        if (slide && slide.content) {
+          const ttsText = stripForTTS(slide.content);
+          if (ttsText) {
+            await playMixedAudio(ttsText, currentEngine);
+          }
+        }
+
+        if (userStoppedRef.current) break;
+
+        // 슬라이드 간 0.6초 호흡
+        await new Promise(r => setTimeout(r, 600));
+      }
+
+      if (userStoppedRef.current) break;
+
+      // 단어 완강 후 다음 단어로 자동 전환하기 전 1초 간격
+      if (wIdx + 1 < playlist.length) {
+        console.log(`[AI-TEACHER] 🎓 단어 ${wIdx + 1} 완강! 다음 단어(${playlist[wIdx + 1].word})로 자동 전진`);
+        await new Promise(r => setTimeout(r, 1000));
+      }
+    }
+
+    if (!userStoppedRef.current) {
+      console.log(`[AI-TEACHER] 🏁 모든 선택 단어 특강 연속 재생 완료!`);
+    }
+
+    isPlayingRef.current = false;
+    setIsPlaying(false);
+    setIsAutoPlayAll(false);
+  };
+
+  // 모달 진입 시 초기화 및 autoPlay 시작
   useEffect(() => {
     let isMounted = true;
-    const loadWordData = async () => {
-      stopPlayback();
-      const loadedSlides = await fetchLecture(activeWord, false);
-      
-      // 연속 재생 모드가 켜져 있거나 진입 시 자동 재생 플래그가 있는 경우
-      if (isMounted && autoPlayNextWordRef.current && loadedSlides && loadedSlides.length > 0) {
-        startContinuousPlayback(0, loadedSlides);
+    const init = async () => {
+      const initialWord = playlist[initialWordIndex] || wordData;
+      await fetchLecture(initialWord, false);
+
+      if (isMounted && initialAutoPlay) {
+        setTimeout(() => {
+          if (isMounted && !userStoppedRef.current) {
+            startContinuousSequence(initialWordIndex, 0);
+          }
+        }, 150);
       }
     };
 
-    loadWordData();
+    init();
 
     return () => {
       isMounted = false;
       stopPlayback();
     };
-  }, [currentWordIdx, activeWord?.id]);
-
-  // 모달 언마운트 시 TTS 안전 정지
-  useEffect(() => {
-    return () => {
-      stopPlayback();
-    };
   }, []);
-
-  // 전체 슬라이드 자동 넘김 연속 재생 실행기
-  const startContinuousPlayback = async (startSlideIdx = 0, customSlides = null) => {
-    const targetSlides = customSlides || slidesRef.current;
-    if (!targetSlides || targetSlides.length === 0) return;
-
-    isCancelledRef.current = false;
-    setIsPlaying(true);
-    setIsAutoPlayAll(true);
-
-    for (let sIdx = startSlideIdx; sIdx < targetSlides.length; sIdx++) {
-      if (isCancelledRef.current) break;
-
-      setCurrentIndex(sIdx);
-      currentSlideRef.current = sIdx;
-
-      const slideContent = targetSlides[sIdx]?.content;
-      if (slideContent) {
-        await playMixedAudio(stripForTTS(slideContent), currentEngine);
-      }
-
-      if (isCancelledRef.current) break;
-
-      // 슬라이드 간 자연스러운 0.6초 호흡 휴지
-      await new Promise(resolve => setTimeout(resolve, 600));
-    }
-
-    // 슬라이드가 끝까지 정상 재생되었을 때
-    if (!isCancelledRef.current) {
-      // 다음 단어가 플레이리스트에 남아있다면 자동으로 다음 단어로 넘김
-      if (currentWordIdxRef.current + 1 < playlist.length) {
-        autoPlayNextWordRef.current = true;
-        setCurrentWordIdx(prev => prev + 1);
-      } else {
-        // 모든 단어 및 슬라이드 완강
-        setIsPlaying(false);
-        setIsAutoPlayAll(false);
-        autoPlayNextWordRef.current = false;
-      }
-    }
-  };
 
   // 단일 슬라이드만 재생/정지
   const handlePlaySingle = async () => {
@@ -185,7 +204,8 @@ const AiTeacherModal = ({
     const currentSlide = slides[currentIndex];
     if (!currentSlide || !currentSlide.content) return;
 
-    isCancelledRef.current = false;
+    userStoppedRef.current = false;
+    isPlayingRef.current = true;
     setIsPlaying(true);
     setIsAutoPlayAll(false);
 
@@ -193,33 +213,25 @@ const AiTeacherModal = ({
       await playMixedAudio(stripForTTS(currentSlide.content), currentEngine);
     } finally {
       if (!isAutoPlayAll) {
+        isPlayingRef.current = false;
         setIsPlaying(false);
       }
     }
   };
 
-  // 전체 연속 재생 버튼 토글 (한 번에 쭉 듣기)
+  // 한 번에 쭉 듣기 🚀 토글
   const handleToggleAutoPlayAll = () => {
     if (isPlaying && isAutoPlayAll) {
       stopPlayback();
     } else {
       stopPlayback();
       setTimeout(() => {
-        startContinuousPlayback(currentIndex);
+        startContinuousSequence(currentWordIdx, currentIndex);
       }, 50);
     }
   };
 
-  // 음성 정지 함수
-  const stopPlayback = () => {
-    isCancelledRef.current = true;
-    autoPlayNextWordRef.current = false;
-    stopTTS();
-    setIsPlaying(false);
-    setIsAutoPlayAll(false);
-  };
-
-  // 슬라이드 이동
+  // 슬라이드 수동 이동
   const handleNextSlide = () => {
     if (currentIndex < slides.length - 1) {
       stopPlayback();
@@ -234,22 +246,21 @@ const AiTeacherModal = ({
     }
   };
 
-  // 단어 이동 (플레이리스트 모드)
-  const handleNextWord = () => {
-    if (currentWordIdx < playlist.length - 1) {
-      stopPlayback();
-      setCurrentWordIdx(prev => prev + 1);
+  // 단어 수동 이동
+  const handleSelectWord = async (newIdx) => {
+    if (newIdx < 0 || newIdx >= playlist.length) return;
+    const wasPlaying = isPlaying && isAutoPlayAll;
+    stopPlayback();
+    setCurrentWordIdx(newIdx);
+    setCurrentIndex(0);
+    const newWord = playlist[newIdx];
+    await fetchLecture(newWord, false);
+    if (wasPlaying) {
+      startContinuousSequence(newIdx, 0);
     }
   };
 
-  const handlePrevWord = () => {
-    if (currentWordIdx > 0) {
-      stopPlayback();
-      setCurrentWordIdx(prev => prev - 1);
-    }
-  };
-
-  // 엔진 변경 (Google 프리미엄 vs 기본 브라우저 TTS)
+  // TTS 엔진 변경
   const handleSwitchEngine = (newEngine) => {
     setCurrentEngine(newEngine);
     localStorage.setItem('tts_engine', newEngine);
@@ -269,6 +280,7 @@ const AiTeacherModal = ({
     switch(type) {
       case 'intro': return `👋 ${t('ai_teacher_type_intro') || '오프닝'}`;
       case 'grammar': return `📘 ${t('ai_teacher_type_grammar') || '핵심 문법'}`;
+      case 'spoken': return `💬 ${t('ai_teacher_type_spoken') || '현지 구어체 회화 팁'}`;
       case 'usage': return `💡 ${t('ai_teacher_type_usage') || '실전 예문'}`;
       case 'nuance': return `🎭 ${t('ai_teacher_type_nuance') || '미세한 뉘앙스'}`;
       case 'question': return `🚨 ${t('ai_teacher_type_question') || '돌발 퀴즈!'}`;
@@ -343,7 +355,7 @@ const AiTeacherModal = ({
                 padding: '4px 8px', borderRadius: '20px', border: '1px solid #e2e8f0' 
               }}>
                 <button 
-                  onClick={handlePrevWord} 
+                  onClick={() => handleSelectWord(currentWordIdx - 1)} 
                   disabled={currentWordIdx === 0}
                   style={{
                     background: 'none', border: 'none', cursor: currentWordIdx === 0 ? 'not-allowed' : 'pointer',
@@ -357,7 +369,7 @@ const AiTeacherModal = ({
                   {t('ai_teacher_playlist_word') || '선택 단어'} {currentWordIdx + 1}/{playlist.length}
                 </span>
                 <button 
-                  onClick={handleNextWord} 
+                  onClick={() => handleSelectWord(currentWordIdx + 1)} 
                   disabled={currentWordIdx === playlist.length - 1}
                   style={{
                     background: 'none', border: 'none', cursor: currentWordIdx === playlist.length - 1 ? 'not-allowed' : 'pointer',
@@ -463,7 +475,7 @@ const AiTeacherModal = ({
                     border: '1px solid #a7f3d0'
                   }}>
                     <span className="live-indicator"></span>
-                    {isAutoPlayAll ? (t('ai_teacher_play_all') || '연속 낭독 중...') : '슬라이드 재생 중...'}
+                    {isAutoPlayAll ? `${t('ai_teacher_play_all') || '전체 연속 낭독 중'} (${currentWordIdx + 1}/${playlist.length})` : '슬라이드 재생 중...'}
                   </span>
                 )}
               </div>
