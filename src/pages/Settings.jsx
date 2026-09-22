@@ -4,11 +4,12 @@ import { getWords, getFolders, addWord, addFolder } from '../db/database';
 import { fetchGeminiModels, CURATED_MODELS } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { ALL_OFFLINE_WORDS } from '../data/offlineDatabase';
+import { OFFLINE_CATEGORIES } from '../data/categories';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile, DICT_BACKUP_FILE } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
-import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info, Coins, Calculator, RotateCcw, BarChart3 } from 'lucide-react';
+import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info, Coins, Calculator, RotateCcw, BarChart3, Filter } from 'lucide-react';
 import TokenCostCard from '../components/TokenCostCard';
 import { 
   isTokenCostVisible, 
@@ -33,6 +34,7 @@ const Settings = () => {
   const [apiStatus, setApiStatus] = useState('idle');
   const [showTokenCost, setShowTokenCost] = useState(isTokenCostVisible());
   const [usageStats, setUsageStats] = useState(getTokenUsageStats());
+  const [selectedDictCat, setSelectedDictCat] = useState('discourse'); // 기본값: 문장 연결 & 담화 표지
 
   useEffect(() => {
     const handleStatsUpdate = (e) => {
@@ -287,26 +289,49 @@ const Settings = () => {
   // 1만단어 사전 단어명 정규화
   const normalizeDictWord = (str) => (str || '').split('[[')[0].trim().toLowerCase();
 
-  // 1만단어 사전 전체 CSV 내보내기 (기본 1만단어 + 재생성/신규 단어)
+  // 카테고리 표시 이름 조회 헬퍼
+  const getCategoryName = (catId) => {
+    if (!catId || catId === 'all') return '전체 1만 단어 사전';
+    const found = OFFLINE_CATEGORIES.find(c => c.id === catId);
+    return found ? `${found.icon} ${found.name}` : catId;
+  };
+
+  // 1만단어 사전에서 선택된 카테고리(또는 전체)에 해당하는 단어 목록 추출 헬퍼
+  const getDictWordsByCategory = (catId = selectedDictCat) => {
+    const overrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
+    const mapped = ALL_OFFLINE_WORDS.map(item => {
+      const key = normalizeDictWord(item.word);
+      if (overrides[key]) return { ...item, ...overrides[key], category_id: item.category_id };
+      return item;
+    });
+    const existingKeys = new Set(ALL_OFFLINE_WORDS.map(item => normalizeDictWord(item.word)));
+    const extraWords = Object.values(overrides).filter(w => w && w.word && !existingKeys.has(normalizeDictWord(w.word)));
+    const fullList = [...mapped, ...extraWords];
+
+    if (!catId || catId === 'all') {
+      return fullList;
+    }
+    return fullList.filter(item => item.category_id === catId);
+  };
+
+  // 1만단어 사전 선택 카테고리 CSV 내보내기 (기본: 문장 연결 & 담화 표지)
   const handleExportDictCSV = () => {
     try {
-      const overrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
-      const mapped = ALL_OFFLINE_WORDS.map(item => {
-        const key = normalizeDictWord(item.word);
-        if (overrides[key]) return { ...item, ...overrides[key] };
-        return item;
-      });
-      const existingKeys = new Set(ALL_OFFLINE_WORDS.map(item => normalizeDictWord(item.word)));
-      const extraWords = Object.values(overrides).filter(w => w && w.word && !existingKeys.has(normalizeDictWord(w.word)));
-      const fullList = [...mapped, ...extraWords];
-
-      const csvContent = convertToCSV(fullList);
+      const targetWords = getDictWordsByCategory(selectedDictCat);
+      if (!targetWords || targetWords.length === 0) {
+        alert('선택된 카테고리에 내보낼 단어가 없습니다.');
+        return;
+      }
+      const catName = getCategoryName(selectedDictCat);
+      const csvContent = convertToCSV(targetWords);
       const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.setAttribute('href', url);
-      link.setAttribute('download', `Inko_10K_Dictionary_Export_${new Date().toISOString().slice(0,10)}.csv`);
+      const safePrefix = selectedDictCat === 'all' ? '10K_All' : `10K_${selectedDictCat}`;
+      link.setAttribute('download', `Inko_${safePrefix}_Export_${new Date().toISOString().slice(0,10)}.csv`);
       link.click();
+      alert(`🎉 [${catName}] CSV 내보내기 완료!\n\n총 ${targetWords.length}개의 단어가 성공적으로 다운로드되었습니다.`);
     } catch (err) {
       alert('1만단어 사전 CSV 내보내기 실패: ' + err.message);
     }
@@ -395,27 +420,35 @@ const Settings = () => {
     finally { setIsDriveOperating(false); }
   };
 
-  // 1만단어 사전 전용 Google Drive 백업
+  // 1만단어 사전 선택 카테고리 Google Drive 백업
   const handleBackupDictToDrive = async () => {
     if (!gcpAccessToken) { handleGoogleLogin(); return; }
-    const overrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
-    const overrideCount = Object.keys(overrides).length;
 
-    if (!window.confirm(`☁️ 1만단어 사전 데이터를 구글 드라이브에 백업하시겠습니까?\n\n- 사용자 추가/수정 단어: ${overrideCount}개\n\n구글 드라이브에 안전하게 보관됩니다.`)) {
+    const targetWords = getDictWordsByCategory(selectedDictCat);
+    const catName = getCategoryName(selectedDictCat);
+    const targetFileName = selectedDictCat === 'all' 
+      ? DICT_BACKUP_FILE 
+      : `indo-10k-dict-${selectedDictCat}-backup.json`;
+
+    if (!window.confirm(`☁️ [${catName}] 데이터를 구글 드라이브에 백업하시겠습니까?\n\n- 백업 대상 단어: 총 ${targetWords.length}개\n- 파일명: ${targetFileName}\n\n구글 드라이브에 안전하게 보관됩니다.`)) {
       return;
     }
 
     setIsDriveOperating(true);
     try {
+      const overrides = JSON.parse(localStorage.getItem('inko_dict_overrides') || '{}');
       const backupPayload = {
         type: '10k_dictionary_backup',
-        version: '1.0',
+        categoryId: selectedDictCat,
+        categoryName: catName,
+        version: '1.2',
         timestamp: new Date().toISOString(),
-        overrideCount,
-        overrides
+        wordsCount: targetWords.length,
+        words: targetWords,
+        overrides: overrides
       };
-      await uploadBackupToDrive(gcpAccessToken, backupPayload, DICT_BACKUP_FILE);
-      alert(`🎉 1만 단어 사전이 구글 드라이브에 성공적으로 백업되었습니다!\n(백업 파일명: ${DICT_BACKUP_FILE})`);
+      await uploadBackupToDrive(gcpAccessToken, backupPayload, targetFileName);
+      alert(`🎉 [${catName}] 데이터가 구글 드라이브에 성공적으로 백업되었습니다!\n(파일명: ${targetFileName}, 총 ${targetWords.length}개 단어)`);
     } catch (err) {
       alert(`❌ 1만 단어 사전 구글 백업 실패: ${err.message}`);
     } finally {
@@ -423,18 +456,34 @@ const Settings = () => {
     }
   };
 
-  // 1만단어 사전 전용 Google Drive 불러오기 (중복 단어 자동 건너뛰기)
+  // 1만단어 사전 선택 카테고리 Google Drive 불러오기 (중복 단어 자동 건너뛰기)
   const handleRestoreDictFromDrive = async () => {
     if (!gcpAccessToken) { handleGoogleLogin(); return; }
     setIsDriveOperating(true);
     try {
-      const backupFile = await searchBackupFile(gcpAccessToken, DICT_BACKUP_FILE);
+      const targetFileName = selectedDictCat === 'all' 
+        ? DICT_BACKUP_FILE 
+        : `indo-10k-dict-${selectedDictCat}-backup.json`;
+
+      let backupFile = await searchBackupFile(gcpAccessToken, targetFileName);
+
+      // 카테고리 전용 백업이 없을 경우 전체 백업 파일 검색
+      if (!backupFile && selectedDictCat !== 'all') {
+        const allBackup = await searchBackupFile(gcpAccessToken, DICT_BACKUP_FILE);
+        if (allBackup) {
+          if (window.confirm(`카테고리 전용 백업 파일(${targetFileName})은 없지만, [전체 1만단어 사전 백업] 파일이 있습니다.\n\n전체 백업 파일에서 [${getCategoryName(selectedDictCat)}] 단어들을 복원하시겠습니까?`)) {
+            backupFile = allBackup;
+          }
+        }
+      }
+
       if (!backupFile) {
-        alert(`구글 드라이브에서 1만단어 사전 백업 파일(${DICT_BACKUP_FILE})을 찾을 수 없습니다.\n먼저 구글 드라이브 백업을 진행해 주세요.`);
+        alert(`구글 드라이브에서 1만단어 사전 백업 파일(${targetFileName})을 찾을 수 없습니다.\n먼저 구글 드라이브 백업을 진행해 주세요.`);
         return;
       }
 
-      if (!window.confirm(`📥 구글 드라이브에서 1만단어 사전 백업을 불러오시겠습니까?\n\n- 백업 일시: ${new Date(backupFile.modifiedTime).toLocaleString()}\n- 기존에 사전에 있던 중복 단어는 건너뛰며(Skip), 신규 및 수정 단어를 안전하게 병합합니다.`)) {
+      const catName = getCategoryName(selectedDictCat);
+      if (!window.confirm(`📥 구글 드라이브에서 [${catName}] 백업을 불러오시겠습니까?\n\n- 백업 일시: ${new Date(backupFile.modifiedTime).toLocaleString()}\n- 기존에 사전에 있던 중복 단어는 건너뛰며(Skip), 신규 및 수정 단어를 안전하게 병합합니다.`)) {
         return;
       }
 
@@ -451,46 +500,39 @@ const Settings = () => {
       let addedCount = 0;
       let skipCount = 0;
 
-      // 1) overrides 딕셔너리 형태 복원
-      if (backupData.overrides && typeof backupData.overrides === 'object') {
-        Object.entries(backupData.overrides).forEach(([key, wordObj]) => {
-          if (!wordObj || !wordObj.word) return;
-          const normKey = normalizeDictWord(wordObj.word) || key;
-          if (existingKeys.has(normKey)) {
-            skipCount++;
-          } else {
-            currentOverrides[normKey] = {
-              ...wordObj,
-              isCustomAdded: true,
-              restoredFromDriveAt: new Date().toISOString()
-            };
-            existingKeys.add(normKey);
-            addedCount++;
-          }
-        });
-      } 
-      // 2) 단어 리스트 배열 형태 복원
-      else if (Array.isArray(backupData.words)) {
-        backupData.words.forEach(w => {
-          if (!w || !w.word) return;
-          const normKey = normalizeDictWord(w.word);
-          if (existingKeys.has(normKey)) {
-            skipCount++;
-          } else {
-            currentOverrides[normKey] = {
-              ...w,
-              isCustomAdded: true,
-              restoredFromDriveAt: new Date().toISOString()
-            };
-            existingKeys.add(normKey);
-            addedCount++;
-          }
-        });
+      // 단어 추출
+      let sourceWords = [];
+      if (Array.isArray(backupData.words)) {
+        sourceWords = backupData.words;
+      } else if (backupData.overrides && typeof backupData.overrides === 'object') {
+        sourceWords = Object.values(backupData.overrides);
       }
+
+      // 특정 카테고리만 복원할 때 카테고리 필터링
+      if (selectedDictCat !== 'all') {
+        sourceWords = sourceWords.filter(w => !w.category_id || w.category_id === selectedDictCat);
+      }
+
+      sourceWords.forEach(w => {
+        if (!w || !w.word) return;
+        const normKey = normalizeDictWord(w.word);
+        if (existingKeys.has(normKey)) {
+          skipCount++;
+        } else {
+          currentOverrides[normKey] = {
+            ...w,
+            category_id: w.category_id || selectedDictCat,
+            isCustomAdded: true,
+            restoredFromDriveAt: new Date().toISOString()
+          };
+          existingKeys.add(normKey);
+          addedCount++;
+        }
+      });
 
       localStorage.setItem('inko_dict_overrides', JSON.stringify(currentOverrides));
       window.dispatchEvent(new CustomEvent('dict_overrides_updated'));
-      alert(`🎉 1만 단어 사전 구글 드라이브 복원 완료!\n\n- 이미 존재하여 건너뜀(Skip): ${skipCount}개\n- 신규로 사전에 추가/반영됨: ${addedCount}개\n\n1만단어 사전 메뉴에서 바로 확인하실 수 있습니다.`);
+      alert(`🎉 [${catName}] 구글 드라이브 복원 완료!\n\n- 이미 존재하여 건너뜀(Skip): ${skipCount}개\n- 신규로 사전에 추가/반영됨: ${addedCount}개\n\n1만단어 사전 메뉴에서 바로 확인하실 수 있습니다.`);
     } catch (err) {
       alert(`❌ 1만 단어 사전 구글 복원 실패: ${err.message}`);
     } finally {
@@ -605,7 +647,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.14 (1만단어 사전 전용 구글 드라이브 클라우드 백업 & 불러오기 탑재)
+                버전 정보: v20.15 (1만단어장 '문장 연결 & 담화 표지' 등 카테고리별 선택 백업 & 구글 클라우드 동기화 탑재)
             </span>
         </div>
       </header>
@@ -1153,6 +1195,60 @@ const Settings = () => {
           개인 단어장과 별개로 <b>1만단어 사전에 직접 신규 단어를 대량 추가</b>하거나, 전체 사전 데이터를 <b>CSV 파일 또는 구글 드라이브 클라우드로 안전하게 백업 및 불러오기</b>할 수 있습니다. 불러오기 시 이미 사전에 존재하는 단어는 자동으로 건너뜁니다(Skip).
         </p>
 
+        {/* [신규] 백업 및 불러오기 대상 카테고리 선택기 */}
+        <div style={{ 
+          background: '#ffffff', 
+          padding: '0.9rem 1.1rem', 
+          borderRadius: '16px', 
+          border: '2px solid #fcd34d', 
+          marginBottom: '1.2rem',
+          boxShadow: '0 2px 8px rgba(251, 191, 36, 0.15)'
+        }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', flexWrap: 'wrap', gap: '6px' }}>
+            <label style={{ fontSize: '0.9rem', fontWeight: '900', color: '#78350f', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Filter size={16} color="#d97706" /> 백업 / 불러오기 대상 카테고리 선택:
+            </label>
+            <span style={{ 
+              fontSize: '0.78rem', 
+              background: '#fef3c7', 
+              color: '#92400e', 
+              padding: '3px 10px', 
+              borderRadius: '10px', 
+              fontWeight: '900',
+              border: '1px solid #fde68a'
+            }}>
+              선택된 대상: {getDictWordsByCategory(selectedDictCat).length.toLocaleString()}개 단어
+            </span>
+          </div>
+
+          <select 
+            value={selectedDictCat} 
+            onChange={(e) => setSelectedDictCat(e.target.value)}
+            style={{
+              width: '100%',
+              padding: '0.75rem 1rem',
+              borderRadius: '12px',
+              border: '1.5px solid #cbd5e1',
+              fontSize: '0.92rem',
+              fontWeight: '800',
+              color: '#1e293b',
+              background: '#fff',
+              outline: 'none',
+              cursor: 'pointer',
+              boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.04)'
+            }}
+          >
+            <option value="discourse">🔗 문장 연결 & 담화 표지 (현재 선택됨)</option>
+            <option value="all">🌟 전체 1만 단어 사전 (전체 카테고리)</option>
+            {OFFLINE_CATEGORIES.filter(c => c.id !== 'discourse').map(cat => (
+              <option key={cat.id} value={cat.id}>{cat.icon} {cat.name}</option>
+            ))}
+          </select>
+          <div style={{ fontSize: '0.74rem', color: '#78350f', marginTop: '6px', fontWeight: '600' }}>
+            💡 카테고리를 선택하면 아래의 <b>CSV 다운로드</b> 및 <b>구글 드라이브 백업/불러오기</b>가 선택한 카테고리 단어들만 선별하여 진행됩니다.
+          </div>
+        </div>
+
         {/* 1) CSV 백업 및 가져오기 */}
         <div style={{ marginBottom: '1rem' }}>
           <div style={{ fontSize: '0.8rem', fontWeight: '900', color: '#475569', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '4px' }}>
@@ -1181,7 +1277,7 @@ const Settings = () => {
                 cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
                 boxShadow: '0 2px 6px rgba(0,0,0,0.04)' 
               }}>
-              <FileDown size={16} /> 1만단어 사전 CSV 다운로드
+              <FileDown size={16} /> {selectedDictCat === 'all' ? '전체 사전 CSV 다운로드' : '선택 카테고리 CSV 다운로드'}
             </button>
           </div>
         </div>
@@ -1196,7 +1292,7 @@ const Settings = () => {
         }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem', flexWrap: 'wrap', gap: '4px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.88rem', fontWeight: '900', color: '#1e3a8a' }}>
-              <Cloud size={18} color="#2563eb" /> ☁️ 1만단어장 구글 드라이브 백업 & 불러오기
+              <Cloud size={18} color="#2563eb" /> ☁️ 구글 드라이브 동기화 ({getCategoryName(selectedDictCat)})
             </div>
             {!gcpAccessToken ? (
               <button 
@@ -1222,7 +1318,7 @@ const Settings = () => {
           </div>
           
           <div style={{ fontSize: '0.76rem', color: '#475569', marginBottom: '0.8rem', lineHeight: '1.4' }}>
-            구글 드라이브에 1만단어 사전 전용 백업 파일(<code>{DICT_BACKUP_FILE}</code>)로 저장되며, 기기를 바꾸거나 재설치해도 원클릭으로 완벽하게 복원할 수 있습니다.
+            선택된 카테고리(<b>{getCategoryName(selectedDictCat)}</b>) 단어들을 구글 드라이브에 안전하게 보관하거나 불러올 수 있습니다. (파일명: <code>{selectedDictCat === 'all' ? DICT_BACKUP_FILE : `indo-10k-dict-${selectedDictCat}-backup.json`}</code>)
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }}>
@@ -1246,7 +1342,7 @@ const Settings = () => {
                 transition: '0.2s'
               }}
             >
-              <FileUp size={16} /> 1만단어장 구글 백업
+              <FileUp size={16} /> {selectedDictCat === 'all' ? '전체 사전 구글 백업' : '선택 카테고리 구글 백업'}
             </button>
 
             <button 
@@ -1269,7 +1365,7 @@ const Settings = () => {
                 transition: '0.2s'
               }}
             >
-              <FileDown size={16} /> 1만단어장 구글 불러오기
+              <FileDown size={16} /> {selectedDictCat === 'all' ? '전체 사전 구글 불러오기' : '선택 카테고리 구글 불러오기'}
             </button>
           </div>
         </div>

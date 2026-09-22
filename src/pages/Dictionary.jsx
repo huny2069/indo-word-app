@@ -2,9 +2,10 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { addWord, updateWord, getWords } from '../db/database';
 import { playAudio } from '../api/ttsApi';
 import { regenerateWordData } from '../api/geminiApi';
+import { convertToCSV } from '../api/csvApi';
 import { 
   BookOpen, Search, Volume2, BookmarkPlus, CheckSquare, Square, 
-  ChevronDown, ChevronUp, Sparkles, CheckCircle2, Layers, Loader2, ArrowRight, RotateCcw
+  ChevronDown, ChevronUp, Sparkles, CheckCircle2, Layers, Loader2, ArrowRight, RotateCcw, FileDown
 } from 'lucide-react';
 import InteractiveSentence from '../components/InteractiveSentence';
 import { 
@@ -204,6 +205,28 @@ const Dictionary = () => {
       alert(`선택한 단어 중 ${addedCount}개가 단어장에 추가되었습니다!`);
     } catch (err) {
       alert('추가 실패: ' + err.message);
+    }
+  };
+
+  // 현재 카테고리 전체 단어 CSV 백업 다운로드
+  const handleExportCurrentCategoryCSV = () => {
+    try {
+      if (!currentCategoryWords || currentCategoryWords.length === 0) {
+        alert('내보낼 단어가 없습니다.');
+        return;
+      }
+      const catName = selectedCategory?.name || '카테고리';
+      const csvContent = convertToCSV(currentCategoryWords);
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      const safeCatId = selectedCategory?.id || 'category';
+      link.setAttribute('download', `Inko_10K_${safeCatId}_Export_${new Date().toISOString().slice(0,10)}.csv`);
+      link.click();
+      alert(`🎉 [${catName}] 단어 ${currentCategoryWords.length}개가 CSV 파일로 성공적으로 저장되었습니다!`);
+    } catch (err) {
+      alert('CSV 내보내기 실패: ' + err.message);
     }
   };
 
@@ -659,6 +682,19 @@ const Dictionary = () => {
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+              <button
+                onClick={handleExportCurrentCategoryCSV}
+                title="현재 카테고리 단어들을 CSV 파일로 백업합니다"
+                style={{
+                  display: 'flex', alignItems: 'center', gap: '6px',
+                  padding: '0.55rem 1rem', background: '#f0fdf4', border: '1.5px solid #86efac', 
+                  borderRadius: '18px', cursor: 'pointer', fontSize: '0.85rem', fontWeight: '800', color: '#166534',
+                  boxShadow: '0 2px 4px rgba(0,0,0,0.03)'
+                }}
+              >
+                <FileDown size={16} /> 이 카테고리 백업 ({currentCategoryWords.length}개)
+              </button>
+
               <button
                 onClick={toggleSelectAllCategoryWords}
                 style={{
