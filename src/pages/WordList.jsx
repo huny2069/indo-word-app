@@ -39,6 +39,7 @@ const WordList = () => {
   const [revealedIds, setRevealedIds] = useState(new Set()); 
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedTeacherWord, setSelectedTeacherWord] = useState(null);
+  const [selectedLecturePlaylist, setSelectedLecturePlaylist] = useState(null);
   const itemsPerPage = 20;
 
   const navigate = useNavigate();
@@ -64,6 +65,25 @@ const WordList = () => {
       await clearCart();
       setCartIds(new Set());
       alert(t('msg_clear_cart_done'));
+    }
+  };
+
+  // 선택한 단어들의 특강 연속 재생 핸들러
+  const handlePlaySelectedLectures = () => {
+    if (selectedIds.size === 0) return;
+    const targetWords = words.filter(w => selectedIds.has(w.id));
+    if (targetWords.length === 0) return;
+
+    // 이미 특강이 생성되어 있는 단어들 우선 추출
+    const wordsWithLecture = targetWords.filter(w => w.ai_lecture && Array.isArray(w.ai_lecture) && w.ai_lecture.length > 0);
+
+    if (wordsWithLecture.length > 0) {
+      if (wordsWithLecture.length < targetWords.length) {
+        alert(`선택한 ${targetWords.length}개 단어 중 이미 특강이 생성되어 있는 ${wordsWithLecture.length}개 단어의 특강을 연속 재생합니다! 🎓`);
+      }
+      setSelectedLecturePlaylist(wordsWithLecture);
+    } else {
+      setSelectedLecturePlaylist(targetWords);
     }
   };
 
@@ -590,6 +610,21 @@ const WordList = () => {
            </button>
            <button 
               disabled={selectedIds.size === 0 || isRegenerating}
+              onClick={handlePlaySelectedLectures}
+              style={{ 
+                background: selectedIds.size > 0 ? 'linear-gradient(135deg, #10b981, #059669)' : '#f5f5f5', 
+                color: selectedIds.size > 0 ? '#fff' : '#ccc', 
+                border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', 
+                cursor: selectedIds.size > 0 ? 'pointer' : 'default', 
+                display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s',
+                boxShadow: selectedIds.size > 0 ? '0 4px 12px rgba(16, 185, 129, 0.3)' : 'none'
+              }}
+              title="선택한 단어들의 스타강사 특강을 차례대로 연속 청취합니다"
+           >
+              <GraduationCap size={18} /> {t('btn_play_selected_lectures') || '특강 연속 듣기'} ({selectedIds.size})
+           </button>
+           <button 
+              disabled={selectedIds.size === 0 || isRegenerating}
               onClick={handleDeleteSelected}
               style={{ background: selectedIds.size > 0 ? '#ff4d4f' : '#f5f5f5', color: selectedIds.size > 0 ? '#fff' : '#ccc', border: 'none', padding: '0.8rem 1.4rem', borderRadius: '30px', fontWeight: '900', cursor: selectedIds.size > 0 ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: '0.4rem', transition: '0.3s' }}>
               <Trash2 size={18} /> {t('btn_delete_selected')} ({selectedIds.size})
@@ -854,6 +889,23 @@ const WordList = () => {
           onUpdateWord={(updatedWord) => {
             setWords(prev => prev.map(w => w.id === updatedWord.id ? updatedWord : w));
             setSelectedTeacherWord(updatedWord);
+          }}
+        />
+      )}
+
+      {selectedLecturePlaylist && selectedLecturePlaylist.length > 0 && (
+        <AiTeacherModal
+          wordData={selectedLecturePlaylist[0]}
+          wordList={selectedLecturePlaylist}
+          initialAutoPlay={true}
+          onClose={() => setSelectedLecturePlaylist(null)}
+          apiKey={localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY}
+          modelName={localStorage.getItem('selectedGeminiModel') || 'gemini-3.8-flash'}
+          userLang={userLang}
+          studyLang={selectedLecturePlaylist[0]?.study_lang}
+          onUpdateWord={(updatedWord) => {
+            setWords(prev => prev.map(w => w.id === updatedWord.id ? updatedWord : w));
+            setSelectedLecturePlaylist(prev => prev ? prev.map(w => w.id === updatedWord.id ? updatedWord : w) : null);
           }}
         />
       )}

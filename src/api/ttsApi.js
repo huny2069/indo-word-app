@@ -125,7 +125,7 @@ export const stopTTS = () => {
  * 단일 텍스트 재생 (단어장 등에서 사용)
  * [v20.09] 단어 뒤의 발음 표기([[...]])를 완벽 필터링하여 TTS가 발음 기호까지 읽어버리지 않도록 개선
  */
-export const playAudio = async (text, lang = null, voiceName = null) => {
+export const playAudio = async (text, lang = null, voiceName = null, engineOverride = null) => {
   if (!text) return;
   isTtsCancelled = false;
   
@@ -137,16 +137,23 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
   if (!cleanedText) return;
 
   const targetLang = getLangType(cleanedText, lang);
-  const preferredEngine = localStorage.getItem('tts_engine') || 'google';
+  const preferredEngine = engineOverride || localStorage.getItem('tts_engine') || 'google';
 
   console.log(`[TTS] playAudio 호출 | 엔진: ${preferredEngine} | 언어: ${targetLang} | 원본: "${text.substring(0, 30)}" -> 정제: "${cleanedText}"`);
 
   try {
     if (preferredEngine === 'google') {
-      await playGoogleCloudTTS(cleanedText, targetLang, voiceName);
+      const accessToken = localStorage.getItem('gcp_access_token');
+      if (!accessToken) {
+        // 구글 토큰이 없을 경우 기본 브라우저 WebSpeech로 자연스럽게 폴백
+        await playWebSpeechTTS(cleanedText, targetLang);
+      } else {
+        await playGoogleCloudTTS(cleanedText, targetLang, voiceName);
+      }
     } else if (preferredEngine === 'gemini') {
       await playGeminiTTS(cleanedText, targetLang, voiceName);
     } else {
+      // 기본 브라우저 TTS (Web Speech API)
       await playWebSpeechTTS(cleanedText, targetLang);
     }
   } catch (error) {
@@ -161,22 +168,20 @@ export const playAudio = async (text, lang = null, voiceName = null) => {
 
 /**
  * 혼합 언어(AI 선생님 강의)를 문장 단위로 나누어 순차 재생
- * 각 문장마다 언어를 자동 감지하여 해당 언어의 프리미엄 모델로 재생합니다.
+ * 각 문장마다 언어를 자동 감지하여 해당 언어의 모델로 재생합니다.
+ * [v20.10] 기본 브라우저 TTS(Web Speech) 및 Google 프리미엄 엔진 완벽 전환 지원
  */
-export const playMixedAudio = async (text) => {
+export const playMixedAudio = async (text, engineOverride = null) => {
   if (!text) return;
   isTtsCancelled = false;
 
-  const preferredEngine = localStorage.getItem('tts_engine') || 'google';
+  const preferredEngine = engineOverride || localStorage.getItem('tts_engine') || 'google';
   const accessToken = localStorage.getItem('gcp_access_token');
   
-  console.log(`[TTS-MIX] === AI 선생님 재생 시작 === 엔진: ${preferredEngine} | 토큰존재: ${!!accessToken}`);
+  // 구글 프리미엄 엔진을 요청했으나 토큰이 없는 경우 기본 브라우저 TTS로 자동 전환
+  const effectiveEngine = (preferredEngine === 'google' && !accessToken) ? 'browser' : preferredEngine;
 
-  // 엔진이 google인데 토큰이 없으면 미리 경고
-  if (preferredEngine === 'google' && !accessToken) {
-    alert('⚠️ Google Cloud TTS 토큰이 없습니다.\n설정 → 구글 로그인을 해주세요.');
-    return;
-  }
+  console.log(`[TTS-MIX] === AI 선생님 재생 시작 === 요청엔진: ${preferredEngine} | 적용엔진: ${effectiveEngine}`);
 
   // [v20.09] 강의 텍스트 내의 [[...]] 발음 표기 사전 정제
   const purifiedText = cleanTtsText(text);
@@ -185,16 +190,16 @@ export const playMixedAudio = async (text) => {
   const tokens = purifiedText.split(/([a-zA-Z]+[a-zA-Z\s]*[a-zA-Z]+|[a-zA-Z]+)/g).filter(t => t.trim().length > 0);
   console.log(`[TTS-MIX] 총 ${tokens.length}개 조각으로 세부 언어별 분리됨`);
 
-  // [v19.20] 재생 시작 직전, 미리 앞서갈 다음 3개 조각을 비동기 프리페치 큐에 비동기 주입(선장전)
-  for (let j = 0; j < Math.min(3, tokens.length); j++) {
-    const nextToken = tokens[j].trim();
-    if (!/^[0-9\s.,?!~:;*()'"-\/]+$/.test(nextToken)) {
-      const nextLang = containsHangul(nextToken) ? 'ko' : 'id';
-      prefetchGoogleAudio(nextToken, nextLang); // non-blocking 비동기 병렬 요청
+  // 구글 프리미엄 엔진 사용 시에만 백그라운드 프리페치 선장전
+  if (effectiveEngine === 'google') {
+    for (let j = 0; j < Math.min(3, tokens.length); j++) {
+      const nextToken = tokens[j].trim();
+      if (!/^[0-9\s.,?!~:;*()'"-\/]+$/.test(nextToken)) {
+        const nextLang = containsHangul(nextToken) ? 'ko' : 'id';
+        prefetchGoogleAudio(nextToken, nextLang);
+      }
     }
   }
-
-  let hasShownError = false; // 첫 번째 에러만 알림 표시
 
   for (let i = 0; i < tokens.length; i++) {
     if (isTtsCancelled) break;
@@ -205,27 +210,28 @@ export const playMixedAudio = async (text) => {
 
     // 한글이 단 한 글자라도 섞여 있다면 한국어로 재생, 알파벳으로만 구성되어 있다면 인도네시아어로 재생
     const lang = containsHangul(token) ? 'ko' : 'id';
-    console.log(`[TTS-MIX] [${i+1}/${tokens.length}] 판별언어: ${lang} | "${token}"`);
+    console.log(`[TTS-MIX] [${i+1}/${tokens.length}] (${effectiveEngine}) 판별언어: ${lang} | "${token}"`);
 
-    // [v19.20] 현재 낭독 중인 슬라이드 루프 속에서 2단계 뒤의 토큰을 연쇄적으로 계속 프리페치(슬라이딩 윈도우 프리페치)
-    const nextPrefetchIdx = i + 3;
-    if (nextPrefetchIdx < tokens.length) {
-      const nextPrefetchToken = tokens[nextPrefetchIdx].trim();
-      if (!/^[0-9\s.,?!~:;*()'"-\/]+$/.test(nextPrefetchToken)) {
-        const nextPrefetchLang = containsHangul(nextPrefetchToken) ? 'ko' : 'id';
-        prefetchGoogleAudio(nextPrefetchToken, nextPrefetchLang);
+    // 구글 엔진일 때 슬라이딩 윈도우 프리페치 계속 진행
+    if (effectiveEngine === 'google') {
+      const nextPrefetchIdx = i + 3;
+      if (nextPrefetchIdx < tokens.length) {
+        const nextPrefetchToken = tokens[nextPrefetchIdx].trim();
+        if (!/^[0-9\s.,?!~:;*()'"-\/]+$/.test(nextPrefetchToken)) {
+          const nextPrefetchLang = containsHangul(nextPrefetchToken) ? 'ko' : 'id';
+          prefetchGoogleAudio(nextPrefetchToken, nextPrefetchLang);
+        }
       }
     }
 
     try {
-      // playAudio 함수를 그대로 연결하여 각 조각에 대한 완벽한 프리미엄 보이스 안전장치를 경유합니다.
-      await playAudio(token, lang);
-    } catch (error) {
-      console.error(`[TTS-MIX] ❌ 조각 ${i+1} 실패:`, error.message);
-      if (!hasShownError) {
-        hasShownError = true;
-        alert(`❌ AI 선생님 프리미엄 음성 실패\n\n원인: ${error.message}\n\n기본 음성으로 대체합니다.`);
+      if (effectiveEngine === 'browser') {
+        await playWebSpeechTTS(token, lang);
+      } else {
+        await playAudio(token, lang, null, effectiveEngine);
       }
+    } catch (error) {
+      console.warn(`[TTS-MIX] ⚠️ 기본 음성으로 대체 재생 (${i+1}):`, error.message);
       if (!isTtsCancelled) {
         await playWebSpeechTTS(token, lang);
       }

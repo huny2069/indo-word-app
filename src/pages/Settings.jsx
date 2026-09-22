@@ -469,7 +469,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.09 (TTS 단어 발음 [[...]] 읽기 방지 정제 필터 및 다단어 숙어 전수 발음 지원)
+                버전 정보: v20.10 (스타강사 특강 한 번에 쭉 듣기 🚀 및 선택 단어 연속 특강 & 기본 TTS 엔진 완벽 호환)
             </span>
         </div>
       </header>
