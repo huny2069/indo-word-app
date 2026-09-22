@@ -44,24 +44,45 @@ const Settings = () => {
   // API를 통해 동적으로 가져온 modelList가 있는 경우 이를 우선 렌더링 대상으로 지정 (하이브리드 방식)
   const displayModels = React.useMemo(() => {
     if (modelList && modelList.length > 0) {
-      return modelList.map(modelId => {
-        // 이미 큐레이션된 고정 모델 정보가 매칭되는지 확인 (느슨한 포함 대조를 통하여 gemini-3.5-flash 및 프리뷰 모델 완벽 상호 호환)
+      return modelList.map(item => {
+        const modelId = typeof item === 'string' ? item : item.id;
         const curated = CURATED_MODELS.find(m => m.id === modelId || modelId.includes(m.id) || m.id.includes(modelId));
+        
+        if (typeof item === 'object' && item !== null) {
+          const isPro = modelId.includes('pro');
+          const isLite = modelId.includes('lite') || modelId.includes('8b');
+          return {
+            id: modelId,
+            t_key: curated?.t_key || item.t_key || modelId.replace(/[^a-zA-Z0-9]/g, '_'),
+            name: curated?.name || item.name || item.displayName || modelId,
+            shortDesc: curated?.shortDesc || item.shortDesc || (isPro ? '🧠 [고성능] 심층 추론 및 정밀 분석' : isLite ? '🚀 [가성비] 모바일 초고속 최저비용' : '⚡ [최신] 고속 표준 생성 모델'),
+            speed: curated?.speed || item.speed || (isPro ? '🐢 느림' : isLite ? '🚀 매우 빠름' : '⚡ 빠름'),
+            speed_key: curated?.speed_key || item.speed_key || (isPro ? 'slow' : isLite ? 'very_fast' : 'fast'),
+            tokens: curated?.tokens || item.tokens || (isPro ? '💎 높음' : isLite ? '📉 매우 낮음' : '📉 낮음'),
+            tokens_key: curated?.tokens_key || item.tokens_key || (isPro ? 'high' : isLite ? 'very_low' : 'low'),
+            pros: curated?.pros || item.pros || item.googleDescription || '구글 API를 통해 실시간 제공되는 최신 AI 모델입니다.',
+            cons: curated?.cons || item.cons || '표준 모델입니다.',
+            googleDescription: item.googleDescription || curated?.googleDescription || ''
+          };
+        }
+
         if (curated) return curated;
 
-        // 매칭되지 않는 새로운 미래형 모델이 들어왔을 때 동적으로 안전하게 리스트 요소를 제조
+        const isPro = modelId.includes('pro');
+        const isLite = modelId.includes('lite') || modelId.includes('8b');
         const cleanName = modelId.split('-').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
-        const t_key = modelId.replace(/[^a-zA-Z0-9]/g, '_');
         return {
           id: modelId,
-          t_key: t_key,
+          t_key: modelId.replace(/[^a-zA-Z0-9]/g, '_'),
           name: cleanName,
-          speed: modelId.includes('pro') ? '🏃 보통' : '⚡ 빠름',
-          speed_key: modelId.includes('pro') ? 'normal' : 'fast',
-          tokens: modelId.includes('pro') ? '📈 높음' : '📉 낮음',
-          tokens_key: modelId.includes('pro') ? 'high' : 'low',
+          shortDesc: isPro ? '🧠 [고성능] 심층 추론 및 정밀 분석' : isLite ? '🚀 [가성비] 모바일 초고속 최저비용' : '⚡ [최신] 고속 표준 생성 모델',
+          speed: isPro ? '🐢 느림' : isLite ? '🚀 매우 빠름' : '⚡ 빠름',
+          speed_key: isPro ? 'slow' : isLite ? 'very_fast' : 'fast',
+          tokens: isPro ? '💎 높음' : isLite ? '📉 매우 낮음' : '📉 낮음',
+          tokens_key: isPro ? 'high' : isLite ? 'very_low' : 'low',
           pros: 'API를 통해 실시간 활성화되어 즉시 사용 가능한 구글 제미나이 신규 모델입니다.',
-          cons: '이 모델의 공식 스타강사 장/단점 설명 큐레이션은 현재 준비 중입니다.'
+          cons: '이 모델의 한국어 가이드는 준비 중입니다.',
+          googleDescription: ''
         };
       });
     }
@@ -126,14 +147,38 @@ const Settings = () => {
   };
 
   useEffect(() => {
-    setGeminiKey(localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY || '');
+    const savedKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY || '';
+    setGeminiKey(savedKey);
     setIsAudioEnabled(localStorage.getItem('is_audio_enabled') !== 'false');
     setTtsEngine(localStorage.getItem('tts_engine') || 'gemini');
-    const savedModel = localStorage.getItem('selectedGeminiModel');
-    if (savedModel) setSelectedGeminiModel(savedModel);
+
+    let savedModel = localStorage.getItem('selectedGeminiModel');
+    // 사용 불가능한 1.0 등 구형 모델 마이그레이션
+    if (!savedModel || savedModel.includes('1.0') || savedModel === 'gemini-pro') {
+      savedModel = 'gemini-2.5-flash';
+      localStorage.setItem('selectedGeminiModel', savedModel);
+    }
+    setSelectedGeminiModel(savedModel);
+
     const savedList = localStorage.getItem('geminiModelList');
-    if (savedList) setModelList(JSON.parse(savedList));
-    if (localStorage.getItem('geminiApiKey')) setApiStatus('valid');
+    if (savedList) {
+      try {
+        const parsed = JSON.parse(savedList);
+        const cleaned = parsed.filter(item => {
+          const id = typeof item === 'string' ? item : item.id;
+          return id && !id.startsWith('gemini-1.0') && id !== 'gemini-pro';
+        });
+        setModelList(cleaned);
+      } catch (e) {}
+    }
+
+    if (savedKey) {
+      setApiStatus('valid');
+      // 만약 모델 리스트가 아직 없으면 백그라운드에서 최신 구글 모델 자동 동기화
+      if (!savedList) {
+        syncModelsFromGoogle(savedKey, false);
+      }
+    }
 
     // [v19.5] 음성 리스트 자동 동기화 (토큰이 있고 리스트가 비었을 때)
     if (gcpAccessToken && (!googleVoiceList || googleVoiceList.length === 0)) {
@@ -232,33 +277,73 @@ const Settings = () => {
     finally { setIsDriveOperating(false); }
   };
 
-  const handleFetchModels = async () => {
-    const keyToUse = geminiKey;
-    if (!keyToUse) return;
+  // 구글 API로부터 현재 실제로 사용되는 최신 모델 목록을 실시간 동기화하는 함수
+  const syncModelsFromGoogle = async (apiKeyToTest, showSuccessAlert = true) => {
+    const key = (apiKeyToTest || geminiKey || '').trim();
+    if (!key) {
+      alert(t('set_ai_placeholder') || 'Gemini API 키를 입력해주세요.');
+      return false;
+    }
+
     setLoadingModels(true);
     setApiStatus('verifying');
     try {
-      const models = await fetchGeminiModels(keyToUse);
-      setModelList(models);
-      localStorage.setItem('geminiModelList', JSON.stringify(models));
-      localStorage.setItem('geminiApiKey', keyToUse.trim());
-      setApiStatus('valid');
-      if (models.length > 0 && (!selectedGeminiModel || !models.includes(selectedGeminiModel))) {
-        setSelectedGeminiModel(models[0]);
-        localStorage.setItem('selectedGeminiModel', models[0]);
+      const fetched = await fetchGeminiModels(key);
+      if (!fetched || fetched.length === 0) {
+        throw new Error('구글에서 사용 가능한 텍스트 생성 AI 모델을 찾지 못했습니다.');
       }
-      alert(t('msg_api_key_valid')); 
-    } catch (e) { 
+
+      setModelList(fetched);
+      localStorage.setItem('geminiModelList', JSON.stringify(fetched));
+      localStorage.setItem('geminiApiKey', key);
+      setApiStatus('valid');
+
+      // 선택 모델 유효성 체크 및 최신 모델 자동 승계
+      const validIds = fetched.map(m => typeof m === 'string' ? m : m.id);
+      let targetModel = selectedGeminiModel;
+      
+      // 구형 1.0 모델이거나 지원되지 않는 모델일 경우 최신 추천 모델로 자동 교체
+      const isOutdated = !targetModel || !validIds.includes(targetModel) || targetModel.includes('1.0');
+      if (isOutdated) {
+        const bestModel = validIds.find(id => id.includes('2.5-flash') && !id.includes('lite')) ||
+                          validIds.find(id => id.includes('2.0-flash')) ||
+                          validIds.find(id => id.includes('1.5-flash')) ||
+                          validIds[0];
+        targetModel = bestModel;
+        setSelectedGeminiModel(targetModel);
+      }
+      localStorage.setItem('selectedGeminiModel', targetModel);
+
+      if (showSuccessAlert) {
+        alert(`✅ API 키가 저장되었습니다!\n구글에서 현재 실제로 사용 중인 최신 AI 모델 ${fetched.length}개를 성공적으로 불러왔습니다. ✨\n\n적용된 모델: ${targetModel}`);
+      }
+      return true;
+    } catch (e) {
       setApiStatus('invalid');
-      alert(t('msg_model_fetch_fail') + "\n\n" + e.message); 
+      alert(`❌ 최신 모델 불러오기 실패:\n${e.message || 'API 키가 유효하지 않거나 구글 서버와 통신할 수 없습니다.'}`);
+      return false;
+    } finally {
+      setLoadingModels(false);
     }
-    finally { setLoadingModels(false); }
   };
 
-  const saveApiKeys = () => {
-    localStorage.setItem('geminiApiKey', geminiKey);
-    localStorage.setItem('selectedGeminiModel', selectedGeminiModel);
-    alert(t('set_save_success'));
+  const handleFetchModels = () => syncModelsFromGoogle(geminiKey, true);
+
+  const saveApiKeys = async () => {
+    const cleanKey = (geminiKey || '').trim();
+    if (!cleanKey) {
+      localStorage.setItem('geminiApiKey', '');
+      localStorage.setItem('selectedGeminiModel', '');
+      setSelectedGeminiModel('');
+      setModelList([]);
+      localStorage.removeItem('geminiModelList');
+      setApiStatus('idle');
+      alert(t('set_save_success') || '설정이 저장되었습니다.');
+      return;
+    }
+
+    // 설정탭에서 API 키를 넣고 저장했을 때 항상 구글에서 최신 실사용 모델을 즉시 호출하여 리스트 동기화
+    await syncModelsFromGoogle(cleanKey, true);
   };
 
   const handleImportCSV = async (e) => {
@@ -298,7 +383,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.00 (1만 단어 오프라인 사전 탑재)
+                버전 정보: v20.01 (구글 최신 AI 모델 실시간 동기화)
             </span>
         </div>
       </header>
@@ -470,7 +555,7 @@ const Settings = () => {
                 >
                     {displayModels.map(m => (
                         <option key={m.id} value={m.id}>
-                            {getTranslation(`model_${m.t_key}_name`, m.name)}
+                            {getTranslation(`model_${m.t_key}_name`, m.name)} {m.shortDesc ? ` | ${m.shortDesc}` : ''}
                         </option>
                     ))}
                 </select>
@@ -491,32 +576,49 @@ const Settings = () => {
                         {t('model_label_selected') || 'SELECTED'}
                     </div>
                     
-                    <div style={{ fontWeight: '900', fontSize: '1.05rem', marginBottom: '6px', color: 'var(--nana-dark)' }}>
-                        {getTranslation(`model_${selectedModelInfo.t_key}_name`, selectedModelInfo.name)}
+                    <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px', flexWrap: 'wrap', marginBottom: '6px' }}>
+                        <div style={{ fontWeight: '900', fontSize: '1.05rem', color: 'var(--nana-dark)' }}>
+                            {getTranslation(`model_${selectedModelInfo.t_key}_name`, selectedModelInfo.name)}
+                        </div>
+                        <span style={{ fontSize: '0.75rem', color: '#64748b', fontFamily: 'monospace' }}>
+                            ({selectedModelInfo.id})
+                        </span>
                     </div>
                     
-                    <div style={{ display: 'flex', gap: '6px', marginBottom: '10px' }}>
+                    <div style={{ display: 'flex', gap: '6px', marginBottom: '10px', flexWrap: 'wrap' }}>
                         <span style={{ fontSize: '0.75rem', background: '#fff', border: '1px solid #e2e8f0', padding: '3px 8px', borderRadius: '6px', fontWeight: '800', color: '#475569' }}>
                             {t(`model_speed_${selectedModelInfo.speed_key}`) || selectedModelInfo.speed}
                         </span>
                         <span style={{ fontSize: '0.75rem', background: '#fff', border: '1px solid #e2e8f0', padding: '3px 8px', borderRadius: '6px', fontWeight: '800', color: '#475569' }}>
                             {t(`model_tokens_${selectedModelInfo.tokens_key}`) || selectedModelInfo.tokens}
                         </span>
+                        {selectedModelInfo.id.includes('2.5-flash') && !selectedModelInfo.id.includes('lite') && (
+                            <span style={{ fontSize: '0.75rem', background: '#fef3c7', border: '1px solid #fde68a', padding: '3px 8px', borderRadius: '6px', fontWeight: '900', color: '#b45309' }}>
+                                ⭐ 공식 추천
+                            </span>
+                        )}
                     </div>
                     
                     <div style={{ fontSize: '0.85rem', color: '#334155', lineHeight: '1.6', background: '#fff', padding: '0.9rem', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
                         <div style={{ marginBottom: '6px' }}>
                             <strong style={{ color: '#059669', marginRight: '4px' }}>
-                                {t('model_label_pros') || '장점'}:
+                                💡 {t('model_label_pros') || '핵심 특징'}:
                             </strong> 
                             {getTranslation(`model_${selectedModelInfo.t_key}_pros`, selectedModelInfo.pros)}
                         </div>
-                        <div>
-                            <strong style={{ color: '#e11d48', marginRight: '4px' }}>
-                                {t('model_label_cons') || '단점'}:
-                            </strong> 
-                            {getTranslation(`model_${selectedModelInfo.t_key}_cons`, selectedModelInfo.cons)}
-                        </div>
+                        {selectedModelInfo.cons && (
+                            <div style={{ marginBottom: selectedModelInfo.googleDescription ? '6px' : 0 }}>
+                                <strong style={{ color: '#e11d48', marginRight: '4px' }}>
+                                    ⚠️ {t('model_label_cons') || '주의점'}:
+                                </strong> 
+                                {getTranslation(`model_${selectedModelInfo.t_key}_cons`, selectedModelInfo.cons)}
+                            </div>
+                        )}
+                        {selectedModelInfo.googleDescription && selectedModelInfo.googleDescription !== selectedModelInfo.pros && (
+                            <div style={{ marginTop: '8px', paddingTop: '8px', borderTop: '1px dashed #e2e8f0', fontSize: '0.78rem', color: '#64748b' }}>
+                                <span style={{ fontWeight: '700', color: '#475569' }}>🌐 Google 공식 스펙:</span> {selectedModelInfo.googleDescription}
+                            </div>
+                        )}
                     </div>
                 </div>
             )}

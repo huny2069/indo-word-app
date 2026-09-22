@@ -130,131 +130,215 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-1.
 };
 
 /**
- * 인코 서비스에 최적화된 구글 공식 핵심 텍스트 언어 모델 리스트 (1.5 ~ 3.5 제품군 총망라)
- * 이미지 생성 모델(Imagen) 및 비전/임베딩 모델은 철저히 배제되었습니다.
+ * 인코 서비스에 최적화된 구글 공식 최신 AI 모델 라인업 (1.5 ~ 2.5 및 차세대 제품군)
+ * 구글에서 사용 중단된 구형 모델(1.0 Pro 등) 및 비텍스트/임베딩/이미지 모델은 철저히 배제되었습니다.
  */
 export const CURATED_MODELS = [
-    { 
-      id: 'gemini-3.5-pro', 
-      t_key: '3_5_pro',
-      name: 'Gemini 3.5 Pro (최첨단 추론)', 
-      speed: '🐢 느림', speed_key: 'slow',
-      tokens: '💎 매우 높음', tokens_key: 'very_high',
-      pros: '최상위 지능을 갖추어 복잡한 인도네시아어 문법 논리, 어근 분석 및 1타 강사 시크릿 노트 생성에 극강의 정확성을 발휘합니다.',
-      cons: 'Pro 모델 특성상 생성 지연 대기 시간이 다소 발생하며, 토큰당 API 소모 비용이 가장 높습니다.'
-    },
-    { 
-      id: 'gemini-3.5-flash', 
-      t_key: '3_5_flash',
-      name: 'Gemini 3.5 Flash (최신 고효율)', 
-      speed: '🚀 압도적 빠름', speed_key: 'very_fast',
-      tokens: '📉 매우 낮음', tokens_key: 'very_low',
-      pros: '100만 컨텍스트 및 사고 보존(Thinking Preservation)을 갖추어 멀티턴 대화의 추론을 자동 유지하며, 에이전트형 루프와 코딩 작업에서 최첨단 가성비를 제공합니다.',
-      cons: 'Pro 기종에 비해 고난도 논리 추론 연산 능력이 미세하게 제한적입니다.'
-    },
-    { 
-      id: 'gemini-3.1-pro-preview', 
-      t_key: '3_1_pro',
-      name: 'Gemini 3.1 Pro (최고 사양)', 
-      speed: '🐢 느림', speed_key: 'slow',
-      tokens: '💎 매우 높음', tokens_key: 'very_high',
-      pros: '대규모 추론 지능을 탑재하여 다국어 번역 시 원어민의 감정과 종결어미 상황별 차이를 정밀 조율하는 강점이 있습니다.',
-      cons: '3.5 Pro에 비해서는 최신 멀티턴 에이전트 처리 효율이 약간 낮습니다.'
-    },
-    { 
-      id: 'gemini-3.0-flash-preview', 
-      t_key: '3_0_flash',
-      name: 'Gemini 3.0 Flash (차세대 속도)', 
-      speed: '⚡ 매우 빠름', speed_key: 'very_fast',
-      tokens: '⚖️ 보통', tokens_key: 'normal',
-      pros: '빠른 응답성과 보편적인 다국어 번역 영역에서 높은 신뢰도를 갖춘 세대적 표준형 모델입니다.',
-      cons: '프리뷰 등급 버전으로 가끔 대답 일관성이 투박해질 수 있습니다.'
-    },
-    { 
-      id: 'gemini-3.1-flash-lite', 
-      t_key: '3_1_flash_lite',
-      name: 'Gemini 3.1 Flash-Lite (가성비)', 
-      speed: '🚀 압도적 빠름', speed_key: 'very_fast',
-      tokens: '📉 매우 낮음', tokens_key: 'very_low',
-      pros: '단순 언어 변환 및 대규모 단어 퀴즈 생성 시 최적의 반응 속도와 사실상 비용 제로에 가까운 효율성을 제공합니다.',
-      cons: '깊이 있는 핵심 어근 분해 및 유사어 뉘앙스 도출 시 설명 디테일이 생략되곤 합니다.'
-    },
-    { 
-      id: 'gemini-2.5-pro', 
-      t_key: '2_5_pro',
-      name: 'Gemini 2.5 Pro (안정적 고성능)', 
-      speed: '🏃 보통', speed_key: 'normal',
-      tokens: '📈 높음', tokens_key: 'high',
-      pros: '구조적으로 정형화된 JSON 배열을 출력하는 안전성이 장기 검증된 프로 사양 기종입니다.',
-      cons: '3.x 계열에 새롭게 수립된 추론 사고 수준(Thinking Level) 제어의 혜택을 받을 수 없습니다.'
-    },
-    { 
-      id: 'gemini-2.5-flash', 
-      t_key: '2_5_flash',
-      name: 'Gemini 2.5 Flash (표준 추천)', 
-      speed: '⚡ 빠름', speed_key: 'fast',
-      tokens: '📉 낮음', tokens_key: 'low',
-      pros: '인코 런타임에서 가장 널리 권장되는 속도와 지능의 표준 교과서적 텍스트 모델입니다.',
-      cons: '3.5 Flash에 탑재된 대규모 다단계 사고 보존 및 컨텍스트 한도가 적습니다.'
-    },
-    { 
-      id: 'gemini-2.5-flash-lite', 
-      t_key: '2_5_flash_lite',
-      name: 'Gemini 2.5 Flash-Lite', 
-      speed: '🚀 매우 빠름', speed_key: 'very_fast',
-      tokens: '📉 매우 낮음', tokens_key: 'very_low',
-      pros: '가장 쾌적하고 반응 속도가 발라 모바일 PWA 환경에서 가벼운 단어 퀴즈 풀이에 탁월합니다.',
-      cons: '장문의 한국어 격식/비격식체 예문 비교 요구 시 문법 파악이 단순해집니다.'
-    },
-    { 
-      id: 'gemini-1.5-pro', 
-      t_key: '1_5_pro',
-      name: 'Gemini 1.5 Pro (검증된 LTS)', 
-      speed: '🐢 느림', speed_key: 'slow',
-      tokens: '📈 높음', tokens_key: 'high',
-      pros: '구글이 제공하는 엔터프라이즈 장기 서비스(LTS) 등급으로 작동 신뢰성이 완전히 보증된 기종입니다.',
-      cons: '최신 3.x Flash에 비해 토큰 생성 비용이 비싸며 속도가 한 박자 더딥니다.'
-    },
-    { 
-      id: 'gemini-1.5-flash', 
-      t_key: '1_5_flash',
-      name: 'Gemini 1.5 Flash (속도형 LTS)', 
-      speed: '⚡ 빠름', speed_key: 'fast',
-      tokens: '📉 낮음', tokens_key: 'low',
-      pros: '일차원적인 기본 단어 생성과 뉘앙스가 필요 없는 단순 번역에 있어서 속도 효율이 준수합니다.',
-      cons: '도출하기 어려운 예문 속 단어/숙어 분해(Word Breakdown) 분석의 디테일이 생략되곤 합니다.'
-    }
+  { 
+    id: 'gemini-2.5-flash', 
+    t_key: '2_5_flash',
+    name: 'Gemini 2.5 Flash (최신 추천 표준)', 
+    shortDesc: '⚡ [추천] 초고속 최신 표준 모델',
+    speed: '⚡ 빠름', speed_key: 'fast',
+    tokens: '📉 낮음', tokens_key: 'low',
+    pros: '인코 단어장 서비스에서 가장 강력히 추천하는 최신 2.5 세대 표준 모델입니다. 매우 빠른 속도와 정확한 인도네시아어 품사/어근 분석 능력을 겸비했습니다.',
+    cons: '초고난도 심층 문법 논리 분석에서는 Pro 모델에 비해 간결한 답변을 산출할 수 있습니다.'
+  },
+  { 
+    id: 'gemini-2.5-pro', 
+    t_key: '2_5_pro',
+    name: 'Gemini 2.5 Pro (최상위 심층 추론)', 
+    shortDesc: '🧠 [최상위] 심층 추론 및 1타 강사 특화',
+    speed: '🐢 느림', speed_key: 'slow',
+    tokens: '💎 높음', tokens_key: 'high',
+    pros: '최고 수준의 지능과 추론 능력을 탑재하여 복잡한 어근 변형(Kata Dasar/Imbuhan), 1타 강사 화이트보드 강의 및 원어민 뉘앙스 분석에 극강의 정확성을 발휘합니다.',
+    cons: '연산량이 방대하여 생성 지연 시간이 다소 발생하며, 토큰당 API 소모 비용이 Flash 대비 높습니다.'
+  },
+  { 
+    id: 'gemini-2.5-flash-lite', 
+    t_key: '2_5_flash_lite',
+    name: 'Gemini 2.5 Flash-Lite (초고속 가성비)', 
+    shortDesc: '🚀 [가성비] 모바일 초고속 최저비용',
+    speed: '🚀 압도적 빠름', speed_key: 'very_fast',
+    tokens: '📉 매우 낮음', tokens_key: 'very_low',
+    pros: '가장 빠른 응답 속도와 최저 토큰 비용을 제공하여 모바일 PWA 환경에서 가벼운 단어 퀴즈 및 대량 단어 생성에 최적입니다.',
+    cons: '예문의 미세한 문화적 뉘앙스나 심화 문법 해설의 디테일이 일부 생략될 수 있습니다.'
+  },
+  { 
+    id: 'gemini-2.0-flash', 
+    t_key: '2_0_flash',
+    name: 'Gemini 2.0 Flash (안정적 2.0 세대)', 
+    shortDesc: '⚡ [검증] 안정적인 고속 2.0 세대',
+    speed: '⚡ 빠름', speed_key: 'fast',
+    tokens: '📉 낮음', tokens_key: 'low',
+    pros: '차세대 고속 생성 환경에서 실시간 응답 신뢰성이 철저히 검증된 고효율 표준 기종으로, 정형화된 JSON 배열을 매우 안정적으로 출력합니다.',
+    cons: '최신 2.5 세대에 비해 아주 미세한 어휘 뉘앙스 분류 정밀도가 소폭 낮을 수 있습니다.'
+  },
+  { 
+    id: 'gemini-2.0-flash-lite', 
+    t_key: '2_0_flash_lite',
+    name: 'Gemini 2.0 Flash-Lite (2.0 경량 고속)', 
+    shortDesc: '🚀 [경량] 2.0 세대 초경량 모델',
+    speed: '🚀 압도적 빠름', speed_key: 'very_fast',
+    tokens: '📉 매우 낮음', tokens_key: 'very_low',
+    pros: '가벼운 모바일 디바이스 환경에서 지연 없이 즉시 단어와 퀴즈를 생성할 수 있는 2.0 세대 고효율 모델입니다.',
+    cons: '장문의 한국어 격식/비격식체 예문 비교 요구 시 설명이 다소 단순화될 수 있습니다.'
+  },
+  { 
+    id: 'gemini-1.5-flash', 
+    t_key: '1_5_flash',
+    name: 'Gemini 1.5 Flash (검증된 LTS 플래시)', 
+    shortDesc: '⚡ [LTS] 장기 지원 안정형 속도 모델',
+    speed: '⚡ 빠름', speed_key: 'fast',
+    tokens: '📉 낮음', tokens_key: 'low',
+    pros: '구글이 장기 지원(LTS)을 보증하여 오랜 기간 호환성과 안정성이 입증된 기본 속도형 모델입니다.',
+    cons: '최신 2.x 세대에 비해 자연스러운 한국어 구어체 및 최신 유행어 번역 능력이 다소 떨어집니다.'
+  },
+  { 
+    id: 'gemini-1.5-pro', 
+    t_key: '1_5_pro',
+    name: 'Gemini 1.5 Pro (검증된 LTS 프로)', 
+    shortDesc: '🐢 [LTS] 장기 지원 엔터프라이즈 사양',
+    speed: '🐢 느림', speed_key: 'slow',
+    tokens: '📈 높음', tokens_key: 'high',
+    pros: '구글의 장기 서비스(LTS) 등급으로 대규모 컨텍스트를 다룰 때 데이터 누락 없이 완벽한 일관성을 보증합니다.',
+    cons: '최신 2.x 세대에 비해 생성 속도가 느리고 토큰 생성 비용이 비쌉니다.'
+  },
+  { 
+    id: 'gemini-1.5-flash-8b', 
+    t_key: '1_5_flash_8b',
+    name: 'Gemini 1.5 Flash-8B (초경량 초고속)', 
+    shortDesc: '🚀 [초경량] 대량 생성 최적화 8B 모델',
+    speed: '🚀 압도적 빠름', speed_key: 'very_fast',
+    tokens: '📉 매우 낮음', tokens_key: 'very_low',
+    pros: '80억(8B) 파라미터 기반으로 설계되어 리소스 소모가 거의 없고 극한의 응답 속도를 발휘합니다.',
+    cons: '복잡한 문법 예외 규칙이나 장문 해설 작성 시 설명 디테일이 생략되기 쉽습니다.'
+  }
 ];
 
 /**
- * Gemini API의 지원 가능한 모델 목록을 비동기로 불러오는 함수
+ * 모델 ID 기반 우선순위 점수 계산 (최신/추천 모델이 항상 상단에 위치)
+ */
+const getModelPriority = (modelId) => {
+  const id = modelId.toLowerCase();
+  if (id === 'gemini-2.5-flash') return 100;
+  if (id === 'gemini-2.5-pro') return 95;
+  if (id === 'gemini-2.5-flash-lite') return 90;
+  if (id === 'gemini-2.0-flash') return 85;
+  if (id === 'gemini-2.0-flash-lite') return 80;
+  if (id.includes('gemini-3.')) return 92; // 미래 3.x 세대 대응
+  if (id === 'gemini-1.5-flash') return 75;
+  if (id === 'gemini-1.5-pro') return 70;
+  if (id === 'gemini-1.5-flash-8b') return 65;
+  if (id.includes('2.5')) return 88;
+  if (id.includes('2.0')) return 78;
+  if (id.includes('1.5')) return 60;
+  return 50;
+};
+
+/**
+ * Google Gemini API에서 현재 실제로 사용 가능한 최신 모델 목록을 비동기로 불러오는 함수
+ * - 사용 불가능/지원 중단된 구형 모델(gemini-1.0 계열 등) 완전 제거
+ * - 텍스트 생성(generateContent)을 지원하지 않거나 이미지/임베딩 모델 철저히 배제
+ * - 최신 1.5, 2.0, 2.5 및 향후 3.x/4.x 모델만 선별하고 특징 메타데이터와 함께 반환
  */
 export const fetchGeminiModels = async (apiKey) => {
-  if (!apiKey) return [];
+  if (!apiKey || !apiKey.trim()) return [];
+  const cleanKey = apiKey.trim();
+
   try {
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
-    if (!response.ok) return [];
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`);
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err.error?.message || `구글 API 응답 에러 (${response.status})`);
+    }
     const data = await response.json();
-    
-    // 이미지 생성(imagen), 비전(vision), 임베딩(embedding)은 완벽히 제외한 순수 텍스트 생성용 모델 1.5 ~ 3.5 및 4.0 이상 기종만 필터링
-    const filtered = data.models.filter(m => 
-      m.supportedGenerationMethods.includes('generateContent') && 
-      !m.name.includes('vision') && 
-      !m.name.includes('embedding') &&
-      !m.name.includes('imagen') &&
-      (m.name.includes('gemini-3.5') || 
-       m.name.includes('gemini-3.1') || 
-       m.name.includes('gemini-3.0') || 
-       m.name.includes('gemini-2.5') ||
-       m.name.includes('gemini-1.5') ||
-       m.name.includes('gemini-4') ||
-       m.name.includes('gemini-2.0'))
-    );
-    return filtered.map(m => m.name.replace('models/', ''));
+    if (!data.models || !Array.isArray(data.models)) return [];
+
+    // 1. 순수 텍스트 생성 가능 및 사용 중단된 구형 모델 필터링
+    const filtered = data.models.filter(m => {
+      const id = (m.name || '').replace('models/', '').toLowerCase();
+
+      // generateContent 미지원 탈락
+      const supportsGen = Array.isArray(m.supportedGenerationMethods) && 
+                          m.supportedGenerationMethods.includes('generateContent');
+      if (!supportsGen) return false;
+
+      // 비텍스트 / 특수 목적 모델 제외
+      const blacklist = [
+        'vision', 'embedding', 'imagen', 'aqa', 'tts', 
+        'whisper', 'audio', 'veo', 'learnlm', 'computer-use', 
+        'bison', 'robotics'
+      ];
+      if (blacklist.some(term => id.includes(term))) return false;
+
+      // [핵심] 사용 불가능한 1.0 세대 및 레거시 모델 완전 삭제
+      if (id.startsWith('gemini-1.0') || id === 'gemini-pro' || id === 'gemini-ultra') {
+        return false;
+      }
+
+      // 최신 Gemini 세대 (1.5 이상, 2.0 이상, 2.5 이상, 3.x 등)
+      const isModern = id.startsWith('gemini-') && (
+        id.includes('1.5') || 
+        id.includes('2.0') || 
+        id.includes('2.5') || 
+        id.includes('3.') || 
+        id.includes('4.')
+      );
+
+      return isModern;
+    });
+
+    // 2. 모델 우선순위 정렬 (최신 추천 표준이 상단에 노출)
+    filtered.sort((a, b) => {
+      const idA = a.name.replace('models/', '');
+      const idB = b.name.replace('models/', '');
+      return getModelPriority(idB) - getModelPriority(idA);
+    });
+
+    // 3. 모델 ID 및 구글 제공 메타데이터(displayName, description) 추출 및 특징 정비
+    return filtered.map(m => {
+      const id = m.name.replace('models/', '');
+      const curated = CURATED_MODELS.find(c => c.id === id);
+
+      // 이미 큐레이션된 정보가 있으면 우선 활용
+      if (curated) {
+        return {
+          ...curated,
+          displayName: m.displayName || curated.name,
+          googleDescription: m.description || '',
+          inputTokenLimit: m.inputTokenLimit,
+          outputTokenLimit: m.outputTokenLimit
+        };
+      }
+
+      // 신규 등록된 최신 모델의 경우 동적으로 스마트 특징 구성
+      const isPro = id.includes('pro');
+      const isLite = id.includes('lite') || id.includes('8b');
+      const cleanName = m.displayName || id.split('-').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
+      const shortDesc = isPro ? '🧠 [고성능] 심층 추론 및 정밀 분석' : isLite ? '🚀 [가성비] 모바일 초고속 최저비용' : '⚡ [최신] 고속 표준 생성 모델';
+
+      return {
+        id,
+        t_key: id.replace(/[^a-zA-Z0-9]/g, '_'),
+        name: cleanName,
+        shortDesc,
+        displayName: m.displayName || cleanName,
+        googleDescription: m.description || '',
+        speed: isPro ? '🐢 느림' : isLite ? '🚀 매우 빠름' : '⚡ 빠름',
+        speed_key: isPro ? 'slow' : isLite ? 'very_fast' : 'fast',
+        tokens: isPro ? '💎 높음' : isLite ? '📉 매우 낮음' : '📉 낮음',
+        tokens_key: isPro ? 'high' : isLite ? 'very_low' : 'low',
+        pros: m.description || 'Google API를 통해 실시간 활성화되어 즉시 사용 가능한 공식 최신 모델입니다.',
+        cons: isPro ? '정밀한 연산으로 대기 시간이 약간 발생할 수 있습니다.' : isLite ? '심화 어근 해설 시 설명이 축약될 수 있습니다.' : '표준적인 속도와 성능을 제공합니다.',
+        inputTokenLimit: m.inputTokenLimit,
+        outputTokenLimit: m.outputTokenLimit
+      };
+    });
 
   } catch (error) {
     console.error("fetchGeminiModels Error:", error);
-    return [];
+    throw error;
   }
 };
 
