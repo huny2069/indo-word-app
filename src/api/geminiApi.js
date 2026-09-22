@@ -129,7 +129,7 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     }
 
     const textContent = data.candidates[0].content.parts[0].text;
-    let parsedData = JSON.parse(textContent.trim().replace(/```(?:json)?/g, '').replace(/```/g, '').trim());
+    let parsedData = safeParseJSON(textContent);
     if (Array.isArray(parsedData)) {
       return parsedData.map(item => normalizeAndEnrichWordBreakdown(item, studyLang));
     }
@@ -138,6 +138,82 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
   } catch (error) {
     console.error("Gemini API Error:", error);
     throw error;
+  }
+};
+
+/**
+ * LLM이 반환한 불완전하거나 결함 있는 JSON 문자열을 정밀 복구하여 안전하게 파싱하는 헬퍼
+ */
+export const safeParseJSON = (rawText) => {
+  if (!rawText) throw new Error("AI 응답이 비어 있습니다.");
+  
+  // 1. 마크다운 코드블록 제거 및 공백 정리
+  let clean = rawText.trim()
+    .replace(/```(?:json)?/gi, '')
+    .replace(/```/g, '')
+    .trim();
+
+  // 2. 가장 외곽의 { ... } 또는 [ ... ] 블록만 정밀 추출
+  const firstBrace = clean.indexOf('{');
+  const firstBracket = clean.indexOf('[');
+  let startIdx = -1;
+  let endIdx = -1;
+
+  if (firstBrace !== -1 && (firstBracket === -1 || firstBrace < firstBracket)) {
+    startIdx = firstBrace;
+    endIdx = clean.lastIndexOf('}');
+  } else if (firstBracket !== -1) {
+    startIdx = firstBracket;
+    endIdx = clean.lastIndexOf(']');
+  }
+
+  if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+    clean = clean.substring(startIdx, endIdx + 1);
+  }
+
+  // 1단계 시도: 표준 JSON.parse
+  try {
+    return JSON.parse(clean);
+  } catch (err1) {
+    // 2단계 시도: AI 모델 특유의 문법 결함 자동 치유 (Auto-Repair)
+    try {
+      let repaired = clean;
+
+      // (A) Trailing comma 제거 (, } 또는 , ])
+      repaired = repaired.replace(/,\s*([}\]])/g, '$1');
+
+      // (B) [핵심] 시작 큰따옴표 누락 복구: "meaning": 그, 그것", -> "meaning": "그, 그것",
+      repaired = repaired.replace(
+        /("[\w_-]+"\s*:\s*)([^\s"{}\[\],][^"{}\[\],]*)"([,\s\n\r}])/g,
+        (match, p1, p2, p3) => `${p1}"${p2.trim()}"${p3}`
+      );
+
+      // (C) 따옴표가 아예 없는 문자열 값 복구: "pos": 동사, -> "pos": "동사",
+      repaired = repaired.replace(
+        /("[\w_-]+"\s*:\s*)([가-힣a-zA-Z0-9_\-]+)([,\s\n\r}])/g,
+        (match, p1, p2, p3) => {
+          if (/^(true|false|null|\d+(\.\d+)?)$/.test(p2.trim())) {
+            return match;
+          }
+          return `${p1}"${p2.trim()}"${p3}`;
+        }
+      );
+
+      // (D) 값 내부의 이스케이프되지 않은 개행 정리
+      repaired = repaired.replace(/(:\s*"[^"]*)\n([^"]*")/g, '$1\\n$2');
+
+      return JSON.parse(repaired);
+    } catch (err2) {
+      console.warn("safeParseJSON 2차 복구 실패, 3차 완화 시도:", err2.message);
+      try {
+        // (E) 줄바꿈 및 탭 치환 완화
+        let relaxed = clean.replace(/\r?\n/g, ' ').replace(/\t/g, ' ');
+        return JSON.parse(relaxed);
+      } catch (err3) {
+        console.error("safeParseJSON 최종 실패 원본:", rawText);
+        throw new Error(`JSON 형식 오류: ${err1.message}`);
+      }
+    }
   }
 };
 
@@ -235,14 +311,16 @@ export const regenerateWordData = async (wordObj, apiKey, modelName = 'gemini-3.
     "hanja_info": "한자어인 경우 한자 및 각 글자의 의미 정보",`;
   }
 
+  const safeMeaning = (wordObj.meaning || '').replace(/"/g, "'").replace(/\r?\n/g, ' ');
+
   const promptText = `
   당신은 ${nativeLangName} 사용자를 대상으로 하는 ${targetLangName} 교육계의 **'1타 스타 강사'**입니다.
-  다음 주어진 단어 "${targetWord}" (기존 뜻 참고: "${wordObj.meaning || ''}")에 대해 모든 학습 데이터를 100% 완벽하고 올바르게 **재생성**해주세요.
+  다음 주어진 단어 "${targetWord}" (기존 뜻 참고: "${safeMeaning}")에 대해 모든 학습 데이터를 100% 완벽하고 올바르게 **재생성**해주세요.
   모든 설명과 번역은 반드시 **${nativeLangName}**로 작성하세요.
 
   [중요 규칙 및 엄격 지침]
   1. 반드시 유효한 단일 JSON 객체 형식으로만 응답하며, 마크다운 백틱(\`\`\`)을 일절 포함하지 마세요.
-  2. JSON 표준을 엄격히 준수하고 모든 키와 값은 큰따옴표(")를 사용하세요.
+  2. JSON 표준을 엄격히 준수하고 모든 키와 문자열 값은 반드시 시작과 끝에 큰따옴표(")를 정확하게 닫으세요. 시작 따옴표가 누락되면 안 됩니다!
   ${specificRules}
 
   [컬럼별 필수 작성 기준]
@@ -275,42 +353,54 @@ export const regenerateWordData = async (wordObj, apiKey, modelName = 'gemini-3.
   }
   `;
 
-  try {
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: promptText }] }],
-        generationConfig: { response_mime_type: "application/json" }
-      })
-    });
+  // 최대 2회 시도 (1차 실패 시 자동 재시도)
+  let lastError = null;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: promptText }] }],
+          generationConfig: { response_mime_type: "application/json" }
+        })
+      });
 
-    if (!response.ok) {
-      const errData = await response.json();
-      throw new Error(`재생성 실패: ${errData.error?.message || response.statusText}`);
+      if (!response.ok) {
+        const errData = await response.json();
+        throw new Error(`API 요청 실패 (${response.status}): ${errData.error?.message || response.statusText}`);
+      }
+
+      const data = await response.json();
+      const textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!textContent) throw new Error("AI 응답 내용이 비어 있습니다.");
+
+      let parsed = safeParseJSON(textContent);
+      if (Array.isArray(parsed)) parsed = parsed[0];
+
+      const normalized = normalizeAndEnrichWordBreakdown(parsed, studyLang);
+
+      // 기존 단어 객체의 ID 및 메타데이터 보존 후 병합
+      return {
+        ...wordObj,
+        ...normalized,
+        id: wordObj.id,
+        word: targetWord,
+        study_lang: studyLang,
+        user_lang: userLang,
+        updated_at: new Date().toISOString()
+      };
+    } catch (error) {
+      lastError = error;
+      console.warn(`[재생성] "${targetWord}" ${attempt}회차 시도 중 오류 발생, 재시도 대기:`, error.message);
+      if (attempt < 2) {
+        await new Promise(res => setTimeout(res, 800)); // 0.8초 대기 후 재시도
+      }
     }
-
-    const data = await response.json();
-    const textContent = data.candidates[0].content.parts[0].text;
-    let parsed = JSON.parse(textContent.trim().replace(/```(?:json)?/g, '').replace(/```/g, '').trim());
-    if (Array.isArray(parsed)) parsed = parsed[0];
-
-    const normalized = normalizeAndEnrichWordBreakdown(parsed, studyLang);
-
-    // 기존 단어 객체의 ID 및 메타데이터 보존 후 병합
-    return {
-      ...wordObj,
-      ...normalized,
-      id: wordObj.id,
-      word: targetWord,
-      study_lang: studyLang,
-      user_lang: userLang,
-      updated_at: new Date().toISOString()
-    };
-  } catch (error) {
-    console.error(`단어 재생성 에러 (${targetWord}):`, error);
-    throw error;
   }
+
+  console.error(`단어 재생성 최종 실패 (${targetWord}):`, lastError);
+  throw lastError;
 };
 
 /**

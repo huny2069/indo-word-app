@@ -469,7 +469,7 @@ const Settings = () => {
         }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
             <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.07 (1만단어 사전 전용 CSV 가져오기/내보내기 및 중복 자동 건너뛰기 완비)
+                버전 정보: v20.08 (AI 재생성 JSON 시작 따옴표 누락 자동 복구 파서 및 2단계 자동 재시도 탑재)
             </span>
         </div>
       </header>
