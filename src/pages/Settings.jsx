@@ -5,6 +5,7 @@ import { fetchGeminiModels, CURATED_MODELS } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { ALL_OFFLINE_WORDS } from '../data/offlineDatabase';
 import { OFFLINE_CATEGORIES } from '../data/categories';
+import { CURRENT_VERSION, CURRENT_VERSION_DATE, CURRENT_VERSION_SUMMARY, PATCH_NOTES } from '../data/versionHistory';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile, DICT_BACKUP_FILE } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
@@ -35,6 +36,7 @@ const Settings = () => {
   const [showTokenCost, setShowTokenCost] = useState(isTokenCostVisible());
   const [usageStats, setUsageStats] = useState(getTokenUsageStats());
   const [selectedDictCat, setSelectedDictCat] = useState('discourse'); // 기본값: 문장 연결 & 담화 표지
+  const [showPatchNotes, setShowPatchNotes] = useState(false);
 
   useEffect(() => {
     const handleStatsUpdate = (e) => {
@@ -635,20 +637,132 @@ const Settings = () => {
     <div className="page" style={{ maxWidth: '800px', margin: '0 auto' }}>
       <header style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <h2 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)', marginBottom: '0.6rem' }}>{t('set_title')}</h2>
-        <div style={{ 
-          display: 'inline-flex', 
-          alignItems: 'center', 
-          gap: '6px', 
-          padding: '6px 14px', 
-          borderRadius: '20px', 
-          background: 'linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%)', 
-          border: '1px solid #cbd5e1',
-          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.8), 0 2px 4px rgba(0,0,0,0.03)'
-        }}>
-            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
-            <span style={{ fontSize: '0.75rem', color: '#475569', fontWeight: '900', letterSpacing: '0.5px' }}>
-                버전 정보: v20.15 (1만단어장 '문장 연결 & 담화 표지' 등 카테고리별 선택 백업 & 구글 클라우드 동기화 탑재)
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.6rem' }}>
+          <div style={{ 
+            display: 'inline-flex', 
+            alignItems: 'center', 
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            gap: '8px', 
+            padding: '8px 16px', 
+            borderRadius: '24px', 
+            background: 'linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%)', 
+            border: '1.5px solid #cbd5e1',
+            boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.8), 0 2px 6px rgba(0,0,0,0.04)'
+          }}>
+            <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 6px #10b981' }}></span>
+            <span style={{ fontSize: '0.8rem', color: '#1e293b', fontWeight: '900', letterSpacing: '0.3px' }}>
+              버전 정보: <span style={{ color: '#2563eb' }}>{CURRENT_VERSION}</span> <span style={{ color: '#64748b', fontWeight: '700' }}>({CURRENT_VERSION_DATE})</span> — {CURRENT_VERSION_SUMMARY}
             </span>
+            <button
+              onClick={() => setShowPatchNotes(prev => !prev)}
+              style={{
+                background: showPatchNotes ? '#1e293b' : '#2563eb',
+                color: '#fff',
+                border: 'none',
+                padding: '4px 12px',
+                borderRadius: '14px',
+                fontSize: '0.75rem',
+                fontWeight: '800',
+                cursor: 'pointer',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '4px',
+                transition: 'all 0.2s ease',
+                boxShadow: '0 2px 4px rgba(37, 99, 235, 0.2)'
+              }}
+            >
+              📋 패치 내역 {showPatchNotes ? '닫기 ▲' : '보기 ▼'}
+            </button>
+          </div>
+
+          {showPatchNotes && (
+            <div style={{
+              width: '100%',
+              marginTop: '0.6rem',
+              background: '#ffffff',
+              border: '2px solid #cbd5e1',
+              borderRadius: '24px',
+              padding: '1.5rem',
+              textAlign: 'left',
+              boxShadow: '0 10px 25px rgba(0,0,0,0.06)'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.2rem', borderBottom: '2px solid #f1f5f9', paddingBottom: '0.8rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ fontSize: '1.3rem' }}>🚀</span>
+                  <div>
+                    <h3 style={{ margin: 0, fontSize: '1.1rem', fontWeight: '900', color: '#1e293b' }}>
+                      업데이트 및 패치 내역 (Release Notes)
+                    </h3>
+                    <p style={{ margin: '2px 0 0', fontSize: '0.78rem', color: '#64748b', fontWeight: '600' }}>
+                      GitHub 배포 시마다 버전 숫자와 상세 수정 내역이 자동으로 기록됩니다.
+                    </p>
+                  </div>
+                </div>
+                <span style={{ background: '#dcfce7', color: '#15803d', fontWeight: '900', fontSize: '0.75rem', padding: '4px 10px', borderRadius: '12px' }}>
+                  현재 최신: {CURRENT_VERSION}
+                </span>
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxHeight: '420px', overflowY: 'auto', paddingRight: '4px' }}>
+                {PATCH_NOTES.map((note, idx) => {
+                  const isLatest = idx === 0;
+                  return (
+                    <div
+                      key={note.version}
+                      style={{
+                        background: isLatest ? 'linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%)' : '#f8fafc',
+                        border: isLatest ? '2px solid #93c5fd' : '1px solid #e2e8f0',
+                        borderRadius: '18px',
+                        padding: '1.1rem 1.2rem'
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '6px', marginBottom: '0.5rem' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                          <span style={{
+                            background: isLatest ? '#2563eb' : '#64748b',
+                            color: '#fff',
+                            padding: '3px 10px',
+                            borderRadius: '10px',
+                            fontSize: '0.78rem',
+                            fontWeight: '900'
+                          }}>
+                            {note.version}
+                          </span>
+                          {isLatest && (
+                            <span style={{
+                              background: '#ef4444',
+                              color: '#fff',
+                              padding: '2px 8px',
+                              borderRadius: '8px',
+                              fontSize: '0.68rem',
+                              fontWeight: '900'
+                            }}>
+                              NEW
+                            </span>
+                          )}
+                          <span style={{ fontWeight: '900', fontSize: '0.95rem', color: '#1e293b' }}>
+                            {note.title}
+                          </span>
+                        </div>
+                        <span style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
+                          📅 {note.date}
+                        </span>
+                      </div>
+
+                      <ul style={{ margin: '0.5rem 0 0', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                        {note.highlights.map((item, i) => (
+                          <li key={i} style={{ fontSize: '0.84rem', color: '#334155', lineHeight: '1.5', fontWeight: '600' }}>
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
       </header>
 
