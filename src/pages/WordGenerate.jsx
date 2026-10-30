@@ -29,8 +29,12 @@ const WordGenerate = () => {
   const { user } = useAuth();
   const navigate = useNavigate();
 
-  const langNames = { ko: '한국어', id: '인도네시아어', en: '영어' };
-  const targetLangName = langNames[studyLang] || '대상 언어';
+  const langNames = {
+    ko: userLang === 'id' ? 'Bahasa Korea' : userLang === 'en' ? 'Korean' : '한국어',
+    id: userLang === 'id' ? 'Bahasa Indonesia' : userLang === 'en' ? 'Indonesian' : '인도네시아어',
+    en: userLang === 'id' ? 'Bahasa Inggris' : userLang === 'en' ? 'English' : '영어'
+  };
+  const targetLangName = langNames[studyLang] || 'Bahasa Indonesia';
 
   // 생성 모드 ('ai', 'manual')
   const [genMode, setGenMode] = useState('ai');
@@ -412,11 +416,11 @@ const WordGenerate = () => {
         <div>
           <h2 style={{ margin: 0, color: 'var(--nana-dark)', fontWeight: '900', fontSize: '1.8rem' }}>{t('gen_title')}</h2>
           <p style={{ margin: '0.3rem 0 0', color: '#666', fontSize: '0.9rem' }}>
-            {genMode === 'ai' ? '🌐 Gemini AI를 통한 자유 주제 맞춤 단어 생성' : '✍️ 나만의 커스텀 단어 직접 등록'}
+            {genMode === 'ai' ? t('gen_subtitle_ai') : t('gen_subtitle_manual')}
           </p>
         </div>
 
-        <div style={{ display: 'flex', background: '#f1f3f5', padding: '0.35rem', borderRadius: '35px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.04)', gap: '4px' }}>
+        <div style={{ display: 'flex', background: '#f1f3f5', padding: '0.35rem', borderRadius: '35px', boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.04)', gap: '4px', flexWrap: 'wrap' }}>
           <button 
             onClick={() => navigate('/dictionary')}
             style={{ 
@@ -425,7 +429,7 @@ const WordGenerate = () => {
               background: '#fff', color: 'var(--primary-color)',
               boxShadow: '0 2px 6px rgba(0,0,0,0.06)'
             }}>
-            <Database size={16} /> 1만단어 사전 바로가기 <ArrowRight size={14} />
+            <Database size={16} /> {t('gen_goto_dict')} <ArrowRight size={14} />
           </button>
           <button 
             onClick={() => setGenMode('ai')}
@@ -435,7 +439,7 @@ const WordGenerate = () => {
               background: genMode === 'ai' ? 'var(--primary-color)' : 'transparent', color: genMode === 'ai' ? '#fff' : '#666',
               boxShadow: genMode === 'ai' ? '0 4px 10px rgba(246, 185, 59, 0.4)' : 'none'
             }}>
-            <Sparkles size={16} /> AI 자동생성
+            <Sparkles size={16} /> {t('gen_ai_mode')}
           </button>
           <button 
             onClick={() => setGenMode('manual')}
@@ -445,7 +449,7 @@ const WordGenerate = () => {
               background: genMode === 'manual' ? 'var(--primary-color)' : 'transparent', color: genMode === 'manual' ? '#fff' : '#666',
               boxShadow: genMode === 'manual' ? '0 4px 10px rgba(246, 185, 59, 0.4)' : 'none'
             }}>
-            <Plus size={16} /> 수동입력
+            <Plus size={16} /> {t('gen_manual_mode')}
           </button>
         </div>
       </div>
@@ -469,16 +473,16 @@ const WordGenerate = () => {
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#feca57', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
+          <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#feca57', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', flexShrink: 0 }}>
             <Database size={24} />
           </div>
           <div>
-            <div style={{ fontWeight: '900', color: 'var(--nana-dark)', fontSize: '1.05rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
-              📖 1만 단어 사전이 독립 메뉴로 분리되었습니다!
-              <span style={{ fontSize: '0.75rem', background: '#6c5ce7', color: '#fff', padding: '2px 8px', borderRadius: '10px', fontWeight: '800' }}>AI 재생성 지원</span>
+            <div style={{ fontWeight: '900', color: 'var(--nana-dark)', fontSize: '1.05rem', display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+              {t('gen_banner_title')}
+              <span style={{ fontSize: '0.75rem', background: '#6c5ce7', color: '#fff', padding: '2px 8px', borderRadius: '10px', fontWeight: '800' }}>{t('gen_banner_badge')}</span>
             </div>
             <div style={{ color: '#666', fontSize: '0.85rem', marginTop: '3px' }}>
-              체계적인 카테고리/소분류 열람과 실시간 검색은 물론, 잘못된 단어를 최신 AI 규칙으로 즉시 올바르게 다시 생성할 수 있습니다.
+              {t('gen_banner_desc')}
             </div>
           </div>
         </div>
@@ -491,7 +495,7 @@ const WordGenerate = () => {
             boxShadow: '0 3px 0 #e67e22'
           }}
         >
-          사전 열기 <ArrowRight size={14} />
+          {t('gen_banner_btn')} <ArrowRight size={14} />
         </button>
       </div>
 
@@ -929,23 +933,23 @@ const WordGenerate = () => {
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '1rem' }}>
                     <div>
-                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>🏷️ 주제 (카테고리)</label>
-                        <input type="text" placeholder="예: 일상 회화, 비즈니스, 여행, 음식 등" value={manualWord.topic} onChange={e => setManualWord({...manualWord, topic: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px' }} />
+                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>{t('gen_manual_topic')}</label>
+                        <input type="text" placeholder={t('gen_manual_ph_topic')} value={manualWord.topic} onChange={e => setManualWord({...manualWord, topic: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px' }} />
                     </div>
                     <div>
-                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>📚 문법 (품사 구분)</label>
+                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>{t('gen_manual_pos')}</label>
                         <select value={manualWord.pos} onChange={e => setManualWord({...manualWord, pos: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px', background: '#fff', fontWeight: '700' }}>
-                            <option value="명사">명사 (Kata Benda)</option>
-                            <option value="동사">동사 (Kata Kerja)</option>
-                            <option value="형용사">형용사 (Kata Sifat)</option>
-                            <option value="부사">부사 (Kata Keterangan)</option>
-                            <option value="대명사">대명사 (Kata Ganti)</option>
-                            <option value="전치사">전치사 (Kata Depan)</option>
-                            <option value="접속사">접속사 (Kata Hubung)</option>
-                            <option value="수사">수사 (Kata Bilangan)</option>
-                            <option value="감탄사">감탄사 (Kata Seru)</option>
-                            <option value="한정사">한정사/관형사</option>
-                            <option value="기타">기타</option>
+                            <option value="명사">{t('pos_noun')} (Kata Benda)</option>
+                            <option value="동사">{t('pos_verb')} (Kata Kerja)</option>
+                            <option value="형용사">{t('pos_adj')} (Kata Sifat)</option>
+                            <option value="부사">{t('pos_adv')} (Kata Keterangan)</option>
+                            <option value="대명사">{t('pos_pron')} (Kata Ganti)</option>
+                            <option value="전치사">{t('pos_prep')} (Kata Depan)</option>
+                            <option value="접속사">{t('pos_conj')} (Kata Hubung)</option>
+                            <option value="수사">{t('pos_num')} (Kata Bilangan)</option>
+                            <option value="감탄사">{t('pos_interj')} (Kata Seru)</option>
+                            <option value="한정사">{t('pos_det')}</option>
+                            <option value="기타">{t('pos_etc')}</option>
                         </select>
                     </div>
                 </div>
@@ -1024,7 +1028,7 @@ const WordGenerate = () => {
           )}
 
           <h3 style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1.4rem' }}>
-            <span style={{ fontSize: '1.6rem' }}>🎉</span> 방금 단어장에 담긴 단어 ({generatedWords.length}개)
+            <span style={{ fontSize: '1.6rem' }}>🎉</span> {t('gen_newly_added_title', { count: generatedWords.length })}
           </h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             {generatedWords.map(w => (
@@ -1045,21 +1049,21 @@ const WordGenerate = () => {
                     {/* 스타 강사의 시크릿 노트 */}
                     <div style={{ background: '#fdfbf7', padding: '1.4rem', borderRadius: '20px', border: '2px solid #feca57', display: 'flex', flexDirection: 'column', gap: '0.7rem', fontSize: '0.9rem' }}>
                         <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', background: '#feca57', color: '#fff', padding: '3px 10px', borderRadius: '12px', fontSize: '0.75rem', fontWeight: '900', alignSelf: 'flex-start', marginBottom: '4px' }}>
-                          🔥 스타 강사의 시크릿 노트
+                          {t('list_teacher_secret_note')}
                         </div>
-                        {w.root && <div><b style={{ color: '#27ae60' }}>어근:</b> {w.root}</div>}
-                        {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>문법:</b> {w.grammar_rule}</div>}
-                        {w.synonym && <div><b style={{ color: '#00b894' }}>동의어:</b> {w.synonym}</div>}
-                        {w.antonym && <div><b style={{ color: '#d63031' }}>반의어:</b> {w.antonym}</div>}
-                        {w.context && <div><b style={{ color: '#2980b9' }}>상황:</b> {w.context}</div>}
+                        {w.root && <div><b style={{ color: '#27ae60' }}>{t('label_root')}:</b> {w.root}</div>}
+                        {w.grammar_rule && <div><b style={{ color: '#c0392b' }}>{t('label_grammar')}:</b> {w.grammar_rule}</div>}
+                        {w.synonym && <div><b style={{ color: '#00b894' }}>{t('label_synonym')}:</b> {w.synonym}</div>}
+                        {w.antonym && <div><b style={{ color: '#d63031' }}>{t('label_antonym')}:</b> {w.antonym}</div>}
+                        {w.context && <div><b style={{ color: '#2980b9' }}>{t('label_context')}:</b> {w.context}</div>}
                         {w.caution && (
                           <div style={{ background: '#fff5f5', padding: '0.8rem', borderRadius: '12px', borderLeft: '4px solid #ff7675' }}>
-                            <b style={{ color: '#d63031' }}>주의 (학습 주의):</b> {w.caution}
+                            <b style={{ color: '#d63031' }}>{t('label_caution')} ({t('label_note_attention')}):</b> {w.caution}
                           </div>
                         )}
                         {w.related && (
                           <div style={{ background: '#f0faff', padding: '0.8rem', borderRadius: '12px', borderLeft: '4px solid #4facfe' }}>
-                            <b style={{ color: '#0984e3' }}>💡 강사 비법 (공부 팁):</b> {w.related}
+                            <b style={{ color: '#0984e3' }}>{t('list_teacher_tip')}</b> {w.related}
                           </div>
                         )}
                     </div>

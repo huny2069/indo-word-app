@@ -738,13 +738,13 @@ const WordList = () => {
                    )}
                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: '#f8f9fa', padding: '0.5rem 1rem', borderRadius: '20px', border: '1.5px solid #eee' }}>
                      <span style={{ fontWeight: '900', fontSize: '1rem', color: 'var(--nana-dark)' }}>
-                       {viewMode === 'folder' && `📅 생성일: ${selectedDate}`}
-                       {viewMode === 'topic' && `🏷️ 주제: ${selectedTopic}`}
-                       {viewMode === 'pos' && `📚 문법(품사): ${selectedPos}`}
-                       {viewMode === 'list' && `📋 전체 단어`}
+                       {viewMode === 'folder' && t('list_bc_date', { value: selectedDate })}
+                       {viewMode === 'topic' && t('list_bc_topic', { value: selectedTopic })}
+                       {viewMode === 'pos' && t('list_bc_pos', { value: selectedPos })}
+                       {viewMode === 'list' && t('list_bc_all')}
                      </span>
                      <span style={{ fontSize: '0.8rem', background: 'var(--primary-color)', color: '#fff', padding: '2px 8px', borderRadius: '12px', fontWeight: '800' }}>
-                       {displayedWords.length}개
+                       {t('list_count_badge', { count: displayedWords.length })}
                      </span>
                    </div>
                  </div>
@@ -997,11 +997,10 @@ const WordList = () => {
             </div>
 
             <h3 style={{ margin: '0 0 0.5rem', fontWeight: '900', fontSize: '1.35rem', color: '#2d3436' }}>
-              AI 단어 정밀 재생성 중...
+              {t('regen_modal_title')}
             </h3>
             <p style={{ margin: '0 0 1.5rem', color: '#636e72', fontWeight: '700', fontSize: '0.95rem' }}>
-              인도네시아어 어근, 접사 문법 원리, 동/반의어 및<br/>
-              예문 단어별 전수 분석(인터랙션)을 엄격히 생성 중입니다.
+              {t('regen_modal_desc')}
             </p>
 
             <div style={{ 
@@ -1009,7 +1008,7 @@ const WordList = () => {
               marginBottom: '1.2rem', border: '1.5px solid #edf2f7' 
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem', fontWeight: '800', fontSize: '0.9rem', color: '#4a5568' }}>
-                <span>진행 상황</span>
+                <span>{t('regen_modal_progress')}</span>
                 <span style={{ color: '#6c5ce7' }}>{regenStatus.current} / {regenStatus.total}</span>
               </div>
               <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '8px', overflow: 'hidden' }}>
@@ -1022,13 +1021,13 @@ const WordList = () => {
               </div>
               {regenStatus.currentWord && (
                 <div style={{ marginTop: '0.8rem', fontWeight: '900', color: '#2d3436', fontSize: '1.05rem' }}>
-                  현재 단어: <span style={{ color: '#6c5ce7' }}>{regenStatus.currentWord}</span>
+                  {t('regen_modal_current')} <span style={{ color: '#6c5ce7' }}>{regenStatus.currentWord}</span>
                 </div>
               )}
             </div>
 
             <p style={{ margin: 0, fontSize: '0.8rem', color: '#a0aec0', fontWeight: '600' }}>
-              완료될 때까지 잠시만 창을 유지해 주세요.
+              {t('regen_modal_wait')}
             </p>
           </div>
         </div>

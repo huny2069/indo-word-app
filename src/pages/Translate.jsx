@@ -223,7 +223,7 @@ const Translate = () => {
                             </button>
                         </div>
                         <span style={{ fontSize: '0.75rem', color: '#ccc', fontWeight: '700', letterSpacing: '0.5px' }}>
-                            Ctrl + Enter로 고속 번역 | {sourceText.length} / 500
+                            {t('trans_shortcut_hint')} | {sourceText.length} / 500
                         </span>
                     </div>
                 </div>

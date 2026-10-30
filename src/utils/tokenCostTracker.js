@@ -1,9 +1,6 @@
 /**
- * [v20.12] AI 모델별 토큰 및 비용 계산기 (KRW ₩, IDR Rp 환산 유틸리티)
- * - 각 Gemini 모델별 고유 단가(입력/출력 1M 토큰당 가격) 정밀 적용
- * - Google Cloud TTS 프리미엄(글자당 단가) 및 기본 브라우저 TTS(무료) 계산
- * - 작업별(단어생성, 재생성, 스타강사특강, TTS) 예상치 & 실제 결과치 계산
- * - 사용자 온/오프(On/Off) 토글 설정 연동
+ * [v20.17] AI 모델별 토큰 및 비용 계산기 (KRW ₩, IDR Rp, USD $ 다국어 완벽 지원 유틸리티)
+ * - 한국어(ko), 인도네시아어(id), 영어(en) UI 언어 자동 감지 및 번역 제공
  */
 
 export const EXCHANGE_RATES = {
@@ -11,7 +8,15 @@ export const EXCHANGE_RATES = {
   IDR: 16000   // 1 USD = 16,000 IDR
 };
 
-// 1백만(1M) 토큰당 구글 공식 문서(https://ai.google.dev/gemini-api/docs/pricing) Standard USD ($) 단가표
+const getCurrentUserLang = () => {
+  try {
+    return localStorage.getItem('userLang') || 'ko';
+  } catch {
+    return 'ko';
+  }
+};
+
+// 1백만(1M) 토큰당 구글 공식 문서 Standard USD ($) 단가표
 export const MODEL_PRICING = {
   'gemini-3.8-flash':      { input: 0.75,  output: 3.75, name: 'Gemini 3.8 Flash' },
   'gemini-3.7-flash':      { input: 0.75,  output: 3.75, name: 'Gemini 3.7 Flash' },
@@ -28,7 +33,6 @@ export const MODEL_PRICING = {
   'gemini-2.0-flash-lite': { input: 0.075, output: 0.30, name: 'Gemini 2.0 Flash-Lite' }
 };
 
-// 모델 ID 매칭 헬퍼
 export const getModelRates = (modelId) => {
   if (!modelId) return MODEL_PRICING['gemini-3.8-flash'];
   const lower = modelId.toLowerCase().replace('models/', '');
@@ -42,12 +46,13 @@ export const getModelRates = (modelId) => {
   return { ...MODEL_PRICING['gemini-3.8-flash'], modelId: 'gemini-3.8-flash' };
 };
 
-// 화폐 포맷 헬퍼 (USD -> KRW ₩, IDR Rp)
+// 화폐 포맷 헬퍼 (USD -> KRW ₩, IDR Rp) - 다국어 지원
 export const formatCost = (usd) => {
+  const lang = getCurrentUserLang();
   if (usd === 0) {
     return {
       usdText: '$0.00',
-      krwText: '0원',
+      krwText: lang === 'ko' ? '0원' : '₩0',
       idrText: '0 Rp',
       rawUsd: 0,
       rawKrw: 0,
@@ -58,23 +63,26 @@ export const formatCost = (usd) => {
   const krw = usd * EXCHANGE_RATES.KRW;
   const idr = usd * EXCHANGE_RATES.IDR;
 
+  const krwText = lang === 'ko'
+    ? (krw < 0.01 ? '약 0.01원 미만' : krw < 1 ? `약 ${krw.toFixed(2)}원` : `약 ${krw.toFixed(1)}원`)
+    : (krw < 0.01 ? '< ₩0.01' : krw < 1 ? `~₩${krw.toFixed(2)}` : `~₩${krw.toFixed(1)}`);
+
+  const idrText = lang === 'ko'
+    ? (idr < 0.1 ? '약 0.1 Rp 미만' : idr < 10 ? `약 ${idr.toFixed(1)} Rp` : `약 ${Math.round(idr).toLocaleString()} Rp`)
+    : (idr < 0.1 ? '< 0.1 Rp' : idr < 10 ? `~${idr.toFixed(1)} Rp` : `~${Math.round(idr).toLocaleString()} Rp`);
+
   return {
     usdText: `$${usd < 0.0001 ? usd.toFixed(6) : usd.toFixed(4)}`,
-    krwText: krw < 0.01 ? '약 0.01원 미만' : krw < 1 ? `약 ${krw.toFixed(2)}원` : `약 ${krw.toFixed(1)}원`,
-    idrText: idr < 0.1 ? '약 0.1 Rp 미만' : idr < 10 ? `약 ${idr.toFixed(1)} Rp` : `약 ${Math.round(idr).toLocaleString()} Rp`,
+    krwText,
+    idrText,
     rawUsd: usd,
     rawKrw: krw,
     rawIdr: idr
   };
 };
 
-/**
- * 1. 작업별 예상 토큰 및 비용 계산기 (사전 견적)
- * @param {'generate' | 'regenerate' | 'lecture' | 'tts_word' | 'tts_lecture'} actionType 
- * @param {string} modelId 
- * @param {Object} options { count: 단어수, ttsEngine: 'google' | 'browser' }
- */
 export const getEstimatedTokensAndCost = (actionType, modelId, options = {}) => {
+  const lang = getCurrentUserLang();
   const rates = getModelRates(modelId);
   const count = options.count || 1;
   const ttsEngine = options.ttsEngine || localStorage.getItem('tts_engine') || 'google';
@@ -85,51 +93,42 @@ export const getEstimatedTokensAndCost = (actionType, modelId, options = {}) => 
   let usdCost = 0;
   let title = '';
 
+  const engineLabel = ttsEngine === 'google'
+    ? 'Google HD'
+    : (lang === 'id' ? 'TTS Dasar' : lang === 'en' ? 'Basic TTS' : '기본 TTS');
+
   switch (actionType) {
     case 'generate':
-      // 단어 생성: 기본 시스템 프롬프트 약 1,200 토큰 + 단어당 약 550 토큰 출력
       inputTokens = 1200;
       outputTokens = count * 550;
       usdCost = (inputTokens / 1000000) * rates.input + (outputTokens / 1000000) * rates.output;
-      title = `단어 ${count}개 생성`;
+      title = lang === 'id' ? `Buat ${count} Kata` : lang === 'en' ? `Generate ${count} Words` : `단어 ${count}개 생성`;
       break;
 
     case 'regenerate':
-      // 단어 정밀 재생성: 단어 1개 기준 입력 약 1,100 토큰 + 출력 약 500 토큰
       inputTokens = 1100 * count;
       outputTokens = 500 * count;
       usdCost = (inputTokens / 1000000) * rates.input + (outputTokens / 1000000) * rates.output;
-      title = `단어 ${count}개 재생성`;
+      title = lang === 'id' ? `Regenerasi ${count} Kata` : lang === 'en' ? `Regenerate ${count} Words` : `단어 ${count}개 재생성`;
       break;
 
     case 'lecture':
-      // 스타강사 특강 1편(7개 슬라이드): 입력 약 650 토큰 + 출력 약 950 토큰
       inputTokens = 650 * count;
       outputTokens = 950 * count;
       usdCost = (inputTokens / 1000000) * rates.input + (outputTokens / 1000000) * rates.output;
-      title = `특강 ${count}편 대본 생성`;
+      title = lang === 'id' ? `Naskah Kuliah AI (${count})` : lang === 'en' ? `AI Lecture Script (${count})` : `특강 ${count}편 대본 생성`;
       break;
 
     case 'tts_word':
-      // 단어 1개 음성 재생: 평균 20자
       textChars = 20 * count;
-      if (ttsEngine === 'google') {
-        usdCost = (textChars / 1000000) * 16.00; // $16 / 1M chars
-      } else {
-        usdCost = 0; // 브라우저 TTS 무료
-      }
-      title = `단어 ${count}개 음성 청취 (${ttsEngine === 'google' ? 'Google HD' : '기본 TTS'})`;
+      usdCost = ttsEngine === 'google' ? (textChars / 1000000) * 16.00 : 0;
+      title = lang === 'id' ? `Suara ${count} Kata (${engineLabel})` : lang === 'en' ? `Audio for ${count} Words (${engineLabel})` : `단어 ${count}개 음성 청취 (${engineLabel})`;
       break;
 
     case 'tts_lecture':
-      // 특강 1편 전체 음성 완강 (7개 슬라이드 합산 약 800자)
       textChars = 800 * count;
-      if (ttsEngine === 'google') {
-        usdCost = (textChars / 1000000) * 16.00;
-      } else {
-        usdCost = 0;
-      }
-      title = `특강 ${count}편 음성 완강 (${ttsEngine === 'google' ? 'Google HD' : '기본 TTS'})`;
+      usdCost = ttsEngine === 'google' ? (textChars / 1000000) * 16.00 : 0;
+      title = lang === 'id' ? `Suara Kuliah AI (${engineLabel})` : lang === 'en' ? `Full Lecture Audio (${engineLabel})` : `특강 ${count}편 음성 완강 (${engineLabel})`;
       break;
 
     default:
@@ -151,11 +150,6 @@ export const getEstimatedTokensAndCost = (actionType, modelId, options = {}) => 
   };
 };
 
-/**
- * 2. 실제 API 응답 결과값(usageMetadata) 기반 정밀 계산기
- * @param {Object} usageMetadata { promptTokenCount, candidatesTokenCount, totalTokenCount }
- * @param {string} modelId 
- */
 export const calculateActualTokenCost = (usageMetadata, modelId) => {
   if (!usageMetadata) return null;
 
@@ -182,35 +176,24 @@ export const calculateActualTokenCost = (usageMetadata, modelId) => {
   };
 };
 
-/**
- * 3. 실제 TTS 음성 출력 글자 수 기반 비용 계산기
- * @param {number} charCount 합성된 문자 수
- * @param {'google' | 'browser' | 'gemini'} ttsEngine 
- */
 export const calculateActualTtsCost = (charCount, ttsEngine = 'google') => {
-  let totalUsd = 0;
-
-  if (ttsEngine === 'google') {
-    // 100만 글자당 $16
-    totalUsd = (charCount / 1000000) * 16.00;
-  } else {
-    totalUsd = 0;
-  }
-
+  const lang = getCurrentUserLang();
+  const totalUsd = ttsEngine === 'google' ? (charCount / 1000000) * 16.00 : 0;
   const formatted = formatCost(totalUsd);
+
+  const freeTierNotice = ttsEngine === 'google'
+    ? (lang === 'id' ? 'Gratis 1 juta karakter pertama/bulan' : lang === 'en' ? 'First 1M chars/month free tier' : '매월 최초 100만 글자 무료 제공 대상')
+    : (lang === 'id' ? 'Mesin browser 100% gratis' : lang === 'en' ? 'Browser engine 100% free' : '브라우저 기본 엔진 100% 무료');
 
   return {
     ttsEngine,
     charCount,
     isFree: ttsEngine === 'browser',
-    freeTierNotice: ttsEngine === 'google' ? '매월 최초 100만 글자 무료 제공 대상' : '브라우저 기본 엔진 100% 무료',
+    freeTierNotice,
     ...formatted
   };
 };
 
-/**
- * 4. 토큰 및 비용 표시 켜기/끄기 설정 헬퍼
- */
 export const isTokenCostVisible = () => {
   return localStorage.getItem('show_token_cost') !== 'false';
 };
@@ -233,9 +216,6 @@ const DEFAULT_STATS = {
   updatedAt: new Date().toISOString()
 };
 
-/**
- * 5. 누적 토큰 및 비용 통계 조회
- */
 export const getTokenUsageStats = () => {
   try {
     const raw = localStorage.getItem(STATS_STORAGE_KEY);
@@ -256,9 +236,6 @@ export const getTokenUsageStats = () => {
   }
 };
 
-/**
- * 6. 누적 토큰 및 비용 통계 저장 헬퍼
- */
 const saveTokenUsageStats = (stats) => {
   try {
     stats.updatedAt = new Date().toISOString();
@@ -269,9 +246,6 @@ const saveTokenUsageStats = (stats) => {
   }
 };
 
-/**
- * 7. AI 토큰 소모량 누적 기록
- */
 export const recordTokenUsage = (actionKey, usageMetadata, modelId) => {
   if (!usageMetadata) return;
   const costData = calculateActualTokenCost(usageMetadata, modelId);
@@ -280,14 +254,12 @@ export const recordTokenUsage = (actionKey, usageMetadata, modelId) => {
   const stats = getTokenUsageStats();
   const key = stats.byAction[actionKey] ? actionKey : 'generate';
 
-  // 작업별 누적
   stats.byAction[key].inputTokens += costData.promptTokens;
   stats.byAction[key].outputTokens += costData.candidatesTokens;
   stats.byAction[key].totalTokens += costData.totalTokens;
   stats.byAction[key].usdCost += costData.rawUsd;
   stats.byAction[key].count += 1;
 
-  // 총합 누적
   stats.total.inputTokens += costData.promptTokens;
   stats.total.outputTokens += costData.candidatesTokens;
   stats.total.totalTokens += costData.totalTokens;
@@ -298,9 +270,6 @@ export const recordTokenUsage = (actionKey, usageMetadata, modelId) => {
   return costData;
 };
 
-/**
- * 8. TTS 음성 사용량 누적 기록
- */
 export const recordTtsUsage = (charCount, ttsEngine = 'google') => {
   if (!charCount || charCount <= 0) return;
   const ttsData = calculateActualTtsCost(charCount, ttsEngine);
@@ -310,7 +279,6 @@ export const recordTtsUsage = (charCount, ttsEngine = 'google') => {
   stats.byAction.tts.usdCost += ttsData.rawUsd;
   stats.byAction.tts.count += 1;
 
-  // 전체 요금 합산에 포함
   stats.total.usdCost += ttsData.rawUsd;
   stats.total.count += 1;
 
@@ -318,35 +286,77 @@ export const recordTtsUsage = (charCount, ttsEngine = 'google') => {
   return ttsData;
 };
 
-/**
- * 9. 누적 토큰 및 요금 전체 초기화 (리셋 기능)
- */
 export const resetTokenUsageStats = () => {
   localStorage.removeItem(STATS_STORAGE_KEY);
   window.dispatchEvent(new CustomEvent('token_usage_updated', { detail: { stats: DEFAULT_STATS } }));
 };
 
-/**
- * 10. [필수 팝업 1] 실행 전 예상 토큰 및 요금 확인 팝업 (진행하시겠습니까?)
- * - 토큰보기 기능이 켜져있을 때만 confirm 창을 띄우고, 꺼져있으면 즉시 true 반환
- */
 export const confirmActionWithTokenEstimate = (actionType, modelId, options = {}) => {
   if (!isTokenCostVisible()) return true;
 
+  const lang = getCurrentUserLang();
   const est = getEstimatedTokensAndCost(actionType, modelId, options);
-  const actionNames = {
-    generate: `단어생성 (${options.count || 1}개)`,
-    regenerate: `단어 재생성 (${options.count || 1}개)`,
+  const count = options.count || 1;
+
+  if (lang === 'id') {
+    const actionNamesId = {
+      generate: `Buat Kata (${count} kata)`,
+      regenerate: `Regenerasi Kata (${count} kata)`,
+      lecture: `Buat Kuliah AI`,
+      tts_word: `Putar Suara Kata`,
+      tts_lecture: `Putar Suara Kuliah AI`
+    };
+    return window.confirm(
+`🪙 [Konfirmasi Estimasi Token & Biaya]
+━━━━━━━━━━━━━━━━━━━━
+📌 Tugas: ${actionNamesId[actionType] || 'Tugas AI'}
+🤖 Model: ${est.modelName}
+
+📥 Estimasi Token Input: ~${est.inputTokens.toLocaleString()} T
+📤 Estimasi Token Output: ~${est.outputTokens.toLocaleString()} T
+📊 Total Estimasi Token: ~${est.totalTokens.toLocaleString()} T
+
+💰 Estimasi Biaya: Rp ${est.idrText} / ₩${est.krwText} (${est.usdText})
+━━━━━━━━━━━━━━━━━━━━
+Lanjutkan proses ini?`
+    );
+  }
+
+  if (lang === 'en') {
+    const actionNamesEn = {
+      generate: `Generate Words (${count})`,
+      regenerate: `Regenerate Words (${count})`,
+      lecture: `Generate AI Lecture`,
+      tts_word: `Play Word Audio`,
+      tts_lecture: `Play AI Lecture Audio`
+    };
+    return window.confirm(
+`🪙 [Estimated Token & Cost Confirmation]
+━━━━━━━━━━━━━━━━━━━━
+📌 Action: ${actionNamesEn[actionType] || 'AI Task'}
+🤖 Model: ${est.modelName}
+
+📥 Est. Input Tokens: ~${est.inputTokens.toLocaleString()} T
+📤 Est. Output Tokens: ~${est.outputTokens.toLocaleString()} T
+📊 Total Est. Tokens: ~${est.totalTokens.toLocaleString()} T
+
+💰 Est. Cost: ${est.usdText} (${est.krwText} / ${est.idrText})
+━━━━━━━━━━━━━━━━━━━━
+Do you want to proceed?`
+    );
+  }
+
+  const actionNamesKo = {
+    generate: `단어생성 (${count}개)`,
+    regenerate: `단어 재생성 (${count}개)`,
     lecture: `스타강사 특강 생성`,
     tts_word: `단어 음성 재생`,
     tts_lecture: `특강 연속 음성 듣기`
   };
-  const actionName = actionNames[actionType] || 'AI 작업';
-
-  const confirmMsg = 
+  return window.confirm(
 `🪙 [예상 토큰 및 요금 사전 확인]
 ━━━━━━━━━━━━━━━━━━━━
-📌 작업: ${actionName}
+📌 작업: ${actionNamesKo[actionType] || 'AI 작업'}
 🤖 모델: ${est.modelName}
 
 📥 예상 입력 토큰: 약 ${est.inputTokens.toLocaleString()} T
@@ -355,32 +365,72 @@ export const confirmActionWithTokenEstimate = (actionType, modelId, options = {}
 
 💰 예상 요금: ₩${est.krwText} / Rp ${est.idrText} (${est.usdText})
 ━━━━━━━━━━━━━━━━━━━━
-이 작업으로 진행하시겠습니까?`;
-
-  return window.confirm(confirmMsg);
+이 작업으로 진행하시겠습니까?`
+  );
 };
 
-/**
- * 11. [필수 팝업 2] 작업 완료 후 실제 입력값, 출력값, 발생 요금 안내 팝업
- * - 토큰보기 기능이 켜져있을 때만 alert 안내
- */
 export const alertActualTokenCost = (actionType, usageMetadata, modelId) => {
   if (!isTokenCostVisible() || !usageMetadata) return;
 
+  const lang = getCurrentUserLang();
   const costData = calculateActualTokenCost(usageMetadata, modelId);
   if (!costData) return;
 
-  const actionNames = {
+  if (lang === 'id') {
+    const actionNamesId = {
+      generate: 'Pembuatan Kata Selesai! 🎉',
+      regenerate: 'Regenerasi Kata Selesai! ✨',
+      lecture: 'Kuliah AI Selesai Dibuat! 🎓'
+    };
+    window.alert(
+`✅ [Hasil Penggunaan Token & Biaya Aktual]
+━━━━━━━━━━━━━━━━━━━━
+📌 Tugas: ${actionNamesId[actionType] || 'Selesai!'}
+🤖 Model: ${costData.modelName}
+
+📥 Token Input Aktual: ${costData.promptTokens.toLocaleString()} T
+📤 Token Output Aktual: ${costData.candidatesTokens.toLocaleString()} T
+📊 Total Token Terpakai: ${costData.totalTokens.toLocaleString()} T
+
+💰 Biaya Aktual: Rp ${costData.idrText} / ₩${costData.krwText} (${costData.usdText})
+━━━━━━━━━━━━━━━━━━━━
+💡 Telah ditambahkan ke [Total Penggunaan Token & Biaya] di tab Pengaturan.`
+    );
+    return;
+  }
+
+  if (lang === 'en') {
+    const actionNamesEn = {
+      generate: 'Word Generation Complete! 🎉',
+      regenerate: 'Word Regeneration Complete! ✨',
+      lecture: 'AI Lecture Generated! 🎓'
+    };
+    window.alert(
+`✅ [Actual Token & Cost Result]
+━━━━━━━━━━━━━━━━━━━━
+📌 Action: ${actionNamesEn[actionType] || 'Completed!'}
+🤖 Model: ${costData.modelName}
+
+📥 Actual Input Tokens: ${costData.promptTokens.toLocaleString()} T
+📤 Actual Output Tokens: ${costData.candidatesTokens.toLocaleString()} T
+📊 Total Tokens Used: ${costData.totalTokens.toLocaleString()} T
+
+💰 Actual Cost: ${costData.usdText} (${costData.krwText} / ${costData.idrText})
+━━━━━━━━━━━━━━━━━━━━
+💡 Safely added to [Cumulative Token & Cost Usage] in Settings.`
+    );
+    return;
+  }
+
+  const actionNamesKo = {
     generate: '단어생성 완료! 🎉',
     regenerate: '단어 재생성 완료! ✨',
     lecture: '스타강사 특강 생성 완료! 🎓'
   };
-  const actionName = actionNames[actionType] || '작업 완료!';
-
-  const alertMsg = 
+  window.alert(
 `✅ [실제 발생 토큰 및 요금 결과]
 ━━━━━━━━━━━━━━━━━━━━
-📌 작업: ${actionName}
+📌 작업: ${actionNamesKo[actionType] || '작업 완료!'}
 🤖 적용 모델: ${costData.modelName}
 
 📥 실제 입력 토큰: ${costData.promptTokens.toLocaleString()} T
@@ -389,51 +439,105 @@ export const alertActualTokenCost = (actionType, usageMetadata, modelId) => {
 
 💰 발생 요금: ₩${costData.krwText} / Rp ${costData.idrText} (${costData.usdText})
 ━━━━━━━━━━━━━━━━━━━━
-💡 설정 탭의 [내 토큰 & 요금 누적 사용량]에 안전하게 합산되었습니다.`;
-
-  window.alert(alertMsg);
+💡 설정 탭의 [내 토큰 & 요금 누적 사용량]에 안전하게 합산되었습니다.`
+  );
 };
 
-/**
- * 12. TTS 음성 재생 전 예상 비용 확인 팝업
- */
-export const confirmTtsWithEstimate = (charCount, ttsEngine = 'google', label = '음성 재생') => {
+export const confirmTtsWithEstimate = (charCount, ttsEngine = 'google', label = '') => {
   if (!isTokenCostVisible()) return true;
 
+  const lang = getCurrentUserLang();
   const ttsData = calculateActualTtsCost(charCount, ttsEngine);
-  const engineName = ttsEngine === 'google' ? 'Google HD Premium' : '브라우저 기본 엔진 (무료)';
 
-  const confirmMsg = 
+  if (lang === 'id') {
+    const engineName = ttsEngine === 'google' ? 'Google HD Premium' : 'Mesin Browser (Gratis)';
+    return window.confirm(
+`🎙️ [Konfirmasi Estimasi Biaya Suara TTS]
+━━━━━━━━━━━━━━━━━━━━
+📌 Tugas: ${label || 'Putar Suara'}
+🔊 Mesin: ${engineName}
+📝 Estimasi Karakter: ~${charCount.toLocaleString()} karakter
+
+💰 Estimasi Biaya: Rp ${ttsData.idrText} / ₩${ttsData.krwText} (${ttsData.usdText})
+ℹ️ ${ttsData.freeTierNotice}
+━━━━━━━━━━━━━━━━━━━━
+Putar suara sekarang?`
+    );
+  }
+
+  if (lang === 'en') {
+    const engineName = ttsEngine === 'google' ? 'Google HD Premium' : 'Browser Engine (Free)';
+    return window.confirm(
+`🎙️ [Estimated TTS Audio Cost Confirmation]
+━━━━━━━━━━━━━━━━━━━━
+📌 Action: ${label || 'Audio Playback'}
+🔊 Engine: ${engineName}
+📝 Est. Characters: ~${charCount.toLocaleString()} chars
+
+💰 Est. Cost: ${ttsData.usdText} (${ttsData.krwText} / ${ttsData.idrText})
+ℹ️ ${ttsData.freeTierNotice}
+━━━━━━━━━━━━━━━━━━━━
+Do you want to play the audio?`
+    );
+  }
+
+  const engineName = ttsEngine === 'google' ? 'Google HD Premium' : '브라우저 기본 엔진 (무료)';
+  return window.confirm(
 `🎙️ [TTS 음성 재생 예상 비용 확인]
 ━━━━━━━━━━━━━━━━━━━━
-📌 작업: ${label}
+📌 작업: ${label || '음성 재생'}
 🔊 엔진: ${engineName}
 📝 예상 글자수: 약 ${charCount.toLocaleString()} 자
 
 💰 예상 요금: ₩${ttsData.krwText} / Rp ${ttsData.idrText} (${ttsData.usdText})
 ℹ️ ${ttsData.freeTierNotice}
 ━━━━━━━━━━━━━━━━━━━━
-음성을 재생하시겠습니까?`;
-
-  return window.confirm(confirmMsg);
+음성을 재생하시겠습니까?`
+  );
 };
 
-/**
- * 13. TTS 음성 재생 완료 후 실제 발생 요금 안내
- */
-export const alertActualTtsCost = (charCount, ttsEngine = 'google', label = '음성 재생') => {
+export const alertActualTtsCost = (charCount, ttsEngine = 'google', label = '') => {
   if (!isTokenCostVisible() || !charCount) return;
 
+  const lang = getCurrentUserLang();
   const ttsData = calculateActualTtsCost(charCount, ttsEngine);
-  const alertMsg = 
+
+  if (lang === 'id') {
+    window.alert(
+`🔊 [Info Biaya Suara TTS]
+━━━━━━━━━━━━━━━━━━━━
+📌 Tugas: ${label || 'Putar Suara'} Selesai
+📝 Karakter Disintesis: ${charCount.toLocaleString()} karakter
+💰 Biaya Aktual: Rp ${ttsData.idrText} / ₩${ttsData.krwText} (${ttsData.usdText})
+ℹ️ ${ttsData.freeTierNotice}
+━━━━━━━━━━━━━━━━━━━━
+💡 Telah ditambahkan ke [Total Penggunaan Token & Biaya] di Pengaturan.`
+    );
+    return;
+  }
+
+  if (lang === 'en') {
+    window.alert(
+`🔊 [TTS Audio Cost Summary]
+━━━━━━━━━━━━━━━━━━━━
+📌 Action: ${label || 'Audio Playback'} Complete
+📝 Synthesized Characters: ${charCount.toLocaleString()} chars
+💰 Actual Cost: ${ttsData.usdText} (${ttsData.krwText} / ${ttsData.idrText})
+ℹ️ ${ttsData.freeTierNotice}
+━━━━━━━━━━━━━━━━━━━━
+💡 Safely added to [Cumulative Token & Cost Usage] in Settings.`
+    );
+    return;
+  }
+
+  window.alert(
 `🔊 [TTS 음성 재생 요금 안내]
 ━━━━━━━━━━━━━━━━━━━━
-📌 작업: ${label} 완료
+📌 작업: ${label || '음성 재생'} 완료
 📝 실제 합성 글자수: ${charCount.toLocaleString()} 자
 💰 발생 요금: ₩${ttsData.krwText} / Rp ${ttsData.idrText} (${ttsData.usdText})
 ℹ️ ${ttsData.freeTierNotice}
 ━━━━━━━━━━━━━━━━━━━━
-💡 설정 탭의 [내 토큰 & 요금 누적 사용량]에 안전하게 합산되었습니다.`;
-
-  window.alert(alertMsg);
+💡 설정 탭의 [내 토큰 & 요금 누적 사용량]에 안전하게 합산되었습니다.`
+  );
 };

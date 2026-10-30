@@ -4,16 +4,56 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.16';
+export const CURRENT_VERSION = 'v20.17';
 export const CURRENT_VERSION_DATE = '2026-10-30';
-export const CURRENT_VERSION_SUMMARY = "단어장 '주제별/문법별' 분류 완벽 복원 & 버전 패치 내역 시스템 탑재";
+export const CURRENT_VERSION_SUMMARY = "3개 국어(한국어/인니어/영어) 전면 번역 완성 & 학습 3종 모드(카드·객관식·스펠링) 버그 수정 및 고도화";
+
+export const getVersionSummary = (lang = 'ko') => {
+  if (lang === 'id') return 'Terjemahan 3 Bahasa (KO/ID/EN) Lengkap & Perbaikan 3 Mode Belajar (Kartu·Pilihan Ganda·Ejaan)';
+  if (lang === 'en') return 'Full 3-Language (KO/ID/EN) Localization & 3 Study Modes (Flashcard·Quiz·Spelling) Overhaul';
+  return CURRENT_VERSION_SUMMARY;
+};
 
 export const PATCH_NOTES = [
   {
-    version: 'v20.16',
+    version: 'v20.17',
     date: '2026-10-30',
     badge: 'LATEST',
+    title: "3개 국어(한국어·인도네시아어·영어) 전면 현지화 완성 & 학습하기 3대 모드 완벽 버그 수정 및 개선",
+    title_id: "Lokalisasi 3 Bahasa (KO/ID/EN) Lengkap & Perbaikan Total 3 Mode Belajar",
+    title_en: "Complete 3-Language (KO/ID/EN) Localization & Overhaul of All 3 Study Modes",
+    highlights: [
+      "🌐 한국어(ko), 인도네시아어(id), 영어(en) 3개 국어 미번역 항목(메뉴, 1만단어 사전, 카테고리/소분류, AI 생성, 토큰 계산기, 로그인, 번역, 알림창 등) 100% 번역 완료",
+      "🎯 [객관식 퀴즈 버그 수정] 퀴즈 진행 중 타이머 중첩 및 클로저 참조 문제로 선택지가 4개 이상 늘어나거나 중복되던 치명적 버그 완벽 해결 (항상 중복 없는 정확한 4지선다 보장)",
+      "🔄 [객관식 퀴즈 개선] 문제 출제 방향 선택 기능(단어➔뜻 / 뜻➔단어 / 랜덤 혼합) 추가 및 내 단어장이 적을 때도 오프라인 사전과 연동해 4지선다 오답 보기 자동 구성",
+      "🃏 [플래시카드 개선] 단어 뒤의 [[발음기호]] 태그 노출 제거, 카드 전환 시 자동 발음 재생(On/Off 토글 지원), 예문 단어 클릭 시 카드가 뒤집히지 않고 단어 뜻 툴팁이 정상 표시되도록 수정, 이전 카드 돌아가기 버튼 추가",
+      "✍️ [주관식 스펠링 개선] 모바일 키보드 완벽 호환 입력창 제공, '💡 1글자 힌트' 버튼 추가, 발음기호 태그 자동 제거 및 인라인 정오답 피드백 적용",
+      "🏆 학습 세션 완료 시 최종 점수·정답률 요약 리포트 및 즉시 재학습 화면 추가"
+    ],
+    highlights_id: [
+      "🌐 Terjemahan 100% lengkap untuk Bahasa Indonesia, Inggris, dan Korea di seluruh menu, Kamus 10K, kategori, pembuatan AI, kalkulator token, dan peringatan",
+      "🎯 [Perbaikan Kuis Pilihan Ganda] Memperbaiki bug di mana pilihan jawaban bertambah lebih dari 4 atau duplikat (sekarang dijamin selalu 4 pilihan unik)",
+      "🔄 [Peningkatan Kuis] Menambahkan opsi arah kuis (Kata➔Arti / Arti➔Kata / Campuran Acak)",
+      "🃏 [Peningkatan Kartu Kata] Menghapus tag [[pelafalan]], menambahkan putar suara otomatis (On/Off), memperbaiki klik kata pada kalimat contoh, dan tombol kembali ke kartu sebelumnya",
+      "✍️ [Peningkatan Tes Ejaan] Input ramah keyboard ponsel, tombol '💡 Petunjuk 1 Huruf', dan umpan balik visual langsung",
+      "🏆 Menambahkan layar ringkasan skor & akurasi saat sesi belajar selesai"
+    ],
+    highlights_en: [
+      "🌐 Completed 100% localization across Korean, Indonesian, and English for all menus, 10K Dictionary, categories, AI generator, token calculator, and alerts",
+      "🎯 [Multiple Choice Quiz Fix] Fixed bug where options exceeded 4 or duplicated due to overlapping timers and stale closures (strictly 4 unique options guaranteed)",
+      "🔄 [Quiz Improvement] Added quiz direction selector (Word➔Meaning / Meaning➔Word / Random Mix)",
+      "🃏 [Flashcard Improvement] Stripped [[pronunciation]] tags, added auto-audio playback toggle, fixed example sentence word tooltip click propagation, and added Previous Card button",
+      "✍️ [Spelling Improvement] Added mobile-friendly input box, '💡 1-Letter Hint' button, and inline visual feedback",
+      "🏆 Added session completion summary screen with score and accuracy stats"
+    ]
+  },
+  {
+    version: 'v20.16',
+    date: '2026-10-30',
+    badge: 'UPDATE',
     title: "단어장 '주제별/문법별' 분류 조회 완벽 복원 & 패치 내역 시스템 신설",
+    title_id: "Pemulihan Kategori 'Per Topik/Kelas Kata' & Sistem Catatan Pembaruan",
+    title_en: "Restored 'By Topic / By Grammar' Wordbook Views & Added Patch Notes System",
     highlights: [
       "📚 단어장 '문법별(품사별)' 폴더 그리드 화면이 표시되지 않던 렌더링 누락 버그 완벽 수정",
       "🧠 동사/타동사/자동사/verb 등 다양한 형태의 품사 데이터를 표준 품사(명사, 동사, 형용사, 부사 등)로 자동 정규화하여 문법별 분류 정확도 향상",

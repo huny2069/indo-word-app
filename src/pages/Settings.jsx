@@ -4,8 +4,8 @@ import { getWords, getFolders, addWord, addFolder } from '../db/database';
 import { fetchGeminiModels, CURATED_MODELS } from '../api/geminiApi';
 import { convertToCSV, parseCSV } from '../api/csvApi';
 import { ALL_OFFLINE_WORDS } from '../data/offlineDatabase';
-import { OFFLINE_CATEGORIES } from '../data/categories';
-import { CURRENT_VERSION, CURRENT_VERSION_DATE, CURRENT_VERSION_SUMMARY, PATCH_NOTES } from '../data/versionHistory';
+import { OFFLINE_CATEGORIES, getCategoryDisplayName } from '../data/categories';
+import { CURRENT_VERSION, CURRENT_VERSION_DATE, CURRENT_VERSION_SUMMARY, getVersionSummary, PATCH_NOTES } from '../data/versionHistory';
 import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile, DICT_BACKUP_FILE } from '../api/driveApi';
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
@@ -52,10 +52,15 @@ const Settings = () => {
   };
 
   const handleResetTokenStats = () => {
-    if (window.confirm('🪙 지금까지 누적된 모든 토큰 사용량과 요금 통계를 0으로 초기화하시겠습니까?')) {
+    const confirmMsg = userLang === 'id'
+      ? '🪙 Apakah Anda yakin ingin mengatur ulang semua statistik penggunaan token dan biaya ke 0?'
+      : userLang === 'en'
+        ? '🪙 Are you sure you want to reset all cumulative token usage and cost statistics to 0?'
+        : '🪙 지금까지 누적된 모든 토큰 사용량과 요금 통계를 0으로 초기화하시겠습니까?';
+    if (window.confirm(confirmMsg)) {
       resetTokenUsageStats();
       setUsageStats(getTokenUsageStats());
-      alert('✅ 누적 토큰 및 요금 통계가 깨끗하게 초기화되었습니다.');
+      alert(userLang === 'id' ? '✅ Statistik token dan biaya telah diatur ulang.' : userLang === 'en' ? '✅ Cumulative token and cost statistics have been reset.' : '✅ 누적 토큰 및 요금 통계가 깨끗하게 초기화되었습니다.');
     }
   };
 
@@ -293,9 +298,11 @@ const Settings = () => {
 
   // 카테고리 표시 이름 조회 헬퍼
   const getCategoryName = (catId) => {
-    if (!catId || catId === 'all') return '전체 1만 단어 사전';
+    if (!catId || catId === 'all') {
+      return userLang === 'id' ? 'Seluruh Kamus 10K Kata' : userLang === 'en' ? 'All 10K Dictionary Words' : '전체 1만 단어 사전';
+    }
     const found = OFFLINE_CATEGORIES.find(c => c.id === catId);
-    return found ? `${found.icon} ${found.name}` : catId;
+    return found ? `${found.icon} ${getCategoryDisplayName(found, userLang)}` : catId;
   };
 
   // 1만단어 사전에서 선택된 카테고리(또는 전체)에 해당하는 단어 목록 추출 헬퍼
@@ -652,7 +659,7 @@ const Settings = () => {
           }}>
             <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 6px #10b981' }}></span>
             <span style={{ fontSize: '0.8rem', color: '#1e293b', fontWeight: '900', letterSpacing: '0.3px' }}>
-              버전 정보: <span style={{ color: '#2563eb' }}>{CURRENT_VERSION}</span> <span style={{ color: '#64748b', fontWeight: '700' }}>({CURRENT_VERSION_DATE})</span> — {CURRENT_VERSION_SUMMARY}
+              {userLang === 'id' ? 'Info Versi:' : userLang === 'en' ? 'Version:' : '버전 정보:'} <span style={{ color: '#2563eb' }}>{CURRENT_VERSION}</span> <span style={{ color: '#64748b', fontWeight: '700' }}>({CURRENT_VERSION_DATE})</span> — {getVersionSummary(userLang)}
             </span>
             <button
               onClick={() => setShowPatchNotes(prev => !prev)}
@@ -672,7 +679,7 @@ const Settings = () => {
                 boxShadow: '0 2px 4px rgba(37, 99, 235, 0.2)'
               }}
             >
-              📋 패치 내역 {showPatchNotes ? '닫기 ▲' : '보기 ▼'}
+              📋 {userLang === 'id' ? (showPatchNotes ? 'Tutup Catatan ▲' : 'Catatan Patch ▼') : userLang === 'en' ? (showPatchNotes ? 'Hide Patch Notes ▲' : 'Patch Notes ▼') : `패치 내역 ${showPatchNotes ? '닫기 ▲' : '보기 ▼'}`}
             </button>
           </div>
 
@@ -692,21 +699,23 @@ const Settings = () => {
                   <span style={{ fontSize: '1.3rem' }}>🚀</span>
                   <div>
                     <h3 style={{ margin: 0, fontSize: '1.1rem', fontWeight: '900', color: '#1e293b' }}>
-                      업데이트 및 패치 내역 (Release Notes)
+                      {userLang === 'id' ? 'Catatan Pembaruan & Rilis (Release Notes)' : userLang === 'en' ? 'Update & Patch History (Release Notes)' : '업데이트 및 패치 내역 (Release Notes)'}
                     </h3>
                     <p style={{ margin: '2px 0 0', fontSize: '0.78rem', color: '#64748b', fontWeight: '600' }}>
-                      GitHub 배포 시마다 버전 숫자와 상세 수정 내역이 자동으로 기록됩니다.
+                      {userLang === 'id' ? 'Nomor versi dan detail perbaikan dicatat secara otomatis setiap pembaruan GitHub.' : userLang === 'en' ? 'Version numbers and detailed changelog entries are recorded with every GitHub update.' : 'GitHub 배포 시마다 버전 숫자와 상세 수정 내역이 자동으로 기록됩니다.'}
                     </p>
                   </div>
                 </div>
                 <span style={{ background: '#dcfce7', color: '#15803d', fontWeight: '900', fontSize: '0.75rem', padding: '4px 10px', borderRadius: '12px' }}>
-                  현재 최신: {CURRENT_VERSION}
+                  {userLang === 'id' ? `Terbaru: ${CURRENT_VERSION}` : userLang === 'en' ? `Latest: ${CURRENT_VERSION}` : `현재 최신: ${CURRENT_VERSION}`}
                 </span>
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxHeight: '420px', overflowY: 'auto', paddingRight: '4px' }}>
                 {PATCH_NOTES.map((note, idx) => {
                   const isLatest = idx === 0;
+                  const noteTitle = (userLang === 'id' && note.title_id) ? note.title_id : (userLang === 'en' && note.title_en) ? note.title_en : note.title;
+                  const noteHighlights = (userLang === 'id' && note.highlights_id) ? note.highlights_id : (userLang === 'en' && note.highlights_en) ? note.highlights_en : note.highlights;
                   return (
                     <div
                       key={note.version}
@@ -742,7 +751,7 @@ const Settings = () => {
                             </span>
                           )}
                           <span style={{ fontWeight: '900', fontSize: '0.95rem', color: '#1e293b' }}>
-                            {note.title}
+                            {noteTitle}
                           </span>
                         </div>
                         <span style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
@@ -751,7 +760,7 @@ const Settings = () => {
                       </div>
 
                       <ul style={{ margin: '0.5rem 0 0', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
-                        {note.highlights.map((item, i) => (
+                        {noteHighlights.map((item, i) => (
                           <li key={i} style={{ fontSize: '0.84rem', color: '#334155', lineHeight: '1.5', fontWeight: '600' }}>
                             {item}
                           </li>
@@ -1013,14 +1022,14 @@ const Settings = () => {
                         <Calculator size={20} color="#f59e0b" />
                         <div>
                             <div style={{ fontSize: '0.95rem', fontWeight: '900', color: '#1e293b' }}>
-                                토큰 및 실시간 비용 계산기 (KRW ₩ / IDR Rp)
+                                {userLang === 'id' ? 'Kalkulator Token & Biaya Real-time (KRW ₩ / IDR Rp)' : userLang === 'en' ? 'Token & Real-time Cost Calculator (KRW ₩ / IDR Rp)' : '토큰 및 실시간 비용 계산기 (KRW ₩ / IDR Rp)'}
                             </div>
                             <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
-                                모델별 토큰 소모량과 원화/루피아 환산 금액 사전·실시간 표시
+                                {userLang === 'id' ? 'Menampilkan estimasi & penggunaan token beserta konversi Rupiah/Won' : userLang === 'en' ? 'Shows estimated & actual token usage converted into KRW/IDR/USD' : '모델별 토큰 소모량과 원화/루피아 환산 금액 사전·실시간 표시'}
                             </div>
                         </div>
                     </div>
-                    <label className="switch" style={{ transform: 'scale(0.85)' }} title="토큰 및 환산 비용 표시 켜기/끄기">
+                    <label className="switch" style={{ transform: 'scale(0.85)' }}>
                         <input 
                             type="checkbox" 
                             checked={showTokenCost} 
@@ -1099,10 +1108,10 @@ const Settings = () => {
                                     <BarChart3 size={20} color="#0284c7" />
                                     <div>
                                         <div style={{ fontSize: '1rem', fontWeight: '900', color: '#0f172a' }}>
-                                            📊 내 토큰 & 요금 누적 사용량
+                                            {userLang === 'id' ? '📊 Total Penggunaan Token & Biaya Saya' : userLang === 'en' ? '📊 My Cumulative Token & Cost Usage' : '📊 내 토큰 & 요금 누적 사용량'}
                                         </div>
                                         <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
-                                            실제 API 호출 및 TTS 사용으로 누적된 입출력 토큰과 요금
+                                            {userLang === 'id' ? 'Akumulasi token input/output dan biaya dari panggilan API & TTS' : userLang === 'en' ? 'Cumulative input/output tokens and costs from API & TTS calls' : '실제 API 호출 및 TTS 사용으로 누적된 입출력 토큰과 요금'}
                                         </div>
                                     </div>
                                 </div>
@@ -1122,9 +1131,8 @@ const Settings = () => {
                                         cursor: 'pointer',
                                         transition: '0.2s'
                                     }}
-                                    title="누적된 통계를 0으로 초기화합니다"
                                 >
-                                    <RotateCcw size={13} /> 누적 요금 리셋
+                                    <RotateCcw size={13} /> {userLang === 'id' ? 'Reset Biaya' : userLang === 'en' ? 'Reset Stats' : '누적 요금 리셋'}
                                 </button>
                             </div>
 
@@ -1271,20 +1279,20 @@ const Settings = () => {
       {/* 4. 데이터 및 클라우드 */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.2rem' }}>
         <div className="settings-card" style={{ marginBottom: 0 }}>
-            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>📁 {t('set_backup_title')} (내 단어장)</h4>
+            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>📁 {t('set_backup_title')}</h4>
             <div style={{ display: 'grid', gap: '0.6rem' }}>
-                <button onClick={handleExportCSV} style={{ padding: '0.7rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}><FileDown size={14} /> CSV 백업</button>
+                <button onClick={handleExportCSV} style={{ padding: '0.7rem', background: '#f0fdf4', color: '#166534', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}><FileDown size={14} /> {t('set_csv_export')}</button>
                 <label style={{ padding: '0.7rem', background: '#fffbeb', color: '#92400e', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem', textAlign: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
-                    <FileUp size={14} /> CSV 복원 <input type="file" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
+                    <FileUp size={14} /> {t('set_csv_import')} <input type="file" accept=".csv" onChange={handleImportCSV} style={{ display: 'none' }} />
                 </label>
             </div>
         </div>
         <div className="settings-card" style={{ marginBottom: 0, background: '#e8f0fe' }}>
-            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>☁️ {t('set_cloud_title_label') || '구글 클라우드'}</h4>
+            <h4 style={{ fontSize: '0.95rem', fontWeight: '900', marginBottom: '1rem' }}>☁️ {t('set_cloud_title_label') || 'Google Cloud'}</h4>
             {gcpAccessToken ? (
                 <div style={{ display: 'grid', gap: '0.6rem' }}>
-                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ padding: '0.7rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem' }}><FileUp size={14} /> Backup</button>
-                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ padding: '0.7rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem' }}><FileDown size={14} /> Restore</button>
+                    <button onClick={handleBackupToDrive} disabled={isDriveOperating} style={{ padding: '0.7rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem' }}><FileUp size={14} /> {t('set_cloud_backup_btn')}</button>
+                    <button onClick={handleRestoreFromDrive} disabled={isDriveOperating} style={{ padding: '0.7rem', background: '#34a853', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '800', fontSize: '0.8rem' }}><FileDown size={14} /> {t('set_cloud_restore_btn')}</button>
                 </div>
             ) : (
                 <button onClick={() => handleGoogleLogin()} style={{ width: '100%', padding: '0.8rem', background: '#4285f4', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: '900', fontSize: '0.85rem', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
@@ -1298,15 +1306,19 @@ const Settings = () => {
       <div className="settings-card" style={{ marginBottom: '2rem', border: '2px solid #feca57', background: 'linear-gradient(135deg, #fffdf8 0%, #fff9ec 100%)', boxShadow: '0 4px 15px rgba(254, 202, 87, 0.15)' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem', flexWrap: 'wrap', gap: '0.5rem' }}>
           <h4 style={{ fontSize: '1.05rem', fontWeight: '900', margin: 0, color: 'var(--nana-dark)', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <BookMarked size={20} color="#f6b93b" /> 1만 단어 사전 데이터 관리 (CSV & 구글 클라우드)
+            <BookMarked size={20} color="#f6b93b" /> {userLang === 'id' ? 'Manajemen Data Kamus 10K Kata (CSV & Google Cloud)' : userLang === 'en' ? '10K Dictionary Data Management (CSV & Google Cloud)' : '1만 단어 사전 데이터 관리 (CSV & 구글 클라우드)'}
           </h4>
           <span style={{ fontSize: '0.75rem', background: '#6c5ce7', color: '#fff', padding: '3px 10px', borderRadius: '12px', fontWeight: '800' }}>
-            중복 자동 건너뛰기 지원
+            {userLang === 'id' ? 'Lewati Duplikat Otomatis' : userLang === 'en' ? 'Auto-Skip Duplicates' : '중복 자동 건너뛰기 지원'}
           </span>
         </div>
         
         <p style={{ margin: '0 0 1.2rem', fontSize: '0.85rem', color: '#666', lineHeight: '1.5', fontWeight: '600' }}>
-          개인 단어장과 별개로 <b>1만단어 사전에 직접 신규 단어를 대량 추가</b>하거나, 전체 사전 데이터를 <b>CSV 파일 또는 구글 드라이브 클라우드로 안전하게 백업 및 불러오기</b>할 수 있습니다. 불러오기 시 이미 사전에 존재하는 단어는 자동으로 건너뜁니다(Skip).
+          {userLang === 'id'
+            ? 'Anda dapat mencadangkan atau memulihkan data Kamus 10.000 Kata per kategori melalui file CSV atau Google Drive. Kata yang sudah ada akan dilewati secara otomatis.'
+            : userLang === 'en'
+              ? 'Backup or restore the 10,000-word dictionary by category via CSV file or Google Drive. Existing duplicate words are automatically skipped.'
+              : '개인 단어장과 별개로 1만단어 사전에 직접 신규 단어를 대량 추가하거나, 전체 사전 데이터를 CSV 파일 또는 구글 드라이브 클라우드로 안전하게 백업 및 불러오기할 수 있습니다. 불러오기 시 이미 사전에 존재하는 단어는 자동으로 건너뜁니다(Skip).'}
         </p>
 
         {/* [신규] 백업 및 불러오기 대상 카테고리 선택기 */}
@@ -1320,7 +1332,7 @@ const Settings = () => {
         }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', flexWrap: 'wrap', gap: '6px' }}>
             <label style={{ fontSize: '0.9rem', fontWeight: '900', color: '#78350f', display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Filter size={16} color="#d97706" /> 백업 / 불러오기 대상 카테고리 선택:
+              <Filter size={16} color="#d97706" /> {userLang === 'id' ? 'Pilih Kategori Cadangan / Pemulihan:' : userLang === 'en' ? 'Select Category for Backup / Restore:' : '백업 / 불러오기 대상 카테고리 선택:'}
             </label>
             <span style={{ 
               fontSize: '0.78rem', 
@@ -1331,7 +1343,7 @@ const Settings = () => {
               fontWeight: '900',
               border: '1px solid #fde68a'
             }}>
-              선택된 대상: {getDictWordsByCategory(selectedDictCat).length.toLocaleString()}개 단어
+              {userLang === 'id' ? `Target: ${getDictWordsByCategory(selectedDictCat).length.toLocaleString()} kata` : userLang === 'en' ? `Selected: ${getDictWordsByCategory(selectedDictCat).length.toLocaleString()} words` : `선택된 대상: ${getDictWordsByCategory(selectedDictCat).length.toLocaleString()}개 단어`}
             </span>
           </div>
 
@@ -1352,21 +1364,17 @@ const Settings = () => {
               boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.04)'
             }}
           >
-            <option value="discourse">🔗 문장 연결 & 담화 표지 (현재 선택됨)</option>
-            <option value="all">🌟 전체 1만 단어 사전 (전체 카테고리)</option>
-            {OFFLINE_CATEGORIES.filter(c => c.id !== 'discourse').map(cat => (
-              <option key={cat.id} value={cat.id}>{cat.icon} {cat.name}</option>
+            <option value="all">🌟 {userLang === 'id' ? 'Seluruh Kamus 10K Kata (Semua Kategori)' : userLang === 'en' ? 'All 10K Dictionary Words (All Categories)' : '전체 1만 단어 사전 (전체 카테고리)'}</option>
+            {OFFLINE_CATEGORIES.map(cat => (
+              <option key={cat.id} value={cat.id}>{cat.icon} {getCategoryDisplayName(cat, userLang)}</option>
             ))}
           </select>
-          <div style={{ fontSize: '0.74rem', color: '#78350f', marginTop: '6px', fontWeight: '600' }}>
-            💡 카테고리를 선택하면 아래의 <b>CSV 다운로드</b> 및 <b>구글 드라이브 백업/불러오기</b>가 선택한 카테고리 단어들만 선별하여 진행됩니다.
-          </div>
         </div>
 
         {/* 1) CSV 백업 및 가져오기 */}
         <div style={{ marginBottom: '1rem' }}>
           <div style={{ fontSize: '0.8rem', fontWeight: '900', color: '#475569', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '4px' }}>
-            📄 파일 기반 백업 (CSV)
+            📄 {userLang === 'id' ? 'Cadangan File (CSV)' : userLang === 'en' ? 'File Backup (CSV)' : '파일 기반 백업 (CSV)'}
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }}>
             <label style={{ 
@@ -1376,7 +1384,7 @@ const Settings = () => {
               textAlign: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
               boxShadow: '0 3px 8px rgba(108, 92, 231, 0.25)' 
             }}>
-              <FileUp size={16} /> 1만단어 사전 CSV 가져오기
+              <FileUp size={16} /> {userLang === 'id' ? 'Impor CSV Kamus 10K' : userLang === 'en' ? 'Import 10K Dict CSV' : '1만단어 사전 CSV 가져오기'}
               <input type="file" accept=".csv" onChange={handleImportDictCSV} style={{ display: 'none' }} />
             </label>
 
@@ -1391,7 +1399,7 @@ const Settings = () => {
                 cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
                 boxShadow: '0 2px 6px rgba(0,0,0,0.04)' 
               }}>
-              <FileDown size={16} /> {selectedDictCat === 'all' ? '전체 사전 CSV 다운로드' : '선택 카테고리 CSV 다운로드'}
+              <FileDown size={16} /> {userLang === 'id' ? 'Unduh CSV Kategori' : userLang === 'en' ? 'Export Category CSV' : (selectedDictCat === 'all' ? '전체 사전 CSV 다운로드' : '선택 카테고리 CSV 다운로드')}
             </button>
           </div>
         </div>
@@ -1406,7 +1414,7 @@ const Settings = () => {
         }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem', flexWrap: 'wrap', gap: '4px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.88rem', fontWeight: '900', color: '#1e3a8a' }}>
-              <Cloud size={18} color="#2563eb" /> ☁️ 구글 드라이브 동기화 ({getCategoryName(selectedDictCat)})
+              <Cloud size={18} color="#2563eb" /> ☁️ Google Drive ({getCategoryName(selectedDictCat)})
             </div>
             {!gcpAccessToken ? (
               <button 
@@ -1422,20 +1430,16 @@ const Settings = () => {
                   cursor: 'pointer'
                 }}
               >
-                Google 계정 연동 필요
+                {t('set_google_login')}
               </button>
             ) : (
               <span style={{ fontSize: '0.72rem', color: '#059669', fontWeight: '800', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                <CheckCircle size={12} /> 구글 계정 연결됨
+                <CheckCircle size={12} /> {t('set_api_status_ok')}
               </span>
             )}
           </div>
-          
-          <div style={{ fontSize: '0.76rem', color: '#475569', marginBottom: '0.8rem', lineHeight: '1.4' }}>
-            선택된 카테고리(<b>{getCategoryName(selectedDictCat)}</b>) 단어들을 구글 드라이브에 안전하게 보관하거나 불러올 수 있습니다. (파일명: <code>{selectedDictCat === 'all' ? DICT_BACKUP_FILE : `indo-10k-dict-${selectedDictCat}-backup.json`}</code>)
-          </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem', marginTop: '0.6rem' }}>
             <button 
               onClick={handleBackupDictToDrive}
               disabled={isDriveOperating}
@@ -1456,7 +1460,7 @@ const Settings = () => {
                 transition: '0.2s'
               }}
             >
-              <FileUp size={16} /> {selectedDictCat === 'all' ? '전체 사전 구글 백업' : '선택 카테고리 구글 백업'}
+              <FileUp size={16} /> {userLang === 'id' ? 'Cadangkan ke Google Drive' : userLang === 'en' ? 'Backup to Google Drive' : (selectedDictCat === 'all' ? '전체 사전 구글 백업' : '선택 카테고리 구글 백업')}
             </button>
 
             <button 
@@ -1479,7 +1483,7 @@ const Settings = () => {
                 transition: '0.2s'
               }}
             >
-              <FileDown size={16} /> {selectedDictCat === 'all' ? '전체 사전 구글 불러오기' : '선택 카테고리 구글 불러오기'}
+              <FileDown size={16} /> {userLang === 'id' ? 'Pulihkan dari Google Drive' : userLang === 'en' ? 'Restore from Google Drive' : (selectedDictCat === 'all' ? '전체 사전 구글 불러오기' : '선택 카테고리 구글 불러오기')}
             </button>
           </div>
         </div>

@@ -104,8 +104,8 @@ const Login = () => {
           margin: '0 0 40px 0',
           fontWeight: '500' 
         }}>
-          당신만의 똑똑한 인도네시아어 단어장<br/>
-          로그인하고 최고의 학습 도구를 만나보세요.
+          {t('login_subtitle_1')}<br/>
+          {t('login_subtitle_2')}
         </p>
 
         <div style={{ marginBottom: '40px' }}>
@@ -123,19 +123,19 @@ const Login = () => {
             <div style={{ background: '#fef9e7', width: '40px', height: '40px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 8px' }}>
               <Globe size={18} color="#feca57" />
             </div>
-            <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: '#999' }}>글로벌 학습</span>
+            <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: '#999' }}>{t('login_feat_global')}</span>
           </div>
           <div style={{ textAlign: 'center' }}>
             <div style={{ background: '#fef9e7', width: '40px', height: '40px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 8px' }}>
               <ShieldCheck size={18} color="#feca57" />
             </div>
-            <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: '#999' }}>안전한 동기화</span>
+            <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: '#999' }}>{t('login_feat_sync')}</span>
           </div>
           <div style={{ textAlign: 'center' }}>
             <div style={{ background: '#fef9e7', width: '40px', height: '40px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 8px' }}>
               <Sparkles size={18} color="#feca57" />
             </div>
-            <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: '#999' }}>AI 단어 생성</span>
+            <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: '#999' }}>{t('login_feat_ai')}</span>
           </div>
         </div>
 

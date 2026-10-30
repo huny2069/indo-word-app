@@ -62,7 +62,7 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
             <span 
               onMouseEnter={() => setHoveredIdx(idx)}
               onMouseLeave={() => setHoveredIdx(null)}
-              onClick={() => setClickedIdx(clickedIdx === idx ? null : idx)}
+              onClick={(e) => { e.stopPropagation(); setClickedIdx(clickedIdx === idx ? null : idx); }}
               style={{ 
                 cursor: 'pointer',
                 textDecoration: 'underline',
@@ -107,7 +107,7 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
               <span 
                 onMouseEnter={() => setHoveredIdx(idx)}
                 onMouseLeave={() => setHoveredIdx(null)}
-                onClick={() => setClickedIdx(clickedIdx === idx ? null : idx)}
+                onClick={(e) => { e.stopPropagation(); setClickedIdx(clickedIdx === idx ? null : idx); }}
                 style={{ 
                   cursor: 'pointer',
                   textDecoration: 'underline',

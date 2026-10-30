@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Coins, Sparkles, Volume2, Info, ChevronDown, ChevronUp } from 'lucide-react';
+import { ChevronDown, ChevronUp } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 import { 
   isTokenCostVisible, 
   getEstimatedTokensAndCost, 
@@ -8,7 +9,7 @@ import {
 } from '../utils/tokenCostTracker';
 
 /**
- * [v20.12] AI 모델별 예상 토큰 & 실제 결과값 및 화폐(KRW/IDR) 환산 카드 컴포넌트
+ * [v20.17] AI 모델별 예상 토큰 & 실제 결과값 및 화폐(KRW/IDR) 환산 카드 컴포넌트 (3개 국어 지원)
  */
 const TokenCostCard = ({ 
   mode = 'actual', // 'actual' | 'estimate'
@@ -21,6 +22,7 @@ const TokenCostCard = ({
   title = null,
   compact = false
 }) => {
+  const { userLang } = useLanguage();
   const [visible, setVisible] = useState(isTokenCostVisible());
   const [isExpanded, setIsExpanded] = useState(!compact);
 
@@ -52,11 +54,29 @@ const TokenCostCard = ({
       }
     }
   } else {
-    // estimate
     displayData = getEstimatedTokensAndCost(actionType, currentModel, { count, ttsEngine: currentEngine });
   }
 
   if (!displayData) return null;
+
+  const badgeLabel = mode === 'actual'
+    ? (userLang === 'id' ? '✨ Aktual' : userLang === 'en' ? '✨ Actual' : '✨ 실제 사용')
+    : (userLang === 'id' ? '📊 Estimasi' : userLang === 'en' ? '📊 Estimate' : '📊 예상 견적');
+
+  const defaultTitle = mode === 'actual'
+    ? (userLang === 'id' ? 'Hasil Token & Biaya AI' : userLang === 'en' ? 'AI Token & Cost Result' : 'AI 토큰 & 비용 결과')
+    : (userLang === 'id' ? 'Estimasi Token & Biaya' : userLang === 'en' ? 'Estimated Tokens & Cost' : '예상 토큰 및 비용');
+
+  const labels = {
+    input: userLang === 'id' ? 'Token Input:' : userLang === 'en' ? 'Input Tokens:' : '입력 토큰:',
+    output: userLang === 'id' ? 'Token Output:' : userLang === 'en' ? 'Output Tokens:' : '출력 토큰:',
+    total: userLang === 'id' ? 'Total Token:' : userLang === 'en' ? 'Total Tokens:' : '총 토큰:',
+    usd: userLang === 'id' ? 'Dolar USD:' : userLang === 'en' ? 'USD Dollar:' : 'USD 달러:',
+    ttsPremium: userLang === 'id' ? 'Suara Premium TTS:' : userLang === 'en' ? 'TTS Premium Voice:' : 'TTS 프리미엄 음성:',
+    ttsChars: userLang === 'id' ? 'Jumlah Karakter Suara:' : userLang === 'en' ? 'Audio Characters:' : '음성 글자 수:',
+    charUnit: userLang === 'id' ? 'karakter' : userLang === 'en' ? 'chars' : '자 합성',
+    detailBtn: userLang === 'id' ? 'Lihat Detail' : userLang === 'en' ? 'View Details' : '상세 내역 보기'
+  };
 
   return (
     <div style={{
@@ -71,16 +91,16 @@ const TokenCostCard = ({
       transition: 'all 0.2s ease'
     }}>
       {/* 헤더 줄 */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: '900' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '6px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: '900', flexWrap: 'wrap' }}>
           <div style={{ 
             background: mode === 'actual' ? '#10b981' : '#6366f1', 
             color: '#fff', padding: '2px 6px', borderRadius: '6px', fontSize: '0.72rem' 
           }}>
-            {mode === 'actual' ? '✨ 실제 사용' : '📊 예상 견적'}
+            {badgeLabel}
           </div>
           <span style={{ color: '#1e293b' }}>
-            {title || displayData.title || (mode === 'actual' ? 'AI 토큰 & 비용 결과' : '예상 토큰 및 비용')}
+            {title || displayData.title || defaultTitle}
           </span>
           <span style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
             ({displayData.modelName})
@@ -88,7 +108,6 @@ const TokenCostCard = ({
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {/* 주요 환산 비용 뱃지 */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
             <span style={{ 
               background: '#ecfdf5', border: '1px solid #a7f3d0', color: '#047857', 
@@ -107,7 +126,7 @@ const TokenCostCard = ({
           <button 
             onClick={() => setIsExpanded(!isExpanded)}
             style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#64748b', padding: '2px', display: 'flex' }}
-            title="상세 내역 보기"
+            title={labels.detailBtn}
           >
             {isExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
           </button>
@@ -124,19 +143,19 @@ const TokenCostCard = ({
           {!displayData.isTtsOnly && (
             <>
               <div>
-                <strong style={{ color: '#059669' }}>입력 토큰:</strong>{' '}
+                <strong style={{ color: '#059669' }}>{labels.input}</strong>{' '}
                 {mode === 'actual' ? displayData.promptTokens?.toLocaleString() : displayData.inputTokens?.toLocaleString()} tokens
               </div>
               <div>
-                <strong style={{ color: '#2563eb' }}>출력 토큰:</strong>{' '}
+                <strong style={{ color: '#2563eb' }}>{labels.output}</strong>{' '}
                 {mode === 'actual' ? displayData.candidatesTokens?.toLocaleString() : displayData.outputTokens?.toLocaleString()} tokens
               </div>
               <div>
-                <strong style={{ color: '#7c3aed' }}>총 토큰:</strong>{' '}
-                {mode === 'actual' ? displayData.totalTokens?.toLocaleString() : displayData.totalTokens?.toLocaleString()} tokens
+                <strong style={{ color: '#7c3aed' }}>{labels.total}</strong>{' '}
+                {displayData.totalTokens?.toLocaleString()} tokens
               </div>
               <div>
-                <strong style={{ color: '#475569' }}>USD 달러:</strong>{' '}
+                <strong style={{ color: '#475569' }}>{labels.usd}</strong>{' '}
                 {displayData.usdText}
               </div>
             </>
@@ -144,7 +163,7 @@ const TokenCostCard = ({
 
           {displayData.tts && (
             <div style={{ gridColumn: '1 / -1', background: '#fff', padding: '6px 10px', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
-              🎙️ <strong>TTS 프리미엄 음성:</strong> {displayData.tts.charCount}자 합성 |{' '}
+              🎙️ <strong>{labels.ttsPremium}</strong> {displayData.tts.charCount} {labels.charUnit} |{' '}
               <span style={{ color: '#047857', fontWeight: '800' }}>🇰🇷 {displayData.tts.krwText}</span>{' '}
               <span style={{ color: '#1d4ed8', fontWeight: '800' }}>🇮🇩 ({displayData.tts.idrText})</span>{' '}
               <span style={{ color: '#64748b', fontSize: '0.72rem' }}>({displayData.tts.freeTierNotice})</span>
@@ -153,7 +172,7 @@ const TokenCostCard = ({
 
           {displayData.isTtsOnly && (
             <div style={{ gridColumn: '1 / -1' }}>
-              🎙️ <strong>음성 글자 수:</strong> {displayData.charCount}자 ({displayData.ttsEngine === 'google' ? 'Google HD' : '기본 TTS'}) |{' '}
+              🎙️ <strong>{labels.ttsChars}</strong> {displayData.charCount} {labels.charUnit} ({displayData.ttsEngine === 'google' ? 'Google HD' : 'Basic TTS'}) |{' '}
               <span style={{ color: '#64748b' }}>{displayData.freeTierNotice}</span>
             </div>
           )}

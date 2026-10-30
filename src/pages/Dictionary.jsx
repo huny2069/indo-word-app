@@ -20,6 +20,10 @@ import {
   extractOfflineWords,
   ALL_OFFLINE_WORDS 
 } from '../data/offlineDatabase';
+import {
+  getCategoryDisplayName,
+  getSubcategoryDisplayName
+} from '../data/categories';
 
 const Dictionary = () => {
   const { userLang, studyLang, t } = useLanguage();
@@ -157,7 +161,7 @@ const Dictionary = () => {
     try {
       const cleanKey = normalizeWord(item.word);
       if (existingWordMap.has(cleanKey)) {
-        alert(`'${item.word}' 단어는 이미 단어장에 존재합니다.`);
+        alert(t('dict_msg_already_exists', { word: item.word }));
         return;
       }
 
@@ -165,20 +169,20 @@ const Dictionary = () => {
         ...item,
         user_lang: userLang,
         study_lang: studyLang,
-        topic: selectedCategory?.name || '오프라인 사전'
+        topic: getCategoryDisplayName(selectedCategory, userLang) || selectedCategory?.name || 'Offline Dictionary'
       };
       await addWord(wordData);
       await refreshLocalWords();
-      alert(`'${item.word}' 단어가 내 단어장에 추가되었습니다! 🍌`);
+      alert(t('dict_msg_added_single', { word: item.word }));
     } catch (err) {
-      alert('추가 실패: ' + err.message);
+      alert((userLang === 'id' ? 'Gagal menambahkan: ' : userLang === 'en' ? 'Failed to add: ' : '추가 실패: ') + err.message);
     }
   };
 
   // 선택한 단어들 일괄 담기
   const handleAddSelectedOfflineWords = async () => {
     if (selectedOfflineIds.size === 0) {
-      alert('추가할 단어를 먼저 체크해 주세요.');
+      alert(t('dict_msg_check_first'));
       return;
     }
 
@@ -194,7 +198,7 @@ const Dictionary = () => {
           ...item,
           user_lang: userLang,
           study_lang: studyLang,
-          topic: selectedCategory?.name || '오프라인 사전'
+          topic: getCategoryDisplayName(selectedCategory, userLang) || selectedCategory?.name || 'Offline Dictionary'
         };
         await addWord(wordData);
         addedCount++;
@@ -202,9 +206,9 @@ const Dictionary = () => {
 
       await refreshLocalWords();
       setSelectedOfflineIds(new Set());
-      alert(`선택한 단어 중 ${addedCount}개가 단어장에 추가되었습니다!`);
+      alert(t('dict_msg_added_multi', { count: addedCount }));
     } catch (err) {
-      alert('추가 실패: ' + err.message);
+      alert((userLang === 'id' ? 'Gagal menambahkan: ' : userLang === 'en' ? 'Failed to add: ' : '추가 실패: ') + err.message);
     }
   };
 
@@ -212,10 +216,10 @@ const Dictionary = () => {
   const handleExportCurrentCategoryCSV = () => {
     try {
       if (!currentCategoryWords || currentCategoryWords.length === 0) {
-        alert('내보낼 단어가 없습니다.');
+        alert(t('dict_msg_no_export_words'));
         return;
       }
-      const catName = selectedCategory?.name || '카테고리';
+      const catName = getCategoryDisplayName(selectedCategory, userLang) || selectedCategory?.name || 'Category';
       const csvContent = convertToCSV(currentCategoryWords);
       const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
@@ -224,9 +228,9 @@ const Dictionary = () => {
       const safeCatId = selectedCategory?.id || 'category';
       link.setAttribute('download', `Inko_10K_${safeCatId}_Export_${new Date().toISOString().slice(0,10)}.csv`);
       link.click();
-      alert(`🎉 [${catName}] 단어 ${currentCategoryWords.length}개가 CSV 파일로 성공적으로 저장되었습니다!`);
+      alert(t('dict_msg_csv_exported', { name: catName, count: currentCategoryWords.length }));
     } catch (err) {
-      alert('CSV 내보내기 실패: ' + err.message);
+      alert('CSV Export Error: ' + err.message);
     }
   };
 
@@ -245,7 +249,7 @@ const Dictionary = () => {
       });
 
       if (extracted.length === 0) {
-        alert('선택한 카테고리의 모든 단어가 이미 단어장에 존재하거나 조건에 맞는 단어가 없습니다.');
+        alert(t('dict_msg_all_extracted'));
         setOfflineAdding(false);
         return;
       }
@@ -259,16 +263,16 @@ const Dictionary = () => {
           ...dataToSave,
           user_lang: userLang,
           study_lang: studyLang,
-          topic: selectedCategory?.name + (selectedSubCatId ? ` > ${selectedSubCatId}` : '')
+          topic: getCategoryDisplayName(selectedCategory, userLang) + (selectedSubCatId ? ` > ${selectedSubCatId}` : '')
         };
         await addWord(wordData);
       }
 
       await refreshLocalWords();
-      alert(`🎉 ${extracted.length}개의 단어가 단어장에 성공적으로 추가되었습니다!`);
+      alert(t('dict_msg_extracted_done', { count: extracted.length }));
     } catch (err) {
       console.error('오프라인 단어 추가 오류:', err);
-      alert('단어 추가 중 오류가 발생했습니다: ' + err.message);
+      alert((userLang === 'id' ? 'Terjadi kesalahan saat menambahkan kata: ' : userLang === 'en' ? 'Error adding words: ' : '단어 추가 중 오류가 발생했습니다: ') + err.message);
     } finally {
       setOfflineAdding(false);
     }
@@ -300,7 +304,7 @@ const Dictionary = () => {
     if (selectedOfflineIds.size === 0 || isRegenerating) return;
     const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey || !apiKey.trim()) {
-      alert('Gemini API 키가 필요합니다. 설정 탭에서 API 키를 먼저 입력해주세요.');
+      alert(t('msg_ai_key_missing'));
       navigate('/settings');
       return;
     }
@@ -366,10 +370,10 @@ const Dictionary = () => {
       if (lastRegenUsage) {
         alertActualTokenCost('regenerate', lastRegenUsage, modelName);
       } else {
-        alert(`✨ ${successCount}개 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면과 단어장에 즉시 반영되었습니다!`);
+        alert(t('msg_regenerate_done', { count: successCount }));
       }
     } catch (err) {
-      alert('재생성 중 오류 발생: ' + (err.message || ''));
+      alert(t('msg_regenerate_error') + ' ' + (err.message || ''));
     } finally {
       setIsRegenerating(false);
       setRegenStatus({ current: 0, total: 0, currentWord: '' });
@@ -382,7 +386,7 @@ const Dictionary = () => {
     if (isRegenerating) return;
     const apiKey = localStorage.getItem('geminiApiKey') || import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey || !apiKey.trim()) {
-      alert('Gemini API 키가 필요합니다. 설정 탭에서 API 키를 먼저 입력해주세요.');
+      alert(t('msg_ai_key_missing'));
       navigate('/settings');
       return;
     }
@@ -438,11 +442,11 @@ const Dictionary = () => {
       if (regenerated && regenerated._usageMetadata) {
         alertActualTokenCost('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
       } else {
-        alert(`'${item.word}' 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면에 즉시 반영되었습니다! ✨`);
+        alert(t('msg_regenerate_single_done', { word: item.word }));
       }
     } catch (err) {
       console.error(err);
-      alert('재생성 실패: ' + (err.message || ''));
+      alert(t('msg_regenerate_error') + ' ' + (err.message || ''));
     } finally {
       setIsRegenerating(false);
       setRegenStatus({ current: 0, total: 0, currentWord: '' });
@@ -455,12 +459,12 @@ const Dictionary = () => {
     const cleanKey = normalizeWord(item.word);
     if (!dictOverrides[cleanKey]) return;
 
-    if (window.confirm(`'${item.word}' 단어를 원래 초기 사전 데이터로 되돌리시겠습니까?`)) {
+    if (window.confirm(t('dict_msg_reset_confirm', { word: item.word }))) {
       const newOverrides = { ...dictOverrides };
       delete newOverrides[cleanKey];
       setDictOverrides(newOverrides);
       localStorage.setItem('inko_dict_overrides', JSON.stringify(newOverrides));
-      alert(`'${item.word}' 단어가 원래 사전 데이터로 복원되었습니다.`);
+      alert(t('dict_msg_reset_done', { word: item.word }));
     }
   };
 
@@ -470,10 +474,10 @@ const Dictionary = () => {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
         <div>
           <h2 style={{ margin: 0, color: 'var(--nana-dark)', fontWeight: '900', fontSize: '1.8rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-            <BookOpen size={28} color="#f6b93b" /> 1만단어 사전
+            <BookOpen size={28} color="#f6b93b" /> {t('dict_title')}
           </h2>
           <p style={{ margin: '0.3rem 0 0', color: '#666', fontSize: '0.95rem', fontWeight: '600' }}>
-            체계적인 대분류/소분류 카테고리별 열람, 검색 및 잘못 생성된 단어는 즉시 [AI 재생성]을 눌러 올바르게 교체하세요!
+            {t('dict_subtitle')}
           </p>
         </div>
 
@@ -486,7 +490,7 @@ const Dictionary = () => {
             boxShadow: '0 2px 8px rgba(0,0,0,0.04)' 
           }}
         >
-          내 단어장 확인 <ArrowRight size={16} />
+          {t('dict_goto_my_words')} <ArrowRight size={16} />
         </button>
       </div>
 
@@ -497,7 +501,7 @@ const Dictionary = () => {
             <Search size={22} color="#f6b93b" />
             <input 
               type="text" 
-              placeholder="1만 단어 사전 실시간 검색 (단어, 한국어 뜻, 어근, 뉘앙스)..." 
+              placeholder={t('dict_search_ph')} 
               value={offlineSearchQuery}
               onChange={(e) => setOfflineSearchQuery(e.target.value)}
               style={{ flex: 1, border: 'none', outline: 'none', fontSize: '1.05rem', fontWeight: '600' }}
@@ -506,7 +510,7 @@ const Dictionary = () => {
               <button 
                 onClick={() => setOfflineSearchQuery('')} 
                 style={{ background: '#f1f3f5', border: 'none', padding: '4px 10px', borderRadius: '20px', cursor: 'pointer', fontSize: '0.8rem', fontWeight: '700', color: '#888' }}>
-                초기화
+                {t('dict_search_reset')}
               </button>
             )}
           </div>
@@ -514,7 +518,7 @@ const Dictionary = () => {
           {/* 검색 결과 리스트 */}
           {searchResults.length > 0 && (
             <div style={{ marginTop: '1.2rem', borderTop: '1px solid #f1f3f5', paddingTop: '1rem', display: 'grid', gap: '0.8rem', maxHeight: '360px', overflowY: 'auto' }}>
-              <div style={{ fontSize: '0.85rem', color: '#888', fontWeight: '700' }}>검색 결과 {searchResults.length}건</div>
+              <div style={{ fontSize: '0.85rem', color: '#888', fontWeight: '700' }}>{t('dict_search_count', { count: searchResults.length })}</div>
               {searchResults.map(item => {
                 const cleanKey = normalizeWord(item.word);
                 const isAdded = existingWordMap.has(cleanKey);
@@ -526,10 +530,10 @@ const Dictionary = () => {
                         <span style={{ fontSize: '0.75rem', background: '#fff', padding: '2px 8px', borderRadius: '10px', border: '1px solid #ddd', color: '#666' }}>{item.pos}</span>
                         {item.isAiRegenerated && (
                           <span style={{ fontSize: '0.75rem', background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', color: '#fff', padding: '2px 8px', borderRadius: '10px', fontWeight: '900' }}>
-                            AI 재생성됨 ✨
+                            {t('dict_badge_regenerated')}
                           </span>
                         )}
-                        {isAdded && <span style={{ fontSize: '0.75rem', background: '#e8f8f5', color: '#10ac84', padding: '2px 8px', borderRadius: '10px', fontWeight: '800' }}>내 단어장에 있음 ✓</span>}
+                        {isAdded && <span style={{ fontSize: '0.75rem', background: '#e8f8f5', color: '#10ac84', padding: '2px 8px', borderRadius: '10px', fontWeight: '800' }}>{t('dict_badge_in_my_words')}</span>}
                       </div>
                       <div style={{ fontSize: '0.9rem', color: '#555', marginTop: '2px' }}>= {item.meaning}</div>
                     </div>
@@ -542,9 +546,9 @@ const Dictionary = () => {
                           color: '#fff', border: 'none', padding: '0.45rem 0.8rem', borderRadius: '15px', fontSize: '0.75rem', fontWeight: '800', 
                           cursor: 'pointer', boxShadow: '0 2px 6px rgba(108, 92, 231, 0.2)' 
                         }}
-                        title="이 단어 AI 재생성"
+                        title={t('dict_btn_regen_short')}
                       >
-                        <Sparkles size={13} /> 재생성
+                        <Sparkles size={13} /> {t('dict_btn_regen_short')}
                       </button>
                       <button 
                         onClick={() => handleAddSingleOfflineWord(item)}
@@ -557,7 +561,7 @@ const Dictionary = () => {
                           cursor: isAdded ? 'default' : 'pointer' 
                         }}
                       >
-                        <BookmarkPlus size={13} /> {isAdded ? '담김' : '단어장 담기'}
+                        <BookmarkPlus size={13} /> {isAdded ? t('dict_btn_added') : t('dict_btn_add')}
                       </button>
                     </div>
                   </div>
@@ -570,7 +574,7 @@ const Dictionary = () => {
         {/* 대분류 카테고리 탭 셀렉터 */}
         <div style={{ background: '#fff', padding: '1.5rem', borderRadius: '30px', boxShadow: '0 8px 20px rgba(0,0,0,0.03)', border: '2px solid #feca57' }}>
           <h3 style={{ margin: '0 0 1rem', fontSize: '1.1rem', fontWeight: '900', color: 'var(--nana-dark)' }}>
-            🎯 카테고리 선택
+            {t('dict_cat_select_title')}
           </h3>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.8rem', marginBottom: '1.5rem' }}>
@@ -590,8 +594,8 @@ const Dictionary = () => {
                 >
                   <span style={{ fontSize: '2rem' }}>{cat.icon}</span>
                   <div>
-                    <div style={{ fontWeight: '900', color: isSelected ? 'var(--nana-dark)' : '#555', fontSize: '0.95rem' }}>{cat.name}</div>
-                    <div style={{ fontSize: '0.75rem', color: '#999', marginTop: '2px' }}>{cat.subcategories.length}개 소분류</div>
+                    <div style={{ fontWeight: '900', color: isSelected ? 'var(--nana-dark)' : '#555', fontSize: '0.95rem' }}>{getCategoryDisplayName(cat, userLang)}</div>
+                    <div style={{ fontSize: '0.75rem', color: '#999', marginTop: '2px' }}>{t('dict_subcat_count', { count: cat.subcategories.length })}</div>
                   </div>
                 </button>
               );
@@ -602,7 +606,7 @@ const Dictionary = () => {
           {selectedCategory && (
             <div style={{ background: '#fdfbf7', padding: '1.2rem', borderRadius: '20px', border: '1px dashed #feca57', marginBottom: '1.5rem' }}>
               <div style={{ fontSize: '0.85rem', fontWeight: '800', color: '#856404', marginBottom: '0.8rem' }}>
-                📌 {selectedCategory.name} 상세 소분류:
+                {t('dict_subcat_label', { name: getCategoryDisplayName(selectedCategory, userLang) })}
               </div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                 <button
@@ -614,7 +618,7 @@ const Dictionary = () => {
                     border: selectedSubCatId === '' ? 'none' : '1px solid #ddd'
                   }}
                 >
-                  ✨ 전체 소분류
+                  {t('dict_subcat_all')}
                 </button>
                 {selectedCategory.subcategories.map(sub => {
                   const isSubSelected = selectedSubCatId === sub.id;
@@ -629,7 +633,7 @@ const Dictionary = () => {
                         border: isSubSelected ? 'none' : '1px solid #ddd'
                       }}
                     >
-                      {sub.name}
+                      {getSubcategoryDisplayName(sub, userLang)}
                     </button>
                   );
                 })}
@@ -640,17 +644,17 @@ const Dictionary = () => {
           {/* 빠른 일괄 자동 추출 컨트롤 바 */}
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap', padding: '1rem 1.2rem', background: '#f8f9fa', borderRadius: '20px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
-              <span style={{ fontWeight: '800', color: '#444', fontSize: '0.95rem' }}>랜덤 자동 추출:</span>
+              <span style={{ fontWeight: '800', color: '#444', fontSize: '0.95rem' }}>{t('dict_random_extract_label')}</span>
               <select 
                 value={offlineCount} 
                 onChange={(e) => setOfflineCount(Number(e.target.value))}
                 style={{ padding: '0.5rem 0.8rem', borderRadius: '12px', border: '2px solid #ddd', fontSize: '0.95rem', fontWeight: '800', outline: 'none' }}
               >
-                <option value={5}>5개</option>
-                <option value={10}>10개 (추천)</option>
-                <option value={15}>15개</option>
-                <option value={20}>20개</option>
-                <option value={30}>30개 (최대)</option>
+                <option value={5}>5</option>
+                <option value={10}>10 ⭐</option>
+                <option value={15}>15</option>
+                <option value={20}>20</option>
+                <option value={30}>30 (MAX)</option>
               </select>
             </div>
 
@@ -663,7 +667,7 @@ const Dictionary = () => {
                 boxShadow: '0 4px 0 #e67e22', transition: 'transform 0.1s ease'
               }}
             >
-              <CheckCircle2 size={18} /> {offlineAdding ? '추가 중...' : `${offlineCount}개 자동 담기`}
+              <CheckCircle2 size={18} /> {offlineAdding ? t('dict_adding_loading') : t('dict_auto_add_btn', { count: offlineCount })}
             </button>
           </div>
         </div>
@@ -674,17 +678,16 @@ const Dictionary = () => {
             <div>
               <h3 style={{ margin: 0, fontSize: '1.2rem', fontWeight: '900', color: 'var(--nana-dark)', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Layers size={20} color="#f6b93b" /> 
-                {selectedCategory?.name} 사전 목록 ({currentCategoryWords.length}개)
+                {t('dict_list_title', { name: getCategoryDisplayName(selectedCategory, userLang), count: currentCategoryWords.length })}
               </h3>
               <p style={{ margin: '0.2rem 0 0', fontSize: '0.85rem', color: '#888' }}>
-                단어를 확인하고, 잘못된 단어는 <b>[재생성]</b>을 누르면 올바른 어근·문법·예문으로 화면에 즉시 교체됩니다.
+                {t('dict_list_desc')}
               </p>
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
               <button
                 onClick={handleExportCurrentCategoryCSV}
-                title="현재 카테고리 단어들을 CSV 파일로 백업합니다"
                 style={{
                   display: 'flex', alignItems: 'center', gap: '6px',
                   padding: '0.55rem 1rem', background: '#f0fdf4', border: '1.5px solid #86efac', 
@@ -692,7 +695,7 @@ const Dictionary = () => {
                   boxShadow: '0 2px 4px rgba(0,0,0,0.03)'
                 }}
               >
-                <FileDown size={16} /> 이 카테고리 백업 ({currentCategoryWords.length}개)
+                <FileDown size={16} /> {t('dict_export_cat_btn', { count: currentCategoryWords.length })}
               </button>
 
               <button
@@ -707,7 +710,7 @@ const Dictionary = () => {
                 ) : (
                   <Square size={16} color="#aaa" />
                 )}
-                전체 선택 ({selectedOfflineIds.size}/{currentCategoryWords.length})
+                {t('list_all_select')} ({selectedOfflineIds.size}/{currentCategoryWords.length})
               </button>
 
               {selectedOfflineIds.size > 0 && (
@@ -722,7 +725,7 @@ const Dictionary = () => {
                       boxShadow: '0 3px 10px rgba(108, 92, 231, 0.3)'
                     }}
                   >
-                    <Sparkles size={16} /> 선택 {selectedOfflineIds.size}개 AI 재생성
+                    <Sparkles size={16} /> {t('dict_regen_selected_btn', { count: selectedOfflineIds.size })}
                   </button>
 
                   <button
@@ -733,7 +736,7 @@ const Dictionary = () => {
                       boxShadow: '0 3px 0 #009677'
                     }}
                   >
-                    <BookmarkPlus size={16} /> 선택 {selectedOfflineIds.size}개 담기
+                    <BookmarkPlus size={16} /> {t('dict_add_selected_btn', { count: selectedOfflineIds.size })}
                   </button>
                 </>
               )}
@@ -802,12 +805,12 @@ const Dictionary = () => {
                               fontWeight: '900',
                               boxShadow: '0 2px 5px rgba(108, 92, 231, 0.25)'
                             }}>
-                              AI 재생성 완료 ✨
+                              {t('dict_badge_regenerated')}
                             </span>
                           )}
                           {isAlreadyInDb && (
                             <span style={{ fontSize: '0.7rem', background: '#e8f8f5', color: '#10ac84', padding: '2px 8px', borderRadius: '8px', fontWeight: '900' }}>
-                              내 단어장에 있음 ✓
+                              {t('dict_badge_in_my_words')}
                             </span>
                           )}
                         </div>
@@ -821,7 +824,6 @@ const Dictionary = () => {
                       <button
                         onClick={(e) => { e.stopPropagation(); playAudio(item.word, studyLang); }}
                         style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', color: '#1976d2', padding: '8px', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
-                        title="발음 듣기"
                       >
                         <Volume2 size={18} />
                       </button>
@@ -837,9 +839,8 @@ const Dictionary = () => {
                           cursor: isRegenerating ? 'default' : 'pointer',
                           boxShadow: '0 2px 6px rgba(108, 92, 231, 0.25)'
                         }}
-                        title="AI로 단어 다시 생성"
                       >
-                        <Sparkles size={14} /> 재생성
+                        <Sparkles size={14} /> {t('dict_btn_regen_short')}
                       </button>
 
                       <button
@@ -854,7 +855,7 @@ const Dictionary = () => {
                           boxShadow: isAlreadyInDb ? 'none' : '0 3px 0 #e67e22'
                         }}
                       >
-                        <BookmarkPlus size={14} /> {isAlreadyInDb ? '담김' : '담기'}
+                        <BookmarkPlus size={14} /> {isAlreadyInDb ? t('dict_btn_added') : t('dict_btn_add_short')}
                       </button>
 
                       <div style={{ color: '#aaa', padding: '4px' }}>
@@ -870,32 +871,31 @@ const Dictionary = () => {
                       <div style={{ background: item.isAiRegenerated ? '#faf5ff' : '#fdfbf7', padding: '1.2rem', borderRadius: '18px', border: item.isAiRegenerated ? '1.5px solid #c084fc' : '1.5px solid #feca57', display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '0.85rem' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', background: item.isAiRegenerated ? '#a855f7' : '#feca57', color: '#fff', padding: '2px 8px', borderRadius: '8px', fontSize: '0.7rem', fontWeight: '900' }}>
-                            {item.isAiRegenerated ? '✨ AI 1타 강사 정밀 분석 노트' : '🔥 스타 강사의 시크릿 노트'}
+                            {item.isAiRegenerated ? t('dict_ai_secret_note') : t('list_teacher_secret_note')}
                           </div>
                           {item.isAiRegenerated && (
                             <button 
                               onClick={(e) => handleResetOverride(item, e)}
                               style={{ background: 'none', border: 'none', color: '#a855f7', fontSize: '0.75rem', fontWeight: '800', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '2px' }}
-                              title="원래 사전 데이터로 되돌리기"
                             >
-                              <RotateCcw size={12} /> 원본 복원
+                              <RotateCcw size={12} /> {t('dict_btn_restore_orig')}
                             </button>
                           )}
                         </div>
 
-                        {item.root && <div><b style={{ color: '#27ae60' }}>어근 (Kata Dasar):</b> <span style={{ fontWeight: '800', color: '#2d3436' }}>{item.root}</span></div>}
-                        {item.grammar_rule && <div><b style={{ color: '#c0392b' }}>문법 변형 규칙:</b> {item.grammar_rule}</div>}
-                        {item.synonym && <div><b style={{ color: '#00b894' }}>동의어:</b> {item.synonym}</div>}
-                        {item.antonym && <div><b style={{ color: '#d63031' }}>반의어:</b> {item.antonym}</div>}
-                        {item.context && <div><b style={{ color: '#2980b9' }}>상황/분위기:</b> {item.context}</div>}
+                        {item.root && <div><b style={{ color: '#27ae60' }}>{t('label_root')}:</b> <span style={{ fontWeight: '800', color: '#2d3436' }}>{item.root}</span></div>}
+                        {item.grammar_rule && <div><b style={{ color: '#c0392b' }}>{t('label_grammar')}:</b> {item.grammar_rule}</div>}
+                        {item.synonym && <div><b style={{ color: '#00b894' }}>{t('label_synonym')}:</b> {item.synonym}</div>}
+                        {item.antonym && <div><b style={{ color: '#d63031' }}>{t('label_antonym')}:</b> {item.antonym}</div>}
+                        {item.context && <div><b style={{ color: '#2980b9' }}>{t('label_context')}:</b> {item.context}</div>}
                         {item.caution && (
                           <div style={{ background: '#fff5f5', padding: '0.6rem', borderRadius: '10px', borderLeft: '3px solid #ff7675' }}>
-                            <b style={{ color: '#d63031' }}>주의점:</b> {item.caution}
+                            <b style={{ color: '#d63031' }}>{t('label_caution')}:</b> {item.caution}
                           </div>
                         )}
                         {item.related && (
                           <div style={{ background: '#f0faff', padding: '0.6rem', borderRadius: '10px', borderLeft: '3px solid #4facfe' }}>
-                            <b style={{ color: '#0984e3' }}>💡 1타 강사 팁:</b> {item.related}
+                            <b style={{ color: '#0984e3' }}>{t('list_teacher_tip')}</b> {item.related}
                           </div>
                         )}
                       </div>
@@ -905,7 +905,7 @@ const Dictionary = () => {
                         {item.example_formal && (
                           <div style={{ background: '#fdfcfe', padding: '1rem', borderRadius: '16px', border: '1px solid #eee' }}>
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
-                              <span style={{ color: '#2c3e50', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>격식체</span>
+                              <span style={{ color: '#2c3e50', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>{t('label_formal')}</span>
                               <div style={{ flex: 1, fontSize: '0.9rem', color: '#333', lineHeight: '1.4' }}>
                                 <InteractiveSentence sentence={item.example_formal} wordBreakdown={item.word_breakdown} breakdown={item.word_breakdown} />
                               </div>
@@ -920,7 +920,7 @@ const Dictionary = () => {
                         {item.example_casual && (
                           <div style={{ background: '#fff9f0', padding: '1rem', borderRadius: '16px', border: '1px solid #fff3e0' }}>
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', marginBottom: '0.4rem' }}>
-                              <span style={{ color: '#d35400', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>구어체</span>
+                              <span style={{ color: '#d35400', fontWeight: '900', fontSize: '0.8rem', minWidth: '55px' }}>{t('label_casual')}</span>
                               <div style={{ flex: 1, fontSize: '0.9rem', color: '#333', lineHeight: '1.4' }}>
                                 <InteractiveSentence sentence={item.example_casual} wordBreakdown={item.word_breakdown} breakdown={item.word_breakdown} />
                               </div>
@@ -945,7 +945,7 @@ const Dictionary = () => {
                               boxShadow: '0 3px 8px rgba(108, 92, 231, 0.25)'
                             }}
                           >
-                            <Sparkles size={15} /> AI로 다시 올바르게 생성
+                            <Sparkles size={15} /> {t('btn_regenerate_single')}
                           </button>
                         </div>
                       </div>
@@ -980,11 +980,10 @@ const Dictionary = () => {
             </div>
 
             <h3 style={{ margin: '0 0 0.5rem', fontWeight: '900', fontSize: '1.35rem', color: '#2d3436' }}>
-              사전 단어 AI 정밀 재생성 중...
+              {t('regen_modal_title')}
             </h3>
             <p style={{ margin: '0 0 1.5rem', color: '#636e72', fontWeight: '700', fontSize: '0.95rem' }}>
-              인도네시아어 어근, 접사 문법 변화 원리, 동/반의어 및<br/>
-              예문 단어별 전수 분석을 엄격히 적용하여 즉시 화면에 반영합니다.
+              {t('regen_modal_desc')}
             </p>
 
             <div style={{ 
@@ -992,7 +991,7 @@ const Dictionary = () => {
               marginBottom: '1.2rem', border: '1.5px solid #edf2f7' 
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem', fontWeight: '800', fontSize: '0.9rem', color: '#4a5568' }}>
-                <span>진행 상황</span>
+                <span>{t('regen_modal_progress')}</span>
                 <span style={{ color: '#6c5ce7' }}>{regenStatus.current} / {regenStatus.total}</span>
               </div>
               <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '8px', overflow: 'hidden' }}>
@@ -1005,13 +1004,13 @@ const Dictionary = () => {
               </div>
               {regenStatus.currentWord && (
                 <div style={{ marginTop: '0.8rem', fontWeight: '900', color: '#2d3436', fontSize: '1.05rem' }}>
-                  현재 단어: <span style={{ color: '#6c5ce7' }}>{regenStatus.currentWord}</span>
+                  {t('regen_modal_current')} <span style={{ color: '#6c5ce7' }}>{regenStatus.currentWord}</span>
                 </div>
               )}
             </div>
 
             <p style={{ margin: 0, fontSize: '0.8rem', color: '#a0aec0', fontWeight: '600' }}>
-              완료될 때까지 잠시만 창을 유지해 주세요.
+              {t('regen_modal_wait')}
             </p>
           </div>
         </div>

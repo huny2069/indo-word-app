@@ -106,9 +106,9 @@ const Dashboard = () => {
       return (
           <div className="page" style={{ padding: '2rem', textAlign: 'center' }}>
               <AlertTriangle size={48} color="#ff4d4f" />
-              <h3 style={{ marginTop: '1rem' }}>에러가 발생했습니다.</h3>
+              <h3 style={{ marginTop: '1rem' }}>{t('dash_error_title')}</h3>
               <p style={{ color: '#666' }}>{error}</p>
-              <button onClick={() => window.location.reload()} style={{ padding: '0.8rem 1.5rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '15px', cursor: 'pointer' }}>새로고침</button>
+              <button onClick={() => window.location.reload()} style={{ padding: '0.8rem 1.5rem', background: 'var(--primary-color)', color: '#fff', border: 'none', borderRadius: '15px', cursor: 'pointer' }}>{t('dash_error_reload')}</button>
           </div>
       );
   }
@@ -227,7 +227,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         )) : (
-                            <div style={{ color: '#ccc', padding: '1rem' }}>기록이 없습니다.</div>
+                            <div style={{ color: '#ccc', padding: '1rem' }}>{t('dash_no_records')}</div>
                         )}
                     </div>
                 </div>
