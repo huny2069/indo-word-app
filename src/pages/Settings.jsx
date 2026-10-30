@@ -1022,10 +1022,10 @@ const Settings = () => {
                         <Calculator size={20} color="#f59e0b" />
                         <div>
                             <div style={{ fontSize: '0.95rem', fontWeight: '900', color: '#1e293b' }}>
-                                {userLang === 'id' ? 'Kalkulator Token & Biaya Real-time (KRW ₩ / IDR Rp)' : userLang === 'en' ? 'Token & Real-time Cost Calculator (KRW ₩ / IDR Rp)' : '토큰 및 실시간 비용 계산기 (KRW ₩ / IDR Rp)'}
+                                {t('token_title')}
                             </div>
                             <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
-                                {userLang === 'id' ? 'Menampilkan estimasi & penggunaan token beserta konversi Rupiah/Won' : userLang === 'en' ? 'Shows estimated & actual token usage converted into KRW/IDR/USD' : '모델별 토큰 소모량과 원화/루피아 환산 금액 사전·실시간 표시'}
+                                {t('token_subtitle')}
                             </div>
                         </div>
                     </div>
@@ -1053,7 +1053,7 @@ const Settings = () => {
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px', flexWrap: 'wrap', gap: '6px' }}>
                                         <div style={{ fontWeight: '900', color: '#0f172a', display: 'flex', alignItems: 'center', gap: '5px' }}>
                                             <Coins size={14} color="#f59e0b" />
-                                            선택 모델 [{selectedGeminiModel || 'gemini-3.8-flash'}] 공식 단가표 (1M 토큰당):
+                                            {t('token_rate_label', { model: selectedGeminiModel || 'gemini-3.8-flash' })}
                                         </div>
                                         <a 
                                             href="https://ai.google.dev/gemini-api/docs/pricing?hl=ko#standard" 
@@ -1061,19 +1061,19 @@ const Settings = () => {
                                             rel="noopener noreferrer"
                                             style={{ fontSize: '0.72rem', color: '#2563eb', fontWeight: '800', textDecoration: 'underline', display: 'inline-flex', alignItems: 'center', gap: '2px' }}
                                         >
-                                            구글 공식 요금 문서 ↗
+                                            {t('token_doc_link')}
                                         </a>
                                     </div>
                                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '6px', color: '#475569' }}>
                                         <div>
-                                            📥 <strong>입력(Prompt):</strong> ${rates.input}/1M <span style={{ color: '#059669', fontWeight: '800' }}>(약 ₩{inKrw1M.toLocaleString()} / Rp {inIdr1M.toLocaleString()})</span>
+                                            📥 <strong>{t('token_prompt_input')}</strong> ${rates.input}/1M <span style={{ color: '#059669', fontWeight: '800' }}>({t('token_approx_krw_idr', { krw: inKrw1M.toLocaleString(), idr: inIdr1M.toLocaleString() })})</span>
                                         </div>
                                         <div>
-                                            📤 <strong>출력(Response):</strong> ${rates.output}/1M <span style={{ color: '#059669', fontWeight: '800' }}>(약 ₩{outKrw1M.toLocaleString()} / Rp {outIdr1M.toLocaleString()})</span>
+                                            📤 <strong>{t('token_response_output')}</strong> ${rates.output}/1M <span style={{ color: '#059669', fontWeight: '800' }}>({t('token_approx_krw_idr', { krw: outKrw1M.toLocaleString(), idr: outIdr1M.toLocaleString() })})</span>
                                         </div>
                                     </div>
                                     <div style={{ fontSize: '0.72rem', color: '#94a3b8', marginTop: '4px' }}>
-                                        * 구글 공식 표준(Standard) 요금제 기준 | 환율: 1 USD = 1,380 KRW(₩) = 16,000 IDR(Rp) | TTS: Basic(무료), Google HD($16/1M자, 월 100만자 무료)
+                                        {t('token_pricing_disclaimer')}
                                     </div>
                                 </div>
                             );
@@ -1108,10 +1108,10 @@ const Settings = () => {
                                     <BarChart3 size={20} color="#0284c7" />
                                     <div>
                                         <div style={{ fontSize: '1rem', fontWeight: '900', color: '#0f172a' }}>
-                                            {userLang === 'id' ? '📊 Total Penggunaan Token & Biaya Saya' : userLang === 'en' ? '📊 My Cumulative Token & Cost Usage' : '📊 내 토큰 & 요금 누적 사용량'}
+                                            {t('token_dash_title')}
                                         </div>
                                         <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '700' }}>
-                                            {userLang === 'id' ? 'Akumulasi token input/output dan biaya dari panggilan API & TTS' : userLang === 'en' ? 'Cumulative input/output tokens and costs from API & TTS calls' : '실제 API 호출 및 TTS 사용으로 누적된 입출력 토큰과 요금'}
+                                            {t('token_dash_desc')}
                                         </div>
                                     </div>
                                 </div>
@@ -1132,7 +1132,7 @@ const Settings = () => {
                                         transition: '0.2s'
                                     }}
                                 >
-                                    <RotateCcw size={13} /> {userLang === 'id' ? 'Reset Biaya' : userLang === 'en' ? 'Reset Stats' : '누적 요금 리셋'}
+                                    <RotateCcw size={13} /> {t('token_reset_btn')}
                                 </button>
                             </div>
 
@@ -1148,16 +1148,16 @@ const Settings = () => {
                                 gap: '0.8rem'
                             }}>
                                 <div>
-                                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '800' }}>총 소모 토큰</div>
+                                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '800' }}>{t('token_total_spent_tokens')}</div>
                                     <div style={{ fontSize: '1.25rem', fontWeight: '900', color: '#7c3aed' }}>
                                         {usageStats.total.totalTokens.toLocaleString()} <span style={{ fontSize: '0.8rem' }}>T</span>
                                     </div>
                                     <div style={{ fontSize: '0.72rem', color: '#94a3b8' }}>
-                                        입력: {usageStats.total.inputTokens.toLocaleString()} T / 출력: {usageStats.total.outputTokens.toLocaleString()} T
+                                        {t('token_total_in_out', { input: usageStats.total.inputTokens.toLocaleString(), output: usageStats.total.outputTokens.toLocaleString() })}
                                     </div>
                                 </div>
                                 <div>
-                                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '800' }}>누적 환산 요금 (KRW / IDR)</div>
+                                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '800' }}>{t('token_total_converted_cost')}</div>
                                     <div style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
                                         <span style={{ fontSize: '1.15rem', fontWeight: '900', color: '#059669' }}>
                                             ₩{formatCost(usageStats.total.usdCost).krwText}
@@ -1167,33 +1167,33 @@ const Settings = () => {
                                         </span>
                                     </div>
                                     <div style={{ fontSize: '0.72rem', color: '#94a3b8' }}>
-                                        USD: {formatCost(usageStats.total.usdCost).usdText} | 총 {usageStats.total.count}회 실행
+                                        {t('token_total_runs_info', { usd: formatCost(usageStats.total.usdCost).usdText, count: usageStats.total.count })}
                                     </div>
                                 </div>
                             </div>
 
                             {/* 작업별 4대 카테고리 상세 카드 */}
                             <div style={{ fontSize: '0.82rem', fontWeight: '900', color: '#334155', marginBottom: '6px' }}>
-                                📌 작업별 토큰 및 요금 상세 내역:
+                                {t('token_breakdown_title')}
                             </div>
                             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.6rem' }}>
                                 {/* 1. 단어생성 */}
                                 <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
                                         <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                                            📝 단어생성
+                                            {t('token_act_generate')}
                                         </strong>
                                         <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
-                                            {usageStats.byAction.generate.count}회
+                                            {t('token_count_unit', { count: usageStats.byAction.generate.count })}
                                         </span>
                                     </div>
                                     <div style={{ color: '#475569', lineHeight: '1.5' }}>
-                                        <div>총 토큰: <strong>{usageStats.byAction.generate.totalTokens.toLocaleString()} T</strong></div>
+                                        <div>{t('token_stat_total', { count: usageStats.byAction.generate.totalTokens.toLocaleString() })}</div>
                                         <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
-                                            (입력: {usageStats.byAction.generate.inputTokens.toLocaleString()} / 출력: {usageStats.byAction.generate.outputTokens.toLocaleString()})
+                                            {t('token_stat_io', { input: usageStats.byAction.generate.inputTokens.toLocaleString(), output: usageStats.byAction.generate.outputTokens.toLocaleString() })}
                                         </div>
                                         <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
-                                            요금: ₩{formatCost(usageStats.byAction.generate.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.generate.usdCost).idrText})</span>
+                                            {t('token_stat_fee')} ₩{formatCost(usageStats.byAction.generate.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.generate.usdCost).idrText})</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1202,19 +1202,19 @@ const Settings = () => {
                                 <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
                                         <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                                            🔄 단어 재생성
+                                            {t('token_act_regenerate')}
                                         </strong>
                                         <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
-                                            {usageStats.byAction.regenerate.count}회
+                                            {t('token_count_unit', { count: usageStats.byAction.regenerate.count })}
                                         </span>
                                     </div>
                                     <div style={{ color: '#475569', lineHeight: '1.5' }}>
-                                        <div>총 토큰: <strong>{usageStats.byAction.regenerate.totalTokens.toLocaleString()} T</strong></div>
+                                        <div>{t('token_stat_total', { count: usageStats.byAction.regenerate.totalTokens.toLocaleString() })}</div>
                                         <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
-                                            (입력: {usageStats.byAction.regenerate.inputTokens.toLocaleString()} / 출력: {usageStats.byAction.regenerate.outputTokens.toLocaleString()})
+                                            {t('token_stat_io', { input: usageStats.byAction.regenerate.inputTokens.toLocaleString(), output: usageStats.byAction.regenerate.outputTokens.toLocaleString() })}
                                         </div>
                                         <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
-                                            요금: ₩{formatCost(usageStats.byAction.regenerate.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.regenerate.usdCost).idrText})</span>
+                                            {t('token_stat_fee')} ₩{formatCost(usageStats.byAction.regenerate.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.regenerate.usdCost).idrText})</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1223,19 +1223,19 @@ const Settings = () => {
                                 <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
                                         <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                                            🎓 스타강사 특강
+                                            {t('token_act_lecture')}
                                         </strong>
                                         <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
-                                            {usageStats.byAction.lecture.count}회
+                                            {t('token_count_unit', { count: usageStats.byAction.lecture.count })}
                                         </span>
                                     </div>
                                     <div style={{ color: '#475569', lineHeight: '1.5' }}>
-                                        <div>총 토큰: <strong>{usageStats.byAction.lecture.totalTokens.toLocaleString()} T</strong></div>
+                                        <div>{t('token_stat_total', { count: usageStats.byAction.lecture.totalTokens.toLocaleString() })}</div>
                                         <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
-                                            (입력: {usageStats.byAction.lecture.inputTokens.toLocaleString()} / 출력: {usageStats.byAction.lecture.outputTokens.toLocaleString()})
+                                            {t('token_stat_io', { input: usageStats.byAction.lecture.inputTokens.toLocaleString(), output: usageStats.byAction.lecture.outputTokens.toLocaleString() })}
                                         </div>
                                         <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
-                                            요금: ₩{formatCost(usageStats.byAction.lecture.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.lecture.usdCost).idrText})</span>
+                                            {t('token_stat_fee')} ₩{formatCost(usageStats.byAction.lecture.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.lecture.usdCost).idrText})</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1244,19 +1244,19 @@ const Settings = () => {
                                 <div style={{ background: '#fff', padding: '0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0', fontSize: '0.78rem' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
                                         <strong style={{ color: '#0f172a', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                                            🎙️ 음성엔진 사용 (TTS)
+                                            {t('token_act_tts')}
                                         </strong>
                                         <span style={{ background: '#f1f5f9', padding: '1px 6px', borderRadius: '6px', fontWeight: '800', fontSize: '0.7rem' }}>
-                                            {usageStats.byAction.tts.count}회
+                                            {t('token_count_unit', { count: usageStats.byAction.tts.count })}
                                         </span>
                                     </div>
                                     <div style={{ color: '#475569', lineHeight: '1.5' }}>
-                                        <div>합성 글자수: <strong>{usageStats.byAction.tts.chars.toLocaleString()} 자</strong></div>
+                                        <div>{t('token_tts_synth_chars', { count: usageStats.byAction.tts.chars.toLocaleString() })}</div>
                                         <div style={{ fontSize: '0.72rem', color: '#64748b' }}>
-                                            (Google HD 월 100만자 무료 구간 적용)
+                                            {t('token_tts_free_tier')}
                                         </div>
                                         <div style={{ marginTop: '2px', color: '#059669', fontWeight: '800' }}>
-                                            요금: ₩{formatCost(usageStats.byAction.tts.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.tts.usdCost).idrText})</span>
+                                            {t('token_stat_fee')} ₩{formatCost(usageStats.byAction.tts.usdCost).krwText} <span style={{ color: '#2563eb' }}>({formatCost(usageStats.byAction.tts.usdCost).idrText})</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1265,7 +1265,7 @@ const Settings = () => {
                     </div>
                 ) : (
                     <div style={{ fontSize: '0.78rem', color: '#94a3b8', fontStyle: 'italic', background: '#f8fafc', padding: '0.6rem 0.8rem', borderRadius: '10px' }}>
-                        💡 계산기 표시가 꺼져 있습니다. 단어생성 화면 및 특강 창에서 토큰/비용 정보가 숨김 처리됩니다.
+                        {t('token_calc_disabled')}
                     </div>
                 )}
             </div>

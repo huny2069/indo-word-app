@@ -4,21 +4,44 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.17';
+export const CURRENT_VERSION = 'v20.18';
 export const CURRENT_VERSION_DATE = '2026-10-30';
-export const CURRENT_VERSION_SUMMARY = "3개 국어(한국어/인니어/영어) 전면 번역 완성 & 학습 3종 모드(카드·객관식·스펠링) 버그 수정 및 고도화";
+export const CURRENT_VERSION_SUMMARY = "다국어 번역 키 누락 해결 (사전·설정 버튼 정상화) & 토큰/비용 대시보드 3개 국어(KO/ID/EN) 완벽 분기";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Terjemahan 3 Bahasa (KO/ID/EN) Lengkap & Perbaikan 3 Mode Belajar (Kartu·Pilihan Ganda·Ejaan)';
-  if (lang === 'en') return 'Full 3-Language (KO/ID/EN) Localization & 3 Study Modes (Flashcard·Quiz·Spelling) Overhaul';
+  if (lang === 'id') return 'Perbaikan Kunci Terjemahan (Tombol Kamus & Pengaturan) & Lokalisasi Penuh Dashboard Token/Biaya';
+  if (lang === 'en') return 'Fixed Translation Key Mismatches (Dict/Settings Buttons) & Full Token/Cost Dashboard Localization';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
   {
-    version: 'v20.17',
+    version: 'v20.18',
     date: '2026-10-30',
     badge: 'LATEST',
+    title: "다국어 번역 키 누락 해결 (사전·설정 버튼 정상화) & 토큰/비용 대시보드 3개 국어(KO/ID/EN) 완벽 분기",
+    title_id: "Perbaikan Kunci Terjemahan (Tombol Kamus & Pengaturan) & Lokalisasi Penuh Dashboard Token/Biaya",
+    title_en: "Fixed Translation Key Mismatches (Dict/Settings Buttons) & Full Token/Cost Dashboard Localization",
+    highlights: [
+      "🧩 [한국어 UI 영문 키 노출 버그 수정] 사전 페이지(재생성 버튼, 내 단어장에 있음 뱃지, 랜덤 자동추출 라벨/버튼, AI 시크릿 노트 뱃지, 원본 복원 등)와 설정 페이지(CSV 백업/복원)에서 번역 키 문자열이 그대로 노출되던 현상 전면 해결",
+      "🌐 [설정 탭 토큰 및 요금 대시보드 다국어화] 인도네시아어 및 영어 사용자일 때도 한국어로 하드코딩되어 나오던 공식 단가표, 구글 요금 문서 링크, 입출력 토큰 라벨, 총 소모 토큰 및 작업별 상세 내역(단어생성, 재생성, 특강, TTS 등)을 3개 국어로 완벽 분기 처리",
+      "✅ [전체 페이지 번역 키 전수 검증] 앱 내 모든 페이지의 313개 번역 키에 대해 한국어, 인도네시아어, 영어 누락 항목 0개 검증 완료"
+    ],
+    highlights_id: [
+      "🧩 [Perbaikan Bug Tampilan Kunci Terjemahan] Memperbaiki masalah di mana kunci terjemahan bahasa Inggris muncul mentah pada tombol dan lencana halaman Kamus dan Pengaturan",
+      "🌐 [Lokalisasi Penuh Dashboard Token & Biaya] Mengubah teks harga resmi, tautan dokumen, token input/output, dan rincian penggunaan aktivitas yang sebelumnya tertulis dalam bahasa Korea menjadi bahasa Indonesia dan Inggris sesuai pilihan pengguna",
+      "✅ [Verifikasi Penuh Semua Kunci] Memverifikasi 313 kunci terjemahan di seluruh halaman aplikasi dengan 0 kunci yang hilang di KO, ID, dan EN"
+    ],
+    highlights_en: [
+      "🧩 [Fixed Raw Key Display Bug] Fixed issues where translation key identifiers were displayed as raw text on buttons and badges in the Dictionary and Settings pages",
+      "🌐 [Full Token & Cost Dashboard Localization] Localized all official rate labels, pricing document links, input/output token labels, and activity breakdowns in Settings for Indonesian and English users",
+      "✅ [Complete Key Verification] Verified all 313 translation keys across every page with 0 missing entries across KO, ID, and EN"
+    ]
+  },
+  {
+    version: 'v20.17',
+    date: '2026-10-30',
+    badge: 'UPDATE',
     title: "3개 국어(한국어·인도네시아어·영어) 전면 현지화 완성 & 학습하기 3대 모드 완벽 버그 수정 및 개선",
     title_id: "Lokalisasi 3 Bahasa (KO/ID/EN) Lengkap & Perbaikan Total 3 Mode Belajar",
     title_en: "Complete 3-Language (KO/ID/EN) Localization & Overhaul of All 3 Study Modes",
