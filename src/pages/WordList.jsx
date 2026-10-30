@@ -129,9 +129,24 @@ const WordList = () => {
     });
   };
 
+  const normalizePos = (posValue) => {
+    if (!posValue || typeof posValue !== 'string') return '명사';
+    const clean = posValue.trim().toLowerCase();
+    if (/(동사|verb|verba|타동사|자동사)/i.test(clean)) return '동사';
+    if (/(형용사|adjective|adjektiva)/i.test(clean)) return '형용사';
+    if (/(명사|noun|nomina)/i.test(clean)) return '명사';
+    if (/(부사|adverb|adverbia)/i.test(clean)) return '부사';
+    if (/(대명사|pronoun|pronomina)/i.test(clean)) return '대명사';
+    if (/(전치사|preposition|preposisi)/i.test(clean)) return '전치사';
+    if (/(접속사|conjunction|konjungsi)/i.test(clean)) return '접속사';
+    if (/(수사|numeral|numeralia)/i.test(clean)) return '수사';
+    if (/(감탄사|interjection|interjeksi)/i.test(clean)) return '감탄사';
+    if (/(관형사|한정사|determiner)/i.test(clean)) return '한정사';
+    return posValue.trim() || '명사';
+  };
+
   const getPosTranslation = (posValue) => {
-    if (!posValue) return t('list_no_pos');
-    const p = posValue.trim();
+    const p = normalizePos(posValue);
     const map = {
       '명사': 'pos_noun',
       '동사': 'pos_verb',
@@ -156,7 +171,7 @@ const WordList = () => {
   const groupedByDate = useMemo(() => {
     const groups = {};
     filteredWords.forEach(w => {
-      const date = w.created_at ? w.created_at.substring(0, 10) : t('list_no_date');
+      const date = w.created_at ? w.created_at.substring(0, 10) : (t('list_no_date') || '이전 단어');
       if (!groups[date]) groups[date] = [];
       groups[date].push(w);
     });
@@ -166,7 +181,7 @@ const WordList = () => {
   const groupedByTopic = useMemo(() => {
     const groups = {};
     filteredWords.forEach(w => {
-      const tp = (w.topic && w.topic.trim()) ? w.topic.trim() : t('list_no_topic');
+      const tp = (w.topic && typeof w.topic === 'string' && w.topic.trim()) ? w.topic.trim() : (t('list_no_topic') || '기본 단어');
       if (!groups[tp]) groups[tp] = [];
       groups[tp].push(w);
     });
@@ -699,12 +714,40 @@ const WordList = () => {
             </div>
           )}
 
+          {/* 문법별 (품사별) 폴더 그리드 */}
+          {(viewMode === 'pos' && !selectedPos) && (
+            <div className="folder-grid">
+              {Object.keys(groupedByPos).map(posStr => (
+                 <div key={posStr} onClick={() => setSelectedPos(posStr)} className="folder-card pos">
+                    <Folder size={32} color="#6c5ce7" style={{ marginBottom: '0.4rem' }} />
+                    <h3 className="folder-name">{posStr}</h3>
+                    <p className="folder-count pos">{t('list_word_count', { count: groupedByPos[posStr].length })}</p>
+                 </div>
+              ))}
+            </div>
+          )}
+
           {((viewMode === 'folder' && selectedDate) || (viewMode === 'topic' && selectedTopic) || (viewMode === 'pos' && selectedPos) || viewMode === 'list') && (
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1.2rem' }}>
-                 <button onClick={() => { setSelectedDate(null); setSelectedTopic(null); setSelectedPos(null); }} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: '#eee', border: 'none', cursor: 'pointer', color: '#555', fontWeight: '900', padding: '0.6rem 1.2rem', borderRadius: '20px' }}>
-                     <ChevronLeft size={20} /> {t('list_back')}
-                 </button>
+                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', flexWrap: 'wrap' }}>
+                   {viewMode !== 'list' && (
+                     <button onClick={() => { setSelectedDate(null); setSelectedTopic(null); setSelectedPos(null); }} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: '#eee', border: 'none', cursor: 'pointer', color: '#555', fontWeight: '900', padding: '0.6rem 1.2rem', borderRadius: '20px' }}>
+                         <ChevronLeft size={20} /> {t('list_back') || '전체 폴더'}
+                     </button>
+                   )}
+                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: '#f8f9fa', padding: '0.5rem 1rem', borderRadius: '20px', border: '1.5px solid #eee' }}>
+                     <span style={{ fontWeight: '900', fontSize: '1rem', color: 'var(--nana-dark)' }}>
+                       {viewMode === 'folder' && `📅 생성일: ${selectedDate}`}
+                       {viewMode === 'topic' && `🏷️ 주제: ${selectedTopic}`}
+                       {viewMode === 'pos' && `📚 문법(품사): ${selectedPos}`}
+                       {viewMode === 'list' && `📋 전체 단어`}
+                     </span>
+                     <span style={{ fontSize: '0.8rem', background: 'var(--primary-color)', color: '#fff', padding: '2px 8px', borderRadius: '12px', fontWeight: '800' }}>
+                       {displayedWords.length}개
+                     </span>
+                   </div>
+                 </div>
                  
                  <button onClick={handleToggleSelectAll}
                     style={{ background: '#fff', border: '2.5px solid #eee', padding: '0.6rem 1.2rem', borderRadius: '30px', cursor: 'pointer', fontWeight: '900', display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#333' }}>
@@ -769,14 +812,19 @@ const WordList = () => {
                                 </span>
                             )}
                         </div>
-                        <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', paddingRight: '0.8rem' }}>
+                        <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', paddingRight: '0.8rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+                           {w.topic && (
+                             <span style={{ fontSize: '0.75rem', background: '#e6fffa', color: '#00b894', padding: '3px 8px', borderRadius: '50px', fontWeight: '800', border: '1px solid #b2f5ea', maxWidth: '120px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} title={`주제: ${w.topic}`}>
+                               🏷️ {w.topic}
+                             </span>
+                           )}
                            <button onClick={(e) => { e.stopPropagation(); setSelectedTeacherWord(w); }} style={{ background: '#fff1f0', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#ff4d4f', padding: '10px' }} title="AI 선생님 강의 듣기">
                               <GraduationCap size={20} />
                            </button>
                            <button onClick={(e) => { e.stopPropagation(); playAudio(w.word, w.study_lang); }} style={{ background: '#f0f7ff', border: 'none', borderRadius: '50%', cursor: 'pointer', color: '#1976d2', padding: '10px' }}>
                               <Volume2 size={20} />
                            </button>
-                              <span style={{ fontSize: '0.75rem', background: '#f5f5f5', padding: '4px 10px', borderRadius: '50px', color: '#666', minWidth: '40px', textAlign: 'center', fontWeight: '800' }}>{getPosTranslation(w.pos)}</span>
+                           <span style={{ fontSize: '0.75rem', background: '#f5f5f5', padding: '4px 10px', borderRadius: '50px', color: '#666', minWidth: '40px', textAlign: 'center', fontWeight: '800' }}>{getPosTranslation(w.pos)}</span>
                         </div>
                       </div>
 

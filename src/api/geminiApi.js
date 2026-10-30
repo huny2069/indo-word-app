@@ -69,7 +69,8 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
   {
     "word": "${targetLangName} 단어",
     "meaning": "${nativeLangName} 뜻",
-    "pos": "품사 (명사, 동사, 형용사 등 - ${nativeLangName}로 표기)",
+    "pos": "품사 (명사, 동사, 형용사, 부사, 대명사, 수사, 전치사, 접속사, 감탄사 중 하나를 명확히 한국어로 표기)",
+    "topic": "${topic}",
     ${specificFields}
     "example_formal": "${targetLangName} 격식체 예문",
     "example_formal_kr": "위 예문의 ${nativeLangName} 번역",
@@ -134,6 +135,7 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     if (Array.isArray(parsedData)) {
       const enriched = parsedData.map(item => ({
         ...normalizeAndEnrichWordBreakdown(item, studyLang),
+        topic: (item.topic && item.topic.trim()) || topic.trim(),
         _usageMetadata: usage,
         _modelUsed: modelName
       }));
@@ -143,6 +145,7 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     }
     const single = [{
       ...normalizeAndEnrichWordBreakdown(parsedData, studyLang),
+      topic: (parsedData.topic && parsedData.topic.trim()) || topic.trim(),
       _usageMetadata: usage,
       _modelUsed: modelName
     }];
@@ -237,6 +240,24 @@ export const safeParseJSON = (rawText) => {
  */
 export const normalizeAndEnrichWordBreakdown = (item, studyLang = 'id') => {
   if (!item) return item;
+
+  // 품사(pos) 표준화 및 정규화
+  if (!item.pos || typeof item.pos !== 'string' || !item.pos.trim()) {
+    item.pos = '명사';
+  } else {
+    const rawPos = item.pos.trim();
+    if (/(동사|verb|verba|타동사|자동사)/i.test(rawPos)) item.pos = '동사';
+    else if (/(형용사|adjective|adjektiva)/i.test(rawPos)) item.pos = '형용사';
+    else if (/(명사|noun|nomina)/i.test(rawPos)) item.pos = '명사';
+    else if (/(부사|adverb|adverbia)/i.test(rawPos)) item.pos = '부사';
+    else if (/(대명사|pronoun|pronomina)/i.test(rawPos)) item.pos = '대명사';
+    else if (/(전치사|preposition|preposisi)/i.test(rawPos)) item.pos = '전치사';
+    else if (/(접속사|conjunction|konjungsi)/i.test(rawPos)) item.pos = '접속사';
+    else if (/(수사|numeral|numeralia)/i.test(rawPos)) item.pos = '수사';
+    else if (/(감탄사|interjection|interjeksi)/i.test(rawPos)) item.pos = '감탄사';
+    else if (/(관형사|한정사|determiner)/i.test(rawPos)) item.pos = '한정사';
+  }
+
   let breakdown = Array.isArray(item.word_breakdown) ? [...item.word_breakdown] : [];
 
   // 인도네시아어가 아닌 경우 root는 빈 문자열로 보장

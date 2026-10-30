@@ -292,6 +292,10 @@ const WordGenerate = () => {
         
         for (const w of fromCache) {
           const { id, created_at, ...cleanWord } = w;
+          cleanWord.topic = (cleanWord.topic && cleanWord.topic.trim()) || topic.trim();
+          cleanWord.pos = cleanWord.pos || '명사';
+          cleanWord.user_lang = cleanWord.user_lang || userLang;
+          cleanWord.study_lang = cleanWord.study_lang || studyLang;
           const newId = await addWord(cleanWord);
           finalAddedWords.push({ ...cleanWord, id: newId });
         }
@@ -339,7 +343,8 @@ const WordGenerate = () => {
               });
 
               for (const w of newAiResults) {
-                  w.topic = topic;
+                  w.topic = (w.topic && w.topic.trim()) || topic.trim();
+                  w.pos = w.pos || '명사';
                   w.user_lang = userLang;
                   w.study_lang = studyLang;
                   const id = await addWord(w);
@@ -920,6 +925,28 @@ const WordGenerate = () => {
                     <div>
                         <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>{t('gen_manual_meaning')}</label>
                         <input type="text" value={manualWord.meaning} onChange={e => setManualWord({...manualWord, meaning: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px' }} required />
+                    </div>
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '1rem' }}>
+                    <div>
+                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>🏷️ 주제 (카테고리)</label>
+                        <input type="text" placeholder="예: 일상 회화, 비즈니스, 여행, 음식 등" value={manualWord.topic} onChange={e => setManualWord({...manualWord, topic: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px' }} />
+                    </div>
+                    <div>
+                        <label style={{ fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '0.4rem', display: 'block' }}>📚 문법 (품사 구분)</label>
+                        <select value={manualWord.pos} onChange={e => setManualWord({...manualWord, pos: e.target.value})} style={{ width: '100%', padding: '0.8rem', border: '2px solid #eee', borderRadius: '12px', background: '#fff', fontWeight: '700' }}>
+                            <option value="명사">명사 (Kata Benda)</option>
+                            <option value="동사">동사 (Kata Kerja)</option>
+                            <option value="형용사">형용사 (Kata Sifat)</option>
+                            <option value="부사">부사 (Kata Keterangan)</option>
+                            <option value="대명사">대명사 (Kata Ganti)</option>
+                            <option value="전치사">전치사 (Kata Depan)</option>
+                            <option value="접속사">접속사 (Kata Hubung)</option>
+                            <option value="수사">수사 (Kata Bilangan)</option>
+                            <option value="감탄사">감탄사 (Kata Seru)</option>
+                            <option value="한정사">한정사/관형사</option>
+                            <option value="기타">기타</option>
+                        </select>
                     </div>
                 </div>
                 <button type="submit" style={{ width: '100%', padding: '1.1rem', background: '#00b894', color: '#fff', border: 'none', borderRadius: '30px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '900', boxShadow: '0 4px 0 #009677' }}>

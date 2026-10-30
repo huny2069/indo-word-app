@@ -132,9 +132,10 @@ export const deleteLogs = async (tableName) => {
 /**
  * [공유 단어 데이터베이스 조회]
  * @param {string} topic 검색 주제
- * @param {boolean} isIndoMode 한국인 모드(false) / 인니인 모드(true)
+ * @param {string} userLang 사용자 모국어 (기본 'ko')
+ * @param {string} studyLang 학습 언어 (기본 'id')
  */
-export const fetchSharedWords = async (topic, isIndoMode) => {
+export const fetchSharedWords = async (topic, userLang = 'ko', studyLang = 'id') => {
   if (!supabase) return [];
   try {
     const { data, error } = await supabase
