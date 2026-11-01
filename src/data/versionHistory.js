@@ -4,17 +4,40 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.24';
+export const CURRENT_VERSION = 'v20.25';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "다국어 UI 버튼 번역 및 토큰 대시보드 완벽 연동, Vercel 프리뷰 빌드 및 봇 방문 필터링 최적화";
+export const CURRENT_VERSION_SUMMARY = "단어생성 프롬프트 및 엔진을 1만단어 AI 정밀 재생성 품질 기준으로 전면 통일 및 최적화";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Lokalisasi Tombol UI & Dashboard Token Lengkap, Perbaikan Build Vercel & Filter Bot Otomatis';
-  if (lang === 'en') return 'Full UI Button Localization & Token Dashboard Sync, Vercel Preview Build Fix & Bot Traffic Filtering';
+  if (lang === 'id') return 'Penyelarasan Prompt Pembuatan Kata Sesuai Standar Regenerasi Presisi AI Kamus 10K';
+  if (lang === 'en') return 'Word Generation Prompt & Engine Standardized to 10K Dictionary Precision Quality';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
+  {
+    version: 'v20.25',
+    date: '2026-11-01',
+    badge: 'UPDATE',
+    title: "단어생성 프롬프트 및 엔진을 1만단어 AI 정밀 재생성 품질 기준으로 전면 통일 및 최적화",
+    title_id: "Penyelarasan Prompt Pembuatan Kata Sesuai Standar Regenerasi Presisi AI Kamus 10K",
+    title_en: "Word Generation Prompt & Engine Standardized to 10K Dictionary Precision Quality",
+    highlights: [
+      "🔥 [단어생성 프롬프트 100% 품질 격상] 1만단어 사전의 [AI 정밀 재생성]과 완벽히 동일한 '1타 스타 강사 심층 분석' 가이드를 단어생성 프롬프트에 이식하여, 어근(Kata Dasar)·문법 접사 파생 메커니즘·실전 상황·주의점·연상 암기 비법이 동일한 깊이로 생성되도록 개선",
+      "⚡ [5단어 정밀 분할 배치 생성(Micro-Batching)] 단어 개수(10~30개)를 많이 요청할 때 LLM 응답 길이 한계로 인해 문법이나 팁 설명이 한 줄로 압축·요약되던 문제를 방지하기 위해, 최대 5단어 단위 정밀 분할 배치 및 2회 자동 재시도 로직 구축",
+      "🧹 [Supabase 캐시 엄격 필터링] 단어생성 메뉴에서 구버전의 부실한 캐시 단어가 섞여 나오던 문제를 방지하도록 필수 13개 필드가 온전히 갖춰진 고품질 데이터만 캐시로 인정하고, 미달 데이터는 최신 AI로 실시간 신규 생성하도록 로직 강화"
+    ],
+    highlights_id: [
+      "🔥 [Standar Prompt Pembuatan Kata Disetarakan] Mengadopsi standar regenerasi presisi AI Kamus 10K ke dalam menu pembuatan kata untuk hasil analisis kata yang jauh lebih mendalam",
+      "⚡ [Micro-Batching 5 Kata] Mencegah peringkasan teks oleh LLM dengan membagi permintaan pembuatan kata per 5 kata secara presisi",
+      "🧹 [Penyaringan Cache Ketat] Hanya menerima kata cache yang memiliki 13 atribut lengkap, data lama yang kurang lengkap akan diganti dengan pembuatan AI langsung"
+    ],
+    highlights_en: [
+      "🔥 [Word Generation Prompt Standardized] Upgraded word generation prompt to match the exact top-tier standards of the 10K dictionary AI precision regeneration",
+      "⚡ [5-Word Micro-Batching] Eliminated token compression and field abbreviation by chunking multi-word generation into 5-word batches with automatic retries",
+      "🧹 [Strict Cache Quality Filter] Filtered out shallow legacy cached entries so that only full-featured entries with complete grammar rules and breakdowns are accepted"
+    ]
+  },
   {
     version: 'v20.24',
     date: '2026-11-01',

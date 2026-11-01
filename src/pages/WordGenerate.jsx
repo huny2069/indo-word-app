@@ -289,11 +289,29 @@ const WordGenerate = () => {
       };
       let hasAiCall = false;
 
-      // Supabase 캐시 조회
+      // Supabase 캐시 조회 (1만단어 AI 정밀 재생성과 동일한 고품질 데이터만 엄격 선별)
       setProgressMsg(t('gen_ai_analyzing'));
       try {
         const sharedWords = await fetchSharedWords(topic.trim(), userLang, studyLang);
-        const uniqueShared = sharedWords.filter(sw => !existingWordStrings.includes(sw.word.toLowerCase()));
+        const isHighQualityWord = (w) => {
+          return Boolean(
+            w &&
+            w.word &&
+            w.meaning &&
+            w.grammar_rule &&
+            w.grammar_rule.trim().length >= 15 &&
+            w.example_formal &&
+            w.example_casual &&
+            w.context &&
+            w.caution &&
+            w.related &&
+            Array.isArray(w.word_breakdown) &&
+            w.word_breakdown.length > 0
+          );
+        };
+        const uniqueShared = sharedWords.filter(sw => 
+          !existingWordStrings.includes(sw.word.toLowerCase()) && isHighQualityWord(sw)
+        );
         const fromCache = uniqueShared.slice(0, count);
         
         for (const w of fromCache) {

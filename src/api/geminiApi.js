@@ -9,10 +9,10 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
 
   // 언어 이름 매핑
   const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
-  const targetLangName = langNames[studyLang];
-  const nativeLangName = langNames[userLang];
+  const targetLangName = langNames[studyLang] || '인도네시아어(Indonesian)';
+  const nativeLangName = langNames[userLang] || '한국어(Korean)';
 
-  // 언어별 특화 스키마 및 가이드 정의
+  // 언어별 특화 스키마 및 가이드 정의 (1만단어 정밀 재생성과 100% 동일)
   let specificRules = '';
   let specificFields = '';
 
@@ -29,8 +29,9 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     "pronunciation": "국제 발음 기호(IPA) 표기",`;
   } else if (studyLang === 'id') {
     specificRules = `
-    - 인도네시아어는 고유의 어근(Kata Dasar) 체계가 있으므로, 'root' 항목에 반드시 정확한 인도네시아어 어근(Kata Dasar)을 기재하세요. (어근 자체인 경우 어근을 그대로 기재)
-    - **grammar_rule (문법 변화 원리)**: 어떤 문법 규칙/접사(meN-, ber-, di-, peN-, ter-, -kan, -i, ke-...-an 등)에 의해 어근에서 무엇과 무엇이 추가/변환/삭제(예: k/p/t/s 탈락 변환, r 탈락 등)되어 어떤 품사와 의미로 바뀌었는지 단계별 논리를 학생이 한눈에 이해할 수 있게 명쾌하게 설명하세요.
+    - 인도네시아어는 고유의 어근(Kata Dasar) 체계가 있으므로, 'root' 항목에 반드시 정확한 인도네시아어 어근(Kata Dasar)을 기재하세요. (만약 단어 자체가 어근이라면 해당 어근을 그대로 기재)
+    - **grammar_rule (문법 변화 원리 - 매우 중요!)**:
+      어떤 문법 규칙/접사(meN-, ber-, di-, peN-, ter-, -kan, -i, ke-...-an 등)에 의해 어근에서 무엇과 무엇이 추가/변환/삭제(예: k/p/t/s 탈락 변환, r 탈락 등)되어 어떤 품사와 의미로 바뀌었는지 단계별 파생 메커니즘을 학생이 무릎을 탁 치며 이해할 수 있게 명쾌하고 깊이 있게 설명하세요. (단순 '접사 결합' 같은 1줄 성의 없는 요약 절대 금지!)
     - 발음 기호(pronunciation)를 가이드로 적어주세요.`;
     specificFields = `
     "root": "인도네시아어 어근(Kata Dasar) - 필수",
@@ -46,24 +47,34 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     "hanja_info": "한자어인 경우 한자 및 각 글자의 의미 정보",`;
   }
 
-  const promptText = `
-  당신은 ${nativeLangName} 사용자를 대상으로 하는 ${targetLangName} 교육계의 **'1타 스타 강사'**입니다. 
-  단순한 단어 나열이 아니라, 학생들이 열광하는 당신만의 독특하고 머리에 쏙쏙 들어오는 강의 기법을 JSON 데이터에 녹여내세요.
-  사용자가 요청한 주제 "${topic}"에 관련된 전문적인 ${targetLangName} 단어 ${count}개를 생성해주세요.
+  // 단어 생성 프롬프트 빌더 (1만단어 사전의 [AI 정밀 재생성]과 100% 동일한 고품질 1타 강사 기준 적용)
+  const buildBatchPrompt = (batchCount, currentExcludeList) => `
+  당신은 ${nativeLangName} 사용자를 대상으로 하는 ${targetLangName} 교육계의 최고 권위 **'1타 스타 강사'**입니다.
+  단순한 단어 나열이 아니라, 1만단어 사전의 [AI 정밀 재생성]과 100% 동일하게 모든 컬럼이 완벽하고 깊이 있는 최상위 학습 데이터를 생성해야 합니다.
+  사용자가 요청한 주제 "${topic}"에 관련된 필수 핵심 ${targetLangName} 단어 ${batchCount}개를 생성해주세요.
+  어느 단어 하나도 요약하거나 축약하지 말고 모든 필드를 100% 충실하고 깊이 있게 작성하세요.
   모든 설명과 번역은 반드시 **${nativeLangName}**로 작성하세요.
 
-  [중요 규칙 및 지침]
-  1. JSON 배열 형식으로만 응답하며, 마크다운 백틱(\`\`\`)을 일절 포함하지 마세요.
-  2. JSON 표준을 엄격히 준수하고, 모든 키와 값은 큰따옴표(")를 사용하세요.
+  [중요 규칙 및 엄격 지침]
+  1. 반드시 유효한 JSON 배열 형식([ { ... }, { ... } ])으로만 응답하며, 마크다운 백틱(\`\`\`)을 일절 포함하지 마세요.
+  2. JSON 표준을 엄격히 준수하고 모든 키와 문자열 값은 반드시 시작과 끝에 큰따옴표(")를 정확하게 닫으세요. 시작 따옴표가 누락되면 안 됩니다!
   ${specificRules}
 
-  [강사의 컬럼별 필수 작성 가이드]
-  - **root (어근)**: 오직 인도네시아어(studyLang: id)일 때만 필수 생성! 한국어나 영어는 어근이 없으므로 반드시 빈 문자열("")로 둡니다.
-  - **grammar_rule (핵심 문법)**: 인도네시아어인 경우, 어떤 접사/문법 규칙에 의해 무엇과 무엇이 추가, 변환, 삭제(예: meN- 결합 시 k/p/t/s 탈락 규칙 등)되어 원래 어근에서 어떤 품사/뜻으로 파생되었는지 그 변형 메커니즘을 상세히 설명하세요.
-  - **synonym (동의어)** & **antonym (반의어)**: 단순 단어만 적지 말고 반드시 해당 단어와 '단어 (뜻)' 형식으로 뜻까지 함께 적으세요 (예: "pintar (똑똑한, 영리한)"). 반대되는 단어나 동의어가 마땅치 않은 경우 생략하고 빈 문자열("")로 두세요.
-  - **context (상황 및 분위기)**: 대화 중 어떠한 상황(비즈니스, 일상 대화, 쇼핑, 친구 사이 등)에 어울리며 분위기(정중함, 격식, 친근함 등)는 어떠하고, 실제 원어민이 어떤 상황에서 쓰는 것이 가장 적절한지 생생하게 설명하세요.
-  - **caution (주의할 점)**: 발음 실수, 자카르타 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 꼼꼼히 적으세요.
-  - **related (강사팁 및 암기 비법)**: 1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 어근 활용법, 실전 회화 꿀팁을 적으세요.
+  [1타 강사의 컬럼별 필수 작성 기준 - 1만단어 정밀 재생성과 100% 동일한 깊이]
+  - **word**: 주제 "${topic}"의 실전 대화 및 비즈니스에 직결되는 정확한 ${targetLangName} 단어.
+  - **meaning**: ${nativeLangName}의 가장 정확하고 생생한 의미 표기.
+  - **pos**: 품사 (${nativeLangName}로 명확히 표기: 명사, 동사, 형용사, 부사, 대명사, 수사, 전치사, 접속사, 감탄사 중 하나).
+  - **root (어근)**: 오직 인도네시아어(studyLang: id)일 때만 필수! 접사(Imbuhan)가 붙은 파생어라면 접사를 제외한 순수 어근(Kata Dasar)을 정확히 기재하고, 단어 자체가 어근인 경우 해당 단어를 그대로 적습니다. 한국어나 영어는 어근이 없으므로 빈 문자열("")로 둡니다.
+  - **grammar_rule (핵심 문법)**:
+    인도네시아어의 경우, 어떤 접사/문법 규칙에 의해 무엇과 무엇이 추가, 변환, 삭제(예: meN- 결합 시 k/p/t/s 탈락 규칙 등)되어 원래 어근에서 어떤 품사/뜻으로 파생되었는지 그 변형 메커니즘을 상세히 설명하세요.
+  - **synonym (동의어)** & **antonym (반의어)**:
+    단순 단어만 적지 말고 반드시 해당 단어와 '단어 (뜻)' 형식으로 ${nativeLangName} 뜻까지 함께 적으세요 (예: "pintar (똑똑한, 영리한)"). 반대되는 단어나 동의어가 마땅치 않은 경우 생략하고 빈 문자열("")로 두세요.
+  - **context (상황 및 분위기)**:
+    대화 중 어떠한 상황(비즈니스, 일상 대화, 쇼핑, 친구 사이 등)에 어울리며 분위기(정중함, 격식, 친근함 등)는 어떠하고, 실제 원어민이 어떤 상황에서 쓰는 것이 가장 적절한지 생생하게 설명하세요.
+  - **caution (주의할 점)**:
+    발음 실수, 자카르타 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 꼼꼼히 적으세요.
+  - **related (강사팁 및 암기 비법)**:
+    1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 어근 활용법, 실전 회화 꿀팁을 적으세요.
   - **Interactivity (예문 전수 분석 word_breakdown - 매우 중요!)**:
     격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 **모든 단어와 구성 요소(조사, 전치사, 대명사, 동사, 명사 등)를 하나도 빠짐없이** word_breakdown 배열에 [{"word": "단어", "meaning": "뜻"}] 형태로 전수 기재하세요. 학생들이 마우스를 올리거나 클릭했을 때 모든 단어의 뜻이 즉시 툴팁으로 표시되어야 하므로 절대로 건너뛰지 마세요!
 
@@ -71,7 +82,7 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
   {
     "word": "${targetLangName} 단어",
     "meaning": "${nativeLangName} 뜻",
-    "pos": "품사 (명사, 동사, 형용사, 부사, 대명사, 수사, 전치사, 접속사, 감탄사 중 하나를 명확히 한국어로 표기)",
+    "pos": "품사 (${nativeLangName}로 표기)",
     "topic": "${topic}",
     ${specificFields}
     "example_formal": "${targetLangName} 격식체 예문",
@@ -80,85 +91,122 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     "example_casual_kr": "위 예문의 ${nativeLangName} 번역",
     "antonym": "반대어 ('단어 (뜻)' 형식, 없을 시 빈 문자열)",
     "synonym": "유사어 ('단어 (뜻)' 형식, 없을 시 빈 문자열)",
-    "context": "단어가 쓰이는 구체적인 상황, 분위기, 적절한 활용 맥락 설명 (${nativeLangName})",
-    "caution": "발음/철자 혼동, 뉘앙스, 사용 시 주의점 (${nativeLangName})",
+    "context": "단어가 쓰이는 구체적인 상황, 분위기, 적절한 활용 맥락 상세 설명 (${nativeLangName})",
+    "caution": "발음/철자 혼동, 뉘앙스, 사용 시 주의점 상세 설명 (${nativeLangName})",
     "related": "1타 강사의 암기 비법 및 실전 활용 팁 (${nativeLangName})",
-    "grammar_rule": "문법 변형 및 결합 규칙 설명 (${nativeLangName})",
+    "grammar_rule": "문법 변형 및 결합 규칙 상세 설명 (${nativeLangName})",
     "word_breakdown": [{"word": "단어/요소", "meaning": "뜻"}]
   }
 
-  ${excludeWords.length > 0 ? `제외할 단어 목록: [${excludeWords.join(', ')}]` : ''}
+  ${currentExcludeList.length > 0 ? `제외할 단어 목록(중복 방지): [${currentExcludeList.join(', ')}]` : ''}
   `;
 
-  try {
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: promptText }] }],
-        generationConfig: { response_mime_type: "application/json" }
-      })
-    });
+  // 토큰 초과 및 응답 압축 방지를 위해 1회 최대 5단어씩 정밀 분할 생성(Micro-Batching)
+  const BATCH_SIZE = 5;
+  const allEnrichedWords = [];
+  const accumulatedUsage = { promptTokenCount: 0, candidatesTokenCount: 0, totalTokenCount: 0 };
+  let currentExclude = [...excludeWords];
 
-    if (!response.ok) {
-        const errData = await response.json();
-        throw new Error(`API 요청 실패: ${errData.error?.message || response.statusText}`);
+  while (allEnrichedWords.length < count) {
+    const needed = count - allEnrichedWords.length;
+    const batchCount = Math.min(needed, BATCH_SIZE);
+
+    let batchItems = null;
+    let lastError = null;
+
+    // 최대 2회 시도
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const promptText = buildBatchPrompt(batchCount, currentExclude);
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: promptText }] }],
+            generationConfig: { response_mime_type: "application/json" }
+          })
+        });
+
+        if (!response.ok) {
+          const errData = await response.json();
+          throw new Error(`API 요청 실패 (${response.status}): ${errData.error?.message || response.statusText}`);
+        }
+
+        const data = await response.json();
+        const usage = data.usageMetadata || null;
+        if (usage) {
+          accumulatedUsage.promptTokenCount += (usage.promptTokenCount || 0);
+          accumulatedUsage.candidatesTokenCount += (usage.candidatesTokenCount || 0);
+          accumulatedUsage.totalTokenCount += (usage.totalTokenCount || ((usage.promptTokenCount || 0) + (usage.candidatesTokenCount || 0)));
+        }
+
+        const textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (!textContent) throw new Error("AI 응답 내용이 비어 있습니다.");
+
+        const parsed = safeParseJSON(textContent);
+        const items = Array.isArray(parsed) ? parsed : [parsed];
+        if (items.length > 0) {
+          batchItems = items;
+          break;
+        }
+      } catch (err) {
+        lastError = err;
+        console.warn(`[단어생성 배치] ${attempt}회차 시도 중 오류, 재시도 대기:`, err.message);
+        if (attempt < 2) {
+          await new Promise(r => setTimeout(r, 800));
+        }
+      }
     }
 
-    const data = await response.json();
-    
-    // 사용량 트래킹 (내부 로직 유지)
-    if (data.usageMetadata) {
-        const { promptTokenCount = 0, candidatesTokenCount = 0, totalTokenCount = 0 } = data.usageMetadata;
-        const prevTokens = parseInt(localStorage.getItem('total_gemini_tokens') || '0', 10);
-        localStorage.setItem('total_gemini_tokens', (prevTokens + totalTokenCount).toString());
-
-        const isPro = modelName.includes('pro');
-        const inputRate = isPro ? 1.25 / 1000000 : 0.075 / 1000000;
-        const outputRate = isPro ? 5.0 / 1000000 : 0.3 / 1000000;
-        const costNow = (promptTokenCount * inputRate) + (candidatesTokenCount * outputRate);
-        const prevCost = parseFloat(localStorage.getItem('total_gemini_cost_usd') || '0');
-        localStorage.setItem('total_gemini_cost_usd', (prevCost + costNow).toFixed(6));
-
-        try {
-            logUsage({
-                user_id: localStorage.getItem('user_device_id') || 'anonymous',
-                email: email,
-                tokens_used: totalTokenCount,
-                cost_usd: costNow,
-                topic: topic
-            });
-        } catch (err) { console.warn("Log failed:", err); }
+    if (!batchItems || batchItems.length === 0) {
+      if (allEnrichedWords.length > 0) break;
+      console.error("Gemini API generateWords Error:", lastError);
+      throw lastError || new Error("AI 단어 생성에 실패했습니다.");
     }
 
-    const usage = data.usageMetadata || null;
-    const textContent = data.candidates[0].content.parts[0].text;
-    let parsedData = safeParseJSON(textContent);
-    if (Array.isArray(parsedData)) {
-      const enriched = parsedData.map(item => ({
-        ...normalizeAndEnrichWordBreakdown(item, studyLang),
-        topic: (item.topic && item.topic.trim()) || topic.trim(),
-        _usageMetadata: usage,
-        _modelUsed: modelName
-      }));
-      enriched._usageMetadata = usage;
-      enriched._modelUsed = modelName;
-      return enriched;
+    for (const rawItem of batchItems) {
+      if (!rawItem || !rawItem.word) continue;
+      const cleanWord = rawItem.word.trim().toLowerCase();
+      if (!currentExclude.includes(cleanWord)) {
+        currentExclude.push(cleanWord);
+        const enriched = {
+          ...normalizeAndEnrichWordBreakdown(rawItem, studyLang),
+          topic: (rawItem.topic && rawItem.topic.trim()) || topic.trim(),
+          _usageMetadata: accumulatedUsage,
+          _modelUsed: modelName
+        };
+        allEnrichedWords.push(enriched);
+        if (allEnrichedWords.length >= count) break;
+      }
     }
-    const single = [{
-      ...normalizeAndEnrichWordBreakdown(parsedData, studyLang),
-      topic: (parsedData.topic && parsedData.topic.trim()) || topic.trim(),
-      _usageMetadata: usage,
-      _modelUsed: modelName
-    }];
-    single._usageMetadata = usage;
-    single._modelUsed = modelName;
-    return single;
-
-  } catch (error) {
-    console.error("Gemini API Error:", error);
-    throw error;
   }
+
+  // 사용량 트래킹 (내부 통계 동기화)
+  if (accumulatedUsage.totalTokenCount > 0) {
+    const prevTokens = parseInt(localStorage.getItem('total_gemini_tokens') || '0', 10);
+    localStorage.setItem('total_gemini_tokens', (prevTokens + accumulatedUsage.totalTokenCount).toString());
+
+    const isPro = modelName.includes('pro');
+    const inputRate = isPro ? 1.25 / 1000000 : 0.075 / 1000000;
+    const outputRate = isPro ? 5.0 / 1000000 : 0.3 / 1000000;
+    const costNow = (accumulatedUsage.promptTokenCount * inputRate) + (accumulatedUsage.candidatesTokenCount * outputRate);
+    const prevCost = parseFloat(localStorage.getItem('total_gemini_cost_usd') || '0');
+    localStorage.setItem('total_gemini_cost_usd', (prevCost + costNow).toFixed(6));
+
+    try {
+      logUsage({
+        user_id: localStorage.getItem('user_device_id') || 'anonymous',
+        email: email,
+        tokens_used: accumulatedUsage.totalTokenCount,
+        cost_usd: costNow,
+        topic: topic
+      });
+    } catch (err) { console.warn("Log failed:", err); }
+  }
+
+  allEnrichedWords._usageMetadata = accumulatedUsage;
+  allEnrichedWords._modelUsed = modelName;
+  return allEnrichedWords;
 };
 
 /**
