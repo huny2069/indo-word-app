@@ -4,17 +4,40 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.29';
+export const CURRENT_VERSION = 'v20.30';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "예문 단어별 개별 분리 툴팁 렌더링 최적화 및 다어절 뭉침 오류 완벽 수정";
+export const CURRENT_VERSION_SUMMARY = "예문 문장 통째 링크 뭉침 현상 원천 차단 및 1:1 개별 낱단어 툴팁 분리 체계 구축";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Optimalisasi Render Tooltip Per Kata pada Kalimat & Perbaikan Bug Penggabungan Frasa Panjang';
-  if (lang === 'en') return 'Individual Word-by-Word Tooltip Rendering Optimization & Multi-Word Clumping Bug Fix';
+  if (lang === 'id') return 'Eliminasi Total Penggabungan Seluruh Kalimat & Sistem Tooltip 1:1 Mandiri Per Kata pada Kalimat Contoh';
+  if (lang === 'en') return 'Total Elimination of Sentence-Level Clumping & 1:1 Standalone Word-by-Word Tooltip Architecture';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
+  {
+    version: 'v20.30',
+    date: '2026-11-01',
+    badge: 'BUGFIX',
+    title: "예문 문장 통째 링크 뭉침 현상 원천 차단 및 1:1 개별 낱단어 툴팁 분리 체계 구축",
+    title_id: "Eliminasi Total Penggabungan Seluruh Kalimat & Sistem Tooltip 1:1 Mandiri Per Kata pada Kalimat Contoh",
+    title_en: "Total Elimination of Sentence-Level Clumping & 1:1 Standalone Word-by-Word Tooltip Architecture",
+    highlights: [
+      "🧩 [문장 통째 뭉침 버그 원천 차단] AI 생성 시 예문 전체가 단일 묶음으로 생성되거나 긴 문장이 하나의 거대한 링크 박스로 묶여 표시되던 문제를 완벽 해결했습니다. 2단어 이상의 문장이나 구문은 툴팁 키 등록에서 배제하고, 무조건 1단어(낱단어) 단위로만 분리 등록되도록 필터링 로직을 구축했습니다.",
+      "✏️ [단어별 1:1 독립 렌더링 및 구두점 분리] 문장 렌더링 시 다어절 결합 루프를 전면 제거하고 1어절 단위로 독립 렌더링하도록 개편했습니다. 또한 마침표(.), 쉼표(,) 등 문장 부호는 인터랙티브 단어 영역에서 분리하여 단어 본문만 정확히 호버/터치되도록 개선했습니다.",
+      "🤖 [AI 프롬프트 단어 전수 분리 지침 강화] 단어 생성 및 AI 재생성 프롬프트에 문장 전체를 하나로 묶지 못하도록 강력한 금지 규정과 1단어 1뜻 분리 예시를 추가하여 데이터 생성 단계부터 단어별 분할이 확실히 보장되도록 개선했습니다."
+    ],
+    highlights_id: [
+      "🧩 [Pencegahan Total Penggabungan Kalimat] Memperbaiki masalah di mana seluruh kalimat terbungkus dalam satu kotak link oranye besar. Frasa panjang atau kalimat utuh kini disaring dan hanya kata tunggal (1:1) yang didaftarkan ke kamus tooltip.",
+      "✏️ [Render Mandiri Per Kata & Pemisahan Tanda Baca] Menghapus penggabungan multi-kata dan merender setiap kata secara mandiri. Tanda baca seperti titik dan koma dipisahkan agar kursor hanya menyorot kata inti dengan tepat.",
+      "🤖 [Instruksi AI Khusus Pemisahan Kata] Menambahkan aturan ketat pada prompt pembuatan kata agar AI selalu memecah kalimat contoh menjadi daftar kata per kata secara terpisah."
+    ],
+    highlights_en: [
+      "🧩 [Root Elimination of Sentence-Level Clumping] Completely eliminated the bug where whole sentences appeared as a single giant clickable link block. Any phrase or sentence containing multiple words is now strictly filtered out from tooltip keys.",
+      "✏️ [1:1 Standalone Word Rendering & Punctuation Stripping] Rebuilt interactive sentence rendering to process each token strictly one-by-one. Punctuation marks (.,!?) are separated so only the core word receives the hover highlight and tooltip.",
+      "🤖 [Enforced Single-Word AI Prompting Guidelines] Updated generation and AI regeneration prompts with explicit negative constraints and positive examples to ensure AI models break down sentences strictly word by word."
+    ]
+  },
   {
     version: 'v20.29',
     date: '2026-11-01',

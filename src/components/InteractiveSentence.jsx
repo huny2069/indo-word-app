@@ -10,22 +10,31 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
 
   const clean = (str) => {
     if (!str) return '';
-    return str.replace(/[.,!?()[\]{}"'/-]/g, '').toLowerCase().trim();
+    return str.replace(/[.,!?()[\]{}"'“”‘’/–—~-]/g, '').toLowerCase().trim();
   };
 
-  // 단어장 맵 생성
+  // 단어장 맵 생성: 2단어 이상의 문장/구문은 절대 키로 등록하지 않고 100% 낱단어(1단어)만 등록
   const breakdownMap = {};
   if (actualBreakdown && Array.isArray(actualBreakdown)) {
     actualBreakdown.forEach(item => {
-      if (!item || !item.word) return;
-      const cleanKey = clean(item.word);
-      if (cleanKey) {
-        breakdownMap[cleanKey] = item.meaning;
+      if (!item || !item.word || !item.meaning) return;
+      const rawWord = item.word.trim();
+      const rawMeaning = item.meaning.trim();
+      
+      const words = rawWord.split(/\s+/);
+      // 공백이 포함된 2단어 이상의 구문이나 문장 전체는 통째 뭉침 원천 차단을 위해 제외
+      if (words.length > 1) {
+        return;
+      }
+
+      const cleanKey = clean(rawWord);
+      if (cleanKey && cleanKey.length >= 1) {
+        breakdownMap[cleanKey] = rawMeaning;
       }
     });
   }
 
-  // 단일 단어/토큰 전용 지능형 의미 매칭 헬퍼 (공백 없는 1개 단어 대상)
+  // 단일 단어/어절 전용 지능형 의미 매칭 헬퍼 (공백 없는 1개 단어 대상)
   const findSingleWordMeaning = (token) => {
     if (!token) return null;
     const cleanQ = clean(token);
@@ -93,91 +102,48 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
     return null;
   };
 
-  // 문장을 매칭된 부분과 매칭되지 않은 부분으로 나눔
+  // 문장을 단어 단위로 1:1 개별 분리하여 렌더링
   const renderInteractiveText = () => {
     let result = [];
-    const tokens = sentence.split(/(\s+)/); // 공백 보존하며 분할
+    // 띄어쓰기(공백)를 보존하여 단어별 분할
+    const tokens = sentence.split(/(\s+)/);
 
-    let i = 0;
-    while (i < tokens.length) {
+    for (let i = 0; i < tokens.length; i++) {
       const currentToken = tokens[i];
+
+      // 공백은 그대로 출력
       if (/\s+/.test(currentToken)) {
         result.push(currentToken);
-        i++;
         continue;
       }
 
-      // 1. 다어절(2단어 이상) 숙어/연어 매칭 시도
-      // (주의: 반드시 breakdownMap에 정확히 일치하는 다어절 키가 있을 때만 한정 매칭!)
-      let foundMatch = null;
-      for (let j = 5; j >= 2; j--) {
-        if (i + (j * 2) - 1 <= tokens.length) {
-          const potentialPhraseTokens = tokens.slice(i, i + (j * 2) - 1);
-          const potentialPhrase = potentialPhraseTokens.join('').trim();
-          const cleanP = clean(potentialPhrase);
-
-          if (cleanP && breakdownMap[cleanP]) {
-            foundMatch = {
-              text: potentialPhrase,
-              meaning: breakdownMap[cleanP],
-              originalIndex: i
-            };
-            i += (j * 2) - 1;
-            break;
-          }
-        }
+      // 앞뒤 구두점(.,!? 등) 분리하여 핵심 단어만 툴팁 대상화
+      const punctMatch = currentToken.match(/^([.,!?()[\]{}"'“”‘’/–—~]*)(.*?)([.,!?()[\]{}"'“”‘’/–—~]*)$/);
+      let leadPunct = '';
+      let coreWord = currentToken;
+      let trailPunct = '';
+      if (punctMatch && punctMatch[2]) {
+        leadPunct = punctMatch[1];
+        coreWord = punctMatch[2];
+        trailPunct = punctMatch[3];
       }
 
-      if (foundMatch) {
-        const idx = foundMatch.originalIndex;
-        const isShow = hoveredIdx === idx || clickedIdx === idx;
+      // 각 낱단어별 개별 의미 매칭 (어떤 경우에도 여러 단어를 하나로 묶지 않음)
+      const tokenMeaning = findSingleWordMeaning(coreWord);
+      const idx = i;
+      const isShow = tokenMeaning && (hoveredIdx === idx || clickedIdx === idx);
+
+      if (tokenMeaning) {
         result.push(
-          <div key={idx} style={{ position: 'relative', display: 'inline-block' }}>
+          <React.Fragment key={idx}>
+            {leadPunct}
             <span 
-              onMouseEnter={() => setHoveredIdx(idx)}
-              onMouseLeave={() => setHoveredIdx(null)}
-              onClick={(e) => { e.stopPropagation(); setClickedIdx(clickedIdx === idx ? null : idx); }}
               style={{ 
-                cursor: 'pointer',
-                textDecoration: 'underline',
-                textDecorationStyle: 'dotted',
-                textDecorationColor: '#ff9f43',
-                color: '#d35400',
-                padding: '1px 3px',
-                borderRadius: '4px',
-                background: isShow ? '#ffeaa7' : '#fff3e0',
-                transition: 'all 0.2s',
-                fontWeight: '700'
+                position: 'relative', 
+                display: 'inline-block',
+                margin: '0 1px'
               }}
             >
-              {foundMatch.text}
-            </span>
-            {isShow && (
-              <div style={{
-                position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
-                marginBottom: '6px', background: '#2d3436', color: '#fff', padding: '6px 12px',
-                borderRadius: '8px', fontSize: '0.85rem', whiteSpace: 'normal', maxWidth: '280px',
-                textAlign: 'center', lineHeight: '1.4', zIndex: 999,
-                boxShadow: '0 4px 15px rgba(0,0,0,0.25)', fontWeight: 'bold'
-              }}>
-                {foundMatch.meaning}
-                <div style={{
-                  position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
-                  borderWidth: '5px', borderStyle: 'solid', borderColor: '#2d3436 transparent transparent transparent'
-                }} />
-              </div>
-            )}
-          </div>
-        );
-      } else {
-        // 2. 단일 단어 개별 지능형 의미 매칭 (단어 하나하나 독립 분리 매칭)
-        const tokenMeaning = findSingleWordMeaning(currentToken);
-        const idx = i;
-        const isShow = tokenMeaning && (hoveredIdx === idx || clickedIdx === idx);
-
-        if (tokenMeaning) {
-          result.push(
-            <div key={idx} style={{ position: 'relative', display: 'inline-block' }}>
               <span 
                 onMouseEnter={() => setHoveredIdx(idx)}
                 onMouseLeave={() => setHoveredIdx(null)}
@@ -186,45 +152,63 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
                   cursor: 'pointer',
                   textDecoration: 'underline',
                   textDecorationStyle: 'dotted',
-                  textDecorationColor: '#74b9ff',
-                  color: '#0984e3',
-                  padding: '1px 3px',
-                  borderRadius: '4px',
-                  background: isShow ? '#dff9fb' : '#f0f9ff',
-                  fontWeight: '600',
-                  transition: 'all 0.2s'
+                  textDecorationColor: '#f59e0b',
+                  color: isShow ? '#b45309' : 'inherit',
+                  padding: '2px 4px',
+                  borderRadius: '6px',
+                  background: isShow ? '#fef08a' : 'transparent',
+                  fontWeight: isShow ? '800' : '600',
+                  transition: 'all 0.15s ease'
                 }}
               >
-                {currentToken}
+                {coreWord}
               </span>
               {isShow && (
                 <div style={{
-                  position: 'absolute', bottom: '100%', left: '50%', transform: 'translateX(-50%)',
-                  marginBottom: '6px', background: '#2d3436', color: '#fff', padding: '6px 12px',
-                  borderRadius: '8px', fontSize: '0.85rem', whiteSpace: 'normal', maxWidth: '280px',
-                  textAlign: 'center', lineHeight: '1.4', zIndex: 999,
-                  boxShadow: '0 4px 15px rgba(0,0,0,0.25)', fontWeight: 'bold'
+                  position: 'absolute', 
+                  bottom: '100%', 
+                  left: '50%', 
+                  transform: 'translateX(-50%)',
+                  marginBottom: '8px', 
+                  background: '#1e293b', 
+                  color: '#ffffff', 
+                  padding: '6px 12px',
+                  borderRadius: '8px', 
+                  fontSize: '0.82rem', 
+                  whiteSpace: 'nowrap',
+                  maxWidth: '280px',
+                  textAlign: 'center', 
+                  lineHeight: '1.4', 
+                  zIndex: 9999,
+                  boxShadow: '0 6px 18px rgba(0,0,0,0.25)', 
+                  fontWeight: 'bold',
+                  pointerEvents: 'none'
                 }}>
                   {tokenMeaning}
                   <div style={{
-                    position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
-                    borderWidth: '5px', borderStyle: 'solid', borderColor: '#2d3436 transparent transparent transparent'
+                    position: 'absolute', 
+                    top: '100%', 
+                    left: '50%', 
+                    transform: 'translateX(-50%)',
+                    borderWidth: '5px', 
+                    borderStyle: 'solid', 
+                    borderColor: '#1e293b transparent transparent transparent'
                   }} />
                 </div>
               )}
-            </div>
-          );
-        } else {
-          result.push(currentToken);
-        }
-        i++;
+            </span>
+            {trailPunct}
+          </React.Fragment>
+        );
+      } else {
+        result.push(currentToken);
       }
     }
     return result;
   };
 
   return (
-    <div style={{ display: 'inline-flex', flexWrap: 'wrap', gap: '2px', alignItems: 'center' }}>
+    <div style={{ display: 'inline', flexWrap: 'wrap', alignItems: 'center', lineHeight: '1.8' }}>
       {renderInteractiveText()}
     </div>
   );

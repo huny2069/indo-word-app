@@ -96,10 +96,19 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
     발음 실수, 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 반드시 **${nativeLangName}**로 꼼꼼히 적으세요.
   - **related (강사팁 및 암기 비법)**:
     1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 실전 회화 꿀팁을 반드시 **${nativeLangName}**로 적으세요.
-  - **word_breakdown (예문 전수 분석 인터랙티브 툴팁 - 매우 중요!)**:
-    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 **모든 단어와 어절(조사나 접미사가 결합된 문장 속 실제 형태 포함)을 하나도 빠짐없이** 전수 분석하여:
-    [{"word": "예문 속 실제 단어/어절", "meaning": "${nativeLangName} 뜻"}]
-    형태로 기재하세요. 학생들이 마우스를 올리거나 터치했을 때 즉시 툴팁으로 표시되어야 하므로 절대로 누락하지 마세요!
+  - **word_breakdown (단어별 개별 분리 전수 분석 - 절대 문장 전체를 하나로 묶지 마세요!)**:
+    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 모든 낱단어(어절)를 공백 단위로 1단어씩 완전히 쪼개어 각각의 뜻을 배열에 담으세요.
+    ⚠️ [절대 주의 / 금지사항] 문장 전체나 여러 단어를 통째로 묶어서 하나로 넣지 마세요! 무조건 공백 기준 1단어(1어절) 단위로 분리해야 합니다.
+    [작성 예시]:
+    - ❌ 절대 금지: [{"word": "저녁 식사 후에 공원에서 산책합니다.", "meaning": "..."}] (문장 전체 묶음 금지!)
+    - ⭕ 올바른 작성:
+      [
+        {"word": "저녁", "meaning": "${nativeLangName} 뜻"},
+        {"word": "식사", "meaning": "${nativeLangName} 뜻"},
+        {"word": "후에", "meaning": "${nativeLangName} 뜻"},
+        {"word": "공원에서", "meaning": "${nativeLangName} 뜻"},
+        {"word": "산책합니다", "meaning": "${nativeLangName} 뜻"}
+      ]
     ⚠️ meaning은 반드시 100% **${nativeLangName}**로 작성해야 합니다!
 
   [각 요소의 JSON 구조]
@@ -434,10 +443,19 @@ export const regenerateWordData = async (wordObj, apiKey, modelName = 'gemini-3.
     발음 실수, 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 반드시 **${nativeLangName}**로 꼼꼼히 적으세요.
   - **related (강사팁 및 암기 비법)**:
     1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 실전 회화 꿀팁을 반드시 **${nativeLangName}**로 적으세요.
-  - **word_breakdown (예문 전수 분석 인터랙티브 툴팁 - 매우 중요!)**:
-    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 **모든 단어와 어절(조사나 접미사가 결합된 문장 속 실제 형태 포함)을 하나도 빠짐없이** 전수 분석하여:
-    [{"word": "예문 속 실제 단어/어절", "meaning": "${nativeLangName} 뜻"}]
-    형태로 기재하세요. 학생들이 마우스를 올리거나 터치했을 때 즉시 툴팁으로 표시되어야 하므로 절대로 누락하지 마세요!
+  - **word_breakdown (단어별 개별 분리 전수 분석 - 절대 문장 전체를 하나로 묶지 마세요!)**:
+    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 모든 낱단어(어절)를 공백 단위로 1단어씩 완전히 쪼개어 각각의 뜻을 배열에 담으세요.
+    ⚠️ [절대 주의 / 금지사항] 문장 전체나 여러 단어를 통째로 묶어서 하나로 넣지 마세요! 무조건 공백 기준 1단어(1어절) 단위로 분리해야 합니다.
+    [작성 예시]:
+    - ❌ 절대 금지: [{"word": "저녁 식사 후에 공원에서 산책합니다.", "meaning": "..."}] (문장 전체 묶음 금지!)
+    - ⭕ 올바른 작성:
+      [
+        {"word": "저녁", "meaning": "${nativeLangName} 뜻"},
+        {"word": "식사", "meaning": "${nativeLangName} 뜻"},
+        {"word": "후에", "meaning": "${nativeLangName} 뜻"},
+        {"word": "공원에서", "meaning": "${nativeLangName} 뜻"},
+        {"word": "산책합니다", "meaning": "${nativeLangName} 뜻"}
+      ]
     ⚠️ meaning은 반드시 100% **${nativeLangName}**로 작성해야 합니다!
 
   [JSON 응답 스키마]
