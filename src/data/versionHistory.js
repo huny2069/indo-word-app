@@ -4,17 +4,40 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.26';
+export const CURRENT_VERSION = 'v20.27';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "1만 단어 사전 메뉴 및 데이터 관리 기능 운영자(Admin) 전용 권한 잠금 적용";
+export const CURRENT_VERSION_SUMMARY = "첫 온보딩 언어 선택 화면 및 구글 로그인 화면 다국어(영어·인도네시아어) 전면 안내 적용";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Penguncian Hak Akses Eksklusif Administrator untuk Menu & Manajemen Kamus 10K';
-  if (lang === 'en') return 'Exclusive Administrator Access Gate for 10K Dictionary Menu & Data Management';
+  if (lang === 'id') return 'Dukungan Panduan Multibahasa (Inggris & Indonesia) pada Layar Onboarding & Login Awal';
+  if (lang === 'en') return 'Full Multilingual (English & Indonesian) Guidance on Onboarding & Initial Login Screens';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
+  {
+    version: 'v20.27',
+    date: '2026-11-01',
+    badge: 'UPDATE',
+    title: "첫 온보딩 언어 선택 화면 및 구글 로그인 화면 다국어(영어·인도네시아어) 전면 안내 적용",
+    title_id: "Dukungan Panduan Multibahasa (Inggris & Indonesia) pada Layar Onboarding & Login Awal",
+    title_en: "Full Multilingual (English & Indonesian) Guidance on Onboarding & Initial Login Screens",
+    highlights: [
+      "🍌 [온보딩 화면 다국어(영어·인니) 완벽 대응] 첫 방문자가 한국어를 몰라도 쉽게 시작할 수 있도록 온보딩 타이틀('Start with Nana'), 단계별 선택 안내('Select your UI language / Which language do you want to learn?'), 하단 설정 안내 문구를 영어와 인도네시아어로 함께 표기",
+      "🌐 [첫 로그인 화면 다국어 선택 바 및 영문 표기 신설] 로그인 전에도 즉시 🇰🇷/🇮🇩/🇺🇸 언어를 원클릭으로 전환할 수 있는 상단 선택기를 탑재하고, 타이틀 서브설명·구글 로그인 안내문·3대 핵심 기능 배지(Global Study, Cloud Sync, AI Gen) 및 정책 안내에 영문과 인도네시아어 보조 문구를 완벽 배치",
+      "⚡ [구글 로그인 버튼 렌더링 최적화] 로그인 화면에서 언어 변경 시에도 구글 공식 인증 버튼이 끊김 없이 즉각적으로 올바르게 렌더링되도록 생명주기 안정화"
+    ],
+    highlights_id: [
+      "🍌 [Layar Onboarding Multibahasa Lengkap] Menambahkan panduan teks dalam Bahasa Inggris dan Bahasa Indonesia pada layar pemilihan bahasa awal agar pengguna internasional dapat memilih bahasa dengan jelas",
+      "🌐 [Pemilih Bahasa & Subtitle Multibahasa di Layar Login] Menyediakan pemilih bahasa instan 🇰🇷/🇮🇩/🇺🇸 di bagian atas layar login, serta melengkapi teks instruksi login Google dan kartu fitur utama dengan bahasa Inggris dan Indonesia",
+      "⚡ [Optimalisasi Render Tombol Google] Memastikan tombol otentikasi Google selalu ter-render dengan stabil saat pengguna beralih bahasa"
+    ],
+    highlights_en: [
+      "🍌 [Full Multilingual Onboarding Screen] Added comprehensive English and Indonesian companion texts to the onboarding title, step indicators, and settings guidance notes so international visitors can navigate with ease",
+      "🌐 [Instant Language Switcher & English Guide on Login] Added a one-click language toggle (KR/ID/US) on the login card, alongside English and Indonesian subtitles, Google Sign-in prompts, and feature badge descriptions",
+      "⚡ [Optimized Google Sign-In Rendering] Ensured seamless button re-rendering whenever visitors toggle between languages on the login page"
+    ]
+  },
   {
     version: 'v20.26',
     date: '2026-11-01',

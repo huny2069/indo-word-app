@@ -56,25 +56,37 @@ const Onboarding = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          margin: '0 auto 2rem',
+          margin: '0 auto 1.5rem',
           boxShadow: '0 10px 20px rgba(254, 202, 87, 0.2)',
           transform: 'rotate(-5deg)'
         }}>
           <Languages size={36} color="#feca57" />
         </div>
 
-        <h2 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)', margin: '0 0 0.5rem 0' }}>
+        <h2 style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--nana-dark)', margin: '0 0 0.25rem 0' }}>
           {t('onboarding_title')}
         </h2>
+        <div style={{ fontSize: '0.95rem', color: '#888', fontWeight: '700', marginBottom: '1.5rem', letterSpacing: '-0.2px' }}>
+          Start with Nana 🍌 • Mulai bersama Nana 🍌
+        </div>
         
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginBottom: '2.5rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginBottom: '2rem' }}>
             <div style={{ width: '40px', height: '6px', borderRadius: '10px', background: step === 1 ? '#feca57' : '#eee', transition: 'all 0.3s' }}></div>
             <div style={{ width: '40px', height: '6px', borderRadius: '10px', background: step === 2 ? '#feca57' : '#eee', transition: 'all 0.3s' }}></div>
         </div>
 
-        <p style={{ color: '#666', fontSize: '1.2rem', fontWeight: '700', margin: '0 0 2.5rem 0', lineHeight: '1.5' }}>
-          {step === 1 ? t('onboarding_native') : t('onboarding_study')}
-        </p>
+        <div style={{ marginBottom: '2rem' }}>
+          <div style={{ color: 'var(--nana-dark)', fontSize: '1.25rem', fontWeight: '800', margin: '0 0 0.35rem 0', lineHeight: '1.4' }}>
+            {step === 1 ? '사용할 언어(UI)를 선택하세요.' : t('onboarding_study')}
+          </div>
+          <div style={{ color: '#666', fontSize: '0.92rem', fontWeight: '600' }}>
+            {step === 1 ? (
+              <span>Select your language (UI) • Pilih bahasa tampilan Anda</span>
+            ) : (
+              <span>Which language do you want to learn? • Bahasa apa yang ingin Anda pelajari?</span>
+            )}
+          </div>
+        </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem' }}>
           {languages.map((lang) => {
@@ -121,16 +133,31 @@ const Onboarding = () => {
         </div>
 
         {step === 2 && (
-            <button 
-                onClick={() => setStep(1)}
-                style={{ marginTop: '2rem', background: 'none', border: 'none', color: '#999', fontWeight: 'bold', cursor: 'pointer', textDecoration: 'underline', fontSize: '0.9rem' }}
-            >
-                {t('btn_back')}
-            </button>
+          <button 
+            onClick={() => setStep(1)}
+            style={{ marginTop: '1.8rem', background: 'none', border: 'none', color: '#777', fontWeight: 'bold', cursor: 'pointer', textDecoration: 'underline', fontSize: '0.9rem' }}
+          >
+            ← {t('btn_back')} (Back / Kembali)
+          </button>
         )}
 
-        <div style={{ marginTop: '3rem', fontSize: '0.85rem', color: '#bbb', fontWeight: '600' }}>
-          * {t('guide_drive_step1').split(':')[0]} 🍌
+        <div style={{ 
+          marginTop: '2.5rem', 
+          padding: '1rem 1.2rem', 
+          background: '#fafbfc', 
+          borderRadius: '18px', 
+          border: '1px solid #f1f3f5', 
+          fontSize: '0.82rem', 
+          color: '#666', 
+          lineHeight: '1.6',
+          textAlign: 'left'
+        }}>
+          <div style={{ fontWeight: '800', color: 'var(--nana-dark)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span>💡</span> <strong>안내 (Notice / Pemberitahuan)</strong>
+          </div>
+          <div>• 언제든 [설정] 메뉴에서 언어를 자유롭게 다시 변경할 수 있습니다.</div>
+          <div style={{ color: '#888', fontSize: '0.78rem' }}>• You can change your language anytime later in the [Settings] menu.</div>
+          <div style={{ color: '#888', fontSize: '0.78rem' }}>• Anda dapat mengubah bahasa kapan saja nanti di menu [Pengaturan].</div>
         </div>
       </div>
     </div>
