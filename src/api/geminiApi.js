@@ -1,5 +1,50 @@
 import { logUsage } from './supabase';
 
+// 언어별 특화 규칙 및 스키마 필드 정의 헬퍼 (generateWords와 regenerateWordData 100% 공통 적용)
+const getLanguageSpecificRulesAndFields = (studyLang, nativeLangName, userLang) => {
+  let specificRules = '';
+  let specificFields = '';
+
+  if (studyLang === 'en') {
+    specificRules = `
+    - [영어 학습자 전용 규칙]:
+      * **어근(root)은 오직 인도네시아어에만 존재합니다.** 영어 단어의 경우 root 필드는 반드시 빈 문자열("")로 설정하세요. 절대로 root에 값을 넣지 마세요!
+      * 대신 '어원(Etymology)'과 '뉘앙스(Nuance)' 정보를 ${nativeLangName}로 풍부하고 정확하게 제공하세요.
+      * 해당 단어와 관련된 주요 '구동사(Phrasal Verbs)'나 '관용구(Idioms)'를 related 항목에 포함하세요.
+      * **grammar_rule (문법 원리)**: 품사 변환 접미사(예: -tion, -ize, -ful, -ly), 불규칙 동사 과거형/과거분사형, 복수형 변칙 형태, 전치사 결합 패턴 등을 ${nativeLangName}로 명쾌하게 설명하세요.
+      * 발음 기호(IPA)를 pronunciation에 반드시 포함하세요.`;
+    specificFields = `
+    "root": "",
+    "etymology": "단어의 어원 및 역사적 배경 (반드시 ${nativeLangName}로 작성)",
+    "nuance": "비슷한 단어와의 미세한 뉘앙스/어감 차이 설명 (반드시 ${nativeLangName}로 작성)",
+    "pronunciation": "국제 발음 기호(IPA) 표기",`;
+  } else if (studyLang === 'id') {
+    specificRules = `
+    - [인도네시아어 학습자 전용 규칙]:
+      * 인도네시아어는 고유의 어근(Kata Dasar) 체계가 있으므로, 'root' 항목에 반드시 정확한 인도네시아어 어근(Kata Dasar)을 기재하세요. (단어 자체가 어근이라면 해당 어근을 그대로 기재)
+      * **grammar_rule (문법 변화 원리 - 매우 중요!)**:
+        어떤 문법 규칙/접사(meN-, ber-, di-, peN-, ter-, -kan, -i, ke-...-an 등)에 의해 어근에서 무엇과 무엇이 추가/변환/삭제(예: k/p/t/s 탈락 변환, r 탈락 등)되어 어떤 품사와 의미로 바뀌었는지 단계별 파생 메커니즘을 학생이 무릎을 탁 치며 이해할 수 있게 **${nativeLangName}**로 명쾌하고 깊이 있게 설명하세요. (단순 '접사 결합' 같은 1줄 성의 없는 요약 절대 금지!)
+      * 발음 기호(pronunciation)를 가이드로 적어주세요.`;
+    specificFields = `
+    "root": "인도네시아어 순수 어근(Kata Dasar) - 필수",
+    "pronunciation": "실제 발음 안내",`;
+  } else if (studyLang === 'ko') {
+    specificRules = `
+    - [한국어 학습자 전용 규칙]:
+      * **어근(root)은 오직 인도네시아어에만 존재합니다.** 한국어 단어의 경우 root 필드는 반드시 빈 문자열("")로 설정하세요. 절대로 root에 값을 넣지 마세요!
+      * 한국어 '높임말(Honorifics)' 구분(존댓말/반말 형태)과 '한자어(Hanja)' 정보(한자 표기 및 각 글자 뜻)를 ${nativeLangName}로 상세히 제공하세요.
+      * **grammar_rule (문법 변화 원리 - 매우 중요!)**:
+        받침(Batchim) 유무에 따른 조사 결합(이/가, 을/를, 은/는, 과/와, 으로/로 등) 및 동사/형용사 어미 활용 원리(아/어, (으)시, 았/었, (으)ㄹ 수 있다 등)를 학생이 한눈에 이해할 수 있도록 **${nativeLangName}**로 명쾌하고 상세하게 설명하세요.
+      * 상황별 종결어미의 차이를 context와 caution에 적어주세요.`;
+    specificFields = `
+    "root": "",
+    "honorifics": "해당 단어의 존댓말/반말 구분 및 높임말 형태 (${nativeLangName})",
+    "hanja_info": "한자어인 경우 한자 및 각 글자의 의미 정보 (${nativeLangName})",`;
+  }
+
+  return { specificRules, specificFields };
+};
+
 export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.8-flash', excludeWords = [], userLang = 'ko', studyLang = 'id', email = null) => {
   const cleanKey = apiKey ? apiKey.trim() : '';
   if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
@@ -8,44 +53,11 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${cleanKey}`;
 
   // 언어 이름 매핑
-  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
-  const targetLangName = langNames[studyLang] || '인도네시아어(Indonesian)';
+  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Bahasa Indonesia)', en: '영어(English)' };
+  const targetLangName = langNames[studyLang] || '인도네시아어(Bahasa Indonesia)';
   const nativeLangName = langNames[userLang] || '한국어(Korean)';
 
-  // 언어별 특화 스키마 및 가이드 정의 (1만단어 정밀 재생성과 100% 동일)
-  let specificRules = '';
-  let specificFields = '';
-
-  if (studyLang === 'en') {
-    specificRules = `
-    - 영어 단어의 경우, '어근'은 없으므로 root 필드는 빈 문자열("")로 설정하세요. 대신 '어원(Etymology)'과 '뉘앙스(Nuance)' 정보를 풍부하게 제공하세요.
-    - 해당 단어와 관련된 주요 '구동사(Phrasal Verbs)'나 '관용구(Idioms)'가 있다면 related 항목에 포함하세요.
-    - 불규칙 동사나 명사의 복수형 등 '변칙적인 형태(Irregular Forms)'가 있다면 grammar_rule에 명시하세요.
-    - 발음 기호(IPA)를 pronunciation에 반드시 포함하세요.`;
-    specificFields = `
-    "root": "",
-    "etymology": "단어의 어원이나 역사적 배경 (1문장)",
-    "nuance": "비슷한 단어와의 미세한 의미 차이나 어감 설명 (1문장)",
-    "pronunciation": "국제 발음 기호(IPA) 표기",`;
-  } else if (studyLang === 'id') {
-    specificRules = `
-    - 인도네시아어는 고유의 어근(Kata Dasar) 체계가 있으므로, 'root' 항목에 반드시 정확한 인도네시아어 어근(Kata Dasar)을 기재하세요. (만약 단어 자체가 어근이라면 해당 어근을 그대로 기재)
-    - **grammar_rule (문법 변화 원리 - 매우 중요!)**:
-      어떤 문법 규칙/접사(meN-, ber-, di-, peN-, ter-, -kan, -i, ke-...-an 등)에 의해 어근에서 무엇과 무엇이 추가/변환/삭제(예: k/p/t/s 탈락 변환, r 탈락 등)되어 어떤 품사와 의미로 바뀌었는지 단계별 파생 메커니즘을 학생이 무릎을 탁 치며 이해할 수 있게 명쾌하고 깊이 있게 설명하세요. (단순 '접사 결합' 같은 1줄 성의 없는 요약 절대 금지!)
-    - 발음 기호(pronunciation)를 가이드로 적어주세요.`;
-    specificFields = `
-    "root": "인도네시아어 어근(Kata Dasar) - 필수",
-    "pronunciation": "실제 발음 안내",`;
-  } else if (studyLang === 'ko') {
-    specificRules = `
-    - 한국어는 인도네시아어식 어근이 없으므로 root 필드는 빈 문자열("")로 설정하세요.
-    - 한국어의 경우 '높임말(Honorifics)' 수준과 '한자어(Hanja)' 정보를 풍부하게 제공하세요.
-    - 상황별 종결어미의 차이를 context와 caution에 상세히 적어주세요.`;
-    specificFields = `
-    "root": "",
-    "honorifics": "해당 단어의 존댓말/반말 구분 및 높임말 형태",
-    "hanja_info": "한자어인 경우 한자 및 각 글자의 의미 정보",`;
-  }
+  const { specificRules, specificFields } = getLanguageSpecificRulesAndFields(studyLang, nativeLangName, userLang);
 
   // 단어 생성 프롬프트 빌더 (1만단어 사전의 [AI 정밀 재생성]과 100% 동일한 고품질 1타 강사 기준 적용)
   const buildBatchPrompt = (batchCount, currentExcludeList) => `
@@ -53,7 +65,16 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
   단순한 단어 나열이 아니라, 1만단어 사전의 [AI 정밀 재생성]과 100% 동일하게 모든 컬럼이 완벽하고 깊이 있는 최상위 학습 데이터를 생성해야 합니다.
   사용자가 요청한 주제 "${topic}"에 관련된 필수 핵심 ${targetLangName} 단어 ${batchCount}개를 생성해주세요.
   어느 단어 하나도 요약하거나 축약하지 말고 모든 필드를 100% 충실하고 깊이 있게 작성하세요.
-  모든 설명과 번역은 반드시 **${nativeLangName}**로 작성하세요.
+
+  [⚠️ 언어 작성 절대 원칙 - 100% 엄격 준수]
+  학습자의 모국어(User Native Language): **${nativeLangName}**
+  학습 대상 언어(Target Study Language): **${targetLangName}**
+  * word, example_formal, example_casual 3가지 필드(타겟 학습 언어)를 제외한
+    모든 필드(meaning, pos, example_formal_kr, example_casual_kr, context, caution, related, grammar_rule, word_breakdown의 모든 meaning)는
+    100% 반드시 학습자의 모국어인 **${nativeLangName}**로만 작성해야 합니다!
+  * 만약 학습자 언어가 인도네시아어(userLang: id)라면, 한국어나 영어가 섞이면 안 되며 100% 인도네시아어(Bahasa Indonesia)로만 설명과 뜻을 작성하세요!
+  * 만약 학습자 언어가 영어(userLang: en)라면, 100% 영어(English)로만 설명과 뜻을 작성하세요!
+  * 만약 학습자 언어가 한국어(userLang: ko)라면, 100% 한국어로만 설명과 뜻을 작성하세요!
 
   [중요 규칙 및 엄격 지침]
   1. 반드시 유효한 JSON 배열 형식([ { ... }, { ... } ])으로만 응답하며, 마크다운 백틱(\`\`\`)을 일절 포함하지 마세요.
@@ -62,40 +83,43 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
 
   [1타 강사의 컬럼별 필수 작성 기준 - 1만단어 정밀 재생성과 100% 동일한 깊이]
   - **word**: 주제 "${topic}"의 실전 대화 및 비즈니스에 직결되는 정확한 ${targetLangName} 단어.
-  - **meaning**: ${nativeLangName}의 가장 정확하고 생생한 의미 표기.
-  - **pos**: 품사 (${nativeLangName}로 명확히 표기: 명사, 동사, 형용사, 부사, 대명사, 수사, 전치사, 접속사, 감탄사 중 하나).
+  - **meaning**: ${nativeLangName}의 가장 정확하고 생생한 의미 표기 (반드시 ${nativeLangName}로 작성).
+  - **pos**: 품사 (${nativeLangName}로 명확히 표기).
   - **root (어근)**: 오직 인도네시아어(studyLang: id)일 때만 필수! 접사(Imbuhan)가 붙은 파생어라면 접사를 제외한 순수 어근(Kata Dasar)을 정확히 기재하고, 단어 자체가 어근인 경우 해당 단어를 그대로 적습니다. 한국어나 영어는 어근이 없으므로 빈 문자열("")로 둡니다.
   - **grammar_rule (핵심 문법)**:
-    인도네시아어의 경우, 어떤 접사/문법 규칙에 의해 무엇과 무엇이 추가, 변환, 삭제(예: meN- 결합 시 k/p/t/s 탈락 규칙 등)되어 원래 어근에서 어떤 품사/뜻으로 파생되었는지 그 변형 메커니즘을 상세히 설명하세요.
+    ${targetLangName}의 문법 결합, 접사 변형 파생 메커니즘(인도네시아어의 경우 k/p/t/s 탈락 규칙 등, 한국어의 경우 받침에 따른 조사/어미 활용 등)을 반드시 **${nativeLangName}**로 상세하고 깊이 있게 설명하세요.
   - **synonym (동의어)** & **antonym (반의어)**:
-    단순 단어만 적지 말고 반드시 해당 단어와 '단어 (뜻)' 형식으로 ${nativeLangName} 뜻까지 함께 적으세요 (예: "pintar (똑똑한, 영리한)"). 반대되는 단어나 동의어가 마땅치 않은 경우 생략하고 빈 문자열("")로 두세요.
+    단순 단어만 적지 말고 반드시 '단어 (뜻)' 형식으로 ${nativeLangName} 뜻까지 함께 적으세요 (예: "pintar (똑똑한, 영리한)"). 반대되는 단어나 동의어가 마땅치 않은 경우 빈 문자열("")로 두세요.
   - **context (상황 및 분위기)**:
-    대화 중 어떠한 상황(비즈니스, 일상 대화, 쇼핑, 친구 사이 등)에 어울리며 분위기(정중함, 격식, 친근함 등)는 어떠하고, 실제 원어민이 어떤 상황에서 쓰는 것이 가장 적절한지 생생하게 설명하세요.
+    대화 중 어떠한 상황(비즈니스, 일상 대화, 쇼핑, 친구 사이 등)에 어울리며 분위기(정중함, 격식, 친근함 등)는 어떠하고, 실제 원어민이 어떤 맥락에서 쓰는 것이 가장 적절한지 반드시 **${nativeLangName}**로 생생하게 설명하세요.
   - **caution (주의할 점)**:
-    발음 실수, 자카르타 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 꼼꼼히 적으세요.
+    발음 실수, 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 반드시 **${nativeLangName}**로 꼼꼼히 적으세요.
   - **related (강사팁 및 암기 비법)**:
-    1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 어근 활용법, 실전 회화 꿀팁을 적으세요.
-  - **Interactivity (예문 전수 분석 word_breakdown - 매우 중요!)**:
-    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 **모든 단어와 구성 요소(조사, 전치사, 대명사, 동사, 명사 등)를 하나도 빠짐없이** word_breakdown 배열에 [{"word": "단어", "meaning": "뜻"}] 형태로 전수 기재하세요. 학생들이 마우스를 올리거나 클릭했을 때 모든 단어의 뜻이 즉시 툴팁으로 표시되어야 하므로 절대로 건너뛰지 마세요!
+    1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 실전 회화 꿀팁을 반드시 **${nativeLangName}**로 적으세요.
+  - **word_breakdown (예문 전수 분석 인터랙티브 툴팁 - 매우 중요!)**:
+    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 **모든 단어와 어절(조사나 접미사가 결합된 문장 속 실제 형태 포함)을 하나도 빠짐없이** 전수 분석하여:
+    [{"word": "예문 속 실제 단어/어절", "meaning": "${nativeLangName} 뜻"}]
+    형태로 기재하세요. 학생들이 마우스를 올리거나 터치했을 때 즉시 툴팁으로 표시되어야 하므로 절대로 누락하지 마세요!
+    ⚠️ meaning은 반드시 100% **${nativeLangName}**로 작성해야 합니다!
 
   [각 요소의 JSON 구조]
   {
     "word": "${targetLangName} 단어",
-    "meaning": "${nativeLangName} 뜻",
+    "meaning": "${nativeLangName} 정확한 의미 (반드시 ${nativeLangName}로 작성)",
     "pos": "품사 (${nativeLangName}로 표기)",
     "topic": "${topic}",
     ${specificFields}
     "example_formal": "${targetLangName} 격식체 예문",
-    "example_formal_kr": "위 예문의 ${nativeLangName} 번역",
+    "example_formal_kr": "위 격식체 예문의 ${nativeLangName} 번역 (반드시 ${nativeLangName}로 작성)",
     "example_casual": "${targetLangName} 비격식체/구어체 예문",
-    "example_casual_kr": "위 예문의 ${nativeLangName} 번역",
-    "antonym": "반대어 ('단어 (뜻)' 형식, 없을 시 빈 문자열)",
-    "synonym": "유사어 ('단어 (뜻)' 형식, 없을 시 빈 문자열)",
-    "context": "단어가 쓰이는 구체적인 상황, 분위기, 적절한 활용 맥락 상세 설명 (${nativeLangName})",
-    "caution": "발음/철자 혼동, 뉘앙스, 사용 시 주의점 상세 설명 (${nativeLangName})",
-    "related": "1타 강사의 암기 비법 및 실전 활용 팁 (${nativeLangName})",
-    "grammar_rule": "문법 변형 및 결합 규칙 상세 설명 (${nativeLangName})",
-    "word_breakdown": [{"word": "단어/요소", "meaning": "뜻"}]
+    "example_casual_kr": "위 구어체 예문의 ${nativeLangName} 번역 (반드시 ${nativeLangName}로 작성)",
+    "antonym": "반대어 ('단어 (뜻)' 형식, 뜻은 ${nativeLangName}로 작성, 없을 시 빈 문자열)",
+    "synonym": "유사어 ('단어 (뜻)' 형식, 뜻은 ${nativeLangName}로 작성, 없을 시 빈 문자열)",
+    "context": "단어가 쓰이는 구체적인 상황, 분위기, 적절한 활용 맥락 상세 설명 (반드시 ${nativeLangName}로 작성)",
+    "caution": "발음/철자 혼동, 뉘앙스, 사용 시 주의점 상세 설명 (반드시 ${nativeLangName}로 작성)",
+    "related": "1타 강사의 암기 비법 및 실전 활용 팁 (반드시 ${nativeLangName}로 작성)",
+    "grammar_rule": "문법 변형 및 결합 규칙 상세 설명 (반드시 ${nativeLangName}로 작성)",
+    "word_breakdown": [{"word": "예문 속 단어/어절", "meaning": "${nativeLangName} 뜻"}]
   }
 
   ${currentExcludeList.length > 0 ? `제외할 단어 목록(중복 방지): [${currentExcludeList.join(', ')}]` : ''}
@@ -170,7 +194,7 @@ export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.
       if (!currentExclude.includes(cleanWord)) {
         currentExclude.push(cleanWord);
         const enriched = {
-          ...normalizeAndEnrichWordBreakdown(rawItem, studyLang),
+          ...normalizeAndEnrichWordBreakdown(rawItem, studyLang, userLang),
           topic: (rawItem.topic && rawItem.topic.trim()) || topic.trim(),
           _usageMetadata: accumulatedUsage,
           _modelUsed: modelName
@@ -287,30 +311,37 @@ export const safeParseJSON = (rawText) => {
 
 /**
  * 단어 breakdown 및 필드 정규화 헬퍼 (누락 방지)
+ * @param {Object} item 단어 객체
+ * @param {string} studyLang 학습 언어 (기본 'id')
+ * @param {string} userLang 사용자 모국어 (기본 'ko')
  */
-export const normalizeAndEnrichWordBreakdown = (item, studyLang = 'id') => {
+export const normalizeAndEnrichWordBreakdown = (item, studyLang = 'id', userLang = 'ko') => {
   if (!item) return item;
 
-  // 품사(pos) 표준화 및 정규화
-  if (!item.pos || typeof item.pos !== 'string' || !item.pos.trim()) {
-    item.pos = '명사';
-  } else {
-    const rawPos = item.pos.trim();
-    if (/(동사|verb|verba|타동사|자동사)/i.test(rawPos)) item.pos = '동사';
-    else if (/(형용사|adjective|adjektiva)/i.test(rawPos)) item.pos = '형용사';
-    else if (/(명사|noun|nomina)/i.test(rawPos)) item.pos = '명사';
-    else if (/(부사|adverb|adverbia)/i.test(rawPos)) item.pos = '부사';
-    else if (/(대명사|pronoun|pronomina)/i.test(rawPos)) item.pos = '대명사';
-    else if (/(전치사|preposition|preposisi)/i.test(rawPos)) item.pos = '전치사';
-    else if (/(접속사|conjunction|konjungsi)/i.test(rawPos)) item.pos = '접속사';
-    else if (/(수사|numeral|numeralia)/i.test(rawPos)) item.pos = '수사';
-    else if (/(감탄사|interjection|interjeksi)/i.test(rawPos)) item.pos = '감탄사';
-    else if (/(관형사|한정사|determiner)/i.test(rawPos)) item.pos = '한정사';
-  }
+  // 품사(pos) 사용자 모국어(userLang)에 맞춘 표준화 및 정규화
+  const rawPos = (typeof item.pos === 'string' ? item.pos.trim() : '') || '명사';
+  let posCategory = 'noun';
+  if (/(동사|verb|verba|타동사|자동사)/i.test(rawPos)) posCategory = 'verb';
+  else if (/(형용사|adjective|adjektiva)/i.test(rawPos)) posCategory = 'adjective';
+  else if (/(명사|noun|nomina)/i.test(rawPos)) posCategory = 'noun';
+  else if (/(부사|adverb|adverbia)/i.test(rawPos)) posCategory = 'adverb';
+  else if (/(대명사|pronoun|pronomina)/i.test(rawPos)) posCategory = 'pronoun';
+  else if (/(전치사|preposition|preposisi)/i.test(rawPos)) posCategory = 'preposition';
+  else if (/(접속사|conjunction|konjungsi)/i.test(rawPos)) posCategory = 'conjunction';
+  else if (/(수사|numeral|numeralia)/i.test(rawPos)) posCategory = 'numeral';
+  else if (/(감탄사|interjection|interjeksi)/i.test(rawPos)) posCategory = 'interjection';
+  else if (/(관형사|한정사|determiner)/i.test(rawPos)) posCategory = 'determiner';
+
+  const posDict = {
+    ko: { noun: '명사', verb: '동사', adjective: '형용사', adverb: '부사', pronoun: '대명사', preposition: '전치사', conjunction: '접속사', numeral: '수사', interjection: '감탄사', determiner: '한정사' },
+    id: { noun: 'Nomina', verb: 'Verba', adjective: 'Adjektiva', adverb: 'Adverbia', pronoun: 'Pronomina', preposition: 'Preposisi', conjunction: 'Konjungsi', numeral: 'Numeralia', interjection: 'Interjeksi', determiner: 'Determiner' },
+    en: { noun: 'Noun', verb: 'Verb', adjective: 'Adjective', adverb: 'Adverb', pronoun: 'Pronoun', preposition: 'Preposition', conjunction: 'Conjunction', numeral: 'Numeral', interjection: 'Interjection', determiner: 'Determiner' }
+  };
+  item.pos = posDict[userLang]?.[posCategory] || posDict['ko'][posCategory];
 
   let breakdown = Array.isArray(item.word_breakdown) ? [...item.word_breakdown] : [];
 
-  // 인도네시아어가 아닌 경우 root는 빈 문자열로 보장
+  // 어근(root)은 오직 인도네시아어(studyLang: 'id')에만 존재하므로, 한국어나 영어는 빈 문자열("")로 엄격 보장
   if (studyLang !== 'id') {
     item.root = '';
   }
@@ -329,11 +360,12 @@ export const normalizeAndEnrichWordBreakdown = (item, studyLang = 'id') => {
     tokens.forEach(t => {
       const c = clean(t);
       if (c && c.length > 0 && !existingKeys.has(c)) {
-        if (clean(item.word) === c) {
+        if (clean(item.word) === c || (c.length >= 2 && c.startsWith(clean(item.word)))) {
           breakdown.push({ word: t.replace(/[.,!?()[\]{}"'/-]/g, ''), meaning: item.meaning });
           existingKeys.add(c);
-        } else if (item.root && clean(item.root) === c) {
-          breakdown.push({ word: t.replace(/[.,!?()[\]{}"'/-]/g, ''), meaning: `어근: ${item.root}` });
+        } else if (studyLang === 'id' && item.root && clean(item.root) === c) {
+          const rootLabel = userLang === 'id' ? `Kata Dasar: ${item.root}` : userLang === 'en' ? `Root: ${item.root}` : `어근: ${item.root}`;
+          breakdown.push({ word: t.replace(/[.,!?()[\]{}"'/-]/g, ''), meaning: rootLabel });
           existingKeys.add(c);
         }
       }
@@ -357,85 +389,74 @@ export const regenerateWordData = async (wordObj, apiKey, modelName = 'gemini-3.
   if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');
 
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${cleanKey}`;
-  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Indonesian)', en: '영어(English)' };
-  const targetLangName = langNames[studyLang] || '인도네시아어(Indonesian)';
+  const langNames = { ko: '한국어(Korean)', id: '인도네시아어(Bahasa Indonesia)', en: '영어(English)' };
+  const targetLangName = langNames[studyLang] || '인도네시아어(Bahasa Indonesia)';
   const nativeLangName = langNames[userLang] || '한국어(Korean)';
 
   const targetWord = wordObj.word ? wordObj.word.split('[[')[0].trim() : '';
   if (!targetWord) throw new Error('재생성할 단어명이 비어 있습니다.');
 
-  let specificRules = '';
-  let specificFields = '';
-
-  if (studyLang === 'en') {
-    specificRules = `
-    - 영어 단어의 경우, '어근'은 없으므로 root 필드는 빈 문자열("")로 설정하세요. 대신 '어원(Etymology)'과 '뉘앙스(Nuance)' 정보를 풍부하게 제공하세요.
-    - 해당 단어와 관련된 주요 '구동사(Phrasal Verbs)'나 '관용구(Idioms)'가 있다면 related 항목에 포함하세요.
-    - 불규칙 동사나 명사의 복수형 등 '변칙적인 형태(Irregular Forms)'가 있다면 grammar_rule에 명시하세요.
-    - 발음 기호(IPA)를 pronunciation에 반드시 포함하세요.`;
-    specificFields = `
-    "root": "",
-    "etymology": "단어의 어원이나 역사적 배경 (1문장)",
-    "nuance": "비슷한 단어와의 미세한 의미 차이나 어감 설명 (1문장)",
-    "pronunciation": "국제 발음 기호(IPA) 표기",`;
-  } else if (studyLang === 'id') {
-    specificRules = `
-    - 인도네시아어는 고유의 어근(Kata Dasar) 체계가 있으므로, 'root' 항목에 반드시 정확한 인도네시아어 어근(Kata Dasar)을 기재하세요. (만약 단어 자체가 어근이라면 해당 어근을 그대로 기재)
-    - **grammar_rule (문법 변화 원리)**: 어떤 문법 규칙/접사(meN-, ber-, di-, peN-, ter-, -kan, -i, ke-...-an 등)에 의해 어근에서 무엇과 무엇이 추가/변환/삭제(예: k/p/t/s 탈락 변환, r 탈락 등)되어 어떤 품사와 의미로 바뀌었는지 단계별 논리를 학생이 한눈에 이해할 수 있게 명쾌하게 설명하세요.
-    - 발음 기호(pronunciation)를 가이드로 적어주세요.`;
-    specificFields = `
-    "root": "인도네시아어 어근(Kata Dasar) - 필수",
-    "pronunciation": "실제 발음 안내",`;
-  } else if (studyLang === 'ko') {
-    specificRules = `
-    - 한국어는 인도네시아어식 어근이 없으므로 root 필드는 빈 문자열("")로 설정하세요.
-    - 한국어의 경우 '높임말(Honorifics)' 수준과 '한자어(Hanja)' 정보를 풍부하게 제공하세요.
-    - 상황별 종결어미의 차이를 context와 caution에 상세히 적어주세요.`;
-    specificFields = `
-    "root": "",
-    "honorifics": "해당 단어의 존댓말/반말 구분 및 높임말 형태",
-    "hanja_info": "한자어인 경우 한자 및 각 글자의 의미 정보",`;
-  }
+  const { specificRules, specificFields } = getLanguageSpecificRulesAndFields(studyLang, nativeLangName, userLang);
 
   const safeMeaning = (wordObj.meaning || '').replace(/"/g, "'").replace(/\r?\n/g, ' ');
 
   const promptText = `
-  당신은 ${nativeLangName} 사용자를 대상으로 하는 ${targetLangName} 교육계의 **'1타 스타 강사'**입니다.
+  당신은 ${nativeLangName} 사용자를 대상으로 하는 ${targetLangName} 교육계의 최고 권위 **'1타 스타 강사'**입니다.
   다음 주어진 단어 "${targetWord}" (기존 뜻 참고: "${safeMeaning}")에 대해 모든 학습 데이터를 100% 완벽하고 올바르게 **재생성**해주세요.
-  모든 설명과 번역은 반드시 **${nativeLangName}**로 작성하세요.
+
+  [⚠️ 언어 작성 절대 원칙 - 100% 엄격 준수]
+  학습자의 모국어(User Native Language): **${nativeLangName}**
+  학습 대상 언어(Target Study Language): **${targetLangName}**
+  * word, example_formal, example_casual 3가지 필드(타겟 학습 언어)를 제외한
+    모든 필드(meaning, pos, example_formal_kr, example_casual_kr, context, caution, related, grammar_rule, word_breakdown의 모든 meaning)는
+    100% 반드시 학습자의 모국어인 **${nativeLangName}**로만 작성해야 합니다!
+  * 만약 학습자 언어가 인도네시아어(userLang: id)라면, 한국어나 영어가 섞이면 안 되며 100% 인도네시아어(Bahasa Indonesia)로만 설명과 뜻을 작성하세요!
+  * 만약 학습자 언어가 영어(userLang: en)라면, 100% 영어(English)로만 설명과 뜻을 작성하세요!
+  * 만약 학습자 언어가 한국어(userLang: ko)라면, 100% 한국어로만 설명과 뜻을 작성하세요!
 
   [중요 규칙 및 엄격 지침]
   1. 반드시 유효한 단일 JSON 객체 형식으로만 응답하며, 마크다운 백틱(\`\`\`)을 일절 포함하지 마세요.
   2. JSON 표준을 엄격히 준수하고 모든 키와 문자열 값은 반드시 시작과 끝에 큰따옴표(")를 정확하게 닫으세요. 시작 따옴표가 누락되면 안 됩니다!
   ${specificRules}
 
-  [컬럼별 필수 작성 기준]
-  - **root (어근)**: 오직 인도네시아어(studyLang: id)일 때만 필수 작성! 한국어나 영어는 어근이 없으므로 반드시 빈 문자열("")로 둡니다.
-  - **grammar_rule (핵심 문법)**: 인도네시아어의 경우, 어떤 접사/문법 규칙에 의해 무엇과 무엇이 추가, 변환, 삭제(예: meN- 결합 시 k/p/t/s 탈락 규칙 등)되어 원래 어근에서 어떤 품사/뜻으로 파생되었는지 그 변형 메커니즘을 상세히 설명하세요.
-  - **synonym (동의어)** & **antonym (반의어)**: 단순 단어만 적지 말고 반드시 해당 단어와 '단어 (뜻)' 형식으로 뜻까지 함께 적으세요 (예: "pintar (똑똑한, 영리한)"). 반대되는 단어나 동의어가 마땅치 않은 경우 생략하고 빈 문자열("")로 두세요.
-  - **context (상황 및 분위기)**: 대화 중 어떠한 상황(비즈니스, 일상 대화, 쇼핑, 친구 사이 등)에 어울리며 분위기(정중함, 격식, 친근함 등)는 어떠하고, 실제 원어민이 어떤 상황에서 쓰는 것이 가장 적절한지 생생하게 설명하세요.
-  - **caution (주의할 점)**: 발음 실수, 자카르타 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 꼼꼼히 적으세요.
-  - **related (강사팁 및 암기 비법)**: 1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 어근 활용법, 실전 회화 꿀팁을 적으세요.
-  - **Interactivity (예문 전수 분석 word_breakdown - 매우 중요!)**:
-    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 **모든 단어와 구성 요소를 하나도 빠짐없이** word_breakdown 배열에 [{"word": "단어", "meaning": "뜻"}] 형태로 전수 기재하세요. 학생들이 마우스를 올리거나 클릭했을 때 모든 단어의 뜻이 즉시 툴팁으로 표시되어야 하므로 절대로 건너뛰지 마세요!
+  [1타 강사의 컬럼별 필수 작성 기준 - 1만단어 정밀 재생성과 100% 동일한 깊이]
+  - **word**: "${targetWord}"
+  - **meaning**: ${nativeLangName}의 가장 정확하고 생생한 의미 표기 (반드시 ${nativeLangName}로 작성).
+  - **pos**: 품사 (${nativeLangName}로 명확히 표기).
+  - **root (어근)**: 오직 인도네시아어(studyLang: id)일 때만 필수! 접사(Imbuhan)가 붙은 파생어라면 접사를 제외한 순수 어근(Kata Dasar)을 정확히 기재하고, 단어 자체가 어근인 경우 해당 단어를 그대로 적습니다. 한국어나 영어는 어근이 없으므로 빈 문자열("")로 둡니다.
+  - **grammar_rule (핵심 문법)**:
+    ${targetLangName}의 문법 결합, 접사 변형 파생 메커니즘(인도네시아어의 경우 k/p/t/s 탈락 규칙 등, 한국어의 경우 받침에 따른 조사/어미 활용 등)을 반드시 **${nativeLangName}**로 상세하고 깊이 있게 설명하세요.
+  - **synonym (동의어)** & **antonym (반의어)**:
+    단순 단어만 적지 말고 반드시 '단어 (뜻)' 형식으로 ${nativeLangName} 뜻까지 함께 적으세요 (예: "pintar (똑똑한, 영리한)"). 반대되는 단어나 동의어가 마땅치 않은 경우 빈 문자열("")로 두세요.
+  - **context (상황 및 분위기)**:
+    대화 중 어떠한 상황(비즈니스, 일상 대화, 쇼핑, 친구 사이 등)에 어울리며 분위기(정중함, 격식, 친근함 등)는 어떠하고, 실제 원어민이 어떤 맥락에서 쓰는 것이 가장 적절한지 반드시 **${nativeLangName}**로 생생하게 설명하세요.
+  - **caution (주의할 점)**:
+    발음 실수, 구어체 방언과의 혼동, 유사 철자 단어와의 혼동, 잘못 사용할 경우 무례해질 수 있는 뉘앙스 등 실전 학습 주의점을 반드시 **${nativeLangName}**로 꼼꼼히 적으세요.
+  - **related (강사팁 및 암기 비법)**:
+    1타 강사의 머리에 쏙쏙 들어오는 연상 암기 비법, 실전 회화 꿀팁을 반드시 **${nativeLangName}**로 적으세요.
+  - **word_breakdown (예문 전수 분석 인터랙티브 툴팁 - 매우 중요!)**:
+    격식체 예문(example_formal)과 구어체 예문(example_casual)에 등장하는 **모든 단어와 어절(조사나 접미사가 결합된 문장 속 실제 형태 포함)을 하나도 빠짐없이** 전수 분석하여:
+    [{"word": "예문 속 실제 단어/어절", "meaning": "${nativeLangName} 뜻"}]
+    형태로 기재하세요. 학생들이 마우스를 올리거나 터치했을 때 즉시 툴팁으로 표시되어야 하므로 절대로 누락하지 마세요!
+    ⚠️ meaning은 반드시 100% **${nativeLangName}**로 작성해야 합니다!
 
   [JSON 응답 스키마]
   {
     "word": "${targetWord}",
-    "meaning": "${nativeLangName} 정확한 뜻",
+    "meaning": "${nativeLangName} 정확한 의미 (반드시 ${nativeLangName}로 작성)",
     "pos": "품사 (${nativeLangName}로 표기)",
     ${specificFields}
     "example_formal": "${targetLangName} 격식체 예문",
-    "example_formal_kr": "위 예문의 ${nativeLangName} 번역",
+    "example_formal_kr": "위 격식체 예문의 ${nativeLangName} 번역 (반드시 ${nativeLangName}로 작성)",
     "example_casual": "${targetLangName} 비격식체/구어체 예문",
-    "example_casual_kr": "위 예문의 ${nativeLangName} 번역",
-    "antonym": "반대어 ('단어 (뜻)' 형식, 없을 시 빈 문자열)",
-    "synonym": "유사어 ('단어 (뜻)' 형식, 없을 시 빈 문자열)",
-    "context": "단어가 쓰이는 구체적인 상황, 분위기, 적절한 활용 맥락 설명 (${nativeLangName})",
-    "caution": "발음/철자 혼동, 뉘앙스, 사용 시 주의점 (${nativeLangName})",
-    "related": "1타 강사의 암기 비법 및 실전 활용 팁 (${nativeLangName})",
-    "grammar_rule": "문법 변형 및 결합 규칙 설명 (${nativeLangName})",
-    "word_breakdown": [{"word": "단어/요소", "meaning": "뜻"}]
+    "example_casual_kr": "위 구어체 예문의 ${nativeLangName} 번역 (반드시 ${nativeLangName}로 작성)",
+    "antonym": "반대어 ('단어 (뜻)' 형식, 뜻은 ${nativeLangName}로 작성, 없을 시 빈 문자열)",
+    "synonym": "유사어 ('단어 (뜻)' 형식, 뜻은 ${nativeLangName}로 작성, 없을 시 빈 문자열)",
+    "context": "단어가 쓰이는 구체적인 상황, 분위기, 적절한 활용 맥락 상세 설명 (반드시 ${nativeLangName}로 작성)",
+    "caution": "발음/철자 혼동, 뉘앙스, 사용 시 주의점 상세 설명 (반드시 ${nativeLangName}로 작성)",
+    "related": "1타 강사의 암기 비법 및 실전 활용 팁 (반드시 ${nativeLangName}로 작성)",
+    "grammar_rule": "문법 변형 및 결합 규칙 상세 설명 (반드시 ${nativeLangName}로 작성)",
+    "word_breakdown": [{"word": "예문 속 단어/어절", "meaning": "${nativeLangName} 뜻"}]
   }
   `;
 
@@ -464,7 +485,7 @@ export const regenerateWordData = async (wordObj, apiKey, modelName = 'gemini-3.
       let parsed = safeParseJSON(textContent);
       if (Array.isArray(parsed)) parsed = parsed[0];
 
-      const normalized = normalizeAndEnrichWordBreakdown(parsed, studyLang);
+      const normalized = normalizeAndEnrichWordBreakdown(parsed, studyLang, userLang);
 
       // 기존 단어 객체의 ID 및 메타데이터 보존 후 병합
       return {

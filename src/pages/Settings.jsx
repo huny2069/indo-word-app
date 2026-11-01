@@ -1017,8 +1017,34 @@ const Settings = () => {
                 </div>
             )}
             {/* 3. [신규] 토큰 및 실시간 예상/실제 비용(KRW ₩ / IDR Rp) 계산기 On/Off 및 단가 안내 */}
+            {/* [신규] API 유료 키 사용자 전용 참고 & 무료 키 100% 무료 안내 배너 */}
             <div style={{
-                marginTop: '1.2rem',
+                marginTop: '1.5rem',
+                padding: '1.2rem 1.4rem',
+                borderRadius: '18px',
+                background: 'linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%)',
+                border: '2px solid #3b82f6',
+                boxShadow: '0 4px 15px rgba(59, 130, 246, 0.12)',
+                marginBottom: '0.8rem'
+            }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
+                    <span style={{ fontSize: '1.25rem' }}>📢</span>
+                    <h4 style={{ margin: 0, fontSize: '0.98rem', fontWeight: '900', color: '#1e40af' }}>
+                        {t('token_notice_banner_title')}
+                    </h4>
+                </div>
+                <div style={{ fontSize: '0.86rem', color: '#334155', lineHeight: '1.6', fontWeight: '600' }}>
+                    <p style={{ margin: '0 0 0.5rem 0' }}>
+                        👉 <strong style={{ color: '#1d4ed8' }}>{t('token_notice_banner_paid')}</strong>
+                    </p>
+                    <p style={{ margin: 0, color: '#047857', fontWeight: '800', background: 'rgba(16, 185, 129, 0.1)', padding: '8px 12px', borderRadius: '10px', borderLeft: '4px solid #10b981' }}>
+                        🎁 {t('token_notice_banner_free')}
+                    </p>
+                </div>
+            </div>
+
+            <div style={{
+                marginTop: '0.5rem',
                 padding: '1.2rem',
                 borderRadius: '16px',
                 background: '#ffffff',

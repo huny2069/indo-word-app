@@ -296,30 +296,29 @@ const WordGenerate = () => {
       try {
         const sharedWords = await fetchSharedWords(topic.trim(), userLang, studyLang);
         const isHighQualityWord = (w) => {
-          return Boolean(
-            w &&
-            w.word &&
-            w.meaning &&
-            w.grammar_rule &&
-            w.grammar_rule.trim().length >= 15 &&
-            w.example_formal &&
-            w.example_casual &&
-            w.context &&
-            w.caution &&
-            w.related &&
-            Array.isArray(w.word_breakdown) &&
-            w.word_breakdown.length > 0
-          );
+          if (!w || !w.word || !w.meaning || !w.grammar_rule) return false;
+          if (w.grammar_rule.trim().length < 15) return false;
+          if (!w.example_formal || !w.example_casual || !w.context || !w.caution || !w.related) return false;
+          if (!Array.isArray(w.word_breakdown) || w.word_breakdown.length === 0) return false;
+
+          // 비한국어 사용자(인도네시아어/영어)일 때, 문법 설명이나 맥락에 한글이 섞여 있으면 구버전 한국어 캐시이므로 거부
+          if (userLang !== 'ko') {
+            const hasKorean = /[\uac00-\ud7a3]/.test(w.grammar_rule || '') || /[\uac00-\ud7a3]/.test(w.context || '');
+            if (hasKorean) return false;
+          }
+          return true;
         };
         const uniqueShared = sharedWords.filter(sw => 
           !existingWordStrings.includes(sw.word.toLowerCase()) && isHighQualityWord(sw)
         );
         const fromCache = uniqueShared.slice(0, count);
         
+        const defaultPos = userLang === 'id' ? 'Nomina' : userLang === 'en' ? 'Noun' : '명사';
         for (const w of fromCache) {
           const { id, created_at, ...cleanWord } = w;
           cleanWord.topic = (cleanWord.topic && cleanWord.topic.trim()) || topic.trim();
-          cleanWord.pos = cleanWord.pos || '명사';
+          cleanWord.pos = cleanWord.pos || defaultPos;
+          if (studyLang !== 'id') cleanWord.root = ''; // 어근은 인도네시아어에만 적용
           cleanWord.user_lang = cleanWord.user_lang || userLang;
           cleanWord.study_lang = cleanWord.study_lang || studyLang;
           const newId = await addWord(cleanWord);
@@ -370,7 +369,8 @@ const WordGenerate = () => {
 
               for (const w of newAiResults) {
                   w.topic = (w.topic && w.topic.trim()) || topic.trim();
-                  w.pos = w.pos || '명사';
+                  w.pos = w.pos || defaultPos;
+                  if (studyLang !== 'id') w.root = '';
                   w.user_lang = userLang;
                   w.study_lang = studyLang;
                   const id = await addWord(w);

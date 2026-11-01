@@ -4,17 +4,43 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.27';
+export const CURRENT_VERSION = 'v20.28';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "첫 온보딩 언어 선택 화면 및 구글 로그인 화면 다국어(영어·인도네시아어) 전면 안내 적용";
+export const CURRENT_VERSION_SUMMARY = "설정 탭 유료/무료 API 키 안내 배너 추가 및 다국어 단어생성 프롬프트·예문 인터랙티브 매칭 전면 고도화";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Dukungan Panduan Multibahasa (Inggris & Indonesia) pada Layar Onboarding & Login Awal';
-  if (lang === 'en') return 'Full Multilingual (English & Indonesian) Guidance on Onboarding & Initial Login Screens';
+  if (lang === 'id') return 'Penambahan Banner Panduan API Key Berbayar/Gratis & Peningkatan Prompt Multibahasa serta Tooltip Interaktif Kalimat';
+  if (lang === 'en') return 'Paid/Free API Key Notice Banner & Enhanced Multilingual Prompts with Intelligent Sentence Interactive Tooltips';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
+  {
+    version: 'v20.28',
+    date: '2026-11-01',
+    badge: 'UPDATE',
+    title: "설정 탭 유료/무료 API 키 안내 배너 추가 및 다국어 단어생성 프롬프트·예문 인터랙티브 매칭 전면 고도화",
+    title_id: "Penambahan Banner Panduan API Key Berbayar/Gratis & Peningkatan Prompt Multibahasa serta Tooltip Interaktif Kalimat",
+    title_en: "Paid/Free API Key Notice Banner & Enhanced Multilingual Prompts with Intelligent Sentence Interactive Tooltips",
+    highlights: [
+      "📢 [설정 탭 API 유료/무료 키 안내 배너 신설] 토큰 및 실시간 비용 계산기 상단에 유료 종량제 키 등록자 전용 안내 및 무료 키 사용자의 영구 100% 무료 사용 보장 안내문을 한국어·인도네시아어·영어 3개 국어로 강조 배치",
+      "🌐 [단어생성 프롬프트 100% 다국어 설명 원칙 확립] 인도네시아어 사용자가 한국어 단어를 만들 때도 재생성 없이 처음부터 100% 인도네시아어로 완벽하고 깊이 있는 설명(문법, 맥락, 주의점, 비법)이 생성되도록 프롬프트 및 구버전 캐시 필터링 전면 정비",
+      "🔍 [예문 단어 호버/터치 툴팁 지능형 매칭 엔진 구축] 한국어 예문의 조사(학교에서, 한국어를 등) 및 어미 활용형(공부합니다, 먹었습니다 등)에 대해 인도네시아어 및 영어 사용자에게 단어별 뜻 툴팁이 100% 완벽하게 뜨도록 조사·어미 분리 매칭 알고리즘 탑재",
+      "🌿 [어근(Kata Dasar) 인도네시아어 전용 분리 적용] 인도네시아어에만 고유하게 존재하는 어근(root) 규칙을 인도네시아어 학습 시에만 적용하고, 한국어와 영어는 빈 문자열로 정제하여 언어별 고유 특성 완벽 반영"
+    ],
+    highlights_id: [
+      "📢 [Banner Panduan API Key di Pengaturan] Menampilkan banner penjelasan bahwa kalkulator token hanya untuk pengguna API Key Berbayar, sementara pengguna API Key Gratis 100% bebas biaya selamanya",
+      "🌐 [Standarisasi Bahasa Penjelasan Pembuatan Kata] Memastikan pengguna bahasa Indonesia yang belajar bahasa Korea langsung mendapatkan penjelasan lengkap dalam Bahasa Indonesia sejak pembuatan pertama tanpa perlu regenerasi",
+      "🔍 [Mesin Pencocokan Tooltip Kalimat Interaktif] Mendukung pemisahan partikel bahasa Korea (Josa & Akhiran kata kerja) sehingga arti setiap kata dalam contoh kalimat langsung muncul saat di-hover/disentuh oleh pengguna Indonesia & Inggris",
+      "🌿 [Penerapan Kata Dasar Eksklusif Bahasa Indonesia] Membatasi atribut Kata Dasar (root) hanya untuk Bahasa Indonesia, dan mengosongkannya secara rapi untuk bahasa Korea dan Inggris"
+    ],
+    highlights_en: [
+      "📢 [Settings Paid/Free API Key Guidance Banner] Added an emphasized trilingual banner clarifying that the token calculator is for paid keys only, while free key users enjoy 100% free lifetime access",
+      "🌐 [Enforced Native Language Explanations in Word Gen] Standardized word generation prompts so Indonesian and English speakers learning Korean receive rich explanations directly in their native language on initial generation",
+      "🔍 [Intelligent Sentence Word Breakdown Matching] Implemented particle and verb-ending decoupling algorithm so hover/touch tooltips display accurately for all Korean grammatical inflections in example sentences",
+      "🌿 [Exclusive Root Word Allocation for Indonesian] Restricted Kata Dasar (root) generation exclusively to Indonesian, ensuring clean empty states for Korean and English"
+    ]
+  },
   {
     version: 'v20.27',
     date: '2026-11-01',

@@ -623,6 +623,9 @@ export const translations = {
     msg_regenerate_single_done: "'{word}' 단어가 최신 AI 규칙으로 올바르게 다시 생성되어 화면에 즉시 반영되었습니다! ✨",
 
     // Settings CSV & Token
+    token_notice_banner_title: '📢 [중요 안내] Google API 키 요금 및 무료 사용 안내',
+    token_notice_banner_paid: '아래의 토큰 소모량 및 실시간 요금 계산기는 무제한 단어 생성을 위한 Google API 유료(종량제) 키를 등록하신 분들만 참고하시면 됩니다.',
+    token_notice_banner_free: '무료 API 키를 발급받아 사용하시는 분들은 별도의 요금 청구 없이 영구히 100% 무료로 (일일 무료 제공량 한도 내에서) 계속 안심하고 이용하실 수 있습니다! ✨',
     set_csv_export: 'CSV 백업',
     set_csv_import: 'CSV 복원',
     token_title: '토큰 및 실시간 비용 계산기 (KRW ₩ / IDR Rp)',
@@ -1361,6 +1364,9 @@ export const translations = {
     msg_regenerate_single_done: "Kata '{word}' berhasil diregenerasi dengan AI dan diperbarui! ✨",
 
     // Settings CSV & Token
+    token_notice_banner_title: '📢 [Pemberitahuan Penting] Panduan Tarif Google API & Akses Gratis',
+    token_notice_banner_paid: 'Kalkulator konsumsi token dan perkiraan biaya di bawah ini hanya perlu diperhatikan oleh pengguna dengan API Key Berbayar (Pay-as-you-go) untuk pembuatan kata tanpa batas.',
+    token_notice_banner_free: 'Pengguna yang menggunakan API Key Gratis dapat terus menggunakannya secara 100% GRATIS selamanya (dalam batas kuota harian gratis) tanpa ada tagihan apa pun! ✨',
     set_csv_export: 'Cadangkan CSV',
     set_csv_import: 'Pulihkan CSV',
     token_title: 'Kalkulator Token & Biaya Real-time (KRW ₩ / IDR Rp)',
@@ -2079,6 +2085,9 @@ export const translations = {
     msg_regenerate_single_done: "Word '{word}' regenerated with AI and updated immediately! ✨",
 
     // Settings CSV & Token
+    token_notice_banner_title: '📢 [Important Notice] Google API Pricing & Free Usage Guide',
+    token_notice_banner_paid: 'The token consumption and real-time cost calculator below is intended only for users with a Paid (Pay-as-you-go) Google API Key for unlimited word generation.',
+    token_notice_banner_free: 'Users using a Free API Key can continue using the app 100% FREE forever (within daily free quota limits) with absolutely zero charges! ✨',
     set_csv_export: 'CSV Backup',
     set_csv_import: 'CSV Restore',
     token_title: 'Token & Real-time Cost Calculator (KRW ₩ / IDR Rp)',
