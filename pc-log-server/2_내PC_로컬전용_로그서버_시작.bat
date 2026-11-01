@@ -14,3 +14,4 @@ start "" "http://localhost:4000"
 node "%~dp0server.cjs"
 
 pause
+

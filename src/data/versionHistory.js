@@ -4,21 +4,44 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.19';
+export const CURRENT_VERSION = 'v20.20';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "100% 무료 중앙 통계 & 접속 IP·국가·로그인 시간·전체 활동 로그 실시간 추적 및 내 PC 서버 자동 백업 시스템 구축";
+export const CURRENT_VERSION_SUMMARY = "중앙 통계 관리자 단독 보안 강화: 지정 구글 계정(wkdehrkd2066) 전용 접근 제한";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Sistem Statistik Pusat 100% Gratis: Pelacakan IP, Negara, Waktu Login & Semua Aktivitas + Server Cadangan PC';
-  if (lang === 'en') return '100% Free Central Analytics: Real-Time IP, Country, Login Time & Full Activity Logging + Self-Hosted PC Backup Server';
+  if (lang === 'id') return 'Keamanan Eksklusif Statistik Pusat: Akses Dibatasi Khusus untuk Akun Google Admin (wkdehrkd2066)';
+  if (lang === 'en') return 'Exclusive Central Analytics Security: Access Strictly Restricted to Admin Google Account (wkdehrkd2066)';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
   {
-    version: 'v20.19',
+    version: 'v20.20',
     date: '2026-11-01',
     badge: 'LATEST',
+    title: "중앙 통계 관리자 단독 보안 강화: 지정 구글 계정(wkdehrkd2066) 전용 접근 제한",
+    title_id: "Keamanan Eksklusif Statistik Pusat: Akses Dibatasi Khusus untuk Akun Google Admin (wkdehrkd2066)",
+    title_en: "Exclusive Central Analytics Security: Access Strictly Restricted to Admin Google Account (wkdehrkd2066)",
+    highlights: [
+      "🔒 [중앙 통계 관리자 단독 열람 강제] 중앙 통계(/statistics) 페이지 및 내비게이션 메뉴를 오직 지정된 구글 계정(wkdehrkd2066 / wkdehrkd2066@gmail.com)으로 로그인한 사용자만 볼 수 있도록 권한 검증 로직 전면 개편",
+      "🛡️ [우회 접근 및 키 입력 차단] 일반 방문자나 타 구글 계정 로그인 시 임의 인증 키 입력 창을 완전히 제거하고 접근 권한 없음 화면으로 엄격 차단",
+      "🧭 [UI 일관성 유지] 상단 내비게이션 바 및 설정 화면의 '중앙 통계' 메뉴도 오직 해당 관리자 계정으로 로그인되어 있을 때만 표시"
+    ],
+    highlights_id: [
+      "🔒 [Akses Eksklusif Statistik Pusat] Memperketat verifikasi agar halaman (/statistics) dan menu navigasi hanya dapat dilihat oleh akun Google admin (wkdehrkd2066)",
+      "🛡️ [Blokir Akses Tanpa Izin] Menghapus form kunci bypass untuk pengguna umum, hanya mengizinkan akun Google terdaftar",
+      "🧭 [Konsistensi UI] Menu Statistik Pusat di bilah navigasi dan Pengaturan hanya muncul saat login sebagai akun admin tersebut"
+    ],
+    highlights_en: [
+      "🔒 [Exclusive Admin Analytics Access] Strictly restricted the Central Analytics page (/statistics) and navigation menu to the verified admin Google account (wkdehrkd2066)",
+      "🛡️ [Eliminated Bypass Vectors] Removed arbitrary PIN unlock inputs for unauthorized users, enforcing hard denial for non-admin accounts",
+      "🧭 [UI Security Consistency] Hidden Central Statistics buttons from navigation and Settings unless signed in with the dedicated admin account"
+    ]
+  },
+  {
+    version: 'v20.19',
+    date: '2026-11-01',
+    badge: 'UPDATE',
     title: "100% 무료 중앙 통계 복구 & 접속 IP·국가·로그인 시간·전체 활동 로그 추적 및 내 PC 서버 자동 백업 구축",
     title_id: "Pemulihan Statistik Pusat 100% Gratis & Pelacakan IP, Negara, Waktu Login, Semua Aktivitas + Server Cadangan PC",
     title_en: "100% Free Central Analytics Overhaul & Real-Time IP, Country, Login Time, Full Activity Logging + PC Backup Server",

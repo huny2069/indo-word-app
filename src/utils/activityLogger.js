@@ -998,3 +998,4 @@ export function exportLogsToJSON(logs = [], filenamePrefix = 'Inko_Activity_Logs
   document.body.removeChild(link);
   return true;
 }
+

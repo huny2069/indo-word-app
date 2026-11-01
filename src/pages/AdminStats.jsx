@@ -56,8 +56,7 @@ import {
 
 const AdminStats = () => {
   const { user } = useAuth();
-  const [authorized, setAuthorized] = useState(() => isAdminUser(user));
-  const [unlockInput, setUnlockInput] = useState('');
+  const authorized = isAdminUser(user);
 
   const [activeTab, setActiveTab] = useState('timeline'); // 'timeline' | 'users' | 'server' | 'backup'
   const [logs, setLogs] = useState([]);
@@ -138,18 +137,6 @@ const AdminStats = () => {
       if (timer) clearInterval(timer);
     };
   }, [authorized, autoRefresh, loadAllLogs]);
-
-  const handleAdminUnlock = (e) => {
-    e.preventDefault();
-    const expected = getConfiguredLogSettings().adminKey || DEFAULT_ADMIN_KEY;
-    if (unlockInput.trim() === expected || unlockInput.trim() === DEFAULT_ADMIN_KEY) {
-      localStorage.setItem('inko_admin_unlocked', 'true');
-      window.dispatchEvent(new CustomEvent('inko_admin_unlocked_changed'));
-      setAuthorized(true);
-    } else {
-      alert('관리자 인증 키가 일치하지 않습니다.');
-    }
-  };
 
   // 전체 KPI 및 국가별 / 사용자별 통계 집계
   const analytics = useMemo(() => {
@@ -474,34 +461,25 @@ const AdminStats = () => {
     }
   };
 
-  // 관리자 미인증 화면 (관리자 키 잠금 해제 지원)
+  // 관리자 미인증 화면 (오직 등록된 구글 계정으로 로그인해야만 접근 허용)
   if (!authorized) {
     return (
       <div style={{ padding: '4rem 1.5rem', minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ background: '#fff', maxWidth: '460px', width: '100%', padding: '2.5rem', borderRadius: '32px', boxShadow: '0 20px 50px rgba(0,0,0,0.06)', border: '1px solid #f1f5f9', textAlign: 'center' }}>
-          <div style={{ background: '#fff1f2', width: '72px', height: '72px', borderRadius: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem' }}>
-            <ShieldAlert size={36} color="#e11d48" />
+        <div style={{ background: '#fff', maxWidth: '480px', width: '100%', padding: '2.8rem 2.2rem', borderRadius: '32px', boxShadow: '0 20px 50px rgba(0,0,0,0.06)', border: '1px solid #f1f5f9', textAlign: 'center' }}>
+          <div style={{ background: '#fff1f2', width: '76px', height: '76px', borderRadius: '26px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem' }}>
+            <ShieldAlert size={38} color="#e11d48" />
           </div>
-          <h2 style={{ color: '#0f172a', fontSize: '1.6rem', fontWeight: '900', margin: '0 0 0.7rem' }}>관리자 전용 중앙 통계</h2>
-          <p style={{ color: '#64748b', fontSize: '0.95rem', lineHeight: '1.6', marginBottom: '1.8rem' }}>
-            현재 로그인 계정(<b>{user?.email || '미로그인'}</b>)이 관리자 이메일로 등록되어 있지 않습니다.<br />
-            관리자 인증 키(Admin Key)를 입력하면 즉시 열람할 수 있습니다.
+          <h2 style={{ color: '#0f172a', fontSize: '1.6rem', fontWeight: '900', margin: '0 0 0.7rem' }}>🔒 접근 권한 없음 (관리자 전용)</h2>
+          <p style={{ color: '#64748b', fontSize: '0.95rem', lineHeight: '1.65', marginBottom: '1.8rem' }}>
+            중앙 통계는 등록된 <b>관리자 구글 계정</b>으로 로그인한 사용자만 볼 수 있습니다.<br />
+            현재 계정: <b style={{ color: '#e11d48' }}>{user?.email || '미로그인'}</b>
           </p>
-          <form onSubmit={handleAdminUnlock} style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-            <input
-              type="password"
-              value={unlockInput}
-              onChange={(e) => setUnlockInput(e.target.value)}
-              placeholder="관리자 인증 키 입력 (기본: inko-admin-2026)"
-              style={{ padding: '0.95rem 1.1rem', borderRadius: '16px', border: '2px solid #e2e8f0', fontSize: '0.95rem', fontWeight: '700', outline: 'none', textAlign: 'center' }}
-            />
-            <button
-              type="submit"
-              style={{ padding: '1rem', background: '#2563eb', color: '#fff', border: 'none', borderRadius: '16px', fontWeight: '900', fontSize: '1rem', cursor: 'pointer' }}
-            >
-              🔓 관리자 인증 및 중앙 통계 열기
-            </button>
-          </form>
+          <button
+            onClick={() => window.location.href = '/settings'}
+            style={{ width: '100%', padding: '1rem', background: '#2563eb', color: '#fff', border: 'none', borderRadius: '16px', fontWeight: '900', fontSize: '1rem', cursor: 'pointer' }}
+          >
+            설정에서 관리자 계정으로 로그인하기
+          </button>
         </div>
       </div>
     );

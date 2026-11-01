@@ -36,15 +36,8 @@ const Layout = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const [adminUnlocked, setAdminUnlocked] = useState(() => isAdminUser(user));
+  const isAdmin = isAdminUser(user);
   const lastLoggedPathRef = useRef('');
-
-  useEffect(() => {
-    setAdminUnlocked(isAdminUser(user));
-    const onAdminChange = () => setAdminUnlocked(isAdminUser(user));
-    window.addEventListener('inko_admin_unlocked_changed', onAdminChange);
-    return () => window.removeEventListener('inko_admin_unlocked_changed', onAdminChange);
-  }, [user]);
 
   useEffect(() => {
     const pathNames = {
@@ -70,8 +63,6 @@ const Layout = () => {
       });
     }
   }, [location.pathname]);
-
-  const isAdmin = adminUnlocked;
 
   const navItems = [
     { path: '/', label: t('nav_dashboard'), icon: <Home size={24} /> },

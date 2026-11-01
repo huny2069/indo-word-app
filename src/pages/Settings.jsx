@@ -1550,11 +1550,6 @@ const Settings = () => {
         <button onClick={() => { localStorage.clear(); window.location.reload(); }} style={{ background: 'none', border: 'none', color: '#ff4d4d', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}>
             {t('set_diagnosa')} (Full Reset)
         </button>
-        {!isAdminUser(user) && (
-          <button onClick={() => navigate('/statistics')} style={{ background: 'none', border: 'none', color: '#94a3b8', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}>
-            Admin Logs
-          </button>
-        )}
       </div>
     </div>
   );

@@ -4,36 +4,34 @@
  */
 
 export const DEFAULT_ADMIN_EMAILS = [
+  'wkdehrkd2066@gmail.com',
+  'wkdehrkd2066',
   'huny2065@gmail.com',
-  ...(import.meta.env.VITE_ADMIN_EMAIL || '')
+  ...((typeof import.meta !== 'undefined' && import.meta.env?.VITE_ADMIN_EMAIL) || '')
     .split(',')
     .map((e) => e.toLowerCase().trim())
     .filter(Boolean)
 ];
 
-export const DEFAULT_ADMIN_KEY = import.meta.env.VITE_LOG_ADMIN_KEY || 'inko-admin-2026';
+export const DEFAULT_ADMIN_KEY =
+  (typeof import.meta !== 'undefined' && import.meta.env?.VITE_LOG_ADMIN_KEY) || 'inko-admin-2026';
 
 // 내 PC 서버(1_내PC_외부연결_로그서버_시작.bat)가 자동 발행하는 글로벌 엔드포인트 디스커버리 주소
 export const LIVE_ENDPOINT_DISCOVERY_URL =
   'https://raw.githubusercontent.com/huny2069/indo-word-app/log-endpoint/endpoint.json';
 
-export const DEFAULT_PC_SERVER_URL = (import.meta.env.VITE_LOG_SERVER_URL || '').trim();
-export const DEFAULT_GOOGLE_SCRIPT_URL = (import.meta.env.VITE_GOOGLE_SCRIPT_URL || '').trim();
+export const DEFAULT_PC_SERVER_URL =
+  ((typeof import.meta !== 'undefined' && import.meta.env?.VITE_LOG_SERVER_URL) || '').trim();
+export const DEFAULT_GOOGLE_SCRIPT_URL =
+  ((typeof import.meta !== 'undefined' && import.meta.env?.VITE_GOOGLE_SCRIPT_URL) || '').trim();
 
 /**
  * 관리자 권한 확인 헬퍼
- * 1) 등록된 관리자 이메일(huny2065@gmail.com 또는 VITE_ADMIN_EMAIL)로 로그인한 경우
- * 2) 내 컴퓨터 로컬 환경(localhost / 127.0.0.1)에서 접속한 경우
- * 3) 중앙 통계 화면에서 관리자 인증 키(Admin Key)로 잠금 해제한 경우
+ * - 오직 지정된 구글 계정(wkdehrkd2066 / wkdehrkd2066@gmail.com / huny2065@gmail.com / VITE_ADMIN_EMAIL)으로
+ *   로그인한 사용자만 접근 가능하도록 엄격히 제한합니다.
  */
 export const isAdminUser = (user = null) => {
   try {
-    if (typeof window !== 'undefined') {
-      const host = window.location.hostname;
-      if (host === 'localhost' || host === '127.0.0.1') return true;
-      if (localStorage.getItem('inko_admin_unlocked') === 'true') return true;
-    }
-
     let email = (user?.email || '').toLowerCase().trim();
     if (!email && typeof window !== 'undefined') {
       try {
@@ -44,7 +42,12 @@ export const isAdminUser = (user = null) => {
       }
     }
 
-    return Boolean(email && DEFAULT_ADMIN_EMAILS.includes(email));
+    if (!email) return false;
+
+    return DEFAULT_ADMIN_EMAILS.some((adm) => {
+      const cleanAdm = adm.toLowerCase().trim();
+      return email === cleanAdm || email.split('@')[0] === cleanAdm || cleanAdm.split('@')[0] === email;
+    });
   } catch {
     return false;
   }
@@ -145,3 +148,4 @@ function doGet(e) {
       .setMimeType(ContentService.MimeType.JSON);
   }
 }`;
+
