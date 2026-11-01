@@ -1,3 +1,5 @@
+import { logUsage } from './supabase';
+
 export const generateWords = async (topic, count, apiKey, modelName = 'gemini-3.8-flash', excludeWords = [], userLang = 'ko', studyLang = 'id', email = null) => {
   const cleanKey = apiKey ? apiKey.trim() : '';
   if (!cleanKey) throw new Error('API 키가 설정되지 않았습니다. 설정 탭에서 Gemini API 키를 입력해주세요.');

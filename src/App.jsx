@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import { logAccess } from './api/supabase';
+import { trackActivity, flushPendingLogs } from './utils/activityLogger';
 import { useAuth } from './contexts/AuthContext';
 import Login from './pages/Login';
 import Onboarding from './pages/Onboarding';
@@ -39,13 +40,23 @@ function App() {
       }
     });
 
-    // 1. 기기 식별 및 로그 전송
+    // 1. 기기 식별 및 접속 로그 전송 (세션당 1회 기록 + 미전송 대기 로그 자동 동기화)
     let deviceId = localStorage.getItem('user_device_id');
     if (!deviceId) {
       deviceId = 'user_' + Math.random().toString(36).substring(2, 15) + Date.now().toString(36);
       localStorage.setItem('user_device_id', deviceId);
     }
-    logAccess(deviceId, user?.email);
+    if (!sessionStorage.getItem('inko_session_started')) {
+      sessionStorage.setItem('inko_session_started', 'true');
+      logAccess(deviceId, user?.email);
+      trackActivity('SESSION_START', {
+        email: user?.email,
+        userName: user?.name,
+        detail: user?.email ? `앱 접속 및 자동 로그인 세션 시작 (${user.email})` : '앱 접속 (로그인 전 방문)'
+      });
+    } else {
+      flushPendingLogs();
+    }
 
     // 2. [v7.8] 전역 구글 세션 관리 (Silent Refresh)
     const handleSilentRefresh = () => {

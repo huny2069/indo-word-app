@@ -17,6 +17,8 @@ import {
 } from '../utils/tokenCostTracker';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
+import { trackActivity } from '../utils/activityLogger';
+import { calculateActualTokenCost } from '../utils/tokenCostTracker';
 import { 
   getOfflineCategories, 
   searchOfflineWords, 
@@ -375,6 +377,16 @@ const WordGenerate = () => {
       if (finalAddedWords.length === 0) {
         alert(t('msg_ai_gen_fail'));
       } else {
+        const costInfo = hasAiCall && totalUsageMeta.totalTokenCount > 0
+          ? calculateActualTokenCost(totalUsageMeta, savedModel)
+          : null;
+        trackActivity('WORD_GENERATE_AI', {
+          topic: topic.trim(),
+          tokens: costInfo?.totalTokens || 0,
+          costUsd: costInfo?.rawUsd || 0,
+          detail: `AI 단어 ${finalAddedWords.length}개 생성 [주제: ${topic.trim()}, 모델: ${savedModel}, ${userLang}->${studyLang}]`
+        });
+
         if (hasAiCall && totalUsageMeta.totalTokenCount > 0) {
           recordTokenUsage('generate', totalUsageMeta, savedModel);
           alertActualTokenCost('generate', totalUsageMeta, savedModel);
@@ -405,6 +417,10 @@ const WordGenerate = () => {
         const id = await addWord(wordData);
         await refreshLocalWords();
         setGeneratedWords([{ ...wordData, id }, ...generatedWords]);
+        trackActivity('WORD_ADD_MANUAL', {
+          topic: manualWord.topic || '수동추가',
+          detail: `수동 단어 추가: "${manualWord.word}" (${manualWord.meaning}) [품사: ${manualWord.pos || '명사'}]`
+        });
         alert(t('msg_save_done'));
     } catch (err) { alert(t('msg_save_error') + ": " + err.message); }
   };

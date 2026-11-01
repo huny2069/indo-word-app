@@ -1,12 +1,14 @@
 {
   "name": "indo-word-app",
   "private": true,
-  "version": "2.0.18",
+  "version": "2.0.19",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "log-server": "node pc-log-server/server.cjs",
+    "log-server:online": "node pc-log-server/server.cjs --tunnel --publish"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.2",

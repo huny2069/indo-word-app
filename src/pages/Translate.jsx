@@ -4,6 +4,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { translateText, enrichWordFromTranslation } from '../api/geminiApi';
 import { playAudio } from '../api/ttsApi';
 import { addWord } from '../db/database';
+import { trackActivity } from '../utils/activityLogger';
 
 const Translate = () => {
     const { userLang, studyLang, t } = useLanguage();
@@ -69,6 +70,11 @@ const Translate = () => {
             
             if (result !== null) {
                 setTargetText(result);
+                const snippet = sourceText.trim().slice(0, 40) + (sourceText.trim().length > 40 ? '...' : '');
+                trackActivity('TRANSLATE', {
+                    topic: `${fromLang.toUpperCase()} -> ${toLang.toUpperCase()}`,
+                    detail: `AI 번역 (${fromLang}->${toLang}, ${transStyle === 'casual' ? '구어체' : '격식체'}): "${snippet}"`
+                });
             }
         } catch (error) {
             if (error.name !== 'AbortError' && error.message !== 'The user aborted a request.') {
@@ -112,6 +118,10 @@ const Translate = () => {
             };
 
             await addWord(wordToSave);
+            trackActivity('TRANSLATE_SAVE_WORD', {
+                topic: wordToSave.word,
+                detail: `번역 결과 단어장 저장: "${wordToSave.word}" (${wordToSave.meaning})`
+            });
             alert(t('trans_msg_added') || '단어장에 추가되었습니다! 🍌');
         } catch (error) {
             console.error("Enrichment failed:", error);

@@ -11,8 +11,10 @@ import InteractiveSentence from '../components/InteractiveSentence';
 import { 
   confirmActionWithTokenEstimate, 
   alertActualTokenCost, 
-  recordTokenUsage 
+  recordTokenUsage,
+  calculateActualTokenCost
 } from '../utils/tokenCostTracker';
+import { trackActivity } from '../utils/activityLogger';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 import { 
@@ -173,6 +175,10 @@ const Dictionary = () => {
       };
       await addWord(wordData);
       await refreshLocalWords();
+      trackActivity('WORD_ADD_OFFLINE', {
+        topic: wordData.topic,
+        detail: `1만 단어 사전 개별 담기: "${item.word}" (${item.meaning})`
+      });
       alert(t('dict_msg_added_single', { word: item.word }));
     } catch (err) {
       alert((userLang === 'id' ? 'Gagal menambahkan: ' : userLang === 'en' ? 'Failed to add: ' : '추가 실패: ') + err.message);
@@ -269,6 +275,10 @@ const Dictionary = () => {
       }
 
       await refreshLocalWords();
+      trackActivity('WORD_ADD_OFFLINE', {
+        topic: getCategoryDisplayName(selectedCategory, userLang),
+        detail: `1만 단어 사전 랜덤 추출 ${extracted.length}개 단어장 추가 [${getCategoryDisplayName(selectedCategory, userLang)}]`
+      });
       alert(t('dict_msg_extracted_done', { count: extracted.length }));
     } catch (err) {
       console.error('오프라인 단어 추가 오류:', err);
@@ -367,6 +377,13 @@ const Dictionary = () => {
 
       await refreshLocalWords();
       setSelectedOfflineIds(new Set());
+      const regenCost = lastRegenUsage ? calculateActualTokenCost(lastRegenUsage, modelName) : null;
+      trackActivity('WORD_REGENERATE', {
+        topic: selectedCategory?.name || '1만단어 사전',
+        tokens: regenCost?.totalTokens || 0,
+        costUsd: regenCost?.rawUsd || 0,
+        detail: `1만 단어 사전 AI 재생성 ${successCount}개 완료 [모델: ${modelName}]`
+      });
       if (lastRegenUsage) {
         alertActualTokenCost('regenerate', lastRegenUsage, modelName);
       } else {

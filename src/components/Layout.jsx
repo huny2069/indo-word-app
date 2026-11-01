@@ -3,6 +3,8 @@ import { Link, Outlet, useLocation } from 'react-router-dom';
 import { Home, BookOpen, BookMarked, GraduationCap, Settings as SettingsIcon, Sparkles, AlertCircle, Info, Languages, ChevronDown, BarChart3, LogOut, User, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
+import { isAdminUser } from '../config/logConfig';
+import { trackActivity } from '../utils/activityLogger';
 
 const Layout = () => {
   const location = useLocation();
@@ -34,9 +36,42 @@ const Layout = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const adminEmail = (import.meta.env.VITE_ADMIN_EMAIL || '').toLowerCase().trim();
-  const userEmail = (user?.email || '').toLowerCase().trim();
-  const isAdmin = adminEmail && userEmail === adminEmail;
+  const [adminUnlocked, setAdminUnlocked] = useState(() => isAdminUser(user));
+  const lastLoggedPathRef = useRef('');
+
+  useEffect(() => {
+    setAdminUnlocked(isAdminUser(user));
+    const onAdminChange = () => setAdminUnlocked(isAdminUser(user));
+    window.addEventListener('inko_admin_unlocked_changed', onAdminChange);
+    return () => window.removeEventListener('inko_admin_unlocked_changed', onAdminChange);
+  }, [user]);
+
+  useEffect(() => {
+    const pathNames = {
+      '/': '홈 대시보드',
+      '/dictionary': '1만 단어 사전',
+      '/generate': '단어 생성',
+      '/translate': 'AI 실시간 번역',
+      '/words': '내 단어장',
+      '/learn': '학습하기',
+      '/incorrect': '오답 노트',
+      '/guide': '이용 가이드',
+      '/api-guide': 'API 키 발급 가이드',
+      '/settings': '설정',
+      '/statistics': '중앙 통계'
+    };
+    if (location.pathname && lastLoggedPathRef.current !== location.pathname) {
+      lastLoggedPathRef.current = location.pathname;
+      const pageLabel = pathNames[location.pathname] || location.pathname;
+      trackActivity('PAGE_VIEW', {
+        path: location.pathname,
+        topic: pageLabel,
+        detail: `[${pageLabel}] 메뉴 열람 (${location.pathname})`
+      });
+    }
+  }, [location.pathname]);
+
+  const isAdmin = adminUnlocked;
 
   const navItems = [
     { path: '/', label: t('nav_dashboard'), icon: <Home size={24} /> },
@@ -87,7 +122,11 @@ const Layout = () => {
                     <button 
                         key={l.code} 
                         className={`lang-option ${userLang === l.code ? 'active' : ''}`}
-                        onClick={() => { changeUserLang(l.code); setIsUserLangOpen(false); }}
+                        onClick={() => {
+                          changeUserLang(l.code);
+                          setIsUserLangOpen(false);
+                          trackActivity('LANGUAGE_CHANGE', { detail: `앱 표시 언어 변경 -> ${l.name} (${l.code})` });
+                        }}
                     >
                         <span className="flag-icon">{l.flag}</span>
                         <span>{l.name}</span>
@@ -118,7 +157,11 @@ const Layout = () => {
                         key={l.code} 
                         className={`lang-option ${studyLang === l.code ? 'active' : ''}`}
                         disabled={userLang === l.code}
-                        onClick={() => { changeStudyLang(l.code); setIsStudyLangOpen(false); }}
+                        onClick={() => {
+                          changeStudyLang(l.code);
+                          setIsStudyLangOpen(false);
+                          trackActivity('LANGUAGE_CHANGE', { detail: `학습 대상 언어 변경 -> ${l.name} (${l.code})` });
+                        }}
                         style={{ opacity: userLang === l.code ? 0.3 : 1 }}
                     >
                         <span className="flag-icon">{l.flag}</span>

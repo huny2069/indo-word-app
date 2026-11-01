@@ -4,21 +4,50 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.18';
-export const CURRENT_VERSION_DATE = '2026-10-30';
-export const CURRENT_VERSION_SUMMARY = "다국어 번역 키 누락 해결 (사전·설정 버튼 정상화) & 토큰/비용 대시보드 3개 국어(KO/ID/EN) 완벽 분기";
+export const CURRENT_VERSION = 'v20.19';
+export const CURRENT_VERSION_DATE = '2026-11-01';
+export const CURRENT_VERSION_SUMMARY = "100% 무료 중앙 통계 & 접속 IP·국가·로그인 시간·전체 활동 로그 실시간 추적 및 내 PC 서버 자동 백업 시스템 구축";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Perbaikan Kunci Terjemahan (Tombol Kamus & Pengaturan) & Lokalisasi Penuh Dashboard Token/Biaya';
-  if (lang === 'en') return 'Fixed Translation Key Mismatches (Dict/Settings Buttons) & Full Token/Cost Dashboard Localization';
+  if (lang === 'id') return 'Sistem Statistik Pusat 100% Gratis: Pelacakan IP, Negara, Waktu Login & Semua Aktivitas + Server Cadangan PC';
+  if (lang === 'en') return '100% Free Central Analytics: Real-Time IP, Country, Login Time & Full Activity Logging + Self-Hosted PC Backup Server';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
   {
+    version: 'v20.19',
+    date: '2026-11-01',
+    badge: 'LATEST',
+    title: "100% 무료 중앙 통계 복구 & 접속 IP·국가·로그인 시간·전체 활동 로그 추적 및 내 PC 서버 자동 백업 구축",
+    title_id: "Pemulihan Statistik Pusat 100% Gratis & Pelacakan IP, Negara, Waktu Login, Semua Aktivitas + Server Cadangan PC",
+    title_en: "100% Free Central Analytics Overhaul & Real-Time IP, Country, Login Time, Full Activity Logging + PC Backup Server",
+    highlights: [
+      "🛡️ [중앙 통계 완벽 복구 및 고도화] 유료 Supabase 설정 없이도 100% 무료로 즉시 작동하는 통합 중앙 통계(/statistics) 대시보드 전면 재구축 및 관리자 인증 정상화",
+      "🌍 [정밀 접속 IP · 국가 · 도시 · 로그인 시각 추적] Vercel Edge Geo-IP(/api/geo) 및 4중 무료 Geo-IP 엔진을 결합해 접속자의 국가(국기), 도시, 통신사(ISP), IP 주소, 정확한 한국시간(KST) 로그인/방문 시각 자동 기록",
+      "📋 [사용자 전 행동 실시간 로깅] 로그인/로그아웃, 메뉴 이동, AI 단어 생성/재생성, 사전 단어 담기, 플래시카드/객관식 퀴즈/스펠링 점수·정답률, AI 번역, 스타강사 특강, 백업/복원, 언어 변경 등 모든 활동 추적",
+      "🖥️ [내 컴퓨터(PC) 원클릭 무료 로그 서버 탑재] pc-log-server 폴더의 원클릭 배치파일 실행만으로 내 PC가 무료 Cloudflare HTTPS 터널을 통해 전 세계 접속 로그를 실시간 수신하고 하드디스크(JSONL + 날짜별 엑셀 CSV)에 자동 이중 백업",
+      "☁️ [24시간 무료 구글 시트 연동 & 다중 백업 센터] 내 PC가 꺼져 있을 때도 24시간 기록되는 Google 스프레드시트 무료 웹훅 연동(PC 가동 시 자동 다운로드 병합) 및 엑셀(CSV)·JSON·Google Drive 클라우드 백업/복원 지원"
+    ],
+    highlights_id: [
+      "🛡️ [Pemulihan Penuh Statistik Pusat] Membangun ulang dashboard Statistik Pusat (/statistics) agar berjalan 100% gratis tanpa ketergantungan Supabase berbayar",
+      "🌍 [Pelacakan IP, Negara, Kota & Waktu Login] Mencatat IP pengunjung, negara, kota, ISP, dan waktu login/kunjungan secara akurat menggunakan Vercel Edge Geo-IP + 4 mesin fallback gratis",
+      "📋 [Pencatatan Semua Aktivitas Pengguna] Melacak login/logout, perpindahan menu, pembuatan kata AI, kamus, skor kuis/kartu/ejaan, terjemahan AI, kuliah AI, dan pencadangan",
+      "🖥️ [Server Cadangan PC Gratis 1-Klik] Menjalankan PC sendiri sebagai server log HTTPS melalui Cloudflare Tunnel gratis dengan pencadangan otomatis ke hard disk (JSONL + CSV Excel harian)",
+      "☁️ [Server Google Sheets 24 Jam & Pusat Cadangan] Mendukung webhook Google Sheets gratis saat PC mati serta ekspor/pemulihan Excel (CSV), JSON, dan Google Drive"
+    ],
+    highlights_en: [
+      "🛡️ [Central Statistics Overhaul] Rebuilt Central Statistics (/statistics) to work 100% free out-of-the-box without requiring paid Supabase plans",
+      "🌍 [Real-Time IP, Country, City & Login Time Tracking] Captures visitor IP, country flag, city, ISP, and exact login/session timestamps via Vercel Edge Geo-IP + 4-tier free fallback",
+      "📋 [Full User Activity Timeline] Tracks logins/logouts, page views, AI word generation/regeneration, dictionary additions, flashcard/quiz/spelling scores, AI translation, lectures, and backups",
+      "🖥️ [1-Click Self-Hosted PC Log Server] Turn your Windows PC into a global HTTPS log server via free Cloudflare Tunnel with automatic disk backups (JSONL + daily Excel CSV)",
+      "☁️ [24/7 Free Google Sheets Relay & Multi-Backup] Supports 24/7 free Google Sheets webhook logging when PC is off (auto-synced to PC on boot) plus CSV, JSON, and Google Drive backup/restore"
+    ]
+  },
+  {
     version: 'v20.18',
     date: '2026-10-30',
-    badge: 'LATEST',
+    badge: 'UPDATE',
     title: "다국어 번역 키 누락 해결 (사전·설정 버튼 정상화) & 토큰/비용 대시보드 3개 국어(KO/ID/EN) 완벽 분기",
     title_id: "Perbaikan Kunci Terjemahan (Tombol Kamus & Pengaturan) & Lokalisasi Penuh Dashboard Token/Biaya",
     title_en: "Fixed Translation Key Mismatches (Dict/Settings Buttons) & Full Token/Cost Dashboard Localization",

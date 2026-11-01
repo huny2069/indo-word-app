@@ -10,8 +10,10 @@ import AiTeacherModal from '../components/AiTeacherModal';
 import { 
   confirmActionWithTokenEstimate, 
   alertActualTokenCost, 
-  recordTokenUsage 
+  recordTokenUsage,
+  calculateActualTokenCost
 } from '../utils/tokenCostTracker';
+import { trackActivity } from '../utils/activityLogger';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 
@@ -261,10 +263,14 @@ const WordList = () => {
     if (selectedIds.size === 0) return;
     if (window.confirm(t('msg_delete_confirm_multi', { count: selectedIds.size }))) {
       try {
+        const deletedCount = selectedIds.size;
         await deleteWords(Array.from(selectedIds));
         await removeWordsFromCart(Array.from(selectedIds));
         setSelectedIds(new Set());
         loadData();
+        trackActivity('WORD_DELETE', {
+          detail: `내 단어장에서 단어 ${deletedCount}개 선택 삭제`
+        });
         alert(t('msg_delete_done'));
       } catch (err) {
         alert(t('msg_delete_error'));
@@ -347,6 +353,12 @@ const WordList = () => {
           console.error(`단어 ${current.word} 재생성 실패:`, wordErr);
         }
       }
+      const regenCost = lastRegenUsage ? calculateActualTokenCost(lastRegenUsage, modelName) : null;
+      trackActivity('WORD_REGENERATE', {
+        tokens: regenCost?.totalTokens || 0,
+        costUsd: regenCost?.rawUsd || 0,
+        detail: `내 단어장 AI 일괄 재생성 ${successCount}개 완료 [모델: ${modelName}]`
+      });
       if (lastRegenUsage) {
         alertActualTokenCost('regenerate', lastRegenUsage, modelName);
       } else {
@@ -382,6 +394,13 @@ const WordList = () => {
       const regenerated = await regenerateWordData(wordItem, apiKey, modelName, userLang, wordItem.study_lang || studyLang);
       await updateWord(regenerated);
       if (regenerated._usageMetadata) {
+        const cInfo = calculateActualTokenCost(regenerated._usageMetadata, regenerated._modelUsed || modelName);
+        trackActivity('WORD_REGENERATE', {
+          topic: wordItem.word,
+          tokens: cInfo?.totalTokens || 0,
+          costUsd: cInfo?.rawUsd || 0,
+          detail: `단어 AI 재생성: "${wordItem.word}" [모델: ${regenerated._modelUsed || modelName}]`
+        });
         recordTokenUsage('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
         alertActualTokenCost('regenerate', regenerated._usageMetadata, regenerated._modelUsed || modelName);
       } else {

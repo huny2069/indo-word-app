@@ -6,6 +6,7 @@ import InteractiveSentence from '../components/InteractiveSentence';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';
 import { ALL_OFFLINE_WORDS } from '../data/offlineDatabase';
+import { trackActivity } from '../utils/activityLogger';
 
 const Learn = () => {
   const { userLang, studyLang, t } = useLanguage();
@@ -430,7 +431,27 @@ const Learn = () => {
     setIsAnswering(false);
     setQuizScore({ correct: 0, total: 0 });
     setMode(m);
+
+    const modeNames = { flashcard: '단어 플래시카드', quiz: '객관식 퀴즈', spelling: '주관식 스펠링' };
+    trackActivity('STUDY_START', {
+      topic: modeNames[m] || m,
+      detail: `[${modeNames[m] || m}] 학습 시작 (대상 단어 ${words.length}개)`
+    });
   };
+
+  useEffect(() => {
+    if (isSessionFinished && mode) {
+      const modeNames = { flashcard: '단어 플래시카드', quiz: '객관식 퀴즈', spelling: '주관식 스펠링' };
+      const acc = quizScore.total > 0 ? Math.round((quizScore.correct / quizScore.total) * 100) : 100;
+      trackActivity('STUDY_COMPLETE', {
+        topic: modeNames[mode] || mode,
+        detail:
+          mode === 'flashcard'
+            ? `[${modeNames[mode]}] 학습 완주 (총 ${words.length}장)`
+            : `[${modeNames[mode]}] 완료 — 점수: ${quizScore.correct}/${quizScore.total} (정답률 ${acc}%)`
+      });
+    }
+  }, [isSessionFinished]);
 
   const handleCardClick = () => {
     setIsFlipped(prev => !prev);

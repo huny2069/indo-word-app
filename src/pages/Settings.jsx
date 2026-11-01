@@ -10,6 +10,8 @@ import { uploadBackupToDrive, downloadBackupFromDrive, searchBackupFile, DICT_BA
 import { useLanguage } from '../contexts/LanguageContext';
 import { fetchGoogleVoices, playAudio } from '../api/ttsApi';
 import { useAuth } from '../contexts/AuthContext';
+import { trackActivity } from '../utils/activityLogger';
+import { isAdminUser } from '../config/logConfig';
 import { Sparkles, Eye, EyeOff, Volume2, BookOpen, BookMarked, CheckCircle, XCircle, Cloud, CreditCard, Key as KeyIcon, Monitor, RefreshCw, FileDown, FileUp, LogIn, Info, Coins, Calculator, RotateCcw, BarChart3, Filter } from 'lucide-react';
 import TokenCostCard from '../components/TokenCostCard';
 import { 
@@ -290,6 +292,7 @@ const Settings = () => {
       link.setAttribute('href', url);
       link.setAttribute('download', `Inko_Backup_${new Date().toISOString().slice(0,10)}.csv`);
       link.click();
+      trackActivity('DATA_BACKUP_RESTORE', { detail: `개인 단어장 CSV 내보내기 (${words.length}개 단어)` });
     } catch (err) { alert(t('msg_export_csv_error')); }
   };
 
@@ -401,6 +404,7 @@ const Settings = () => {
       const words = await getWords();
       const folders = await getFolders();
       await uploadBackupToDrive(gcpAccessToken, { words, folders, timestamp: new Date().toISOString() });
+      trackActivity('DATA_BACKUP_RESTORE', { detail: `구글 드라이브 개인 단어장 클라우드 백업 (${words.length}개 단어)` });
       alert(t('msg_backup_done'));
     } catch (err) { alert(t('msg_backup_fail') + ": " + err.message); }
     finally { setIsDriveOperating(false); }
@@ -424,6 +428,7 @@ const Settings = () => {
           } catch (e) {}
         }
       }
+      trackActivity('DATA_BACKUP_RESTORE', { detail: `구글 드라이브 개인 단어장 클라우드 복원 (${addCount}개 단어)` });
       alert(t('msg_restore_done', { count: addCount }));
     } catch (e) { alert(t('msg_restore_fail')); }
     finally { setIsDriveOperating(false); }
@@ -634,7 +639,8 @@ const Settings = () => {
             addCount++;
           } catch (err) {}
         }
-        alert(t('msg_restore_done', { count: addCount }));
+        trackActivity('DATA_BACKUP_RESTORE', { detail: `구글 드라이브 개인 단어장 클라우드 복원 (${addCount}개 단어)` });
+      alert(t('msg_restore_done', { count: addCount }));
       } catch (err) { alert(t('msg_restore_fail')); }
     };
     reader.readAsText(file);
@@ -1489,11 +1495,66 @@ const Settings = () => {
         </div>
       </div>
 
+      {/* 관리자 전용: 중앙 통계 및 접속/활동 로그 백업 센터 바로가기 */}
+      {isAdminUser(user) && (
+        <div
+          className="settings-card"
+          style={{
+            marginBottom: '1.5rem',
+            border: '2px solid #3b82f6',
+            background: 'linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%)',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+            gap: '1rem'
+          }}
+        >
+          <div>
+            <h4 style={{ margin: '0 0 0.35rem', fontSize: '1.05rem', fontWeight: '900', color: '#1e3a8a', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <BarChart3 size={20} color="#2563eb" />
+              {userLang === 'id' ? 'Pusat Statistik & Log Aktivitas (Admin)' : userLang === 'en' ? 'Central Statistics & Activity Logs (Admin)' : '중앙 통계 및 실시간 접속·활동 로그 센터 (관리자)'}
+            </h4>
+            <p style={{ margin: 0, fontSize: '0.84rem', color: '#475569', fontWeight: '600' }}>
+              {userLang === 'id'
+                ? 'Pantau IP, negara, waktu login, semua aktivitas pengguna, dan cadangan server PC gratis.'
+                : userLang === 'en'
+                  ? 'Monitor visitor IPs, countries, login times, full user activity logs, and free PC server backups.'
+                  : '접속 국가·IP·로그인 시간, 사용자별 모든 행동 로그 조회 및 내 PC 무료 로그 서버 백업을 관리합니다.'}
+            </p>
+          </div>
+          <button
+            onClick={() => navigate('/statistics')}
+            style={{
+              padding: '0.8rem 1.3rem',
+              background: '#2563eb',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '14px',
+              fontWeight: '900',
+              fontSize: '0.88rem',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              boxShadow: '0 4px 12px rgba(37, 99, 235, 0.25)'
+            }}
+          >
+            <BarChart3 size={16} /> {t('nav_stats')}
+          </button>
+        </div>
+      )}
+
       {/* 진단 버튼 */}
-      <div style={{ textAlign: 'center', padding: '1rem' }}>
+      <div style={{ textAlign: 'center', padding: '1rem', display: 'flex', justifyContent: 'center', gap: '1.2rem', flexWrap: 'wrap' }}>
         <button onClick={() => { localStorage.clear(); window.location.reload(); }} style={{ background: 'none', border: 'none', color: '#ff4d4d', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}>
             {t('set_diagnosa')} (Full Reset)
         </button>
+        {!isAdminUser(user) && (
+          <button onClick={() => navigate('/statistics')} style={{ background: 'none', border: 'none', color: '#94a3b8', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}>
+            Admin Logs
+          </button>
+        )}
       </div>
     </div>
   );

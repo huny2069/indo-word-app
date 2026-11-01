@@ -5,6 +5,7 @@
 
 export const BACKUP_FILE_NAME = 'indo-word-app-backup.json';
 export const DICT_BACKUP_FILE = 'indo-10k-dict-backup.json';
+export const ACTIVITY_LOGS_BACKUP_FILE = 'indo-activity-logs-backup.json';
 
 /**
  * 구글 드라이브에서 이전 백업 파일이 있는지 검색합니다.

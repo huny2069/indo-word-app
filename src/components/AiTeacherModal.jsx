@@ -12,10 +12,12 @@ import {
   confirmActionWithTokenEstimate, 
   alertActualTokenCost, 
   recordTokenUsage,
+  calculateActualTokenCost,
   confirmTtsWithEstimate,
   alertActualTtsCost,
   recordTtsUsage
 } from '../utils/tokenCostTracker';
+import { trackActivity } from '../utils/activityLogger';
 
 const AiTeacherModal = ({ 
   wordData, 
@@ -111,6 +113,13 @@ const AiTeacherModal = ({
         if (onUpdateWord) onUpdateWord(updatedWord);
 
         if (usageObj && usageObj.usageMetadata) {
+          const cData = calculateActualTokenCost(usageObj.usageMetadata, usageObj.modelUsed);
+          trackActivity('AI_LECTURE', {
+            topic: targetWord.word,
+            tokens: cData?.totalTokens || 0,
+            costUsd: cData?.rawUsd || 0,
+            detail: `AI 스타강사 특강 대본 생성: "${targetWord.word}" (${targetWord.meaning || ''}) [모델: ${usageObj.modelUsed}]`
+          });
           recordTokenUsage('lecture', usageObj.usageMetadata, usageObj.modelUsed);
           alertActualTokenCost('lecture', usageObj.usageMetadata, usageObj.modelUsed);
         }

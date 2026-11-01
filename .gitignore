@@ -9,7 +9,12 @@ package-lock.json
 .DS_Store
 client_secret_*.json
 *.bat
+!pc-log-server/*.bat
 *.csv
+
+# PC Local Activity Log Backups & Local Server Config (Keep private on PC)
+pc-log-server/logs/
+pc-log-server/config.json
 
 # Security: Ignore all Archive files
 *.zip

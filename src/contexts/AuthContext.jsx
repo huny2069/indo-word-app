@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import { useLanguage } from './LanguageContext';
+import { trackActivity } from '../utils/activityLogger';
 
 const AuthContext = createContext();
 
@@ -39,9 +40,21 @@ export const AuthProvider = ({ children }) => {
   const login = (userData) => {
     setUser(userData);
     localStorage.setItem('auth_user', JSON.stringify(userData));
+    trackActivity('LOGIN', {
+      email: userData?.email,
+      userName: userData?.name,
+      detail: `구글 로그인 성공 (${userData?.name || ''} · ${userData?.email || ''})`
+    });
   };
 
   const logout = () => {
+    const prevEmail = user?.email;
+    const prevName = user?.name;
+    trackActivity('LOGOUT', {
+      email: prevEmail,
+      userName: prevName,
+      detail: `로그아웃 (${prevEmail || '익명'})`
+    });
     setUser(null);
     setIsOnboarded(false);
     localStorage.removeItem('auth_user');
@@ -59,6 +72,9 @@ export const AuthProvider = ({ children }) => {
     } else {
       setLanguage('ko');
     }
+    trackActivity('ONBOARDING', {
+      detail: `초기 사용 국가/언어 설정 완료 (${nationality === 'ID' ? '인도네시아어' : '한국어'})`
+    });
   };
 
   return (
