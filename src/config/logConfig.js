@@ -4,6 +4,8 @@
  */
 
 export const DEFAULT_ADMIN_EMAILS = [
+  'wkdehrkd2069@gmail.com',
+  'wkdehrkd2069',
   'wkdehrkd2066@gmail.com',
   'wkdehrkd2066',
   'huny2065@gmail.com',

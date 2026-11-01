@@ -4,21 +4,44 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.21';
+export const CURRENT_VERSION = 'v20.22';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "보안 및 개인정보 보호 강화: 관리자 전용 정보 보호 및 패치 내역 관리자 단독 열람 모드 적용";
+export const CURRENT_VERSION_SUMMARY = "관리자 권한 계정 식별자 정밀 동기화 및 관리자 보안 시스템 최적화";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Peningkatan Keamanan & Privasi: Perlindungan Informasi Sensitif & Akses Catatan Patch Khusus Admin';
-  if (lang === 'en') return 'Enhanced Security & Privacy: Sensitive Information Masking & Exclusive Admin Patch Notes Access';
+  if (lang === 'id') return 'Sinkronisasi Presisi Akun Administrator & Optimalisasi Sistem Keamanan Admin';
+  if (lang === 'en') return 'Precision Admin Account Identifier Synchronization & Security System Optimization';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
   {
-    version: 'v20.21',
+    version: 'v20.22',
     date: '2026-11-01',
     badge: 'LATEST',
+    title: "관리자 권한 계정 식별자 정밀 동기화 및 관리자 보안 시스템 최적화",
+    title_id: "Sinkronisasi Presisi Akun Administrator & Optimalisasi Sistem Keamanan Admin",
+    title_en: "Precision Admin Account Identifier Synchronization & Security System Optimization",
+    highlights: [
+      "🔑 [관리자 인증 계정 정밀 동기화] 중앙 통계 및 보안 관리 권한 대상 구글 계정 식별자 정밀 교정 및 동기화 완료",
+      "🛡️ [개인정보 마스킹 유지] 공개 패치 내역 및 릴리즈 노트에서 관리자 개인정보가 노출되지 않도록 보안 정화 원칙 지속 적용",
+      "🔒 [관리자 전용 대시보드 무중단 보호] 권한 검증 및 세션 유지 로직 안정화"
+    ],
+    highlights_id: [
+      "🔑 [Sinkronisasi Akun Admin Presisi] Menyelaraskan pengenal akun Google administrator untuk akses analitik dan kontrol keamanan",
+      "🛡️ [Perlindungan Privasi] Mempertahankan sanitasi informasi sensitif agar tidak muncul di catatan publik",
+      "🔒 [Perlindungan Berkelanjutan Dashboard Admin] Menstabilkan verifikasi hak akses dan sesi"
+    ],
+    highlights_en: [
+      "🔑 [Precision Admin Account Sync] Accurately synchronized verified Google account identifiers for analytics and security management",
+      "🛡️ [Privacy Protection Preserved] Continued strict sanitization of personal identifiers across release notes",
+      "🔒 [Continuous Dashboard Protection] Stabilized administrative permission checks and session states"
+    ]
+  },
+  {
+    version: 'v20.21',
+    date: '2026-11-01',
+    badge: 'UPDATE',
     title: "보안 및 개인정보 보호 강화: 관리자 전용 정보 보호 및 패치 내역 관리자 단독 열람 모드 적용",
     title_id: "Peningkatan Keamanan & Privasi: Perlindungan Informasi Sensitif & Akses Catatan Patch Khusus Admin",
     title_en: "Enhanced Security & Privacy: Sensitive Information Masking & Exclusive Admin Patch Notes Access",
