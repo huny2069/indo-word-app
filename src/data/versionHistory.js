@@ -4,38 +4,61 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.20';
+export const CURRENT_VERSION = 'v20.21';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "중앙 통계 관리자 단독 보안 강화: 지정 구글 계정(wkdehrkd2066) 전용 접근 제한";
+export const CURRENT_VERSION_SUMMARY = "보안 및 개인정보 보호 강화: 관리자 전용 정보 보호 및 패치 내역 관리자 단독 열람 모드 적용";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Keamanan Eksklusif Statistik Pusat: Akses Dibatasi Khusus untuk Akun Google Admin (wkdehrkd2066)';
-  if (lang === 'en') return 'Exclusive Central Analytics Security: Access Strictly Restricted to Admin Google Account (wkdehrkd2066)';
+  if (lang === 'id') return 'Peningkatan Keamanan & Privasi: Perlindungan Informasi Sensitif & Akses Catatan Patch Khusus Admin';
+  if (lang === 'en') return 'Enhanced Security & Privacy: Sensitive Information Masking & Exclusive Admin Patch Notes Access';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
   {
-    version: 'v20.20',
+    version: 'v20.21',
     date: '2026-11-01',
     badge: 'LATEST',
-    title: "중앙 통계 관리자 단독 보안 강화: 지정 구글 계정(wkdehrkd2066) 전용 접근 제한",
-    title_id: "Keamanan Eksklusif Statistik Pusat: Akses Dibatasi Khusus untuk Akun Google Admin (wkdehrkd2066)",
-    title_en: "Exclusive Central Analytics Security: Access Strictly Restricted to Admin Google Account (wkdehrkd2066)",
+    title: "보안 및 개인정보 보호 강화: 관리자 전용 정보 보호 및 패치 내역 관리자 단독 열람 모드 적용",
+    title_id: "Peningkatan Keamanan & Privasi: Perlindungan Informasi Sensitif & Akses Catatan Patch Khusus Admin",
+    title_en: "Enhanced Security & Privacy: Sensitive Information Masking & Exclusive Admin Patch Notes Access",
     highlights: [
-      "🔒 [중앙 통계 관리자 단독 열람 강제] 중앙 통계(/statistics) 페이지 및 내비게이션 메뉴를 오직 지정된 구글 계정(wkdehrkd2066 / wkdehrkd2066@gmail.com)으로 로그인한 사용자만 볼 수 있도록 권한 검증 로직 전면 개편",
-      "🛡️ [우회 접근 및 키 입력 차단] 일반 방문자나 타 구글 계정 로그인 시 임의 인증 키 입력 창을 완전히 제거하고 접근 권한 없음 화면으로 엄격 차단",
-      "🧭 [UI 일관성 유지] 상단 내비게이션 바 및 설정 화면의 '중앙 통계' 메뉴도 오직 해당 관리자 계정으로 로그인되어 있을 때만 표시"
+      "🛡️ [패치 내역 개인정보 및 민감정보 전면 마스킹] 패치 내역 및 버전 정보에서 특정 개인 계정 아이디, 이메일, 민감한 관리자 식별 정보 일체 영구 제거",
+      "🔒 [패치 내역 관리자 전용 보호] 상세 업데이트 및 패치 내역(Release Notes) 조회 기능을 관리자 전용으로 전환하여 비인가 사용자로부터 내부 변경 내역 열람 차단",
+      "🧭 [중앙 통계 권한 일관성 유지] 중앙 통계 및 보안 제어 기능의 관리자 단독 접근 통제 시스템 완성"
     ],
     highlights_id: [
-      "🔒 [Akses Eksklusif Statistik Pusat] Memperketat verifikasi agar halaman (/statistics) dan menu navigasi hanya dapat dilihat oleh akun Google admin (wkdehrkd2066)",
-      "🛡️ [Blokir Akses Tanpa Izin] Menghapus form kunci bypass untuk pengguna umum, hanya mengizinkan akun Google terdaftar",
-      "🧭 [Konsistensi UI] Menu Statistik Pusat di bilah navigasi dan Pengaturan hanya muncul saat login sebagai akun admin tersebut"
+      "🛡️ [Pembersihan Informasi Sensitif] Menghapus seluruh akun pribadi, ID, dan email dari ringkasan pembaruan dan catatan patch",
+      "🔒 [Akses Khusus Admin untuk Catatan Patch] Mengubah tombol dan tampilan Catatan Patch (Release Notes) agar hanya dapat dibuka oleh akun admin",
+      "🧭 [Konsistensi Keamanan] Menyelaraskan akses keamanan dashboard pusat dan informasi sistem"
     ],
     highlights_en: [
-      "🔒 [Exclusive Admin Analytics Access] Strictly restricted the Central Analytics page (/statistics) and navigation menu to the verified admin Google account (wkdehrkd2066)",
-      "🛡️ [Eliminated Bypass Vectors] Removed arbitrary PIN unlock inputs for unauthorized users, enforcing hard denial for non-admin accounts",
-      "🧭 [UI Security Consistency] Hidden Central Statistics buttons from navigation and Settings unless signed in with the dedicated admin account"
+      "🛡️ [Sensitive Data Sanitization] Completely removed all personal emails, usernames, and sensitive identifiers from public patch notes",
+      "🔒 [Admin-Only Patch Notes Access] Restricted detailed patch notes and changelog visibility exclusively to verified administrators",
+      "🧭 [Consistent Security Boundary] Maintained strict access boundaries for system analytics and sensitive updates"
+    ]
+  },
+  {
+    version: 'v20.20',
+    date: '2026-11-01',
+    badge: 'UPDATE',
+    title: "중앙 통계 보안 강화: 관리자 인증 전용 접근 제어",
+    title_id: "Peningkatan Keamanan Statistik Pusat: Kontrol Akses Khusus Admin",
+    title_en: "Central Analytics Security Hardening: Exclusive Admin Access Control",
+    highlights: [
+      "🔒 [중앙 통계 접근 통제 강화] 중앙 통계 페이지 및 메뉴를 등록된 관리자 인증 계정만 조회할 수 있도록 접근 제어 로직 강화",
+      "🛡️ [외부 비인가자 접근 차단] 비인가 사용자 접속 시 접근 권한 없음 안내 화면 표시 및 비정상 접근 원천 차단",
+      "🧭 [UI 일관성 유지] 상단 내비게이션 바 및 설정 화면의 중앙 통계 메뉴를 관리자 인증 상태에 맞춰 동적 제어"
+    ],
+    highlights_id: [
+      "🔒 [Kontrol Akses Statistik Pusat] Memperketat verifikasi agar dashboard pusat hanya dapat diakses oleh akun admin terverifikasi",
+      "🛡️ [Blokir Akses Tidak Sah] Menampilkan layar peringatan dan memblokir upaya akses pengguna umum ke menu statistik",
+      "🧭 [Konsistensi UI] Menyesuaikan visibilitas menu statistik pada bilah navigasi sesuai status admin"
+    ],
+    highlights_en: [
+      "🔒 [Analytics Access Control] Enforced strict access verification so only authenticated administrator accounts can view central analytics",
+      "🛡️ [Unauthorized Access Rejection] Blocked unauthorized visits with access-denied safeguards",
+      "🧭 [UI Consistency] Dynamically toggled central statistics menu items based on verified admin state"
     ]
   },
   {

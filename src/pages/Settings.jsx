@@ -665,31 +665,33 @@ const Settings = () => {
           }}>
             <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 6px #10b981' }}></span>
             <span style={{ fontSize: '0.8rem', color: '#1e293b', fontWeight: '900', letterSpacing: '0.3px' }}>
-              {userLang === 'id' ? 'Info Versi:' : userLang === 'en' ? 'Version:' : '버전 정보:'} <span style={{ color: '#2563eb' }}>{CURRENT_VERSION}</span> <span style={{ color: '#64748b', fontWeight: '700' }}>({CURRENT_VERSION_DATE})</span> — {getVersionSummary(userLang)}
+              {userLang === 'id' ? 'Info Versi:' : userLang === 'en' ? 'Version:' : '버전 정보:'} <span style={{ color: '#2563eb' }}>{CURRENT_VERSION}</span> <span style={{ color: '#64748b', fontWeight: '700' }}>({CURRENT_VERSION_DATE})</span>
             </span>
-            <button
-              onClick={() => setShowPatchNotes(prev => !prev)}
-              style={{
-                background: showPatchNotes ? '#1e293b' : '#2563eb',
-                color: '#fff',
-                border: 'none',
-                padding: '4px 12px',
-                borderRadius: '14px',
-                fontSize: '0.75rem',
-                fontWeight: '800',
-                cursor: 'pointer',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '4px',
-                transition: 'all 0.2s ease',
-                boxShadow: '0 2px 4px rgba(37, 99, 235, 0.2)'
-              }}
-            >
-              📋 {userLang === 'id' ? (showPatchNotes ? 'Tutup Catatan ▲' : 'Catatan Patch ▼') : userLang === 'en' ? (showPatchNotes ? 'Hide Patch Notes ▲' : 'Patch Notes ▼') : `패치 내역 ${showPatchNotes ? '닫기 ▲' : '보기 ▼'}`}
-            </button>
+            {isAdminUser(user) && (
+              <button
+                onClick={() => setShowPatchNotes(prev => !prev)}
+                style={{
+                  background: showPatchNotes ? '#1e293b' : '#2563eb',
+                  color: '#fff',
+                  border: 'none',
+                  padding: '4px 12px',
+                  borderRadius: '14px',
+                  fontSize: '0.75rem',
+                  fontWeight: '800',
+                  cursor: 'pointer',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '4px',
+                  transition: 'all 0.2s ease',
+                  boxShadow: '0 2px 4px rgba(37, 99, 235, 0.2)'
+                }}
+              >
+                🔒 {userLang === 'id' ? (showPatchNotes ? 'Tutup Catatan ▲' : 'Catatan Patch ▼') : userLang === 'en' ? (showPatchNotes ? 'Hide Patch Notes ▲' : 'Patch Notes ▼') : `패치 내역 ${showPatchNotes ? '닫기 ▲' : '보기 ▼'}`}
+              </button>
+            )}
           </div>
 
-          {showPatchNotes && (
+          {isAdminUser(user) && showPatchNotes && (
             <div style={{
               width: '100%',
               marginTop: '0.6rem',
