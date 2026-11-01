@@ -4,21 +4,41 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.22';
+export const CURRENT_VERSION = 'v20.23';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "관리자 권한 계정 식별자 정밀 동기화 및 관리자 보안 시스템 최적화";
+export const CURRENT_VERSION_SUMMARY = "중앙 통계 페이지 초기 렌더링 참조 오류(ReferenceError) 긴급 수정";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Sinkronisasi Presisi Akun Administrator & Optimalisasi Sistem Keamanan Admin';
-  if (lang === 'en') return 'Precision Admin Account Identifier Synchronization & Security System Optimization';
+  if (lang === 'id') return 'Perbaikan Cepat Kesalahan Referensi (ReferenceError) pada Statistik Pusat';
+  if (lang === 'en') return 'Hotfix for Central Analytics ReferenceError on Initial Render';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
   {
+    version: 'v20.23',
+    date: '2026-11-01',
+    badge: 'HOTFIX',
+    title: "중앙 통계 페이지 초기 렌더링 참조 오류(ReferenceError) 긴급 수정",
+    title_id: "Perbaikan Cepat Kesalahan Referensi (ReferenceError) pada Statistik Pusat",
+    title_en: "Hotfix for Central Analytics ReferenceError on Initial Render",
+    highlights: [
+      "🐛 [중앙 통계 렌더링 런타임 오류 수정] 중앙 통계 컴포넌트 마운트 시 발생하던 ReferenceError: setAuthorized is not defined 오류를 완전히 제거하여 대시보드가 정상 렌더링되도록 수정",
+      "⚡ [권한 판별 반응성 최적화] 로그인 계정 상태 변화에 즉시 동기화되도록 반응형 상태 구조 정돈"
+    ],
+    highlights_id: [
+      "🐛 [Perbaikan Bug Runtime Statistik Pusat] Memperbaiki ReferenceError: setAuthorized is not defined agar dashboard dapat dimuat tanpa error",
+      "⚡ [Optimalisasi Responsivitas] Menyelaraskan sinkronisasi status login akun admin"
+    ],
+    highlights_en: [
+      "🐛 [Fixed Central Analytics Runtime Crash] Resolved ReferenceError: setAuthorized is not defined on component initialization",
+      "⚡ [Reactivity Optimization] Streamlined immediate state synchronization based on authenticated admin session"
+    ]
+  },
+  {
     version: 'v20.22',
     date: '2026-11-01',
-    badge: 'LATEST',
+    badge: 'UPDATE',
     title: "관리자 권한 계정 식별자 정밀 동기화 및 관리자 보안 시스템 최적화",
     title_id: "Sinkronisasi Presisi Akun Administrator & Optimalisasi Sistem Keamanan Admin",
     title_en: "Precision Admin Account Identifier Synchronization & Security System Optimization",

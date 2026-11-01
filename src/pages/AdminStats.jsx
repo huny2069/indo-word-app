@@ -93,10 +93,6 @@ const AdminStats = () => {
   const [serverTestMsg, setServerTestMsg] = useState('');
   const [isDriveBusy, setIsDriveBusy] = useState(false);
 
-  useEffect(() => {
-    setAuthorized(isAdminUser(user));
-  }, [user]);
-
   const loadAllLogs = useCallback(async (forceDiscovery = false, silent = false) => {
     if (!silent) setIsLoading(true);
     try {
