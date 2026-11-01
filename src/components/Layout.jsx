@@ -66,7 +66,7 @@ const Layout = () => {
 
   const navItems = [
     { path: '/', label: t('nav_dashboard'), icon: <Home size={24} /> },
-    { path: '/dictionary', label: t('nav_dictionary'), icon: <BookMarked size={24} /> },
+    ...(isAdmin ? [{ path: '/dictionary', label: t('nav_dictionary'), icon: <BookMarked size={24} /> }] : []),
     { path: '/generate', label: t('nav_generate'), icon: <Sparkles size={24} /> },
     { path: '/translate', label: t('nav_translate'), icon: <Languages size={24} /> },
     { path: '/words', label: t('nav_words'), icon: <BookOpen size={24} /> },

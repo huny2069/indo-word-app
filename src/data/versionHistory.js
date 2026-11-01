@@ -4,17 +4,40 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.25';
+export const CURRENT_VERSION = 'v20.26';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "단어생성 프롬프트 및 엔진을 1만단어 AI 정밀 재생성 품질 기준으로 전면 통일 및 최적화";
+export const CURRENT_VERSION_SUMMARY = "1만 단어 사전 메뉴 및 데이터 관리 기능 운영자(Admin) 전용 권한 잠금 적용";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Penyelarasan Prompt Pembuatan Kata Sesuai Standar Regenerasi Presisi AI Kamus 10K';
-  if (lang === 'en') return 'Word Generation Prompt & Engine Standardized to 10K Dictionary Precision Quality';
+  if (lang === 'id') return 'Penguncian Hak Akses Eksklusif Administrator untuk Menu & Manajemen Kamus 10K';
+  if (lang === 'en') return 'Exclusive Administrator Access Gate for 10K Dictionary Menu & Data Management';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
+  {
+    version: 'v20.26',
+    date: '2026-11-01',
+    badge: 'SECURITY',
+    title: "1만 단어 사전 메뉴 및 데이터 관리 기능 운영자(Admin) 전용 권한 잠금 적용",
+    title_id: "Penguncian Hak Akses Eksklusif Administrator untuk Menu & Manajemen Kamus 10K",
+    title_en: "Exclusive Administrator Access Gate for 10K Dictionary Menu & Data Management",
+    highlights: [
+      "🔒 [1만 단어 사전 운영자 전용 보호] 사전 고도화 및 다국어 정비 작업 기간 동안 일반 사용자가 사전 메뉴에 접근하지 못하도록 운영자 전용 잠금 게이트웨이 구축",
+      "🧭 [네비게이션 및 메뉴 링크 보호] 운영자 계정으로 로그인한 경우에만 하단/상단 네비게이션 바의 1만 단어장 메뉴, 단어 생성 화면의 사전 바로가기 버튼 및 안내 배너가 표시되도록 접근 제어 적용",
+      "⚙️ [설정 탭 사전 데이터 관리 보호] 설정 화면의 1만 단어 사전 전용 CSV/구글 드라이브 동기화 및 대량 관리 섹션도 오직 인증된 운영자만 확인하고 실행할 수 있도록 보안 강화"
+    ],
+    highlights_id: [
+      "🔒 [Proteksi Akses Kamus 10K Khusus Admin] Menutup sementara akses menu Kamus 10K bagi pengguna umum selama masa penataan kualitas data dan lokalisasi multibahasa",
+      "🧭 [Penyembunyian Tautan Navigasi & Banner] Tombol dan banner Kamus 10K hanya akan ditampilkan kepada akun administrator terverifikasi",
+      "⚙️ [Proteksi Manajemen Data di Pengaturan] Bagian sinkronisasi CSV dan Google Drive Kamus 10K di Pengaturan dikunci secara eksklusif untuk administrator"
+    ],
+    highlights_en: [
+      "🔒 [Admin-Only 10K Dictionary Access] Enforced access gate restricting the 10,000-word dictionary to verified administrators while data refinement and multilingual enhancements are underway",
+      "🧭 [Protected Navigation & Entry Banners] Hidden the dictionary navigation item, entry buttons, and banner in word generator for non-admin visitors",
+      "⚙️ [Secured Settings Management Section] Restricted the 10K dictionary CSV/Google Drive backup and batch management card exclusively to authorized administrators"
+    ]
+  },
   {
     version: 'v20.25',
     date: '2026-11-01',

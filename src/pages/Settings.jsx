@@ -1310,8 +1310,9 @@ const Settings = () => {
         </div>
       </div>
 
-      {/* 5. 1만 단어 사전 전용 데이터 관리 (CSV & 구글 드라이브 동기화) */}
-      <div className="settings-card" style={{ marginBottom: '2rem', border: '2px solid #feca57', background: 'linear-gradient(135deg, #fffdf8 0%, #fff9ec 100%)', boxShadow: '0 4px 15px rgba(254, 202, 87, 0.15)' }}>
+      {/* 5. 1만 단어 사전 전용 데이터 관리 (CSV & 구글 드라이브 동기화) - 운영자 전용 */}
+      {isAdminUser(user) && (
+        <div className="settings-card" style={{ marginBottom: '2rem', border: '2px solid #feca57', background: 'linear-gradient(135deg, #fffdf8 0%, #fff9ec 100%)', boxShadow: '0 4px 15px rgba(254, 202, 87, 0.15)' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.8rem', flexWrap: 'wrap', gap: '0.5rem' }}>
           <h4 style={{ fontSize: '1.05rem', fontWeight: '900', margin: 0, color: 'var(--nana-dark)', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <BookMarked size={20} color="#f6b93b" /> {userLang === 'id' ? 'Manajemen Data Kamus 10K Kata (CSV & Google Cloud)' : userLang === 'en' ? '10K Dictionary Data Management (CSV & Google Cloud)' : '1만 단어 사전 데이터 관리 (CSV & 구글 클라우드)'}
@@ -1496,6 +1497,7 @@ const Settings = () => {
           </div>
         </div>
       </div>
+      )}
 
       {/* 관리자 전용: 중앙 통계 및 접속/활동 로그 백업 센터 바로가기 */}
       {isAdminUser(user) && (

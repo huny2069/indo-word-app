@@ -26,8 +26,12 @@ import {
   getCategoryDisplayName,
   getSubcategoryDisplayName
 } from '../data/categories';
+import { useAuth } from '../contexts/AuthContext';
+import { isAdminUser } from '../config/logConfig';
 
 const Dictionary = () => {
+  const { user } = useAuth();
+  const isAdmin = isAdminUser(user);
   const { userLang, studyLang, t } = useLanguage();
   const navigate = useNavigate();
 
@@ -484,6 +488,66 @@ const Dictionary = () => {
       alert(t('dict_msg_reset_done', { word: item.word }));
     }
   };
+
+  // [운영자 전용 제한] 비관리자 계정 접근 시 안내 화면 표시
+  if (!isAdmin) {
+    return (
+      <div className="page" style={{ padding: '4rem 1.5rem', textAlign: 'center', maxWidth: '640px', margin: '0 auto' }}>
+        <div style={{
+          background: '#ffffff',
+          padding: '2.8rem 2.2rem',
+          borderRadius: '30px',
+          border: '2px solid #fed7aa',
+          boxShadow: '0 12px 30px rgba(251, 146, 60, 0.1)'
+        }}>
+          <div style={{
+            width: '72px',
+            height: '72px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%)',
+            color: '#c2410c',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 1.4rem',
+            fontSize: '2rem',
+            boxShadow: '0 4px 12px rgba(234, 88, 12, 0.15)'
+          }}>
+            🔒
+          </div>
+          <h2 style={{ fontSize: '1.4rem', fontWeight: '900', color: '#1e293b', marginBottom: '0.8rem' }}>
+            {userLang === 'id' ? 'Kamus 10.000 Kata (Khusus Administrator)' : userLang === 'en' ? '10K Dictionary (Admin Only)' : '1만 단어 사전 (운영자 전용 메뉴)'}
+          </h2>
+          <p style={{ fontSize: '0.92rem', color: '#64748b', lineHeight: '1.7', marginBottom: '2rem', fontWeight: '600' }}>
+            {userLang === 'id'
+              ? 'Kamus 10.000 Kata saat ini sedang dalam peningkatan kualitas AI dan lokalisasi multibahasa. Menu ini sementara dibatasi hanya untuk akun administrator.'
+              : userLang === 'en'
+                ? 'The 10,000-Word Dictionary is currently undergoing AI precision enhancement and multilingual localization. Access is temporarily restricted to administrator accounts.'
+                : '1만 단어 사전은 현재 전수 AI 정밀 재생성 및 다국어(영어·인도네시아어·한국어) 설명 고도화 작업이 진행 중입니다. 준비 기간 동안 운영자(관리자) 계정에만 접근 및 사용이 허용됩니다.'}
+          </p>
+          <button
+            onClick={() => navigate('/')}
+            style={{
+              padding: '0.9rem 2rem',
+              background: 'var(--primary-color)',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '25px',
+              fontWeight: '900',
+              fontSize: '1rem',
+              cursor: 'pointer',
+              boxShadow: '0 4px 14px rgba(230, 126, 34, 0.35)',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px'
+            }}
+          >
+            {userLang === 'id' ? 'Kembali ke Beranda' : userLang === 'en' ? 'Back to Home' : '홈 대시보드로 돌아가기'}
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="page" style={{ paddingBottom: '3rem' }}>
