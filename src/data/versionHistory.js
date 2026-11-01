@@ -4,17 +4,40 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.28';
+export const CURRENT_VERSION = 'v20.29';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "설정 탭 유료/무료 API 키 안내 배너 추가 및 다국어 단어생성 프롬프트·예문 인터랙티브 매칭 전면 고도화";
+export const CURRENT_VERSION_SUMMARY = "예문 단어별 개별 분리 툴팁 렌더링 최적화 및 다어절 뭉침 오류 완벽 수정";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Penambahan Banner Panduan API Key Berbayar/Gratis & Peningkatan Prompt Multibahasa serta Tooltip Interaktif Kalimat';
-  if (lang === 'en') return 'Paid/Free API Key Notice Banner & Enhanced Multilingual Prompts with Intelligent Sentence Interactive Tooltips';
+  if (lang === 'id') return 'Optimalisasi Render Tooltip Per Kata pada Kalimat & Perbaikan Bug Penggabungan Frasa Panjang';
+  if (lang === 'en') return 'Individual Word-by-Word Tooltip Rendering Optimization & Multi-Word Clumping Bug Fix';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
+  {
+    version: 'v20.29',
+    date: '2026-11-01',
+    badge: 'BUGFIX',
+    title: "예문 단어별 개별 분리 툴팁 렌더링 최적화 및 다어절 뭉침 오류 완벽 수정",
+    title_id: "Optimalisasi Render Tooltip Per Kata pada Kalimat & Perbaikan Bug Penggabungan Frasa Panjang",
+    title_en: "Individual Word-by-Word Tooltip Rendering Optimization & Multi-Word Clumping Bug Fix",
+    highlights: [
+      "🎯 [예문 단어 개별 분리 렌더링 정상화] 예문 내 여러 단어가 하나의 거대한 링크처럼 묶여 통째로 호버되던 과잉 매칭 문제를 해결하여, 문장의 각 단어(예: '저는', '한국', '음식을', '아주', '좋아합니다.')가 각자 독립된 단어로 분리되어 고유한 번역 툴팁이 정확히 나타나도록 개선",
+      "🔗 [다어절 숙어 매칭 엄격화] 2단어 이상의 구문 매칭은 사전에 공식 등록된 완벽 일치 숙어(Idiom)에만 엄격히 제한 적용되도록 보완하여 단어 뭉침 현상 원천 차단",
+      "📱 [단어별 상호작용 및 툴팁 뷰 최적화] 마우스 호버 및 모바일 터치 시 단어별 점선 밑줄과 은은한 배경 하이라이트가 단어 단위로 깔끔하게 활성화되도록 인터랙션 디자인 정제"
+    ],
+    highlights_id: [
+      "🎯 [Pemisahan Tooltip Kata Mandiri pada Kalimat] Memperbaiki bug di mana beberapa kata menyatu menjadi satu blok link besar, sehingga setiap kata dalam kalimat kini terpisah rapi dengan tooltip terjemahannya masing-masing",
+      "🔗 [Pencocokan Frasa Multi-Kata Ketat] Membatasi penggabungan multi-kata hanya untuk idiom/ungkapan yang terdaftar secara persis di kamus guna mencegah penggabungan kata yang tidak diinginkan",
+      "📱 [Optimalisasi Interaksi & Desain Tooltip] Menyempurnakan garis bawah putus-putus dan highlight latar belakang per kata saat disentuh atau diarahkan kursor"
+    ],
+    highlights_en: [
+      "🎯 [Individual Word Separation in Sentences] Fixed the multi-word over-matching issue where sentences were clumped into a single massive interactive block, ensuring each word receives its own separate hover/touch tooltip",
+      "🔗 [Strict Multi-Word Phrase Matching] Restricted multi-token grouping exclusively to exact registered idioms/phrases to prevent arbitrary word clustering",
+      "📱 [Enhanced Word Interaction & Tooltip Design] Polished word-level dotted underlines and tooltip callouts for clean and accurate reading on both desktop and mobile"
+    ]
+  },
   {
     version: 'v20.28',
     date: '2026-11-01',

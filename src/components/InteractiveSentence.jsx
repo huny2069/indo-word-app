@@ -25,17 +25,16 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
     });
   }
 
-  // 한국어 조사, 어미 및 다국어 접사 분리 지능형 매칭 헬퍼
-  const findMeaning = (query) => {
-    if (!query) return null;
-    const cleanQ = clean(query);
+  // 단일 단어/토큰 전용 지능형 의미 매칭 헬퍼 (공백 없는 1개 단어 대상)
+  const findSingleWordMeaning = (token) => {
+    if (!token) return null;
+    const cleanQ = clean(token);
     if (!cleanQ) return null;
 
-    // 1. 정확 매칭
+    // 1. 단어 정확 일치
     if (breakdownMap[cleanQ]) return breakdownMap[cleanQ];
 
     // 2. 한국어 조사(Josa) 접미사 분리 매칭
-    // 예: "학교에서" -> "학교", "한국어를" -> "한국어", "선생님께" -> "선생님"
     const koreanParticles = [
       '에게서', '한테서', '에서', '에게', '한테', '으로', '부터', '까지',
       '처럼', '만큼', '마저', '조차', '보다', '하고', '이랑', '께', '로',
@@ -48,14 +47,13 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
       }
     }
 
-    // 3. 한국어 동사/형용사 종결 및 연결어미 활용형 매칭
-    // 예: "공부합니다" -> "공부하다" or "공부", "먹었습니다" -> "먹다", "가요" -> "가다"
+    // 3. 한국어 동사/형용사 종결 및 연결어미 분리 매칭
     const verbEndings = [
       '했습니다', '합니다', '됩니다', '입니다',
       '했어요', '해요', '돼요', '이에요', '예요',
       '했다', '한다', '된다', '이다',
       '하고', '하며', '하면', '하니', '해서',
-      '습니다', 'ㅂ니다', '어서', '아서', '거나', '지만', '는데', '은데', 'ㄴ데'
+      '습니다', 'ㅂ니다', '어서', '아서', '거나', '지만', '는데', '은데', 'ㄴ데', '었어', '았어', '었다', '았다'
     ];
     for (const e of verbEndings) {
       if (cleanQ.endsWith(e) && cleanQ.length > e.length) {
@@ -66,7 +64,7 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
       }
     }
 
-    // 4. 영어 접미사 분리 매칭 (복수형 -s/-es, 과거형 -ed, 진행형 -ing)
+    // 4. 영어 접미사 분리 매칭 (복수형, 과거형, 진행형 등)
     const englishSuffixes = ['ies', 'ing', 'ed', 'es', 'ly', 's'];
     for (const s of englishSuffixes) {
       if (cleanQ.endsWith(s) && cleanQ.length > s.length + 2) {
@@ -76,7 +74,7 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
       }
     }
 
-    // 5. 인도네시아어 접미사 분리 매칭 (-nya, -kan, -lah, -kah, -ku, -mu)
+    // 5. 인도네시아어 접미사 분리 매칭
     const indoSuffixes = ['nya', 'kan', 'lah', 'kah', 'ku', 'mu'];
     for (const s of indoSuffixes) {
       if (cleanQ.endsWith(s) && cleanQ.length > s.length + 2) {
@@ -85,9 +83,9 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
       }
     }
 
-    // 6. breakdownMap의 키가 cleanQ의 접두사로 포함되는 경우 (최소 2글자 이상)
+    // 6. 단일 단어 내에서만 어근이나 원형이 시작하는 경우 (공백이 없는 단어에 한해 1~3글자 조사 결합 등)
     for (const key of Object.keys(breakdownMap)) {
-      if (cleanQ.startsWith(key) && key.length >= 2) {
+      if (!key.includes(' ') && cleanQ.startsWith(key) && key.length >= 2 && cleanQ.length <= key.length + 3) {
         return breakdownMap[key];
       }
     }
@@ -109,21 +107,24 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
         continue;
       }
 
-      // 숙어 및 단어 매칭 시도 (최대 5단어까지 확인)
+      // 1. 다어절(2단어 이상) 숙어/연어 매칭 시도
+      // (주의: 반드시 breakdownMap에 정확히 일치하는 다어절 키가 있을 때만 한정 매칭!)
       let foundMatch = null;
-      for (let j = 5; j >= 1; j--) {
-        const potentialPhraseTokens = tokens.slice(i, i + (j * 2) - 1);
-        const potentialPhrase = potentialPhraseTokens.join('').trim();
-        const meaning = findMeaning(potentialPhrase);
+      for (let j = 5; j >= 2; j--) {
+        if (i + (j * 2) - 1 <= tokens.length) {
+          const potentialPhraseTokens = tokens.slice(i, i + (j * 2) - 1);
+          const potentialPhrase = potentialPhraseTokens.join('').trim();
+          const cleanP = clean(potentialPhrase);
 
-        if (meaning) {
-          foundMatch = {
-            text: potentialPhrase,
-            meaning: meaning,
-            originalIndex: i
-          };
-          i += (j * 2) - 1;
-          break;
+          if (cleanP && breakdownMap[cleanP]) {
+            foundMatch = {
+              text: potentialPhrase,
+              meaning: breakdownMap[cleanP],
+              originalIndex: i
+            };
+            i += (j * 2) - 1;
+            break;
+          }
         }
       }
 
@@ -169,8 +170,8 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
           </div>
         );
       } else {
-        // 단일 토큰 지능형 의미 매칭
-        const tokenMeaning = findMeaning(currentToken);
+        // 2. 단일 단어 개별 지능형 의미 매칭 (단어 하나하나 독립 분리 매칭)
+        const tokenMeaning = findSingleWordMeaning(currentToken);
         const idx = i;
         const isShow = tokenMeaning && (hoveredIdx === idx || clickedIdx === idx);
 
@@ -187,10 +188,11 @@ const InteractiveSentence = ({ sentence, wordBreakdown, breakdown }) => {
                   textDecorationStyle: 'dotted',
                   textDecorationColor: '#74b9ff',
                   color: '#0984e3',
-                  padding: '1px 2px',
+                  padding: '1px 3px',
                   borderRadius: '4px',
-                  background: isShow ? '#dff9fb' : 'transparent',
-                  fontWeight: '600'
+                  background: isShow ? '#dff9fb' : '#f0f9ff',
+                  fontWeight: '600',
+                  transition: 'all 0.2s'
                 }}
               >
                 {currentToken}
