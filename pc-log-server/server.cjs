@@ -428,64 +428,21 @@ function publishEndpointToGitHub() {
     updatedAt: new Date().toISOString()
   };
 
-  if (!payload.pcServerUrl && !payload.googleScriptUrl) {
-    publishStatus = { ok: false, message: '발행할 외부 URL이 없습니다.', updatedAt: '' };
-    return publishStatus;
-  }
-
   try {
-    const jsonBytes = JSON.stringify(payload, null, 2) + '\n';
-
-    const hashRes = spawnSync('git', ['hash-object', '-w', '--stdin'], {
-      cwd: ROOT_DIR,
-      input: jsonBytes,
-      encoding: 'utf8'
-    });
-    if (hashRes.status !== 0) throw new Error(hashRes.stderr || 'git hash-object 실패');
-    const blobSha = hashRes.stdout.trim();
-
-    const treeInput = `100644 blob ${blobSha}\tendpoint.json\n`;
-    const treeRes = spawnSync('git', ['mktree'], {
-      cwd: ROOT_DIR,
-      input: treeInput,
-      encoding: 'utf8'
-    });
-    if (treeRes.status !== 0) throw new Error(treeRes.stderr || 'git mktree 실패');
-    const treeSha = treeRes.stdout.trim();
-
-    const commitRes = spawnSync(
-      'git',
-      ['commit-tree', treeSha, '-m', `chore: update live log endpoint (${new Date().toISOString()})`],
-      { cwd: ROOT_DIR, encoding: 'utf8' }
-    );
-    if (commitRes.status !== 0) throw new Error(commitRes.stderr || 'git commit-tree 실패');
-    const commitSha = commitRes.stdout.trim();
-
-    const pushRes = spawnSync(
-      'git',
-      ['push', '-f', 'origin', `${commitSha}:refs/heads/log-endpoint`],
-      { cwd: ROOT_DIR, encoding: 'utf8', timeout: 25000 }
-    );
-    if (pushRes.status !== 0) throw new Error(pushRes.stderr || 'git push 실패');
-
+    const epPath = path.join(DATA_DIR, 'endpoint.json');
+    fs.writeFileSync(epPath, JSON.stringify(payload, null, 2), 'utf8');
     config.lastTunnelUrl = liveTunnelUrl;
     config.lastPublishedAt = payload.updatedAt;
     saveConfig(config);
 
     publishStatus = {
       ok: true,
-      message: 'GitHub 글로벌 엔드포인트 자동 연결 완료 (전 세계 접속자 로그 실시간 수신 중)',
+      message: '로컬 엔드포인트 파일 저장 완료 (Vercel 빌드 충돌 방지를 위해 git 자동 푸시는 안전하게 제외됨)',
       updatedAt: payload.updatedAt
     };
-    console.log(`[GitHub 자동연결 완료] ${payload.pcServerUrl || payload.googleScriptUrl}`);
     return publishStatus;
   } catch (err) {
-    publishStatus = {
-      ok: false,
-      message: `GitHub 자동 연결 실패: ${err.message}`,
-      updatedAt: ''
-    };
-    console.warn('[GitHub 자동연결 경고]:', err.message);
+    publishStatus = { ok: false, message: '엔드포인트 저장 실패: ' + err.message, updatedAt: '' };
     return publishStatus;
   }
 }

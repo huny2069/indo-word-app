@@ -43,10 +43,10 @@ const TokenCostCard = ({
 
   if (mode === 'actual') {
     if (usageMetadata) {
-      displayData = calculateActualTokenCost(usageMetadata, currentModel);
+      displayData = calculateActualTokenCost(usageMetadata, currentModel, userLang);
     }
     if (charCount > 0) {
-      const ttsData = calculateActualTtsCost(charCount, currentEngine);
+      const ttsData = calculateActualTtsCost(charCount, currentEngine, userLang);
       if (!displayData) {
         displayData = { ...ttsData, isTtsOnly: true };
       } else {
@@ -54,7 +54,7 @@ const TokenCostCard = ({
       }
     }
   } else {
-    displayData = getEstimatedTokensAndCost(actionType, currentModel, { count, ttsEngine: currentEngine });
+    displayData = getEstimatedTokensAndCost(actionType, currentModel, { count, ttsEngine: currentEngine, userLang });
   }
 
   if (!displayData) return null;
@@ -75,6 +75,7 @@ const TokenCostCard = ({
     ttsPremium: userLang === 'id' ? 'Suara Premium TTS:' : userLang === 'en' ? 'TTS Premium Voice:' : 'TTS 프리미엄 음성:',
     ttsChars: userLang === 'id' ? 'Jumlah Karakter Suara:' : userLang === 'en' ? 'Audio Characters:' : '음성 글자 수:',
     charUnit: userLang === 'id' ? 'karakter' : userLang === 'en' ? 'chars' : '자 합성',
+    unit: userLang === 'ko' ? '토큰' : userLang === 'id' ? 'token' : 'tokens',
     detailBtn: userLang === 'id' ? 'Lihat Detail' : userLang === 'en' ? 'View Details' : '상세 내역 보기'
   };
 
@@ -144,15 +145,15 @@ const TokenCostCard = ({
             <>
               <div>
                 <strong style={{ color: '#059669' }}>{labels.input}</strong>{' '}
-                {mode === 'actual' ? displayData.promptTokens?.toLocaleString() : displayData.inputTokens?.toLocaleString()} tokens
+                {mode === 'actual' ? displayData.promptTokens?.toLocaleString() : displayData.inputTokens?.toLocaleString()} {labels.unit}
               </div>
               <div>
                 <strong style={{ color: '#2563eb' }}>{labels.output}</strong>{' '}
-                {mode === 'actual' ? displayData.candidatesTokens?.toLocaleString() : displayData.outputTokens?.toLocaleString()} tokens
+                {mode === 'actual' ? displayData.candidatesTokens?.toLocaleString() : displayData.outputTokens?.toLocaleString()} {labels.unit}
               </div>
               <div>
                 <strong style={{ color: '#7c3aed' }}>{labels.total}</strong>{' '}
-                {displayData.totalTokens?.toLocaleString()} tokens
+                {displayData.totalTokens?.toLocaleString()} {labels.unit}
               </div>
               <div>
                 <strong style={{ color: '#475569' }}>{labels.usd}</strong>{' '}

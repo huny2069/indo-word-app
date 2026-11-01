@@ -47,8 +47,8 @@ export const getModelRates = (modelId) => {
 };
 
 // 화폐 포맷 헬퍼 (USD -> KRW ₩, IDR Rp) - 다국어 지원
-export const formatCost = (usd) => {
-  const lang = getCurrentUserLang();
+export const formatCost = (usd, preferredLang = null) => {
+  const lang = preferredLang || getCurrentUserLang();
   if (usd === 0) {
     return {
       usdText: '$0.00',
@@ -82,7 +82,7 @@ export const formatCost = (usd) => {
 };
 
 export const getEstimatedTokensAndCost = (actionType, modelId, options = {}) => {
-  const lang = getCurrentUserLang();
+  const lang = options.userLang || getCurrentUserLang();
   const rates = getModelRates(modelId);
   const count = options.count || 1;
   const ttsEngine = options.ttsEngine || localStorage.getItem('tts_engine') || 'google';
@@ -135,7 +135,7 @@ export const getEstimatedTokensAndCost = (actionType, modelId, options = {}) => 
       break;
   }
 
-  const costFormatted = formatCost(usdCost);
+  const costFormatted = formatCost(usdCost, lang);
 
   return {
     actionType,
@@ -150,7 +150,7 @@ export const getEstimatedTokensAndCost = (actionType, modelId, options = {}) => 
   };
 };
 
-export const calculateActualTokenCost = (usageMetadata, modelId) => {
+export const calculateActualTokenCost = (usageMetadata, modelId, preferredLang = null) => {
   if (!usageMetadata) return null;
 
   const rates = getModelRates(modelId);
@@ -162,7 +162,7 @@ export const calculateActualTokenCost = (usageMetadata, modelId) => {
   const outputUsd = (candidatesTokens / 1000000) * rates.output;
   const totalUsd = inputUsd + outputUsd;
 
-  const formatted = formatCost(totalUsd);
+  const formatted = formatCost(totalUsd, preferredLang);
 
   return {
     modelId: rates.modelId,
@@ -176,10 +176,10 @@ export const calculateActualTokenCost = (usageMetadata, modelId) => {
   };
 };
 
-export const calculateActualTtsCost = (charCount, ttsEngine = 'google') => {
-  const lang = getCurrentUserLang();
+export const calculateActualTtsCost = (charCount, ttsEngine = 'google', preferredLang = null) => {
+  const lang = preferredLang || getCurrentUserLang();
   const totalUsd = ttsEngine === 'google' ? (charCount / 1000000) * 16.00 : 0;
-  const formatted = formatCost(totalUsd);
+  const formatted = formatCost(totalUsd, lang);
 
   const freeTierNotice = ttsEngine === 'google'
     ? (lang === 'id' ? 'Gratis 1 juta karakter pertama/bulan' : lang === 'en' ? 'First 1M chars/month free tier' : '매월 최초 100만 글자 무료 제공 대상')

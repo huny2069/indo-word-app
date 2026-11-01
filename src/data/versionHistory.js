@@ -4,17 +4,43 @@
  * PATCH_NOTES 배열 최상단에 최신 수정 내역을 추가합니다.
  */
 
-export const CURRENT_VERSION = 'v20.23';
+export const CURRENT_VERSION = 'v20.24';
 export const CURRENT_VERSION_DATE = '2026-11-01';
-export const CURRENT_VERSION_SUMMARY = "중앙 통계 페이지 초기 렌더링 참조 오류(ReferenceError) 긴급 수정";
+export const CURRENT_VERSION_SUMMARY = "다국어 UI 버튼 번역 및 토큰 대시보드 완벽 연동, Vercel 프리뷰 빌드 및 봇 방문 필터링 최적화";
 
 export const getVersionSummary = (lang = 'ko') => {
-  if (lang === 'id') return 'Perbaikan Cepat Kesalahan Referensi (ReferenceError) pada Statistik Pusat';
-  if (lang === 'en') return 'Hotfix for Central Analytics ReferenceError on Initial Render';
+  if (lang === 'id') return 'Lokalisasi Tombol UI & Dashboard Token Lengkap, Perbaikan Build Vercel & Filter Bot Otomatis';
+  if (lang === 'en') return 'Full UI Button Localization & Token Dashboard Sync, Vercel Preview Build Fix & Bot Traffic Filtering';
   return CURRENT_VERSION_SUMMARY;
 };
 
 export const PATCH_NOTES = [
+  {
+    version: 'v20.24',
+    date: '2026-11-01',
+    badge: 'UPDATE',
+    title: "다국어 UI 버튼 번역 및 토큰 대시보드 완벽 연동, Vercel 프리뷰 빌드 및 봇 방문 필터링 최적화",
+    title_id: "Lokalisasi Tombol UI & Dashboard Token Lengkap, Perbaikan Build Vercel & Filter Bot Otomatis",
+    title_en: "Full UI Button Localization & Token Dashboard Sync, Vercel Preview Build Fix & Bot Traffic Filtering",
+    highlights: [
+      "🌐 [버튼 및 사전 컴포넌트 100% 다국어 완벽 지원] CSV 백업/불러오기(set_csv_export/import), AI 재생성 배지 및 버튼, 사전 일괄 추가 및 시크릿 노트 등 UI 키값이 그대로 노출되던 문제를 전면 정비하여 한국어·인도네시아어·영어 사용자 언어에 맞춰 정확하게 번역 및 출력되도록 개선",
+      "🪙 [설정 탭 토큰 및 요금 대시보드 동기화] 언어 변경 시 토큰 카드(예상 견적, 단위 표기)와 누적 사용량 대시보드(단가표, 총 소모 토큰, 작업별 상세 내역)가 사용자 선택 언어(KO/ID/EN)에 맞춰 실시간으로 자연스럽게 표시되도록 개선",
+      "🛡️ [Vercel 자동 빌드 실패 방지 및 PC 로그 서버 개선] PC 로그 서버의 불필요한 원격 브랜치 자동 푸시 로직을 로컬 안전 저장 방식으로 전환하여 Vercel 프리뷰 배포 빌드 오류(vite build 127) 근본적 차단",
+      "🤖 [자동화 크롤러 및 AWS 봇 방문 필터링] Vercel 배포 후 상태 확인을 위해 자동으로 접속하는 HeadlessChrome 및 클라우드 검사 봇을 실시간 활동 로그에서 자동 제외하여 오직 실제 사용자 접속 통계만 정확히 집계되도록 필터링 시스템 구축"
+    ],
+    highlights_id: [
+      "🌐 [Lokalisasi Tombol & Kamus 100%] Memperbaiki tombol cadangan CSV, lencana AI regenerasi, dan catatan rahasia guru agar diterjemahkan sempurna ke dalam ID/KO/EN",
+      "🪙 [Sinkronisasi Dashboard Biaya & Token] Kartu estimasi token dan dashboard pemakaian kini responsif mengikuti bahasa yang dipilih pengguna",
+      "🛡️ [Perbaikan Build Vercel] Menghilangkan push otomatis cabang yang memicu error build vite pada Vercel",
+      "🤖 [Penyaringan Bot Otomatis] Mengabaikan crawler dan bot HeadlessChrome dari pencatatan log statistik"
+    ],
+    highlights_en: [
+      "🌐 [100% UI Button & Dictionary Localization] Fully translated CSV backup/import buttons, AI regenerated badges, and teacher secret notes into KO/ID/EN without raw key exposure",
+      "🪙 [Token & Cost Dashboard Real-time Sync] Localized token estimation cards and cumulative usage metrics to reactively reflect the user-selected language",
+      "🛡️ [Vercel Preview Build Failure Prevention] Refactored PC log server to store endpoints locally, eliminating unwanted git pushes that triggered Vercel build errors",
+      "🤖 [Automated Crawler & Bot Filtering] Excluded headless browsers and Vercel health-check bots from visitor statistics to ensure only real human traffic is recorded"
+    ]
+  },
   {
     version: 'v20.23',
     date: '2026-11-01',

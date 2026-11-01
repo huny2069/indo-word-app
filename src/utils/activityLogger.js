@@ -622,8 +622,26 @@ export async function flushPendingLogs() {
  * @param {string} actionType - ACTION_META 키 (예: 'LOGIN', 'WORD_GENERATE_AI', 'STUDY_COMPLETE' 등)
  * @param {Object} options - { detail, topic, tokens, costUsd, email, userName, path, label }
  */
+/**
+ * Vercel 배포 프리뷰 검사 봇, AWS 크롤러, 헤드리스 브라우저 필터링
+ */
+export function isBotOrCrawler() {
+  try {
+    if (typeof navigator === 'undefined') return false;
+    if (navigator.webdriver) return true;
+    const ua = navigator.userAgent || '';
+    if (/HeadlessChrome|bot|spider|crawler|vercel-screenshot|lighthouse|preview|facebookexternalhit|bingbot|googlebot|yandex|duckduckbot/i.test(ua)) {
+      return true;
+    }
+  } catch {
+    // ignore
+  }
+  return false;
+}
+
 export async function trackActivity(actionType, options = {}) {
   try {
+    if (isBotOrCrawler()) return null;
     const now = new Date();
     const authUser = getCurrentAuthUser();
     const meta = ACTION_META[actionType] || { label: options.label || actionType };

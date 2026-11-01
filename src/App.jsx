@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import { logAccess } from './api/supabase';
-import { trackActivity, flushPendingLogs } from './utils/activityLogger';
+import { trackActivity, flushPendingLogs, isBotOrCrawler } from './utils/activityLogger';
 import { useAuth } from './contexts/AuthContext';
 import Login from './pages/Login';
 import Onboarding from './pages/Onboarding';
@@ -48,14 +48,18 @@ function App() {
     }
     if (!sessionStorage.getItem('inko_session_started')) {
       sessionStorage.setItem('inko_session_started', 'true');
-      logAccess(deviceId, user?.email);
-      trackActivity('SESSION_START', {
-        email: user?.email,
-        userName: user?.name,
-        detail: user?.email ? `앱 접속 및 자동 로그인 세션 시작 (${user.email})` : '앱 접속 (로그인 전 방문)'
-      });
+      if (!isBotOrCrawler()) {
+        logAccess(deviceId, user?.email);
+        trackActivity('SESSION_START', {
+          email: user?.email,
+          userName: user?.name,
+          detail: user?.email ? `앱 접속 및 자동 로그인 세션 시작 (${user.email})` : '앱 접속 (로그인 전 방문)'
+        });
+      }
     } else {
-      flushPendingLogs();
+      if (!isBotOrCrawler()) {
+        flushPendingLogs();
+      }
     }
 
     // 2. [v7.8] 전역 구글 세션 관리 (Silent Refresh)
